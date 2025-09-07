@@ -1,0 +1,600 @@
+{
+  "date": "2023-04-22",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n15f61666ad36",
+      "title": "Bitcoin Miner Capitulation Has Been 'Completely Different' This Cycle: CoinShares",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-capitulation-completely-different-123537926.html",
+      "summary": "CoinShares reports that Bitcoin miner capitulation in the current cycle differs from historical patterns. Typically, miners stockpile Bitcoin during good times and sell during downturns to cover expenses or pay off debt. This cycle's behavior suggests a potentially more resilient mining sector, which could imply less selling pressure on Bitcoin in the long run. Understanding these miner dynamics is crucial for assessing supply-side pressures and potential price floors.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_capitulation_divergence",
+        "miner_selling_pressure",
+        "supply_dynamics"
+      ],
+      "rationale": "A less severe capitulation cycle for miners suggests greater operational stability and potentially less forced selling of BTC. This can lead to a more consistent accumulation by miners, supporting long-term price appreciation."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n5c1f9ba48c60",
+      "title": "Binance, CEO Zhao Sued by CFTC Over 'Willful Evasion' of U.S. Laws, Unregistered Crypto Derivatives Products",
+      "url": "https://finance.yahoo.com/news/cftc-sues-binance-cz-over-150555321.html",
+      "summary": "The U.S. Commodity Futures Trading Commission (CFTC) has sued Binance and its CEO, Changpeng Zhao, alleging willful evasion of U.S. laws and offering unregistered crypto derivatives. This action highlights the increasing regulatory scrutiny on major crypto exchanges operating in the U.S. Such legal challenges can lead to significant fines, operational restrictions, and a chilling effect on innovation and adoption, potentially impacting market sentiment and liquidity.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "institutional"
+      ],
+      "features_for_model": [
+        "CFTC_lawsuit_Binance",
+        "regulatory_enforcement",
+        "exchange_risk"
+      ],
+      "rationale": "Regulatory actions against major exchanges like Binance create significant uncertainty and can lead to reduced liquidity and investor confidence. This could suppress price action for Bitcoin and the broader crypto market."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nd28c6964e587",
+      "title": "Dow sinks more than 500 points after Fed delivers soft rate hike but Powell pushes back on expectations of cuts this year",
+      "url": "https://finance.yahoo.com/news/dow-sinks-more-500-points-201411714.html",
+      "summary": "The Dow Jones Industrial Average fell over 500 points following the Federal Reserve's 25 basis point rate hike. Fed Chair Jerome Powell indicated that rate cuts are not in the baseline expectations for the year. This hawkish stance from the Fed, despite a 'soft' hike, suggests a continued commitment to combating inflation, which typically leads to tighter financial conditions and can negatively impact risk assets like Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "interest_rates",
+        "Fed"
+      ],
+      "features_for_model": [
+        "Fed_hawkish_stance",
+        "interest_rate_hike",
+        "risk_off_sentiment"
+      ],
+      "rationale": "A prolonged period of higher interest rates by the Fed generally reduces liquidity in the financial system, making riskier assets like Bitcoin less attractive to investors."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd69cf390fad8",
+      "title": "Bitcoin leads crypto rally as central banks promise liquidity to stem rising bank risk",
+      "url": "https://finance.yahoo.com/news/bitcoin-leads-crypto-rally-central-033912434.html",
+      "summary": "Bitcoin experienced a rally, leading the crypto market, as central banks pledged liquidity to address concerns in the global banking industry. This occurred amidst the emergency takeover of Credit Suisse by UBS and prior bank failures in the U.S. The injection of liquidity by central banks can temporarily boost risk assets, including Bitcoin, as it signals a willingness to support financial stability.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "banking_crisis"
+      ],
+      "features_for_model": [
+        "central_bank_liquidity",
+        "banking_sector_stability",
+        "risk_on_sentiment"
+      ],
+      "rationale": "Central bank liquidity injections can increase the overall money supply and investor appetite for risk assets, providing a tailwind for Bitcoin's price."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n3b0002653a5d",
+      "title": "This Week in Coins: Bitcoin, Ethereum Post Mega Rallies After Banking Intervention",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-post-132200945.html",
+      "summary": "Bitcoin and Ethereum saw significant rallies following interventions in the banking sector. Bitcoin surged 36% and Ethereum rose 27% in a week. This price action suggests that the crypto market may be benefiting from a 'flight to safety' or a perception of Bitcoin as a hedge against traditional financial system instability, especially after the failures of Signature Bank and Silicon Valley Bank.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "banking_crisis",
+        "adoption"
+      ],
+      "features_for_model": [
+        "banking_crisis_hedge",
+        "BTC_ETH_rally",
+        "flight_to_safety"
+      ],
+      "rationale": "The strong performance post-banking intervention indicates a growing narrative of Bitcoin as a safe-haven asset, potentially attracting more capital into the crypto space."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n85c916063fcb",
+      "title": "Zacks Investment Ideas feature highlights: Coinbase, Advanced Micro Devices, Nvidia, BITO and MicroStrategy",
+      "url": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-120112736.html",
+      "summary": "This Zacks Investment Ideas piece discusses the distinction between Bitcoin and the broader crypto industry, highlighting companies like Coinbase, Nvidia, and MicroStrategy. It emphasizes understanding the difference between the underlying asset and the companies involved in its ecosystem. The performance of these related companies can often serve as a proxy for broader market sentiment and institutional adoption trends in the crypto space.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_performance",
+        "MicroStrategy_BTC_holdings",
+        "Nvidia_mining_impact",
+        "ETF_flows"
+      ],
+      "rationale": "Increased interest and positive outlooks for companies heavily involved with Bitcoin, such as MicroStrategy and Coinbase, suggest growing institutional adoption and infrastructure development, which are positive long-term indicators."
+    },
+    {
+      "pick_idx": 32,
+      "id": "na3b31df23174",
+      "title": "Crypto investors could be about to lose a big tax loophole as part of Biden's new budget proposal",
+      "url": "https://finance.yahoo.com/news/crypto-investors-could-lose-big-162509332.html",
+      "summary": "President Biden's 2024 budget proposal includes a change to the tax treatment of crypto transactions, potentially closing a loophole that allows investors to claim losses on underwater crypto investments and then repurchase them. This proposed change could raise significant revenue and might influence investor behavior, potentially leading to less tax-loss harvesting and a more direct impact on investment decisions.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "taxation"
+      ],
+      "features_for_model": [
+        "crypto_tax_loophole_closure",
+        "Biden_budget_proposal",
+        "tax_policy_impact"
+      ],
+      "rationale": "Changes in tax policy can alter investor behavior and potentially reduce the attractiveness of certain investment strategies, which could have a dampening effect on market activity."
+    },
+    {
+      "pick_idx": 33,
+      "id": "ncbb7906107a8",
+      "title": "Unchained Capital, a Bitcoin lender and custodian, raises $60 million following competitors’ collapse",
+      "url": "https://finance.yahoo.com/news/unchained-capital-bitcoin-lender-custodian-150000623.html",
+      "summary": "Unchained Capital, a Bitcoin financial services firm, has successfully raised $60 million despite the collapse of several crypto lenders in 2022 due to events like the FTX contagion. The company, which offers Bitcoin-backed loans and custodial services, demonstrates resilience and continued investor confidence in specific segments of the crypto market. This funding indicates a strengthening of infrastructure and services for Bitcoin holders.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "lending"
+      ],
+      "features_for_model": [
+        "Unchained_Capital_funding",
+        "crypto_lender_resilience",
+        "custodial_services_growth"
+      ],
+      "rationale": "Successful funding rounds for companies like Unchained Capital, especially after industry turmoil, signal growing institutional interest and the development of robust financial infrastructure for Bitcoin."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n77c7a27d1380",
+      "title": "GLOBAL MARKETS-World stocks hope for Fed pause, dollar stalls",
+      "url": "https://finance.yahoo.com/news/global-markets-world-stocks-hope-205810255.html",
+      "summary": "Global stocks showed gains as traders anticipated a pause in Federal Reserve interest rate hikes, causing the dollar to stall. Bitcoin also traded above $30,000 for the first time since June. This sentiment suggests a potential shift towards a more accommodative monetary policy, which typically benefits risk assets like Bitcoin. The market is closely watching for signals of a Fed pivot.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "interest_rates",
+        "Fed",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Fed_pause_anticipation",
+        "dollar_weakness",
+        "BTC_above_30k"
+      ],
+      "rationale": "Market anticipation of a Fed pause and a weakening dollar are strong bullish signals for Bitcoin, as it reduces the cost of capital and increases the attractiveness of risk assets."
+    },
+    {
+      "pick_idx": 43,
+      "id": "nefaed77058fb",
+      "title": "FinTech Investment Market Is Expected To Reach USD 113670 Million by 2030, Grow at a CAGR Of 14.7% during Forecast Period 2023 To 2030 | Data By Contrive Datum Insights Pvt Ltd.",
+      "url": "https://finance.yahoo.com/news/fintech-investment-market-expected-reach-190200837.html",
+      "summary": "The FinTech investment market is projected to reach $113.67 billion by 2030, growing at a CAGR of 14.7%. This significant growth indicates increasing investment and innovation in financial technology, a sector that heavily overlaps with and benefits from cryptocurrency and blockchain adoption. Such growth suggests a favorable environment for digital assets and related infrastructure.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "fintech"
+      ],
+      "features_for_model": [
+        "fintech_market_growth",
+        "CAGR_14.7%",
+        "digital_asset_adoption"
+      ],
+      "rationale": "The robust growth forecast for the FinTech sector, which includes digital assets and blockchain technology, implies increasing capital flow and development in areas that directly support Bitcoin's ecosystem and adoption."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n0a4edf768c1b",
+      "title": "US stocks rise but close lower for the week as investors mull mixed bag of corporate earnings",
+      "url": "https://finance.yahoo.com/news/us-stocks-rise-close-lower-040715702.html",
+      "summary": "US stock indices saw a slight rise on Friday but closed the week lower due to mixed corporate earnings. This indicates a cautious market sentiment, with investors weighing company performance against broader economic concerns. Such sentiment can spill over into risk assets like Bitcoin, potentially leading to increased volatility.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "stocks",
+        "earnings"
+      ],
+      "features_for_model": [
+        "US_stocks_mixed_earnings",
+        "weekly_stock_performance",
+        "investor_caution"
+      ],
+      "rationale": "Mixed stock market performance and cautious sentiment can lead to a risk-off environment, potentially impacting Bitcoin's short-term price action."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n226a3730251b",
+      "title": "Uncertainty in crypto cycles from Memecoins & NFTs",
+      "url": "https://finance.yahoo.com/news/uncertainty-crypto-cycles-memecoins-nfts-075140112.html",
+      "summary": "The article discusses how the emergence of NFTs has altered traditional crypto market cycles, introducing new dynamics. It suggests that NFTs act as a hybrid asset, influencing the flow of capital. This shift implies that traditional 'trickle-down' effects from Bitcoin to altcoins might be less predictable, introducing uncertainty in short-term price movements.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "NFT",
+        "altcoins",
+        "market_cycles"
+      ],
+      "features_for_model": [
+        "NFT_impact_on_cycles",
+        "memecoin_volatility",
+        "altcoin_rotation"
+      ],
+      "rationale": "The evolving nature of crypto cycles influenced by NFTs and memecoins adds a layer of unpredictability to short-term price movements, making directional bets more challenging."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nab30f2ce6675",
+      "title": "Here Are Six New Projects Looking to Mitigate Bitcoin Mining’s Energy Footprint",
+      "url": "https://finance.yahoo.com/news/six-projects-looking-mitigate-bitcoin-145149749.html",
+      "summary": "Several new projects are focusing on reducing the energy footprint of Bitcoin mining, driven by recent negative press and a Texas bill limiting miners' grid participation. This indicates a growing trend towards sustainable mining practices. While the long-term impact is positive for adoption, short-term news about regulatory pressures on mining could create minor price fluctuations.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "regulation",
+        "ESG"
+      ],
+      "features_for_model": [
+        "sustainable_mining_initiatives",
+        "mining_energy_consumption",
+        "Texas_mining_bill"
+      ],
+      "rationale": "News regarding mining regulations and energy consumption can create short-term sentiment shifts, but the focus on mitigation projects suggests a longer-term positive trend for the industry."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nee59cef8349d",
+      "title": "How to Copy Michael Saylor and Create Your Own Bitcoin Lightning Email Address",
+      "url": "https://finance.yahoo.com/news/copy-michael-saylor-create-own-150846637.html",
+      "summary": "MicroStrategy's executive chairman, Michael Saylor, revealed that employees can now receive Bitcoin payments to their corporate email addresses using the Lightning Network. This development showcases practical, user-friendly applications of the Lightning Network, potentially increasing its adoption and utility. Such advancements in usability can drive demand for Bitcoin.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "Lightning_Network"
+      ],
+      "features_for_model": [
+        "Lightning_Network_adoption",
+        "BTC_payments_usability",
+        "Michael_Saylor_initiative"
+      ],
+      "rationale": "Improvements in Bitcoin's usability, particularly through the Lightning Network, can foster wider adoption and increase transaction volume, providing a subtle bullish catalyst."
+    },
+    {
+      "pick_idx": 6,
+      "id": "na8cc86f3ab30",
+      "title": "This Week in Coins: Market Slumps as Bitcoin and Ethereum Drop Over 10%",
+      "url": "https://finance.yahoo.com/news/week-coins-market-slumps-bitcoin-171527731.html",
+      "summary": "The crypto market experienced a slump this week, with Bitcoin and Ethereum dropping over 10%. This downturn is attributed to the market pricing in potential further interest rate hikes from the Fed and a strengthened dollar. The SEC's ongoing crackdown on crypto businesses also contributed to negative sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "Fed",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "crypto_market_slump",
+        "BTC_ETH_price_drop",
+        "SEC_crackdown"
+      ],
+      "rationale": "A significant price drop across major cryptocurrencies, driven by macroeconomic factors and regulatory concerns, indicates strong bearish momentum in the short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nab30f2ce6675",
+      "title": "Here Are Six New Projects Looking to Mitigate Bitcoin Mining’s Energy Footprint",
+      "url": "https://finance.yahoo.com/news/six-projects-looking-mitigate-bitcoin-145149749.html",
+      "summary": "The environmental impact of Bitcoin mining is under scrutiny, with a Texas bill and a New York Times article highlighting concerns. Several projects are emerging to address this, focusing on sustainable practices. While the long-term outlook for sustainable mining is positive, the immediate focus on regulatory pressures could create short-term uncertainty.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "regulation",
+        "ESG"
+      ],
+      "features_for_model": [
+        "sustainable_mining_initiatives",
+        "mining_energy_consumption",
+        "Texas_mining_bill"
+      ],
+      "rationale": "News regarding mining regulations and energy consumption can create short-term sentiment shifts, but the focus on mitigation projects suggests a longer-term positive trend for the industry."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nee59cef8349d",
+      "title": "How to Copy Michael Saylor and Create Your Own Bitcoin Lightning Email Address",
+      "url": "https://finance.yahoo.com/news/copy-michael-saylor-create-own-150846637.html",
+      "summary": "MicroStrategy's executive chairman, Michael Saylor, revealed that employees can now receive Bitcoin payments to their corporate email addresses using the Lightning Network. This development showcases practical, user-friendly applications of the Lightning Network, potentially increasing its adoption and utility. Such advancements in usability can drive demand for Bitcoin.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "Lightning_Network"
+      ],
+      "features_for_model": [
+        "Lightning_Network_adoption",
+        "BTC_payments_usability",
+        "Michael_Saylor_initiative"
+      ],
+      "rationale": "Improvements in Bitcoin's usability, particularly through the Lightning Network, can foster wider adoption and increase transaction volume, providing a subtle bullish catalyst."
+    },
+    {
+      "pick_idx": 9,
+      "id": "na8cc86f3ab30",
+      "title": "This Week in Coins: Market Slumps as Bitcoin and Ethereum Drop Over 10%",
+      "url": "https://finance.yahoo.com/news/week-coins-market-slumps-bitcoin-171527731.html",
+      "summary": "The crypto market experienced a slump this week, with Bitcoin and Ethereum dropping over 10%. This downturn is attributed to the market pricing in potential further interest rate hikes from the Fed and a strengthened dollar. The SEC's ongoing crackdown on crypto businesses also contributed to negative sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "Fed",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "crypto_market_slump",
+        "BTC_ETH_price_drop",
+        "SEC_crackdown"
+      ],
+      "rationale": "A significant price drop across major cryptocurrencies, driven by macroeconomic factors and regulatory concerns, indicates strong bearish momentum in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n0a4edf768c1b",
+      "title": "US stocks rise but close lower for the week as investors mull mixed bag of corporate earnings",
+      "url": "https://finance.yahoo.com/news/us-stocks-rise-close-lower-040715702.html",
+      "summary": "US stock indices saw a slight rise on Friday but closed the week lower due to mixed corporate earnings. This indicates a cautious market sentiment, with investors weighing company performance against broader economic concerns. Such sentiment can spill over into risk assets like Bitcoin, potentially leading to increased volatility.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "stocks",
+        "earnings"
+      ],
+      "features_for_model": [
+        "US_stocks_mixed_earnings",
+        "weekly_stock_performance",
+        "investor_caution"
+      ],
+      "rationale": "Mixed stock market performance and cautious sentiment can lead to a risk-off environment, potentially impacting Bitcoin's short-term price action."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n226a3730251b",
+      "title": "Uncertainty in crypto cycles from Memecoins & NFTs",
+      "url": "https://finance.yahoo.com/news/uncertainty-crypto-cycles-memecoins-nfts-075140112.html",
+      "summary": "The article discusses how the emergence of NFTs has altered traditional crypto market cycles, introducing new dynamics. It suggests that NFTs act as a hybrid asset, influencing the flow of capital. This shift implies that traditional 'trickle-down' effects from Bitcoin to altcoins might be less predictable, introducing uncertainty in short-term price movements.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "NFT",
+        "altcoins",
+        "market_cycles"
+      ],
+      "features_for_model": [
+        "NFT_impact_on_cycles",
+        "memecoin_volatility",
+        "altcoin_rotation"
+      ],
+      "rationale": "The evolving nature of crypto cycles influenced by NFTs and memecoins adds a layer of unpredictability to short-term price movements, making directional bets more challenging."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n2c2df530d0de",
+      "title": "3 Cryptos to Watch for Explosive Growth in the Next 12 Months",
+      "url": "https://finance.yahoo.com/news/3-cryptos-watch-explosive-growth-142343475.html",
+      "summary": "This article highlights three cryptocurrencies with potential for explosive growth, emphasizing the speculative nature and high risk of the asset class. While it focuses on a longer-term outlook, the mention of potential growth can influence short-term sentiment and attract speculative trading activity.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 1,
+        "end": 14
+      },
+      "impact_tags": [
+        "altcoins",
+        "growth_potential",
+        "speculation"
+      ],
+      "features_for_model": [
+        "altcoin_growth_potential",
+        "speculative_trading",
+        "crypto_market_sentiment"
+      ],
+      "rationale": "Positive outlooks on specific altcoins can sometimes lead to broader market interest and speculative inflows, potentially boosting Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n4a8ce03533ca",
+      "title": "Here Are Six New Projects Looking to Mitigate Bitcoin Mining’s Energy Footprint",
+      "url": "https://finance.yahoo.com/news/six-projects-looking-mitigate-bitcoin-145149749.html",
+      "summary": "The environmental impact of Bitcoin mining is under scrutiny, with a Texas bill and a New York Times article highlighting concerns. Several projects are emerging to address this, focusing on sustainable practices. While the long-term outlook for sustainable mining is positive, the immediate focus on regulatory pressures could create short-term uncertainty.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "regulation",
+        "ESG"
+      ],
+      "features_for_model": [
+        "sustainable_mining_initiatives",
+        "mining_energy_consumption",
+        "Texas_mining_bill"
+      ],
+      "rationale": "News regarding mining regulations and energy consumption can create short-term sentiment shifts, but the focus on mitigation projects suggests a longer-term positive trend for the industry."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n79b45af0bcf1",
+      "title": "NFT Collection Y00ts Makes Anticipated Move From Solana to Polygon",
+      "url": "https://finance.yahoo.com/news/nft-collection-y00ts-makes-anticipated-213657590.html",
+      "summary": "The popular NFT project y00ts is migrating from Solana to Polygon, facilitated by a $3 million grant from Polygon. This move highlights the ongoing interoperability and ecosystem shifts within the NFT space. Such migrations can impact the perceived strength and utility of different blockchains, potentially influencing investor sentiment towards related tokens.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "NFT",
+        "blockchain",
+        "adoption"
+      ],
+      "features_for_model": [
+        "y00ts_migration",
+        "Solana_to_Polygon",
+        "NFT_ecosystem_shifts"
+      ],
+      "rationale": "While a significant event for the NFT space, the direct impact on Bitcoin's price is likely to be minimal in the short term, though it contributes to the broader narrative of blockchain development."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-04-22",
+    "summary": "The crypto market is experiencing a significant downturn this week, with Bitcoin and Ethereum dropping over 10%, largely driven by macroeconomic concerns like potential Fed rate hikes and a strengthened dollar, alongside ongoing regulatory crackdowns by the SEC. Despite this, there are underlying positive developments, such as advancements in Bitcoin's Lightning Network usability and resilience in certain financial service providers, which could offer support. The market sentiment remains cautious, influenced by mixed stock market earnings and evolving crypto cycles.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkish stance from the Federal Reserve impacting risk assets.",
+      "Escalation of regulatory actions against major crypto exchanges.",
+      "Broader macroeconomic downturn affecting investor risk appetite.",
+      "Uncertainty in crypto market cycles due to NFT and memecoin influence.",
+      "Potential for further negative news regarding Bitcoin mining's energy consumption."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and economic data releases.",
+      "SEC enforcement actions and regulatory developments.",
+      "Performance of major tech stocks (e.g., Alphabet, Amazon) for market sentiment.",
+      "Developments in Bitcoin mining sustainability initiatives.",
+      "Flows into and out of Bitcoin ETFs and institutional products."
+    ]
+  }
+}

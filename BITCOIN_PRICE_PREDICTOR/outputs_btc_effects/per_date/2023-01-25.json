@@ -1,0 +1,473 @@
+{
+  "date": "2023-01-25",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "nc45e71bcfcb4",
+      "title": "Bitcoin Miners and Average HODLers Are Back in the Black",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-average-hodlers-back-203344913.html",
+      "summary": "Bitcoin miners and average investors are now profitable again, with BTC trading above $20,000 for the first time since FTX's collapse. This indicates a potential bottoming out of the market and improved conditions for network participants. The profitability for miners suggests increased network security and stability, while profitable HODLers may be less inclined to sell, potentially supporting price levels.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_profitability",
+        "hodler_profitability",
+        "realized_price"
+      ],
+      "rationale": "When miners and average holders become profitable, it signals a healthier market sentiment and potentially reduced selling pressure. This can lead to sustained price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nb9936b4aab1e",
+      "title": "GLOBAL MARKETS-Wall Street lukewarm on Fed's slower rate hike",
+      "url": "https://finance.yahoo.com/news/global-markets-wall-street-lukewarm-201220435.html",
+      "summary": "The Federal Reserve's decision to raise interest rates by 50 basis points was largely anticipated, but the accompanying projection of at least 75 basis points of further increases by the end of 2023, coupled with a rise in unemployment forecasts, suggests a continued hawkish stance. This cautious outlook from the Fed could dampen risk appetite across markets, including cryptocurrencies, as borrowing costs remain elevated.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "fed_rate_hike",
+        "unemployment_rate",
+        "inflation_outlook"
+      ],
+      "rationale": "Continued hawkish monetary policy from the Federal Reserve generally leads to tighter liquidity and reduced risk appetite, which can negatively impact speculative assets like Bitcoin."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n3d51421326b9",
+      "title": "Markets: Bitcoin, Ether little changed after weekend surge; Solana, XRP give back some gains",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-little-changed-015300910.html",
+      "summary": "Bitcoin and Ether showed little change after a weekend surge, which was attributed to signs of peaking US inflation and expectations of a less aggressive Federal Reserve. While the broader market took a breather, the underlying sentiment suggests that positive macro data could continue to support crypto prices. However, the consolidation indicates a need for further confirmation of the trend.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "inflation_data",
+        "fed_policy_expectations",
+        "weekend_rally_consolidation"
+      ],
+      "rationale": "The market's reaction to positive inflation data and potential Fed easing is mixed, showing a lack of strong conviction. This suggests that while the macro environment is improving, the crypto market needs more catalysts to sustain a significant upward trend."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n738ce5af7cda",
+      "title": "More Ransomware Victims Are Refusing to Pay Hackers",
+      "url": "https://finance.yahoo.com/news/more-ransomware-victims-refusing-pay-171500412.html",
+      "summary": "Ransomware attacks saw a significant drop in profits in 2022 compared to 2021, with hackers extorting 40% less money. This trend suggests that organizations are becoming more resilient to ransomware attacks and are less willing to pay ransoms. This could indirectly benefit the crypto market by reducing the negative association of illicit activities with digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ransomware_payments_decline",
+        "cybersecurity_resilience",
+        "illicit_activity_reduction"
+      ],
+      "rationale": "A decrease in ransomware profits can lead to a perception of reduced illicit use of cryptocurrencies, potentially improving the overall sentiment and regulatory outlook for the digital asset space."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n45cf5543b865",
+      "title": "Craig Wright Can Appeal Satoshi Defamation Finding, Norwegian Court Rules",
+      "url": "https://finance.yahoo.com/news/craig-wright-appeal-satoshi-defamation-154406178.html",
+      "summary": "Craig Wright has been granted permission to appeal a Norwegian court ruling that stated he was not Satoshi Nakamoto. This ongoing legal battle, while not directly impacting Bitcoin's technology, creates persistent uncertainty and negative sentiment around the core identity of Bitcoin's creator. Such prolonged legal disputes can deter institutional adoption and create a perception of instability.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "craig_wright_legal_battle",
+        "satoshi_nakamoto_claim",
+        "legal_uncertainty"
+      ],
+      "rationale": "The continuation of the Craig Wright legal saga introduces prolonged uncertainty and negative press, which can subtly erode confidence and potentially hinder long-term institutional interest in Bitcoin."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n260ba70a1525",
+      "title": "Binance Enters Japan With Acquisition of Regulated Crypto Exchange Sakura",
+      "url": "https://finance.yahoo.com/news/binance-enters-japan-acquisition-regulated-091759226.html",
+      "summary": "Binance's acquisition of Sakura Exchange BitCoin (SEBC), a regulated exchange in Japan, marks a significant step for the world's largest crypto exchange to expand its global regulatory footprint. This move into a major economy like Japan, with proper licensing, signals a growing trend of institutional adoption and regulatory compliance within the crypto space, which is positive for overall market maturity.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "binance_japan_acquisition",
+        "regulatory_compliance",
+        "institutional_adoption"
+      ],
+      "rationale": "Binance's expansion into regulated markets like Japan demonstrates increasing institutional acceptance and a move towards greater compliance, which can foster broader adoption and trust in the cryptocurrency ecosystem."
+    },
+    {
+      "pick_idx": 23,
+      "id": "na59812365cfc",
+      "title": "Bernstein: Bounce in Cryptocurrencies Is ‘Mean Reversion’ Rally",
+      "url": "https://finance.yahoo.com/news/bernstein-bounce-cryptocurrencies-mean-reversion-124540680.html",
+      "summary": "Bernstein suggests that the recent crypto market bounce is a 'mean reversion' rally, implying a tendency for prices to return to their long-term average. While this theory suggests potential for further upside, it also implies that the current rally might not be driven by fundamental improvements but rather by statistical tendencies. The firm advises caution, noting that Bitcoin has historically not had two consecutive down years.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mean_reversion",
+        "historical_performance",
+        "market_sentiment"
+      ],
+      "rationale": "The 'mean reversion' theory suggests a potential for price recovery, but it also implies that the current rally might be temporary. The historical context of not having two consecutive down years for Bitcoin adds a layer of optimism, but caution is warranted."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nec94d496f738",
+      "title": "ECB official calls for ban on crypto",
+      "url": "https://finance.yahoo.com/news/ecb-ban-crypto-bitcoin-ethereum-123751593.html",
+      "summary": "A senior European Central Bank official has proposed a ban on cryptocurrencies with a significant ecological footprint, likening crypto investment to gambling. Specifically targeting proof-of-work currencies like Bitcoin, this sentiment reflects a growing regulatory concern over environmental impact and consumer protection. While an outright ban is unlikely, such calls can influence future regulatory frameworks and investor sentiment.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "ecb_ban_proposal",
+        "proof_of_work_criticism",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Negative regulatory sentiment from major financial institutions like the ECB can create headwinds for crypto adoption and potentially lead to stricter regulations, impacting long-term price potential."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nac2146d5f944",
+      "title": "Bitcoin on pace for best month since October 2021 as traders eye $25,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-on-pace-for-best-month-since-october-2021-as-traders-eye-25000-184023247.html",
+      "summary": "Bitcoin is experiencing its best monthly performance since October 2021, with a 37% rally in January, pushing prices above $23,000. Analysts attribute this surge to a weakening dollar, declining inflation expectations, and institutional buying. The next key resistance level is $25,000, and the momentum suggests a potential continuation of the upward trend.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "monthly_performance",
+        "institutional_buying",
+        "dollar_weakness",
+        "inflation_expectations"
+      ],
+      "rationale": "Strong monthly gains, driven by positive macro factors and institutional interest, indicate a significant shift in market sentiment and suggest that Bitcoin is on a strong upward trajectory."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n8592ffa8f90a",
+      "title": "Crypto has little intrinsic value or fundamentals to fall back on, and traders are merely riding a 'hot ball' of momentum, investment firm says",
+      "url": "https://finance.yahoo.com/news/crypto-little-intrinsic-value-fundamentals-165835995.html",
+      "summary": "An investment firm argues that cryptocurrencies lack intrinsic value and fundamentals, with traders relying solely on momentum. This perspective suggests that the current market rally might be unsustainable and driven by speculative behavior rather than underlying utility. Such a view could deter long-term investors and create volatility.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "intrinsic_value_debate",
+        "momentum_trading",
+        "fundamental_analysis_lack"
+      ],
+      "rationale": "The assertion that crypto lacks intrinsic value and relies on momentum can lead to increased skepticism and potentially trigger sell-offs if momentum falters, posing a risk to sustained price appreciation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n3acb694bb7df",
+      "title": "EU gas storage hits record high in blow for Putin",
+      "url": "https://finance.yahoo.com/news/australian-battery-maker-makes-bid-065101006.html",
+      "summary": "European gas storage levels are at a record high for this time of year, with natural gas prices falling. This indicates a stable energy supply in Europe, potentially reducing inflationary pressures and improving the macroeconomic outlook. A stable energy environment can indirectly support risk assets by reducing global economic uncertainty.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "eu_gas_storage",
+        "natural_gas_prices",
+        "energy_stability"
+      ],
+      "rationale": "Stable European energy markets can contribute to a more favorable macro environment, potentially boosting investor confidence in risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n7f29dff13488",
+      "title": "'Bitcoin Jesus' Says He Has the Money to Pay Ailing Crypto Lender Genesis",
+      "url": "https://finance.yahoo.com/news/bitcoin-jesus-says-money-pay-181223522.html",
+      "summary": "Roger Ver claims to have sufficient funds to pay Genesis Global, but Genesis alleges he failed to provide assurances about his finances. This dispute highlights ongoing liquidity issues within the crypto lending sector and potential contagion risks. The resolution of such disputes can impact market sentiment and confidence in the stability of crypto financial institutions.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "liquidity",
+        "legal",
+        "institutional"
+      ],
+      "features_for_model": [
+        "roger_ver_genesis_dispute",
+        "crypto_lender_liquidity",
+        "contagion_risk"
+      ],
+      "rationale": "The ongoing dispute between Roger Ver and Genesis highlights the fragile state of some crypto lenders, creating uncertainty and potentially impacting market sentiment if not resolved quickly."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n9584799c7bcd",
+      "title": "Twitter staff can tweet from any account in 'GodMode' because loopholes weren't closed after Bitcoin scam hack, former engineer reportedly says",
+      "url": "https://finance.yahoo.com/news/twitter-staff-tweet-account-godmode-113440075.html",
+      "summary": "A former Twitter engineer claims that staff can tweet from any account due to unaddressed security loopholes, stemming from a past Bitcoin scam hack. This revelation points to significant security vulnerabilities within a major social media platform. Such weaknesses could be exploited for further scams or misinformation campaigns, potentially impacting public perception of digital assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "hack/outage",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "twitter_security_vulnerability",
+        "godmode_access",
+        "scam_promotion_risk"
+      ],
+      "rationale": "Security flaws on major platforms like Twitter can be exploited to spread scams, potentially damaging the reputation of cryptocurrencies and deterring new users."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n9e4e05067e8b",
+      "title": "Bankrupt crypto lender Genesis wants 'Bitcoin Jesus' to pay $20.9 million over expired options trades",
+      "url": "https://finance.yahoo.com/news/bankrupt-crypto-lender-genesis-wants-151415683.html",
+      "summary": "Genesis Global is seeking $20.9 million from Roger Ver ('Bitcoin Jesus') for unsettled crypto options trades. This legal action underscores the financial distress and ongoing disputes within the crypto lending sector following market turmoil. The outcome could influence how similar creditor claims are handled and impact confidence in crypto financial intermediaries.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "liquidity",
+        "legal",
+        "institutional"
+      ],
+      "features_for_model": [
+        "genesis_legal_claim",
+        "roger_ver_debt",
+        "options_settlement_dispute"
+      ],
+      "rationale": "The legal battle between Genesis and Roger Ver highlights the financial instability in the crypto lending space and could create further uncertainty for market participants."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n1a523bef5930",
+      "title": "Tesla Did Not Buy or Sell Any Bitcoin in the Fourth Quarter",
+      "url": "https://finance.yahoo.com/news/tesla-did-not-buy-sell-212103767.html",
+      "summary": "Tesla reported no Bitcoin transactions in the fourth quarter, maintaining its holdings at $184 million. This indicates a neutral stance from a major corporate holder. While not a direct catalyst, the absence of significant buying or selling from large entities like Tesla can contribute to market stability by avoiding large order flows.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "tesla_bitcoin_holdings",
+        "corporate_treasury_strategy",
+        "no_transaction_activity"
+      ],
+      "rationale": "Tesla's decision to hold its Bitcoin position steady provides a degree of stability, but the lack of new buying interest from such a prominent entity limits immediate bullish momentum."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nfc625b105928",
+      "title": "Hackers Take Over Robinhood Twitter Account To Promote Scam",
+      "url": "https://finance.yahoo.com/news/hackers-over-robinhood-twitter-account-203023008.html",
+      "summary": "Robinhood's Twitter account was hacked and used to promote a crypto scam. This incident highlights ongoing security risks on social media platforms, which can be exploited to defraud users. The compromise of a well-known financial platform's account can erode trust and create negative sentiment around crypto-related activities.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "hack/outage",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "robinhood_twitter_hack",
+        "social_media_scam",
+        "trust_erosion"
+      ],
+      "rationale": "The hacking of Robinhood's Twitter account to promote scams is a direct negative event that can damage user trust and create short-term fear in the market."
+    },
+    {
+      "pick_idx": 15,
+      "id": "ncee0e20086c2",
+      "title": "Layer 1 Blockchain Aptos Token Reaches All-Time High",
+      "url": "https://finance.yahoo.com/news/layer-1-blockchain-aptos-token-183850975.html",
+      "summary": "Aptos (APT), a Layer 1 blockchain, has reached an all-time high, surging 350% since the start of the year. This significant price increase, outpacing Bitcoin and Ethereum, suggests strong investor interest and potential adoption for the new blockchain. However, negative funding rates indicate that traders expect the rally to be short-lived, suggesting potential for a pullback.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "aptos_token_ath",
+        "layer1_blockchain_performance",
+        "funding_rates"
+      ],
+      "rationale": "Aptos' rapid price appreciation is a bullish sign for the altcoin market, but the negative funding rates suggest that the rally may be unsustainable in the short term."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n4e1a2021b3cf",
+      "title": "Grayscale would appeal lawsuit against SEC if court rejects case, CEO says",
+      "url": "https://finance.yahoo.com/news/grayscale-appeal-lawsuit-against-sec-053524207.html",
+      "summary": "Grayscale CEO Michael Sonnenshein stated the company is prepared to appeal the SEC's decision on its spot Bitcoin ETF if the court rules against them. This indicates a persistent legal battle for a spot Bitcoin ETF, a product that could significantly boost institutional adoption. The ongoing legal process creates uncertainty but also highlights the demand for such a product.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "grayscale_sec_lawsuit",
+        "spot_bitcoin_etf",
+        "legal_appeal_strategy"
+      ],
+      "rationale": "The potential for a prolonged legal battle over the spot Bitcoin ETF creates short-term uncertainty, but a favorable outcome could lead to significant institutional inflows."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n3939d8d4b165",
+      "title": "Markets: Bitcoin, Ether extend losses; Solana, Cardano biggest losers in top 10 cryptos",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-extend-losses-101328817.html",
+      "summary": "Bitcoin and Ether experienced losses, with Solana and Cardano seeing the most significant declines among the top 10 cryptocurrencies. This indicates a short-term profit-taking sentiment or a broader market correction after recent gains. The underperformance of altcoins suggests a potential rotation out of riskier assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "btc_eth_losses",
+        "sol_ada_underperformance",
+        "profit_taking"
+      ],
+      "rationale": "The broad market pullback, with significant losses in altcoins, suggests a short-term bearish sentiment and potential for further price declines as investors de-risk."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nc0f0577d9440",
+      "title": "Markets: Bitcoin, Ether dip as investors take profits; earnings reports, economic data rattle equities",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-dip-investors-021831982.html",
+      "summary": "Bitcoin and Ether are trading lower as investors take profits following recent gains. This, combined with mixed corporate earnings and economic data impacting equities, suggests a cautious market sentiment. The dip indicates that the recent rally might be facing resistance, and a period of consolidation or a minor pullback is possible.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "btc_eth_profit_taking",
+        "equities_earnings_impact",
+        "economic_data_sentiment"
+      ],
+      "rationale": "Profit-taking and broader market jitters from earnings and economic data are creating downward pressure on Bitcoin and Ether, suggesting a short-term bearish bias."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-01-25",
+    "summary": "The crypto market is experiencing a mixed sentiment today, with Bitcoin and Ether showing slight declines as investors take profits after a strong start to the year. Macroeconomic factors, such as stable European energy prices, offer a subtle bullish undertone, while concerns about the broader equity market due to earnings and economic data introduce caution. Legal disputes involving crypto lenders like Genesis and security vulnerabilities on platforms like Twitter add to the short-term uncertainty. The ongoing regulatory scrutiny, exemplified by the ECB's call for a crypto ban, remains a long-term bearish factor, while institutional adoption, such as Binance's expansion into Japan and the potential for a spot Bitcoin ETF, provides long-term bullish signals.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued profit-taking and potential for broader market correction.",
+      "Unresolved legal disputes in the crypto lending sector (e.g., Genesis).",
+      "Security vulnerabilities on social media platforms impacting trust.",
+      "Negative regulatory sentiment from major financial institutions (e.g., ECB).",
+      "Geopolitical tensions and macroeconomic uncertainty impacting risk assets."
+    ],
+    "watch_items": [
+      "Upcoming US economic data releases (e.g., PCE, Jobs Report).",
+      "Developments in the Grayscale vs. SEC lawsuit.",
+      "Further news on corporate Bitcoin holdings (e.g., Tesla earnings).",
+      "Any significant developments in the FTX/Alameda fallout.",
+      "Performance of altcoins relative to Bitcoin."
+    ]
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "date": "2019-08-08",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n714c3b3eb0a0",
+      "title": "The blockchain/crypto week in quotes",
+      "url": "https://finance.yahoo.com/news/blockchain-crypto-week-quotes-150049136.html",
+      "summary": "US House of Representatives members expressed serious concerns regarding Facebook's proposed Libra cryptocurrency, citing potential impacts on US monetary policy, national security, and the broader global economy. They called for a moratorium on Libra's development, highlighting the significant regulatory and systemic risks associated with a private entity attempting to create a new global financial system. This indicates a growing governmental scrutiny and potential for regulatory hurdles for large-scale crypto projects.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Libra_scrutiny",
+        "US_House_concerns",
+        "regulatory_risk"
+      ],
+      "rationale": "The strong negative sentiment and calls for a moratorium from US lawmakers signal a high likelihood of significant regulatory pushback against major crypto initiatives. This could stifle innovation and adoption, creating a bearish sentiment for the broader crypto market."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n932016d67139",
+      "title": "Trader Who Called Current Bitcoin Rally Warns of Altcoin ‘Dot Com Bubble’",
+      "url": "https://finance.yahoo.com/news/trader-called-current-bitcoin-rally-114900285.html",
+      "summary": "Veteran trader Peter Brandt predicted that while Bitcoin might continue to grow, altcoins would not benefit from its gains, likening the altcoin market to the 'Dot Com Bubble.' He suggested that investors expecting a repeat of the 2017 bull market's altcoin surge might be disappointed. This sentiment from a respected trader could influence investor behavior, leading to a potential rotation away from altcoins towards Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "altcoin_bubble_warning",
+        "Peter_Brandt_prediction",
+        "market_rotation"
+      ],
+      "rationale": "Brandt's warning about an altcoin bubble, if heeded by a significant portion of the market, could lead to reduced investment in altcoins and a potential flight to Bitcoin. This would create a divergence in performance, with Bitcoin potentially outperforming the altcoin market."
+    },
+    {
+      "pick_idx": 11,
+      "id": "na03b7c56bf42",
+      "title": "Bitcoin Price on the Rise After First Fed Rate Cut Since 2008",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-rise-first-fed-112321185.html",
+      "summary": "Bitcoin experienced moderate gains following the US Federal Reserve's first interest rate cut in over a decade. Experts believe this monetary easing could benefit BTC in the long run. The article notes that a break above $11,120 is needed to solidify the short-term bullish outlook, suggesting that macroeconomic policy shifts are becoming a significant driver for Bitcoin's price action.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Fed_rate_cut",
+        "monetary_easing",
+        "BTC_price_driver"
+      ],
+      "rationale": "The Fed's rate cut signals a shift towards looser monetary policy, which historically benefits risk assets like Bitcoin. This macro trend, coupled with potential for further cuts, provides a supportive environment for Bitcoin's long-term appreciation."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nb6a73e17c78b",
+      "title": "Parabolic Bitcoin Headed for $30,000, Predicts Morgan Creek CEO",
+      "url": "https://finance.yahoo.com/news/parabolic-bitcoin-headed-30-000-020002666.html",
+      "summary": "Morgan Creek Capital Management CEO Mark Yusko predicted that Bitcoin is entering a parabolic phase that could lead it to $30,000. He highlighted Bitcoin's strong performance compared to traditional assets since October 2018. This optimistic outlook from a prominent figure in the crypto investment space can influence market sentiment and attract further institutional interest.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "market_sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Yusko_prediction",
+        "parabolic_move",
+        "institutional_outlook"
+      ],
+      "rationale": "Yusko's high price target, based on historical performance and a belief in a new parabolic move, can attract significant investor capital and positive sentiment. Such bold predictions, especially from institutional players, often precede periods of increased adoption and price discovery."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n9a4cc1e462cc",
+      "title": "Iranian Authorities Shut Down Two Crypto Mining Farms Amid Power Spike",
+      "url": "https://finance.yahoo.com/news/iranian-authorities-shut-down-two-194005001.html",
+      "summary": "Iranian authorities shut down crypto mining farms due to concerns about destabilizing the power grid and impacting electricity access. The government warned of continued action against mining operations. This highlights the ongoing regulatory challenges and potential for government intervention in mining activities, which can affect network security and miner profitability.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Iran_mining_shutdown",
+        "power_grid_impact",
+        "regulatory_intervention"
+      ],
+      "rationale": "While localized, such actions by governments can set precedents and signal a growing trend of regulatory crackdowns on mining operations, potentially impacting the global hash rate and miner sentiment."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n99b9a9f78f25",
+      "title": "Wells Fargo bans customers from purchasing cryptocurrency",
+      "url": "https://finance.yahoo.com/news/wells-fargo-bans-customers-purchasing-200000916.html",
+      "summary": "Major US bank Wells Fargo has banned its customers from purchasing cryptocurrencies using debit cards, stating that it does not allow such transactions. This move by a significant financial institution indicates a cautious and restrictive approach from traditional banks towards crypto, potentially limiting retail access and creating friction for new users.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Wells_Fargo_ban",
+        "bank_crypto_restrictions",
+        "retail_access_limit"
+      ],
+      "rationale": "The decision by a major bank like Wells Fargo to ban crypto purchases can deter retail investors and signal a broader trend of financial institutions creating barriers to entry, negatively impacting adoption and liquidity."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n6bdbe80cef01",
+      "title": "Why Ivanka Is the Ticket to Influencing Trump on Bitcoin",
+      "url": "https://finance.yahoo.com/news/why-ivanka-ticket-influencing-trump-200037826.html",
+      "summary": "The article suggests that Ivanka Trump, due to her close relationship with President Trump and focus on entrepreneurship, could be instrumental in influencing the administration's stance on cryptocurrency. A more crypto-friendly approach from the US government could foster innovation and attract more investment into the US, potentially boosting Bitcoin's legitimacy and adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Ivanka_Trump_influence",
+        "Trump_crypto_stance",
+        "US_regulatory_environment"
+      ],
+      "rationale": "Direct influence on the US President regarding cryptocurrency policy could lead to more favorable regulations or a less adversarial stance, which would be a significant positive catalyst for Bitcoin's long-term growth and adoption."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n8123823abf5b",
+      "title": "Stephen Moore, who was in consideration for the Fed, is considering joining a 'crypto central bank'",
+      "url": "https://finance.yahoo.com/news/stephen-moore-crypto-central-bank-decentral-175749874.html",
+      "summary": "Economist Stephen Moore, who was considered for a position on the Federal Reserve, is in negotiations to join Decentral, described as a 'crypto central bank.' Moore's engagement with the crypto space, especially after being considered for a Fed role, suggests a growing recognition of digital currencies by mainstream economic figures and potential for bridging traditional finance with crypto.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Stephen_Moore_Decentral",
+        "Fed_consideration",
+        "mainstream_recognition"
+      ],
+      "rationale": "The involvement of a former Fed candidate in a 'crypto central bank' signals increasing mainstream interest and potential integration of crypto concepts into broader financial discussions, which could be a long-term bullish signal."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n0f3d84a6486d",
+      "title": "Bitcoin Crests $10,000, Silencing Critics and Kicking Off Crypto Summer",
+      "url": "https://finance.yahoo.com/news/bitcoin-crests-10-000-silencing-000853022.html",
+      "summary": "Bitcoin surpassed $10,000, attributed partly to increased retail adoption fueled by Facebook's Libra announcement. This milestone is seen as a validation for Bitcoin, silencing critics and marking the beginning of a 'Crypto Summer.' The psychological impact of breaking this key resistance level can boost market sentiment and attract more participants.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "market_sentiment",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_10k_breakout",
+        "retail_adoption_boost",
+        "crypto_summer"
+      ],
+      "rationale": "Breaking the $10,000 psychological barrier is a significant bullish indicator, reinforcing market confidence and attracting new investors. This event, combined with the positive sentiment around adoption, suggests a potential for sustained upward price movement."
+    },
+    {
+      "pick_idx": 47,
+      "id": "nfb30977ce9fe",
+      "title": "Bitcoin Climbs to One-Year High on Facebook Crypto Pact Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-climbs-one-high-facebook-084056744.html",
+      "summary": "Bitcoin reached its highest level in a year, surpassing $9,000, driven by reports of Facebook's impending digital currency announcement. This news fueled optimism about broader cryptocurrency adoption in mainstream finance. The positive correlation between major tech company involvement and Bitcoin's price suggests that such developments are significant catalysts for growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_one_year_high",
+        "Facebook_crypto_pact",
+        "mainstream_adoption_optimism"
+      ],
+      "rationale": "The involvement of a tech giant like Facebook in the crypto space, even indirectly through reports, significantly boosts market sentiment and signals growing mainstream acceptance. This can attract more capital and drive Bitcoin's price higher."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "nb4e90bda479b",
+      "title": "Bitcoin Price Looks Poised to Retest Highs Above $13K",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-looks-poised-retest-110052719.html",
+      "summary": "Bitcoin has broken out of a bearish channel, suggesting a potential retest of highs above $13,000. A weekly close above $12,000 would confirm a bullish revival. The immediate support is at $11,388, with a break below this level weakening the bullish case. This technical outlook points to short-term upward momentum.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_bullish_channel_breakout",
+        "retest_13k",
+        "support_11388"
+      ],
+      "rationale": "The technical breakout suggests immediate upward pressure. A close above key resistance levels within the next few days would confirm this trend, leading to potential price appreciation."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n43077bc8df43",
+      "title": "Everything you need to know about the Litecoin halvening",
+      "url": "https://finance.yahoo.com/news/everything-know-litecoin-halvening-141830007.html",
+      "summary": "The Litecoin halving occurred on August 5th, reducing mining rewards by half. While theoretically bullish due to reduced inflation, the article suggests it might not immediately lead to a price boom. However, the event itself is a significant supply-side shock that could influence price over the medium term.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "protocol",
+        "volatility"
+      ],
+      "features_for_model": [
+        "LTC_halving",
+        "reduced_inflation",
+        "supply_shock"
+      ],
+      "rationale": "The halving event is a known factor that reduces supply. While immediate price impact is uncertain, it creates a fundamental shift that could lead to price appreciation as demand remains constant or grows."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n96d44b862303",
+      "title": "'A Framework': UK Issues Cryptocurrency Guidance",
+      "url": "https://finance.yahoo.com/news/framework-uk-issues-cryptocurrency-guidance-144602274.html",
+      "summary": "The UK's Financial Conduct Authority (FCA) finalized guidance classifying Bitcoin and Ethereum as 'exchange tokens,' which are not regulated but subject to AML rules. The FCA also proposed banning crypto-derivatives sales to retail consumers. This provides regulatory clarity but also introduces potential restrictions.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "UK_FCA_guidance",
+        "exchange_tokens",
+        "derivatives_ban_proposal"
+      ],
+      "rationale": "Regulatory clarity is generally positive, but the proposed ban on derivatives for retail consumers could dampen trading activity and sentiment in the short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n92a17987dfa4",
+      "title": "3 reasons to stay in a volatile market and not cash out",
+      "url": "https://finance.yahoo.com/news/three-reasons-to-stay-in-a-volatile-market-not-cash-out-173752006.html",
+      "summary": "Amidst market volatility, investors are turning to safe havens like gold and Bitcoin, partly due to positive news from China regarding its yuan and trade reports. This suggests that broader macroeconomic factors and geopolitical tensions are influencing investor behavior, potentially driving demand for Bitcoin as a safe-haven asset.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "market_volatility",
+        "safe_haven_demand",
+        "China_trade_news"
+      ],
+      "rationale": "The narrative of Bitcoin as a safe haven, supported by positive macro news and geopolitical uncertainty, could lead to increased buying pressure in the short term as investors seek alternative assets."
+    },
+    {
+      "pick_idx": 9,
+      "id": "ne432cd2f3666",
+      "title": "Blockstream launches bitcoin mining facility and pool",
+      "url": "https://finance.yahoo.com/news/blockstream-launches-bitcoin-mining-facility-212117656.html",
+      "summary": "Blockstream has launched a new Bitcoin mining facility and pool, aiming to improve mining decentralization. The facility will host clients' mining operations, including those from Fidelity and LinkedIn co-founder Reid Hoffman. This development could contribute to a more robust and decentralized mining network.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "miner",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Blockstream_mining_facility",
+        "mining_decentralization",
+        "institutional_mining"
+      ],
+      "rationale": "The expansion of mining infrastructure by a reputable company like Blockstream, with institutional backing, can be seen as a positive sign for network security and growth, potentially supporting price."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n70c031b3590d",
+      "title": "Israeli Cryptocurrency Traders Locked Out of Banking System: Report",
+      "url": "https://finance.yahoo.com/news/israeli-cryptocurrency-traders-locked-banking-213016405.html",
+      "summary": "Israeli banks are reportedly refusing to process deposits from cryptocurrency traders, leading to issues with unpaid taxes. This indicates a significant friction point between traditional finance and crypto participants in a specific region, potentially impacting liquidity and investor confidence locally.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "liquidity",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Israel_banking_ban",
+        "crypto_deposit_issues",
+        "local_liquidity_impact"
+      ],
+      "rationale": "Localized banking restrictions can create negative sentiment and liquidity issues for traders in that region, potentially spilling over into broader market sentiment if it becomes a more widespread issue."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nec2b2982da5b",
+      "title": "tZERO to Open Security Token Market to Retail Traders Next Week",
+      "url": "https://finance.yahoo.com/news/overstock-open-tzero-security-token-214124125.html",
+      "summary": "Overstock's security token market, tZERO, will open to retail traders on August 12th, following a one-year lock-up period for its initial offering. This expansion of access to security tokens for retail investors could increase trading volume and interest in the regulated digital asset space.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "tZERO_retail_access",
+        "security_token_market",
+        "STO_unlock"
+      ],
+      "rationale": "Increased access for retail investors to regulated security tokens can be a positive development for the broader digital asset ecosystem, potentially attracting new capital and use cases."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n75e62d98fc2d",
+      "title": "Billionaire investor Tim Draper is hedging his $250,000 bitcoin price call",
+      "url": "https://finance.yahoo.com/news/billionaire-investor-tim-draper-is-hedging-his-250000-bitcoin-price-call-222610873.html",
+      "summary": "Billionaire investor Tim Draper reiterated his $250,000 Bitcoin price prediction, extending the timeline to Q1 2023. He also announced his boxing gym, Grit BXNG, will accept Bitcoin. This continued high-profile advocacy and integration of Bitcoin into traditional businesses reinforces its growing acceptance.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Tim_Draper_BTC_call",
+        "boxing_gym_BTC_acceptance",
+        "institutional_advocacy"
+      ],
+      "rationale": "Tim Draper's persistent bullish calls and practical integration of Bitcoin into his businesses serve as positive signals for adoption and can influence market sentiment, especially among those who follow prominent investors."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n18b7e0f1dc6c",
+      "title": "China ranks Ethereum, EOS and Tron way above Bitcoin",
+      "url": "https://finance.yahoo.com/news/china-ranks-ethereum-eos-tron-111541042.html",
+      "summary": "China's CCID has ranked EOS, Ethereum, and Tron higher than Bitcoin in its latest assessment. Bitcoin was placed 11th, while EOS took the top spot. This ranking methodology, focusing on different aspects of blockchain technology, could influence perceptions and investment flows, particularly within the Asian market.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption",
+        "market_sentiment",
+        "regulation"
+      ],
+      "features_for_model": [
+        "China_CCID_ranking",
+        "ETH_EOS_TRX_vs_BTC",
+        "Asian_market_perception"
+      ],
+      "rationale": "While China's rankings are influential in Asia, the methodology differs from global market cap dominance. This could create short-term confusion or divergence in sentiment, but its long-term impact on Bitcoin's global standing is less certain."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nb4e90bda479b",
+      "title": "Bitcoin Price Looks Poised to Retest Highs Above $13K",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-looks-poised-retest-110052719.html",
+      "summary": "Bitcoin's daily chart shows a bearish channel breakout, suggesting a potential retest of highs above $13,000. A weekly close above $12,000 would confirm a bullish revival. Immediate support is at $11,388; a break below would weaken the bullish case. This technical outlook indicates short-term upward potential.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_bullish_channel_breakout",
+        "retest_13k",
+        "support_11388"
+      ],
+      "rationale": "The technical breakout suggests immediate upward pressure. A close above key resistance levels within the next few days would confirm this trend, leading to potential price appreciation."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-08-08",
+    "summary": "Bitcoin shows signs of a technical breakout, potentially retesting highs above $13,000, supported by a narrative of it being a safe-haven asset amidst global trade tensions. However, regulatory uncertainty persists, with the UK providing guidance but also proposing retail derivative bans. Institutional interest remains a key driver, with figures like Tim Draper continuing to advocate for Bitcoin and new infrastructure like Blockstream's mining facility launching. Meanwhile, localized banking restrictions in Israel highlight ongoing friction points.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued regulatory uncertainty from major economies like the US regarding large-scale projects like Libra.",
+      "Potential for broader banking restrictions on crypto transactions, impacting liquidity and retail access.",
+      "Geopolitical tensions and trade wars could lead to unexpected market volatility, affecting Bitcoin's safe-haven status.",
+      "The effectiveness of the Litecoin halving on price remains to be seen, with potential for disappointment if no immediate rally occurs.",
+      "China's differing crypto rankings could influence regional sentiment, creating a divergence from global trends."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $11,388 and $12,000 levels.",
+      "Developments in US regulatory stance on cryptocurrencies.",
+      "Any further news regarding Facebook's Libra project.",
+      "Global macroeconomic indicators and trade war developments.",
+      "Performance of altcoins relative to Bitcoin post-halving events."
+    ]
+  }
+}

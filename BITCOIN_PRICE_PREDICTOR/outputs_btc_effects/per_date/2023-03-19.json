@@ -1,0 +1,534 @@
+{
+  "date": "2023-03-19",
+  "long_term": [
+    {
+      "pick_idx": 5,
+      "id": "n1296669d7890",
+      "title": "Bitcoin rallies over 18% in 24-hour span in wake of SVB crisis",
+      "url": "https://finance.yahoo.com/news/bitcoin-rallies-over-18-24-152555749.html",
+      "summary": "Bitcoin and other cryptocurrencies saw significant price increases following the US government's intervention to protect depositors of Silicon Valley Bank and Signature Bank. This event boosted overall crypto market capitalization past $1 trillion, suggesting a potential stabilization and renewed investor confidence after a period of banking sector turmoil. The market's positive reaction indicates that crypto assets may be perceived as a hedge or alternative during traditional financial instability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "SVB_collapse_impact",
+        "banking_crisis_hedge",
+        "crypto_market_cap_recovery"
+      ],
+      "rationale": "The SVB crisis and subsequent government intervention provided a narrative for Bitcoin as a potential safe haven or alternative asset class. This event demonstrated a correlation between traditional banking instability and crypto asset performance, suggesting a growing institutional interest and a potential for sustained positive price action."
+    },
+    {
+      "pick_idx": 2,
+      "id": "na6bf76f39f0d",
+      "title": "Signature Bank Was Shut Down to Send 'Anti-Crypto' Message: Barney Frank",
+      "url": "https://finance.yahoo.com/news/signature-bank-shut-down-send-194426830.html",
+      "summary": "Former Congressman Barney Frank suggested that Signature Bank's closure was partly motivated by a desire to send an 'anti-crypto message' from regulators. This statement highlights ongoing regulatory scrutiny and potential headwinds for the crypto industry, particularly concerning its integration with traditional financial institutions. Such actions could lead to increased caution from banks and investors regarding crypto-related services.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "regulatory_sentiment",
+        "banking_sector_crypto_risk",
+        "Signature_Bank_closure_impact"
+      ],
+      "rationale": "The perception of regulatory intent to curb crypto's influence can create a chilling effect on institutional adoption and innovation. This sentiment could lead to stricter compliance measures and a more cautious approach from financial institutions, potentially impacting liquidity and market sentiment."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nda2dbd8258cd",
+      "title": "Markets: Bitcoin rises amid market jitters as Paxos stablecoin issuer next regulator target after Kraken clampdown",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-rises-amid-market-022244703.html",
+      "summary": "Bitcoin experienced a rise amidst market uncertainty, even as regulators targeted stablecoin issuer Paxos following a clampdown on Kraken. This indicates a bifurcated market sentiment where Bitcoin shows resilience despite broader regulatory pressures on other crypto entities. The news suggests that while specific tokens or issuers might face challenges, the underlying market for Bitcoin remains robust, driven by factors beyond immediate regulatory actions.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "regulatory_crackdown_impact",
+        "Paxos_BUSD_news",
+        "Bitcoin_resilience"
+      ],
+      "rationale": "Despite negative regulatory news impacting other crypto assets like BUSD, Bitcoin demonstrated an ability to rise, suggesting a flight to quality within the crypto market. This resilience points to Bitcoin's established position and its potential to benefit from market fragmentation caused by regulatory actions against other players."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n694cc851c249",
+      "title": "Instead of Slowing Innovation, Regulation May Drive Demand for ReFi",
+      "url": "https://finance.yahoo.com/news/instead-slowing-innovation-regulation-may-152347085.html",
+      "summary": "This article posits that regulation, rather than stifling innovation, could actually boost demand for Regenerative Finance (ReFi). By providing clarity on security definitions and weeding out bad actors, regulations can create a more stable environment for sustainable projects. This perspective suggests that well-designed regulatory frameworks can foster growth in specific, impactful sectors of the crypto industry, potentially leading to broader adoption and development.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ReFi_regulation_impact",
+        "regulatory_clarity_demand",
+        "sustainable_crypto_growth"
+      ],
+      "rationale": "The idea that regulation can be a catalyst for specific, positive use cases like ReFi suggests a maturing of the crypto market. If regulatory clarity leads to increased adoption of blockchain for environmental and social good, it could create new demand drivers for the underlying technology and potentially Bitcoin as a foundational asset."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n9753002cfcd4",
+      "title": "Bitcoin NFTs Challenge the Blockchain’s Largest Use Case: Money",
+      "url": "https://finance.yahoo.com/news/bitcoin-nfts-challenge-blockchain-largest-134500903.html",
+      "summary": "The emergence of Ordinal Inscriptions, a form of NFTs on the Bitcoin blockchain, is challenging Bitcoin's primary role as a medium of exchange. Unlike Ethereum NFTs, these inscriptions store data directly on-chain, offering a more permanent and immutable form of digital asset. This development could expand Bitcoin's utility beyond just a store of value or payment system, potentially attracting new users and use cases to the network.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Bitcoin_NFTs",
+        "Ordinal_Inscriptions",
+        "blockchain_utility_expansion"
+      ],
+      "rationale": "The successful integration of NFTs on the Bitcoin blockchain, a notoriously conservative network, signifies a significant expansion of its use case. This could lead to increased network activity, developer interest, and potentially higher transaction fees, all of which are bullish for Bitcoin's ecosystem."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n5d3b74b26776",
+      "title": "Ordinals Gain Momentum With 76,000 NFTs Minted to Bitcoin",
+      "url": "https://finance.yahoo.com/news/ordinals-gain-momentum-76-000-003452131.html",
+      "summary": "The Ordinals protocol, enabling NFT-like inscriptions on the Bitcoin blockchain, is gaining significant traction, with over 76,000 inscriptions created. This surge in activity, particularly on February 9th, indicates growing developer and user interest in leveraging Bitcoin's network for digital collectibles. The success of Ordinals, despite some purist opposition, suggests a potential for increased utility and demand for Bitcoin block space.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ordinals_adoption",
+        "Bitcoin_NFT_growth",
+        "on_chain_activity"
+      ],
+      "rationale": "The rapid adoption of Ordinals demonstrates a new avenue for Bitcoin network usage, potentially increasing transaction volume and fees. This innovation could attract a new demographic of users and developers to the Bitcoin ecosystem, driving further development and adoption."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n9f6f32ba0fe5",
+      "title": "Bitcoin Miner CleanSpark Plans to Continue Pursuing Acquisitions Amid Bear Market",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-cleanspark-plans-continue-224742364.html",
+      "summary": "Bitcoin miner CleanSpark intends to continue acquiring mining assets despite the ongoing crypto winter. The company's CFO indicated a willingness to capitalize on favorable market conditions for acquisitions. This strategy suggests a belief in the long-term viability of Bitcoin mining and a proactive approach to expanding operations during a downturn, which could position them for future growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "miner",
+        "adoption"
+      ],
+      "features_for_model": [
+        "miner_acquisition_strategy",
+        "CleanSpark_growth",
+        "crypto_winter_opportunity"
+      ],
+      "rationale": "Aggressive expansion by mining companies during a bear market indicates strong conviction in Bitcoin's future price appreciation. Acquiring assets at potentially lower valuations can lead to increased efficiency and profitability when the market recovers, benefiting the overall network's health."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nd3039063a34b",
+      "title": "OKX Publishes January Proof of Reserves Report, Shows Largest 100% Clean Asset Reserves Among Major Exchanges",
+      "url": "https://finance.yahoo.com/news/okx-publishes-january-proof-reserves-080000219.html",
+      "summary": "OKX has released its January Proof of Reserves (PoR) report, showcasing $7.5 billion in BTC, ETH, and USDT reserves, reportedly the largest 100% clean asset reserves among major exchanges. The report includes enhanced features like a detailed asset balance dashboard. This commitment to transparency aims to rebuild trust within the crypto community following past exchange failures, potentially attracting more users and capital to platforms demonstrating robust reserve management.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Proof_of_Reserves",
+        "OKX_transparency",
+        "exchange_trust"
+      ],
+      "rationale": "Increased transparency from exchanges regarding their reserves is crucial for restoring confidence in the crypto market. OKX's strong PoR report could set a precedent, encouraging other platforms to adopt similar practices and potentially leading to greater capital inflows into the ecosystem."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n70c5a7a55549",
+      "title": "Bitcoin Miner Marathon Says It Still Has Access to $142M at Signature Bank",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-marathon-says-still-141750103.html",
+      "summary": "Bitcoin mining firm Marathon Digital Holdings stated it retains access to $142 million in cash deposits at Signature Bank, which was recently shut down by regulators. This announcement addresses concerns about the impact of the bank's failure on mining operations. Having access to these funds allows Marathon to continue its business operations normally, indicating resilience within the mining sector despite banking sector disruptions.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "Marathon_Signature_Bank_access",
+        "miner_liquidity_stability",
+        "banking_sector_impact_on_miners"
+      ],
+      "rationale": "The ability of a major Bitcoin miner like Marathon to maintain access to its funds despite a bank failure demonstrates a degree of operational resilience. This reassures the market that the mining sector can navigate traditional financial system disruptions, supporting continued network security and hash rate."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n6beec03a4dce",
+      "title": "UK Crypto Rules Set a Modest Post-Brexit Divergence From the European Union",
+      "url": "https://finance.yahoo.com/news/uk-crypto-rules-set-modest-132548206.html",
+      "summary": "The UK's new crypto regulations are part of a strategy for regulatory divergence from the EU. While some crypto advocates find the divergence modest, the Treasury aims to leverage post-Brexit freedoms to create a unique niche. This approach to regulation could influence how crypto businesses operate and innovate within the UK, potentially attracting specific types of investment and talent depending on the clarity and scope of the new rules.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "UK_crypto_regulation",
+        "Brexit_divergence",
+        "EU_crypto_policy"
+      ],
+      "rationale": "The UK's regulatory approach, while aiming for divergence, may not be aggressive enough to significantly differentiate itself from the EU. This could lead to a less pronounced impact on global crypto adoption trends, making its long-term effect on Bitcoin's trajectory uncertain."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 6,
+      "id": "nfd70ee27a0b1",
+      "title": "Bitcoin rises 5.19% to $28,380",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-5-19-28-200221968.html",
+      "summary": "Bitcoin experienced a significant price increase of 5.19%, reaching $28,380 on Sunday, March 19th. This rise adds to its year-to-date gains, indicating positive momentum in the short term. The price action suggests a strong recovery and potential for further upward movement, driven by recent market sentiment and possibly the resolution of banking sector concerns.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "Sunday_trading_volume",
+        "technical_resistance_break"
+      ],
+      "rationale": "The sharp price increase on a Sunday suggests strong buying pressure and a potential breakout. This could lead to continued upward momentum in the immediate short term as traders react to the positive price action."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nfd70ee27a0b1",
+      "title": "Bitcoin rises 5.19% to $28,380",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-5-19-28-200221968.html",
+      "summary": "Bitcoin saw a notable price increase of 5.19% to $28,380 on Sunday, March 19th. This surge contributes to its overall positive performance for the year, highlighting a strong recovery trend. The price movement indicates increased buyer interest and potentially a shift in market sentiment towards a more optimistic outlook.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_rally",
+        "weekend_momentum",
+        "market_sentiment_shift"
+      ],
+      "rationale": "The significant price jump on a weekend day suggests strong underlying demand. This could carry over into the trading week, potentially leading to further price appreciation as more market participants engage."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n5124b36f1472",
+      "title": "Bybit Reports Surge in Trading Volume Amidst USDC Volatility",
+      "url": "https://finance.yahoo.com/news/bybit-reports-surge-trading-volume-124327774.html",
+      "summary": "Crypto exchange Bybit has reported a substantial surge in trading volume for USDC pairs, with USDC's contribution to total spot volume rising significantly. This indicates increased user activity and a preference for stablecoins like USDC on the platform, possibly as a safe haven during recent banking volatility. The surge in volume suggests heightened market interest and liquidity on Bybit.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "exchange",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "Bybit_volume_surge",
+        "USDC_trading_activity",
+        "stablecoin_demand"
+      ],
+      "rationale": "Increased trading volume on a major exchange like Bybit, especially for stablecoin pairs, indicates active market participation and potentially a reallocation of funds. This can lead to greater liquidity and price discovery for Bitcoin and other assets."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n5124b36f1472",
+      "title": "Bybit Reports Surge in Trading Volume Amidst USDC Volatility",
+      "url": "https://finance.yahoo.com/news/bybit-reports-surge-trading-volume-124327774.html",
+      "summary": "Bybit has observed a significant increase in trading volume for USDC pairs, with USDC's share of total spot trading volume growing considerably. This trend suggests that traders are actively using USDC on the platform, potentially as a response to recent banking sector instability. The heightened activity points to increased liquidity and market engagement on Bybit.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "exchange",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "Bybit_USDC_volume",
+        "crypto_exchange_activity",
+        "market_liquidity_increase"
+      ],
+      "rationale": "A surge in trading volume, particularly involving stablecoins, on a prominent exchange like Bybit suggests increased market participation and liquidity. This can create a more favorable environment for Bitcoin trading and price discovery in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n4f193c1b799e",
+      "title": "U.S. Banking Cutoff Presents Opportunities for Crypto in Europe",
+      "url": "https://finance.yahoo.com/news/u-banking-cutoff-presents-opportunities-103000743.html",
+      "summary": "The difficulties faced by US crypto firms in accessing banking services following the failures of Silvergate and Signature Bank are creating opportunities for European crypto hubs. This situation may lead to a geographical shift in crypto innovation and capital flows. Europe's ability to provide stable banking solutions for crypto businesses could attract talent and investment, potentially boosting adoption and development in the region.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 1,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Europe_crypto_opportunity",
+        "US_banking_crisis_impact",
+        "capital_flow_shift"
+      ],
+      "rationale": "If Europe can effectively capitalize on the US banking issues by offering robust crypto-friendly financial infrastructure, it could lead to increased capital inflows and development in the region, indirectly benefiting Bitcoin through broader ecosystem growth."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n4f193c1b799e",
+      "title": "U.S. Banking Cutoff Presents Opportunities for Crypto in Europe",
+      "url": "https://finance.yahoo.com/news/u-banking-cutoff-presents-opportunities-103000743.html",
+      "summary": "The current banking challenges for US crypto firms are creating potential opportunities for Europe to emerge as a more significant hub for crypto innovation and services. By offering stable banking alternatives, Europe could attract businesses and capital, fostering growth in its crypto ecosystem. This shift could influence global crypto adoption trends and liquidity dynamics.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Europe_crypto_hub",
+        "US_banking_disruption",
+        "regulatory_arbitrage"
+      ],
+      "rationale": "The banking instability in the US could drive crypto businesses to seek more stable jurisdictions in Europe. This migration could increase liquidity and development in European crypto markets, indirectly supporting Bitcoin's ecosystem."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n8b29d9450b5d",
+      "title": "How Realistic Is Former Coinbase CTO’s $2 Million Bitcoin Wager on US Hyperinflation?",
+      "url": "https://finance.yahoo.com/news/realistic-former-coinbase-cto-2-215339315.html",
+      "summary": "Former Coinbase CTO Balaji Srinivasan has made a $1 million bet that Bitcoin will reach $1 million by June 17th, citing potential US dollar devaluation and hyperinflation. This high-profile wager highlights a bullish long-term outlook based on macroeconomic factors. While the specific outcome is uncertain, the bet itself generates significant discussion and attention around Bitcoin's potential as an inflation hedge.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Balaji_Srinivasan_bet",
+        "BTC_hyperinflation_thesis",
+        "USD_devaluation_impact"
+      ],
+      "rationale": "The high-profile bet by a former Coinbase CTO on Bitcoin's price surge due to potential hyperinflation brings significant attention to this narrative. This could influence short-term sentiment and potentially attract speculative interest, driving price action."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n8b29d9450b5d",
+      "title": "How Realistic Is Former Coinbase CTO’s $2 Million Bitcoin Wager on US Hyperinflation?",
+      "url": "https://finance.yahoo.com/news/realistic-former-coinbase-cto-2-215339315.html",
+      "summary": "Former Coinbase CTO Balaji Srinivasan has placed a $1 million wager predicting Bitcoin's price will hit $1 million by June 17th, driven by his belief in impending US dollar devaluation and hyperinflation. This bold prediction, while speculative, amplifies the narrative of Bitcoin as a hedge against inflation and currency debasement, potentially influencing market sentiment and attracting speculative capital in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Srinivasan_bet",
+        "BTC_inflation_hedge",
+        "macroeconomic_outlook"
+      ],
+      "rationale": "The high-profile bet by a prominent figure in the crypto space, linking Bitcoin to potential hyperinflation, can generate significant buzz and attract speculative interest. This narrative could drive short-term price action as traders react to the macroeconomic implications."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n0d9cfeb7ad35",
+      "title": "Mark Cuban told Bill Maher that buying gold is ‘dumb’ — and he wants bitcoin to plunge so he can buy even more. These are 3 simple ways to gain crypto exposure",
+      "url": "https://finance.yahoo.com/news/mark-cuban-just-told-bill-170000142.html",
+      "summary": "Billionaire Mark Cuban expressed a bearish short-term view on Bitcoin, stating he wants it to plunge so he can buy more, while also calling gold 'dumb.' His comments suggest a contrarian investment strategy and highlight his belief in Bitcoin's long-term potential despite short-term price fluctuations. This sentiment from a prominent investor can influence market psychology.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Mark_Cuban_sentiment",
+        "contrarian_investing",
+        "gold_vs_bitcoin"
+      ],
+      "rationale": "Mark Cuban's expressed desire for a price dip to buy more Bitcoin indicates a bullish long-term conviction but a potentially bearish short-term outlook. This can create mixed signals for traders, leading to increased volatility."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n0d9cfeb7ad35",
+      "title": "Mark Cuban told Bill Maher that buying gold is ‘dumb’ — and he wants bitcoin to plunge so he can buy even more. These are 3 simple ways to gain crypto exposure",
+      "url": "https://finance.yahoo.com/news/mark-cuban-just-told-bill-170000142.html",
+      "summary": "Mark Cuban shared his view that gold is 'dumb' and expressed a desire for Bitcoin's price to fall so he can accumulate more. This statement reveals a contrarian investment approach and a strong long-term bullish conviction in Bitcoin. Such commentary from a well-known investor can influence market sentiment and potentially lead to increased buying interest on dips.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Mark_Cuban_outlook",
+        "Bitcoin_accumulation_strategy",
+        "gold_sentiment"
+      ],
+      "rationale": "Cuban's desire to buy more Bitcoin on a price dip suggests a bullish long-term view but implies potential short-term price weakness. This can create a volatile trading environment as the market digests his comments."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n1a6d5e6d1615",
+      "title": "This Week on Crypto Twitter: Pundits Perform Post-Mortem on Crypto Bank Crisis",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-pundits-perform-173728244.html",
+      "summary": "Crypto Twitter discussions this week focused on the aftermath of the crypto bank crisis, with prices rebounding due to government intervention ensuring depositor protection for SVB and Signature Bank. This news provided closure and a positive catalyst for the market. The discussions reflect a sentiment of relief and renewed optimism following the resolution of immediate banking sector fears.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Crypto_Twitter_sentiment",
+        "bank_crisis_resolution",
+        "market_relief"
+      ],
+      "rationale": "The positive sentiment on Crypto Twitter, fueled by the resolution of banking fears, suggests a short-term bullish bias. This can translate into increased buying pressure and upward price movement as confidence returns."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-03-19",
+    "summary": "Bitcoin experienced a significant price surge on Sunday, breaking above $28,000, driven by positive sentiment stemming from the resolution of the US banking crisis and the government's commitment to protecting depositors. This has led to increased trading volumes on exchanges like Bybit and renewed interest in Bitcoin as a potential inflation hedge, as highlighted by a high-profile bet from a former Coinbase CTO. While regulatory scrutiny remains a long-term concern, the immediate market reaction is overwhelmingly bullish, with Europe potentially benefiting from US banking disruptions.",
+    "scenario_probs": {
+      "bull": 0.7,
+      "base": 0.2,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Potential for renewed banking sector instability or contagion.",
+      "Increased regulatory scrutiny following recent events.",
+      "Profit-taking after the sharp price rally.",
+      "Macroeconomic data releases that could shift Fed policy expectations."
+    ],
+    "watch_items": [
+      "US Banking Sector Stability",
+      "Federal Reserve Policy Statements",
+      "Further Developments in Ordinals/Bitcoin NFTs",
+      "Global Regulatory Actions on Crypto Exchanges",
+      "On-chain Data for Bitcoin Transaction Volume and Fees"
+    ]
+  }
+}

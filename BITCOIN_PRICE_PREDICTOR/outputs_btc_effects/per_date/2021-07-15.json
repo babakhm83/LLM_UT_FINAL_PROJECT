@@ -1,0 +1,470 @@
+{
+  "date": "2021-07-15",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n45befe811811",
+      "title": "Grayscale ‘Unlockings’ Poses Downside Risk to Bitcoin Price, JPMorgan Says",
+      "url": "https://finance.yahoo.com/news/grayscale-unlockings-poses-downside-risk-102400631.html",
+      "summary": "JPMorgan analysts expressed a bearish outlook on Bitcoin, citing the impending unlocking of Grayscale Bitcoin Trust (GBTC) shares purchased in January. These unlockings, occurring in June and July, are identified as a significant headwind for Bitcoin's price. The sentiment suggests that a substantial amount of Bitcoin held by Grayscale might be sold off as investors exit their lock-up periods, potentially increasing selling pressure in the market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "GBTC_unlocks",
+        "JPMorgan_sentiment",
+        "institutional_selling"
+      ],
+      "rationale": "The unlocking of GBTC shares represents a potential increase in sell-side pressure as investors realize gains or exit positions. This could lead to a temporary oversupply of Bitcoin on the market, driving prices down."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nd6239bdaab46",
+      "title": "Market inflation fears stoked as UK prices jump 1.5%",
+      "url": "https://finance.yahoo.com/news/stock-market-report-19-may-ftse-cac-dax-uk-inflation-nasdaq-dow-jones-sp500-073459576.html",
+      "summary": "Rising inflation data in Europe, specifically a 1.5% jump in UK prices, has reignited fears of runaway price increases. This has led to concerns that central banks might be forced to raise interest rates. The market sentiment shifted towards less risky investments, impacting global stock markets and contributing to a sell-off in the cryptocurrency market, including Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "UK_inflation",
+        "interest_rate_hike_fears",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Rising inflation can lead to tighter monetary policy, which typically reduces liquidity and investor appetite for riskier assets like Bitcoin. This macro trend can exert downward pressure on crypto prices."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nb7c0863084a5",
+      "title": "Shares Of Blockchain-Linked Firms Tumble As China Slaps Curbs On Cryptos",
+      "url": "https://finance.yahoo.com/news/shares-blockchain-linked-firms-tumble-080607077.html",
+      "summary": "China's crackdown on financial institutions and payment companies providing cryptocurrency services has led to a significant drop in shares of blockchain-linked companies like MicroStrategy, Riot Blockchain, Marathon Digital, and Coinbase. This regulatory action in a major market like China signals a heightened risk of further government intervention globally, impacting investor confidence and the broader crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "China_crypto_ban",
+        "MSTR_down",
+        "RIOT_down",
+        "MARA_down",
+        "COIN_down"
+      ],
+      "rationale": "Chinese regulatory actions have a significant ripple effect on the global crypto market. Such crackdowns create uncertainty and fear, leading to sell-offs in crypto-related equities and potentially impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nfb5d68b045df",
+      "title": "Bitcoin ‘Options Smile’ Shows Market Fearful of Downside Despite Tesla News",
+      "url": "https://finance.yahoo.com/news/bitcoin-options-smile-shows-market-123051354.html",
+      "summary": "Despite positive news from Tesla regarding Bitcoin transactions, market sentiment remains fearful, as indicated by the 'options smile' pattern. This pattern shows higher demand for out-of-the-money put options (bets on price drops) than call options (bets on price increases). This suggests that traders are actively hedging against potential price declines, indicating underlying bearish sentiment despite short-term positive catalysts.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "options_smile",
+        "market_fear",
+        "hedging_demand"
+      ],
+      "rationale": "The options market is a forward-looking indicator. A pronounced 'options smile' suggests significant demand for downside protection, implying that market participants anticipate further price drops."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nd8f6bd99fabb",
+      "title": "Nvidia to Hobble Ether Mining Power on More Gaming Cards",
+      "url": "https://finance.yahoo.com/news/nvidia-hobble-ether-mining-power-141539576.html",
+      "summary": "Nvidia is implementing a 'Lite Hash Rate' (LHR) feature on its new RTX 3080, 3070, and 3060 Ti graphics cards to reduce their efficiency for Ethereum mining. This move aims to preserve inventory for gamers. While primarily impacting Ethereum mining, it could indirectly affect the broader crypto mining landscape and potentially influence the availability and pricing of GPUs used for Bitcoin mining, though the direct impact on Bitcoin is less pronounced.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Nvidia_LHR",
+        "GPU_availability",
+        "ETH_mining_impact"
+      ],
+      "rationale": "While this directly targets Ethereum, it signals a trend of hardware manufacturers potentially impacting mining operations. This could indirectly affect the cost and availability of mining hardware for Bitcoin, though the direct impact is limited."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n885c206d2d41",
+      "title": "Bitcoin Price Prediction 2021: Why BTC Could Hit $100K by Year-End",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-prediction-2021-why-170742666.html",
+      "summary": "A Bloomberg report suggests a bullish outlook for Bitcoin, predicting it could reach $100,000 by the end of 2021. This forecast is based on an analysis of various cryptocurrencies and their expected performance. The report indicates a higher probability of Bitcoin approaching this milestone than falling back to $20,000, reflecting a positive long-term sentiment among some analysts.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bloomberg_prediction",
+        "BTC_100k_target",
+        "bullish_outlook"
+      ],
+      "rationale": "Positive price predictions from reputable sources like Bloomberg can influence market sentiment and attract investment, potentially driving prices higher over the long term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n81a8a184ee61",
+      "title": "Hedge Funds See 7.2% of Assets in Crypto by 2026: Report",
+      "url": "https://finance.yahoo.com/news/hedge-funds-see-7-2-091851480.html",
+      "summary": "A survey by Intertrust indicates that hedge funds anticipate holding 7.2% of their assets in cryptocurrency by 2026, equating to approximately $312 billion. This projection suggests a significant increase in institutional adoption and capital allocation towards digital assets over the next five years, signaling growing mainstream acceptance and potential for sustained price appreciation.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "hedge_fund_allocation",
+        "institutional_adoption",
+        "AUM_growth"
+      ],
+      "rationale": "Increased allocation from institutional investors like hedge funds is a strong indicator of growing confidence and demand, which can significantly boost Bitcoin's long-term price trajectory."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n0a5f74367b53",
+      "title": "Goldman Sachs Invests in Blockdaemon’s $28 Million Series A Round",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-invests-blockdaemon-28-192652272.html",
+      "summary": "Goldman Sachs participated in Blockdaemon's $28 million Series A funding round, alongside Greenspring Associates. Blockdaemon is a blockchain infrastructure platform providing computer nodes for blockchain networks. This investment highlights increasing institutional interest in the underlying infrastructure supporting digital assets, which is a positive sign for the broader crypto ecosystem's growth and stability.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_investment",
+        "Blockdaemon_funding",
+        "blockchain_infrastructure"
+      ],
+      "rationale": "Institutional investment in critical blockchain infrastructure like Blockdaemon signals a maturing market and growing confidence in the long-term viability of the crypto space, indirectly benefiting Bitcoin."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n6232c0790a7e",
+      "title": "Canadian Purpose Bitcoin ETF Holdings at an All-Time High",
+      "url": "https://finance.yahoo.com/news/canadian-purpose-bitcoin-etf-holdings-164959084.html",
+      "summary": "The Purpose Bitcoin ETF in Canada has reached an all-time high in its holdings, despite a recent market decline. This indicates that investors are actively buying Bitcoin during the dip, suggesting strong conviction and a 'buy the dip' mentality. The steady accumulation by the ETF points to sustained demand from institutional and retail investors through regulated investment vehicles.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Purpose_ETF_holdings",
+        "ETF_accumulation",
+        "buy_the_dip_sentiment"
+      ],
+      "rationale": "Increased holdings by a regulated Bitcoin ETF demonstrate growing institutional adoption and investor confidence, acting as a positive signal for sustained demand and price appreciation."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nce9181f8c14b",
+      "title": "This NYDIG Partnership Could Bring Bitcoin to Your Local Credit Union",
+      "url": "https://finance.yahoo.com/news/nydig-partnership-could-bring-bitcoin-175344999.html",
+      "summary": "NYDIG's partnership with Q2 aims to provide Bitcoin access to Q2's 18.3 million users, who are primarily customers of small and medium-sized banks and credit unions. This collaboration will enable these financial institutions to offer their customers the ability to buy, sell, and hold Bitcoin directly through their bank accounts. This expansion of access through traditional financial channels is a significant step towards broader adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "NYDIG_Q2_partnership",
+        "banking_integration",
+        "retail_adoption"
+      ],
+      "rationale": "Integrating Bitcoin access into traditional banking infrastructure through partnerships like NYDIG and Q2 significantly broadens the user base and accessibility, driving adoption and demand."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ndb1b3c6a306f",
+      "title": "Why Bitcoin Needs to Defend $30K",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-needs-defend-30k-181334849.html",
+      "summary": "The Bitcoin market is maturing, requiring attention to macroeconomic factors and derivatives activity. A risk-off mood on Wall Street pressured Bitcoin towards the $30,000 support level. A breach of this level could trigger further selling from options traders, potentially leading to a rapid price decline.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "options"
+      ],
+      "features_for_model": [
+        "BTC_30k_support",
+        "risk_off_sentiment",
+        "options_trader_selling"
+      ],
+      "rationale": "The $30,000 level is a critical psychological and technical support. A break below it could trigger cascading liquidations and a sharp price drop in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "naaeef03ca735",
+      "title": "Republican Senator Highlights Bitcoin’s Battle in Shedding Criminal Baggage",
+      "url": "https://finance.yahoo.com/news/republican-senator-highlights-bitcoin-battle-205402449.html",
+      "summary": "Senator Chuck Grassley's characterization of Bitcoin as fueling $76 billion in annual illicit transactions highlights the ongoing challenge of its association with criminal activity. Citing 2017 data, he suggests nearly half of Bitcoin activity is illicit. This narrative, if amplified, could lead to increased regulatory scrutiny and negative sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Senator_Grassley",
+        "illicit_transactions",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Negative narratives linking Bitcoin to crime can increase regulatory pressure and deter mainstream adoption, potentially causing short-term price dips."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n8f0956c3c576",
+      "title": "UPDATE 1-DoubleLine CEO Gundlach says stocks at extremely high valuations -CNBC",
+      "url": "https://finance.yahoo.com/news/1-doubleline-ceo-gundlach-says-184254547.html",
+      "summary": "Jeffrey Gundlach, CEO of DoubleLine Capital, expressed concern over extremely high stock valuations and believes Bitcoin is likely to fall below $23,000 again, citing its 'scary' chart pattern resembling a head and shoulders top. His bearish outlook on both stocks and Bitcoin could influence investor sentiment.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Gundlach_outlook",
+        "stock_valuation_concerns",
+        "BTC_bearish_chart"
+      ],
+      "rationale": "Prominent investor warnings about high valuations and specific bearish technicals for Bitcoin can contribute to negative sentiment and selling pressure in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nbe66b7512915",
+      "title": "Google Searches for ‘Bitcoin Price’ Reach 7-Month Low",
+      "url": "https://finance.yahoo.com/news/google-searches-bitcoin-price-reach-132910176.html",
+      "summary": "Google search interest for 'bitcoin price' has fallen to a 7-month low, indicating a significant decline in public interest. This drop from a recent peak suggests waning retail enthusiasm, which could correlate with lower trading volumes and potentially reduced price momentum.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "google_trends_bitcoin",
+        "retail_interest_decline",
+        "low_search_volume"
+      ],
+      "rationale": "Decreased retail interest, as indicated by search trends, often precedes periods of lower trading volume and potentially sideways or downward price action."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf8d2c4383383",
+      "title": "Bitcoin Price Prediction – Failure to Return to $33,000 Levels Will Bring Support Levels into Play",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-prediction-failure-return-090536972.html",
+      "summary": "Bitcoin has continued its bearish trend, failing to hold gains and trading below $32,500. Technical indicators are flashing red, with the MACD negative and decreasing. A failure to reclaim $33,000 levels could lead to a test of lower support levels, indicating continued short-term weakness.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "technical",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_33k_resistance",
+        "MACD_bearish",
+        "lower_support_test"
+      ],
+      "rationale": "The inability to break key resistance levels and the presence of bearish technical indicators suggest that Bitcoin is likely to continue its downward trend in the immediate short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n45aa682d2b9c",
+      "title": "Dogecoin Co-Founder Says He’s Done with Cryptos, They Don’t ‘Align With His Belief System’",
+      "url": "https://finance.yahoo.com/news/dogecoin-co-founder-says-done-154239817.html",
+      "summary": "Dogecoin co-founder Jackson Palmer has strongly criticized the cryptocurrency industry, calling it 'inherently right-wing, hyper-capitalistic' and stating he will not return to it. This public denouncement by a prominent figure could negatively impact sentiment for Dogecoin and potentially other cryptocurrencies, contributing to a bearish outlook.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "DOGE_cofounder_criticism",
+        "crypto_industry_sentiment",
+        "Palmer_statement"
+      ],
+      "rationale": "Negative commentary from a project's co-founder can damage its reputation and investor confidence, leading to potential price declines, especially for meme coins like Dogecoin."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nbd3686b529f6",
+      "title": "Black Rock Petroleum Company Announces Bitcoin Mining Agreement",
+      "url": "https://finance.yahoo.com/news/black-rock-petroleum-company-announces-155300410.html",
+      "summary": "Black Rock Petroleum Company has entered into an agreement to host and operate up to one million Bitminers across three natural gas producing sites in Alberta, Canada. This move signifies a growing trend of energy companies diversifying into Bitcoin mining, leveraging existing infrastructure and potentially reducing the environmental impact by utilizing flared gas.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "miner"
+      ],
+      "features_for_model": [
+        "BlackRock_Petroleum",
+        "Bitcoin_mining_agreement",
+        "Canada_mining_expansion"
+      ],
+      "rationale": "The expansion of Bitcoin mining operations, especially by energy companies utilizing natural gas, indicates continued investment in mining infrastructure and a potential increase in hash rate, which is generally bullish for Bitcoin."
+    },
+    {
+      "pick_idx": 27,
+      "id": "nb6e743f705b4",
+      "title": "Market Wrap: Bitcoin Slides Toward $30K, Looks ‘Fragile’",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-slides-toward-205109162.html",
+      "summary": "Bitcoin prices experienced a significant slide, falling in sync with U.S. stocks, with analysts warning of potential further declines. The market is described as 'fragile,' and a clear break into positive territory is needed to suggest a return of speculative bulls. This sentiment points to a bearish short-term outlook.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "technical",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_fragile",
+        "stock_market_correlation",
+        "bearish_analyst_sentiment"
+      ],
+      "rationale": "The 'fragile' market sentiment and correlation with falling stocks suggest that Bitcoin is vulnerable to further downside pressure in the immediate short term."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n33bc3a6bec71",
+      "title": "Square to Create New Bitcoin Platform for Financial Services",
+      "url": "https://finance.yahoo.com/news/square-create-bitcoin-division-214351107.html",
+      "summary": "Square is launching a new business focused on building an 'open developer platform' for non-custodial, decentralized financial services, with a primary focus on Bitcoin. This initiative, led by Mike Brock, will emphasize open roadmaps, development, and source code. It aims to foster innovation in the Bitcoin ecosystem.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Square_developer_platform",
+        "Bitcoin_DeFi",
+        "open_source_development"
+      ],
+      "rationale": "Square's commitment to building a Bitcoin-focused developer platform signals continued investment in the ecosystem's infrastructure, which can drive innovation and adoption, positively impacting Bitcoin."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n22dd1341eb53",
+      "title": "Bitcoin miners flocked to US ahead of Chinese crypto crackdown",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-flocked-us-ahead-054126573.html",
+      "summary": "New data indicates that Bitcoin miners relocated to the US and Kazakhstan as China prepared its crackdown. The US's share of global Bitcoin mining increased significantly, making it the second-largest mining hub. This geographical shift in mining power could influence network decentralization and potentially impact mining difficulty adjustments.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "miner_migration_US",
+        "China_crackdown_impact",
+        "hashrate_distribution"
+      ],
+      "rationale": "The migration of miners to more favorable jurisdictions like the US indicates a resilience in the mining sector and a potential increase in global hash rate, which is generally positive for Bitcoin's network security and stability."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-07-15",
+    "summary": "Bitcoin is showing signs of weakness, trading near critical support levels around $30,000, influenced by a broader risk-off sentiment in traditional markets. Analysts are expressing bearish sentiment, citing high stock valuations and technical chart patterns. However, positive developments like Square's new Bitcoin platform and the continued migration of miners to the US offer some underlying bullish support for the long term. Retail interest appears to be waning, as indicated by Google Trends data.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Breach of $30,000 support level leading to cascading liquidations.",
+      "Continued negative sentiment from influential investors and analysts.",
+      "Increased regulatory scrutiny stemming from illicit transaction narratives.",
+      "Waning retail interest impacting trading volumes.",
+      "Broader macroeconomic downturn affecting risk assets."
+    ],
+    "watch_items": [
+      "Bitcoin's price action around $30,000 support.",
+      "Statements from major financial institutions regarding Bitcoin.",
+      "Developments in cryptocurrency regulation globally.",
+      "Hash rate distribution and mining difficulty adjustments.",
+      "Performance of tech and growth stocks."
+    ]
+  }
+}

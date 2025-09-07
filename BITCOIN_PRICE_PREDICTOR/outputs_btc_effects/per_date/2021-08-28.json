@@ -1,0 +1,475 @@
+{
+  "date": "2021-08-28",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nd8faf45e6060",
+      "title": "Whales Cause Biggest Daily Accumulation Spike With 60K BTC Buys",
+      "url": "https://finance.yahoo.com/news/whales-cause-biggest-daily-accumulation-120000869.html",
+      "summary": "Bitcoin experienced a significant accumulation spike with whales purchasing 60,000 BTC in a single day, pushing the price above $35,000. This large-scale buying activity from addresses holding between 100 to 10,000 BTC indicates strong confidence from major holders. Such accumulation by whales often precedes upward price movements, suggesting a potential bullish trend for Bitcoin in the medium to long term. This event highlights the influence of large market participants on Bitcoin's price action.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "whale_accumulation",
+        "large_buy_volume"
+      ],
+      "rationale": "Significant accumulation by large holders (whales) often signals strong conviction and can precede substantial price increases. This event suggests underlying demand from sophisticated investors."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nfc49c902fe72",
+      "title": "Galaxy Digital Files for Bitcoin ETF, Ready to Oppose SEC Chairman",
+      "url": "https://finance.yahoo.com/news/galaxy-digital-files-bitcoin-etf-172000513.html",
+      "summary": "Galaxy Digital, led by Mike Novogratz, has filed for a Bitcoin futures-only ETF with the SEC, aiming for a \"Gensler-ready\" approach. This marks their second attempt, this time under the Securities Act of 1940. The filing indicates continued institutional interest and efforts to gain regulatory approval for Bitcoin-based investment products in the US. Approval of such ETFs could significantly increase accessibility and adoption for traditional investors, potentially driving demand and price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "ETF_filing",
+        "SEC_approval_path"
+      ],
+      "rationale": "The pursuit of a Bitcoin ETF by established financial players like Galaxy Digital signals growing institutional acceptance. Regulatory approval would unlock significant capital flows."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n77badf941f91",
+      "title": "CORRECTED-UPDATE 1-U.S. dollar net longs climb to highest since early March 2020 - CFTC, Reuters",
+      "url": "https://finance.yahoo.com/news/1-u-dollar-net-longs-204609925.html",
+      "summary": "U.S. dollar net longs have risen to their highest level since March 2020, indicating increased investor confidence in the dollar. This shift from a net short position suggests a potential strengthening of the dollar against other currencies. A stronger dollar can sometimes correlate with a weaker performance in risk assets like Bitcoin, as investors may move capital to perceived safer havens. However, the relationship is complex and influenced by many factors.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "macro_sentiment"
+      ],
+      "rationale": "A strengthening USD can draw capital away from risk assets like Bitcoin. This macro trend suggests a potential headwind for BTC if it persists."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n923b77f9036f",
+      "title": "Bitcoin backers cheering Amazon should be wary of Tesla-style disappointment",
+      "url": "https://finance.yahoo.com/news/amazon-cryptocurrency-bitcoin-digital-currency-blockchain-tesla-100842841.html",
+      "summary": "Speculation surrounding Amazon's potential entry into digital currencies, fueled by a job posting for a \"Digital Currency and Blockchain Product Lead,\" has boosted Bitcoin's price. While this signals growing interest from major tech companies, the article cautions against expecting a Tesla-like impact, referencing past instances where such speculation didn't immediately translate into concrete adoption. The market's reaction highlights the sensitivity to news from large corporations.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Amazon_adoption_rumor",
+        "corporate_interest"
+      ],
+      "rationale": "While Amazon's potential entry is a significant development, the article tempers expectations, suggesting a cautious approach. The actual impact depends on concrete implementation."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n1f15691aca40",
+      "title": "US Financial Giant Capital Group Buys 12% Stake in Bitcoin-Exposed MicroStrategy",
+      "url": "https://finance.yahoo.com/news/us-financial-giant-capital-group-020015073.html",
+      "summary": "Capital International Investors, a unit of Capital Group, has acquired a 12.2% stake in MicroStrategy, a company heavily invested in Bitcoin. This significant investment by a traditional financial giant into a Bitcoin-holding entity underscores growing institutional confidence and indirect exposure to Bitcoin. Such moves can validate Bitcoin as an asset class and encourage further institutional adoption, potentially leading to increased demand and price stability.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_investment",
+        "MicroStrategy_stake"
+      ],
+      "rationale": "A major financial institution investing in a Bitcoin-heavy company like MicroStrategy signals strong institutional validation and can attract further capital."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nb008b8a63080",
+      "title": "Polygon to Form Decentralized Autonomous Organization",
+      "url": "https://finance.yahoo.com/news/polygon-form-decentralized-autonomous-organization-152303647.html",
+      "summary": "Ethereum scaling solution Polygon plans to establish a Decentralized Autonomous Organization (DAO) for the DeFi sector, aiming to attract 100 million users and involve the community in its development. This move signifies a commitment to decentralization and community governance, which are core tenets of the blockchain space. DAOs can foster innovation and adoption within ecosystems, potentially leading to increased utility and value for the underlying protocols.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Polygon_DAO",
+        "DeFi_governance"
+      ],
+      "rationale": "The formation of a DAO by Polygon is a significant step towards decentralization and community engagement, which can drive ecosystem growth and adoption."
+    },
+    {
+      "pick_idx": 29,
+      "id": "na0b4bc91ba28",
+      "title": "JPMorgan Offering Crypto Funds to Wealth Management Clients",
+      "url": "https://finance.yahoo.com/news/jpmorgan-offering-crypto-funds-wealth-111456797.html",
+      "summary": "JPMorgan Chase is reportedly offering its wealth management clients access to six cryptocurrency funds, primarily from Grayscale Investments. This move by one of the largest U.S. banks indicates a significant shift in institutional acceptance of digital assets. Providing access to crypto funds through traditional wealth management channels can broaden investor reach and potentially increase demand for cryptocurrencies like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "ETF"
+      ],
+      "features_for_model": [
+        "JPMorgan_crypto_funds",
+        "wealth_management_access"
+      ],
+      "rationale": "JPMorgan's offering of crypto funds to its clients is a major endorsement from traditional finance, signaling increased institutional adoption and potential for significant capital inflow."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n2d18a7377597",
+      "title": "Global X Becomes Latest Firm to File for Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/global-x-becomes-latest-firm-200000674.html",
+      "summary": "ETF provider Global X has filed with the SEC for a Bitcoin ETF, aiming to list on the Cboe BZX Exchange. This filing adds to the growing list of companies seeking regulatory approval for Bitcoin ETFs in the U.S. The increasing number of applications suggests a strong market demand for such products and a potential for approval, which could significantly boost Bitcoin's accessibility and price.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "ETF_filing",
+        "SEC_approval_path"
+      ],
+      "rationale": "Another firm filing for a Bitcoin ETF indicates sustained institutional interest and a competitive race for regulatory approval, which could lead to increased adoption."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nc7462fc73313",
+      "title": "Inversores institucionales regresan a bitcoin a pesar de posibles impuestos para las criptomonedas en Estados Unidos",
+      "url": "https://finance.yahoo.com/news/inversores-institucionales-regresan-bitcoin-pesar-193126278.html",
+      "summary": "Despite potential tax regulations in the U.S., institutional investors are returning to Bitcoin, as indicated by large-dollar transactions. While regulatory uncertainty might deter retail investors, institutions appear unfazed, driving Bitcoin's price up by nearly 20% in the past week. This suggests that institutional demand remains a strong bullish catalyst, even amidst regulatory headwinds.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "institutional_return",
+        "tax_regulation_impact"
+      ],
+      "rationale": "Institutional investors are showing resilience to regulatory concerns, indicating strong underlying demand. Their return is a positive sign for Bitcoin's long-term prospects."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nda4189edace5",
+      "title": "Jim Cramer Takes Bullish Stance On Crypto: 'You Can't Fight It'",
+      "url": "https://finance.yahoo.com/news/jim-cramer-takes-bullish-stance-152636664.html",
+      "summary": "Renowned financial commentator Jim Cramer has expressed a bullish outlook on cryptocurrency, stating \"You Can't Fight It.\" He acknowledges the use of crypto for ransomware but emphasizes its positive use cases and views its rise as a reaction to excessive money printing. Cramer's positive sentiment, especially in contrast to some regulatory figures, can influence broader market perception and potentially attract more investors.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Jim_Cramer_endorsement",
+        "macro_hedge"
+      ],
+      "rationale": "Positive commentary from influential figures like Jim Cramer can boost market sentiment and attract new investors, reinforcing the narrative of crypto as an inflation hedge."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nc54c4739684c",
+      "title": "The Crypto Daily – Movers and Shakers – August 28th, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-august-002516629.html",
+      "summary": "Bitcoin rallied by 4.79% on Friday, reversing Thursday's losses and ending the day at $49,079.0. It broke through the first major resistance level at $48,713. The near-term bullish trend remains intact, supported by a return towards $50,000 levels. This indicates positive momentum in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "resistance_break"
+      ],
+      "rationale": "Bitcoin's strong Friday rally and break of resistance suggest continued upward momentum in the very short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n130fab9f523c",
+      "title": "Capricorn Business Acquisitions Inc. Announces Proposed Closing Date of Its Qualifying Transaction and Filing of Its Filing Statement",
+      "url": "https://finance.yahoo.com/news/capricorn-business-acquisitions-inc-announces-010400065.html",
+      "summary": "Capricorn Business Acquisitions Inc. expects its qualifying transaction with Canada Computational Unlimited Inc. (CCU.ai) to close around September 7, 2021. The filing of the statement provides details about the transaction. This is a SPAC merger, which can sometimes lead to increased volatility in the target company's stock around the closing date.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "listing"
+      ],
+      "features_for_model": [
+        "SPAC_merger_close",
+        "CCU.ai_transaction"
+      ],
+      "rationale": "The upcoming closing of a SPAC transaction can introduce short-term volatility for the involved entities, but its direct impact on Bitcoin is minimal."
+    },
+    {
+      "pick_idx": 3,
+      "id": "na04b3bf5a81d",
+      "title": "UK Bitcoin Entrepreneur Taps into Spare Canadian Hydro Power to Launch Vancouver Venture with £500k Investment",
+      "url": "https://finance.yahoo.com/news/uk-bitcoin-entrepreneur-taps-spare-023700252.html",
+      "summary": "A UK Bitcoin entrepreneur is launching a Vancouver venture using spare Canadian hydro power, with a £500k investment. The company, Mine One Blockchain Inc., aims to list on the Toronto Stock Exchange. This news highlights the ongoing expansion of Bitcoin mining operations and the search for efficient energy sources, which is a positive development for network infrastructure.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_expansion",
+        "hydro_power_mining"
+      ],
+      "rationale": "Expansion of mining operations, especially with a focus on renewable energy, is a positive sign for the Bitcoin network's long-term health and decentralization."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ne3f7a068d035",
+      "title": "BIC’s Video News Show: Robinhood IPO",
+      "url": "https://finance.yahoo.com/news/bic-video-news-show-robinhood-095433849.html",
+      "summary": "Robinhood's IPO and its reliance on cryptocurrency trades are discussed. The platform's growth was significantly fueled by the meme stock phenomenon and crypto hype, particularly Dogecoin and Bitcoin. Robinhood's focus on crypto could lead to increased retail participation, but also competition with other exchanges.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "listing",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Robinhood_IPO",
+        "crypto_trading_volume"
+      ],
+      "rationale": "Robinhood's IPO and its significant crypto trading volume highlight retail interest, but its impact on Bitcoin price is indirect and dependent on broader market sentiment."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n5931aa695245",
+      "title": "Shiba Inu Crisis: Breeders worried by Dogecoin abuse surge",
+      "url": "https://finance.yahoo.com/news/shiba-inu-crisis-breeders-worried-110019285.html",
+      "summary": "The popularity of Shiba Inu and Dogecoin, partly driven by Elon Musk and memes, is raising concerns about animal abuse. While this is a social issue, the mention of Dogecoin and its market cap highlights the broader meme coin phenomenon. The sentiment around meme coins can sometimes spill over into Bitcoin, but this specific news is unlikely to have a direct price impact.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "meme_coin_sentiment",
+        "Dogecoin_popularity"
+      ],
+      "rationale": "While this news focuses on animal welfare, the mention of Dogecoin and its market cap reflects the broader meme coin trend, which can indirectly influence overall crypto market sentiment."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n12a119b1de46",
+      "title": "Clearer Picture Revealed for Dorsey’s Decentralized BTC Exchange",
+      "url": "https://finance.yahoo.com/news/clearer-picture-revealed-dorsey-decentralized-134758128.html",
+      "summary": "Twitter founder Jack Dorsey is moving forward with his plan to build a decentralized Bitcoin exchange (TBD). He has called for community input on the project. This initiative aims to foster open platforms and decentralization within the Bitcoin ecosystem. Such developments in infrastructure can be positive for Bitcoin's long-term adoption and utility.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Dorsey_decentralized_exchange",
+        "TBD_project"
+      ],
+      "rationale": "Jack Dorsey's commitment to building a decentralized Bitcoin exchange is a significant development for the ecosystem, potentially enhancing Bitcoin's utility and adoption."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n952268bfcb07",
+      "title": "What Happens to Social Security When You Die?",
+      "url": "https://finance.yahoo.com/news/happens-social-security-die-192153059.html",
+      "summary": "This article discusses Social Security payments after death, focusing on survivor benefits. It is unrelated to cryptocurrency markets and has no direct impact on Bitcoin's price or volatility.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.1,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [],
+      "features_for_model": [
+        "irrelevant_news"
+      ],
+      "rationale": "This news is entirely unrelated to the cryptocurrency market and has no bearing on Bitcoin's price or volatility."
+    },
+    {
+      "pick_idx": 8,
+      "id": "na04b3bf5a81d",
+      "title": "UK Bitcoin Entrepreneur Taps into Spare Canadian Hydro Power to Launch Vancouver Venture with £500k Investment",
+      "url": "https://finance.yahoo.com/news/uk-bitcoin-entrepreneur-taps-spare-023700252.html",
+      "summary": "A UK Bitcoin entrepreneur is launching a Vancouver venture using spare Canadian hydro power, with a £500k investment. The company, Mine One Blockchain Inc., aims to list on the Toronto Stock Exchange. This news highlights the ongoing expansion of Bitcoin mining operations and the search for efficient energy sources, which is a positive development for network infrastructure.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_expansion",
+        "hydro_power_mining"
+      ],
+      "rationale": "Expansion of mining operations, especially with a focus on renewable energy, is a positive sign for the Bitcoin network's long-term health and decentralization."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n12a119b1de46",
+      "title": "Clearer Picture Revealed for Dorsey’s Decentralized BTC Exchange",
+      "url": "https://finance.yahoo.com/news/clearer-picture-revealed-dorsey-decentralized-134758128.html",
+      "summary": "Twitter founder Jack Dorsey is moving forward with his plan to build a decentralized Bitcoin exchange (TBD). He has called for community input on the project. This initiative aims to foster open platforms and decentralization within the Bitcoin ecosystem. Such developments in infrastructure can be positive for Bitcoin's long-term adoption and utility.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Dorsey_decentralized_exchange",
+        "TBD_project"
+      ],
+      "rationale": "Jack Dorsey's commitment to building a decentralized Bitcoin exchange is a significant development for the ecosystem, potentially enhancing Bitcoin's utility and adoption."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nc54c4739684c",
+      "title": "The Crypto Daily – Movers and Shakers – August 28th, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-august-002516629.html",
+      "summary": "Bitcoin rallied by 4.79% on Friday, reversing Thursday's losses and ending the day at $49,079.0. It broke through the first major resistance level at $48,713. The near-term bullish trend remains intact, supported by a return towards $50,000 levels. This indicates positive momentum in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "resistance_break"
+      ],
+      "rationale": "Bitcoin's strong Friday rally and break of resistance suggest continued upward momentum in the very short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-08-28",
+    "summary": "Bitcoin experienced a strong upward move on Friday, breaking key resistance levels and maintaining a bullish short-term trend. Long-term sentiment remains positive, driven by institutional adoption signals like JPMorgan offering crypto funds and Galaxy Digital's ETF filing. However, macro factors like USD strength present a potential headwind. Developments in decentralized infrastructure, such as Jack Dorsey's exchange plans, also contribute to a constructive outlook.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Potential regulatory crackdowns or unfavorable tax policies.",
+      "Macroeconomic shifts impacting risk asset appetite (e.g., USD strength).",
+      "Profit-taking after recent price rallies.",
+      "Technical resistance at higher price levels.",
+      "Unforeseen security breaches or exchange issues."
+    ],
+    "watch_items": [
+      "SEC decisions on pending Bitcoin ETF applications.",
+      "Statements from major financial institutions regarding crypto adoption.",
+      "Key macroeconomic data releases (inflation, employment).",
+      "Developments in Bitcoin mining and energy consumption.",
+      "On-chain metrics for whale activity and exchange flows."
+    ]
+  }
+}

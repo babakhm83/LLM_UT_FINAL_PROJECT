@@ -1,0 +1,513 @@
+{
+  "date": "2019-12-03",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n65bdf6813eb6",
+      "title": "Bitcoin shows signs of life with move towards $8,600",
+      "url": "https://finance.yahoo.com/news/bitcoin-shows-signs-life-move-120405131.html",
+      "summary": "Bitcoin rallied towards $8,600, coinciding with rising geopolitical tensions between China and the US. This suggests Bitcoin may be acting as a hedge against traditional financial system instability, similar to gold. Its decentralized nature continues to attract retail investors, though liquidity remains a concern. The ongoing trade war narrative provides a backdrop for potential safe-haven demand for Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "geopolitical_tension",
+        "safe_haven_asset",
+        "retail_demand"
+      ],
+      "rationale": "The article highlights Bitcoin's potential as a hedge against geopolitical instability, a theme that has historically driven its price. This suggests a longer-term trend of adoption as a non-sovereign store of value."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n2ce33aaabcb9",
+      "title": "SEC Draws on Investor Communications to Halt Telegram Token Launch",
+      "url": "https://finance.yahoo.com/news/sec-draws-investor-communications-halt-205006970.html",
+      "summary": "The SEC halted Telegram's $1.7 billion token launch, citing investor communications. This action underscores the SEC's increasing scrutiny of token offerings and its reliance on investor interactions to define securities. The case sets a precedent for how the SEC will approach future large-scale token sales, potentially impacting the regulatory landscape for similar projects.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SEC_enforcement",
+        "token_offering_regulation",
+        "Telegram_TON"
+      ],
+      "rationale": "This event signifies a significant regulatory action that could deter future large token sales and increase compliance burdens for crypto projects. It highlights the SEC's aggressive stance on unregistered securities, impacting broader market sentiment and adoption."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nda7cab8af718",
+      "title": "Bitcoin Has Failed But Global Stablecoins a Threat, Say BIS and G7",
+      "url": "https://finance.yahoo.com/news/bitcoin-failed-global-stablecoins-threat-091012049.html",
+      "summary": "A report from the G7 and Bank for International Settlements (BIS) suggests Bitcoin has failed as a payment or store of value. However, it identifies global stablecoins, like Libra, as a significant threat to monetary policy and financial stability. This dual assessment indicates a shift in regulatory focus from Bitcoin to the potential systemic risks posed by large-scale stablecoin adoption.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BIS_report",
+        "G7_statement",
+        "stablecoin_regulation",
+        "Libra_threat"
+      ],
+      "rationale": "The BIS and G7's view on Bitcoin's failure could dampen institutional interest, while their concern over stablecoins signals a potential regulatory crackdown on that segment, indirectly affecting the broader crypto market."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n45a7ef947f44",
+      "title": "Peer-to-peer Bitcoin marketplace Paxful now services 3 million wallets",
+      "url": "https://finance.yahoo.com/news/peer-peer-bitcoin-marketplace-paxful-090059879.html",
+      "summary": "Paxful, a peer-to-peer Bitcoin marketplace, has reached 3 million wallets, with significant growth in trading volume over the past year. This expansion, particularly in regions like Nigeria and Ghana, highlights the increasing adoption of P2P finance and entrepreneurship driven by Bitcoin. The growth in user adoption and trading activity on P2P platforms indicates a strengthening of Bitcoin's utility for everyday transactions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Paxful_growth",
+        "P2P_adoption",
+        "emerging_markets",
+        "wallet_growth"
+      ],
+      "rationale": "The significant user growth on Paxful demonstrates increasing real-world adoption and utility of Bitcoin, especially in emerging markets. This organic growth contributes to a more robust and decentralized ecosystem."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n5089aa6d1ad0",
+      "title": "Bitcoin Gets Hammered as China Clamps Down on Crypto Activity",
+      "url": "https://finance.yahoo.com/news/bitcoin-gets-hammered-china-clamps-150500067.html",
+      "summary": "Bitcoin experienced a significant price drop, breaching its 200-day moving average, following reports of China shutting down Binance's Shanghai offices. This action is part of a broader effort by Chinese authorities to curb cryptocurrency-related businesses. The crackdown signals a tightening regulatory environment in a major market, potentially impacting global sentiment and liquidity.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_crackdown",
+        "Binance_shutdown",
+        "regulatory_risk",
+        "BTC_price_drop"
+      ],
+      "rationale": "China's regulatory actions have historically had a significant impact on Bitcoin's price. This crackdown suggests a negative short-to-medium term outlook due to reduced access and potential fear among traders operating in or exposed to the Chinese market."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n093343bf2cfb",
+      "title": "Bitcoin plummets to a six-month low on China crackdown",
+      "url": "https://finance.yahoo.com/news/bitcoin-plummets-six-month-low-122647155.html",
+      "summary": "Bitcoin fell to a six-month low after the People's Bank of China intensified its crackdown on cryptocurrencies, warning investors about associated risks. The central bank's Shanghai headquarters announced measures to address illegal virtual currency activities. This regulatory pressure from a major global economy creates a bearish sentiment and could lead to further price declines.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_regulation",
+        "PBOC_crackdown",
+        "BTC_six_month_low",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "The direct action by China's central bank to curb crypto activities is a strong bearish signal. It indicates a significant regulatory headwind that could suppress prices and deter new investment from that region."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n41286771452e",
+      "title": "Chinese think tank head believes China will be first to issue central bank digital currency",
+      "url": "https://finance.yahoo.com/news/chinese-think-tank-head-believes-154106665.html",
+      "summary": "A senior Chinese government advisor predicts China will be the first to issue a sovereign digital currency, with the People's Bank of China studying the concept for years. This development, coupled with concerns about SWIFT and Libra, suggests a strategic move by China to potentially bypass existing financial systems and establish its own digital currency infrastructure. This could have long-term implications for global finance and Bitcoin's role.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "China_CBDC",
+        "digital_yuan",
+        "PBOC_study",
+        "SWIFT_alternative"
+      ],
+      "rationale": "China's potential launch of a CBDC could reshape global financial infrastructure, potentially competing with or influencing the development of decentralized currencies like Bitcoin, creating long-term uncertainty."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n614d20ab6902",
+      "title": "Bitcoin plunges to five-month low vs dollar after Zuckerberg testimony",
+      "url": "https://finance.yahoo.com/news/bitcoin-plunges-7-hit-five-152556390.html",
+      "summary": "Bitcoin dropped to a five-month low following Facebook CEO Mark Zuckerberg's testimony, where he expressed doubts about the Libra project's viability. This sentiment from a key figure in the crypto space, coupled with ongoing regulatory concerns, negatively impacts market confidence. The association of Bitcoin with projects facing regulatory headwinds can create a broader bearish sentiment.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Zuckerberg_testimony",
+        "Libra_doubts",
+        "BTC_five_month_low",
+        "regulatory_sentiment"
+      ],
+      "rationale": "Zuckerberg's cautious stance on Libra, a project with significant public attention, can cast a shadow over the broader crypto market, including Bitcoin, due to perceived regulatory risks and association."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n381c2bcffe64",
+      "title": "Daily death cross approaches as Bitcoin loses momentum above $8,000",
+      "url": "https://finance.yahoo.com/news/daily-death-cross-approaches-bitcoin-123842289.html",
+      "summary": "Bitcoin's daily chart is nearing a 'death cross' (50 EMA crossing below 200 EMA), a bearish technical indicator historically preceding significant price declines. Previous death crosses resulted in substantial drops. The loss of momentum above $8,000 further supports this bearish technical outlook, suggesting a potential extended correction.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "death_cross",
+        "EMA_crossover",
+        "BTC_momentum_loss",
+        "technical_analysis"
+      ],
+      "rationale": "The approaching death cross is a strong bearish technical signal that has historically preceded significant price drops. This suggests a high probability of a downward trend in the coming months."
+    },
+    {
+      "pick_idx": 44,
+      "id": "ne20fe506674d",
+      "title": "Hackers shut down Johannesburg with Bitcoin ransom",
+      "url": "https://finance.yahoo.com/news/hackers-shut-down-johannesburg-bitcoin-113835383.html",
+      "summary": "Hackers crippled Johannesburg's city authority systems, demanding a ransom in Bitcoin. This incident highlights the growing use of Bitcoin in ransomware attacks and the vulnerability of critical infrastructure. While not directly impacting Bitcoin's price, it raises concerns about security and the potential for negative public perception if such attacks become widespread.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "security"
+      ],
+      "features_for_model": [
+        "ransomware_attack",
+        "Johannesburg_hack",
+        "BTC_ransom",
+        "infrastructure_security"
+      ],
+      "rationale": "While this is a negative event for public perception, the direct impact on Bitcoin's price is likely minimal. However, it contributes to the ongoing narrative of security challenges within the crypto space."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "na48af1fa3364",
+      "title": "Todd Herman Talks The Alter Ego Effect, Success, and Bitcoin with Crypto Beadles",
+      "url": "https://finance.yahoo.com/news/todd-herman-talks-alter-ego-025500992.html",
+      "summary": "Crypto influencer Crypto Beadles interviews performance coach Todd Herman, discussing Bitcoin and blockchain. This is a content piece focused on general discussion and awareness, unlikely to have a direct, immediate price impact.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.2,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_influencer",
+        "podcast",
+        "blockchain_discussion"
+      ],
+      "rationale": "This is a content piece that may increase general awareness but lacks specific market-moving information or catalysts."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n875b011582b8",
+      "title": "Institutions Are Showing Interest in ETP Tied to Binance Coin, Amun Says",
+      "url": "https://finance.yahoo.com/news/institutions-showing-interest-etp-tied-103000505.html",
+      "summary": "Swiss provider Amun reports significant institutional interest in its Binance Coin (BNB) ETP, with a European roadshow fully booked. This indicates growing institutional appetite for crypto-related investment products, which could translate to increased capital inflows into the broader crypto market.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "institutional_interest",
+        "BNB_ETP",
+        "Amun",
+        "crypto_ETP"
+      ],
+      "rationale": "Positive sentiment from institutional investors regarding ETPs can lead to increased demand for underlying assets, potentially boosting Bitcoin's price."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n756b19f43f55",
+      "title": "Bitcoin to See Return of Bull Cross That Marked Onset of 2016-17 Price Rally",
+      "url": "https://finance.yahoo.com/news/bitcoin-see-return-bull-cross-111155344.html",
+      "summary": "Bitcoin's 50- and 100-week moving averages are poised for a bullish crossover, a pattern that preceded the 2016-17 bull run. This technical indicator suggests potential for a significant upward price movement in the medium term, with short-term resistance at $7,600.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bull_cross",
+        "50_100_week_MA",
+        "technical_indicator",
+        "2016_17_rally_comparison"
+      ],
+      "rationale": "A bullish crossover on weekly moving averages is a strong technical signal that historically precedes significant price rallies, suggesting a potential upward trend in the near future."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n7371c2827564",
+      "title": "WisdomTree Launches Physically Backed Bitcoin ETP on SIX Swiss Exchange",
+      "url": "https://finance.yahoo.com/news/wisdomtree-launches-physically-backed-bitcoin-120954873.html",
+      "summary": "WisdomTree has launched a physically backed Bitcoin ETP on the SIX Swiss Exchange. This product offers institutional investors easier access to Bitcoin, potentially increasing demand and liquidity. The listing itself is a positive development for crypto adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "WisdomTree_ETP",
+        "physically_backed_BTC",
+        "SIX_Swiss_Exchange",
+        "institutional_access"
+      ],
+      "rationale": "The launch of a physically backed Bitcoin ETP by a major ETF provider like WisdomTree signals increasing institutional acceptance and provides a regulated avenue for investment, potentially driving demand."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n8522a27593d7",
+      "title": "China’s Internet Firewall Has Blocked Access to Ethereum Block Explorer Etherscan.io",
+      "url": "https://finance.yahoo.com/news/china-internet-firewall-blocked-access-160520054.html",
+      "summary": "China's Great Firewall has blocked access to Etherscan.io, a popular Ethereum block explorer. This action indicates increased censorship and control over blockchain data access within China, potentially impacting the usability and perception of Ethereum for users in that region.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "China_censorship",
+        "Etherscan_block",
+        "Ethereum_access",
+        "Great_Firewall"
+      ],
+      "rationale": "While specific to Ethereum, this censorship highlights China's ongoing efforts to control information flow, which could indirectly affect Bitcoin sentiment by reinforcing regulatory concerns."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n29899f0137b6",
+      "title": "Online Lender SoFi Gets NY BitLicense, Clearing Way to Offer Crypto Trading",
+      "url": "https://finance.yahoo.com/news/student-lender-sofi-gets-ny-162913844.html",
+      "summary": "SoFi has obtained a New York BitLicense, allowing it to offer Bitcoin and other cryptocurrency trading services. This regulatory approval from a major financial hub signifies progress in the mainstream adoption of crypto services and could encourage other financial institutions to follow suit.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "SoFi_BitLicense",
+        "NYDFS_approval",
+        "crypto_trading_service",
+        "financial_institution_adoption"
+      ],
+      "rationale": "Regulatory approval for a financial services company like SoFi to offer crypto trading is a positive sign for mainstream adoption and can increase liquidity and accessibility."
+    },
+    {
+      "pick_idx": 12,
+      "id": "neb4cde78f84c",
+      "title": "WisdomTree launches new Bitcoin exchange-traded product",
+      "url": "https://finance.yahoo.com/news/wisdomtree-launches-bitcoin-exchange-traded-190048993.html",
+      "summary": "WisdomTree Europe has launched a physically-backed Bitcoin ETP, aiming to provide easier access for institutional investors. This product allows speculation on Bitcoin without direct ownership, catering to institutional demand for regulated crypto exposure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "WisdomTree_ETP",
+        "physically_backed_BTC",
+        "institutional_access",
+        "digital_asset_appetite"
+      ],
+      "rationale": "The introduction of a new, physically-backed Bitcoin ETP by a reputable firm like WisdomTree is a bullish signal for institutional adoption and could lead to increased capital flows into Bitcoin."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n604e171e666d",
+      "title": "Bitcoin is boring now",
+      "url": "https://finance.yahoo.com/news/bitcoin-boring-now-204401038.html",
+      "summary": "Bitcoin has been trading in a narrow range ($7,000-$9,000) for two months, leading to a perception of market stagnation. This lack of volatility and significant price movement could lead to reduced trading interest and potentially lower volumes in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "low_volatility",
+        "sideways_trading",
+        "market_stagnation",
+        "reduced_interest"
+      ],
+      "rationale": "The current low volatility and perceived 'boring' market conditions might lead to a short-term decrease in trading activity and potentially a slight downward pressure if momentum traders exit."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n756b19f43f55",
+      "title": "Bitcoin to See Return of Bull Cross That Marked Onset of 2016-17 Price Rally",
+      "url": "https://finance.yahoo.com/news/bitcoin-see-return-bull-cross-111155344.html",
+      "summary": "Bitcoin's 50- and 100-week moving averages are on track for a bullish crossover, mirroring the signal that preceded the 2016-17 bull market. This technical indicator suggests a potential for significant price appreciation in the coming weeks, with short-term resistance at $7,600.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bull_cross",
+        "50_100_week_MA",
+        "technical_indicator",
+        "2016_17_rally_comparison"
+      ],
+      "rationale": "The impending bullish crossover on weekly MAs is a strong technical signal that historically precedes substantial price increases, indicating a likely upward trend in the short to medium term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n7371c2827564",
+      "title": "WisdomTree Launches Physically Backed Bitcoin ETP on SIX Swiss Exchange",
+      "url": "https://finance.yahoo.com/news/wisdomtree-launches-physically-backed-bitcoin-120954873.html",
+      "summary": "WisdomTree has launched a physically backed Bitcoin ETP on the SIX Swiss Exchange. This product offers institutional investors easier access to Bitcoin, potentially increasing demand and liquidity. The listing itself is a positive development for crypto adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "WisdomTree_ETP",
+        "physically_backed_BTC",
+        "SIX_Swiss_Exchange",
+        "institutional_access"
+      ],
+      "rationale": "The launch of a physically backed Bitcoin ETP by a major ETF provider like WisdomTree signals increasing institutional acceptance and provides a regulated avenue for investment, potentially driving demand."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-12-03",
+    "summary": "The market is showing mixed signals today. Long-term, institutional interest in crypto ETPs is growing, with WisdomTree launching a new physically backed Bitcoin ETP, and Amun reporting strong interest in its BNB ETP. This suggests increasing institutional adoption. However, China's continued regulatory crackdown and the blocking of Etherscan.io highlight ongoing risks. Technically, Bitcoin is approaching a bullish crossover on weekly moving averages, a pattern that historically preceded bull runs, suggesting potential upside. The current low volatility might lead to reduced short-term trading interest.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued regulatory pressure from China and other jurisdictions.",
+      "Potential for increased volatility if the bullish technical signals fail to materialize.",
+      "Low market volatility could lead to decreased trading volume and interest.",
+      "Security risks associated with exchanges and potential hacks ('not your keys, not your coins').",
+      "Geopolitical tensions could introduce broader market instability."
+    ],
+    "watch_items": [
+      "WisdomTree Bitcoin ETP trading volume",
+      "Amun ETP institutional interest updates",
+      "Bitcoin's price action around $7,600 resistance",
+      "Developments in China's CBDC project",
+      "Any further regulatory announcements from major economies"
+    ]
+  }
+}

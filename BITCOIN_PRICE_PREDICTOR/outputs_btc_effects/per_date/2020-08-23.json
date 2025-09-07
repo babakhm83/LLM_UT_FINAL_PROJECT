@@ -1,0 +1,350 @@
+{
+  "date": "2020-08-23",
+  "long_term": [
+    {
+      "pick_idx": 7,
+      "id": "nc2317e8eb91b",
+      "title": "Bitcoin Up 27% in First Half of 2020, Beating Gold, Silver and Platinum",
+      "url": "https://finance.yahoo.com/news/bitcoin-27-first-half-2020-192331766.html",
+      "summary": "Bitcoin demonstrated strong performance in the first half of 2020, outperforming traditional safe-haven assets like gold, silver, and platinum. Its 27% rally indicated increasing investor interest and its growing correlation with equity markets, suggesting it's becoming a more established asset class. This trend highlights Bitcoin's potential as a store of value and a growth asset, especially in a macro environment characterized by economic uncertainty and quantitative easing.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_H1_performance",
+        "gold_vs_BTC",
+        "equity_correlation"
+      ],
+      "rationale": "Bitcoin's outperformance against traditional assets signals increasing adoption and acceptance as a digital store of value. This trend is likely to continue as investors seek alternative assets in a low-yield environment."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n63d17d1b9378",
+      "title": "Bitcoin Futures Interest Soars as Bond Yields Fall to Record Lows: Industry Exec",
+      "url": "https://finance.yahoo.com/news/bitcoin-futures-interest-soars-bond-122045034.html",
+      "summary": "Record interest in Bitcoin futures, reaching $5.6 billion in open interest, coincides with falling bond yields. This suggests a shift of institutional capital seeking higher returns in alternative assets. The surge in CME Bitcoin futures, a key indicator for institutional adoption, points to growing confidence in Bitcoin as an investment vehicle, driven by a lack of attractive yields in traditional fixed-income markets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_futures_open_interest",
+        "bond_yields",
+        "institutional_adoption"
+      ],
+      "rationale": "The increasing institutional interest in Bitcoin futures, driven by low bond yields, indicates a growing demand for digital assets from traditional finance. This trend is a strong indicator of long-term bullish sentiment."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd8aaa678212c",
+      "title": "First Mover: The Dollar Drop May Have Helped Push Bitcoin Past $11K",
+      "url": "https://finance.yahoo.com/news/first-mover-dollar-drop-may-112727668.html",
+      "summary": "A weakening U.S. dollar correlated with a significant Bitcoin price surge, pushing it past $11,000 to a new 2020 high. This suggests Bitcoin is increasingly acting as a hedge against currency devaluation, similar to gold. The trend indicates that macroeconomic factors, particularly the dollar's performance, are becoming significant drivers of Bitcoin's price, reinforcing its narrative as a digital store of value.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "USD_index",
+        "BTC_price_USD",
+        "inflation_hedge"
+      ],
+      "rationale": "The inverse correlation between the USD and BTC prices suggests Bitcoin is gaining traction as a hedge against currency debasement. This macro trend is likely to persist, supporting higher BTC prices."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n7b506633097c",
+      "title": "Fueled by bitcoin’s rise, Bakkt reports record high volumes for its bitcoin futures market",
+      "url": "https://finance.yahoo.com/news/fueled-bitcoin-rise-bakkt-reports-230445268.html",
+      "summary": "Bakkt's physically-settled bitcoin futures market recorded its largest single-day volume, trading 11,509 BTC, worth nearly $114 million. This surge, an 84% increase from its previous all-time high, reflects growing institutional participation and demand for regulated Bitcoin derivatives. The increased activity on Bakkt signals a maturing market infrastructure and growing institutional acceptance of Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bakkt_volume",
+        "BTC_futures_market",
+        "institutional_demand"
+      ],
+      "rationale": "Record volumes on Bakkt indicate increasing institutional adoption of regulated Bitcoin products. This growing demand from institutional players is a positive sign for long-term price appreciation."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n3ff85eba82ec",
+      "title": "Market Wrap: Bitcoin Cracks $12.4K; DeFi Crosses $6B Locked",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-cracks-12-204002681.html",
+      "summary": "Bitcoin surpassed $12.4K with higher-than-normal volume, indicating strong buying pressure. Simultaneously, Decentralized Finance (DeFi) saw over $6 billion locked in its protocols, showcasing robust growth in the Ethereum ecosystem. The dual strength in Bitcoin and DeFi suggests a healthy overall crypto market, with both core infrastructure and emerging applications experiencing significant traction.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "BTC_price_breakout",
+        "DeFi_TVL",
+        "ETH_ecosystem_growth"
+      ],
+      "rationale": "Bitcoin's price breakout above $12.4K, coupled with the significant growth in DeFi, signals strong market momentum. This indicates broad-based adoption and increasing utility within the crypto space."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n4f8480704ed7",
+      "title": "Blockchain Bites: CENTRE’s Blacklist, Brazil’s Stablecoin Boom and Coinbase Is Going Public?",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-centre-blacklist-brazil-160500520.html",
+      "summary": "Coinbase is reportedly preparing for a U.S. stock market listing in early 2021. This move would significantly increase the visibility and accessibility of the cryptocurrency industry to traditional investors. A successful IPO could lead to substantial capital inflows and further legitimize the crypto market, potentially driving broader adoption and price appreciation.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_IPO",
+        "exchange_listing",
+        "traditional_finance_integration"
+      ],
+      "rationale": "Coinbase's potential IPO is a major step towards mainstream adoption, bridging traditional finance with crypto. This could unlock significant capital and further validate the asset class."
+    },
+    {
+      "pick_idx": 38,
+      "id": "nc176b787bceb",
+      "title": "Money Reimagined: Bitcoin and Ethereum Are a DeFi Double Act",
+      "url": "https://finance.yahoo.com/news/money-reimagined-bitcoin-ethereum-defi-151427587.html",
+      "summary": "The increasing amount of tokenized Bitcoin (WBTC) on the Ethereum network highlights the growing synergy between the two largest cryptocurrencies. This integration allows Bitcoin holders to participate in the burgeoning DeFi ecosystem, increasing Bitcoin's utility and potentially driving demand. The trend suggests a collaborative future where different blockchain networks complement each other.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "DeFi",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "WBTC_on_ETH",
+        "DeFi_integration",
+        "BTC_utility"
+      ],
+      "rationale": "The increasing use of tokenized Bitcoin on Ethereum for DeFi applications enhances Bitcoin's utility and drives demand. This cross-chain interaction is a positive development for the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n88c85bf4de0d",
+      "title": "PayPal is Set to Make Cryptocurrency Trading Mainstream?",
+      "url": "https://finance.yahoo.com/news/paypal-set-cryptocurrency-trading-mainstream-143609231.html",
+      "summary": "Rumors and confirmed plans suggest PayPal will soon offer cryptocurrency trading. As the largest traditional finance platform to support digital assets, this move could onboard millions of new users and significantly boost mainstream adoption. The integration of crypto into PayPal's vast user base would provide unprecedented access and liquidity to the market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "PayPal_crypto_integration",
+        "payment_gateway",
+        "mass_adoption"
+      ],
+      "rationale": "PayPal's entry into crypto trading is a game-changer for mainstream adoption, potentially bringing millions of new users into the market. This significantly increases liquidity and demand for cryptocurrencies."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n6823b5bb21e2",
+      "title": "Why Ukraine Is Ripe for Cryptocurrency Adoption",
+      "url": "https://finance.yahoo.com/news/why-ukraine-ripe-cryptocurrency-adoption-151502469.html",
+      "summary": "Ukraine's unstable political climate and tech-savvy population create a fertile ground for cryptocurrency adoption. The government's engagement with crypto entrepreneurs to shape digital currency regulations signals a proactive approach. This environment fosters a natural shift towards crypto as a hedge against economic instability and a tool for financial freedom.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Ukraine_crypto_adoption",
+        "regulatory_framework",
+        "economic_instability_hedge"
+      ],
+      "rationale": "Ukraine's unique socio-economic conditions, combined with a proactive regulatory stance, position it as a strong candidate for widespread crypto adoption. This adoption can serve as a model for other emerging markets."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n6ef927d55305",
+      "title": "Market Wrap: Bitcoin Dips to $11.5K; Cardano Is Making a Big DeFi Move",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-dips-11-204530386.html",
+      "summary": "While Bitcoin experienced a slight dip to $11.5K, the news highlights Cardano's significant move into the DeFi space. This indicates a broadening of DeFi innovation beyond Ethereum, potentially increasing competition and driving overall market growth. The expansion of DeFi to other blockchains suggests a maturing ecosystem and increased utility for various cryptocurrencies.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "DeFi",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "BTC_price_dip",
+        "Cardano_DeFi",
+        "ecosystem_expansion"
+      ],
+      "rationale": "The expansion of DeFi to other blockchains like Cardano, even amidst minor Bitcoin price corrections, shows the growing utility and adoption of decentralized finance. This diversification is a positive sign for the crypto market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nfe6fec2423cc",
+      "title": "The Crypto Daily – Movers and Shakers – August 23rd, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-august-002306068.html",
+      "summary": "Bitcoin rose 1.24% on Saturday, partially reversing Friday's losses, to close at $11,673.5. Despite an early morning dip, it found support and rallied to a high of $11,692.0, falling short of the $11,783.67 resistance. The near-term bullish trend remains intact, supported by the move towards $12,000 levels.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_daily_change",
+        "support_resistance_levels"
+      ],
+      "rationale": "Bitcoin showed resilience by recovering from an intraday dip, maintaining a near-term bullish trend. This suggests continued upward momentum in the immediate short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n4c38b50716de",
+      "title": "Former Nexus Mutual CTO Launches PlotX - a Uniswap for Prediction Markets",
+      "url": "https://finance.yahoo.com/news/former-nexus-mutual-cto-launches-121500765.html",
+      "summary": "PlotX, a non-custodial prediction market protocol, has launched on the Ethereum Kovan Testnet. Developed by former Nexus Mutual and GovBlocks developers, it features a novel automated market-making algorithm for on-chain market creation, pricing, settlement, and reward distribution without counterparties. The first application built on PlotX launched on August 4th.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "DeFi",
+        "protocol"
+      ],
+      "features_for_model": [
+        "PlotX_launch",
+        "prediction_markets",
+        "Ethereum_DeFi"
+      ],
+      "rationale": "The launch of PlotX on a testnet is a development in the prediction market space. Its impact on immediate price action is uncertain, but it signals innovation within the DeFi sector."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nfe6fec2423cc",
+      "title": "The Crypto Daily – Movers and Shakers – August 23rd, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-august-002306068.html",
+      "summary": "Bitcoin, BTC to USD, rose by 1.24% on Saturday. Partially reversing a 2.81% loss from Friday, Bitcoin ended the day at $11,673.5. It was a bearish start to the day. Bitcoin slid to an early morning intraday low $11,369.5 before finding support. The reversal saw Bitcoin fall through the first major support level at $11,379.67 before rising to a late intraday high $11,692.0. Falling short of the first major resistance level at $11,783.67, Bitcoin wrapped up the day at sub-$11,700 levels. The near-term bullish trend remained intact, supported by the latest move through to $12,000 levels.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_movement",
+        "support_resistance_test"
+      ],
+      "rationale": "Bitcoin's ability to recover from an intraday dip and maintain a bullish trend suggests underlying strength. This positive momentum is likely to continue in the very short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n4c38b50716de",
+      "title": "Former Nexus Mutual CTO Launches PlotX - a Uniswap for Prediction Markets",
+      "url": "https://finance.yahoo.com/news/former-nexus-mutual-cto-launches-121500765.html",
+      "summary": "PlotX, a non-custodial prediction market protocol, has launched on the Ethereum Kovan Testnet. Ideated by former Nexus Mutual and GovBlocks developers, PlotX is challenging existing prediction market projects with its novel automated and decentralized market-making algorithm that allows for on-chain market creation, option pricing, settlement and reward distribution - without the need for any counterparty. On August 4, the first application built on PlotX protocol was launched, allowing users to predict on markets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "DeFi",
+        "protocol"
+      ],
+      "features_for_model": [
+        "PlotX_protocol_launch",
+        "prediction_market_innovation",
+        "ETH_DeFi_development"
+      ],
+      "rationale": "The launch of PlotX on a testnet is a positive development for DeFi innovation. While its immediate price impact is uncertain, it contributes to the growing utility of the Ethereum ecosystem."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-08-23",
+    "summary": "Bitcoin showed resilience on Saturday, recovering from an intraday dip and maintaining a near-term bullish trend, supported by the move towards $12,000 levels. The launch of PlotX, a new prediction market protocol on Ethereum's testnet, signals ongoing innovation in the DeFi space. Long-term, the market is influenced by strong institutional interest in Bitcoin futures, the potential Coinbase IPO, and PayPal's planned entry into crypto trading, all pointing towards increased adoption and potential price appreciation. The weakening USD also continues to support Bitcoin as a hedge.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Potential for sharp price reversals due to high volatility.",
+      "Regulatory uncertainty in various jurisdictions.",
+      "Technical vulnerabilities in smart contracts or exchanges.",
+      "Macroeconomic shifts impacting risk appetite.",
+      "Competition from other digital assets and traditional finance."
+    ],
+    "watch_items": [
+      "BTC price action around $12,000 resistance.",
+      "Developments in major DeFi protocols.",
+      "News regarding institutional adoption (e.g., further Bakkt volume increases).",
+      "Updates on potential regulatory changes.",
+      "PayPal's official announcement and rollout of crypto services."
+    ]
+  }
+}

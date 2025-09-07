@@ -1,0 +1,498 @@
+{
+  "date": "2021-11-20",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "na64aaa8a293b",
+      "title": "Ethereum Catalysts on the Rise as Bulls Keep Control",
+      "url": "https://finance.yahoo.com/news/ethereum-catalysts-rise-bulls-keep-133317589.html",
+      "summary": "Ethereum is nearing its all-time high, benefiting from a rising DeFi market with a total value locked (TVL) of $217 billion. The Ethereum blockchain alone accounts for $150 billion of this TVL. This growth in DeFi, coupled with its position as the second-largest cryptocurrency, suggests continued positive momentum for ETH.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "DeFi_TVL",
+        "ETH_price_momentum",
+        "ETH_adoption"
+      ],
+      "rationale": "The increasing total value locked in DeFi, with a significant portion on the Ethereum network, indicates strong utility and adoption. This sustained growth is a fundamental driver for Ethereum's long-term value."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nfe8cc4e99896",
+      "title": "Bitcoin could rise 10 times in price but I just don’t care, says JPMorgan CEO",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-rise-10-times-150040493.html",
+      "summary": "JPMorgan CEO Jamie Dimon, while acknowledging Bitcoin's potential for significant price appreciation over five years, remains a critic and personally uninterested in owning it. Despite his skepticism, JPMorgan has begun offering cryptocurrency funds to its wealth management clients, indicating a strategic move to cater to client demand despite leadership's personal views.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "JPM_CEO_sentiment",
+        "institutional_adoption_funds",
+        "BTC_price_potential"
+      ],
+      "rationale": "Dimon's comments highlight the dichotomy between institutional interest and personal skepticism. While his personal view is bearish, the bank's offering of crypto funds signals a growing institutional acceptance, creating a mixed signal for the long term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n0ade15c0736f",
+      "title": "Carl Icahn sees a market 'crisis' brewing and notes bitcoin's potential if inflation spirals",
+      "url": "https://finance.yahoo.com/news/carl-icahn-sees-market-crisis-190839289.html",
+      "summary": "Billionaire investor Carl Icahn warns of an impending market \"crisis\" driven by excessive money printing and rising inflation. While not an investor in Bitcoin himself, he acknowledges its potential value as a hedge against rampant inflation, suggesting it could perform well if inflationary pressures continue to escalate significantly.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Icahn_inflation_hedge_view",
+        "BTC_inflation_potential",
+        "market_crisis_sentiment"
+      ],
+      "rationale": "Icahn's view on inflation as a driver for Bitcoin's value positions it as a potential safe haven asset in a deteriorating macroeconomic environment. This macro outlook could significantly boost demand for Bitcoin."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n39b9bd750fa7",
+      "title": "China Outlaws Cryptocurrency Transactions and Crypto Mining, Bitcoin Value Plunges",
+      "url": "https://finance.yahoo.com/news/china-outlaws-cryptocurrency-transactions-crypto-211844556.html",
+      "summary": "China has declared all cryptocurrency transactions illegal and banned crypto mining, leading to a significant drop in Bitcoin's value. The People's Bank of China stated that crypto-related business activities are illegal financial activities, signaling a strict regulatory stance against cryptocurrencies within the country.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_crypto_ban",
+        "BTC_price_impact",
+        "mining_crackdown"
+      ],
+      "rationale": "China's regulatory crackdown on crypto mining and transactions has a substantial impact on global hash rates and market sentiment. This event represents a significant bearish factor due to the scale of the ban."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nb0d81c1a7204",
+      "title": "UPDATE 1-IMF chief says Europe can avoid debt crisis, hard to think of Bitcoin as money",
+      "url": "https://finance.yahoo.com/news/1-imf-chief-says-europe-145343177.html",
+      "summary": "IMF Managing Director Kristalina Georgieva believes Europe can avoid a debt crisis through fiscal consolidation. She also expressed skepticism about Bitcoin and other crypto assets, finding it difficult to consider them as money. Georgieva favors central bank digital currencies (CBDCs) as the most reliable form of digital money.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "IMF_BTC_sentiment",
+        "Europe_debt_crisis",
+        "CBDC_vs_BTC"
+      ],
+      "rationale": "The IMF chief's cautious stance on Bitcoin as money, while favoring CBDCs, reflects a broader regulatory uncertainty. This sentiment from a major financial institution can influence institutional adoption and public perception."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n9d9757a3dd37",
+      "title": "Crypto Funds Doubled Inflows Last Week, Bitcoin Leads the Pack",
+      "url": "https://finance.yahoo.com/news/crypto-funds-doubled-inflows-last-071544712.html",
+      "summary": "CoinShares reports that digital asset investment funds saw doubled inflows in the past week, with Bitcoin attracting the majority of new capital ($225 million). This surge in inflows, occurring despite China's recent crypto ban, indicates strong investor confidence and demand for Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_fund_inflows",
+        "BTC_institutional_demand",
+        "capital_flow"
+      ],
+      "rationale": "The significant increase in inflows into crypto funds, particularly Bitcoin, demonstrates growing institutional interest and capital allocation. This trend is a strong indicator of positive market sentiment and potential price appreciation."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n35f7c05ea25c",
+      "title": "Bitcoin ETFs look to shed 'energy hog' image with carbon offsets",
+      "url": "https://finance.yahoo.com/news/bitcoin-et-fs-look-to-shed-energy-hog-image-with-carbon-offsets-110100425.html",
+      "summary": "Asset managers are introducing \"carbon neutral\" classes for Bitcoin and Ether ETFs by channeling fees into carbon offsets. This initiative aims to address concerns about the energy consumption of digital currencies, making these ETFs more appealing to environmentally conscious investors.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BTC_ETF_ESG",
+        "carbon_neutral_crypto",
+        "investor_sentiment_ESG"
+      ],
+      "rationale": "Addressing the environmental concerns surrounding Bitcoin mining through carbon offsets can improve its public image and attract a broader investor base, including those focused on ESG factors."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n1cc9721c1612",
+      "title": "Bitcoin bull run: analysts predict record rally to end 2021",
+      "url": "https://finance.yahoo.com/news/bitcoins-price-is-up-and-analysts-predict-ludicrously-strong-q-4-090922113.html",
+      "summary": "Analysts predict a strong fourth quarter for cryptocurrencies, with Bitcoin holding above $50,000. Positive sentiment is bolstered by reassurances from the US regarding crypto regulation and news of George Soros's investment firm owning Bitcoin. This suggests a favorable outlook for the remainder of 2021.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_Q4_rally_prediction",
+        "Soros_BTC_holding",
+        "US_crypto_regulation_sentiment"
+      ],
+      "rationale": "Analyst predictions of a strong Q4 rally, combined with positive institutional signals like Soros's investment and favorable US regulatory sentiment, create a bullish environment for Bitcoin."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n7275d8cae082",
+      "title": "Jefferies’ Wood Urges Banks to Embrace Blockchain, Add More Bitcoin Exposure",
+      "url": "https://finance.yahoo.com/news/jefferies-wood-urges-banks-embrace-182521447.html",
+      "summary": "Jefferies Global Head of Equity Strategy Christopher Wood advises banks to adopt blockchain technology and increase their Bitcoin holdings while reducing gold exposure. He believes blockchain can disrupt traditional finance by eliminating intermediaries, urging banks to profit from it rather than be disrupted.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Jefferies_blockchain_adoption",
+        "BTC_exposure_recommendation",
+        "banks_disruption_risk"
+      ],
+      "rationale": "This recommendation from a prominent equity strategist suggests a significant shift in institutional thinking towards embracing blockchain and Bitcoin. Increased bank exposure could lead to substantial capital inflows."
+    },
+    {
+      "pick_idx": 40,
+      "id": "nb84d0158dfeb",
+      "title": "Digihost Announces Over 6,000 M30 Bitcoin Miners Received or in Transit Since Mid-October",
+      "url": "https://finance.yahoo.com/news/digihost-announces-over-6-000-110000159.html",
+      "summary": "Digihost Technology Inc., a Bitcoin self-mining company, has received or has in transit over 6,000 new M30 Bitcoin miners since mid-October. This expansion of mining capacity is expected to increase their operational efficiency and Bitcoin production.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Digihost_miner_expansion",
+        "BTC_mining_capacity",
+        "hashrate_increase"
+      ],
+      "rationale": "The significant increase in mining hardware for Digihost directly translates to increased hashrate and potential Bitcoin production. This expansion is a positive development for the company and contributes to the overall network hashrate."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n984e8fcb3b84",
+      "title": "The Crypto Daily – Movers and Shakers – November 20th, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-november-013158448.html",
+      "summary": "Bitcoin rose 2.11% on Friday, partially reversing a Thursday slide. It found support at $55,364 and rallied to $58,379, falling short of resistance at $59,754. The near-term bullish trend remains intact despite the pullback.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_daily_move",
+        "BTC_support_resistance"
+      ],
+      "rationale": "Bitcoin showed resilience by recovering some losses on Friday, indicating underlying buying interest that could sustain upward momentum in the immediate short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n96d95084eb91",
+      "title": "Bitcoin was looking good as an inflation hedge — then it plunged nearly 20%",
+      "url": "https://finance.yahoo.com/news/bitcoin-looking-good-inflation-hedge-100000857.html",
+      "summary": "Bitcoin initially surged on positive inflation data but then plunged nearly 20%, highlighting its volatility. Many large players consider it too risky for hedging or diversification, suggesting a cautious short-term outlook.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_inflation_hedge_fail",
+        "BTC_volatility_spike",
+        "investor_caution"
+      ],
+      "rationale": "The sharp decline after an initial rally demonstrates Bitcoin's high volatility and its unreliability as a short-term inflation hedge, suggesting potential for further downside in the coming days."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n25603661361d",
+      "title": "Elon Musk sells $8.8B in Tesla shares to pay for taxes on stock options",
+      "url": "null",
+      "summary": "Elon Musk is selling $8.8 billion in Tesla shares to cover taxes on stock options. This news, while not directly related to crypto, can impact overall market sentiment and liquidity, potentially influencing risk assets like Bitcoin.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Musk_Tesla_selloff",
+        "market_liquidity_impact",
+        "risk_asset_sentiment"
+      ],
+      "rationale": "Large-scale stock sales by prominent figures can sometimes lead to broader market adjustments, potentially creating a ripple effect on risk assets, though the direct impact on Bitcoin is uncertain."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nac63a21b580f",
+      "title": "Coin Worth $0.00004893 Highlights Crypto’s Wild Decimal Frontier",
+      "url": "https://finance.yahoo.com/news/coin-worth-0-00004893-highlights-150000809.html",
+      "summary": "The article discusses the extreme decimal values of some cryptocurrencies like Shiba Inu, highlighting the speculative nature and volatility of these assets. This points to a market driven by hype and retail interest rather than fundamental value in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "volatility",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SHIB_price_decimal",
+        "meme_coin_volatility",
+        "retail_speculation"
+      ],
+      "rationale": "The focus on extremely low-priced, highly speculative cryptocurrencies like Shiba Inu suggests a market segment prone to rapid pumps and dumps, which can contribute to overall market volatility."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n96d95084eb91",
+      "title": "Bitcoin was looking good as an inflation hedge — then it plunged nearly 20%",
+      "url": "https://finance.yahoo.com/news/bitcoin-looking-good-inflation-hedge-100000857.html",
+      "summary": "Bitcoin initially surged on positive inflation data but then plunged nearly 20%, highlighting its volatility. Many large players consider it too risky for hedging or diversification, suggesting a cautious short-term outlook.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_inflation_hedge_fail",
+        "BTC_volatility_spike",
+        "investor_caution"
+      ],
+      "rationale": "The sharp decline after an initial rally demonstrates Bitcoin's high volatility and its unreliability as a short-term inflation hedge, suggesting potential for further downside in the coming days."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n984e8fcb3b84",
+      "title": "The Crypto Daily – Movers and Shakers – November 20th, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-november-013158448.html",
+      "summary": "Bitcoin rose 2.11% on Friday, partially reversing a Thursday slide. It found support at $55,364 and rallied to $58,379, falling short of resistance at $59,754. The near-term bullish trend remains intact despite the pullback.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_daily_move",
+        "BTC_support_resistance"
+      ],
+      "rationale": "Bitcoin showed resilience by recovering some losses on Friday, indicating underlying buying interest that could sustain upward momentum in the immediate short term."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nbaea9ccc0854",
+      "title": "Bitcoin was looking good as an inflation hedge — then it plunged nearly 20%",
+      "url": "https://finance.yahoo.com/news/bitcoin-looking-good-inflation-hedge-100000857.html",
+      "summary": "Bitcoin initially surged on positive inflation data but then plunged nearly 20%, highlighting its volatility. Many large players consider it too risky for hedging or diversification, suggesting a cautious short-term outlook.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_inflation_hedge_fail",
+        "BTC_volatility_spike",
+        "investor_caution"
+      ],
+      "rationale": "The sharp decline after an initial rally demonstrates Bitcoin's high volatility and its unreliability as a short-term inflation hedge, suggesting potential for further downside in the coming days."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n7a230256c070",
+      "title": "Instagram star Alexis Ren says the dollar-based economy is 'collapsing' so she's going into crypto",
+      "url": "https://finance.yahoo.com/news/instagram-star-alexis-ren-says-110000294.html",
+      "summary": "Model Alexis Ren believes the US dollar economy is collapsing and sees crypto as a viable alternative, encouraging regular investment. Her sentiment reflects a growing distrust in traditional financial systems among some public figures.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Alexis_Ren_crypto_advocacy",
+        "dollar_economy_sentiment",
+        "celebrity_adoption"
+      ],
+      "rationale": "While individual celebrity endorsements have limited direct impact, they contribute to broader awareness and adoption, potentially influencing a small segment of retail investors in the short term."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nf7bcf6c77f8c",
+      "title": "Paul Pogba Becomes the Latest Athlete to Enter the NFT Space",
+      "url": "https://finance.yahoo.com/news/paul-pogba-becomes-latest-athlete-133507308.html",
+      "summary": "Football star Paul Pogba has partnered with CryptoDragons Metaverse, entering the NFT space. This move by a high-profile athlete highlights the growing trend of celebrities engaging with NFTs and the broader crypto market.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "Pogba_NFT_entry",
+        "athlete_NFT_trend",
+        "celebrity_crypto_engagement"
+      ],
+      "rationale": "High-profile athlete involvement in NFTs and crypto can generate positive buzz and attract new users to the space, potentially boosting interest and trading volume in the short term."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n826696b2e702",
+      "title": "Market Wrap: Cryptocurrencies Slide as Buyers Stick to the Sidelines",
+      "url": "https://www.coindesk.com/markets/2021/11/18/market-wrap-cryptocurrencies-slide-as-buyers-stick-to-the-sidelines/",
+      "summary": "Cryptocurrencies are sliding as buyers remain cautious, with Bitcoin declining towards a three-week low around $56,000 before stabilizing near $58,000. Analysts are cautious about Bitcoin's short-term direction due to the loss of upside momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_decline",
+        "buyer_caution",
+        "loss_of_momentum"
+      ],
+      "rationale": "The observed slide and cautious buyer behavior indicate a bearish short-term trend, with a loss of upside momentum suggesting potential for further price decreases in the immediate future."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-11-20",
+    "summary": "Bitcoin experienced a mixed day, showing some recovery after Thursday's decline, but overall market sentiment remains cautious due to recent volatility and a loss of upside momentum. Key long-term drivers include increasing institutional adoption and the ongoing debate around Bitcoin as an inflation hedge, while short-term factors are dominated by price action and investor caution following a significant pullback.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued high volatility impacting short-term price stability.",
+      "Regulatory uncertainty from major economies could dampen sentiment.",
+      "Macroeconomic factors like inflation and interest rate hikes remain a significant influence.",
+      "Potential for profit-taking after recent price run-ups.",
+      "The ongoing debate about Bitcoin's effectiveness as an inflation hedge."
+    ],
+    "watch_items": [
+      "Bitcoin price action around key support/resistance levels ($56k-$60k).",
+      "Developments in US regulatory stance on crypto.",
+      "Major institutional fund flows into digital assets.",
+      "Any further commentary from central banks on digital currencies.",
+      "Performance of major altcoins relative to Bitcoin."
+    ]
+  }
+}

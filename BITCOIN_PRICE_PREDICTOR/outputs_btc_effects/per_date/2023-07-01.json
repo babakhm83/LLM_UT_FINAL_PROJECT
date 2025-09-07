@@ -1,0 +1,469 @@
+{
+  "date": "2023-07-01",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n2bb1a46a02bd",
+      "title": "5 ETFs Harnessing the Power of the Bitcoin Surge",
+      "url": "https://finance.yahoo.com/news/5-etfs-harnessing-power-bitcoin-151000471.html",
+      "summary": "The article highlights the resurgence of Bitcoin, surpassing $30,000, driven by institutional interest and the potential for ETF approvals. It mentions ETFs like Valkyrie Bitcoin Mine as ways investors can participate in the rally. This indicates growing institutional adoption and a potential catalyst for increased demand and price appreciation for Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "ETF_approval_anticipation",
+        "institutional_adoption"
+      ],
+      "rationale": "The increasing interest in Bitcoin ETFs from major players like Fidelity suggests a significant pathway for institutional capital to enter the market. This could lead to sustained demand and price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb9e7726b2b78",
+      "title": "Strike launches global money app to 3 billion people in over 65 countries",
+      "url": "https://finance.yahoo.com/news/strike-launches-global-money-app-210000320.html",
+      "summary": "Strike's global expansion to over 65 countries, making its payment and Bitcoin services accessible to nearly 3 billion people, signifies a major push for Bitcoin adoption in emerging markets. This broadens the user base and utility of Bitcoin for remittances and payments, potentially driving demand and network effects.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "global_adoption_expansion",
+        "remittance_use_case"
+      ],
+      "rationale": "Strike's aggressive global rollout significantly expands Bitcoin's accessibility for everyday transactions and remittances. This widespread adoption can lead to increased utility and demand, positively impacting Bitcoin's long-term value."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n9907dddb1795",
+      "title": "A New Bitcoin Mining Giant Prepares to Enter the Fray",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-giant-prepares-enter-185521588.html",
+      "summary": "The merger of Hut 8 Mining and U.S. Bitcoin Corp creates a significant North American mining entity with a substantial hashrate. This consolidation could lead to increased efficiency and economies of scale in Bitcoin mining operations, potentially impacting the network's security and the profitability of miners.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "mining_consolidation",
+        "hashrate_increase"
+      ],
+      "rationale": "The creation of a larger mining entity could lead to more efficient operations and potentially influence network hashrate. However, the impact on Bitcoin's price is indirect and depends on various market factors."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n9dcc01fb9e9f",
+      "title": "Tether To Put 15% of Realized Profits Into Bitcoin",
+      "url": "https://finance.yahoo.com/news/tether-put-15-realized-profits-020939489.html",
+      "summary": "Tether, the largest stablecoin issuer, announced a new strategy to allocate up to 15% of its realized profits to purchase Bitcoin for its reserves. This move signifies a significant commitment from a major player in the crypto ecosystem to directly support Bitcoin's market through consistent buying pressure.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "stablecoin_reserve_diversification",
+        "Tether_BTC_buy"
+      ],
+      "rationale": "Tether's decision to regularly buy Bitcoin with its profits creates a consistent demand source. As a major stablecoin issuer, this action can significantly influence market sentiment and provide a steady upward pressure on Bitcoin's price."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n3a14302f90ad",
+      "title": "The Petrodollar and Its Discontents Point to Bitcoin's Role in the Financial Future",
+      "url": "https://finance.yahoo.com/news/petrodollar-discontents-point-bitcoins-role-174706123.html",
+      "summary": "The article discusses the potential shift away from the petrodollar system by oil-producing nations, suggesting Bitcoin could play a role in a future financial landscape less reliant on the US dollar. This geopolitical trend could increase demand for alternative stores of value and mediums of exchange.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "de_dollarization_trend",
+        "alternative_reserve_asset"
+      ],
+      "rationale": "A potential weakening of the petrodollar system could drive demand for Bitcoin as a global reserve asset, especially if nations seek to diversify away from USD-denominated assets."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nf25ee9148b5d",
+      "title": "Coinbase offshore exchange launches with Bitcoin and Ethereum futures",
+      "url": "https://finance.yahoo.com/news/coinbase-offshore-exchange-launches-bitcoin-130000571.html",
+      "summary": "Coinbase's launch of an international exchange in Bermuda, offering Bitcoin and Ethereum futures, indicates an expansion of regulated derivatives trading for crypto assets. This move caters to institutional demand and provides more sophisticated investment products, potentially increasing market depth and liquidity.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "offshore_exchange_launch",
+        "crypto_derivatives_expansion"
+      ],
+      "rationale": "The expansion of regulated crypto derivatives by a major exchange like Coinbase can attract more institutional capital and provide hedging tools, contributing to market maturity and stability."
+    },
+    {
+      "pick_idx": 29,
+      "id": "nd6792e58a452",
+      "title": "Crypto Tokens' Status as Securities or Commodities Is Key to SEC's Binance, Coinbase Suits: Bernstein",
+      "url": "https://finance.yahoo.com/news/crypto-tokens-status-securities-commodities-104124510.html",
+      "summary": "Bernstein highlights that the classification of crypto tokens as securities or commodities is central to the SEC's legal actions against Binance and Coinbase. The outcome of these cases, particularly the Ripple lawsuit, will set precedents for regulatory clarity, impacting the entire crypto industry.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_enforcement_clarity",
+        "securities_vs_commodities"
+      ],
+      "rationale": "Regulatory clarity from ongoing SEC lawsuits is crucial. A favorable outcome for the industry could unlock significant institutional investment, while adverse rulings could create headwinds."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nd746014e0e25",
+      "title": "BlackRock Files Bitcoin ETF Application With the SEC",
+      "url": "https://finance.yahoo.com/news/blackrock-filing-bitcoin-etf-application-162706451.html",
+      "summary": "BlackRock, the world's largest asset manager, has filed an application for a spot Bitcoin ETF with the SEC, partnering with Coinbase for custody and data. This is a significant development, as BlackRock's involvement could pave the way for broader institutional adoption and increased liquidity.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_filing",
+        "institutional_demand_signal"
+      ],
+      "rationale": "BlackRock's filing for a spot Bitcoin ETF is a major validation for the asset class. If approved, it could unlock substantial institutional capital, leading to significant price appreciation and increased market stability."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n3007fa3857d2",
+      "title": "Tether Says It Will Buy Bitcoin for Stablecoin Reserves Using Realized Profits",
+      "url": "https://finance.yahoo.com/news/tether-says-buy-bitcoin-stablecoin-120000144.html",
+      "summary": "Tether plans to regularly purchase Bitcoin for its reserves using a portion of its profits, starting this month. This new investment strategy by the largest stablecoin issuer demonstrates a strong commitment to Bitcoin as a reserve asset, potentially creating consistent buying pressure.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Tether_BTC_buy_program",
+        "stablecoin_reserve_strategy"
+      ],
+      "rationale": "Tether's commitment to buying Bitcoin with profits provides a consistent demand floor. This strategic allocation by a major stablecoin issuer can significantly bolster market confidence and price stability."
+    },
+    {
+      "pick_idx": 46,
+      "id": "nd4f747f08505",
+      "title": "Coinbase Initiated at Hold, Likely To Face Enforcement Action From SEC: Berenberg",
+      "url": "https://finance.yahoo.com/news/coinbase-initiated-hold-likely-face-070513631.html",
+      "summary": "Berenberg suggests the SEC will likely bring enforcement action against Coinbase, similar to actions against Bittrex and Kraken. This indicates ongoing regulatory scrutiny on major exchanges, which could impact their operations and profitability, and by extension, market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_action_Coinbase",
+        "exchange_regulatory_risk"
+      ],
+      "rationale": "The potential for SEC enforcement action against Coinbase introduces regulatory uncertainty. This could lead to increased compliance costs or operational restrictions, potentially impacting investor sentiment and trading volumes."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n7f152ed9b135",
+      "title": "US stocks jump to close strong 2nd quarter as Nasdaq has best first half in decades",
+      "url": "https://finance.yahoo.com/news/us-stocks-jump-close-strong-042022381.html",
+      "summary": "US stocks, particularly the Nasdaq, closed a strong second quarter with significant gains, fueled by AI enthusiasm and positive economic data. This broad market strength can create a positive risk-on sentiment, potentially benefiting Bitcoin as a risk asset.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "ETF"
+      ],
+      "features_for_model": [
+        "stock_market_performance",
+        "risk_on_sentiment"
+      ],
+      "rationale": "A strong performance in traditional markets, especially tech stocks, often correlates with positive sentiment for risk assets like Bitcoin, suggesting a potential short-term uplift."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nb347e08a1766",
+      "title": "Crypto Markets End Q2 On A High Note",
+      "url": "https://finance.yahoo.com/news/crypto-markets-end-q2-high-042918833.html",
+      "summary": "Crypto markets finished the second quarter positively, with Bitcoin trading sideways around $30,300 and Ether rallying. This indicates a period of consolidation and potential upward momentum, especially with major financial institutions revisiting ETF filings.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "macro"
+      ],
+      "features_for_model": [
+        "Q2_crypto_performance",
+        "ETF_filing_updates"
+      ],
+      "rationale": "The positive close to Q2 and ongoing developments with ETF filings suggest continued positive sentiment and potential for short-term price appreciation."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n2480feb17e15",
+      "title": "Blockchain Alliance’s Raj Kapoor says the technology can reshape India’s governance systems",
+      "url": "https://finance.yahoo.com/news/india-blockchain-alliance-raj-kapoor-123000487.html",
+      "summary": "Raj Kapoor of the India Blockchain Alliance believes blockchain can reshape India's governance. While the government has warned about crypto trading risks, it supports blockchain technology, with states adopting it for real estate to reduce fraud. This indicates growing blockchain adoption in a major economy.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "India_blockchain_adoption",
+        "governance_tech_integration"
+      ],
+      "rationale": "While focused on blockchain technology broadly, positive regulatory signals and adoption in a large economy like India can indirectly benefit Bitcoin's ecosystem and sentiment."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nab2e01de4230",
+      "title": "This Week In Coins: Bitcoin Unmoved, But Proof-of-Work Classics Bitcoin Cash and Litecoin Moon",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-unmoved-pow-211028750.html",
+      "summary": "Bitcoin remained relatively stable this week, trading within a narrow range, while Bitcoin Cash and Litecoin saw significant gains. This suggests a rotation within the crypto market, with some altcoins outperforming Bitcoin, but Bitcoin's stability provides a foundation.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "BTC_price_stability",
+        "altcoin_rotation"
+      ],
+      "rationale": "Bitcoin's price stability, despite altcoin rallies, indicates a consolidation phase. This could precede a breakout or a continuation of sideways movement, making short-term direction uncertain."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n564d2764484b",
+      "title": "Bitcoin Well Announces Shares for Debt",
+      "url": "https://finance.yahoo.com/news/bitcoin-well-announces-shares-debt-020000924.html",
+      "summary": "Bitcoin Well Inc. is issuing common shares to settle debt related to an acquisition. This is a common financial maneuver for companies, and the issuance of shares at a specific price point can have a minor impact on the company's stock but is unlikely to significantly affect Bitcoin's price.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "company_debt_settlement",
+        "share_issuance"
+      ],
+      "rationale": "This is a company-specific financial event for a Bitcoin mining company. Its direct impact on Bitcoin's price is negligible, but it reflects ongoing operational adjustments within the mining sector."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nab2e01de4230",
+      "title": "This Week In Coins: Bitcoin Unmoved, But Proof-of-Work Classics Bitcoin Cash and Litecoin Moon",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-unmoved-pow-211028750.html",
+      "summary": "Bitcoin experienced a relatively flat week with limited price volatility, while Bitcoin Cash and Litecoin saw substantial gains. This suggests a potential shift in market focus towards specific altcoins, but Bitcoin's underlying stability remains.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "BTC_price_range",
+        "altcoin_outperformance"
+      ],
+      "rationale": "Bitcoin's price stability amidst altcoin rallies indicates a market that is not uniformly bullish. This could signal a period of consolidation before a potential move, making short-term direction uncertain."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n7f152ed9b135",
+      "title": "US stocks jump to close strong 2nd quarter as Nasdaq has best first half in decades",
+      "url": "https://finance.yahoo.com/news/us-stocks-jump-close-strong-042022381.html",
+      "summary": "The Nasdaq achieved its best first half in decades, with strong gains in mega-cap tech stocks driven by AI enthusiasm. This positive performance in traditional markets often correlates with increased risk appetite, which can spill over into cryptocurrencies like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "AI_sentiment"
+      ],
+      "features_for_model": [
+        "stock_market_rally",
+        "tech_sector_strength"
+      ],
+      "rationale": "A strong performance in the broader stock market, particularly in tech, often creates a positive sentiment for risk assets, potentially boosting Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nb347e08a1766",
+      "title": "Crypto Markets End Q2 On A High Note",
+      "url": "https://finance.yahoo.com/news/crypto-markets-end-q2-high-042918833.html",
+      "summary": "Crypto markets concluded the second quarter on a positive note, with Bitcoin trading sideways around $30,300 and Ether showing strength. The market sentiment is buoyed by major financial institutions reconsidering Bitcoin ETF filings, suggesting potential for continued positive momentum.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "macro"
+      ],
+      "features_for_model": [
+        "Q2_crypto_performance",
+        "ETF_filing_activity"
+      ],
+      "rationale": "The positive end to the quarter and the ongoing developments with major ETF filings suggest a favorable short-term outlook for crypto markets, including Bitcoin."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n3d45f1c53253",
+      "title": "5 Stocks That AI Predicts Will Double Your Money in a Year",
+      "url": "https://finance.yahoo.com/news/5-stocks-ai-predicts-double-130022857.html",
+      "summary": "This article discusses an AI tool's stock predictions, highlighting the growing influence of AI in financial markets. While not directly about Bitcoin, the broader trend of AI adoption and its impact on investment strategies could indirectly influence capital flows into digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "AI_sentiment"
+      ],
+      "features_for_model": [
+        "AI_stock_predictions",
+        "investment_tool_adoption"
+      ],
+      "rationale": "The increasing integration of AI in financial analysis and prediction is a growing trend. While this specific article focuses on stocks, the broader AI narrative could indirectly influence investor sentiment towards technology and innovation, including crypto."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nab2e01de4230",
+      "title": "This Week In Coins: Bitcoin Unmoved, But Proof-of-Work Classics Bitcoin Cash and Litecoin Moon",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-unmoved-pow-211028750.html",
+      "summary": "Bitcoin experienced a week of low volatility, trading within a tight range, while Bitcoin Cash and Litecoin saw significant price increases. This suggests a potential rotation of capital within the crypto market, with some altcoins outperforming Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "BTC_price_consolidation",
+        "altcoin_momentum"
+      ],
+      "rationale": "Bitcoin's price stability, while altcoins rally, indicates a market that is not uniformly bullish. This could lead to continued sideways movement or a potential shift in momentum, making short-term direction uncertain."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-07-01",
+    "summary": "The crypto market closed Q2 on a positive note, with Bitcoin showing stability around $30,300 while Ether saw gains. Traditional markets also performed strongly, particularly tech stocks, driven by AI enthusiasm, which often correlates with positive sentiment for risk assets like Bitcoin. However, ongoing regulatory scrutiny from the SEC on major exchanges like Coinbase introduces uncertainty. The news of BlackRock filing for a spot Bitcoin ETF remains a significant long-term bullish signal, while Tether's commitment to buying Bitcoin with profits adds consistent demand.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Continued SEC enforcement actions against crypto exchanges.",
+      "Broader macroeconomic factors impacting risk asset appetite.",
+      "Potential for increased regulatory uncertainty globally.",
+      "Volatility in altcoin markets potentially drawing liquidity away from Bitcoin."
+    ],
+    "watch_items": [
+      "SEC pronouncements on crypto regulations.",
+      "Developments regarding spot Bitcoin ETF applications (e.g., BlackRock, Fidelity).",
+      "Macroeconomic data releases (inflation, interest rates).",
+      "Performance of major tech stocks.",
+      "Tether's ongoing Bitcoin purchasing activity."
+    ]
+  }
+}

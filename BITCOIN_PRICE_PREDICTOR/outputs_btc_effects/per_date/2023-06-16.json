@@ -1,0 +1,535 @@
+{
+  "date": "2023-06-16",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n12b2cc17f879",
+      "title": "Mawson Infrastructure Group Inc. Announces Monthly Operational Update for May 2023",
+      "url": "https://finance.yahoo.com/news/mawson-infrastructure-group-inc-announces-123000408.html",
+      "summary": "Mawson Infrastructure Group reported a significant increase in operational capacity and miner deployment for May 2023. Total installed miners grew by 133%, and total BTC mining increased by 76% month-over-month. The company's operational capacity reached approximately 88 Megawatts, supporting 27,636 miners. Mawson also highlighted a diversified revenue mix from self-mining, hosting, and energy market programs. This expansion in mining infrastructure and operational efficiency suggests a positive outlook for the company's Bitcoin production capabilities.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "miner_deployment",
+        "mining_capacity_MW",
+        "hashrate_growth",
+        "operational_efficiency"
+      ],
+      "rationale": "Increased mining capacity and operational efficiency directly translate to higher Bitcoin production. This expansion by a publicly traded company indicates growing confidence and investment in the Bitcoin mining sector, which is a fundamental driver of network security and value."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nc2232432b186",
+      "title": "Bitcoin records first monthly loss of 2023 as Fed ponders additional rate hikes",
+      "url": "https://finance.yahoo.com/news/bitcoin-records-first-monthly-loss-151742160.html",
+      "summary": "Bitcoin experienced its first monthly loss in May 2023, declining by approximately 4.6%, underperforming stocks, bonds, and gold. This downturn occurred as the Federal Reserve considered further interest rate hikes. Despite the monthly dip, the Bitcoin network saw increased activity due to the growing popularity of NFTs, specifically Ordinals, which involve inscribing media onto the smallest Bitcoin denominations. This indicates a mixed short-term performance influenced by macro factors but with underlying network innovation.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "monthly_price_performance",
+        "interest_rate_hikes",
+        "Ordinals_adoption",
+        "network_activity"
+      ],
+      "rationale": "The monthly loss highlights the sensitivity of Bitcoin to macroeconomic conditions, particularly interest rate policies. However, the increasing adoption of Ordinals suggests a growing use case and developer interest within the Bitcoin ecosystem, which could provide long-term support."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n9a078a2b3e47",
+      "title": "Blockchain-Based, AI Compute Protocol Gensyn Closes $43M Series A Funding Round Led by a16z",
+      "url": "https://finance.yahoo.com/news/blockchain-based-ai-compute-protocol-230000415.html",
+      "summary": "Gensyn, a blockchain-based computing protocol for AI, secured $43 million in Series A funding led by a16z. The protocol enables developers to build AI systems using decentralized hardware, paying on demand. It utilizes cryptographic verification to ensure the correct completion of machine learning work. This funding round signifies significant institutional interest and investment in the intersection of blockchain technology and artificial intelligence, potentially driving innovation and adoption in both fields.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "AI_blockchain_integration",
+        "Venture_Capital_funding",
+        "decentralized_compute",
+        "a16z_investment"
+      ],
+      "rationale": "This substantial funding for a protocol integrating AI and blockchain points to a significant future growth area. It suggests that blockchain technology is being leveraged for more sophisticated applications beyond simple transactions, potentially increasing demand for underlying crypto assets and infrastructure."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nd17e3495df3d",
+      "title": "Fahrenheit Wins Bid to Acquire Assets of Insolvent Crypto Lender Celsius",
+      "url": "https://finance.yahoo.com/news/fahrenheit-wins-bid-acquire-assets-063831747.html",
+      "summary": "A crypto consortium named Fahrenheit has won the bid to acquire the assets of the insolvent crypto lender Celsius Network, with assets previously valued at around $2 billion. The acquisition includes Celsius's institutional loan portfolio, staked cryptocurrencies, mining unit, and other investments. This development is significant for the crypto lending sector, as it represents a potential restructuring and continuation of operations for a major player, which could impact market sentiment and liquidity.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Celsius_acquisition",
+        "crypto_lending_restructuring",
+        "institutional_assets",
+        "market_liquidity"
+      ],
+      "rationale": "The acquisition of Celsius by Fahrenheit could lead to a more stable operational environment for its assets, potentially unlocking liquidity or leading to a more orderly wind-down. The outcome will depend on Fahrenheit's strategy and regulatory approvals, making the immediate impact uncertain but the long-term implications for the lending sector significant."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n0051ed52f012",
+      "title": "Time to Invest in the Growth of FinTech?",
+      "url": "https://finance.yahoo.com/news/time-invest-growth-fintech-033903520.html",
+      "summary": "The financial technology (fintech) market is projected to reach $700 billion by 2030, growing at a compound annual growth rate (CAGR) of over 20%. Currently valued at over $200 billion, fintech is poised for substantial expansion as innovation continues. This growth trend in fintech, which often integrates with or is disrupted by blockchain and cryptocurrency technologies, suggests a positive environment for digital asset adoption and infrastructure development.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "fintech_market_growth",
+        "CAGR_fintech",
+        "digital_asset_integration",
+        "financial_innovation"
+      ],
+      "rationale": "The strong projected growth of the fintech sector indicates a broader trend towards digital financial services. As cryptocurrencies and blockchain become more integrated into fintech solutions, this expansion can drive increased adoption and demand for digital assets like Bitcoin."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n14a255933871",
+      "title": "BRC-721E Token Standard Converts Ethereum NFTs to Bitcoin NFTs",
+      "url": "https://finance.yahoo.com/news/brc-721e-token-standard-converts-171907019.html",
+      "summary": "A new token standard, BRC-721E, has been introduced to enable the conversion of Ethereum-based NFTs to Bitcoin NFTs. Developed in collaboration with Ordinals Market and Xverse wallet, this standard acts as a bridge between the Ethereum and Bitcoin networks. This innovation facilitates the transfer of NFT assets to the Bitcoin blockchain, potentially increasing utility and adoption of Bitcoin-based NFTs and expanding the reach of the NFT market.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BRC721E_standard",
+        "NFT_interoperability",
+        "Bitcoin_NFTs",
+        "Ethereum_Bitcoin_bridge"
+      ],
+      "rationale": "The ability to bridge NFTs between Ethereum and Bitcoin significantly enhances the utility and potential user base for Bitcoin-based NFTs. This cross-chain innovation can drive greater adoption of Bitcoin's Ordinals protocol and increase overall network activity."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nc6bc4943e850",
+      "title": "Argentina’s Payment Apps Can No Longer Offer Crypto",
+      "url": "https://finance.yahoo.com/news/argentina-payment-apps-no-longer-021532472.html",
+      "summary": "Argentina's central bank has prohibited payment providers from enabling crypto transactions on their platforms, citing a need to reduce the exposure of the country's payment system to unregulated digital assets. This new rule affects both fintech payment providers and financial institutions offering payment accounts. The decision could significantly impact the local crypto industry, indicating a tightening regulatory environment in some emerging markets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Argentina_crypto_ban",
+        "payment_app_regulation",
+        "emerging_market_regulation",
+        "digital_asset_exposure"
+      ],
+      "rationale": "Regulatory crackdowns in key markets can stifle adoption and create uncertainty. While this is specific to Argentina, it reflects a broader trend of regulatory scrutiny that could impact global crypto adoption if similar measures are implemented elsewhere."
+    },
+    {
+      "pick_idx": 35,
+      "id": "ne76405cfda24",
+      "title": "Hong Kong's Crypto Licensing Regime Expected to Launch Next Month",
+      "url": "https://finance.yahoo.com/news/hong-kongs-crypto-licensing-regime-103021570.html",
+      "summary": "Hong Kong's new crypto licensing regime is anticipated to launch in May, with the Securities and Futures Commission (SFC) set to release final guidelines for crypto exchanges. This move aims to establish Hong Kong as a crypto hub, with over 150 responses received during the public consultation process. The framework seeks to balance retail investor access with regulatory oversight, potentially attracting significant trading volume and innovation to the region.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Hong_Kong_crypto_licensing",
+        "crypto_hub_ambition",
+        "SFC_guidelines",
+        "retail_investor_access"
+      ],
+      "rationale": "The establishment of a clear regulatory framework in a major financial center like Hong Kong can foster institutional adoption and attract businesses. This regulatory clarity is crucial for the long-term growth and mainstream acceptance of cryptocurrencies."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n5acbac9e1225",
+      "title": "SYS Labs' Rollux Primed to Launch: Stronger, Cheaper, Faster, Better",
+      "url": "https://finance.yahoo.com/news/sys-labs-rollux-primed-launch-135000943.html",
+      "summary": "SYS Labs is set to launch its EVM-L2 scaling platform, Rollux, on June 28, 2023. Rollux aims to provide speed, security, affordability, and scalability, key components for mass adoption in the blockchain industry. Following a successful closed dry-run and positive testnet feedback, the platform is poised to offer enhanced performance for blockchain applications, potentially driving greater utility and user engagement within the ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Rollux_launch",
+        "EVM_L2_scaling",
+        "blockchain_scalability",
+        "mass_adoption_infrastructure"
+      ],
+      "rationale": "The launch of new Layer 2 scaling solutions is critical for improving blockchain performance and reducing transaction costs. Rollux's focus on speed, affordability, and scalability could attract more developers and users, increasing the overall utility and demand for underlying blockchain networks."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n89f6f05b0cd6",
+      "title": "Jack Dorsey's Block Snaps Up Bitcoin Mining Chip as Intel Winds Down Production",
+      "url": "https://finance.yahoo.com/news/jack-dorseys-block-snaps-bitcoin-123000790.html",
+      "summary": "Jack Dorsey's fintech company Block has acquired a significant number of Bitcoin mining chips from Intel, which is winding down its production. This move accelerates Block's entry into the mining hardware market. Intel's decision to discontinue its Bitcoin mining ASIC production by April 2024, coupled with Block's strategic purchase, highlights a shift in the mining hardware landscape and Block's commitment to developing its own mining solutions.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "hardware"
+      ],
+      "features_for_model": [
+        "Block_mining_chips",
+        "Intel_ASIC_discontinuation",
+        "mining_hardware_market",
+        "Jack_Dorsey_investment"
+      ],
+      "rationale": "Block's strategic acquisition of mining chips and its push into hardware development signals a growing interest from major tech players in the Bitcoin mining infrastructure. This can lead to more efficient and competitive mining hardware, benefiting the network's security and decentralization."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nebcb6db0c14a",
+      "title": "BlackRock Bitcoin ETF Is the ‘Real Deal’—Is This Finally the One?",
+      "url": "https://finance.yahoo.com/news/blackrock-bitcoin-etf-real-deal-220256528.html",
+      "summary": "BlackRock, managing $9.5 trillion in assets, has filed an application with the U.S. SEC for a spot Bitcoin ETF. This move by a major financial institution, despite a tough regulatory environment, is seen as a significant development for the crypto industry. Experts suggest the product, though technically a trust, functions as a true ETF, potentially opening doors for broader institutional adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_filing",
+        "SEC_approval_potential",
+        "institutional_adoption_catalyst",
+        "spot_Bitcoin_ETF"
+      ],
+      "rationale": "The filing of a spot Bitcoin ETF by BlackRock is a monumental event that could significantly increase institutional demand and legitimize Bitcoin as an asset class. This is likely to drive positive price action in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n94ba316363e8",
+      "title": "Bitcoin Wallet Bitkey Announces Partnerships with Coinbase and Cash App",
+      "url": "https://finance.yahoo.com/news/bitcoin-wallet-bitkey-announces-partnerships-031719028.html",
+      "summary": "Block's Bitkey wallet is partnering with Coinbase and Cash App to enhance self-custody of Bitcoin. This collaboration aims to make it easier for users to purchase Bitcoin on Coinbase and transfer it to their non-custodial Bitkey wallet. The partnership focuses on user-friendliness and advanced security features, potentially driving adoption of self-custody solutions.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitkey_Coinbase_partnership",
+        "Cash_App_integration",
+        "self_custody_adoption",
+        "user_experience_enhancement"
+      ],
+      "rationale": "Partnerships that simplify the process of acquiring and holding Bitcoin can lead to increased user adoption. This integration with popular platforms like Coinbase and Cash App could drive short-term demand and on-ramping."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n34408161ac0d",
+      "title": "Newly Released Documents Detail Tether’s Exposure to Chinese Securities",
+      "url": "https://finance.yahoo.com/news/newly-released-documents-detail-tether-230943657.html",
+      "summary": "Financial documents reveal that Tether backed its USDT stablecoin partly with Chinese commercial paper as of 2021. These documents, obtained via a Freedom of Information Law request, also detail Tether's banking partners and a $5.1B loan program. This disclosure sheds light on the composition of reserves backing USDT, addressing long-standing concerns about its backing.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "Tether_reserve_composition",
+        "Chinese_commercial_paper",
+        "USDT_backing_transparency",
+        "stablecoin_risk"
+      ],
+      "rationale": "The revelation of Tether's exposure to Chinese securities could raise concerns about the stability and backing of USDT. Any perceived instability in a major stablecoin can lead to broader market volatility and a flight to safety."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb4f497d4a9aa",
+      "title": "BlackRock’s Bitcoin ETF Would Be a Big Deal",
+      "url": "https://finance.yahoo.com/news/blackrock-bitcoin-etf-big-deal-203000245.html",
+      "summary": "BlackRock's iShares unit has filed paperwork with the SEC for a spot Bitcoin ETF, named the iShares Bitcoin Trust. This filing by the world's largest asset manager is considered a significant event, potentially paving the way for greater institutional access to Bitcoin. The structure of the fund, whether ETF or trust, is a point of discussion, but the overall implication is a major step towards mainstream adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_filing",
+        "iShares_Bitcoin_Trust",
+        "institutional_access",
+        "spot_Bitcoin_ETF"
+      ],
+      "rationale": "The filing of a spot Bitcoin ETF by BlackRock is a highly anticipated event that could significantly boost Bitcoin's legitimacy and attract substantial capital from institutional investors, leading to a positive short-term price impact."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na53a48a68bba",
+      "title": "BlockRock’s iShares Files for Spot Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/blockrock-ishares-files-spot-bitcoin-030820030.html",
+      "summary": "BlackRock, the world's largest investment firm, has applied for a spot Bitcoin ETF in the U.S., a potential first if approved by the SEC. The iShares Bitcoin Trust would offer investors access to Bitcoin without direct ownership complexities, using Coinbase Custody as its custodian. The fund would track the CF Benchmarks Index.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_application",
+        "iShares_Bitcoin_Trust",
+        "Coinbase_custody",
+        "spot_Bitcoin_ETF"
+      ],
+      "rationale": "BlackRock's application for a spot Bitcoin ETF is a major catalyst for institutional adoption, potentially driving significant inflows and positive price action in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n528f1a19a2b4",
+      "title": "Politics Is Interested in Crypto, Even if Crypto Isn't Interested in Politics",
+      "url": "https://finance.yahoo.com/news/politics-interested-crypto-even-crypto-154121159.html",
+      "summary": "The SEC's recent actions against Coinbase and Binance highlight a critical juncture for crypto regulation in the U.S. The lack of a clear crypto-specific regulatory framework, despite these enforcement actions, suggests a challenging path forward for the industry within the United States. This regulatory uncertainty could push innovation and volume to other jurisdictions.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_enforcement_actions",
+        "crypto_regulation_uncertainty",
+        "Coinbase_lawsuit",
+        "Binance_lawsuit"
+      ],
+      "rationale": "The ongoing regulatory crackdown by the SEC against major exchanges creates significant uncertainty and potential headwinds for the crypto market, likely leading to short-term price pressure and reduced liquidity."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n24bb16ec0509",
+      "title": "Weekly Market Wrap: Crypto lawsuits, Hinman and a rare rate hike pause",
+      "url": "https://finance.yahoo.com/news/weekly-market-wrap-crypto-lawsuits-123546625.html",
+      "summary": "Bitcoin fell 3.47% from June 9 to June 16, dipping below $25,000 for the first time in three months before recovering. Ether also saw a significant weekly loss. The crypto market sentiment remains weighed down by the SEC's lawsuits against Binance and Coinbase. The Federal Reserve's decision to pause interest rate hikes provided some relief, but regulatory concerns continue to dominate.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "ETF"
+      ],
+      "features_for_model": [
+        "weekly_price_performance",
+        "SEC_lawsuits_impact",
+        "Fed_rate_hike_pause",
+        "market_sentiment"
+      ],
+      "rationale": "The combination of SEC lawsuits and a Fed rate pause creates a mixed short-term outlook. While the pause might be seen as bullish, the regulatory actions are a significant overhang, leading to price volatility."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n67fe85f38aa0",
+      "title": "Bakkt to Delist Solana, Cardano and Polygon Following SEC Lawsuits",
+      "url": "https://finance.yahoo.com/news/bakkt-delist-solana-cardano-polygon-173432431.html",
+      "summary": "Bakkt, a digital asset custodian, will delist Solana, Cardano, and Polygon due to a lack of regulatory clarity following the SEC's lawsuits against major exchanges. This decision reflects the growing impact of regulatory uncertainty on altcoins, potentially leading to reduced liquidity and trading volume for these assets.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "listing",
+        "legal"
+      ],
+      "features_for_model": [
+        "Bakkt_delisting",
+        "Solana_Cardano_Polygon",
+        "regulatory_clarity_impact",
+        "altcoin_liquidity"
+      ],
+      "rationale": "The delisting of major altcoins by a custodian due to regulatory uncertainty highlights the immediate negative impact of SEC actions on specific assets, potentially causing short-term price drops and reduced trading activity for these tokens."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n13d9811cb3e4",
+      "title": "Bitcoin Shorts Lose $16M as BlackRock ETF Filing Sparks Bullish Outlook",
+      "url": "https://finance.yahoo.com/news/bitcoin-shorts-lose-16m-blackrock-063931387.html",
+      "summary": "Hopes surrounding BlackRock's potential Bitcoin ETF filing have fueled a bullish sentiment, causing Bitcoin to regain the $25,500 level and erasing recent declines. This positive sentiment also provided respite to tokens like MATIC and ADA. Dogecoin and Litecoin saw gains. The news of BlackRock's planned ETF offering with crypto integration is a key driver of this optimism.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "ETF",
+        "sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_sentiment",
+        "short_liquidation",
+        "bullish_outlook",
+        "Bitcoin_price_recovery"
+      ],
+      "rationale": "The market reaction to the BlackRock ETF filing has been overwhelmingly positive, leading to short liquidations and a price rally. This indicates strong short-term bullish momentum driven by institutional interest."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n3b087e37cd21",
+      "title": "Jack Dorsey Pledges $5M to Help Bitcoin Core Developers",
+      "url": "https://finance.yahoo.com/news/jack-dorsey-pledges-5m-help-135738424.html",
+      "summary": "Jack Dorsey is donating $5 million over five years to Brink, an organization that funds open-source developers for Bitcoin. This contribution, made through his Start Small initiative, will support core developers working on the Bitcoin network. Such funding is crucial for the ongoing development and security of the Bitcoin protocol.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Jack_Dorsey_donation",
+        "Brink_funding",
+        "Bitcoin_Core_developers",
+        "open_source_development"
+      ],
+      "rationale": "Direct funding for Bitcoin's core development is essential for its long-term health and innovation. While not a direct price catalyst, it strengthens the underlying protocol, which is a positive signal for the ecosystem."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-06-16",
+    "summary": "The dominant narrative today is BlackRock's filing for a spot Bitcoin ETF, which has injected significant bullish sentiment into the market, driving prices up and liquidating short positions. This institutional interest is a major positive catalyst. However, ongoing regulatory actions by the SEC against major exchanges like Coinbase and Binance continue to cast a shadow, creating uncertainty for altcoins and the broader market. The Fed's pause on interest rate hikes offers some macro support, but regulatory clarity remains the key factor for sustained growth.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "SEC approval of BlackRock's ETF remains uncertain and could face delays or rejection.",
+      "Continued regulatory scrutiny and enforcement actions against crypto exchanges could lead to further market volatility.",
+      "Potential instability or de-pegging events related to major stablecoins like USDT could trigger broader market contagion.",
+      "The broader macroeconomic environment, including inflation and interest rate decisions, could still negatively impact risk assets.",
+      "The delisting of altcoins by custodians due to regulatory uncertainty may signal a broader shift away from less regulated assets."
+    ],
+    "watch_items": [
+      "BlackRock ETF filing progress and SEC response timeline",
+      "Developments in SEC lawsuits against Coinbase and Binance",
+      "Tether's reserve composition and any market reaction",
+      "Volume and liquidity on centralized exchanges vs. OTC markets",
+      "Performance of major altcoins following delisting news"
+    ]
+  }
+}

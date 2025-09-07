@@ -1,0 +1,84 @@
+{
+  "date": "2018-06-17",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n88532536566f",
+      "title": "Ripple CEO Says Bitcoin Is the ‘Napster of Digital Assets’",
+      "url": "https://finance.yahoo.com/news/ripple-ceo-says-bitcoin-napster-154241569.html",
+      "summary": "Ripple CEO Brad Garlinghouse compared Bitcoin to Napster, suggesting it's an outdated technology that will be surpassed by more regulatory-compliant and efficient digital assets like XRP. This narrative challenges Bitcoin's long-term dominance and its perceived ability to adapt to evolving financial landscapes and regulatory demands.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Ripple_CEO_FUD",
+        "Bitcoin_Napster_analogy",
+        "regulatory_compliance_narrative"
+      ],
+      "rationale": "This narrative, if gaining traction, could influence institutional and mainstream perception of Bitcoin's long-term viability and regulatory risk compared to other digital assets, potentially diverting capital."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 8,
+      "id": "n319d7a1adf9f",
+      "title": "Bitcoin – $7,000 Remains Elusive as the Bears Hold On",
+      "url": "https://finance.yahoo.com/news/bitcoin-7-000-remains-elusive-081710898.html",
+      "summary": "Bitcoin struggled to break above $7,000, ending Saturday at $6,491, down 3.95% for the week. The price action indicates strong bearish sentiment, with key resistance levels holding and support being tested. This reflects immediate market weakness and a lack of buying pressure.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "bearish_sentiment",
+        "$7000_resistance"
+      ],
+      "rationale": "Direct reporting on Bitcoin's struggle to break key resistance levels and recent price declines indicates prevailing bearish sentiment and potential for continued short-term downward pressure."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-06-17",
+    "summary": "The crypto market faces immediate bearish pressure, with Bitcoin struggling to hold key levels and altcoins showing weakness. Recent security concerns and macro headwinds from a strong USD contribute to a risk-off sentiment. However, significant long-term bullish signals, such as regulatory clarity for Bitcoin and increasing institutional adoption, suggest underlying strength for the asset class.",
+    "scenario_probs": {
+      "bull": 0.25,
+      "base": 0.5,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Increased regulatory crackdown beyond ICOs, potentially impacting Bitcoin.",
+      "Further major exchange hacks or security breaches eroding investor confidence.",
+      "Intensification of global trade wars leading to broader risk-off sentiment.",
+      "Continued USD strength making dollar-denominated Bitcoin less attractive.",
+      "Failure of anticipated institutional products (e.g., ETFs) to materialize or attract significant capital.",
+      "Bitcoin losing market dominance to more 'compliant' or technologically advanced altcoins."
+    ],
+    "watch_items": [
+      "BTC price action around $6,000-$7,000 support/resistance levels.",
+      "News on global regulatory developments, especially from the IMF or G20.",
+      "Announcements from major financial institutions regarding crypto products or services.",
+      "Volume and liquidity trends across major cryptocurrency exchanges.",
+      "Any new high-profile security incidents or exchange outages."
+    ]
+  }
+}

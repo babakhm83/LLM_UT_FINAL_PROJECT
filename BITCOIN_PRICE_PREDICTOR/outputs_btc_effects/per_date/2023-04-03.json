@@ -1,0 +1,577 @@
+{
+  "date": "2023-04-03",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n79439c20a8e5",
+      "title": "Bitcoin Has Benefited From U.S. Dollar Liquidity to Support Banks: Morgan Stanley",
+      "url": "https://finance.yahoo.com/news/bitcoin-benefited-u-dollar-liquidity-111943315.html",
+      "summary": "Morgan Stanley's report suggests that expectations of increased U.S. dollar liquidity to support the banking sector have contributed to Bitcoin's rally. The analysis also notes that Bitcoin's order book liquidity is at its lowest in a year, implying that lower volumes can lead to larger price movements. This indicates a potential sensitivity of Bitcoin's price to liquidity conditions and market sentiment, especially in the context of broader financial system stability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "USD_liquidity",
+        "banking_sector_support",
+        "order_book_liquidity",
+        "price_volatility"
+      ],
+      "rationale": "Increased dollar liquidity can flow into risk assets like Bitcoin, boosting its price. Low order book liquidity amplifies price movements, suggesting potential for significant gains if positive sentiment persists."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n635af9b9dbf3",
+      "title": "Marathon Digital Holdings Announces Bitcoin Production and Mining Operation Updates for January 2023",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-announces-bitcoin-233000428.html",
+      "summary": "Marathon Digital Holdings reported a record 687 BTC produced in January 2023, a 45% increase from the previous month. The company also increased its unrestricted cash and Bitcoin holdings. This operational update highlights the growing capacity and efficiency of major Bitcoin miners, which is crucial for network security and stability. Increased production and strong financial positions for miners can signal a healthy and expanding mining sector, supporting the underlying infrastructure of Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "miner_production_increase",
+        "miner_cash_holdings",
+        "miner_BTC_holdings"
+      ],
+      "rationale": "Increased BTC production by major miners like Marathon suggests a robust mining ecosystem. Higher cash and BTC reserves strengthen their operational resilience and capacity to support the network."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n565b887b4dab",
+      "title": "Texas legislature introduces bill to attract Bitcoin-related businesses, protect interests of same",
+      "url": "https://finance.yahoo.com/news/texas-legislature-introduces-bill-attract-042117928.html",
+      "summary": "The Texas legislature has introduced a bill aimed at attracting Bitcoin-related businesses and protecting the rights of Bitcoin holders, miners, and developers. The bill proposes legal protections, including immunity for censorship-resistant spending and the ability to store Bitcoin in unhosted wallets without state interference. This legislative move signifies a growing trend of regulatory clarity and support for the Bitcoin industry in key economic regions.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "texas_bitcoin_bill",
+        "regulatory_clarity",
+        "business_attraction",
+        "holder_protection"
+      ],
+      "rationale": "Favorable legislation in a major state like Texas can attract significant investment and talent, fostering innovation and adoption. This provides a more stable and predictable environment for Bitcoin businesses."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n1409cc73f4ac",
+      "title": "Silvergate's Collapse May Spell Regulatory Trouble for Crypto",
+      "url": "https://finance.yahoo.com/news/silvergates-collapse-may-spell-regulatory-235217514.html",
+      "summary": "The collapse of Silvergate Bank, a crypto-friendly financial institution, is anticipated to lead to increased regulatory scrutiny for the cryptocurrency sector. This event highlights the interconnectedness of traditional finance and digital assets, and the potential for contagion effects. Heightened regulatory attention could lead to stricter compliance requirements and potentially impact the operational landscape for crypto businesses.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "silvergate_collapse",
+        "regulatory_scrutiny",
+        "crypto_banking_risk"
+      ],
+      "rationale": "The failure of a key crypto bank like Silvergate signals increased regulatory risk, potentially leading to tighter controls and reduced liquidity for crypto firms, which could dampen market sentiment."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n54eceddc94c3",
+      "title": "Machankura Boosts African Bitcoin Adoption Without the Internet",
+      "url": "https://finance.yahoo.com/news/machankura-boosts-african-bitcoin-adoption-204705167.html",
+      "summary": "Machankura, a tool developed by Kgothatso Ngako, enables Bitcoin usage via feature phones without internet access, significantly boosting adoption in Africa. This innovation addresses a critical barrier to entry for many users in developing regions, demonstrating the potential for broader global adoption. By leveraging existing mobile infrastructure, Machankura showcases a practical pathway for financial inclusion through Bitcoin.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "accessibility"
+      ],
+      "features_for_model": [
+        "african_bitcoin_adoption",
+        "offline_bitcoin_usage",
+        "feature_phone_integration",
+        "financial_inclusion"
+      ],
+      "rationale": "This innovation significantly expands Bitcoin's accessibility in regions with limited internet infrastructure, driving adoption and demonstrating its utility as a global financial tool."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n80e1af321924",
+      "title": "How Bitcoin NFTs Might Accidentally Fix Bitcoin's Security Budget",
+      "url": "https://finance.yahoo.com/news/bitcoin-nfts-might-accidentally-fix-212159495.html",
+      "summary": "The emergence of Bitcoin NFTs, or 'Inscriptions,' could potentially address Bitcoin's long-term security budget concerns by increasing transaction fees. As block rewards diminish over time, transaction fees are expected to become the primary incentive for miners. The adoption of NFTs on the Bitcoin network could generate substantial fee revenue, thereby securing the network's future.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_nfts",
+        "inscriptions",
+        "transaction_fees",
+        "security_budget",
+        "miner_incentive"
+      ],
+      "rationale": "Increased transaction fees from Bitcoin NFTs can bolster the network's security budget as block rewards decrease, ensuring miner incentives and network security long-term."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n12189cf0febe",
+      "title": "Yuga Labs to launch its first Bitcoin-based NFTs TwelveFold",
+      "url": "https://finance.yahoo.com/news/yuga-labs-launch-first-bitcoin-133135915.html",
+      "summary": "Yuga Labs, the company behind Bored Ape Yacht Club, is launching its first NFT collection, 'TwelveFold,' on the Bitcoin network. This move signifies a significant development in the NFT space, extending its reach to the Bitcoin blockchain. The inscription of these NFTs onto satoshis, the smallest Bitcoin denomination, highlights a new use case for Bitcoin and could drive increased transaction volume and fees.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "yuga_labs_nfts",
+        "bitcoin_nfts",
+        "ordinals",
+        "transaction_volume"
+      ],
+      "rationale": "A major NFT player like Yuga Labs launching on Bitcoin validates the Ordinals protocol and can drive significant transaction volume and fees, benefiting the Bitcoin network."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n0aa94353cf1c",
+      "title": "Bitcoin Is the Ultimate Insurance Policy: Cathie Wood",
+      "url": "https://finance.yahoo.com/news/bitcoin-ultimate-insurance-policy-cathie-225232920.html",
+      "summary": "ARK Invest CEO Cathie Wood reiterates her bullish stance on Bitcoin, calling it a defense against wealth confiscation and an insurance policy for the developing world. Her $1 million price target for Bitcoin is based on its potential for wealth preservation amidst global hyperinflation. This perspective from a prominent institutional investor reinforces the narrative of Bitcoin as a store of value and a hedge against economic instability.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "cathie_wood_bitcoin",
+        "insurance_policy",
+        "store_of_value",
+        "inflation_hedge"
+      ],
+      "rationale": "Endorsement from a high-profile investor like Cathie Wood, framing Bitcoin as an inflation hedge and store of value, attracts institutional interest and reinforces its long-term investment thesis."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n3d7cdb2dd2e5",
+      "title": "Britcoin? UK gets closer to launching a digital currency",
+      "url": "https://finance.yahoo.com/news/britcoin-uk-gets-closer-launching-223135884.html",
+      "summary": "The UK is moving closer to potentially launching a central bank digital currency (CBDC), seeking public comment on the idea. This development places the UK among a growing number of countries exploring digital currencies. While not directly Bitcoin, the broader trend towards CBDCs can influence regulatory approaches to cryptocurrencies and potentially increase overall digital asset adoption and understanding.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "uk_cbdc",
+        "digital_pound",
+        "regulatory_trend"
+      ],
+      "rationale": "The UK's exploration of a CBDC reflects a global trend that could lead to more defined regulatory frameworks for digital assets, potentially impacting Bitcoin's market position."
+    },
+    {
+      "pick_idx": 47,
+      "id": "naae401a762c7",
+      "title": "Bitcoin Ordinals Can Lift the Entire Crypto Ecosystem",
+      "url": "https://finance.yahoo.com/news/bitcoin-ordinals-lift-entire-crypto-182834915.html",
+      "summary": "The Ordinals Protocol, enabling the inscription of digital art onto Bitcoin transactions, is presented as a catalyst for the entire crypto ecosystem. This innovation is seen as a key reason for Bitcoin's recent outperformance. By creating new use cases and driving transaction volume, Ordinals can potentially increase fee revenue for miners, thereby enhancing Bitcoin's security and attracting broader interest in the crypto space.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_ordinals",
+        "nft_on_bitcoin",
+        "transaction_fees",
+        "ecosystem_growth"
+      ],
+      "rationale": "Ordinals create new utility for Bitcoin, driving transaction volume and fees, which can improve miner economics and foster broader ecosystem growth and innovation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nc8986e4047f1",
+      "title": "Cipher Mining Announces March 2023 Operational Update",
+      "url": "https://finance.yahoo.com/news/cipher-mining-announces-march-2023-200500663.html",
+      "summary": "Cipher Mining produced 413 BTC in March 2023 and achieved a new all-time high hash rate capacity of 5.7 EH/s. The company sold 450 BTC and held 427 BTC. This update indicates strong operational performance from a major miner, suggesting increased network hashrate and potential for future production. Such positive operational news from miners can be a short-term bullish signal for Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "cipher_mining_update",
+        "march_btc_production",
+        "hash_rate_increase"
+      ],
+      "rationale": "Increased BTC production and hash rate by a major miner like Cipher Mining suggests a healthy mining sector, which can provide short-term positive sentiment for Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n90aa5847c244",
+      "title": "Binance's BNB, Bitcoin Tumble After Crypto Twitter Personality Cobie's Wild Guess",
+      "url": "https://finance.yahoo.com/news/bitcoin-bnb-drop-unverified-rumor-205122383.html",
+      "summary": "Binance's BNB token and Bitcoin experienced a price drop due to an unverified rumor about Binance's CEO facing an international law enforcement request. This incident highlights the market's sensitivity to unconfirmed news and social media sentiment, especially concerning major exchanges. Such events can cause short-term volatility and price declines.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "binance_rumor",
+        "cz_detention_speculation",
+        "bnb_price_drop",
+        "market_volatility"
+      ],
+      "rationale": "Market reaction to unverified rumors, especially concerning major exchanges like Binance, can cause significant short-term price drops and increased volatility."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n944c3bd7d384",
+      "title": "Circle VP: UK Banks 'Actively Unbanking People, Not Just Companies' Over Crypto",
+      "url": "https://finance.yahoo.com/news/circle-vp-uk-banks-actively-113728604.html",
+      "summary": "A Circle executive stated that UK banks are increasingly restricting access to crypto for individuals, not just companies. This indicates a tightening of banking services for crypto users in the UK, potentially impacting liquidity and ease of access. Such actions could lead to a more challenging environment for crypto adoption and usage in the region.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "uk_banking_restrictions",
+        "crypto_unbanking",
+        "circle_statement"
+      ],
+      "rationale": "Tightening banking access for crypto users in the UK can reduce liquidity and create friction, potentially leading to a short-term bearish sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n6f50995c5ca1",
+      "title": "Bitcoin drops as US plans to sell over 41,000 BTC",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-us-sells-btc-crypto-084808514.html",
+      "summary": "Bitcoin experienced a price drop as the US government announced plans to sell over 41,490 BTC in 2023. This significant amount of potential supply hitting the market can exert downward pressure on prices. The news adds to regulatory concerns and could impact short-term price action.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "us_btc_sale",
+        "supply_increase",
+        "regulatory_action"
+      ],
+      "rationale": "The planned sale of a large amount of Bitcoin by the US government introduces significant selling pressure, likely causing a short-term price decline."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n381afe31a064",
+      "title": "Coinhub Bitcoin ATMs Places Over 1000 Bitcoin ATMs In Retail Stores",
+      "url": "https://finance.yahoo.com/news/coinhub-bitcoin-atms-places-over-123200710.html",
+      "summary": "Coinhub is expanding its Bitcoin ATM network by partnering with over 1,000 gas stations and stores. This initiative makes it easier for individuals to buy and sell cryptocurrencies with cash. Increased accessibility through physical locations can drive adoption and transaction volume, providing a positive short-term catalyst.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "coinhub_atm_expansion",
+        "retail_partnerships",
+        "atm_locations",
+        "cash_adoption"
+      ],
+      "rationale": "Expansion of Bitcoin ATMs increases accessibility for cash users, potentially driving short-term demand and positive sentiment."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n4372fe734fa4",
+      "title": "Cryptocurrency Market to be Worth $11.71 Billion by 2030: Grand View Research, Inc.",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-market-worth-11-71-093000915.html",
+      "summary": "A Grand View Research report projects the global cryptocurrency market to reach $11.71 billion by 2030, with a CAGR of 12.5%. This growth is attributed to increasing demand for data security, transparency, and blockchain integration in payments, along with legalization in several countries. While a long-term forecast, it signals positive industry sentiment.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_market_forecast",
+        "grand_view_research",
+        "industry_growth"
+      ],
+      "rationale": "Positive market forecasts, even if long-term, can contribute to a generally bullish sentiment in the short term, especially when coupled with other positive news."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n6cc94579f456",
+      "title": "Bitcoin Drops to $27.5K While Dogecoin Spikes After Twitter Logo Change",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-27-5k-while-213930211.html",
+      "summary": "Bitcoin traded within its recent range, dropping to $27,200, while Dogecoin saw a significant spike following a change in Twitter's logo to the Doge meme. This event highlights the influence of social media trends and specific catalysts on altcoin prices, which can sometimes spill over to Bitcoin sentiment. The divergence suggests market focus on specific narratives.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "dogecoin_twitter_logo",
+        "altcoin_spike",
+        "market_divergence",
+        "social_media_catalyst"
+      ],
+      "rationale": "While Dogecoin's surge due to a Twitter logo change is a specific event, it can create broader market chatter and potentially influence sentiment around meme-related assets, creating short-term uncertainty for Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n7a0495bccb7c",
+      "title": "Bitcoin Liquidity Is Drying Up as Crypto ‘Tourists’ Recoil From Industry Disorder",
+      "url": "https://finance.yahoo.com/news/bitcoin-liquidity-drying-crypto-tourists-230000925.html",
+      "summary": "The report indicates that Bitcoin liquidity remains low, with investors experiencing higher trading costs due to slippage. This suggests a less liquid market, which can lead to increased price volatility. The term 'crypto tourists' implies a withdrawal of less committed capital, potentially due to recent industry instability.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "bitcoin_liquidity_low",
+        "slippage_increase",
+        "market_volatility",
+        "investor_sentiment"
+      ],
+      "rationale": "Low liquidity and increased slippage can lead to higher price volatility, making the market more susceptible to sharp moves in either direction, but often indicating potential for downside risk."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n3caef68e3090",
+      "title": "Marathon Digital Holdings Announces Bitcoin Production and Mining Operation Updates for March 2023",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-announces-bitcoin-202000295.html",
+      "summary": "Marathon Digital Holdings reported a record 825 BTC mined in March 2023, a 21% month-over-month increase, and a record 2,195 BTC in Q1 2023. Their hash rate increased 64% in Q1 to 11.5 EH/s. The company also reported significant cash and Bitcoin holdings. This strong operational performance from a major miner is a positive indicator for the network's health and security.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "marathon_mining_update",
+        "march_btc_production",
+        "q1_btc_production",
+        "hash_rate_increase"
+      ],
+      "rationale": "Record BTC production and increased hash rate by Marathon Digital Holdings signals a robust mining sector, providing a short-term bullish sentiment for Bitcoin."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n15e9c4d5335f",
+      "title": "Bitcoin’s best quarter in 2 years beats all major indexes in Q1",
+      "url": "https://finance.yahoo.com/news/bitcoin-best-quarter-2-years-150839070.html",
+      "summary": "Bitcoin experienced its best quarterly performance in two years during Q1 2023, outperforming major U.S. stock indexes. The cryptocurrency gained 73% in the quarter, starting around $16,000 and ending near $28,500. This strong performance indicates a significant recovery and positive market sentiment, which can carry over into the next quarter.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "q1_bitcoin_performance",
+        "best_quarter_2_years",
+        "outperformed_stocks",
+        "positive_sentiment"
+      ],
+      "rationale": "Bitcoin's strong Q1 performance, outperforming major stock indexes, indicates robust market momentum and positive sentiment that is likely to continue in the short term."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n3d792ac82375",
+      "title": "First Mover Americas: Bitcoin's Within Range of $30K",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoins-within-121814815.html",
+      "summary": "Bitcoin is testing the $30,000 mark, trading between $27,500 and $28,900 over the weekend. The cryptocurrency was flat on Monday, while Ethereum was down slightly. Analysts suggest that as stock markets approach 'bull territory,' crypto may follow. This indicates a potential for upward momentum if broader market sentiment remains positive.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_testing_30k",
+        "stock_market_correlation",
+        "bull_territory_sentiment",
+        "price_range"
+      ],
+      "rationale": "Bitcoin's proximity to $30K and correlation with positive stock market sentiment suggest potential for a short-term breakout if broader market conditions remain favorable."
+    },
+    {
+      "pick_idx": 48,
+      "id": "nb2a9424d6e97",
+      "title": "Dogecoin Soars After Twitter Replaces Its Blue Bird Logo With the Token's Dog",
+      "url": "https://finance.yahoo.com/news/dogecoin-soars-twitter-replaces-blue-175516249.html",
+      "summary": "Dogecoin surged over 35% after Twitter replaced its blue bird logo with the Doge meme. This event, driven by Elon Musk's influence, caused DOGE to reach its highest price in months. While a specific event for Dogecoin, it highlights the power of social media and influential figures in driving crypto market sentiment and price action, potentially creating ripple effects.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "dogecoin_twitter_logo_change",
+        "elon_musk_influence",
+        "meme_coin_rally",
+        "social_media_sentiment"
+      ],
+      "rationale": "The significant surge in Dogecoin due to a Twitter logo change, driven by Elon Musk, demonstrates the impact of social media trends. While specific to DOGE, it can create a short-term speculative frenzy that might briefly impact broader crypto market sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-04-03",
+    "summary": "Bitcoin experienced a mixed day, dropping below $28,000 due to the US government's plan to sell a significant amount of BTC, while also showing resilience and outperforming major indexes in Q1. The market is sensitive to regulatory news, as seen with the Binance rumor causing a dip, and also influenced by social media trends like the Dogecoin surge after the Twitter logo change. Mining operations continue to show strength with companies like Marathon and Cipher reporting record production, indicating a healthy underlying network. Overall, the short-term outlook is cautiously optimistic, with potential for volatility driven by macro and regulatory factors.",
+    "scenario_probs": {
+      "bull": 0.5,
+      "base": 0.3,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "US government BTC sale could increase selling pressure.",
+      "Continued regulatory scrutiny and potential enforcement actions against exchanges.",
+      "Low Bitcoin liquidity could lead to increased price volatility.",
+      "Unverified rumors and social media sentiment can cause sharp, short-term price swings.",
+      "Global macroeconomic factors and interest rate decisions remain a significant influence."
+    ],
+    "watch_items": [
+      "US Treasury Bitcoin auction schedule",
+      "Developments regarding SEC actions against crypto exchanges",
+      "Further news on UK banking sector's stance on crypto",
+      "On-chain data for Bitcoin liquidity and transaction fees",
+      "Statements from major mining companies regarding operations and holdings"
+    ]
+  }
+}

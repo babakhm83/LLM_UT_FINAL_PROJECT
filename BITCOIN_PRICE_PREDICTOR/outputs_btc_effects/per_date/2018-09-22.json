@@ -1,0 +1,476 @@
+{
+  "date": "2018-09-22",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "nfedbd08084ec",
+      "title": "AMD: Our crypto boom is over (AMD)",
+      "url": "https://finance.yahoo.com/news/amd-crypto-boom-over-amd-193000235.html",
+      "summary": "Chipmaker AMD announced that its cryptocurrency and blockchain revenues are expected to fall to nearly zero in the third quarter. This indicates a significant cooling of the crypto mining boom that had previously boosted sales of graphics cards. The company's acknowledgment suggests a broader market trend of reduced demand for mining hardware, which could impact the overall sentiment and investment in the cryptocurrency space.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "AMD_revenue_crypto",
+        "mining_hardware_demand",
+        "GPU_market"
+      ],
+      "rationale": "AMD's explicit statement about the end of the crypto boom signals a significant reduction in demand for mining hardware. This directly impacts the infrastructure supporting cryptocurrency mining, potentially leading to lower network security and reduced investment in the sector."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n83c5206fc0ba",
+      "title": "Special Report: In Venezuela, new cryptocurrency is nowhere to be found",
+      "url": "https://finance.yahoo.com/news/special-report-venezuela-cryptocurrency-nowhere-found-111335556--sector.html",
+      "summary": "Despite President Nicolas Maduro's claims, Venezuela's state-backed cryptocurrency, the 'petro,' appears to be largely absent in the remote town designated as its hub. This report highlights the practical challenges and potential lack of adoption for a government-issued cryptocurrency, even one backed by oil reserves. The disconnect between government pronouncements and on-the-ground reality raises questions about the efficacy and legitimacy of such initiatives.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "petro_adoption",
+        "venezuela_crypto_policy",
+        "state_backed_crypto"
+      ],
+      "rationale": "The lack of tangible presence of Venezuela's 'petro' cryptocurrency suggests a failure in adoption and implementation. This could set a precedent for other nations considering similar state-backed digital currencies, potentially dampening enthusiasm for such projects globally."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n9a35cd682870",
+      "title": "‘Game Over’ for Bitcoin, Claims Bearish Technical Analyst",
+      "url": "https://finance.yahoo.com/news/game-over-bitcoin-claims-bearish-211537925.html",
+      "source": "CCN",
+      "source_url": "https://www.ccn.com/",
+      "date_time": "2018-08-10 21:15:37+00:00",
+      "time_unix": 1533935737,
+      "summary": "A technical analyst from Renaissance Macro Research suggests that if Bitcoin breaks below a key year-to-date support level, it could face irreparable damage. This perspective highlights the critical importance of technical levels for market sentiment and potential price action. A significant breakdown could trigger a prolonged bear market, impacting investor confidence and capital flows into the crypto space.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_support_level",
+        "technical_analysis_sentiment",
+        "existential_crisis_bitcoin"
+      ],
+      "rationale": "The analyst's warning of 'irreparable damage' if a key support level is breached indicates a potential for a significant downturn. This sentiment, if widespread, can lead to a self-fulfilling prophecy of selling pressure."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n230bfdb1e368",
+      "title": "OTC is Much Larger Than Bitcoin Exchange Volume: Where Real Whales Trade",
+      "url": "https://finance.yahoo.com/news/otc-much-larger-bitcoin-exchange-212305761.html",
+      "summary": "A report by TABB Group indicates that the over-the-counter (OTC) market for Bitcoin is significantly larger than exchange volumes. This suggests that large institutional investors and high-net-worth individuals ('whales') are trading substantial amounts of Bitcoin off-exchange. Understanding this dynamic is crucial for assessing true market liquidity and potential price impact from large trades.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "OTC_bitcoin_volume",
+        "institutional_trading",
+        "market_liquidity"
+      ],
+      "rationale": "The revelation of a larger OTC market implies that significant capital is moving outside of public exchanges. This can lead to less transparent price discovery and potentially larger, more impactful trades that are not immediately reflected in exchange data."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n0f0e77d92c35",
+      "title": "Bitcoin Trading Platform BitMEX Hits 1 Million BTC in Daily Volume [Again]",
+      "url": "https://finance.yahoo.com/news/bitcoin-trading-platform-bitmex-hits-181438829.html",
+      "summary": "Cryptocurrency derivatives exchange BitMEX reported crossing 1 million BTC in daily trading volume for the second time. This indicates robust activity on derivatives platforms, even during a bear market for spot prices. High volume on derivatives can signal increased hedging activity, speculation, or institutional interest in managing risk or gaining leveraged exposure.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BitMEX_volume",
+        "derivatives_trading",
+        "market_activity"
+      ],
+      "rationale": "Sustained high volume on derivatives platforms like BitMEX suggests continued engagement from sophisticated traders. While not directly spot price action, it indicates underlying market interest and potential for future price movements."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n942cfe70a6e9",
+      "title": "Former PayPal CEO Brands Bitcoin a ‘Cult’, Trashes Use Cases",
+      "url": "https://finance.yahoo.com/news/former-paypal-ceo-brands-bitcoin-164329390.html",
+      "summary": "Former PayPal CEO Bill Harris has criticized Bitcoin, calling it a 'cult' and dismissing its purported advantages like speed, cost, scalability, and efficiency. He argues that existing digital currencies function better. Such strong negative sentiment from a prominent figure in the fintech industry can influence public perception and deter potential mainstream adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "ex_paypal_ceo_sentiment",
+        "bitcoin_use_case_criticism",
+        "fintech_adoption_barrier"
+      ],
+      "rationale": "Negative commentary from a former PayPal CEO can significantly impact mainstream perception of Bitcoin's utility and viability. This discourages broader adoption and can contribute to a bearish sentiment among traditional investors."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nbc55699ef997",
+      "title": "Weak User Counts Signal ‘Panic Sell’ For Most Cryptocurrency Tokens: Researcher",
+      "url": "https://finance.yahoo.com/news/weak-user-counts-signal-panic-213044773.html",
+      "summary": "Cryptocurrency researcher Kevin Rooke observed that only 27 tokens had over 400 active users in a 24-hour period, suggesting a widespread lack of adoption and potential for 'panic selling.' This metric highlights a critical issue for many cryptocurrencies: a lack of real-world usage and active user bases, which is a fundamental driver of long-term value.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "active_users_crypto",
+        "token_adoption_rate",
+        "panic_sell_signal"
+      ],
+      "rationale": "Low active user counts across most cryptocurrencies indicate a fundamental weakness in adoption. This lack of utility makes tokens vulnerable to significant price drops as sentiment shifts, potentially leading to widespread selling."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n3b518fab4121",
+      "title": "Morgan Stanley is Building a Bitcoin Swap Trading Product: Report",
+      "url": "https://finance.yahoo.com/news/morgan-stanley-building-bitcoin-swap-132735335.html",
+      "summary": "Morgan Stanley is reportedly developing a product that will offer clients 'synthetic exposure' to Bitcoin through proprietary derivatives. This move by a major investment bank signifies growing institutional interest in providing access to cryptocurrencies, even if indirectly. Such products can attract institutional capital and legitimize Bitcoin as an asset class.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Morgan_Stanley_bitcoin_swap",
+        "institutional_product_development",
+        "synthetic_exposure"
+      ],
+      "rationale": "The development of a Bitcoin swap product by Morgan Stanley indicates a significant step towards institutional adoption. This provides a regulated pathway for traditional investors to gain exposure, potentially unlocking substantial capital flows into the crypto market."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n83bb0d77eeef",
+      "title": "Bitcoin millionaires the Winklevoss twins launch cryptocurrency organisation",
+      "url": "https://finance.yahoo.com/news/bitcoin-millionaires-winklevoss-twins-launch-163548743.html",
+      "summary": "The Winklevoss twins have launched the Virtual Commodity Association (VCA), an industry group aimed at promoting fairness, transparency, and risk management in the cryptocurrency market. Their goal is to gain favor with regulators and legitimize digital currencies. This initiative represents a significant effort towards self-regulation and building trust within the crypto ecosystem.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Winklevoss_VCA",
+        "crypto_self_regulation",
+        "market_transparency"
+      ],
+      "rationale": "The establishment of the Virtual Commodity Association by the Winklevoss twins is a proactive step towards industry self-regulation. This can improve market integrity and potentially accelerate regulatory acceptance, fostering greater institutional participation."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n6f237ff737ca",
+      "title": "Despite its 70% Price Drop, Bitcoin Surpassed Gold in Settlement Volume",
+      "url": "https://finance.yahoo.com/news/despite-70-price-drop-bitcoin-161057499.html",
+      "summary": "A cryptocurrency researcher claims Bitcoin has surpassed the OTC gold market in settlement volumes, even after a significant price drop. This comparison, based on data from Coin Metrics and the London Bullion Market Association, suggests Bitcoin's utility as a settlement layer is growing, irrespective of short-term price volatility. It highlights Bitcoin's increasing role in financial transactions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_settlement_volume",
+        "gold_comparison",
+        "transaction_utility"
+      ],
+      "rationale": "Bitcoin surpassing gold in settlement volume, despite its price decline, indicates a growing utility for transactional purposes. This demonstrates a fundamental adoption trend that could support long-term value, independent of speculative trading."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n4bf1fe09b963",
+      "title": "Bitcoin Mining Pool AntPool to Sponsor NBA’s Houston Rockets",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-pool-antpool-sponsor-000130692.html",
+      "summary": "AntPool, a major Bitcoin mining pool, is sponsoring the NBA's Houston Rockets for the 2018-2019 season. This partnership represents an effort by a China-based crypto company to expand its presence and increase brand awareness in the US, aligning with the trend of crypto associations with sports for publicity.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "AntPool_sponsorship",
+        "NBA_crypto_partnership",
+        "brand_awareness"
+      ],
+      "rationale": "This sponsorship is a positive marketing move for the crypto industry, increasing visibility. While unlikely to cause a significant price surge, it contributes to broader adoption efforts."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n00500ceeb811",
+      "title": "UNICEF France Accepts Cryptocurrency Donations for Humanitarian Activities",
+      "url": "https://finance.yahoo.com/news/unicef-france-accepts-cryptocurrency-donations-134312160.html",
+      "summary": "UNICEF France has announced it will accept donations in nine cryptocurrencies, including Bitcoin, Ethereum, and Ripple. This move by a major humanitarian organization aims to broaden its donor base and signifies increasing acceptance of cryptocurrencies for real-world use cases.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "UNICEF_crypto_donation",
+        "humanitarian_adoption",
+        "multi_currency_support"
+      ],
+      "rationale": "The acceptance of crypto donations by UNICEF France is a positive signal for adoption and legitimacy. It demonstrates a growing trend of established organizations integrating cryptocurrencies into their operations."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n48c2cb30b76f",
+      "title": "Is Bitcoin Investment Trust a Buy?",
+      "url": "https://finance.yahoo.com/news/bitcoin-investment-trust-buy-154500798.html",
+      "summary": "The article discusses whether a Bitcoin Investment Trust is a buy, acknowledging Bitcoin's significant price drop from its 2017 highs. It highlights investor nervousness about direct Bitcoin investment and the potential for buying opportunities after pullbacks, suggesting ongoing debate about Bitcoin's value proposition.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_investment_trust",
+        "investor_sentiment",
+        "buy_opportunity_debate"
+      ],
+      "rationale": "This piece reflects ongoing investor sentiment and the debate around Bitcoin's investment potential. It suggests a cautious market, with some seeing buying opportunities while others remain hesitant."
+    },
+    {
+      "pick_idx": 6,
+      "id": "naecc47e757dc",
+      "title": "$10,000 Target: Novogratz Sees Bitcoin Jumping 30% in 2018",
+      "url": "https://finance.yahoo.com/news/10-000-target-novogratz-sees-155907993.html",
+      "summary": "Billionaire investor Michael Novogratz predicts Bitcoin will increase by 30% by the end of 2018, targeting $10,000. He believes institutional investors will enter the market once key resistance levels are surpassed and infrastructure for custodianship is in place. This forecast suggests a potential bullish short-term outlook if these conditions are met.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Novogratz_price_target",
+        "institutional_entry_trigger",
+        "bullish_forecast"
+      ],
+      "rationale": "Novogratz's bullish prediction, tied to institutional infrastructure development and price targets, can influence market sentiment. If Bitcoin approaches these targets, it could attract speculative buying."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n9d8a01db037f",
+      "title": "Bitcoin Magazine’s Week in Review: The Resilience of Bitcoin",
+      "url": "https://finance.yahoo.com/news/bitcoin-magazine-week-review-resilience-163316477.html",
+      "summary": "This review highlights Bitcoin's resilience despite challenges like protocol bugs and exchange hacks. It emphasizes the ongoing development and perseverance of Bitcoin Core software. The focus on resilience suggests a stable underlying technology, which is positive for long-term sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_resilience",
+        "protocol_development",
+        "core_software_stability"
+      ],
+      "rationale": "The emphasis on Bitcoin's resilience and ongoing development, even in the face of bugs, suggests a robust ecosystem. This can foster confidence among users and investors in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n0ff7e76bd9d0",
+      "title": "Tether Has No Real Impact on Bitcoin price: University Researcher",
+      "url": "https://finance.yahoo.com/news/tether-no-real-impact-bitcoin-192534451.html",
+      "summary": "A University of Queensland study suggests Tether (USDT) issuance has a negligible effect on Bitcoin's price, contrary to popular theories of market manipulation. While a positive correlation exists with trading volume, it doesn't lead to price manipulation. This finding could reduce concerns about Tether's influence on market stability.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Tether_impact_study",
+        "market_manipulation_theory",
+        "stablecoin_effect"
+      ],
+      "rationale": "This research challenges the narrative of Tether manipulation, potentially easing market anxieties. If widely accepted, it could lead to less volatility driven by Tether-related FUD."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n571358d9f92e",
+      "title": "Bitcoin ATM CEO: Cryptocurrency Needs Regulation to Survive",
+      "url": "https://finance.yahoo.com/news/bitcoin-atm-ceo-cryptocurrency-needs-215758069.html",
+      "summary": "The CEO of Coinsource, a large Bitcoin ATM network, argues that cryptocurrency needs regulation to survive and become a viable payment solution. He cites the time and cost of using Bitcoin for everyday items as current obstacles. This perspective highlights the ongoing debate about regulation's role in crypto adoption.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_ATM_CEO_view",
+        "crypto_regulation_necessity",
+        "payment_solution_viability"
+      ],
+      "rationale": "The CEO's call for regulation reflects a sentiment that regulatory clarity is needed for mainstream adoption. This could influence short-term market sentiment depending on regulatory developments."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ncd169e3ef718",
+      "title": "USD/JPY Forex Technical Analysis – Risk Off Session Could Pressure Dollar/Yen Early",
+      "url": "https://finance.yahoo.com/news/usd-jpy-forex-technical-analysis-233627774.html",
+      "summary": "The USD/JPY pair showed mixed signals, retreating from highs due to trade dispute concerns but supported by expectations of a Fed rate hike. The article notes the main trend is up, but a 'risk-off' session could pressure the Dollar/Yen. This macro-economic context can influence broader risk appetite, including for cryptocurrencies.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_JPY_forex",
+        "risk_off_sentiment",
+        "Fed_rate_hike_expectation"
+      ],
+      "rationale": "The mention of a potential 'risk-off' session due to trade disputes could lead to reduced appetite for risk assets like Bitcoin. Conversely, Fed rate hike expectations might offer some stability to broader markets."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n0ff7e76bd9d0",
+      "title": "Tether Has No Real Impact on Bitcoin price: University Researcher",
+      "url": "https://finance.yahoo.com/news/tether-no-real-impact-bitcoin-192534451.html",
+      "summary": "A University of Queensland study suggests Tether (USDT) issuance has a negligible effect on Bitcoin's price, contrary to popular theories of market manipulation. While a positive correlation exists with trading volume, it doesn't lead to price manipulation. This finding could reduce concerns about Tether's influence on market stability.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Tether_impact_study",
+        "market_manipulation_theory",
+        "stablecoin_effect"
+      ],
+      "rationale": "This research challenges the narrative of Tether manipulation, potentially easing market anxieties. If widely accepted, it could lead to less volatility driven by Tether-related FUD."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-09-22",
+    "summary": "Long-term sentiment remains mixed, with institutional interest signaled by Morgan Stanley's product development and the Winklevoss twins' VCA initiative, suggesting potential future bullishness. However, concerns about weak adoption metrics and negative commentary from former fintech executives present bearish headwinds. Short-term, positive developments include UNICEF France accepting crypto donations and Novogratz's bullish price target, while the AntPool sponsorship adds to general industry visibility. Macro factors like trade disputes and Fed rate expectations introduce uncertainty.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.45,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Continued weak adoption metrics for many cryptocurrencies.",
+      "Negative sentiment from influential figures in traditional finance.",
+      "Uncertainty from ongoing trade disputes and potential macro-economic shifts.",
+      "Regulatory clarity remains a significant factor for institutional adoption."
+    ],
+    "watch_items": [
+      "Morgan Stanley's progress on Bitcoin swap product.",
+      "Winklevoss twins' Virtual Commodity Association activities.",
+      "Any further statements from Michael Novogratz on market conditions.",
+      "Developments in global trade relations impacting risk appetite.",
+      "SEC decisions on any pending Bitcoin ETF applications."
+    ]
+  }
+}

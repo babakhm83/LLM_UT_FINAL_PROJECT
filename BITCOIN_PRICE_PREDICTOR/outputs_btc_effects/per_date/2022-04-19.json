@@ -1,0 +1,599 @@
+{
+  "date": "2022-04-19",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n20eba2a156f6",
+      "title": "Bitcoin Moves Lower Amid Fears of Stricter Regulation",
+      "url": "https://finance.yahoo.com/news/bitcoin-moves-lower-amid-fears-102010456.html",
+      "summary": "Bitcoin experienced a downturn due to growing concerns about stricter cryptocurrency regulations. The market's sensitivity to geopolitical news and potential regulatory responses, especially following sanctions on Russia, suggests a period of heightened volatility. This indicates that regulatory developments will continue to be a significant factor influencing Bitcoin's price and market sentiment in the medium to long term.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "regulation_fears",
+        "geopolitical_risk",
+        "market_sentiment"
+      ],
+      "rationale": "Increased regulatory scrutiny often leads to investor caution and can suppress price appreciation. The link between geopolitical events and regulatory responses highlights a persistent risk factor for Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0b147598a45f",
+      "title": "Ethereum Classic surges on 79% weekly rally",
+      "url": "https://finance.yahoo.com/news/ethereum-classic-surges-79-weekly-054720395.html",
+      "summary": "Ethereum Classic (ETC) saw a significant 79% weekly rally, with industry observers anticipating a migration of Ethereum miners to ETC following Ethereum's transition to proof-of-stake. While the hash rate has seen a slight increase, stable mining difficulty suggests this migration is not yet dramatic. This trend could impact network security and miner profitability, potentially influencing the broader Proof-of-Work mining landscape and related altcoins.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_PoS_transition",
+        "ETC_miner_migration",
+        "hash_rate_increase"
+      ],
+      "rationale": "The potential shift of miners from Ethereum to Ethereum Classic due to the upcoming Proof-of-Stake transition could boost ETC's network hashrate and potentially its price. This event highlights the dynamic nature of blockchain consensus mechanisms and their impact on related assets."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nb56db7eca27f",
+      "title": "Crypto Mining, the Energy Crisis and the End of ESG",
+      "url": "https://finance.yahoo.com/news/crypto-mining-energy-crisis-end-164409954.html",
+      "summary": "The debate around Bitcoin's energy consumption is framed as effectively ending, with the argument that miners are benevolent industrial consumers aiding a green energy transition. This perspective suggests a more positive outlook on the environmental impact of crypto mining, potentially mitigating ESG concerns that have pressured the industry. This narrative shift could influence institutional adoption and regulatory approaches.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ESG_narrative",
+        "green_energy_mining",
+        "institutional_adoption"
+      ],
+      "rationale": "A more favorable narrative around crypto mining's energy usage, particularly its potential to support green energy, could alleviate significant ESG-related headwinds. This could unlock greater institutional investment and reduce regulatory pressure."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nc65b4977243d",
+      "title": "Observers Cautious for Bitcoin as US Inflation-Adjusted Bond Yield Hits 2-Year High",
+      "url": "https://finance.yahoo.com/news/observers-cautious-bitcoin-u-inflation-091235203.html",
+      "summary": "Rising inflation-adjusted U.S. government bond yields are creating caution for Bitcoin and other risk assets. As real yields increase, they offer a more attractive alternative for investors seeking safe havens, potentially drawing capital away from riskier assets like Bitcoin. This macro trend suggests a challenging environment for cryptocurrencies if yields continue to climb.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "real_yields",
+        "risk_off_sentiment",
+        "bond_market"
+      ],
+      "rationale": "Higher real bond yields increase the opportunity cost of holding non-yielding assets like Bitcoin, making them less attractive. This macro headwind can significantly impact Bitcoin's price, especially during periods of economic uncertainty."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n5952361406d4",
+      "title": "Bitcoin and ETH Hold Strong, Why BNB Could Rally To $500",
+      "url": "https://finance.yahoo.com/news/bitcoin-eth-hold-strong-why-140929461.html",
+      "summary": "Bitcoin broke the $44,500 resistance, and Ether is gaining pace above $3,150. BNB also broke a major hurdle and is projected to rally to $500. This indicates positive technical momentum for major cryptocurrencies, suggesting potential for further price appreciation. The strength in these key assets could signal a broader market recovery or continued bullish trend.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_resistance_break",
+        "ETH_momentum",
+        "BNB_price_target"
+      ],
+      "rationale": "Breaking key resistance levels for Bitcoin and Ethereum, coupled with a positive outlook for BNB, suggests strong underlying demand and potential for continued upward price movement. This technical strength can attract more buyers and sustain a bullish trend."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n89d1cea0ab0b",
+      "title": "Crypto.com to Pay Bitcoin Bonuses to UFC Fighters",
+      "url": "https://finance.yahoo.com/news/ufc-pay-bitcoin-bonuses-athletes-142000514.html",
+      "summary": "Crypto.com's partnership with UFC to award bonuses in bitcoin to fighters signifies growing mainstream adoption and integration of cryptocurrencies into traditional sports and entertainment. This initiative exposes a wider audience to Bitcoin and can foster positive sentiment and potentially increase demand.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "UFC_partnership",
+        "crypto_bonuses",
+        "mainstream_adoption"
+      ],
+      "rationale": "Partnerships like this between major sports organizations and crypto platforms increase visibility and normalize the use of digital assets. This exposure can drive adoption and positive sentiment among a broader demographic."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n9d2929d56335",
+      "title": "HP Soars to Record High After Buffett’s Berkshire Buys a Stake",
+      "url": "https://finance.yahoo.com/news/buffett-berkshire-hathaway-builds-4-002931322.html",
+      "summary": "Warren Buffett's Berkshire Hathaway acquiring a significant stake in HP Inc. sent HP's stock to a record high. While not directly related to crypto, this event reflects a broader trend of institutional capital flowing into established companies, which can indirectly influence investor sentiment towards risk assets, including Bitcoin, by signaling a general appetite for investment.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Buffett_investment",
+        "HP_stock_rally",
+        "institutional_capital_flow"
+      ],
+      "rationale": "While not a direct crypto event, significant institutional investment in traditional assets can sometimes correlate with broader risk appetite, potentially benefiting Bitcoin. However, the direct impact is limited."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n1689c573ae62",
+      "title": "Genesis Digital Assets Announces New Industrial-Scale Bitcoin Mining Farm in South Carolina",
+      "url": "https://finance.yahoo.com/news/genesis-digital-assets-announces-industrial-203100652.html",
+      "summary": "Genesis Digital Assets is expanding its operations with a new industrial-scale Bitcoin mining data center in South Carolina. This expansion signifies continued investment and growth in the Bitcoin mining infrastructure sector, particularly in the United States. Such developments can contribute to increased network security and hash rate, supporting Bitcoin's long-term viability.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_expansion",
+        "US_mining_operations",
+        "hash_rate_growth"
+      ],
+      "rationale": "The expansion of industrial-scale Bitcoin mining operations, especially in the US, indicates continued confidence in the network's future and contributes to its decentralization and security. This growth in infrastructure is a positive long-term signal."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nc818ffffe280",
+      "title": "Bitcoin Miners Skeptical of Greenpeace Campaign to Alter Crypto Code Over Energy Concerns",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-skeptical-greenpeace-campaign-182852107.html",
+      "summary": "Bitcoin miners are reportedly skeptical of Greenpeace's campaign to alter Bitcoin's code to reduce energy consumption. This skepticism suggests a potential division within the crypto community regarding environmental solutions and highlights the ongoing debate around Bitcoin's energy footprint. The outcome of such campaigns could influence regulatory perceptions and public opinion.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "Greenpeace_campaign",
+        "miner_sentiment",
+        "energy_debate"
+      ],
+      "rationale": "The pushback from miners against environmental campaigns indicates a potential for continued debate and resistance to changes that could impact mining operations. This ongoing discussion could lead to regulatory scrutiny or shifts in public perception."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n5d7f9ef27f4b",
+      "title": "Luna Foundation Guard Adds Nearly $230M of Bitcoin to Stack",
+      "url": "https://finance.yahoo.com/news/luna-foundation-guard-adds-230m-112809349.html",
+      "summary": "Luna Foundation Guard (LFG) has acquired an additional $227 million worth of Bitcoin, increasing its total holdings to 35,768 BTC. This significant accumulation by a prominent entity in the crypto space signals strong conviction in Bitcoin as a reserve asset and can provide a degree of price support. Such large-scale purchases by institutional players can influence market sentiment and liquidity.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "LFG_BTC_accumulation",
+        "reserve_asset",
+        "institutional_buying"
+      ],
+      "rationale": "Large-scale Bitcoin purchases by entities like Luna Foundation Guard demonstrate institutional confidence and can act as a stabilizing force in the market. This accumulation suggests a belief in Bitcoin's long-term value as a reserve asset."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n9621206f458a",
+      "title": "Bitcoin bounces back above $40K after touching five week-low",
+      "url": "https://finance.yahoo.com/news/bitcoin-bounces-back-five-week-low-crypto-085004409.html",
+      "summary": "Bitcoin has recovered above the $40,000 mark after briefly touching a five-week low. This bounce suggests some resilience in the market, countering fears of a prolonged bear cycle. The recovery indicates short-term buying interest at lower levels.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "support_level_hold",
+        "market_sentiment_shift"
+      ],
+      "rationale": "The bounce above $40K after a dip indicates short-term buying pressure, suggesting the immediate downside might be limited."
+    },
+    {
+      "pick_idx": 3,
+      "id": "na3ba4b246173",
+      "title": "Ireland Plans Blanket Ban on Political Donations in Crypto",
+      "url": "https://finance.yahoo.com/news/ireland-plans-blanket-ban-political-013041539.html",
+      "summary": "Ireland is planning a blanket ban on political donations in cryptocurrency, citing concerns over Russian cyber-interference and sanctions evasion. This regulatory move by a European nation could signal a broader trend of stricter controls on crypto usage in political spheres, potentially impacting sentiment and adoption.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Ireland_crypto_ban",
+        "political_donations",
+        "regulatory_precedent"
+      ],
+      "rationale": "A ban on crypto donations in a European country could create a negative regulatory precedent, potentially impacting investor sentiment and leading to similar actions elsewhere."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ne1cdb44fd318",
+      "title": "FOREX-Dollar steadies after hitting fresh 20-year high on yen",
+      "url": "https://finance.yahoo.com/news/forex-dollar-steadies-hitting-fresh-083550174.html",
+      "summary": "The US dollar has reached a fresh 20-year high against the Japanese yen and is testing a two-year peak against the euro, supported by high U.S. Treasury yields. This strength in the dollar can be a headwind for risk assets like Bitcoin, as it increases the opportunity cost of holding them.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "JPY_weakness",
+        "Treasury_yields"
+      ],
+      "rationale": "A strong dollar often correlates with a risk-off sentiment, which can put downward pressure on cryptocurrencies as investors favor safer, traditional assets."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne1cdb44fd318",
+      "title": "FOREX-Dollar steadies after hitting fresh 20-year high on yen",
+      "url": "https://finance.yahoo.com/news/forex-dollar-steadies-hitting-fresh-083550174.html",
+      "summary": "The US dollar has reached a fresh 20-year high against the Japanese yen and is testing a two-year peak against the euro, supported by high U.S. Treasury yields. This strength in the dollar can be a headwind for risk assets like Bitcoin, as it increases the opportunity cost of holding them.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "JPY_weakness",
+        "Treasury_yields"
+      ],
+      "rationale": "A strong dollar often correlates with a risk-off sentiment, which can put downward pressure on cryptocurrencies as investors favor safer, traditional assets."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb2f3097779bb",
+      "title": "FOREX-Dollar climbs to fresh 20-year high on yen, tests 2-year peak on euro",
+      "url": "https://finance.yahoo.com/news/forex-dollar-climbs-fresh-20-121604634.html",
+      "summary": "The dollar has reached a new 20-year high against the yen and is testing a two-year peak versus the euro, driven by high U.S. Treasury yields. This sustained dollar strength indicates a tightening monetary environment and potentially reduced liquidity for risk assets.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "Treasury_yields",
+        "risk_appetite"
+      ],
+      "rationale": "The dollar's continued strength, fueled by rising yields, suggests a tightening financial environment that typically pressures risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nfb0d6809f34d",
+      "title": "Crypto Funds See Outflows as Bitcoin Gets More 'Interest-Rate Sensitive'",
+      "url": "https://finance.yahoo.com/news/crypto-funds-see-outflows-bitcoin-171417371.html",
+      "summary": "Crypto funds experienced outflows for a second consecutive week, attributed to Bitcoin's increased sensitivity to interest rates and the Federal Reserve's hawkish stance. This trend indicates a shift in investor sentiment away from riskier assets due to macroeconomic factors.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "ETF"
+      ],
+      "features_for_model": [
+        "crypto_outflows",
+        "interest_rate_sensitivity",
+        "Fed_policy"
+      ],
+      "rationale": "Outflows from crypto funds directly reflect reduced investor demand, driven by macroeconomic concerns like rising interest rates, which is a strong bearish signal for short-term price action."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n612e8e6f3946",
+      "title": "Bitcoin Price Rises for Second Day on Hopes for Soft Landing",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-rises-second-day-184410790.html",
+      "summary": "Bitcoin has risen for a second consecutive day, with prices showing recovery from a recent low. This upward movement is attributed to hopes for a 'soft landing' in the economy, suggesting that positive macroeconomic sentiment can influence crypto prices in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "soft_landing_hopes",
+        "market_sentiment"
+      ],
+      "rationale": "The positive correlation with hopes for a 'soft landing' suggests that improving macroeconomic outlooks can provide a short-term boost to Bitcoin's price."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n13f4882cd6b3",
+      "title": "Investors May Turn From Crypto on Fed Interest Hike Hopes",
+      "url": "https://finance.yahoo.com/news/investors-may-turn-crypto-fed-023831337.html",
+      "summary": "As the Fed raises interest rates, investors may shift away from cryptocurrencies towards more risk-off assets. The article notes that crypto markets have declined significantly this month, correlating with the anticipation and implementation of interest rate hikes.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hikes",
+        "risk_off_assets",
+        "crypto_market_decline"
+      ],
+      "rationale": "The direct link between anticipated Fed rate hikes and potential investor rotation out of crypto is a strong bearish indicator for the immediate short term."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n256a332cbcc5",
+      "title": "Bitcoin bounces back above $40K after touching five-week low",
+      "url": "https://finance.yahoo.com/news/bitcoin-bounces-back-five-week-low-crypto-085004409.html",
+      "summary": "Bitcoin has recovered above the $40,000 mark after briefly touching a five-week low. This bounce suggests some resilience in the market, countering fears of a prolonged bear cycle. The recovery indicates short-term buying interest at lower levels.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "support_level_hold",
+        "market_sentiment_shift"
+      ],
+      "rationale": "The bounce above $40K after a dip indicates short-term buying pressure, suggesting the immediate downside might be limited."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n5a20f4b1381a",
+      "title": "Market Wrap: Altcoins Outperform as Sentiment Improves; Bitcoin Within 'Value Zone'",
+      "url": "https://finance.yahoo.com/news/market-wrap-altcoins-outperform-sentiment-202905487.html",
+      "summary": "Bitcoin and other cryptocurrencies are trading higher, with altcoins outperforming Bitcoin, suggesting improved market sentiment and a greater appetite for risk. Bitcoin is noted to be within a 'value zone,' potentially indicating a buying opportunity.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "price_action",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "altcoin_outperformance",
+        "improved_sentiment",
+        "BTC_value_zone"
+      ],
+      "rationale": "The outperformance of altcoins and improved sentiment, coupled with Bitcoin being in a 'value zone,' suggests a short-term bullish bias for the crypto market."
+    },
+    {
+      "pick_idx": 36,
+      "id": "na1751db5849f",
+      "title": "Revenge Travel Is Great for Carnival, But Inflation Is Bad for It",
+      "url": "https://finance.yahoo.com/news/revenge-travel-great-carnival-inflation-225453889.html",
+      "summary": "Carnival's prospects are mixed due to 'revenge travel' boosting demand but inflation acting as a headwind. While travel demand is strong, rising costs could impact consumer spending on discretionary items like cruises. This highlights the broader economic pressures that can affect consumer behavior and, by extension, risk asset demand.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "revenge_travel",
+        "inflation_headwind",
+        "consumer_spending"
+      ],
+      "rationale": "The mixed outlook for travel stocks due to inflation provides context for broader consumer sentiment and discretionary spending, which can indirectly impact risk assets like crypto."
+    },
+    {
+      "pick_idx": 40,
+      "id": "nc8e8da9c344e",
+      "title": "Wall Street top execs are growingly embracing blockchain",
+      "url": "https://finance.yahoo.com/news/wall-streets-top-execs-are-increasingly-embracing-blockchain-technology-124121110.html",
+      "summary": "Top executives at major financial institutions like BlackRock, JPMorgan Chase, and Goldman Sachs are increasingly discussing and planning for blockchain and digital asset initiatives. This growing embrace from traditional finance signals a significant shift towards integrating blockchain technology and digital assets into mainstream financial services.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Wall_Street_blockchain",
+        "institutional_adoption",
+        "digital_assets"
+      ],
+      "rationale": "Increased adoption and discussion of blockchain by major financial institutions is a strong positive signal for the broader crypto ecosystem, indicating growing institutional interest and potential for future integration."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n4f4e16c6cbf2",
+      "title": "Bitfinex Exchange Back Online After ‘Issues’ Cause 2-Hour Outage",
+      "url": "https://finance.yahoo.com/news/bitfinex-exchange-back-online-issues-145057207.html",
+      "summary": "Cryptocurrency exchange Bitfinex experienced a temporary outage, halting trading for approximately two hours due to an internal server update issue. While the exchange is now back online, such outages can cause short-term volatility and erode user confidence.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitfinex_outage",
+        "exchange_downtime",
+        "trading_halt"
+      ],
+      "rationale": "Exchange outages, even if brief, can cause temporary disruptions in trading and liquidity, potentially leading to minor price fluctuations and a dip in confidence."
+    },
+    {
+      "pick_idx": 49,
+      "id": "nc5cb4520b84e",
+      "title": "Silvergate Capital May Expand Its Bitcoin Lending Program, CEO Says",
+      "url": "https://finance.yahoo.com/news/great-time-bitcoin-banker-silvergate-171721994.html",
+      "summary": "Silvergate Capital's CEO indicated the bank is open to expanding its Bitcoin lending program, following a significant loan to MicroStrategy. This suggests growing institutional appetite for crypto-backed financial products and services, which could increase demand for Bitcoin.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 2,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Silvergate_lending",
+        "BTC_backed_loans",
+        "institutional_finance"
+      ],
+      "rationale": "The expansion of Bitcoin lending programs by traditional financial institutions like Silvergate signals increasing integration of crypto into mainstream finance, potentially boosting demand and liquidity."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-04-19",
+    "summary": "Bitcoin showed resilience by bouncing back above $40,000 after touching a five-week low, indicating short-term buying interest. However, broader market sentiment remains cautious due to the strengthening US dollar and continued concerns about rising interest rates, which are leading to outflows from crypto funds. Despite these headwinds, positive developments like institutional adoption discussions and expansion of crypto-backed financial services offer some bullish undertones.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued strength of the US dollar and rising Treasury yields pressuring risk assets.",
+      "Potential for further outflows from crypto funds due to interest rate sensitivity.",
+      "Regulatory uncertainty and potential for new restrictions (e.g., Ireland's ban on crypto political donations).",
+      "Macroeconomic concerns like inflation and potential recession impacting overall market sentiment."
+    ],
+    "watch_items": [
+      "US Dollar Index (DXY) movements",
+      "Federal Reserve statements and interest rate expectations",
+      "Major crypto fund flow data (e.g., CoinShares reports)",
+      "Key Bitcoin support/resistance levels ($40,000, $42,000)",
+      "Developments in institutional adoption of digital assets"
+    ]
+  }
+}

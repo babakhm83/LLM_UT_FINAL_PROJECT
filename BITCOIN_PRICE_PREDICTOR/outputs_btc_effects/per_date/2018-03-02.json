@@ -1,0 +1,602 @@
+{
+  "date": "2018-03-02",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n80b7389d9bf1",
+      "title": "£4bn of illegal money hidden in cryptocurrencies - Europol",
+      "url": "https://finance.yahoo.com/news/criminals-channel-4bn-illegal-money-cryptocurrencies-says-europol-151513486.html",
+      "summary": "Europol estimates that at least €5.5 billion (£4 billion) of all criminal proceeds in Europe are laundered through cryptocurrencies like bitcoin. This represents about 4% of all money generated through criminal enterprises. The warning highlights the ongoing challenge of illicit activity within the crypto space.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Europol_report",
+        "money_laundering",
+        "illicit_activity"
+      ],
+      "rationale": "Increased regulatory scrutiny and potential crackdowns on illicit use of cryptocurrencies can dampen investor sentiment and adoption. This news signals a persistent concern for regulators regarding the misuse of digital assets."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n8a1c827b6949",
+      "title": "Bitcoin rises above $10,000, strategist sees new high by July",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-above-10-000-192041142.html",
+      "summary": "Bitcoin rose above $10,000 for the first time in over two weeks, recovering from a 70% drop since its mid-December peak. The digital currency has been affected by negative headlines regarding regulatory scrutiny and exchange hacks, such as the recent theft from Coincheck.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "market_sentiment",
+        "price_action"
+      ],
+      "features_for_model": [
+        "bitcoin_price_recovery",
+        "regulatory_scrutiny",
+        "exchange_hacks"
+      ],
+      "rationale": "The price recovery above $10,000, despite ongoing negative news, suggests underlying resilience. However, the mention of regulatory scrutiny and hacks indicates persistent headwinds that could limit sustained upward momentum."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n980a2ee60b38",
+      "title": "Dollar Set to Post Biggest Weekly Loss in Two Years",
+      "url": "https://finance.yahoo.com/news/dollar-set-post-biggest-weekly-085923762.html",
+      "source": "FX Empire",
+      "source_url": "https://www.fxempire.com/",
+      "date_time": "2018-02-16 08:59:23+00:00",
+      "time_unix": 1518771563,
+      "summary": "The U.S. Dollar Index futures contract was poised to close more than 2 percent lower, marking its biggest weekly loss in two years. Factors contributing to the dollar's weakness include concerns about a potential weak dollar strategy by the Trump administration and the erosion of the U.S. yield advantage due to global monetary policy tightening.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "currency"
+      ],
+      "features_for_model": [
+        "USD_weakness",
+        "global_monetary_policy",
+        "trade_policy"
+      ],
+      "rationale": "A weakening U.S. dollar often correlates with increased demand for alternative assets like Bitcoin, as investors seek hedges against currency devaluation. This trend can attract capital into the crypto market."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ndcba5b9f608f",
+      "title": "Can Bitcoin Survive a Litecoin Moment?",
+      "url": "https://finance.yahoo.com/news/bitcoin-survive-litecoin-moment-055932932.html",
+      "source": "FX Empire",
+      "source_url": "https://www.fxempire.com/",
+      "date_time": "2018-02-04 05:59:32+00:00",
+      "time_unix": 1517723972,
+      "summary": "Bitcoin experienced a modest recovery, hitting an intraday high of $9,491.2 before easing back. The market is looking ahead to testimony from SEC and CFTC chairmen to the Senate regarding cryptocurrency, which could significantly impact the U.S. crypto market.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "SEC_CFTC_testimony",
+        "crypto_regulation_US"
+      ],
+      "rationale": "The upcoming Senate hearing on cryptocurrencies introduces significant regulatory uncertainty. The outcome could lead to either increased clarity and potential adoption or stricter controls, impacting Bitcoin's trajectory."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nc491f9c305fd",
+      "title": "What does early 2018 have in store for Bitcoin?",
+      "url": "https://finance.yahoo.com/news/does-early-2018-store-bitcoin-094415840.html",
+      "source": "FX Empire",
+      "source_url": "https://www.fxempire.com/",
+      "date_time": "2018-01-07 09:44:15+00:00",
+      "time_unix": 1515318255,
+      "summary": "The article discusses Bitcoin's performance at the end of 2017 and looks ahead to 2018, suggesting that cryptocurrencies need to prove themselves to attract new investors. It implies that the market is entering a more serious phase where utility and reliability will be key.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "market_sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_maturation",
+        "investor_sentiment_2018"
+      ],
+      "rationale": "The sentiment suggests a shift towards a more mature market where proven utility will drive adoption. This implies that projects failing to deliver on their promises could face significant headwinds, while those that do could see substantial growth."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n6340db716355",
+      "title": "Paying taxes on bitcoin isn't nearly as hard as it sounds",
+      "url": "https://finance.yahoo.com/news/paying-taxes-bitcoin-isn-apos-155200016.html",
+      "source": "Business Insider",
+      "source_url": "http://www.businessinsider.com/",
+      "date_time": "2018-01-04 19:12:00+00:00",
+      "time_unix": 1515093120,
+      "summary": "The article explains that paying taxes on Bitcoin is straightforward for most investors, based on purchase price, sale price, and income. It addresses the complexity that may arise for many Bitcoin owners as tax season approaches following its significant price appreciation.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "bitcoin_taxation",
+        "tax_compliance"
+      ],
+      "rationale": "While presented as straightforward, the increasing focus on Bitcoin taxation by governments globally can lead to regulatory actions and compliance burdens. This could indirectly affect market sentiment and adoption."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n302b96080838",
+      "title": "Big Money Is Betting On A Bitcoin Price Collapse (BTC)",
+      "url": "https://finance.yahoo.com/news/big-money-betting-bitcoin-price-112409472.html",
+      "source": null,
+      "source_url": "https://guce.yahoo.com/terms?locale=en-US",
+      "date_time": "2018-01-08 11:24:09+00:00",
+      "time_unix": 1515410649,
+      "summary": "The launch of bitcoin futures has been a modest disappointment, with the price stagnating between $12,000 and $17,000 since December. Futures market volumes have been lower than expected, and data suggests a bearish outlook from some large investors.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_futures",
+        "institutional_betting",
+        "bearish_sentiment"
+      ],
+      "rationale": "The article suggests that significant institutional capital may be positioning for a Bitcoin price collapse, potentially through futures markets. This sentiment, if widespread, could exert considerable downward pressure on the price."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n642b9ba94c1d",
+      "title": "Major cryptocurrency conference no longer accepting Bitcoin payments",
+      "url": "https://finance.yahoo.com/news/major-cryptocurrency-conference-no-longer-150843710.html",
+      "source": "The Telegraph",
+      "source_url": "http://www.telegraph.co.uk/",
+      "date_time": "2018-01-11 15:08:43+00:00",
+      "time_unix": 1515683323,
+      "summary": "A Bitcoin conference has stopped accepting the cryptocurrency for ticket payments due to high transaction fees and long processing times caused by network congestion. This highlights practical usability issues with Bitcoin.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_transaction_fees",
+        "network_congestion",
+        "scalability_issues"
+      ],
+      "rationale": "The inability of a major crypto conference to accept Bitcoin due to network issues underscores ongoing scalability challenges. This practical limitation can hinder adoption and create negative sentiment."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n7f7e2218872c",
+      "title": "2 bitcoin traders were held at gunpoint in an armed raid in rural England",
+      "url": "https://finance.yahoo.com/news/2-bitcoin-traders-were-held-105906122.html",
+      "source": "Business Insider",
+      "source_url": "http://www.businessinsider.com/",
+      "date_time": "2018-01-29 10:59:06+00:00",
+      "time_unix": 1517223546,
+      "summary": "Two bitcoin traders were robbed at gunpoint in rural England, with criminals forcing them to conduct cryptocurrency transfers. This incident highlights the security risks and potential for physical harm associated with holding and transacting in cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "crypto_crime",
+        "physical_risk",
+        "security_incident"
+      ],
+      "rationale": "While an isolated incident, such events contribute to negative perceptions of cryptocurrency security and can deter potential users who fear for their personal safety. This can indirectly impact adoption and market sentiment."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n82ac6a66f8db",
+      "title": "Update: VISA issuers and Mastercard make it harder to buy Bitcoin and other cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/visa-mastercard-harder-buy-bitcoin-203045217.html",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/",
+      "date_time": "2018-02-05 20:30:45+00:00",
+      "time_unix": 1517862645,
+      "summary": "VISA issuers and Mastercard have begun reclassifying cryptocurrency purchases, making them harder for consumers. This change affects how these transactions are treated on bank statements and potentially adds fees or limits.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "VISA_Mastercard_policy",
+        "crypto_purchase_difficulty",
+        "financial_institution_stance"
+      ],
+      "rationale": "Major payment networks making it harder to purchase cryptocurrencies directly impacts accessibility for mainstream users. This can slow down adoption and create friction for new entrants into the market."
+    },
+    {
+      "pick_idx": 46,
+      "id": "nf57b4a5bfdc0",
+      "title": "Wyoming wants to be the Silicon Valley of blockchain",
+      "url": "https://finance.yahoo.com/news/wyoming-wants-silicon-valley-blockchain-155501435.html",
+      "source": "Yahoo Finance",
+      "source_url": "http://finance.yahoo.com/",
+      "date_time": "2018-02-26 15:55:01+00:00",
+      "time_unix": 1519660501,
+      "summary": "Wyoming's House of Representatives unanimously passed two blockchain bills, with more pending in the State Senate. Governor Matt Mead supports these initiatives, aiming to position Wyoming as a center for blockchain innovation.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Wyoming_blockchain_bills",
+        "regulatory_sandbox",
+        "state_level_adoption"
+      ],
+      "rationale": "Proactive state-level regulatory efforts to foster blockchain technology can create a more favorable environment for innovation and adoption. This could attract businesses and talent, indirectly benefiting the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 50,
+      "id": "nb6e52420cec4",
+      "title": "Bitcoin is an asset, not a currency - Israel's central bank",
+      "url": "https://finance.yahoo.com/news/bitcoin-asset-not-currency-israels-131611155.html",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/",
+      "date_time": "2018-01-08 13:16:11+00:00",
+      "time_unix": 1515417371,
+      "summary": "Israel's central bank stated it will not recognize virtual currencies like Bitcoin as actual currency and finds it difficult to regulate their risks to banks. They also noted public complaints about banks hindering Bitcoin purchases.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "currency_classification"
+      ],
+      "features_for_model": [
+        "Israel_central_bank",
+        "Bitcoin_classification",
+        "regulatory_stance"
+      ],
+      "rationale": "The classification of Bitcoin as an asset rather than a currency by a central bank can influence regulatory approaches and market perception. While not directly prohibitive, it signals a cautious stance that could impact future policy."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "nec492d31b2b4",
+      "title": "Bitcoin Struggles to Pass $11K Amid Low Volumes",
+      "url": "https://finance.yahoo.com/news/bitcoin-struggles-pass-11k-amid-090717287.html",
+      "summary": "Bitcoin briefly surpassed $11,000 but is struggling to maintain the level due to low trading volumes. Trading activity is concentrated in BTC/USDT pairs on exchanges like OKEx, suggesting a reliance on stablecoins for trading.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_volume",
+        "BTC_price_resistance",
+        "USDT_trading"
+      ],
+      "rationale": "Low trading volumes suggest a lack of strong conviction from market participants, making it difficult for Bitcoin to sustain price rallies. This could lead to increased volatility or a retest of lower levels."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nd5de60ef6d19",
+      "title": "What Happened in the Stock Market Today",
+      "url": "https://finance.yahoo.com/news/happened-stock-market-today-221310786.html",
+      "summary": "Stocks ended mixed on Friday, with the Dow Jones Industrial Average down 0.3% and the S&P 500 up 0.5%, amid fears of a trade war due to proposed steel and aluminum tariffs. Oil stocks bucked the negative trend.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "trade_war_fears",
+        "steel_aluminum_tariffs",
+        "stock_market_mixed"
+      ],
+      "rationale": "Geopolitical tensions and trade war fears can create broader market uncertainty, which often spills over into riskier assets like cryptocurrencies. This could lead to short-term price declines."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n5e2a7fa46cc3",
+      "title": "Theft-Hit NEM Nosedived, But It Wasn't February's Big Crypto Loser",
+      "url": "https://finance.yahoo.com/news/theft-hit-nem-nosedived-wasn-134531010.html",
+      "summary": "While Bitcoin saw marginal gains in February, many other cryptocurrencies, including NEM, ICON, and Cardano, experienced significant losses. This indicates a broad market downturn affecting altcoins more severely.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "altcoin_selloff",
+        "NEM_losses",
+        "crypto_market_downturn"
+      ],
+      "rationale": "The broad decline in altcoins during February suggests a risk-off sentiment in the crypto market. This could continue to pressure Bitcoin if broader market weakness persists."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nbffc1581a920",
+      "title": "Term Sheet -- Friday, March 2",
+      "url": "https://finance.yahoo.com/news/term-sheet-friday-march-2-142025462.html",
+      "summary": "Garrett Camp (Uber co-founder) is developing a new cryptocurrency called 'Eco' aimed at fixing challenges with Bitcoin and Ethereum, focusing on instant, affordable, and borderless payments.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "new_cryptocurrency",
+        "Eco_protocol",
+        "payment_innovation"
+      ],
+      "rationale": "The development of new cryptocurrencies with specific goals like improved payment efficiency can draw attention and potentially capital away from established players if successful. However, the impact is likely to be minimal in the short term."
+    },
+    {
+      "pick_idx": 20,
+      "id": "na3478095ea2b",
+      "title": "Trading firm Virtu distances itself from phony cryptocurrency",
+      "url": "https://finance.yahoo.com/news/trading-firm-virtu-distances-itself-192703286.html",
+      "summary": "Virtu Financial is distancing itself from a fake cryptocurrency called VirtCoin that falsely claims affiliation. This highlights risks associated with the crypto craze and ongoing regulatory efforts.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Virtu_Financial",
+        "fake_cryptocurrency",
+        "scam_alert"
+      ],
+      "rationale": "The emergence of fake cryptocurrencies and firms distancing themselves from them underscores the prevalence of scams in the market. This can erode trust and create negative sentiment, particularly for less informed investors."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nb440b0329705",
+      "title": "The Dow Has \"Plunged\" 1,100 Points in 3 Days: Here's Who's Lost Money",
+      "url": "https://finance.yahoo.com/news/dow-plunged-1-100-points-123700244.html",
+      "summary": "The Dow Jones Industrial Average experienced significant declines, including a 1,175-point drop on February 5th, pushing it down over 10% and into correction territory. This indicates broad market weakness.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "stock_market_correction",
+        "Dow_Jones_decline",
+        "risk_off_sentiment"
+      ],
+      "rationale": "A significant stock market correction can lead to a broader risk-off sentiment, causing investors to pull capital from speculative assets like Bitcoin. This macro trend is a strong bearish signal for crypto in the short term."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nf791d03d21fe",
+      "title": "Bitcoin Transaction Volume Is Puzzling Investors",
+      "url": "https://finance.yahoo.com/news/bitcoin-transaction-volume-puzzling-investors-111215281.html",
+      "summary": "Bitcoin's transaction volume has fallen significantly since its December highs and has not recovered despite a price rebound. This decline, touching two-year lows, raises questions about its popularity and utility.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_transaction_volume",
+        "declining_utility",
+        "investor_puzzlement"
+      ],
+      "rationale": "A sustained drop in transaction volume, even as prices recover, suggests a potential disconnect between speculative trading and actual usage. This could indicate a weakening fundamental demand for Bitcoin."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n4bd5c3a46e88",
+      "title": "Cryptocurrencies failing as money, but technology has promise: Carney",
+      "url": "https://finance.yahoo.com/news/cryptocurrencies-failing-money-bank-englands-carney-101103553--business.html",
+      "summary": "Bank of England Governor Mark Carney stated that cryptocurrencies like Bitcoin are failing as money and show signs of being a financial bubble, but their underlying technology could improve the financial system.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Mark_Carney_comments",
+        "crypto_bubble",
+        "failing_as_money"
+      ],
+      "rationale": "Statements from prominent central bankers like Mark Carney, labeling cryptocurrencies as failing as money and exhibiting bubble-like behavior, can negatively influence short-term market sentiment and investor confidence."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nb4e0edf33819",
+      "title": "Politicians are getting in on the cryptocurrency craze to fund campaigns",
+      "url": "https://finance.yahoo.com/news/politicians-getting-cryptocurrency-craze-fund-110000833.html",
+      "summary": "An increasing number of politicians are accepting cryptocurrency donations to fund their campaigns, highlighting the growing mainstream awareness and integration of digital currencies.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "legal"
+      ],
+      "features_for_model": [
+        "political_donations",
+        "crypto_campaign_funding",
+        "mainstream_awareness"
+      ],
+      "rationale": "While a niche trend, politicians accepting crypto donations signals increasing mainstream acceptance and integration. This can contribute to a positive narrative and broader adoption, though the immediate price impact is likely to be low."
+    },
+    {
+      "pick_idx": 41,
+      "id": "na3478095ea2b",
+      "title": "Trading firm Virtu distances itself from phony cryptocurrency",
+      "url": "https://finance.yahoo.com/news/trading-firm-virtu-distances-itself-192703286.html",
+      "summary": "Virtu Financial is distancing itself from a fake cryptocurrency called VirtCoin that falsely claims affiliation. This highlights risks associated with the crypto craze and ongoing regulatory efforts.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Virtu_Financial",
+        "fake_cryptocurrency",
+        "scam_alert"
+      ],
+      "rationale": "The emergence of fake cryptocurrencies and firms distancing themselves from them underscores the prevalence of scams in the market. This can erode trust and create negative sentiment, particularly for less informed investors."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n099fb3ccb2e1",
+      "title": "Delta hit with a sea of angry customers after it bans NRA discounts",
+      "url": "https://finance.yahoo.com/news/delta-hit-sea-angry-customers-154501586.html",
+      "summary": "Delta Air Lines is facing backlash and a blocked tax exemption after cutting ties with the NRA and ending discount programs for its members. This highlights the impact of corporate social stances on customer relations.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "corporate_action",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Delta_NRA_controversy",
+        "corporate_boycott",
+        "customer_backlash"
+      ],
+      "rationale": "While not directly related to crypto, corporate stances on social issues can create market volatility and consumer sentiment shifts. This can indirectly influence risk appetite for speculative assets."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-03-02",
+    "summary": "Bitcoin is struggling to maintain the $11,000 level amid low trading volumes, indicating a lack of strong conviction. Broader market sentiment is cautious due to fears of a trade war and significant stock market declines, which typically lead to a risk-off environment. Negative news regarding altcoin performance and the emergence of fake cryptocurrencies further contribute to a bearish short-term outlook. However, regulatory developments in Wyoming and the increasing political adoption of crypto offer some long-term bullish signals.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "Continued stock market weakness and trade war escalation could trigger further sell-offs in risk assets.",
+      "Low Bitcoin trading volumes suggest a lack of buying interest, increasing the risk of price consolidation or decline.",
+      "Ongoing regulatory uncertainty globally could lead to adverse policy changes impacting crypto adoption.",
+      "The prevalence of scams and fake cryptocurrencies erodes trust and can deter new investors."
+    ],
+    "watch_items": [
+      "US Dollar Index (USDX) for signs of continued weakness.",
+      "Major stock market indices (Dow, S&P 500) for further declines.",
+      "Key altcoin performance for indications of broader market sentiment.",
+      "Developments in US regulatory bodies (SEC, CFTC) regarding cryptocurrencies.",
+      "Bitcoin transaction volume and fee data for signs of increased utility."
+    ]
+  }
+}

@@ -1,0 +1,546 @@
+{
+  "date": "2018-04-01",
+  "long_term": [
+    {
+      "pick_idx": 23,
+      "id": "n2a78fa4f7670",
+      "title": "Senate cryptocurrency hearing strikes a cautiously optimistic tone",
+      "url": "https://finance.yahoo.com/news/senate-cryptocurrency-hearing-strikes-cautiously-224033235.html",
+      "summary": "A Senate Banking Committee hearing featured SEC Chairman Jay Clayton and CFTC Chairman Christopher Giancarlo discussing the future of cryptocurrency regulation. Despite a week of plunging prices and negative news, the tone was surprisingly optimistic. The officials discussed what can and should be regulated, offering a broader outlook on the long-term future of virtual currencies in the U.S. This suggests a potentially more stable regulatory environment ahead, which could foster institutional adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Senate_hearing",
+        "SEC_CFTC_testimony",
+        "regulatory_clarity"
+      ],
+      "rationale": "Positive regulatory signals from key U.S. financial bodies can reduce uncertainty and encourage institutional investment. This provides a foundation for long-term growth and adoption."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n227764824b4e",
+      "title": "Robinhood's commission-free cryptocurrency trading is live",
+      "url": "https://finance.yahoo.com/news/2018-02-22-robinhood-free-cryptocurrency-trading-live-five-states.html",
+      "summary": "Robinhood, a popular commission-free trading app, has launched cryptocurrency trading for Bitcoin and Ethereum in five states, with plans for wider expansion. This move lowers the barrier to entry for retail investors, potentially increasing adoption and trading volume. The availability of commission-free trading for major cryptocurrencies on a widely used platform is a significant step towards mainstream accessibility.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Robinhood_crypto_launch",
+        "commission_free_trading",
+        "retail_adoption"
+      ],
+      "rationale": "The expansion of commission-free crypto trading to a mainstream platform like Robinhood significantly lowers the barrier to entry for new investors, driving retail adoption and increasing market liquidity."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n99f402ac4535",
+      "title": "NVIDIA and AMD Have a Cryptocurrency Mining Conundrum on Their Hands",
+      "url": "https://finance.yahoo.com/news/nvidia-amd-cryptocurrency-mining-conundrum-122100813.html",
+      "summary": "The article discusses the impact of cryptocurrency mining on NVIDIA and AMD, noting the significant demand for their GPUs. While this demand has been profitable, the volatility of the crypto market and the potential for mining shifts create a \"conundrum.\" This highlights the growing reliance of hardware manufacturers on the crypto ecosystem, suggesting that the health of the crypto market directly influences their business performance and future product development.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "GPU_demand",
+        "crypto_mining_impact",
+        "NVIDIA_AMD"
+      ],
+      "rationale": "The strong demand for GPUs from crypto miners indicates a significant, albeit volatile, driver for hardware manufacturers. This interdependence suggests that the growth of crypto mining infrastructure will continue to influence the tech hardware sector."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n063f093c799a",
+      "title": "Warning Signs? A Timeline of Tether and Bitfinex Events",
+      "url": "https://finance.yahoo.com/news/warning-signs-timeline-tether-bitfinex-213741023.html",
+      "summary": "This article raises concerns about Tether (USDT) and its backing by U.S. dollars, noting the lack of external audits to confirm reserves. It highlights that Tether is operated by the same individuals who run the Bitfinex exchange. The scrutiny from U.S. regulators and the absence of transparency around Tether's reserves pose systemic risks to the crypto market, potentially impacting liquidity and stability if issues arise.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Tether_Bitfinex_scrutiny",
+        "stablecoin_reserve_risk",
+        "market_liquidity_concern"
+      ],
+      "rationale": "Concerns about the backing of stablecoins like Tether can lead to market instability and reduced liquidity. Regulatory scrutiny and lack of transparency create significant downside risk for the broader crypto market."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n38234ace317b",
+      "title": "Cryptocurrencies a Top Priority for China in 2018: Central Bank",
+      "url": "https://finance.yahoo.com/news/cryptocurrencies-top-priority-china-2018-200349779.html",
+      "summary": "The People's Bank of China (PBoC) has identified cryptocurrencies as a top priority for 2018, aiming to strengthen the renminbi and enhance capital controls. The central bank plans to \"carry out the rectification of various types of virtual currencies\" and crack down on trading. This indicates a continued tightening of regulatory policy in China, which could impact global crypto trading volumes and sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_crypto_regulation",
+        "PBoC_priority",
+        "capital_control_enforcement"
+      ],
+      "rationale": "China's proactive regulatory stance on cryptocurrencies, including a focus on rectification and crackdowns, signals a restrictive environment that could dampen global market sentiment and trading activity."
+    },
+    {
+      "pick_idx": 10,
+      "id": "na5ee00988b83",
+      "title": "Bitcoin Cash Gains on 38% Rise in Trading Volume",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-rallies-38-rise-130047677.html",
+      "summary": "Bitcoin Cash (BCH) saw a significant rise in trading volume (38%) and price appreciation, though it remained within a bearish falling-channel pattern. The recovery from recent lows was noted as potentially sustainable, but the overall trend was still downward. This indicates that while specific altcoins might see short-term gains, the broader market sentiment for many was still bearish, with technical patterns suggesting continued downward pressure.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BCH_volume_surge",
+        "falling_channel_pattern",
+        "altcoin_recovery_potential"
+      ],
+      "rationale": "While Bitcoin Cash showed increased trading volume, its continued presence within a bearish technical pattern suggests that short-term rallies might not signal a sustained trend, reflecting broader market uncertainty for altcoins."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n1c855a52a499",
+      "title": "The Creator Of GBTC Launches New Products For Bitcoin Cash, Ethereum, Litecoin And XRP",
+      "url": "https://finance.yahoo.com/news/creator-gbtc-launches-products-bitcoin-194515767.html",
+      "summary": "Grayscale Investments, the firm behind the Bitcoin Investment Trust (GBTC), announced the launch of new investment trusts for Bitcoin Cash, Ethereum, Litecoin, and XRP. This expansion of regulated investment products into other major cryptocurrencies signals growing institutional interest and provides more avenues for traditional investors to gain exposure to the digital asset class.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Grayscale_new_trusts",
+        "altcoin_investment_products",
+        "institutional_adoption_expansion"
+      ],
+      "rationale": "The creation of regulated investment vehicles for major altcoins by a reputable firm like Grayscale is a strong indicator of increasing institutional adoption and provides a pathway for capital inflow into these assets."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n4173c691ffc8",
+      "title": "Bitcoin drops below key $9,000 level on Coinbase",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-below-key-9-134130312.html",
+      "summary": "Bitcoin experienced a significant drop below the $9,000 support level, influenced by concerns over increased regulation in India and potential price manipulation at a major exchange. Coinbase also reported issues with its 2-factor authentication. This event highlights the sensitivity of Bitcoin's price to regulatory news and exchange operational stability, indicating potential for sharp price movements based on such factors.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "9k_support_breach",
+        "regulatory_fear",
+        "exchange_outage"
+      ],
+      "rationale": "The breach of a key support level, coupled with regulatory concerns and exchange issues, signals negative sentiment and potential for further price declines, impacting short-to-medium term market dynamics."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n8a5e0080dc9f",
+      "title": "Stocks to open higher, Bitcoin plunges after Google bans crypto ads",
+      "url": "https://finance.yahoo.com/news/stocks-open-higher-bitcoin-plunges-google-bans-crypto-ads-125841487.html",
+      "summary": "Google's decision to prohibit cryptocurrency advertisements is expected to negatively impact Bitcoin and the broader crypto market. This ban by a major advertising platform reduces visibility and potential user acquisition channels for crypto projects. The news coincided with a plunge in Bitcoin's price, underscoring the market's sensitivity to such policy changes from large tech companies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Google_crypto_ad_ban",
+        "BTC_plunge",
+        "advertising_restriction"
+      ],
+      "rationale": "A ban on crypto ads by a major platform like Google limits marketing reach and can negatively affect sentiment and adoption, creating a bearish pressure on the market."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n74037f432f9a",
+      "title": "'Big Bitcoin Heist'—Iceland Cryptocurrency Thefts Lead to 11 Arrests",
+      "url": "https://finance.yahoo.com/news/apos-big-bitcoin-heist-apos-124251591.html",
+      "summary": "Eleven individuals were arrested in Iceland in connection with the theft of nearly $2 million worth of cryptocurrency-mining equipment. The thefts targeted data centers, focusing on the hardware used for mining rather than direct theft of cryptocurrencies. This event highlights the physical security risks associated with mining operations and the potential for disruptions to mining infrastructure.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "hack/outage",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Iceland_crypto_theft",
+        "mining_equipment_heist",
+        "physical_security_risk"
+      ],
+      "rationale": "While a localized event, the theft of mining equipment underscores the security challenges in the crypto infrastructure. It could lead to increased security measures for mining operations, potentially impacting operational costs."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 19,
+      "id": "n46e4f3607f64",
+      "title": "The market is ‘right in the eye of the storm,’ and charts show dark clouds ahead: Bank of America",
+      "url": "https://finance.yahoo.com/news/market-eye-storm-charts-show-210000690.html",
+      "summary": "Bank of America's technical strategist suggests the market is in a precarious position, with charts indicating potential further declines. Key indicators like the bond market and gold are highlighted as signals for a potentially bumpy second quarter. This macro outlook suggests a risk-off sentiment that could spill over into crypto markets.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BofA_market_outlook",
+        "bond_market_signal",
+        "gold_indicator",
+        "risk_off_sentiment"
+      ],
+      "rationale": "A bearish macro outlook from a major financial institution can lead to reduced risk appetite, potentially causing investors to pull capital from speculative assets like Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n2f9adfeb5163",
+      "title": "Interview with Markus Levin, XYO Co-Founder",
+      "url": "https://finance.yahoo.com/news/interview-markus-levin-xyo-co-043023346.html",
+      "summary": "The interview discusses XYO's goal of building a decentralized location verification system to address vulnerabilities in smart contracts, particularly those needing centralized third-party verification. This focus on decentralized data verification and smart contract security could influence the development and adoption of blockchain solutions.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "XYO_interview",
+        "decentralized_verification",
+        "smart_contract_security"
+      ],
+      "rationale": "Discussions around improving smart contract security and decentralized data verification are ongoing developments in the blockchain space, but their immediate price impact on Bitcoin is likely to be minimal."
+    },
+    {
+      "pick_idx": 14,
+      "id": "naab8a13d09a9",
+      "title": "Here's a Retirement Strategy That Can Promise You Won't Run Out of Money",
+      "url": "https://finance.yahoo.com/news/apos-retirement-strategy-promise-won-150400353.html",
+      "summary": "The article discusses deferred annuities as a strategy to combat the risk of running out of money in retirement. It highlights that many Americans are unprepared for retirement. While this is a personal finance topic, it indirectly relates to broader economic sentiment and investor behavior, which can influence risk asset allocation.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "retirement_planning",
+        "annuity_strategy",
+        "financial_preparedness"
+      ],
+      "rationale": "This article focuses on personal finance and retirement planning, which has a very indirect and low impact on short-term Bitcoin price movements."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n3306a15b6c6e",
+      "title": "Is Sturm, Ruger & Company, Inc. a Buy?",
+      "url": "https://finance.yahoo.com/news/sturm-ruger-company-inc-buy-000100141.html",
+      "summary": "Sturm, Ruger & Company's stock has seen a decline year-to-date, with management not repurchasing shares in the last quarter. The article questions whether the stock is a buy. This is a traditional stock analysis piece with no direct relevance to cryptocurrency markets.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.1,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Sturm_Ruger_analysis",
+        "stock_performance",
+        "share_repurchase"
+      ],
+      "rationale": "Analysis of a firearms manufacturer's stock has no discernible impact on Bitcoin's price or volatility."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n3306a15b6c6e",
+      "title": "Is Sturm, Ruger & Company, Inc. a Buy?",
+      "url": "https://finance.yahoo.com/news/sturm-ruger-company-inc-buy-000100141.html",
+      "summary": "Sturm, Ruger & Company's stock has seen a decline year-to-date, with management not repurchasing shares in the last quarter. The article questions whether the stock is a buy. This is a traditional stock analysis piece with no direct relevance to cryptocurrency markets.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.1,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Sturm_Ruger_analysis",
+        "stock_performance",
+        "share_repurchase"
+      ],
+      "rationale": "Analysis of a firearms manufacturer's stock has no discernible impact on Bitcoin's price or volatility."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n30a6af8ee6d1",
+      "title": "Is Pfizer Inc. a Buy?",
+      "url": "https://finance.yahoo.com/news/pfizer-inc-buy-103300622.html",
+      "summary": "The article analyzes Pfizer's stock performance and its status as an income play versus a growth pick. It compares its performance to the S&P 500 and notes its dividend payments. This is a standard stock analysis piece with no direct connection to crypto markets.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.1,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Pfizer_stock_analysis",
+        "income_play",
+        "dividend_yield"
+      ],
+      "rationale": "Analysis of pharmaceutical stock Pfizer has no direct impact on Bitcoin's price or volatility."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n30a6af8ee6d1",
+      "title": "Is Pfizer Inc. a Buy?",
+      "url": "https://finance.yahoo.com/news/pfizer-inc-buy-103300622.html",
+      "summary": "The article analyzes Pfizer's stock performance and its status as an income play versus a growth pick. It compares its performance to the S&P 500 and notes its dividend payments. This is a standard stock analysis piece with no direct connection to crypto markets.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.1,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Pfizer_stock_analysis",
+        "income_play",
+        "dividend_yield"
+      ],
+      "rationale": "Analysis of pharmaceutical stock Pfizer has no direct impact on Bitcoin's price or volatility."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb769f951e4e3",
+      "title": "A Strategy to Combat Rising Interest Rates",
+      "url": "https://finance.yahoo.com/news/strategy-combat-rising-interest-rates-110058436.html",
+      "summary": "This article discusses strategies for investors to navigate rising interest rates and changes at the Federal Reserve, focusing on fixed-income investments. While it touches on macro-economic policy, its direct impact on Bitcoin's short-term price action is minimal.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "interest_rate_strategy",
+        "Federal_Reserve_policy",
+        "fixed_income_investing"
+      ],
+      "rationale": "While rising interest rates are a macro factor, this article's focus on traditional fixed-income strategies has a low direct impact on Bitcoin's short-term price movements."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n6e1cda810e8b",
+      "title": "Better Buy: AbbVie Inc. vs. Johnson & Johnson",
+      "url": "https://finance.yahoo.com/news/better-buy-abbvie-inc-vs-111800744.html",
+      "summary": "This article compares AbbVie and Johnson & Johnson, discussing their stock performance and future opportunities. It's a comparative analysis of two large pharmaceutical companies with no direct relevance to cryptocurrency markets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.1,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "AbbVie_JNJ_comparison",
+        "pharma_stock_analysis",
+        "dividend_investing"
+      ],
+      "rationale": "Comparison of two large-cap pharmaceutical stocks has no impact on Bitcoin's price or volatility."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n6e1cda810e8b",
+      "title": "Better Buy: AbbVie Inc. vs. Johnson & Johnson",
+      "url": "https://finance.yahoo.com/news/better-buy-abbvie-inc-vs-111800744.html",
+      "summary": "This article compares AbbVie and Johnson & Johnson, discussing their stock performance and future opportunities. It's a comparative analysis of two large pharmaceutical companies with no direct relevance to cryptocurrency markets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.1,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "AbbVie_JNJ_comparison",
+        "pharma_stock_analysis",
+        "dividend_investing"
+      ],
+      "rationale": "Comparison of two large-cap pharmaceutical stocks has no impact on Bitcoin's price or volatility."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n639fc2d0aa4d",
+      "title": "This Generation Is at Serious Risk of Coming Up Short in Retirement",
+      "url": "https://finance.yahoo.com/news/generation-serious-risk-coming-short-111800050.html",
+      "summary": "The article highlights the retirement preparedness challenges faced by Gen Xers, emphasizing the need for savings and financial planning. This is a personal finance topic with no direct impact on short-term crypto market movements.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.2,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "retirement_preparedness",
+        "Gen_X_savings",
+        "financial_planning_advice"
+      ],
+      "rationale": "Discussion on retirement savings for a specific generation has minimal to no direct impact on Bitcoin's short-term price action."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n639fc2d0aa4d",
+      "title": "This Generation Is at Serious Risk of Coming Up Short in Retirement",
+      "url": "https://finance.yahoo.com/news/generation-serious-risk-coming-short-111800050.html",
+      "summary": "The article highlights the retirement preparedness challenges faced by Gen Xers, emphasizing the need for savings and financial planning. This is a personal finance topic with no direct impact on short-term crypto market movements.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.2,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "retirement_preparedness",
+        "Gen_X_savings",
+        "financial_planning_advice"
+      ],
+      "rationale": "Discussion on retirement savings for a specific generation has minimal to no direct impact on Bitcoin's short-term price action."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-04-01",
+    "summary": "The market sentiment appears cautious, with a Bank of America strategist warning of potential headwinds in the coming quarter, citing bond market and gold indicators. This macro-economic caution could lead to reduced risk appetite for speculative assets like Bitcoin. Meanwhile, developments in the crypto space include discussions on improving smart contract security and personal finance advice, which have minimal direct impact on short-term price action. Traditional stock analyses of companies like Pfizer and Sturm, Ruger also lack direct influence on Bitcoin.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Deteriorating macro-economic conditions and risk-off sentiment.",
+      "Continued regulatory uncertainty globally.",
+      "Potential instability in stablecoin reserves (e.g., Tether).",
+      "Technical indicators suggesting further price declines.",
+      "Lack of significant positive catalysts in the immediate short term."
+    ],
+    "watch_items": [
+      "Global regulatory announcements.",
+      "Major exchange operational status.",
+      "Stablecoin reserve audits and news.",
+      "Key technical support/resistance levels for BTC.",
+      "Developments in institutional adoption products (e.g., Grayscale trusts)."
+    ]
+  }
+}

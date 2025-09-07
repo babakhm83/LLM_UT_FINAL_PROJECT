@@ -1,0 +1,507 @@
+{
+  "date": "2022-07-07",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n22e1afdf12b7",
+      "title": "Bitcoin (BTC) Falls to sub-$27,500 with the Bears Eyeing $25,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-falls-sub-27-120131638.html",
+      "summary": "Bitcoin experienced a significant drop below $27,500, with bears targeting $25,000. This decline occurred despite a slight rise in the Bitcoin Fear & Greed Index. Investors remained cautious, focusing on upcoming Federal Reserve monetary policy decisions following recent inflation figures. The price action indicated a bearish sentiment in the market, with Bitcoin failing to hold key support levels.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "bearish_sentiment",
+        "Fed_policy_focus"
+      ],
+      "rationale": "The sustained price drop below a critical support level suggests strong bearish momentum. The market's focus on macro factors like Fed policy indicates potential for further downside if economic conditions worsen."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb8026c59f5b8",
+      "title": "Bitcoin, cryptocurrencies return to red with soaring UK inflation",
+      "url": "https://finance.yahoo.com/news/bitcoin-cryptocurrencies-return-red-soaring-010933050.html",
+      "summary": "Bitcoin and other cryptocurrencies fell into negative territory as soaring UK inflation and recession warnings impacted the market. Bitcoin dropped below $20,000 for the third time in a week. This broad market downturn reflects the sensitivity of crypto assets to macroeconomic pressures, particularly inflation and the threat of economic contraction.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "UK_inflation",
+        "recession_fears",
+        "crypto_downturn"
+      ],
+      "rationale": "Soaring inflation in major economies like the UK directly impacts investor risk appetite, leading to sell-offs in speculative assets like cryptocurrencies. Recession fears exacerbate this trend."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nc4359dba4d5d",
+      "title": "Graff Jewelers Paid Russian Hackers $7.5 Million to Stop a Leak of Private Client Info, Lawsuit Says",
+      "url": "https://finance.yahoo.com/news/graff-jewelers-paid-russian-hackers-210000534.html",
+      "summary": "Luxury jeweler Graff reportedly paid $7.5 million in Bitcoin to a Russian ransomware group to prevent a data leak. The company is now suing its insurer. This incident highlights the ongoing risks of cyberattacks and ransomware in the digital asset space, even for traditional businesses, and the use of Bitcoin in illicit activities.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ransomware_payment",
+        "Bitcoin_illicit_use",
+        "cybersecurity_risk"
+      ],
+      "rationale": "While this involves a specific company, it points to the continued use of Bitcoin in ransomware attacks, which can negatively impact public perception and potentially lead to increased regulatory scrutiny."
+    },
+    {
+      "pick_idx": 9,
+      "id": "ndab373c6cb6a",
+      "title": "Crypto platform Voyager Digital cuts daily withdrawal limit to $10,000 after revealing $660 million exposure to struggling crypto hedge fund",
+      "url": "https://finance.yahoo.com/news/crypto-platform-voyager-digital-cuts-165246684.html",
+      "summary": "Voyager Digital, a crypto platform, reduced its daily withdrawal limit to $10,000 due to a significant exposure ($660 million) to the struggling crypto hedge fund Three Arrows Capital. This move signals liquidity issues within the crypto lending sector and raises concerns about contagion effects, potentially impacting investor confidence and market stability.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Voyager_bankruptcy",
+        "Three_Arrows_Capital_default",
+        "withdrawal_limit_cut",
+        "contagion_risk"
+      ],
+      "rationale": "The liquidity crisis at Voyager, stemming from exposure to a failing hedge fund, demonstrates systemic risk in the crypto lending space. This can lead to a loss of trust and further deleveraging."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n9fc31c061e26",
+      "title": "Bitcoin Bears Eye More Blood as Long-Term Holders Scatter",
+      "url": "https://finance.yahoo.com/news/bitcoin-bears-eye-more-blood-170325953.html",
+      "summary": "The article suggests that even long-term Bitcoin holders are selling their assets, indicating a deeper bear market that could persist for months. This behavior from 'strong hands' signals a significant shift in sentiment and a potential lack of conviction in the short to medium term, pointing towards further price declines.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "LTH_selling",
+        "bear_market_deepening",
+        "investor_sentiment"
+      ],
+      "rationale": "When long-term holders, typically seen as more resilient, begin to sell, it suggests a broad capitulation and a potential for extended downside. This indicates a lack of fundamental buying interest at current levels."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n4a059db2577d",
+      "title": "Bitcoin whale Michael Saylor tries to defuse fears over MicroStrategy margin call",
+      "url": "https://finance.yahoo.com/news/bitcoin-whale-michael-saylor-tries-134205244.html",
+      "summary": "Michael Saylor, a prominent Bitcoin advocate and CEO of MicroStrategy, attempted to quell concerns about a potential margin call on the company's Bitcoin holdings. MicroStrategy's strategy is heavily leveraged to Bitcoin's performance, making such concerns significant for the broader market sentiment and the perception of corporate Bitcoin adoption.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Michael_Saylor",
+        "MicroStrategy_margin_call_fears",
+        "leveraged_BTC_exposure"
+      ],
+      "rationale": "Saylor's efforts to manage fears around a margin call highlight the financial risks associated with highly leveraged Bitcoin strategies. Any actual margin call would have significant negative implications for Bitcoin's price and market sentiment."
+    },
+    {
+      "pick_idx": 19,
+      "id": "na222b4725af4",
+      "title": "Bitcoin drops below US$19K as crypto bleeds further losses",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-below-us-19k-014827821.html",
+      "summary": "Bitcoin fell below $19,000 for the first time since December 2020, concluding the second quarter with significant downturns. The crypto market lost approximately 57% of its value in Q2. This price action underscores a severe bear market, exacerbated by factors like the reported liquidation of crypto hedge fund Three Arrows Capital.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_below_19k",
+        "Q2_crypto_losses",
+        "Three_Arrows_Capital_liquidation"
+      ],
+      "rationale": "Breaking below the $19,000 level is a significant psychological and technical event, indicating continued selling pressure and a deepening bear market. The substantial Q2 losses reinforce this bearish outlook."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n2fd4716d533c",
+      "title": "Bitcoin falls to lowest since January, in line with tumbling stock markets",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-lowest-since-january-043745986.html",
+      "summary": "Bitcoin dropped to its lowest level since January, mirroring the decline in equity markets, particularly tech stocks. This correlation reinforces the view of Bitcoin as a risk asset, susceptible to broader macroeconomic downturns and investor sentiment shifts away from riskier investments.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_lowest_since_Jan",
+        "stock_market_correlation",
+        "risk_asset_behavior"
+      ],
+      "rationale": "The direct correlation with tumbling stock markets, especially tech stocks, highlights Bitcoin's sensitivity to macro factors. This suggests that until the broader market sentiment improves, Bitcoin is likely to remain under pressure."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n1a5b188ddbc4",
+      "title": "Crypto market cap falls below $1 trillion as Bitcoin drops 65% from all-time high. Investor sentiment is now ‘extreme fear’",
+      "url": "https://finance.yahoo.com/news/crypto-market-cap-falls-below-141415596.html",
+      "summary": "The global cryptocurrency market capitalization fell below $1 trillion, with Bitcoin down 65% from its all-time high. Investor sentiment has reached a state of 'extreme fear.' This broad market contraction and negative sentiment indicate a significant bear market phase, driven by inflation data and Fed tightening expectations.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "market_cap_below_1T",
+        "BTC_65_percent_drop",
+        "extreme_fear_sentiment"
+      ],
+      "rationale": "The combination of a sub-$1 trillion market cap, a substantial drop from ATHs, and extreme fear sentiment paints a clear picture of a deep bear market. This suggests a prolonged period of price consolidation or further decline."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n274f4b6d0905",
+      "title": "One River’s Carbon Neutral Bitcoin ETF Rejected by SEC",
+      "url": "https://finance.yahoo.com/news/one-river-carbon-neutral-bitcoin-190209828.html",
+      "summary": "The SEC rejected One River Asset Management's proposed carbon-neutral Bitcoin ETF, citing insufficient investor protections, similar to previous rejections of spot Bitcoin ETFs. This ongoing regulatory hurdle for Bitcoin ETFs continues to limit institutional adoption pathways and signals a cautious approach from regulators.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "SEC_ETF_rejection",
+        "investor_protection_concerns",
+        "institutional_adoption_barrier"
+      ],
+      "rationale": "The SEC's continued rejection of spot Bitcoin ETFs, even for proposals with ESG considerations, indicates a persistent regulatory roadblock. This hinders a key avenue for institutional capital inflow."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "neb1f32de53c6",
+      "title": "CryptoBucks Announces User App Will Be Available for Download August 1",
+      "url": "https://finance.yahoo.com/news/cryptobucks-announces-user-app-available-140000433.html",
+      "summary": "CryptoBucks announced its new user app will be released in beta on August 1st, allowing users to buy, sell, and swap crypto, and make payments using crypto or traditional methods. This indicates new infrastructure development in the crypto space.",
+      "impact_horizon_days": 14,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CryptoBucks_app_launch",
+        "new_exchange_app",
+        "payment_integration"
+      ],
+      "rationale": "The launch of a new user-friendly app can attract new users and increase trading volume, providing a minor bullish catalyst."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb326eef1398c",
+      "title": "XRP Finds Support as Investors Await Court Ruling on the Hinman Docs",
+      "url": "https://finance.yahoo.com/news/xrp-finds-support-investors-await-013203440.html",
+      "summary": "XRP saw a modest rise, supported by a general appetite for riskier assets. Investors are awaiting a court ruling on the Hinman documents in the SEC v. Ripple case. Technical indicators remain bearish for XRP.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "XRP_support",
+        "SEC_v_Ripple_case",
+        "Hinman_docs_ruling"
+      ],
+      "rationale": "The outcome of the SEC v. Ripple case, particularly regarding the Hinman documents, is a significant catalyst for XRP. Until the ruling, sentiment will remain uncertain."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nb56c74eccbd7",
+      "title": "Iris Energy Limited Announces Monthly Investor Update for June 2022",
+      "url": "https://finance.yahoo.com/news/iris-energy-limited-announces-monthly-112800646.html",
+      "summary": "Iris Energy provided its June 2022 update, increasing its operating hashrate guidance for 2022 and noting that Mackenzie development activities are progressing ahead of schedule. This suggests operational improvements and potential for increased mining efficiency.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Iris_Energy_update",
+        "hashrate_guidance_increase",
+        "mining_operations"
+      ],
+      "rationale": "Positive operational updates from a mining company, such as increased hashrate guidance, can be a minor bullish signal for the broader mining sector and indirectly for Bitcoin."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n26b6510cd47c",
+      "title": "Voyager crypto firm loaned US$377 mln to Sam Bankman-Fried’s Alameda Research",
+      "url": "https://finance.yahoo.com/news/voyager-crypto-firm-loaned-us-012549905.html",
+      "summary": "Voyager Digital's bankruptcy filing revealed that Alameda Research owes it $377 million. Alameda Research, co-founded by Sam Bankman-Fried, also held a significant stake in Voyager. This news further highlights the interconnectedness and counterparty risks within the crypto lending and trading ecosystem.",
+      "impact_horizon_days": 3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "institutional",
+        "legal"
+      ],
+      "features_for_model": [
+        "Voyager_Alameda_loan",
+        "counterparty_risk",
+        "bankruptcy_filing"
+      ],
+      "rationale": "The revelation of a large loan from Voyager to Alameda Research, especially in the context of Voyager's bankruptcy, amplifies concerns about contagion and systemic risk in the crypto market."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n2909402ce513",
+      "title": "Crypto: Ethereum takes one step closer to major software 'Merge'",
+      "url": "https://finance.yahoo.com/news/crypto-ethereum-closer-major-software-merge-115523001.html",
+      "summary": "Ethereum has completed its second-to-last testnet 'dress rehearsal' for the 'Merge' upgrade, with a high acceptance rate for network changes. This progress is a positive step towards the highly anticipated transition to Proof-of-Stake, which could impact ETH's price and network dynamics.",
+      "impact_horizon_days": 14,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge_progress",
+        "testnet_completion",
+        "Proof_of_Stake_transition"
+      ],
+      "rationale": "Successful testnet completions for the Ethereum Merge are crucial positive catalysts. This upgrade is expected to reduce energy consumption and potentially increase ETH's value proposition."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nd596d4c42c9b",
+      "title": "Argo Blockchain Hires Derivatives Trader to Navigate Market Rout, Sells BTC to Reduce Loan",
+      "url": "https://finance.yahoo.com/news/argo-blockchain-hires-derivatives-trader-091054015.html",
+      "summary": "Bitcoin miner Argo Blockchain hired a derivatives trader to manage market volatility and sold 637 BTC to cover operating costs and a loan. This indicates miners are under pressure and are taking measures to manage their financial exposure during the downturn.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Argo_Blockchain_strategy",
+        "derivatives_trader_hire",
+        "BTC_sales_for_liquidity"
+      ],
+      "rationale": "Miners selling Bitcoin to cover operational costs and loans is a bearish signal, indicating financial strain within the mining sector and potential selling pressure on BTC."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n0ca842d38ce9",
+      "title": "Billionaire crypto bull Mike Novogratz says the market is 90% through its deleveraging cycle but prices will be choppy until there's a narrative shift",
+      "url": "https://finance.yahoo.com/news/billionaire-crypto-bull-mike-novogratz-192744664.html",
+      "summary": "Galaxy Digital CEO Mike Novogratz believes the crypto market is 90% through its deleveraging cycle, but expects choppy prices until a new narrative emerges. He attributes the price drops to companies shedding excessive debt.",
+      "impact_horizon_days": 14,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Novogratz_deleveraging_cycle",
+        "choppy_prices",
+        "narrative_shift_needed"
+      ],
+      "rationale": "Novogratz's view suggests that while the worst of the deleveraging might be over, the market lacks a clear bullish catalyst, leading to continued price volatility."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n26f3b0fb447b",
+      "title": "Celsius Sends $500M of Bitcoin Derivative to Crypto Exchange After Debt Payoff",
+      "url": "https://finance.yahoo.com/news/celsius-sends-500m-bitcoin-derivative-205853204.html",
+      "summary": "Crypto lender Celsius deposited $500 million in wrapped Bitcoin (WBTC) to FTX after repaying its debt to Maker and reclaiming collateral. This move could indicate Celsius is attempting to improve its liquidity or restructure its operations, but the large transfer to an exchange raises questions.",
+      "impact_horizon_days": 3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity",
+        "institutional",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Celsius_WBTC_transfer",
+        "FTX_deposit",
+        "debt_repayment_Maker"
+      ],
+      "rationale": "Celsius's actions, while seemingly positive in repaying debt, involve a large transfer of assets to an exchange, which can be interpreted in multiple ways and adds to market uncertainty."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n2611b259800a",
+      "title": "First Mover Asia: Three Arrows Capital Court Order Reveals Interesting Details; Bitcoin Soars Past $21.5K",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-three-arrows-234337520.html",
+      "summary": "Bitcoin surpassed $21.5K, with most major cryptocurrencies showing gains. A court order related to Three Arrows Capital provided new details, and the upcoming Ethereum 'Merge' continues to generate optimism. The market sentiment appears to be cautiously optimistic.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "protocol",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_above_21.5K",
+        "Three_Arrows_Capital_details",
+        "ETH_Merge_optimism"
+      ],
+      "rationale": "The price action shows a short-term bullish trend, supported by positive sentiment around the Ethereum Merge and general market recovery. However, lingering issues like Three Arrows Capital's situation add a layer of caution."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n33fa5c623113",
+      "title": "Bitcoin (BTC) Fear & Greed Index Holds Steady at the New Higher Range",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-fear-greed-index-003335959.html",
+      "summary": "Bitcoin experienced a choppy session but rose to $20,545, supported by the NASDAQ 100, despite recession fears impacting crude oil. The Fear & Greed Index remained steady. However, technical indicators are still bearish.",
+      "impact_horizon_days": 3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_Fear_Greed_Index",
+        "NASDAQ_100_support",
+        "bearish_technical_indicators"
+      ],
+      "rationale": "The steady Fear & Greed Index suggests a lack of extreme sentiment shifts, but the continued bearish technical indicators indicate that the short-term upward movement might be temporary."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-07-07",
+    "summary": "The crypto market showed signs of a short-term recovery, with Bitcoin trading above $21,000, supported by positive equity market movements and optimism surrounding the Ethereum Merge. However, underlying concerns remain, including the ongoing liquidity crisis in the lending sector (Voyager, Celsius) and the potential for further deleveraging. Macroeconomic factors, such as inflation data and Fed policy, continue to be a dominant influence on market sentiment, leading to choppy price action.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued contagion from crypto lender failures (Voyager, Celsius).",
+      "Negative macroeconomic data releases (inflation, employment) impacting risk appetite.",
+      "Regulatory uncertainty and potential crackdowns.",
+      "Liquidity crunch leading to further forced selling.",
+      "Failure of key technical support levels for Bitcoin."
+    ],
+    "watch_items": [
+      "US Non-Farm Payrolls data (July 8th)",
+      "Further developments in the SEC v. Ripple case",
+      "Celsius and Voyager debt restructuring progress",
+      "Ethereum Merge progress updates",
+      "Macroeconomic indicators (CPI, Fed statements)"
+    ]
+  }
+}

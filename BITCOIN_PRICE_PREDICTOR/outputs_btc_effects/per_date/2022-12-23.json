@@ -1,0 +1,586 @@
+{
+  "date": "2022-12-23",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "n958c187235fb",
+      "title": "Bitcoin Miner Core Scientific's Shares Plummet After Bankruptcy Warning",
+      "url": "https://finance.yahoo.com/news/core-scientific-suspend-payments-cash-102217696.html",
+      "summary": "Core Scientific, a major Bitcoin miner, warned of potential bankruptcy due to financial difficulties, causing its shares to drop significantly. The company anticipates depleting its cash resources by year-end and is exploring strategic alternatives for capital. This situation highlights the extreme pressure on Bitcoin miners from declining crypto prices and rising operational costs, potentially leading to further consolidation or failures in the sector.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "miner",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "miner_bankruptcy",
+        "miner_financial_distress",
+        "bitcoin_price_impact"
+      ],
+      "rationale": "The potential bankruptcy of a large miner like Core Scientific signals significant stress within the mining industry. This can lead to reduced network hashrate and increased selling pressure on Bitcoin as miners liquidate assets to cover costs, impacting BTC price negatively."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n33938fe51828",
+      "title": "Europe’s Last Bitcoin Mining Refuge Is No Longer Viable",
+      "url": "https://finance.yahoo.com/news/europe-last-bitcoin-mining-refuge-151824116.html",
+      "summary": "Bitcoin miners in Northern Norway and Sweden are powering down due to surging electricity prices, despite previously seeking refuge there for cheaper power. This indicates a broader challenge for miners across Europe as energy costs rise, forcing them to either cease operations or relocate. The situation underscores the sensitivity of mining profitability to energy prices and geopolitical factors affecting the energy market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "european_miner_shutdown",
+        "energy_cost_impact",
+        "mining_difficulty_adjustment"
+      ],
+      "rationale": "Rising energy costs impacting European miners can lead to reduced mining activity and potentially a lower network hashrate. This could indirectly affect Bitcoin's price stability and security, especially if it signals a trend of operational challenges for miners globally."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n6548145ac00b",
+      "title": "No Let-Up in Demand for Bitcoin, Ether Puts After Dovish Fed Minutes",
+      "url": "https://finance.yahoo.com/news/no-let-demand-bitcoin-ether-110110798.html",
+      "summary": "The derivatives market shows persistent demand for bearish bets (puts) on Bitcoin and Ether, even after dovish Fed minutes. This suggests that market participants are more focused on contagion risks stemming from the FTX collapse than on macroeconomic improvements. The continued bearish sentiment in options markets indicates a lack of confidence in a near-term price recovery for cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "derivatives_market_sentiment",
+        "ftx_contagion",
+        "fed_policy_impact"
+      ],
+      "rationale": "The sustained demand for put options indicates strong bearish sentiment, suggesting that traders anticipate further price declines. This can create a self-fulfilling prophecy, as increased hedging and shorting can exacerbate downward price movements."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nfbb9070b30bd",
+      "title": "SEC Charges Trade Coin Club for $295 Million Bitcoin Ponzi Scheme",
+      "url": "https://finance.yahoo.com/news/sec-charges-trade-coin-club-195021121.html",
+      "summary": "The SEC has charged Trade Coin Club for operating a $295 million Bitcoin Ponzi scheme, defrauding over 100,000 investors. This action highlights the ongoing regulatory crackdown on fraudulent crypto activities. Such enforcement actions, while necessary for market integrity, can also create uncertainty and fear among investors, potentially impacting broader market sentiment and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "adoption"
+      ],
+      "features_for_model": [
+        "sec_enforcement",
+        "ponzi_scheme_charge",
+        "investor_fraud"
+      ],
+      "rationale": "Increased regulatory action against fraudulent schemes like this Ponzi scheme can deter new investors and create a perception of higher risk in the crypto market, potentially dampening long-term adoption and price appreciation."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n725be5a72b81",
+      "title": "Historic Breakthrough: First Time Ever Congress Will Send Cannabis Bill To Biden's Desk",
+      "url": "https://finance.yahoo.com/news/historic-breakthrough-first-time-ever-020225034.html",
+      "summary": "The Senate passed a cannabis research bill, marking the first standalone cannabis reform legislation to be sent to President Biden's desk. This development signals a potential shift in U.S. drug policy and could pave the way for broader cannabis reform. While not directly related to crypto, such legislative progress in a historically restricted sector can create a more favorable environment for the exploration and adoption of new financial technologies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "cannabis_reform_progress",
+        "us_legislative_sentiment",
+        "regulatory_environment_shift"
+      ],
+      "rationale": "Progress on cannabis reform in the US could signal a broader trend towards more progressive regulation of previously prohibited or restricted industries. This could indirectly create a more receptive environment for innovative financial technologies like cryptocurrencies."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nae556e529acb",
+      "title": "Bitcoin Development Company Layer 2 Labs Raises $3M to Bring Drivechains to Network",
+      "url": "https://finance.yahoo.com/news/bitcoin-development-company-layer-2-120000173.html",
+      "summary": "Layer 2 Labs has secured $3 million in seed funding to develop drivechains for the Bitcoin network. Drivechains are a type of sidechain designed to improve user experience and scalability. This development is significant for Bitcoin's long-term utility and adoption, as it addresses scalability limitations and opens up new possibilities for decentralized applications and financial services built on the Bitcoin blockchain.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "layer2_development",
+        "drivechains",
+        "bitcoin_scalability"
+      ],
+      "rationale": "Improvements in Bitcoin's scalability through technologies like drivechains can enhance its usability and attract more developers and users. This could lead to increased adoption and a stronger network effect, positively impacting BTC's long-term value."
+    },
+    {
+      "pick_idx": 31,
+      "id": "ne7c221647375",
+      "title": "Bitcoin Miner Argo Blockchain Shares Plunge 40% as $27M Raise Called Off",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-argo-blockchain-shares-113501746.html",
+      "summary": "Argo Blockchain's shares dropped sharply after a planned $27 million fundraise was canceled. The company is exploring other financing options, but this setback highlights the financial precarity of many Bitcoin miners. Such events can lead to reduced hashrate if miners are forced to shut down operations, potentially impacting network security and stability.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_financing_failure",
+        "argo_blockchain_stock_drop",
+        "mining_operations_impact"
+      ],
+      "rationale": "The failure of a miner like Argo Blockchain to secure funding and the subsequent share price plunge indicate severe financial strain in the mining sector. This could lead to a decrease in the network's hashrate, potentially making it less secure and impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n29abf177f2f9",
+      "title": "Bitcoin turns 14: Here's what to know about crypto",
+      "url": "https://finance.yahoo.com/news/bitcoin-what-to-know-about-crypto-185658105.html",
+      "summary": "This article provides a foundational overview of Bitcoin and the broader cryptocurrency landscape, marking Bitcoin's 14th anniversary. It aims to educate readers on the basics of this evolving technology and its impact on finance. Such educational content is crucial for increasing mainstream understanding and adoption, which are key drivers for long-term crypto market growth.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_anniversary",
+        "crypto_education",
+        "mainstream_adoption_driver"
+      ],
+      "rationale": "Increased public understanding and education about Bitcoin and cryptocurrencies are essential for driving broader adoption. As more people grasp the technology, it can lead to greater investment and integration into the global financial system."
+    },
+    {
+      "pick_idx": 35,
+      "id": "ncdfab9212e89",
+      "title": "A European Central Bank Blog Decries the End of Bitcoin, and We Aren’t Buying It",
+      "url": "https://finance.yahoo.com/news/european-central-bank-blog-decries-155000317.html",
+      "summary": "A European Central Bank blog post suggests Bitcoin is nearing its end, a view the author disagrees with. This commentary from a major central bank reflects a cautious or skeptical stance towards Bitcoin from traditional financial institutions. While such opinions can influence market sentiment, the author's counter-argument suggests resilience and potential for continued relevance for Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ecb_commentary",
+        "bitcoin_skepticism",
+        "institutional_view"
+      ],
+      "rationale": "Negative commentary from institutions like the ECB can create headwinds for Bitcoin adoption. However, it also highlights the ongoing debate about Bitcoin's future, and the resilience of its proponents suggests continued development and potential for growth."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n1de73fcb8bc5",
+      "title": "SEC sends letter to companies urging updated disclosures amid 'widespread disruption' in crypto markets",
+      "url": "https://finance.yahoo.com/news/sec-sends-letter-to-companies-urging-updated-disclosures-amid-widespread-disruption-in-crypto-markets-205617732.html",
+      "summary": "The SEC is requesting public companies to update their disclosures regarding the impact of crypto market disruptions. This proactive measure by the SEC aims to ensure investors have adequate information about companies' exposure to the volatile crypto sector. Increased transparency and regulatory oversight, while potentially creating short-term compliance burdens, are crucial for long-term market stability and investor confidence.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "sec_disclosure_request",
+        "crypto_market_disruption",
+        "investor_protection"
+      ],
+      "rationale": "The SEC's focus on disclosures signals increased regulatory scrutiny. While this can lead to greater transparency, it might also impose compliance costs on companies and potentially lead to more cautious investment in crypto-related assets."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nf5bc78672bb8",
+      "title": "Markets: Bitcoin slips, Ether inches up; Dogecoin leads rebound in top 10 cryptos",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-slips-ether-inches-093629203.html",
+      "summary": "Bitcoin experienced a slight slip, while Ether saw a minor increase, with Dogecoin leading gains in the top 10 cryptocurrencies. This mixed performance suggests a lack of strong directional conviction in the market. The mention of Dogecoin's rebound could indicate speculative interest in altcoins, but the overall market remains subdued.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "listing",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_price_action",
+        "eth_price_action",
+        "doge_rebound"
+      ],
+      "rationale": "The mixed price action across major cryptocurrencies indicates a lack of clear market direction. The slight gains in Ether and Dogecoin might be short-lived without broader market momentum."
+    },
+    {
+      "pick_idx": 2,
+      "id": "na13d69db6687",
+      "title": "First Mover Asia: Bitcoin, Ether Hold as US Stocks Fall",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-ether-042510045.html",
+      "summary": "Bitcoin and Ether showed resilience, holding their ground as U.S. stocks declined. This suggests a potential decoupling from traditional markets, possibly due to strong economic data influencing investor sentiment towards the Fed's policy. The market is closely watching for any shifts in macroeconomic expectations.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_eth_hold",
+        "us_stocks_fall",
+        "economic_data_impact"
+      ],
+      "rationale": "Bitcoin and Ether holding steady while stocks fall could indicate a temporary divergence, but this resilience might be tested if broader market sentiment continues to sour."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n9cc70583d057",
+      "title": "Crypto Markets Today: Bitcoin Ends Penultimate Week of (Awful) 2022 on Quiet Note",
+      "url": "https://finance.yahoo.com/news/crypto-markets-today-bitcoin-ends-215556584.html",
+      "summary": "The crypto market is ending the penultimate week of 2022 on a quiet note, reflecting a generally subdued sentiment. The report also highlights a significant increase in scam tokens deployed throughout the year, indicating ongoing risks and potential for illicit activities within the market. This quietness might precede further volatility.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "quiet_market_sentiment",
+        "scam_token_increase",
+        "year_end_volatility"
+      ],
+      "rationale": "The quiet market conditions coupled with an increase in scam tokens suggest underlying risks and potential for opportunistic price movements or further negative sentiment."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n9f03223f1744",
+      "title": "TRONAPP.SBS Introduces a cryptocurrency cloud mining platform, the ultimate way to earn passive income.",
+      "url": "https://finance.yahoo.com/news/tronapp-sbs-introduces-cryptocurrency-cloud-203000615.html",
+      "summary": "TRONAPP.SBS has launched a cryptocurrency cloud mining platform aimed at providing passive income. This development caters to a segment of the market seeking alternative income streams. While cloud mining can be attractive, its profitability is highly dependent on energy costs and mining difficulty, making its impact on the broader market uncertain.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "cloud_mining_launch",
+        "passive_income_platform",
+        "tron_ecosystem"
+      ],
+      "rationale": "The launch of new cloud mining platforms can attract some capital into the crypto space, but their direct impact on Bitcoin's price is usually minimal unless they represent a significant shift in mining economics."
+    },
+    {
+      "pick_idx": 6,
+      "id": "naca3182b5ada",
+      "title": "US stocks edge lower as investors weigh batch of mixed economic data",
+      "url": "https://finance.yahoo.com/news/us-stocks-edge-lower-investors-143558828.html",
+      "summary": "U.S. stocks are trading lower as investors digest mixed economic data, with the Fed's preferred inflation gauge coming in hotter than expected. This suggests continued inflationary pressures, which could lead the Federal Reserve to maintain its hawkish stance on interest rates, potentially impacting risk assets like cryptocurrencies.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "us_stocks_lower",
+        "mixed_economic_data",
+        "inflation_gauge_hot"
+      ],
+      "rationale": "Higher-than-expected inflation data reinforces the likelihood of continued hawkish monetary policy from the Fed, which typically puts downward pressure on risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "na13d69db6687",
+      "title": "First Mover Asia: Bitcoin, Ether Hold as US Stocks Fall",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-ether-042510045.html",
+      "summary": "Bitcoin and Ether are holding steady despite a fall in U.S. stocks, potentially due to strong economic data leading investors to reconsider expectations of a Fed pivot. The Indonesian Central Bank's white paper on a CBDC also offers insights into potential future payment layers. This resilience in crypto amidst stock market weakness is noteworthy.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_eth_hold",
+        "us_stocks_fall",
+        "fed_pivot_reconsideration"
+      ],
+      "rationale": "The ability of Bitcoin and Ether to hold their ground while U.S. stocks decline suggests a potential decoupling, but this could be temporary if macroeconomic pressures intensify."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n7223101e11a1",
+      "title": "OKX Unveils 2nd Proof-of-Reserves Report, Promises Monthly Publication",
+      "url": "https://finance.yahoo.com/news/okx-unveils-2nd-proof-reserves-090403509.html",
+      "summary": "OKX has released its second proof-of-reserves (PoR) report, showing a 101% reserve ratio for Bitcoin and Tether, and a slight decline for Ether. The exchange commits to monthly PoR publications. This move towards greater transparency aims to rebuild trust following the FTX collapse, which is crucial for exchange stability and user confidence.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "okx_proof_of_reserves",
+        "exchange_transparency",
+        "user_confidence"
+      ],
+      "rationale": "Increased transparency from exchanges like OKX through proof-of-reserves reports can help restore confidence in the market, potentially leading to improved liquidity and reduced contagion fears."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n2cdaa3913e9e",
+      "title": "OKX Proof-of-Reserve Report Shows 101% Bitcoin, Tether Reserves",
+      "url": "https://finance.yahoo.com/news/okx-proof-report-shows-101-151057406.html",
+      "summary": "OKX's latest proof-of-reserves report indicates a 101% reserve ratio for Bitcoin and Tether, and 103% for Ethereum. The exchange plans to publish these reports monthly to enhance transparency. This commitment to verifiable reserves is a positive step for market confidence, especially after the FTX crisis.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "okx_por",
+        "btc_reserve_ratio",
+        "eth_reserve_ratio"
+      ],
+      "rationale": "The confirmation of healthy reserve ratios by OKX can alleviate some concerns about exchange solvency, potentially leading to a more stable market environment and increased trust."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n9d701f4ac68f",
+      "title": "First Mover Americas: SEC Scrutnizes Crypto Audits; SBF Gets Bail",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-sec-scrutnizes-134040332.html",
+      "summary": "Former FTX CEO Sam Bankman-Fried was released on $250 million bail, with strict conditions. Meanwhile, the SEC is reportedly scrutinizing crypto audits. These events highlight ongoing regulatory attention and legal proceedings surrounding the crypto industry, which can create uncertainty but also signal a move towards greater accountability.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "sbf_bail",
+        "sec_crypto_audit_scrutiny",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "The bail of SBF and SEC scrutiny of audits introduce significant regulatory and legal uncertainty, which can lead to short-term volatility as the market digests these developments."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n9d701f4ac68f",
+      "title": "First Mover Americas: SEC Scrutnizes Crypto Audits; SBF Gets Bail",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-sec-scrutnizes-134040332.html",
+      "summary": "Former FTX CEO Sam Bankman-Fried has been released on bail with strict conditions. Concurrently, the SEC is reportedly increasing its scrutiny of crypto audits. These developments underscore the heightened regulatory and legal focus on the crypto industry, potentially impacting market sentiment and operational practices.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "sbf_bail_conditions",
+        "sec_crypto_audit_scrutiny",
+        "regulatory_oversight"
+      ],
+      "rationale": "The legal proceedings against SBF and the SEC's focus on audits create an environment of regulatory uncertainty, which can lead to short-term price volatility and cautious trading."
+    },
+    {
+      "pick_idx": 23,
+      "id": "neb96b5b353c4",
+      "title": "Iris Energy’s 160MW of Data Center Capacity in British Columbia Not Affected by Recent Government Decision to Temporarily Suspend New and Early Stage Connection Requests for Cryptocurrency Mining",
+      "url": "https://finance.yahoo.com/news/iris-energy-160mw-data-center-112500890.html",
+      "summary": "Iris Energy's existing 160MW of data center capacity in British Columbia is unaffected by the government's temporary suspension of new crypto mining connections. This news provides clarity for Iris Energy and highlights a regulatory divergence within Canada, where existing operations are protected while new ones face restrictions. This could impact the geographical distribution of mining operations.",
+      "impact_horizon_days": 7,
+      "direction": "neutral",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "iris_energy_capacity",
+        "bc_mining_suspension_exemption",
+        "miner_regulatory_impact"
+      ],
+      "rationale": "While Iris Energy's existing operations are unaffected, the suspension of new connections in British Columbia signals potential regulatory headwinds for crypto mining in the region, which could influence future hashrate distribution."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nf36b002d6c53",
+      "title": "Blockware Customer Accuses Bitcoin Mining Firm of Fraud",
+      "url": "https://finance.yahoo.com/news/blockware-customer-accuses-bitcoin-mining-210604424.html",
+      "summary": "A customer has filed a lawsuit against Bitcoin mining firm Blockware Solutions, alleging fraud, breach of contract, and negligence. The lawsuit claims Blockware sold mining rigs it did not reliably own or operate. Such accusations can damage the reputation of mining service providers and create uncertainty for customers, potentially impacting investment in mining infrastructure.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "legal",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockware_fraud_accusation",
+        "mining_equipment_dispute",
+        "miner_reputation_risk"
+      ],
+      "rationale": "Allegations of fraud against a mining firm like Blockware can erode trust in the mining sector, potentially deterring new participants and impacting the perceived reliability of mining operations."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n1d4e60d8d0b5",
+      "title": "RocketFuel Blockchain Projecting 1,300% Increase in Crypto Payment Transactions Processed in Quarter ending December 31, 2022",
+      "url": "https://finance.yahoo.com/news/rocketfuel-blockchain-projecting-1-300-141500946.html",
+      "summary": "RocketFuel Blockchain projects a 1,300% increase in crypto payment transactions for the quarter ending December 31, 2022. This significant growth indicates increasing adoption of cryptocurrencies for payments. Such trends in payment adoption are positive for the broader crypto ecosystem, suggesting growing utility beyond speculative investment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "rocketfuel_transaction_growth",
+        "crypto_payment_adoption",
+        "payment_processing_volume"
+      ],
+      "rationale": "A substantial increase in crypto payment transactions suggests growing real-world utility for cryptocurrencies, which can contribute to positive market sentiment and adoption."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-12-23",
+    "summary": "The crypto market is showing mixed signals, with Bitcoin and Ether holding steady against falling U.S. stocks, potentially indicating a slight decoupling. However, persistent inflation data suggests the Fed may maintain its hawkish stance, posing a risk to risk assets. Regulatory scrutiny remains high, with the SEC examining crypto audits and legal proceedings involving FTX figures continuing. Exchange transparency efforts, like OKX's proof-of-reserves, offer some positive sentiment, but overall market conditions remain cautious.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkishness from the Federal Reserve due to persistent inflation.",
+      "Heightened regulatory scrutiny and legal actions impacting market sentiment.",
+      "Potential contagion effects from ongoing fallout of major crypto collapses.",
+      "Geopolitical events impacting global economic stability and risk appetite.",
+      "Increased prevalence of scam tokens and fraudulent activities."
+    ],
+    "watch_items": [
+      "Further inflation data releases and Fed commentary.",
+      "Developments in the FTX legal proceedings.",
+      "SEC's actions regarding crypto audits and disclosures.",
+      "Performance of major cryptocurrencies against traditional markets.",
+      "Miner financial health and operational updates."
+    ]
+  }
+}

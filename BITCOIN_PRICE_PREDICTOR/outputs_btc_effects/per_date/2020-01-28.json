@@ -1,0 +1,467 @@
+{
+  "date": "2020-01-28",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "n14a20736b15b",
+      "title": "Bitcoin: Big Market Shift Dead Ahead",
+      "url": "https://finance.yahoo.com/news/bitcoin-big-market-shift-dead-140839102.html",
+      "summary": "The upcoming Bitcoin halving in May 2020 is highlighted as a significant event that will reduce new Bitcoin supply by 50%. This event, occurring approximately every four years, aims to gradually decrease new coin creation towards zero. Historically, halvings have been associated with price increases due to reduced supply. The article emphasizes the inevitability and irreversibility of this supply shock, suggesting it will be a major driver of market dynamics.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_halving",
+        "supply_shock",
+        "may_2020_halving"
+      ],
+      "rationale": "The halving event directly impacts Bitcoin's supply, a fundamental driver of its price. Historically, reduced supply has led to price appreciation, making this a key long-term bullish catalyst."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n0fe79d529d9f",
+      "title": "Bitcoin Charts First Weekly Golden Cross in 3.5 Years",
+      "url": "https://finance.yahoo.com/news/bitcoin-charts-first-weekly-golden-110000369.html",
+      "summary": "Bitcoin's weekly chart has registered a golden cross, a bullish technical indicator where the 50-period moving average crosses above the 100-period moving average. While this is a positive signal, the article notes that broader market conditions are currently bearish, and a short-term bullish reversal would require a UTC close above $7,870. The cryptocurrency risks falling to support at $7,087 if it faces rejection at bearish weekly average resistance.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical",
+        "institutional"
+      ],
+      "features_for_model": [
+        "weekly_golden_cross",
+        "moving_average_crossover",
+        "technical_indicator"
+      ],
+      "rationale": "A weekly golden cross is a significant long-term bullish technical signal. While short-term market conditions can influence immediate price action, this pattern suggests a potential for sustained upward momentum."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n60129de5e28c",
+      "title": "Bitcoin is ‘not effective’ to serve purposes of money, says billionaire investor Ray Dalio",
+      "url": "https://finance.yahoo.com/news/bitcoin-not-effective-serve-purposes-102856128.html",
+      "summary": "Billionaire investor Ray Dalio expressed skepticism about Bitcoin's utility as money, stating it's not effective as a medium of exchange or a store of wealth. He recommended holding gold as a portfolio asset, contrasting it with cash, which he called 'trash.' Dalio's views, coming from a prominent hedge fund founder, carry weight in institutional circles and can influence broader market sentiment towards digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ray_dalio_opinion",
+        "institutional_skepticism",
+        "store_of_value_debate"
+      ],
+      "rationale": "Negative sentiment from a highly influential investor like Ray Dalio can deter institutional adoption and dampen market enthusiasm, posing a long-term headwind for Bitcoin's price."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n037786482b9a",
+      "title": "Bitcoin, gold and oil surge as US air strike kills Iran’s top general",
+      "url": "https://finance.yahoo.com/news/bitcoin-gold-oil-surge-us-113539880.html",
+      "summary": "The killing of General Qasem Soleimani by a U.S. airstrike led to a surge in Bitcoin, gold, and oil prices, as these assets are often seen as hedges against geopolitical turmoil. Bitcoin rallied by 7.5%, moving from $6,850 to test resistance at $7,400. This event highlights Bitcoin's emerging role as a potential safe-haven asset during times of global instability, similar to traditional safe havens like gold.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "geopolitical_risk",
+        "safe_haven_asset",
+        "iran_tension"
+      ],
+      "rationale": "Geopolitical events that increase global uncertainty can drive demand for Bitcoin as a perceived safe-haven asset, similar to gold. This demonstrates its growing acceptance in broader financial risk management."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nfde9a95fbd285",
+      "title": "Blockchain of Things Pays SEC $250,000 to Settle Unregistered ICO",
+      "url": "https://finance.yahoo.com/news/blockchain-things-pays-sec-250-090000584.html",
+      "summary": "Blockchain of Things Inc. (BCOT) settled with the U.S. Securities and Exchange Commission (SEC) for $250,000 due to conducting an unregistered initial coin offering (ICO). The SEC views ICOs as securities and requires registration. BCOT must also refund investors who request it. This case reinforces the SEC's stance on ICOs and the need for regulatory compliance in the crypto space.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_settlement",
+        "unregistered_ICO",
+        "regulatory_enforcement"
+      ],
+      "rationale": "Continued SEC enforcement actions against unregistered ICOs signal a tightening regulatory environment, which can deter new projects and create uncertainty for existing ones, potentially impacting broader market sentiment."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nb8e5d31b5dae",
+      "title": "OKEx launching bitcoin options trading this month, ahead of CME Group",
+      "url": "https://finance.yahoo.com/news/okex-launching-bitcoin-options-trading-100434726.html",
+      "summary": "Cryptocurrency exchange OKEx is launching bitcoin options trading in December 2019, aiming to meet institutional demand. This move precedes CME Group's planned launch of similar products. The introduction of options trading provides sophisticated hedging and investment tools, which are crucial for attracting and retaining institutional investors in the crypto market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "derivatives"
+      ],
+      "features_for_model": [
+        "bitcoin_options",
+        "OKEx_launch",
+        "institutional_derivatives"
+      ],
+      "rationale": "The availability of regulated derivatives like options is a key factor for institutional adoption. OKEx's launch signals growing maturity in crypto markets and caters to demand from sophisticated investors."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nca9d76b68855",
+      "title": "Blockstream Co-Founder Joins Bitcoin-Only Start-up River Financial",
+      "url": "https://finance.yahoo.com/news/blockstream-co-founder-joins-bitcoin-140000001.html",
+      "summary": "Jonathan Wilkins, a co-founder of Blockstream, has joined River Financial as Chief Security Officer. River Financial is a Bitcoin-only financial institution focused on long-term investors. Wilkins's expertise in Bitcoin technology and security is expected to bolster River Financial's offerings and contribute to the development of Bitcoin-centric financial services.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockstream_talent",
+        "river_financial",
+        "bitcoin_only_institution"
+      ],
+      "rationale": "The recruitment of experienced industry veterans like Wilkins to Bitcoin-focused companies signals a growing professionalization and institutionalization of the crypto space, which is positive for long-term adoption."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n1ae3ee839496",
+      "title": "Binance Invests Undisclosed Sum in Crypto Derivatives Platform FTX",
+      "url": "https://finance.yahoo.com/news/binance-invests-undisclosed-sum-crypto-032051413.html",
+      "summary": "Binance has invested an undisclosed amount in FTX, a crypto derivatives platform, as part of a strategic partnership. This investment includes equity in FTX and long positions in the FTX Token (FTT). The partnership aims to accelerate FTX's growth with Binance's support and strategic advisory, while FTX maintains independent operations. This collaboration strengthens the derivatives market within the crypto ecosystem.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "derivatives"
+      ],
+      "features_for_model": [
+        "binance_investment",
+        "FTX_partnership",
+        "crypto_derivatives"
+      ],
+      "rationale": "A strategic investment from a major exchange like Binance into a derivatives platform like FTX indicates growing institutional interest and development in crypto derivatives, which can boost overall market liquidity and sophistication."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n388457825c3a",
+      "title": "2019 Set the Stage for DeFi to Go Mainstream",
+      "url": "https://finance.yahoo.com/news/2019-set-stage-defi-mainstream-130000283.html",
+      "summary": "The article posits that 2019 laid the groundwork for Decentralized Finance (DeFi) to become mainstream. It highlights the growth of projects like MakerDAO and MolochDAO, indicating increasing development and adoption in the DeFi space. The trend towards digital currency, influenced by quantitative easing, is seen as a backdrop for DeFi's expansion.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "DeFi_growth",
+        "MakerDAO",
+        "MolochDAO",
+        "mainstream_adoption"
+      ],
+      "rationale": "The growth of DeFi represents a significant innovation within the crypto ecosystem, potentially attracting new users and capital. Its increasing mainstream appeal could drive demand for underlying assets like ETH."
+    },
+    {
+      "pick_idx": 40,
+      "id": "na5eeffec3626",
+      "title": "State Street: 38% of Clients Will Put More Money into Digital Assets in 2020",
+      "url": "https://finance.yahoo.com/news/state-street-38-clients-put-181504520.html",
+      "summary": "A survey by State Street indicates that 38% of its clients plan to increase their investments in digital assets in 2020. While no clients have yet asked State Street to custody digital assets, the firm is exploring how to integrate them. This sentiment from a major global custodian suggests growing institutional interest and potential future adoption of digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "State_Street_survey",
+        "institutional_interest",
+        "digital_asset_investment"
+      ],
+      "rationale": "Positive sentiment from large financial institutions like State Street regarding increased investment in digital assets is a strong indicator of future institutional adoption, which could significantly boost market demand."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "ndedc3504a760",
+      "title": "Singapore Announces New AML Rules for Crypto Businesses",
+      "url": "https://finance.yahoo.com/news/singapore-announces-aml-rules-crypto-044026144.html",
+      "summary": "Singapore's Monetary Authority (MAS) is updating its regulatory framework, bringing digital payment token services under anti-money laundering (AML) and counter-terrorist financing (CTF) rules via the Payment Services Act 2019. Crypto businesses in Singapore must register and apply for a license. This regulatory clarity could foster trust and attract more compliant businesses.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Singapore_AML",
+        "crypto_regulation",
+        "licensing_requirements"
+      ],
+      "rationale": "New AML/CTF regulations in a major financial hub like Singapore can lead to increased compliance costs and potential exits for some businesses, but also provide regulatory clarity that may attract institutional players."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n2fa260e00937",
+      "title": "Coronavirus: European stock markets stage 'mild' rebound",
+      "url": "https://finance.yahoo.com/news/stock-markets-coronavirus-prices-january-28-084708719.html",
+      "summary": "European stock markets showed a mild rebound despite ongoing fears about the coronavirus outbreak in China. The death toll has risen, and lockdowns are in place. This suggests a cautious market sentiment, where global health concerns are a primary driver of economic activity and investor behavior.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "health_crisis"
+      ],
+      "features_for_model": [
+        "coronavirus_outbreak",
+        "market_sentiment",
+        "global_health_risk"
+      ],
+      "rationale": "The ongoing coronavirus outbreak creates broader market uncertainty, which can spill over into crypto markets. While sometimes seen as a safe haven, significant global risk events can also lead to a general flight to safety away from riskier assets."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nba2f682b5b49",
+      "title": "Crypto Markets: Cryptocurrencies Surge As Coronavirus Spreads, Singapore Brings New Regulation",
+      "url": "https://finance.yahoo.com/news/crypto-markets-cryptocurrencies-surge-coronavirus-094632271.html",
+      "summary": "Cryptocurrencies surged as stock markets retreated due to the spreading coronavirus. This price action raises questions about whether crypto acts as a safe haven during global risks. Bitcoin previously surged after Iran tensions, indicating a potential safe-haven narrative.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "safe_haven"
+      ],
+      "features_for_model": [
+        "crypto_surge",
+        "coronavirus_impact",
+        "safe_haven_narrative"
+      ],
+      "rationale": "The simultaneous surge in crypto prices as traditional markets decline suggests a potential safe-haven narrative is playing out, which could provide short-term upward pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nb102b95582d1",
+      "title": "British Court Freezes $860,000 in Bitcoin Linked to Ransomware Payout",
+      "url": "https://finance.yahoo.com/news/british-court-freezes-860-000-100035639.html",
+      "summary": "A UK court ordered Bitfinex to freeze $860,000 in Bitcoin traced to a ransomware payment. The funds were sent to Bitfinex after the victim paid a ransom. This action highlights the ongoing efforts by law enforcement and exchanges to combat illicit activities using cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "legal",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "court_order",
+        "bitcoin_freeze",
+        "ransomware_funds"
+      ],
+      "rationale": "While a specific incident, such large-scale freezes can create negative sentiment and highlight the risks associated with illicit use of crypto, potentially impacting regulatory scrutiny and market confidence."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nec72f80599b2",
+      "title": "How profitable will Bitcoin be in 2020?",
+      "url": "https://finance.yahoo.com/news/profitable-bitcoin-2020-110047973.html",
+      "summary": "The article discusses Bitcoin's profitability, noting its significant returns for early investors. It highlights mainstream media attention and the ongoing question of its future profitability. The piece references Bloomberg's report of a 9,000,000% return for early investors.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_profitability",
+        "mainstream_attention",
+        "investor_returns"
+      ],
+      "rationale": "Increased mainstream discussion about Bitcoin's profitability and past returns can attract new retail investors, potentially boosting demand and price in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n8b33a3674f3e",
+      "title": "Latest Bitcoin Cash price and analysis (BCH to USD)",
+      "url": "https://finance.yahoo.com/news/latest-bitcoin-cash-price-analysis-130052621.html",
+      "summary": "Bitcoin Cash (BCH) has seen a significant pump, rising nearly 100% since January 1st, trading around $369. Despite this strong performance, it remains below its 2019 highs. The analysis suggests strong upward momentum for BCH.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "BCH_price_action",
+        "altcoin_outperformance",
+        "weekend_pump"
+      ],
+      "rationale": "The strong recent performance of Bitcoin Cash suggests positive momentum within the altcoin market, which can sometimes correlate with or lead Bitcoin's price action."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n65090d5e6ecb",
+      "title": "Bitcoin.com withdraws from Bitcoin Cash proposal to divert part of block rewards to dev fund",
+      "url": "https://finance.yahoo.com/news/bitcoin-com-withdraws-bitcoin-cash-160802289.html",
+      "summary": "Bitcoin.com, a mining pool associated with Roger Ver, has withdrawn support for a proposal to divert 12.5% of Bitcoin Cash block rewards to a development fund. They cited concerns about a potential chain split and a desire for broader ecosystem agreement. This decision avoids a contentious hard fork.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "protocol",
+        "community_governance"
+      ],
+      "features_for_model": [
+        "BCH_dev_fund_proposal",
+        "Bitcoin.com_withdrawal",
+        "chain_split_risk"
+      ],
+      "rationale": "The withdrawal avoids a potential chain split for Bitcoin Cash, which would have introduced uncertainty. However, the underlying disagreement highlights ongoing governance challenges within the BCH community."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n079b96d6ad32",
+      "title": "Google searches for ‘Bitcoin halving’ have doubled this month",
+      "url": "https://finance.yahoo.com/news/google-searches-bitcoin-halving-doubled-190012108.html",
+      "summary": "Google searches for 'Bitcoin halving' have doubled in January, reaching levels not seen since the 2016 halving. This indicates growing public interest and awareness of the upcoming May 2020 event, which is widely anticipated to impact Bitcoin's price due to supply reduction.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "google_trends",
+        "bitcoin_halving_interest",
+        "public_awareness"
+      ],
+      "rationale": "Increased public interest, as reflected in search trends, often precedes or accompanies price increases, especially for a known event like the halving. This suggests growing retail anticipation."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n4d4af5c3ee4c",
+      "title": "Bitcoin Climbs Above 9,334.5 Level, Up 5%",
+      "url": "https://finance.yahoo.com/news/bitcoin-climbs-above-9-334-194200958.html",
+      "summary": "Bitcoin experienced a significant price increase, climbing above $9,334.5 and gaining 5.01% on the day. This move pushed its market cap to $170.1 billion, representing 64.75% of the total crypto market cap. The price action shows strong upward momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "bitcoin_price_surge",
+        "9334_resistance_break",
+        "market_cap_dominance"
+      ],
+      "rationale": "A strong daily price increase of 5% and breaking above a key resistance level ($9,334.5) indicates significant buying pressure and positive short-term sentiment."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n4d4af5c3ee4c",
+      "title": "Bitcoin Climbs Above 9,334.5 Level, Up 5%",
+      "url": "https://finance.yahoo.com/news/bitcoin-climbs-above-9-334-194200958.html",
+      "summary": "Bitcoin experienced a significant price increase, climbing above $9,334.5 and gaining 5.01% on the day. This move pushed its market cap to $170.1 billion, representing 64.75% of the total crypto market cap. The price action shows strong upward momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "bitcoin_price_surge",
+        "9334_resistance_break",
+        "market_cap_dominance"
+      ],
+      "rationale": "A strong daily price increase of 5% and breaking above a key resistance level ($9,334.5) indicates significant buying pressure and positive short-term sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-01-28",
+    "summary": "Bitcoin experienced a significant price surge, breaking above $9,334.5 with a 5% gain, indicating strong buying pressure and positive short-term sentiment. This rally occurred amidst broader market concerns about the spreading coronavirus, with crypto markets showing resilience and potentially acting as a safe haven. Increased public interest in the upcoming Bitcoin halving, as shown by Google search trends, also contributes to a bullish outlook. However, regulatory developments, such as new AML rules in Singapore, and ongoing legal actions like the Bitcoin freeze in the UK, introduce elements of uncertainty.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Escalation of the coronavirus outbreak and its impact on global economic activity.",
+      "Potential for increased regulatory scrutiny following illicit activity reports (e.g., ransomware).",
+      "Market sentiment shifts due to broader macroeconomic factors or geopolitical events.",
+      "Technical resistance levels that could lead to price pullbacks.",
+      "Uncertainty surrounding the adoption and effectiveness of new regulatory frameworks in key jurisdictions."
+    ],
+    "watch_items": [
+      "Coronavirus case counts and global containment efforts.",
+      "Developments in US-China trade relations.",
+      "Statements from major financial institutions regarding digital asset adoption.",
+      "Bitcoin's price action around the $9,300-$9,500 resistance zone.",
+      "Further news on regulatory actions from major financial hubs like Singapore or the US."
+    ]
+  }
+}

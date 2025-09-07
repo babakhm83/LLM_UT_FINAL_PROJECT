@@ -1,0 +1,561 @@
+{
+  "date": "2023-09-18",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "nf455fdecc81a",
+      "title": "Elon Musk’s X Obtains License To Enable U.S. Crypto Payments",
+      "url": "https://finance.yahoo.com/news/elon-musk-x-obtains-license-170702963.html",
+      "summary": "X, formerly Twitter, has acquired a Rhode Island Currency Transmitter License, enabling it to store, transfer, and exchange digital assets. This move positions the platform, with its nearly 450 million active users, to potentially integrate cryptocurrency payments, marking a significant step towards mainstream adoption and potentially increasing Bitcoin's utility and user base.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "X_payments",
+        "Twitter_crypto",
+        "MSB_license",
+        "user_adoption"
+      ],
+      "rationale": "The integration of crypto payments on a platform with a massive user base like X (formerly Twitter) could significantly boost adoption and utility for Bitcoin. This broadens the use case beyond investment, potentially driving demand."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n71e6633cec88",
+      "title": "Bitcoin soared after Grayscale’s historic court victory. Those gains have since vanished",
+      "url": "https://finance.yahoo.com/news/bitcoin-soared-grayscale-historic-court-144942179.html",
+      "summary": "Bitcoin experienced a surge following Grayscale's court victory against the SEC, which was widely interpreted as a precursor to spot Bitcoin ETF approvals. However, these gains were short-lived, with the price retracing as the SEC subsequently delayed decisions on multiple ETF applications. This highlights the market's sensitivity to regulatory news and the ongoing uncertainty surrounding ETF approvals.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Grayscale_victory",
+        "SEC_delay",
+        "spot_ETF_sentiment"
+      ],
+      "rationale": "The Grayscale ruling created significant short-term bullish sentiment, but the subsequent SEC delays have introduced uncertainty. The long-term impact hinges on future regulatory decisions regarding spot Bitcoin ETFs."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nba4d8a991c93",
+      "title": "SEC Delays Spot Bitcoin ETF Decision for All Applicants Including BlackRock, Fidelity",
+      "url": "https://finance.yahoo.com/news/sec-delays-spot-bitcoin-etf-192359630.html",
+      "summary": "The SEC has postponed decisions on all pending spot Bitcoin ETF applications, including those from major players like BlackRock and Fidelity, pushing the decision timeline to October. This delay dampened Bitcoin's price action, which had previously rallied on anticipation of these approvals. The market is now awaiting further clarity on the regulatory path for these institutional products.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_delay",
+        "BlackRock_ETF",
+        "Fidelity_ETF",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "The SEC's decision to delay spot Bitcoin ETF approvals introduces a period of uncertainty, potentially capping upside momentum in the short to medium term. The eventual approval, however, remains a significant long-term bullish catalyst."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n296069fe0c4c",
+      "title": "MSTR & COIN: A Preview of Crypto Earnings in a Booming Market",
+      "url": "https://finance.yahoo.com/news/mstr-coin-preview-crypto-earnings-174700459.html",
+      "summary": "The article highlights Bitcoin's superior historical returns compared to traditional assets like the Nasdaq 100, emphasizing its long-term growth potential. It points to institutional adoption, citing BlackRock's CEO's past skepticism turning into support, as a key driver for Bitcoin's ongoing advance. This suggests a growing acceptance and integration of Bitcoin into mainstream finance.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "institutional_adoption",
+        "long_term_returns",
+        "BlackRock_sentiment"
+      ],
+      "rationale": "The increasing institutional interest and the historical outperformance of Bitcoin compared to traditional assets suggest a strong long-term bullish trend. This indicates a fundamental shift in how Bitcoin is perceived and integrated into investment portfolios."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nbfa500bd440c",
+      "title": "Stock Market Today: Stocks Rise for Third Straight Day; Bitcoin Pops on SEC News",
+      "url": "https://finance.yahoo.com/news/stock-market-today-stocks-rise-201041502.html",
+      "summary": "Bitcoin and crypto-related stocks saw a rally, influenced by a federal appeals court ruling that could facilitate the approval of spot market Bitcoin ETFs. This news, coupled with positive sentiment from declining Treasury yields and bargain hunting in tech stocks, boosted the overall market. The positive correlation with traditional markets suggests that broader economic sentiment can influence crypto prices.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "SEC_news",
+        "court_ruling",
+        "macro_sentiment",
+        "stock_market_correlation"
+      ],
+      "rationale": "The positive correlation with stock market rallies, especially when driven by ETF-related news, indicates that institutional inflows and positive macro sentiment can significantly impact Bitcoin's price. The Grayscale ruling is a key driver for this."
+    },
+    {
+      "pick_idx": 27,
+      "id": "ne43bc3c707b3",
+      "title": "Crypto for Advisors: Bitcoin and the Bull",
+      "url": "https://finance.yahoo.com/news/crypto-advisors-bitcoin-bull-154500299.html",
+      "summary": "The article discusses Bitcoin's historical performance, noting it has been the top-performing asset for seven of the last ten years. It highlights a significant gap in advisor confidence regarding crypto investments, with a majority expressing a desire to increase exposure if a spot Bitcoin ETF is approved. This suggests a substantial untapped market of potential institutional and retail capital waiting for regulatory clarity.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "advisor_sentiment",
+        "ETF_approval_impact",
+        "long_term_performance"
+      ],
+      "rationale": "The strong historical performance of Bitcoin and the expressed interest from financial advisors, contingent on ETF approval, point to significant future capital inflows. This indicates a strong underlying demand that could drive prices higher."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n25c01a7cc761",
+      "title": "Bitcoin Has Been More Stable Than Gold and Stocks; Violent Price Action Could Ensue",
+      "url": "https://finance.yahoo.com/news/bitcoin-more-stable-gold-stocks-185952634.html",
+      "summary": "Bitcoin's recent volatility has decreased, falling below that of gold, the Nasdaq 100, and the S&P 500. Historically, periods of such low volatility have preceded significant price breakouts and increased volatility. This suggests that the current calm might be a precursor to a substantial price movement, either upwards or downwards.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "volatility_compression",
+        "breakout_potential",
+        "market_calm"
+      ],
+      "rationale": "Periods of compressed volatility in Bitcoin have historically led to sharp price movements. While the direction is uncertain, the potential for increased volatility in the near future is high, making it a key factor to monitor."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n4a98c6f8ed6d",
+      "title": "Bitcoin Tops $28K on Grayscale Ruling, While Crypto-Related Stocks Soar More Than 10%",
+      "url": "https://finance.yahoo.com/news/bitcoin-jumps-5-grayscale-ruling-154910264.html",
+      "summary": "Bitcoin surged past $28,000 following a federal appeals court ruling that mandates the SEC to review its rejection of Grayscale's spot Bitcoin ETF application. This victory narrowed the discount on Grayscale's Bitcoin Trust (GBTC), signaling market confidence in the potential for an ETF conversion. The ruling is seen as a significant step towards institutional acceptance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Grayscale_ruling",
+        "GBTC_discount",
+        "spot_ETF_catalyst"
+      ],
+      "rationale": "The Grayscale ruling is a pivotal moment, increasing the probability of a spot Bitcoin ETF approval. This could unlock substantial institutional capital, driving significant demand and price appreciation for Bitcoin."
+    },
+    {
+      "pick_idx": 44,
+      "id": "nf4356a94903b",
+      "title": "One Year After Trudeau's Bitcoin Warning, BTC Still Beat Inflation and S&P 500",
+      "url": "https://finance.yahoo.com/news/one-trudeaus-bitcoin-warning-btc-101143643.html",
+      "summary": "A year after Canadian Prime Minister Justin Trudeau deemed calls to buy Bitcoin to beat inflation 'irresponsible,' Bitcoin has outperformed inflation and the S&P 500. Despite political skepticism, several MPs hold digital assets. This demonstrates Bitcoin's resilience and its ability to act as an inflation hedge, even amidst political headwinds.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "inflation_hedge",
+        "political_sentiment",
+        "resilience"
+      ],
+      "rationale": "Bitcoin's ability to outperform inflation and major stock indices, even when facing political criticism, highlights its growing role as a store of value. This resilience strengthens its long-term bullish case."
+    },
+    {
+      "pick_idx": 50,
+      "id": "nb9de23c56d1d",
+      "title": "Redwater and Lavrium Announce Strategic Partnership for Bitcoin Mining Optimization",
+      "url": "https://finance.yahoo.com/news/redwater-lavrium-announce-strategic-partnership-110000714.html",
+      "summary": "Redwater Acquisition Corp. has partnered with Lavrium LLC to integrate Lavrium's machines and AI algorithms to optimize Bitcoin mining operations at Redwater's Alberta Project. The goal is to scale operations and increase profitability. This partnership focuses on improving the efficiency and output of Bitcoin mining, a key component of the network's infrastructure.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "infrastructure",
+        "mining"
+      ],
+      "features_for_model": [
+        "mining_optimization",
+        "AI_integration",
+        "operational_efficiency"
+      ],
+      "rationale": "Improvements in mining efficiency and infrastructure can lead to more stable network operations and potentially lower the cost of Bitcoin production, which can indirectly support price stability and growth."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n0faa2c9c9f74",
+      "title": "Crypto VC Firm Blockchain Capital Raises $580M for 2 New Funds",
+      "url": "https://finance.yahoo.com/news/crypto-vc-firm-blockchain-capital-150000587.html",
+      "summary": "Blockchain Capital has successfully raised $580 million for two new funds, indicating continued investor appetite for the crypto space despite market downturns. The funds will focus on early-stage and late-stage investments, suggesting a belief in future growth and innovation within the industry.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "funding"
+      ],
+      "features_for_model": [
+        "VC_funding",
+        "Blockchain_Capital",
+        "market_sentiment"
+      ],
+      "rationale": "Significant VC funding signals continued confidence and potential for new projects, which can indirectly support the broader crypto market sentiment and liquidity."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n50634c96daa5",
+      "title": "Bitcoin and Ether Show Tepid Growth Amid Anticipation of Interest-Rate Decisions",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-show-tepid-growth-161827130.html",
+      "summary": "Bitcoin and Ether experienced a quiet weekend with minimal price changes, as traders await upcoming interest-rate decisions. The overall market capitalization saw a slight increase. This period of low volatility suggests market participants are adopting a cautious stance ahead of key macroeconomic events.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "interest_rate_anticipation",
+        "low_volatility",
+        "market_caution"
+      ],
+      "rationale": "The market is in a holding pattern ahead of interest rate decisions, leading to low volatility. The outcome of these decisions will likely dictate short-term price direction."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n7434dcf1e24d",
+      "title": "FTX’s Crypto Liquidation Sales Unlikely to Cause Market Shock: Coinbase",
+      "url": "https://finance.yahoo.com/news/ftx-crypto-liquidation-sales-unlikely-083246424.html",
+      "summary": "Coinbase research suggests that FTX's token liquidation sales will not significantly shock the market due to phased liquidation limits. The initial phase is capped at $50 million per week, with potential increases to $100 million or $200 million. This controlled approach aims to mitigate the impact on market liquidity and price.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "liquidity",
+        "legal"
+      ],
+      "features_for_model": [
+        "FTX_liquidation",
+        "Coinbase_analysis",
+        "market_impact_mitigation"
+      ],
+      "rationale": "The controlled liquidation of FTX assets, as analyzed by Coinbase, should prevent a significant sell-off that could destabilize the market, thus having a neutral to slightly bullish impact."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n99d7131301f8",
+      "title": "Chainlink’s LINK Soars, Outperforming Other Crypto Majors",
+      "url": "https://finance.yahoo.com/news/chainlink-soars-outperforming-other-crypto-184715890.html",
+      "summary": "Chainlink's LINK token has surged over 10%, outperforming Bitcoin and other major cryptocurrencies. This rally is attributed to new partnerships with traditional financial institutions and optimism surrounding its deal with SWIFT to scale tokenized asset adoption. Chainlink's co-founder's participation in SWIFT's network event further fuels this positive sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Chainlink_partnerships",
+        "SWIFT_integration",
+        "tokenized_assets"
+      ],
+      "rationale": "Chainlink's strong performance, driven by institutional partnerships and integration with traditional finance infrastructure like SWIFT, signals growing adoption of its oracle services, which can have a positive spillover effect on the broader crypto market."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ne9204c80bcec",
+      "title": "Bitcoin, Ether flat; altcoins drop amid FTX liquidation",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-flat-altcoins-drop-011404149.html",
+      "summary": "Bitcoin and Ether are trading flat, while most other top cryptocurrencies are declining, with Toncoin leading the losses. This trend is occurring as FTX received court approval to sell its crypto holdings, potentially adding selling pressure. U.S. stock futures show a slight increase as investors await the Federal Reserve's interest rate decision.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "altcoin",
+        "macro"
+      ],
+      "features_for_model": [
+        "FTX_liquidation_pressure",
+        "altcoin_weakness",
+        "Fed_anticipation"
+      ],
+      "rationale": "The combination of FTX liquidations and anticipation of Fed decisions is creating downward pressure, particularly on altcoins, while Bitcoin and Ether remain relatively stable but lack upward momentum."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ne9204c80bcec",
+      "title": "Bitcoin, Ether flat; altcoins drop amid FTX liquidation",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-flat-altcoins-drop-011404149.html",
+      "summary": "Bitcoin and Ether are trading flat, while most other top cryptocurrencies are declining, with Toncoin leading the losses. This trend is occurring as FTX received court approval to sell its crypto holdings, potentially adding selling pressure. U.S. stock futures show a slight increase as investors await the Federal Reserve's interest rate decision.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "altcoin",
+        "macro"
+      ],
+      "features_for_model": [
+        "FTX_liquidation_pressure",
+        "altcoin_weakness",
+        "Fed_anticipation"
+      ],
+      "rationale": "The combination of FTX liquidations and anticipation of Fed decisions is creating downward pressure, particularly on altcoins, while Bitcoin and Ether remain relatively stable but lack upward momentum."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n3dc3e2ee1ab7",
+      "title": "Bitcoin Tops $27K a Week After Death Cross Formation With Fed Likely to Extend Rate Pause",
+      "url": "https://finance.yahoo.com/news/bitcoin-tops-27k-week-death-115103158.html",
+      "summary": "Bitcoin has rallied to over $27,000, gaining 8% since a bearish 'death cross' formation on its daily chart. This rise coincides with increased market expectations that the Federal Reserve will maintain its current interest rates. The rally suggests that the bearish technical signal is being overridden by positive macroeconomic sentiment.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "technical"
+      ],
+      "features_for_model": [
+        "death_cross_reversal",
+        "Fed_rate_pause",
+        "technical_analysis"
+      ],
+      "rationale": "Despite a bearish technical signal, Bitcoin's price is rising due to expectations of a Fed rate pause. This suggests that macroeconomic factors are currently outweighing technical indicators in the short term."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n3b6103360ca0",
+      "title": "New York Regulator Seeks Tougher Norms for Adding, De-Listing Crypto Coins",
+      "url": "https://finance.yahoo.com/news/york-regulator-seeks-tougher-norms-140651882.html",
+      "summary": "The New York Department of Financial Services (NYDFS) is proposing stricter guidelines for crypto coin listings, requiring licensees to assess legal, reputational, and market risks. This move aims to enhance consumer protection and market stability by imposing more rigorous due diligence for new token additions and de-listings.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "listing"
+      ],
+      "features_for_model": [
+        "NYDFS_guidelines",
+        "token_listing_rules",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Stricter listing norms from a major regulator like NYDFS could slow down the introduction of new tokens, potentially impacting liquidity and innovation in the short term, but improving long-term market health."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n1e0dd8c55add",
+      "title": "Bitcoin’s Crypto Market Dominance Rises to 50% and It Could Go Higher, Say Analysts",
+      "url": "https://finance.yahoo.com/news/bitcoin-crypto-market-dominance-rises-213233923.html",
+      "summary": "Bitcoin's market dominance has risen to 50.2%, its highest level in a month and nearing a 26-month high. This increase occurs while Bitcoin's price has remained relatively flat. Analysts suggest this trend could continue, indicating a potential shift of capital from altcoins to Bitcoin due to perceived lower risk or greater stability.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "dominance",
+        "altcoin",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_dominance_increase",
+        "altcoin_outflow",
+        "risk_aversion"
+      ],
+      "rationale": "Rising Bitcoin dominance suggests a flight to safety within the crypto market, potentially indicating reduced risk appetite for altcoins and a preference for Bitcoin's perceived stability."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nafd07fe58823",
+      "title": "Bitcoin Gives Up $27K in Sharp Tumble as Crypto Liquidations Top $100M",
+      "url": "https://finance.yahoo.com/news/bitcoin-gives-27k-sharp-tumble-185702313.html",
+      "summary": "Bitcoin's brief rally above $27,000 was short-lived, as it tumbled approximately 2% to $26,700. This sharp decline occurred amidst significant crypto liquidations exceeding $100 million. While Bitcoin was still up slightly over 24 hours, it underperformed the broader CoinDesk Market Index. Solana, Litecoin, and Bitcoin Cash showed relative strength.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "technical",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_reversal",
+        "high_liquidations",
+        "short_term_volatility"
+      ],
+      "rationale": "The sharp reversal from $27K, coupled with high liquidations, indicates strong selling pressure and potential for further downside in the immediate short term."
+    },
+    {
+      "pick_idx": 35,
+      "id": "nafd07fe58823",
+      "title": "Bitcoin Gives Up $27K in Sharp Tumble as Crypto Liquidations Top $100M",
+      "url": "https://finance.yahoo.com/news/bitcoin-gives-27k-sharp-tumble-185702313.html",
+      "summary": "Bitcoin's brief rally above $27,000 was short-lived, as it tumbled approximately 2% to $26,700. This sharp decline occurred amidst significant crypto liquidations exceeding $100 million. While Bitcoin was still up slightly over 24 hours, it underperformed the broader CoinDesk Market Index. Solana, Litecoin, and Bitcoin Cash showed relative strength.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "technical",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_reversal",
+        "high_liquidations",
+        "short_term_volatility"
+      ],
+      "rationale": "The sharp reversal from $27K, coupled with high liquidations, indicates strong selling pressure and potential for further downside in the immediate short term."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n09556ba00983",
+      "title": "New York crypto regulator removes Ripple and Dogecoin from token ‘greenlist’ in latest update",
+      "url": "https://finance.yahoo.com/news/york-crypto-regulator-removes-ripple-151329547.html",
+      "summary": "The New York Department of Financial Services (DFS) has updated its virtual currency oversight, removing over two dozen tokens, including Ripple (XRP) and Dogecoin (DOGE), from its 'greenlist.' Bitcoin, Ether, and PayPal Dollar remain on the list. This regulatory action signals increased scrutiny on certain digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "listing"
+      ],
+      "features_for_model": [
+        "NYDFS_delisting",
+        "XRP_regulation",
+        "DOGE_regulation"
+      ],
+      "rationale": "The removal of certain tokens from the NYDFS 'greenlist' indicates a more cautious regulatory approach, which could indirectly affect market sentiment and liquidity for those specific assets and potentially others facing similar scrutiny."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-09-18",
+    "summary": "Bitcoin experienced a volatile day, briefly surpassing $27,000 before a sharp decline to $26,700 amid significant liquidations exceeding $100 million. While Bitcoin and Ether remained relatively flat, altcoins saw broader declines. Chainlink's LINK token surged due to institutional partnerships, and Bitcoin's market dominance increased. Market sentiment is cautious, awaiting upcoming Federal Reserve interest rate decisions, while regulatory actions from New York's DFS add to the mixed signals.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Federal Reserve interest rate decisions could trigger significant market volatility.",
+      "Ongoing FTX liquidations may continue to pressure altcoin markets.",
+      "Regulatory uncertainty surrounding spot Bitcoin ETFs remains a key overhang.",
+      "The sharp intraday reversal suggests potential for further downside if selling pressure persists."
+    ],
+    "watch_items": [
+      "Federal Reserve meeting minutes/statements",
+      "FTX liquidation sale progress",
+      "Grayscale Bitcoin Trust (GBTC) discount evolution",
+      "Chainlink (LINK) partnership developments",
+      "SEC's next move on spot Bitcoin ETFs"
+    ]
+  }
+}

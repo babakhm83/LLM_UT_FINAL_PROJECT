@@ -1,0 +1,468 @@
+{
+  "date": "2019-07-07",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "ncd6baba768ce",
+      "title": "Yet Another SEC Disapproval for Bitcoin ETF: What Next?",
+      "url": "https://finance.yahoo.com/news/yet-another-sec-disapproval-bitcoin-170005141.html",
+      "summary": "The SEC has postponed its decision on the VanEck/SolidX Bitcoin ETF proposal, with new deadlines set for August 19th and potentially October 18th. This marks another setback for proponents of a Bitcoin ETF in the US. The repeated delays and disapprovals highlight the regulatory hurdles and cautious approach from the SEC regarding cryptocurrency investment products.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_disapproval",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "Continued SEC delays on Bitcoin ETF approvals create uncertainty and dampen institutional interest, potentially limiting price appreciation over the medium term. The market anticipates regulatory clarity for broader adoption."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nce4fc7bbfadc",
+      "title": "Senior SEC Official Amy Starr: Securities Laws Are ‘Written to Be Dynamic’",
+      "url": "https://finance.yahoo.com/news/senior-sec-official-amy-starr-144100984.html",
+      "summary": "A senior SEC official stated that securities laws are 'dynamic' and the SEC is willing to engage with crypto businesses to understand how these laws apply. This suggests a potential for evolving regulatory frameworks rather than a rigid, one-size-fits-all approach. The SEC's willingness to adapt could pave the way for clearer guidelines and greater integration of digital assets into traditional finance.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_dynamic_regulation",
+        "crypto_guidance"
+      ],
+      "rationale": "The SEC's acknowledgment of the dynamic nature of securities laws and its openness to engagement signals a potential for more favorable and clearer regulations for crypto assets. This could unlock significant institutional investment in the long run."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nd7de3804af97",
+      "title": "Bitcoin in Space? It Helps With Connection Woes, Says Blockstream’s Adam Back",
+      "url": "https://finance.yahoo.com/news/bitcoin-space-helps-connection-woes-100023867.html",
+      "summary": "Blockstream CEO Adam Back discussed the use of satellites for Bitcoin, primarily for downloading full nodes for users without internet access. This satellite connectivity offers a more resilient and censorship-resistant way to interact with the Bitcoin network, potentially expanding access and utility in areas with poor or no internet infrastructure. It highlights the ongoing development of Bitcoin's infrastructure.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "satellite_connectivity",
+        "network_resilience"
+      ],
+      "rationale": "The development of satellite infrastructure for Bitcoin enhances network accessibility and resilience, particularly in regions with limited internet. This can foster broader adoption and usage, contributing to long-term value."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n05b4ce29ffcb",
+      "title": "Billionaire Binance CEO Apologizes for Bitcoin Blockchain ‘Reorg’, a Dirty Word",
+      "url": "https://finance.yahoo.com/news/billionaire-binance-ceo-apologizes-bitcoin-133655550.html",
+      "summary": "Binance CEO CZ apologized for a discussion about a potential Bitcoin blockchain reorganization to recover funds lost in a hack. While the idea was quickly dismissed due to its implications for Bitcoin's immutability, the incident highlighted the exchange's security challenges and the community's strong stance on core protocol principles. This event underscores the importance of exchange security and the integrity of the Bitcoin protocol.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "security"
+      ],
+      "features_for_model": [
+        "exchange_security_incident",
+        "blockchain_reorg_discussion"
+      ],
+      "rationale": "While the 'reorg' discussion was quickly shut down, it exposed potential vulnerabilities in exchange operations and raised awareness about the immutability of Bitcoin. This could lead to increased scrutiny of exchange security practices, impacting trust."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nc4b9d450f89b",
+      "title": "Bitcoin sell-off accelerates, breaking below $11,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-sell-off-accelerates-breaking-163704658.html",
+      "summary": "Bitcoin experienced a significant sell-off, dropping over 16% to below $11,000 after reaching an 18-month high near $14,000 earlier in the week. This pullback occurred despite a strong rally since April, which saw Bitcoin surge over 260%. The price remains below its all-time high of nearly $20,000. The sell-off was partly attributed to profit-taking after the rapid ascent and potentially influenced by broader market sentiment.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "price_correction",
+        "profit_taking"
+      ],
+      "rationale": "The sharp pullback from recent highs indicates potential short-term bearish sentiment and profit-taking. This could lead to a period of consolidation or further downside before the next upward trend."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n0851de6fb0dc",
+      "title": "RIP: Bitcoin Exchange Cryptopia Begins Liquidation After $15 Million Hacking",
+      "url": "https://finance.yahoo.com/news/rip-bitcoin-exchange-cryptopia-begins-104920846.html",
+      "summary": "Cryptopia, a New Zealand-based cryptocurrency exchange, has appointed liquidators after suffering a significant hack in January that resulted in the loss of approximately $15 million. The exchange cited the hacking incident as having a 'severe impact' and stated that cost-cutting and profitability efforts were unsuccessful. This event serves as a stark reminder of the security risks associated with centralized exchanges.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "security",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "exchange_hack_liquidation",
+        "security_risk"
+      ],
+      "rationale": "The liquidation of Cryptopia due to a hack reinforces concerns about exchange security, potentially leading users to favor more secure storage methods or decentralized exchanges, impacting liquidity on vulnerable platforms."
+    },
+    {
+      "pick_idx": 18,
+      "id": "naf241728837e",
+      "title": "Yahoo Japan-Backed Crypto Exchange Taotao Launches This Week",
+      "url": "https://finance.yahoo.com/news/yahoo-japan-backed-crypto-exchange-142038569.html",
+      "summary": "Taotao, a new cryptocurrency exchange backed by Yahoo Japan, is set to launch with trading in Bitcoin (BTC) and Ether (ETH). The platform will also offer leverage and plans to add more cryptocurrencies later. The launch of a major exchange in Japan, a significant market for crypto, indicates growing institutional interest and infrastructure development in the region.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "new_exchange_launch",
+        "institutional_backing"
+      ],
+      "rationale": "The launch of Taotao, backed by a major entity like Yahoo Japan, signifies increased institutional participation and improved trading infrastructure in a key market. This can attract new users and capital, boosting overall market sentiment."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n32b093b4f010",
+      "title": "Cartoon: Driving Sheep",
+      "url": "https://finance.yahoo.com/news/cartoon-driving-sheep-191209012.html",
+      "summary": "The article discusses how industry regulators are catching up with blockchain companies that have misclassified tokens as 'utilities' to avoid 'securities' regulations. The SEC has taken enforcement actions against such companies, encouraging the broader blockchain industry to comply with existing rules. This indicates a tightening regulatory environment for token issuances.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation"
+      ],
+      "features_for_model": [
+        "SEC_enforcement_actions",
+        "utility_token_regulation"
+      ],
+      "rationale": "Increased SEC enforcement against companies misclassifying tokens as utilities suggests a stricter regulatory approach. This could deter some new projects and impact the token issuance landscape, potentially leading to a more cautious market."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n7f6670f802eb",
+      "title": "Here's Why Bitcoin and Bitcoin Investment Trust Are Rising Today",
+      "url": "https://finance.yahoo.com/news/apos-why-bitcoin-bitcoin-investment-154000149.html",
+      "summary": "Bitcoin is trading above $9,000 for the first time in over a year, with an 18% rise in 24 hours. The Bitcoin Investment Trust (GBTC) also saw a significant increase. This rebound in 2019, with Bitcoin up over 140% year-to-date, is attributed to a general increase in investor interest after a dismal 2018. The article suggests a positive shift in market sentiment and growing adoption.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "price_surge",
+        "GBTC_performance",
+        "investor_sentiment"
+      ],
+      "rationale": "The significant price increase and the rise of GBTC indicate renewed investor interest and potential institutional adoption. This positive momentum suggests a strengthening market and could attract further capital."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nc948c64943c3",
+      "title": "Will Bitcoin's Solid May Rally Last? ETFs in Focus",
+      "url": "https://finance.yahoo.com/news/bitcoins-solid-may-rally-last-120012712.html",
+      "summary": "Bitcoin experienced its best monthly rally in May since 2017, gaining 65% and 133% year-to-date, despite SEC ETF postponements. Positive headlines and increased market capitalization for other cryptocurrencies contributed to the surge. The article questions the sustainability of this rally, with ETFs remaining a key focus for future growth.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "may_rally_sustainability",
+        "ETF_focus"
+      ],
+      "rationale": "The strong May rally, driven by positive sentiment and broader market gains, suggests a potential shift towards a bull market. However, the sustainability hinges on factors like ETF approvals and continued positive news flow."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n1f4a39ada3cc",
+      "title": "Montana Passes Bill to Recognize Utility Tokens and Exempt Them From State Securities",
+      "url": "https://finance.yahoo.com/news/montana-passes-bill-recognize-utility-185600506.html",
+      "summary": "Montana has passed a bill that recognizes utility tokens and exempts them from state securities laws, effective July 1st. This legislation defines utility tokens and provides a clearer regulatory framework for them within the state. This move by Montana could set a precedent for other states looking to clarify their stance on digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "utility_token_exemption",
+        "state_level_regulation"
+      ],
+      "rationale": "Montana's legislative action to recognize and exempt utility tokens from securities laws provides a more favorable environment for blockchain projects. This could encourage innovation and adoption within the state, potentially influencing other jurisdictions."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n1ab4842e51f2",
+      "title": "Bitcoin’s hash rate hits all-time high",
+      "url": "https://finance.yahoo.com/news/bitcoin-hash-rate-hits-time-020558920.html",
+      "summary": "Bitcoin's hash rate reached an all-time high of over 74.5 million TH/s on July 5, 2019, a 109% increase year-over-year. This signifies robust network security and increased mining activity, indicating strong confidence from miners in the network's future profitability.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "hash_rate_ATH",
+        "network_security"
+      ],
+      "rationale": "An all-time high hash rate indicates increased mining power securing the network, which is a strong bullish signal for Bitcoin's underlying health and investor confidence."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n7813af8fd446",
+      "title": "Crude Oil Price Update – Upside Bias Develops Over $57.41",
+      "url": "https://finance.yahoo.com/news/crude-oil-price-upside-bias-034641671.html",
+      "summary": "U.S. WTI crude oil futures closed higher but ended the week lower. Prices were supported by a better-than-expected U.S. Non-Farm Payrolls report and US-China tensions, but global demand worries limited gains. The market sentiment around oil prices can sometimes correlate with broader risk appetite, which can indirectly affect crypto markets.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "oil_price_sentiment",
+        "macroeconomic_indicators"
+      ],
+      "rationale": "While not directly tied to Bitcoin, oil price movements can reflect broader macroeconomic sentiment and risk appetite, which may indirectly influence Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n694b7fb5decf",
+      "title": "The Crypto Week – Bitcoin Leads the Way in a Mixed Week for the Majors",
+      "url": "https://finance.yahoo.com/news/crypto-week-bitcoin-leads-way-042633077.html",
+      "summary": "Bitcoin bulls maintained control, leading the market in a mixed week for other major cryptocurrencies. Bitcoin rose 2.56% on Saturday, reversing Friday's fall to end at $11,281. It broke through key resistance levels, reaching an intraday high of $11,720 before pulling back slightly. This indicates continued strength in Bitcoin's price action.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price"
+      ],
+      "features_for_model": [
+        "bitcoin_price_action",
+        "market_leadership"
+      ],
+      "rationale": "Bitcoin's continued price strength and market leadership suggest positive short-term momentum. Breaking through resistance levels indicates buying pressure that could persist."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n4ac91e953c45",
+      "title": "Not all HotStuff is the same",
+      "url": "https://finance.yahoo.com/news/not-hotstuff-same-090044338.html",
+      "summary": "Joe Lubin criticized Facebook's Libra as a 'centralized wolf in decentralised sheep’s clothing,' highlighting distrust due to Facebook's data breaches and PR issues. This sentiment reflects a growing concern about the centralization and potential privacy implications of large tech companies entering the cryptocurrency space.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Libra_criticism",
+        "centralization_concerns"
+      ],
+      "rationale": "Criticism of Facebook's Libra project, particularly regarding centralization, could lead to increased regulatory scrutiny and public distrust, potentially impacting the broader adoption of digital currencies by large corporations."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n8bbab7331414",
+      "title": "Ethereum Dips Below 292.95 Level, Down 2%",
+      "url": "https://finance.yahoo.com/news/ethereum-dips-below-292-95-095904779.html",
+      "summary": "Ethereum experienced a 1.51% drop, trading at $292.95, marking its largest one-day percentage loss in recent times. This decline pushed its market cap down to 9.66% of the total crypto market cap. The price movement indicates a short-term bearish trend for ETH.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "price",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ethereum_price_dip",
+        "ETH_liquidity"
+      ],
+      "rationale": "Ethereum's price dip suggests a short-term bearish sentiment, potentially impacting its market share and liquidity. This could lead to a ripple effect on other altcoins."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n0305f68e076b",
+      "title": "John McAfee slams ‘stone age’ Peter Brandt over altcoin comments",
+      "url": "https://finance.yahoo.com/news/john-mcafee-slams-stone-age-110042187.html",
+      "summary": "John McAfee criticized Peter Brandt's negative comments on altcoins, calling Brandt's knowledge 'stone age' and highlighting the privacy advantages of certain altcoins over Bitcoin. This public disagreement among prominent figures in the crypto space can influence investor sentiment towards altcoins.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "altcoin_sentiment",
+        "influencer_disagreement"
+      ],
+      "rationale": "Disagreements between prominent crypto figures like McAfee and Brandt can create noise and influence short-term altcoin sentiment, leading to volatility as investors weigh differing opinions."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n714c3b3eb0a0",
+      "title": "The blockchain/crypto week in quotes",
+      "url": "https://finance.yahoo.com/news/blockchain-crypto-week-quotes-150049136.html",
+      "summary": "US House of Representatives requested Facebook and its partners to halt progress on Libra and Calibra due to concerns about a new global financial system rivaling US monetary policy and the dollar. These concerns raise issues of privacy, trading, national security, and monetary policy for users and the broader economy.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Libra_moratorium_request",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Regulatory bodies expressing concerns and requesting a moratorium on Libra could lead to significant delays or modifications, impacting the perceived legitimacy and adoption trajectory of large-scale stablecoins."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n1ab4842e51f2",
+      "title": "Bitcoin’s hash rate hits all-time high",
+      "url": "https://finance.yahoo.com/news/bitcoin-hash-rate-hits-time-020558920.html",
+      "summary": "Bitcoin's hash rate reached an all-time high of over 74.5 million TH/s on July 5, 2019, a 109% increase year-over-year. This signifies robust network security and increased mining activity, indicating strong confidence from miners in the network's future profitability.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "hash_rate_ATH",
+        "network_security"
+      ],
+      "rationale": "An all-time high hash rate indicates increased mining power securing the network, which is a strong bullish signal for Bitcoin's underlying health and investor confidence."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n694b7fb5decf",
+      "title": "The Crypto Week – Bitcoin Leads the Way in a Mixed Week for the Majors",
+      "url": "https://finance.yahoo.com/news/crypto-week-bitcoin-leads-way-042633077.html",
+      "summary": "Bitcoin bulls maintained control, leading the market in a mixed week for other major cryptocurrencies. Bitcoin rose 2.56% on Saturday, reversing Friday's fall to end at $11,281. It broke through key resistance levels, reaching an intraday high of $11,720 before pulling back slightly. This indicates continued strength in Bitcoin's price action.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price"
+      ],
+      "features_for_model": [
+        "bitcoin_price_action",
+        "market_leadership"
+      ],
+      "rationale": "Bitcoin's continued price strength and market leadership suggest positive short-term momentum. Breaking through resistance levels indicates buying pressure that could persist."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-07-07",
+    "summary": "Bitcoin's hash rate hitting an all-time high is a strong bullish indicator for network security and miner confidence. Meanwhile, Bitcoin continues to show market leadership with positive price action, breaking resistance levels. However, concerns surrounding Facebook's Libra project and regulatory scrutiny from the US House of Representatives introduce a bearish element, potentially impacting broader market sentiment and the adoption of large-scale stablecoins. Ethereum experienced a notable dip, suggesting short-term weakness in the altcoin market.",
+    "scenario_probs": {
+      "bull": 0.5,
+      "base": 0.3,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Regulatory crackdown on Libra could dampen overall market sentiment.",
+      "Profit-taking after recent rallies could lead to short-term price corrections.",
+      "Continued weakness in altcoins like Ethereum might drag down overall market momentum.",
+      "Uncertainty surrounding future SEC ETF decisions remains a persistent overhang."
+    ],
+    "watch_items": [
+      "Facebook Libra developments and regulatory responses",
+      "Bitcoin price action around key resistance/support levels ($11,000-$12,000)",
+      "Ethereum's ability to recover from its recent dip",
+      "Hash rate trends and mining difficulty adjustments"
+    ]
+  }
+}

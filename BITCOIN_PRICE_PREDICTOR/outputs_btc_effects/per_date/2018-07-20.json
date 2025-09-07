@@ -1,0 +1,492 @@
+{
+  "date": "2018-07-20",
+  "long_term": [
+    {
+      "pick_idx": 8,
+      "id": "n6fc9b1910ee1",
+      "title": "Bitcoin falls to four-month low in persistent bearish trend",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-four-month-low-persistent-bearish-trend-191717329--sector.html",
+      "summary": "Bitcoin has fallen to a four-month low, continuing a downtrend influenced by negative headlines. Japan's financial regulator ordered six digital currency exchanges to improve anti-money laundering systems. Bitcoin's price dropped to $6,085.59, its lowest since early February, and is down nearly 56% year-to-date. This persistent bearish trend indicates a lack of strong positive catalysts and ongoing regulatory scrutiny impacting investor sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_price_trend",
+        "regulatory_action",
+        "exchange_scrutiny"
+      ],
+      "rationale": "This news highlights a significant downturn in Bitcoin's price, driven by regulatory actions and negative sentiment. The sustained bearish trend suggests deeper structural issues or a prolonged period of price discovery, impacting long-term adoption and investor confidence."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nd4f7e8c172e8",
+      "title": "DOJ, U.S. Agencies Seize Over $12M Bitcoin in a Slew of Dark Web Busts",
+      "url": "https://finance.yahoo.com/news/doj-u-agencies-seize-over-172653037.html",
+      "summary": "U.S. law enforcement agencies, including the DOJ, ICE, Secret Service, and DEA, have conducted a nationwide bust targeting dark web drug and arms dealers. During these operations, over 35 individuals were apprehended, and illicit items such as weapons, drugs, and manufacturing equipment were confiscated. Notably, approximately $3.6 million in cash and gold, along with around 2,000 Bitcoin (valued at over $12 million), were seized. This action underscores the ongoing efforts to combat illicit activities facilitated by cryptocurrencies.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "illicit_activity"
+      ],
+      "features_for_model": [
+        "DOJ_seizure",
+        "dark_web_bust",
+        "bitcoin_seizure_value"
+      ],
+      "rationale": "The seizure of a significant amount of Bitcoin by U.S. agencies in connection with dark web activities reinforces the narrative of crypto being used for illicit purposes. This can lead to increased regulatory scrutiny and a negative perception, potentially dampening long-term institutional adoption."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n6a692c6206e6",
+      "title": "IBM partners Stronghold for new digital stable coin",
+      "url": "https://finance.yahoo.com/news/ibm-partners-stronghold-digital-stable-coin-110332388--sector.html",
+      "summary": "IBM is partnering with Stronghold, a U.S.-based financial services provider, to launch a new cryptocurrency pegged to the U.S. dollar, named Stronghold USD. This stable coin will operate on the Stellar blockchain platform. Customers will deposit U.S. dollars with Prime Trust, a Nevada-based partner bank, for Stronghold to issue tokens on a 1-to-1 ratio. This initiative aims to bring stability to the volatile cryptocurrency sector by offering a digital asset backed by fiat currency.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "IBM_partnership",
+        "stablecoin_launch",
+        "Stellar_blockchain"
+      ],
+      "rationale": "IBM's involvement in launching a stablecoin signifies growing institutional interest and the development of more robust financial infrastructure within the crypto space. This can pave the way for broader adoption and integration of digital assets into traditional finance."
+    },
+    {
+      "pick_idx": 31,
+      "id": "ne7761b096553",
+      "title": "World Cup Begins: 5 Russia ETFs Get a Good Kick",
+      "url": "https://finance.yahoo.com/news/world-cup-begins-5-russia-182305635.html",
+      "summary": "The start of the 2018 FIFA World Cup in Russia is expected to provide a boost to Russian markets, potentially reflected positively in Russia-focused ETFs such as VanEck Vectors Russia ETF (RSX) and iShares MSCI Russia ETF (ERUS). The article highlights that RSX has the highest assets under management among these ETFs. The event could lead to increased foreign investment and economic activity within Russia, indirectly influencing broader market sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "World_Cup_Russia",
+        "Russia_ETF_performance"
+      ],
+      "rationale": "While this news is primarily about traditional markets and a specific geopolitical event, any significant global economic shifts or increased investor interest in emerging markets can have ripple effects on crypto adoption and sentiment, albeit indirectly."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nc4f1cad84579",
+      "title": "Even Ford's SUV Sales Have Crashed in China",
+      "url": "https://finance.yahoo.com/news/even-ford-apos-suv-sales-223400519.html",
+      "summary": "Ford Motor Company reported a 29% year-over-year decline in sales in China for May, continuing a trend of significant drops. Year-to-date sales are down 22%. Even popular models like the Ford Edge have seen sales plummet by 23% year-to-date. This indicates a substantial slowdown in the Chinese automotive market, which could signal broader economic headwinds in a key global market.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "China_auto_sales",
+        "Ford_sales_decline",
+        "economic_headwinds"
+      ],
+      "rationale": "A significant downturn in a major global economy like China can lead to reduced risk appetite among investors, potentially impacting speculative assets like cryptocurrencies. This macro trend suggests a cautious environment for growth-oriented investments."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n9896ca398ac1",
+      "title": "Why Dollar General Stock Gained 13% in June",
+      "url": "https://finance.yahoo.com/news/why-dollar-general-stock-gained-133900942.html",
+      "summary": "Discount retailer Dollar General (DG) saw its stock price increase by 13% in June, outperforming the S&P 500. This rally was driven by a positive first-quarter earnings report released at the end of May. The company's strong performance and market outperformance suggest resilience in consumer spending, particularly in value-oriented retail segments.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Dollar_General_performance",
+        "consumer_spending_resilience"
+      ],
+      "rationale": "While this is a traditional market story, strong performance in consumer staples can sometimes indicate a flight to safety during uncertain economic times. This could indirectly affect risk assets like Bitcoin, though the direct link is weak."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n3875d64d75c6",
+      "title": "Why bluebird bio's Shares Have Tumbled 11.9% in 2018 So Far",
+      "url": "https://finance.yahoo.com/news/why-bluebird-bio-apos-shares-191500530.html",
+      "summary": "Shares of bluebird bio, a clinical-stage gene therapy company, have fallen 11.9% year-to-date after reaching record highs in March. The company's valuation may have been priced for perfection, and a high market cap can make it difficult to sustain growth. This suggests potential overvaluation or a shift in investor sentiment towards growth stocks in the biotech sector.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bluebird_bio_stock_performance",
+        "biotech_valuation",
+        "growth_stock_sentiment"
+      ],
+      "rationale": "This news reflects a broader trend of potential overvaluation in high-growth sectors. If investors become more risk-averse due to macro concerns, speculative assets like Bitcoin could also face downward pressure."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n29d2e4443e34",
+      "title": "Better Buy: Yamana Gold Inc. vs. Agnico Eagle Mines",
+      "url": "https://finance.yahoo.com/news/better-buy-yamana-gold-inc-223100081.html",
+      "summary": "The article compares Yamana Gold and Agnico Eagle Mines, both mid-tier gold producers with growth prospects. It suggests that valuation is a key differentiator, making one appear to be a better buy. The bull case for Yamana Gold is presented, noting its production of gold, copper, and silver. This analysis of precious metals miners can indirectly reflect sentiment towards inflation hedges and alternative assets.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "gold_miner_valuation",
+        "precious_metals_sentiment"
+      ],
+      "rationale": "Discussions around gold miners and their valuations can sometimes correlate with sentiment towards Bitcoin as a potential inflation hedge or store of value, though the relationship is not always direct."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n204d3baf53f8",
+      "title": "Trump May Have Built Enough Goodwill to Press Forward with Tariffs Against China",
+      "url": "https://finance.yahoo.com/news/trump-may-built-enough-goodwill-100332665.html",
+      "summary": "U.S. equity indexes are trading lower as investors anticipate President Trump's announcement of additional tariffs on Chinese products, potentially worth around $50 billion. Reports suggest that Trump is expected to take \"pretty significant action.\" This escalation in trade tensions between the U.S. and China could lead to a risk-off sentiment in global markets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "US_China_tariffs",
+        "trade_war_escalation",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Escalating trade wars create global economic uncertainty, which typically leads investors to reduce exposure to riskier assets. Bitcoin, being a speculative asset, is likely to be negatively impacted by such macro-economic instability."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n57297a44f1ae",
+      "title": "AUD/USD and NZD/USD Fundamental Weekly Forecast – Traders Likely to React to News About US-North Korea Meeting",
+      "url": "https://finance.yahoo.com/news/aud-usd-nzd-usd-fundamental-005501960.html",
+      "summary": "The Australian and New Zealand Dollars showed mixed performance last week, influenced by a drop in U.S. interest rates and lower demand for risky assets. Reserve Bank of Australia Governor Philip Lowe identified potential issues in China as a significant economic risk for Australia. The forecast suggests traders will react to news regarding the U.S.-North Korea meeting, indicating geopolitical events are a key driver of currency markets.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "geopolitics"
+      ],
+      "features_for_model": [
+        "AUD_USD_forecast",
+        "NZD_USD_forecast",
+        "geopolitical_risk_sentiment"
+      ],
+      "rationale": "Geopolitical events and their impact on currency markets can influence overall market sentiment. A de-escalation or escalation of tensions can lead to shifts in risk appetite, indirectly affecting Bitcoin's price."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n03109fd69b8f",
+      "title": "Bitcoin Edges Higher as Demand Remains Steady",
+      "url": "https://finance.yahoo.com/news/bitcoin-edges-higher-demand-remains-000100074.html",
+      "summary": "Bitcoin saw a modest increase, trading higher as demand remained steady. It rose to $7,432.9 on Bitfinex, holding above the $7,000 level. Some observers see this as a sign of potential further upside. The total market cap of cryptocurrencies slightly decreased. This indicates a period of consolidation with a slight bullish bias.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_price_steady",
+        "demand_steady",
+        "market_cap_slight_decrease"
+      ],
+      "rationale": "The steady demand and Bitcoin holding above a key psychological level suggest a short-term positive sentiment, potentially leading to minor price appreciation."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n4120d41d9596",
+      "title": "BCD Gets Listed on Cryptocurrency Exchange HITBTC Following Network Upgrades",
+      "url": "https://finance.yahoo.com/news/bcd-gets-listed-cryptocurrency-exchange-011800860.html",
+      "summary": "Bitcoin Diamond (BCD), a fork of Bitcoin, has been listed on the cryptocurrency exchange HitBTC. BCD aims to improve transaction speed and offers lower fees and a larger coin supply. This listing on a recognized exchange can increase accessibility and liquidity for BCD, potentially boosting its trading volume and price in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "listing",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BCD_listing_HitBTC",
+        "exchange_listing_impact"
+      ],
+      "rationale": "Exchange listings generally provide a short-term boost to a cryptocurrency's price due to increased visibility and trading opportunities, although the impact for BCD might be limited given its smaller market presence."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n11946e2cf40e",
+      "title": "Dollar, Stocks Fall after Trump Says He’s Not Thrilled with Fed Rate Hikes",
+      "url": "https://finance.yahoo.com/news/dollar-stocks-fall-trump-says-035409768.html",
+      "summary": "President Trump expressed dissatisfaction with the Federal Reserve's rate hikes, causing U.S. interest rates, the dollar, and stocks to fall. He voiced concerns about the timing and potential disadvantage to the U.S. economy. This statement introduces uncertainty into the macro environment, which can affect risk assets.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Trump_Fed_comments",
+        "rate_hike_uncertainty",
+        "USD_fall"
+      ],
+      "rationale": "Presidential comments on monetary policy can create short-term market volatility. A weaker dollar and falling stocks might lead some investors to seek alternative assets, but the overall uncertainty could also reduce risk appetite for speculative assets like Bitcoin."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ndc14156d73c4",
+      "title": "Bitcoin Cash, Litecoin and Ripple Daily Analysis – 20/07/18",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-litecoin-ripple-daily-055739073.html",
+      "summary": "Bitcoin Cash (BCH) saw a slight pullback on Thursday after a previous day's slide, ending the day at $822.4. It experienced range-bound trading, with an intraday low of $805.5 and a high of $845. BCH failed to reach key resistance levels, and the afternoon pullback suggests the extended bearish trend remains intact. At the time of writing, BCH was trading around $820.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BCH_price_action",
+        "bearish_trend_intact",
+        "resistance_failure"
+      ],
+      "rationale": "The continued bearish trend and failure to break resistance levels for Bitcoin Cash suggest ongoing selling pressure, which could influence other altcoins and Bitcoin's short-term price action."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n93fd9f09e49f",
+      "title": "Crypto Prices Mixed; Powell Says Digital Money Not likely to pose a Threat",
+      "url": "https://finance.yahoo.com/news/crypto-prices-mixed-powell-says-073200356.html",
+      "summary": "Cryptocurrency prices were mixed, with Bitcoin trading slightly below $7,500 after an earlier rally. Ethereum and XRP saw declines, while Litecoin also slipped. Federal Reserve Chairman Jerome Powell stated that cryptocurrencies are unlikely to pose a threat to financial stability. This comment from a major central bank official is generally seen as neutral to slightly positive for the crypto market, as it suggests a lack of immediate regulatory concern from the Fed.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Powell_crypto_comments",
+        "Fed_stance_on_crypto",
+        "mixed_crypto_prices"
+      ],
+      "rationale": "Fed Chair Powell's comments are a significant signal. While not directly bullish, his statement that crypto is not a threat implies a lack of immediate, aggressive regulatory action from the Fed, which can be interpreted as a positive for market sentiment."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n390b4b9a6b75",
+      "title": "China’s Small-Time Bitcoin Miners Exposed By Flooding In Sichuan Province",
+      "url": "https://finance.yahoo.com/news/china-small-time-bitcoin-miners-123010033.html",
+      "summary": "Flooding in China's Sichuan province has disrupted a significant concentration of small-scale Bitcoin miners. This event has led to a loss of a portion of the Bitcoin network's hash rate as mining equipment stored in makeshift farms was destroyed. China accounts for a substantial percentage of the global hash rate, making this disruption noteworthy for network security and mining difficulty.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "China_miner_disruption",
+        "Sichuan_flooding",
+        "hash_rate_loss"
+      ],
+      "rationale": "Disruptions to mining operations, especially in major mining hubs like China, can temporarily affect the Bitcoin network's hash rate and potentially mining difficulty. This could lead to minor price volatility in the short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "na9e2f0b295e5",
+      "title": "The 5 Nearest Funds to Bitcoin ETFs You Can Buy",
+      "url": "https://finance.yahoo.com/news/5-nearest-funds-bitcoin-etfs-133508031.html",
+      "summary": "The article discusses the ongoing efforts to launch a Bitcoin ETF in the U.S., noting that the SEC has not yet approved one. It mentions the Winklevoss brothers' continued pursuit and their patent for exchange-traded products linked to cryptocurrencies. The piece highlights that while a direct Bitcoin ETF is unavailable, investors can look at related funds. This indicates continued institutional interest in creating accessible crypto investment vehicles.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Bitcoin_ETF_pursuit",
+        "SEC_approval_status",
+        "institutional_interest"
+      ],
+      "rationale": "The persistent pursuit of a Bitcoin ETF by institutional players signals a growing demand for regulated crypto investment products. While approval is not imminent, this ongoing effort contributes to a positive long-term narrative and can create short-term speculative interest."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nbe74c8adc2d5",
+      "title": "$8K In Reach? 4 Barriers Await Emboldened Bitcoin Bulls",
+      "url": "https://finance.yahoo.com/news/8k-reach-4-barriers-await-170009771.html",
+      "summary": "Technical charts suggest Bitcoin could approach the $8,000 mark, but several barriers remain. The cryptocurrency has consolidated gains between $7,246 and $7,588 after a recent surge. The article notes that the 4-hour RSI reached its highest level since 2016, indicating potential overextension. The focus is on upcoming resistance levels and the possibility of a pullback.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_target_8K",
+        "technical_resistance",
+        "RSI_overbought"
+      ],
+      "rationale": "The analysis points to a potential short-term upside towards $8,000, but also highlights technical indicators suggesting overextension. This creates a mixed short-term outlook with potential for both upward movement and a subsequent correction."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n03109fd69b8f",
+      "title": "Bitcoin Edges Higher as Demand Remains Steady",
+      "url": "https://finance.yahoo.com/news/bitcoin-edges-higher-demand-remains-000100074.html",
+      "summary": "Bitcoin was modestly higher Thursday as traders continued to bet further upside beckoned for the crypto as inflows into the market held steady. Bitcoin rose 1.04% to $7,432.9 on the Bitfinex exchange, after trading as highs as $7,515.0. Bitcoin has held above $7,000 since its rally above this price level earlier in the week, which some crypto observers cited as a sign the popular crypto is eyeing a move higher. The total market cap of cryptocurrencies fell to about $287 billion, at the time of writing, from about $288 billion Wednesday. Bitcoin's foray higher comes a day after",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_price_steady",
+        "demand_steady",
+        "market_cap_slight_decrease"
+      ],
+      "rationale": "The steady demand and Bitcoin holding above a key psychological level suggest a short-term positive sentiment, potentially leading to minor price appreciation."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nbe74c8adc2d5",
+      "title": "$8K In Reach? 4 Barriers Await Emboldened Bitcoin Bulls",
+      "url": "https://finance.yahoo.com/news/8k-reach-4-barriers-await-170009771.html",
+      "summary": "$8,000? It's not out of the question. With no price pullback happening in the wake of Tuesday's sudden surge, theÂ technical charts indicate bitcoin could soon close in on this key psychological benchmark. First, an expectedpullbackwas not without merit (the charts were looking overextended on Tuesday when the 4-hour RSI reached its highest level since 2016), but since Wednesday, the world's largest cryptocurrency has largely consolidated gains in a narrow range between $7,246 and $7,588. Police Force Confiscates 295 Bitcoins from Criminal in UK First As the trading range tightens and the tech",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_target_8K",
+        "technical_resistance",
+        "RSI_overbought"
+      ],
+      "rationale": "The analysis points to a potential short-term upside towards $8,000, but also highlights technical indicators suggesting overextension. This creates a mixed short-term outlook with potential for both upward movement and a subsequent correction."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-07-20",
+    "summary": "Bitcoin is showing signs of steady demand and holding above $7,000, with some analysts suggesting a potential move towards $8,000, though technical indicators point to overextension. Macroeconomic news is mixed, with President Trump's comments on Fed rate hikes causing a dip in stocks and the dollar, introducing general market uncertainty. Meanwhile, the SEC's continued stance on Bitcoin ETFs and institutional interest in stablecoins like IBM's Stronghold USD offer longer-term bullish signals. However, regulatory actions like the DOJ's Bitcoin seizure and disruptions to mining operations in China present bearish headwinds.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Escalating US-China trade tensions could trigger broader market sell-offs.",
+      "Continued regulatory scrutiny and potential enforcement actions against exchanges or illicit activities.",
+      "Technical indicators suggesting Bitcoin may be overextended in the short term.",
+      "Disruptions to mining infrastructure (e.g., China floods) impacting network hash rate.",
+      "Uncertainty from presidential comments on monetary policy affecting overall risk sentiment."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $7,500 and $8,000 resistance levels.",
+      "Developments in US-China trade negotiations.",
+      "Statements from central banks regarding cryptocurrencies.",
+      "Any further exchange listings or delistings.",
+      "Updates on SEC Bitcoin ETF applications."
+    ]
+  }
+}

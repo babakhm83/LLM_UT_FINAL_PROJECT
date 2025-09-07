@@ -1,0 +1,497 @@
+{
+  "date": "2024-08-17",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "na7f9856c5fed",
+      "title": "Bitcoin surges to two-week high as Trump’s election odds improve",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-two-week-high-193234597.html",
+      "summary": "Bitcoin experienced a significant surge, reaching a two-week high, coinciding with improved odds for former President Trump's election. Analysts suggest this correlation stems from Trump's perceived pro-crypto stance, indicating that political developments can directly influence investor sentiment and drive price action in the cryptocurrency market. This suggests a potential for continued volatility and upward momentum tied to election cycles.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Trump_election_odds",
+        "political_sentiment",
+        "crypto_policy_outlook"
+      ],
+      "rationale": "The market's positive reaction to improved Trump election odds suggests that a potential future administration with a favorable stance on crypto could drive significant capital inflows. This political tailwind could sustain bullish sentiment for an extended period."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n373767522a7c",
+      "title": "Bitcoin Falls After U.S. Sends $240M Worth of Silk Road-Related BTC to Coinbase",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-u-s-sends-240m-174010636.html",
+      "summary": "The U.S. government moved approximately $240 million worth of seized Bitcoin, linked to Silk Road, to a Coinbase Prime address. This action ignited concerns among traders about potential selling pressure, leading to a price dip for Bitcoin. Such movements by government entities can create short-term uncertainty and downward pressure as the market anticipates potential sales, impacting liquidity and price discovery.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "government_asset_movement",
+        "Silk_Road_BTC",
+        "Coinbase_transfer"
+      ],
+      "rationale": "Large transfers of seized assets to exchanges often signal potential sell-offs, creating immediate downward pressure. The market remains sensitive to these events, which can disrupt liquidity and sentiment for several months."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n2dfb2dc233e2",
+      "title": "Cryptocurrency Price Movements Today: Bitcoin Drops Below $65,000 Amid U.S. Selling Fears",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-price-movements-today-bitcoin-193427064.html",
+      "summary": "Bitcoin experienced a sharp reversal, dropping below $65,000 after a significant move of 10,000 bitcoins tied to the U.S. government. This event highlights the market's sensitivity to large-scale movements of government-held crypto assets, which can trigger sell-offs and create fear, uncertainty, and doubt (FUD). The launch of the Grayscale Mini Bitcoin Trust ETF and inflows into BlackRock's iShares Bitcoin Trust were also noted, indicating mixed signals in the ETF market.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "ETF"
+      ],
+      "features_for_model": [
+        "US_government_BTC_selloff",
+        "ETF_inflows",
+        "price_reversal"
+      ],
+      "rationale": "The U.S. government's large BTC movements can create sustained selling pressure and negative sentiment, impacting prices for several months. While ETF inflows offer a counter-narrative, the immediate impact of government selling is a significant bearish factor."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n41a54ec829dd",
+      "title": "Stock market today: Mega-cap tech drives S&P 500 and Nasdaq to record highs",
+      "url": "https://finance.yahoo.com/news/stock-market-today-mega-cap-041132609.html",
+      "summary": "Mega-cap technology stocks propelled the S&P 500 and Nasdaq to record highs, indicating strong performance in the tech sector. This trend suggests a broader market sentiment that favors growth-oriented assets, which often correlates with increased investor appetite for riskier assets like Bitcoin. The strength in tech can be seen as a proxy for overall market liquidity and investor confidence, potentially benefiting Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "mega_cap_tech_strength",
+        "S&P_500_record",
+        "Nasdaq_record"
+      ],
+      "rationale": "A strong performance in mega-cap tech often signals robust market liquidity and investor confidence, which tends to spill over into other risk assets like Bitcoin. This trend can create a favorable macro environment for digital assets over the medium term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ned1324cff141",
+      "title": "China trade war fears wipe £260bn off world’s biggest companies",
+      "url": "https://finance.yahoo.com/news/china-trade-war-fears-wipe-170925497.html",
+      "summary": "Fears of a trade war between the U.S. and China have led to a significant decline in the value of major global companies, particularly in the technology sector. This geopolitical tension creates a risk-off environment, potentially leading investors to reduce exposure to speculative assets like Bitcoin. The impact on global markets could lead to reduced liquidity and a flight to safety, negatively affecting Bitcoin's price.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "US_China_trade_war",
+        "geopolitical_tension",
+        "tech_stock_plunge"
+      ],
+      "rationale": "Geopolitical tensions and trade wars typically lead to market uncertainty and a reduction in risk appetite. This can cause a significant outflow from speculative assets like Bitcoin, creating a sustained bearish trend."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n5f87af9387b2",
+      "title": "Bitcoin's Impending 'Death Cross' May Trap Bears as Bank of Japan Eases Rate Concerns",
+      "url": "https://finance.yahoo.com/news/bitcoins-impending-death-cross-may-054223494.html",
+      "summary": "Bitcoin's technical 'death cross' pattern, typically bearish, might act as a contrary indicator due to dovish signals from the Bank of Japan. Comments from BOJ's deputy governor downplaying rate hike concerns could lead to a risk-on sentiment, potentially benefiting Bitcoin. This suggests that macroeconomic policy shifts can override technical indicators, creating opportunities for bullish price action.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "death_cross_indicator",
+        "BOJ_policy",
+        "risk_on_sentiment"
+      ],
+      "rationale": "A dovish stance from a major central bank like the Bank of Japan can stimulate risk appetite globally. This could lead to a 'bear trap' scenario for the death cross, pushing Bitcoin higher as investors seek yield in riskier assets."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n2eaed58fa6bf",
+      "title": "CFTC Chair Reiterated to U.S. Senate that Bitcoin and Ethereum Are Commodities",
+      "url": "https://finance.yahoo.com/news/cftc-chair-reiterated-u-senate-063700028.html",
+      "summary": "The CFTC Chair reiterated to the U.S. Senate that Bitcoin and Ethereum should be classified as commodities, referencing a recent court ruling. This stance from a key regulatory body provides clarity on the legal classification of major cryptocurrencies, which is crucial for institutional adoption and market stability. Such regulatory clarity can foster a more predictable environment for investors.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "CFTC_commodity_classification",
+        "regulatory_clarity",
+        "Bitcoin_Ethereum_regulation"
+      ],
+      "rationale": "Clear regulatory classification as commodities by a major agency like the CFTC is a significant long-term positive. It reduces uncertainty for institutional investors and paves the way for more robust financial products and broader adoption."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nefc74be8a533",
+      "title": "Despite Recent Dip, Bitcoin Will Reach $200,000 Next Year, New Report Says (UPDATED)",
+      "url": "https://finance.yahoo.com/news/despite-recent-dip-bitcoin-reach-143017468.html",
+      "summary": "Bernstein Research analysts project Bitcoin could reach $200,000 by 2025, driven by unprecedented demand following the launch of Bitcoin ETFs. This forecast, shared by other experts, highlights the significant institutional interest and potential for substantial price appreciation. The ETF inflows are seen as a catalyst for sustained demand, pushing Bitcoin towards new all-time highs.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bernstein_prediction",
+        "ETF_demand",
+        "BTC_price_target_200k"
+      ],
+      "rationale": "High-profile analyst reports projecting significant price targets, especially when tied to strong demand drivers like ETFs, can influence market sentiment and attract further investment, creating a self-fulfilling prophecy."
+    },
+    {
+      "pick_idx": 32,
+      "id": "na32080ad074a",
+      "title": "Cryptocurrencies Advance as Trump Vows to Make US 'Bitcoin Superpower'",
+      "url": "https://finance.yahoo.com/news/cryptocurrencies-advance-trump-vows-us-114722784.html",
+      "summary": "Cryptocurrencies saw an advance following Donald Trump's pledge to make the U.S. a 'Bitcoin Superpower.' This statement signals a potentially favorable regulatory and policy environment for digital assets under a future Trump administration. Such political endorsements can significantly boost investor confidence and drive adoption, creating a positive outlook for the crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Trump_Bitcoin_Superpower",
+        "political_endorsement",
+        "crypto_policy_stance"
+      ],
+      "rationale": "Direct political promises to foster a 'Bitcoin Superpower' status can attract significant capital and talent to the U.S. crypto ecosystem, creating a long-term bullish trend."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n9031f535883e",
+      "title": "Cryptoverse: Trump's bitcoin stockpile plan stirs debate",
+      "url": "https://finance.yahoo.com/news/cryptoverse-trumps-bitcoin-stockpile-plan-051248627.html",
+      "summary": "Donald Trump's proposal to create a state Bitcoin reserve and his 'never sell your bitcoin' message at a crypto convention are generating significant debate. These overtures aim to court crypto voters and signal a potentially pro-Bitcoin policy direction. The idea of a national Bitcoin reserve could influence market dynamics and institutional adoption, creating a unique bullish catalyst.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Trump_BTC_reserve",
+        "political_promises",
+        "crypto_voter_appeal"
+      ],
+      "rationale": "A national Bitcoin reserve, if implemented, would represent a significant government adoption of Bitcoin, potentially driving demand and legitimizing the asset class. This could have a lasting positive impact on its price."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n72aee8dcc589",
+      "title": "S&P 500 caps off its best week of the year after strong economic data",
+      "url": "https://finance.yahoo.com/news/p-500-caps-off-best-040910040.html",
+      "summary": "The S&P 500 concluded its best week of the year, buoyed by positive economic data, including rising consumer sentiment and cooler inflation. This suggests a strengthening economic outlook and a potential 'soft landing' scenario. Such positive macroeconomic indicators often correlate with increased risk appetite, which can benefit Bitcoin in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "S&P_500_rally",
+        "consumer_sentiment_up",
+        "soft_landing_data"
+      ],
+      "rationale": "Strong economic data and a rally in the S&P 500 typically indicate a positive risk-on sentiment, which can lead to increased inflows into riskier assets like Bitcoin within the next few days."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n6c9ba5c53f90",
+      "title": "Should You Buy Ripple (XRP) While It's Less Than $0.60?",
+      "url": "https://finance.yahoo.com/news/buy-ripple-xrp-while-less-111100840.html",
+      "summary": "Ripple (XRP) secured a legal victory, though its price action has largely mirrored Bitcoin's recent movements. The article suggests that despite the legal win, XRP's price is still heavily influenced by broader market trends. This indicates that while specific news can provide short-term boosts, the overall market sentiment and Bitcoin's performance remain key drivers for most cryptocurrencies.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "XRP_legal_win",
+        "BTC_correlation",
+        "market_sentiment"
+      ],
+      "rationale": "While XRP's legal win is positive, its price mirroring Bitcoin suggests that short-term movements will likely follow BTC's trend, making its direction uncertain without a clear BTC signal."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n0ad153e5648d",
+      "title": "Is Bitcoin a Millionaire Maker?",
+      "url": "https://finance.yahoo.com/news/bitcoin-millionaire-maker-121700213.html",
+      "summary": "The article discusses Bitcoin's historical ability to create millionaires and questions whether this potential still exists for new investors. It highlights that Bitcoin has made many millionaires and continues to be a significant wealth-generating asset. This sentiment, focusing on Bitcoin's long-term potential and past performance, can encourage new investment and support price levels.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_millionaire_maker",
+        "long_term_potential",
+        "investor_sentiment"
+      ],
+      "rationale": "Articles reinforcing Bitcoin's wealth-creation narrative can attract new retail investors, providing a steady stream of demand that supports prices in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ne357bcce8f0b",
+      "title": "BTC Digital Second Quarter 2024 Earnings: US$0.27 loss per share (vs US$0.10 loss in 2Q 2023)",
+      "url": "https://finance.yahoo.com/news/btc-digital-second-quarter-2024-132058947.html",
+      "summary": "BTC Digital reported a significant increase in net loss and loss per share for Q2 2024, with revenue down 64% year-over-year. While future revenue is projected to grow, the current financial performance indicates operational challenges. This negative earnings report could put downward pressure on the company's stock and potentially impact sentiment for smaller crypto-related companies.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "BTC_Digital_earnings_loss",
+        "revenue_decline",
+        "miner_performance"
+      ],
+      "rationale": "Poor earnings reports from publicly traded crypto companies can create negative sentiment and lead to sell-offs in their stock, potentially spilling over to broader crypto market sentiment in the very short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n7ab87c130369",
+      "title": "1 Top Cryptocurrency to Buy Before It Soars 1,600%, According to Chamath Palihapitiya",
+      "url": "https://finance.yahoo.com/news/1-top-cryptocurrency-buy-soars-135100637.html",
+      "summary": "Chamath Palihapitiya, a prominent venture capitalist, predicts Bitcoin could reach $500,000 by late 2025, implying a substantial rally. This optimistic outlook from a well-known investor can influence retail sentiment and encourage buying activity. Such high price targets, especially when reiterated, can create short-term buying pressure as traders anticipate the predicted move.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Palihapitiya_BTC_prediction",
+        "high_price_target",
+        "investor_sentiment"
+      ],
+      "rationale": "High-profile investor predictions of significant price increases can generate short-term buying interest and positive sentiment, potentially driving prices up in the immediate days following the news."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n1ab80b7db426",
+      "title": "Think It's Too Late to Buy MicroStrategy? Here's the Biggest Reason Why There's Still Time.",
+      "url": "https://finance.yahoo.com/news/think-too-buy-microstrategy-heres-173100587.html",
+      "summary": "MicroStrategy's stock has seen significant gains, closely correlating with Bitcoin's price movements. The company's substantial Bitcoin holdings (226,500 BTC) make its stock a proxy for Bitcoin investment. This article suggests there's still time to invest in MicroStrategy, implying continued positive sentiment and potential for further gains, which can indirectly support Bitcoin's price.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional"
+      ],
+      "features_for_model": [
+        "MicroStrategy_stock",
+        "MSTR_BTC_correlation",
+        "buy_the_dip_sentiment"
+      ],
+      "rationale": "Positive sentiment around MicroStrategy, a major Bitcoin holder, can translate into short-term buying pressure for Bitcoin as investors see MSTR as a leveraged bet on BTC."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n0ad153e5648d",
+      "title": "Is Bitcoin a Millionaire Maker?",
+      "url": "https://finance.yahoo.com/news/bitcoin-millionaire-maker-121700213.html",
+      "summary": "The article discusses Bitcoin's historical ability to create millionaires and questions whether this potential still exists for new investors. It highlights that Bitcoin has made many millionaires and continues to be a significant wealth-generating asset. This sentiment, focusing on Bitcoin's long-term potential and past performance, can encourage new investment and support price levels.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_millionaire_maker",
+        "long_term_potential",
+        "investor_sentiment"
+      ],
+      "rationale": "Articles reinforcing Bitcoin's wealth-creation narrative can attract new retail investors, providing a steady stream of demand that supports prices in the short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne357bcce8f0b",
+      "title": "BTC Digital Second Quarter 2024 Earnings: US$0.27 loss per share (vs US$0.10 loss in 2Q 2023)",
+      "url": "https://finance.yahoo.com/news/btc-digital-second-quarter-2024-132058947.html",
+      "summary": "BTC Digital reported a significant increase in net loss and loss per share for Q2 2024, with revenue down 64% year-over-year. While future revenue is projected to grow, the current financial performance indicates operational challenges. This negative earnings report could put downward pressure on the company's stock and potentially impact sentiment for smaller crypto-related companies.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "BTC_Digital_earnings_loss",
+        "revenue_decline",
+        "miner_performance"
+      ],
+      "rationale": "Poor earnings reports from publicly traded crypto companies can create negative sentiment and lead to sell-offs in their stock, potentially spilling over to broader crypto market sentiment in the very short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n0f6f7aa581d4",
+      "title": "Bitcoin Nosedives Under $58K Amid Mt. Gox, German Government Wallet Movements",
+      "url": "https://finance.yahoo.com/news/bitcoin-nosedives-under-58k-amid-103400655.html",
+      "summary": "Bitcoin dropped below $58,000 due to activity in Mt. Gox wallets and movements from a German government entity. These events signal potential selling pressure and increased market uncertainty. The combination of dormant wallet activity and government asset transfers can create significant short-term volatility and downward price pressure.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Mt_Gox_activity",
+        "German_govt_BTC_transfer",
+        "price_nosedive"
+      ],
+      "rationale": "The simultaneous occurrence of Mt. Gox wallet activity and German government asset movements creates a strong bearish signal, indicating potential selling pressure that could drive prices down in the immediate short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n498cf2d58a5c1",
+      "title": "German Government Begins Massive Bitcoin Sell-Off, Sparking Market Jitters",
+      "url": "https://finance.yahoo.com/news/german-government-begins-massive-bitcoin-051312544.html",
+      "summary": "The German government has started selling a significant portion of its seized Bitcoin, moving over $195 million in the past 24 hours. This action, part of a larger trend of government asset sales, is causing market jitters and potential selling pressure. The continued movement of these large sums to exchanges suggests an ongoing risk of increased supply hitting the market.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "German_govt_BTC_selloff",
+        "seized_asset_liquidation",
+        "market_jitters"
+      ],
+      "rationale": "Ongoing large-scale sales by the German government can create sustained selling pressure and negative sentiment, impacting Bitcoin's price over the next several days."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-08-17",
+    "summary": "The market sentiment is cautiously optimistic, driven by strong economic data and positive political developments. While concerns about government asset sales and company-specific earnings create some headwinds, the overall trend suggests a potential for continued upward momentum. The correlation between traditional markets and Bitcoin remains a key factor, with tech sector strength providing a bullish backdrop. Political rhetoric favoring Bitcoin adoption is also a significant positive driver.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued selling pressure from government entities.",
+      "Negative earnings reports from crypto-related companies impacting sentiment.",
+      "Geopolitical tensions potentially leading to a risk-off environment.",
+      "Regulatory uncertainty in other jurisdictions.",
+      "Potential for large whale movements to trigger sharp price drops."
+    ],
+    "watch_items": [
+      "US economic data releases (inflation, employment).",
+      "Statements from major central banks (Fed, ECB, BoJ).",
+      "Political developments related to the US election.",
+      "Flows into and out of Bitcoin ETFs.",
+      "Activity in Mt. Gox wallets.",
+      "Major tech company earnings reports."
+    ]
+  }
+}

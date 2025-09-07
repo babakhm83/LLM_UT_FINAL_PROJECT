@@ -1,0 +1,462 @@
+{
+  "date": "2020-07-18",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nbcaab2604904",
+      "title": "Digital asset manager Grayscale reports record inflows in second quarter of 2020",
+      "url": "https://finance.yahoo.com/news/digital-asset-manager-grayscale-reports-212739058.html",
+      "summary": "Grayscale reported record inflows of $905.8 million in Q2 2020, nearly doubling its Q1 2020 total. This surge brings their total investments in the first half of 2020 to $1.4 billion. Grayscale offers indirect exposure to digital assets like bitcoin through its products. The substantial increase in inflows indicates growing institutional interest and confidence in digital assets as an investment class.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Grayscale_inflows",
+        "institutional_adoption",
+        "Q2_2020_performance"
+      ],
+      "rationale": "Record inflows into Grayscale products signal strong institutional demand for Bitcoin exposure. This trend, sustained over time, suggests a growing acceptance of Bitcoin as a legitimate asset class, which is a significant long-term bullish indicator."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n09586fba025e",
+      "title": "Inactive Bitcoin Supply Reaches 4-Year High, Pointing to Bullish Sentiment",
+      "url": "https://finance.yahoo.com/news/inactive-bitcoin-supply-reaches-4-182250804.html",
+      "summary": "The amount of Bitcoin that has remained inactive for extended periods has reached a four-year high. This metric is often interpreted as a sign of strong holding sentiment among long-term investors, suggesting they are less inclined to sell. A larger inactive supply implies reduced selling pressure and potentially more conviction in Bitcoin's future price appreciation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "inactive_bitcoin_supply",
+        "hodler_sentiment",
+        "long_term_holding"
+      ],
+      "rationale": "An increasing inactive supply suggests that more Bitcoin holders are committed to long-term storage, reducing the available supply for sale. This can lead to upward price pressure as demand outstrips available supply over time."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n8f91711f75f9",
+      "title": "Blockstream unveils Liquid Ventures Initiative, discloses $5 million in commitments",
+      "url": "https://finance.yahoo.com/news/blockstream-unveils-liquid-ventures-initiative-201425432.html",
+      "summary": "Blockstream launched the Liquid Ventures Initiative to connect promising Liquid Network projects with Bitcoin-focused investors. The initiative has secured $5 million in commitments from 15 venture capital firms and angel investors. This development aims to foster growth and innovation within the Bitcoin ecosystem, particularly for its sidechain solutions.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Blockstream_Liquid",
+        "venture_funding",
+        "bitcoin_ecosystem_growth"
+      ],
+      "rationale": "Investment in Bitcoin's sidechain infrastructure like the Liquid Network can enhance its scalability and utility. Increased development and adoption of such technologies could lead to broader use cases and a more robust Bitcoin ecosystem."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf77791d2e926",
+      "title": "Think Tank Releases Report on the Future of Decentralised Finance",
+      "url": "https://finance.yahoo.com/news/think-tank-releases-report-future-000000216.html",
+      "summary": "A think tank, dGen, released a report analyzing Decentralised Finance (DeFi), covering use cases and risks for mass adoption. The report includes insights from leaders in major DeFi projects like Aave and Synthetix, discussing the next 5-10 years of DeFi evolution, with a focus on Europe. This indicates growing interest and analysis of DeFi's potential impact.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "DeFi_report",
+        "mass_adoption_DeFi",
+        "DeFi_future_outlook"
+      ],
+      "rationale": "The increasing focus on DeFi, as evidenced by this report, suggests a maturing crypto market with potential for significant growth beyond Bitcoin. As DeFi applications become more sophisticated and accessible, they could drive broader crypto adoption and demand."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ne061c52723e1",
+      "title": "Blockchain Bites: PayPal’s Push, FATF’s Rules and ‘Overstated’ Libra Fears",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-paypal-push-fatf-163035246.html",
+      "summary": "Reports suggest that PayPal and Venmo may introduce crypto functionality, potentially allowing their 325 million users to buy and sell crypto. This move, if realized, could represent the largest crypto on-ramp ever. The potential integration highlights a significant shift towards mainstream financial platforms embracing digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "PayPal_crypto_integration",
+        "Venmo_crypto",
+        "crypto_onramp"
+      ],
+      "rationale": "The potential integration of cryptocurrency services into PayPal and Venmo would provide a massive on-ramp for retail users. This mainstream adoption by a major financial player could significantly boost Bitcoin's user base and market liquidity."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nf89250a95ffd",
+      "title": "Bitcoin Rises in Line With Stocks After Dip Below $9K",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-line-stocks-dip-110525239.html",
+      "summary": "Bitcoin showed a positive correlation with stocks, rising alongside global equities after a dip below $9,000. The cryptocurrency traded at $9,190, up 1.4%, mirroring gains in European and U.S. stock markets. This correlation suggests Bitcoin is increasingly being influenced by broader macroeconomic trends and investor sentiment in traditional markets.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_stock_correlation",
+        "macro_sentiment",
+        "risk_on_asset"
+      ],
+      "rationale": "Bitcoin's increasing correlation with traditional stock markets, particularly during periods of broad market rallies, suggests it's being treated more as a risk-on asset. This integration into broader market movements can lead to more predictable price action driven by macro factors."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nb61eb69fc114",
+      "title": "Novogratz: Galaxy Digital Will ‘Suck’ if Bitcoin Fails to Become an Institutional Asset",
+      "url": "https://finance.yahoo.com/news/novogratz-galaxy-digital-suck-bitcoin-162102658.html",
+      "summary": "Mike Novogratz, founder of Galaxy Digital, emphasized the critical need for Bitcoin to become an institutional asset for the company's success. He highlighted plans for an educational course for financial advisers to promote institutional adoption. Novogratz views financial advisers as the next major group to adopt Bitcoin as a store of value, akin to 'digital gold'.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Novogratz_outlook",
+        "institutional_bitcoin",
+        "financial_adviser_adoption"
+      ],
+      "rationale": "The explicit focus by prominent figures like Novogratz on institutional adoption underscores a key driver for Bitcoin's long-term growth. Success in attracting financial advisers and institutions would validate Bitcoin as a legitimate asset, leading to increased demand and price appreciation."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n997e089996c1",
+      "title": "Slipping Chinese Yuan May Boost Bitcoin Price, Past Data Suggests",
+      "url": "https://finance.yahoo.com/news/slipping-yuan-may-good-bitcoin-101908679.html",
+      "summary": "Analysts suggest that a weakening Chinese Yuan could positively impact Bitcoin's price, citing historical data. The yuan had fallen to an eight-month low against the U.S. dollar, potentially due to concerns about the U.S. economy. This suggests a potential safe-haven or alternative asset appeal for Bitcoin in the face of geopolitical or economic instability in major economies.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "CNY_weakness",
+        "bitcoin_as_hedge",
+        "geopolitical_risk"
+      ],
+      "rationale": "A weakening Yuan can drive capital flight from China into alternative assets like Bitcoin, especially if it's perceived as a hedge against economic instability. This dynamic can create demand for Bitcoin from a significant global economic player."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nc90b22d19d1e",
+      "title": "A Key Thesis for Bitcoin’s Long-Term Bull Market Just Got a Knock",
+      "url": "https://finance.yahoo.com/news/key-thesis-bitcoin-long-term-124753035.html",
+      "summary": "A popular theory posited that massive stimulus programs would lead to economic hyperinflation, driving Bitcoin's price as a hedge. However, recent Federal Reserve data suggests inflation may remain absent, with a rising probability of deflation. This challenges the 'digital gold' narrative for some investors, potentially dampening a key bullish argument.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "stimulus_impact",
+        "inflation_hedge_thesis",
+        "deflation_risk"
+      ],
+      "rationale": "The debate around inflation vs. deflation impacts Bitcoin's narrative as a hedge. If deflationary pressures dominate, the 'digital gold' argument might weaken, potentially affecting long-term investor sentiment, though other adoption drivers remain."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n7f19419b984f",
+      "title": "Wilshire Phoenix files a registration statement for publicly traded bitcoin fund",
+      "url": "https://finance.yahoo.com/news/wilshire-phoenix-files-registration-statement-155858965.html",
+      "summary": "Wilshire Phoenix has filed an S-1 registration statement with the SEC for a publicly traded Bitcoin Commodity Trust, targeting OTC investors. This follows a previous rejection of their Bitcoin ETP proposal. The move indicates continued efforts by traditional financial firms to create regulated investment vehicles for Bitcoin, aiming to attract a wider investor base.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Wilshire_Phoenix_fund",
+        "SEC_filing",
+        "OTC_bitcoin_product"
+      ],
+      "rationale": "The filing of a registration statement for a publicly traded Bitcoin fund signals ongoing efforts to create regulated investment products. Such products can lower barriers to entry for institutional and retail investors, potentially increasing demand for Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n7327866fa7ae",
+      "title": "The Crypto Daily – Movers and Shakers – July 18th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-013150335.html",
+      "summary": "Bitcoin (BTC/USD) rose by 0.19% on Friday, partially reversing Thursday's fall to close at $9,167.3. Despite a bearish start, it recovered to a mid-day high of $9,194.0 before easing back. The near-term bullish trend remains intact despite intraday volatility.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_price_action_July17",
+        "daily_movers"
+      ],
+      "rationale": "The price action on July 17th showed minor gains but significant intraday volatility, indicating a lack of strong conviction. The near-term bullish trend is holding, but without clear catalysts, it suggests consolidation."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n581cc411bcff",
+      "title": "Twitter confirms 'Bitcoin' hackers copied the data of several accounts",
+      "url": "https://www.engadget.com/twitter-wednesday-bitcoin-hack-your-data-export-041410194.html",
+      "summary": "Following the 'Bitcoin scam' hack on Wednesday, Twitter confirmed that attackers used internal tools to access and potentially copy data from several accounts. While the scam tweets sought Bitcoin, the non-public information (like direct messages and address books) from compromised accounts could be more valuable.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Twitter_hack_data_copy",
+        "user_data_breach",
+        "security_incident"
+      ],
+      "rationale": "The confirmation that user data was copied from Twitter accounts, beyond the scam tweets, introduces uncertainty. This could lead to follow-on phishing attempts or identity theft, potentially impacting user trust and indirectly affecting market sentiment or liquidity."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nedfccbfc4dc8",
+      "title": "Twitter Says Several Employees Were Manipulated By Hackers",
+      "url": "https://www.bloomberg.com/news/articles/2020-07-17/twitter-says-employees-manipulated-by-hackers-into-giving-credentials",
+      "summary": "Twitter stated that hackers manipulated employees into providing credentials for internal systems, leading to the compromise of 130 accounts, including those of prominent figures. While data was downloaded from eight unverified accounts, verified accounts were not affected in this manner. The investigation into the full extent of the breach is ongoing.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "hack/outage",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Twitter_employee_manipulation",
+        "internal_credential_theft",
+        "account_compromise_details"
+      ],
+      "rationale": "The revelation that employees were manipulated adds a layer of sophistication to the Twitter hack. This could lead to increased regulatory scrutiny and potential fines for Twitter, creating a negative sentiment overhang for the broader tech sector and indirectly impacting crypto sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n00d46ab1eb1b",
+      "title": "High-profile politicians and celebrities targeted in the cyber attack",
+      "url": "https://uk.finance.yahoo.com/news/twitter-hack-130-accounts-targeted-092130574.html",
+      "summary": "Twitter reported that 130 accounts were targeted in the cyber attack, with 45 successfully compromised and data accessed/downloaded from eight unverified users. The investigation is ongoing, and the company has not provided further details on the accessed information. The hack notably affected high-profile political figures.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "hack/outage",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Twitter_hack_scope",
+        "political_accounts_targeted",
+        "data_access_details"
+      ],
+      "rationale": "The targeting of high-profile political accounts, in addition to celebrities, amplifies the severity of the Twitter hack. This could lead to increased calls for platform regulation and security enhancements, potentially creating a cautious market environment."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nb6ae5fec5ad1",
+      "title": "Novel Charts Dark Side of ICO Mania",
+      "url": "https://www.coindesk.com/novel-charts-dark-side-ico-123000311.html",
+      "summary": "This article reflects on the ICO boom of 2017-2018, highlighting its role in crypto's near-mass adoption but also its 'dark side.' It notes that around 1,000 projects raised over $22 billion. The piece frames this period as a learning experience for the market.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ICO_mania_reflection",
+        "past_scams",
+        "market_learning"
+      ],
+      "rationale": "While a retrospective piece, it serves as a reminder of past market excesses and the risks associated with unregulated fundraising. This context might temper enthusiasm for new speculative ventures, but the lessons learned could inform future regulatory approaches."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n54f1960e300d",
+      "title": "Social Media Is Democracy’s Faultline: The Breakdown Weekly Recap",
+      "url": "https://www.coindesk.com/social-media-democracy-faultline-breakdown-140000261.html",
+      "summary": "This recap discusses six themes shaping the week, including PayPal crypto confirmation, central bank digital currency action, and a China-U.S. relationship. It also mentions 'no-volatility bitcoin' and DeFi's big quarter, suggesting a mixed but active market environment.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "weekly_recap_themes",
+        "PayPal_crypto_news",
+        "CBDC_developments"
+      ],
+      "rationale": "The mention of 'no-volatility bitcoin' is a curious observation that might indicate a temporary lull or consolidation. The broader themes of PayPal and CBDCs suggest ongoing integration and development, which are generally positive but could also introduce regulatory uncertainty."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n581cc411bcff",
+      "title": "Twitter confirms 'Bitcoin' hackers copied the data of several accounts",
+      "url": "https://www.engadget.com/twitter-wednesday-bitcoin-hack-your-data-export-041410194.html",
+      "summary": "Following the 'Bitcoin scam' hack on Wednesday, Twitter confirmed that attackers used internal tools to access and potentially copy data from several accounts. While the scam tweets sought Bitcoin, the non-public information (like direct messages and address books) from compromised accounts could be more valuable.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Twitter_hack_data_copy",
+        "user_data_breach",
+        "security_incident"
+      ],
+      "rationale": "The confirmation that user data was copied from Twitter accounts, beyond the scam tweets, introduces uncertainty. This could lead to follow-on phishing attempts or identity theft, potentially impacting user trust and indirectly affecting market sentiment or liquidity."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n7327866fa7ae",
+      "title": "The Crypto Daily – Movers and Shakers – July 18th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-013150335.html",
+      "summary": "Bitcoin (BTC/USD) rose by 0.19% on Friday, partially reversing Thursday's fall to close at $9,167.3. Despite a bearish start, it recovered to a mid-day high of $9,194.0 before easing back. The near-term bullish trend remains intact despite intraday volatility.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_price_action_July17",
+        "daily_movers"
+      ],
+      "rationale": "The price action on July 17th showed minor gains but significant intraday volatility, indicating a lack of strong conviction. The near-term bullish trend is holding, but without clear catalysts, it suggests consolidation."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n581cc411bcff",
+      "title": "Twitter confirms 'Bitcoin' hackers copied the data of several accounts",
+      "url": "https://www.engadget.com/twitter-wednesday-bitcoin-hack-your-data-export-041410194.html",
+      "summary": "Following the 'Bitcoin scam' hack on Wednesday, Twitter confirmed that attackers used internal tools to access and potentially copy data from several accounts. While the scam tweets sought Bitcoin, the non-public information (like direct messages and address books) from compromised accounts could be more valuable.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Twitter_hack_data_copy",
+        "user_data_breach",
+        "security_incident"
+      ],
+      "rationale": "The confirmation that user data was copied from Twitter accounts, beyond the scam tweets, introduces uncertainty. This could lead to follow-on phishing attempts or identity theft, potentially impacting user trust and indirectly affecting market sentiment or liquidity."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nedfccbfc4dc8",
+      "title": "Twitter Says Several Employees Were Manipulated By Hackers",
+      "url": "https://www.bloomberg.com/news/articles/2020-07-17/twitter-says-employees-manipulated-by-hackers-into-giving-credentials",
+      "summary": "Twitter stated that hackers manipulated employees into providing credentials for internal systems, leading to the compromise of 130 accounts, including those of prominent figures. While data was downloaded from eight unverified accounts, verified accounts were not affected in this manner. The investigation into the full extent of the breach is ongoing.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "hack/outage",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Twitter_employee_manipulation",
+        "internal_credential_theft",
+        "account_compromise_details"
+      ],
+      "rationale": "The revelation that employees were manipulated adds a layer of sophistication to the Twitter hack. This could lead to increased regulatory scrutiny and potential fines for Twitter, creating a negative sentiment overhang for the broader tech sector and indirectly impacting crypto sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-07-18",
+    "summary": "The market sentiment remains cautiously optimistic, with Bitcoin holding steady around $9,100-$9,200. Long-term, institutional adoption signals like Grayscale's record inflows and potential PayPal integration continue to be strong bullish indicators. However, the significant Twitter hack introduces short-term uncertainty regarding data security and potential regulatory fallout, which could temporarily dampen sentiment. The correlation with traditional markets also suggests broader economic factors will continue to influence Bitcoin's price.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.4,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Further fallout from the Twitter hack, including regulatory action or increased security concerns.",
+      "A significant downturn in traditional stock markets could drag Bitcoin lower due to its increasing correlation.",
+      "Uncertainty surrounding the macroeconomic outlook (inflation vs. deflation) could impact Bitcoin's 'digital gold' narrative.",
+      "Potential for increased regulatory scrutiny on social media platforms and their role in facilitating crypto scams."
+    ],
+    "watch_items": [
+      "Twitter's ongoing investigation and any further statements on the hack.",
+      "Developments regarding PayPal's potential crypto integration.",
+      "Macroeconomic data releases impacting global equity markets.",
+      "Any new filings or approvals for Bitcoin-related investment products."
+    ]
+  }
+}

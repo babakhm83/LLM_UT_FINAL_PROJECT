@@ -1,0 +1,611 @@
+{
+  "date": "2023-12-05",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "n8f88f75cb30f",
+      "title": "U.S. SEC has 8-10 filings of possible bitcoin ETF products",
+      "url": "https://finance.yahoo.com/news/sec-8-10-filings-possible-145617714.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) is considering eight to ten filings for potential bitcoin exchange-traded products. This news fuels speculation that a spot bitcoin ETF approval is imminent, which could significantly drive demand by allowing direct crypto exposure through an exchange-listed product. Currently, the SEC has only approved ETFs tied to bitcoin futures contracts.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_filings",
+        "ETF_approval_speculation",
+        "institutional_adoption"
+      ],
+      "rationale": "The potential approval of a spot Bitcoin ETF is a major catalyst for institutional adoption, which could significantly increase demand and price for Bitcoin. The large number of filings indicates strong interest from traditional financial players."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n9dbfe864751c",
+      "title": "Last Week in Crypto: Shorts Got Rekt, BTCD Hits 30-Month High",
+      "url": "https://finance.yahoo.com/news/last-week-crypto-shorts-got-125204236.html",
+      "summary": "Bitcoin surged past $34,000 for the first time since May of the previous year, driven by renewed optimism for a spot ETF approval. This surge led to significant liquidations of short positions, indicating a strong bullish sentiment in the market. The article also touches upon the ongoing FTX situation and potential relaunch.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "short_liquidation",
+        "ETF_hopium",
+        "price_surge"
+      ],
+      "rationale": "The liquidation of short positions indicates strong buying pressure and a potential shift in market sentiment. The price action, driven by ETF speculation, suggests a positive outlook for Bitcoin in the medium term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nbf131b74164d",
+      "title": "Nearly $400M in Crypto Liquidated as Bitcoin Surges",
+      "url": "https://finance.yahoo.com/news/nearly-400m-crypto-liquidated-bitcoin-080204141.html",
+      "summary": "A significant price surge in Bitcoin and other cryptocurrencies resulted in nearly $400 million in liquidations for leveraged traders, with most of the liquidated positions being shorts. This indicates that the market's upward momentum caught many traders off guard.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "leveraged_liquidation",
+        "short_squeeze",
+        "BTC_surge"
+      ],
+      "rationale": "The large-scale liquidation of short positions confirms strong bullish momentum and a potential short squeeze, which can further propel prices upward. This signals a healthy market correction and re-leveraging."
+    },
+    {
+      "pick_idx": 20,
+      "id": "ndbb14527ebb2",
+      "title": "Bitcoin Accumulation Increases as Supply Reaches Historic Low, Supporting Price Stability: Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-accumulation-increases-supply-reaches-052913703.html",
+      "summary": "Bitcoin's available supply has hit a historical low, indicating a strong accumulation trend. Long-term holders are increasing, and smaller entities are actively buying available BTC, accounting for a significant portion of newly produced Bitcoin. This tightening supply is contributing to increased bullish sentiment.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_accumulation",
+        "supply_shock",
+        "illiquid_supply",
+        "long_term_holders"
+      ],
+      "rationale": "A decreasing supply coupled with increasing accumulation by long-term holders is a fundamental driver for price appreciation. This trend suggests robust demand and a potential for sustained price stability or growth."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n42da66e3e945",
+      "title": "What Would a Spot Bitcoin ETF Approval Mean for Investors?",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-etf-approval-mean-192033829.html",
+      "summary": "Bitcoin's year-to-date performance has been strong, with a significant rally driven by BlackRock's application for a spot Bitcoin ETF. The approval of such a product by the SEC is seen as a major catalyst for increased institutional investment and broader market adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.88,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "spot_ETF_approval",
+        "institutional_investment",
+        "BlackRock_filing",
+        "YTD_performance"
+      ],
+      "rationale": "The potential approval of a spot Bitcoin ETF by the SEC, especially with a major player like BlackRock involved, represents a significant gateway for institutional capital. This could lead to substantial inflows and a re-rating of Bitcoin's market value."
+    },
+    {
+      "pick_idx": 41,
+      "id": "nc3fbe2ab59fb",
+      "title": "Arthur Hayes Says BTC Is Rallying Over US Military Spending, Not ETF Hype",
+      "url": "https://finance.yahoo.com/news/arthur-hayes-says-btc-rallying-053200213.html",
+      "summary": "Arthur Hayes attributes the crypto market rally to increased US military spending and its impact on government borrowing, rather than solely to spot Bitcoin ETF anticipation. He argues that escalating geopolitical tensions and associated military budgets will lead to increased government debt, potentially driving demand for inflation hedges like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "geopolitics",
+        "military_spending",
+        "inflation_hedge",
+        "government_debt"
+      ],
+      "rationale": "While not directly tied to ETF hype, Hayes' macro argument about increased government spending and its potential inflationary impact provides a fundamental bullish case for Bitcoin as a store of value and inflation hedge."
+    },
+    {
+      "pick_idx": 42,
+      "id": "ndaa4924fedb8",
+      "title": "Bitcoin Might Get Ethereum-Style Smart Contracts Under ‘BitVM’ Plan",
+      "url": "https://finance.yahoo.com/news/bitcoin-might-ethereum-style-smart-150829198.html",
+      "summary": "A new research paper outlines 'BitVM,' a plan to bring Ethereum-style smart contract capabilities to the Bitcoin network without increasing complexity for users. This could enable more sophisticated on-chain computations and applications, enhancing Bitcoin's utility.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BitVM",
+        "smart_contracts",
+        "Turing_completeness",
+        "protocol_upgrade"
+      ],
+      "rationale": "The introduction of advanced smart contract functionality to Bitcoin via BitVM could significantly expand its use cases beyond simple value transfer, potentially driving developer activity and network adoption."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n978690d3a4a1",
+      "title": "Coinbase stock surges 18% in a week as CEO Brian Armstrong says Binance settlement closes ‘that chapter of crypto’s history’",
+      "url": "https://finance.yahoo.com/news/coinbase-stock-surges-18-week-153621103.html",
+      "summary": "Coinbase's stock has seen a significant surge following the Binance settlement. CEO Brian Armstrong views this as closing a difficult chapter for the crypto industry. This positive sentiment around major exchanges can indirectly benefit Bitcoin by fostering a more stable and regulated environment.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_stock",
+        "Binance_settlement",
+        "regulatory_clarity",
+        "exchange_health"
+      ],
+      "rationale": "A resolution for major exchanges like Binance and a strong performance from Coinbase can signal increased regulatory clarity and stability within the broader crypto ecosystem, which is generally positive for Bitcoin."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n248723235dbd",
+      "title": "Crypto stocks surge as bitcoin hits fresh 2023 high",
+      "url": "https://finance.yahoo.com/news/crypto-stocks-surge-bitcoin-hits-125307868.html",
+      "summary": "Cryptocurrency-related stocks in the U.S. experienced a surge, extending November's gains as Bitcoin surpassed $42,000, reaching its highest point since April 2022. This rally is attributed to optimism surrounding potential U.S. interest rate cuts and the anticipated approval of U.S. stock market-traded bitcoin funds.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_stocks",
+        "BTC_price_action",
+        "ETF_anticipation",
+        "interest_rate_sentiment"
+      ],
+      "rationale": "The concurrent surge in crypto stocks and Bitcoin price, driven by both macro factors (interest rates) and crypto-specific catalysts (ETF approval), indicates broad market optimism and strong investor interest."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n150931af160a",
+      "title": "What’s Next for Grayscale, Spot Bitcoin ETF After SEC Declines to Appeal Court Loss?",
+      "url": "https://finance.yahoo.com/news/next-grayscale-spot-bitcoin-etf-161102383.html",
+      "summary": "Following the SEC's decision not to appeal its court loss regarding Grayscale's Bitcoin Trust conversion to a spot ETF, Grayscale is prepared to convert GBTC to an ETF upon SEC approval. This development is a crucial step towards the potential launch of a spot Bitcoin ETF.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Grayscale_GBTC",
+        "SEC_appeal_denial",
+        "spot_ETF_conversion",
+        "legal_victory"
+      ],
+      "rationale": "The SEC's failure to appeal the court ruling is a significant legal victory for Grayscale and a strong indicator that a spot Bitcoin ETF approval is increasingly likely, paving the way for substantial institutional inflows."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n54e05533c49e",
+      "title": "5 ETF Areas At One-Month High to Start December",
+      "url": "https://finance.yahoo.com/news/5-etf-areas-one-month-133400592.html",
+      "summary": "Several ETF areas are performing well at the start of December. Notably, the ProShares Bitcoin Strategy ETF (BITO) and Global X Blockchain & Bitcoin Strategy ETF (BITS) are mentioned, indicating positive momentum in crypto-related ETFs.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF"
+      ],
+      "features_for_model": [
+        "ETF_performance",
+        "BITO",
+        "BITS",
+        "December_momentum"
+      ],
+      "rationale": "The mention of crypto ETFs reaching one-month highs suggests positive short-term sentiment and potential inflows into Bitcoin-related investment products."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb50697e263ed",
+      "title": "Zacks Investment Ideas feature highlights: Royal Caribbean Cruises, Spotify and Coinbase",
+      "url": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-091000731.html",
+      "summary": "The article highlights Coinbase (COIN) as a stock benefiting from a broadening market rally. This suggests positive sentiment around major crypto-related equities, which can correlate with Bitcoin's price action.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "listing"
+      ],
+      "features_for_model": [
+        "Coinbase_stock",
+        "market_rally",
+        "broadening_gains"
+      ],
+      "rationale": "Positive performance of major crypto-related stocks like Coinbase can indicate a healthy risk appetite in the broader market, indirectly benefiting Bitcoin."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n37b054c8d3b9",
+      "title": "Brazil’s Largest Bank Itaú Unibanco Launches Crypto Trading Services",
+      "url": "https://finance.yahoo.com/news/brazil-largest-bank-ita-unibanco-055356427.html",
+      "summary": "Itaú Unibanco, Brazil's largest bank, has launched crypto trading services for its clients, initially offering Bitcoin and Ethereum. The bank will act as custodian, indicating growing institutional acceptance and integration of cryptocurrencies.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Itaú_Unibanco",
+        "Brazil_crypto_adoption",
+        "institutional_custody"
+      ],
+      "rationale": "The entry of a major bank in Brazil into crypto trading signifies increasing adoption and trust in digital assets, potentially attracting new capital and boosting sentiment."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n43cee9dadc3c",
+      "title": "US stocks dragged down by mega-cap tech giants while bitcoin jumps and gold hits record high",
+      "url": "https://finance.yahoo.com/news/us-stocks-dragged-down-mega-050725015.html",
+      "summary": "While US stocks faced pressure from tech giants, Bitcoin surged to its highest level since April 2022, and gold reached a record high. This divergence suggests a strong independent rally for Bitcoin, potentially driven by its own catalysts.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "gold_record_high",
+        "tech_stock_selloff",
+        "divergence"
+      ],
+      "rationale": "Bitcoin's ability to rally strongly while broader equity markets are pressured highlights its increasing decoupling and potential as a safe-haven or inflation hedge, especially with gold also performing well."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n01af55979164",
+      "title": "Christmas Comes Early for Traders as Bitcoin Reaches $41k After 19 Months, Says PayBito CEO",
+      "url": "https://finance.yahoo.com/news/christmas-comes-early-traders-bitcoin-083000576.html",
+      "summary": "Bitcoin has surged past $41,000, its highest point since April 2022, signaling a potential start to a new bull run in 2024. This significant price increase is seen as a positive development for traders and investors.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_price_41k",
+        "19_month_high",
+        "bull_run_anticipation"
+      ],
+      "rationale": "Breaking the $41,000 level is a significant psychological and technical milestone, indicating strong buying pressure and renewed bullish sentiment that could sustain in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nedb7997555e8",
+      "title": "FOREX-Dollar finds footing ahead of job data deluge",
+      "url": "https://finance.yahoo.com/news/forex-dollar-finds-footing-ahead-091012774.html",
+      "summary": "The U.S. dollar is showing resilience ahead of key employment data. Bitcoin is holding near its highest level since April last year. This suggests that despite dollar strength, Bitcoin's upward momentum is being maintained.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "BTC_holding_gains",
+        "jobs_data_anticipation"
+      ],
+      "rationale": "Bitcoin's ability to hold near recent highs despite a strengthening dollar indicates underlying buying strength and a potential for continued positive price action, especially if upcoming jobs data is weaker than expected."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nb6e376b41906",
+      "title": "4 Crypto Stocks in Focus as Bitcoin Surges to 20-Month High",
+      "url": "https://finance.yahoo.com/news/4-crypto-stocks-focus-bitcoin-124400420.html",
+      "summary": "Bitcoin has breached the $42,000 mark, its highest point since April 2022, amid speculation of an impending SEC approval for a Bitcoin ETF. This surge is driving focus on crypto-related stocks.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_price_42k",
+        "20_month_high",
+        "ETF_speculation",
+        "crypto_stocks_focus"
+      ],
+      "rationale": "The significant price increase in Bitcoin, coupled with heightened speculation around ETF approval, is creating a positive feedback loop for the entire crypto market, including related stocks."
+    },
+    {
+      "pick_idx": 14,
+      "id": "naafd726c377a",
+      "title": "The Zacks Analyst Blog Highlights Valkyrie Bitcoin Miners ETF, Bitwise Crypto Industry Innovators ETF, Blockchain & Bitcoin Strategy ETF, First Trust SkyBridge Crypto Industry & Digital Economy ETF and iShares Blockchain and Tech ETF",
+      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-valkyrie-101400093.html",
+      "summary": "Several crypto-related ETFs are highlighted as performing well, with Bitcoin reaching $42,000. This indicates broad positive sentiment across various crypto investment vehicles.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF"
+      ],
+      "features_for_model": [
+        "crypto_ETF_performance",
+        "Bitcoin_price_action",
+        "Zacks_highlight"
+      ],
+      "rationale": "The positive performance of multiple crypto ETFs, alongside Bitcoin's surge, suggests a strong short-term bullish trend driven by increased investor interest and potential inflows."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nf8de5bf90d70",
+      "title": "FOREX-Dollar steady after key jobs data comes in below estimates",
+      "url": "https://finance.yahoo.com/news/forex-dollar-steady-key-jobs-154544240.html",
+      "summary": "U.S. job openings fell in October to their lowest level since early 2021, indicating a cooling labor market. This data could increase optimism that the Federal Reserve is done raising interest rates, which is generally bullish for risk assets like Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "JOLTS_report",
+        "jobs_data_weak",
+        "Fed_rate_hike_pause",
+        "labor_market_cooling"
+      ],
+      "rationale": "Weaker-than-expected jobs data supports the narrative of a Fed pause on interest rate hikes, which typically benefits risk assets like Bitcoin by reducing borrowing costs and increasing liquidity."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n9eac1687dbea",
+      "title": "Core Scientific Announces November 2023 Production and Operations Updates",
+      "url": "https://finance.yahoo.com/news/core-scientific-announces-november-2023-141000267.html",
+      "summary": "Core Scientific produced 954 self-mined bitcoin and an estimated 406 from colocated miners in November. The company operated approximately 199,000 bitcoin miners.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "Core_Scientific",
+        "BTC_production",
+        "miner_operations",
+        "November_update"
+      ],
+      "rationale": "Increased bitcoin production from major miners like Core Scientific can be seen as a positive sign of network health and operational efficiency, indirectly supporting Bitcoin's value."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nc252ba7fc79c",
+      "title": "Bitcoin, Ethereum, Dogecoin Spike Amid 'Panic Buying', ChatGPT-Drafted Legislation Unanimously Passed In Brazil - Top Headlines Today While US Was Sleeping",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-dogecoin-spike-amid-162154329.html",
+      "summary": "Bitcoin, Ethereum, and Dogecoin have seen a significant spike, potentially due to 'panic buying.' Additionally, ChatGPT-drafted legislation was unanimously passed in Brazil, indicating growing regulatory interest and adoption.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "panic_buying",
+        "BTC_ETH_DOGE_spike",
+        "Brazil_legislation",
+        "regulatory_adoption"
+      ],
+      "rationale": "The combination of strong price action, potentially driven by FOMO ('panic buying'), and positive regulatory developments in a major economy like Brazil creates a bullish short-term outlook."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nc252ba7fc79c",
+      "title": "Bitcoin, Ethereum, Dogecoin Spike Amid 'Panic Buying', ChatGPT-Drafted Legislation Unanimously Passed In Brazil - Top Headlines Today While US Was Sleeping",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-dogecoin-spike-amid-162154329.html",
+      "summary": "Bitcoin, Ethereum, and Dogecoin have seen a significant spike, potentially due to 'panic buying.' Additionally, ChatGPT-drafted legislation was unanimously passed in Brazil, indicating growing regulatory interest and adoption.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "panic_buying",
+        "BTC_ETH_DOGE_spike",
+        "Brazil_legislation",
+        "regulatory_adoption"
+      ],
+      "rationale": "The combination of strong price action, potentially driven by FOMO ('panic buying'), and positive regulatory developments in a major economy like Brazil creates a bullish short-term outlook."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n1f95b1b60791",
+      "title": "Crypto ETFs Poised for Launch in 2024, Says Hashdex",
+      "url": "https://finance.yahoo.com/news/crypto-etfs-poised-launch-2024-102228077.html",
+      "summary": "Hashdex predicts that U.S. investors will have access to spot Bitcoin and Ether ETFs by Q2 2024, citing increasing regulatory signals. This forward-looking statement reinforces the ongoing positive sentiment around ETF approvals.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Hashdex_prediction",
+        "crypto_ETF_launch",
+        "2024_outlook",
+        "regulatory_green_light"
+      ],
+      "rationale": "While a 2024 prediction, the continued emphasis on impending ETF approvals fuels current positive sentiment and suggests that the market is pricing in this event, supporting short-term price action."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n74022a8939e2",
+      "title": "Marathon Digital Holdings Announces Bitcoin Production and Mining Operation Updates for November 2023",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-announces-bitcoin-133100368.html",
+      "summary": "Marathon Digital Holdings increased its domestic energized hash rate to 23.1 EH/s and produced 1,187 BTC in November. Their combined unrestricted cash and Bitcoin holdings were $802.3 million as of November 30, 2023.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "Marathon_Digital",
+        "BTC_production_Nov",
+        "hash_rate_increase",
+        "cash_holdings"
+      ],
+      "rationale": "Strong operational updates from a major miner like Marathon, including increased hash rate and substantial Bitcoin holdings, indicate operational strength and a positive outlook for mining profitability."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-12-05",
+    "summary": "Bitcoin has surged past $41,000, reaching a 19-month high, driven by strong market sentiment and anticipation of potential ETF approvals. This rally is also reflected in crypto-related stocks and ETFs. Weaker-than-expected US jobs data further supports the narrative of a Fed pause, which is bullish for risk assets. While the dollar shows some resilience, Bitcoin's independent strength is notable. Institutional adoption is also evident with major banks in Brazil launching crypto services.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Potential for profit-taking after the significant rally.",
+      "Any negative news regarding SEC ETF decisions could trigger a sharp correction.",
+      "Broader macroeconomic shifts or unexpected inflation data could alter the Fed's stance.",
+      "Geopolitical events could introduce volatility across all risk assets."
+    ],
+    "watch_items": [
+      "SEC ETF decision timelines.",
+      "US Non-Farm Payrolls and CPI data releases.",
+      "Statements from Federal Reserve officials.",
+      "Performance of major crypto-related stocks (e.g., COIN).",
+      "On-chain metrics for accumulation and holder behavior."
+    ]
+  }
+}

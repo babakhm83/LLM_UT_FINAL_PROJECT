@@ -1,0 +1,508 @@
+{
+  "date": "2022-04-04",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n860fd7a143af",
+      "title": "Bitcoin Nears 200-Day Average Ahead of Seasonally Bullish Period, Triggers Over $400M in Liquidations",
+      "url": "https://finance.yahoo.com/news/bitcoin-nears-200-day-average-112429090.html",
+      "summary": "Bitcoin approached its 200-day moving average, a key technical indicator, suggesting potential upward momentum. The article also notes a seasonally bullish period for Bitcoin, which historically sees price increases. This technical and seasonal confluence, coupled with significant liquidations in the derivatives market, points towards a potentially bullish short-to-medium term outlook for Bitcoin. The price action nearing $48,000 indicates renewed investor interest and a potential break above previous resistance levels.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "200-day MA",
+        "seasonality",
+        "liquidations"
+      ],
+      "rationale": "Approaching a key technical level and entering a historically bullish period suggests a positive trend continuation. Significant liquidations can also indicate a shakeout of weaker hands, potentially leading to stronger upward price action."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n668c9832938a",
+      "title": "Market Wrap: Bitcoin Stabilizes Ahead of Biden's Executive Order on Crypto",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-stabilizes-ahead-212416293.html",
+      "summary": "Bitcoin stabilized above the $37,000 support level, with anticipation building around President Biden's upcoming executive order on cryptocurrencies. While the order was expected to focus on stablecoins and CBDCs, its broader implications for the crypto market remained a point of interest. The stabilization ahead of this significant regulatory event suggests a cautious optimism or a holding pattern as the market awaits clarity on the U.S. government's approach to digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Biden executive order",
+        "regulatory clarity",
+        "market stabilization"
+      ],
+      "rationale": "The upcoming executive order introduces regulatory uncertainty, which can be a significant driver of price action. Stabilization ahead of it suggests the market is pricing in potential outcomes, but the actual impact remains to be seen."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n9105d0ff0a18",
+      "title": "Will Bitcoin Overcome Instability to Replace Gold?",
+      "url": "https://finance.yahoo.com/news/bitcoin-overcome-instability-replace-gold-082816714.html",
+      "summary": "This article discusses Bitcoin's journey from optimistic highs to a significant price drop, questioning its ability to replace gold as a store of value. It highlights the volatility Bitcoin experienced in 2021 and its failure to maintain early 2022 optimism. The piece touches upon the narrative of Bitcoin as a digital gold, but acknowledges the challenges it faces in achieving this status due to its inherent instability and price fluctuations compared to traditional safe-haven assets.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "digital gold narrative",
+        "volatility",
+        "store of value"
+      ],
+      "rationale": "The ongoing debate about Bitcoin's role as a store of value, especially in comparison to gold, is a long-term narrative. Its ability to overcome instability will be crucial for its adoption as a macro-asset."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2161b8646ab1",
+      "title": "BTC USD Stocks Returns 2022 vs. Gold S&P500 Crypto Hard Fork BCH & BSV Released",
+      "url": "https://finance.yahoo.com/news/btc-usd-stocks-returns-2022-112500303.html",
+      "summary": "This article positions Bitcoin as a natural successor to traditional financial systems, comparing its benefits against assets like gold and the S&P 500. It highlights Bitcoin's volatility, market capitalization growth, and purchasing power. The piece suggests that Bitcoin offers a compelling alternative for investors seeking growth and a hedge against traditional market instability. The comparison with established assets frames Bitcoin's long-term potential in the evolving financial landscape.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "comparative asset analysis",
+        "market capitalization",
+        "purchasing power"
+      ],
+      "rationale": "Framing Bitcoin as a successor to traditional assets and highlighting its growth potential provides a long-term bullish outlook. The comparison with gold and S&P 500 underscores its increasing relevance in diversified portfolios."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n9a2e2833512d",
+      "title": "FOREX-Yen slides to 5-year low as rest of the world sets off for hikes",
+      "url": "https://finance.yahoo.com/news/forex-yen-slides-5-low-061020322.html",
+      "summary": "The Japanese Yen hit a five-year low against the dollar as the U.S. Federal Reserve signaled interest rate hikes while the Bank of Japan maintained a dovish stance. This divergence in monetary policy impacts global capital flows. The article also mentions cryptocurrencies rising after Elon Musk's positive tweet about Ether and Bitcoin. The broader market sentiment, influenced by geopolitical events and monetary policy, indirectly affects crypto markets.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "FOREX divergence",
+        "monetary policy",
+        "Elon Musk sentiment"
+      ],
+      "rationale": "Divergent monetary policies can lead to capital flight towards higher-yielding assets, potentially benefiting risk-on assets like Bitcoin. Positive sentiment from influential figures like Elon Musk can also provide short-term boosts."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n7d28adec073b",
+      "title": "Biden signs order on cryptocurrency as its use explodes",
+      "url": "https://finance.yahoo.com/news/biden-signing-order-cryptocurrency-explodes-110021459.html",
+      "summary": "President Biden signed an executive order on cryptocurrency, aiming to explore government oversight and the potential creation of a U.S. digital currency. Secretary Janet Yellen stated the initiative would promote a fairer financial system and counter illicit finance. This move signifies a growing governmental interest in digital assets, aiming to integrate them into the broader financial framework while mitigating risks. The focus on a potential CBDC could influence the future of digital currencies.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Biden executive order",
+        "CBDC exploration",
+        "regulatory framework"
+      ],
+      "rationale": "The U.S. government's proactive stance on crypto regulation, including exploring a CBDC, signals a maturing market. This could lead to greater institutional adoption but also increased regulatory scrutiny."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n7bd696f72165",
+      "title": "Tracking Luna Foundation Guard’s Bitcoin Purchases",
+      "url": "https://finance.yahoo.com/news/tracking-luna-foundation-guard-bitcoin-182508354.html",
+      "summary": "The Luna Foundation Guard (LFG) plans to purchase $10 billion or more of Bitcoin as a reserve for its UST stablecoin. This significant accumulation of Bitcoin by a major DeFi entity demonstrates growing institutional interest and demand for BTC as a reserve asset. The transparency of the Bitcoin blockchain allows for tracking these large purchases, which can influence market sentiment and price action.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "LFG Bitcoin purchase",
+        "stablecoin reserve",
+        "institutional demand"
+      ],
+      "rationale": "Large-scale Bitcoin purchases by institutional entities like LFG are a strong indicator of growing adoption and confidence in Bitcoin as a reserve asset, which can significantly impact price."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n722b746f2855",
+      "title": "Cryptoverse: Bitcoin gains conflict currency credentials",
+      "url": "https://finance.yahoo.com/news/cryptoverse-bitcoin-gains-conflict-currency-073327376.html",
+      "summary": "Bitcoin has seen increased usage as a conflict currency amidst the Russia-Ukraine war, with people in both countries using it for storing and moving money anonymously and decentrally. Trading volumes in Russian rubles denominated Bitcoin surged significantly following the invasion. This highlights Bitcoin's utility in regions facing financial instability or capital controls, potentially bolstering its narrative as a censorship-resistant asset.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "conflict currency",
+        "capital controls",
+        "censorship resistance"
+      ],
+      "rationale": "Bitcoin's utility as a conflict currency demonstrates its resilience and censorship-resistant properties, which can drive adoption in regions facing geopolitical or economic turmoil."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nf65a832bf74c",
+      "title": "Why Tesla holding $2 billion in Bitcoin is 'a distraction and sideshow': Analyst",
+      "url": "https://finance.yahoo.com/news/why-tesla-holding-2-billion-in-bitcoin-is-a-distraction-and-side-show-analyst-says-192535899.html",
+      "summary": "An analyst views Tesla's $2 billion Bitcoin holding as a 'distraction and sideshow,' despite the company's disclosure of its holdings, gains, and impairments. The article notes Tesla's initial investment and subsequent impairment charge due to Bitcoin's price decline. While the analyst's view is bearish on the strategic importance of BTC for Tesla, the sheer size of the holding and Tesla's continued presence in the crypto market remain significant factors for the broader ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Tesla Bitcoin holding",
+        "analyst sentiment",
+        "impairment charge"
+      ],
+      "rationale": "While an analyst dismisses Tesla's BTC holding as a sideshow, the continued presence of a major corporation like Tesla in the Bitcoin market, even with impairments, signals a level of institutional engagement that can influence perception and future adoption."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n4b9a58c74ca4",
+      "title": "Meta made a crucial mistake with bitcoin: MicroStrategy CEO Michael Saylor",
+      "url": "https://finance.yahoo.com/news/meta-made-a-crucial-mistake-with-bitcoin-microstrategy-ceo-michael-saylor-164904820.html",
+      "summary": "MicroStrategy CEO Michael Saylor believes Meta (formerly Facebook) made a mistake by not continuing its crypto ventures, specifically mentioning the Diem project's sale. Saylor, a prominent Bitcoin advocate, suggests that Meta's focus on the metaverse should have been complemented by a robust crypto strategy. This commentary highlights the ongoing debate about the integration of crypto and the metaverse and the missed opportunities for companies that exit the digital asset space.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "metaverse"
+      ],
+      "features_for_model": [
+        "Michael Saylor",
+        "Meta crypto strategy",
+        "Diem project"
+      ],
+      "rationale": "Michael Saylor's strong conviction in Bitcoin and his critique of Meta's exit from crypto underscore the potential for crypto integration within emerging technologies like the metaverse. His views often influence market sentiment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nfc0d28ec054e",
+      "title": "Crypto Funds Draw Inflows for Second Straight Week",
+      "url": "https://finance.yahoo.com/news/crypto-funds-draw-inflows-second-192253889.html",
+      "summary": "Cryptocurrency funds experienced net inflows for the second consecutive week, totaling $180 million. The majority of these inflows were directed towards European funds. This trend indicates renewed investor interest and capital allocation into digital assets, suggesting a positive sentiment shift in the short term. The continued inflows, even if slightly lower than the previous week, point to sustained demand.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crypto fund inflows",
+        "European funds",
+        "investor sentiment"
+      ],
+      "rationale": "Consistent inflows into crypto funds signal increasing investor confidence and liquidity, which can positively impact prices in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nc3fac63851aa",
+      "title": "Bitcoin ETFs: What are they and how to invest in them?",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-invest-them-235816233.html",
+      "summary": "This article explains Bitcoin ETFs and how investors can access them, noting the arrival of Bitcoin futures ETFs last fall. The increasing availability and understanding of Bitcoin ETFs can facilitate broader adoption and investment, potentially driving demand and price appreciation. As more traditional investors gain access through regulated products, it can lead to increased liquidity and market stability.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin ETF",
+        "investor access",
+        "futures ETF"
+      ],
+      "rationale": "The growing accessibility and understanding of Bitcoin ETFs can attract more traditional capital, boosting demand and potentially influencing price in the near term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na99079e0a342",
+      "title": "Bitcoin and ETH Stuck Below Hurdles, ADA Eyes Upside Break",
+      "url": "https://finance.yahoo.com/news/bitcoin-eth-stuck-below-hurdles-144107614.html",
+      "summary": "Bitcoin and Ethereum are facing resistance at key levels, indicating a consolidation phase. However, Cardano (ADA) is showing signs of an upside break, potentially targeting $1.4. This divergence suggests that while major cryptocurrencies might be range-bound, specific altcoins could experience significant price movements. The article highlights the importance of monitoring these individual asset performances within the broader market.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BTC resistance",
+        "ETH hurdles",
+        "ADA upside break"
+      ],
+      "rationale": "Bitcoin and ETH facing resistance suggests a temporary pause, while ADA's potential breakout could lead to short-term altcoin market movements."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nca4bd8e247cf",
+      "title": "First Mover Americas: New Bitcoin Use Case Is Buying Fuel Down Under",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-case-133704379.html",
+      "summary": "Australia's fuel and convenience store chain, On The Run (OTR), will begin accepting Bitcoin as payment. This expands Bitcoin's real-world use cases beyond speculation and investment. The adoption by a retail chain, especially for everyday purchases like fuel, can increase transaction volume and normalize Bitcoin usage, potentially driving demand and positive sentiment.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin payment",
+        "retail adoption",
+        "fuel purchase"
+      ],
+      "rationale": "Expanding Bitcoin's utility to everyday purchases like fuel through retail adoption can increase transaction volume and foster positive sentiment, impacting price in the short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nf5bbcc88382e",
+      "title": "Trust Machines Adds Crypto Influencer Aubrey Strobel as Comms Advisor and Previous Head Of Binance.US Rena Shah as Head of Operations",
+      "url": "https://finance.yahoo.com/news/trust-machines-adds-crypto-influencer-130000377.html",
+      "summary": "Trust Machines, focused on building the Bitcoin ecosystem, has hired Aubrey Strobel (former Head of Communications at Lolli) as a marketing advisor and Rena Shah (former Head of Exchange at Binance.US) as Head of Strategy and Operations. These strategic hires, particularly from established crypto entities, signal a push for growth and enhanced operational capabilities, which can positively influence the perception and development of the Bitcoin ecosystem.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "talent acquisition"
+      ],
+      "features_for_model": [
+        "Trust Machines hires",
+        "crypto influencer",
+        "Binance.US executive"
+      ],
+      "rationale": "Key hires with experience from prominent crypto companies can bolster a project's credibility and operational efficiency, potentially leading to positive short-term market reactions."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n7fdaaf649b05",
+      "title": "Crypto: Bitcoin is seen as inflation hedge for newcomers outside the US",
+      "url": "https://finance.yahoo.com/news/crypto-bitcoin-inflation-hedge-231009445.html",
+      "summary": "A survey indicates that individuals in countries with significantly devalued local currencies (e.g., South Africa, Mexico, India, Brazil) are five times more likely to plan purchasing cryptocurrency. This suggests Bitcoin is perceived as an inflation hedge in regions experiencing high inflation or currency depreciation. The growing adoption in emerging markets, driven by macroeconomic factors, could lead to increased demand for Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "inflation hedge",
+        "emerging markets",
+        "currency depreciation"
+      ],
+      "rationale": "Perception of Bitcoin as an inflation hedge in countries with depreciating currencies can drive adoption and demand, positively impacting price in the short term."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n2edb6dc1ba2c",
+      "title": "Marathon Digital Holdings Announces Bitcoin Production and Mining Operation Updates for March 2022",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-announces-bitcoin-211700332.html",
+      "summary": "Marathon Digital Holdings reported record Bitcoin production in Q1 2022, with a 556% year-over-year increase and a 15% sequential increase from Q4 2021. The company's total Bitcoin holdings increased to 9,374 BTC, and its hash rate grew by 14%. These operational updates indicate strong growth and efficiency in Bitcoin mining, which can positively influence investor sentiment and potentially the price of Bitcoin itself due to increased network security and hash power.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Marathon Digital production",
+        "record BTC output",
+        "hash rate increase"
+      ],
+      "rationale": "Strong operational performance from a major Bitcoin miner like Marathon Digital can signal increased network security and mining efficiency, which is generally viewed positively by the market."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nd9598695918c",
+      "title": "Rishi Sunak orders Royal Mint to jump on NFT bandwagon",
+      "url": "https://finance.yahoo.com/news/royal-mint-jumps-nft-bandwagon-153436991.html",
+      "summary": "UK Chancellor Rishi Sunak has directed the Royal Mint to create its own NFTs, aiming to showcase the UK's forward-thinking approach. While criticized by some as a gimmick, this move signifies government interest and potential backing for digital assets and blockchain technology. Such initiatives, even if symbolic, can contribute to broader market awareness and adoption of NFTs and related technologies.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "Royal Mint NFT",
+        "UK government",
+        "digital asset initiative"
+      ],
+      "rationale": "Government-led initiatives in NFTs, even if perceived as symbolic, can increase general awareness and adoption of blockchain technology, potentially benefiting the broader crypto market."
+    },
+    {
+      "pick_idx": 35,
+      "id": "nd5b69a3ce40f",
+      "title": "Intel Doubles Down on ESG With Launch of Second-Gen Bitcoin Mining Chips",
+      "url": "https://finance.yahoo.com/news/intel-doubles-down-esg-launch-130035074.html",
+      "summary": "Chip giant Intel has launched its second-generation Bitcoin mining chip, the 'Intel Blockscale ASIC,' offering greater efficiency. This move aims to address the environmental, social, and governance (ESG) concerns surrounding Bitcoin mining. By providing more efficient hardware, Intel could help mining firms improve their ESG profiles and potentially attract more institutional capital, which is sensitive to these factors.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "ESG",
+        "miner"
+      ],
+      "features_for_model": [
+        "Intel mining chip",
+        "Blockscale ASIC",
+        "ESG efficiency"
+      ],
+      "rationale": "Intel's more efficient mining chips can improve the ESG perception of Bitcoin mining, potentially attracting institutional investment and boosting overall network health."
+    },
+    {
+      "pick_idx": 45,
+      "id": "ncf1a92262c04",
+      "title": "Digihost Achieves Milestone of 1 EH/s in Hashrate and Announces Bitcoin Dividend Policy",
+      "url": "https://finance.yahoo.com/news/digihost-achieves-milestone-1-eh-110000118.html",
+      "summary": "Digihost Technology Inc. announced it achieved 1 EH/s in hashrate and introduced a Bitcoin dividend policy, expecting to declare dividends payable in BTC or cash. This operational milestone signifies increased mining capacity and network contribution. The dividend policy, especially if payable in BTC, could increase demand for Bitcoin as miners distribute rewards. This dual announcement suggests strong operational performance and a shareholder-friendly approach.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "dividend"
+      ],
+      "features_for_model": [
+        "Digihost hashrate",
+        "Bitcoin dividend policy",
+        "mining capacity"
+      ],
+      "rationale": "Achieving a significant hashrate milestone and announcing a BTC dividend policy indicates operational strength and a potential increase in BTC demand, both positive short-term signals."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-04-04",
+    "summary": "The market shows mixed signals today. Long-term, institutional adoption and regulatory clarity remain key drivers, with significant Bitcoin purchases by the Luna Foundation Guard and the U.S. government exploring crypto oversight providing bullish undertones. However, analyst views on corporate crypto holdings remain divided. Short-term, crypto funds are seeing inflows for the second week, and new real-world use cases for Bitcoin are emerging, such as fuel purchases. Miners are also reporting strong production, and tech giants are launching more efficient mining hardware, all contributing to a cautiously optimistic short-term outlook.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Regulatory uncertainty from the Biden executive order.",
+      "Continued macroeconomic headwinds and potential for broader market sell-offs.",
+      "Volatility in altcoin markets and potential for sharp corrections.",
+      "Geopolitical tensions impacting global risk sentiment."
+    ],
+    "watch_items": [
+      "US CPI data releases",
+      "Federal Reserve meeting minutes",
+      "Major altcoin project updates (e.g., Ethereum Merge progress)",
+      "On-chain data for whale movements and exchange flows"
+    ]
+  }
+}

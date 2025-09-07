@@ -1,0 +1,502 @@
+{
+  "date": "2021-07-31",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n26a25b7b0156",
+      "title": "SEC Again Delays VanEck Bitcoin ETF Decision",
+      "url": "https://finance.yahoo.com/news/sec-again-delays-vaneck-bitcoin-203121993.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has once again delayed its decision on the VanEck Bitcoin Trust ETF. This marks the second extension, pushing the potential approval further down the road. The SEC can take up to 240 days to make a decision on such applications. The approval of a Bitcoin ETF in the U.S. remains a significant milestone for the crypto industry, with many anticipating it could unlock substantial institutional investment and broader market adoption.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_decision",
+        "VanEck_ETF",
+        "institutional_adoption"
+      ],
+      "rationale": "Repeated delays in ETF approvals create uncertainty, potentially dampening institutional interest in the short to medium term. However, the continued pursuit of ETFs by major players like VanEck signals a persistent demand for regulated crypto products, which could be a significant bullish catalyst upon eventual approval."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n78404d7ac2f4",
+      "title": "Jack Dorsey’s Square Targets Bitcoin Network for DeFi",
+      "url": "https://finance.yahoo.com/news/jack-dorsey-square-targets-bitcoin-175537776.html",
+      "summary": "Jack Dorsey's company, Square, is focusing on building within the Bitcoin network for decentralized finance (DeFi) applications. This move by Square, a major player in financial technology, signifies a growing interest in leveraging Bitcoin's infrastructure beyond simple payments. Square's Cash App already generates significant Bitcoin revenue, and their commitment to open-source Bitcoin projects indicates a long-term investment in the ecosystem's development and utility.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Square_DeFi",
+        "Bitcoin_network_development",
+        "institutional_DeFi"
+      ],
+      "rationale": "Square's focus on building DeFi on Bitcoin is a significant development, potentially increasing the utility and adoption of the Bitcoin network. This integration of traditional finance infrastructure with Bitcoin could attract more developers and users, driving innovation and demand."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n39f6c4935f27",
+      "title": "Venture capital firm Blockchain Capital raises $300 million from PayPal, Visa",
+      "url": "https://finance.yahoo.com/news/venture-capital-firm-blockchain-capital-143415840.html",
+      "summary": "Blockchain Capital, a prominent venture capital firm in the crypto space, has successfully raised $300 million for its Fund V, with significant backing from major financial institutions like PayPal and Visa. This substantial funding round, which includes investments in over 110 companies like Coinbase and Kraken, highlights the increasing institutional confidence and capital allocation towards the blockchain and cryptocurrency sector. The involvement of PayPal and Visa suggests a strategic interest in the underlying technology and its potential integration into mainstream finance.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "VC_funding",
+        "PayPal_investment",
+        "Visa_investment",
+        "institutional_capital_flow"
+      ],
+      "rationale": "This large funding round from established financial players like PayPal and Visa into a crypto-focused VC firm signals strong institutional belief in the long-term growth of the crypto ecosystem. It provides capital for innovation and adoption, potentially leading to new products and services that benefit Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n9e2b18128989",
+      "title": "Crypto update: Bitcoin sinks below $30,000 amid broader market sell-off",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-bitcoin-ethereum-price-july-20-dollar-inflation-interest-rate-sell-off-stocks-markets-084535380.html",
+      "summary": "Bitcoin experienced a significant drop, falling below the crucial $30,000 support level amidst a wider market sell-off. Analysts attribute this decline to a strengthening U.S. dollar and a general 'risk-off' sentiment in global markets. The move suggests that macroeconomic factors, particularly currency strength and investor appetite for risk, are currently exerting considerable downward pressure on cryptocurrencies.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "risk_off_sentiment",
+        "market_selloff",
+        "BTC_price_breakdown"
+      ],
+      "rationale": "The breach of the $30,000 level, driven by macro factors like dollar strength, indicates a bearish short-to-medium term trend. This suggests that broader economic conditions are currently overriding positive crypto-specific narratives."
+    },
+    {
+      "pick_idx": 11,
+      "id": "neb6f9a3d6feb",
+      "title": "Crypto retreats as bitcoin and ethereum lead mild sell-off",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-market-retreats-bitcoin-ethereum-lead-mild-sell-off-084545433.html",
+      "summary": "The cryptocurrency market experienced a mild sell-off, with Bitcoin and Ethereum leading the decline. Bitcoin's price struggled to maintain levels above $41,250, a key resistance area, and has been declining since. This downturn occurred as 'Big Short' investor Michael Burry warned of an impending 'mother of all crashes,' predicting a downturn in both crypto and meme stocks, suggesting a broader market sentiment shift towards caution.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "crypto_selloff",
+        "BTC_resistance_failure",
+        "market_sentiment_warning"
+      ],
+      "rationale": "The mild sell-off, led by major cryptocurrencies and amplified by a prominent investor's bearish outlook, suggests a potential shift in market sentiment. This could lead to further price consolidation or declines if broader market fears persist."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n232ebefae99a",
+      "title": "Crypto update: Bitcoin rallies as El Salvador makes bitcoin legal tender",
+      "url": "https://finance.yahoo.com/news/crypto-update-bitcoin-ethereum-dogecoin-price-9-june-075742090.html",
+      "summary": "Bitcoin experienced a rally as El Salvador officially adopted it as legal tender, marking a historic first for any country. This development saw Bitcoin's price increase by approximately 6%, moving closer to the $40,000 mark, though still below its all-time high. The adoption by a nation-state is a significant event, potentially influencing future sovereign adoption and increasing Bitcoin's global legitimacy and use cases.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "El_Salvador_legal_tender",
+        "sovereign_adoption",
+        "BTC_price_rally"
+      ],
+      "rationale": "El Salvador's adoption of Bitcoin as legal tender is a landmark event that could pave the way for broader adoption by other nations. This geopolitical development enhances Bitcoin's legitimacy and could drive significant long-term demand and price appreciation."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n61c2eaa984b2",
+      "title": "Bitcoin tops $40,000 after Musk says Tesla could use it again",
+      "url": "https://finance.yahoo.com/news/bitcoin-jumps-musk-says-tesla-055752533.html",
+      "summary": "Bitcoin surged past $40,000 following tweets from Tesla CEO Elon Musk, who indicated that Tesla might resume accepting Bitcoin for payments. Musk also addressed criticism regarding his market influence. This statement from a high-profile figure like Musk, who previously influenced Bitcoin's price by announcing Tesla's purchase and subsequent halt on Bitcoin payments due to environmental concerns, can significantly impact market sentiment and price action.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "sentiment",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Elon_Musk_endorsement",
+        "Tesla_BTC_payments",
+        "influencer_impact"
+      ],
+      "rationale": "Elon Musk's statements have a proven track record of influencing Bitcoin's price. His indication that Tesla might resume Bitcoin transactions, coupled with the price breaking $40,000, suggests a positive short-to-medium term outlook driven by influential endorsements."
+    },
+    {
+      "pick_idx": 24,
+      "id": "ne0c4bb856079",
+      "title": "SEC-Registered Crypto Robo-Advisor Makara Launches",
+      "url": "https://finance.yahoo.com/news/sec-registered-crypto-robo-advisor-150435025.html",
+      "summary": "Makara, a cryptocurrency robo-advisor registered with the U.S. Securities and Exchange Commission (SEC), has officially launched. As the first SEC-registered crypto robo-advisor, Makara aims to provide a regulated and accessible way for investors to gain exposure to digital assets, similar to traditional robo-advisors that invest in ETFs. This development signifies a move towards greater regulatory clarity and institutional acceptance of crypto investment products in the U.S.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SEC_registration",
+        "crypto_robo_advisor",
+        "regulated_investing"
+      ],
+      "rationale": "The launch of an SEC-registered crypto robo-advisor is a positive step towards regulatory compliance and institutional adoption. It provides a more trusted pathway for traditional investors to enter the crypto market, potentially increasing overall demand."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nd6dd4ad97fdc",
+      "title": "Bitcoin’s Weekend Price Bounce Fades Even as Exchange Balances Drop",
+      "url": "https://finance.yahoo.com/news/bitcoin-weekend-price-bounce-fades-105406821.html",
+      "summary": "Bitcoin's price momentum from the weekend has stalled, despite bullish on-chain indicators like declining exchange balances. The cryptocurrency is trading near $34,200, reversing gains made from a bounce to $36,000. The fading bounce, even with positive on-chain signals, suggests that broader market sentiment or other external factors are currently outweighing the bullish on-chain data, leading to price consolidation.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "exchange_balances_drop",
+        "BTC_price_stagnation",
+        "onchain_bullish_divergence"
+      ],
+      "rationale": "While declining exchange balances are typically a bullish sign, indicating less selling pressure, the fading price bounce suggests that other factors are currently dominating the market. This creates a mixed signal, implying potential for sideways movement or a retest of lower support levels."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n4d7acd210cdc",
+      "title": "Crypto Long & Short: This Bear Market May Not Last Long",
+      "url": "https://finance.yahoo.com/news/crypto-long-short-bear-market-210000746.html",
+      "summary": "The article posits that despite current bearish sentiment, the ongoing crypto bear market might be short-lived. It discusses how Bitcoin's dominance has decreased, and while premature bear market calls have been made, the underlying technology and adoption trends suggest resilience. The piece contrasts Bitcoin's market share with that of large-cap equities, highlighting its unique position in the financial landscape.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "sentiment",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_bear_market_outlook",
+        "BTC_dominance_trend",
+        "market_resilience"
+      ],
+      "rationale": "The analysis suggests that the current bear market might be a temporary phase, with underlying adoption and technological development providing a foundation for future recovery. This contrarian view, if correct, implies a potential for significant upside as the market sentiment shifts."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n0756ef8a5b23",
+      "title": "The Crypto Daily – Movers and Shakers – July 31st, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-003919021.html",
+      "summary": "Bitcoin rallied by 5.43% on Friday, closing at $42,214.5. After a mixed start, it fell to a low of $38,343.0 before rallying to a high of $42,299.2. Bitcoin broke through key resistance levels at $40,682 and $41,328, and also surpassed the 38.2% FIB retracement level of $41,592. The near-term bullish trend appears to be reasserting itself.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_rally",
+        "resistance_breakout",
+        "bullish_trend_confirmation"
+      ],
+      "rationale": "The strong rally and break of key resistance levels on July 30th indicate immediate bullish momentum. This suggests continued upward price action in the very short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ned1a2826a483",
+      "title": "Moody’s Lowers El Salvador Rating, Maintains Negative Outlook Partly Due to Bitcoin Law",
+      "url": "https://finance.yahoo.com/news/moody-lowers-el-salvador-rating-005830979.html",
+      "summary": "Moody's downgraded El Salvador's credit rating to Caa1 from B3, citing a 'deterioration in the quality of policymaking,' partly due to the Bitcoin legal tender law. The agency noted weakened governance and strained international relations. This downgrade reflects increased sovereign risk associated with El Salvador's Bitcoin adoption.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "El_Salvador_credit_rating_downgrade",
+        "sovereign_risk",
+        "Bitcoin_law_impact"
+      ],
+      "rationale": "The credit rating downgrade for El Salvador due to its Bitcoin law introduces sovereign risk concerns. This could create negative sentiment and potentially lead to a slight pullback or increased volatility as markets digest the implications."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nc4de768fe106",
+      "title": "Asset Management Firm GoldenTree is Buying Bitcoin",
+      "url": "https://finance.yahoo.com/news/asset-management-firm-goldentree-buying-111500493.html",
+      "summary": "Asset management firm GoldenTree, with over $41 billion in assets under management, is reportedly buying Bitcoin to diversify its portfolio. The firm is also considering hiring cryptocurrency experts. This move by a significant traditional asset manager signals growing institutional adoption and confidence in Bitcoin.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "GoldenTree_buying_BTC",
+        "institutional_adoption",
+        "asset_manager_interest"
+      ],
+      "rationale": "The news of a substantial asset management firm like GoldenTree buying Bitcoin is a positive signal for short-term sentiment and potential buying pressure, indicating increasing institutional acceptance."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nb6ece9ab0d88",
+      "title": "$100K in Bitcoin Up for Grabs as FTX’s MLB Team-Up Advances",
+      "url": "https://finance.yahoo.com/news/100k-bitcoin-grabs-ftx-major-131944643.html",
+      "summary": "Crypto exchange FTX's partnership with Major League Baseball (MLB) is expanding to include a competition offering $100,000 in Bitcoin. Participants can win by predicting the longest home run of the season. This promotion, aimed at engaging fans and increasing visibility, highlights the growing integration of crypto with mainstream sports and entertainment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "marketing"
+      ],
+      "features_for_model": [
+        "FTX_MLB_promotion",
+        "Bitcoin_giveaway",
+        "sports_crypto_integration"
+      ],
+      "rationale": "While a promotional giveaway, the FTX/MLB partnership and Bitcoin prize contribute to crypto's visibility in mainstream sports. This can have a minor positive impact on sentiment and awareness in the short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n10e8a628493c",
+      "title": "Finland Seeking Brokers to Assist in Sale of $82M Worth of Seized BTC",
+      "url": "https://finance.yahoo.com/news/finland-seeking-brokers-assist-sale-141903157.html",
+      "summary": "Finland is seeking cryptocurrency brokers to help sell approximately 1,981 seized Bitcoin, valued at $82 million, which were confiscated due to illegal activities. This action by Finnish Customs indicates a move to liquidate illicitly obtained assets, potentially adding to the circulating supply if sold on the open market.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Finland_seized_BTC_sale",
+        "illicit_asset_liquidation",
+        "supply_increase_potential"
+      ],
+      "rationale": "The potential sale of a significant amount of seized Bitcoin could introduce selling pressure into the market. While the exact timing and method of sale are unclear, it represents a potential bearish overhang in the near term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n16c558dfef6d",
+      "title": "Bitcoin Price Over $41K After Longest Streak in 8 Years",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-over-41k-longest-150159101.html",
+      "summary": "Bitcoin's price has surpassed $41,000, reaching its highest point since May, driven by a remarkable 10-day winning streak, the longest in eight years. This sustained upward momentum, with Bitcoin trading at $41,344, indicates strong buying interest and a potential shift in market sentiment towards bullishness.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_10_day_winning_streak",
+        "price_above_41K",
+        "bullish_momentum"
+      ],
+      "rationale": "The extended winning streak and price breaking above $41K are strong indicators of immediate bullish momentum. This suggests that the positive trend is likely to continue in the very short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n9f7b253796ea",
+      "title": "China Central Bank Cracking Down on Cryptocurrency Trading",
+      "url": "https://finance.yahoo.com/news/china-central-bank-cracking-down-174911155.html",
+      "summary": "China's central bank, the People's Bank of China, has reiterated its commitment to maintaining 'high pressure on virtual currency trading hype' and continuing its crackdown on illegal cryptocurrency activities. This ongoing regulatory stance from a major global economy poses a persistent bearish factor for the crypto market.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_crypto_crackdown",
+        "PBOC_statement",
+        "regulatory_headwind"
+      ],
+      "rationale": "China's continued regulatory crackdown on crypto trading creates a negative sentiment and potential liquidity drain. This ongoing pressure acts as a bearish catalyst, particularly for short-term price action."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n62adb03cea6b",
+      "title": "Bitcoin Mining Difficulty Increases For First Time Since May",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-increases-first-215200601.html",
+      "summary": "Bitcoin mining difficulty has increased by 6%, marking the first rise since May. This increase follows a period of decline caused by China's crackdown on miners. The difficulty adjustment reflects the network's resilience and the migration of mining operations, potentially indicating a stabilization of hash rates.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "BTC_mining_difficulty_increase",
+        "hash_rate_recovery",
+        "miner_migration_impact"
+      ],
+      "rationale": "An increase in mining difficulty, the first since May, suggests that miners are returning to the network or that hashrates are stabilizing after the China crackdown. This is generally a bullish sign for network health and security."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n16c558dfef6d",
+      "title": "Bitcoin Price Over $41K After Longest Streak in 8 Years",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-over-41k-longest-150159101.html",
+      "summary": "Bitcoin's price is holding above $41,000, its highest level since May, following a 10-day winning streak, the longest in eight years. This sustained upward momentum indicates strong buying pressure and a positive short-term trend. Other major cryptocurrencies like Ether and Chainlink are also showing gains.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_10_day_winning_streak",
+        "price_above_41K",
+        "bullish_momentum"
+      ],
+      "rationale": "The extended winning streak and price breaking above $41K are strong indicators of immediate bullish momentum. This suggests that the positive trend is likely to continue in the very short term."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n0756ef8a5b23",
+      "title": "The Crypto Daily – Movers and Shakers – July 31st, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-003919021.html",
+      "summary": "Bitcoin rallied by 5.43% on Friday, closing at $42,214.5. After a mixed start, it fell to a low of $38,343.0 before rallying to a high of $42,299.2. Bitcoin broke through key resistance levels at $40,682 and $41,328, and also surpassed the 38.2% FIB retracement level of $41,592. The near-term bullish trend appears to be reasserting itself.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_rally",
+        "resistance_breakout",
+        "bullish_trend_confirmation"
+      ],
+      "rationale": "The strong rally and break of key resistance levels on July 30th indicate immediate bullish momentum. This suggests continued upward price action in the very short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-07-31",
+    "summary": "Bitcoin experienced a strong bullish day on July 30th, breaking key resistance levels and extending its winning streak to 10 days, pushing the price above $41K. This positive momentum is supported by institutional interest, with asset manager GoldenTree reportedly buying Bitcoin. However, lingering bearish factors include Moody's downgrade of El Salvador's rating due to its Bitcoin law and China's continued crackdown on crypto trading, which could introduce selling pressure and regulatory headwinds.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued regulatory pressure from China could dampen sentiment.",
+      "El Salvador's sovereign risk, highlighted by Moody's downgrade, might create broader market jitters.",
+      "Potential for profit-taking after a strong winning streak could lead to short-term pullbacks.",
+      "Macroeconomic factors like USD strength could re-emerge as a bearish driver."
+    ],
+    "watch_items": [
+      "El Salvador's implementation of Bitcoin as legal tender and any further international reactions.",
+      "Statements from major financial institutions regarding crypto adoption.",
+      "Key resistance/support levels for Bitcoin around $42,000 and $38,000.",
+      "Developments in global crypto regulation, particularly from major economies."
+    ]
+  }
+}

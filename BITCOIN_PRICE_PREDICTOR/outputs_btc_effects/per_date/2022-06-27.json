@@ -1,0 +1,522 @@
+{
+  "date": "2022-06-27",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nc4e358d63dd2",
+      "title": "Crypto Funds Suffer Fourth Straight Week of Outflows as Bitcoin Stalls",
+      "url": "https://finance.yahoo.com/news/crypto-funds-suffer-fourth-straight-161156021.html",
+      "summary": "Crypto funds experienced a fourth consecutive week of outflows, totaling $120 million in the seven days through April 29. Bitcoin-focused funds bore the brunt, with $132 million in outflows, the highest of the year. This trend indicates a broader investor hesitancy and risk-off sentiment within the digital asset market, impacting Bitcoin's price momentum. The sustained outflows suggest a bearish sentiment among institutional investors, potentially prolonging the market downturn.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_fund_outflows",
+        "bitcoin_stagnation",
+        "institutional_sentiment"
+      ],
+      "rationale": "Consistent outflows from crypto funds, particularly Bitcoin-focused ones, signal a lack of institutional confidence. This sustained bearish sentiment can suppress demand and price appreciation for Bitcoin over the medium term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nbaf148026972",
+      "title": "Luna Foundation Guard Acquires $1.5B in Bitcoin to Reinforce Stablecoin Reserves",
+      "url": "https://finance.yahoo.com/news/luna-foundation-guard-acquires-1-164005324.html",
+      "summary": "The Luna Foundation Guard (LFG) acquired 37,863 bitcoins, valued at $1.5 billion, to bolster its stablecoin reserves. This significant purchase, made through over-the-counter deals, aimed to strengthen the stability of TerraUSD (UST). While intended to support the ecosystem, such large-scale Bitcoin accumulation by a single entity can influence market dynamics and liquidity. The subsequent collapse of UST highlighted the risks associated with algorithmic stablecoins and their impact on the broader crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "stablecoin",
+        "macro"
+      ],
+      "features_for_model": [
+        "LFG_bitcoin_acquisition",
+        "UST_reserve_strengthening",
+        "stablecoin_risk"
+      ],
+      "rationale": "The LFG's substantial Bitcoin acquisition was a significant event, initially seen as a bullish signal for Bitcoin demand. However, the subsequent failure of UST demonstrated the fragility of such reserves and the potential for contagion, creating uncertainty and highlighting systemic risks."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nbc59a18df553",
+      "title": "How Crypto Might React to the Fed’s Rate Announcement",
+      "url": "https://finance.yahoo.com/news/crypto-might-react-fed-rate-153455288.html",
+      "summary": "The Federal Reserve's hawkish policy shift in 2022 has been a significant headwind for crypto prices. Hot inflation data boosted the prospect of a 75 basis point hike, potentially pushing Bitcoin below $20,000 and Ethereum below $1,000. The Fed's monetary policy, including interest rate hikes and balance sheet reduction, directly impacts risk assets like cryptocurrencies, influencing investor sentiment and capital flows.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "fed_rate_hike",
+        "inflation_data",
+        "monetary_policy",
+        "risk_asset_sentiment"
+      ],
+      "rationale": "The Fed's aggressive monetary tightening directly impacts risk assets. Higher interest rates increase the cost of capital and reduce the attractiveness of speculative investments like Bitcoin, leading to potential price declines."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n9da8acc3335b",
+      "title": "Crypto Meltdown Gathers Pace as Celsius Collapse Drags Bitcoin, Altcoins Lower",
+      "url": "https://finance.yahoo.com/news/crypto-meltdown-gathers-pace-celsius-060009844.html",
+      "summary": "The collapse of major crypto lender Celsius, which paused withdrawals citing \"extreme market conditions,\" has significantly impacted the market. Bitcoin slid over 10% to its lowest level since December 2020, with altcoins following suit. This event highlights the interconnectedness and fragility within the crypto ecosystem, where the failure of one major player can trigger a broader sell-off and liquidity crisis.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "liquidity",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "celsius_collapse",
+        "lender_insolvency",
+        "crypto_meltdown",
+        "liquidity_crisis"
+      ],
+      "rationale": "The Celsius crisis triggered a significant sell-off, demonstrating the systemic risk posed by leveraged crypto entities. This event eroded confidence and liquidity, pushing Bitcoin and other cryptocurrencies lower."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n9468e7da0b20",
+      "title": "First Mover Asia: When Crypto Rebuilds After This Cold Winter, Firms Like Three Arrows Capital Won't Have a Place; Bitcoin Sinks Toward $20K",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-crypto-rebuilds-000638381.html",
+      "summary": "The article suggests that after the current crypto downturn, firms like Three Arrows Capital, which faced significant liquidity issues, will not have a place in the rebuilt industry. This indicates a potential shake-up and consolidation, where more robust and less leveraged entities will survive. Bitcoin sinking towards $20K reflects the ongoing bearish sentiment and the need for the industry to deleverage and mature.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "three_arrows_capital_default",
+        "crypto_winter",
+        "industry_consolidation",
+        "bitcoin_price_support"
+      ],
+      "rationale": "The failure of highly leveraged firms like Three Arrows Capital signals a necessary deleveraging process in the crypto market. This cleansing, while painful, could lead to a more sustainable industry structure, but the immediate impact is bearish for Bitcoin."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n7177dab57135",
+      "title": "Bitcoin and crypto remain 'durable assets' despite crash: BlackRock's Rieder",
+      "url": "https://finance.yahoo.com/news/black-rocks-rieder-despite-crash-bitcoin-and-ethereum-remain-durable-assets-185304312.html",
+      "summary": "Rick Rieder, BlackRock's chief investment officer of global fixed income, believes Bitcoin and crypto are \"durable assets\" despite the recent crash and the unwinding of leverage. He acknowledges the excess built around crypto but maintains its long-term viability. This perspective from a major institutional player suggests a belief in the underlying value of digital assets, even amidst significant market volatility and deleveraging.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blackrock_cio_sentiment",
+        "durable_assets",
+        "leverage_unwinding",
+        "institutional_adoption"
+      ],
+      "rationale": "BlackRock's CIO viewing crypto as 'durable assets' provides a long-term bullish signal, indicating that major financial institutions still see fundamental value. This institutional conviction can attract future capital, supporting long-term price appreciation."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n139ff62ab36f",
+      "title": "LGT, World’s Largest Family-Owned Private Bank, to Offer Crypto",
+      "url": "https://finance.yahoo.com/news/lgt-world-largest-family-owned-091049964.html",
+      "summary": "LGT Bank, the world's largest family-owned private bank, is expanding its services to include cryptocurrency custody and brokerage for private clients, starting in Switzerland and Liechtenstein. Partnering with SEBA Bank, LGT will offer access to digital assets, managing $285 billion in assets. This move signifies growing institutional adoption and integration of cryptocurrencies into traditional wealth management.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "lgt_bank_crypto_offering",
+        "private_bank_adoption",
+        "wealth_management_integration",
+        "institutional_custody"
+      ],
+      "rationale": "The entry of a large, family-owned private bank like LGT into offering crypto services is a strong indicator of institutional adoption. This expands the infrastructure for crypto adoption and signals growing acceptance within traditional finance."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n145bc7084094",
+      "title": "Crypto Unable to Shake Reputation as Ransomware Tool in Senate Hearing",
+      "url": "https://finance.yahoo.com/news/crypto-unable-shake-reputation-ransomware-165944672.html",
+      "summary": "A Senate hearing highlighted the crypto industry's persistent reputation as an enabler of ransomware. Hackers continue to demand payment in digital assets, leveraging crypto's perceived anonymity to obscure transactions. This ongoing association with illicit activities poses a significant regulatory risk and can deter mainstream adoption and institutional investment, potentially leading to stricter regulations.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "crypto_ransomware_association",
+        "senate_hearing",
+        "regulatory_scrutiny",
+        "illicit_activity_reputation"
+      ],
+      "rationale": "The continued association of crypto with ransomware, highlighted in a Senate hearing, increases the likelihood of stricter regulatory measures. This could stifle innovation and adoption, creating a bearish outlook for the long term."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nc6452616c253",
+      "title": "Cryptoverse: Buying the dip? Bitcoin's a rates rookie",
+      "url": "https://finance.yahoo.com/news/cryptoverse-buying-dip-bitcoins-rates-051715278.html",
+      "summary": "Bitcoin has limited experience with rising interest rates, making it a 'rates rookie.' The cryptocurrency has fallen alongside tech stocks as the Fed tightens policy. During the Fed's previous tightening cycle (2016-2019), Bitcoin was less correlated with stocks and on the fringes of finance. This lack of historical precedent in a rising rate environment creates uncertainty for investors trying to time the market or capitalize on dips.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "bitcoin_rates_rookie",
+        "rising_interest_rates",
+        "fed_tightening",
+        "market_correlation"
+      ],
+      "rationale": "Bitcoin's inexperience in a rising interest rate environment creates significant uncertainty. Its correlation with risk assets suggests it will be sensitive to Fed policy, making its price action unpredictable in the current macro climate."
+    },
+    {
+      "pick_idx": 50,
+      "id": "na9eaaa44f1bb",
+      "title": "FCA willing to regulate crypto but cost concerns remain",
+      "url": "https://finance.yahoo.com/news/fca-willing-regulate-crypto-cost-concerns-remain-130042769.html",
+      "summary": "The UK's Financial Conduct Authority (FCA) is prepared to regulate the crypto market but has concerns about the associated costs. FCA Chair Charles Randell stated that the success of regulating speculative crypto will be judged by outcomes. This indicates a regulatory push but also highlights potential challenges in implementation and cost allocation, which could impact crypto businesses operating in the UK.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "FCA_regulation",
+        "crypto_cost_concerns",
+        "regulatory_framework",
+        "speculative_crypto"
+      ],
+      "rationale": "The FCA's willingness to regulate crypto signals a move towards greater oversight. However, cost concerns could lead to a cautious or phased approach, creating uncertainty about the pace and nature of regulatory changes."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n27e176b0d8ff",
+      "title": "Bruised Bitcoin Due Relief After Crypto Wipeout, Charts Show",
+      "url": "https://finance.yahoo.com/news/bruised-bitcoin-due-relief-crypto-074230651.html",
+      "summary": "Technical indicators suggest that Bitcoin's significant price wipeout may be nearing an end, with ebbing selling pressure and potential for a trading range between $20,000 and $25,000. Momentum measures and options bets signal a possible relief rally. However, the mercurial nature of crypto markets means these indicators should be viewed with caution.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bitcoin_technical_indicators",
+        "ebbing_selling_pressure",
+        "trading_range_prediction",
+        "relief_rally_potential"
+      ],
+      "rationale": "Technical analysis suggests a potential short-term relief rally for Bitcoin, indicating a possible pause in the steep decline. This could lead to a temporary price increase within the predicted range."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n519655180c40",
+      "title": "Bitcoin and ETH Price Prediction: Risk of Downside Break, Why SAND Could Rally",
+      "url": "https://finance.yahoo.com/news/bitcoin-eth-price-prediction-risk-152452353.html",
+      "summary": "Bitcoin struggled to break above $21,600 and corrected lower, consolidating near $20,800. Ether is also moving lower towards $1,165. The Sandbox (SAND) is showing strength, up over 35% this week and potentially continuing its rally. This suggests a divergence in performance, with some altcoins showing resilience or strength while Bitcoin and Ethereum face downside risk.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "technical",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "bitcoin_downside_risk",
+        "eth_support_level",
+        "SAND_rally_potential",
+        "altcoin_divergence"
+      ],
+      "rationale": "Bitcoin's failure to hold above $21,600 and subsequent decline indicates continued bearish pressure. This suggests a risk of further downside in the very short term, impacting overall market sentiment."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n2f44e7903cce",
+      "title": "Bitcoin-Related Voyager Digital Issues Default Notice To Three Arrows Capital",
+      "url": "https://finance.yahoo.com/news/bitcoin-related-voyager-digital-issues-125315799.html",
+      "summary": "Voyager Digital has issued a notice of default to Three Arrows Capital (3AC) for failing to repay a loan of 15,250 BTC and $350 million USDC, totaling over $670 million. Voyager intends to pursue recovery and is exploring legal remedies. This development exacerbates the credit crunch for 3AC, which is already under pressure, and highlights the cascading effects of defaults in the crypto market.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "liquidity",
+        "legal",
+        "institutional"
+      ],
+      "features_for_model": [
+        "voyager_default_notice",
+        "three_arrows_capital_default",
+        "loan_repayment_failure",
+        "crypto_credit_crunch"
+      ],
+      "rationale": "The default notice from Voyager to 3AC signifies further distress in the crypto lending sector. This news can increase fear and uncertainty, potentially leading to further selling pressure on Bitcoin and other cryptocurrencies."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nebe9220517d0",
+      "title": "Bitcoin miners sell their holdings amid crypto winter's chill",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-sell-holdings-amid-165733091.html",
+      "summary": "Bitcoin miners are increasingly selling their mined coins to cover operational costs like rising energy prices and increased competition. Data shows a steady climb in coins sent to exchanges since June 7. Several publicly listed miners sold over 100% of their May output as Bitcoin's value dropped. This indicates miners are under financial pressure, potentially leading to increased selling on exchanges.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "miner_selling",
+        "energy_costs",
+        "mining_profitability",
+        "exchange_inflows"
+      ],
+      "rationale": "Increased selling pressure from Bitcoin miners, forced by profitability issues, can add to the supply on exchanges. This could contribute to downward price pressure in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nfd226ba02ebd",
+      "title": "Bitcoin (BTC) Under Pressure as the Bitcoin Fear & Greed Index Retreats",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-under-pressure-bitcoin-004123135.html",
+      "summary": "Bitcoin experienced a bearish Sunday session, falling 2.06% to $21,032, with investor angst returning ahead of the NASDAQ futures open. Technical indicators remain bearish, although Bitcoin is trading above its 50-day EMA. The retreat in the Fear & Greed Index suggests increasing investor caution and potential for further price declines.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "technical",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_fear_greed_index",
+        "investor_angst",
+        "bearish_technical_indicators",
+        "market_sentiment"
+      ],
+      "rationale": "The retreat in the Fear & Greed Index and bearish technical indicators suggest a negative short-term sentiment for Bitcoin, increasing the risk of further price drops."
+    },
+    {
+      "pick_idx": 10,
+      "id": "naf0776fe503f",
+      "title": "A $2 Trillion Free-Fall Rattles Crypto to the Core",
+      "url": "https://finance.yahoo.com/news/2-trillion-free-fall-rattles-230033105.html",
+      "summary": "The crypto market has experienced a $2 trillion free-fall, causing panic and posing a threat to its survival. This widespread sell-off, driven by a 'risk-off' sentiment, highlights the interconnectedness and fragility of the ecosystem. The article suggests that the industry's ethos is being tested, and the current downturn could lead to significant restructuring.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crypto_market_crash",
+        "trillion_dollar_loss",
+        "risk_off_sentiment",
+        "ecosystem_fragility"
+      ],
+      "rationale": "The massive $2 trillion market cap reduction signifies extreme bearish sentiment and panic. This indicates that the selling pressure is likely to continue in the short term, impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n936e3c3184db",
+      "title": "SEC v Ripple: XRP Makes a Move Ahead of Key Court Ruling",
+      "url": "https://finance.yahoo.com/news/sec-v-ripple-xrp-makes-015002932.html",
+      "summary": "XRP experienced a modest decline of 2.31% on Sunday, with investors focusing on the upcoming court ruling regarding William Hinman's speech documents in the SEC v. Ripple case. Despite the broader market downturn, XRP's downside was limited, and technical indicators remain bullish, with XRP trading above its 100-day EMA. The outcome of this legal battle could significantly impact XRP and potentially other cryptocurrencies.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "legal",
+        "regulation"
+      ],
+      "features_for_model": [
+        "sec_v_ripple",
+        "xrp_court_ruling",
+        "hinman_speech_documents",
+        "legal_uncertainty"
+      ],
+      "rationale": "The upcoming court ruling in the SEC v. Ripple case introduces significant legal uncertainty. While XRP shows some bullish technicals, the outcome could lead to volatility, making its short-term direction unpredictable."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n003a3e7aefa0",
+      "title": "Market Wrap: Recession Fears Halt Crypto Bounce",
+      "url": "https://finance.yahoo.com/news/market-wrap-recession-fears-halt-203546195.html",
+      "summary": "Bitcoin is trading around $20,800, holding above the $20,000 level but facing headwinds from recession fears. Analysts are not optimistic about a sustained rally. The market sentiment remains cautious, with the potential for further price declines if macroeconomic concerns persist or worsen.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "technical"
+      ],
+      "features_for_model": [
+        "recession_fears",
+        "bitcoin_support_level",
+        "market_sentiment",
+        "rally_prospects"
+      ],
+      "rationale": "Recession fears are dampening any potential crypto bounce, suggesting that macroeconomic concerns will continue to weigh on Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n3eccd741fa8a",
+      "title": "Few Signs of Upward Momentum as Bitcoin Holds $20K",
+      "url": "https://finance.yahoo.com/news/few-signs-upward-momentum-bitcoin-171705966.html",
+      "summary": "Bitcoin is trading at $20,737, down 3% in the past 24 hours, with few signs of upward momentum. Higher interest rates and widespread risk aversion are curbing upside potential. The market sentiment remains downbeat, suggesting that rallies are likely to be short-lived and met with selling pressure.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "technical"
+      ],
+      "features_for_model": [
+        "bitcoin_momentum",
+        "risk_aversion",
+        "interest_rates",
+        "market_sentiment"
+      ],
+      "rationale": "The lack of upward momentum and continued risk aversion suggest that Bitcoin is likely to remain under pressure in the short term, with rallies being capped by selling interest."
+    },
+    {
+      "pick_idx": 47,
+      "id": "nc531cc89e66f",
+      "title": "Goldman Sachs Analyst Downgrades Coinbase to Sell As Crypto Winter Takes Hold",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-analyst-downgrades-coinbase-161756589.html",
+      "summary": "Goldman Sachs analyst Will Nance downgraded Coinbase (COIN) to 'Sell' from 'Neutral,' citing the ongoing crypto winter, falling crypto prices, and reduced industry activity. The price target was cut to $45 from $70. This downgrade reflects a bearish outlook on crypto-related equities due to the prevailing market conditions.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "goldman_sachs_downgrade",
+        "coinbase_sell_rating",
+        "crypto_winter",
+        "industry_activity_levels"
+      ],
+      "rationale": "A major analyst downgrade of a key crypto exchange like Coinbase signals a bearish sentiment among institutional analysts. This can lead to further selling pressure on the stock and potentially impact broader crypto market sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-06-27",
+    "summary": "Bitcoin is holding steady around the $20,000-$21,000 level, but sentiment remains cautious due to ongoing recession fears and the impact of the crypto winter. Technical indicators suggest a potential short-term relief rally, but the broader market is still under pressure from macroeconomic factors and the fallout from crypto lender defaults. Miners are also selling holdings, adding to selling pressure. Institutional sentiment is mixed, with some seeing long-term value while regulatory concerns persist.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Continued macroeconomic headwinds (inflation, interest rate hikes, recession fears).",
+      "Further contagion from crypto lender defaults and liquidity crises.",
+      "Increased regulatory scrutiny and potential for adverse legal rulings (e.g., SEC v. Ripple).",
+      "Miner selling pressure impacting supply dynamics.",
+      "Lack of strong upward momentum and persistent bearish sentiment."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and economic data releases.",
+      "Developments in the SEC v. Ripple case.",
+      "Performance of major crypto lenders and hedge funds (e.g., Celsius, Three Arrows Capital).",
+      "Bitcoin miner selling activity and exchange flows.",
+      "Key technical support/resistance levels for Bitcoin ($20,000, $25,000)."
+    ]
+  }
+}

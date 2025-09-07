@@ -1,0 +1,496 @@
+{
+  "date": "2022-04-23",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n2030e8ae1ed2",
+      "title": "Market Wrap: Bitcoin Sell-Off Deepens as Correlation With Stocks Rises",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-sell-off-204607563.html",
+      "summary": "Bitcoin's price decline is accelerating, mirroring losses in global equities. This trend suggests investors are reducing exposure to speculative assets like stocks and cryptocurrencies due to inflation and slower economic growth concerns. The rising 10-year Treasury yield further exacerbates this by reducing the present value of tech stocks, potentially impacting risk assets like Bitcoin. This heightened correlation with traditional markets indicates Bitcoin is increasingly susceptible to macroeconomic shifts.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "stock_correlation",
+        "inflation_hedge",
+        "treasury_yield"
+      ],
+      "rationale": "The increasing correlation between Bitcoin and traditional stock markets, particularly tech stocks, signals that macroeconomic factors are heavily influencing BTC's price. Rising inflation and interest rates are bearish for risk assets, suggesting a continued downward trend for Bitcoin in the medium term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n5612e783bb57",
+      "title": "Crypto Sees $242M in Liquidations Within Hours Amid Russia-Ukraine Crisis",
+      "url": "https://finance.yahoo.com/news/crypto-sees-242m-liquidations-within-062706939.html",
+      "summary": "The escalating Russia-Ukraine conflict triggered significant liquidations across crypto markets, exceeding $242 million in a short period. Bitcoin futures saw the largest liquidations, followed by Ether. This event highlights the sensitivity of crypto markets to geopolitical instability and the potential for rapid price swings and cascading liquidations when major global events unfold.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "geopolitical_risk",
+        "liquidation_event",
+        "market_volatility"
+      ],
+      "rationale": "Geopolitical events like the Russia-Ukraine conflict directly impact crypto markets, leading to increased volatility and liquidations. This demonstrates Bitcoin's vulnerability to global macro risks, suggesting a bearish sentiment can be triggered by such events over several months."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nb72da4e042bb",
+      "title": "Crypto donations are a more efficient way to fund Ukraine's defense needs and are being spent on bulletproof vests and rations, a top minister says",
+      "url": "https://finance.yahoo.com/news/crypto-donations-more-efficient-way-170741301.html",
+      "summary": "Ukraine's military defense has been significantly aided by crypto donations, which are processed faster than traditional banking systems. Funds have been used for essential supplies like bulletproof vests and rations, demonstrating the practical utility of cryptocurrencies in real-world scenarios. This adoption by a nation-state for critical needs signals growing acceptance and integration of crypto into global financial and humanitarian efforts.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ukraine_war_funding",
+        "crypto_utility",
+        "nation_state_adoption"
+      ],
+      "rationale": "The use of crypto for tangible defense needs in Ukraine showcases its growing utility and adoption beyond speculation. This real-world application can foster broader institutional and public trust, contributing to long-term bullish sentiment."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nc5a7ed94f763",
+      "title": "Goldman Sachs Conducts First Over-the-Counter Crypto Trade With Galaxy",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-conducts-first-over-123457182.html",
+      "summary": "Goldman Sachs, a major Wall Street institution, has executed its first over-the-counter (OTC) cryptocurrency trade with Galaxy Digital. This transaction, a bitcoin non-deliverable option, signifies a significant step in traditional finance's engagement with digital assets. It indicates a growing acceptance and integration of crypto into the established financial system, paving the way for more institutional participation.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "goldman_sachs",
+        "OTC_trade",
+        "institutional_adoption"
+      ],
+      "rationale": "The involvement of a major investment bank like Goldman Sachs in OTC crypto trading is a strong signal of institutional acceptance. This move legitimizes the asset class and is likely to attract further institutional capital, driving long-term bullish sentiment."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n905b97da4d2f",
+      "title": "If Crypto Belongs in Retirement Accounts, Where Are the Assets?",
+      "url": "https://finance.yahoo.com/news/crypto-belongs-retirement-accounts-where-135000273.html",
+      "summary": "The article discusses the potential for cryptocurrencies to be included in retirement accounts, such as Self-Directed IRAs (SDIRAs). While the ability exists, setup has been challenging. However, new custodial offerings are emerging, driven by the digital asset industry. This trend suggests a growing pathway for crypto integration into long-term investment vehicles, potentially increasing demand and adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "retirement_accounts",
+        "IRA_adoption",
+        "custodial_services"
+      ],
+      "rationale": "The increasing accessibility of crypto within retirement accounts, facilitated by new custodial solutions, opens up a significant new avenue for capital inflow. This integration into long-term investment strategies is a strong bullish indicator for sustained demand."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n5a2ad9c3881a",
+      "title": "Blockchain.com Raises New Funding at $14 Billion Valuation",
+      "url": "https://finance.yahoo.com/news/blockchain-com-raises-funding-14-215935093.html",
+      "summary": "Blockchain.com has secured new funding, valuing the company at approximately $14 billion. This significant valuation, achieved amidst turbulent venture capital markets, indicates strong investor confidence in the crypto sector. Such funding rounds for major crypto infrastructure companies suggest continued growth and development in the industry.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockchain_com_funding",
+        "valuation_increase",
+        "VC_sentiment"
+      ],
+      "rationale": "A substantial funding round for a key crypto infrastructure player like Blockchain.com at a high valuation demonstrates robust investor confidence. This capital infusion supports industry growth and signals a positive long-term outlook."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n9acab1435756",
+      "title": "UPDATE - Wattum Expands US Presence with 14 MW Bitcoin Mining Facility in Georgia",
+      "url": "https://finance.yahoo.com/news/wattum-expands-us-presence-14-100000857.html",
+      "summary": "Wattum is expanding its US operations by establishing a 14 MW Bitcoin mining facility in Georgia, in partnership with EZ Blockchain. This expansion involves mobile mining containers and a mobile data center site. The growth in mining infrastructure, particularly in the US, indicates increasing investment and operational capacity within the Bitcoin mining sector.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "mining_facility_expansion",
+        "US_mining_capacity",
+        "colocation_services"
+      ],
+      "rationale": "The expansion of Bitcoin mining infrastructure, especially in the US, signifies increased network security and hash rate. This growth in mining capacity is a fundamental bullish factor for Bitcoin's long-term health and value."
+    },
+    {
+      "pick_idx": 29,
+      "id": "nffcf3c9bc047",
+      "title": "The gold industry sees blockchain as a salvation for the bullion black market",
+      "url": "https://finance.yahoo.com/news/gold-industry-sees-blockchain-salvation-215322912.html",
+      "summary": "The gold industry is exploring blockchain technology to combat the black market for bullion. A pilot project by the London Bullion Market Association and World Gold Council aims to track gold bars' entire transaction history using a digital ledger. This initiative could enhance transparency and trust in the gold market, potentially drawing parallels to how blockchain can improve transparency in other asset markets, including crypto.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "gold_blockchain",
+        "supply_chain_transparency",
+        "asset_tracking"
+      ],
+      "rationale": "The adoption of blockchain by the gold industry for supply chain integrity highlights the technology's potential to bring transparency and trust to traditional assets. This broader acceptance of blockchain principles can indirectly benefit the perception and adoption of cryptocurrencies."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n886ecd19e16f",
+      "title": "DMG Announces Preliminary Q1 2021-2 Revenue Guidance of $13.5 - $14 Million",
+      "url": "https://finance.yahoo.com/news/dmg-announces-preliminary-q1-2021-110000579.html",
+      "summary": "DMG Blockchain Solutions Inc. has released preliminary Q1 revenue guidance of $13.5-$14 million, with an increase in mining capacity due to new crypto miners. This indicates operational growth and expansion in the Bitcoin mining sector. Such positive financial indicators from mining companies can contribute to overall market sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "DMG_revenue_guidance",
+        "mining_capacity_increase",
+        "Q1_earnings"
+      ],
+      "rationale": "Positive revenue guidance and increased mining capacity for a company like DMG suggest a healthy and expanding mining sector. This operational growth is a fundamental positive for Bitcoin's network and price."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n57117087d51e",
+      "title": "Blockware Solutions Builds 20MW Bitcoin Mining Data Center in Kentucky",
+      "url": "https://finance.yahoo.com/news/blockware-solutions-builds-20mw-bitcoin-130000377.html",
+      "summary": "Blockware Solutions has completed a 20MW Bitcoin mining data center in Kentucky, with plans for further expansion. This facility will offer co-location services for mining rigs. The development of new, large-scale mining infrastructure, particularly in the US, signifies continued investment and growth in the Bitcoin mining industry, contributing to network security and decentralization.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "mining_data_center",
+        "Kentucky_mining",
+        "co-location_services"
+      ],
+      "rationale": "The construction of new, substantial Bitcoin mining facilities, like Blockware's in Kentucky, indicates ongoing investment in the sector. This expansion of mining power strengthens the Bitcoin network and is a positive indicator for its long-term value."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n31d2f5310c93",
+      "title": "Binance Calls Out Reuters with False Claim Narrative",
+      "url": "https://finance.yahoo.com/news/binance-calls-reuters-false-claim-003733459.html",
+      "summary": "Binance has denied a Reuters report alleging it shared user data with Russian authorities, calling the claim \"categorically false.\" This follows Binance's announcement of limited services to Russians due to EU sanctions. The dispute highlights ongoing scrutiny of major exchanges regarding compliance and data privacy, potentially impacting user trust and exchange operations.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Binance_Reuters_dispute",
+        "user_data_privacy",
+        "sanctions_compliance"
+      ],
+      "rationale": "The denial of a serious allegation by Binance creates uncertainty. While a false claim could boost confidence if proven, the ongoing dispute might lead to short-term volatility or regulatory attention."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n747b2db94567",
+      "title": "How Crypto Is Failing Spectacularly to Greenwash Itself",
+      "url": "https://finance.yahoo.com/news/crypto-failing-spectacularly-greenwash-itself-035221911.html",
+      "summary": "The article criticizes the crypto industry's environmental impact, comparing Bitcoin's energy consumption to that of the Czech Republic and its e-waste to the Netherlands. It argues that efforts to 'greenwash' the industry are failing due to the inherent energy-intensive nature of many cryptocurrencies, potentially leading to negative sentiment and regulatory pressure.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_environmental_impact",
+        "ESG_concerns",
+        "energy_consumption"
+      ],
+      "rationale": "Negative press regarding crypto's environmental impact can lead to increased regulatory scrutiny and dampen investor sentiment, potentially causing short-term price dips."
+    },
+    {
+      "pick_idx": 3,
+      "id": "naebbd3f8db50",
+      "title": "Why the Hell Are People Getting Married in the Metaverse?",
+      "url": "https://finance.yahoo.com/news/metaverse-weddings-aren-t-legit-040819886.html",
+      "summary": "The article explores the trend of metaverse weddings, noting that while not legally binding, these virtual ceremonies are gaining traction. It highlights the use of NFTs as party favors, indicating a growing integration of digital assets and virtual worlds. This trend, while niche, points to broader adoption of metaverse concepts.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "metaverse_weddings",
+        "NFT_utility",
+        "virtual_events"
+      ],
+      "rationale": "While metaverse weddings are a novel concept, their mention alongside NFTs suggests a growing interest in virtual experiences and digital ownership, which could indirectly influence broader crypto adoption."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1f575f3c68b6",
+      "title": "Crypto.Com Commits to a Four-Year Crypto Research Program with MIT",
+      "url": "https://finance.yahoo.com/news/crypto-com-commits-four-crypto-043057502.html",
+      "summary": "Crypto.com is launching a four-year research program with MIT, aiming to build a sustainable blockchain ecosystem. This collaboration signifies a commitment to advancing blockchain technology and its applications. Such partnerships can enhance the credibility and long-term viability of the crypto space.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Crypto.com_MIT_research",
+        "blockchain_sustainability",
+        "academic_collaboration"
+      ],
+      "rationale": "A partnership between a major crypto exchange and a prestigious institution like MIT for research signals a focus on long-term development and sustainability, which is generally positive for market sentiment."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n9b5a47b2d020",
+      "title": "Crypto is the hottest new political token — and it's working out for politicians who sing its praises",
+      "url": "https://finance.yahoo.com/news/crypto-hottest-political-token-working-111500236.html",
+      "summary": "Cryptocurrency is becoming a significant political talking point, with politicians like Miami Mayor Francis Suarez championing its adoption. This growing political support could lead to more favorable regulations and increased mainstream acceptance, potentially boosting crypto's price and adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "political_adoption",
+        "crypto_lobbying",
+        "regulatory_tailwinds"
+      ],
+      "rationale": "Increased political endorsement and potential for favorable regulation can significantly boost investor confidence and adoption, creating a short-term bullish effect."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n91138fe86c44",
+      "title": "Finixio Bullish on Crypto and Increases Acquisitions and Investments",
+      "url": "https://finance.yahoo.com/news/finixio-bullish-crypto-increases-acquisitions-153300256.html",
+      "summary": "Finixio, a crypto media and customer acquisition company, is aggressively expanding its portfolio through acquisitions. With a significant monthly visitor count across its websites, the company's bullish stance and investment in the crypto space indicate growing confidence in the industry's future and potential for user acquisition.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Finixio_acquisitions",
+        "crypto_media_growth",
+        "customer_acquisition"
+      ],
+      "rationale": "Company investments and acquisitions in the crypto media space signal a positive outlook and potential for increased user engagement, which can have a minor short-term bullish impact."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n789191e36fde",
+      "title": "Don't call him CEO: Jack Dorsey says he's 'Block Head' now",
+      "url": "https://finance.yahoo.com/news/dont-call-him-ceo-jack-220621339.html",
+      "summary": "Jack Dorsey has changed his title from CEO of Block Inc. to 'Block Head,' a semantic shift with no change in responsibilities. This news, while minor, involves a prominent figure in the crypto and tech space. Such personal branding changes can sometimes generate minor market chatter.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Jack_Dorsey_title_change",
+        "Block_Inc_branding",
+        "tech_personality"
+      ],
+      "rationale": "A title change for a prominent figure like Jack Dorsey is unlikely to have a significant impact on Bitcoin's price, but it might generate minor, short-lived market noise."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n31d2f5310c93",
+      "title": "Binance Calls Out Reuters with False Claim Narrative",
+      "url": "https://finance.yahoo.com/news/binance-calls-reuters-false-claim-003733459.html",
+      "summary": "Binance has denied a Reuters report alleging it shared user data with Russian authorities, calling the claim \"categorically false.\" This follows Binance's announcement of limited services to Russians due to EU sanctions. The dispute highlights ongoing scrutiny of major exchanges regarding compliance and data privacy, potentially impacting user trust and exchange operations.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Binance_Reuters_dispute",
+        "user_data_privacy",
+        "sanctions_compliance"
+      ],
+      "rationale": "The denial of a serious allegation by Binance creates uncertainty. While a false claim could boost confidence if proven, the ongoing dispute might lead to short-term volatility or regulatory attention."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n747b2db94567",
+      "title": "How Crypto Is Failing Spectacularly to Greenwash Itself",
+      "url": "https://finance.yahoo.com/news/crypto-failing-spectacularly-greenwash-itself-035221911.html",
+      "summary": "The article criticizes the crypto industry's environmental impact, comparing Bitcoin's energy consumption to that of the Czech Republic and its e-waste to the Netherlands. It argues that efforts to 'greenwash' the industry are failing due to the inherent energy-intensive nature of many cryptocurrencies, potentially leading to negative sentiment and regulatory pressure.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_environmental_impact",
+        "ESG_concerns",
+        "energy_consumption"
+      ],
+      "rationale": "Negative press regarding crypto's environmental impact can lead to increased regulatory scrutiny and dampen investor sentiment, potentially causing short-term price dips."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n1f575f3c68b6",
+      "title": "Crypto.Com Commits to a Four-Year Crypto Research Program with MIT",
+      "url": "https://finance.yahoo.com/news/crypto-com-commits-four-crypto-043057502.html",
+      "summary": "Crypto.com is launching a four-year research program with MIT, aiming to build a sustainable blockchain ecosystem. This collaboration signifies a commitment to advancing blockchain technology and its applications. Such partnerships can enhance the credibility and long-term viability of the crypto space.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Crypto.com_MIT_research",
+        "blockchain_sustainability",
+        "academic_collaboration"
+      ],
+      "rationale": "A partnership between a major crypto exchange and a prestigious institution like MIT for research signals a focus on long-term development and sustainability, which is generally positive for market sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-04-23",
+    "summary": "The market sentiment remains mixed, with ongoing concerns about macroeconomic factors like inflation and geopolitical risks weighing on Bitcoin's price, as indicated by its correlation with stocks. However, positive developments such as institutional adoption (Goldman Sachs) and growing political support for crypto offer potential upside. The crypto industry is also facing scrutiny over its environmental impact, which could lead to regulatory pressure. Short-term, exchange-related news and research initiatives are creating minor price movements.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued correlation with traditional markets and sensitivity to macroeconomic data (inflation, interest rates).",
+      "Increased regulatory scrutiny due to environmental concerns and compliance issues faced by exchanges.",
+      "Geopolitical instability impacting global risk appetite.",
+      "Potential for further liquidations if market sentiment shifts negatively."
+    ],
+    "watch_items": [
+      "US inflation data releases",
+      "Statements from central banks (Fed, ECB)",
+      "Developments in Russia-Ukraine conflict",
+      "Major exchange compliance news (e.g., Binance)",
+      "Institutional investor activity in crypto"
+    ]
+  }
+}

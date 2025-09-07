@@ -1,0 +1,504 @@
+{
+  "date": "2018-01-08",
+  "long_term": [
+    {
+      "pick_idx": 10,
+      "id": "nd3e90d990e8a",
+      "title": "Explainer: What is bitcoin?",
+      "url": "https://finance.yahoo.com/news/bitcoin-blockchain-explainer-131326358.html",
+      "summary": "The final months of 2017 saw significant bitcoin mania, with its value soaring near $20,000 before settling below $15,000, representing a 1,500% increase for the year. Mainstream financial exchanges like CME and Cboe began offering bitcoin futures trading, indicating growing institutional interest. Coinbase, a major bitcoin brokerage, surpassed 13 million users, highlighting increased retail adoption. Despite the frenzy, the article notes that cryptocurrencies are still in their infancy.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "bitcoin_mania",
+        "futures_launch",
+        "retail_adoption",
+        "institutional_interest"
+      ],
+      "rationale": "The surge in user adoption and the introduction of futures trading by major exchanges signal a maturing market and increasing institutional acceptance, which are strong long-term bullish indicators for Bitcoin."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n1443747b4145",
+      "title": "Bitcoin is a concern but not a currency, says City watchdog chief",
+      "url": "https://finance.yahoo.com/news/bitcoin-concern-not-currency-says-191240013.html",
+      "summary": "Andrew Bailey, the UK's city watchdog chief, expressed \"big concern\" for retail investors in Bitcoin, classifying it as a commodity rather than a currency. He noted its extreme volatility, referencing a surge to $11,000 followed by a $2,000 drop, and fears of a bubble. This regulatory perspective, while cautious, acknowledges Bitcoin's existence and its commodity-like properties, which could influence future regulatory frameworks.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "regulatory_stance",
+        "commodity_classification",
+        "bubble_fears"
+      ],
+      "rationale": "Regulatory statements, even cautious ones, shape market perception and future policy. Classifying Bitcoin as a commodity rather than a currency sets a precedent for how it will be treated, impacting its long-term utility and investment landscape."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n00c8542dc8e2",
+      "title": "'More to come' after bitcoin futures launch: Cboe CEO",
+      "url": "https://finance.yahoo.com/news/more-come-bitcoin-futures-launch-cboe-ceo-203052176--sector.html",
+      "summary": "Cboe Global Markets CEO Ed Tilly indicated that the successful launch of bitcoin futures could lead to the development of other cryptocurrency-related products, such as options and ETFs. He expressed confidence in building market confidence and suggested further developments are anticipated. This forward-looking statement from a major exchange operator highlights a commitment to integrating digital assets into traditional financial markets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "ETF"
+      ],
+      "features_for_model": [
+        "cboe_ceo_outlook",
+        "futures_success",
+        "etf_potential",
+        "crypto_products"
+      ],
+      "rationale": "The Cboe CEO's statement directly signals a pipeline of future institutional products, including ETFs, which would significantly increase accessibility and capital inflow into the crypto market."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n76dc985dc162",
+      "title": "SEC halts trading in crypto firm after eye-popping rise",
+      "url": "https://finance.yahoo.com/news/sec-suspends-trading-tiny-firm-153702777.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) temporarily suspended trading in The Crypto Company due to concerns about the accuracy of information and potentially manipulative transactions. The firm's stock had seen a massive increase of over 2,700% in December. This action by the SEC underscores the growing regulatory scrutiny on the cryptocurrency space and highlights the risks associated with highly speculative, thinly traded crypto-related stocks.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_action",
+        "trading_halt",
+        "manipulation_concerns",
+        "crypto_company_scrutiny"
+      ],
+      "rationale": "SEC intervention in crypto-related companies signals increased regulatory oversight and potential crackdowns on market manipulation, which can dampen speculative sentiment and create uncertainty."
+    },
+    {
+      "pick_idx": 32,
+      "id": "nae2400dcfaec",
+      "title": "What is litecoin? How is it different from bitcoin?",
+      "url": "https://finance.yahoo.com/news/litecoin-everything-need-know-184858570.html",
+      "summary": "Litecoin, created in 2011 by Charlie Lee, is an alternative cryptocurrency that had seen an 8,000% increase in value by December 19, 2017, significantly outperforming Bitcoin. As the fifth-largest cryptocurrency by market cap and the third-oldest existing one, Litecoin's substantial growth indicates broader adoption and interest in altcoins beyond Bitcoin, suggesting a diversifying crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "litecoin_growth",
+        "altcoin_performance",
+        "diversification"
+      ],
+      "rationale": "The significant outperformance of Litecoin demonstrates growing interest and adoption of altcoins, indicating a maturing cryptocurrency ecosystem beyond just Bitcoin, which is a positive long-term development."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nc7b120400cd4",
+      "title": "Venezuela oil-backed cryptocurrency to launch in days - government",
+      "url": "https://finance.yahoo.com/news/venezuela-oil-backed-cryptocurrency-launch-041937120.html",
+      "summary": "Venezuela announced the imminent launch of its oil-backed cryptocurrency, the 'petro,' backed by 5.3 billion barrels of oil. This initiative aims to combat a severe financial crisis. Despite skepticism from experts regarding its feasibility, the government's move signifies a state-level attempt to leverage blockchain technology for economic stabilization, potentially influencing how other nations view and adopt cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "venezuela_petro",
+        "oil_backed_crypto",
+        "state_adoption",
+        "economic_crisis"
+      ],
+      "rationale": "While the Venezuelan 'petro' is highly controversial and faces significant skepticism, its existence as a state-backed cryptocurrency could set a precedent or influence discussions around sovereign digital currencies and the use of blockchain for economic policy."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n6c98729ec049",
+      "title": "Analysis: Bubble or breakthrough? Bitcoin keeps central bankers on edge",
+      "url": "https://finance.yahoo.com/news/analysis-bubble-breakthrough-bitcoin-keeps-central-bankers-edge-071700589--business.html",
+      "summary": "Central bankers view Bitcoin's success as a bubble but are concerned about its threat to their control over the banking system and money supply, which could undermine monetary policy. With Bitcoin's rapid price increases, they also fear blame if the market crashes. Consequently, many central banks are advocating for regulations to exert control over the cryptocurrency space.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "central_banker_concerns",
+        "bubble_vs_breakthrough",
+        "monetary_policy_threat",
+        "regulatory_advocacy"
+      ],
+      "rationale": "The unease of central bankers and their push for regulation highlight the growing systemic importance of Bitcoin and cryptocurrencies, even if viewed as a bubble. This pressure will likely lead to increased regulatory frameworks that will shape the long-term market."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n31b63c3a9500",
+      "title": "What's in Store for NVIDIA’s Cryptocurrency Business in 2018?",
+      "url": "https://finance.yahoo.com/news/apos-store-nvidia-cryptocurrency-business-201000750.html",
+      "summary": "NVIDIA had a strong 2017, with its stock up 82%, driven by its core market platforms and a notable boost from the rise in cryptocurrency prices. The company's GPUs are essential for cryptocurrency mining. The article discusses the potential for NVIDIA's cryptocurrency business in 2018, acknowledging the significant impact of crypto on its performance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "nvidia_gpu",
+        "crypto_mining_demand",
+        "2017_performance",
+        "2018_outlook"
+      ],
+      "rationale": "NVIDIA's business is directly tied to the demand for GPUs used in crypto mining. Continued growth in mining operations, driven by cryptocurrency adoption, directly benefits NVIDIA, making it a proxy for the underlying crypto infrastructure growth."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n58b3c26ea64d",
+      "title": "Music streamers Spotify, Tencent invest in each other",
+      "url": "https://finance.yahoo.com/news/music-streamers-spotify-tencent-invest-204200043.html",
+      "summary": "Music streaming services Spotify and Tencent are making strategic investments in each other as both companies prepare for public offerings. This cross-investment aims to strengthen relationships between the two dominant music streaming platforms globally. While not directly related to crypto, such strategic partnerships and IPO preparations in major tech sectors can influence overall market sentiment and capital flows.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "spotify_tencent_partnership",
+        "ipo_preparations",
+        "tech_sector_investment"
+      ],
+      "rationale": "While not directly crypto-related, major tech sector investments and IPOs can influence broader market liquidity and investor risk appetite, indirectly impacting speculative assets like Bitcoin."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n701ef0317b7a",
+      "title": "Will Square Stock Double Again in 2018?",
+      "url": "https://finance.yahoo.com/news/square-stock-double-again-2018-180000189.html",
+      "summary": "Square, a mobile payments provider, saw a 154% stock increase in 2017, significantly outperforming the market. Its success is attributed to strong merchant adoption, consistent positive earnings reports, and its perception as a 'bitcoin play.' The article questions whether Square can maintain this momentum in 2018, given the high expectations and its association with Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "square_stock_performance",
+        "bitcoin_play",
+        "merchant_adoption",
+        "2018_expectations"
+      ],
+      "rationale": "Square's strong performance and its positioning as a 'bitcoin play' indicate that traditional financial companies integrating crypto services can benefit from the broader crypto market's growth, suggesting a positive correlation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "n1a3badd97b4c",
+      "title": "Bitcoin slides as website drops South Korea prices from virtual currency rates",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-below-15-000-south-korea-reviews-140333217.html",
+      "summary": "Bitcoin and other cryptocurrencies experienced a significant drop after CoinMarketCap removed South Korean exchange prices from its calculations without warning. This exclusion, particularly from South Korean exchanges where prices traded at a premium, caused confusion and triggered a broad sell-off. The move highlights the sensitivity of crypto markets to data aggregation and the impact of South Korean market dynamics.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "listing"
+      ],
+      "features_for_model": [
+        "coinmarketcap_exclusion",
+        "south_korea_premium",
+        "data_aggregation_impact",
+        "crypto_selloff"
+      ],
+      "rationale": "The sudden removal of South Korean prices from major aggregators directly impacted perceived market value, causing immediate confusion and a sharp sell-off across the crypto market."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n928f67330618",
+      "title": "Ripple’s XRP cryptocurrency is plunging",
+      "url": "https://finance.yahoo.com/news/ripple-xrp-cryptocurrency-plunging-153900593.html",
+      "summary": "Ripple's XRP, the third-largest cryptocurrency, saw a significant plunge of up to 20% on Monday morning. This decline occurred as all major digital tokens faced pressure, exacerbated by Coinmarketcap's decision to exclude XRP prices from Korean exchanges. XRP is down 38% from its recent all-time high, reflecting increased volatility and sensitivity to data sources.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "liquidity",
+        "listing"
+      ],
+      "features_for_model": [
+        "xrp_plunge",
+        "coinmarketcap_exclusion",
+        "market_pressure",
+        "volatility"
+      ],
+      "rationale": "The sharp decline in XRP, linked to the same data exclusion event affecting Bitcoin, demonstrates the interconnectedness and sensitivity of altcoins to market data and broader sentiment shifts."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nb6e52420cec4",
+      "title": "Bitcoin is an asset, not a currency - Israel's central bank",
+      "url": "https://finance.yahoo.com/news/bitcoin-asset-not-currency-israels-131611155.html",
+      "summary": "Israel's central bank stated that virtual currencies like Bitcoin will not be recognized as actual currency and that regulating them poses challenges for banks. While not directly impacting trading, this official stance from a central bank adds to the growing global regulatory discourse and uncertainty surrounding cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "israel_central_bank",
+        "asset_classification",
+        "regulatory_challenge",
+        "currency_status"
+      ],
+      "rationale": "The classification of Bitcoin as an asset rather than a currency by another central bank contributes to a fragmented global regulatory landscape, creating short-term uncertainty for market participants."
+    },
+    {
+      "pick_idx": 15,
+      "id": "neef977c20268",
+      "title": "Bitcoin slides as website drops South Korea prices from virtual currency rates",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-below-15-000-140330522.html",
+      "summary": "Bitcoin experienced a significant decline as CoinMarketCap removed South Korean exchange prices from its calculations without prior notice. This action, which excluded data from exchanges where virtual currencies traded at a premium, led to widespread confusion and a broad sell-off. The event underscores the impact of data aggregation and the premium pricing observed in the South Korean market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "listing"
+      ],
+      "features_for_model": [
+        "coinmarketcap_exclusion",
+        "south_korea_premium",
+        "data_aggregation_impact",
+        "crypto_selloff"
+      ],
+      "rationale": "This is a duplicate of pick_idx 3, reinforcing the immediate negative impact of the CoinMarketCap data exclusion on Bitcoin's price."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n62083a0e39dd",
+      "title": "E-mini S&P 500 Index (ES) Futures Technical Analysis – Trader Reaction to 2735.00 Will Determine Direction This Week",
+      "url": "https://finance.yahoo.com/news/e-mini-p-500-index-064551861.html",
+      "summary": "March E-mini S&P 500 Index futures surged to a record high, continuing a rally that began in August 2017. The index has shown consistent weekly gains, driven by momentum. The article suggests investors should prepare for increased volatility as the market may be due for a correction, noting the historically low volatility in the previous year.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "sp500_record_high",
+        "momentum_driven",
+        "volatility_increase_warning",
+        "market_correction_potential"
+      ],
+      "rationale": "A strong upward trend in the S&P 500, coupled with warnings of potential volatility and correction, can influence risk appetite in broader markets, including cryptocurrencies."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n62083a0e39dd",
+      "title": "E-mini S&P 500 Index (ES) Futures Technical Analysis – Trader Reaction to 2735.00 Will Determine Direction This Week",
+      "url": "https://finance.yahoo.com/news/e-mini-p-500-index-064551861.html",
+      "summary": "March E-mini S&P 500 Index futures surged to a record high, continuing a rally that began in August 2017. The index has shown consistent weekly gains, driven by momentum. The article suggests investors should prepare for increased volatility as the market may be due for a correction, noting the historically low volatility in the previous year.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "sp500_record_high",
+        "momentum_driven",
+        "volatility_increase_warning",
+        "market_correction_potential"
+      ],
+      "rationale": "This is a duplicate of pick_idx 16, reinforcing the potential impact of broader market sentiment on crypto assets."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n1dd8911bb551",
+      "title": "Dogecoin: How a Parody Cryptocurrency Hit $2 Billion Market Value",
+      "url": "https://finance.yahoo.com/news/dogecoin-parody-cryptocurrency-hit-2-201500414.html",
+      "summary": "Dogecoin, initially created as a parody in 2013, saw its market capitalization surpass $2 billion over the weekend, driven by the broader altcoin rally. Despite no significant technical improvements in years, its surge reflects the speculative frenzy and widespread interest in cryptocurrencies, demonstrating how meme-driven assets can gain significant traction in a bull market.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "dogecoin_surge",
+        "parody_crypto",
+        "market_cap_milestone",
+        "altcoin_rally"
+      ],
+      "rationale": "The parabolic rise of Dogecoin, a meme-based cryptocurrency, highlights the speculative nature of the current market and the potential for significant short-term gains in less established coins during a bull run."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nfaff2db13721",
+      "title": "Dogecoin doubles in value in days to pass $2 billion",
+      "url": "https://finance.yahoo.com/news/wow-much-hype-dogecoin-doubles-value-days-pass-2-billion-113920931.html",
+      "summary": "Dogecoin, a cryptocurrency inspired by a 2013 meme, has seen its market value double in days to exceed $2 billion. This surge follows its $1 billion valuation on Christmas Day, showcasing the rapid speculative growth within the altcoin market. The article notes Dogecoin's sponsorship of a NASCAR car, indicating increasing visibility.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "dogecoin_surge",
+        "meme_crypto",
+        "market_cap_milestone",
+        "altcoin_rally"
+      ],
+      "rationale": "This is a duplicate of pick_idx 22, reinforcing the short-term bullish sentiment driven by speculative altcoin rallies."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n8eedcf945b32",
+      "title": "Ethereum Regains Title as Second Most Valuable Cryptocurrency Behind Bitcoin",
+      "url": "https://finance.yahoo.com/news/ethereum-regains-title-second-most-211324947.html",
+      "summary": "Ethereum has reclaimed its position as the second-largest cryptocurrency by market capitalization, surpassing Ripple. This shift occurred as Ripple's price fell significantly, while Ethereum saw a modest increase. The fluctuating rankings highlight the dynamic nature of the altcoin market and the ongoing competition for dominance behind Bitcoin.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "altcoin",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ethereum_rank_gain",
+        "ripple_decline",
+        "market_cap_shift",
+        "altcoin_competition"
+      ],
+      "rationale": "Ethereum regaining its second position indicates resilience and continued investor interest, suggesting a potential short-term upward trend for ETH amidst broader market volatility."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n35921093df9e",
+      "title": "Cryptocurrency Proxy Stocks Fall as Bitcoin Stumbles",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-proxy-stocks-fall-bitcoin-173205889.html",
+      "summary": "Shares of cryptocurrency proxy stocks like Riot Blockchain, LongFin, and Bitcoin Investment Trust (GBTC) dropped sharply, correlating with declines in major cryptocurrencies such as Bitcoin, Litecoin, and Dash. This demonstrates a strong correlation between the performance of crypto-related equities and the underlying digital asset prices.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "proxy_stock",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crypto_proxy_stocks",
+        "riot_blockchain",
+        "gbtc_decline",
+        "bitcoin_correlation"
+      ],
+      "rationale": "The sharp decline in crypto proxy stocks directly reflects the negative price action in Bitcoin and other major cryptocurrencies, indicating a broad market downturn affecting related equities."
+    },
+    {
+      "pick_idx": 39,
+      "id": "nc26e38ec329f",
+      "title": "Bitcoin slides as website drops South Korea prices from virtual currency rates",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-below-15-000-south-korea-reviews-140330164--finance.html",
+      "summary": "Bitcoin's price fell significantly after CoinMarketCap removed South Korean exchange data from its calculations without prior warning. This exclusion, particularly from exchanges where virtual currencies traded at a premium, caused confusion and a widespread sell-off. The event highlights the impact of data aggregation and the premium pricing in the South Korean market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "listing"
+      ],
+      "features_for_model": [
+        "coinmarketcap_exclusion",
+        "south_korea_premium",
+        "data_aggregation_impact",
+        "crypto_selloff"
+      ],
+      "rationale": "This is a duplicate of pick_idx 3 and 15, reinforcing the immediate negative impact of the CoinMarketCap data exclusion on Bitcoin's price."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-01-08",
+    "summary": "The cryptocurrency market experienced significant downward pressure today, primarily driven by CoinMarketCap's decision to exclude South Korean exchange prices from its calculations. This led to a sharp drop in Bitcoin and other major cryptocurrencies, including XRP. Consequently, crypto-related stocks also saw substantial declines. Ethereum managed to regain its position as the second-largest cryptocurrency by market cap. Broader market sentiment remains mixed, with the S&P 500 reaching new highs but warnings of potential volatility persist. Regulatory commentary from Israel's central bank added to the uncertainty.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued impact of data aggregation changes on crypto pricing and liquidity.",
+      "Increasing regulatory scrutiny and classification of cryptocurrencies by global central banks.",
+      "Potential for broader market correction impacting risk assets like cryptocurrencies.",
+      "High volatility and speculative nature of altcoins, exemplified by Dogecoin's surge.",
+      "Correlation between crypto prices and crypto-proxy stocks, indicating systemic risk."
+    ],
+    "watch_items": [
+      "CoinMarketCap's future data policies.",
+      "Statements from major exchanges regarding crypto product development (e.g., Cboe).",
+      "Further regulatory pronouncements from key financial bodies.",
+      "Performance of Ethereum and Ripple in the coming days.",
+      "S&P 500's reaction to key technical levels and volatility warnings."
+    ]
+  }
+}

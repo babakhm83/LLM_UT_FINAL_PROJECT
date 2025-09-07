@@ -1,0 +1,540 @@
+{
+  "date": "2018-08-01",
+  "long_term": [
+    {
+      "pick_idx": 7,
+      "id": "na8f5d8b4896a",
+      "title": "Yahoo Finance Morning Brief: June 14, 2018",
+      "url": "https://finance.yahoo.com/news/morning-brief-comcast-makes-65b-bid-fox-assets-103031927.html",
+      "summary": "The Federal Reserve announced a quarter-point interest rate hike and signaled two more for the year. The European Central Bank was expected to announce an end to its asset purchase program. Analysts warned these actions could lead to market volatility as liquidity is pulled from the financial system. Bitcoin and cryptocurrencies had been experiencing significant declines.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "ECB_QE_end",
+        "liquidity_tightening",
+        "crypto_volatility"
+      ],
+      "rationale": "The tightening of monetary policy by major central banks like the Fed and ECB reduces overall market liquidity. This can lead investors to de-risk, negatively impacting speculative assets like Bitcoin. The article highlights this trend in mid-June, setting a bearish tone for the subsequent months."
+    },
+    {
+      "pick_idx": 16,
+      "id": "ne147558c9ac7",
+      "title": "Despite Previous Signals, Bitcoin Remains Key to Circle’s Strategy",
+      "url": "https://finance.yahoo.com/news/despite-previous-signals-bitcoin-remains-145322789.html",
+      "summary": "Circle Financial, after signaling a shift away from Bitcoin, appears to be reversing course by boosting its crypto-related offerings. This strategic shift positions Circle as a potential competitor to Coinbase, indicating a renewed focus on the cryptocurrency ecosystem by a significant financial player.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Circle_strategy_shift",
+        "institutional_adoption",
+        "crypto_ecosystem_growth"
+      ],
+      "rationale": "Circle's renewed commitment to Bitcoin and crypto services signals growing institutional interest and infrastructure development. This suggests a more robust and potentially larger crypto market in the medium to long term, as established financial entities invest in the space."
+    },
+    {
+      "pick_idx": 33,
+      "id": "ne06fe16afb17",
+      "title": "From $25,000 to $22,000: Fundstrat’s Tom Lee Lowers Bitcoin Price Prediction",
+      "url": "https://finance.yahoo.com/news/25-000-22-000-fundstrat-152557805.html",
+      "summary": "Fundstrat's Thomas Lee revised his Bitcoin price forecast downwards to $22,000 from $25,000 for the year. His reasoning is based on Bitcoin's price being double its mining costs. With mining costs at $9,100, he projects Bitcoin could reach $22,000 by year-end, noting the Price to Mining Breakeven cost metric is currently below 1.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "valuation"
+      ],
+      "features_for_model": [
+        "Fundstrat_price_target_cut",
+        "Bitcoin_mining_cost",
+        "valuation_metric"
+      ],
+      "rationale": "Analyst price target revisions, especially downward, can influence market sentiment and investor behavior. Lee's focus on mining costs as a valuation metric suggests a potential floor or ceiling for Bitcoin's price, indicating a bearish outlook if current prices are seen as overextended relative to production costs."
+    },
+    {
+      "pick_idx": 35,
+      "id": "nfce0a9e6f728",
+      "title": "Bitcoin Price Headed to $500,000 in Six Years: Hedge Fund Mgr.",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-headed-500-000-135319728.html",
+      "summary": "Hedge fund manager Mark Yusko maintains his prediction of Bitcoin reaching a new all-time high in 2018, with a year-end target of $25,000. He forecasts Bitcoin to reach $75,000 by 2020, $200,000 by 2022, and ultimately $500,000 within six years, highlighting a strong long-term bullish conviction.",
+      "impact_horizon_months": 72,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.55,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Yusko_price_prediction",
+        "Bitcoin_long_term_target",
+        "hedge_fund_sentiment"
+      ],
+      "rationale": "While highly speculative, such ambitious long-term price targets from a hedge fund manager can attract significant attention and capital into the crypto space over time. This indicates a belief in Bitcoin's potential as a store of value and medium of exchange, driving long-term adoption."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n3e413329a968",
+      "title": "Find out why Polychain and FBG Invested in Origo Network",
+      "url": "https://finance.yahoo.com/news/why-polychain-fbg-invested-origo-081400304.html",
+      "summary": "Origo, a blockchain startup focused on privacy preservation in smart contracts, successfully completed its private sale with notable investors like Polychain and FBG. This investment highlights growing interest in privacy-enhancing blockchain solutions amidst increasing concerns about digital data security and transparency.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Origo_investment",
+        "Polychain_FBG",
+        "privacy_protocol",
+        "smart_contract_innovation"
+      ],
+      "rationale": "Investments from prominent crypto funds like Polychain and FBG into privacy-focused projects like Origo suggest a trend towards more sophisticated and specialized blockchain applications. This indicates a maturing market where innovation in areas like privacy can drive adoption and development."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n10126a6f6efa",
+      "title": "Market Morning: Swiss Threaten Banks, ECB Threatens Italy, UPS Workers Threaten Strike, EU Threatens US",
+      "url": "https://finance.yahoo.com/news/market-morning-swiss-threaten-banks-110028896.html",
+      "summary": "Switzerland is holding a referendum on whether Swiss banks can loan out more money than they have in deposits (fractional reserve banking). A 'Yes' vote would mean only the Swiss National Bank could create new money. This referendum, alongside other geopolitical tensions, contributes to broader market uncertainty.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Swiss_referendum",
+        "fractional_reserve_banking",
+        "geopolitical_risk",
+        "market_uncertainty"
+      ],
+      "rationale": "The Swiss referendum on fractional reserve banking introduces regulatory uncertainty in a key financial jurisdiction. While not directly about crypto, such systemic financial discussions can indirectly impact investor sentiment towards alternative assets and financial innovation."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n6c7665b8a86b",
+      "title": "Bitcoin's Low Volume Breakout Could Be a Bull Trap",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-low-volume-breakout-100018110.html",
+      "summary": "Bitcoin broke through a descending trendline, signaling a potential short-term trend change. However, daily trading volume fell, suggesting the breakout might be a bull trap. This indicates a risk of a price reversal if the low volume doesn't sustain the upward momentum.",
+      "impact_horizon_months": 1,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "liquidity",
+        "technical"
+      ],
+      "features_for_model": [
+        "Bitcoin_low_volume_breakout",
+        "bull_trap_risk",
+        "trend_change_signal",
+        "trading_volume"
+      ],
+      "rationale": "The analysis points to a potential technical setup that could lead to a price decline if the breakout is not supported by sufficient trading volume. This short-term bearish signal, if it plays out, could influence sentiment and price action in the immediate future."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n19f8e2a7c5bf",
+      "title": "3 Reasons Why Bitcoin Market Remains Optimistic Despite $6,000",
+      "url": "https://finance.yahoo.com/news/3-reasons-why-bitcoin-market-162615262.html",
+      "summary": "Despite the price correction, the Bitcoin market remained optimistic, with reasons including negative investor sentiment signaling a potential bottom, positive developments in the Japanese cryptocurrency exchange market, and a postponement of Mt. Gox bitcoin liquidations. These factors suggest underlying resilience.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "legal",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Bitcoin_optimism",
+        "bottom_signal",
+        "Japan_crypto_market",
+        "Mt_Gox_liquidation_delay"
+      ],
+      "rationale": "The article highlights factors that could support a Bitcoin price recovery, such as a potential market bottom indicated by negative sentiment and positive regulatory/legal developments in Japan and with Mt. Gox. This suggests a medium-term bullish outlook."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n61c21be6abf7",
+      "title": "'Invest in Bitcoin? I built a cryptocurrency factory in my bedroom instead'",
+      "url": "https://finance.yahoo.com/news/apos-invest-bitcoin-built-cryptocurrency-121928109.html",
+      "summary": "A 17-year-old describes building a cryptocurrency mining operation in their bedroom, driven by the 2017 Bitcoin price surge. The narrative emphasizes the innovative potential of digital currencies as a possible replacement for existing currencies, reflecting a growing interest and understanding among younger demographics.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "retail_mining",
+        "youth_adoption",
+        "crypto_innovation",
+        "future_currency_narrative"
+      ],
+      "rationale": "This anecdotal evidence of a young individual engaging in crypto mining reflects a broader trend of grassroots adoption and interest in the technology. Such engagement, especially from younger generations, can contribute to long-term network growth and decentralization."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n4863f161a82a",
+      "title": "Sell-Off Over? Bitcoin's RSI Just Hit Its Lowest Level Since 2016",
+      "url": "https://finance.yahoo.com/news/sell-off-over-bitcoin-apos-211504399.html",
+      "summary": "Bitcoin's Relative Strength Index (RSI) hit a level not seen since August 2016, indicating a potential oversold condition after a significant sell-off. This technical indicator suggests that the recent price decline might be overextended, potentially signaling a short-term reversal.",
+      "impact_horizon_months": 1,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_RSI_low",
+        "oversold_condition",
+        "technical_reversal",
+        "price_correction"
+      ],
+      "rationale": "A historically low RSI suggests that Bitcoin may be oversold, which can precede a price rebound. This technical signal, combined with the mention of the last time this occurred (2016), implies a potential short-term bullish catalyst."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "nbe8ab69635d2",
+      "title": "Crypto Bloodbath: Bitcoin Drops 7% to $7,500 as Crypto Market Loses $30 Billion",
+      "url": "https://finance.yahoo.com/news/crypto-bloodbath-bitcoin-drops-7-073209898.html",
+      "summary": "Bitcoin's price dropped over 7.5% in 24 hours, falling from $8,150 to $7,500, with the total crypto market losing $30 billion. This sharp decline, following three consecutive sell candles, indicates a lack of volume and declining momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "market_cap_loss",
+        "low_volume_selloff",
+        "momentum_decline"
+      ],
+      "rationale": "A significant price drop accompanied by a large market cap loss and declining momentum suggests immediate downward pressure on Bitcoin. This event is a strong bearish signal for the very short term."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nbe8ab69635d2",
+      "title": "Crypto Bloodbath: Bitcoin Drops 7% to $7,500 as Crypto Market Loses $30 Billion",
+      "url": "https://finance.yahoo.com/news/crypto-bloodbath-bitcoin-drops-7-073209898.html",
+      "summary": "Bitcoin's price dropped over 7.5% in 24 hours, falling from $8,150 to $7,500, with the total crypto market losing $30 billion. This sharp decline, following three consecutive sell candles, indicates a lack of volume and declining momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "market_cap_loss",
+        "low_volume_selloff",
+        "momentum_decline"
+      ],
+      "rationale": "This is a duplicate of pick_idx 2, reinforcing the immediate bearish sentiment due to a significant price drop and market sell-off."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nbe8ab69635d2",
+      "title": "Crypto Bloodbath: Bitcoin Drops 7% to $7,500 as Crypto Market Loses $30 Billion",
+      "url": "https://finance.yahoo.com/news/crypto-bloodbath-bitcoin-drops-7-073209898.html",
+      "summary": "Bitcoin's price dropped over 7.5% in 24 hours, falling from $8,150 to $7,500, with the total crypto market losing $30 billion. This sharp decline, following three consecutive sell candles, indicates a lack of volume and declining momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "market_cap_loss",
+        "low_volume_selloff",
+        "momentum_decline"
+      ],
+      "rationale": "This is a duplicate of pick_idx 2, reinforcing the immediate bearish sentiment due to a significant price drop and market sell-off."
+    },
+    {
+      "pick_idx": 3,
+      "id": "na5d61128da0c",
+      "title": "Global Stocks Mostly Lower as Trump Raises Stakes in the Trade War with China…Again",
+      "url": "https://finance.yahoo.com/news/global-stocks-mostly-lower-trump-085201893.html",
+      "summary": "Global stocks are mostly lower as President Trump considers raising tariffs on Chinese goods to 25% from 10%. This news emerged shortly before trade negotiations, mirroring a similar tactic used before a previous meeting. The potential tariffs affect nearly half of U.S. imports from China.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "trade_war"
+      ],
+      "features_for_model": [
+        "US_China_trade_war",
+        "tariff_escalation",
+        "global_market_sentiment",
+        "risk_off"
+      ],
+      "rationale": "Escalating trade tensions between the US and China typically lead to a 'risk-off' sentiment in global markets. This can negatively impact speculative assets like Bitcoin as investors seek safer havens."
+    },
+    {
+      "pick_idx": 24,
+      "id": "na5d61128da0c",
+      "title": "Global Stocks Mostly Lower as Trump Raises Stakes in the Trade War with China…Again",
+      "url": "https://finance.yahoo.com/news/global-stocks-mostly-lower-trump-085201893.html",
+      "summary": "Global stocks are mostly lower as President Trump considers raising tariffs on Chinese goods to 25% from 10%. This news emerged shortly before trade negotiations, mirroring a similar tactic used before a previous meeting. The potential tariffs affect nearly half of U.S. imports from China.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "trade_war"
+      ],
+      "features_for_model": [
+        "US_China_trade_war",
+        "tariff_escalation",
+        "global_market_sentiment",
+        "risk_off"
+      ],
+      "rationale": "This is a duplicate of pick_idx 3, reinforcing the immediate bearish sentiment due to escalating trade war concerns."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n1278df780f71",
+      "title": "SEC-Approved Bitcoin ETF Possible in 18 months: Crescent Crypto CEO",
+      "url": "https://finance.yahoo.com/news/sec-approved-bitcoin-etf-possible-150508178.html",
+      "summary": "The CEO of Crescent Crypto believes the SEC could approve a Bitcoin ETF within 18 months. He suggests passive management strategies can mitigate investor protection concerns, which have led to previous ETF rejections. This indicates potential future regulatory clarity and institutional access.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_approval_timeline",
+        "passive_crypto_management",
+        "regulatory_clarity_outlook"
+      ],
+      "rationale": "The prospect of a Bitcoin ETF approval, even if 18 months out, can create positive sentiment and anticipation in the short term. It signals a potential pathway for increased institutional adoption and easier access for traditional investors."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n1278df780f71",
+      "title": "SEC-Approved Bitcoin ETF Possible in 18 months: Crescent Crypto CEO",
+      "url": "https://finance.yahoo.com/news/sec-approved-bitcoin-etf-possible-150508178.html",
+      "summary": "The CEO of Crescent Crypto believes the SEC could approve a Bitcoin ETF within 18 months. He suggests passive management strategies can mitigate investor protection concerns, which have led to previous ETF rejections. This indicates potential future regulatory clarity and institutional access.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_approval_timeline",
+        "passive_crypto_management",
+        "regulatory_clarity_outlook"
+      ],
+      "rationale": "This is a duplicate of pick_idx 8, reinforcing the potential short-term bullish sentiment from the prospect of a future Bitcoin ETF."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n1278df780f71",
+      "title": "SEC-Approved Bitcoin ETF Possible in 18 months: Crescent Crypto CEO",
+      "url": "https://finance.yahoo.com/news/sec-approved-bitcoin-etf-possible-150508178.html",
+      "summary": "The CEO of Crescent Crypto believes the SEC could approve a Bitcoin ETF within 18 months. He suggests passive management strategies can mitigate investor protection concerns, which have led to previous ETF rejections. This indicates potential future regulatory clarity and institutional access.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_approval_timeline",
+        "passive_crypto_management",
+        "regulatory_clarity_outlook"
+      ],
+      "rationale": "This is a duplicate of pick_idx 8, reinforcing the potential short-term bullish sentiment from the prospect of a future Bitcoin ETF."
+    },
+    {
+      "pick_idx": 10,
+      "id": "ne6de6d346b85",
+      "title": "Nasdaq Gains on Positive Apple Earnings",
+      "url": "https://finance.yahoo.com/news/nasdaq-gains-positive-apple-earnings-151036538.html",
+      "summary": "The Nasdaq Composite opened higher, boosted by Apple's strong earnings report, which beat analyst estimates for revenue and EPS. Apple shares rose over 4% in after-hours trading, contributing to a broader market uplift.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "listing"
+      ],
+      "features_for_model": [
+        "Nasdaq_gain",
+        "Apple_earnings_beat",
+        "tech_sector_sentiment",
+        "market_uplift"
+      ],
+      "rationale": "Positive earnings from a major tech company like Apple can boost overall market sentiment, particularly for tech-heavy indices like the Nasdaq. This can have a spillover effect on other risk assets, including cryptocurrencies."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nacc00bd16f2b",
+      "title": "Bitcoin Cash Celebrates First Anniversary",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-celebrates-first-anniversary-185528629.html",
+      "summary": "Bitcoin Cash (BCH) is celebrating its first anniversary. Launched via a hard fork from Bitcoin, it aimed to increase transaction capacity. While it initially surged, its current value is below its starting price. Developers maintain it's the pure version of Bitcoin, a claim contested by Bitcoin Core purists.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "listing"
+      ],
+      "features_for_model": [
+        "Bitcoin_Cash_anniversary",
+        "BCH_fork",
+        "transaction_scaling_debate",
+        "altcoin_performance"
+      ],
+      "rationale": "The anniversary of Bitcoin Cash, while a notable event in the crypto space, has mixed implications. The ongoing debate about its legitimacy and its current price performance relative to its launch suggest uncertainty rather than a clear bullish or bearish signal for the broader market."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nacc00bd16f2b",
+      "title": "Bitcoin Cash Celebrates First Anniversary",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-celebrates-first-anniversary-185528629.html",
+      "summary": "Bitcoin Cash (BCH) is celebrating its first anniversary. Launched via a hard fork from Bitcoin, it aimed to increase transaction capacity. While it initially surged, its current value is below its starting price. Developers maintain it's the pure version of Bitcoin, a claim contested by Bitcoin Core purists.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "listing"
+      ],
+      "features_for_model": [
+        "Bitcoin_Cash_anniversary",
+        "BCH_fork",
+        "transaction_scaling_debate",
+        "altcoin_performance"
+      ],
+      "rationale": "This is a duplicate of pick_idx 13, reinforcing the uncertain short-term impact of the Bitcoin Cash anniversary."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-08-01",
+    "summary": "The crypto market experienced a significant downturn, with Bitcoin dropping 7% and losing $30 billion in market cap, indicating strong bearish momentum and low volume. Global markets are also under pressure due to escalating US-China trade war tensions, contributing to a risk-off sentiment. However, positive news regarding the potential for a Bitcoin ETF approval in the next 18 months and strong earnings from tech giants like Apple offer some counterbalancing bullish signals for the longer term and broader market sentiment.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued escalation of US-China trade war impacting global risk appetite.",
+      "Sustained low volume and declining momentum in Bitcoin price action.",
+      "Potential for further regulatory uncertainty or negative news regarding crypto assets.",
+      "Broader market downturn affecting speculative assets."
+    ],
+    "watch_items": [
+      "US-China trade negotiations and tariff announcements.",
+      "Bitcoin trading volume and price action around key support levels ($7,500).",
+      "Developments related to SEC ETF approvals.",
+      "Major tech company earnings reports and their impact on broader market sentiment."
+    ]
+  }
+}

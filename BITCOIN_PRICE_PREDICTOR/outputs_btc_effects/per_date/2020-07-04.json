@@ -1,0 +1,504 @@
+{
+  "date": "2020-07-04",
+  "long_term": [
+    {
+      "pick_idx": 23,
+      "id": "nf9b6cf9c874a",
+      "title": "Bitcoin records its third-ever block reward halving",
+      "url": "https://finance.yahoo.com/news/bitcoin-records-third-ever-block-192812442.html",
+      "summary": "Bitcoin's block reward was halved for the third time on May 11, 2020, reducing the reward from 12.5 BTC to 6.25 BTC per block. This event, which occurs approximately every four years, is designed to control inflation and reduce the supply of new bitcoins entering circulation. Historically, halvings have been followed by significant price increases due to the reduced supply meeting consistent or growing demand. The reduced block subsidy also impacts miner revenue, potentially leading to a decrease in hash rate if less efficient miners are forced offline.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_halving",
+        "block_reward_reduction",
+        "supply_shock"
+      ],
+      "rationale": "The halving event inherently reduces the new supply of Bitcoin, a fundamental driver of its scarcity. Historically, this reduction has preceded significant price appreciation as demand outstrips the diminished new supply."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n2eb0fe6b726d",
+      "title": "Bitcoin’s hash rate appears to drop 16% after miner revenue declines by 44%",
+      "url": "https://finance.yahoo.com/news/bitcoin-hash-rate-appears-drop-071523355.html",
+      "summary": "Following the May 2020 halving, Bitcoin's hash rate reportedly dropped by 16% as miner revenue decreased by 44%. This decline is attributed to older, less efficient mining equipment becoming unprofitable due to the reduced block subsidy. The shift suggests a consolidation among miners, with newer, more efficient hardware likely to dominate. A lower hash rate can indicate reduced network security, but a more efficient mining landscape can be a long-term positive for network stability and decentralization.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "hash_rate_drop",
+        "miner_revenue_decline",
+        "mining_difficulty_adjustment"
+      ],
+      "rationale": "The drop in hash rate post-halving indicates a shakeout of less efficient miners. While this can temporarily reduce network security, it also signals a move towards a more robust and efficient mining infrastructure, which is positive long-term."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n856fcd0a5e4a",
+      "title": "Less than 20% of the current supply of bitcoin is used for trading, says Chainalysis",
+      "url": "https://finance.yahoo.com/news/less-20-current-supply-bitcoin-204116420.html",
+      "summary": "A Chainalysis report indicates that less than 20% of Bitcoin's circulating supply is actively used for trading, with the majority held for long-term investment. Approximately 60% of the supply is held by long-term investors who rarely sell. This suggests a growing trend of Bitcoin being viewed as a store of value rather than a speculative trading asset. Increased long-term holding reduces the available supply for trading, potentially leading to price appreciation if demand remains constant or increases.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "trading_volume_percentage",
+        "hodl_wave",
+        "store_of_value_narrative"
+      ],
+      "rationale": "The data highlights a significant portion of Bitcoin being held long-term, indicating a maturing market and a shift towards a store-of-value narrative. This reduced circulating supply available for trading can amplify price movements on increased demand."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n0fe06918f165",
+      "title": "Early Bitcoin developer Adam Back makes $300k price prediction",
+      "url": "https://finance.yahoo.com/news/early-bitcoin-developer-adam-back-135559133.html",
+      "summary": "Adam Back, an early Bitcoin developer and CEO of Blockstream, predicted Bitcoin could reach $300,000 within five years. He attributes this optimism to global economic stimulus measures aimed at mitigating the effects of the COVID-19 pandemic. Back believes that increased money supply and potential inflation will drive investors towards scarce digital assets like Bitcoin, rather than solely relying on institutional adoption. This prediction reflects a growing sentiment that Bitcoin could serve as a hedge against inflation.",
+      "impact_horizon_months": 60,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "price_prediction_adam_back",
+        "inflation_hedge",
+        "stimulus_impact"
+      ],
+      "rationale": "Prominent figures in the crypto space making bold price predictions, especially when tied to macro-economic factors like inflation, can influence market sentiment and attract new capital."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n12c51561fb21",
+      "title": "WisdomTree Proposes ETF With 5% Bitcoin Exposure Despite SEC’s Long-Standing Blockade",
+      "url": "https://finance.yahoo.com/news/wisdomtree-proposes-etf-5-bitcoin-221536402.html",
+      "summary": "WisdomTree proposed an ETF with 5% Bitcoin exposure, despite the SEC's historical reluctance to approve Bitcoin ETFs. This move signals continued institutional interest in providing regulated access to Bitcoin. While previous proposals have been rejected, each new attempt by a reputable financial institution like WisdomTree increases the pressure on regulators and normalizes the idea of Bitcoin-backed financial products. Successful approval would unlock significant institutional capital.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_proposal",
+        "SEC_approval_path",
+        "institutional_adoption"
+      ],
+      "rationale": "The persistent efforts by established financial players to launch Bitcoin ETFs, even with regulatory hurdles, indicate a strong underlying demand for regulated crypto investment vehicles. Approval would be a major catalyst for institutional adoption."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nc176b787bceb",
+      "title": "Money Reimagined: Bitcoin and Ethereum Are a DeFi Double Act",
+      "url": "https://finance.yahoo.com/news/money-reimagined-bitcoin-ethereum-defi-151427587.html",
+      "summary": "The amount of tokenized Bitcoin (WBTC) on the Ethereum network surged in June 2020, growing from 5,200 BTC to over 11,682 BTC. This trend highlights the increasing interoperability between Bitcoin and the burgeoning Decentralized Finance (DeFi) ecosystem on Ethereum. As Bitcoin gains utility within DeFi protocols, its demand and use cases expand beyond being just a store of value, potentially driving adoption and price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "WBTC_on_Ethereum",
+        "DeFi_integration",
+        "interoperability"
+      ],
+      "rationale": "The increasing use of Bitcoin within the Ethereum DeFi ecosystem, via wrapped Bitcoin (WBTC), demonstrates growing utility and integration. This cross-chain adoption can lead to increased demand for Bitcoin as collateral and a broader user base."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n5289b9325855",
+      "title": "Add 4 Stocks to Watchlist on Evolving Use Cases of Blockchain",
+      "url": "https://finance.yahoo.com/news/add-4-stocks-watchlist-evolving-125312503.html",
+      "summary": "The COVID-19 pandemic has exposed vulnerabilities in digital ecosystems, driving the evolution of blockchain use cases in areas like data tracing, security, and supply chain management. Blockchain's inherent transparency and incorruptibility are seen as solutions to these challenges. The increasing adoption of blockchain technology across various industries, driven by the need for more efficient and secure systems, signals a broader acceptance and integration of the technology, which can indirectly benefit Bitcoin as the foundational cryptocurrency.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "blockchain_use_cases",
+        "pandemic_impact",
+        "supply_chain_transparency"
+      ],
+      "rationale": "The pandemic is accelerating the adoption of blockchain technology for practical applications, which normalizes the underlying technology and can foster greater understanding and acceptance of cryptocurrencies like Bitcoin."
+    },
+    {
+      "pick_idx": 46,
+      "id": "ndc10566eee91",
+      "title": "Bitcoin Can Boost Portfolio Returns, Even if Bought at All-Time High: Bitwise Study",
+      "url": "https://finance.yahoo.com/news/bitcoin-boost-portfolio-returns-even-130000024.html",
+      "summary": "A Bitwise study suggests that Bitcoin can enhance portfolio returns, even when purchased at its all-time high. The research indicates that a small allocation (e.g., 2.5%) of Bitcoin in a traditional stock and bond portfolio historically led to increased cumulative returns. This finding supports the narrative of Bitcoin as a valuable diversifier and potential growth asset, appealing to traditional investors and potentially driving further adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "portfolio_diversification",
+        "historical_returns",
+        "asset_allocation"
+      ],
+      "rationale": "Research highlighting Bitcoin's potential to improve portfolio performance, even when bought at peaks, can attract more conservative investors and institutions, increasing overall demand and adoption."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nd4e128979d6c",
+      "title": "Blockchain Bites: JPMorgan on Bitcoin, South Korea on CBDCs and the Porn Industry on Crypto",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-jpmorgan-bitcoin-south-163636125.html",
+      "summary": "JPMorgan analysts believe Bitcoin is likely to survive as a speculative asset, despite market volatility. This cautious optimism from a major financial institution can lend credibility to Bitcoin's long-term viability. While not a strong endorsement, it suggests that established financial players are acknowledging Bitcoin's persistent presence and potential, which can influence investor sentiment and institutional consideration.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "JPMorgan_analysis",
+        "speculative_asset_status",
+        "institutional_sentiment"
+      ],
+      "rationale": "Even a cautious outlook from a major institution like JPMorgan can provide a degree of validation for Bitcoin's existence as a speculative asset, potentially attracting more traditional finance interest over time."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n6279b9abb014",
+      "title": "Kraken Launches Crypto Exchange Service in Australia",
+      "url": "https://finance.yahoo.com/news/kraken-launches-crypto-exchange-australia-081955832.html",
+      "summary": "Kraken, a major cryptocurrency exchange, launched its services in Australia, allowing local clients to fund accounts in Australian dollars (AUD). This expansion marks the seventh national currency supported by Kraken's fiat on-ramps. Increased accessibility through fiat on-ramps in new geographical regions is crucial for broader adoption and can lead to higher trading volumes and liquidity.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "exchange_expansion",
+        "fiat_onramp",
+        "australian_market_access"
+      ],
+      "rationale": "The expansion of major exchanges into new markets with fiat on-ramps directly increases accessibility for new users, fostering adoption and potentially boosting liquidity and trading volume."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n66a546061e7c",
+      "title": "The Crypto Daily – Movers and Shakers – July 4th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-011229548.html",
+      "summary": "Bitcoin experienced a slight decline of 0.30% on Friday, July 3rd, closing at $9,073.2. The day was relatively range-bound, with an intraday high of $9,135.5 and a low of $9,056.7. Bitcoin failed to reach the resistance level at $9,260.8 and stayed clear of the support level at $8,944.6. The day ended with Bitcoin in the red, suggesting a bearish short-term trend continuation.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_wrap"
+      ],
+      "features_for_model": [
+        "daily_price_action",
+        "resistance_level_test",
+        "support_level_test"
+      ],
+      "rationale": "The price action on July 3rd showed a failure to break resistance and a close in the red, indicating short-term bearish momentum."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n66a546061e7c",
+      "title": "The Crypto Daily – Movers and Shakers – July 4th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-011229548.html",
+      "summary": "Bitcoin fell by 0.30% on Friday, July 3rd, ending the day at $9,073.2. The trading range was narrow, with a high of $9,135.5 and a low of $9,056.7. Bitcoin did not reach the resistance at $9,260.8 and stayed above the support at $8,944.6. The day concluded with Bitcoin showing a bearish trend.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_wrap"
+      ],
+      "features_for_model": [
+        "daily_price_movement",
+        "trading_range",
+        "bullish_trend_failure"
+      ],
+      "rationale": "The failure to break resistance and the closing price below the day's high suggest continued short-term selling pressure."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n33b9e71b4e05",
+      "title": "Two Nigerians face US charges over online fraud worth 'hundreds of millions'",
+      "url": "https://finance.yahoo.com/news/nigerians-face-us-charges-over-massive-online-fraud-215503992.html",
+      "summary": "Two Nigerian nationals, Ramon Olorunwa Abbas and Olakean Jacob Ponle, face US charges for large business email compromise scams totaling hundreds of millions of dollars. Abbas is accused of money laundering, including a $14.7 million scheme and a $923,000 theft from a New York law firm. This news highlights ongoing efforts to combat crypto-related financial crime and could lead to increased regulatory scrutiny or enforcement actions.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "fraud_charges",
+        "money_laundering_arrest",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "While not directly impacting Bitcoin's price, such high-profile fraud cases can lead to increased regulatory attention on crypto, potentially creating short-term uncertainty."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n33b9e71b4e05",
+      "title": "Two Nigerians face US charges over online fraud worth 'hundreds of millions'",
+      "url": "https://finance.yahoo.com/news/nigerians-face-us-charges-over-massive-online-fraud-215503992.html",
+      "summary": "US authorities have charged two Nigerian nationals, Ramon Olorunwa Abbas and Olakean Jacob Ponle, in connection with massive online fraud schemes amounting to hundreds of millions of dollars. Abbas is specifically accused of money laundering and involvement in schemes that defrauded financial institutions and a law firm. These arrests underscore the ongoing global effort to curb financial crime involving digital assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "money_laundering"
+      ],
+      "features_for_model": [
+        "fraud_case",
+        "financial_crime",
+        "enforcement_action"
+      ],
+      "rationale": "High-profile arrests related to financial crime can create a chilling effect or lead to increased regulatory scrutiny on the crypto space in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf7ac2778f593",
+      "title": "The Crypto Daily – Movers and Shakers – June 19th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-june-010200980.html",
+      "summary": "Bitcoin fell by 0.77% on Thursday, June 18th, closing at $9,400.0. It experienced a mixed start, reaching a high of $9,496.9 before declining. Bitcoin failed to reach the resistance level at $9,606.27 and fell below the support level at $9,300.27, finding late support around $9,400. The day ended with Bitcoin limiting its losses.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_wrap"
+      ],
+      "features_for_model": [
+        "daily_price_action",
+        "support_resistance_levels",
+        "bearish_momentum"
+      ],
+      "rationale": "The price action on June 18th showed a failure to break resistance and a dip below a key support level, indicating short-term bearish sentiment."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n4a6f0689630f",
+      "title": "Market Wrap: Bitcoin Still Stuck in a Rut, Trading Below $10K",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-still-stuck-203838314.html",
+      "summary": "Bitcoin remained below $10,000 for the fifth consecutive week, trading around $9,180 on June 26th, a 1% drop in 24 hours. It failed to rally from a previous sell-off, continuing to trade between $9,000 and $9,200. This lack of upward momentum suggests a consolidation phase or potential for a downward move if key support levels break.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "market_wrap",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "price_consolidation",
+        "below_10k_resistance",
+        "trading_range_bound"
+      ],
+      "rationale": "The continued inability to break the $10,000 resistance and trading within a tight range indicates a lack of strong buying pressure, suggesting potential for a short-term price decline."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n5488aeb15bea",
+      "title": "Market Wrap: Bitcoin Hits $9.6K as Bullish Crypto Sentiment Returns",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-hits-9-204211430.html",
+      "summary": "Bitcoin rallied to $9,563 on June 22nd, a 2.5% gain in 24 hours, indicating a return of bullish sentiment. The price moved above its 10-day and 50-day moving averages, considered a bullish technical signal. This price action suggests a potential short-term upward trend, driven by renewed positive market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_wrap",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "price_rally",
+        "bullish_sentiment",
+        "moving_average_breakout"
+      ],
+      "rationale": "The price breaking above key moving averages and renewed bullish sentiment suggest a potential short-term upward price movement."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n9512eb2b52fc",
+      "title": "Bitcoin suffers grueling sell-off to below $9,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-suffers-gruelling-sell-off-104631966.html",
+      "summary": "Bitcoin experienced a significant sell-off over the weekend of June 13th-14th, dropping below $9,000 to as low as $8,900 on some exchanges. This decline followed six weeks of trading below $10,000 and two failed attempts to break $10,500. The price action indicates a loss of upward momentum and potential for further downside if support levels fail.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "market_wrap",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "price_selloff",
+        "support_break",
+        "momentum_loss"
+      ],
+      "rationale": "The sharp drop below $9,000 and failure to break previous resistance levels indicate significant selling pressure and a bearish short-term outlook."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n280d949efb24",
+      "title": "Bitcoin ATM Growth May Be a Boon for Money Launderers",
+      "url": "https://finance.yahoo.com/news/bitcoin-atm-growth-may-boon-162431642.html",
+      "summary": "A CipherTrace report suggests that the increasing number of Bitcoin ATMs are being used to bypass anti-money laundering (AML) controls, with funds frequently sent to high-risk exchanges. The percentage of funds sent to these exchanges from U.S. Bitcoin ATMs has doubled annually since 2017. This trend could lead to increased regulatory scrutiny on Bitcoin ATMs and potentially impact their growth or operational requirements.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "money_laundering",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_atm_usage",
+        "aml_bypass",
+        "high_risk_exchange_flow"
+      ],
+      "rationale": "Concerns about illicit use of Bitcoin ATMs could prompt regulatory action, creating short-term uncertainty and potentially impacting the accessibility of Bitcoin for retail users."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n1f0e4c5e504b",
+      "title": "Xapo Suspends Credit Card Crypto Purchases, Shifts Operations to Gibraltar",
+      "url": "https://finance.yahoo.com/news/xapo-suspends-credit-card-crypto-094709667.html",
+      "summary": "Xapo, a cryptocurrency wallet and custodian service, suspended credit card purchases for crypto and shifted operations to Gibraltar. This move might be due to regulatory changes or business strategy. While not directly impacting Bitcoin's price, such operational shifts by established players can signal broader trends in the industry regarding compliance and market access.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_window_days": {
+        "start": 0,
+        "end": 6
+      },
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "exchange_operations_shift",
+        "credit_card_purchase_suspension",
+        "regulatory_compliance"
+      ],
+      "rationale": "Operational changes by crypto service providers can sometimes reflect underlying regulatory pressures or market shifts, creating minor short-term uncertainty."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-07-04",
+    "summary": "Bitcoin experienced a mixed trading day on July 3rd, closing slightly down and failing to break key resistance levels. The market sentiment appears cautious, with recent price action showing a struggle to maintain upward momentum. News regarding fraud charges against Nigerian nationals introduces a layer of regulatory uncertainty, while the ongoing trend of Bitcoin being held long-term and institutional interest in ETFs remain positive long-term signals. The halving event continues to be a fundamental bullish driver.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Failure to break $10,000 resistance could lead to further downside.",
+      "Increased regulatory scrutiny due to high-profile fraud cases.",
+      "Potential for broader market sell-offs impacting crypto.",
+      "Miner capitulation if profitability continues to decline."
+    ],
+    "watch_items": [
+      "Bitcoin's price action around $9,000 support.",
+      "Developments in SEC ETF approvals.",
+      "Macroeconomic data releases (inflation, stimulus packages).",
+      "Hash rate trends and miner profitability."
+    ]
+  }
+}

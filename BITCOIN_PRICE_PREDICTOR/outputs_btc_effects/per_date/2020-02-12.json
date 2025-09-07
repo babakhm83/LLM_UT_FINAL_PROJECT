@@ -1,0 +1,507 @@
+{
+  "date": "2020-02-12",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n0e28507881d7",
+      "title": "We Still Don’t Know Bitcoin’s Real Volume",
+      "url": "https://finance.yahoo.com/news/still-don-t-know-bitcoin-100000357.html",
+      "summary": "Concerns about fake volume in Bitcoin markets persisted throughout 2019, with research suggesting up to 95% of reported volume might be fabricated. This lack of transparency impacts conservative volume estimates and raises questions about market integrity, potentially deterring institutional investors who rely on accurate data for due diligence. Addressing this issue is crucial for building trust and facilitating broader adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "fake_volume_concerns",
+        "market_integrity",
+        "institutional_adoption_barrier"
+      ],
+      "rationale": "Persistent concerns about fake volume undermine market confidence and can deter institutional investment. This issue needs to be addressed for long-term market health and broader adoption."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ne719a1a5f8ef",
+      "title": "Is Blockchain Finally Ready For Prime Time?",
+      "url": "https://finance.yahoo.com/news/blockchain-finally-ready-prime-time-202120935.html",
+      "summary": "The article questions whether blockchain technology, despite its association with cryptocurrencies like Bitcoin, is truly ready for widespread adoption beyond speculative trading. It highlights the technology's complex reputation, with some viewing it as a revolutionary solution for logistics and others as a fad. The piece touches upon the volatility of cryptocurrencies and the unmet promises of replacing global currencies, suggesting that blockchain's mainstream success is still uncertain.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "blockchain_adoption_readiness",
+        "tech_hype_cycle",
+        "mainstream_integration_challenges"
+      ],
+      "rationale": "The ongoing debate about blockchain's readiness for prime time reflects a critical juncture for the technology. Its success hinges on overcoming technical hurdles and demonstrating real-world utility beyond speculation, which will influence long-term crypto adoption."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n76c15f6a9524",
+      "title": "Binance Now Lets Users Borrow Against Crypto Holdings to Fund Futures Trades",
+      "url": "https://finance.yahoo.com/news/binance-now-lets-users-borrow-133014780.html",
+      "summary": "Binance has introduced a 'Cross Collateral' feature, allowing users to use their crypto holdings as collateral for futures trading without directly selling them. Initially, users can borrow USDT interest-free against BUSD. This move enhances liquidity and trading flexibility on the platform, potentially attracting more active traders and increasing overall trading volume.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "exchange_lending_feature",
+        "futures_trading_liquidity",
+        "cross_collateral_innovation"
+      ],
+      "rationale": "Enabling users to leverage their crypto assets for futures trading increases platform utility and liquidity. This feature can attract more sophisticated traders and boost trading volumes, positively impacting the market."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n2f35884e1ff5",
+      "title": "CME Open Interest for Bitcoin Futures Up 100% Since Start of 2020",
+      "url": "https://finance.yahoo.com/news/cme-open-interest-bitcoin-futures-184857327.html",
+      "summary": "Open interest in Bitcoin futures on the Chicago Mercantile Exchange (CME) has doubled since the start of 2020, reaching approximately $235 million by January 17th. This surge in open interest, coinciding with a price increase, indicates growing institutional interest and participation in the regulated Bitcoin derivatives market, suggesting increased confidence and potential for further price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "CME_bitcoin_futures",
+        "open_interest_growth",
+        "institutional_derivatives_demand"
+      ],
+      "rationale": "A doubling of CME Bitcoin futures open interest signifies strong institutional demand and growing confidence in regulated markets. This trend suggests increased capital inflow and potential for sustained price growth."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n246f858d77f9",
+      "title": "Why the SEC Asked Blockforce Capital to Pull a Bitcoin ETF Proposal as Soon as It Was Filed",
+      "url": "https://finance.yahoo.com/news/why-sec-asked-blockforce-capital-120000318.html",
+      "summary": "The SEC reportedly advised Blockforce Capital to file and then immediately withdraw a Bitcoin ETF proposal. This suggests the SEC's continued cautious stance on approving a spot Bitcoin ETF, even under the Investment Company Act of 1940, which would have led to automatic approval. The SEC's actions indicate regulatory hurdles remain significant for traditional financial products tied to Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_rejection",
+        "regulatory_uncertainty",
+        "spot_bitcoin_etf_hurdles"
+      ],
+      "rationale": "The SEC's directive to pull the ETF proposal highlights ongoing regulatory challenges for Bitcoin-related financial products. This signals a continued delay in institutional product approvals, potentially capping immediate upside."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n9c074dbcf1da",
+      "title": "Blockstream’s ‘Watchtowers’ Will Bring a New Justice System to the Lightning Network",
+      "url": "https://finance.yahoo.com/news/blockstream-watchtowers-bring-justice-system-100000276.html",
+      "summary": "Blockstream's c-lightning team is developing 'Watchtowers,' a feature for the Lightning Network designed to enhance security and enforce payments. Watchtowers act as semi-trusted sheriffs, protecting users from counterparties who might attempt to cheat them by broadcasting old states of payment channels. This development is part of Eltoo, a proposed enforcement layer for the Lightning Network, aiming to improve its reliability and user experience.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "lightning_network_security",
+        "watchtowers_development",
+        "payment_channel_enforcement"
+      ],
+      "rationale": "The introduction of Watchtowers significantly improves the security and reliability of the Lightning Network. This enhancement is crucial for scaling Bitcoin and increasing its usability for everyday transactions."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n388457825c3a",
+      "title": "2019 Set the Stage for DeFi to Go Mainstream",
+      "url": "https://finance.yahoo.com/news/2019-set-stage-defi-mainstream-130000283.html",
+      "summary": "The article posits that 2019 was a foundational year for Decentralized Finance (DeFi), setting the stage for its mainstream adoption. It references the growth of platforms like MakerDAO and the emergence of new DAOs like MolochDAO. The development in DeFi, focusing on programmable money and decentralized applications, is seen as a significant trend that could reshape financial services and attract new users to the crypto ecosystem.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "DeFi_growth_2019",
+        "mainstream_DeFi_adoption",
+        "programmable_money_innovation"
+      ],
+      "rationale": "The growth of DeFi in 2019 indicates a significant shift towards decentralized financial services. This trend has the potential to attract substantial capital and users, driving innovation and adoption across the crypto space."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n95fe77979fe6",
+      "title": "Bitcoin’s Halving Captures Growing Interest – Among Google Searchers",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-captures-growing-interest-100000047.html",
+      "summary": "Interest in Bitcoin's upcoming halving event, which reduces the block reward for miners, is surging, as evidenced by increased Google searches. While market participants are divided on its price impact, the growing public interest suggests a potential catalyst for increased awareness and speculative activity around the event. Historically, halvings have been associated with price increases.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "miner",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_halving_interest",
+        "google_trends_halving",
+        "speculative_catalyst"
+      ],
+      "rationale": "The increasing public interest in the Bitcoin halving, as shown by Google Trends, suggests a potential for increased market participation and price appreciation. Historically, halvings have preceded bull runs."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n5ec7e112400d",
+      "title": "Suit Alleging Tether and Bitfinex Manipulated Bitcoin Market Has Been Revised",
+      "url": "https://finance.yahoo.com/news/lawsuit-alleging-tether-bitfinex-manipulated-131000604.html",
+      "summary": "A class-action lawsuit accusing Tether and Bitfinex of manipulating the Bitcoin market has been withdrawn and refiled with a new plaintiff in a different jurisdiction. This ongoing legal battle creates uncertainty and potential regulatory scrutiny for stablecoins and major exchanges, which could impact market sentiment and liquidity if adverse rulings occur.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "tether_bitfinex_lawsuit",
+        "market_manipulation_allegations",
+        "stablecoin_regulatory_scrutiny"
+      ],
+      "rationale": "The ongoing lawsuit against Tether and Bitfinex creates regulatory uncertainty and could negatively impact market sentiment. Any adverse developments could lead to decreased liquidity and price volatility."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n4ec4f056eb54",
+      "title": "Lightning Labs Raises $10M Series A to Be the ‘Visa’ of Bitcoin",
+      "url": "https://finance.yahoo.com/news/lightning-labs-raises-10m-series-150000736.html",
+      "summary": "Lightning Labs secured $10 million in Series A funding to develop its services, aiming to become the 'Visa' of Bitcoin. This investment, led by Craft Ventures, signals strong investor confidence in the Lightning Network's potential for scaling Bitcoin payments. The funding will support the launch of paid services for merchants, enhancing Bitcoin's usability for everyday transactions.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "lightning_labs_funding",
+        "bitcoin_scaling_solution",
+        "merchant_payment_adoption"
+      ],
+      "rationale": "Significant funding for Lightning Labs underscores the growing belief in the Lightning Network's ability to scale Bitcoin. This development is crucial for increasing Bitcoin's utility as a payment method and driving broader adoption."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n99dd43b71826",
+      "title": "The Crypto Daily – Movers and Shakers – 12/02/20",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-12-005445114.html",
+      "summary": "Bitcoin rallied 4.01% on Tuesday, closing at $10,247.0 after a bearish start. It broke through the first major resistance level at $10,124.13, reaching $10,300 for the first time since September. A late pullback saw it settle around $10,200. The price action indicates a potential shift in momentum, with bulls pushing past key resistance levels.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "btc_price_rally",
+        "resistance_breakout",
+        "bullish_momentum"
+      ],
+      "rationale": "Bitcoin's strong rally and break above key resistance levels suggest immediate bullish momentum, likely to continue in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0c025259d609",
+      "title": "Bitcoin’s Mining Difficulty Stagnates as Coronavirus Outbreak Delays New Equipment",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-stagnates-coronavirus-050000757.html",
+      "summary": "Bitcoin's mining difficulty has stagnated due to the coronavirus outbreak disrupting equipment production and shipments in China. This slowdown in difficulty growth indicates that miners are pausing upgrades. While not directly impacting price, it could signal a temporary slowdown in network expansion and potentially affect miner profitability if difficulty doesn't adjust downwards.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "mining_difficulty_stagnation",
+        "coronavirus_impact_mining",
+        "equipment_supply_chain_disruption"
+      ],
+      "rationale": "The stagnation in mining difficulty due to supply chain issues is a neutral short-term factor. It might slightly impact miner sentiment but is unlikely to cause significant price swings in the immediate future."
+    },
+    {
+      "pick_idx": 3,
+      "id": "na67d22a29891",
+      "title": "Letter bombs explode in ABN Amro, Ricoh offices in Netherlands, no injuries",
+      "url": "https://finance.yahoo.com/news/suspected-letter-bombs-hit-two-083658717.html",
+      "summary": "Two letter bombs exploded in the Netherlands, attributed to an extortionist demanding payment in bitcoin. While no injuries were reported, the incidents highlight the potential for illicit actors to use cryptocurrency for criminal activities. This news could lead to increased regulatory scrutiny or negative sentiment if perceived as a widespread issue.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_extortion_demand",
+        "criminal_use_of_crypto",
+        "regulatory_scrutiny_risk"
+      ],
+      "rationale": "While not directly impacting price, news of criminal activity involving bitcoin can create negative sentiment and potentially trigger regulatory discussions, posing a minor short-term risk."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n34a92898ce67",
+      "title": "Latest Ethereum price and analysis (ETH to USD)",
+      "url": "https://finance.yahoo.com/news/latest-ethereum-price-analysis-eth-120245375.html",
+      "summary": "Ethereum experienced a significant 15% rally, surpassing the $250 resistance level and reaching $258. A close above $250 would confirm a continuation of its breakout, with an initial target of $269. Ethereum is up 109% from its December low, indicating strong bullish momentum in the altcoin market.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "ethereum_price_rally",
+        "eth_resistance_break",
+        "altcoin_momentum"
+      ],
+      "rationale": "Ethereum's strong performance and break above resistance suggest positive sentiment carrying over to other altcoins, potentially boosting Bitcoin's upward movement."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n2f23ee2447c4",
+      "title": "The cryptocurrency market is now valued at $300 billion",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-market-now-valued-300-141604125.html",
+      "summary": "The total cryptocurrency market capitalization has reached $300 billion, a level not seen since July 2019. This growth, with almost $18 billion added in the last 24 hours, is largely driven by Bitcoin's 5.3% gain. The overall market uptrend indicates increasing investor confidence and capital inflow.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "total_crypto_market_cap",
+        "300b_valuation_milestone",
+        "market_liquidity_increase"
+      ],
+      "rationale": "Crossing the $300 billion market cap threshold signifies a significant increase in overall market liquidity and investor interest, reinforcing the bullish short-term outlook."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n8296aacdbb0b",
+      "title": "North Korea Is Expanding Its Monero Mining Operations, Says Report",
+      "url": "https://finance.yahoo.com/news/north-korea-expanding-monero-mining-142554186.html",
+      "summary": "North Korea is reportedly expanding its Monero mining operations to circumvent sanctions, with network traffic increasing tenfold since May 2019. This shift towards Monero mining, which can be done on conventional computers, highlights the ongoing use of cryptocurrencies for illicit activities and may attract further regulatory attention.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "miner",
+        "legal"
+      ],
+      "features_for_model": [
+        "north_korea_mining",
+        "monero_expansion",
+        "sanctions_circumvention"
+      ],
+      "rationale": "While focused on Monero, increased illicit mining activity by state actors can contribute to negative sentiment and potential regulatory crackdowns that could spill over to the broader crypto market."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n2cc1b9e74496",
+      "title": "Bitcoin News Roundup for Feb. 12, 2020",
+      "url": "https://finance.yahoo.com/news/bitcoin-news-roundup-feb-12-170000247.html",
+      "summary": "The roundup notes Bitcoin is above $10,000, with its mining difficulty stagnating due to the coronavirus. It also mentions a hacking group secretly mining crypto on smart TVs and Bitcoin being the most overbought in two years. The overall sentiment appears mixed, with strong price action countered by potential overbought conditions and external disruptions.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "miner",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "btc_overbought_condition",
+        "mining_difficulty_stagnation",
+        "smart_tv_crypto_mining"
+      ],
+      "rationale": "The mention of Bitcoin being overbought suggests a potential for short-term consolidation or pullback, despite the positive price action. The smart TV mining is a minor security concern."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2d9443cda5bb",
+      "title": "Coinbase Revives Margin Trading, With Conservative (for Crypto) 3x Leverage",
+      "url": "https://finance.yahoo.com/news/coinbase-revives-margin-trading-conservative-193223289.html",
+      "summary": "Coinbase is reintroducing margin trading with up to 3x leverage for individual investors in 23 US states and institutional traders. This move increases trading options and liquidity on the platform, potentially attracting more active traders. The conservative leverage level aims to balance risk and reward, making it more accessible than higher leverage offerings elsewhere.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "coinbase_margin_trading",
+        "3x_leverage_offering",
+        "exchange_liquidity_enhancement"
+      ],
+      "rationale": "Coinbase's re-entry into margin trading with moderate leverage can boost trading volumes and liquidity on the platform, positively influencing short-term price action."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n6b364a5d4957",
+      "title": "Trump administration to release new FinCEN requirements for cryptos, Mnuchin tells Congress",
+      "url": "https://finance.yahoo.com/news/trump-administration-release-fincen-requirements-201536293.html",
+      "summary": "Treasury Secretary Steven Mnuchin announced that FinCEN will release new requirements for cryptocurrencies. While details are scarce, this indicates increased regulatory focus from the US administration. Such announcements can create short-term uncertainty and volatility as the market anticipates the specifics of the new rules.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "fincen_new_requirements",
+        "us_regulatory_focus",
+        "crypto_compliance_update"
+      ],
+      "rationale": "The impending release of new FinCEN requirements introduces regulatory uncertainty, which could lead to short-term price volatility as market participants await details."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n2cc1b9e74496",
+      "title": "Bitcoin News Roundup for Feb. 12, 2020",
+      "url": "https://finance.yahoo.com/news/bitcoin-news-roundup-feb-12-170000247.html",
+      "summary": "The roundup highlights Bitcoin's position above $10,000, alongside stagnant mining difficulty due to the coronavirus. It also notes Bitcoin being the most overbought in two years. The combination of strong price action and potential overbought conditions suggests a need for caution regarding immediate further upside.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "miner"
+      ],
+      "features_for_model": [
+        "btc_overbought_condition",
+        "mining_difficulty_stagnation",
+        "price_consolidation_risk"
+      ],
+      "rationale": "The mention of Bitcoin being overbought suggests a potential for short-term consolidation or pullback, despite the positive price action. This indicates a need for caution regarding immediate further upside."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-02-12",
+    "summary": "Bitcoin has shown strong bullish momentum, breaking above $10,000 and reaching new highs not seen since September. Ethereum has also experienced a significant rally, indicating positive sentiment across the broader crypto market. However, concerns about Bitcoin being overbought and the looming release of new US regulatory requirements from FinCEN introduce elements of uncertainty. The stagnation in mining difficulty due to the coronavirus outbreak is a minor factor, while institutional interest remains a key driver.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Bitcoin potentially being overbought in the short term.",
+      "Uncertainty surrounding new FinCEN cryptocurrency regulations.",
+      "Potential for negative sentiment from illicit use cases (e.g., extortion).",
+      "Disruptions from the coronavirus outbreak impacting mining operations and supply chains."
+    ],
+    "watch_items": [
+      "Bitcoin's price action around $10,000-$10,500 resistance.",
+      "Details of the upcoming FinCEN requirements.",
+      "Ethereum's ability to sustain its rally above $250.",
+      "Developments in Lightning Network adoption and scaling solutions."
+    ]
+  }
+}

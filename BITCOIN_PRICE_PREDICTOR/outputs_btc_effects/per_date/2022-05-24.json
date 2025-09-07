@@ -1,0 +1,482 @@
+{
+  "date": "2022-05-24",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n4a059db2577d",
+      "title": "Bitcoin whale Michael Saylor tries to defuse fears over MicroStrategy margin call",
+      "url": "https://finance.yahoo.com/news/bitcoin-whale-michael-saylor-tries-134205244.html",
+      "summary": "Michael Saylor's MicroStrategy, a significant Bitcoin holder, is facing scrutiny over potential margin calls on its Bitcoin-backed loans. Saylor's efforts to allay these fears are crucial for market sentiment, as any forced selling by such a large entity could negatively impact Bitcoin's price. The company's strategy is heavily tied to Bitcoin adoption, including its integration into 401(k) plans, making its financial health a bellwether for institutional confidence.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "MicroStrategy_margin_call",
+        "Saylor_sentiment",
+        "institutional_adoption_401k"
+      ],
+      "rationale": "A margin call on MicroStrategy's substantial Bitcoin holdings could trigger forced selling, leading to significant downward pressure on Bitcoin's price. This event would also signal a potential loss of confidence from major institutional players."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n25480dd347d5",
+      "title": "Three Reasons Behind The Crypto Market Crash",
+      "url": "https://finance.yahoo.com/news/three-reasons-behind-crypto-market-035440154.html",
+      "summary": "The total crypto market cap has fallen to a ten-month low, with a significant outflow of $130 billion over a weekend. Key drivers identified are Federal Reserve interest rate hikes pushing investors back to traditional assets, and a cooling of institutional interest in crypto after a strong 2021. This indicates a broader macroeconomic trend impacting risk assets, including cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fed_rate_hikes",
+        "institutional_outflow",
+        "market_cap_decline"
+      ],
+      "rationale": "The article highlights the significant impact of macroeconomic factors like Fed rate hikes on the crypto market. This suggests a sustained bearish trend as investors de-risk, impacting Bitcoin's price and adoption."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n809475dd719a",
+      "title": "Gold ETFs Have Been Enjoying Robust Demand",
+      "url": "https://finance.yahoo.com/news/gold-etfs-enjoying-robust-demand-222511865.html",
+      "summary": "Gold ETFs experienced record demand in March, particularly in Europe, driven by safe-haven and inflation-hedging needs amidst geopolitical uncertainty and rising consumer prices. Global net inflows into gold ETPs increased fivefold month-over-month to $11.3 billion. This surge in demand for gold as a safe-haven asset suggests a broader investor sentiment shift away from riskier assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "gold_ETF_demand",
+        "inflation_hedging",
+        "safe_haven_demand"
+      ],
+      "rationale": "Increased demand for gold as a safe-haven asset indicates a risk-off environment, which typically correlates with reduced investment in riskier assets like Bitcoin. This trend suggests a potential headwind for Bitcoin's price."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n7e02ce864947",
+      "title": "Elizabeth Warren Echoes Labor Dept. Concerns About Fidelity’s Plan for Bitcoin in 401(k) Retirement Plans",
+      "url": "https://finance.yahoo.com/news/elizabeth-warren-echoes-labor-department-153541080.html",
+      "summary": "Senator Elizabeth Warren has joined the Labor Department in expressing concerns about Fidelity's plan to offer Bitcoin in 401(k) retirement plans. The senators cited Bitcoin's volatility and described crypto investing as a \"risky and speculative gamble.\" This regulatory scrutiny from prominent figures could lead to stricter oversight or limitations on institutional adoption of Bitcoin within retirement accounts.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fidelity_401k_bitcoin",
+        "Warren_regulatory_concern",
+        "institutional_retirement_plan_scrutiny"
+      ],
+      "rationale": "Regulatory pushback on institutional adoption, particularly within retirement plans, can significantly dampen long-term demand and investor confidence, creating a bearish outlook for Bitcoin's integration into mainstream finance."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n13f98fb74267",
+      "title": "Crypto-Friendly Tim Ryan, JD Vance to Vie for Ohio's Open Senate Seat",
+      "url": "https://finance.yahoo.com/news/crypto-friendly-tim-ryan-jd-022831229.html",
+      "summary": "Two candidates, Tim Ryan and JD Vance, who have shown support for cryptocurrency, are competing for Ohio's open Senate seat. Vance, in particular, is noted for owning Bitcoin and being backed by Peter Thiel, a proponent of Bitcoin adoption. The election of candidates with a positive stance on crypto could influence future regulatory frameworks and foster a more favorable environment for digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Ohio_Senate_race",
+        "crypto_friendly_politicians",
+        "Vance_Bitcoin_ownership"
+      ],
+      "rationale": "The election of politicians with a favorable view towards cryptocurrency could lead to more supportive regulations and policies, potentially boosting adoption and investor confidence in the long term."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n6e97fc1adbc2",
+      "title": "Bitcoin Stalls Below $40K Resistance, Support at $30K-$32K",
+      "url": "https://finance.yahoo.com/news/bitcoin-stalls-below-40k-resistance-180506622.html",
+      "summary": "Bitcoin is currently holding support above $37,500 but faces potential for increased volatility. The cryptocurrency is trading around $38,000, showing indecision among traders. Weakening momentum signals on daily, weekly, and monthly charts increase the probability of a price breakdown. Key support levels are identified between $30,000 and $32,000.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_resistance_40K",
+        "BTC_support_30K_32K",
+        "momentum_signals_weak"
+      ],
+      "rationale": "The stalling price action below a key resistance level and weakening technical indicators suggest a potential for a downward trend. However, the holding of support levels indicates a degree of indecision, making the short-term direction uncertain."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n8d53baa22f7b",
+      "title": "World's First Combined Bitcoin, Gold Exchange-Traded Product Listed in Switzerland",
+      "url": "https://finance.yahoo.com/news/worlds-first-combined-bitcoin-gold-080735914.html",
+      "summary": "Switzerland has listed the world's first exchange-traded product (ETP) combining exposure to Bitcoin and gold. Developed by 21Shares and ByteTree Asset Management, the BOLD ETP tracks a benchmark index of Bitcoin and gold, rebalancing monthly based on their relative volatility. This product offers a diversified approach for investors seeking exposure to both traditional and digital safe-haven assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_gold_ETP",
+        "Swiss_listing",
+        "diversified_crypto_exposure"
+      ],
+      "rationale": "The introduction of a combined Bitcoin and gold ETP in a major financial hub like Switzerland signifies growing institutional acceptance and product innovation. This can attract new capital and broaden Bitcoin's appeal as a digital store of value."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n6ec8373884a2",
+      "title": "Buy Alphabet Stock After Its Earnings Dip",
+      "url": "https://finance.yahoo.com/news/buy-alphabet-stock-earnings-dip-194718718.html",
+      "summary": "Alphabet (GOOGL) experienced a dip after its earnings report, with revenue growing 23% year-over-year but earnings per share missing estimates. The miss was attributed to a swing in its equity portfolio. Despite the earnings miss, the company's strong revenue growth suggests underlying business strength, making it a potential buy-the-dip opportunity.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Alphabet_earnings_miss",
+        "GOOGL_revenue_growth",
+        "tech_stock_dip"
+      ],
+      "rationale": "While Alphabet's earnings miss is a short-term negative, its strong revenue growth indicates resilience. This could indirectly benefit the crypto market if tech sector sentiment improves, but the direct impact on Bitcoin is minimal."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n441fc3bdf638",
+      "title": "Iran Launches Its CBDC ‘Crypto-Rial’ To Compete With USDT, USDC",
+      "url": "https://finance.yahoo.com/news/iran-launches-cbdc-crypto-rial-093357192.html",
+      "summary": "Iran has launched its Central Bank Digital Currency (CBDC), the 'Crypto-Rial,' aiming to improve financial inclusion and compete with global stablecoins like USDT and USDC. The proliferation of CBDCs globally signifies a trend towards digital currencies, which could eventually impact the adoption and utility of decentralized cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Iran_CBDC_launch",
+        "Crypto_Rial",
+        "stablecoin_competition"
+      ],
+      "rationale": "The development of CBDCs by nation-states, while not directly competitive with Bitcoin's decentralized nature, signals a broader shift towards digital currencies. This could indirectly influence the regulatory landscape and adoption of cryptocurrencies."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n5c9b039b4fef",
+      "title": "Grayscale® Digital Large Cap Fund, Grayscale® DeFi Fund, and Grayscale® Smart Contract Platform Ex-Ethereum Fund Announce Rebalancing of Funds for First Quarter 2022",
+      "url": "https://finance.yahoo.com/news/grayscale-digital-large-cap-fund-123000990.html",
+      "summary": "Grayscale Investments announced the rebalancing of its Digital Large Cap Fund, DeFi Fund, and Smart Contract Platform Ex-Ethereum Fund for Q1 2022. This involves adjusting the weightings of underlying digital assets within these funds. Such rebalancing activities by major asset managers can influence the demand for specific cryptocurrencies held within their portfolios.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Grayscale_fund_rebalancing",
+        "Q1_2022_portfolio_adjustment",
+        "digital_asset_fund_management"
+      ],
+      "rationale": "Grayscale's fund rebalancing activities can lead to buying or selling pressure on the underlying assets. While specific details of the rebalancing aren't provided, these actions by a large digital asset manager can have a minor impact on the market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n8fcc3c763d12",
+      "title": "Market Wrap: Cryptos Decline Amid Bearish Sentiment",
+      "url": "https://finance.yahoo.com/news/market-wrap-cryptos-decline-amid-205305265.html",
+      "summary": "Bitcoin traded lower as crypto trader sentiment remained bearish, with the Fear & Greed Index stuck in the \"fear\" zone. While the index has slightly recovered, extreme bearishness persists. A recovery above $30,000 is needed to signal a potential shift in sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_bearish_sentiment",
+        "Fear_Greed_Index_low",
+        "crypto_market_decline"
+      ],
+      "rationale": "Prevailing bearish sentiment and the Bitcoin Fear & Greed Index remaining in the 'fear' zone suggest continued downward pressure on prices in the immediate short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "ne99b98c81976",
+      "title": "Russia uncovers a crypto mining farm in its oldest prison: report",
+      "url": "https://finance.yahoo.com/news/russia-uncovers-crypto-mining-farm-025646317.html",
+      "summary": "A deputy warden in Russia's oldest prison is under investigation for allegedly operating a crypto mining farm using stolen electricity. The mining equipment was reportedly found in a psychiatric clinic within the prison and was operational from November to February. This incident highlights regulatory challenges and potential illicit activities associated with crypto mining.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Russia_prison_mining",
+        "stolen_electricity_mining",
+        "mining_regulation_enforcement"
+      ],
+      "rationale": "While an isolated incident, it points to the ongoing challenges in regulating mining operations and potential for illicit activities. The direct impact on Bitcoin's price is likely minimal, but it adds to the general regulatory uncertainty."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na14b0b86f592",
+      "title": "Crypto Derivative Traders Can Access TradingView with Broker Eightcap",
+      "url": "https://finance.yahoo.com/news/crypto-derivative-traders-access-tradingview-172553626.html",
+      "summary": "Eightcap, an FX and CFD provider, has partnered with TradingView, allowing crypto derivative traders to trade directly from TradingView's charts. This integration provides traders with access to Eightcap's crypto derivatives suite, including altcoins and crypto-indices. The partnership aims to enhance the trading experience for crypto derivatives.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Eightcap_TradingView_integration",
+        "crypto_derivatives_trading",
+        "enhanced_trading_platform"
+      ],
+      "rationale": "Improved access to trading platforms and tools for derivatives can increase trading activity and liquidity in the crypto derivatives market, potentially having a positive spillover effect on spot markets."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nc50a20d5350b",
+      "title": "Fintechs launch crypto, cash-back rewards for college to help parents save for their kids",
+      "url": "https://finance.yahoo.com/news/fintechs-launch-crypto-cash-back-090140895.html",
+      "summary": "Fintech companies are offering new ways for parents to save for their children's future, including options for cryptocurrency investments and cash-back rewards. One platform focuses on custodial accounts for investing and saving, while another offers a cash-back rewards credit card for college funds. This trend indicates a growing interest in integrating crypto into mainstream financial planning for younger generations.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "fintech_crypto_savings",
+        "custodial_accounts_crypto",
+        "college_fund_crypto_investment"
+      ],
+      "rationale": "The integration of crypto into savings plans for children suggests a long-term adoption trend. While the immediate impact is small, it normalizes crypto as an asset class for future generations."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n8292a3fbdf77",
+      "title": "Only 12% of Americans have used crypto, mostly for investing",
+      "url": "https://finance.yahoo.com/news/americans-used-crypto-for-investing-193926143.html",
+      "summary": "A Federal Reserve survey indicates that only 12% of Americans used cryptocurrency last year, primarily for investment rather than as a currency or for payments. This suggests that while adoption is growing, it's still in its early stages, with a significant portion of the population yet to engage with digital assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_crypto_adoption_rate",
+        "crypto_investment_vs_payment",
+        "Fed_survey_crypto_usage"
+      ],
+      "rationale": "The low adoption rate, primarily for investment, indicates that crypto is not yet a mainstream payment method. This limits its immediate impact on daily transactions but highlights its potential as a growing investment asset."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n3b0e581d8d27",
+      "title": "More Downside Ahead for Bitcoin, Says Top Valkyrie Analyst",
+      "url": "https://finance.yahoo.com/news/more-downside-ahead-bitcoin-says-180454412.html",
+      "summary": "A Valkyrie analyst suggests that Bitcoin may experience further downside, pointing to the 200-week moving average around $22,000 and the realized price as potential support levels. The analyst emphasizes that volatility needs to settle before Bitcoin can establish a bottom.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Valkyrie_analyst_BTC_outlook",
+        "BTC_200W_MA",
+        "realized_price_support"
+      ],
+      "rationale": "Expert analysis predicting further downside, supported by technical indicators, suggests a bearish short-term outlook for Bitcoin, potentially driving prices lower in the coming days."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n3cdbd9fd86e3",
+      "title": "‘A pyramid scheme,’ ‘worth nothing,’ ‘not reliable’: Crypto is being savaged at Davos by critics. Here’s a list of who said what",
+      "url": "https://finance.yahoo.com/news/cryptocurrencies-being-savaged-davos-top-123512836.html",
+      "summary": "Cryptocurrencies faced severe criticism at the World Economic Forum in Davos, with officials labeling them as 'pyramid schemes,' 'worth nothing,' and 'not reliable.' This negative sentiment follows the collapse of TerraUSD and a broader crypto market crash. The criticism from influential figures could further dampen investor confidence.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "sentiment",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Davos_crypto_criticism",
+        "WEF_negative_sentiment",
+        "Terra_collapse_impact"
+      ],
+      "rationale": "Widespread negative commentary from global leaders at Davos can significantly impact market sentiment, leading to increased selling pressure and a bearish short-term outlook for cryptocurrencies."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n91bbd8bb2634",
+      "title": "Bitcoin Records Eighth Week of Losses, but Sentiment Indicator Suggests Upside",
+      "url": "https://finance.yahoo.com/news/bitcoin-records-eighth-week-losses-113949581.html",
+      "summary": "Bitcoin has experienced its eighth consecutive week of losses, a historical first, due to weak macroeconomic sentiment, inflation concerns, and internal crypto industry risks. Despite the prolonged downturn, a sentiment indicator suggests potential for upside. Prices were around $30,272 late Sunday, after falling as low as $28,700 earlier in the week.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "sentiment",
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_8_consecutive_losses",
+        "macro_sentiment_weak",
+        "sentiment_indicator_upside"
+      ],
+      "rationale": "The record streak of weekly losses indicates strong bearish momentum. However, the mention of a sentiment indicator suggesting upside provides a counterpoint, making the short-term direction uncertain but leaning towards continued volatility."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n18e02df56a5c",
+      "title": "Bitcoin price holds steady ahead of planned US crypto bill",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-us-crypto-bill-101359715.html",
+      "summary": "Bitcoin is holding above $29,000, with bulls potentially buying at lower levels. The price of Bitcoin was $29,377, and Ethereum dipped below $2,000. The crypto market has not yet followed the rally in US equities. Analysts expect Bitcoin to correlate with the Nasdaq, but this correlation has not yet materialized.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_price_steady_29K",
+        "US_crypto_bill_anticipation",
+        "BTC_Nasdaq_correlation_lag"
+      ],
+      "rationale": "Bitcoin holding steady suggests a temporary pause in selling pressure, possibly due to anticipation of a US crypto bill. However, the lack of correlation with the Nasdaq rally indicates underlying weakness, making the immediate direction uncertain."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n83e15242eb59",
+      "title": "Bitcoin Range-Bound; Support at $27K, Resistance at $33K",
+      "url": "https://finance.yahoo.com/news/bitcoin-rangebound-support-27k-resistance-183057821.html",
+      "summary": "Bitcoin is trading in a tight range, struggling to break above or below $30,000. Support has been found around $27,500, stabilizing price action over the past week. BTC was trading around $29,300, down 3% in 24 hours. The daily RSI is rising from oversold levels but remains below the 50 neutral mark.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_range_bound_30K",
+        "BTC_support_27K",
+        "BTC_resistance_33K",
+        "RSI_rising_oversold"
+      ],
+      "rationale": "The range-bound trading suggests indecision in the market. While support at $27K has held, the inability to break resistance at $33K and the RSI remaining below neutral indicate a lack of strong upward momentum, leading to an uncertain short-term outlook."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n0516bb1b30e7",
+      "title": "Stripe Partners With OpenNode to Allow Instant Fiat-to-Bitcoin Conversions for Businesses",
+      "url": "https://finance.yahoo.com/news/stripe-partners-opennode-allow-instant-195106350.html",
+      "summary": "Fintech firm Stripe is partnering with OpenNode to enable its merchant customers to instantly convert payments to Bitcoin. This integration allows businesses to automatically or on-demand convert incoming fiat payments into BTC via the OpenNode app. This move facilitates easier Bitcoin adoption for businesses using Stripe's payment infrastructure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Stripe_OpenNode_partnership",
+        "fiat_to_BTC_conversion",
+        "business_payment_integration"
+      ],
+      "rationale": "Stripe's integration with OpenNode simplifies Bitcoin adoption for businesses, potentially increasing BTC transaction volume and liquidity. This is a positive development for crypto adoption within the e-commerce sector."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-05-24",
+    "summary": "Bitcoin continues to trade in a tight range, hovering around $29,000-$30,000, reflecting market indecision. Bearish sentiment persists, with analysts predicting further downside, while institutional concerns and negative commentary from Davos add to the bearish outlook. However, some developments like Stripe's partnership with OpenNode and the introduction of crypto in savings plans for children suggest underlying adoption trends. The market is awaiting key US data and Fed commentary, which could influence short-term price action.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Continued bearish sentiment and negative macroeconomic factors.",
+      "Potential for further downside as predicted by analysts.",
+      "Regulatory scrutiny and negative commentary from global forums.",
+      "Lack of strong correlation with traditional markets despite expectations.",
+      "Volatility stemming from the ongoing 'crypto winter'."
+    ],
+    "watch_items": [
+      "US economic data releases (e.g., GDP, inflation)",
+      "Federal Reserve statements and interest rate decisions",
+      "Developments in upcoming US crypto legislation",
+      "Performance of major tech stocks (e.g., Nasdaq)",
+      "Sentiment indicators (e.g., Fear & Greed Index)"
+    ]
+  }
+}

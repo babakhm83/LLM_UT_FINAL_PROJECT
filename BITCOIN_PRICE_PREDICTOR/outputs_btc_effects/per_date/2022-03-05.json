@@ -1,0 +1,539 @@
+{
+  "date": "2022-03-05",
+  "long_term": [
+    {
+      "pick_idx": 7,
+      "id": "n3c360ab563a9",
+      "title": "US stock futures tread water after Fed minutes spark a sell-off, while bitcoin slumps to a 1-month low",
+      "url": "https://finance.yahoo.com/news/us-stock-futures-tread-water-111146509.html",
+      "summary": "The Federal Reserve's minutes indicated a potential balance sheet reduction, which analysts believe could squeeze liquidity that has benefited crypto. This news led to a significant sell-off in Bitcoin, pushing it to a one-month low. The broader market sentiment is also affected by anticipated rate hikes, suggesting a less favorable environment for risk assets like cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_minutes",
+        "balance_sheet_reduction",
+        "liquidity_squeeze",
+        "rate_hikes",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Anticipation of Fed tightening and balance sheet reduction directly impacts liquidity available for risk assets. This macro trend is a significant headwind for Bitcoin's price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n49c305bcdfb3",
+      "title": "Why is crypto down so much? Uncertainty in traditional markets and Fed concerns, experts say",
+      "url": "https://finance.yahoo.com/news/why-crypto-down-much-uncertainty-153324373.html",
+      "summary": "The cryptocurrency market has experienced substantial drops, with Bitcoin falling below $33,000 and the total market cap losing over $1 trillion. Experts attribute this decline to uncertainty in traditional markets and concerns about Federal Reserve policies. The increasing correlation between crypto and traditional finance means that macroeconomic instability directly impacts crypto prices.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "market_correlation"
+      ],
+      "features_for_model": [
+        "market_uncertainty",
+        "Fed_concerns",
+        "crypto_decoupling_loss",
+        "macro_instability"
+      ],
+      "rationale": "The growing correlation between crypto and traditional markets amplifies the impact of macroeconomic uncertainty and Fed policy on Bitcoin. This suggests a sustained bearish trend if these macro factors persist."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n0a0aaecc6936",
+      "title": "Warren Buffett and Charlie Munger Still Hate Crypto",
+      "url": "https://finance.yahoo.com/news/warren-buffett-charlie-munger-still-191119882.html",
+      "summary": "Despite Berkshire Hathaway's investment in Nubank, which has some indirect crypto exposure, Warren Buffett and Charlie Munger maintain their long-standing aversion to cryptocurrency. This continued skepticism from influential figures in traditional finance can influence broader institutional adoption and sentiment towards digital assets.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_skepticism",
+        "Munger_aversion",
+        "institutional_sentiment",
+        "adoption_headwind"
+      ],
+      "rationale": "The persistent negative sentiment from highly respected investors like Buffett and Munger acts as a significant barrier to wider institutional adoption, potentially dampening long-term bullish narratives for Bitcoin."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n93d6398a0981",
+      "title": "Michael Saylor lays out why bitcoin beats property as a store of value and what crypto going mainstream would look like",
+      "url": "https://finance.yahoo.com/news/michael-saylor-lays-why-bitcoin-090000375.html",
+      "summary": "Michael Saylor, CEO of MicroStrategy, reiterates his belief in Bitcoin as a superior store of value compared to property. He emphasizes a long-term holding strategy and discusses the potential for mainstream crypto adoption. Saylor's strong advocacy and MicroStrategy's continued Bitcoin accumulation provide a bullish signal for long-term conviction.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "store_of_value"
+      ],
+      "features_for_model": [
+        "Saylor_advocacy",
+        "MicroStrategy_accumulation",
+        "store_of_value_narrative",
+        "mainstream_adoption"
+      ],
+      "rationale": "Continued strong conviction and accumulation by prominent figures like Michael Saylor reinforce the narrative of Bitcoin as a digital gold and a long-term store of value, attracting further institutional interest."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n551a87d5b0eb",
+      "title": "BIT Mining ditches Kazakh data center due to rocky power supply",
+      "url": "https://finance.yahoo.com/news/bit-mining-ditches-kazakh-data-025748597.html",
+      "summary": "BIT Mining has terminated its data center construction in Kazakhstan due to an unstable power supply. While the company's mining rigs in third-party facilities remain operational, this move highlights the infrastructure challenges faced by miners, particularly in regions with unreliable energy grids. This could impact overall network hashrate and security in the long run.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "miner",
+        "regulation"
+      ],
+      "features_for_model": [
+        "miner_relocation",
+        "power_supply_issues",
+        "infrastructure_challenges",
+        "hashrate_impact"
+      ],
+      "rationale": "Unstable power supply issues affecting mining operations can lead to reduced hashrate and potentially impact network security, creating a subtle bearish pressure on Bitcoin's underlying infrastructure."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n8fa9a736bc49",
+      "title": "IMF Favors Central Bank Digital Currencies over Cryptos",
+      "url": "https://finance.yahoo.com/news/imf-favors-central-bank-digital-234022322.html",
+      "summary": "The International Monetary Fund (IMF) has become more vocal about cryptocurrencies, expressing concerns over their interconnectedness with financial markets and calling for a global regulatory framework. The IMF's preference for Central Bank Digital Currencies (CBDCs) over private cryptocurrencies suggests a potential regulatory pushback against decentralized assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "CBDC"
+      ],
+      "features_for_model": [
+        "IMF_stance",
+        "CBDC_preference",
+        "global_regulation",
+        "crypto_scrutiny"
+      ],
+      "rationale": "The IMF's clear preference for CBDCs and call for global regulation signals a potential shift towards stricter oversight of private cryptocurrencies, which could hinder adoption and create regulatory uncertainty."
+    },
+    {
+      "pick_idx": 18,
+      "id": "na29113c2d9f0",
+      "title": "Crypto firms launch coalition to promote market integrity",
+      "url": "https://finance.yahoo.com/news/crypto-firms-launch-coalition-promote-120345287.html",
+      "summary": "Major crypto firms have formed a coalition to combat market manipulation and enhance trust in the digital asset industry. This initiative, focused on market integrity and investor protection, is a positive step towards greater legitimacy and could foster more responsible growth in the long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption",
+        "market_integrity"
+      ],
+      "features_for_model": [
+        "market_integrity_coalition",
+        "anti_manipulation",
+        "investor_protection",
+        "industry_trust"
+      ],
+      "rationale": "Industry-led efforts to improve market integrity and transparency are crucial for building trust and attracting institutional capital, which are positive long-term drivers for Bitcoin."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n69539ceee77b",
+      "title": "After Colorado, California To Allow Bitcoin Payments for Govt Services",
+      "url": "https://finance.yahoo.com/news/colorado-california-allow-bitcoin-payments-200907364.html",
+      "summary": "California is considering a senate bill to allow cryptocurrency payments for government services, following Colorado's lead. This move signifies increasing adoption of digital assets at the state level, potentially paving the way for broader acceptance and integration into the financial system.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "government"
+      ],
+      "features_for_model": [
+        "state_level_adoption",
+        "crypto_payments",
+        "government_services",
+        "regulatory_precedent"
+      ],
+      "rationale": "State-level initiatives to accept Bitcoin for government services demonstrate growing mainstream adoption and can set precedents for other regions, boosting Bitcoin's utility and legitimacy."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nb732b3184162",
+      "title": "Bitcoin Wilts as Russia-Ukraine Tensions Push Gold to 8-Month High",
+      "url": "https://finance.yahoo.com/news/bitcoin-wilts-russia-ukraine-tensions-082348497.html",
+      "summary": "Escalating tensions between Russia and Ukraine have led investors to seek safe-haven assets like gold, causing Bitcoin to decline. This highlights Bitcoin's current classification as a risk-on asset, vulnerable to geopolitical instability, rather than a true safe haven.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "geopolitics",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "geopolitical_risk",
+        "risk_aversion",
+        "safe_haven_demand",
+        "risk_on_asset"
+      ],
+      "rationale": "Geopolitical events causing a flight to safety negatively impact Bitcoin, reinforcing its status as a risk asset and indicating potential for further downside if tensions persist."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n0d8d0a3dbf6c",
+      "title": "Bitcoin and stocks are increasingly moving together, ramping up contagion risks across markets, says IMF",
+      "url": "https://finance.yahoo.com/news/bitcoin-stocks-increasingly-moving-together-210526688.html",
+      "summary": "The IMF notes that Bitcoin and stocks are moving in increasing lockstep, posing financial stability risks. This tighter correlation means that macroeconomic factors affecting traditional markets are now more directly impacting Bitcoin's price, reducing its perceived diversification benefits.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "market_correlation",
+        "risk"
+      ],
+      "features_for_model": [
+        "stock_correlation",
+        "financial_stability_risk",
+        "macro_impact",
+        "diversification_loss"
+      ],
+      "rationale": "The increasing correlation between Bitcoin and traditional stock markets, particularly tech stocks, means that downturns in equities will likely lead to similar downturns in Bitcoin, increasing contagion risks."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n4da97c50344f",
+      "title": "European Equities: A Week in Review – 04/03/22",
+      "url": "https://finance.yahoo.com/news/european-equities-week-review-04-001943730.html",
+      "summary": "European markets experienced their worst week since 2020 due to Russia's invasion of Ukraine. Heavy shelling and the failure of diplomatic efforts increased market angst. Economic data took a backseat to geopolitical concerns, indicating a risk-off sentiment that could spill over into other asset classes.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "geopolitics",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "European_markets",
+        "Russia_Ukraine_war",
+        "risk_off_sentiment",
+        "geopolitical_uncertainty"
+      ],
+      "rationale": "The severe downturn in European equities due to geopolitical conflict suggests a broad risk-off sentiment that is likely to negatively impact Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n59093672456d",
+      "title": "A look inside Founders Fund, as it closes on $5 billion across two new funds",
+      "url": "https://finance.yahoo.com/news/peek-inside-founders-fund-closes-004418920.html",
+      "summary": "Founders Fund has closed on over $5 billion in new capital commitments across two funds. This significant capital raise indicates strong investor confidence in venture capital and potentially in technology and crypto-related investments, which could lead to increased funding for startups in the space.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "funding"
+      ],
+      "features_for_model": [
+        "VC_funding",
+        "capital_raise",
+        "investor_confidence",
+        "startup_funding"
+      ],
+      "rationale": "Large capital raises by venture capital firms like Founders Fund can signal increased investment into the crypto ecosystem, potentially boosting sentiment and liquidity for digital assets."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n1392bc096d51",
+      "title": "ETF Areas to Consider for Investing in March Amid War Concerns",
+      "url": "https://finance.yahoo.com/news/etf-areas-consider-investing-march-010001850.html",
+      "summary": "Wall Street is experiencing the impact of the Russia-Ukraine war, with major indices declining. Geopolitical tensions and the lack of concrete conclusions from negotiation talks are contributing to market uncertainty. The imposition of new sanctions on Russian nationals adds to the bearish sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "geopolitics",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "war_concerns",
+        "market_uncertainty",
+        "sanctions",
+        "risk_aversion"
+      ],
+      "rationale": "Ongoing war concerns and market uncertainty are driving a risk-off sentiment, which is likely to continue pressuring Bitcoin and other risk assets in the immediate short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ncd0a294670c2",
+      "title": "LBank Exchange Will List Rewardeum (REUM) on March 4, 2022",
+      "url": "https://finance.yahoo.com/news/lbank-exchange-list-rewardeum-reum-013900997.html",
+      "summary": "LBank Exchange announced the listing of Rewardeum (REUM) on March 4, 2022. New exchange listings, especially on reputable platforms, can increase liquidity and trading volume for a token, potentially leading to short-term price appreciation.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "listing",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "exchange_listing",
+        "new_token_listing",
+        "liquidity_increase",
+        "trading_volume"
+      ],
+      "rationale": "The listing of a new token on an exchange like LBank can generate short-term interest and trading activity, potentially leading to a minor price bump for the specific token, but with limited impact on Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nbdb737d7d514",
+      "title": "Bitcoin (BTC) Sinks to sub-$40,000 Amidst Heightened Risk Aversion",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-sinks-sub-40-021227050.html",
+      "summary": "Bitcoin has fallen below $39,000 due to heightened risk aversion in the market. Government focus on cryptocurrencies and broader market sentiment are negatively impacting the crypto market. Bitcoin's brief flirtation with safe-haven status has ended as policy uncertainty returns.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment",
+        "regulation"
+      ],
+      "features_for_model": [
+        "risk_aversion",
+        "crypto_policy_uncertainty",
+        "market_sentiment",
+        "price_drop"
+      ],
+      "rationale": "The immediate price action shows Bitcoin is highly sensitive to broader market risk aversion and policy uncertainty, leading to sharp downward movements in the short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n8fddf1466708",
+      "title": "Healthcare Giant CVS Files for NFT and the Metaverse-Related Trademarks",
+      "url": "https://finance.yahoo.com/news/healthcare-giant-cvs-files-nft-072540624.html",
+      "summary": "CVS has filed trademark applications related to NFTs and the Metaverse, signaling potential expansion into virtual commerce and healthcare services. This move by a major healthcare company could encourage similar initiatives from other players in the sector, boosting interest in blockchain applications.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "NFT",
+        "metaverse"
+      ],
+      "features_for_model": [
+        "CVS_trademark",
+        "NFT_filing",
+        "metaverse_expansion",
+        "healthcare_blockchain"
+      ],
+      "rationale": "Corporate adoption of NFTs and the metaverse, even in nascent stages, can generate positive sentiment and highlight the utility of blockchain technology, offering a slight bullish tailwind."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb18ef7085042",
+      "title": "Crypto Donations for Ukraine Cross $83 Million Led by Ethereum & Bitcoin",
+      "url": "https://finance.yahoo.com/news/crypto-donations-ukraine-cross-83-201652396.html",
+      "summary": "Cryptocurrency donations for Ukraine have surpassed $83 million, with Bitcoin and Ethereum leading the way. This significant inflow demonstrates the growing utility of crypto for humanitarian aid and highlights the resilience of the ecosystem during geopolitical events. It also shows a concentration of donations towards major cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "sentiment",
+        "utility"
+      ],
+      "features_for_model": [
+        "Ukraine_donations",
+        "crypto_aid",
+        "BTC_ETH_dominance",
+        "humanitarian_utility"
+      ],
+      "rationale": "The substantial crypto donations for Ukraine showcase the practical application of digital assets for real-world needs, providing a positive sentiment boost and demonstrating the network effect of major cryptocurrencies."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n816cebd8a106",
+      "title": "U.S Mortgage Rates Slide in Response to Russia’s Invasion of Ukraine",
+      "url": "https://finance.yahoo.com/news/u-mortgage-rates-slide-response-233055677.html",
+      "summary": "U.S. mortgage rates have declined as demand for safe-haven assets increased due to Russia's invasion of Ukraine, leading to a slide in U.S. Treasury yields. This indicates a broader flight to safety in financial markets, which typically correlates with a decrease in appetite for riskier assets like Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "geopolitics",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "mortgage_rates",
+        "treasury_yields",
+        "flight_to_safety",
+        "risk_aversion"
+      ],
+      "rationale": "The decline in mortgage rates and Treasury yields signals a broader market move towards safety, which is a negative indicator for Bitcoin's short-term price action."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nbdb737d7d514",
+      "title": "Bitcoin (BTC) Sinks to sub-$40,000 Amidst Heightened Risk Aversion",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-sinks-sub-40-021227050.html",
+      "summary": "Bitcoin has fallen below $39,000 due to heightened risk aversion in the market. Government focus on cryptocurrencies and broader market sentiment are negatively impacting the crypto market. Bitcoin's brief flirtation with safe-haven status has ended as policy uncertainty returns.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment",
+        "regulation"
+      ],
+      "features_for_model": [
+        "risk_aversion",
+        "crypto_policy_uncertainty",
+        "market_sentiment",
+        "price_drop"
+      ],
+      "rationale": "The immediate price action shows Bitcoin is highly sensitive to broader market risk aversion and policy uncertainty, leading to sharp downward movements in the short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nb18ef7085042",
+      "title": "Crypto Donations for Ukraine Cross $83 Million Led by Ethereum & Bitcoin",
+      "url": "https://finance.yahoo.com/news/crypto-donations-ukraine-cross-83-201652396.html",
+      "summary": "Cryptocurrency donations for Ukraine have surpassed $83 million, with Bitcoin and Ethereum leading the way. This significant inflow demonstrates the growing utility of crypto for humanitarian aid and highlights the resilience of the ecosystem during geopolitical events. It also shows a concentration of donations towards major cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "sentiment",
+        "utility"
+      ],
+      "features_for_model": [
+        "Ukraine_donations",
+        "crypto_aid",
+        "BTC_ETH_dominance",
+        "humanitarian_utility"
+      ],
+      "rationale": "The substantial crypto donations for Ukraine showcase the practical application of digital assets for real-world needs, providing a positive sentiment boost and demonstrating the network effect of major cryptocurrencies."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-03-05",
+    "summary": "The market sentiment remains heavily influenced by geopolitical tensions stemming from the Russia-Ukraine conflict, leading to a broad risk-off environment. European equities have seen significant declines, and this risk aversion is impacting Bitcoin, pushing it below $39,000. While there are some positive developments like increased crypto donations for Ukraine and institutional interest in NFTs, the dominant macro factors are bearish for the short term. The IMF's stance on CBDCs and the increasing correlation between Bitcoin and stocks further reinforce this cautious outlook.",
+    "scenario_probs": {
+      "bull": 0.25,
+      "base": 0.4,
+      "bear": 0.35
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Escalation of the Russia-Ukraine conflict leading to further market sell-offs.",
+      "Continued tightening of monetary policy by central banks impacting liquidity.",
+      "Increased regulatory scrutiny on cryptocurrencies globally.",
+      "Correlation breakdown between Bitcoin and traditional markets if geopolitical events subside rapidly.",
+      "Potential for further DeFi exploits or exchange issues impacting confidence."
+    ],
+    "watch_items": [
+      "Russia-Ukraine conflict developments",
+      "US CPI data releases",
+      "Federal Reserve statements on monetary policy",
+      "Major exchange listing announcements",
+      "Significant whale movements on-chain"
+    ]
+  }
+}

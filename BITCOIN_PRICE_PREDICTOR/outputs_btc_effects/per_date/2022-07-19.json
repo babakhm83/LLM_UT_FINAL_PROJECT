@@ -1,0 +1,520 @@
+{
+  "date": "2022-07-19",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n9c9801c24735",
+      "title": "UPDATE 1-Bitcoin falls below $19,000, further shaking crypto markets",
+      "url": "https://finance.yahoo.com/news/1-bitcoin-falls-below-19-212915707.html",
+      "summary": "Bitcoin's drop below $19,000 signifies a significant downturn, impacting crypto markets broadly. This decline, down over 60% from its March high, reflects broader market difficulties and potential forced selling due to margin calls. The broader market sentiment is heavily influenced by macroeconomic factors and the health of major crypto players, indicating a period of significant deleveraging and price discovery.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_below_19k",
+        "crypto_market_shakeout",
+        "margin_call_risk"
+      ],
+      "rationale": "This news highlights a critical price level breach for Bitcoin, indicating strong bearish sentiment. The cascading effect of margin calls and forced selling suggests a prolonged period of price weakness, impacting the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n3870e6b11973",
+      "title": "European Crypto Unicorn Bitpanda Is Now Regulated in Spain",
+      "url": "https://finance.yahoo.com/news/european-crypto-unicorn-bitpanda-now-073000937.html",
+      "summary": "Austrian crypto exchange Bitpanda has registered with the Bank of Spain, becoming a regulated virtual currency exchange and digital asset custody service provider. This expansion into Spain signifies growing regulatory clarity and adoption within the European crypto landscape. As more jurisdictions establish frameworks for crypto businesses, it fosters greater institutional confidence and potentially opens doors for wider adoption and integration of digital assets into traditional finance.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Bitpanda_Spain_regulation",
+        "EU_crypto_framework",
+        "regulatory_clarity"
+      ],
+      "rationale": "Regulatory approval in a major European market like Spain is a positive signal for broader crypto adoption. It builds trust and paves the way for more traditional financial players to engage with the digital asset space."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n884a486d42be",
+      "title": "New York Mining 'Ban' Is a Green Opportunity",
+      "url": "https://finance.yahoo.com/news/york-mining-ban-green-opportunity-162433580.html",
+      "summary": "New York's proposed moratorium on new bitcoin mining facilities using carbon-based fuels, if signed into law, could reshape the mining industry. While potentially limiting current operations, it could also incentivize a shift towards renewable energy sources for mining. This regulatory move highlights the increasing focus on the environmental impact of cryptocurrency mining and could drive innovation in sustainable mining practices, potentially benefiting greener operations in the long run.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "NY_mining_moratorium",
+        "PoW_environmental_impact",
+        "renewable_energy_mining"
+      ],
+      "rationale": "This regulatory action in a major US state could set a precedent for other regions. While it poses a challenge to carbon-intensive mining, it also creates an opportunity for greener mining solutions, impacting network security and decentralization over time."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n21e0b921635c",
+      "title": "GLOBAL MARKETS-Bond market storm eases a touch but bears still on prowl",
+      "url": "https://finance.yahoo.com/news/global-markets-bond-market-storm-091955987.html",
+      "summary": "Global markets are experiencing a slight easing in the bond market storm, but bearish sentiment persists due to inflation concerns and aggressive central bank tightening. The S&P 500 entering bear market territory underscores the broader economic anxieties. This macroeconomic environment, characterized by rising yields and inflation fears, typically leads investors to de-risk, which can negatively impact speculative assets like Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bond_market_volatility",
+        "inflation_fears",
+        "central_bank_tightening",
+        "bear_market_sentiment"
+      ],
+      "rationale": "The persistent bearish sentiment in traditional markets, driven by inflation and central bank actions, creates a challenging environment for risk assets like Bitcoin. This macro backdrop suggests continued downward pressure on crypto prices."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n14ac10e31cf9",
+      "title": "PayPal Ups Crypto Push: Users Can Now Move Coins to Other Wallets and Exchanges",
+      "url": "https://finance.yahoo.com/news/paypal-ups-crypto-push-users-152621253.html",
+      "summary": "PayPal is enhancing its cryptocurrency services by allowing users to transfer digital assets to external wallets and exchanges. This move signifies a shift towards greater user control and interoperability within the crypto ecosystem, aligning with the trend of moving away from closed, custodial platforms. Such developments are crucial for fostering wider adoption and integrating crypto more seamlessly into users' financial lives, potentially increasing utility and demand.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "PayPal_crypto_transfer",
+        "user_custody",
+        "fintech_crypto_integration"
+      ],
+      "rationale": "Increased functionality from major financial players like PayPal, allowing for external transfers, enhances the utility and accessibility of cryptocurrencies. This fosters greater adoption and integration, which is fundamentally bullish for the ecosystem."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf00bcf007b8d",
+      "title": "Coinbase Shares Slump With Crypto Prices as Binance.US Starts Zero-Fee BTC Trading",
+      "url": "https://finance.yahoo.com/news/coinbase-shares-slump-crypto-prices-162148337.html",
+      "summary": "Coinbase shares are declining alongside crypto prices, exacerbated by Binance.US introducing zero-fee Bitcoin trading. This competitive pressure on exchanges, coupled with a general market downturn, impacts the profitability and valuation of publicly traded crypto companies. The trend of fee compression and the ongoing crypto winter create headwinds for these platforms, potentially leading to further stock price declines.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "Coinbase_stock_slump",
+        "Binance_zero_fee_trading",
+        "exchange_competition",
+        "crypto_winter_impact"
+      ],
+      "rationale": "The slump in Coinbase shares reflects the broader crypto market downturn and increased competition among exchanges. Fee compression and a prolonged bear market pose significant challenges to the profitability of crypto-focused companies."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n71344b8f5ecf",
+      "title": "Cryptos See Over $1B in Liquidations as Bitcoin, Ether Lose Major Support Levels",
+      "url": "https://finance.yahoo.com/news/cryptos-see-over-1b-liquidations-095535771.html",
+      "summary": "The cryptocurrency market experienced over $1 billion in liquidations as Bitcoin and Ether fell below key support levels. This indicates significant deleveraging and forced selling within the market, driven by a weak global economic outlook and negative sentiment. Such large liquidation events often exacerbate price declines and signal a period of heightened volatility and risk aversion among traders.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "liquidity",
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "crypto_liquidations_1B",
+        "BTC_ETH_support_break",
+        "weak_economic_outlook"
+      ],
+      "rationale": "Massive liquidations signal extreme market stress and deleveraging. The breach of major support levels for Bitcoin and Ether indicates a strong bearish trend, likely to continue in the short to medium term."
+    },
+    {
+      "pick_idx": 20,
+      "id": "ncecba6d00b21",
+      "title": "Crypto Firms, Especially Exchanges, Slash Jobs as Market Rout Continues",
+      "url": "https://finance.yahoo.com/news/crypto-firms-especially-exchanges-slash-120000583.html",
+      "summary": "The ongoing crypto market downturn has led to significant job cuts across crypto firms, particularly exchanges. This trend reflects a broader industry consolidation and a response to reduced trading volumes and revenue. Such layoffs signal a challenging period for the sector, indicating a potential slowdown in innovation and growth as companies focus on cost-cutting and survival.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_job_cuts",
+        "exchange_layoffs",
+        "crypto_winter_consolidation"
+      ],
+      "rationale": "Widespread layoffs in the crypto industry are a strong indicator of the severe market downturn. This suggests a period of reduced investment and growth, which is bearish for the sector's expansion prospects."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n6b57f7338003",
+      "title": "The CFTC and the SEC to Battle It Out to Regulate Digital Currencies",
+      "url": "https://finance.yahoo.com/news/cftc-sec-battle-regulate-digital-034512059.html",
+      "summary": "The Commodity Futures Trading Commission (CFTC) and the Securities and Exchange Commission (SEC) are poised to compete for regulatory authority over digital currencies. This jurisdictional uncertainty can create a challenging environment for crypto businesses and innovation. The outcome of this regulatory battle will significantly shape the future of crypto regulation in the US, impacting market participants and the broader adoption of digital assets.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "CFTC_SEC_jurisdiction_battle",
+        "crypto_regulation_uncertainty",
+        "US_digital_asset_framework"
+      ],
+      "rationale": "The ongoing regulatory turf war between the CFTC and SEC creates significant uncertainty for the crypto industry. This lack of clarity can stifle innovation and investment, making it difficult for businesses to operate and for the market to mature."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n139a6e9f5e5b",
+      "title": "3 Blue Chip Cryptos to Buy and Hold for the Long Haul",
+      "url": "https://finance.yahoo.com/news/3-blue-chip-cryptos-buy-225821604.html",
+      "summary": "The article suggests that despite market volatility, certain cryptocurrencies like Binance Coin (BNB), Bitcoin (BTC), and Ethereum (ETH) are considered 'blue chip' assets suitable for long-term holding. It highlights BNB's utility, BTC's growth prospects, and ETH's potential from the upcoming Merge upgrade. This perspective indicates a belief in the fundamental strength and long-term value proposition of these leading digital assets, even amidst a bear market.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "blue_chip_cryptos",
+        "long_term_holding",
+        "BTC_ETH_BNB_potential"
+      ],
+      "rationale": "Identifying 'blue chip' cryptocurrencies for long-term holding suggests a belief in the fundamental value and future growth of these assets. This perspective can attract long-term investors, providing a stable demand base even during market downturns."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n47f99de079b6",
+      "title": "Bitcoin Could Soar Over 40% by Year-End; Here Are 3 Stocks That Stand to Benefit",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-soar-over-40-235246928.html",
+      "summary": "This article presents a bullish outlook for Bitcoin, predicting a potential 40% surge by year-end, and identifies related stocks that could benefit. While acknowledging Bitcoin's recent struggles as an inflation hedge, it emphasizes its historical resilience and ability to recover. The prediction of significant upside suggests a belief in a market turnaround and increased institutional adoption, which would positively impact the broader crypto market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_40%_year_end_surge",
+        "crypto_bull_case",
+        "inflation_hedge_debate"
+      ],
+      "rationale": "A forecast of significant Bitcoin appreciation by year-end, despite recent underperformance as an inflation hedge, signals a potential shift in market sentiment. This bullish outlook, if realized, would have a substantial positive impact on the entire crypto market."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n9737f7160004",
+      "title": "6 Reasons Crypto Has Become So Popular in the Past Two Years",
+      "url": "https://finance.yahoo.com/news/6-reasons-crypto-become-popular-120018513.html",
+      "summary": "The article outlines six key reasons for the surge in cryptocurrency popularity over the last two years, moving from a niche speculative asset to a more mainstream investment consideration. Factors like increased accessibility, growing institutional interest, and the potential for high returns have contributed to this trend. This growing mainstream acceptance and understanding are crucial for long-term adoption and market growth.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_popularity_growth",
+        "institutional_adoption_drivers",
+        "mainstream_crypto_acceptance"
+      ],
+      "rationale": "The increasing popularity and acceptance of crypto, driven by factors like institutional interest and accessibility, indicate a fundamental shift in its perception. This growing mainstream appeal is a strong long-term bullish signal for the asset class."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "na9715e94a544",
+      "title": "5 Things to Know in Crypto Today: ETH Closing in on $1,700 Bull Target",
+      "url": "https://finance.yahoo.com/news/5-things-know-crypto-today-070323289.html",
+      "summary": "Bitcoin faces resistance at its 50-day moving average (DMA) and is trading below $22,000, while Ethereum shows progress towards $1,700. Grayscale suggests the Bitcoin bear market could persist for another 250 days. The subdued macro tone and Bitcoin's struggle at resistance indicate near-term consolidation or potential pullback, while Ethereum's relative strength is a key short-term catalyst.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "ETH"
+      ],
+      "features_for_model": [
+        "ETH_price_target_1700",
+        "BTC_50DMA_resistance",
+        "Grayscale_bear_market_forecast"
+      ],
+      "rationale": "Ethereum's continued strength and approach to a key price target ($1,700) suggests positive short-term momentum, outperforming Bitcoin which is facing technical resistance."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nf1c16e93bf56",
+      "title": "Fedi to Build Privacy-Focused Bitcoin Mobile App on Fedimint Protocol",
+      "url": "https://finance.yahoo.com/news/fedi-build-privacy-focused-bitcoin-153000555.html",
+      "summary": "Fedi Inc. has secured $4.2 million in seed funding to develop a privacy-focused Bitcoin mobile app using the Fedimint protocol. This development emphasizes self-custody and enhanced privacy for Bitcoin users. The focus on user control and privacy is a positive development for Bitcoin's utility and adoption, potentially attracting users concerned about security and data protection.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Fedi_app_Fedimint",
+        "Bitcoin_privacy_focus",
+        "self_custody_development"
+      ],
+      "rationale": "Development of privacy-focused Bitcoin applications on new protocols like Fedimint can increase user adoption and utility, offering a niche but positive development for the ecosystem."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n188c32a87519",
+      "title": "Ether Breaches 50-Day Average for First Time Since April; Bitcoin Lags",
+      "url": "https://finance.yahoo.com/news/ether-breaches-50-day-average-153752111.html",
+      "summary": "Ether has surpassed its 50-day moving average (SMA) for the first time in three months, indicating a potential shift in momentum, while Bitcoin lags behind. This technical breakout for ETH suggests short-term bullish sentiment for the altcoin, potentially leading to increased trading volume and interest. However, an analyst cautions against expecting rapid rallies, implying that the move might be a technical correction rather than a sustained trend.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "ETH",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "ETH_above_50DMA",
+        "BTC_lags_ETH",
+        "momentum_shift_indicator"
+      ],
+      "rationale": "Ether's technical breakout above its 50-day SMA is a bullish short-term signal, suggesting potential for further price appreciation, especially as it outperforms Bitcoin."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nf58e6e93d7ba",
+      "title": "Coinsfera enables visitors to sell USDT in Dubai to buy real estate",
+      "url": "https://finance.yahoo.com/news/coinsfera-enables-visitors-sell-usdt-142000140.html",
+      "summary": "Coinsfera is facilitating the sale of USDT in Dubai for real estate purchases, offering an OTC crypto desk service. This development highlights the increasing integration of cryptocurrencies into traditional sectors like real estate, particularly in global hubs like Dubai. Such use cases demonstrate real-world utility for stablecoins and can drive demand for crypto services.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption",
+        "real_estate",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "USDT_real_estate_Dubai",
+        "OTC_crypto_desk",
+        "stablecoin_utility"
+      ],
+      "rationale": "The use of stablecoins like USDT for real estate transactions in a major financial center like Dubai demonstrates growing real-world utility, which can positively influence demand for stablecoins and related services."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n9480e0862ee8",
+      "title": "One-time ‘Lunatic’ crypto booster Mike Novogratz says he was ‘darn wrong’ about the ‘full-fledged credit crisis’",
+      "url": "https://finance.yahoo.com/news/one-time-lunatic-crypto-booster-165910922.html",
+      "summary": "Michael Novogratz, CEO of Galaxy Digital, admits he underestimated the leverage within the crypto system and the resulting credit crisis. His candid admission reflects a broader realization of systemic risks that emerged during the recent market downturn. While acknowledging past misjudgments, Novogratz remains supportive of the space, but his comments highlight the fragility and interconnectedness of the crypto financial system.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Novogratz_credit_crisis_admission",
+        "crypto_leverage_risk",
+        "systemic_risk_realization"
+      ],
+      "rationale": "A prominent figure like Novogratz admitting to underestimating systemic leverage and credit risks suggests that the market may still be dealing with the fallout. This sentiment can dampen short-term confidence and lead to cautious trading."
+    },
+    {
+      "pick_idx": 7,
+      "id": "na237791cc407",
+      "title": "Market Wrap: Bitcoin Breaks Above $23K as Investor Fears Recede",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-breaks-above-203508872.html",
+      "summary": "Bitcoin has surged above $23,000, reaching its highest point since mid-June, as investor fears appear to be subsiding. The Crypto Greed & Fear Index has moved from 'extreme fear' to 'fear,' indicating a positive shift in market sentiment. This price action and improved sentiment suggest a potential short-term bullish trend, with many altcoins also experiencing gains.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "BTC",
+        "sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_above_23k",
+        "investor_fear_receding",
+        "Greed_Fear_Index_improvement"
+      ],
+      "rationale": "Bitcoin breaking above a key resistance level ($23K) and improved market sentiment (Fear & Greed Index) are strong short-term bullish signals, indicating potential for further upward price movement."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n7c0e20794d3b",
+      "title": "Cryptoverse: Holding your breath for a bitcoin bounce",
+      "url": "https://finance.yahoo.com/news/cryptoverse-holding-breath-bitcoin-bounce-051256906.html",
+      "summary": "Technical analysts suggest that a significant Bitcoin bounce might be months away, as the asset struggles below key moving averages like the 200-week and 200-day SMAs. Bitcoin has been trading sideways for over a month. While some research points to a potential upside, the overall technical picture suggests continued consolidation or a slow recovery rather than an immediate sharp rally.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "BTC",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "BTC_sideways_trading",
+        "below_200WMA_200DMA",
+        "delayed_bounce_expectation"
+      ],
+      "rationale": "The technical analysis suggests Bitcoin is in a prolonged consolidation phase, with a bounce potentially delayed. This indicates a lack of strong short-term buying pressure, leading to an uncertain immediate outlook."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n4f408fea2553",
+      "title": "Crypto-Regulation Bill Unlikely to Get Senate Vote This Year, Lummis Says",
+      "url": "https://finance.yahoo.com/news/crypto-regulation-bill-unlikely-senate-142703565.html",
+      "summary": "Senator Cynthia Lummis stated that a comprehensive crypto regulation bill, co-sponsored with Kirsten Gillibrand, is unlikely to receive a Senate vote this year. This delay in legislative progress means continued regulatory uncertainty for the crypto industry in the US. Such uncertainty can impact institutional adoption and create challenges for businesses operating within the space.",
+      "impact_horizon_days": 90,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "crypto_bill_no_Senate_vote",
+        "regulatory_uncertainty_US",
+        "Lummis_Gillibrand_legislation"
+      ],
+      "rationale": "The delay in passing significant crypto regulation in the US prolongs regulatory uncertainty, which can be a headwind for market development and institutional adoption in the short to medium term."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n779a8c80a7a3",
+      "title": "Crypto Price Analysis July 19: NEXO, LDO, WAVES, LEO, MATIC",
+      "url": "https://finance.yahoo.com/news/crypto-price-analysis-july-19-184909921.html",
+      "summary": "The analysis highlights NEXO as a top performer, up 28%, while LEO remains stagnant. Bitcoin and Ethereum are showing gains, pushing the total crypto market cap above $1 trillion. The strong performance of specific altcoins like NEXO, coupled with the overall market recovery, suggests positive short-term momentum driven by broader market sentiment and specific project developments.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "altcoin",
+        "sentiment",
+        "market_cap"
+      ],
+      "features_for_model": [
+        "NEXO_outperformance",
+        "ETH_BTC_gains",
+        "total_market_cap_1T"
+      ],
+      "rationale": "The strong performance of specific altcoins like NEXO, alongside the broader market recovery and Bitcoin/Ethereum gains, indicates positive short-term sentiment and potential for further upward movement."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n2898cffc9fca",
+      "title": "Bitcoin Jumps to Highest Since the Aftermath of Celsius Meltdown",
+      "url": "https://finance.yahoo.com/news/crypto-altcoins-lead-push-higher-013828187.html",
+      "summary": "Bitcoin has rallied to its highest level since the Celsius network meltdown, breaking out of a one-month trading range. This price action is accompanied by significant jumps in smaller altcoins. The rally suggests a potential shift in market sentiment and a recovery from recent negative events, indicating renewed buying interest and a possible short-term uptrend.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "BTC",
+        "altcoin",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_highest_since_Celsius",
+        "altcoin_rally",
+        "trading_range_breakout"
+      ],
+      "rationale": "Bitcoin's breakout above a key trading range and its highest level since the Celsius crisis suggests a strong short-term bullish momentum, potentially leading to further price increases for Bitcoin and other cryptocurrencies."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-07-19",
+    "summary": "The crypto market is showing signs of recovery, with Bitcoin breaking above $23,000 and Ethereum showing strength, nearing $1,700. This positive price action is supported by improving investor sentiment, as indicated by the Fear & Greed Index moving out of 'extreme fear'. However, technical analysis suggests Bitcoin may face resistance, and regulatory uncertainty persists with key legislation unlikely to pass this year. Despite these mixed signals, the overall short-term trend appears cautiously optimistic, driven by Ethereum's performance and broader market recovery.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued macroeconomic headwinds and potential for further interest rate hikes.",
+      "Technical resistance levels for Bitcoin could lead to a pullback.",
+      "Regulatory uncertainty in the US may dampen institutional adoption.",
+      "The sustainability of Ethereum's rally depends on the successful execution of the Merge.",
+      "Potential for contagion from lingering effects of past crypto firm failures (e.g., Celsius)."
+    ],
+    "watch_items": [
+      "Bitcoin's ability to hold above $23,000.",
+      "Ethereum's progress towards $1,700 and its performance relative to Bitcoin.",
+      "Upcoming US economic data (e.g., inflation reports, Fed statements).",
+      "Developments in crypto regulation and any potential legislative movement.",
+      "Performance of major altcoins and overall market sentiment indicators."
+    ]
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "date": "2019-01-01",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n06f36ab52ff0",
+      "title": "Bitcoin Price Will Likely Bottom at $3,000: Genesis Trading CEO",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-likely-bottom-3-014829261.html",
+      "summary": "Genesis Trading CEO Michael Moro predicted Bitcoin would bottom around $3,000, citing continued selling pressure from early investors liquidating holdings. This forecast, made in late November 2018, suggested the $4,000 support level was unlikely to hold. The sentiment indicated a prolonged bear market phase, impacting investor confidence and potentially leading to further price depreciation.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "CEO_prediction",
+        "bottom_target",
+        "selling_pressure",
+        "support_level"
+      ],
+      "rationale": "The CEO's prediction of a $3,000 bottom, based on ongoing selling pressure, directly signaled a bearish outlook for the near to medium term. This sentiment from a prominent industry figure could influence broader market sentiment and investment decisions."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n7338618c75d2",
+      "title": "Number of Reachable Bitcoin Nodes Fell 19% in 2018",
+      "url": "https://finance.yahoo.com/news/number-reachable-bitcoin-nodes-fell-073021544.html",
+      "summary": "Data from Bitnodes indicated a 19% decrease in reachable Bitcoin nodes during 2018, falling from 11,845 to 9,597. Unreachable nodes also saw a 33% decline. A reachable node actively sends and receives connections, crucial for network health and decentralization. This reduction suggests a potential decrease in network participation or infrastructure resilience, which could have long-term implications for Bitcoin's robustness.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "node_count_decrease",
+        "network_health",
+        "decentralization_concern"
+      ],
+      "rationale": "A significant drop in reachable nodes can indicate reduced network participation or potential technical issues, impacting Bitcoin's decentralization and security. This could lead to a more fragile network, negatively affecting long-term adoption and value."
+    },
+    {
+      "pick_idx": 3,
+      "id": "ne2e1b2d5d164",
+      "title": "Bitcoin Cash Hard Fork Battle: Who Is Winning the Hash War",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-hard-fork-battle-232000108.html",
+      "summary": "The Bitcoin Cash network split into two chains, BCH ABC and BCH SV, due to a contentious hard fork. This battle for hash power and network dominance created significant uncertainty and division within the crypto community. The outcome of such forks can impact the perceived stability and future development of the associated cryptocurrencies, potentially affecting investor sentiment towards the broader market.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BCH_hard_fork",
+        "hash_war",
+        "chain_split",
+        "community_division"
+      ],
+      "rationale": "The Bitcoin Cash hard fork created significant internal conflict and uncertainty, which can spill over to broader market sentiment. The ongoing dispute over network direction and control could deter investment and adoption in the short to medium term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n71da1826097d",
+      "title": "Nigerian Blockchain Experts Believe Crypto Can Boost African Economy",
+      "url": "https://finance.yahoo.com/news/nigerian-blockchain-experts-believe-crypto-150036028.html",
+      "summary": "Nigerian blockchain experts advocate for greater cryptocurrency regulation in Africa to strengthen the sector and boost the economy. This highlights a growing recognition of crypto's potential in emerging markets. Increased regulatory clarity, even if initially restrictive, can pave the way for institutional adoption and broader economic integration, fostering long-term growth.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Africa_adoption",
+        "regulation_advocacy",
+        "emerging_market_growth"
+      ],
+      "rationale": "The positive sentiment and calls for regulation from Nigerian experts suggest a growing understanding and potential for crypto adoption in Africa. This could lead to significant long-term demand and integration into local economies."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nc6437c9392ff",
+      "title": "Facebook Is Developing a Cryptocurrency for WhatsApp Transfers, Sources Say",
+      "url": "https://finance.yahoo.com/news/facebook-developing-cryptocurrency-whatsapp-transfers-003550030.html",
+      "summary": "Facebook was reportedly developing a stablecoin for WhatsApp transfers, initially focusing on the Indian remittance market. While far from release, this indicates major tech companies exploring blockchain for payments. Such developments, if successful, could significantly boost crypto adoption and integration into mainstream financial services, impacting transaction volumes and user bases.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Facebook_crypto",
+        "WhatsApp_payments",
+        "stablecoin_development",
+        "remittance_market"
+      ],
+      "rationale": "The potential entry of a tech giant like Facebook into the cryptocurrency space, particularly for cross-border payments, could be a massive catalyst for adoption. It signals a shift towards mainstream integration and increased utility for digital assets."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n314586b809a1",
+      "title": "Not Just Bitcoin: FAANG Stocks are Down $1 Trillion from Yearly Highs",
+      "url": "https://finance.yahoo.com/news/not-just-bitcoin-faang-stocks-205158224.html",
+      "summary": "The article highlights that not only Bitcoin but also major tech stocks (FAANG) experienced significant declines, losing $1 trillion from their yearly highs. This suggests a broader market downturn affecting both traditional and crypto assets. Such a correlation indicates that macro-economic factors and investor sentiment towards risk assets are heavily influencing the crypto market.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "FAANG_stock_decline",
+        "market_downturn",
+        "risk_off_sentiment",
+        "traditional_market_correlation"
+      ],
+      "rationale": "The parallel decline in FAANG stocks and Bitcoin suggests a systemic risk-off sentiment in the market. This macro trend implies that Bitcoin's price is heavily influenced by broader economic conditions, making it vulnerable to further downturns."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n44197cf1ecda",
+      "title": "Judge Forces Bitcoin Basher Jordan Belfort to Pay More Restitution to Victims He Scammed",
+      "url": "https://finance.yahoo.com/news/judge-forces-bitcoin-basher-jordan-163912021.html",
+      "summary": "Jordan Belfort, the 'Wolf of Wall Street,' known for his past penny stock scams, was ordered to pay more restitution. While not directly impacting Bitcoin's price, Belfort's history of promoting fraudulent schemes and his subsequent criticism of Bitcoin could be seen as a negative signal. It reinforces the narrative of caution around financial promotions and the need for due diligence, indirectly affecting investor perception of the crypto space.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Jordan_Belfort",
+        "scam_restitution",
+        "crypto_criticism",
+        "investor_caution"
+      ],
+      "rationale": "While Belfort's legal issues are separate from Bitcoin, his past as a scammer and his subsequent criticism of Bitcoin can contribute to a negative perception of the crypto space. This association might deter some potential investors, creating a slight bearish overhang."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n8d9515ab39ff",
+      "title": "Norway Withdraws Electricity Subsidies From Bitcoin Mining Farms",
+      "url": "https://finance.yahoo.com/news/norway-withdraws-electricity-subsidies-bitcoin-165300168.html",
+      "summary": "Norway decided to end electricity subsidies for Bitcoin mining facilities starting January 2019, increasing rates significantly. This move impacts the profitability of mining operations in the region. Such regulatory changes can influence global mining distribution, potentially leading to increased operational costs for miners and affecting the overall hash rate and network security if a substantial portion of mining shifts elsewhere.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Norway_mining_subsidy_withdrawal",
+        "mining_cost_increase",
+        "hash_rate_impact",
+        "regulatory_headwind"
+      ],
+      "rationale": "The withdrawal of subsidies increases mining costs in Norway, potentially impacting mining profitability and operations. This regulatory shift could influence mining hardware sales and the geographical distribution of mining power, indirectly affecting network security and miner sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb9507121d434",
+      "title": "Confirmed: Nasdaq’s Bitcoin Futures Will Launch in 'First Half' of 2019",
+      "url": "https://finance.yahoo.com/news/confirmed-nasdaq-bitcoin-futures-launch-122100692.html",
+      "summary": "Nasdaq confirmed plans to launch Bitcoin futures in the first half of 2019, pending CFTC approval. This announcement, made in early December 2018, signaled increasing institutional interest and the potential for greater regulatory clarity. The availability of futures on a major exchange like Nasdaq could attract more institutional capital and provide a more regulated avenue for trading, boosting market legitimacy and liquidity.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Nasdaq_BTC_futures",
+        "institutional_adoption",
+        "regulatory_approval_pending",
+        "market_liquidity"
+      ],
+      "rationale": "The upcoming launch of Bitcoin futures on Nasdaq is a significant indicator of institutional adoption. This development is expected to bring more capital into the market and enhance regulatory oversight, potentially leading to increased price stability and legitimacy."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nc3ffa2680ac4",
+      "title": "The challenge for cryptocurrency firms in 2019: don't die",
+      "url": "https://finance.yahoo.com/news/challenge-crypto-companies-2019-dont-die-070038409.html",
+      "summary": "Industry observers predicted that many crypto companies would struggle to survive 2019 due to depleted reserves from the 2018 price collapse. Layoffs, shutdowns, and scaled-back plans were already evident. This outlook suggests a period of consolidation and potential failures within the crypto ecosystem, which could lead to reduced innovation and market activity.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_company_survival",
+        "2019_headwinds",
+        "consolidation_phase",
+        "layoffs",
+        "market_contraction"
+      ],
+      "rationale": "The prediction of widespread company failures in 2019 highlights the severe financial strain on the crypto industry. This could lead to a contraction in development, innovation, and overall market participation, creating a bearish environment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n84acefd79a97",
+      "title": "Tony Robbins Is Now a Bitcoin Expert?",
+      "url": "https://finance.yahoo.com/news/tony-robbins-now-bitcoin-expert-020033039.html",
+      "summary": "Motivational speaker Tony Robbins' team published an article on Bitcoin, indicating its growing mainstream awareness. While Robbins is not a financial expert, his involvement can attract attention from a new demographic. This could lead to a slight increase in retail interest and trading volume, though the direct price impact is likely minimal.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Tony_Robbins_Bitcoin",
+        "mainstream_awareness",
+        "retail_interest"
+      ],
+      "rationale": "Tony Robbins' foray into Bitcoin content signals increased mainstream awareness, potentially attracting new retail investors. This could lead to a minor uptick in interest and trading activity in the very short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0d51641f2b22",
+      "title": "‘Bitcoin is a Garbage Network’: Fortune 500 Software Developer",
+      "url": "https://finance.yahoo.com/news/bitcoin-garbage-network-fortune-500-040026694.html",
+      "summary": "A Fortune 500 software developer called Bitcoin a 'garbage network,' though later clarified it was humorous. This sentiment, even if jesting, reflects some technical criticisms and could contribute to negative sentiment among technically-minded individuals. The impact is likely low, but it adds to the ongoing debate about Bitcoin's scalability and efficiency.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "protocol"
+      ],
+      "features_for_model": [
+        "developer_criticism",
+        "Bitcoin_scalability",
+        "negative_sentiment"
+      ],
+      "rationale": "While intended humorously, the developer's comment adds to existing criticisms of Bitcoin's technical limitations. This could slightly dampen sentiment among technically inclined traders in the immediate short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nf6f3c906d908",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 01/01/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-045940132.html",
+      "summary": "This article provides a technical analysis of Bitcoin Cash ABC, Litecoin, and Ripple on January 1, 2019. It details price movements, support, and resistance levels, indicating a bearish trend for BCH ABC. Such analyses can influence short-term trading decisions based on technical indicators and market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BCH_ABC_analysis",
+        "Litecoin_analysis",
+        "Ripple_analysis",
+        "bearish_trend"
+      ],
+      "rationale": "The bearish technical analysis for BCH ABC and the broader market sentiment described in the article suggests continued downward pressure. This could lead to short-term selling pressure on related assets."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n442c8d2922ef",
+      "title": "Cardano’s ADA Technical Analysis – Support Levels in Play – 01/01/19",
+      "url": "https://finance.yahoo.com/news/cardano-ada-technical-analysis-support-050915754.html",
+      "summary": "The article presents a technical analysis of Cardano's ADA, noting a bearish trend and failure to meet resistance levels. It highlights key support levels being tested. Such detailed technical breakdowns can influence short-term trading strategies and sentiment for ADA holders.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "price_action"
+      ],
+      "features_for_model": [
+        "ADA_technical_analysis",
+        "support_levels",
+        "bearish_trend",
+        "resistance_levels"
+      ],
+      "rationale": "The bearish technical outlook for ADA, with key support levels being tested, suggests potential for further short-term price declines. This analysis can influence trading decisions and market sentiment for ADA."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n7421488e1b5e",
+      "title": "Bitcoin – Another Year and Bitcoin is still with us",
+      "url": "https://finance.yahoo.com/news/bitcoin-another-bitcoin-still-us-054433654.html",
+      "summary": "This article reflects on Bitcoin's survival through another year, noting its fall from highs to current levels around $3,830.5. It describes a bearish day on January 1st, with Bitcoin failing to break $4,000 resistance and falling through support levels. This indicates ongoing bearish momentum and lack of immediate bullish catalysts.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "price_action",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_action",
+        "bearish_momentum",
+        "support_resistance",
+        "year_end_review"
+      ],
+      "rationale": "The article highlights Bitcoin's failure to break key resistance levels and its continued trading below support, indicating persistent bearish sentiment. This suggests a high probability of continued price weakness in the immediate short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n424fd833d87c",
+      "title": "Tron Cryptocurrency is ‘Just Garbage’: Stellar, Ripple Co-Founder Jed McCaleb",
+      "url": "https://finance.yahoo.com/news/tron-cryptocurrency-just-garbage-stellar-060002605.html",
+      "summary": "Jed McCaleb, co-founder of Stellar and Ripple, called Tron 'just garbage.' While this is a negative sentiment towards another altcoin, it reflects internal community dynamics and potential disagreements within the crypto space. Such strong negative opinions from influential figures can sometimes create ripple effects, though direct impact on Bitcoin is usually limited.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Jed_McCaleb",
+        "Tron_criticism",
+        "altcoin_sentiment",
+        "community_disagreement"
+      ],
+      "rationale": "While focused on Tron, strong negative commentary from a prominent figure like Jed McCaleb can contribute to general market skepticism. The impact on Bitcoin is likely minimal but adds to the overall sentiment noise."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n38f0f4afaacd",
+      "title": "No to Bitcoin Cash: OpenNode Rejects Roger Ver’s $1.25m Fund Offer",
+      "url": "https://finance.yahoo.com/news/no-bitcoin-cash-opennode-rejects-080014200.html",
+      "summary": "OpenNode, a Bitcoin payment processor, rejected a $1.5 million offer from Roger Ver, stating its commitment to Bitcoin and its second-layer solutions over Bitcoin Cash. This highlights a clear division and preference within the crypto community for Bitcoin's core protocol and Lightning Network. Such endorsements can strengthen Bitcoin's position and potentially attract developers and businesses.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "OpenNode_rejects_BCH",
+        "Bitcoin_focus",
+        "Lightning_Network_support",
+        "protocol_preference"
+      ],
+      "rationale": "OpenNode's explicit rejection of Bitcoin Cash in favor of Bitcoin and its Lightning Network reinforces the focus on Bitcoin's core technology. This could attract further development and adoption towards Bitcoin's ecosystem."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n75a6a6fe74e3",
+      "title": "Verge (XVG) Technical Director Opens up on Cryptocurrency’s Origin Story",
+      "url": "https://finance.yahoo.com/news/verge-xvg-technical-director-opens-100051953.html",
+      "summary": "Verge's Technical Director shared his personal journey into crypto, starting with mining Bitcoin in 2009 and losing his holdings. While this is a personal narrative, it touches upon early Bitcoin adoption and the risks involved. Such stories can resonate with long-term holders and highlight the evolution of the crypto space, but have minimal immediate price impact.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Verge_TD_origin",
+        "early_Bitcoin_miner",
+        "personal_narrative",
+        "crypto_history"
+      ],
+      "rationale": "The personal story of an early Bitcoin miner, while interesting, has a very limited direct impact on current price action. It serves more as historical context than a short-term trading signal."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n69201aaf3cf0",
+      "title": "2018 – 5 Most Influential People of the Year",
+      "url": "https://finance.yahoo.com/news/2018-5-most-influential-people-124409977.html",
+      "summary": "This article lists influential people of 2018, including Donald Trump, amidst market turmoil and geopolitical events. While not directly about crypto prices, the mention of market shifts and trade wars provides macro context. The overall sentiment of market uncertainty and geopolitical tension can indirectly influence Bitcoin's price as a risk asset.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "influential_people_2018",
+        "market_turmoil",
+        "geopolitical_tension",
+        "trade_war"
+      ],
+      "rationale": "The article's focus on macro events like trade wars and market turmoil provides context for the broader risk sentiment. This can indirectly affect Bitcoin, which often acts as a risk-on asset, leading to potential volatility."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2623b3399d0e",
+      "title": "China is Bullish on Cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/china-bullish-cryptocurrencies-161545717.html",
+      "summary": "A poll indicated that 82.81% of Chinese respondents view buying cryptocurrencies as a trendy investment. This suggests a potentially strong retail interest in China, which could counterbalance negative sentiment elsewhere. However, official Chinese regulatory stance remains a significant factor, making the actual impact uncertain.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_crypto_sentiment",
+        "retail_interest",
+        "trendy_investment",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "Positive retail sentiment in China, if it translates into actual buying pressure, could provide a short-term boost. However, the impact is tempered by the uncertainty of official regulatory actions."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-01-01",
+    "summary": "The market sentiment remains predominantly bearish as 2019 begins, with Bitcoin failing to break key resistance levels and trading within a descending channel. Negative technical analyses for altcoins like BCH ABC and ADA reinforce this trend. While there are pockets of potential bullishness, such as growing interest in China and institutional developments like Nasdaq futures, these are overshadowed by broader market contraction fears and the ongoing bear market sentiment. The lack of significant positive catalysts suggests continued price pressure in the short term.",
+    "scenario_probs": {
+      "bull": 0.25,
+      "base": 0.45,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued bearish macro sentiment impacting risk assets.",
+      "Failure to break key resistance levels for Bitcoin.",
+      "Potential for further company failures in the crypto industry.",
+      "Uncertainty surrounding regulatory developments.",
+      "Low trading volumes due to holiday period."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $4,000 resistance.",
+      "Developments regarding Nasdaq Bitcoin futures.",
+      "Any significant news on institutional adoption.",
+      "Macroeconomic data releases (e.g., jobs reports, inflation).",
+      "Hash rate trends and mining profitability."
+    ]
+  }
+}

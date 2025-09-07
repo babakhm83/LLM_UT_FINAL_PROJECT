@@ -1,0 +1,503 @@
+{
+  "date": "2023-01-15",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "na43c62c8e64f",
+      "title": "‘A fraud and a bubble are two different things’: Crypto is shocking to a financial historian who literally wrote the book on financial bubbles",
+      "url": "https://finance.yahoo.com/news/fraud-bubble-two-different-things-213653403.html",
+      "summary": "A financial historian notes that while crypto has lost significant value, the underlying technology and potential for innovation remain. The sector has faced major setbacks like the FTX collapse, Celsius, and BlockFi failures, leading to a 'Crypto Winter.' Despite these issues, the historian distinguishes between a bubble (which can burst and recover) and outright fraud. The current market sentiment is influenced by broader macroeconomic factors like rising interest rates and recession fears, but the long-term viability of crypto technology is still debated.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "financial_historian_view",
+        "bubble_vs_fraud",
+        "macroeconomic_headwinds",
+        "crypto_winter"
+      ],
+      "rationale": "The historian's perspective highlights the ongoing debate about crypto's fundamental value versus its speculative nature. This nuanced view suggests that while short-term volatility is high, the long-term impact depends on technological adoption and regulatory clarity, making the direction uncertain but the potential impact significant."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n6548145ac00b",
+      "title": "No Let-Up in Demand for Bitcoin, Ether Puts After Dovish Fed Minutes",
+      "url": "https://finance.yahoo.com/news/no-let-demand-bitcoin-ether-110110798.html",
+      "summary": "The derivatives market shows persistent demand for bearish bets (puts) on Bitcoin and Ether, indicating that macroeconomic factors are not the primary drivers for crypto traders. The focus remains on the contagion from the FTX collapse. This suggests that even dovish Fed minutes are not enough to sway sentiment, as the market is still grappling with the fallout from major crypto failures. The persistent put bias implies a lack of confidence in a near-term bottom solely based on macro improvements.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "derivatives_market_sentiment",
+        "put_demand",
+        "FTX_contagion",
+        "dovish_fed_minutes_impact"
+      ],
+      "rationale": "The sustained demand for puts indicates a strong bearish sentiment in the derivatives market, driven by the FTX fallout. This suggests that institutional and sophisticated traders are positioning for further downside, overriding any positive signals from monetary policy."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n1e9abe42659b",
+      "title": "Markets: Bitcoin, Ether extend rise; Cardano leads gains in top 10 cryptos",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-extend-rise-100830645.html",
+      "summary": "Bitcoin and Ethereum saw gains, along with other top cryptocurrencies like Cardano, Polygon, BNB, and Dogecoin. This positive movement occurred amidst broader market trends, with Bitcoin showing a 2.85% gain over the past seven days and Ethereum strengthening by over 8%. The article also briefly mentions a U.S. subpoena for hedge funds in a Binance probe, suggesting ongoing regulatory scrutiny within the crypto space.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_ETH_price_action",
+        "altcoin_gains",
+        "market_momentum"
+      ],
+      "rationale": "The observed price increases in Bitcoin and Ethereum, along with other major altcoins, suggest a short-term positive market sentiment. While the gains are modest, they indicate a potential shift in momentum, though regulatory concerns remain a background factor."
+    },
+    {
+      "pick_idx": 9,
+      "id": "na411777af8d3",
+      "title": "Bitfarms Seeks Modification of Equipment Loan Facility to Align with Market Conditions",
+      "url": "https://finance.yahoo.com/news/bitfarms-seeks-modification-equipment-loan-120000210.html",
+      "summary": "Bitcoin mining company Bitfarms is seeking to modify its equipment loan facility to better align with current market conditions. This move aims to reduce indebtedness at a subsidiary. The company's CFO stated that proactive steps were taken during 2022. This indicates that miners are facing financial pressures and are actively seeking ways to manage their debt and operational costs in a challenging market environment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_financial_health",
+        "debt_restructuring",
+        "market_conditions_impact"
+      ],
+      "rationale": "Bitfarms' proactive debt management signals financial strain within the mining sector due to prevailing market conditions. This could lead to increased selling pressure from miners needing to cover operational costs or service debt, impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n89f08fb62885",
+      "title": "U.S. crypto miner Core Scientific files for Chapter 11 bankruptcy, continues to mine Bitcoin",
+      "url": "https://finance.yahoo.com/news/u-crypto-miner-core-scientific-113132861.html",
+      "summary": "Core Scientific, a major U.S. crypto mining firm, has filed for Chapter 11 bankruptcy protection. Despite this, the company intends to continue its regular mining operations. The filing indicates that while the company is generating positive cash flow, it's insufficient to cover equipment leasing debt. This situation highlights the financial pressures on large mining operations, which could lead to further sell-offs or operational adjustments impacting network hashrate.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "miner_bankruptcy",
+        "Chapter_11_filing",
+        "operational_continuity",
+        "mining_sector_stress"
+      ],
+      "rationale": "Core Scientific's bankruptcy filing is a significant indicator of the financial distress within the mining sector. This could lead to increased selling of mined Bitcoin to cover debts, potentially exerting downward pressure on prices, and signals broader industry challenges."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n97a2078b9f68",
+      "title": "Jack Dorsey-Backed East African Bitcoin Miner Gridless Raises $2M",
+      "url": "https://finance.yahoo.com/news/east-african-bitcoin-miner-gridless-074500947.html",
+      "summary": "Gridless, an East African Bitcoin mining company focused on generating new energy sources in rural communities, has secured $2 million in seed funding. The investment, led by Stillmark and Block (Jack Dorsey's company), will support the expansion of mining projects across African markets. Gridless has already established operational projects in rural Kenya. This development signifies growing interest and investment in Bitcoin mining infrastructure in emerging markets, potentially increasing global hashrate and adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "emerging_market_mining",
+        "seed_funding",
+        "Jack_Dorsey_backed",
+        "energy_infrastructure"
+      ],
+      "rationale": "The investment in Gridless by prominent figures like Jack Dorsey signals continued institutional interest in expanding Bitcoin mining infrastructure, particularly in underserved regions. This could contribute to network growth and decentralization over the long term."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nb3ae11c6c1c1",
+      "title": "Federal Reserve, top bank regulators flag 'significant' worries over crypto assets",
+      "url": "https://finance.yahoo.com/news/federal-reserve-top-bank-regulators-flag-significant-worries-over-crypto-assets-202435516.html",
+      "summary": "The Federal Reserve, FDIC, and OCC have issued a joint statement highlighting significant risks that crypto assets pose to the broader banking system. They emphasize the need to prevent these risks from migrating into the banking system, especially after recent failures of large crypto companies. The agencies are adopting a cautious approach to crypto-asset-related activities within banks, indicating a tightening regulatory environment.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "fed_warning",
+        "banking_system_risk",
+        "regulatory_scrutiny",
+        "crypto_asset_exposure"
+      ],
+      "rationale": "The joint statement from major U.S. financial regulators signals a coordinated effort to curb crypto's integration with traditional finance. This increased regulatory pressure could limit institutional adoption and create headwinds for the crypto market."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n5a0c5025b0f0",
+      "title": "The U.N. is sending Ukrainians aid in crypto. Should it?",
+      "url": "https://finance.yahoo.com/news/u-n-sending-ukrainians-aid-154510099.html",
+      "summary": "The UN's refugee agency, UNHCR, is providing aid to displaced Ukrainians using cryptocurrency, specifically USD Coin (USDC). Recipients can exchange the stablecoin for cash via MoneyGram. This initiative explores the practical application of stablecoins in humanitarian aid, potentially increasing their adoption and utility in real-world scenarios. It also raises questions about the suitability and risks of using crypto for such purposes.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "UNHCR_aid",
+        "USDC_adoption",
+        "humanitarian_use_case",
+        "stablecoin_utility"
+      ],
+      "rationale": "The UN's use of USDC for humanitarian aid demonstrates a growing real-world application for stablecoins. While the direct impact on Bitcoin is limited, it contributes to broader crypto adoption and acceptance, potentially fostering a more favorable environment for digital assets."
+    },
+    {
+      "pick_idx": 32,
+      "id": "ndf7eb543d203",
+      "title": "El Salvador establishes legal framework for all cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/el-salvador-establishes-legal-framework-121754508.html",
+      "summary": "El Salvador has passed legislation establishing a legal framework for all cryptocurrencies, aiming to leverage its 'first-mover advantage.' This new law, the digital securities law, is intended to offer consumer protection and attract businesses to build on Bitcoin. This move signifies a continued commitment by El Salvador to integrate cryptocurrencies into its legal and financial system, potentially setting a precedent for other nations.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "El_Salvador_legislation",
+        "crypto_legal_framework",
+        "digital_securities_law",
+        "Bitcoin_adoption"
+      ],
+      "rationale": "El Salvador's proactive approach to establishing a comprehensive legal framework for cryptocurrencies is a significant step towards mainstream adoption. This regulatory clarity can attract further investment and innovation, positively impacting the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n0c74b420adea",
+      "title": "How Climate Activists Are Exploiting FTX’s Collapse",
+      "url": "https://finance.yahoo.com/news/climate-activists-exploiting-ftx-collapse-094736589.html",
+      "summary": "Following the FTX collapse, climate activists are leveraging the situation to advocate for stricter regulations on cryptocurrency mining, particularly proof-of-work (PoW) mining. New York State has implemented a two-year moratorium on new PoW crypto mines. This highlights the growing environmental concerns surrounding Bitcoin mining and the potential for regulatory action to curb its energy consumption, which could impact mining profitability and network security.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "climate_activism",
+        "FTX_collapse_impact",
+        "NY_moratorium",
+        "PoW_mining_regulation"
+      ],
+      "rationale": "The increasing regulatory scrutiny on Bitcoin's energy consumption, amplified by the FTX collapse and activist pressure, poses a significant long-term risk. Potential restrictions on mining operations could impact hashrate and profitability, creating a bearish sentiment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "n5c54940c0554",
+      "title": "Bitcoin roars past $20K in surprise surge. Can the rally last?",
+      "url": "https://finance.yahoo.com/news/bitcoin-roars-past-20k-surprise-164231931.html",
+      "summary": "Bitcoin surged past $20,000 for the first time since November, marking its biggest weekly gain in nearly two years. The rally held through Sunday, with prices around $20,600. This breakout from a prolonged $17,000 range is seen as a significant positive development for crypto investors starved for good news.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "20k_resistance_break",
+        "weekly_gain",
+        "positive_momentum"
+      ],
+      "rationale": "The decisive break above the $20,000 level, a key psychological and technical resistance, signals strong buying pressure and a potential shift in market sentiment. This is likely to attract further positive attention and potentially more inflows in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nc82f7ed9696a",
+      "title": "This Week on Crypto Twitter: Gemini vs Genesis, Week 2: The SEC Steps In",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-gemini-vs-181443016.html",
+      "summary": "The second week of 2023 saw significant price leaps for major cryptocurrencies, with double-digit percentage gains for many top assets. News included ongoing developments in the FTX case and reports of Twitter exploring crypto integration. Despite the positive price action, the article cautions that the industry is not out of the woods yet.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "price_action",
+        "regulation"
+      ],
+      "features_for_model": [
+        "crypto_price_rally",
+        "SEC_action",
+        "Twitter_crypto_rumors",
+        "FTX_case_updates"
+      ],
+      "rationale": "The broad-based price increases across major cryptocurrencies indicate a positive short-term sentiment. While regulatory news (SEC action) could introduce volatility, the overall momentum suggests continued upward pressure in the immediate days."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n7b612ec65f00",
+      "title": "FTX Cleared to Sell LedgerX, Other Assets to Repay Creditors",
+      "url": "https://finance.yahoo.com/news/ftx-cleared-sell-ledgerx-other-182838475.html",
+      "summary": "A judge has granted FTX permission to sell assets like LedgerX, Embed Technologies, FTX Japan, and FTX Europe to repay creditors. Approximately 117 parties have expressed interest in acquiring these assets. This move is part of the ongoing bankruptcy proceedings and aims to recover value for stakeholders.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "legal",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "FTX_asset_sale",
+        "LedgerX_sale",
+        "creditor_repayment",
+        "bankruptcy_proceedings"
+      ],
+      "rationale": "The sale of FTX assets is a procedural step in its bankruptcy. While it could inject some liquidity into the market if buyers are crypto-native, the primary impact is on the FTX estate rather than a direct catalyst for broader market movement. The high number of interested parties suggests potential demand, but the outcome remains uncertain."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n6f088a3a23de",
+      "title": "Republican Lawmakers Push Crypto Regulation With New House Subcommittee",
+      "url": "https://finance.yahoo.com/news/republican-lawmakers-push-crypto-regulation-234442527.html",
+      "summary": "Republicans in the House of Representatives have formed a new Subcommittee on Digital Assets, Financial Technology and Inclusion. This move signals a proactive approach to addressing the digital asset sector within the legislative framework. The subcommittee aims to fill perceived gaps in how the committee structures its focus on digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "house_subcommittee",
+        "crypto_regulation",
+        "digital_assets_policy",
+        "legislative_focus"
+      ],
+      "rationale": "The establishment of a dedicated subcommittee for digital assets indicates a serious intent to legislate in this space. While the specific outcomes are unknown, it suggests increased regulatory attention, which could lead to both opportunities and challenges for the crypto market in the near term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n5c54940c0554",
+      "title": "Bitcoin roars past $20K in surprise surge. Can the rally last?",
+      "url": "https://finance.yahoo.com/news/bitcoin-roars-past-20k-surprise-164231931.html",
+      "summary": "Bitcoin surged past $20,000 for the first time since November, marking its biggest weekly gain in nearly two years. The rally held through Sunday, with prices around $20,600. This breakout from a prolonged $17,000 range is seen as a significant positive development for crypto investors starved for good news.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "20k_resistance_break",
+        "weekly_gain",
+        "positive_momentum"
+      ],
+      "rationale": "The decisive break above the $20,000 level, a key psychological and technical resistance, signals strong buying pressure and a potential shift in market sentiment. This is likely to attract further positive attention and potentially more inflows in the immediate short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n7193021a8b72",
+      "title": "THE CRYPTO CULLING: Thousands of employees are getting the axe as companies face plunging valuations, scandals, and legal turmoil",
+      "url": "https://finance.yahoo.com/news/crypto-culling-thousands-employees-getting-115000480.html",
+      "summary": "Major crypto companies like Crypto.com, Coinbase, and Genesis have announced layoffs in 2023. This follows a year of significant industry turmoil, including scandals and legal issues. Despite these layoffs and ongoing challenges, major cryptocurrencies like Bitcoin and Ethereum have seen price increases early in the year.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "liquidity",
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "crypto_layoffs",
+        "company_valuations",
+        "legal_turmoil",
+        "industry_consolidation"
+      ],
+      "rationale": "While layoffs indicate continued industry stress and potential liquidity issues for affected companies, the simultaneous price rally suggests that the market may be pricing in some of this negative news. The net effect on price in the short term is uncertain, but it points to ongoing industry consolidation."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n5c54940c0554",
+      "title": "Bitcoin roars past $20K in surprise surge. Can the rally last?",
+      "url": "https://finance.yahoo.com/news/bitcoin-roars-past-20k-surprise-164231931.html",
+      "summary": "Bitcoin surged past $20,000 for the first time since November, marking its biggest weekly gain in nearly two years. The rally held through Sunday, with prices around $20,600. This breakout from a prolonged $17,000 range is seen as a significant positive development for crypto investors starved for good news.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "20k_resistance_break",
+        "weekly_gain",
+        "positive_momentum"
+      ],
+      "rationale": "The decisive break above the $20,000 level, a key psychological and technical resistance, signals strong buying pressure and a potential shift in market sentiment. This is likely to attract further positive attention and potentially more inflows in the immediate short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nc82f7ed9696a",
+      "title": "This Week on Crypto Twitter: Gemini vs Genesis, Week 2: The SEC Steps In",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-gemini-vs-181443016.html",
+      "summary": "The second week of 2023 saw significant price leaps for major cryptocurrencies, with double-digit percentage gains for many top assets. News included ongoing developments in the FTX case and reports of Twitter exploring crypto integration. Despite these positive price movements, the article cautions that the industry is not out of the woods yet.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "price_action",
+        "regulation"
+      ],
+      "features_for_model": [
+        "crypto_price_rally",
+        "SEC_action",
+        "Twitter_crypto_rumors",
+        "FTX_case_updates"
+      ],
+      "rationale": "The broad-based price increases across major cryptocurrencies indicate a positive short-term sentiment. While regulatory news (SEC action) could introduce volatility, the overall momentum suggests continued upward pressure in the immediate days."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n6f088a3a23de",
+      "title": "Republican Lawmakers Push Crypto Regulation With New House Subcommittee",
+      "url": "https://finance.yahoo.com/news/republican-lawmakers-push-crypto-regulation-234442527.html",
+      "summary": "Republicans in the House of Representatives have formed a new Subcommittee on Digital Assets, Financial Technology and Inclusion. This move signals a proactive approach to addressing the digital asset sector within the legislative framework. The subcommittee aims to fill perceived gaps in how the committee structures its focus on digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "house_subcommittee",
+        "crypto_regulation",
+        "digital_assets_policy",
+        "legislative_focus"
+      ],
+      "rationale": "The establishment of a dedicated subcommittee for digital assets indicates a serious intent to legislate in this space. While the specific outcomes are unknown, it suggests increased regulatory attention, which could lead to both opportunities and challenges for the crypto market in the near term."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-01-15",
+    "summary": "Bitcoin has experienced a significant surge, breaking above the $20,000 mark for the first time since November, marking its strongest weekly gain in nearly two years. This positive price action is occurring despite ongoing industry layoffs and regulatory scrutiny, such as the formation of a new House subcommittee on digital assets. The market sentiment appears to be shifting positively, though the long-term implications of regulatory actions and industry consolidation remain a key concern.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Potential regulatory crackdowns following the formation of new subcommittees.",
+      "The sustainability of the current rally without fundamental catalysts.",
+      "Continued financial stress in the mining sector impacting hashrate.",
+      "The broader macroeconomic environment and potential for a recession.",
+      "Lingering effects of major exchange collapses (FTX, etc.) on investor confidence."
+    ],
+    "watch_items": [
+      "BTC price action around $20,000 resistance/support.",
+      "Statements from the new House Subcommittee on Digital Assets.",
+      "Further layoff announcements from major crypto firms.",
+      "CPI and FOMC meeting minutes releases.",
+      "Developments in ongoing legal cases (e.g., FTX, Genesis)."
+    ]
+  }
+}

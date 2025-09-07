@@ -1,0 +1,459 @@
+{
+  "date": "2020-03-22",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n4c1b2a5d93b1",
+      "title": "Latest Bitcoin price and analysis (BTC to USD)",
+      "url": "https://finance.yahoo.com/news/latest-bitcoin-price-analysis-btc-144209329.html",
+      "summary": "Bitcoin struggled to maintain support above $10,000, dropping to $9,600. This level has been a significant resistance point over the past six months, causing sell-offs in October and January. Continued trading above $9,600 is crucial to avoid further downside, with potential targets at $9,350 and $8,830. A bounce from this region would indicate market strength.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_support",
+        "resistance_level",
+        "market_strength"
+      ],
+      "rationale": "The $9,600 level represents a critical support zone that has historically influenced Bitcoin's price. Holding this level suggests resilience and potential for a recovery, impacting sentiment and future price movements."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nf4a37c1eaec3",
+      "title": "Bitcoin Drove Half of Square’s Cash App Revenue in the 4th Quarter",
+      "url": "https://finance.yahoo.com/news/bitcoin-drove-half-square-cash-213557505.html",
+      "summary": "Square's Cash App generated $178 million in Bitcoin revenue in Q4 2019, contributing nearly half of its total revenue. This highlights the growing integration of Bitcoin into mainstream financial applications and its potential for driving user adoption and revenue for fintech platforms. The gross profit from Bitcoin transactions was $3 million, a 50% increase over the prior two quarters.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Square_Cash_App",
+        "BTC_revenue_contribution",
+        "fintech_integration"
+      ],
+      "rationale": "This demonstrates significant adoption of Bitcoin by a mainstream financial service, indicating a growing user base and revenue stream. This trend can attract further institutional interest and investment, bolstering long-term demand."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n905db89167bf",
+      "title": "SEC Proposal Could (Eventually) Unleash Security Token Sales",
+      "url": "https://finance.yahoo.com/news/sec-proposal-could-eventually-unleash-090000006.html",
+      "summary": "The SEC's proposed amendments to capital formation rules could significantly ease regulatory burdens for security token offerings (STOs). By raising the cap on proceeds for Regulation A+ and Regulation CF, the proposal aims to make it easier for early-stage startups to raise capital through tokenized securities. This could foster greater innovation and investment in the digital asset space, potentially impacting Bitcoin's role as a store of value and medium of exchange.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "SEC_proposal",
+        "STO_regulation",
+        "capital_formation_rules"
+      ],
+      "rationale": "A more favorable regulatory environment for security tokens could lead to increased institutional participation in the broader digital asset ecosystem. This could indirectly benefit Bitcoin by increasing overall market liquidity and legitimacy."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n760a16ffd778",
+      "title": "Bitcoin’s Coronavirus Selloff Throws Cold Water on Safe-Haven Argument",
+      "url": "https://finance.yahoo.com/news/bitcoin-coronavirus-selloff-throws-cold-213345881.html",
+      "summary": "Despite recent volatility and a sell-off coinciding with broader market downturns due to coronavirus fears, Bitcoin's performance in 2020 remained positive (up ~32% as of the article date). The article questions Bitcoin's safe-haven status as it correlated with stock market declines. However, the underlying resilience and continued price appreciation suggest a persistent underlying demand, even amidst macro uncertainty.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_coronavirus_impact",
+        "safe_haven_narrative",
+        "market_correlation"
+      ],
+      "rationale": "The correlation with traditional markets during the COVID-19 sell-off challenged Bitcoin's safe-haven narrative. However, its ability to recover and maintain positive year-to-date gains suggests underlying strength, making its long-term safe-haven status a developing story."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n6873bfd7f824",
+      "title": "Crypto Asset Firm Amun Launches Inverse Bitcoin ETP",
+      "url": "https://finance.yahoo.com/news/crypto-asset-firm-amun-launches-080000421.html",
+      "summary": "Amun launched the 21Shares Short Bitcoin ETP (SBTC) on the Swiss Stock Exchange, allowing traders to profit from Bitcoin's price decline. This product caters to bearish sentiment and provides a new avenue for sophisticated investors to hedge or speculate on Bitcoin's price movements. The availability of inverse ETPs can increase market sophistication and potentially influence price discovery.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "derivatives"
+      ],
+      "features_for_model": [
+        "Amun_Short_BTC_ETP",
+        "inverse_ETP",
+        "bearish_sentiment_instrument"
+      ],
+      "rationale": "The introduction of inverse Bitcoin ETPs provides a tool for bearish bets, which can increase market volatility. While it offers hedging opportunities, it also signals a maturing derivatives market that could influence price dynamics."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n5f9694e1a79c",
+      "title": "Inside Chainalysis’ Multimillion-Dollar Relationship With the US Government",
+      "url": "https://finance.yahoo.com/news/inside-chainalysis-multimillion-dollar-relationship-180003919.html",
+      "summary": "Chainalysis, a blockchain analysis firm, has secured significant contracts with U.S. government agencies, including the FBI. This growing relationship signifies increasing governmental adoption of blockchain surveillance and analytics tools. Such partnerships can legitimize the blockchain industry and potentially lead to clearer regulatory frameworks, which could indirectly benefit Bitcoin's long-term adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Chainalysis_US_Gov_contracts",
+        "blockchain_analytics",
+        "regulatory_legitimacy"
+      ],
+      "rationale": "Increased government engagement with blockchain analytics firms like Chainalysis suggests a growing acceptance and understanding of the technology. This can pave the way for more defined regulations, fostering institutional trust and adoption."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n079b96d6ad32",
+      "title": "Google searches for ‘Bitcoin halving’ have doubled this month",
+      "url": "https://finance.yahoo.com/news/google-searches-bitcoin-halving-doubled-190012108.html",
+      "summary": "Google searches for 'Bitcoin halving' have doubled, reaching levels not seen since the 2016 halving. This surge in public interest indicates growing awareness and anticipation of the upcoming halving event in May 2020. Historically, halving events have been associated with price increases due to reduced supply issuance, making this increased search volume a bullish indicator.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Google_searches_BTC_halving",
+        "public_interest",
+        "supply_reduction_event"
+      ],
+      "rationale": "The significant increase in search interest for the Bitcoin halving event suggests growing public awareness and anticipation. Historically, halving events have preceded price rallies due to reduced new supply, making this a strong bullish signal."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n0c025259d609",
+      "title": "Bitcoin’s Mining Difficulty Stagnates as Coronavirus Outbreak Delays New Equipment",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-stagnates-coronavirus-050000757.html",
+      "summary": "The Bitcoin mining difficulty has stagnated due to the coronavirus outbreak disrupting the supply chain for new mining equipment in China. This slowdown in upgrades means that existing miners may have a competitive advantage, and the overall network hash rate growth might be temporarily impacted. However, it also suggests a potential bottleneck in scaling mining operations.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "infrastructure",
+        "macro",
+        "protocol"
+      ],
+      "features_for_model": [
+        "BTC_mining_difficulty_stagnation",
+        "coronavirus_supply_chain_disruption",
+        "hash_rate_impact"
+      ],
+      "rationale": "The disruption to mining equipment supply chains due to COVID-19 could temporarily slow hash rate growth. While this might slightly impact network security, it could also lead to a more stable difficulty adjustment in the short term, with uncertain long-term implications."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n0677ec5ecea6",
+      "title": "Canadians Get US Jail Time for Stealing 23 Bitcoin in Twitter Scam",
+      "url": "https://finance.yahoo.com/news/canadians-us-jail-time-stealing-103112013.html",
+      "summary": "Two Canadian nationals were sentenced to prison for a Twitter scam that resulted in the theft of 23 Bitcoin. This case highlights ongoing efforts by law enforcement to combat cryptocurrency-related fraud and prosecute offenders. Successful prosecution of such scams can deter future illicit activities and contribute to a safer ecosystem, potentially increasing confidence in Bitcoin's security.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "legal"
+      ],
+      "features_for_model": [
+        "BTC_theft_prosecution",
+        "Twitter_scam",
+        "law_enforcement_action"
+      ],
+      "rationale": "The successful prosecution of crypto-related fraud demonstrates increasing regulatory and law enforcement attention. This can enhance user confidence and contribute to a more secure environment, indirectly supporting adoption."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n91ae45c1cea3",
+      "title": "‘Regulation will see Bitcoin go mainstream in the UK’ – Coinfloor CEO",
+      "url": "https://finance.yahoo.com/news/regulation-see-bitcoin-mainstream-uk-140036158.html",
+      "summary": "The CEO of Coinfloor believes that tighter regulations, such as the EU's Fifth Anti-Money Laundering Directive (5AMLD) implemented in the UK, will drive wider Bitcoin adoption. Increased regulatory clarity and compliance are expected to boost consumer confidence and encourage mainstream adoption. This sentiment suggests a positive outlook on regulatory developments for the UK crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "UK_regulation_BTC_adoption",
+        "5AMLD_impact",
+        "consumer_confidence"
+      ],
+      "rationale": "The perspective that regulation will lead to mainstream adoption in the UK is a significant long-term bullish signal. Clearer rules can attract more institutional and retail investors, fostering broader use and acceptance of Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n3dd39b1f421c",
+      "title": "The US Should Use Stablecoins for Emergency Coronavirus Payments",
+      "url": "https://finance.yahoo.com/news/us-stablecoins-emergency-coronavirus-payments-134903953.html",
+      "summary": "The article suggests the US government consider using stablecoins for emergency coronavirus payments, highlighting their potential for rapid and efficient distribution. This proposal, coming from the CEO of Binance.US, indicates a growing discussion around digital currencies for government stimulus. While not directly about Bitcoin, it signals potential mainstream acceptance of crypto-related technologies.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "US_stimulus_stablecoin",
+        "government_payment_proposal",
+        "COVID-19_response"
+      ],
+      "rationale": "The discussion of stablecoins for government payments, while not directly Bitcoin, indicates a growing openness to digital currency solutions. This could indirectly boost interest in the broader crypto space, but the immediate impact on Bitcoin is likely minimal."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n72bddd478c00",
+      "title": "Bailouts, Bitcoin, Disruption, Failures and Hope",
+      "url": "https://finance.yahoo.com/news/bailouts-bitcoin-disruption-failures-hope-140000196.html",
+      "summary": "This article discusses the current disrupted reality, government bailouts, and the role of Bitcoin amidst economic uncertainty. It suggests a broader conversation about alternatives to traditional financial systems and what this means for Bitcoin. The mention of Bitcoin in the context of economic disruption and potential alternatives could attract attention and speculative interest.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_tags": [
+        "macro",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_economic_disruption",
+        "bailout_discussion",
+        "alternative_finance"
+      ],
+      "rationale": "The article frames Bitcoin within the context of economic disruption and government bailouts. This narrative could attract speculative interest, but the immediate price impact is likely to be muted unless specific catalysts emerge."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n7fc98f0719a5",
+      "title": "Ethereum Falls 10% In Selloff",
+      "url": "https://finance.yahoo.com/news/ethereum-falls-10-selloff-200400893.html",
+      "summary": "Ethereum experienced a significant 10% price drop on March 22nd, marking its largest one-day percentage loss since March 16th. This decline occurred within a broader market sell-off. The article highlights Ethereum's price action and market cap changes, indicating negative sentiment and potential downward pressure on related assets, including Bitcoin, due to market correlation.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action",
+        "macro",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "ETH_price_drop",
+        "market_selloff",
+        "altcoin_correlation"
+      ],
+      "rationale": "The sharp decline in Ethereum's price, a major altcoin, suggests broader market weakness and negative sentiment. This correlation could exert downward pressure on Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n72bddd478c00",
+      "title": "Bailouts, Bitcoin, Disruption, Failures and Hope",
+      "url": "https://finance.yahoo.com/news/bailouts-bitcoin-disruption-failures-hope-140000196.html",
+      "summary": "This article discusses the current disrupted reality, government bailouts, and the role of Bitcoin amidst economic uncertainty. It suggests a broader conversation about alternatives to traditional financial systems and what this means for Bitcoin. The mention of Bitcoin in the context of economic disruption and potential alternatives could attract attention and speculative interest.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_tags": [
+        "macro",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_economic_disruption",
+        "bailout_discussion",
+        "alternative_finance"
+      ],
+      "rationale": "The article frames Bitcoin within the context of economic disruption and government bailouts. This narrative could attract speculative interest, but the immediate price impact is likely to be muted unless specific catalysts emerge."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n3dd39b1f421c",
+      "title": "The US Should Use Stablecoins for Emergency Coronavirus Payments",
+      "url": "https://finance.yahoo.com/news/us-stablecoins-emergency-coronavirus-payments-134903953.html",
+      "summary": "The article suggests the US government consider using stablecoins for emergency coronavirus payments, highlighting their potential for rapid and efficient distribution. This proposal, coming from the CEO of Binance.US, indicates a growing discussion around digital currencies for government stimulus. While not directly about Bitcoin, it signals potential mainstream acceptance of crypto-related technologies.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "US_stimulus_stablecoin",
+        "government_payment_proposal",
+        "COVID-19_response"
+      ],
+      "rationale": "The discussion of stablecoins for government payments, while not directly Bitcoin, indicates a growing openness to digital currency solutions. This could indirectly boost interest in the broader crypto space, but the immediate impact on Bitcoin is likely minimal."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n72bddd478c00",
+      "title": "Bailouts, Bitcoin, Disruption, Failures and Hope",
+      "url": "https://finance.yahoo.com/news/bailouts-bitcoin-disruption-failures-hope-140000196.html",
+      "summary": "This article discusses the current disrupted reality, government bailouts, and the role of Bitcoin amidst economic uncertainty. It suggests a broader conversation about alternatives to traditional financial systems and what this means for Bitcoin. The mention of Bitcoin in the context of economic disruption and potential alternatives could attract attention and speculative interest.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_tags": [
+        "macro",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_economic_disruption",
+        "bailout_discussion",
+        "alternative_finance"
+      ],
+      "rationale": "The article frames Bitcoin within the context of economic disruption and government bailouts. This narrative could attract speculative interest, but the immediate price impact is likely to be muted unless specific catalysts emerge."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf438baac6f26",
+      "title": "The Gross Law Firm Announces Class Actions on Behalf of Shareholders of LK, BDX and CAN",
+      "url": "https://finance.yahoo.com/news/gross-law-firm-announces-class-150500173.html",
+      "summary": "The Gross Law Firm is announcing class actions against Luckin Coffee Inc. (LK), BDX, and CAN. While unrelated to crypto, the announcement of class-action lawsuits can sometimes correlate with broader market sentiment shifts or investor risk aversion, potentially impacting speculative assets like Bitcoin if the market downturn intensifies.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_tags": [
+        "legal",
+        "macro"
+      ],
+      "features_for_model": [
+        "class_action_lawsuit",
+        "stock_market_downturn",
+        "investor_sentiment"
+      ],
+      "rationale": "While not directly related to crypto, the announcement of class-action lawsuits can be a signal of broader market stress or increased investor caution, which might indirectly influence Bitcoin's price if it reflects a general flight to safety."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n7fc98f0719a5",
+      "title": "Ethereum Falls 10% In Selloff",
+      "url": "https://finance.yahoo.com/news/ethereum-falls-10-selloff-200400893.html",
+      "summary": "Ethereum experienced a significant 10% price drop on March 22nd, marking its largest one-day percentage loss since March 16th. This decline occurred within a broader market sell-off. The article highlights Ethereum's price action and market cap changes, indicating negative sentiment and potential downward pressure on related assets, including Bitcoin, due to market correlation.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action",
+        "macro",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "ETH_price_drop",
+        "market_selloff",
+        "altcoin_correlation"
+      ],
+      "rationale": "The sharp decline in Ethereum's price, a major altcoin, suggests broader market weakness and negative sentiment. This correlation could exert downward pressure on Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf438baac6f26",
+      "title": "The Gross Law Firm Announces Class Actions on Behalf of Shareholders of LK, BDX and CAN",
+      "url": "https://finance.yahoo.com/news/gross-law-firm-announces-class-150500173.html",
+      "summary": "The Gross Law Firm is announcing class actions against Luckin Coffee Inc. (LK), BDX, and CAN. While unrelated to crypto, the announcement of class-action lawsuits can sometimes correlate with broader market sentiment shifts or investor risk aversion, potentially impacting speculative assets like Bitcoin if the market downturn intensifies.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_tags": [
+        "legal",
+        "macro"
+      ],
+      "features_for_model": [
+        "class_action_lawsuit",
+        "stock_market_downturn",
+        "investor_sentiment"
+      ],
+      "rationale": "While not directly related to crypto, the announcement of class-action lawsuits can be a signal of broader market stress or increased investor caution, which might indirectly influence Bitcoin's price if it reflects a general flight to safety."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-03-22",
+    "summary": "The market is experiencing significant volatility, with Ethereum seeing a 10% drop, indicating broader bearish sentiment. Discussions around using stablecoins for government stimulus payments are emerging, suggesting a potential, albeit indirect, shift towards digital currency acceptance. Long-term, increased institutional interest in Bitcoin, evidenced by Square's Cash App revenue and regulatory developments, remains a positive driver. However, the ongoing economic uncertainty due to the coronavirus outbreak continues to cast a shadow, challenging Bitcoin's safe-haven narrative.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued global economic downturn due to COVID-19.",
+      "Increased correlation of Bitcoin with traditional markets.",
+      "Potential for further regulatory uncertainty.",
+      "Liquidity concerns in a risk-off environment."
+    ],
+    "watch_items": [
+      "Global equity market performance.",
+      "Government stimulus package details.",
+      "Developments in stablecoin adoption for payments.",
+      "Bitcoin's ability to hold key support levels."
+    ]
+  }
+}

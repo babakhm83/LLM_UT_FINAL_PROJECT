@@ -1,0 +1,503 @@
+{
+  "date": "2020-02-20",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "n2f35884e1ff5",
+      "title": "CME Open Interest for Bitcoin Futures Up 100% Since Start of 2020",
+      "url": "https://finance.yahoo.com/news/cme-open-interest-bitcoin-futures-184857327.html",
+      "summary": "Open interest in CME Bitcoin futures has doubled since the start of 2020, reaching $235 million in contracts. This surge in open interest correlates with Bitcoin's price increase, indicating growing institutional interest and participation in the regulated futures market. This trend suggests a strengthening bullish sentiment and potential for increased liquidity and price discovery in the longer term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CME_open_interest_growth",
+        "institutional_adoption",
+        "futures_market_liquidity"
+      ],
+      "rationale": "The doubling of open interest on CME Bitcoin futures signifies increasing institutional engagement. This sustained interest from regulated markets is a strong indicator of long-term bullish sentiment and potential for broader adoption."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n3b338b72a5b0",
+      "title": "Grayscale’s Bitcoin Trust Is Now Open to More Investors as SEC Reporting Company",
+      "url": "https://finance.yahoo.com/news/grayscale-bitcoin-trust-now-open-152039586.html",
+      "summary": "Grayscale's Bitcoin Trust has successfully registered as an SEC reporting company, making it the first publicly traded bitcoin investment vehicle on an over-the-counter market to do so. This move opens the trust to a wider range of investors previously restricted from non-regulated vehicles. The registration under the Exchange Act of 1934 enhances transparency and accessibility, potentially driving more traditional capital into Bitcoin.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Grayscale_SEC_reporting",
+        "institutional_access",
+        "regulatory_compliance"
+      ],
+      "rationale": "Becoming an SEC reporting company significantly boosts the legitimacy and accessibility of Grayscale's Bitcoin Trust. This is a major step towards institutional adoption, potentially unlocking substantial capital flows into Bitcoin over the next couple of years."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n74f81570a48b",
+      "title": "Notes From the WEF: Cash Is Dead, Long Live Digital Cash",
+      "url": "https://finance.yahoo.com/news/notes-wef-cash-dead-long-120000979.html",
+      "summary": "Discussions at the World Economic Forum (WEF) indicate a growing consensus that physical cash is becoming obsolete, with a push towards digital payment systems. This trend, exemplified by countries mandating electronic payments for government services, suggests a broader societal shift towards digital currencies. While not directly about Bitcoin, this macro trend supports the underlying technology and the concept of digital value transfer.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "digital_payments_trend",
+        "cashless_society",
+        "WEF_discussions"
+      ],
+      "rationale": "The global conversation at WEF about the decline of cash and the rise of digital payments creates a favorable environment for cryptocurrencies. This macro trend validates the utility of digital value transfer, indirectly benefiting Bitcoin's long-term narrative."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n2e23ded96f0e",
+      "title": "Blockchain Association Sides With Telegram Against SEC, Says Grams Are Not Securities",
+      "url": "https://finance.yahoo.com/news/blockchain-association-sides-telegram-against-121713959.html",
+      "summary": "The Blockchain Association, representing major crypto firms, has filed an amicus brief supporting Telegram in its legal battle with the SEC over its Gram tokens. This action highlights a growing industry effort to define digital assets and push back against broad SEC interpretations of securities law. A favorable outcome for Telegram could set a precedent, reducing regulatory uncertainty for future token launches and crypto projects.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Blockchain_Association_amicus",
+        "SEC_vs_Telegram",
+        "token_securities_debate"
+      ],
+      "rationale": "Industry support for Telegram against the SEC signals a united front against potentially overreaching regulations. A positive resolution for Telegram could significantly reduce regulatory ambiguity, fostering innovation and investment in the broader crypto space."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n198d218e131a",
+      "title": "Bitcoin’s Privacy and Scaling Tech Upgrade ‘Taproot’ Just Took a Big Step Forward",
+      "url": "https://finance.yahoo.com/news/bitcoin-privacy-scaling-tech-upgrade-004513626.html",
+      "summary": "The Taproot upgrade, a significant development for Bitcoin's privacy and scalability, has advanced with a pull request submitted for community review. This upgrade aims to improve transaction efficiency and privacy through Schnorr signatures and MAST. Successful implementation could enhance Bitcoin's utility and adoption as a medium of exchange and store of value.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Taproot_upgrade",
+        "Bitcoin_scalability",
+        "privacy_enhancement"
+      ],
+      "rationale": "Taproot is a crucial upgrade for Bitcoin's long-term viability, addressing key scalability and privacy concerns. Its progress indicates a commitment to improving the network's functionality, which is fundamentally bullish for its adoption and value."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n442140152ed2",
+      "title": "How does Bitcoin’s hash rate impact price?",
+      "url": "https://finance.yahoo.com/news/does-bitcoin-hash-rate-impact-180003313.html",
+      "summary": "This article discusses the relationship between Bitcoin's hash rate and its price, particularly in anticipation of the May 2020 halving. It explores two scenarios: price increasing to accommodate miners post-halving, or miners capitulating if prices remain stagnant. A high hash rate generally indicates a secure network, but its impact on price is debated, especially concerning miner profitability and potential capitulation.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "hash_rate_impact",
+        "halving_anticipation",
+        "miner_profitability"
+      ],
+      "rationale": "The upcoming halving and its potential impact on miner profitability and hash rate are critical factors. While a high hash rate suggests network security, the market's reaction to potential miner capitulation or price adjustments remains uncertain."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nec7cb1d2a24b",
+      "title": "Blockstack’s New Consensus Mechanism Creates New Use Case for Bitcoin",
+      "url": "https://finance.yahoo.com/news/blockstack-nodes-paid-btc-not-160011810.html",
+      "summary": "Blockstack is introducing a new consensus mechanism for its Stacks blockchain where miners must post BTC to mine a block, with the BTC then shared with nodes. This creates a new utility for Bitcoin by integrating it into another blockchain's security and reward system. This development could increase demand for Bitcoin as a foundational asset for other decentralized networks.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Blockstack_consensus",
+        "Bitcoin_utility",
+        "interoperability"
+      ],
+      "rationale": "Blockstack's innovation creates a direct utility for Bitcoin within its ecosystem, requiring BTC for mining. This integration can drive demand for Bitcoin as a core component of new decentralized applications and networks."
+    },
+    {
+      "pick_idx": 28,
+      "id": "ncc55e11d8008",
+      "title": "US Treasury Department testing blockchain tech for tracking federal grants",
+      "url": "https://finance.yahoo.com/news/us-treasury-department-testing-blockchain-110021171.html",
+      "summary": "The U.S. Treasury Department is piloting blockchain technology to track federal grant payments, tokenizing letters of credit to monitor fund flow. This initiative demonstrates government adoption of blockchain for efficiency and transparency in financial operations. Such adoption by a major government entity can legitimize the technology and encourage further integration into traditional financial systems.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "US_Treasury_blockchain",
+        "government_adoption",
+        "tokenization_grants"
+      ],
+      "rationale": "Government adoption of blockchain technology, even for specific use cases like grant tracking, signals growing acceptance and understanding of its potential. This can lead to broader integration and a more favorable regulatory environment for digital assets."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n1b172ae16d3e",
+      "title": "Corporations Need Bitcoin. They Just Don’t Know It Yet",
+      "url": "https://finance.yahoo.com/news/corporations-bitcoin-just-don-t-140000839.html",
+      "summary": "This opinion piece argues that corporations will eventually need Bitcoin, even if they don't realize it yet, suggesting that its properties as a digital store of value and a hedge against inflation will become increasingly attractive. The author posits that as traditional financial systems face challenges, Bitcoin's unique characteristics will compel corporate adoption for treasury management and diversification.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "corporate_adoption_thesis",
+        "Bitcoin_store_of_value",
+        "inflation_hedge"
+      ],
+      "rationale": "The argument that corporations will increasingly turn to Bitcoin as a store of value and inflation hedge presents a strong long-term bullish case. As macro uncertainties grow, Bitcoin's unique properties could drive significant demand from the corporate sector."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n735d9c6b82af",
+      "title": "60% of Bitcoins haven’t moved for more than a year",
+      "url": "https://finance.yahoo.com/news/60-bitcoins-haven-t-moved-150018091.html",
+      "summary": "Approximately 60% of Bitcoin supply has remained unmoved for over a year, indicating widespread 'HODLing' behavior. This suggests a strong conviction among long-term holders, reducing the circulating supply available for trading. Such a high percentage of dormant coins is generally considered a bullish signal, implying reduced selling pressure and potential for price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "HODLing_trend",
+        "dormant_supply",
+        "reduced_selling_pressure"
+      ],
+      "rationale": "The significant portion of Bitcoin supply held long-term (HODLed) indicates strong holder conviction and reduced available supply. This scarcity, coupled with sustained demand, is a powerful bullish indicator for the asset's long-term value."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n5b360ca7457c",
+      "title": "Bitcoin price crashes by $800 in minutes",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-crashes-800-minutes-001815497.html",
+      "summary": "Bitcoin experienced a sudden and sharp drop of $800, falling from $10,200 to $9,400 before partially recovering to $9,600. This volatility impacted the broader crypto market, with most top coins also seeing significant declines. The market cap dropped to $280 billion, and Bitcoin's dominance fell to 63%. This event highlights the inherent volatility and potential for rapid price swings in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "sudden_price_drop",
+        "market_wide_selloff",
+        "volatility_spike"
+      ],
+      "rationale": "The rapid $800 price crash indicates significant short-term selling pressure and liquidity issues. This sharp decline suggests a bearish sentiment that could persist for a few days, impacting overall market sentiment."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n6e146a6bb449",
+      "title": "No, Concentration Among Miners Isn’t Going to Break Bitcoin",
+      "url": "https://finance.yahoo.com/news/no-concentration-among-miners-isn-050000938.html",
+      "summary": "This article argues against the notion that miner concentration will break Bitcoin, despite a report suggesting a single entity could control 50% of the hashrate via a joint venture. The author contends that the network's design and economic incentives still prevent a single entity from easily manipulating it. While acknowledging the concern, the piece suggests the system remains resilient.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "protocol"
+      ],
+      "features_for_model": [
+        "miner_centralization_debate",
+        "hashrate_concentration",
+        "network_resilience"
+      ],
+      "rationale": "The debate around miner centralization is ongoing. While the article downplays the immediate threat, any perceived increase in centralization could lead to short-term FUD and price volatility, though its long-term impact is debated."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nc9c0bda0af0e",
+      "title": "Coinbase Pro set to list Kyber Network’s KNC token",
+      "url": "https://finance.yahoo.com/news/coinbase-pro-set-list-kyber-080034093.html",
+      "summary": "Coinbase Pro will list Kyber Network's KNC token next week, allowing deposits starting Feb. 24 and trading the following day. This listing on a major exchange typically increases liquidity, accessibility, and demand for the token. Such listings often lead to short-term price pumps for the listed asset.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 5
+      },
+      "impact_tags": [
+        "listing",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinbase_listing",
+        "KNC_token",
+        "exchange_liquidity_increase"
+      ],
+      "rationale": "Coinbase listings historically provide a short-term boost to token prices due to increased visibility and trading volume. The KNC token is likely to see positive price action in the days following the listing."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nb55fac575d91",
+      "title": "Bitcoin suffers worst daily candle since September",
+      "url": "https://finance.yahoo.com/news/bitcoin-suffers-worst-daily-candle-105743419.html",
+      "summary": "Bitcoin experienced its worst daily candle since September, with a $1,000 sell-off within 24 hours, falling below the $9,600 support level. A breakdown below $9,350 could lead to a re-test of the 200-day moving average around $8,830. This significant price drop indicates strong bearish momentum in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "worst_daily_candle",
+        "support_breakdown",
+        "bearish_momentum"
+      ],
+      "rationale": "The severe price drop and breach of key support levels suggest continued downward pressure in the very short term. Traders will be watching the $8,830 level closely as a potential area of support."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n85e487dde015",
+      "title": "Bitcoin Traps Buyers With Biggest Daily Price Loss in Three Months",
+      "url": "https://finance.yahoo.com/news/bitcoin-traps-buyers-biggest-daily-110524918.html",
+      "summary": "Bitcoin saw its largest daily price loss in three months, falling by $800 to near $9,300 after being rejected near $10,300. While the broader trend remains bullish, yesterday's bearish engulfing candle shifts risk towards a drop to the Feb. 4 low of $9,075. A move above $9,800 could force sellers to reassess.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "largest_daily_loss",
+        "bearish_engulfing_candle",
+        "potential_lower_low"
+      ],
+      "rationale": "The significant daily price drop and bearish technical pattern suggest that buyers may be trapped, increasing the likelihood of further downside. The immediate focus will be on whether Bitcoin can hold the $9,075 support level."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nce22829ff83b",
+      "title": "Oil Prices Are Now More Volatile Than Bitcoin",
+      "url": "https://finance.yahoo.com/news/oil-prices-now-more-volatile-172813566.html",
+      "summary": "Bitcoin's historical volatility has decreased to its lowest level since September (42.3%), while oil prices have become significantly more volatile (WTI at 105.3% in early Feb). This comparison suggests that Bitcoin is currently exhibiting more stability relative to traditional markets like oil, which could attract investors seeking less volatile assets within the crypto space.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "bitcoin_volatility_low",
+        "oil_volatility_high",
+        "relative_stability"
+      ],
+      "rationale": "Bitcoin's decreasing volatility relative to oil suggests a maturing market. This increased stability could make it more attractive to a broader range of investors, potentially leading to gradual inflows."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nb6142f5e9283",
+      "title": "Latest Ethereum price and analysis (ETH to USD)",
+      "url": "https://finance.yahoo.com/news/latest-ethereum-price-analysis-eth-184410528.html",
+      "summary": "Ethereum shows a bullish formation despite a double top on the daily chart, holding above the $258 support level. It has rallied 106% year-to-date and trades above key moving averages, indicating strong short-term momentum. However, resistance at $286 needs to be broken for further upside.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "altcoin",
+        "volatility"
+      ],
+      "features_for_model": [
+        "Ethereum_bullish_trend",
+        "ETH_support_hold",
+        "YTD_rally"
+      ],
+      "rationale": "Ethereum's strong year-to-date performance and ability to hold key support levels suggest continued bullish momentum. Breaking the $286 resistance is crucial for further price appreciation in the short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n5b360ca7457c",
+      "title": "Bitcoin price crashes by $800 in minutes",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-crashes-800-minutes-001815497.html",
+      "summary": "Bitcoin experienced a sudden and sharp drop of $800, falling from $10,200 to $9,400 before partially recovering to $9,600. This volatility impacted the broader crypto market, with most top coins also seeing significant declines. The market cap dropped to $280 billion, and Bitcoin's dominance fell to 63%. This event highlights the inherent volatility and potential for rapid price swings in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "sudden_price_drop",
+        "market_wide_selloff",
+        "volatility_spike"
+      ],
+      "rationale": "The rapid $800 price crash indicates significant short-term selling pressure and liquidity issues. This sharp decline suggests a bearish sentiment that could persist for a few days, impacting overall market sentiment."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nb55fac575d91",
+      "title": "Bitcoin suffers worst daily candle since September",
+      "url": "https://finance.yahoo.com/news/bitcoin-suffers-worst-daily-candle-105743419.html",
+      "summary": "Bitcoin experienced its worst daily candle since September, with a $1,000 sell-off within 24 hours, falling below the $9,600 support level. A breakdown below $9,350 could lead to a re-test of the 200-day moving average around $8,830. This significant price drop indicates strong bearish momentum in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "worst_daily_candle",
+        "support_breakdown",
+        "bearish_momentum"
+      ],
+      "rationale": "The severe price drop and breach of key support levels suggest continued downward pressure in the very short term. Traders will be watching the $8,830 level closely as a potential area of support."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n85e487dde015",
+      "title": "Bitcoin Traps Buyers With Biggest Daily Price Loss in Three Months",
+      "url": "https://finance.yahoo.com/news/bitcoin-traps-buyers-biggest-daily-110524918.html",
+      "summary": "Bitcoin saw its largest daily price loss in three months, falling by $800 to near $9,300 after being rejected near $10,300. While the broader trend remains bullish, yesterday's bearish engulfing candle shifts risk towards a drop to the Feb. 4 low of $9,075. A move above $9,800 could force sellers to reassess.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "largest_daily_loss",
+        "bearish_engulfing_candle",
+        "potential_lower_low"
+      ],
+      "rationale": "The significant daily price drop and bearish technical pattern suggest that buyers may be trapped, increasing the likelihood of further downside. The immediate focus will be on whether Bitcoin can hold the $9,075 support level."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-02-20",
+    "summary": "Bitcoin experienced a sharp and sudden price crash of $800, triggering significant volatility across the crypto market. This bearish move has broken key support levels, suggesting potential for further downside in the short term. While long-term indicators remain cautiously optimistic due to institutional interest and protocol upgrades, the immediate sentiment is bearish. The relative stability of Bitcoin compared to oil volatility is a subtle bullish signal for longer timeframes.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued selling pressure following the sharp price drop.",
+      "Failure to hold key support levels around $9,000.",
+      "Broader market contagion from traditional finance if the sell-off accelerates.",
+      "Uncertainty surrounding the impact of miner centralization concerns.",
+      "Potential for further regulatory scrutiny on crypto assets."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $9,000-$9,300 support.",
+      "Ethereum's ability to hold $258 support.",
+      "KNC token performance post-Coinbase listing.",
+      "Macroeconomic indicators and global market sentiment.",
+      "Developments in Bitcoin's Taproot upgrade."
+    ]
+  }
+}

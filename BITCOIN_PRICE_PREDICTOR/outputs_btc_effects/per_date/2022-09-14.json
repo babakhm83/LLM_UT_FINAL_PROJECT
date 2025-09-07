@@ -1,0 +1,519 @@
+{
+  "date": "2022-09-14",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n12a32307b61b",
+      "title": "Stock Market Today: S&P, Nasdaq Retreat After Sizzling Jobs Report",
+      "url": "https://finance.yahoo.com/news/stock-market-today-p-nasdaq-202032096.html",
+      "summary": "A strong jobs report showing 528,000 new jobs in July, exceeding expectations, led to a stock market retreat. This data suggests the Federal Reserve may continue aggressive interest rate hikes to combat inflation. The unemployment rate fell to 3.5%, matching pre-pandemic lows. This macroeconomic environment, characterized by potential continued monetary tightening, generally creates headwinds for risk assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "jobs_report_beat",
+        "Fed_rate_hikes",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Strong economic data, while positive for employment, signals continued hawkishness from the Federal Reserve. This typically leads to tighter liquidity and reduced appetite for risk assets, negatively impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n99c026171f27",
+      "title": "First Mover Asia: Ethereum's Merge Starts to Hit Gaming Chip Prices",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-ethereums-merge-222813668.html",
+      "summary": "Ethereum's upcoming transition to a proof-of-stake (PoS) consensus mechanism, known as the Merge, is expected to reduce demand for graphics processing units (GPUs) as Ethereum mining will no longer require them. This shift is already causing GPU prices to drop. While this directly impacts the GPU market, it indirectly affects the broader crypto ecosystem by signaling a significant technological shift in a major blockchain.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge",
+        "GPU_prices",
+        "ETH_PoS_transition"
+      ],
+      "rationale": "The Merge's impact on GPU prices is a secondary effect. While it signals a major upgrade for Ethereum, its direct long-term impact on Bitcoin's price is limited, though it could influence investor sentiment towards PoS versus PoW."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n1777fb829790",
+      "title": "Bitcoin (BTC) Price Prediction 2030: Is $1,000,000 Too Conservative?",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-price-prediction-2030-060416366.html",
+      "summary": "Despite market downturns and bankruptcies, some projections for Bitcoin's price by 2030 remain highly optimistic, with some suggesting it could reach nearly $1 million. The article notes Bitcoin's historical trend of new highs despite volatility. This long-term bullish outlook, driven by adoption and its role as a digital asset, contrasts with short-term market pressures.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction_2030",
+        "long_term_adoption",
+        "digital_gold"
+      ],
+      "rationale": "Long-term price predictions, even if speculative, reflect underlying bullish sentiment and potential for future adoption. These narratives can influence investor behavior over extended periods, supporting a long-term bullish case."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n5136fca7b109",
+      "title": "Bitcoin's 10% Weekly Drop Puts Bears in Control Ahead of Jackson Hole Symposium",
+      "url": "https://finance.yahoo.com/news/bitcoins-10-weekly-drop-puts-102712150.html",
+      "summary": "Bitcoin experienced a significant 10% weekly drop, its largest in two months, signaling a bearish trend ahead of the Jackson Hole Symposium. This decline was attributed to the Federal Reserve's July meeting minutes, which pushed back against hopes for liquidity easing in 2023. The price action suggests a bearish sentiment driven by macroeconomic concerns and Fed policy expectations.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_weekly_drop",
+        "Jackson_Hole_Symposium",
+        "Fed_liquidity_outlook"
+      ],
+      "rationale": "A sharp weekly decline, coupled with hawkish Fed signals, reinforces a bearish short-to-medium term outlook. The Jackson Hole symposium is a key event for macroeconomic policy guidance, and negative sentiment from it can prolong downturns."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n529f61825c83",
+      "title": "July Marks Strongest Month of Crypto Fund Inflows This Year: CoinShares",
+      "url": "https://finance.yahoo.com/news/july-marks-strongest-month-crypto-172409462.html",
+      "summary": "July saw the strongest inflows into crypto investment products this year, totaling $474 million, reversing June's outflows. Bitcoin investment products specifically attracted $85 million in inflows. This positive trend in institutional investment suggests growing confidence and capital allocation into digital assets, potentially supporting prices.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "crypto_fund_inflows",
+        "July_inflows",
+        "BTC_investment_products"
+      ],
+      "rationale": "Strong institutional inflows, particularly into Bitcoin products, indicate renewed investor interest and capital deployment. This trend can provide a supportive base for prices and signal a potential shift in market sentiment."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n4a0c91b02e31",
+      "title": "Bitcoin bull Mike Novogratz says crypto's forced deleveraging is over and bitcoin is still an asset to hold amid economic uncertainty",
+      "url": "https://finance.yahoo.com/news/bitcoin-bull-mike-novogratz-says-164631309.html",
+      "summary": "Galaxy Investment Partners CEO Mike Novogratz believes the period of forced deleveraging in the crypto market has concluded, suggesting the market has found equilibrium. He views Bitcoin as an attractive asset amidst economic uncertainty, indicating a potentially positive long-term outlook based on his conviction.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Novogratz_outlook",
+        "forced_deleveraging_over",
+        "economic_uncertainty_asset"
+      ],
+      "rationale": "Prominent figures like Novogratz expressing bullish sentiment after a period of deleveraging can influence market psychology. His view that Bitcoin remains a valuable asset during economic uncertainty supports a long-term bullish narrative."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n330a1a02bd1d",
+      "title": "The Truth About Crypto and Sex Work",
+      "url": "https://finance.yahoo.com/news/truth-crypto-sex-153152697.html",
+      "summary": "The article discusses the reality of sex workers using cryptocurrency, debunking the myth that it automatically leads to wealth. While some may use Bitcoin (BTC) for transactions, it doesn't guarantee success. The piece highlights that content creators still face challenges attracting clients, suggesting that crypto adoption in this niche is not a guaranteed financial boon.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_sex_work",
+        "BTC_transactions",
+        "niche_adoption_reality"
+      ],
+      "rationale": "This piece addresses a specific niche adoption of crypto. While it provides a realistic view, its direct impact on Bitcoin's overall price or market dynamics is likely to be minimal, hence the low magnitude and confidence."
+    },
+    {
+      "pick_idx": 31,
+      "id": "ne3bb83cb48f3",
+      "title": "Crypto Spring Is Coming",
+      "url": "https://finance.yahoo.com/news/crypto-spring-coming-220511873.html",
+      "summary": "Industry experts suggest that the current crypto downturn, while challenging, presents a significant opportunity for long-term investors, likening it to a 'crypto spring' after a 'winter.' This perspective frames the current market conditions as a potential buying opportunity, anticipating a future recovery and growth phase for the asset class.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_spring",
+        "long_term_opportunity",
+        "market_downturn_buy_signal"
+      ],
+      "rationale": "The 'crypto spring' narrative suggests a cyclical recovery is imminent. This optimistic outlook, shared by industry professionals, can foster positive sentiment and encourage investment, potentially driving prices higher over the medium term."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n91ede53390ab",
+      "title": "White House Crypto Mining Report Draws Praise From Advocates and Critics Alike",
+      "url": "https://finance.yahoo.com/news/white-house-crypto-mining-report-130000347.html",
+      "summary": "The White House's OSTP report on Bitcoin mining's environmental impact has garnered mixed reactions, with both proponents and critics finding support for their views. The report calls for more research and potential standards to minimize harm. This regulatory scrutiny, while not immediately punitive, signals ongoing government attention to the energy consumption of crypto mining.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "White_House_mining_report",
+        "environmental_impact",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Government reports on environmental impact can foreshadow future regulations. While this report is balanced, it indicates a growing focus on crypto's energy use, which could lead to future policy changes affecting mining operations."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n123404b2c8cc",
+      "title": "Sports teams with their own crypto",
+      "url": "https://finance.yahoo.com/news/sports-teams-own-crypto-132444806.html",
+      "summary": "The article highlights the growing trend of sports teams adopting cryptocurrencies and tokens for fan engagement and transactions. This integration of crypto into mainstream sports demonstrates increasing adoption and utility for digital assets beyond pure speculation, potentially driving broader acceptance and use cases.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "sports_crypto_integration",
+        "fan_tokens",
+        "mainstream_adoption"
+      ],
+      "rationale": "The increasing use of crypto in sports signifies a tangible expansion of its utility and reach. This adoption by popular entities can introduce new users to crypto and normalize its use, contributing to long-term growth."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n711d6a35645e",
+      "title": "Plunging pound could be lifting UK crypto growth",
+      "url": "https://finance.yahoo.com/news/plunging-pound-could-lifting-uk-101451605.html",
+      "summary": "The sharp decline of the British pound against the dollar may be driving investors towards cryptocurrencies like Bitcoin in the UK. Research indicates the UK is experiencing growth in crypto adoption. This trend suggests a potential short-term influx of capital into crypto markets from investors seeking alternatives to a weakening fiat currency.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "GBP_USD_decline",
+        "UK_crypto_adoption",
+        "flight_to_alternative_assets"
+      ],
+      "rationale": "A weakening fiat currency can incentivize a shift towards perceived safe havens or alternative assets like Bitcoin. This dynamic could lead to increased buying pressure on crypto in the UK market in the immediate short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n22badfa1410c",
+      "title": "Bitcoin Mining Difficulty Edges to All-Time High",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-edges-time-051706536.html",
+      "summary": "Bitcoin's mining difficulty has reached an all-time high, increasing by 3.45%. This indicates a rise in network hashrate, suggesting more miners are participating or existing miners are using more powerful equipment. Despite compressed profitability due to Bitcoin's price, the hashrate remains strong.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "BTC_mining_difficulty_ATH",
+        "network_hashrate",
+        "miner_profitability"
+      ],
+      "rationale": "An all-time high in mining difficulty signifies robust network security and participation. While positive for network health, it can also indicate increased competition and potentially lower profitability for miners, which could indirectly affect selling pressure."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nc272fd69c7c3",
+      "title": "Ethereum Merge nears final countdown as bitcoin and ether inch higher",
+      "url": "https://finance.yahoo.com/news/ethereum-merge-nears-final-countdown-142337351.html",
+      "summary": "Ethereum's Merge is imminent, with the transition to proof-of-stake expected around Wednesday or Thursday. This event aims to significantly reduce energy consumption. Bitcoin and Ether prices saw a slight increase after a previous sell-off, indicating cautious optimism or stabilization ahead of the Merge.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "protocol",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge_imminent",
+        "ETH_PoS_transition",
+        "BTC_ETH_price_recovery"
+      ],
+      "rationale": "The approaching Ethereum Merge is a major catalyst for ETH and can create positive spillover effects for Bitcoin. The slight price recovery suggests a temporary relief from recent macro-driven sell-offs, with the Merge being a key focus."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n5fa266335208",
+      "title": "Electrum Bitcoin Wallet Scam Suspect Is Arrested by Dutch Police",
+      "url": "https://finance.yahoo.com/news/electrum-bitcoin-wallet-scam-suspect-081634912.html",
+      "summary": "A suspect has been arrested in the Netherlands for allegedly laundering funds stolen via a scam related to the Electrum Bitcoin wallet. While the arrest is positive for security, it highlights ongoing vulnerabilities in the crypto ecosystem. The seizure of crypto assets is a minor bearish signal.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Electrum_scam_arrest",
+        "wallet_security",
+        "crypto_crime"
+      ],
+      "rationale": "While the arrest is a positive step for security, the underlying scam and asset seizure are minor bearish indicators. The event underscores the persistent risks of scams in the crypto space, which can erode investor confidence."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n945c3134f70d",
+      "title": "Bitcoin Miner Iris Rises as Compass Point Upgrades on Potential Boost in Hashrate",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-iris-rises-compass-145202729.html",
+      "summary": "Iris Energy (IREN) shares rose after Compass Point upgraded its rating to 'buy,' citing potential for increased hashrate and bitcoin production. This upgrade suggests positive sentiment towards specific mining operations and their ability to scale, which can be a bullish indicator for the mining sector.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "Iris_Energy_upgrade",
+        "IREN_hashrate_potential",
+        "miner_stock_performance"
+      ],
+      "rationale": "Positive analyst ratings and potential for increased hashrate in mining companies can signal improved operational efficiency and profitability, which may translate to broader positive sentiment for Bitcoin mining stocks."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n63eece8b726e",
+      "title": "As Ethereum Merge Looms, Michael Saylor Pushes Back Against Bitcoin's Energy Critics",
+      "url": "https://finance.yahoo.com/news/ethereum-merge-looms-saylor-pushes-191618644.html",
+      "summary": "Michael Saylor, executive chairman of MicroStrategy, defended Bitcoin's energy consumption, calling it 'the most efficient, cleanest industrial use of electricity.' His comments come as Ethereum's Merge approaches, which aims to drastically reduce energy use. Saylor's defense aims to counter negative environmental narratives surrounding Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "miner"
+      ],
+      "features_for_model": [
+        "Saylor_Bitcoin_energy",
+        "ETH_Merge_contrast",
+        "environmental_narrative"
+      ],
+      "rationale": "Saylor's defense of Bitcoin's energy use is a counter-narrative to growing environmental concerns. While unlikely to immediately shift market sentiment, it highlights an ongoing debate that could influence regulatory approaches and public perception."
+    },
+    {
+      "pick_idx": 10,
+      "id": "ne26a11a0cff0",
+      "title": "Merge-Focused Hedging Makes Ether Shorts Most Expensive in 16 Months",
+      "url": "https://finance.yahoo.com/news/merge-focused-hedging-makes-ether-100140171.html",
+      "summary": "The cost of shorting Ether (ETH) has surged to its highest level in 16 months due to hedging strategies ahead of the Ethereum Merge. This indicates a significant bearish sentiment and increased demand for downside protection among traders anticipating potential volatility or price drops post-Merge.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "protocol",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETH_short_cost",
+        "Merge_hedging",
+        "bearish_sentiment_ETH"
+      ],
+      "rationale": "The high cost of shorting ETH suggests a strong bearish conviction among traders, potentially leading to increased selling pressure or liquidations if the market moves against them. This can create downward momentum for ETH and potentially impact BTC."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n00925d745d48",
+      "title": "US Treasury Blacklists Several More Bitcoin Addresses Allegedly Tied to Iran Ransomware Attacks",
+      "url": "https://finance.yahoo.com/news/us-treasury-blacklists-several-more-150807159.html",
+      "summary": "The U.S. Treasury Department has blacklisted additional Bitcoin addresses linked to Iranian ransomware attacks. This action highlights the ongoing efforts to combat illicit activities using cryptocurrencies and signals increased regulatory scrutiny on Bitcoin transactions associated with criminal enterprises.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Treasury_blacklist",
+        "Iran_ransomware",
+        "BTC_address_sanctions"
+      ],
+      "rationale": "Increased regulatory action, such as blacklisting addresses tied to illicit activities, can create negative sentiment and concerns about transaction privacy. This may lead to cautiousness among investors and potentially impact liquidity."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n21c568e9a1e1",
+      "title": "Bitcoin leads crypto fall after hot US inflation data",
+      "url": "https://finance.yahoo.com/news/bitcoin-crypto-us-inflation-data-082108292.html",
+      "summary": "Bitcoin and other cryptocurrencies experienced a significant downturn following higher-than-expected US inflation data. This suggests a renewed expectation of restrictive monetary policy from the Federal Reserve, which typically leads to a risk-off sentiment and impacts crypto prices negatively.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_inflation_hot",
+        "BTC_price_fall",
+        "Fed_monetary_policy_tightening"
+      ],
+      "rationale": "Hotter-than-expected inflation data directly triggers fears of aggressive Fed rate hikes, which is a strong bearish signal for risk assets like Bitcoin. This is likely to drive further selling pressure in the short term."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nead3bcd0f875",
+      "title": "First Mover Asia: Bitcoin Struggles Following Inflation Report; California Crypto Bill Is an Overstep, Say Legal Experts",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-struggles-024637113.html",
+      "summary": "Bitcoin and other major cryptocurrencies are trading lower after a disappointing inflation report. Separately, legal experts view a new crypto bill passed by California's assembly as an overreach. These factors combine to create a negative short-term outlook for the crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "BTC_struggles",
+        "inflation_report_negative",
+        "California_crypto_bill_overstep"
+      ],
+      "rationale": "The combination of negative macroeconomic data (inflation) and regulatory concerns (California bill) creates a dual bearish pressure on the crypto market in the short term."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n079516823c9e",
+      "title": "Steep Drops in Bitcoin, Ether Cause Over $250M in Futures Losses",
+      "url": "https://finance.yahoo.com/news/steep-drop-bitcoin-ether-causes-084400581.html",
+      "summary": "Bitcoin and Ether experienced steep drops, leading to over $250 million in futures liquidations. This occurred after higher-than-expected US inflation data, causing a risk-off sentiment in broader markets. The significant liquidations indicate strong selling pressure and market capitulation.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "BTC_ETH_futures_liquidations",
+        "inflation_data_impact",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Large-scale futures liquidations are a direct consequence of sharp price drops and indicate forced selling, exacerbating downward price action. This is a strong bearish signal for the immediate short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-09-14",
+    "summary": "The crypto market is experiencing significant downward pressure today, primarily driven by hotter-than-expected US inflation data, which is fueling fears of aggressive Federal Reserve rate hikes. Bitcoin and Ether have seen steep drops, leading to substantial futures liquidations. The upcoming Ethereum Merge remains a key event, but the immediate focus is on the macroeconomic headwinds. Regulatory news, such as the US Treasury blacklisting Bitcoin addresses tied to Iranian ransomware attacks and concerns over California's crypto bill, adds to the bearish sentiment.",
+    "scenario_probs": {
+      "bull": 0.2,
+      "base": 0.3,
+      "bear": 0.5
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued hawkishness from the Federal Reserve due to persistent inflation.",
+      "Negative spillover effects from the Ethereum Merge if it leads to unexpected volatility or technical issues.",
+      "Increased regulatory scrutiny and enforcement actions against crypto-related illicit activities.",
+      "Broader market sentiment remaining risk-off due to global economic uncertainties.",
+      "Potential for further liquidations in the futures market if prices continue to decline."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and economic data releases.",
+      "Ethereum Merge completion and post-event price action.",
+      "Developments in crypto regulation and enforcement (e.g., SEC actions).",
+      "Global macroeconomic indicators and geopolitical events.",
+      "Performance of major tech stocks as a proxy for risk appetite."
+    ]
+  }
+}

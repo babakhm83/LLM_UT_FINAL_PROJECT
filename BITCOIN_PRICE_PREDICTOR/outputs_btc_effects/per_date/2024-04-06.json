@@ -1,0 +1,512 @@
+{
+  "date": "2024-04-06",
+  "long_term": [
+    {
+      "pick_idx": 8,
+      "id": "n5f47e9dbf320",
+      "title": "CME Trading Volume Reached Highest in 3 Years After Bitcoin ETF Approval",
+      "url": "https://finance.yahoo.com/news/cme-trading-volume-reached-highest-145845577.html",
+      "summary": "The Chicago Mercantile Exchange (CME) saw a significant surge in trading volume in January, reaching its highest level since October 2021. This increase is directly attributed to the U.S. Securities and Exchange Commission's approval of spot Bitcoin ETFs. The total derivatives trading volume rose by 35% to $94.9 billion. This milestone signifies growing institutional interest and participation in the cryptocurrency market, driven by the accessibility provided by ETFs.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "CME_volume",
+        "ETF_approval_impact",
+        "institutional_adoption"
+      ],
+      "rationale": "The approval of spot Bitcoin ETFs has unlocked significant institutional capital, leading to increased trading activity on major exchanges like CME. This trend is expected to continue as more institutions enter the market, providing sustained demand and liquidity for Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n6d54ed516e1e",
+      "title": "VanEck Drops Fee on Its Spot Bitcoin ETF, HODL",
+      "url": "https://finance.yahoo.com/news/vaneck-drops-fee-spot-bitcoin-230000959.html",
+      "summary": "VanEck has announced it will waive the management fee for its spot Bitcoin ETF (HODL) until March 31, 2025, or until the fund reaches $1.5 billion in assets. After that, a 0.2% fee will apply. This move is a competitive strategy to attract more investors to its ETF, especially in a market where fee structures are a key differentiator. It signals a commitment to growing market share and making Bitcoin more accessible.",
+      "impact_horizon_months": 6,
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ETF_fee_reduction",
+        "VanEck_HODL",
+        "competitive_ETF_market"
+      ],
+      "rationale": "Fee reductions by major ETF issuers like VanEck make Bitcoin investment more attractive and cost-effective for a broader range of investors. This can lead to increased inflows into Bitcoin ETFs, directly supporting the price and adoption of Bitcoin."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nbb9aff95b316",
+      "title": "Warren Buffett Says He Wouldn't Pay $25 For All The Bitcoin In The World – He Considers Crypto 'Rat Poison' And Warns: 'I Can Say With Almost Certainty That They Will Come To A Bad Ending'",
+      "url": "https://finance.yahoo.com/news/warren-buffett-says-wouldnt-pay-175917403.html",
+      "summary": "Warren Buffett, a highly respected investor, reiterated his strong skepticism towards cryptocurrency, calling it \"rat poison squared\" and predicting a negative outcome. Despite the growing acceptance of Bitcoin in traditional finance, Buffett maintains his stance, highlighting a fundamental difference in investment philosophy. His continued bearish commentary, while not directly impacting price, represents a persistent narrative against digital assets from a traditional finance perspective.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Buffett_sentiment",
+        "skepticism",
+        "traditional_finance_view"
+      ],
+      "rationale": "While Buffett's views are influential, his consistent bearish stance on Bitcoin represents a segment of traditional finance that remains unconvinced. This ongoing sentiment can act as a psychological barrier for some potential investors, though its direct market impact is often limited by the growing adoption from other segments."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n7a7072d920c1",
+      "title": "How the Bitcoin Halving Could Affect Network Security",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-could-affect-network-134649526.html",
+      "summary": "The upcoming Bitcoin halving in April 2024, which reduces mining rewards by half, raises questions about network security. While past halvings have had minimal impact, there's a potential risk of smaller miners exiting the market, leading to reduced hash rates. This could theoretically make the network more vulnerable to 51% attacks. However, many analysts anticipate a smooth transition, similar to previous events.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_halving",
+        "miner_reward_reduction",
+        "network_security",
+        "hash_rate"
+      ],
+      "rationale": "The halving event is a fundamental protocol change that directly impacts miner economics. While historical precedent suggests minimal security impact, any significant reduction in hash rate due to less efficient miners exiting could introduce short-term vulnerabilities, creating price uncertainty."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n40b451d533a3",
+      "title": "Hong Kong Likely To Allow In-Kind Creations for Spot Bitcoin ETFs: Bloomberg",
+      "url": "https://finance.yahoo.com/news/hong-kong-likely-allow-kind-162521543.html",
+      "summary": "Hong Kong's financial regulator is expected to approve in-kind creations and redemptions for spot Bitcoin ETFs in the second quarter of 2024. This mechanism allows ETF issuers to create or redeem ETF shares using the underlying Bitcoin directly, rather than cash. This could significantly boost efficiency and potentially attract a larger investor base, particularly from mainland China, by simplifying access to the crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Hong_Kong_ETF",
+        "in-kind_creation",
+        "China_market_access"
+      ],
+      "rationale": "The approval of in-kind creations in Hong Kong's spot Bitcoin ETFs would be a major step towards broader Asian market integration. This could unlock significant capital flows from China, increasing demand for Bitcoin and solidifying its global institutional adoption."
+    },
+    {
+      "pick_idx": 27,
+      "id": "nd6548f7d38f6",
+      "title": "Gold Investors Aren't Switching Into Bitcoin, JPMorgan Says",
+      "url": "https://finance.yahoo.com/news/gold-investors-arent-switching-bitcoin-095548165.html",
+      "summary": "JPMorgan's analysis suggests that investors are buying both gold and Bitcoin concurrently, rather than switching between them. The report notes a build-up in both gold and Bitcoin futures since February, with MicroStrategy's Bitcoin accumulation amplifying the cryptocurrency's rally. This indicates that Bitcoin is not solely cannibalizing gold's safe-haven appeal but is attracting its own distinct investor base.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "gold_vs_bitcoin",
+        "JPM_analysis",
+        "diversified_investment"
+      ],
+      "rationale": "The finding that investors are holding both gold and Bitcoin suggests that Bitcoin is increasingly being viewed as a distinct asset class rather than a direct substitute for gold. This diversification trend can lead to broader capital allocation towards Bitcoin, supporting its long-term growth."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n7e8b6b03bb86",
+      "title": "Stock market today: Stocks climb to new records after Fed sticks to the plan on rates",
+      "url": "https://finance.yahoo.com/news/stock-market-today-us-stocks-rise-as-fed-holds-rates-steady-projects-3-cuts-this-year-180948169.html",
+      "summary": "US stock indexes reached record highs after the Federal Reserve maintained interest rates and projected three rate cuts for the year. The S&P 500, Dow Jones, and Nasdaq all closed at new record levels. This dovish stance from the Fed, signaling a potential easing of monetary policy, generally creates a favorable environment for risk assets, including cryptocurrencies like Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_policy",
+        "interest_rates",
+        "stock_market_rally",
+        "risk_on_sentiment"
+      ],
+      "rationale": "A dovish Federal Reserve, with plans for rate cuts, typically lowers the cost of capital and increases liquidity in the financial system. This environment is generally positive for risk assets like Bitcoin, as investors seek higher yields and growth opportunities."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n04232ab407b5",
+      "title": "Cryptocurrency Mining and Renewable Energy: Bitcoin, BlockDAG Network, and Ethereum Lead Sustainability",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-mining-renewable-energy-bitcoin-211500944.html",
+      "summary": "A study suggests a potential partnership between cryptocurrency mining and green hydrogen production could accelerate the transition to cleaner energy. While cryptocurrency mining faces scrutiny for energy consumption, this research highlights a path towards sustainability. Bitcoin's role in this transition, alongside other networks, could improve its public perception and regulatory outlook.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_sustainability",
+        "renewable_energy",
+        "green_hydrogen",
+        "ESG"
+      ],
+      "rationale": "Addressing the energy consumption concerns of Bitcoin mining through renewable energy integration is crucial for long-term adoption and regulatory acceptance. Positive developments in this area can mitigate environmental FUD and attract ESG-focused investors."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n40d4490d2f5c",
+      "title": "UPDATE 3-Bitcoin hits $60,000 as rally snowballs",
+      "url": "https://finance.yahoo.com/news/2-bitcoin-hits-60-000-135041148.html",
+      "summary": "Bitcoin surpassed $60,000 for the first time in over two years, driven by substantial capital inflows into new U.S. spot Bitcoin ETFs. The rally has seen Bitcoin gain 42% in February, its largest monthly gain since December 2020, and is on track for its largest weekly gain in a year. This surge is attributed to anticipation of the April halving event and increased institutional demand.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_surge",
+        "ETF_inflows",
+        "halving_anticipation",
+        "institutional_demand"
+      ],
+      "rationale": "The sustained rally to $60,000, fueled by ETF inflows and halving anticipation, indicates strong underlying demand. This price momentum, coupled with increasing institutional participation, suggests a continuation of bullish trends in the short to medium term."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n0ea74df5ac6e",
+      "title": "Michael Saylor's MicroStrategy Purchased an Additional 3K BTC, Now Holds $10B Worth",
+      "url": "https://finance.yahoo.com/news/michael-saylors-microstrategy-purchased-additional-133706460.html",
+      "summary": "MicroStrategy, the largest corporate holder of Bitcoin, has acquired an additional 3,000 BTC for $155 million, bringing its total holdings to 193,000 BTC. The average purchase price for these new tokens was $51,813. This consistent accumulation by a prominent corporate entity reinforces its commitment to Bitcoin as a treasury reserve asset and signals confidence in its long-term value.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_buy",
+        "corporate_treasury",
+        "MSTR_holdings",
+        "Bitcoin_accumulation"
+      ],
+      "rationale": "MicroStrategy's continued aggressive acquisition of Bitcoin demonstrates strong conviction from a major institutional player. These purchases add to the overall demand for Bitcoin and reinforce its narrative as a digital store of value, influencing market sentiment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n1fcb708e03e5",
+      "title": "Stock market today: US stocks surge after strong March jobs report and muted wage inflation",
+      "url": "https://finance.yahoo.com/news/stock-market-today-us-stocks-041911542.html",
+      "summary": "US stocks surged on Friday, driven by a stronger-than-expected March jobs report (303,000 jobs added vs. 212,000 expected) and muted wage inflation. This data suggests economic expansion without significant inflationary pressure, potentially delaying Fed rate cuts but also indicating a robust economy. This positive sentiment in traditional markets often spills over into risk assets like Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "jobs_report",
+        "wage_inflation",
+        "economic_strength",
+        "risk_on"
+      ],
+      "rationale": "A strong jobs report with low wage inflation is a mixed signal for the Fed but generally positive for risk assets. It suggests economic resilience, which can boost investor confidence and lead to increased allocation towards Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb9243b2bf76c",
+      "title": "Shipping Logistics, Credit Card Fees, and a Crypto Eyebrow-Raiser",
+      "url": "https://finance.yahoo.com/news/shipping-logistics-credit-card-fees-110000959.html",
+      "summary": "This article discusses the impact of the Baltimore bridge collapse on shipping logistics, a $30 billion settlement between Visa/Mastercard and merchants over interchange fees, and a curious crypto story involving Nilam Resources. The crypto element, while not detailed, suggests an unusual or noteworthy event in the crypto space that could impact sentiment or specific assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_story",
+        "Nilam_Resources",
+        "logistics_impact"
+      ],
+      "rationale": "The mention of a 'crypto eyebrow-raiser' with Nilam Resources is vague but could point to a specific event or announcement that might cause short-term volatility or interest in a particular crypto asset or the broader market sentiment."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n8cd3dcbdafda",
+      "title": "Has crypto-skeptic Dave Ramsey changed his tune when it comes to Bitcoin? Here’s what he told a recent caller",
+      "url": "https://finance.yahoo.com/news/crypto-skeptic-dave-ramsey-changed-110400398.html",
+      "summary": "Financial personality Dave Ramsey, known for his skepticism towards crypto, is examined for any shift in his stance. Ramsey has historically advised against crypto investments, labeling them as risky. Any indication of him softening his stance, even to a caller, could be interpreted as a slight positive shift in public perception, though his core message is likely to remain cautious.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Dave_Ramsey",
+        "crypto_skepticism",
+        "public_perception"
+      ],
+      "rationale": "While Dave Ramsey remains a skeptic, any perceived softening of his stance, even in a minor interaction, could generate some buzz. However, his overall influence is likely to be limited in the short term compared to institutional flows."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n557def81c0dc",
+      "title": "2 Cryptocurrency Picks If Utility Is Your Priority",
+      "url": "https://finance.yahoo.com/news/2-cryptocurrency-picks-utility-priority-112000804.html",
+      "summary": "This article highlights that a key barrier for crypto investors is the perceived lack of utility in many cryptocurrencies, with 35% of non-owners unsure what to do with them. While Bitcoin is primarily seen as a store of value, the article suggests there are cryptocurrencies with demonstrable utility. This points to a market trend where utility is becoming a more important factor for adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_utility",
+        "investor_sentiment",
+        "use_case"
+      ],
+      "rationale": "The focus on utility is a growing trend. While Bitcoin's primary utility is as a store of value, any discussion or development around its practical use cases or the utility of related technologies could positively influence sentiment and adoption."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nf03385e0abf9",
+      "title": "Iran Adapts to Shifting Tides in South Caucasus",
+      "url": "https://finance.yahoo.com/news/iran-adapts-shifting-tides-south-210000369.html",
+      "summary": "This article discusses Iran's geopolitical adjustments in the South Caucasus, influenced by regional conflicts and shifting alliances. While not directly about crypto, geopolitical stability and international relations can indirectly affect global markets and capital flows, including those into digital assets.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "geopolitics",
+        "Iran_policy",
+        "South_Caucasus"
+      ],
+      "rationale": "Geopolitical events can create broader market uncertainty or shifts in capital allocation. While this article is not directly crypto-related, significant geopolitical instability could lead to a flight to perceived safe havens or impact global liquidity, indirectly affecting Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n8cd3dcbdafda",
+      "title": "Has crypto-skeptic Dave Ramsey changed his tune when it comes to Bitcoin? Here’s what he told a recent caller",
+      "url": "https://finance.yahoo.com/news/crypto-skeptic-dave-ramsey-changed-110400398.html",
+      "summary": "Financial personality Dave Ramsey, known for his skepticism towards crypto, is examined for any shift in his stance. Ramsey has historically advised against crypto investments, labeling them as risky. Any indication of him softening his stance, even to a caller, could be interpreted as a slight positive shift in public perception, though his core message is likely to remain cautious.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Dave_Ramsey",
+        "crypto_skepticism",
+        "public_perception"
+      ],
+      "rationale": "While Dave Ramsey remains a skeptic, any perceived softening of his stance, even in a minor interaction, could generate some buzz. However, his overall influence is likely to be limited in the short term compared to institutional flows."
+    },
+    {
+      "pick_idx": 33,
+      "id": "ncd927da745dd",
+      "title": "Bitcoin Price Dips 5% After CPI Data Shows Inflation Still High",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-dips-5-cpi-050759113.html",
+      "summary": "Bitcoin experienced a 5% price dip after the US Consumer Price Index (CPI) report showed inflation remained stubbornly high at 0.4% month-over-month, exceeding expectations. This data dampens hopes for imminent Federal Reserve interest rate cuts, leading to a risk-off sentiment in financial markets. The dip occurred after Bitcoin reached a new all-time high.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "CPI_data",
+        "inflation_surprise",
+        "Fed_rate_cut_expectations",
+        "Bitcoin_dip"
+      ],
+      "rationale": "Higher-than-expected inflation data directly impacts Bitcoin by increasing the likelihood of delayed interest rate cuts. This reduces liquidity and makes risk assets less attractive, leading to immediate price corrections."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n2fd71f17f8c6",
+      "title": "SATO Technologies Corp. Announces March 2024 Bitcoin Computing Operational Update",
+      "url": "https://finance.yahoo.com/news/sato-technologies-corp-announces-march-123200410.html",
+      "summary": "SATO Technologies Corp. reported its March 2024 Bitcoin mining operational update, noting a 5.01% month-over-month increase in the mining network hashrate. The company experienced minimal operational curtailment due to load shedding. This update provides insight into the operational efficiency and growth of a specific Bitcoin mining entity, which can be indicative of broader mining sector health.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "SATO_update",
+        "mining_hashrate",
+        "renewable_energy_mining",
+        "miner_operations"
+      ],
+      "rationale": "Positive operational updates from mining companies, especially those utilizing renewable energy, can signal increasing efficiency and capacity within the mining sector. This can indirectly support Bitcoin's network health and price stability."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n848200cc0940",
+      "title": "Ault Alliance’s Subsidiary, Sentinum, Announces 105 Bitcoin Mined in March 2024, Generating a Monthly Mining Operations Run Rate of Approximately $6.8 Million",
+      "url": "https://finance.yahoo.com/news/ault-alliance-subsidiary-sentinum-announces-103000015.html",
+      "summary": "Ault Alliance's subsidiary, Sentinum, mined approximately 105 Bitcoin in March 2024, generating a monthly run rate of $6.8 million. This includes Bitcoin mined from its Michigan data center and through hosting with Core Scientific. The company's annual run rate is estimated at $82 million. This data provides a snapshot of a specific miner's production and revenue.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Sentinum_mining",
+        "Bitcoin_production",
+        "miner_revenue",
+        "Core_Scientific_hosting"
+      ],
+      "rationale": "Increased Bitcoin production by mining companies, especially those with efficient operations or strategic partnerships, can be seen as a positive indicator for the mining sector's health and its ability to support the network, potentially influencing investor sentiment."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n51c892362483",
+      "title": "Bitcoin Registers Biggest Single-Day Loss Since FTX's Collapse",
+      "url": "https://finance.yahoo.com/news/bitcoin-registers-biggest-single-day-052828418.html",
+      "summary": "Bitcoin experienced its largest single-day percentage loss (over 8%) since the FTX collapse on November 9, 2022. This significant drop, falling below $62,000, is attributed to outflows from U.S.-listed spot Bitcoin ETFs. The shift in ETF sentiment suggests a potential short-term cooling of demand.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_correction",
+        "ETF_outflows",
+        "FTX_collapse_comparison",
+        "liquidity_shift"
+      ],
+      "rationale": "A sharp single-day decline, particularly one linked to ETF outflows, indicates a significant shift in short-term market sentiment and liquidity. This suggests potential for further downside pressure or increased volatility in the immediate aftermath."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-04-06",
+    "summary": "The market is reacting to a strong US jobs report, which suggests economic resilience but may delay Fed rate cuts, creating a mixed sentiment. Bitcoin experienced a significant dip yesterday due to ETF outflows, marking its largest single-day loss since the FTX collapse, indicating a short-term cooling of demand. However, long-term institutional adoption continues with news of VanEck waiving ETF fees and MicroStrategy's ongoing Bitcoin accumulation. The upcoming halving remains a key focus, with ongoing discussions about its potential impact on network security and miner economics.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued ETF outflows could pressure prices further.",
+      "Higher-than-expected inflation data could lead to delayed Fed rate cuts, impacting risk assets.",
+      "Uncertainty surrounding the Bitcoin halving's impact on network security.",
+      "Geopolitical instability could trigger broader market sell-offs.",
+      "Any negative news regarding major crypto entities or hacks."
+    ],
+    "watch_items": [
+      "US CPI data release next week",
+      "Federal Reserve meeting minutes",
+      "Bitcoin ETF flow data",
+      "Miner operational updates",
+      "Developments in Hong Kong ETF approvals",
+      "Any statements from prominent figures like Dave Ramsey regarding crypto"
+    ]
+  }
+}

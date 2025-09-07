@@ -1,0 +1,527 @@
+{
+  "date": "2024-06-29",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "ncd2a5bda9b4d",
+      "title": "US job growth slows as Bitcoin price soars past $62,000",
+      "url": "https://finance.yahoo.com/news/us-job-growth-slows-bitcoin-182852096.html",
+      "summary": "Bitcoin surged past $62,000 as U.S. job growth decelerated in April, with non-farm jobs falling short of forecasts and the unemployment rate rising to 3.9%. The Federal Reserve's decision to maintain steady interest rates contributed to a softening U.S. dollar and Bitcoin's rebound. This indicates a potential correlation between a cooling labor market, dovish monetary policy signals, and positive BTC price action.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_jobs_report",
+        "unemployment_rate",
+        "Fed_interest_rates",
+        "USD_strength"
+      ],
+      "rationale": "A cooling U.S. labor market and stable interest rates are generally bullish for risk assets like Bitcoin. This suggests that a less aggressive Fed stance can lead to increased investor appetite for cryptocurrencies."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nfda420aed098",
+      "title": "Bitcoin Investment Products Saw Over $600M in Outflows Last Week: CoinShares",
+      "url": "https://finance.yahoo.com/news/bitcoin-investment-products-saw-over-111630890.html",
+      "summary": "Bitcoin investment products experienced significant outflows totaling $621 million last week, the largest since March 22. This trend was driven by mixed U.S. economic signals and a hawkish stance from the FOMC on interest rate cuts. Grayscale's GBTC was particularly affected. These outflows offset minor inflows for some altcoins, indicating a broader risk-off sentiment in the crypto investment product market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETF_outflows",
+        "GBTC_outflows",
+        "FOMC_stance",
+        "crypto_liquidity"
+      ],
+      "rationale": "Large outflows from Bitcoin investment products signal reduced institutional demand and potential selling pressure. This is exacerbated by a hawkish Federal Reserve, suggesting a short-to-medium term bearish outlook for BTC."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n608b42b0e2a4",
+      "title": "Stock market today: Stocks surge as jobs report revives rate-cut bets, Apple jumps 6%",
+      "url": "https://finance.yahoo.com/news/stock-market-today-dow-leads-broader-rally-after-soft-jobs-report-apple-earnings-triumph-124351108.html",
+      "summary": "U.S. stocks surged following a weaker-than-expected jobs report, reigniting bets on earlier Federal Reserve rate cuts. The Dow, S&P 500, and Nasdaq all saw significant gains. The April jobs report indicated a cooling labor market, with job additions and unemployment rate figures falling short of economists' expectations. This macroeconomic environment is generally supportive of risk assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_jobs_report",
+        "Fed_rate_cut_expectations",
+        "stock_market_rally",
+        "risk_on_sentiment"
+      ],
+      "rationale": "A softer jobs report and increased expectations for Fed rate cuts create a favorable macro environment for Bitcoin. Lower interest rates typically increase the attractiveness of alternative investments like cryptocurrencies."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3196f3ab1a2f",
+      "title": "1 Top Cryptocurrency to Buy Before It Soars 635% to 5,480%, According to Certain Wall Street Analysts",
+      "url": "https://finance.yahoo.com/news/1-top-cryptocurrency-buy-soars-081500379.html",
+      "summary": "Speculation about the Federal Reserve slowing rate cuts due to stubborn inflation has been a headwind for cryptocurrencies. While Bitcoin's price has slipped from its March peak, Wall Street analysts like Tom Lee of Fundstrat Global Advisors see substantial upside, citing the approval of spot Bitcoin ETFs as a positive development. This highlights ongoing institutional interest and potential for future growth.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "macro"
+      ],
+      "features_for_model": [
+        "Wall_Street_analyst_sentiment",
+        "spot_Bitcoin_ETF_approval",
+        "Fed_rate_policy",
+        "institutional_adoption"
+      ],
+      "rationale": "Positive analyst sentiment and the continued impact of spot Bitcoin ETF approvals suggest sustained institutional interest. This, coupled with potential shifts in Fed policy, points to a bullish long-term outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nb566d042a598",
+      "title": "The state of Wisconsin purchased $163 million in bitcoin ETFs in the first quarter",
+      "url": "https://finance.yahoo.com/news/state-wisconsin-purchased-163-million-194707558.html",
+      "summary": "The State of Wisconsin Investment Board purchased approximately $163 million worth of Bitcoin ETFs from BlackRock and Grayscale in the first quarter. This investment was made through the state's pension fund, which manages over $150 billion. This move by a significant state pension fund demonstrates growing institutional adoption of Bitcoin through regulated investment vehicles.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "state_pension_fund_investment",
+        "Bitcoin_ETF_holdings",
+        "institutional_adoption",
+        "BlackRock_ETF",
+        "Grayscale_ETF"
+      ],
+      "rationale": "A major state pension fund investing in Bitcoin ETFs signifies increasing institutional acceptance and capital inflow. This trend is likely to continue, providing a solid foundation for long-term price appreciation."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n7f8dfe1feed5",
+      "title": "U.S. Added 272K Jobs in May, Blowing Past Estimates; Bitcoin Pulls Back From 2-Month High",
+      "url": "https://finance.yahoo.com/news/u-added-272k-jobs-may-123710897.html",
+      "summary": "The U.S. added 272,000 jobs in May, significantly exceeding estimates and April's figures, while the unemployment rate rose to 4.0%. This strong job growth is likely to dampen expectations for imminent Federal Reserve rate cuts, causing Bitcoin, stocks, and bonds to turn lower. Bloomberg's chief economist suggested underlying economic weakness despite the headline number.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "US_jobs_report",
+        "unemployment_rate",
+        "Fed_rate_cut_expectations",
+        "market_reaction"
+      ],
+      "rationale": "Stronger-than-expected job growth implies a less urgent need for the Fed to cut rates, which is typically bearish for Bitcoin. This could lead to reduced liquidity and a cooling of risk appetite in the short to medium term."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n130f9e72bd59",
+      "title": "Stick With Bitcoin, 10x Research Says After Fed Predicts Just One Rate Cut For 2024",
+      "url": "https://finance.yahoo.com/news/stick-bitcoin-avoid-ether-10x-073307732.html",
+      "summary": "10x Research continues to advocate for Bitcoin despite recent pressure following the Fed's projection of only one rate cut in 2024. The firm notes that Bitcoin tends to rally after softer CPI releases and believes the Fed will eventually signal more cuts. ETF inflows resumed as U.S. inflation data came in lower than expected, supporting a bullish stance on Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "ETF",
+        "regulation"
+      ],
+      "features_for_model": [
+        "10x_Research_view",
+        "Fed_rate_cut_projections",
+        "CPI_data",
+        "ETF_inflows"
+      ],
+      "rationale": "Despite a hawkish Fed outlook, positive analyst sentiment and renewed ETF inflows suggest underlying strength. The expectation of future rate cuts and favorable inflation data support a bullish long-term view for Bitcoin."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nb26d9acb847d",
+      "title": "DeFi Technologies Provides Monthly Corporate Update: Announces Bitcoin Treasury Strategy",
+      "url": "https://finance.yahoo.com/news/defi-technologies-provides-monthly-corporate-113000087.html",
+      "summary": "DeFi Technologies has adopted Bitcoin as its primary treasury reserve asset, purchasing 110 Bitcoins to initiate this strategy. The company believes Bitcoin offers protection against monetary debasement and has the potential to expand its treasury. This move, alongside a 64.9% annual growth in Assets Under Management (AUM) for its subsidiary Valour, signals strong confidence in digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_treasury_strategy",
+        "corporate_asset_allocation",
+        "DeFi_Technologies",
+        "Valour_AUM_growth"
+      ],
+      "rationale": "A company adopting Bitcoin as a treasury reserve asset is a strong signal of institutional acceptance and belief in its long-term value proposition. This trend, coupled with growth in related financial products, is bullish."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n8ff2dc92b28a",
+      "title": "Bitcoin and Crypto Closing Out Lame Quarter and One Analyst Believes More Pain Could Be in Store",
+      "url": "https://finance.yahoo.com/news/bitcoin-crypto-closing-lame-quarter-154624985.html",
+      "summary": "Bitcoin is struggling to stay above $60,000 as the second quarter closes, marking a significant decline from its early-year highs. Despite a May bounce, relentless selling pressure in April and June has led to a more than 14% drop in BTC during Q2. Ether also saw a decline, though it outperformed Bitcoin. This indicates a challenging period for the crypto market, with potential for further downside.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Q2_crypto_performance",
+        "Bitcoin_price_action",
+        "selling_pressure",
+        "market_sentiment"
+      ],
+      "rationale": "The significant price decline in Q2 and ongoing selling pressure suggest a bearish short-to-medium term outlook. Without a clear catalyst for reversal, further price weakness is possible."
+    },
+    {
+      "pick_idx": 40,
+      "id": "nb2cb9c2ce6be",
+      "title": "As Bitcoin ETFs Go Global, What It Mean for the Future Price of Bitcoin?",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-global-mean-future-154100378.html",
+      "summary": "The initial thesis for Bitcoin's price surge was driven by the launch of U.S. spot Bitcoin ETFs, which attracted significant new capital. However, investor inflows have slowed, and the recent debut of ETFs in Hong Kong has been underwhelming. Bitcoin is down 20% from its March peak, suggesting that the global expansion of ETFs may not be as immediately impactful as initially anticipated.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "global_Bitcoin_ETF_expansion",
+        "ETF_inflows_slowdown",
+        "Hong_Kong_ETF_performance",
+        "Bitcoin_price_correction"
+      ],
+      "rationale": "While global ETF expansion is a long-term positive, the current slowdown in inflows and mixed performance in new markets creates uncertainty. The immediate impact on Bitcoin's price is unclear, requiring further observation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n36ca99f9c5ee",
+      "title": "Stock market today: Indexes cap stellar first half of 2024 with losses even after encouraging inflation report",
+      "url": "https://finance.yahoo.com/news/stock-market-today-indexes-cap-040333850.html",
+      "summary": "U.S. indexes closed lower on Friday, despite positive PCE inflation data that showed a 2.6% year-over-year increase for both core and headline readings, the lowest in three years. This occurred as the market celebrated a strong first half of 2024, with the S&P 500 up nearly 15%. The mixed reaction suggests that while inflation is cooling, broader market sentiment might be cautious or focused on profit-taking.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "PCE_inflation_data",
+        "stock_market_close",
+        "first_half_performance",
+        "profit_taking"
+      ],
+      "rationale": "The market's muted reaction to positive inflation data suggests a potential short-term consolidation or profit-taking phase, which could lead to sideways or slightly negative price action for Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n6d3d2e1139e0",
+      "title": "Prediction: Bitcoin Will Soar in 2025",
+      "url": "https://finance.yahoo.com/news/prediction-bitcoin-soar-2025-090000854.html",
+      "summary": "Bitcoin is predicted to hit a new all-time high in 2025, following historical price patterns. Despite recent dips and lack of momentum, the cryptocurrency is on track for significant gains. The article suggests that 2025 is shaping up to be a strong year for Bitcoin, based on past performance cycles.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_prediction",
+        "historical_patterns",
+        "2025_outlook",
+        "bullish_forecast"
+      ],
+      "rationale": "While this is a longer-term prediction, the underlying sentiment of an upcoming bull run can influence short-term sentiment and potentially lead to buying pressure if early indicators emerge."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n3b2a35791ca0",
+      "title": "Better Meme Coin: Shiba Inu vs. Dogecoin",
+      "url": "https://finance.yahoo.com/news/better-meme-coin-shiba-inu-151700469.html",
+      "summary": "Dogecoin and Shiba Inu, initially created as parodies, have generated massive gains. A $100 investment in Dogecoin at its inception would be worth approximately $995,000 today, while a similar investment in Shiba Inu would also yield substantial returns. This highlights the speculative nature and potential for high volatility in meme coins.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "meme_coin_performance",
+        "Dogecoin_vs_ShibaInu",
+        "speculative_assets",
+        "volatility"
+      ],
+      "rationale": "While not directly about Bitcoin, the discussion of meme coin performance and volatility can influence overall market sentiment and liquidity, potentially impacting Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n6d3d2e1139e0",
+      "title": "Prediction: Bitcoin Will Soar in 2025",
+      "url": "https://finance.yahoo.com/news/prediction-bitcoin-soar-2025-090000854.html",
+      "summary": "Bitcoin is predicted to hit a new all-time high in 2025, following historical price patterns. Despite recent dips and lack of momentum, the cryptocurrency is on track for significant gains. The article suggests that 2025 is shaping up to be a strong year for Bitcoin, based on past performance cycles.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_prediction",
+        "historical_patterns",
+        "2025_outlook",
+        "bullish_forecast"
+      ],
+      "rationale": "The positive long-term outlook for 2025 could create a bullish sentiment in the short term, encouraging accumulation if early signs of the predicted trend emerge."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3196f3ab1a2f",
+      "title": "1 Top Cryptocurrency to Buy Before It Soars 635% to 5,480%, According to Certain Wall Street Analysts",
+      "url": "https://finance.yahoo.com/news/1-top-cryptocurrency-buy-soars-081500379.html",
+      "summary": "Wall Street analysts see substantial upside for Bitcoin, despite headwinds from potential Fed rate cuts. The approval of spot Bitcoin ETFs is cited as a key positive development. This suggests continued institutional interest and potential for price appreciation, even amidst macroeconomic uncertainties.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "macro"
+      ],
+      "features_for_model": [
+        "analyst_sentiment",
+        "spot_Bitcoin_ETF",
+        "institutional_interest",
+        "macroeconomic_factors"
+      ],
+      "rationale": "Positive analyst sentiment and ongoing institutional interest, particularly around ETFs, can create short-term buying pressure and support for Bitcoin's price."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n5e6133f1ba4f",
+      "title": "Stocks Show Modest Gains Ahead Of Fed's Inflation Report; Chipmakers Struggle, While Gold And Bitcoin Rebound: What's Driving Markets Thursday?",
+      "url": "https://finance.yahoo.com/news/stocks-show-modest-gains-ahead-173347242.html",
+      "summary": "Wall Street experienced a subdued trading day as traders awaited the Federal Reserve's preferred inflation gauge. U.S. banks passed stress tests, showing resilience. Bitcoin and gold showed signs of rebound, suggesting a potential shift in investor sentiment or a flight to perceived safe havens amidst economic uncertainty.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_inflation_report_anticipation",
+        "Bitcoin_rebound",
+        "gold_performance",
+        "market_sentiment"
+      ],
+      "rationale": "A rebound in Bitcoin alongside gold, ahead of key inflation data, suggests a potential short-term positive sentiment or a hedge against economic uncertainty, which could support prices."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n7f8dfe1feed5",
+      "title": "U.S. Added 272K Jobs in May, Blowing Past Estimates; Bitcoin Pulls Back From 2-Month High",
+      "url": "https://finance.yahoo.com/news/u-added-272k-jobs-may-123710897.html",
+      "summary": "The U.S. added 272,000 jobs in May, significantly exceeding expectations and causing Bitcoin to pull back from a two-month high. This strong job growth is likely to reduce the likelihood of imminent Fed rate cuts, negatively impacting risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "US_jobs_report",
+        "unemployment_rate",
+        "Fed_rate_cut_expectations",
+        "Bitcoin_price_pullback"
+      ],
+      "rationale": "Strong jobs data reduces immediate rate cut expectations, which is a bearish signal for Bitcoin in the short term, potentially leading to further price declines."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n130f9e72bd59",
+      "title": "Stick With Bitcoin, 10x Research Says After Fed Predicts Just One Rate Cut For 2024",
+      "url": "https://finance.yahoo.com/news/stick-bitcoin-avoid-ether-10x-073307732.html",
+      "summary": "10x Research maintains a bullish stance on Bitcoin, even after the Fed signaled only one rate cut for 2024. The firm notes Bitcoin's tendency to rally after softer CPI data and anticipates future rate cuts. Resumed ETF inflows following lower-than-expected U.S. inflation data support this positive outlook.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "macro",
+        "ETF",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "10x_Research_view",
+        "Fed_rate_cut_projections",
+        "CPI_data",
+        "ETF_inflows"
+      ],
+      "rationale": "Positive analyst commentary and renewed ETF inflows, despite a less dovish Fed, suggest underlying strength and potential for short-term price appreciation."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nfdb4b4f87186",
+      "title": "Here's Why Bitcoin's Not Keeping Pace With Nasdaq",
+      "url": "https://finance.yahoo.com/news/heres-why-bitcoins-not-keeping-095349853.html",
+      "summary": "Bitcoin has declined over 6% in a week, diverging from its typical correlation with the Nasdaq. While the Fed's reduced rate cut forecast is a factor, crypto-specific issues like profit-taking by holders and increased selling by miners are also contributing to BTC's underperformance. Technology stocks, meanwhile, extended gains.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_vs_Nasdaq_correlation",
+        "crypto_specific_factors",
+        "miner_selling",
+        "profit_taking"
+      ],
+      "rationale": "Crypto-specific selling pressure from miners and profit-taking, combined with a less dovish Fed, creates a bearish short-term outlook for Bitcoin, causing it to underperform traditional markets."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n8668c2516556",
+      "title": "First Mover Americas: Germany Moves 750 BTC, Altcoins Bleed Liquidity",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-germany-moves-120018628.html",
+      "summary": "Bitcoin retreated to $61,400 after a brief surge, amid significant on-chain activity from the German government transferring 750 BTC. The transfer of 250 BTC to exchanges like Bitstamp and Kraken suggests a potential sale, which could increase selling pressure. Altcoins are also experiencing liquidity drains.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "German_government_BTC_transfer",
+        "BTC_to_exchange_flow",
+        "potential_BTC_sell-off",
+        "altcoin_liquidity"
+      ],
+      "rationale": "The German government's transfer of a significant amount of Bitcoin to exchanges indicates a potential sell-off, which could create short-term downward price pressure on Bitcoin."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-06-29",
+    "summary": "The market is reacting to mixed signals, with encouraging inflation data (PCE at 2.6%) providing some support, yet U.S. job growth exceeding expectations is tempering rate-cut hopes. Bitcoin saw a pullback after a brief surge, partly due to German government BTC transfers to exchanges, suggesting potential selling pressure. Analyst sentiment remains mixed, with some predicting a strong 2025 while others highlight ongoing selling pressure from miners and profit-taking. Institutional adoption via ETFs continues to be a long-term positive, but short-term headwinds from macro data and on-chain activity are creating uncertainty.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkishness from the Federal Reserve due to strong jobs data.",
+      "Potential selling pressure from German government BTC transfers.",
+      "Ongoing profit-taking and miner selling impacting liquidity.",
+      "Geopolitical events or unexpected macro data shifts."
+    ],
+    "watch_items": [
+      "Further U.S. economic data releases (inflation, employment).",
+      "Federal Reserve commentary and meeting minutes.",
+      "On-chain data for large BTC movements and exchange flows.",
+      "Performance of Bitcoin ETFs and institutional inflows/outflows."
+    ]
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "date": "2023-03-30",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "nd00761b0f335",
+      "title": "Silicon Valley Bank Rocks Crypto and Equity Markets Ahead of Jobs Report",
+      "url": "https://finance.yahoo.com/news/silicon-valley-bank-rocks-crypto-112420287.html",
+      "summary": "The collapse of Silicon Valley Bank (SVB), a key lender to tech startups, sent shockwaves through financial markets, including crypto. SVB's sale of a $21 billion bond portfolio at a loss to shore up liquidity was attributed to the Federal Reserve's aggressive rate hikes and the resulting slide in bond prices. This event heightened risk aversion, impacting investor sentiment and potentially influencing broader market liquidity and risk appetite for digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "SVB_collapse",
+        "banking_crisis",
+        "risk_aversion",
+        "Fed_rate_hikes"
+      ],
+      "rationale": "The failure of a major tech-focused bank like SVB signals systemic risks within the traditional financial system. This can lead to a flight to perceived safer assets, potentially reducing capital available for riskier investments like cryptocurrencies. The event also increases scrutiny on financial regulations and the stability of institutions that interact with the crypto market."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nd7e49fa5014e",
+      "title": "Bitcoin jumps to highest since June as rally gathers pace",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-highest-level-since-132243900.html",
+      "summary": "Bitcoin reached a nine-month high, gaining over 30% in four days, driven by expectations of slower U.S. interest rate hikes and the stabilization of markets following the Silicon Valley Bank collapse. Authorities' actions to limit the fallout from SVB's failure provided a boost to major cryptocurrencies, indicating a potential shift in market sentiment towards risk assets.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "SVB_fallout_mitigation",
+        "rate_hike_expectations",
+        "market_sentiment_shift"
+      ],
+      "rationale": "The rally suggests that Bitcoin is increasingly being viewed as a potential safe haven or a growth asset that benefits from a less hawkish monetary policy. The market's positive reaction to the stabilization efforts following the SVB collapse indicates a growing resilience and potential for sustained upward momentum if macroeconomic conditions remain favorable."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n48636b56bc09",
+      "title": "Deflationary Ether Is Underperforming Bitcoin, Here Are 3 Reasons Why",
+      "url": "https://finance.yahoo.com/news/deflationary-ether-underperforming-bitcoin-3-111043744.html",
+      "summary": "Ether became deflationary with its net supply decreasing, a positive development for its tokenomics. However, despite this, Ether's performance lagged behind Bitcoin in January. The article explores potential reasons for this underperformance, suggesting that factors beyond supply dynamics, such as market sentiment, regulatory clarity, and broader macroeconomic trends, are influencing the relative performance of these two leading cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ETH_deflationary",
+        "ETH_underperformance_vs_BTC",
+        "tokenomics",
+        "market_sentiment"
+      ],
+      "rationale": "While Ether's deflationary nature is a long-term bullish signal, its current underperformance relative to Bitcoin highlights the complexity of market drivers. Macroeconomic factors and regulatory uncertainty can outweigh fundamental tokenomic improvements in the short to medium term, creating divergence in their price action."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n6f8a0f1e38cc",
+      "title": "Crypto prices rebound despite Silicon Valley Bank collapse",
+      "url": "https://finance.yahoo.com/news/crypto-prices-silicon-valley-bank-collapse-095242257.html",
+      "summary": "Despite the turmoil caused by Silicon Valley Bank's (SVB) collapse and the de-pegging of USDC, the cryptocurrency market experienced a rebound. Bitcoin and Ether surged, retracing weekend losses. This resilience suggests that the crypto market may be developing a degree of independence from traditional financial system shocks, or that the immediate impact of the SVB crisis was perceived as contained by market participants.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_rebound",
+        "SVB_impact",
+        "USDC_depeg",
+        "market_resilience"
+      ],
+      "rationale": "The ability of crypto prices to rebound quickly after a significant traditional finance event like the SVB collapse indicates a potential shift in market dynamics. It suggests that positive sentiment, possibly driven by the narrative of crypto as an alternative financial system, can override immediate contagion fears."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n040442f4f99d",
+      "title": "Bitcoin soars past $28,000 as some investors get spooked by banking sector struggles",
+      "url": "https://finance.yahoo.com/news/bitcoin-soars-past-28-000-141738123.html",
+      "summary": "Bitcoin's price surged past $28,000, reaching a nine-month high, as investors sought refuge from the instability in the banking sector following the collapse of Silicon Valley Bank. This price action positions Bitcoin as a potential safe-haven asset, outperforming traditional assets during a period of financial uncertainty.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_above_28k",
+        "banking_sector_struggles",
+        "safe_haven_narrative",
+        "market_outperformance"
+      ],
+      "rationale": "The narrative of Bitcoin as a 'digital gold' or a safe haven is gaining traction as traditional banking systems face challenges. This influx of capital into Bitcoin, driven by fear and uncertainty in conventional markets, could lead to sustained price appreciation and broader adoption."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n21e830446fff",
+      "title": "Bitcoin price continues to climb as crypto exec bets $2m on dramatic prediction",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-continues-climb-crypto-124529777.html",
+      "summary": "Bitcoin's price has seen a significant recovery in 2023, climbing by over a third in the past 10 days and reaching its highest price of the year. This rally, coupled with a crypto executive's substantial bet, fuels optimism for a potential record-breaking crypto rally, suggesting a strong positive sentiment driven by both market performance and high-profile endorsements.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_climb",
+        "crypto_exec_bet",
+        "rally_optimism",
+        "positive_sentiment"
+      ],
+      "rationale": "The combination of strong price momentum and a significant bet from a prominent figure in the crypto space can create a self-fulfilling prophecy, attracting more investors and further driving up prices. This indicates a strong bullish sentiment and potential for continued growth."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n0c784e92f1f4",
+      "title": "First Mover Americas: Bitcoin Hits 9-Month High",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-hits-131039648.html",
+      "summary": "Bitcoin reached a nine-month high, breaking the $25,000 mark and continuing its rally. This surge followed the release of U.S. inflation data and a significant amount of bitcoin shorts being liquidated. The positive price action suggests that market participants are becoming more optimistic, potentially driven by easing inflation concerns and technical factors.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_9_month_high",
+        "inflation_data_impact",
+        "short_liquidation",
+        "market_optimism"
+      ],
+      "rationale": "Breaking key resistance levels like $25,000 and reaching multi-month highs, especially with positive macroeconomic data, signals strong buying pressure. The liquidation of shorts further amplifies upward momentum, indicating a potentially sustained bullish trend."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n896f31d941aa",
+      "title": "Bitcoin surged above $28,000. Is it a safe haven from banking?",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-above-28000-is-it-a-safe-haven-from-banking-152435806.html",
+      "summary": "Bitcoin climbed to its highest level in nine months, surpassing $28,000, as investors considered it a safe haven amid the global banking system's turmoil. The cryptocurrency has seen substantial gains year-to-date, outperforming other assets and reinforcing its potential role as a hedge against traditional financial instability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_above_28k",
+        "safe_haven_asset",
+        "banking_turmoil",
+        "YTD_performance"
+      ],
+      "rationale": "The sustained upward price action and the narrative of Bitcoin as a safe haven during a banking crisis are strong bullish indicators. This suggests that institutional and retail investors are increasingly allocating capital to Bitcoin as a hedge against systemic risks in traditional finance."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nd41fd997b0b4",
+      "title": "Bitcoin Network Activity Spikes to Two-Year High Thanks to NFTs, CryptoQuant Says",
+      "url": "https://finance.yahoo.com/news/cryptoquant-bitcoin-network-activity-spikes-105126638.html",
+      "summary": "Bitcoin blockchain activity has reached a two-year high, primarily driven by the Ordinals protocol, which enables NFTs on the Bitcoin network. This surge in activity indicates growing innovation and utility on the Bitcoin blockchain, potentially attracting new users and developers, and increasing demand for block space.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "BTC_network_activity_high",
+        "Ordinals_protocol",
+        "NFTs_on_Bitcoin",
+        "blockchain_innovation"
+      ],
+      "rationale": "The increasing utility and adoption of new protocols like Ordinals on the Bitcoin network demonstrate its evolving capabilities beyond just a store of value. This increased network activity can lead to higher transaction fees, potentially benefiting miners and further securing the network, while also attracting new user segments."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n9339d0bdb193",
+      "title": "Bitcoin and Stablecoins Will Bring Crypto Mass Adoption to Africa, Experts Say",
+      "url": "https://finance.yahoo.com/news/bitcoin-stablecoins-bring-crypto-mass-085036608.html",
+      "summary": "Experts believe that Bitcoin and stablecoins are poised to drive mass crypto adoption in Africa over the next decade. Factors such as increasing financial inclusion needs and the growing digital economy on the continent are expected to fuel this trend, positioning Africa as a key growth market for cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Africa_crypto_adoption",
+        "Bitcoin_stablecoins",
+        "mass_adoption",
+        "financial_inclusion"
+      ],
+      "rationale": "The potential for mass adoption in a large and growing continent like Africa represents a significant long-term catalyst for Bitcoin and stablecoins. Increased adoption translates to higher demand, network effects, and greater integration of crypto into the global financial landscape."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n30d0f140c839",
+      "title": "Stocks extend rally as Wall Street looks to end of quarter: Stock market news today",
+      "url": "https://finance.yahoo.com/news/stock-market-news-today-live-updates-march-30-2023-120844229.html",
+      "summary": "U.S. stocks moved higher, extending gains as Wall Street aimed for a strong finish to the first quarter. This positive sentiment in traditional markets can often spill over into the crypto market, especially if investors are rotating capital into risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "quarter_end_rally",
+        "positive_market_sentiment",
+        "risk_on_appetite"
+      ],
+      "rationale": "A strong finish to the quarter in traditional markets often indicates increased liquidity and investor confidence, which can positively influence risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n2799accbc0a0",
+      "title": "Crypto Custody Firm BitGo Releases Security Features Aimed at Bitcoin Ordinals",
+      "url": "https://finance.yahoo.com/news/crypto-custody-firm-bitgo-releases-160000579.html",
+      "summary": "BitGo, a crypto custodian, has released new security features for Bitcoin Ordinals inscriptions. This development addresses the nascent security risks associated with Ordinals, potentially making them more attractive and safer for institutional and retail investors to hold and transact.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BitGo_Ordinals_security",
+        "inscription_safety",
+        "institutional_readiness"
+      ],
+      "rationale": "Improved security for emerging Bitcoin-based assets like Ordinals can foster greater adoption and reduce perceived risks, potentially leading to increased demand for Bitcoin block space."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0b5905d6dcb5",
+      "title": "Bitcoin Miner TeraWulf Reports 146% Increase in Revenue as It Ramps Up Operations",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-terawulf-reports-146-212411226.html",
+      "summary": "Bitcoin mining firm TeraWulf reported a significant 146% increase in revenue in Q4 2022 due to ramping up operations. The company's shares surged after the report. This positive operational update for a major miner can be seen as a bullish signal for the mining sector and potentially for Bitcoin's price.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "TeraWulf_revenue_increase",
+        "miner_performance",
+        "operational_ramp_up"
+      ],
+      "rationale": "Strong financial results from a significant Bitcoin miner suggest improved efficiency and profitability within the mining industry, which can indirectly support Bitcoin's price by indicating healthy network infrastructure."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n44d6b20d0ecf",
+      "title": "Bitcoin Is Still in Its ‘Safe Haven Period’: Analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-still-safe-haven-period-190920338.html",
+      "summary": "An analyst suggests Bitcoin is outperforming traditional safe-haven assets due to regulatory headwinds and banking sector uncertainty. This period is characterized by Bitcoin diverging from other digital assets and traditional assets like gold, indicating a potential shift in its perceived value proposition.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_safe_haven",
+        "banking_uncertainty",
+        "regulatory_headwinds",
+        "asset_divergence"
+      ],
+      "rationale": "The analyst's view that Bitcoin is acting as a safe haven during financial instability is a strong short-term bullish signal, suggesting continued demand from investors seeking alternatives to traditional assets."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n48129ce64e18",
+      "title": "XRP Trading Volumes Surges to Billions of Dollars on South Korean Crypto Exchanges",
+      "url": "https://finance.yahoo.com/news/xrp-trading-volumes-surges-billions-085225366.html",
+      "summary": "XRP trading volumes have surged on South Korean exchanges, reaching billions of dollars, driven by a significant price increase for the token. This heightened activity indicates strong retail interest and liquidity in XRP, particularly in a key Asian market.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "XRP_volume_surge",
+        "South_Korea_market",
+        "retail_interest",
+        "token_price_appreciation"
+      ],
+      "rationale": "While increased trading volume for XRP can boost liquidity, its impact on Bitcoin is indirect. The surge might indicate a broader market interest in altcoins, but it doesn't directly translate to immediate bullishness for BTC unless it signals a general risk-on sentiment."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n0c2f8a46c2e7",
+      "title": "Bitcoin Rewards Company Fold Expands its Partnership with Visa",
+      "url": "https://finance.yahoo.com/news/bitcoin-rewards-company-fold-expands-160000325.html",
+      "summary": "Fold, a Bitcoin rewards company, is expanding its partnership with Visa to serve the global Bitcoin community. This expansion builds on their previous collaboration and aims to increase the reach of Bitcoin rewards products, integrating crypto into mainstream payment systems.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fold_Visa_partnership",
+        "BTC_rewards_expansion",
+        "payment_integration",
+        "global_reach"
+      ],
+      "rationale": "The expansion of crypto-reward programs with major payment networks like Visa signifies growing mainstream adoption and integration of Bitcoin into everyday commerce, which is a positive long-term development that can also influence short-term sentiment."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n82a018202b3b",
+      "title": "Magic Eden’s New Bitcoin NFT Marketplace Dominates Ordinals Market",
+      "url": "https://finance.yahoo.com/news/magic-eden-bitcoin-nft-marketplace-203646923.html",
+      "summary": "Magic Eden, a Solana-based NFT marketplace, has quickly become a leader in the Bitcoin Ordinals market. This rapid rise highlights the growing interest and activity in NFTs on the Bitcoin blockchain, indicating increased utility and demand for Bitcoin block space.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Magic_Eden_Ordinals",
+        "BTC_NFT_market",
+        "inscription_trading",
+        "blockchain_utility"
+      ],
+      "rationale": "The success of Magic Eden in the Bitcoin NFT space demonstrates the growing utility and demand for Bitcoin block space beyond simple transactions, which can positively impact Bitcoin's perceived value and network activity."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nf11848716310",
+      "title": "Bitcoin Volatility Likely as Options Worth $4B Expire on Friday",
+      "url": "https://finance.yahoo.com/news/bitcoin-volatility-likely-options-worth-113051289.html",
+      "summary": "Bitcoin is expected to experience significant price volatility as options contracts worth approximately $4 billion are set to expire on Friday. This large volume of expiring options, particularly on Deribit, can lead to price swings as market participants adjust their positions.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_options_expiry",
+        "4B_options_value",
+        "Deribit_expiry",
+        "price_volatility"
+      ],
+      "rationale": "Large options expiries are known catalysts for increased short-term volatility as market makers and traders adjust their positions to hedge or capitalize on the expiry event."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n67b6943d5e9b",
+      "title": "Bitcoin rises; Ether, other top 10 cryptos fall amid fresh Binance allegations",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-ether-other-top-104226973.html",
+      "summary": "Bitcoin rose while Ether and other top cryptocurrencies fell amid reports of Binance concealing its ties to China. This divergence suggests that negative news specific to major exchanges can impact certain assets more than others, while Bitcoin may be benefiting from its safe-haven narrative.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "Binance_allegations",
+        "BTC_outperformance",
+        "ETH_underperformance",
+        "exchange_risk"
+      ],
+      "rationale": "The allegations against Binance create regulatory uncertainty and could lead to reduced liquidity or increased selling pressure on assets heavily traded on the exchange. Bitcoin's relative strength might be due to its perceived independence from such exchange-specific risks."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n0a87ab6341a4",
+      "title": "Bitcoin climbs above US$28,000, XRP leads winners for the week, U.S. equities jump",
+      "url": "https://finance.yahoo.com/news/bitcoin-climbs-above-us-28-044110284.html",
+      "summary": "Bitcoin has climbed back above $28,000, with most top cryptocurrencies also seeing gains, seemingly shrugging off regulatory concerns. This broad market rally, coupled with strong performance in U.S. equities, suggests a positive risk-on sentiment is prevailing.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_above_28k",
+        "risk_on_sentiment",
+        "equity_rally",
+        "regulatory_shrug_off"
+      ],
+      "rationale": "The combination of Bitcoin breaking key resistance levels and a general positive sentiment in both crypto and equity markets indicates a short-term bullish trend. Investors appear to be prioritizing growth over regulatory concerns for now."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-03-30",
+    "summary": "Bitcoin continues its upward trajectory, surpassing $28,000 and showing resilience against banking sector turmoil and regulatory concerns. The market sentiment appears to be shifting towards risk-on, with traditional markets also extending their rallies into the end of the quarter. Developments in Bitcoin's utility, such as Ordinals and expanded payment integrations, are contributing to positive long-term outlooks, while short-term volatility is expected due to significant options expiries.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Renewed banking sector instability could trigger a flight to safety away from risk assets.",
+      "Increased regulatory scrutiny or enforcement actions against major exchanges could dampen sentiment.",
+      "The large volume of expiring Bitcoin options could lead to significant short-term price volatility.",
+      "Macroeconomic data releases (e.g., inflation, employment) could shift Fed policy expectations, impacting risk appetite."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $28,000-$29,000 resistance levels.",
+      "Developments in the SEC's enforcement actions against crypto firms.",
+      "Performance of traditional markets (S&P 500, Nasdaq) into quarter-end.",
+      "Any further news regarding the stability of the banking sector.",
+      "On-chain data for Bitcoin network activity and miner behavior."
+    ]
+  }
+}

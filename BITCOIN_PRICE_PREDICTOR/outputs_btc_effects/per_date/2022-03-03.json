@@ -1,0 +1,537 @@
+{
+  "date": "2022-03-03",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "nb94b8346b5e1",
+      "title": "U.S Tech Rout Sinks Bitcoin (BTC) and the Broader Crypto Market",
+      "url": "https://finance.yahoo.com/news/u-tech-rout-sinks-bitcoin-001413804.html",
+      "summary": "The NASDAQ's decline, influenced by hawkish comments from FOMC members regarding potential interest rate hikes, is weighing on riskier assets like Bitcoin. This indicates a broader market sentiment shift away from growth stocks, which can negatively impact cryptocurrencies. The market is reacting to the prospect of tighter monetary policy, suggesting a challenging environment for BTC in the near to medium term.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "NASDAQ_performance",
+        "FOMC_hawkishness",
+        "interest_rate_hike_expectations",
+        "risk_off_sentiment"
+      ],
+      "rationale": "The correlation between the tech sector's performance and Bitcoin's price is evident. Hawkish Fed commentary signals a tightening monetary environment, which typically leads to reduced liquidity and a lower appetite for risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n597aaa35d380",
+      "title": "India announces 30% tax on all digital currencies, including cryptocurrencies and NFTs",
+      "url": "https://finance.yahoo.com/news/india-announces-30-tax-digital-111545306.html",
+      "summary": "India has implemented a 30% tax on income from virtual digital assets, including cryptocurrencies and NFTs. This move brings these assets under a tax net, aiming to generate revenue and potentially increase regulatory oversight. While it signifies a growing acceptance of digital assets by governments, the high tax rate could deter some investors and traders within India, potentially impacting trading volumes and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_crypto_tax",
+        "virtual_asset_taxation",
+        "regulatory_clarity_impact"
+      ],
+      "rationale": "A significant tax on crypto transactions can reduce profitability for traders and investors, potentially leading to decreased activity and capital flight from the Indian market. This could also set a precedent for other countries considering similar measures."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n13a406059d90",
+      "title": "Bitcoin, ether near multi-month lows following hawkish Fed minutes",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-near-multi-month-045112999.html",
+      "summary": "Bitcoin and Ether have fallen to multi-month lows due to hawkish minutes from the Federal Reserve's last meeting, indicating a potential for more aggressive policy action. This has reduced investor appetite for riskier assets. The price action suggests that the market is pricing in tighter monetary conditions, which could continue to pressure crypto prices if the Fed follows through with its plans.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_minutes_hawkishness",
+        "risk_off_sentiment",
+        "multi_month_lows",
+        "monetary_policy_tightening"
+      ],
+      "rationale": "Hawkish Fed minutes directly signal a tightening monetary environment, which typically leads to a decrease in liquidity and a reduced willingness to invest in high-risk, high-reward assets like cryptocurrencies."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n37061629737d",
+      "title": "E-Commerce Giant Mercado Libre Invests in Crypto Firms Paxos, 2TM",
+      "url": "https://finance.yahoo.com/news/e-commerce-giant-mercado-libre-060453723.html",
+      "summary": "Mercado Libre, a major e-commerce player in Latin America, has made strategic investments in crypto firms Paxos and 2TM (holding company for Mercado Bitcoin). This move signals growing institutional interest and adoption of crypto and blockchain technology within the e-commerce sector, particularly in emerging markets. It suggests a long-term trend of integration between traditional finance and digital assets.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Mercado_Libre_investment",
+        "Paxos_investment",
+        "2TM_investment",
+        "e-commerce_crypto_adoption",
+        "Latin_America_crypto_growth"
+      ],
+      "rationale": "Significant investments from large e-commerce companies validate the utility and potential of cryptocurrencies and blockchain technology, driving adoption and potentially increasing liquidity and market cap over the long term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ne925477e01d4",
+      "title": "Bitcoin evangelists throw Canadian trucker protest donation lifeline after GoFundMe removal",
+      "url": "https://finance.yahoo.com/news/bitcoin-evangelists-throw-canadian-trucker-165612702.html",
+      "summary": "A group of Bitcoin evangelists has provided a donation channel for the Canadian trucker protest after GoFundMe removed its campaign. This highlights the use of Bitcoin as an alternative payment system for movements facing traditional financial censorship. It demonstrates the growing utility of Bitcoin in facilitating peer-to-peer transactions outside of conventional banking systems, potentially increasing its adoption for such purposes.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_donation_channel",
+        "Canadian_trucker_protest",
+        "financial_censorship_alternative",
+        "peer_to_peer_transactions"
+      ],
+      "rationale": "The use of Bitcoin to bypass traditional financial restrictions for protest movements showcases its resilience and utility as a censorship-resistant payment network, potentially boosting its adoption for similar causes."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nef9e4a6a839d",
+      "title": "Saylor Advocates Bitcoin Mining, says BTC Energy Use is ‘Inconsequential’",
+      "url": "https://finance.yahoo.com/news/saylor-advocates-bitcoin-mining-says-143623714.html",
+      "summary": "Michael Saylor, CEO of MicroStrategy, defends Bitcoin mining, stating its energy consumption is 'inconsequential' and highlighting the increasing use of renewable energy in the mining sector. The Bitcoin Mining Council reported a rise in renewable power usage. This narrative aims to counter environmental concerns surrounding Bitcoin mining, potentially improving its public perception and regulatory outlook.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Michael_Saylor_advocacy",
+        "Bitcoin_mining_energy_use",
+        "renewable_energy_mining",
+        "Bitcoin_Mining_Council"
+      ],
+      "rationale": "Addressing environmental concerns is crucial for Bitcoin's long-term adoption and regulatory acceptance. Positive narratives and data regarding renewable energy usage in mining can mitigate negative sentiment and potential regulatory hurdles."
+    },
+    {
+      "pick_idx": 26,
+      "id": "ndefa573cac22",
+      "title": "Block stock hits new 52-week low, getting clobbered since rebrand",
+      "url": "https://finance.yahoo.com/news/block-stock-new-52-week-low-square-rebrand-212731066.html",
+      "summary": "Block (formerly Square) stock has hit a 52-week low, attributed to a rotation out of growth stocks amid Fed rate hike concerns. The company's CEO, Jack Dorsey, announced plans to build an open Bitcoin mining system. This indicates a continued commitment to Bitcoin infrastructure development despite broader market headwinds affecting the company's stock price.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Block_stock_performance",
+        "Square_rebrand",
+        "Jack_Dorsey_Bitcoin_mining",
+        "growth_stock_rotation",
+        "Fed_rate_hike_impact"
+      ],
+      "rationale": "Despite short-term stock price weakness, Block's continued investment in Bitcoin mining infrastructure, led by a prominent figure like Jack Dorsey, signals a long-term bullish conviction in the Bitcoin ecosystem."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n8f8eca0c5f0a",
+      "title": "Wikipedia Faces Pressure to Stop Accepting Crypto Donations on Environmental Grounds",
+      "url": "https://finance.yahoo.com/news/wikipedia-faces-pressure-stop-accepting-175822770.html",
+      "summary": "Wikimedia, the foundation behind Wikipedia, is facing internal pressure to stop accepting cryptocurrency donations due to environmental concerns. A proposal argues that accepting crypto endorses 'inherently predatory' digital coins that conflict with the foundation's sustainability goals. This highlights the ongoing debate about crypto's environmental impact and its potential to affect adoption by non-profits.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Wikipedia_crypto_donations",
+        "environmental_concerns_crypto",
+        "Wikimedia_foundation_policy",
+        "crypto_sustainability_debate"
+      ],
+      "rationale": "Negative sentiment and potential policy changes from influential organizations like Wikipedia regarding crypto donations can contribute to broader public perception issues and regulatory scrutiny around environmental impacts."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n6e34642c72ec",
+      "title": "India’s Highest Court Seeks Govt. To Clarify Whether Crypto Is Legal",
+      "url": "https://finance.yahoo.com/news/india-highest-court-seeks-govt-115520404.html",
+      "summary": "India's Supreme Court has requested the government to clarify the legal status of cryptocurrencies. This comes amid rising crypto-related crimes and an uncertain legal framework in the country. The clarification sought by the court could lead to more defined regulations, impacting how cryptocurrencies are used and traded within India.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_Supreme_Court_clarification",
+        "crypto_legal_status_India",
+        "crypto_crime_regulation",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "Regulatory clarity from a major economy like India is a significant factor for global crypto adoption. The outcome could either foster growth through clear rules or stifle it with restrictive measures."
+    },
+    {
+      "pick_idx": 48,
+      "id": "nbdb4deb38a72",
+      "title": "‘Uninvestable’: Businesses rush to cut ties with Russia as ‘moral’ pressure grows",
+      "url": "https://finance.yahoo.com/news/uninvestable-businesses-rush-cut-ties-120723320.html",
+      "summary": "Businesses are increasingly cutting ties with Russia due to 'moral' pressure amid the escalating conflict in Ukraine, with Russia being labeled 'uninvestable.' This geopolitical event has broad implications for global markets and could indirectly affect cryptocurrencies if they are seen as a safe haven or a means to circumvent sanctions, though the primary impact is on traditional markets.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Russia_sanctions",
+        "geopolitical_risk",
+        "uninvestable_markets",
+        "global_economic_impact"
+      ],
+      "rationale": "While primarily impacting traditional markets, significant geopolitical events can create broader market volatility and shifts in investor sentiment, which can spill over into the crypto market. The role of crypto in circumventing sanctions is also a growing consideration."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n10907e1bf3df",
+      "title": "Ukraine Government Cancels Airdrop Ahead of Scheduled Snapshot",
+      "url": "https://finance.yahoo.com/news/ukraine-government-cancels-airdrop-ahead-120601991.html",
+      "summary": "The Ukrainian government has canceled a planned crypto airdrop, opting instead to announce NFTs to support its armed forces. This decision, made after considering increased global support, suggests a shift in strategy for fundraising. The cancellation of the airdrop might disappoint some participants but the focus on NFTs indicates continued engagement with crypto-based fundraising mechanisms.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "Ukraine_airdrop_cancellation",
+        "Ukraine_NFT_fundraising",
+        "crypto_fundraising_strategy"
+      ],
+      "rationale": "The cancellation of an airdrop can lead to minor disappointment, but the pivot to NFTs for fundraising shows continued crypto adoption. The immediate impact on BTC is likely minimal, but it signals evolving crypto use cases."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb067190b87e4",
+      "title": "FOREX-Euro pinned down as war stokes stagflation fears, soaring commodities help Aussie",
+      "url": "https://finance.yahoo.com/news/forex-euro-pinned-down-war-053542762.html",
+      "summary": "The euro is near a 21-month low due to concerns about European growth impacted by the Russia-Ukraine invasion, while commodity currencies like the Australian dollar are rising due to surging export prices. This indicates a risk-off sentiment in broader markets, with a flight to safety potentially benefiting the USD and impacting other assets, including Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Euro_weakness",
+        "stagflation_fears",
+        "commodity_price_surge",
+        "risk_off_sentiment",
+        "USD_strength"
+      ],
+      "rationale": "Broader market risk aversion, driven by geopolitical events and stagflation fears, often leads to a strengthening USD and a sell-off in risk assets like Bitcoin as investors seek safer havens."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n6c5dbe592bcb",
+      "title": "The Sandbox Goes K-Pop with Cube Entertainment Partnership",
+      "url": "https://finance.yahoo.com/news/sandbox-goes-k-pop-cube-231151259.html",
+      "summary": "The Sandbox is partnering with Cube Entertainment to expand K-Culture in the metaverse through a joint venture called AniCube. This collaboration aims to leverage NFTs and the metaverse to promote K-Pop globally, following the success of other music industry players entering the virtual space. This signifies growing adoption of the metaverse by entertainment companies.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "NFT"
+      ],
+      "features_for_model": [
+        "Sandbox_Cube_Entertainment_partnership",
+        "K-Pop_metaverse",
+        "AniCube_JV",
+        "metaverse_adoption_entertainment"
+      ],
+      "rationale": "Partnerships between metaverse platforms and major entertainment entities like K-Pop agencies indicate growing mainstream adoption and potential for increased user engagement within virtual worlds, which can indirectly benefit crypto infrastructure."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n8b6786d1bb12",
+      "title": "FOREX-Euro pinned as war stokes stagflation fears",
+      "url": "https://finance.yahoo.com/news/forex-euro-pinned-war-stokes-011956150.html",
+      "summary": "The euro is near a 21-month low due to concerns about European growth impacted by the Russia-Ukraine invasion, while commodity currencies like the Australian dollar are rising due to surging export prices. This indicates a risk-off sentiment in broader markets, with a flight to safety potentially benefiting the USD and impacting other assets, including Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Euro_weakness",
+        "stagflation_fears",
+        "commodity_price_surge",
+        "risk_off_sentiment",
+        "USD_strength"
+      ],
+      "rationale": "Broader market risk aversion, driven by geopolitical events and stagflation fears, often leads to a strengthening USD and a sell-off in risk assets like Bitcoin as investors seek safer havens."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n905b97da4d2f",
+      "title": "If Crypto Belongs in Retirement Accounts, Where Are the Assets?",
+      "url": "https://finance.yahoo.com/news/crypto-belongs-retirement-accounts-where-135000273.html",
+      "summary": "The article discusses the potential for cryptocurrencies in retirement accounts, noting that while self-directed IRAs (SDIRAs) allow for crypto investments, setup has been difficult. New custodial offerings are emerging, driven by the digital asset industry. This points to a growing trend of integrating crypto into traditional investment vehicles, which could increase institutional adoption and demand.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "crypto_in_retirement_accounts",
+        "SDIRA_crypto_investments",
+        "custodial_offerings_crypto",
+        "institutional_adoption_trend"
+      ],
+      "rationale": "The increasing accessibility of crypto within retirement accounts signifies a maturing market and a growing acceptance by traditional financial institutions, which could lead to increased capital inflows."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nf7060025f13b",
+      "title": "Central Bank of Brazil Selects Partners to Assist With CBDC",
+      "url": "https://finance.yahoo.com/news/central-bank-brazil-selects-9-193920376.html",
+      "summary": "The Central Bank of Brazil has chosen nine partners, including crypto exchange Mercado Bitcoin and DeFi platform Aave, to help develop its central bank digital currency (CBDC). This move indicates Brazil's proactive approach to digital currencies and potential integration with the existing crypto ecosystem. It could signal a broader trend of CBDC development and its interaction with decentralized finance.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Brazil_CBDC_development",
+        "Mercado_Bitcoin_partnership",
+        "Aave_partnership",
+        "digital_real_project"
+      ],
+      "rationale": "The involvement of crypto entities in CBDC development suggests a potential for future interoperability and a growing acceptance of decentralized technologies by central banks, though the direct impact on Bitcoin is uncertain."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2c2f8532e48c",
+      "title": "Cassava Sciences Is in a Bleak Midwinter Waiting for Spring and Better Days",
+      "url": "https://finance.yahoo.com/news/cassava-sciences-bleak-midwinter-waiting-214551581.html",
+      "summary": "Cassava Sciences (SAVA), a biotech company with no revenue since 2016, is facing significant challenges. While this news is specific to the biotech sector, it serves as a reminder of the risks associated with early-stage companies and the importance of fundamental analysis, which can be applied to crypto projects as well.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cassava_Sciences_SAVA",
+        "biotech_company_challenges",
+        "no_revenue_companies",
+        "fundamental_analysis_importance"
+      ],
+      "rationale": "This article is not directly related to Bitcoin but serves as a general market sentiment indicator for speculative assets. The lack of revenue and ongoing challenges for SAVA might reflect a broader cautiousness towards high-risk investments."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n0f0325760fd0",
+      "title": "Swiss City of Lugano to Make Bitcoin and Tether 'De Facto' Legal Tender",
+      "url": "https://finance.yahoo.com/news/swiss-city-lugano-bitcoin-tether-174342351.html",
+      "summary": "Lugano, Switzerland, is partnering with Tether to make Bitcoin, Tether, and its own LVGA Points token 'de facto' legal tender, aiming to become Europe's Bitcoin capital. This initiative goes beyond accepting crypto for taxes, encouraging businesses to use crypto for everyday transactions. It's a significant step towards mainstream adoption and could influence other cities.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Lugano_Switzerland_legal_tender",
+        "Bitcoin_Tether_adoption",
+        "LVGA_Points_token",
+        "Europe_Bitcoin_capital",
+        "everyday_crypto_transactions"
+      ],
+      "rationale": "The designation of Bitcoin and Tether as de facto legal tender in a European city is a strong signal of mainstream adoption and regulatory acceptance, potentially driving further integration and demand."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nc2b9c58e5dc0",
+      "title": "Bitcoin: ruptura de la nube de Ichimoku permitiría continuación de tendencia alcista",
+      "url": "https://finance.yahoo.com/news/bitcoin-ruptura-nube-ichimoku-permitir%C3%ADa-185627543.html",
+      "summary": "Technical analysis suggests Bitcoin (BTC) may be poised for further gains after breaking through the Ichimoku cloud resistance. This technical indicator suggests a potential bullish trend continuation. The article notes that while Bitcoin traded slightly weaker on Wednesday, it managed to close above the cloud, confirming a bullish trend shift.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "Bitcoin_Ichimoku_cloud_breakout",
+        "bullish_trend_continuation",
+        "technical_indicators",
+        "BTC_price_action"
+      ],
+      "rationale": "A confirmed bullish breakout on a key technical indicator like the Ichimoku cloud can attract further buying pressure and signal a short-term upward trend."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nf1fd1afbb7cd",
+      "title": "Market Wrap: Bitcoin Drifts Lower, Although Analysts Expect Bearish Sentiment to Fade",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-drifts-lower-211815202.html",
+      "summary": "Bitcoin and stocks are trading lower due to escalating geopolitical risks, with no agreement reached in the second round of Russia-Ukraine talks. Despite this, analysts expect bearish sentiment in crypto markets to fade, citing persistent long-term demand. This suggests a potential stabilization and recovery in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_drift",
+        "geopolitical_risk_escalation",
+        "bearish_sentiment_fade",
+        "long_term_demand_crypto"
+      ],
+      "rationale": "While geopolitical risks are creating short-term downward pressure, analyst expectations of fading bearish sentiment and persistent long-term demand suggest a potential for a near-term rebound or stabilization."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nee46b2e63192",
+      "title": "Ukraine government’s crypto wallets near $40M in donations",
+      "url": "https://finance.yahoo.com/news/ukraine-government-crypto-wallet-nears-064800883.html",
+      "summary": "Crypto donations to the Ukrainian government have surpassed $38.8 million, with total contributions reaching at least $60 million. This highlights the significant role cryptocurrencies are playing in facilitating aid and support during the conflict. The substantial inflow of funds demonstrates the utility of crypto for cross-border transactions and fundraising.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ukraine_crypto_donations",
+        "crypto_fundraising_aid",
+        "cross_border_transactions",
+        "decentralized_aid_mechanisms"
+      ],
+      "rationale": "The significant use of crypto for donations to Ukraine showcases its effectiveness in facilitating rapid, cross-border financial aid, reinforcing its utility and potentially boosting adoption narratives."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nb9755b27bce9",
+      "title": "Why Russians are turning to bitcoin as sanctions bite",
+      "url": "https://finance.yahoo.com/news/why-russians-turning-bitcoin-sanctions-140227517.html",
+      "summary": "Russians are increasingly turning to Bitcoin and other cryptocurrencies to avoid sanctions and protect their wealth amid the rouble's collapse. Trading volume on crypto exchanges has surged. This indicates a growing demand for cryptocurrencies as a hedge against economic instability and capital controls, potentially driving adoption and price appreciation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Russians_turning_to_bitcoin",
+        "sanctions_evasion_crypto",
+        "rouble_collapse_hedge",
+        "crypto_demand_instability"
+      ],
+      "rationale": "Increased demand for Bitcoin from a large population facing economic sanctions and currency devaluation suggests a growing use case for crypto as a store of value and a means to preserve wealth, potentially impacting price."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-03-03",
+    "summary": "Geopolitical tensions surrounding Russia and Ukraine continue to drive market volatility, impacting both traditional and crypto markets. The euro is weakening against the dollar due to stagflation fears, while commodity currencies are strengthening. In crypto, while some analysts expect bearish sentiment to fade, Bitcoin is drifting lower. However, positive developments include increased crypto donations for Ukraine and significant adoption news like Lugano making Bitcoin de facto legal tender, suggesting underlying resilience and growing use cases.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Escalation of geopolitical conflict impacting global markets.",
+      "Continued hawkish stance from the Federal Reserve leading to risk-off sentiment.",
+      "Regulatory uncertainty in major economies like India.",
+      "Potential for increased scrutiny on crypto usage for sanctions evasion.",
+      "Technical resistance levels for Bitcoin."
+    ],
+    "watch_items": [
+      "USD/EUR exchange rate",
+      "US Treasury yields",
+      "Russia-Ukraine peace talks progress",
+      "Major crypto exchange volumes",
+      "Developments in CBDC projects globally"
+    ]
+  }
+}

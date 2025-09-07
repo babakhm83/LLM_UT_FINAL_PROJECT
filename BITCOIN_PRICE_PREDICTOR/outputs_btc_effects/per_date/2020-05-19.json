@@ -1,0 +1,489 @@
+{
+  "date": "2020-05-19",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nc09a74c1263b",
+      "title": "Open Interest in CME Bitcoin Futures Rises 70% as Institutions Return to Market",
+      "url": "https://finance.yahoo.com/news/open-interest-cme-bitcoin-futures-183224339.html",
+      "summary": "Open interest in CME Bitcoin futures saw a significant 70% increase from March lows, reaching $181 million. This surge indicates a renewed interest and participation from institutional investors in the Bitcoin market. The recovery in open interest suggests growing confidence and potential for increased institutional adoption, which could positively impact Bitcoin's price and market stability over the long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "futures"
+      ],
+      "features_for_model": [
+        "CME_futures_OI_growth",
+        "institutional_adoption"
+      ],
+      "rationale": "Increased institutional interest, as shown by rising open interest in CME futures, is a strong signal of growing adoption and potential for sustained price appreciation. This trend suggests a maturing market and greater acceptance by traditional financial players."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n264f9539f4ef",
+      "title": "Bitcoin trading volume on exchanges grew 61 percent in Q1 compared to previous quarter",
+      "url": "https://finance.yahoo.com/news/bitcoin-trading-volume-exchanges-grew-150542099.html",
+      "summary": "Bitcoin trading volumes across 22 exchanges surged by 61% in Q1 2020, reaching over $154 billion. This significant increase in trading activity, despite a modest 4% rise in the average price, suggests heightened market interest and liquidity. The growth in volume indicates a more active market, potentially driven by increased retail and institutional participation, which can contribute to price discovery and market efficiency.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Q1_2020_BTC_volume_growth",
+        "exchange_activity"
+      ],
+      "rationale": "A substantial increase in trading volume indicates growing market participation and interest in Bitcoin. Higher liquidity and trading activity can lead to more stable price action and attract further investment."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n899c32f50bde",
+      "title": "DMG Welcomes Today’s Bitcoin Reward Halving Event, Presents New Mining Overview, Hosts Investor Presentation Call, Expands Business Development Activities, and Prepares for New Major Projects",
+      "url": "https://finance.yahoo.com/news/dmg-welcomes-today-bitcoin-reward-130010428.html",
+      "summary": "DMG Blockchain Solutions Inc. is well-positioned for the Bitcoin halving event, expecting to benefit from the changing market dynamics. The company has released a mining overview and is expanding business development. The halving, which reduces the block reward for miners, historically leads to supply shocks and can be bullish for Bitcoin's price due to reduced new supply entering the market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "miner",
+        "protocol"
+      ],
+      "features_for_model": [
+        "bitcoin_halving_impact",
+        "mining_operations"
+      ],
+      "rationale": "The Bitcoin halving event directly impacts supply, reducing the rate at which new bitcoins are created. Historically, this has been a bullish catalyst for Bitcoin's price due to the reduced supply meeting consistent or growing demand."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb1b6c2996d9f",
+      "title": "Bitcoin and Gold: Evaluating Hard-Cap Currencies in Times of Financial Crisis",
+      "url": "https://finance.yahoo.com/news/bitcoin-gold-evaluating-hard-cap-222143028.html",
+      "summary": "The article discusses Bitcoin's 'digital gold' narrative, emphasizing its fixed supply cap of 21 million coins. In times of financial crisis, hard-capped assets like gold are often sought as a hedge against inflation and economic instability. The comparison suggests that Bitcoin's scarcity could make it an attractive store of value, similar to gold, especially during periods of quantitative easing and economic uncertainty.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "digital_gold_narrative",
+        "inflation_hedge",
+        "fixed_supply"
+      ],
+      "rationale": "Bitcoin's fixed supply and its comparison to gold as a store of value become more relevant during macroeconomic uncertainty and inflationary pressures, potentially driving demand and price appreciation."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n9b36e300aefa",
+      "title": "Federal Reserve announces unlimited QE",
+      "url": "https://finance.yahoo.com/news/federal-announces-unlimited-qe-141302024.html",
+      "summary": "The Federal Reserve announced unlimited quantitative easing (QE), involving the purchase of US Treasuries and mortgage-backed securities. This policy involves increasing the money supply to stimulate economic growth. Critics from various economic ideologies have voiced concerns. Unlimited QE can lead to currency debasement and inflation, potentially making scarce assets like Bitcoin more attractive as a hedge.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "unlimited_QE",
+        "Fed_balance_sheet_expansion",
+        "monetary_policy"
+      ],
+      "rationale": "Unlimited quantitative easing by central banks devalues fiat currencies, increasing the appeal of scarce, non-sovereign assets like Bitcoin as a hedge against inflation and currency debasement."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n06824e304da9",
+      "title": "Bitcoin miners made $412.5 million in revenue during April, new data indicates",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-made-412-5-151920745.html",
+      "summary": "Bitcoin miners generated $412.5 million in revenue in April, an 8% increase from March, attributed to a gradual price recovery. The majority of this revenue came from block rewards. This indicates a healthy mining sector that is profitable enough to continue securing the network, which is crucial for Bitcoin's long-term viability and security. Increased miner revenue can also signal underlying strength in the network.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_revenue_April",
+        "mining_profitability"
+      ],
+      "rationale": "Growing miner revenue suggests that mining operations are profitable, which incentivizes continued network security. This operational health is fundamental for Bitcoin's long-term sustainability and growth."
+    },
+    {
+      "pick_idx": 17,
+      "id": "na93254c4c698",
+      "title": "Binance launches social payments app ‘Bundle’ in Africa",
+      "url": "https://finance.yahoo.com/news/binance-launches-social-payments-app-092506408.html",
+      "summary": "Binance has launched its social payments app, 'Bundle,' targeting the African market. The app allows users to send, receive, buy, sell, and store cryptocurrencies like Bitcoin, Ethereum, and Binance Coin, with initial support for Nigerian Naira. This expansion into a rapidly growing digital economy signifies increased adoption and accessibility of cryptocurrencies in emerging markets, potentially driving demand.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Binance_Bundle_Africa",
+        "emerging_market_adoption",
+        "crypto_payments"
+      ],
+      "rationale": "Expansion of crypto services into emerging markets like Africa, particularly through user-friendly apps like Bundle, can significantly boost adoption and on-chain activity, driving long-term demand for Bitcoin."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nbe004b72d4da",
+      "title": "HIVE Blockchain to Double Bitcoin Mining Capacity Through $2.8M Share Deal",
+      "url": "https://finance.yahoo.com/news/hive-blockchain-double-bitcoin-mining-122025922.html",
+      "summary": "HIVE Blockchain is set to double its Bitcoin mining capacity by acquiring a 30-megawatt mining operation for approximately $2.8 million. This expansion, funded by a share sale, will transition to next-generation mining hardware and leverage low-cost electricity. Increased mining capacity and efficiency can lead to greater hash rate security for the network and potentially more efficient mining operations, which is a positive sign for the ecosystem.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "HIVE_mining_expansion",
+        "hashrate_increase",
+        "mining_efficiency"
+      ],
+      "rationale": "Significant expansion of mining capacity by a major operator like HIVE indicates confidence in Bitcoin's future and contributes to network security through increased hash rate. This growth is a positive indicator for the mining sector."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n079229a89328",
+      "title": "Stablecoins Push Ethereum’s Transaction Count to Highest Since July 2019",
+      "url": "https://finance.yahoo.com/news/stablecoins-push-ethereum-transaction-count-174133018.html",
+      "summary": "Ethereum's network transaction count has reached its highest level in 10 months, driven by increased stablecoin issuance and anticipation of Ethereum 2.0. The seven-day moving average of transactions rose to over 845,400 on April 30. This surge in network activity, even on a secondary blockchain, indicates growing utility and adoption within the broader crypto ecosystem, which often correlates with increased interest in Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "ETH_transaction_volume",
+        "stablecoin_growth",
+        "ETH2_anticipation"
+      ],
+      "rationale": "Increased activity on the Ethereum network, particularly driven by stablecoins, reflects growing utility and adoption in the crypto space. This broader ecosystem growth often has positive spillover effects on Bitcoin's market sentiment and adoption."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n7c13444173df",
+      "title": "Some US Citizens Look to Be Splashing Their Stimulus Cash on Cryptocurrency",
+      "url": "https://finance.yahoo.com/news/u-citizens-look-splashing-stimulus-094210027.html",
+      "summary": "Reports suggest that a portion of US citizens receiving stimulus checks are using the funds to purchase cryptocurrency. This indicates a potential inflow of new capital into the crypto market, driven by government stimulus measures. If this trend continues, it could provide a significant boost to Bitcoin's price and adoption, especially as people seek alternative assets during economic uncertainty.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "stimulus_check_crypto_purchase",
+        "retail_investor_flow",
+        "US_economic_stimulus"
+      ],
+      "rationale": "The use of government stimulus funds for cryptocurrency purchases signifies new capital entering the market and a growing acceptance of digital assets as an investment vehicle, potentially driving demand for Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nfa219276cb26",
+      "title": "BIGG Digital Assets Inc. Subsidiary Blockchain Intelligence Group Enters into Partnership with IX Asia Limited",
+      "url": "https://finance.yahoo.com/news/bigg-digital-assets-inc-subsidiary-130010592.html",
+      "summary": "Blockchain Intelligence Group (BIG) is partnering with IX Asia Limited to integrate BIG's AML and CFT solutions. This partnership aims to enhance risk management and customer experience within IX Asia's services. While not directly impacting Bitcoin's price, such partnerships in the blockchain analytics space can improve regulatory compliance and trust, indirectly supporting the broader crypto ecosystem.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BIGG_IXAsia_partnership",
+        "blockchain_analytics_adoption"
+      ],
+      "rationale": "Partnerships in blockchain intelligence can improve market infrastructure and regulatory perception, but the direct short-term price impact on Bitcoin is likely minimal."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n28d0aa2795e4",
+      "title": "Off the Chain Capital to Host Webinar 4pm EST Tuesday, May 26 – Turbulent Times: Why Add Bitcoin to Your Portfolio Now",
+      "url": "https://finance.yahoo.com/news/off-chain-capital-host-webinar-192041568.html",
+      "summary": "Off the Chain Capital is hosting a webinar on May 26th discussing the rationale for adding Bitcoin to portfolios during turbulent times. This event aims to educate investors and promote Bitcoin as an investment asset. Such educational initiatives can influence investor sentiment and potentially attract new capital, though the immediate impact is likely to be limited.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "OffChainCapital_webinar",
+        "investor_education",
+        "portfolio_diversification"
+      ],
+      "rationale": "Educational webinars promoting Bitcoin can positively influence investor sentiment and potentially attract new capital, especially when framed within the context of current market volatility."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n96592e268eec",
+      "title": "Square’s Cash App now allows automatic bitcoin purchases",
+      "url": "https://finance.yahoo.com/news/square-cash-app-now-allows-101506630.html",
+      "summary": "Square's Cash App has introduced an 'Auto Invest' feature, enabling users to schedule automatic Bitcoin purchases (daily, weekly, bi-weekly). This dollar-cost averaging approach simplifies investing and encourages consistent buying regardless of price. The feature lowers the barrier to entry for new investors and promotes regular accumulation, which can lead to increased demand and price stability.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CashApp_auto_buy",
+        "dollar_cost_averaging",
+        "retail_onboarding"
+      ],
+      "rationale": "The introduction of automatic Bitcoin purchasing on a widely used platform like Cash App significantly lowers the barrier to entry for retail investors, promoting consistent buying and potentially increasing demand."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3efc663c2812",
+      "title": "Marathon Patent Group Announces Additional Purchase of 500 Next Generation S19 Pro ASIC Miners",
+      "url": "https://finance.yahoo.com/news/marathon-patent-group-announces-additional-120010739.html",
+      "summary": "Marathon Patent Group is purchasing an additional 500 next-generation S19 Pro ASIC miners, expected to add 56 PH/s of hashing power. This expansion increases the company's operational hashrate and signifies continued investment in mining infrastructure. Increased mining power contributes to network security and can be seen as a positive signal for the health of the mining ecosystem.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Marathon_miner_purchase",
+        "ASIC_upgrade",
+        "mining_hashrate_increase"
+      ],
+      "rationale": "Increased investment in mining hardware by a public company like Marathon suggests confidence in future mining profitability and contributes to overall network hash rate, a positive for network security."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n917b8f519dc1",
+      "title": "Latest Bitcoin price and analysis (BTC to USD)",
+      "url": "https://finance.yahoo.com/news/latest-bitcoin-price-analysis-btc-123754123.html",
+      "summary": "Bitcoin is testing the $10,000 resistance level for the fourth time since May 7th. A breakout above this psychological level seems increasingly likely as repeated tests weaken resistance. If successful, it could lead to a move towards the yearly high of $10,500. However, another rejection could trigger a sell-off to $8,830.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_10k_resistance_test",
+        "support_resistance_weakening",
+        "price_breakout_potential"
+      ],
+      "rationale": "Bitcoin's repeated testing of the $10,000 resistance level creates a critical short-term inflection point. A breakout would be bullish, while a rejection could lead to a significant price drop."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nefe160fa4ef8",
+      "title": "BREAKING: BitMEX trading engine goes offline",
+      "url": "https://finance.yahoo.com/news/breaking-bitmex-trading-engine-goes-125851175.html",
+      "summary": "Major Bitcoin derivatives exchange BitMEX has experienced an unscheduled outage of its trading engine. This is the first such outage since the March 13th crash. While the immediate impact on price is uncertain, exchange outages can lead to increased volatility, reduced liquidity, and potential price dislocations as traders are unable to execute orders.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BitMEX_outage",
+        "exchange_downtime",
+        "liquidity_shock"
+      ],
+      "rationale": "An outage on a major derivatives exchange like BitMEX can cause significant short-term volatility and liquidity issues, impacting Bitcoin's price in unpredictable ways until services are restored."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n15d8eba152de",
+      "title": "Square’s Cash App now allows automatic bitcoin purchases",
+      "url": "https://finance.yahoo.com/news/square-cash-app-now-allows-101506630.html",
+      "summary": "Square's Cash App has introduced an 'Auto Invest' feature, enabling users to schedule automatic Bitcoin purchases (daily, weekly, bi-weekly). This dollar-cost averaging approach simplifies investing and encourages consistent buying regardless of price. The feature lowers the barrier to entry for new investors and promotes regular accumulation, which can lead to increased demand and price stability.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CashApp_auto_buy",
+        "dollar_cost_averaging",
+        "retail_onboarding"
+      ],
+      "rationale": "The introduction of automatic Bitcoin purchasing on a widely used platform like Cash App significantly lowers the barrier to entry for retail investors, promoting consistent buying and potentially increasing demand."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n3efc663c2812",
+      "title": "Marathon Patent Group Announces Additional Purchase of 500 Next Generation S19 Pro ASIC Miners",
+      "url": "https://finance.yahoo.com/news/marathon-patent-group-announces-additional-120010739.html",
+      "summary": "Marathon Patent Group is purchasing an additional 500 next-generation S19 Pro ASIC miners, expected to add 56 PH/s of hashing power. This expansion increases the company's operational hashrate and signifies continued investment in mining infrastructure. Increased mining power contributes to network security and can be seen as a positive signal for the health of the mining ecosystem.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Marathon_miner_purchase",
+        "ASIC_upgrade",
+        "mining_hashrate_increase"
+      ],
+      "rationale": "Increased investment in mining hardware by a public company like Marathon suggests confidence in future mining profitability and contributes to overall network hash rate, a positive for network security."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n917b8f519dc1",
+      "title": "Latest Bitcoin price and analysis (BTC to USD)",
+      "url": "https://finance.yahoo.com/news/latest-bitcoin-price-analysis-btc-123754123.html",
+      "summary": "Bitcoin is testing the $10,000 resistance level for the fourth time since May 7th. A breakout above this psychological level seems increasingly likely as repeated tests weaken resistance. If successful, it could lead to a move towards the yearly high of $10,500. However, another rejection could trigger a sell-off to $8,830.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_10k_resistance_test",
+        "support_resistance_weakening",
+        "price_breakout_potential"
+      ],
+      "rationale": "Bitcoin's repeated testing of the $10,000 resistance level creates a critical short-term inflection point. A breakout would be bullish, while a rejection could lead to a significant price drop."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nefe160fa4ef8",
+      "title": "BREAKING: BitMEX trading engine goes offline",
+      "url": "https://finance.yahoo.com/news/breaking-bitmex-trading-engine-goes-125851175.html",
+      "summary": "Major Bitcoin derivatives exchange BitMEX has experienced an unscheduled outage of its trading engine. This is the first such outage since the March 13th crash. While the immediate impact on price is uncertain, exchange outages can lead to increased volatility, reduced liquidity, and potential price dislocations as traders are unable to execute orders.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BitMEX_outage",
+        "exchange_downtime",
+        "liquidity_shock"
+      ],
+      "rationale": "An outage on a major derivatives exchange like BitMEX can cause significant short-term volatility and liquidity issues, impacting Bitcoin's price in unpredictable ways until services are restored."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-05-19",
+    "summary": "Bitcoin is testing the critical $10,000 resistance level, with mixed signals from the market. The introduction of automatic Bitcoin purchasing on Square's Cash App is a significant bullish development for retail adoption. However, an unscheduled outage on the major derivatives exchange BitMEX introduces short-term uncertainty and potential volatility. Mining companies continue to invest in hardware, signaling long-term confidence, while institutional interest remains a key driver.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "BitMEX outage causing cascading liquidations or reduced liquidity.",
+      "Failure to break $10,000 resistance leading to a sharp sell-off.",
+      "Increased regulatory scrutiny or negative macro news impacting risk assets.",
+      "Potential for profit-taking after recent price appreciation."
+    ],
+    "watch_items": [
+      "Bitcoin's price action around $10,000 resistance.",
+      "Resolution of the BitMEX outage and its impact on liquidity.",
+      "Further adoption news from major payment platforms.",
+      "Macroeconomic data releases and central bank commentary."
+    ]
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "date": "2022-03-10",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n23234a285faf",
+      "title": "Global shares shake off inflation fears and Omicron, as investors prepare for faster Fed interest-rate rises",
+      "url": "https://finance.yahoo.com/news/global-shares-shake-off-inflation-100256389.html",
+      "summary": "Global shares showed resilience, recovering from inflation jitters and Omicron concerns, as investors braced for accelerated interest rate hikes by the Federal Reserve. Tech stocks and cryptocurrencies regained some ground, while shorter-dated Treasuries faced pressure. Analysts suggest the Fed may need to increase rates more aggressively to control inflation. This sentiment indicates a broader market shift towards tighter monetary policy, which typically impacts risk assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "inflation_expectations",
+        "global_equities"
+      ],
+      "rationale": "Anticipation of faster Fed rate hikes generally leads to a tightening of liquidity, which can negatively impact risk assets like Bitcoin. The market's reaction to inflation fears and potential monetary policy shifts suggests a cautious environment for growth assets."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nce128712f825",
+      "title": "IMF Urges El Salvador to Drop Bitcoin as Currency, Citing Financial Stability Risks",
+      "url": "https://finance.yahoo.com/news/imf-urges-el-salvador-drop-060124388.html",
+      "summary": "The International Monetary Fund (IMF) has advised El Salvador to discontinue its use of Bitcoin as legal tender, citing significant financial stability risks. This recommendation from a major global financial institution highlights regulatory concerns and potential systemic risks associated with widespread Bitcoin adoption. Such pronouncements can influence other nations and international bodies, potentially leading to more stringent regulatory frameworks for cryptocurrencies globally.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "IMF_stance",
+        "El_Salvador_BTC",
+        "regulatory_risk"
+      ],
+      "rationale": "IMF's cautionary stance on Bitcoin adoption by a sovereign nation can create a negative precedent and increase regulatory scrutiny worldwide. This could deter institutional adoption and slow down the broader integration of cryptocurrencies into the global financial system."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nf34cb0474ca0",
+      "title": "UPDATE 2-New York Mayor Adams to receive first paycheck in cryptocurrency",
+      "url": "https://finance.yahoo.com/news/1-nyc-mayor-eric-adams-154521738.html",
+      "summary": "New York City Mayor Eric Adams plans to receive his first paycheck converted into cryptocurrency, specifically Bitcoin and Ethereum, via Coinbase. This move signals a growing acceptance and integration of digital assets at a high political level. Adams' intention to make New York a 'center of the cryptocurrency industry' could foster innovation and adoption within the city and potentially influence other major cities globally.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "NYC_Mayor_BTC",
+        "political_adoption",
+        "crypto_hub"
+      ],
+      "rationale": "The adoption of crypto by a major city's mayor, coupled with a stated ambition to foster a crypto industry, provides significant positive sentiment and potential for increased adoption. This can attract talent, capital, and further development within the crypto ecosystem."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ndd8b6a9f69b3",
+      "title": "IRS Favors Proof-of-Stake with a Tax Boost",
+      "url": "https://finance.yahoo.com/news/irs-favors-proof-stake-tax-034829654.html",
+      "summary": "The IRS appears to favor Proof-of-Stake (PoS) consensus mechanisms, potentially offering tax advantages. This distinction between different blockchain technologies could influence development and investment towards PoS chains. As governments worldwide seek to establish crypto regulatory frameworks, such tax treatments can significantly shape the market landscape and the adoption of specific blockchain technologies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "protocol"
+      ],
+      "features_for_model": [
+        "IRS_PoS_tax",
+        "blockchain_regulation",
+        "staking_incentive"
+      ],
+      "rationale": "Favorable tax treatment for PoS could drive capital and development towards these networks, potentially benefiting related cryptocurrencies. It also signals a more nuanced regulatory approach to different blockchain technologies."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n598f4a279b14",
+      "title": "Ukraine crypto donations top $36M amid Russian invasion",
+      "url": "https://finance.yahoo.com/news/ukraine-crypto-donations-top-36m-070838492.html",
+      "summary": "Cryptocurrency donations to Ukraine have surpassed $36 million amidst the ongoing Russian invasion, with contributions continuing to grow. This demonstrates the utility of crypto for rapid, borderless financial aid during geopolitical crises. The significant volume of donations highlights the growing role of digital assets in humanitarian efforts and could bolster public perception of crypto's practical applications.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Ukraine_donations",
+        "crypto_utility",
+        "geopolitical_impact"
+      ],
+      "rationale": "The use of crypto for large-scale humanitarian aid during a major geopolitical event showcases its practical value and resilience. This positive use case can enhance public trust and adoption, potentially leading to increased demand for cryptocurrencies."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n3c32cc0427a6",
+      "title": "Bitcoin Mining Startup Blockmetrix Raises $43M in Series B Round",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-startup-blockmetrix-raises-140000474.html",
+      "summary": "Bitcoin mining startup Blockmetrix has secured $43 million in a Series B funding round, bringing its total funding to $50 million. The capital will be used to acquire more mining rigs, expanding its operational capacity. This significant investment in mining infrastructure indicates continued confidence in Bitcoin's long-term viability and profitability, suggesting growth in the underlying network's security and hash rate.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_mining_funding",
+        "hash_rate_growth",
+        "mining_infrastructure"
+      ],
+      "rationale": "Increased investment in Bitcoin mining infrastructure signifies robust growth and confidence in the network's future. A higher hash rate generally contributes to network security and decentralization, which are positive long-term factors for Bitcoin."
+    },
+    {
+      "pick_idx": 21,
+      "id": "na85326f9315d",
+      "title": "First Mover Asia: India Commodity Price Increase Stemming From Russia Invasion Could Hurt Crypto Investment; Bitcoin Loses Momentum",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-india-commodity-233207013.html",
+      "summary": "Rising commodity prices in India, influenced by the Russia-Ukraine war, may negatively impact crypto investment. Bitcoin's momentum has stalled, suggesting a potential slowdown in market enthusiasm. This indicates that broader macroeconomic factors, including geopolitical events and their economic consequences, can significantly influence cryptocurrency markets, potentially dampening investor sentiment and capital allocation towards digital assets.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_inflation",
+        "Russia_Ukraine_war",
+        "crypto_investment_sentiment"
+      ],
+      "rationale": "Geopolitical events leading to inflation and economic instability in major economies can reduce disposable income available for speculative investments like cryptocurrencies. This suggests a potential headwind for crypto adoption and price appreciation."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n75da5f6bee5d",
+      "title": "Asset management giant Grayscale Investments is launching an ETF that will track the biggest names in the digital economy",
+      "url": "https://finance.yahoo.com/news/asset-management-giant-grayscale-investments-195722982.html",
+      "summary": "Grayscale Investments, a prominent asset manager, has launched its first Exchange-Traded Fund (ETF) focused on the 'digital economy.' This ETF tracks the Bloomberg Grayscale Future of Finance index, offering traditional investors exposure to companies involved in digital assets and related technologies. The move by a major player like Grayscale signifies increasing institutional interest and the maturation of the digital asset investment landscape.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Grayscale_ETF",
+        "digital_economy_exposure",
+        "institutional_adoption"
+      ],
+      "rationale": "The launch of a digital economy ETF by Grayscale provides a regulated and accessible avenue for traditional investors to gain exposure to the crypto and blockchain sector. This can lead to significant capital inflows and further legitimize digital assets as an investment class."
+    },
+    {
+      "pick_idx": 39,
+      "id": "nc56a238fdf76",
+      "title": "Blockchain Market Size Worth $227.99Bn, Globally, by 2028 at 72.9% CAGR - Exclusive Report by The Insight Partners",
+      "url": "https://finance.yahoo.com/news/blockchain-market-size-worth-227-103800915.html",
+      "summary": "A report by The Insight Partners projects the global blockchain market to reach $227.99 billion by 2028, growing at a compound annual growth rate (CAGR) of 72.9%. This significant growth forecast underscores the increasing adoption and integration of blockchain technology across various industries, including BFSI, retail, and healthcare. Such widespread adoption is a strong indicator of the underlying value and potential of blockchain technology, which underpins cryptocurrencies.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockchain_market_growth",
+        "CAGR_72.9%",
+        "industry_adoption"
+      ],
+      "rationale": "The projected exponential growth of the blockchain market indicates a fundamental shift towards decentralized technologies. This widespread adoption across industries will likely drive demand for cryptocurrencies and related infrastructure, positively impacting Bitcoin's long-term value."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n8d81e98d8968",
+      "title": "Bitcoin Isn't an Inflation Hedge Yet, but Here's How It Could Be",
+      "url": "https://finance.yahoo.com/news/bitcoin-isnt-inflation-hedge-yet-205440764.html",
+      "summary": "The article discusses Bitcoin's potential as an inflation hedge, noting that while it hasn't consistently performed as such, its scarcity and decentralized nature offer theoretical advantages. It contrasts Bitcoin's performance with traditional assets like the S&P 500 during periods of rising inflation. The piece suggests that as Bitcoin matures and gains broader adoption, it may eventually fulfill the role of a digital inflation hedge, similar to gold.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_inflation_hedge",
+        "scarcity_value",
+        "market_maturation"
+      ],
+      "rationale": "The ongoing narrative and potential for Bitcoin to become a recognized inflation hedge is a significant long-term driver. As inflation persists, investors may increasingly turn to assets like Bitcoin for portfolio diversification and wealth preservation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n02ee93569e84",
+      "title": "Market Wrap: Bitcoin Stuck Below $40K, Altcoins See Less Selling Pressure",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-stuck-below-212716302.html",
+      "summary": "Most cryptocurrencies experienced choppy trading on Thursday, reflecting trader indecision. Geopolitical uncertainty and the European Central Bank's plan to phase out its bond-buying program by September are key factors. Talks between Russia and Ukraine have faltered, keeping markets on edge. The ECB's move could lead to higher interest rates.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_range",
+        "ECB_policy",
+        "geopolitical_uncertainty"
+      ],
+      "rationale": "The market is showing indecision with Bitcoin stuck below a key level, influenced by macro factors like the ECB's policy shift and ongoing geopolitical tensions. This suggests a period of consolidation or potential volatility."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n6def5e375e79",
+      "title": "US Inflation Rises to 7.9% in February, Fresh 4-Decade High",
+      "url": "https://finance.yahoo.com/news/u-inflation-rises-7-9-135333160.html",
+      "summary": "U.S. inflation accelerated to 7.9% in February, a new four-decade high, driven by rising gas prices and persistent supply/demand imbalances. Core inflation, excluding food and energy, also increased. This data reinforces expectations of aggressive interest rate hikes by the Federal Reserve.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_inflation_CPI",
+        "Fed_rate_hike_expectations",
+        "stagflation_risk"
+      ],
+      "rationale": "Higher-than-expected inflation data strengthens the case for aggressive Fed rate hikes, which typically leads to a tightening of liquidity and a risk-off sentiment in markets, negatively impacting Bitcoin."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nb5822358b734",
+      "title": "Aquarius AI Inc Provides a Corporate Update on Current Bitcoin Mining Initiatives",
+      "url": "https://finance.yahoo.com/news/aquarius-ai-inc-provides-corporate-140000536.html",
+      "summary": "Aquarius AI Inc. confirmed the purchase of 10 PH/s of Bitcoin mining rigs, scheduled for an April 2022 launch. The company plans to implement a 'HODL strategy' to accumulate Bitcoin rewards. This expansion in mining capacity suggests increased network hash rate and potential for more Bitcoin to be mined.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Aquarius_AI_mining",
+        "mining_rig_deployment",
+        "hash_rate_increase"
+      ],
+      "rationale": "Expansion of Bitcoin mining operations by a new entity can contribute to a slightly higher network hash rate, which is generally a positive for network security. However, the impact on price is likely to be marginal in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n428f56751a88",
+      "title": "Bessemer Commits $250M to Web 3, Launches DAO",
+      "url": "https://finance.yahoo.com/news/bessemer-commits-250m-3-launches-221437531.html",
+      "summary": "Venture capital firm Bessemer Venture Partners is committing $250 million to Web 3 projects, focusing on consumer DeFi, infrastructure, and enabling technologies. They are also launching a DAO. This significant investment from a well-established VC firm signals growing institutional interest and capital allocation towards the Web 3 ecosystem.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bessemer_Web3_investment",
+        "VC_funding_Web3",
+        "DAO_launch"
+      ],
+      "rationale": "A large capital commitment to Web 3 by a prominent VC firm indicates strong confidence in the sector's growth. This can lead to increased development and adoption of Web 3 technologies, potentially benefiting cryptocurrencies that underpin these ecosystems."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nd32a9d07708a",
+      "title": "Euro eases after ECB meeting, while dollar firms following inflation data",
+      "url": "https://finance.yahoo.com/news/euro-stands-tall-investors-cheer-015203819.html",
+      "summary": "The euro weakened after the European Central Bank announced plans to phase out stimulus by September, potentially leading to higher interest rates. Simultaneously, the dollar strengthened following strong U.S. inflation data. This divergence in monetary policy signals and inflation trends can impact global liquidity and risk appetite.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ECB_policy_tightening",
+        "USD_strength",
+        "inflation_divergence"
+      ],
+      "rationale": "A stronger dollar and potential for higher interest rates from the ECB can lead to tighter global liquidity, which is generally a headwind for risk assets like Bitcoin. The market reaction suggests a shift towards a more hawkish monetary policy environment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb6d775f41daa",
+      "title": "Will Biden's Executive Order Put Crypto ETFs in Bright Spot?",
+      "url": "https://finance.yahoo.com/news/bidens-executive-order-put-crypto-151603340.html",
+      "summary": "President Biden's executive order on digital assets is expected to coordinate regulatory efforts, potentially benefiting crypto ETFs. Bitcoin saw a jump on the news, indicating positive market sentiment. The order aims to study risks and opportunities, suggesting a move towards clearer regulatory frameworks.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "ETF",
+        "macro"
+      ],
+      "features_for_model": [
+        "Biden_EO_crypto",
+        "crypto_ETF_outlook",
+        "regulatory_clarity"
+      ],
+      "rationale": "The executive order signals a proactive approach to cryptocurrency regulation, which could lead to greater clarity and institutional adoption, potentially boosting the prospects for crypto ETFs and Bitcoin itself."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n24c95fd09b2d",
+      "title": "Yoon Becomes New South Korean President, Delivering an ICX Boost",
+      "url": "https://finance.yahoo.com/news/yoon-becomes-south-korean-president-124152274.html",
+      "summary": "Yoon Suk-yeol, a crypto-friendly candidate, has won the South Korean presidential election. His plans include deregulating the crypto market. ICON (ICX) saw a surge following the news. This political development suggests a potentially more favorable regulatory environment for cryptocurrencies in South Korea.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "South_Korea_election",
+        "Yoon_crypto_policy",
+        "regulatory_deregulation"
+      ],
+      "rationale": "A crypto-friendly political outcome in a major economy like South Korea can foster innovation and adoption, potentially leading to increased demand for digital assets. The deregulation plans are a positive signal for the local crypto market."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n8243d7729c76",
+      "title": "Bitcoin Reverses Wednesday's Gain Ahead of ECB Rate Decision, US Inflation",
+      "url": "https://finance.yahoo.com/news/bitcoin-reverses-wednesdays-gain-ahead-093839728.html",
+      "summary": "Bitcoin reversed earlier gains, falling to $39,000, as markets await the ECB's response to high inflation and low growth. The euro's bounce also stalled. Observers are closely watching the ECB's stance on interest rates and stimulus measures.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_reversal",
+        "ECB_rate_decision",
+        "inflation_growth_dilemma"
+      ],
+      "rationale": "Bitcoin's reversal ahead of key macro events like the ECB decision and US inflation data suggests market participants are cautious. The potential for tighter monetary policy from the ECB could exert downward pressure on risk assets."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n6a209434ceeb",
+      "title": "Ethereum Network Fees Falls to Seven-Month Low",
+      "url": "https://finance.yahoo.com/news/ethereum-network-fees-falls-seven-033101325.html",
+      "summary": "Ethereum network fees have dropped below $10, the lowest since August, although still higher than rival blockchains. ETH prices remain in a downtrend, having lost 10% in the past week. The reduction in gas fees could improve user experience and potentially attract more activity to the network.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETH_gas_fees",
+        "network_scalability",
+        "user_experience"
+      ],
+      "rationale": "Lower Ethereum network fees can make the platform more accessible and attractive for users and developers, potentially increasing on-chain activity and demand for ETH. This is a positive development for the Ethereum ecosystem."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n34aeafc1b95f",
+      "title": "Bitcoin and ETH Nosedive, XRP Trades Near Crucial Juncture",
+      "url": "https://finance.yahoo.com/news/bitcoin-eth-nosedive-xrp-trades-145210588.html",
+      "summary": "Bitcoin experienced a sharp decline from resistance near $42,500, falling below key support levels. Ether (ETH) also saw a significant drop, with potential for further decline. XRP is trading near a critical bearish trend line. This indicates broad weakness across major cryptocurrencies.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_ETH_selloff",
+        "XRP_trendline",
+        "broad_crypto_weakness"
+      ],
+      "rationale": "The sharp decline in Bitcoin and Ether, coupled with broader market weakness, suggests strong selling pressure. This indicates a bearish short-term sentiment, with potential for further price depreciation."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n5986da65cca8",
+      "title": "Okcoin, Stacks Launch $165M Pledge to Support Bitcoin-Related Projects",
+      "url": "https://finance.yahoo.com/news/okcoin-stacks-launch-165m-pledge-150000424.html",
+      "summary": "Cryptocurrency exchange Okcoin, along with Stacks, has launched the Bitcoin Odyssey, a year-long initiative to deploy $165 million into projects that accelerate Bitcoin adoption. This includes funding for products built on the Stacks network for Bitcoin-based smart contracts. The initiative aims to foster innovation and growth within the Bitcoin ecosystem.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Okcoin_Stacks_funding",
+        "Bitcoin_adoption_initiative",
+        "Web3_development"
+      ],
+      "rationale": "A significant funding pledge for Bitcoin-related projects, particularly those enhancing adoption and building on the Bitcoin ecosystem via Stacks, is a positive catalyst. This can drive innovation and increase utility for Bitcoin."
+    },
+    {
+      "pick_idx": 47,
+      "id": "nad1b8b2e7943",
+      "title": "Stripe gets friendly with crypto, again",
+      "url": "https://finance.yahoo.com/news/stripe-gets-friendly-crypto-again-222905999.html",
+      "summary": "Payments giant Stripe is reintroducing crypto payment support, offering tools and APIs for users to buy, store, and cash out crypto tokens, trade NFTs, and manage compliance. This move aims to simplify onboarding for Web3 users and integrate cryptocurrencies more seamlessly into online commerce.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Stripe_crypto_payments",
+        "Web3_onboarding",
+        "NFT_commerce"
+      ],
+      "rationale": "Stripe's enhanced crypto support makes it easier for businesses and users to interact with digital assets, potentially driving adoption in e-commerce and the NFT space. This integration can increase the utility and accessibility of cryptocurrencies."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-03-10",
+    "summary": "Bitcoin remains range-bound below $40K, reflecting market indecision influenced by geopolitical tensions and upcoming central bank decisions. High US inflation data (7.9%) reinforces expectations of aggressive Fed rate hikes, creating a bearish macro environment. However, positive developments like increased crypto donations to Ukraine, institutional investment in Web3, and enhanced crypto payment support from Stripe offer some bullish counter-narratives. The reduction in Ethereum gas fees is also a positive for the network's usability.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Aggressive Fed rate hikes due to persistent inflation.",
+      "Escalation of geopolitical tensions between Russia and Ukraine.",
+      "Lack of clear regulatory frameworks for digital assets.",
+      "Continued volatility and potential for sharp price corrections.",
+      "Weakening global liquidity conditions."
+    ],
+    "watch_items": [
+      "Federal Reserve statements on monetary policy.",
+      "Developments in the Russia-Ukraine conflict.",
+      "Further institutional adoption announcements.",
+      "Key inflation and employment data releases.",
+      "Performance of major altcoins relative to Bitcoin."
+    ]
+  }
+}

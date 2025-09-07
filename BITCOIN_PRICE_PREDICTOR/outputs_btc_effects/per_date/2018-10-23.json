@@ -1,0 +1,500 @@
+{
+  "date": "2018-10-23",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n503918293fa2",
+      "title": "5 Highlights from Bitcoin-Bashing NYU Economist’s Senate Testimony",
+      "url": "https://finance.yahoo.com/news/5-highlights-bitcoin-bashing-nyu-155126683.html",
+      "summary": "NYU economist Nouriel Roubini testified before the U.S. Senate Committee on Banking, Housing, and Urban Affairs, criticizing cryptocurrency and blockchain technology. Roubini, known for his bearish stance, referred to many cryptocurrencies as \"sh*tcoins.\" His testimony, delivered in a congressional setting, highlights ongoing regulatory scrutiny and skepticism from prominent financial figures, which can influence broader market sentiment and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Roubini_testimony",
+        "Senate_hearing",
+        "regulatory_skepticism"
+      ],
+      "rationale": "Roubini's strong negative commentary in a formal Senate setting signals potential for increased regulatory pressure and negative sentiment towards cryptocurrencies. This can deter institutional adoption and dampen retail investor enthusiasm over the medium term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nfe81da6dfbe5",
+      "title": "China's Alibaba, Tencent Bar Cryptocurrency Transactions on WeChat Pay, AliPay",
+      "url": "https://finance.yahoo.com/news/china-apos-alibaba-tencent-bar-230001361.html",
+      "summary": "China's dominant mobile payment platforms, WeChat Pay and Alipay, have begun prohibiting cryptocurrency-related transactions. This move by major financial infrastructure providers in a key global market significantly restricts access for Chinese citizens to engage with digital assets. Such actions by large tech and finance companies can set precedents and influence similar policies in other regions, impacting global adoption and liquidity.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "China_payment_ban",
+        "WeChat_Alipay_ban",
+        "cross_border_restriction"
+      ],
+      "rationale": "The prohibition by major Chinese payment processors creates a significant barrier to entry and usage for a large population, directly impacting crypto adoption. This regulatory action from a major economy can lead to a chilling effect on global adoption and liquidity."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n81ef48ddce53",
+      "title": "Bitcoin on brink of collapse after 'very scary bug' discovered in code",
+      "url": "https://finance.yahoo.com/news/bitcoin-brink-collapse-apos-very-140932761.html",
+      "summary": "A critical bug was discovered in Bitcoin's underlying software, posing a risk of network collapse. Developers quickly issued a fix before it could be exploited. The bug would have allowed miners to potentially attack the network, costing an estimated $80,000 to execute. While the immediate threat was averted, the incident highlights the ongoing security challenges and the importance of robust development and rapid patching in maintaining network integrity.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_bug_fix",
+        "network_vulnerability",
+        "security_patch"
+      ],
+      "rationale": "While the bug was fixed, the discovery of such a critical vulnerability can erode confidence in Bitcoin's security and resilience. This could lead to increased caution from investors and developers, potentially slowing adoption and development."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n1d550e80125a",
+      "title": "Flood of payouts ‘could crash Bitcoin market’",
+      "url": "https://finance.yahoo.com/news/flood-payouts-could-crash-bitcoin-060000744.html",
+      "summary": "Experts warn that a large volume of Bitcoin payouts from the collapsed Mt. Gox exchange could lead to intense selling pressure and potentially crash the market. Billions of dollars worth of Bitcoin are expected to be distributed to creditors. This influx of supply, coming from a long-dormant source, could overwhelm market demand and drive prices down significantly, especially given the already depressed market conditions.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "MtGox_payouts",
+        "supply_shock",
+        "market_crash_risk"
+      ],
+      "rationale": "A significant release of previously inaccessible Bitcoin from Mt. Gox creditors represents a substantial increase in sell-side pressure. This could overwhelm buying demand, leading to a sharp price decline and impacting market stability."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nd6ccc04a92df",
+      "title": "$194 Million was Moved Using Bitcoin With $0.1 Fee, True Potential of Crypto",
+      "url": "https://finance.yahoo.com/news/194-million-moved-using-bitcoin-223521877.html",
+      "summary": "A single Bitcoin transaction moved $194 million with a fee of only $0.10, highlighting the cost-efficiency of the network for large value transfers compared to traditional banking. This demonstrates the potential of cryptocurrencies for optimizing cross-border payments and large-scale financial operations. Such use cases can attract businesses and individuals seeking cheaper and faster transaction methods, fostering wider adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "low_fee_transaction",
+        "cost_efficiency",
+        "cross_border_payments"
+      ],
+      "rationale": "The demonstration of extremely low fees for high-value transactions showcases Bitcoin's utility as a global payment rail. This efficiency can attract significant business use cases, driving adoption and increasing demand for the network."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n3914e874a385",
+      "title": "U.S. SEC halts trading in two cryptocurrency products, citing market confusion",
+      "url": "https://finance.yahoo.com/news/u-sec-halts-trading-two-040801670.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has suspended trading of two cryptocurrency tracking products listed on Nasdaq Stockholm, citing market confusion regarding their ETF status. This action underscores the SEC's cautious approach to crypto-related investment vehicles and highlights regulatory uncertainty in the U.S. market. Such halts can deter institutional interest and create a perception of risk for investors seeking regulated exposure.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_halt",
+        "ETF_uncertainty",
+        "regulatory_risk"
+      ],
+      "rationale": "The SEC's intervention signals ongoing regulatory hurdles for crypto investment products in the US. This creates uncertainty and can slow down the process of institutional adoption, impacting the market's perception of legitimacy and accessibility."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n3d298e7e88e1",
+      "title": "Bitcoin Will Not Challenge Gold as a Safe-Haven Asset: Equity Analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-not-challenge-gold-safe-011524573.html",
+      "summary": "An equity analyst from Morningstar Research Services argues that Bitcoin is unlikely to challenge gold's position as a safe-haven asset in the short term. While acknowledging potential scaling solutions like the Lightning Network, the analyst believes Bitcoin's primary use case is not yet established as a reliable store of value comparable to gold. This perspective from a reputable financial research firm can influence investor sentiment regarding Bitcoin's long-term value proposition.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_vs_gold",
+        "safe_haven_asset",
+        "analyst_downgrade"
+      ],
+      "rationale": "The assertion that Bitcoin won't rival gold as a safe haven challenges a key narrative for many investors. This can temper expectations for Bitcoin's role in portfolio diversification and potentially limit its appeal to more risk-averse investors."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n79e6994e9f1a",
+      "title": "Under Pressure, Bitmain Releases Patch to Let Bitcoin Miners Activate ‘Overt AsicBoost’",
+      "url": "https://finance.yahoo.com/news/under-pressure-bitmain-releases-patch-150838758.html",
+      "summary": "Mining giant Bitmain has released a firmware update enabling 'overt AsicBoost,' a feature that offers significant cost savings for Bitcoin miners. This comes after the software development group braiins verified that Bitmain's hardware supported the feature but had disabled it by default. The move to enable this efficiency upgrade could impact mining profitability and network dynamics, potentially benefiting miners who adopt it.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Bitmain_AsicBoost",
+        "mining_efficiency",
+        "miner_cost_savings"
+      ],
+      "rationale": "Enabling AsicBoost provides a competitive advantage to miners by reducing operational costs. This can lead to increased mining efficiency, potentially stabilizing or increasing hash rates, and indirectly supporting network security and decentralization."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n4a918947032c",
+      "title": "Bitcoin Futures Helped Cryptocurrency Market Achieve ‘More Sustainable Level’: CFTC Chairman",
+      "url": "https://finance.yahoo.com/news/bitcoin-futures-helped-cryptocurrency-market-164756675.html",
+      "summary": "CFTC Chairman J. Christopher Giancarlo suggested that the launch of regulated U.S. bitcoin futures contracts helped the cryptocurrency market reach a 'more sustainable level.' This perspective contrasts with some analyses that linked futures to the market's decline. The statement implies that regulated derivatives can bring a degree of maturity and stability to the volatile crypto market, potentially attracting more institutional participation over time.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "CFTC_chairman_statement",
+        "bitcoin_futures_impact",
+        "market_sustainability"
+      ],
+      "rationale": "The CFTC Chairman's view that futures contributed to market sustainability suggests a positive regulatory outlook. This could encourage further regulated product development and institutional investment, fostering a more mature market environment."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n4540ae0533bd",
+      "title": "Bitcoin won't top $9,000 by year's end, Novogratz says",
+      "url": "https://finance.yahoo.com/news/bitcoin-won-apos-t-top-135300452.html",
+      "summary": "Prominent investor Michael Novogratz predicts Bitcoin will not surpass $9,000 by the end of 2018, revising his earlier bullish forecast. He now expects Bitcoin to move above $10,000 in the first half of next year. This downward revision from a well-known figure in the crypto space signals a more cautious short-to-medium term outlook, potentially influencing market sentiment and investor expectations.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Novogratz_prediction",
+        "bearish_outlook",
+        "price_target_revision"
+      ],
+      "rationale": "Novogratz's revised, more conservative price prediction from a high-profile investor can dampen immediate bullish sentiment. It suggests that the market may face continued headwinds and a slower recovery than previously anticipated."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n536479123e5c",
+      "title": "NYSE Owner’s Bitcoin Futures Market Will Open in Mid-December",
+      "url": "https://finance.yahoo.com/news/nyse-owner-bitcoin-futures-market-000348277.html",
+      "summary": "Intercontinental Exchange (ICE), owner of the NYSE, will launch its physically-settled Bitcoin futures contract on December 12. The contracts will be backed by actual bitcoins held in ICE's Digital Asset Warehouse and cleared through ICE Clear U.S. This development signifies a major step towards regulated, institutional-grade Bitcoin derivatives, potentially increasing market legitimacy and attracting institutional capital.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 45
+      },
+      "impact_tags": [
+        "institutional",
+        "futures"
+      ],
+      "features_for_model": [
+        "ICE_Bakkt_launch",
+        "physically_settled_futures",
+        "institutional_derivatives"
+      ],
+      "rationale": "The upcoming launch of physically-settled Bitcoin futures by a major exchange owner like ICE is a significant bullish catalyst. It signals increased institutional acceptance and provides a regulated avenue for hedging and investment."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n9b833c1f7585",
+      "title": "Twitter locks Elon Musk's account after bizarre posts",
+      "url": "https://finance.yahoo.com/news/twitter-locks-elon-musk-apos-100215110.html",
+      "summary": "Elon Musk claims Twitter temporarily locked his account due to unusual posts, including one asking \"Wanna buy some Bitcoin?\" This incident, while potentially humorous, highlights the influence of high-profile figures like Musk on crypto discussions. His engagement, even if indirectly related to crypto, can generate short-term buzz and volatility, especially when tied to his social media activity.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "social"
+      ],
+      "features_for_model": [
+        "Elon_Musk_Twitter",
+        "social_media_buzz",
+        "crypto_mention"
+      ],
+      "rationale": "Elon Musk's mention of Bitcoin on Twitter, even in a quirky context, can create short-term speculative interest or confusion. While unlikely to cause major price swings, it adds to the general social media noise surrounding crypto."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nf3903169a598",
+      "title": "A Year After Launch, BTCPay Has Grown Larger Than Its Creator Expected",
+      "url": "https://finance.yahoo.com/news/launch-btcpay-grown-larger-creator-190022072.html",
+      "summary": "BTCPay, a decentralized payment processor alternative to BitPay, has seen significant growth beyond its creator's expectations in its first year. This indicates increasing demand for self-custody and decentralized payment solutions among merchants. The project's success suggests a growing trend towards user control and reduced reliance on centralized intermediaries, which could impact payment processing adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTCPay_growth",
+        "decentralized_payments",
+        "merchant_adoption"
+      ],
+      "rationale": "The strong growth of BTCPay signifies increasing merchant adoption of decentralized payment solutions. This trend, if sustained, can lead to greater Bitcoin usage for commerce, boosting its utility and demand."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n3134b928f0d9",
+      "title": "Norway Bitcoin Investor Murder: Suspect Arrested in France",
+      "url": "https://finance.yahoo.com/news/norway-bitcoin-investor-murder-suspect-212130947.html",
+      "summary": "The primary suspect in the murder of a Norwegian Bitcoin investor has been arrested in France. The investor was allegedly killed shortly after a cash-for-bitcoin trade. While the arrest is a positive development in the investigation, the underlying event highlights the risks associated with physical meetups for crypto transactions, potentially deterring some users from engaging in such activities.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "legal",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Norway_murder_arrest",
+        "crypto_crime",
+        "transaction_risk"
+      ],
+      "rationale": "The resolution of the murder case is positive, but the incident itself serves as a reminder of the security risks in over-the-counter crypto transactions. This could lead to increased caution among users, potentially impacting adoption of certain transaction methods."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n116eb90663ae",
+      "title": "New York Gives Coinbase Green Light to Offer Regulated Crypto Custody",
+      "url": "https://finance.yahoo.com/news/york-gives-coinbase-green-light-222056731.html",
+      "summary": "Coinbase Custody Trust Company has received approval from New York State regulators to operate as an independent Qualified Custodian. This allows Coinbase to hold client assets in a regulated manner, similar to traditional banks. This development is a significant step towards institutional adoption, providing a secure and compliant platform for larger players to engage with digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 30
+      },
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "custody"
+      ],
+      "features_for_model": [
+        "Coinbase_NY_custody",
+        "qualified_custodian",
+        "institutional_compliance"
+      ],
+      "rationale": "Regulatory approval for Coinbase's custody services in New York is a major win for institutional adoption. It provides a trusted and regulated environment for large investors to hold digital assets, potentially unlocking significant capital."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n536479123e5c",
+      "title": "NYSE Owner’s Bitcoin Futures Market Will Open in Mid-December",
+      "url": "https://finance.yahoo.com/news/nyse-owner-bitcoin-futures-market-000348277.html",
+      "summary": "Intercontinental Exchange (ICE), owner of the NYSE, will launch its physically-settled Bitcoin futures contract on December 12. The contracts will be backed by actual bitcoins held in ICE's Digital Asset Warehouse and cleared through ICE Clear U.S. This development signifies a major step towards regulated, institutional-grade Bitcoin derivatives, potentially increasing market legitimacy and attracting institutional capital.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 45
+      },
+      "impact_tags": [
+        "institutional",
+        "futures"
+      ],
+      "features_for_model": [
+        "ICE_Bakkt_launch",
+        "physically_settled_futures",
+        "institutional_derivatives"
+      ],
+      "rationale": "The upcoming launch of physically-settled Bitcoin futures by a major exchange owner like ICE is a significant bullish catalyst. It signals increased institutional acceptance and provides a regulated avenue for hedging and investment."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n3134b928f0d9",
+      "title": "Norway Bitcoin Investor Murder: Suspect Arrested in France",
+      "url": "https://finance.yahoo.com/news/norway-bitcoin-investor-murder-suspect-212130947.html",
+      "summary": "The primary suspect in the murder of a Norwegian Bitcoin investor has been arrested in France. The investor was allegedly killed shortly after a cash-for-bitcoin trade. While the arrest is a positive development in the investigation, the underlying event highlights the risks associated with physical meetups for crypto transactions, potentially deterring some users from engaging in such activities.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "legal",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Norway_murder_arrest",
+        "crypto_crime",
+        "transaction_risk"
+      ],
+      "rationale": "The resolution of the murder case is positive, but the incident itself serves as a reminder of the security risks in over-the-counter crypto transactions. This could lead to increased caution among users, potentially impacting adoption of certain transaction methods."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n3c5bcbf6f4d3",
+      "title": "NYSE Owner’s Bitcoin Futures Market Will Open in Mid-December",
+      "url": "https://finance.yahoo.com/news/nyse-owner-bitcoin-futures-market-000348277.html",
+      "summary": "Intercontinental Exchange (ICE), owner of the NYSE, will launch its physically-settled Bitcoin futures contract on December 12. The contracts will be backed by actual bitcoins held in ICE's Digital Asset Warehouse and cleared through ICE Clear U.S. This development signifies a major step towards regulated, institutional-grade Bitcoin derivatives, potentially increasing market legitimacy and attracting institutional capital.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 45
+      },
+      "impact_tags": [
+        "institutional",
+        "futures"
+      ],
+      "features_for_model": [
+        "ICE_Bakkt_launch",
+        "physically_settled_futures",
+        "institutional_derivatives"
+      ],
+      "rationale": "The upcoming launch of physically-settled Bitcoin futures by a major exchange owner like ICE is a significant bullish catalyst. It signals increased institutional acceptance and provides a regulated avenue for hedging and investment."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nf3903169a598",
+      "title": "A Year After Launch, BTCPay Has Grown Larger Than Its Creator Expected",
+      "url": "https://finance.yahoo.com/news/launch-btcpay-grown-larger-creator-190022072.html",
+      "summary": "BTCPay, a decentralized payment processor alternative to BitPay, has seen significant growth beyond its creator's expectations in its first year. This indicates increasing demand for self-custody and decentralized payment solutions among merchants. The project's success suggests a growing trend towards user control and reduced reliance on centralized intermediaries, which could impact payment processing adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTCPay_growth",
+        "decentralized_payments",
+        "merchant_adoption"
+      ],
+      "rationale": "The strong growth of BTCPay signifies increasing merchant adoption of decentralized payment solutions. This trend, if sustained, can lead to greater Bitcoin usage for commerce, boosting its utility and demand."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n116eb90663ae",
+      "title": "New York Gives Coinbase Green Light to Offer Regulated Crypto Custody",
+      "url": "https://finance.yahoo.com/news/york-gives-coinbase-green-light-222056731.html",
+      "summary": "Coinbase Custody Trust Company has received approval from New York State regulators to operate as an independent Qualified Custodian. This allows Coinbase to hold client assets in a regulated manner, similar to traditional banks. This development is a significant step towards institutional adoption, providing a secure and compliant platform for larger players to engage with digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 30
+      },
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "custody"
+      ],
+      "features_for_model": [
+        "Coinbase_NY_custody",
+        "qualified_custodian",
+        "institutional_compliance"
+      ],
+      "rationale": "Regulatory approval for Coinbase's custody services in New York is a major win for institutional adoption. It provides a trusted and regulated environment for large investors to hold digital assets, potentially unlocking significant capital."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-10-23",
+    "summary": "The market is showing mixed signals today. Long-term, the news regarding institutional adoption via regulated custody services (Coinbase in NY) and the upcoming ICE Bitcoin futures launch are bullish indicators, suggesting growing infrastructure and acceptance. However, concerns about regulatory scrutiny (SEC halts) and potential supply shocks (Mt. Gox payouts) continue to weigh on sentiment. Short-term, the focus remains on the development of regulated derivatives and the adoption of decentralized payment solutions like BTCPay, which are positive catalysts.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "Continued regulatory uncertainty from the SEC and other global bodies.",
+      "Potential for large sell-offs from Mt. Gox creditor payouts.",
+      "Macroeconomic factors impacting risk appetite for speculative assets.",
+      "Technical vulnerabilities or bugs in core protocols.",
+      "Negative sentiment from influential figures in finance."
+    ],
+    "watch_items": [
+      "ICE Bakkt futures launch progress",
+      "SEC statements on crypto ETFs",
+      "Mt. Gox payout announcements",
+      "Coinbase custody service adoption rates",
+      "Developments in decentralized payment solutions"
+    ]
+  }
+}

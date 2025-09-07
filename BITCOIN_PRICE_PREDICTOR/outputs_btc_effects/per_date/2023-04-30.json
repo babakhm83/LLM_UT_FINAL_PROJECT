@@ -1,0 +1,519 @@
+{
+  "date": "2023-04-30",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "ne4c3c825484e",
+      "title": "Ethereum soars 8% – closes in on $2k ahead of Shanghai upgrade",
+      "url": "https://finance.yahoo.com/news/ethereum-crypto-cryptocurrency-price-bitcoin-price-shanghai-upgrade-083018622.html",
+      "summary": "Ethereum's price surged towards $2,000, nearing a significant milestone ahead of its crucial Shanghai upgrade. This upgrade marks a major step in Ethereum's transition to its post-merge roadmap, potentially impacting staking rewards and network dynamics. Despite macroeconomic uncertainties and banking sector turmoil, Ethereum's upward trajectory suggests strong investor confidence in the upcoming technological advancements.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_Shanghai_upgrade",
+        "ETH_price_action",
+        "staking_rewards"
+      ],
+      "rationale": "The Shanghai upgrade is a fundamental network improvement for Ethereum, expected to unlock staked ETH and potentially increase sell pressure. However, the anticipation and successful execution often lead to price rallies. The proximity to $2k also indicates strong market sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na2e76194838c",
+      "title": "Weekly Market Wrap: Bitcoin hovers around US$28,000 as banking concerns return. Will it hit US$30,000?",
+      "url": "https://finance.yahoo.com/news/weekly-market-wrap-bitcoin-hovers-143829138.html",
+      "summary": "Bitcoin maintained a position around $28,000, with renewed concerns about the banking sector potentially driving further interest. Analysts noted increased activity on the Bitcoin network, suggesting a recovery in miner profitability consistent with the start of previous bullish cycles. The network's transaction costs remain a factor, but the overall trend indicates growing on-chain activity.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_level",
+        "banking_crisis_impact",
+        "network_activity",
+        "miner_profitability"
+      ],
+      "rationale": "The return of banking concerns often drives capital towards perceived safe havens like Bitcoin. Increased network activity and recovering miner profitability are positive on-chain indicators that can support sustained price appreciation."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n07c44b33525e",
+      "title": "How Jack Dorsey's Bitcoin Legal Defense Fund is fighting for the future of open source software",
+      "url": "https://finance.yahoo.com/news/jack-dorseys-bitcoin-legal-defense-161256117.html",
+      "summary": "The Bitcoin Legal Defense Fund, backed by Jack Dorsey, is defending Bitcoin developers against a lawsuit claiming Satoshi Nakamoto identity. This legal battle could have significant implications for the future of open-source software development, as it challenges the core principles of decentralized development. The outcome could influence regulatory approaches and developer liability in the crypto space.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_legal_defense",
+        "open_source_software",
+        "developer_liability",
+        "Satoshi_Nakamoto_claim"
+      ],
+      "rationale": "A successful lawsuit against Bitcoin developers could set a precedent for increased regulatory scrutiny and potential liability, impacting innovation and adoption. Conversely, a strong defense could solidify protections for open-source projects."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n0c424c2c4c91",
+      "title": "3 Crypto Stocks to Buy as Bitcoin Surges Once Again",
+      "url": "https://finance.yahoo.com/news/3-crypto-stocks-buy-bitcoin-025114462.html",
+      "summary": "Bitcoin's recent surge, up 64% in the first quarter, signals the end of the crypto winter and presents opportunities in related stocks. Factors contributing to Bitcoin's rally include oversold conditions, a weaker US dollar, and the upcoming halving event in April 2024. These elements suggest a potentially bullish trend for the broader crypto market and associated equities.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_halving_cycle",
+        "USD_weakness",
+        "crypto_stocks",
+        "crypto_winter_end"
+      ],
+      "rationale": "The confluence of a recovering market, a weakening dollar, and the anticipation of the Bitcoin halving event creates a favorable environment for crypto-related investments, including stocks."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n484163b75d29",
+      "title": "Circle calls on Congress to urgently pass stablecoin legislation amid SVB crisis",
+      "url": "https://finance.yahoo.com/news/circle-calls-on-congress-to-urgently-pass-stablecoin-legislation-amid-svb-crisis-171339369.html",
+      "summary": "Stablecoin issuer Circle is urging Congress to expedite stablecoin regulation following the Silicon Valley Bank (SVB) crisis, which temporarily de-pegged Circle's USDC. The call highlights the need for clear regulatory frameworks to ensure stability and trust in the digital asset ecosystem. The urgency stems from the market's reaction to banking instability, underscoring the interconnectedness of traditional finance and crypto.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "stablecoin_legislation",
+        "USDC_depeg_event",
+        "SVB_crisis_impact",
+        "regulatory_clarity"
+      ],
+      "rationale": "The push for stablecoin legislation is a significant long-term development. Clarity could foster institutional adoption, but overly restrictive rules could stifle innovation. The SVB event amplified this need."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n4b445ce5e882",
+      "title": "This Upgrade Could Make It Harder for Governments to Censor Bitcoin",
+      "url": "https://finance.yahoo.com/news/upgrade-could-harder-governments-censor-192452096.html",
+      "summary": "A potential Bitcoin upgrade aims to enhance privacy by encrypting node communications, making it more difficult for governments and ISPs to conduct 'man-in-the-middle' attacks. This development could bolster Bitcoin's censorship resistance, a core tenet of its decentralized nature. Increased privacy features often correlate with greater adoption and network resilience.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Bitcoin_upgrade",
+        "node_encryption",
+        "censorship_resistance",
+        "privacy_enhancement"
+      ],
+      "rationale": "Improvements to Bitcoin's privacy and censorship resistance are fundamental to its value proposition as a decentralized currency. Such upgrades can attract users seeking greater control and security."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n190022ffc702",
+      "title": "Grayscale CEO Expects Decision on Attempt to Overturn SEC's ETF Rejection by End of 3Q",
+      "url": "https://finance.yahoo.com/news/grayscale-ceo-expects-decision-attempt-231736346.html",
+      "summary": "Grayscale anticipates a decision on its bid to convert the Grayscale Bitcoin Trust (GBTC) into a spot Bitcoin ETF by the end of the third quarter. The SEC's rejection last year remains a key hurdle. A positive decision could unlock significant inflows into Bitcoin via a regulated ETF product, potentially boosting its price and institutional adoption.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "GBTC_ETF_conversion",
+        "SEC_decision",
+        "spot_ETF_approval",
+        "institutional_inflows"
+      ],
+      "rationale": "The potential approval of a spot Bitcoin ETF is a major catalyst for institutional adoption. Grayscale's ongoing legal battle and the upcoming decision are closely watched by the market."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n3bdd4002b005",
+      "title": "Bitcoin surpasses $26,000—a 9-month high—in wake of Silicon Valley Bank collapse",
+      "url": "https://finance.yahoo.com/news/bitcoin-surpasses-26-000-9-152044109.html",
+      "summary": "Bitcoin breached $26,000, reaching a nine-month high, following the collapse of Silicon Valley Bank (SVB). This surge suggests a flight to digital assets as a perceived safe haven amid traditional banking instability. The move above the $25,000 resistance level indicates growing bullish momentum, with Ether also seeing gains.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_milestone",
+        "SVB_collapse_impact",
+        "banking_crisis_sentiment",
+        "safe_haven_demand"
+      ],
+      "rationale": "The SVB collapse and subsequent banking sector concerns have directly correlated with a significant price increase for Bitcoin, positioning it as an alternative store of value."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n89bad0169404",
+      "title": "Here's the outlook for bitcoin as the cryptocurrency struggles to reclaim the all-important $30,000 technical level",
+      "url": "https://finance.yahoo.com/news/heres-outlook-bitcoin-cryptocurrency-struggles-145238105.html",
+      "summary": "Bitcoin is at a critical technical juncture, needing to decisively break above $30,000 to sustain its upward momentum towards $35,200. Failure to reclaim this level could lead to a pullback towards $25,200. The cryptocurrency has already seen a 76% year-to-date rally, highlighting its volatility and the importance of key resistance levels.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical_analysis",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_resistance_level",
+        "technical_outlook",
+        "market_sentiment",
+        "price_correction_risk"
+      ],
+      "rationale": "The $30,000 level is a significant psychological and technical barrier. A decisive break would confirm bullish sentiment, while a rejection could signal a short-term correction."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n3c3b44e00a8b",
+      "title": "Bitcoin's Biggest Bull Case: Bank Turmoil and the Regional Banking Crisis",
+      "url": "https://finance.yahoo.com/news/bitcoins-biggest-bull-case-bank-163415356.html",
+      "summary": "The ongoing regional banking crisis, marked by several bank collapses, presents a strong bull case for Bitcoin. As traditional financial institutions face instability, investors are increasingly turning to cryptocurrencies like Bitcoin as a hedge and a more resilient alternative. Bitcoin's year-to-date performance significantly outperforms traditional banking indices, underscoring this trend.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "banking_crisis_driver",
+        "BTC_as_hedge",
+        "institutional_flight_to_safety",
+        "traditional_finance_instability"
+      ],
+      "rationale": "The systemic issues within the traditional banking sector directly fuel demand for Bitcoin as a decentralized and potentially more stable asset, creating a powerful tailwind for its price."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n5f0b072dc831",
+      "title": "Why Everyone Is Keeping a Close Eye on Mt. Gox, US Gov Bitcoin Wallets",
+      "url": "https://finance.yahoo.com/news/why-everyone-keeping-close-eye-120102252.html",
+      "summary": "False reports of large Bitcoin movements from Mt. Gox and US government wallets caused a sharp, albeit temporary, price dip. The incident highlights market sensitivity to news regarding dormant or controlled Bitcoin holdings. While the alarm was false, the attention drawn to these wallets indicates potential future impact if actual movements occur.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Mt_Gox_wallets",
+        "US_gov_wallets",
+        "dormant_BTC_movement",
+        "market_volatility_trigger"
+      ],
+      "rationale": "The market reacted strongly to rumors of large BTC movements, indicating sensitivity. While this instance was a false alarm, any future confirmed movements from these wallets could trigger significant price action."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nedc0b1ab8ac7",
+      "title": "Bitcoin Transactions Soar as Ordinals Barrel Past 2.5 Million, Notch Daily Record",
+      "url": "https://finance.yahoo.com/news/bitcoin-transactions-soar-ordinals-barrel-190655556.html",
+      "summary": "The Bitcoin Ordinals protocol achieved a new daily record for inscriptions, exceeding 200,000. This surge in activity indicates sustained interest in inscribing digital assets on the Bitcoin blockchain, comparable to NFTs on Ethereum. The increasing transaction volume driven by Ordinals could impact network fees and congestion.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ordinals_inscriptions",
+        "BTC_transaction_volume",
+        "network_fees",
+        "on-chain_activity"
+      ],
+      "rationale": "High transaction volume from Ordinals can lead to increased network fees and potentially slower confirmation times, which can be a short-term bullish signal for miners and a deterrent for small transactions."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nbffc5a9d7f2a",
+      "title": "First Mover Asia: Bitcoin, Ether Open Asia’s Trading Week Flat",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-ether-232133569.html",
+      "summary": "Bitcoin and Ether opened the Asian trading week flat, indicating a period of consolidation after recent market movements. Despite positive sentiment from the Consensus 2023 conference, U.S. regulatory actions remain a concern. The flat opening suggests a cautious market awaiting further catalysts.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BTC_opening_price",
+        "ETH_opening_price",
+        "market_consolidation",
+        "regulatory_headwinds"
+      ],
+      "rationale": "A flat opening suggests a lack of immediate buying or selling pressure, indicating a pause in momentum. The market is likely digesting recent events and awaiting clearer signals."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n5f0b072dc831",
+      "title": "Why Everyone Is Keeping a Close Eye on Mt. Gox, US Gov Bitcoin Wallets",
+      "url": "https://finance.yahoo.com/news/why-everyone-keeping-close-eye-120102252.html",
+      "summary": "False reports of Bitcoin movements from Mt. Gox and US government wallets caused a brief price drop. This event highlights the market's sensitivity to news about large holdings. While the specific report was erroneous, the underlying concern about potential future sales from these wallets remains a factor for traders.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Mt_Gox_BTC_movement",
+        "US_Gov_BTC_movement",
+        "market_sensitivity",
+        "dormant_wallet_activity"
+      ],
+      "rationale": "The market's sharp reaction to false news about large BTC movements underscores the potential impact of actual movements from these significant holdings."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nedc0b1ab8ac7",
+      "title": "Bitcoin Transactions Soar as Ordinals Barrel Past 2.5 Million, Notch Daily Record",
+      "url": "https://finance.yahoo.com/news/bitcoin-transactions-soar-ordinals-barrel-190655556.html",
+      "summary": "The Bitcoin Ordinals protocol saw a record number of inscriptions on Saturday, with over 223,000. This surge in activity, comparable to Ethereum NFTs, indicates strong user engagement with the protocol. The increased transaction volume could lead to higher network fees and congestion.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ordinals_protocol",
+        "BTC_transaction_volume",
+        "network_congestion",
+        "on-chain_activity_surge"
+      ],
+      "rationale": "Increased on-chain activity, driven by Ordinals, can lead to higher transaction fees, benefiting miners and potentially signaling increased demand for block space."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nde82ea8294eb",
+      "title": "Ohio Man Steals $21M in Bitcoin From Brother, Gets Four Years in Prison",
+      "url": "https://finance.yahoo.com/news/ohio-man-steals-712-bitcoin-211709072.html",
+      "summary": "An Ohio man was sentenced to prison for stealing 712 Bitcoin from his brother. This case highlights the risks associated with personal security and custody of digital assets. While a criminal event, it underscores the importance of robust security measures for individuals holding significant amounts of cryptocurrency.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 0
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "BTC_theft_incident",
+        "personal_custody_risk",
+        "criminal_prosecution",
+        "asset_security"
+      ],
+      "rationale": "While an isolated criminal incident, such news can create a minor negative sentiment around the security of holding large amounts of Bitcoin, especially if it involves family disputes."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nbffc5a9d7f2a",
+      "title": "First Mover Asia: Bitcoin, Ether Open Asia’s Trading Week Flat",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-ether-232133569.html",
+      "summary": "Bitcoin and Ether began the Asian trading week with flat prices, indicating a pause in recent market momentum. Despite positive sentiment from the Consensus 2023 conference, regulatory concerns in the U.S. persist. This sideways movement suggests market participants are awaiting clearer direction.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BTC_flat_open",
+        "ETH_flat_open",
+        "market_consolidation",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "A lack of significant price movement at the start of the week suggests a market in equilibrium, with traders likely waiting for new information or trends to emerge."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n5f0b072dc831",
+      "title": "Why Everyone Is Keeping a Close Eye on Mt. Gox, US Gov Bitcoin Wallets",
+      "url": "https://finance.yahoo.com/news/why-everyone-keeping-close-eye-120102252.html",
+      "summary": "A false report about Bitcoin movements from Mt. Gox and US government wallets caused a brief market dip. This incident highlights the sensitivity of the crypto market to news regarding large Bitcoin holdings. Although the report was inaccurate, the attention drawn to these wallets means any future confirmed movements could significantly impact prices.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Mt_Gox_wallets",
+        "US_Gov_wallets",
+        "dormant_BTC_supply",
+        "market_reaction_to_news"
+      ],
+      "rationale": "The market's overreaction to a false alarm about large BTC movements indicates that any actual movement from these significant wallets could trigger substantial price volatility."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nf73c5f6946c1",
+      "title": "This Week on Crypto Twitter: Tornado Cash Dev Alex Pertsev Returns! CZ Says He’s Not That Rich",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-tornado-cash-180027164.html",
+      "summary": "Bitcoin led a small market rally following news of First Republic Bank's deposit decline. However, cryptocurrencies are now largely shrugging off intraweek gains with no explosive price movement. AI and Grimes' royalty offers were also hot topics. The market appears to be in a holding pattern, influenced by both traditional finance news and emerging tech trends.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_market_rally",
+        "First_Republic_Bank_deposits",
+        "AI_in_crypto",
+        "market_stagnation"
+      ],
+      "rationale": "The initial rally driven by traditional banking news has subsided, leaving the market flat. This suggests a lack of strong conviction in either direction without new catalysts."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nedc0b1ab8ac7",
+      "title": "Bitcoin Transactions Soar as Ordinals Barrel Past 2.5 Million, Notch Daily Record",
+      "url": "https://finance.yahoo.com/news/bitcoin-transactions-soar-ordinals-barrel-190655556.html",
+      "summary": "The Bitcoin Ordinals protocol set a new daily record with over 223,000 inscriptions, indicating robust user adoption. This surge in activity, similar to Ethereum's NFTs, suggests growing utility for the Bitcoin blockchain beyond simple transactions. The increased demand for block space could lead to higher transaction fees.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ordinals_protocol_growth",
+        "BTC_on-chain_activity",
+        "network_fee_pressure",
+        "digital_asset_inscription"
+      ],
+      "rationale": "The sustained high volume of Ordinals inscriptions points to increased utility and demand for Bitcoin block space, which can translate to higher transaction fees and a positive signal for miners."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-04-30",
+    "summary": "Bitcoin and Ethereum are showing signs of consolidation, opening the week flat after a period of volatility influenced by traditional banking news. The ongoing surge in Bitcoin Ordinals activity continues to drive transaction volume and potentially network fees. Meanwhile, long-term sentiment remains cautiously optimistic, with anticipation building around potential ETF approvals and the impact of macroeconomic factors like banking stability on Bitcoin's safe-haven appeal.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.4,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued regulatory uncertainty in the US impacting exchanges and projects.",
+      "Potential for renewed banking sector instability to cause broader market contagion.",
+      "Key technical resistance levels for Bitcoin ($30,000) not being decisively broken.",
+      "Unforeseen developments related to large dormant Bitcoin wallet movements (e.g., Mt. Gox, government holdings)."
+    ],
+    "watch_items": [
+      "US regulatory statements on crypto.",
+      "Grayscale's GBTC ETF decision timeline.",
+      "Bitcoin Ordinals transaction volume and fee market.",
+      "First Republic Bank's ongoing situation and its broader market impact."
+    ]
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "date": "2020-07-29",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "na2f2d90ffbb8",
+      "title": "Bitcoin’s mining difficulty hits a new all-time high",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-hits-time-155033950.html",
+      "summary": "Bitcoin's mining difficulty reached a new all-time high of 17.34 trillion, indicating increased network security and hash rate. This metric adjusts approximately every two weeks to maintain a consistent block generation time. The previous difficulty had seen some turbulence due to COVID-19 related shipment delays and the May halving event. The sustained high difficulty suggests robust miner participation and network health.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "mining_difficulty_ATH",
+        "network_hashrate_high"
+      ],
+      "rationale": "A consistently high mining difficulty indicates a strong and secure network, which is a fundamental positive for Bitcoin's long-term value proposition. It suggests that miners are actively participating and investing in the network, signaling confidence in its future."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n48f244fca68e",
+      "title": "BitGo Looks to Rally Exchange Clients Around FATF Travel Rule Product",
+      "url": "https://finance.yahoo.com/news/bitgo-looks-rally-exchange-clients-120000248.html",
+      "summary": "BitGo is offering API support for the Financial Action Task Force (FATF) Travel Rule, which requires identifying originators and beneficiaries of financial transactions over $1,000. This move aims to help crypto exchanges comply with global anti-money laundering (AML) standards by enabling the transfer of personally identifiable information with transactions. This addresses a key regulatory hurdle for institutional adoption and broader financial integration.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "FATF_compliance",
+        "AML_standards",
+        "institutional_adoption"
+      ],
+      "rationale": "Compliance with global AML regulations like the FATF Travel Rule is crucial for mainstream adoption. BitGo's solution facilitates this, reducing regulatory friction and paving the way for greater institutional participation and trust in the crypto ecosystem."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ned4b56834dab",
+      "title": "Bitcoin’s mining difficulty just had its biggest increase since early 2018",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-just-had-181518500.html",
+      "summary": "Bitcoin's mining difficulty saw its largest increase in over two years, rising by nearly 15%. This significant jump follows a period of difficulty reduction in March. The adjustment to 15.78 trillion indicates a substantial increase in the network's hash rate, reflecting greater mining power and network security. This metric is a key indicator of miner confidence and investment in the Bitcoin network.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "mining_difficulty_surge",
+        "hashrate_increase",
+        "network_security"
+      ],
+      "rationale": "The substantial increase in mining difficulty signals robust miner activity and investment, directly correlating with a higher network hash rate. This enhanced security and participation are positive long-term indicators for Bitcoin's resilience and value."
+    },
+    {
+      "pick_idx": 12,
+      "id": "ne86e20240b5c",
+      "title": "IOVlabs Joins Linux Foundation’s Hyperledger to Accelerate Enterprise and Government Adoption of Blockchain",
+      "url": "https://finance.yahoo.com/news/iovlabs-joins-linux-foundation-hyperledger-061000142.html",
+      "summary": "IOVlabs, parent company of Bitcoin-powered RSK and RIF, has joined Hyperledger, a Linux Foundation project focused on advancing blockchain technologies. This collaboration aims to leverage Hyperledger's open-source framework and IOVlabs' technologies to develop enterprise and government-oriented blockchain solutions. Joining Hyperledger signifies a push towards broader enterprise adoption of blockchain, potentially benefiting Bitcoin's ecosystem through increased integration and development.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "enterprise"
+      ],
+      "features_for_model": [
+        "Hyperledger_membership",
+        "enterprise_blockchain",
+        "government_adoption"
+      ],
+      "rationale": "IOVlabs' integration with Hyperledger signals a growing trend of enterprise and government interest in blockchain technology, with potential spillover benefits for Bitcoin's underlying infrastructure and development. This broadens the potential use cases and adoption pathways."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nbef0f821f6b3",
+      "title": "In the Aftermath of Hack, Lawmakers Blame Twitter, Not Bitcoin",
+      "url": "https://finance.yahoo.com/news/aftermath-hack-lawmakers-blame-twitter-215301228.html",
+      "summary": "Following a significant Twitter hack, lawmakers focused their attention on Twitter's security vulnerabilities rather than implicating Bitcoin. This is a positive development, as it suggests a potential de-linking of Bitcoin from illicit activities in the eyes of regulators, especially given past negative sentiment from figures like President Trump. The lack of regulatory backlash against Bitcoin in this instance is a relief for the industry.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "twitter_hack_impact",
+        "regulatory_focus_shift",
+        "bitcoin_decoupling"
+      ],
+      "rationale": "The lack of regulatory scrutiny on Bitcoin following the Twitter hack is a positive signal. It indicates that lawmakers are differentiating between the platform exploited and the underlying technology, potentially reducing negative regulatory sentiment towards Bitcoin."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n8f9b00f5e574",
+      "title": "Asset Manager Wilshire Phoenix Files to Launch New Bitcoin Investment Trust",
+      "url": "https://finance.yahoo.com/news/asset-manager-wilshire-phoenix-files-220528165.html",
+      "summary": "Wilshire Phoenix, an asset manager, has filed with the SEC to launch a new Bitcoin Commodity Trust. This follows their previous attempt to launch a Bitcoin ETF. The trust aims to provide investors with accessible and cost-efficient exposure to Bitcoin. Such filings from established financial institutions are a strong indicator of growing institutional interest and demand for regulated Bitcoin investment products.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "regulation"
+      ],
+      "features_for_model": [
+        "SEC_filing",
+        "Bitcoin_trust",
+        "institutional_demand"
+      ],
+      "rationale": "The filing by Wilshire Phoenix for a Bitcoin Commodity Trust signifies increasing institutional appetite for Bitcoin investment products. Regulatory approval of such trusts can unlock significant capital inflows, driving long-term price appreciation."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nc0db7a6639e6",
+      "title": "Comparing Bitcoin to Other Sectors – Risk vs. Value",
+      "url": "https://finance.yahoo.com/news/comparing-bitcoin-other-sectors-risk-203154409.html",
+      "summary": "This article discusses Bitcoin's rally past $10,000 and its comparison to precious metals. It highlights the belief that Bitcoin aligns with precious metals, suggesting it could act as a store of value or inflation hedge. The analysis suggests that Bitcoin's risk-reward profile is being increasingly viewed through a lens similar to gold, which could attract more traditional investors seeking diversification and protection against economic uncertainty.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "store_of_value"
+      ],
+      "features_for_model": [
+        "store_of_value_narrative",
+        "inflation_hedge",
+        "gold_correlation"
+      ],
+      "rationale": "The narrative of Bitcoin as 'digital gold' is strengthening, especially in the context of macroeconomic uncertainty and inflation concerns. This comparison to gold attracts investors seeking alternative assets, potentially driving long-term demand and price appreciation."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n6279b9abb014",
+      "title": "Kraken Launches Crypto Exchange Service in Australia",
+      "url": "https://finance.yahoo.com/news/kraken-launches-crypto-exchange-australia-081955832.html",
+      "summary": "Kraken, a major cryptocurrency exchange, has expanded its services to Australia, allowing local clients to fund accounts in Australian dollars (AUD) via instant deposit methods. This expansion marks Kraken's seventh national fiat on-ramp. Increased accessibility and fiat on-ramps in new geographical regions are crucial for broader adoption and liquidity, making it easier for new users to enter the market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "exchange_expansion",
+        "fiat_onramp_AUD",
+        "australian_market"
+      ],
+      "rationale": "Kraken's expansion into Australia with AUD support enhances accessibility for a new user base. Improved fiat on-ramps in various regions are vital for increasing global adoption and liquidity, contributing to Bitcoin's long-term growth."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nfe740a727655",
+      "title": "Odds of Bitcoin Hitting Record High in 2020 Are (Slightly) Up, Options Data Suggests",
+      "url": "https://finance.yahoo.com/news/odds-bitcoin-hitting-record-high-131647811.html",
+      "summary": "Options market data suggests a slightly increased probability of Bitcoin reaching its all-time high by the end of 2020, following its breach of key price resistance levels. The probability, though still low at 7%, indicates a shift in market sentiment and expectations. This suggests growing confidence among traders that Bitcoin could challenge previous highs, driven by recent price action.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "market_sentiment",
+        "options_data"
+      ],
+      "features_for_model": [
+        "options_implied_probability",
+        "record_high_target",
+        "price_resistance_break"
+      ],
+      "rationale": "The increasing probability, as indicated by options data, of Bitcoin reaching its all-time high reflects growing bullish sentiment. This suggests that market participants are pricing in further upside potential, which can become a self-fulfilling prophecy."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nc176b787bceb",
+      "title": "Money Reimagined: Bitcoin and Ethereum Are a DeFi Double Act",
+      "url": "https://finance.yahoo.com/news/money-reimagined-bitcoin-ethereum-defi-151427587.html",
+      "summary": "The amount of tokenized Bitcoin (WBTC) on the Ethereum network has significantly increased, doubling from 5,200 BTC to over 11,682 BTC in June. This growth highlights the increasing interoperability and utility of Bitcoin within the Decentralized Finance (DeFi) ecosystem. As Bitcoin gains utility in DeFi, it strengthens its overall value proposition and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "DeFi",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "WBTC_on_Ethereum",
+        "DeFi_integration",
+        "tokenized_bitcoin"
+      ],
+      "rationale": "The increasing use of Bitcoin within the Ethereum DeFi ecosystem, represented by WBTC, demonstrates Bitcoin's growing utility beyond a simple store of value. This integration enhances its relevance and potential for broader adoption, positively impacting its long-term outlook."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ne6a8a42f67ee",
+      "title": "The Crypto Daily – Movers and Shakers – July 29th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-005327552.html",
+      "summary": "Bitcoin experienced a slight pullback on July 28th, falling 1.02% to $10,932 after a significant rally. Despite intraday volatility, the near-term bullish trend remains intact. The price action showed resistance near $11,634 and support around $10,200, with a bearish close below $11,000. However, the overall trend suggests continued upward momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "daily_movers",
+        "bullish_trend_intact"
+      ],
+      "rationale": "Despite a minor pullback, the underlying bullish trend remains strong. The price action indicates consolidation before potentially testing higher levels, suggesting continued positive momentum in the very short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n3d3b56611b72",
+      "title": "First Mover: Crypto Traders ‘Greedy’ as Goldman Warns on Dollar",
+      "url": "https://finance.yahoo.com/news/first-mover-crypto-traders-greedy-114550435.html",
+      "summary": "Crypto traders are exhibiting increased greed, with Bitcoin at an 11-month high and Ether showing strong recent gains. This sentiment is occurring as Goldman Sachs warns about the dollar. The outperformance of crypto against traditional assets like gold and the S&P 500 suggests a strong risk-on appetite in the crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "macro",
+        "price_action"
+      ],
+      "features_for_model": [
+        "trader_greed",
+        "BTC_11_month_high",
+        "ETH_rally",
+        "USD_warning"
+      ],
+      "rationale": "The prevailing 'greedy' market sentiment, coupled with Bitcoin's strong performance and warnings on the dollar, suggests continued bullish momentum. This risk-on environment is likely to benefit Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf8aeb7e0e991",
+      "title": "3 Reasons Behind the Recent Bounce in Bitcoin: ETFs in Focus",
+      "url": "https://finance.yahoo.com/news/3-reasons-behind-recent-bounce-120012931.html",
+      "summary": "Bitcoin has seen a significant bounce, trading below $11,000 with a year-to-date gain of 57.3%. It's approaching its one-year high. The article suggests factors like global central bank stimulus are contributing to the rally. The focus on ETFs as a potential driver indicates institutional interest is a key catalyst for the recent price appreciation.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "price_action",
+        "macro",
+        "ETF"
+      ],
+      "features_for_model": [
+        "BTC_bounce",
+        "YTD_gain",
+        "central_bank_stimulus",
+        "ETF_focus"
+      ],
+      "rationale": "The strong bounce and approaching yearly highs, attributed partly to macro factors and potential ETF interest, suggest continued positive price action. This indicates a short-term bullish bias driven by market liquidity and growing institutional interest."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n604c2ae99868",
+      "title": "Bitcoin Looks Overbought but Analysts Play Down Drop Fears",
+      "url": "https://finance.yahoo.com/news/bitcoin-looks-overbought-analysts-play-124001290.html",
+      "summary": "Bitcoin has reached its highest level in 11 months, trading near $11,100, up 18% from a week ago. The 14-day RSI is above 80, indicating overbought conditions. However, analysts are downplaying fears of a significant drop, suggesting the rally is supported by underlying demand. This suggests potential for continued upward movement despite technical overbought signals.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "technical_analysis",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_overbought",
+        "RSI_high",
+        "analyst_sentiment",
+        "price_rally"
+      ],
+      "rationale": "While technical indicators suggest Bitcoin is overbought, analyst sentiment remains positive, downplaying immediate correction fears. This suggests that short-term price momentum may continue, with potential for further gains before any significant pullback."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n7bc6cac326cb",
+      "title": "Latest Bitcoin price and analysis (BTC to USD)",
+      "url": "https://finance.yahoo.com/news/latest-bitcoin-price-analysis-btc-130753603.html",
+      "summary": "Bitcoin is consolidating above $10,920 after a 21.36% weekly surge. However, its dominance is decreasing as altcoins like XRP and Litecoin gain momentum. Bitcoin's bullish posture remains as it approaches the monthly candle close. The shift in dominance suggests a potential rotation from Bitcoin into altcoins, but the overall market trend is still positive.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "price_action",
+        "market_dominance",
+        "altcoin_rotation"
+      ],
+      "features_for_model": [
+        "BTC_support_level",
+        "BTC_dominance_drop",
+        "altcoin_strength",
+        "monthly_close"
+      ],
+      "rationale": "Bitcoin is showing strength but losing dominance to altcoins. This suggests a potential short-term rotation, making the immediate direction uncertain. While the overall trend is still bullish, the shift in market dynamics warrants caution."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2f137a205d33",
+      "title": "Why Bitcoin Is Protected by the First Amendment",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-protected-first-amendment-131705071.html",
+      "summary": "This article argues that Bitcoin's nature as code and speech makes it protected under the First Amendment in the US. It criticizes regulators for viewing virtual currencies monolithically. This legal perspective could provide a strong defense against restrictive regulations, fostering a more favorable environment for Bitcoin's development and adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "First_Amendment_protection",
+        "code_as_speech",
+        "regulatory_challenge"
+      ],
+      "rationale": "The argument for Bitcoin's First Amendment protection could be a significant factor in future regulatory battles. A favorable legal stance would reduce regulatory uncertainty and encourage innovation, positively impacting short-term sentiment."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n0e940be91a59",
+      "title": "The Zacks Analyst Blog Highlights: JPM, T, MSFT, PYPL and INTC",
+      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-jpm-161204329.html",
+      "summary": "The Zacks Analyst Blog notes Bitcoin crossing $10K and potentially heading towards $15K. This highlights positive analyst sentiment and market expectations for further price appreciation. The mention of Bitcoin's price movement alongside major tech stocks suggests its increasing integration into broader financial market discussions.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "price_action",
+        "analyst_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_crosses_10K",
+        "analyst_target_15K",
+        "market_outlook"
+      ],
+      "rationale": "Positive analyst commentary and price targets for Bitcoin reinforce the current bullish sentiment. This can attract further buying pressure in the short term, supporting the upward price trend."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n23aaef6295c2",
+      "title": "Coinbase Now Offers 2% Rewards on Dai Stablecoin Accounts",
+      "url": "https://finance.yahoo.com/news/coinbase-now-offers-2-rewards-173000765.html",
+      "summary": "Coinbase has launched a rewards program offering a 2% APY on Dai stablecoin holdings for users in several countries. This initiative aims to attract and retain users by providing yield on stablecoins, potentially increasing demand for Dai and indirectly benefiting the broader crypto ecosystem. It also signals Coinbase's continued expansion into DeFi-like services.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "DeFi",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinbase_rewards",
+        "DAI_stablecoin",
+        "APY_2percent",
+        "DeFi_services"
+      ],
+      "rationale": "Coinbase offering yield on stablecoins like Dai can attract more capital into the crypto space and increase liquidity. This move, while not directly impacting Bitcoin's price, contributes to the overall growth and adoption of digital assets."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nf0c1b8e15a11",
+      "title": "Bitcoin Scaling Tech Could Have Saved Companies and Users $500M in Fees: Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-scaling-tech-could-saved-192534942.html",
+      "summary": "A new report suggests that companies and users could have saved over $500 million in fees by utilizing updated Bitcoin scaling technologies. This highlights the potential for efficiency gains and cost reductions within the Bitcoin network. Improved scaling solutions can lead to lower transaction fees, making Bitcoin more attractive for everyday use and microtransactions.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "scalability",
+        "fees"
+      ],
+      "features_for_model": [
+        "scaling_tech_savings",
+        "transaction_fees",
+        "efficiency_gains",
+        "Veriphi_report"
+      ],
+      "rationale": "The potential for significant fee savings through better scaling technology is a positive development for Bitcoin's usability. Lower fees can encourage more on-chain activity and adoption for payments, boosting short-term sentiment."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nb11699d01106",
+      "title": "Market Wrap: Bitcoin Sticks to $11,000; Derivatives, DeFi Keep Growing",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-sticks-11-204327789.html",
+      "summary": "Bitcoin is trading around $11,236, showing resilience and staying above $11,000. Increased exchange volumes are fueling optimism for a potential long-term bull market. The growth in crypto derivatives and DeFi continues, indicating strong market activity and investor interest across various segments of the crypto ecosystem.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "price_action",
+        "derivatives",
+        "DeFi",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_sticks_to_11K",
+        "derivatives_growth",
+        "DeFi_growth",
+        "exchange_volume_increase"
+      ],
+      "rationale": "Bitcoin's ability to hold above $11,000, coupled with increasing trading volumes and growth in derivatives and DeFi, points to strong short-term bullish momentum. This indicates robust market participation and confidence."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-07-29",
+    "summary": "Bitcoin continues to show resilience, trading above $11,000, with analysts downplaying overbought concerns despite technical indicators. The market sentiment is largely bullish, fueled by macro factors like central bank stimulus and growing institutional interest, evidenced by ETF filings. While Bitcoin dominance is slightly waning as altcoins gain traction, the overall trend remains positive. Regulatory news, such as the focus on Twitter over Bitcoin in the aftermath of a hack, is also providing a more favorable environment.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Potential for profit-taking and short-term corrections due to overbought technicals.",
+      "Increasing altcoin dominance could divert some capital from Bitcoin.",
+      "Unforeseen regulatory developments or negative macro shifts.",
+      "The ongoing Twitter hack, while not directly impacting Bitcoin, could lead to broader tech sector scrutiny."
+    ],
+    "watch_items": [
+      "Bitcoin's ability to hold the $11,000 support level.",
+      "Developments regarding institutional Bitcoin investment products (e.g., ETF filings).",
+      "Altcoin performance and Bitcoin dominance shifts.",
+      "Macroeconomic data releases and central bank commentary."
+    ]
+  }
+}

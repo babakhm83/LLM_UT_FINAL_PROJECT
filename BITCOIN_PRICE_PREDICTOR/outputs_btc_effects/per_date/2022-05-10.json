@@ -1,0 +1,509 @@
+{
+  "date": "2022-05-10",
+  "long_term": [
+    {
+      "pick_idx": 7,
+      "id": "n13f4882cd6b3",
+      "title": "Investors May Turn From Crypto on Fed Interest Hike Hopes",
+      "url": "https://finance.yahoo.com/news/investors-may-turn-crypto-fed-023831337.html",
+      "summary": "The Federal Reserve's aggressive interest rate hikes are a significant headwind for cryptocurrencies. As the Fed increases its rate target, investors tend to move towards less risky assets, leading to declines in crypto markets. This trend suggests a potential shift away from speculative assets like Bitcoin as monetary policy tightens, impacting crypto's attractiveness as a risk-on investment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "risk_off_assets",
+        "crypto_market_decline"
+      ],
+      "rationale": "The article directly links Fed interest rate hikes to a potential investor shift away from crypto. This macro trend has a sustained impact on asset allocation and risk appetite, directly affecting Bitcoin's valuation over the medium to long term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n39cacda4308b",
+      "title": "Bitcoin (BTC) Back to Sub-$38,000 as Focus Shifts to Federal Reserve",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-back-sub-38-002924434.html",
+      "summary": "Bitcoin's price dropped below $38,000, reversing an early May bullish trend. Market anxiety surrounding the Federal Reserve's monetary policy is impacting the broader crypto market. Technical indicators for Bitcoin are showing weakness, with the price trading below its 50-day exponential moving average, indicating persistent selling pressure and a bearish short-to-medium term outlook.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "technical"
+      ],
+      "features_for_model": [
+        "Fed_policy_anxiety",
+        "BTC_price_below_EMA",
+        "market_sentiment"
+      ],
+      "rationale": "This news highlights the immediate impact of Fed policy on Bitcoin's price and technicals. The sustained bearish technical indicators suggest this trend could continue for several months, influencing investor sentiment and trading patterns."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n647c2713b8ee",
+      "title": "Bitcoin Miners Are Not Polluters Industry Group Tells EPA",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-not-polluters-industry-024841470.html",
+      "summary": "An industry group is refuting claims that crypto mining is environmentally damaging, arguing that power generators are the true polluters. This perspective suggests a need for greater lawmaker education on crypto mining's environmental impact. The stance taken by industry leaders like Michael Saylor and Block aims to counter negative narratives and potentially influence future regulatory approaches.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "miner_environmental_impact",
+        "regulatory_narrative",
+        "industry_advocacy"
+      ],
+      "rationale": "The ongoing debate around Bitcoin's environmental impact is crucial for long-term adoption and regulatory clarity. A positive resolution or continued industry advocacy could foster a more favorable environment for mining operations and, by extension, Bitcoin's infrastructure."
+    },
+    {
+      "pick_idx": 10,
+      "id": "naae29f53e733",
+      "title": "Bitcoin's 'tug-of-war' during Russia-Ukraine crisis stirs debate about the future",
+      "url": "https://finance.yahoo.com/news/bitcoins-tug-of-war-during-russia-ukraine-crisis-stirs-debate-about-the-future-210937628.html",
+      "summary": "The Russia-Ukraine conflict has created a 'tug-of-war' for Bitcoin, with its use cases debated, from legitimate donations to potentially sanction-evading flows. Bitcoin's price has been volatile, trading between $37,000 and $45,000, prompting discussions about its long-term value. This geopolitical event is testing Bitcoin's resilience and its role in global finance.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "geopolitical_risk",
+        "BTC_use_case_debate",
+        "sanctions_impact"
+      ],
+      "rationale": "Geopolitical events like the Russia-Ukraine crisis can significantly impact Bitcoin's narrative and adoption. The debate over its utility in such scenarios influences long-term investor perception and its potential as a global financial tool."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nbf29f76730b6",
+      "title": "Market Wrap: Bitcoin Rallies as Crypto Holders Accumulate",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-rallies-crypto-202054026.html",
+      "summary": "Bitcoin surged past $47,000, attempting to reverse its bearish start to the year. The rally saw Bitcoin up 15% over the past week, with altcoins showing even stronger performance relative to BTC. This suggests an increased appetite for risk among crypto investors, potentially signaling a shift in market sentiment and a growing interest in the broader crypto ecosystem.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_rally",
+        "altcoin_outperformance",
+        "risk_appetite"
+      ],
+      "rationale": "This news indicates a period of accumulation and increased risk appetite among crypto holders, leading to a rally in Bitcoin and altcoins. This positive sentiment and accumulation trend can sustain for several months, driving prices higher."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n79281bb7ead9",
+      "title": "Market Wrap: Bitcoin Pulls Back After Fed Chair's Comments; Volatility Oversold",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-pulls-back-201508201.html",
+      "summary": "Bitcoin dipped below $41,000 following Federal Reserve Chair Jerome Powell's comments on aggressive interest rate hikes. Powell indicated potential 50 basis point increments, which typically dampen economic growth and negatively impact speculative assets like stocks and cryptocurrencies. The market reacted negatively to the prospect of tighter monetary policy.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_comments",
+        "speculative_asset_headwind",
+        "market_reaction"
+      ],
+      "rationale": "Powell's hawkish stance directly signals a tightening monetary environment, which historically pressures risk assets. This has a sustained bearish impact on Bitcoin as it becomes less attractive relative to safer investments."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n2ed1d91bccc8",
+      "title": "Will Mortgages Be Impacted by Fed Interest Rate Hikes?",
+      "url": "https://finance.yahoo.com/news/mortgages-impacted-fed-interest-rate-171430067.html",
+      "summary": "The Federal Reserve's impending interest rate hikes could influence mortgage rates, though the direct correlation isn't always immediate. Long-term mortgage rates tend to follow the 10-year Treasury yield, which is itself influenced by various factors including Fed policy. This indicates a broader economic tightening that impacts borrowing costs across the board.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "mortgage_rates",
+        "treasury_yields"
+      ],
+      "rationale": "The article discusses the broader impact of Fed rate hikes on financial markets, including mortgage rates and Treasury yields. This signals a general tightening of financial conditions, which is typically bearish for risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n465db0b063a3",
+      "title": "BofA Initiates Coverage of Silvergate With ‘Buy’ Rating, Sees 50% Potential Upside",
+      "url": "https://finance.yahoo.com/news/bofa-initiates-coverage-silvergate-buy-134810420.html",
+      "summary": "Bank of America initiated coverage of Silvergate Capital with a 'Buy' rating, citing its strong position to benefit from stablecoin growth and payments. Silvergate's acquisition of Diem assets positions it well for the expanding use of stablecoins in payments and remittances. This institutional endorsement suggests growing confidence in the crypto infrastructure and its integration into traditional finance.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Silvergate_rating",
+        "stablecoin_adoption",
+        "institutional_endorsement"
+      ],
+      "rationale": "Positive institutional coverage of a crypto-focused financial institution like Silvergate signals growing mainstream acceptance and integration. This can attract more capital into the crypto ecosystem, benefiting Bitcoin."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n8aa09a81d243",
+      "title": "Peter Thiel calls Warren Buffett a ‘sociopathic grandpa from Omaha,’ taking aim at Bitcoin’s ‘enemies’ Jamie Dimon and Larry Fink",
+      "url": "https://finance.yahoo.com/news/peter-thiel-calls-warren-buffett-195556019.html",
+      "summary": "Venture capitalist Peter Thiel strongly criticized prominent financial figures like Warren Buffett, Jamie Dimon, and Larry Fink at the Bitcoin 2022 conference, labeling them as Bitcoin's 'enemies' and part of a 'gerontocracy' against the cryptocurrency. Thiel's vocal support and criticism of Bitcoin's detractors highlight the ongoing ideological battle and the growing influence of Bitcoin proponents in challenging traditional finance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Thiel_endorsement",
+        "anti_establishment_rhetoric",
+        "traditional_finance_critique"
+      ],
+      "rationale": "While primarily a sentiment piece, Thiel's strong advocacy and criticism of traditional finance figures can influence public perception and attract new investors to Bitcoin, contributing to its long-term adoption narrative."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nf163e418af81",
+      "title": "EXPLAINER: How cryptocurrencies work (and how they don't)",
+      "url": "https://finance.yahoo.com/news/explainer-cryptocurrencies-dont-044336938.html",
+      "summary": "Despite the persistent buzz around cryptocurrencies and blockchain technology, public understanding remains limited, with only 16% of Americans having invested in crypto in 2021. This low adoption rate, particularly among younger demographics (31% aged 18-29), indicates a significant gap in awareness and education. Skepticism persists among those not involved in the market.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_awareness",
+        "public_understanding",
+        "adoption_gap"
+      ],
+      "rationale": "The article highlights the low level of public understanding and adoption of cryptocurrencies. Increased education and awareness over the long term could significantly boost adoption, but the current gap suggests a slow growth trajectory."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n1fd5f6f0cf8d",
+      "title": "Stablecoin Terra's broken dollar peg hits wider crypto markets",
+      "url": "https://finance.yahoo.com/news/stablecoin-terras-broken-dollar-peg-062157834.html",
+      "summary": "TerraUSD (UST), a major stablecoin, lost a third of its value, causing significant fear among crypto investors and contributing to Bitcoin's drop below $30,000. Stablecoins are typically seen as safe havens, and UST's failure as an algorithmic stablecoin highlights systemic risks within the crypto market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "stablecoin",
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "UST_depeg",
+        "stablecoin_risk",
+        "market_contagion"
+      ],
+      "rationale": "The depegging of a major stablecoin like UST creates immediate contagion risk and liquidity concerns across the crypto market, directly impacting Bitcoin's price and volatility in the very short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0d7d05df44a6",
+      "title": "Crypto turmoil worsens as Bitcoin plummets below $30,000 and Terra’s stablecoin loses peg and falls to 66 cents",
+      "url": "https://finance.yahoo.com/news/crypto-turmoil-worsens-bitcoin-plummets-014431631.html",
+      "summary": "Bitcoin has fallen 50% from its November all-time high, dropping below $30,000. This decline is part of a broader crypto market downturn, with total market value shedding $1.6 trillion since November. The failure of Terra's stablecoin to maintain its peg exacerbates the market turmoil.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_crash",
+        "stablecoin",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_crash",
+        "UST_depeg",
+        "market_cap_loss"
+      ],
+      "rationale": "The sharp decline in Bitcoin and the broader crypto market, directly linked to the UST stablecoin issue, creates significant downward pressure and negative sentiment that will likely persist for several days."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n29e7fbae648c",
+      "title": "Bitcoin falls to fresh low as backers call for 'buy the dip'",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-backers-buy-dip-crypto-083741066.html",
+      "summary": "Bitcoin dropped below $30,000 for the first time since July 2021, with over $1 billion in Bitcoin longs liquidated. Despite the sharp fall, some heavy-weight investors are signaling a 'buy the dip' strategy. Bitcoin's correlation with traditional markets like the Nasdaq is increasing.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "market_sentiment",
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_below_30k",
+        "long_liquidations",
+        "buy_the_dip_sentiment"
+      ],
+      "rationale": "The significant liquidation of long positions and the breach of the $30,000 support level indicate strong selling pressure. While 'buy the dip' sentiment exists, the immediate impact is bearish, with potential for further downside in the short term."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n79f2cf878226",
+      "title": "Bitcoin Recovers to $32K After Dipping Below $30K to 10-Month Low",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-below-30k-amid-003404445.html",
+      "summary": "Bitcoin recovered to around $32,000 after briefly falling below $30,000, a 10-month low. This volatility is attributed to aggressive monetary tightening by the U.S. Federal Reserve and recession fears. The price action reflects a highly sensitive market reacting to macroeconomic signals.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_volatility",
+        "Fed_tightening",
+        "recession_fears"
+      ],
+      "rationale": "The sharp drop and subsequent partial recovery highlight extreme short-term volatility driven by macro concerns. The immediate outlook remains uncertain, with potential for further swings based on upcoming economic data."
+    },
+    {
+      "pick_idx": 41,
+      "id": "naaf9c133f7e0",
+      "title": "El Salvador snaps up US$15 mln in Bitcoin after price plunge",
+      "url": "https://finance.yahoo.com/news/el-salvador-snaps-us-15-025651424.html",
+      "summary": "El Salvador purchased 500 Bitcoins for $15.37 million, taking advantage of the price drop. President Nayib Bukele tweeted about the purchase, highlighting the strategy of 'buying the dip.' This action demonstrates continued government adoption and confidence in Bitcoin, even during market downturns.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "government"
+      ],
+      "features_for_model": [
+        "El_Salvador_buy",
+        "BTC_dip_buying",
+        "government_adoption"
+      ],
+      "rationale": "El Salvador's continued accumulation of Bitcoin during a price slump signals strong conviction and can provide a small, localized bullish sentiment, potentially encouraging other adopters."
+    },
+    {
+      "pick_idx": 20,
+      "id": "ne1442877c6b5",
+      "title": "UST Backer LFG Seeks $1B to Shore Up Stablecoin Peg: Report",
+      "url": "https://finance.yahoo.com/news/ust-backer-lfg-seeks-1b-204111857.html",
+      "summary": "The Luna Foundation Guard (LFG), supporting Terra's UST stablecoin, is reportedly seeking over $1 billion to restore its dollar peg. Talks are underway with potential investors like Jump, Celsius, and Alameda. The goal is to stabilize UST, which fell to 60 cents, by allowing them to purchase LUNA at a discount.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "stablecoin",
+        "liquidity",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "UST_peg_restoration",
+        "LFG_funding",
+        "stablecoin_contagion"
+      ],
+      "rationale": "The desperate attempt to raise funds to stabilize UST highlights the severity of the stablecoin crisis. This news reinforces negative sentiment and the risk of contagion, impacting Bitcoin's price in the immediate short term."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n7c9ff8ee5e5f",
+      "title": "Crypto Market Crash Leads to $1B in Liquidations",
+      "url": "https://finance.yahoo.com/news/crypto-market-crash-leads-1b-063859529.html",
+      "summary": "Crypto futures experienced over $1 billion in liquidations in the past 24 hours due to weak market sentiment and major assets losing key support levels. Bitcoin, Ether, and other cryptocurrencies saw significant drops. Terra's LUNA and its UST stablecoin also faced severe declines.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "market_crash",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "crypto_liquidations",
+        "market_sentiment",
+        "UST_depeg_impact"
+      ],
+      "rationale": "Massive liquidations signal extreme selling pressure and a deleveraging event in the crypto market, directly driven by the current market crash and stablecoin issues, leading to immediate bearish price action."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n4249c030a60d",
+      "title": "Market Wrap: Altcoins Outperform as Bitcoin Stabilizes Around $30K",
+      "url": "https://finance.yahoo.com/news/market-wrap-altcoins-outperform-bitcoin-203418376.html",
+      "summary": "Crypto markets showed less volatility as Bitcoin stabilized near $30,000, the bottom of its year-long trading range. Some analysts are cautious due to stablecoin market risks. However, altcoins are outperforming Bitcoin, suggesting a potential shift in risk appetite among traders.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 5
+      },
+      "impact_tags": [
+        "stablecoin",
+        "market_sentiment",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BTC_stabilization",
+        "altcoin_outperformance",
+        "stablecoin_risk_caution"
+      ],
+      "rationale": "While Bitcoin is stabilizing, the underlying risks from stablecoins and the mixed signals from altcoin outperformance create an uncertain short-term outlook. The market is watching for further developments in the stablecoin situation."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nc6452616c253",
+      "title": "Cryptoverse: Buying the dip? Bitcoin's a rates rookie",
+      "url": "https://finance.yahoo.com/news/cryptoverse-buying-dip-bitcoins-rates-051715278.html",
+      "summary": "Bitcoin has limited experience with rising interest rates, making it a 'rates rookie.' It has fallen alongside tech stocks after the Fed's recent rate hikes. Historically, Bitcoin's correlation with stocks was low during previous tightening cycles, but this is changing, posing risks for investors trying to capitalize on the current dip.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_rates_rookie",
+        "Fed_rate_hike_impact",
+        "stock_correlation"
+      ],
+      "rationale": "The article highlights Bitcoin's inexperience with rising interest rates, suggesting that its recent correlation with stocks during Fed tightening cycles is a new and potentially bearish factor for short-term price action."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n5f5a306f44a6",
+      "title": "Bitcoin Self-Custody Company Casa Raises $21M",
+      "url": "https://finance.yahoo.com/news/bitcoin-self-custody-company-casa-120000245.html",
+      "summary": "Casa, a Bitcoin self-custody company, raised $21 million to enhance its wallet product with financial identity functionality. Casa emphasizes users retaining control of their private keys, aligning with the 'be your own bank' ethos. This funding round indicates continued development in Bitcoin's core infrastructure and security.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 1,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Casa_funding",
+        "self_custody",
+        "financial_identity"
+      ],
+      "rationale": "Funding for self-custody solutions like Casa is a positive development for Bitcoin's ecosystem, reinforcing security and user control. While not a direct price driver, it supports long-term adoption and infrastructure growth."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-05-10",
+    "summary": "The crypto market is experiencing significant turmoil, primarily driven by the depegging of the TerraUSD (UST) stablecoin and broader macroeconomic concerns related to Federal Reserve interest rate hikes. Bitcoin has fallen sharply, breaching the $30,000 level for the first time in 10 months, leading to substantial liquidations across the market. While some investors are signaling a 'buy the dip' sentiment, the immediate outlook remains bearish due to contagion risks from stablecoin instability and ongoing macro headwinds.",
+    "scenario_probs": {
+      "bull": 0.2,
+      "base": 0.4,
+      "bear": 0.4
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Further contagion from UST stablecoin depeg.",
+      "Continued aggressive Fed monetary tightening.",
+      "Broader market risk-off sentiment impacting all risk assets.",
+      "Potential for increased regulatory scrutiny on stablecoins.",
+      "Liquidity crunch in the crypto market."
+    ],
+    "watch_items": [
+      "UST stablecoin stability",
+      "Federal Reserve statements and economic data (CPI)",
+      "Major exchange liquidity and order books",
+      "On-chain data for whale movements",
+      "Global equity market performance"
+    ]
+  }
+}

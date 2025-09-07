@@ -1,0 +1,553 @@
+{
+  "date": "2023-03-27",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nb2883cdd9c2d",
+      "title": "ETF Winners & Losers from the Banking Crisis",
+      "url": "https://finance.yahoo.com/news/etf-winners-losers-banking-crisis-173005627.html",
+      "summary": "The collapse of Silicon Valley Bank (SVB) and Signature Bank triggered widespread fear in the financial markets, leading to a sell-off in bank stocks. This event has implications for ETFs, potentially impacting those with significant exposure to regional banks. The government's intervention to protect depositors aimed to stabilize the system, but the broader impact on investor confidence and the financial sector's stability remains a key concern. The crisis highlights the interconnectedness of the financial system and the potential for contagion.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "banking_crisis",
+        "SVB_collapse",
+        "ETF_exposure",
+        "financial_stability"
+      ],
+      "rationale": "The banking crisis of early 2023 created significant uncertainty in the financial markets. While the immediate impact on Bitcoin was mixed, the long-term implications for institutional adoption and regulatory frameworks remain a key factor. The crisis could lead to stricter regulations or a flight to perceived safe-haven assets, including Bitcoin, depending on how the situation evolves."
+    },
+    {
+      "pick_idx": 2,
+      "id": "na10d598c86bc",
+      "title": "Bitcoin Sinks Below $27K as Federal Reserve, Powell Keep Focus on Inflation",
+      "url": "https://finance.yahoo.com/news/bitcoin-sinks-below-27k-federal-201230553.html",
+      "summary": "Bitcoin's price dropped below $27,000 following the Federal Reserve's decision to raise interest rates by a quarter point. Fed Chair Jerome Powell reiterated the central bank's commitment to combating inflation. This move signals a continued hawkish stance from the Fed, which could impact risk assets like cryptocurrencies. The market is closely watching the Fed's actions for clues on future monetary policy and its effect on economic growth and inflation.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "FOMC_meeting",
+        "interest_rate_hike",
+        "inflation_focus",
+        "Powell_comments"
+      ],
+      "rationale": "The Federal Reserve's continued focus on inflation and subsequent interest rate hikes generally create a less favorable environment for risk assets like Bitcoin. Higher interest rates increase the cost of capital and can reduce investor appetite for speculative investments, potentially leading to price depreciation."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n10372df25c3a",
+      "title": "Centralized intermediaries were cause of crypto failures in 2022, says Voorhees",
+      "url": "https://finance.yahoo.com/news/centralized-intermediaries-were-cause-crypto-152813566.html",
+      "summary": "Erik Voorhees, founder of ShapeShift, argues that the failures in the crypto industry during 2022 were primarily due to centralized intermediaries, not the underlying blockchain technology. Speaking at the DC Blockchain Summit, he highlighted that issues with platforms like FTX and Celsius stemmed from mismanagement and lack of transparency in centralized entities. This perspective emphasizes the importance of decentralization and robust risk management in the crypto space.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "centralized_failures",
+        "DeFi_advocacy",
+        "crypto_regulation",
+        "ShapeShift"
+      ],
+      "rationale": "This perspective suggests that the core technology of cryptocurrencies, particularly Bitcoin, remains sound despite the failures of centralized platforms. A focus on decentralized solutions and improved regulatory clarity for these entities could foster greater trust and adoption, benefiting Bitcoin in the long run."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nb1c15cf0e2a3",
+      "title": "Coinbase Furious as SEC Suggests It Will Take Enforcement Action",
+      "url": "https://finance.yahoo.com/news/coinbase-furious-sec-suggests-enforcement-140113440.html",
+      "summary": "Coinbase has received a Wells notice from the U.S. Securities and Exchange Commission (SEC), indicating potential enforcement action. CEO Brian Armstrong expressed frustration, stating the notice relates to staking and asset listings. He argued that Coinbase is highly selective in its listings and operates within the law. This development signals increased regulatory scrutiny on crypto exchanges and their services, potentially impacting the broader industry.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_enforcement",
+        "Coinbase_Wells_notice",
+        "staking_regulation",
+        "asset_listings"
+      ],
+      "rationale": "Increased regulatory action against major crypto players like Coinbase creates uncertainty and can lead to a more cautious investment climate. This could result in reduced liquidity, higher compliance costs, and a potential slowdown in institutional adoption, negatively impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nbdd8f03ae1fa",
+      "title": "Silvergate’s Struggles Will Likely Boost Stablecoins’ Role in Crypto Trading: Kaiko",
+      "url": "https://finance.yahoo.com/news/silvergate-struggles-likely-boost-stablecoins-234754228.html",
+      "summary": "Silvergate Capital's decision to wind down its operations and its SEN platform is expected to increase the importance of stablecoins in crypto trading. As a key banking partner for many digital asset firms, Silvergate's struggles highlight the need for more robust and diversified banking infrastructure for the crypto industry. The shift towards stablecoins could influence trading volumes and liquidity across various cryptocurrencies.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Silvergate_shutdown",
+        "stablecoin_adoption",
+        "crypto_liquidity",
+        "institutional_banking"
+      ],
+      "rationale": "The failure of Silvergate, a crypto-friendly bank, and the subsequent reliance on stablecoins for trading liquidity can have mixed effects. While stablecoins offer a bridge to fiat, their own regulatory scrutiny and potential for de-pegging events introduce risks. This could lead to more volatility and a less predictable trading environment."
+    },
+    {
+      "pick_idx": 13,
+      "id": "na4ea0d040d05",
+      "title": "Bitcoin Suisse Chairman Says EU Won’t Ban Crypto, but It May Seek to Contain It",
+      "url": "https://finance.yahoo.com/news/bitcoin-suisse-chairman-says-eu-230151689.html",
+      "summary": "Luzius Meisser, chairman of Bitcoin Suisse, suggests that the EU might adopt a 'containment' strategy for crypto rather than an outright ban. This approach would involve building a firewall between crypto and traditional finance. Such a strategy could allow the digital asset industry to survive and potentially thrive within the EU, albeit with clear boundaries. This regulatory approach could shape how crypto businesses operate within the European market.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "EU_regulation",
+        "crypto_containment",
+        "financial_firewall",
+        "MiCA_framework"
+      ],
+      "rationale": "The EU's approach to regulating crypto, focusing on 'containment' rather than a ban, could lead to a more structured and potentially safer environment for institutional adoption. However, strict containment measures might limit innovation and accessibility, creating a nuanced impact on Bitcoin's long-term growth."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ne1941b625425",
+      "title": "Bitcoin: Latest price collapse comes amid crypto bank fears",
+      "url": "https://finance.yahoo.com/news/bitcoin-latest-price-collapse-comes-113321405.html",
+      "summary": "Bitcoin experienced a price slump at the beginning of March, following a strong start to the year. The crypto market saw over $60 billion wiped out, largely driven by Bitcoin's decline. Uncertainty surrounding crypto-friendly bank Silvergate was cited as a primary cause for the flash crash. The failure to recover from this drop raised investor concerns that the positive momentum of early 2023 might be ending.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Silvergate_impact",
+        "crypto_bank_fears",
+        "market_liquidity",
+        "price_collapse"
+      ],
+      "rationale": "The collapse of Silvergate Bank and the subsequent market fears directly impacted Bitcoin's price, demonstrating the sensitivity of the crypto market to traditional financial system stability. This event highlights the interconnectedness and potential for contagion, suggesting that broader financial instability could lead to significant price drops."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n0194c857ade1",
+      "title": "UK Crypto Firms to Get Broad Laws, May Need New Authorization",
+      "url": "https://finance.yahoo.com/news/uk-crypto-firms-broad-laws-115505736.html",
+      "summary": "The UK is proposing new, comprehensive laws for crypto firms, potentially requiring a new authorization regime for companies operating within or serving UK clients. This move could position the UK as a leading jurisdiction in crypto regulation, possibly surpassing the EU. The industry has reacted positively to this proactive approach, suggesting it could foster greater clarity and trust in the market.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "UK_crypto_regulation",
+        "authorization_regime",
+        "regulatory_clarity",
+        "MiCA_comparison"
+      ],
+      "rationale": "Clear and comprehensive regulation in a major jurisdiction like the UK can attract institutional capital and foster broader adoption. While the specifics of the authorization regime are crucial, the move towards regulatory clarity is generally a positive long-term catalyst for Bitcoin."
+    },
+    {
+      "pick_idx": 33,
+      "id": "ndec27f47b697",
+      "title": "When Will Crypto Learn From the Mistakes of Banks?",
+      "url": "https://finance.yahoo.com/news/crypto-learn-mistakes-banks-152619110.html",
+      "summary": "The article discusses how the crypto industry can learn from the failures of traditional financial institutions like Silicon Valley Bank, Silvergate, and Signature Bank. It suggests that while some in crypto view these failures as validation of decentralized finance, traditional finance offers valuable infrastructure and risk assessment mechanisms. The piece questions whether the crypto industry will adopt these lessons to build a more robust and trustworthy ecosystem.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_vs_TradFi",
+        "risk_management",
+        "decentralization_lessons",
+        "regulatory_frameworks"
+      ],
+      "rationale": "The ongoing dialogue about learning from banking mistakes is crucial for the crypto industry's maturation. If the industry embraces better risk management and transparent practices, it could lead to increased trust and adoption. However, a failure to do so could result in further setbacks and regulatory crackdowns."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n824fdab6b6d3",
+      "title": "FTX Sues Grayscale Investments as It Faces Off with SEC over Bitcoin Trust ETF",
+      "url": "https://finance.yahoo.com/news/ftx-sues-grayscale-investments-faces-135653489.html",
+      "summary": "FTX Debtors are suing Digital Currency Group (DCG) over its refusal to allow Grayscale Bitcoin Trust (GBTC) investors to redeem their funds. This legal action involves approximately $250 million locked in DCG's trusts, which Alameda Research (another bankrupt FTX company) had invested in. Grayscale's inability to offer redemptions has impacted its investors and highlights ongoing disputes within the crypto ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "legal",
+        "ETF"
+      ],
+      "features_for_model": [
+        "FTX_lawsuit",
+        "Grayscale_GBTC",
+        "DCG_dispute",
+        "ETF_application"
+      ],
+      "rationale": "Legal battles involving major crypto entities like FTX and Grayscale can create negative sentiment and uncertainty. The outcome of these disputes, particularly concerning the potential for a Bitcoin ETF, could significantly influence institutional adoption and market perception."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nf8e9666cbca5",
+      "title": "Bitcoin gains as investors diversify amid worries about banking system; U.S. equity futures rise",
+      "url": "https://finance.yahoo.com/news/bitcoin-gains-investors-diversify-amid-033312059.html",
+      "summary": "Bitcoin and other cryptocurrencies saw gains as investors sought diversification amidst banking turmoil and the Fed's rate hike. U.S. equity futures also rose, indicating a broader market sentiment shift. This suggests a potential flight to perceived safe-haven assets, including Bitcoin, as traditional financial systems face instability.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "banking_turmoil",
+        "diversification_flows",
+        "equity_futures_rise",
+        "risk_on_sentiment"
+      ],
+      "rationale": "The news indicates a short-term positive correlation between banking system worries and Bitcoin's price, as investors seek alternative assets. This suggests a potential for continued upward momentum in the immediate days ahead."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n77dbf7ba709d",
+      "title": "Bitcoin rises, most top 10 cryptos drop, amid mixed signals on state of banking sector",
+      "url": "https://finance.yahoo.com/news/bitcoin-rise-most-top-10-101109330.html",
+      "summary": "Bitcoin experienced a rise while most other top cryptocurrencies declined. This divergence occurred amidst mixed signals regarding the banking sector's stability, with the IMF warning of potential financial risks. The acquisition of Silicon Valley Bank's assets by First Citizens BancShares provided some relief to U.S. investors.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "divergent_crypto_performance",
+        "banking_sector_signals",
+        "IMF_warning",
+        "SVB_acquisition_relief"
+      ],
+      "rationale": "Bitcoin's outperformance against other top cryptos suggests a flight to quality within the crypto market itself, potentially driven by its perceived stability amidst broader financial uncertainty. This could lead to a short-term consolidation or slight upward bias for BTC."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nf9cda30ba572",
+      "title": "Crypto Investigative Support Company Recognized in U.S. Department of Homeland Security",
+      "url": "https://finance.yahoo.com/news/crypto-investigative-support-company-recognized-120000377.html",
+      "summary": "BIGG Digital Assets Inc.'s subsidiary, Blockchain Intelligence Group, received a Homeland Security Investigations (HSI) Private Sector Partnership Award. This recognition highlights the growing importance of blockchain analytics and investigative tools for law enforcement. Such partnerships can foster greater trust and collaboration between the crypto industry and regulatory bodies.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockchain_analytics",
+        "law_enforcement_partnership",
+        "regulatory_compliance",
+        "investigative_technology"
+      ],
+      "rationale": "Positive recognition for blockchain intelligence firms by government agencies can signal a more collaborative approach to regulation, potentially reducing future friction and encouraging institutional adoption. This is a subtle positive signal for the ecosystem."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n0fc175c0f028",
+      "title": "MicroStrategy Pays Off Silvergate Loan, Buys More Bitcoin",
+      "url": "https://finance.yahoo.com/news/microstrategy-pays-off-silvergate-loan-122542696.html",
+      "summary": "MicroStrategy has prepaid its $205 million loan from Silvergate Bank and purchased an additional 6,455 bitcoins for approximately $150 million. This move demonstrates continued confidence in Bitcoin by a major corporate holder and reduces exposure to a failing crypto-friendly bank. The company's ongoing accumulation of Bitcoin signals strong conviction in its long-term value.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_buy",
+        "Silvergate_loan_payoff",
+        "corporate_bitcoin_holding",
+        "institutional_demand"
+      ],
+      "rationale": "MicroStrategy's continued accumulation of Bitcoin, coupled with the repayment of its Silvergate loan, is a strong signal of institutional conviction. This buying pressure, especially during a period of banking stress, can provide short-term support and positive sentiment for Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n805f82a55076",
+      "title": "MicroStrategy buys 6,555 Bitcoin worth US$150 mln",
+      "url": "https://finance.yahoo.com/news/microstrategy-buys-6-555-bitcoin-132904000.html",
+      "summary": "MicroStrategy acquired 6,555 Bitcoin for approximately $150 million, averaging $23,238 per coin, between mid-February and late March. This purchase adds to the company's substantial Bitcoin holdings, reinforcing its position as the largest corporate holder. The consistent buying strategy by MicroStrategy signals ongoing belief in Bitcoin's long-term value proposition.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_buy",
+        "corporate_bitcoin_accumulation",
+        "institutional_demand",
+        "Saylor_conviction"
+      ],
+      "rationale": "Similar to the previous point, MicroStrategy's active buying of Bitcoin provides direct demand and positive sentiment. This consistent accumulation by a prominent entity can influence short-term price action and market psychology."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n37f787e014cf",
+      "title": "US regulator sues top crypto exchange Binance, CEO for 'willful evasion'",
+      "url": "https://finance.yahoo.com/news/crypto-exchange-binance-ceo-sued-152538336.html",
+      "summary": "The U.S. Commodity Futures Trading Commission (CFTC) has sued Binance and its CEO, Changpeng Zhao, alleging illegal operations and a deficient compliance program. The lawsuit cites 'willful evasion' of U.S. law and a strategy of regulatory arbitrage. This action signifies a significant escalation in regulatory scrutiny for major crypto exchanges.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "CFTC_lawsuit",
+        "Binance_regulation",
+        "CEO_Zhao_sued",
+        "exchange_compliance"
+      ],
+      "rationale": "The lawsuit against Binance, the world's largest exchange, by a major U.S. regulator is a significant negative catalyst. It creates immediate uncertainty for the exchange and its users, potentially leading to reduced trading volumes, capital flight, and a broader negative sentiment across the crypto market."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nd6ef3944b9cd",
+      "title": "What impact will Ethereum’s Shanghai upgrade have on ETH and crypto markets?",
+      "url": "https://finance.yahoo.com/news/impact-ethereum-shanghai-upgrade-eth-090100411.html",
+      "summary": "Ethereum's upcoming Shanghai upgrade will allow staked ETH to be withdrawn for the first time. While concerns about sell pressure exist, the phased withdrawal process and the minimum staking requirement of 32 ETH are expected to mitigate immediate large-scale selling. The upgrade is a crucial step for Ethereum's scalability and user experience.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Ethereum_Shanghai_upgrade",
+        "ETH_staking_withdrawals",
+        "sell_pressure_mitigation",
+        "ETH_liquidity"
+      ],
+      "rationale": "The Shanghai upgrade is a significant event for Ethereum, potentially impacting ETH liquidity. While immediate sell pressure is expected to be limited, the ability to withdraw staked ETH could introduce selling pressure over time, creating a nuanced short-term impact on ETH and potentially influencing Bitcoin if capital shifts between the two."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n5c1381f28fd6",
+      "title": "First Mover Asia: Bitcoin Is Ready for a Consolidation Phase",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-ready-012118446.html",
+      "summary": "Bitcoin is testing the $28,000 mark, but analysts suggest a consolidation phase around $25,000 is possible. This indicates a potential pause in the recent rally as the market digests recent gains and awaits further catalysts. Decentralized derivatives platforms are noted to be experiencing liquidity shortages.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Bitcoin_consolidation",
+        "price_resistance",
+        "liquidity_shortage",
+        "market_digest"
+      ],
+      "rationale": "The expectation of a consolidation phase suggests that the immediate upward momentum might slow down. This could lead to sideways price action or minor pullbacks as the market finds a new equilibrium after recent gains."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nb0424e71e46a",
+      "title": "Macro Is Back to Moving the Digital Asset Markets",
+      "url": "https://finance.yahoo.com/news/macro-back-moving-digital-asset-210134390.html",
+      "summary": "Macroeconomic conditions have regained prominence in driving digital asset markets, overshadowing previous idiosyncratic events. The banking crisis and policy responses are now the primary influences, positively impacting digital assets at the expense of other asset classes. This shift indicates a renewed focus on broader economic trends.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "macro_influence",
+        "banking_crisis_impact",
+        "policy_response",
+        "asset_class_rotation"
+      ],
+      "rationale": "The renewed focus on macroeconomics, particularly the positive impact of the banking crisis on digital assets, suggests that Bitcoin may continue to benefit from this trend in the short term as investors seek alternatives to traditional finance."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nd52590c31cbe",
+      "title": "The ‘Skull of Satoshi’ Proves Bitcoin Mining Discourse Isn’t Dead",
+      "url": "https://finance.yahoo.com/news/skull-satoshi-proves-bitcoin-mining-174654213.html",
+      "summary": "An art installation by Benjamin Von Wong, funded by Ripple co-founder Chris Larsen, aims to change Bitcoin's proof-of-work (PoW) consensus algorithm to address environmental concerns. This initiative highlights the ongoing debate around Bitcoin's energy consumption and the potential for code changes, even if unlikely in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_mining_debate",
+        "PoW_consensus",
+        "environmental_concerns",
+        "code_change_advocacy"
+      ],
+      "rationale": "While unlikely to cause immediate price impact, the renewed discourse around Bitcoin's energy consumption and potential protocol changes can influence public perception and regulatory discussions. This could indirectly affect long-term adoption and sentiment."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n3413af731f3d",
+      "title": "Crypto-Related Stocks Drop Alongside Bitcoin on CFTC Binance Suit",
+      "url": "https://finance.yahoo.com/news/crypto-related-stocks-drop-alongside-153818123.html",
+      "summary": "Stocks of crypto-related companies, including Coinbase, Marathon Digital, Riot Blockchain, Hut 8 Mining, and MicroStrategy, experienced declines following the CFTC's lawsuit against Binance and its CEO. This broad market reaction underscores the interconnectedness of the crypto ecosystem and its sensitivity to regulatory actions against major players.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Binance_lawsuit_impact",
+        "crypto_stock_decline",
+        "Coinbase_stock",
+        "miner_stocks"
+      ],
+      "rationale": "The immediate sell-off in crypto-related stocks, including Bitcoin miners and exchanges, directly reflects the negative sentiment generated by the Binance lawsuit. This indicates a short-term bearish pressure on Bitcoin as well."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-03-27",
+    "summary": "Bitcoin showed resilience, gaining ground amid ongoing banking sector concerns, with investors seeking diversification. However, the regulatory landscape remains a significant factor, as evidenced by the CFTC's lawsuit against Binance, which triggered a broad sell-off in crypto-related stocks. MicroStrategy's continued Bitcoin accumulation and loan repayment provided a bullish signal, while Ethereum's upcoming Shanghai upgrade introduced some uncertainty regarding potential ETH sell pressure. Macroeconomic factors, particularly the banking crisis, continue to positively influence digital assets.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Escalation of regulatory actions against major crypto entities (e.g., Binance).",
+      "Unforeseen contagion from the ongoing banking sector stress.",
+      "Potential for increased ETH sell pressure post-Shanghai upgrade.",
+      "Negative shifts in broader macroeconomic sentiment or Fed policy.",
+      "Liquidity issues in decentralized derivatives markets."
+    ],
+    "watch_items": [
+      "Binance regulatory developments (CFTC lawsuit outcome).",
+      "Ethereum Shanghai upgrade impact on ETH price and liquidity.",
+      "Further news on banking sector stability and potential government interventions.",
+      "MicroStrategy's ongoing Bitcoin acquisition strategy.",
+      "Macroeconomic data releases (e.g., inflation, employment)."
+    ]
+  }
+}

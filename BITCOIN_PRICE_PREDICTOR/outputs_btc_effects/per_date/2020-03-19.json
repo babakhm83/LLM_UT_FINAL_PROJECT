@@ -1,0 +1,499 @@
+{
+  "date": "2020-03-19",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n64da67173df0",
+      "title": "Latest Bitcoin price and analysis (BTC to USD)",
+      "url": "https://finance.yahoo.com/news/latest-bitcoin-price-analysis-btc-121113406.html",
+      "summary": "Bitcoin's price action leading up to May's halving event is a significant long-term driver. The article notes a 'golden cross' (50 EMA crossing 200 EMA) as a bullish indicator, suggesting upward momentum. A break above $10,000 would confirm this trend, directly impacting future supply dynamics and potentially price appreciation as block rewards are halved.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "golden_cross",
+        "halving_anticipation",
+        "price_breakout_level"
+      ],
+      "rationale": "The halving event is a fundamental supply shock that historically correlates with price increases. The technical indicator of a golden cross further supports a bullish outlook for the medium to long term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0dcc707c99f1",
+      "title": "Ethereum’s ProgPoW Debate Is About Much More Than Mining",
+      "url": "https://finance.yahoo.com/news/ethereum-progpow-debate-much-more-223006084.html",
+      "summary": "The debate around Ethereum's ProgPoW algorithm highlights the challenges of decentralized decision-making and potential chain splits. This internal governance struggle can impact network stability and developer focus, potentially diverting resources from core protocol upgrades or scaling solutions. Such uncertainty can deter long-term investment and adoption.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ethereum_governance",
+        "progpow_debate",
+        "chain_split_risk"
+      ],
+      "rationale": "Ethereum's ability to effectively manage protocol upgrades and community consensus is crucial for its long-term viability. Contentious debates like ProgPoW can lead to fragmentation or slow down development, impacting its competitive position."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nab4aaa782b92",
+      "title": "New York power plant mines Bitcoin using excess energy",
+      "url": "https://finance.yahoo.com/news/2020-03-08-new-york-power-plant-mines-bitcoin.html",
+      "summary": "A New York power plant is utilizing excess energy to mine Bitcoin, generating significant daily BTC. This initiative demonstrates a novel approach to energy consumption in mining, potentially improving efficiency and reducing waste. Such innovative operational models can influence the cost-effectiveness of mining and attract further investment in the sector.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_efficiency",
+        "energy_utilization",
+        "behind_the_meter_mining"
+      ],
+      "rationale": "This represents a more sustainable and potentially profitable approach to Bitcoin mining, showcasing how traditional industries can integrate with crypto. It could lead to more efficient mining operations globally."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nab3963d8c0ef",
+      "title": "MIT Develops ‘Spider’ Tech to Enable More Efficient Off-Chain Crypto Transactions",
+      "url": "https://finance.yahoo.com/news/mit-develops-spider-tech-enable-140102682.html",
+      "summary": "MIT researchers have developed 'Spider' technology to improve the efficiency of off-chain cryptocurrency transactions, particularly for Layer 2 scaling solutions like the Lightning Network. Enhanced efficiency in off-chain payments can significantly boost transaction throughput and reduce fees, making cryptocurrencies more practical for everyday use and wider adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "layer2_scaling",
+        "lightning_network_efficiency",
+        "offchain_transactions"
+      ],
+      "rationale": "Improvements in scaling solutions are critical for Bitcoin's long-term adoption. More efficient off-chain transactions directly address scalability limitations, making the network more usable and attractive."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n7b42996f079a",
+      "title": "Here’s Why Interest Rates on Cryptocurrencies Could Be a Game-Changer",
+      "url": "https://finance.yahoo.com/news/why-interest-rates-cryptocurrencies-could-111500275.html",
+      "summary": "The growth of crypto lending platforms and the introduction of interest rates are becoming significant factors in crypto finance. These rates can attract new investors and encourage capital movement, potentially influencing asset valuation. This development signals increasing maturity in the crypto market, bridging traditional finance concepts with digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_lending",
+        "interest_rates",
+        "yield_generation"
+      ],
+      "rationale": "The integration of interest-bearing mechanisms into crypto markets mirrors traditional finance, potentially attracting institutional capital and increasing the utility and demand for digital assets."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n6f2a88f5c5d3",
+      "title": "How the Ethereum Foundation Got UNICEF to Embrace Blockchain",
+      "url": "https://finance.yahoo.com/news/ethereum-foundation-got-unicef-embrace-090000786.html",
+      "summary": "The Ethereum Foundation's partnership with UNICEF to explore blockchain technology for charitable initiatives is a significant adoption milestone. This collaboration demonstrates the real-world applicability of blockchain beyond speculative trading, potentially encouraging other major organizations to explore similar integrations. Such adoption builds legitimacy and broadens the use cases for cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "unicef_partnership",
+        "blockchain_for_good",
+        "real_world_adoption"
+      ],
+      "rationale": "Partnerships with established global organizations like UNICEF lend significant credibility to blockchain technology and cryptocurrencies, driving adoption and positive sentiment."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n4f9c3009d154",
+      "title": "UK Financial Service Provider to Coinbase, Bitstamp Awarded FCA Payments License",
+      "url": "https://finance.yahoo.com/news/uk-financial-provider-coinbase-bitstamp-134947688.html",
+      "summary": "A UK financial service provider supporting major crypto exchanges like Coinbase and Bitstamp has received an FCA payments license. This regulatory approval is crucial for crypto firms operating in the UK, especially given the reluctance of traditional banks. It signifies a more regulated and potentially safer environment for crypto businesses, fostering institutional trust and integration.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "fca_license",
+        "uk_regulation",
+        "crypto_banking"
+      ],
+      "rationale": "Regulatory clarity and licensing for crypto-focused financial services in major economies like the UK are vital for institutional adoption and market growth."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nd938467a6b6c",
+      "title": "India's top court strikes down RBI banking ban on cryptocurrency",
+      "url": "https://finance.yahoo.com/news/indias-top-court-quashes-rbi-054727271.html",
+      "summary": "India's Supreme Court has overturned the Reserve Bank of India's (RBI) ban on banks handling cryptocurrency transactions. This landmark decision effectively re-enables banking services for crypto exchanges and traders in India, which had previously led to a significant drop in trading volumes and the closure of businesses. The ruling is expected to revitalize the Indian crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "india_supreme_court",
+        "rbi_ban_lifted",
+        "crypto_banking_india"
+      ],
+      "rationale": "The lifting of the banking ban in India is a major regulatory win, opening up a large market for crypto adoption and significantly boosting liquidity and trading activity."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nef223d79daf1",
+      "title": "US DOJ Calls Bitcoin Mixing ‘a Crime’ in Arrest of Software Developer",
+      "url": "https://finance.yahoo.com/news/us-doj-calls-bitcoin-mixing-234538650.html",
+      "summary": "The US Department of Justice has labeled Bitcoin mixing as a crime, leading to the arrest of a software developer involved with a BTC mixer. This stance by the DOJ signals increased regulatory scrutiny on privacy-enhancing tools within the crypto space. Such actions could deter the development and use of mixers, potentially impacting privacy-focused aspects of cryptocurrencies and leading to greater transparency demands.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "doj_enforcement",
+        "bitcoin_mixer_crackdown",
+        "privacy_regulation"
+      ],
+      "rationale": "Increased regulatory action against privacy tools like mixers can create uncertainty and potentially lead to a less private crypto environment, which could be perceived negatively by some market participants."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n95fe77979fe6",
+      "title": "Bitcoin’s Halving Captures Growing Interest – Among Google Searchers",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-captures-growing-interest-100000047.html",
+      "summary": "Google search interest for 'bitcoin halving' has doubled, indicating growing public awareness and anticipation for the event. This surge in search queries suggests increasing retail interest and potential for new market participants to enter as the halving approaches. Higher retail interest often correlates with increased trading volume and price discovery.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "google_trends_halving",
+        "retail_interest",
+        "public_awareness"
+      ],
+      "rationale": "Rising public interest, as indicated by search trends, often precedes increased retail participation and can contribute to upward price momentum leading into significant events like the halving."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n2fd8e54ef555",
+      "title": "Crypto-market infrastructure creaks amid volatility test",
+      "url": "https://finance.yahoo.com/news/crypto-market-infrastructure-creaks-amid-064755427.html",
+      "summary": "The crypto market infrastructure experienced strain due to high volatility and volume spikes, with futures exchanges seeing liquidations and some major exchanges going offline. This indicates a fragility in the trading ecosystem under stress, potentially leading to temporary liquidity issues and increased price swings.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "exchange_outage",
+        "liquidity_crunch",
+        "futures_liquidations"
+      ],
+      "rationale": "Exchange outages and increased liquidations during high volatility periods directly impact market liquidity and can exacerbate price drops, creating a negative feedback loop in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "ndd8c72b9171d",
+      "title": "CME Bitcoin Options Volume Hits Record Low, While Bakkt Goes Weeks With No Trades",
+      "url": "https://finance.yahoo.com/news/cme-bitcoin-options-volume-hits-100010481.html",
+      "summary": "Demand for Bitcoin options on regulated exchanges like CME has significantly decreased, reaching record low volumes. Bakkt has also seen minimal trading activity. This suggests a lack of institutional interest or a wait-and-see approach from sophisticated traders amidst current market conditions, potentially indicating reduced price discovery or hedging activity.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "cme_options_volume",
+        "bakkt_volume",
+        "institutional_derivatives"
+      ],
+      "rationale": "Low volume in regulated derivatives markets like CME options can signal reduced institutional participation, which may lead to less price support and potentially lower volatility in the very short term, but also indicates a lack of conviction."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ne542cd161cae",
+      "title": "Coronacrisis as an Impulse for Faster Monetary System Digitalization",
+      "url": "https://finance.yahoo.com/news/coronacrisis-impulse-faster-monetary-system-111108264.html",
+      "summary": "The current crisis is seen as a catalyst for faster digitalization of monetary systems. Bitcoin's price has stabilized, and trading volumes remain consistent. Technical indicators suggest Bitcoin is oversold, implying potential for a short-term bounce. The narrative of digital currencies as a response to economic uncertainty could drive demand.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "monetary_digitalization",
+        "oversold_indicators",
+        "crisis_catalyst"
+      ],
+      "rationale": "The narrative of digitalization and the oversold technical indicators suggest a potential short-term recovery, especially if the market views Bitcoin as a hedge against traditional financial system instability."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n357bdfb922b7",
+      "title": "Judge Calls Out Kleiman Attorneys Over ‘Excessive’ Fees in Craig Wright Case",
+      "url": "https://finance.yahoo.com/news/judge-calls-kleiman-attorneys-over-150000451.html",
+      "summary": "A judge has criticized the legal fees claimed in the Craig Wright/Kleiman case, deeming them 'excessive.' This legal dispute, involving significant amounts of Bitcoin, could have implications for the ownership and distribution of a large BTC stash. Any resolution or significant development in this case could impact market sentiment and potentially unlock large BTC holdings.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "craig_wright_case",
+        "kleiman_lawsuit",
+        "excessive_fees"
+      ],
+      "rationale": "While the legal proceedings are ongoing, any significant ruling or development in the Craig Wright case, particularly concerning large BTC holdings, could introduce volatility or influence market sentiment."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n67cedeed2bfe",
+      "title": "Bitcoin shows resilience with 10% surge as stocks stutter",
+      "url": "https://finance.yahoo.com/news/bitcoin-shows-resilience-10-surge-160924812.html",
+      "summary": "Bitcoin experienced a 10% surge, outperforming struggling global stock markets. This resilience suggests a potential shift in narrative towards Bitcoin as a safe-haven asset. The price action is targeting resistance at $5,800, with a break above this level being crucial for continued upward momentum into the weekend and towards the halving.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "safe_haven_narrative",
+        "stock_market_divergence",
+        "price_resistance_level"
+      ],
+      "rationale": "Bitcoin's ability to rally while traditional markets decline strengthens its 'digital gold' narrative, potentially attracting capital and driving short-term price appreciation."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nc65daf7ee2d9",
+      "title": "Thousands of These Computers Were Mining Cryptocurrency. Now They’re Working on Coronavirus Research",
+      "url": "https://finance.yahoo.com/news/thousands-computers-were-mining-cryptocurrency-171005190.html",
+      "summary": "A major Ethereum miner, CoreWeave, is repurposing its GPU processing power for coronavirus research via Stanford's Folding@home project. While this impacts Ethereum's mining capacity, it highlights the broader utility of computing power and could indirectly influence sentiment towards decentralized technologies and their potential societal benefits.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "adoption"
+      ],
+      "features_for_model": [
+        "gpu_repurposing",
+        "folding_at_home",
+        "ethereum_mining_impact"
+      ],
+      "rationale": "This news is more directly relevant to Ethereum's hash rate but could indirectly affect Bitcoin sentiment by showcasing the flexibility of computing resources and the potential for crypto infrastructure to contribute to global issues."
+    },
+    {
+      "pick_idx": 10,
+      "id": "ndd8c72b9171d",
+      "title": "CME Bitcoin Options Volume Hits Record Low, While Bakkt Goes Weeks With No Trades",
+      "url": "https://finance.yahoo.com/news/cme-bitcoin-options-volume-hits-100010481.html",
+      "summary": "Demand for Bitcoin options on regulated exchanges like CME has significantly decreased, reaching record low volumes. Bakkt has also seen minimal trading activity. This suggests a lack of institutional interest or a wait-and-see approach from sophisticated traders amidst current market conditions, potentially indicating reduced price discovery or hedging activity.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "cme_options_volume",
+        "bakkt_volume",
+        "institutional_derivatives"
+      ],
+      "rationale": "Low volume in regulated derivatives markets like CME options can signal reduced institutional participation, which may lead to less price support and potentially lower volatility in the very short term, but also indicates a lack of conviction."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n67cedeed2bfe",
+      "title": "Bitcoin shows resilience with 10% surge as stocks stutter",
+      "url": "https://finance.yahoo.com/news/bitcoin-shows-resilience-10-surge-160924812.html",
+      "summary": "Bitcoin experienced a 10% surge, outperforming struggling global stock markets. This resilience suggests a potential shift in narrative towards Bitcoin as a safe-haven asset. The price action is targeting resistance at $5,800, with a break above this level being crucial for continued upward momentum into the weekend and towards the halving.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "safe_haven_narrative",
+        "stock_market_divergence",
+        "price_resistance_level"
+      ],
+      "rationale": "Bitcoin's ability to rally while traditional markets decline strengthens its 'digital gold' narrative, potentially attracting capital and driving short-term price appreciation."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n2fd8e54ef555",
+      "title": "Crypto-market infrastructure creaks amid volatility test",
+      "url": "https://finance.yahoo.com/news/crypto-market-infrastructure-creaks-amid-064755427.html",
+      "summary": "The crypto market infrastructure experienced strain due to high volatility and volume spikes, with futures exchanges seeing liquidations and some major exchanges going offline. This indicates a fragility in the trading ecosystem under stress, potentially leading to temporary liquidity issues and increased price swings.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "exchange_outage",
+        "liquidity_crunch",
+        "futures_liquidations"
+      ],
+      "rationale": "Exchange outages and increased liquidations during high volatility periods directly impact market liquidity and can exacerbate price drops, creating a negative feedback loop in the short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "ne542cd161cae",
+      "title": "Coronacrisis as an Impulse for Faster Monetary System Digitalization",
+      "url": "https://finance.yahoo.com/news/coronacrisis-impulse-faster-monetary-system-111108264.html",
+      "summary": "The current crisis is seen as a catalyst for faster digitalization of monetary systems. Bitcoin's price has stabilized, and trading volumes remain consistent. Technical indicators suggest Bitcoin is oversold, implying potential for a short-term bounce. The narrative of digital currencies as a response to economic uncertainty could drive demand.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "monetary_digitalization",
+        "oversold_indicators",
+        "crisis_catalyst"
+      ],
+      "rationale": "The narrative of digitalization and the oversold technical indicators suggest a potential short-term recovery, especially if the market views Bitcoin as a hedge against traditional financial system instability."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-03-19",
+    "summary": "Bitcoin showed resilience with a 10% surge, outperforming traditional markets and reinforcing its 'digital gold' narrative amidst the ongoing economic uncertainty driven by the coronavirus. However, the crypto market infrastructure creaked under volatility, with some exchanges experiencing issues, and institutional derivatives volume remains low. The upcoming halving event continues to be a key long-term driver, while short-term price action will be influenced by macro sentiment and any further infrastructure stability concerns.",
+    "scenario_probs": {
+      "bull": 0.5,
+      "base": 0.3,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued infrastructure instability and exchange outages could lead to liquidity crises and sharp price drops.",
+      "A broader market downturn in traditional assets could still drag down Bitcoin despite its recent resilience.",
+      "Regulatory uncertainty, as highlighted by the DOJ's stance on mixers, could create negative sentiment.",
+      "Low volume in derivatives markets suggests a lack of strong institutional conviction."
+    ],
+    "watch_items": [
+      "Exchange uptime and liquidity metrics",
+      "Global macroeconomic news and central bank actions",
+      "Developments in the Craig Wright/Kleiman legal case",
+      "Bitcoin halving anticipation and related search trends"
+    ]
+  }
+}

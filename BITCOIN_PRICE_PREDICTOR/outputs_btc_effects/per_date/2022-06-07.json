@@ -1,0 +1,499 @@
+{
+  "date": "2022-06-07",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "nae1d078a1d30",
+      "title": "The Lightning Network Is Bringing Payments Back to Bitcoin",
+      "url": "https://finance.yahoo.com/news/lightning-network-bringing-payments-back-135141305.html",
+      "summary": "The Lightning Network is presented as a solution to Bitcoin's scalability issues, aiming to enable faster and cheaper transactions. This development is crucial for Bitcoin's utility as a medium of exchange, potentially driving wider adoption and increasing its value proposition beyond a store of value. The article highlights the network's role in making Bitcoin practical for everyday payments, a key factor for long-term growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network_adoption",
+        "BTC_transaction_speed",
+        "BTC_transaction_cost"
+      ],
+      "rationale": "The development and adoption of the Lightning Network directly address Bitcoin's scalability limitations, which are critical for its long-term viability as a payment system. Increased transaction capacity and lower fees can lead to greater user adoption and, consequently, higher demand for BTC."
+    },
+    {
+      "pick_idx": 12,
+      "id": "naf50f7f36da6",
+      "title": "China seizes over 3,500 Bitcoin mining rigs, hikes electricity rates",
+      "url": "https://finance.yahoo.com/news/china-seizes-over-3-500-050100677.html",
+      "summary": "This news details China's continued crackdown on Bitcoin mining operations, including the seizure of mining rigs and increased electricity rates for any remaining operations. This action signifies a significant reduction in global Bitcoin mining hash rate originating from China, potentially impacting network security in the short term but also pushing mining operations towards more geographically diverse and potentially more regulatory-friendly regions.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "miner"
+      ],
+      "features_for_model": [
+        "China_mining_ban",
+        "hash_rate_distribution",
+        "miner_relocation"
+      ],
+      "rationale": "China's aggressive stance against Bitcoin mining reduces the global hash rate and can lead to temporary price pressure due to forced selling by miners. However, it also encourages decentralization of mining operations, which is a long-term positive for network security."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n8cb43ad7c8d5",
+      "title": "Bitcoin voted official currency of Central African Republic",
+      "url": "https://finance.yahoo.com/news/bitcoin-voted-official-currency-central-195958332.html",
+      "summary": "The Central African Republic (CAR) has officially adopted Bitcoin as legal tender, following El Salvador's precedent. This move, while from a smaller economy, signals a growing trend of nation-states exploring and integrating cryptocurrencies into their financial systems. It could encourage other developing nations to consider similar policies, fostering broader global adoption and potentially increasing demand for Bitcoin.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "nation_state_adoption",
+        "CAR_legal_tender",
+        "emerging_market_crypto"
+      ],
+      "rationale": "While the CAR is a small economy, its adoption of Bitcoin as legal tender is a significant symbolic step. It contributes to the narrative of Bitcoin as a global currency and could influence other countries, especially those with high inflation or unstable financial systems, to consider similar policies."
+    },
+    {
+      "pick_idx": 27,
+      "id": "ndc86f5282a8e",
+      "title": "Argentina's banks offer bitcoin trading as inflation soars over 50%",
+      "url": "https://finance.yahoo.com/news/argentina-banks-bitcoin-trading-inflation-soars-053030041.html",
+      "summary": "In Argentina, where inflation exceeds 50%, major banks are now offering Bitcoin trading services. This indicates a growing demand for alternative assets and a hedge against currency devaluation. The integration of Bitcoin trading into traditional banking infrastructure in a high-inflation environment suggests increasing mainstream acceptance and utility for BTC as a store of value.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Argentina_inflation",
+        "bank_crypto_offering",
+        "BTC_inflation_hedge"
+      ],
+      "rationale": "High inflation in Argentina is driving demand for Bitcoin as a hedge. The fact that major banks are offering BTC trading services signifies institutional adoption and provides a more accessible on-ramp for local citizens, potentially increasing demand and price."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nde28d8fe4278",
+      "title": "Bitcoin Still Fighting to Maintain $40K As More Countries Adopt Its Use",
+      "url": "https://finance.yahoo.com/news/bitcoin-still-fighting-maintain-40k-172716241.html",
+      "summary": "This article discusses Bitcoin's struggle to maintain the $40,000 level amidst broader market fears of inflation and recession. It notes that despite this price pressure, more countries are looking to adopt Bitcoin. This highlights a dichotomy: macroeconomic headwinds are creating short-term selling pressure, while increasing global adoption efforts could provide long-term support.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_support",
+        "global_adoption_trend",
+        "inflation_recession_impact"
+      ],
+      "rationale": "The ongoing battle to maintain key price levels ($40K) reflects macroeconomic pressures. However, the concurrent trend of increasing country-level adoption suggests a growing fundamental demand that could outweigh short-term market sentiment over the long term."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n3e116bb645dc",
+      "title": "Cryptoverse: Buying the dip? Bitcoin's a rates rookie",
+      "url": "https://finance.yahoo.com/news/cryptoverse-buying-dip-bitcoins-rates-051715785.html",
+      "summary": "This article points out Bitcoin's limited history with rising interest rates, contrasting it with its performance during the Fed's previous tightening cycle. As interest rates rise, Bitcoin's correlation with risk assets like tech stocks increases, making it vulnerable to macro-economic policy shifts. This suggests that future price action will be heavily influenced by central bank monetary policy.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BTC_interest_rate_sensitivity",
+        "Fed_policy_impact",
+        "risk_asset_correlation"
+      ],
+      "rationale": "Bitcoin's behavior in a rising interest rate environment is largely untested. As central banks tighten monetary policy, Bitcoin's correlation with risk assets suggests it could face significant headwinds, making its price trajectory highly dependent on macro factors."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n6a4ee45ca228",
+      "title": "Goldman Sachs Explores the Tokenization of Financial Instruments and NFTs",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-explores-tokenization-financial-035754019.html",
+      "summary": "Goldman Sachs is exploring the tokenization of financial instruments and NFTs, indicating a growing interest from traditional financial institutions in blockchain technology and digital assets. This exploration suggests a potential future where traditional finance integrates with the digital asset space, which could lead to increased institutional adoption and new use cases for blockchain technology.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_tokenization",
+        "institutional_blockchain_adoption",
+        "NFT_financial_integration"
+      ],
+      "rationale": "The exploration of tokenization by a major financial institution like Goldman Sachs signals a significant shift towards integrating traditional finance with blockchain technology. This could unlock new markets and drive institutional capital into the digital asset space."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n15b31445f206",
+      "title": "Ethereum’s Dark Underbelly Shows That Even in Crypto, Trust Matters",
+      "url": "https://finance.yahoo.com/news/ethereum-dark-underbelly-shows-even-181435559.html",
+      "summary": "This article delves into the complexities and trust issues within the Ethereum ecosystem, referencing a book that highlights internal conflicts during its development. It underscores the importance of trust and transparency in the crypto space, suggesting that projects with strong governance and clear communication are more likely to succeed long-term. This sentiment is crucial for investor confidence in any blockchain project.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethereum_governance",
+        "crypto_trust_factor",
+        "blockchain_transparency"
+      ],
+      "rationale": "The article highlights the importance of trust and transparency in the crypto space, using Ethereum's development as a case study. While not directly impacting Bitcoin's price, it sets a precedent for what investors value in blockchain projects, influencing sentiment towards the broader crypto market."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n6c3f9ea6ce8e",
+      "title": "The 3 Best Micro-Cap Stocks to Buy for June 2022",
+      "url": "https://finance.yahoo.com/news/3-best-micro-cap-stocks-115511187.html",
+      "summary": "This article discusses the potential of micro-cap stocks, suggesting that while speculative, they can offer unique opportunities when they fly under the radar. It frames these stocks as potential economic indicators. While not directly about crypto, the underlying theme of identifying undervalued assets and market sentiment towards smaller, potentially high-growth areas can be extrapolated to the crypto market, particularly for smaller altcoins.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "micro_cap_stock_performance",
+        "speculative_asset_sentiment",
+        "undervalued_asset_opportunity"
+      ],
+      "rationale": "The article's focus on micro-cap stocks and their potential for outsized returns in specific market conditions can be seen as a parallel to the altcoin market. It suggests that investors are looking for growth opportunities beyond established assets, which could benefit certain crypto projects."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n0ed5b233832e",
+      "title": "Strong Dollar Leads to Profits in These Stocks",
+      "url": "https://finance.yahoo.com/news/strong-dollar-leads-profits-stocks-205805223.html",
+      "summary": "This article discusses how a strong US dollar can benefit certain stocks, particularly those with international operations or those that import goods. It also notes that a strong dollar can be a drag on the S&P 500. This macro-economic factor is relevant to Bitcoin, as a strong dollar can sometimes correlate with lower demand for risk assets, including cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "strong_USD_impact",
+        "risk_asset_performance",
+        "global_economic_sentiment"
+      ],
+      "rationale": "A strong US dollar can reduce the attractiveness of dollar-denominated assets for foreign investors and may signal a global economic slowdown, both of which can negatively impact risk assets like Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n46b18868cbe5",
+      "title": "FOREX-Dollar dips as hopes rise that inflation has peaked",
+      "url": "https://finance.yahoo.com/news/forex-dollar-dips-hopes-rise-195244117.html",
+      "summary": "The US dollar index is retreating as investors gain hope that inflation has peaked. This suggests a potential shift in market sentiment away from aggressive rate hikes, which could be positive for risk assets like Bitcoin. The article notes that while a retailer's profit warning hinted at easing price pressures, the dollar's dip is a key indicator for risk appetite.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "USD_index_dip",
+        "inflation_peak_hopes",
+        "risk_on_sentiment"
+      ],
+      "rationale": "A weakening dollar and hopes of peaking inflation typically correlate with increased risk appetite, which can benefit Bitcoin. This sentiment shift suggests a potential short-term upward movement for BTC."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n31390c353b13",
+      "title": "New Research Unearths Insights Into Satoshi and Bitcoin’s Early Days",
+      "url": "https://finance.yahoo.com/news/research-unearths-insights-satoshi-bitcoin-010634563.html",
+      "summary": "A new academic paper suggests Bitcoin was more centralized and fragile in its early years than previously thought, surviving due to early pioneers' cooperation. While this is a historical analysis, it could subtly influence perceptions of Bitcoin's foundational robustness, though its immediate price impact is likely minimal.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol"
+      ],
+      "features_for_model": [
+        "early_BTC_centralization",
+        "Satoshi_research",
+        "network_fragility_history"
+      ],
+      "rationale": "This is a historical analysis with limited direct short-term price impact. However, any discussion around Bitcoin's early days and its resilience can indirectly influence sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nc85f3a787ad9",
+      "title": "Gemini sued over US$36 mln Bitcoin and Ethereum hack",
+      "url": "https://finance.yahoo.com/news/gemini-sued-over-us-36-005914075.html",
+      "summary": "IRA Financial Trust is suing Gemini for alleged failures in safeguarding client assets, leading to a $21 million Bitcoin and $15 million Ethereum hack. This lawsuit highlights security concerns on exchanges and could lead to increased scrutiny or regulatory action, potentially impacting investor confidence in centralized platforms.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Gemini_hack_lawsuit",
+        "exchange_security_risk",
+        "client_asset_protection"
+      ],
+      "rationale": "Security breaches and subsequent lawsuits against major exchanges like Gemini can erode investor confidence and lead to outflows, potentially impacting Bitcoin and Ethereum prices in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nee7bc1757510",
+      "title": "Lightning Network Startup Mash Raises $6M Seed Round",
+      "url": "https://finance.yahoo.com/news/lightning-network-startup-mash-raises-100000044.html",
+      "summary": "Mash, a payment platform utilizing the Lightning Network, has secured $6 million in seed funding. This investment in a Lightning Network-focused startup indicates continued development and interest in scaling Bitcoin payments. Such developments are positive for the broader Bitcoin ecosystem and could signal increased utility and adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network_funding",
+        "BTC_payment_innovation",
+        "startup_investment_LN"
+      ],
+      "rationale": "Funding for Lightning Network startups like Mash signals ongoing development in Bitcoin's payment infrastructure. This can lead to improved user experience and adoption, providing a subtle bullish signal for BTC."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n854355ff7d58",
+      "title": "Ether Short Liquidations Spike To All-Time High",
+      "url": "https://finance.yahoo.com/news/ether-short-liquidations-spike-time-105349628.html",
+      "summary": "Ether short liquidations have surged to an all-time high, with $686 million in positions liquidated on June 6th. This indicates significant bearish sentiment and leverage being unwound in the ETH market. While focused on ETH, such large liquidations can sometimes spill over into the broader crypto market, including Bitcoin.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "miner"
+      ],
+      "features_for_model": [
+        "ETH_short_liquidations",
+        "leverage_unwinding",
+        "market_sentiment_ETH"
+      ],
+      "rationale": "A massive spike in Ether short liquidations suggests a significant deleveraging event. This can lead to increased selling pressure and volatility across the crypto market, potentially dragging Bitcoin down in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n95e1b99bbfa9",
+      "title": "Crypto has entered a bear market in 2022. Here's how cybercrime and NFT swindles have helped fuel the downturn.",
+      "url": "https://finance.yahoo.com/news/crypto-entered-bear-market-2022-141600555.html",
+      "summary": "This article attributes the 2022 crypto bear market partly to cybercrime and NFT scams. It emphasizes that trust is crucial for the crypto system, and these illicit activities damage that trust, leading to investor flight. This highlights a persistent negative sentiment driver for the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crypto_bear_market_drivers",
+        "cybercrime_impact",
+        "NFT_scam_sentiment"
+      ],
+      "rationale": "The ongoing narrative of cybercrime and scams in the crypto space continues to erode investor confidence, contributing to bearish sentiment and potentially driving further price declines in the short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n99554d5327fc",
+      "title": "BlockFi Valuation Sinks to $1B in Latest Funding Round: Report",
+      "url": "https://finance.yahoo.com/news/blockfi-valuation-sinks-1b-latest-081317803.html",
+      "summary": "Crypto lender BlockFi is reportedly raising funds at a significantly lower valuation ($1 billion) than previous rounds. This 'down round' suggests financial strain or reduced market confidence in the company. Such news can negatively impact sentiment for crypto-related financial services and potentially signal broader liquidity issues.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BlockFi_valuation_cut",
+        "crypto_lender_stress",
+        "down_round_sentiment"
+      ],
+      "rationale": "A significant valuation cut for a prominent crypto lender like BlockFi indicates potential financial stress within the industry. This can lead to negative sentiment and concerns about liquidity, impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n8b771d1b839b",
+      "title": "3iQ launches 3iQ CoinShares Bitcoin Feeder ETF and 3iQ CoinShares Ether Feeder on Cboe Australia",
+      "url": "https://finance.yahoo.com/news/3iq-launches-3iq-coinshares-bitcoin-110000087.html",
+      "summary": "3iQ has launched Bitcoin and Ether feeder ETFs on Cboe Australia. This expansion of regulated investment products into new markets is positive for institutional adoption and accessibility. The availability of these ETFs can attract more traditional investors, potentially increasing demand for the underlying assets.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Australia_ETF_launch",
+        "BTC_ETH_ETP",
+        "institutional_access_crypto"
+      ],
+      "rationale": "The launch of Bitcoin and Ether ETFs in Australia provides greater access for traditional investors. This can lead to increased inflows into the crypto market, offering a subtle bullish signal for Bitcoin and Ether."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n0430c547d696",
+      "title": "Bitcoin Tumbles Back Below $30K as Bullish Momentum Wanes",
+      "url": "https://finance.yahoo.com/news/bitcoin-tumbles-back-below-30k-074823808.html",
+      "summary": "Bitcoin has fallen back below the $30,000 mark, with bullish momentum waning. The price action is described as a tumble, mimicking a previous drop. This indicates a lack of strong buying pressure and a potential continuation of the bearish trend in the very short term.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_below_30k",
+        "waning_momentum",
+        "bearish_price_action"
+      ],
+      "rationale": "Bitcoin's failure to hold above $30,000 and the waning bullish momentum suggest immediate selling pressure. This price action indicates a bearish short-term outlook."
+    },
+    {
+      "pick_idx": 32,
+      "id": "nf00a318b6dcb",
+      "title": "Morning Crypto Briefing: BTC Slumps Back Below $30K, ETH Eyes Key Support As Bears Regain Control",
+      "url": "https://finance.yahoo.com/news/morning-crypto-briefing-btc-slumps-112238792.html",
+      "summary": "The crypto market has seen bears regain control, with Bitcoin falling below $30K and Ethereum testing key support levels. This is attributed partly to fears of global central bank tightening following Australia's rate hike. The overall sentiment is bearish for the short term.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_below_30k",
+        "ETH_support_level",
+        "bearish_market_sentiment",
+        "central_bank_tightening_fears"
+      ],
+      "rationale": "The resurgence of bearish sentiment, with BTC falling below $30K and ETH testing support, driven by macro concerns, points to continued downward pressure in the immediate short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-06-07",
+    "summary": "Bitcoin has fallen back below the $30,000 mark, indicating waning bullish momentum and a resurgence of bearish sentiment, partly fueled by fears of global central bank tightening. Ether also saw significant short liquidations, suggesting broader market deleveraging. However, positive developments include the launch of Bitcoin and Ether ETFs in Australia, signaling continued institutional interest, and ongoing investment in Lightning Network infrastructure. The dollar's dip on hopes of peaking inflation offers a slight counter-narrative, but the immediate outlook remains cautious.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued macroeconomic headwinds (inflation, interest rate hikes) impacting risk assets.",
+      "Further negative sentiment from crypto-specific events (hacks, exchange issues).",
+      "Lack of sustained bullish momentum, leading to consolidation or further downside.",
+      "Potential for increased regulatory scrutiny following recent market turmoil."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $30,000 support level.",
+      "USD Index movements and inflation data releases.",
+      "Developments from the Consensus 2022 conference.",
+      "Any further news regarding crypto lender stability (e.g., BlockFi).",
+      "SEC vs. Ripple case developments."
+    ]
+  }
+}

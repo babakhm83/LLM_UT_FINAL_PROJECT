@@ -1,0 +1,503 @@
+{
+  "date": "2020-05-05",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n079229a89328",
+      "title": "Stablecoins Push Ethereum’s Transaction Count to Highest Since July 2019",
+      "url": "https://finance.yahoo.com/news/stablecoins-push-ethereum-transaction-count-174133018.html",
+      "summary": "Ethereum's network transaction count reached a 10-month high, driven by increased stablecoin issuance and anticipation of Ethereum 2.0. This surge in activity indicates growing utility and adoption of the Ethereum network, which can have positive spillover effects on the broader crypto ecosystem, including Bitcoin as a foundational asset. The increased usage suggests a maturing market and potential for further innovation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ETH_transaction_volume",
+        "stablecoin_issuance",
+        "ETH_2.0_development"
+      ],
+      "rationale": "Increased transaction activity on Ethereum signals growing network utility and adoption. This broader ecosystem growth can indirectly benefit Bitcoin by increasing overall crypto market interest and liquidity."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n183684304446",
+      "title": "Bitcoin Hits Highest Level Since Black Thursday Amid Halving Buzz",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-highest-level-since-123859090.html",
+      "summary": "Bitcoin's price rallied to its highest point since the March \"Black Thursday\" crash, driven by anticipation of the upcoming halving event. The price has recovered significantly from its lows, showing resilience and a potential shift in market sentiment. This upward momentum, fueled by the halving narrative, suggests increasing investor confidence and demand for Bitcoin as a digital asset.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "halving"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "halving_anticipation",
+        "market_sentiment"
+      ],
+      "rationale": "The approaching halving event is a well-understood bullish catalyst. The price recovery to pre-crash levels indicates strong buying pressure and positive sentiment, setting a favorable tone for the medium term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb8061981b23b",
+      "title": "BTCPay Looks to Anonymize Bitcoin Transactions With PayJoin Integration",
+      "url": "https://finance.yahoo.com/news/btcpay-looks-anonymize-bitcoin-transactions-174752734.html",
+      "summary": "BTCPay, a popular open-source Bitcoin payment processor, is integrating PayJoin technology to enhance transaction privacy. This move aims to improve user privacy by making Bitcoin transactions more difficult to trace, potentially increasing adoption among privacy-conscious users and businesses. Broader adoption of privacy-enhancing technologies is crucial for Bitcoin's long-term appeal and utility.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTCPay_integration",
+        "PayJoin_adoption",
+        "BTC_privacy"
+      ],
+      "rationale": "Enhancements to Bitcoin's privacy features can attract a wider user base and improve its perceived utility as a censorship-resistant and private store of value."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n9f70327f3194",
+      "title": "Peer-to-Peer Crypto Exchange Paxful Now Lets You Trade Bitcoin for Gold",
+      "url": "https://finance.yahoo.com/news/peer-peer-crypto-exchange-paxful-133103773.html",
+      "summary": "Paxful, a peer-to-peer Bitcoin exchange, has introduced a feature allowing users to trade Bitcoin for gold. This integration expands the utility of Bitcoin by connecting it to traditional safe-haven assets, potentially attracting a new segment of investors interested in both gold and cryptocurrencies. It signifies a growing trend of bridging traditional finance with digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Paxful_gold_trading",
+        "P2P_exchange_innovation",
+        "BTC_gold_correlation"
+      ],
+      "rationale": "Connecting Bitcoin to gold, a traditional safe-haven asset, broadens its appeal and utility. This integration can attract new users and increase Bitcoin's perceived value as a hedge against economic uncertainty."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n9fc58a499caf",
+      "title": "Crypto investors exhibit ‘extreme fear,’ similar to 2018 crash situation",
+      "url": "https://finance.yahoo.com/news/crypto-investors-extreme-fear-similar-110559571.html",
+      "summary": "The Crypto Fear & Greed Index indicates 'extreme fear' among investors, a sentiment last seen during significant market downturns. Historically, extreme fear can precede market bottoms and present buying opportunities. This sentiment suggests that the market may be oversold, potentially setting the stage for a recovery if sentiment shifts.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "crypto_fear_greed_index",
+        "investor_sentiment",
+        "market_bottom_indicator"
+      ],
+      "rationale": "Extreme fear in the market often acts as a contrarian indicator, suggesting potential for a rebound. This sentiment, coupled with other bullish factors, could signal an opportune time to accumulate."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n9d8669b49299",
+      "title": "Chinese City Known for Bitcoin Mining Seeks Blockchain Firms to Burn Excess Hydropower",
+      "url": "https://finance.yahoo.com/news/chinese-city-known-bitcoin-mining-041808831.html",
+      "summary": "A Chinese city, Ya'an, a major Bitcoin mining hub, is actively seeking blockchain companies to utilize its excess hydroelectric power. This initiative could lead to increased mining activity and potentially more efficient mining operations, especially in the lead-up to the halving. Such developments in mining infrastructure can impact network security and miner profitability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "China_mining_hub",
+        "hydropower_utilization",
+        "mining_efficiency"
+      ],
+      "rationale": "Increased access to cheap energy in a key mining region can support mining operations, potentially leading to greater network hashrate and security, which is a long-term positive for Bitcoin."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n67cedeed2bfe",
+      "title": "Bitcoin shows resilience with 10% surge as stocks stutter",
+      "url": "https://finance.yahoo.com/news/bitcoin-shows-resilience-10-surge-160924812.html",
+      "summary": "Bitcoin demonstrated resilience by surging 10% while stock markets faltered. This performance suggests Bitcoin may be regaining its reputation as a safe-haven asset or at least an uncorrelated asset during times of traditional market turmoil. The ability to rally independently of stocks, especially during a downturn, is a positive sign for its long-term value proposition.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_resilience",
+        "stock_market_divergence",
+        "safe_haven_narrative"
+      ],
+      "rationale": "Bitcoin's ability to rally while traditional markets decline strengthens its narrative as a potential safe-haven or uncorrelated asset, which is a significant long-term bullish signal."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n0321235586c1",
+      "title": "Market Wrap: Bitcoin Price Volatility Declines in Contrast to S&P 500",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-price-volatility-214006263.html",
+      "summary": "Bitcoin's 30-day volatility has decreased, returning to pre-panic levels, while the S&P 500's volatility has plateaued. This suggests a stabilization in Bitcoin's price action relative to its previous extreme movements, and a potential decrease in its correlation with traditional markets during periods of high uncertainty. Lower volatility can attract more institutional interest.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_volatility_decrease",
+        "S&P_500_volatility",
+        "market_stabilization"
+      ],
+      "rationale": "Decreasing volatility in Bitcoin, especially when contrasted with stock market volatility, can make it more attractive to institutional investors seeking stability and diversification."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n63a9be233f79",
+      "title": "Huge step forward for the Bitcoin Sector as major Italian Bank start to trade bitcoin and Brookfield EuroSwiss offers Bitcoin Hedging Program for Bitcoin investors in the value of 2 Billion EUR",
+      "url": "https://finance.yahoo.com/news/huge-step-forward-bitcoin-sector-163000966.html",
+      "summary": "A major Italian bank, Banco Sella, has begun offering Bitcoin trading services, and Brookfield EuroSwiss has launched a €2 billion Bitcoin hedging program. These developments signify increasing institutional adoption and integration of Bitcoin into traditional financial services. Such moves can significantly boost Bitcoin's legitimacy and accessibility for a wider range of investors.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Italian_bank_BTC_trading",
+        "Brookfield_hedging_program",
+        "institutional_adoption"
+      ],
+      "rationale": "Direct involvement from traditional financial institutions like banks and investment firms in offering Bitcoin services and hedging products is a strong indicator of growing institutional acceptance and demand."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n206cc7f46f76",
+      "title": "Bitcoin on the brink of major bullish breakout",
+      "url": "https://finance.yahoo.com/news/bitcoin-brink-major-bullish-breakout-094417171.html",
+      "summary": "Bitcoin is positioned for a significant bullish breakout, coiling below the $7,000 resistance level. A confirmed close above $7,150 could signal a continuation of the upward trend. This technical setup, combined with the approaching halving, suggests strong potential for price appreciation in the near to medium term.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "technical",
+        "halving"
+      ],
+      "features_for_model": [
+        "BTC_bullish_breakout",
+        "resistance_level_7150",
+        "halving_catalyst"
+      ],
+      "rationale": "Technical indicators suggest Bitcoin is poised for a breakout, and the upcoming halving provides a fundamental catalyst. This confluence of factors points to a high probability of upward price movement."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 4,
+      "id": "ne5327b2f486a",
+      "title": "Bitcoin sell-off looms ahead of block reward halving",
+      "url": "https://finance.yahoo.com/news/bitcoin-sell-off-looms-ahead-104607930.html",
+      "summary": "Bitcoin is struggling to break above $9,000 and is showing indecision ahead of the halving. While the halving is fundamentally bullish, historical patterns suggest a potential correction in the months following the event. This creates short-term uncertainty and the possibility of a price dip.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "halving",
+        "sentiment",
+        "technical"
+      ],
+      "features_for_model": [
+        "halving_anticipation",
+        "BTC_price_indecision",
+        "post_halving_correction_risk"
+      ],
+      "rationale": "The market is showing indecision ahead of the halving, with historical data suggesting a potential post-halving sell-off. This creates short-term volatility and a risk of price correction."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf0ed10e99543",
+      "title": "Cryptocurrency experts predict bullish impact of Bitcoin halving",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-experts-predict-bullish-impact-141131458.html",
+      "summary": "Cryptocurrency experts anticipate a bullish impact from the Bitcoin halving, expecting not only price increases but also the attraction of new investors. This sentiment suggests that the market is pricing in the halving as a positive catalyst, potentially driving short-term price appreciation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "halving",
+        "sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "expert_halving_prediction",
+        "bullish_sentiment",
+        "new_investor_attraction"
+      ],
+      "rationale": "Widespread expert predictions of a bullish impact from the halving can create a self-fulfilling prophecy, driving short-term buying pressure."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n7080f21d27cb",
+      "title": "Blockchain Bites: Hyperledger Makes Inroads, Bitcoin Gets ‘Harder’ and Buffett’s Not ‘Halving’ It",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-hyperledger-makes-inroads-172527122.html",
+      "summary": "This article touches on various blockchain developments, including Hyperledger's progress and a mention of Bitcoin getting 'harder'. While not directly price-impacting, it reflects ongoing development and narrative building within the broader crypto space, which can contribute to overall market sentiment.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Hyperledger_development",
+        "Bitcoin_narrative",
+        "enterprise_blockchain"
+      ],
+      "rationale": "General positive developments in enterprise blockchain and Bitcoin's narrative can contribute to a more favorable market environment, though the direct price impact is limited."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n28adc0754dd2",
+      "title": "Crypto Forensics Firm TokenAnalyst Shuts Down, Some Employees Hired by Coinbase",
+      "url": "https://finance.yahoo.com/news/crypto-forensics-firm-tokenanalyst-shuts-191329130.html",
+      "summary": "Crypto intelligence firm TokenAnalyst is shutting down, with some employees joining Coinbase. While the shutdown itself is a negative event for the firm, the absorption of talent by a major exchange like Coinbase can be seen as a positive for the broader ecosystem, indicating consolidation and talent movement towards established players.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "TokenAnalyst_shutdown",
+        "Coinbase_hiring",
+        "crypto_intelligence_consolidation"
+      ],
+      "rationale": "The shutdown of a crypto firm is generally negative, but talent moving to a major exchange like Coinbase can be seen as a sign of industry maturation and consolidation, with a minor impact on overall sentiment."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n15b1fd018626",
+      "title": "The Employment Situation, AKA Monthly Jobs Report: The Top Dog Of Economic Reports?",
+      "url": "https://finance.yahoo.com/news/employment-situation-aka-monthly-jobs-203539148.html",
+      "summary": "The upcoming release of the US Employment Situation report is a key macroeconomic indicator. Stronger-than-expected job growth could signal economic recovery, potentially boosting risk assets like Bitcoin. Conversely, a weak report might increase concerns about the economy, leading to risk-off sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_employment_report",
+        "jobs_data",
+        "macroeconomic_indicator"
+      ],
+      "rationale": "The US jobs report is a significant macroeconomic event that can influence risk appetite. A positive report could boost Bitcoin, while a negative one could dampen sentiment."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nac1f0e8e642b",
+      "title": "Iran Issues License for Nation’s Biggest Bitcoin Mining Operation",
+      "url": "https://finance.yahoo.com/news/iran-issues-license-nation-biggest-080025764.html",
+      "summary": "Iran has granted a license for its largest Bitcoin mining operation, allowing for 6,000 mining rigs. This expansion of mining infrastructure in a new jurisdiction could contribute to the global hashrate and potentially impact mining difficulty and profitability, though the immediate price impact is likely minimal.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Iran_mining_license",
+        "mining_operation_expansion",
+        "global_hashrate"
+      ],
+      "rationale": "The expansion of mining operations in Iran contributes to the global hashrate, a minor factor for short-term price action but indicative of growing mining infrastructure."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ne5327b2f486a",
+      "title": "Bitcoin sell-off looms ahead of block reward halving",
+      "url": "https://finance.yahoo.com/news/bitcoin-sell-off-looms-ahead-104607930.html",
+      "summary": "Bitcoin is showing indecision ahead of the halving, struggling to maintain levels above $9,000. While the halving is a bullish event, historical data suggests a potential correction in the months following. This creates short-term uncertainty and the possibility of a price dip.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "halving",
+        "sentiment",
+        "technical"
+      ],
+      "features_for_model": [
+        "halving_anticipation",
+        "BTC_price_indecision",
+        "post_halving_correction_risk"
+      ],
+      "rationale": "The market is showing indecision ahead of the halving, with historical data suggesting a potential post-halving sell-off. This creates short-term volatility and a risk of price correction."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nf0ed10e99543",
+      "title": "Cryptocurrency experts predict bullish impact of Bitcoin halving",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-experts-predict-bullish-impact-141131458.html",
+      "summary": "Cryptocurrency experts anticipate a bullish impact from the Bitcoin halving, expecting not only price increases but also the attraction of new investors. This sentiment suggests that the market is pricing in the halving as a positive catalyst, potentially driving short-term price appreciation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "halving",
+        "sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "expert_halving_prediction",
+        "bullish_sentiment",
+        "new_investor_attraction"
+      ],
+      "rationale": "Widespread expert predictions of a bullish impact from the halving can create a self-fulfilling prophecy, driving short-term buying pressure."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n7080f21d27cb",
+      "title": "Blockchain Bites: Hyperledger Makes Inroads, Bitcoin Gets ‘Harder’ and Buffett’s Not ‘Halving’ It",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-hyperledger-makes-inroads-172527122.html",
+      "summary": "This article touches on various blockchain developments, including Hyperledger's progress and a mention of Bitcoin getting 'harder'. While not directly price-impacting, it reflects ongoing development and narrative building within the broader crypto space, which can contribute to overall market sentiment.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Hyperledger_development",
+        "Bitcoin_narrative",
+        "enterprise_blockchain"
+      ],
+      "rationale": "General positive developments in enterprise blockchain and Bitcoin's narrative can contribute to a more favorable market environment, though the direct price impact is limited."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n28adc0754dd2",
+      "title": "Crypto Forensics Firm TokenAnalyst Shuts Down, Some Employees Hired by Coinbase",
+      "url": "https://finance.yahoo.com/news/crypto-forensics-firm-tokenanalyst-shuts-191329130.html",
+      "summary": "Crypto intelligence firm TokenAnalyst is shutting down, with some employees joining Coinbase. While the shutdown itself is a negative event for the firm, the absorption of talent by a major exchange like Coinbase can be seen as a positive for the broader ecosystem, indicating consolidation and talent movement towards established players.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "TokenAnalyst_shutdown",
+        "Coinbase_hiring",
+        "crypto_intelligence_consolidation"
+      ],
+      "rationale": "The shutdown of a crypto firm is generally negative, but talent moving to a major exchange like Coinbase can be seen as a sign of industry maturation and consolidation, with a minor impact on overall sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-05-05",
+    "summary": "Bitcoin is approaching its halving event, creating significant anticipation and mixed signals. While experts predict a bullish impact and price recovery is evident, there's also a looming possibility of a short-term sell-off due to market indecision and historical patterns. Macroeconomic data, particularly the US employment report, will be a key driver of risk sentiment. Institutional adoption continues to grow, providing a solid long-term foundation.",
+    "scenario_probs": {
+      "bull": 0.5,
+      "base": 0.3,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Post-halving sell-off: Historical data suggests a potential price correction in the months following the halving.",
+      "Macroeconomic data uncertainty: A weak US employment report could trigger risk-off sentiment.",
+      "Market indecision: Current price action shows a lack of clear direction, increasing volatility.",
+      "Regulatory developments: Any unexpected regulatory news could impact market sentiment.",
+      "Liquidity concerns: While improving, overall market liquidity can still be a factor in price swings."
+    ],
+    "watch_items": [
+      "Bitcoin halving event (expected ~May 11-12)",
+      "US Employment Situation report (May 8th)",
+      "Major exchange volumes and order books",
+      "Sentiment indicators (e.g., Fear & Greed Index)",
+      "Correlation with S&P 500 and other risk assets"
+    ]
+  }
+}

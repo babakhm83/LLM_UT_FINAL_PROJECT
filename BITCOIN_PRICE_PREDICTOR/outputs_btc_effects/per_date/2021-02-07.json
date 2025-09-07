@@ -1,0 +1,508 @@
+{
+  "date": "2021-02-07",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n0cac8123bfca",
+      "title": "Bitcoin’s Volatility Resumes After $40,000 Topped for First Time",
+      "url": "https://finance.yahoo.com/news/crypto-market-value-tops-1-024628343.html",
+      "summary": "Bitcoin surpassed $40,000 for the first time, experiencing significant volatility with price swings of up to 17%. This surge was attributed to demand from speculative retail traders, quant funds, high-net-worth individuals, and institutional investors. The total cryptocurrency market value also crossed the $1 trillion mark, indicating growing mainstream adoption and speculative interest in digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_all_time_high",
+        "market_cap_trillion",
+        "retail_trader_demand",
+        "institutional_demand"
+      ],
+      "rationale": "The breach of $40,000 and the overall market cap crossing $1 trillion signaled a significant shift in market sentiment and adoption. This event marked a new phase of institutional interest and broader market acceptance, suggesting sustained upward momentum."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n04a0345e3dd4",
+      "title": "Bitcoin Exchange Bakkt to Become Publicly Traded With $2.1B Valuation Via Merger",
+      "url": "https://finance.yahoo.com/news/bitcoin-exchange-bakkt-agrees-merger-135438801.html",
+      "summary": "Bakkt, a Bitcoin exchange subsidiary of Intercontinental Exchange, announced its plan to go public through a merger with VPC Impact Acquisition Holdings, a SPAC. The combined entity is expected to be valued at $2.1 billion and listed on the NYSE. This move signifies increasing institutional confidence and integration of crypto infrastructure into traditional financial markets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bakkt_IPO",
+        "SPAC_merger",
+        "institutional_infrastructure"
+      ],
+      "rationale": "Bakkt's public listing via a SPAC merger validates the crypto industry's growing appeal to traditional finance. It provides a regulated on-ramp for institutional capital and enhances the legitimacy and accessibility of Bitcoin trading."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n293ae98ac4a7",
+      "title": "Bitcoin’s Active Addresses, Trading Volumes Now at All-Time Highs",
+      "url": "https://finance.yahoo.com/news/bitcoin-active-addresses-trading-volumes-220411936.html",
+      "summary": "Bitcoin's active addresses and trading volumes have surpassed previous all-time highs set in 2017. This indicates a significant increase in network activity and market participation, suggesting a maturing ecosystem and sustained interest from both retail and institutional players. The data provides confidence for analysts that the current bull market is robust.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "market_activity"
+      ],
+      "features_for_model": [
+        "active_addresses_ATH",
+        "trading_volume_ATH",
+        "network_growth",
+        "market_maturity"
+      ],
+      "rationale": "Record-high active addresses and trading volumes are strong indicators of network health and increasing user adoption. This suggests a fundamental strengthening of Bitcoin's ecosystem, supporting a prolonged bull market."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n07075573e493",
+      "title": "Bitcoin price crash: FCA warns about crypto investment risk",
+      "url": "https://finance.yahoo.com/news/fca-crypto-warning-2021-bitcoin-price-retreat-091355365.html",
+      "summary": "The UK's Financial Conduct Authority (FCA) issued a warning about the high risks associated with cryptocurrency investments, including Bitcoin. This statement comes after Bitcoin's price surge to new record highs. The FCA advised consumers to be prepared for potential losses, highlighting the speculative nature of crypto assets.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "risk_awareness"
+      ],
+      "features_for_model": [
+        "FCA_warning",
+        "crypto_regulation_risk",
+        "investor_protection"
+      ],
+      "rationale": "Regulatory warnings, while not directly impacting price in the short term, can influence long-term investor sentiment and adoption. This highlights the ongoing tension between innovation and regulatory oversight in the crypto space."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n6b1c9ca061fa",
+      "title": "Japanese financial group SBI acquires cryptocurrency trading firm B2C2",
+      "url": "https://finance.yahoo.com/news/japanese-financial-group-sbi-acquires-140946810.html",
+      "summary": "SBI Financial Services, a subsidiary of Japanese financial giant SBI Holdings, acquired B2C2, a prominent cryptocurrency trading firm. This acquisition marks SBI as the first major financial group to operate a digital asset dealing desk. It signifies a significant step towards institutional integration and the growing acceptance of crypto trading within traditional finance.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "SBI_acquisition_B2C2",
+        "institutional_trading_desk",
+        "Japan_crypto_adoption"
+      ],
+      "rationale": "The acquisition by a major financial group like SBI demonstrates increasing institutional commitment to the crypto market. Establishing a dedicated dealing desk signals a long-term strategy for integrating digital assets into their core business."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n1149e0a7d0dc",
+      "title": "Bitcoin hits new high above $39,000 as crypto market passes $1tn",
+      "url": "https://finance.yahoo.com/news/bitcoin-37000-record-high-7-january-cryptocurrency-market-1-trillion-085716678.html",
+      "summary": "Bitcoin reached new all-time highs, surpassing $39,000, as the total cryptocurrency market capitalization exceeded $1 trillion. This milestone reflects a significant increase in investor interest and capital inflow into the digital asset space. The rapid ascent highlights strong market momentum and growing adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_ATH",
+        "market_cap_trillion",
+        "bull_market_momentum"
+      ],
+      "rationale": "Breaking the $1 trillion market cap and reaching new all-time highs for Bitcoin signifies a major inflection point, attracting broader attention and investment. This indicates a strong underlying demand and a potential for sustained growth."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n20787799976c",
+      "title": "Institutions Keep Buying Bitcoin’s Dip, Despite Near-term Volatility: Data",
+      "url": "https://finance.yahoo.com/news/institutions-keep-buying-bitcoin-dip-190056237.html",
+      "summary": "On-chain data indicates that institutional investors continued to accumulate Bitcoin even as its price experienced significant volatility and near-term bearish sentiment. The number of addresses holding 1,000 or more BTC ('whales') increased during price drops, suggesting strong conviction from large holders.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "institutional_accumulation",
+        "whale_addresses_increase",
+        "dip_buying",
+        "market_volatility"
+      ],
+      "rationale": "Consistent buying from institutions during price dips is a strong signal of underlying demand and long-term confidence. This behavior suggests that large investors view current price levels as attractive accumulation opportunities."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n51b40c40f271",
+      "title": "India’s Banks Are Once More Serving Crypto Traders and Exchanges",
+      "url": "https://finance.yahoo.com/news/india-banks-once-more-serving-105527679.html",
+      "summary": "Major Indian banks, including State Bank of India and ICICI Bank, have resumed services for cryptocurrency exchanges and their customers. This reversal follows a 2018 ban by the Reserve Bank of India, indicating a more favorable regulatory environment and increased adoption of crypto services in India.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "India_banking_crypto",
+        "regulatory_reversal",
+        "emerging_market_adoption"
+      ],
+      "rationale": "The resumption of banking services for crypto in India is a significant positive development for adoption in a large emerging market. It suggests a potential shift in regulatory stance and increased integration of crypto into the financial system."
+    },
+    {
+      "pick_idx": 35,
+      "id": "ncf0c99659961",
+      "title": "Bitcoin shatters $20,000 barrier for first time",
+      "url": "https://finance.yahoo.com/news/bitcoin-breaks-above-20-000-135108392.html",
+      "summary": "Bitcoin broke the $20,000 mark for the first time, reaching an all-time high. This surge was driven by increased institutional and corporate interest, with the cryptocurrency gaining over 170% year-to-date. The trend is supported by demand from larger investors seeking quick gains and potential inflation hedging.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_20k_breakout",
+        "institutional_interest",
+        "corporate_adoption",
+        "inflation_hedge"
+      ],
+      "rationale": "Crossing the $20,000 threshold was a major psychological and technical milestone, attracting significant media attention and further validating Bitcoin's potential as a store of value and medium of exchange."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n854994f6af1b",
+      "title": "Crypto Miner Marathon Patent Group Buys $150M in Bitcoin",
+      "url": "https://finance.yahoo.com/news/crypto-miner-marathon-patent-group-130057586.html",
+      "summary": "Marathon Patent Group, a Nasdaq-listed cryptocurrency mining company, purchased $150 million worth of Bitcoin at an average price of $31,100. This move accelerates its transformation into a 'pure-play bitcoin investment option,' holding over 4,800 BTC. It signifies a growing trend of corporate treasury diversification into Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "miner"
+      ],
+      "features_for_model": [
+        "Marathon_Patent_Group_BTC_purchase",
+        "corporate_treasury_diversification",
+        "miner_balance_sheet"
+      ],
+      "rationale": "The significant Bitcoin purchase by a publicly traded mining company reinforces the trend of corporate treasury diversification. It signals that even companies directly involved in Bitcoin production see strategic value in holding the asset."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n029a608d3f83",
+      "title": "The Crypto Daily – Movers and Shakers – February 7th, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-february-025112980.html",
+      "summary": "Bitcoin experienced a 2.54% rise on Saturday, closing at $39,234.0 after a mixed start. It broke through resistance levels at $38,894 and $39,527 but fell short of $41,321. The price action indicates continued upward momentum with some resistance encountered.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_daily_gain",
+        "resistance_levels_tested",
+        "market_momentum"
+      ],
+      "rationale": "The daily price action shows Bitcoin breaking key resistance levels, suggesting continued buying pressure and potential for further upside in the immediate short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne5185f23498d",
+      "title": "Janet Yellen Re: Cryptocurrencies and Terrorists",
+      "url": "https://finance.yahoo.com/news/janet-yellen-cryptocurrencies-terrorists-091228718.html",
+      "summary": "Treasury Secretary Janet Yellen expressed concern about cryptocurrencies being used for illicit financing and terrorist activities. She emphasized the need for evolving methods to combat such uses, indicating a potential focus on regulatory scrutiny and enforcement.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Yellen_crypto_concerns",
+        "illicit_financing_regulation",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Yellen's strong statements on crypto's use in illicit finance signal potential regulatory headwinds. This could lead to increased compliance measures or restrictions, impacting market sentiment and liquidity."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na010b5a397f2",
+      "title": "Cathie Wood Talks Innovators And Disruptors With Yahoo's Jen Rogers",
+      "url": "https://finance.yahoo.com/news/cathie-wood-talks-innovators-disruptors-142836998.html",
+      "summary": "Cathie Wood of ARK Investment Management discussed Bitcoin and its role in her firm's 'Big Ideas 2021' presentation. Her positive outlook on disruptive technologies, including Bitcoin, often influences market sentiment and attracts investor interest.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_endorsement",
+        "ARK_Invest_sentiment",
+        "disruptive_tech_outlook"
+      ],
+      "rationale": "Cathie Wood's positive commentary on Bitcoin, aligning with her firm's investment thesis, can provide a short-term sentiment boost and attract retail and institutional flows."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na3354af17b02",
+      "title": "Dogecoin Smokes Its All-Time High After Snoop Dogg Becomes Snoop DOGE",
+      "url": "https://finance.yahoo.com/news/dogecoin-rises-more-36-snoop-164119085.html",
+      "summary": "Dogecoin's price surged over 55% to a new all-time high, driven by celebrity endorsements from Snoop Dogg, Elon Musk, and Gene Simmons. This meme-driven rally highlights the speculative and sentiment-driven nature of some altcoins.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "meme_coin"
+      ],
+      "features_for_model": [
+        "Dogecoin_rally",
+        "celebrity_endorsement",
+        "meme_coin_volatility"
+      ],
+      "rationale": "The extreme volatility and celebrity-driven surge in Dogecoin demonstrate the power of social media and hype in the altcoin market, but this is unlikely to have a sustained impact on Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nda823f5902b7",
+      "title": "KuCoin CEO Johnny Lyu on Building Bridges and Innovating at the Forefront of Cryptocurrency",
+      "url": "https://finance.yahoo.com/news/kucoin-ceo-johnny-lyu-building-164333568.html",
+      "summary": "KuCoin CEO Johnny Lyu discussed the exchange's focus on innovation and rebuilding trust after a past security breach. His comments suggest a commitment to security and user experience, which are crucial for exchange stability and liquidity.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "security"
+      ],
+      "features_for_model": [
+        "KuCoin_CEO_statement",
+        "exchange_security_focus",
+        "user_trust"
+      ],
+      "rationale": "While positive for KuCoin's reputation, the CEO's comments on security and innovation are unlikely to have a significant direct impact on Bitcoin's price in the short term, unless a major security event occurs."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n4a02415fb97b",
+      "title": "Crypto Long & Short: Could Scalable Payments for Bitcoin Undermine Its Value?",
+      "url": "https://finance.yahoo.com/news/crypto-long-short-could-scalable-220100968.html",
+      "summary": "Visa CEO Al Kelly indicated the company may add cryptocurrencies to its payments network, acknowledging Bitcoin's limited current use for payments but outlining a strategy to enable crypto purchases and cash-outs via Visa credentials. This signals potential for increased Bitcoin utility and adoption.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "payments"
+      ],
+      "features_for_model": [
+        "Visa_crypto_integration",
+        "scalable_payments",
+        "payment_network_adoption"
+      ],
+      "rationale": "Visa's potential integration of crypto into its payment network is a significant development for Bitcoin's utility and adoption. It could lead to increased demand and broader acceptance as a payment method."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ne6af1352da11",
+      "title": "Bitfarms Announces CAD$40.0 Million Private Placement with U.S. Institutional Investors",
+      "url": "https://finance.yahoo.com/news/bitfarms-announces-cad-40-0-234400608.html",
+      "summary": "Bitfarms, a Canadian Bitcoin mining company, secured CAD$40 million in a private placement with U.S. institutional investors. This funding will support its operations and expansion, indicating continued institutional interest in the mining sector and its direct correlation with Bitcoin's value.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Bitfarms_private_placement",
+        "institutional_mining_investment",
+        "mining_expansion"
+      ],
+      "rationale": "The private placement to institutional investors for a mining company suggests continued confidence in the Bitcoin mining sector and its profitability, indirectly supporting Bitcoin's price by indicating robust operational growth."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n029a608d3f83",
+      "title": "The Crypto Daily – Movers and Shakers – February 7th, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-february-025112980.html",
+      "summary": "Bitcoin rose by 2.54% on Saturday, closing at $39,234.0. It broke through resistance levels at $38,894 and $39,527 but failed to reach $41,321. The price action indicates continued upward momentum with some resistance encountered.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_daily_gain",
+        "resistance_levels_tested",
+        "market_momentum"
+      ],
+      "rationale": "The daily price action shows Bitcoin breaking key resistance levels, suggesting continued buying pressure and potential for further upside in the immediate short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ne5185f23498d",
+      "title": "Janet Yellen Re: Cryptocurrencies and Terrorists",
+      "url": "https://finance.yahoo.com/news/janet-yellen-cryptocurrencies-terrorists-091228718.html",
+      "summary": "Treasury Secretary Janet Yellen expressed concern about cryptocurrencies being used for illicit financing and terrorist activities. She emphasized the need for evolving methods to combat such uses, indicating a potential focus on regulatory scrutiny and enforcement.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Yellen_crypto_concerns",
+        "illicit_financing_regulation",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Yellen's strong statements on crypto's use in illicit finance signal potential regulatory headwinds. This could lead to increased compliance measures or restrictions, impacting market sentiment and liquidity."
+    },
+    {
+      "pick_idx": 17,
+      "id": "na010b5a397f2",
+      "title": "Cathie Wood Talks Innovators And Disruptors With Yahoo's Jen Rogers",
+      "url": "https://finance.yahoo.com/news/cathie-wood-talks-innovators-disruptors-142836998.html",
+      "summary": "Cathie Wood of ARK Investment Management discussed Bitcoin and its role in her firm's 'Big Ideas 2021' presentation. Her positive outlook on disruptive technologies, including Bitcoin, often influences market sentiment and attracts investor interest.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_endorsement",
+        "ARK_Invest_sentiment",
+        "disruptive_tech_outlook"
+      ],
+      "rationale": "Cathie Wood's positive commentary on Bitcoin, aligning with her firm's investment thesis, can provide a short-term sentiment boost and attract retail and institutional flows."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-02-07",
+    "summary": "Bitcoin continues its upward trajectory, breaking through key resistance levels and showing strong daily gains. However, concerns from Treasury Secretary Janet Yellen regarding illicit use of cryptocurrencies introduce a bearish regulatory undertone. Institutional interest remains evident with companies like Bitfarms securing funding, and major payment networks like Visa exploring crypto integration, suggesting a positive long-term outlook. Celebrity endorsements are driving altcoin volatility, highlighting speculative interest.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Increased regulatory scrutiny following Yellen's comments.",
+      "Potential for sharp pullbacks due to high leverage in derivatives markets.",
+      "Altcoin volatility driven by social media hype could spill over.",
+      "Macroeconomic factors impacting risk appetite."
+    ],
+    "watch_items": [
+      "Janet Yellen's further statements on crypto regulation.",
+      "Visa's progress on crypto payment integration.",
+      "Key resistance/support levels for Bitcoin.",
+      "Developments in institutional adoption and corporate treasury strategies."
+    ]
+  }
+}

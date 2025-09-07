@@ -1,0 +1,462 @@
+{
+  "date": "2023-05-23",
+  "long_term": [
+    {
+      "pick_idx": 19,
+      "id": "n0fc175c0f028",
+      "title": "MicroStrategy Pays Off Silvergate Loan, Buys More Bitcoin",
+      "url": "https://finance.yahoo.com/news/microstrategy-pays-off-silvergate-loan-122542696.html",
+      "summary": "MicroStrategy, a significant Bitcoin holder, prepaid its $205 million loan from Silvergate Bank and purchased an additional 6,455 bitcoins for approximately $150 million. This move demonstrates continued confidence in Bitcoin by a major corporate investor, reducing leverage and increasing direct BTC holdings. The repayment of the Silvergate loan removes a potential counterparty risk for MicroStrategy.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_bitcoin_purchase",
+        "Silvergate_loan_repayment",
+        "corporate_bitcoin_holding"
+      ],
+      "rationale": "MicroStrategy's continued accumulation of Bitcoin, coupled with the repayment of its loan from a failed crypto-friendly bank, signals strong conviction. This reduces leverage and increases their direct exposure, which is a positive signal for the market."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nf1f10b7a615d",
+      "title": "Crypto’s Macro Drivers – It’s Not Just About Bitcoin",
+      "url": "https://finance.yahoo.com/news/crypto-macro-drivers-not-just-182307744.html",
+      "summary": "The article suggests that the recent 25 basis point Federal Reserve rate hike might be the last one. This potential pause in interest rate increases is seen as a significant positive for the entire crypto market, not just Bitcoin. A less hawkish monetary policy environment typically benefits risk assets like cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_pause",
+        "monetary_policy_easing",
+        "risk_asset_sentiment"
+      ],
+      "rationale": "The prospect of the Federal Reserve pausing interest rate hikes is a significant macro tailwind for risk assets, including Bitcoin. This shift in monetary policy can lead to increased liquidity and a greater appetite for speculative investments."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1cd20c42f1ed",
+      "title": "Global Blockchain Technology Market to Reach $71 Billion by 2028: Digitization for Improved Service Realization and Error Prevention Fuels the Market",
+      "url": "https://finance.yahoo.com/news/global-blockchain-technology-market-reach-170000418.html",
+      "summary": "A report forecasts the global blockchain technology market to reach $71 billion by 2028, driven by digitization for improved services and error prevention. This indicates growing adoption and integration of blockchain technology across various industries, which indirectly benefits cryptocurrencies like Bitcoin as the underlying technology gains wider acceptance and development.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockchain_market_growth",
+        "enterprise_blockchain_adoption",
+        "tech_infrastructure_development"
+      ],
+      "rationale": "The expanding global blockchain market signifies increasing enterprise adoption and technological advancement. This broader acceptance of the underlying technology can foster innovation and create a more robust ecosystem for cryptocurrencies."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n3a97aa7e70a1",
+      "title": "Tested on Ethereum, StarkWare’s Zero-Knowledge Proofs Are Now Live on Bitcoin",
+      "url": "https://finance.yahoo.com/news/tested-ethereum-starkware-zero-knowledge-100102875.html",
+      "summary": "StarkWare's zero-knowledge proofs (ZKPs) are now live on Bitcoin via the ZeroSync Association. This development allows for network state validation without downloading extensive blockchain history, enhancing privacy and scalability. The integration of ZKPs on Bitcoin is a significant technological advancement that could improve transaction efficiency and user privacy.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "zero_knowledge_proofs_bitcoin",
+        "ZK_scalability",
+        "protocol_upgrade"
+      ],
+      "rationale": "The implementation of zero-knowledge proofs on Bitcoin is a major technological upgrade. It promises to enhance scalability and privacy, addressing key limitations and potentially driving wider adoption and utility for the network."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n611b06b04432",
+      "title": "The New York Times Vs Bitcoin Mining: An Article Review",
+      "url": "https://finance.yahoo.com/news/york-times-vs-bitcoin-mining-043231153.html",
+      "summary": "This article reviews a New York Times piece critical of Bitcoin mining's environmental impact. While the NYT article focuses on the negative aspects, this review suggests a more nuanced perspective might be needed. Persistent negative narratives can impact public perception and regulatory sentiment, but the underlying technology and its benefits remain.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "bitcoin_mining_narrative",
+        "environmental_impact_debate",
+        "media_sentiment"
+      ],
+      "rationale": "While negative press regarding Bitcoin mining's environmental impact can create short-term headwinds, the long-term impact depends on how the industry addresses these concerns and how public perception evolves. The debate itself highlights ongoing scrutiny."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n041bd3f79bc0",
+      "title": "Investors Exit Bitcoin Short Funds at Record Pace as Sentiment Improves",
+      "url": "https://finance.yahoo.com/news/investors-exit-bitcoin-short-funds-193052624.html",
+      "summary": "Institutional investors are exiting Bitcoin short funds at a record pace, indicating a significant shift in sentiment. This suggests a growing belief among institutions that Bitcoin's price is likely to rise, leading them to close out bearish positions. This trend reflects improving market sentiment and potentially increased capital inflow into long positions.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "short_fund_outflows",
+        "institutional_sentiment_shift",
+        "bearish_position_closure"
+      ],
+      "rationale": "Record outflows from Bitcoin short funds signal a strong shift in institutional sentiment towards a more bullish outlook. This suggests that bearish bets are being unwound, potentially paving the way for increased buying pressure."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nb9910b44fd42",
+      "title": "These Influencers Give a Bitcoin Price Prediction of $100k, But AiDoge Is The Best Crypto Buy Today",
+      "url": "https://finance.yahoo.com/news/influencers-bitcoin-price-prediction-100k-102956622.html",
+      "summary": "The article highlights bullish price predictions for Bitcoin, with some influencers forecasting $100k. While the focus also shifts to a new token (AiDoge), the mention of such high price targets for Bitcoin indicates a generally optimistic sentiment among some market participants. This sentiment can influence investor behavior.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_price_prediction",
+        "bullish_sentiment",
+        "influencer_market_impact"
+      ],
+      "rationale": "While the article promotes another token, the inclusion of $100k Bitcoin price predictions from influencers reflects a bullish sentiment that can attract new investors and contribute to upward price momentum."
+    },
+    {
+      "pick_idx": 26,
+      "id": "na0a3040cdf3a",
+      "title": "First Mover Americas: Bitcoin, Up 70% This Year, Rebounds Past $28K",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-70-122621257.html",
+      "summary": "Bitcoin has shown resilience, recovering past $28,000 despite regulatory actions against Binance. The cryptocurrency is up nearly 72% year-to-date, indicating strong underlying demand and recovery from previous downturns. This resilience suggests that the market is absorbing negative news and focusing on fundamental growth drivers.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_YTD_performance",
+        "market_resilience",
+        "regulatory_impact_absorption"
+      ],
+      "rationale": "Bitcoin's strong year-to-date performance and its ability to rebound past key resistance levels despite regulatory headwinds demonstrate market resilience. This suggests a healthy demand and a positive underlying trend."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n3b6ff32a83d7",
+      "title": "More Bad News for Spot Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/more-bad-news-spot-bitcoin-120300364.html",
+      "summary": "The article discusses negative developments for a potential spot Bitcoin ETF, mentioning Coinbase's regulatory issues and Cathie Wood's sale of Coinbase shares. Regulatory uncertainty and challenges faced by key industry players like Coinbase can create headwinds for institutional adoption products like ETFs.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "spot_bitcoin_ETF_delay",
+        "Coinbase_regulatory_issues",
+        "institutional_adoption_hurdles"
+      ],
+      "rationale": "Ongoing regulatory challenges and negative news surrounding potential spot Bitcoin ETFs, particularly those involving major players like Coinbase, can hinder institutional adoption and create uncertainty in the market."
+    },
+    {
+      "pick_idx": 41,
+      "id": "nc08c2f308d0b",
+      "title": "CFTC hits Binance, Micron earnings, Netanyahu backs down - what's moving markets",
+      "url": "https://finance.yahoo.com/news/cftc-hits-binance-micron-earnings-062525038.html",
+      "summary": "The CFTC has taken action against Binance, accusing it of illegally selling derivatives services in the U.S. This regulatory action against a major exchange like Binance can create broader market uncertainty and potentially lead to stricter oversight across the crypto industry, impacting trading volumes and investor confidence.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "CFTC_action_Binance",
+        "crypto_regulation_enforcement",
+        "exchange_legal_risk"
+      ],
+      "rationale": "Regulatory actions against major exchanges like Binance can create significant uncertainty and fear in the market. This type of enforcement can lead to reduced liquidity, increased compliance costs, and a general dampening of investor sentiment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 9,
+      "id": "n22ba1a3df8b1",
+      "title": "Bitcoin Jumps to Key Price Resistance as Hong Kong Opens Crypto Trading for Retail Investors",
+      "url": "https://finance.yahoo.com/news/bitcoin-jumps-key-price-resistance-142800528.html",
+      "summary": "Bitcoin's price rose as Hong Kong announced that retail investors can trade digital assets from June 1. Approved exchanges will need a 12-month track record. This development signals a potentially significant regulatory shift and increased accessibility to crypto in a major Asian financial hub.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Hong_Kong_crypto_regulation",
+        "retail_investor_access",
+        "Asian_market_development"
+      ],
+      "rationale": "Hong Kong's move to allow retail crypto trading is a positive regulatory development that could increase demand and liquidity. This is likely to provide a short-term boost to Bitcoin's price as the market anticipates increased adoption."
+    },
+    {
+      "pick_idx": 16,
+      "id": "naafcb3f48f9d",
+      "title": "Cryptoverse: Busy bitcoin births new breed of crypto",
+      "url": "https://finance.yahoo.com/news/cryptoverse-busy-bitcoin-births-breed-051242526.html",
+      "summary": "Daily Bitcoin transactions have reached an all-time high, driven by the emergence of BRC-20 tokens. This surge in activity, alongside Bitcoin's increasing market dominance, indicates a renewed interest and innovation on the Bitcoin blockchain. The high transaction volume and fees could incentivize miners and developers.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BRC-20_tokens",
+        "bitcoin_transaction_volume",
+        "blockchain_activity_surge"
+      ],
+      "rationale": "The surge in Bitcoin transaction volume and the rise of BRC-20 tokens indicate increased on-chain activity and innovation. This can lead to higher transaction fees, benefiting miners and potentially driving demand for Bitcoin as a medium for these new tokens."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nd225a77139ac",
+      "title": "Flash News: OKX Wallet Enables BRC-20 Trading on its Ordinals Marketplace, Launches Bitcoin Cross-Chain Swap",
+      "url": "https://finance.yahoo.com/news/flash-news-okx-wallet-enables-070000695.html",
+      "summary": "OKX Wallet now supports BRC-20 trading on its Ordinals Marketplace and has launched a Bitcoin cross-chain swap. This makes it the first multi-chain wallet to support BRC-20 tokens on mobile. This integration enhances accessibility and utility for Bitcoin-based tokens, potentially driving demand.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "OKX_BRC-20_support",
+        "Ordinals_marketplace",
+        "cross_chain_swap"
+      ],
+      "rationale": "OKX's integration of BRC-20 trading and cross-chain swaps on its wallet enhances the utility and accessibility of Bitcoin-based tokens. This is likely to attract more users and capital to the Bitcoin ecosystem in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "ne77ba53b91dc",
+      "title": "'It Has Been a Humbling Experience', Says Ledger CEO as Key Recovery Rollout Is Paused",
+      "url": "https://finance.yahoo.com/news/humbling-experience-says-ledger-ceo-215004308.html",
+      "summary": "Ledger has paused the rollout of its controversial 'Ledger Recover' service following community backlash. The company is working to make its plans more transparent. This pause addresses user concerns about security and control over private keys, which could restore some trust in the hardware wallet provider.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Ledger_Recover_pause",
+        "hardware_wallet_security",
+        "community_backlash"
+      ],
+      "rationale": "The pause in Ledger's key recovery service rollout, due to community concerns, indicates potential friction in user adoption of new security features. While a short-term negative for Ledger, addressing these concerns could improve long-term trust."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ncd8f100f8dee",
+      "title": "U.S. Is 'Losing' the Bitcoin Movement: Cathie Wood",
+      "url": "https://finance.yahoo.com/news/u-losing-bitcoin-movement-cathie-155802486.html",
+      "summary": "Cathie Wood believes the U.S. is losing its lead in the Bitcoin movement due to its regulatory environment, citing Coinbase's expansion into Bermuda. This sentiment from a prominent investor suggests a potential shift of crypto innovation and capital away from the U.S., which could impact market sentiment and regulatory approaches.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_comment",
+        "US_regulatory_environment",
+        "crypto_innovation_migration"
+      ],
+      "rationale": "Cathie Wood's comments highlight concerns about the U.S. regulatory landscape impacting crypto innovation. While not a direct price catalyst, it reflects a broader sentiment that could influence future regulatory decisions and capital flows."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nebb903aa0d03",
+      "title": "US stocks decline as White House, Republicans continue to wrangle over debt ceiling deal",
+      "url": "https://finance.yahoo.com/news/us-stocks-decline-white-house-213557432.html",
+      "summary": "US stocks fell as debt-ceiling negotiations between the White House and Republicans remained ongoing. The uncertainty surrounding a potential US debt default creates a risk-off sentiment in traditional markets, which can spill over into the cryptocurrency market, often seen as a risk asset.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_debt_ceiling_uncertainty",
+        "risk_off_sentiment",
+        "stock_market_downturn"
+      ],
+      "rationale": "The ongoing US debt ceiling negotiations and the resulting decline in stock markets create a risk-off environment. This sentiment typically leads to a decrease in demand for risk assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n566f8470cebf",
+      "title": "Bitcoin is Now the Second Most Popular Blockchain for NFTs",
+      "url": "https://finance.yahoo.com/news/bitcoin-now-second-most-popular-030737203.html",
+      "summary": "Bitcoin has become the second most popular blockchain for NFT sales in the past 30 days, amassing $167 million. This surge is attributed to the emergence of Bitcoin Ordinals. The growing adoption of NFTs on the Bitcoin network indicates expanding utility and developer interest.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_NFT_popularity",
+        "Ordinals_adoption",
+        "blockchain_utility_expansion"
+      ],
+      "rationale": "The rapid rise of Bitcoin NFTs signifies growing utility and developer activity on the Bitcoin network. This increased adoption of new use cases can drive demand for Bitcoin and attract further innovation."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nfcb88a1b6c30",
+      "title": "EU implements regulations for tracing crypto transactions",
+      "url": "https://finance.yahoo.com/news/eu-regulations-tracing-crypto-transactions-110842006.html",
+      "summary": "The EU is implementing new regulations requiring crypto service providers to gather and disclose sender/beneficiary information for all transactions, regardless of size. This aims to curb illicit activities and strengthen anti-money laundering rules. Such measures can increase compliance burdens and potentially impact transaction privacy.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "EU_crypto_regulation",
+        "transaction_tracing",
+        "AML_compliance"
+      ],
+      "rationale": "New EU regulations on transaction tracing could increase compliance costs and potentially deter some users concerned about privacy. While aimed at illicit activities, it adds another layer of regulatory complexity to the crypto space."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n04ff0a3efb01",
+      "title": "Bitcoin gains after China signals crypto trading plan for Hong Kong",
+      "url": "https://finance.yahoo.com/news/bitcoin-china-signals-crypto-trading-plan-hong-kong-084038019.html",
+      "summary": "Bitcoin rose as China signaled a crypto trading plan for Hong Kong, potentially allowing retail investors in Hong Kong and institutional investors in mainland China to trade cryptocurrencies via Hong Kong. This news suggests a more favorable regulatory environment emerging in Asia, which could boost demand.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "China_Hong_Kong_crypto_policy",
+        "institutional_access_Asia",
+        "regulatory_easing_Asia"
+      ],
+      "rationale": "Positive regulatory signals from China regarding Hong Kong's crypto trading plans can be a significant catalyst. Increased accessibility for both retail and institutional investors in a major Asian market could drive demand and price appreciation."
+    },
+    {
+      "pick_idx": 40,
+      "id": "nb324f033e40a",
+      "title": "Bitcoin HODLing Has Never Been More Popular",
+      "url": "https://finance.yahoo.com/news/bitcoin-hodling-never-more-popular-214900897.html",
+      "summary": "Data shows that a record 68% of Bitcoin has been held for at least a year, with 55% held for over two years. This increasing trend of long-term holding (HODLing) suggests strong investor conviction and a reduced supply available for sale, which is generally considered bullish.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bitcoin_hodling_trend",
+        "long_term_investor_conviction",
+        "reduced_selling_pressure"
+      ],
+      "rationale": "The increasing trend of Bitcoin HODLing indicates strong investor conviction and a reduction in circulating supply available for sale. This can lead to greater price stability and upward pressure in the short to medium term."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-05-23",
+    "summary": "Bitcoin shows resilience, trading near key resistance levels, buoyed by positive developments in Hong Kong regarding retail crypto trading and the ongoing narrative of potential Fed rate pauses. However, lingering concerns over the US debt ceiling and regulatory actions against major exchanges like Binance introduce short-term headwinds. The rise of BRC-20 tokens and increased Bitcoin NFT activity highlight growing on-chain utility, while a record number of long-term holders suggests strong investor conviction.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "US debt ceiling negotiations failing to reach a timely resolution.",
+      "Further regulatory crackdowns on major exchanges or specific crypto assets.",
+      "Unexpected negative macroeconomic data impacting risk asset sentiment.",
+      "Technical issues or security breaches affecting major crypto infrastructure.",
+      "A sharp reversal in the positive sentiment surrounding Hong Kong's crypto policy."
+    ],
+    "watch_items": [
+      "US Debt Ceiling Negotiations progress/stalemate.",
+      "SEC statements or actions regarding crypto regulation.",
+      "Binance regulatory developments.",
+      "Performance of BRC-20 tokens and Ordinals activity.",
+      "Further updates on Hong Kong's crypto licensing regime."
+    ]
+  }
+}

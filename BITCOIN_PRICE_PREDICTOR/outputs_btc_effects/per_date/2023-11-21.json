@@ -1,0 +1,499 @@
+{
+  "date": "2023-11-21",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n1f389f2d1739",
+      "title": "Bitcoin up more than 5% near one-week high",
+      "url": "https://finance.yahoo.com/news/bitcoin-more-5-near-one-200904589.html",
+      "summary": "Bitcoin experienced a significant rally, increasing by over 5.3% to $37,978, reaching a one-week high. This surge is attributed to the broader market sentiment of an expected end to central bank rate-hiking cycles, which is drawing capital back into high-risk assets. The cryptocurrency has seen a substantial year-to-date increase of approximately 125%, indicating a strong recovery and growing investor interest in riskier investments.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "risk_on_sentiment",
+        "rate_hike_peak"
+      ],
+      "rationale": "The rally suggests increasing investor confidence in risk assets as macroeconomic conditions improve. This trend, if sustained, indicates a positive outlook for Bitcoin's price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nf15bf082ae79",
+      "title": "FOREX-Dollar slips as traders see US rates peaking",
+      "url": "https://finance.yahoo.com/news/forex-dollar-slips-traders-see-062603966.html",
+      "summary": "The US dollar experienced a broad decline as traders anticipate a peak in US interest rates following the Federal Reserve's decision to hold rates steady. This shift in monetary policy expectations has led to gains in risk-sensitive Asian currencies. While the Fed Chair left the door open for further hikes, the market is pricing in a potential end to the tightening cycle, which typically benefits risk assets like cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "USD_weakness",
+        "Fed_rate_peak_anticipation",
+        "risk_asset_appetite"
+      ],
+      "rationale": "A weakening dollar generally correlates with increased liquidity and risk appetite, which can be a tailwind for Bitcoin. The market's expectation of a Fed pause reduces a significant headwind for growth assets."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n4fb66a1839da",
+      "title": "GLOBAL MARKETS-Stocks jump, dollar falls; investors bet Fed may be done hiking rates",
+      "url": "https://finance.yahoo.com/news/global-markets-stocks-jump-dollar-162537498.html",
+      "summary": "Global stock markets rallied significantly, accompanied by a fall in the US dollar, driven by investor optimism that the Federal Reserve has concluded its interest rate hiking cycle. Benchmark 10-year Treasury yields also reached three-week lows. This sentiment suggests a shift towards risk-on assets as the perceived threat of further monetary tightening diminishes.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "global_stocks_rally",
+        "USD_fall",
+        "Fed_pause_sentiment"
+      ],
+      "rationale": "The combination of rising global stocks and a falling dollar, fueled by expectations of a Fed pause, creates a favorable environment for Bitcoin. This macro backdrop supports a broader risk-on sentiment, benefiting speculative assets."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n8f15e64ca5ef",
+      "title": "First Mover Americas: JPMorgan Goes Live With First Blockchain-Based Collateral Settlement",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-jpmorgan-goes-121206745.html",
+      "summary": "JPMorgan successfully executed its first live blockchain-based collateral settlement transaction, utilizing its Ethereum-based Onyx blockchain and Tokenized Collateral Network (TCN). This involved BlackRock tokenizing shares of a money market fund, which were then transferred to Barclays for collateral. This milestone demonstrates the increasing adoption of blockchain technology by traditional financial institutions for real-world asset management and settlement.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "JPM_blockchain_settlement",
+        "tokenized_assets",
+        "institutional_adoption"
+      ],
+      "rationale": "This development signifies a crucial step in integrating blockchain technology into traditional finance, potentially paving the way for broader institutional adoption of digital assets and underlying blockchain infrastructure."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n9f5b019bd64a",
+      "title": "Bitcoin Miner ETF Tops in First Nine Months: 5 Best Stocks",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-etf-tops-first-142900751.html",
+      "summary": "The Valkyrie Bitcoin Miners ETF (WGMI) has emerged as the top-performing ETF in the first nine months of 2023, with an impressive 117% gain. This performance highlights the strong investor interest and positive returns within the Bitcoin mining sector. Several companies within the ETF's portfolio, including Cipher Mining, Bit Digital, and Iris Energy, have also shown substantial growth, indicating a robust market for Bitcoin mining operations.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_ETF_performance",
+        "mining_sector_growth",
+        "WGMI_outperformance"
+      ],
+      "rationale": "The strong performance of Bitcoin mining ETFs and related stocks suggests a healthy and growing mining industry, which is a fundamental driver of Bitcoin's network security and value. This indicates positive sentiment and investment flow into the mining ecosystem."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nfe140fae54c5",
+      "title": "DeFi Sector Heats Up Amid Broad Market Rally",
+      "url": "https://finance.yahoo.com/news/defi-sector-heats-amid-broad-203808710.html",
+      "summary": "The decentralized finance (DeFi) sector has experienced a notable rally, with many DeFi tokens outperforming both Bitcoin and Ethereum. The market capitalization of DeFi assets has increased by 15% to $49.4 billion, reaching a three-month high. Furthermore, the total value locked (TVL) in DeFi protocols has surpassed $40 billion for the first time since August. This resurgence indicates growing investor confidence and capital inflow into the DeFi space.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "DeFi_market_cap_growth",
+        "DeFi_TVL_increase",
+        "DeFi_token_outperformance"
+      ],
+      "rationale": "The growth in the DeFi sector signals increasing utility and adoption of decentralized financial services. This trend can lead to greater demand for underlying blockchain infrastructure and potentially spill over to the broader crypto market, including Bitcoin."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nc0b167109d0a",
+      "title": "Cardano Blockchain Plans to Adopt Polkadot's Substrate Framework",
+      "url": "https://finance.yahoo.com/news/cardano-blockchain-plans-adopt-polkadots-182245214.html",
+      "summary": "Cardano, a prominent Layer 1 blockchain, intends to integrate Polkadot's Substrate framework for its upcoming 'partner chain' initiative. This strategic move aims to enhance interoperability and development capabilities within the Cardano ecosystem. The adoption of Substrate, a modular framework, could lead to more efficient development and a more interconnected blockchain landscape.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Cardano_Substrate_integration",
+        "blockchain_interoperability",
+        "L1_framework_adoption"
+      ],
+      "rationale": "While this indicates technological advancement and potential for future growth in the Cardano ecosystem, its direct impact on Bitcoin's long-term trajectory is less pronounced. It highlights broader trends in blockchain development."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n3c7ad65f5104",
+      "title": "Bitcoin surges above $30,000 after a wild week for crypto investors",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-above-30000-after-a-wild-week-for-crypto-investors-150843803.html",
+      "summary": "Bitcoin briefly surpassed the $30,000 mark, driven by positive regulatory news, specifically the SEC dropping charges against Ripple executives. This development represents a victory for the industry amidst ongoing regulatory challenges. The surge in Bitcoin's price, along with other digital assets like XRP, underscores a renewed optimism and positive momentum in the crypto market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_over_30k",
+        "SEC_Ripple_decision",
+        "regulatory_clarity_boost"
+      ],
+      "rationale": "Positive regulatory developments, such as the SEC's decision regarding Ripple, can significantly boost investor confidence and reduce perceived risks in the crypto market, leading to sustained price appreciation for Bitcoin."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nc9ac8cb11c9e",
+      "title": "Altcoins including Solana, Chainlink, and Pepe are riding Bitcoin’s coattails as crypto’s OG chases $35,000",
+      "url": "https://finance.yahoo.com/news/altcoins-including-solana-chainlink-pepe-171028558.html",
+      "summary": "Bitcoin's ascent towards $35,000 has catalyzed a rally in various altcoins, including Solana, Chainlink, and even meme tokens like Pepe. This broad market upswing indicates a healthy market sentiment where Bitcoin's price action often leads to gains across the wider cryptocurrency ecosystem. Solana, in particular, has shown resilience, recovering from previous slumps.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "altcoin_rally",
+        "BTC_price_driver",
+        "Solana_recovery"
+      ],
+      "rationale": "The correlation between Bitcoin's price movements and altcoin performance suggests that as Bitcoin gains momentum, it often pulls the rest of the market higher. This indicates a strengthening overall crypto market."
+    },
+    {
+      "pick_idx": 44,
+      "id": "nba050664a84e",
+      "title": "Bitcoin’s 300% Surge From Early 2019 in Focus as Fed Officials Favor Rate Pause",
+      "url": "https://finance.yahoo.com/news/bitcoin-300-surge-early-2019-080802104.html",
+      "summary": "The article draws a parallel between the current dovish sentiment from Federal Reserve officials and the conditions in early 2019, a period when Bitcoin experienced a 300% surge. This historical comparison suggests that a pause or potential end to the Fed's rate-hiking cycle could trigger a significant rally in Bitcoin, similar to its performance in 2019. The Fed's tightening cycle has been a major factor influencing crypto markets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_2019_surge_analogy",
+        "Fed_rate_pause_impact",
+        "liquidity_cycle_end"
+      ],
+      "rationale": "Historical precedents suggest that periods of monetary easing or a pause in tightening by the Federal Reserve can be highly beneficial for risk assets like Bitcoin, potentially leading to substantial price increases."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nd5458448506d",
+      "title": "ARK Invest Discloses 0.80% Fee for Spot Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/ark-invest-discloses-0-80-002703970.html",
+      "summary": "ARK Invest and 21Shares have updated their spot Bitcoin ETF filing, revealing an 0.80% fee. This disclosure is a crucial step in the approval process for a spot Bitcoin ETF in the US. The fee structure is a key consideration for institutional investors and could influence the adoption rate of such a product.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ARK_ETF_fee",
+        "spot_BTC_ETF_filing",
+        "institutional_product_fee"
+      ],
+      "rationale": "The disclosure of a competitive fee structure for a potential spot Bitcoin ETF is a positive signal for its approval and subsequent adoption, which could lead to increased inflows into Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb9ba777d61bd",
+      "title": "US stocks jump as bond yields slip and Microsoft shares surge",
+      "url": "https://finance.yahoo.com/news/us-stocks-jump-bond-yields-051047061.html",
+      "summary": "US stocks experienced a significant rise, driven by falling bond yields and a surge in Microsoft's share price to a new all-time high. The 10-year Treasury yield eased, and major indexes are on track for strong monthly performance. This indicates a positive risk-on sentiment in the broader market.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "US_stocks_rally",
+        "bond_yields_slip",
+        "Microsoft_surge"
+      ],
+      "rationale": "A strong performance in traditional markets, particularly with falling yields, often correlates with positive sentiment for risk assets like Bitcoin, suggesting potential for short-term price appreciation."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n9a04d95d3b0a",
+      "title": "Marathon Digital Sees Shift in Bitcoin Mining Industry Dynamics With Energy Producers, Renewable Energy",
+      "url": "https://finance.yahoo.com/news/marathon-digital-sees-shift-bitcoin-054425983.html",
+      "summary": "Marathon Digital highlights a shift in the Bitcoin mining industry towards strategic partnerships with energy producers, particularly those utilizing renewable energy. Miners are now seeking out mismatches in energy generation and demand, fostering mutually beneficial relationships. This trend suggests a maturing and more sustainable mining sector.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "miner_energy_partnerships",
+        "renewable_energy_mining",
+        "mining_sustainability"
+      ],
+      "rationale": "While a positive long-term development for the mining industry's sustainability, this shift has a more limited immediate impact on Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n150f140f3f61",
+      "title": "Bitcoin Overtakes Ethereum in Transaction Fees on the Back of Renewed Ordinals Frenzy",
+      "url": "https://finance.yahoo.com/news/bitcoin-overtakes-ethereum-transaction-fees-054926881.html",
+      "summary": "Bitcoin's average daily transaction fees have surpassed Ethereum's, driven by increased activity related to the Ordinals Protocol and BRC-20 tokens. This surge in fees indicates heightened network usage and demand for block space on the Bitcoin network, suggesting a growing interest in Bitcoin-based digital assets.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_transaction_fees_high",
+        "Ordinals_activity",
+        "BRC20_demand"
+      ],
+      "rationale": "Increased network activity and higher transaction fees suggest growing utility and demand for Bitcoin's block space, which can be a positive indicator for price momentum."
+    },
+    {
+      "pick_idx": 7,
+      "id": "naf9ea739932b",
+      "title": "Bull of the Day: Coinbase (COIN)",
+      "url": "https://finance.yahoo.com/news/bull-day-coinbase-coin-080000773.html",
+      "summary": "Coinbase (COIN) is highlighted as a 'Bull of the Day' due to its position as the largest US cryptocurrency exchange and recent improvements in its earnings surprise history. Despite a mixed past, the last three quarters have shown double-digit EPS surprises, indicating strengthening financial performance. This positive outlook for a major crypto exchange can positively influence the broader market sentiment.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinbase_earnings_beat",
+        "COIN_bullish_rating",
+        "exchange_performance"
+      ],
+      "rationale": "Positive analyst ratings and strong earnings performance for a key player like Coinbase can signal increased institutional and retail participation, boosting overall market sentiment."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf968e94f6c98",
+      "title": "US Bitcoin Corp Stockholders Approve Transformational Business Combination with Hut 8",
+      "url": "https://finance.yahoo.com/news/us-bitcoin-corp-stockholders-approve-140000186.html",
+      "summary": "US Bitcoin Corp stockholders have overwhelmingly approved a business combination with Hut 8 Mining Corp. This merger creates one of North America's largest digital asset mining companies. The approval signifies consolidation and potential operational efficiencies within the mining sector, which could impact network hashrate and mining economics.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "USBTC_Hut8_merger",
+        "mining_consolidation",
+        "mining_sector_efficiency"
+      ],
+      "rationale": "Industry consolidation can lead to greater operational efficiency and potentially a more stable hashrate, which are generally positive for the Bitcoin network, though the immediate price impact might be limited."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n9d859e7f39c5",
+      "title": "Zacks Investment Ideas feature highlights: YPF, ARGT, BITO, Coinbase and MicroStrategy",
+      "url": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-140300290.html",
+      "summary": "Zacks Investment Ideas highlights several stocks and ETFs, including the ProShares Bitcoin ETF (BITO) and MicroStrategy (MSTR). The mention of BITO, a Bitcoin futures ETF, suggests continued interest in regulated investment vehicles for Bitcoin exposure. MicroStrategy's inclusion points to the ongoing corporate adoption of Bitcoin as a treasury reserve asset.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BITO_mention",
+        "MicroStrategy_MSTR",
+        "institutional_interest_crypto"
+      ],
+      "rationale": "Positive mentions of Bitcoin-related investment products and companies like MicroStrategy in financial analysis outlets can increase retail and institutional awareness and interest, potentially driving short-term demand."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n5604fd4303f8",
+      "title": "What’s behind Binance’s rumored $4 billion deal with the Justice Department",
+      "url": "https://finance.yahoo.com/news/behind-binance-rumored-4-billion-150341361.html",
+      "summary": "Binance is reportedly in discussions with the Justice Department to resolve its legal troubles with a potential $4 billion settlement. This news follows earlier lawsuits from the SEC and CFTC. A resolution, even with a significant fine, could remove a major overhang of regulatory uncertainty for the world's largest crypto exchange.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Binance_DOJ_settlement",
+        "regulatory_overhang_removal",
+        "CZ_plea_deal"
+      ],
+      "rationale": "A resolution to the Binance investigation, even with a substantial fine, would remove a significant regulatory risk for the entire crypto market, potentially leading to a relief rally."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n934e5c306e4b",
+      "title": "Crypto investors cheer talk of Binance criminal probe resolution",
+      "url": "https://finance.yahoo.com/news/crypto-investors-cheer-talk-binance-154158543.html",
+      "summary": "Crypto investors are reacting positively to the prospect of a resolution for the U.S. criminal investigation into Binance. The market anticipates that any deal allowing Binance to continue operating would alleviate a significant risk for the broader crypto market. Reports suggest the U.S. Justice Department is seeking over $4 billion from Binance as part of this proposed resolution.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Binance_investor_sentiment",
+        "crypto_market_relief",
+        "DOJ_probe_resolution"
+      ],
+      "rationale": "The market's positive reaction to the potential Binance settlement indicates that regulatory clarity, even at a cost, is highly valued. This could lead to a short-term boost in crypto prices."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n2147d45c843d",
+      "title": "Binance BNB token drops on criminal charges, Bitcoin and broader crypto market dip slightly",
+      "url": "https://finance.yahoo.com/news/binance-bnb-token-drops-criminal-194402565.html",
+      "summary": "The BNB token experienced a significant drop following news of criminal charges against Binance and its CEO, Changpeng 'CZ' Zhao. The broader crypto market also saw a slight dip. This event highlights the sensitivity of the crypto market to regulatory actions against major exchanges.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BNB_price_drop",
+        "Binance_criminal_charges",
+        "crypto_market_dip"
+      ],
+      "rationale": "Negative regulatory news concerning a major exchange like Binance can create short-term FUD (Fear, Uncertainty, Doubt) and lead to minor price corrections across the market."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-11-21",
+    "summary": "The market sentiment remains cautiously optimistic, buoyed by expectations of a Federal Reserve rate pause and positive developments in the spot Bitcoin ETF race, with ARK Invest disclosing its fee structure. However, news of potential criminal charges against Binance and its CEO has introduced some short-term volatility, causing a slight dip in BNB and the broader market. Despite this, the overall trend suggests a continuation of the risk-on rally in traditional markets, which typically benefits Bitcoin.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Further negative regulatory developments impacting major exchanges like Binance.",
+      "Unexpected hawkish commentary from Federal Reserve officials.",
+      "A significant sell-off in traditional equity markets.",
+      "Failure to secure SEC approval for spot Bitcoin ETFs in the near term."
+    ],
+    "watch_items": [
+      "Binance settlement details and any further legal actions.",
+      "SEC decisions on pending spot Bitcoin ETF applications.",
+      "Federal Reserve meeting minutes and speeches from Fed officials.",
+      "Key macroeconomic data releases (e.g., inflation, employment)."
+    ]
+  }
+}

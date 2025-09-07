@@ -1,0 +1,476 @@
+{
+  "date": "2023-01-21",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nd7a67879bc03",
+      "title": "PayPal launches integration with MetaMask Web3 wallet for Ethereum transactions",
+      "url": "https://finance.yahoo.com/news/paypal-launches-integration-metamask-web3-180000070.html",
+      "summary": "PayPal's integration with MetaMask allows users to buy and transfer Ether directly within the wallet using their PayPal accounts. This move expands the accessibility of cryptocurrency for a broader user base, potentially driving adoption and increasing transaction volumes on the Ethereum network. By simplifying the purchase process, it lowers the barrier to entry for new users, fostering greater engagement with the Web3 ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "PayPal_MetaMask_integration",
+        "ETH_onramp",
+        "Web3_adoption"
+      ],
+      "rationale": "This integration significantly lowers the barrier to entry for new users wanting to acquire ETH, directly leveraging PayPal's massive user base. It represents a crucial step in bridging traditional finance with the crypto world, potentially leading to increased adoption and on-chain activity."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n76f0b57cb96b",
+      "title": "Bankruptcy judge rules Celsius Network owns users’ interest-bearing crypto accounts",
+      "url": "https://finance.yahoo.com/news/bankruptcy-judge-rules-celsius-network-230204261.html",
+      "summary": "A bankruptcy judge has ruled that Celsius Network owns the cryptocurrency deposited into its interest-bearing accounts. This decision impacts approximately $4.2 billion in assets. The ruling stems from the terms of service users agreed to, which effectively transferred ownership of the deposited crypto to Celsius. This outcome has significant implications for user rights and asset ownership in the crypto lending space, potentially setting a precedent for similar cases.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Celsius_bankruptcy",
+        "user_asset_ownership",
+        "lender_risk"
+      ],
+      "rationale": "This ruling is a major blow to user confidence in centralized crypto lending platforms, highlighting the risks associated with depositing assets. It could lead to a significant outflow of funds from similar platforms and a greater preference for self-custody, impacting the liquidity and operational models of many crypto businesses."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n84c501eb1936",
+      "title": "Binance CEO Tells Staff Next Few Months ‘Will Be Bumpy’: Report",
+      "url": "https://finance.yahoo.com/news/binance-ceo-tells-staff-next-104533159.html",
+      "summary": "Binance CEO Changpeng Zhao (CZ) has informed staff that the coming months will be challenging, citing increased scrutiny and tough questions following the FTX collapse. Despite these headwinds, CZ expressed confidence in Binance's resilience and ability to emerge stronger. This internal communication signals potential operational adjustments and a heightened focus on regulatory compliance and risk management within the world's largest crypto exchange.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Binance_CEO_outlook",
+        "regulatory_scrutiny",
+        "exchange_stability"
+      ],
+      "rationale": "The CEO's candid admission of a 'bumpy' period suggests potential internal challenges or external pressures that could affect Binance's operations or market perception. While the company's size offers some stability, increased regulatory scrutiny could lead to operational changes or impact its market dominance."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n1de73fcb8bc5",
+      "title": "SEC sends letter to companies urging updated disclosures amid 'widespread disruption' in crypto markets",
+      "url": "https://finance.yahoo.com/news/sec-sends-letter-to-companies-urging-updated-disclosures-amid-widespread-disruption-in-crypto-markets-205617732.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has issued a letter to public companies, advising them to evaluate and update their disclosures regarding the impact of recent crypto market turmoil, including bankruptcies and financial distress. This proactive measure aims to ensure investors have accurate information about how these events might affect businesses. The SEC's focus on disclosure highlights a growing regulatory interest in the crypto sector's interconnectedness with traditional finance.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "SEC_disclosure_letter",
+        "crypto_market_impact",
+        "investor_protection"
+      ],
+      "rationale": "The SEC's directive for enhanced disclosures signals increased regulatory oversight and a potential for stricter enforcement. Companies with significant crypto exposure will need to be more transparent, which could reveal vulnerabilities and impact investor sentiment towards the broader market."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd02553f92788",
+      "title": "Bitcoin price surges 24% as crypto retakes $1tn market cap",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-surges-crypto-retakes-1-trillion-market-cap-100100567.html",
+      "summary": "Bitcoin's price has surged by approximately 24%, pushing the total cryptocurrency market capitalization back above $1 trillion. This rally saw Bitcoin break the $21,000 mark, a significant increase from its early January low. Other cryptocurrencies, including Ethereum and Solana, also experienced substantial gains. This broad market upturn suggests a potential shift in investor sentiment and a recovery from the prolonged crypto winter.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "market_cap_recovery",
+        "ETH_rally",
+        "SOL_gains"
+      ],
+      "rationale": "The significant price appreciation and the reclaiming of the $1 trillion market cap indicate a strong resurgence in crypto market sentiment. This broad-based rally, led by Bitcoin and Ethereum, suggests a potential bottoming out and a move towards a more positive trend, driven by renewed investor interest."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nbf1130c9fca9",
+      "title": "Bitcoin 'rarely' used for legal transactions, on 'road to irrelevance', say European Central Bank officials",
+      "url": "https://finance.yahoo.com/news/bitcoin-rarely-used-legal-transactions-124206429.html",
+      "summary": "European Central Bank (ECB) officials have criticized Bitcoin, stating it is rarely used for legal transactions and is on a path to irrelevance. They argue that its value is driven by speculation and that regulators should not legitimize digital tokens. This commentary from a major central bank reflects a cautious and critical stance towards cryptocurrencies, potentially influencing future regulatory approaches and investor perceptions.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "ECB_criticism",
+        "BTC_irrelevance",
+        "speculative_asset"
+      ],
+      "rationale": "Negative commentary from influential bodies like the ECB can shape regulatory sentiment and investor confidence. While not directly impacting price in the short term, such statements contribute to a long-term narrative that could hinder mainstream adoption and institutional investment."
+    },
+    {
+      "pick_idx": 17,
+      "id": "ndf7eb543d203",
+      "title": "El Salvador establishes legal framework for all cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/el-salvador-establishes-legal-framework-121754508.html",
+      "summary": "El Salvador has passed legislation to create a legal framework for all cryptocurrencies, aiming to build on its 'first-mover advantage.' This new law is intended to provide consumer protection and signal the country's openness to crypto businesses. By establishing clear regulations, El Salvador seeks to attract investment and innovation in the digital asset space, potentially serving as a model for other nations.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "El_Salvador_crypto_law",
+        "digital_securities_law",
+        "consumer_protection"
+      ],
+      "rationale": "While El Salvador's adoption of Bitcoin as legal tender has had mixed results, establishing a broader legal framework for all cryptocurrencies is a positive step for regulatory clarity. This could attract more crypto-native businesses and developers to the country, fostering innovation."
+    },
+    {
+      "pick_idx": 20,
+      "id": "necafd95cd79a",
+      "title": "How a deeper crypto crash in 2023 could spark a gold rush",
+      "url": "https://finance.yahoo.com/news/extended-crypto-collapse-could-burnish-123125642.html",
+      "summary": "Standard Chartered suggests that a continued crypto market collapse in 2023 could benefit gold, a traditional store of wealth. The report posits that as investors become disillusioned with volatile digital assets, they may shift towards more established safe-haven assets like gold. This potential rotation highlights the interconnectedness of asset classes and the search for stability amidst market uncertainty.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_crash_impact",
+        "gold_as_safe_haven",
+        "asset_rotation"
+      ],
+      "rationale": "This analysis suggests a potential flight to safety from crypto to gold if the market downturn deepens. While not directly bullish for crypto, it indicates a potential shift in investor behavior and asset allocation strategies in response to market volatility, which could indirectly influence crypto demand."
+    },
+    {
+      "pick_idx": 28,
+      "id": "na43c62c8e64f",
+      "title": "‘A fraud and a bubble are two different things’: Crypto is shocking to a financial historian who literally wrote the book on financial bubbles",
+      "url": "https://finance.yahoo.com/news/fraud-bubble-two-different-things-213653403.html",
+      "summary": "A financial historian, author of a book on financial bubbles, expresses shock at the crypto space, distinguishing between fraud and bubbles. The article notes the $2 trillion loss in crypto value over the past year and mentions events like the FTX meltdown and Celsius collapse as 'bumps.' The historian's perspective suggests that while crypto may exhibit bubble-like characteristics, the underlying issues of fraud are also significant, impacting long-term viability and investor trust.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "financial_historian_view",
+        "crypto_fraud",
+        "market_bubble",
+        "investor_trust"
+      ],
+      "rationale": "The perspective from a financial historian specializing in bubbles adds weight to concerns about crypto's inherent risks and potential for manipulation. The distinction between fraud and bubbles is critical; widespread fraud erodes trust more fundamentally than a typical market bubble, potentially leading to prolonged periods of reduced adoption and investment."
+    },
+    {
+      "pick_idx": 35,
+      "id": "nbf7c76c174a7",
+      "title": "CFTC Chair calls for authority to prevent the next FTX",
+      "url": "https://finance.yahoo.com/news/cftc-chair-calls-for-authority-to-prevent-the-next-ftx-211131751.html",
+      "summary": "CFTC Chair Rostin Behnam testified before the Senate, stating that if the commission had regulatory authority over crypto spot markets, it could have prevented the FTX failure. He argued that such authority would allow the CFTC to intervene in cases of conflicts of interest, commingling of funds, and poor record-keeping. This call for expanded powers highlights the ongoing debate about crypto regulation and the potential for increased oversight.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "CFTC_authority_call",
+        "spot_market_regulation",
+        "FTX_prevention",
+        "regulatory_gap"
+      ],
+      "rationale": "The CFTC Chair's statement underscores a significant regulatory gap that allowed for events like the FTX collapse. Granting the CFTC more authority over spot markets could lead to stricter rules and oversight, potentially impacting exchange operations and market participants."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ndb8ecb883026",
+      "title": "REFILE-Bitcoin rises 2.3% to $23,199",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-2-3-23-100410448.html",
+      "summary": "Bitcoin experienced a 2.3% increase, reaching $23,199. This rise marks a significant gain from its year-to-date low. Ether also saw a modest increase. The upward movement suggests positive short-term momentum in the crypto market.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_increase",
+        "ETH_price_increase",
+        "market_momentum"
+      ],
+      "rationale": "The immediate price increase in Bitcoin and Ether indicates positive short-term sentiment and buying pressure, likely driven by recent market trends."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n07eea3259f6a",
+      "title": "Bitcoin rises 2.3% to $23,199",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-2-3-23-102323888.html",
+      "summary": "Bitcoin's price rose by 2.3% to $23,199, continuing its upward trend from the year's low. Ether also saw a slight gain. This report reiterates the positive price action observed earlier in the day.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_up",
+        "ETH_price_up",
+        "market_trend"
+      ],
+      "rationale": "This is a duplicate report of the same price movement, reinforcing the short-term bullish trend observed in Bitcoin and Ethereum."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nf715fd173047",
+      "title": "Bitcoin rises 2.3% to $23,199",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-2-3-23-102323268.html",
+      "summary": "Bitcoin's price increased by 2.3% to $23,199, building on its recent gains. Ether also experienced a small rise. This consistent reporting of price increases suggests sustained positive momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_gain",
+        "ETH_price_gain",
+        "positive_momentum"
+      ],
+      "rationale": "The repeated reporting of Bitcoin's price increase further solidifies the short-term bullish sentiment and suggests continued upward price action."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n23b21c4e6aa9",
+      "title": "Genesis faced trouble long before the collapse of FTX and this week's bankruptcy filing, with a stream of exec departures and exposure to defunct Three Arrows",
+      "url": "https://finance.yahoo.com/news/genesis-faced-trouble-long-collapse-133000882.html",
+      "summary": "Crypto lender Genesis filed for Chapter 11 bankruptcy, revealing pre-existing troubles including executive departures and exposure to Three Arrows Capital. This news highlights ongoing contagion risks within the crypto lending sector, which could impact liquidity and investor confidence in related entities.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "liquidity",
+        "legal"
+      ],
+      "features_for_model": [
+        "Genesis_bankruptcy",
+        "contagion_risk",
+        "lender_instability"
+      ],
+      "rationale": "The bankruptcy of Genesis, a significant crypto lender, introduces further contagion risk and negative sentiment, potentially impacting other firms with similar exposures or business models."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ncb1add8c6308",
+      "title": "This Week in Coins: Bitcoin and Ethereum Rise, Solana Rises Most",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-rise-135009098.html",
+      "summary": "Bitcoin and Ethereum have seen significant gains this week, contributing to the overall market capitalization exceeding $1 trillion. Bitcoin is up 16% for the week. This broad market rally suggests a positive short-term trend for major cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "price_action",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_weekly_gain",
+        "ETH_weekly_gain",
+        "market_rally",
+        "market_cap_over_trillion"
+      ],
+      "rationale": "The consistent weekly gains for Bitcoin and Ethereum, coupled with the market cap crossing $1 trillion, indicate strong positive momentum and increasing investor interest in the short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n49531ae3e2c6",
+      "title": "$4.6 Billion in Ethereum Up in Flames Since EIP-1559",
+      "url": "https://finance.yahoo.com/news/4-6-billion-ethereum-flames-142215384.html",
+      "summary": "Since the implementation of EIP-1559 in August 2021, approximately 2.8 million ETH, valued at $4.6 billion, has been burned (destroyed). This mechanism reduces the circulating supply of ETH. The continued burning rate, especially over the past week, is a deflationary pressure on ETH.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETH_burn_rate",
+        "EIP1559",
+        "ETH_supply_reduction",
+        "deflationary_pressure"
+      ],
+      "rationale": "The ongoing ETH burn rate is a fundamental deflationary mechanism for Ethereum. A sustained high burn rate can positively impact ETH's price by reducing supply, especially during periods of increased network activity."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n48c880f5df5b",
+      "title": "7 Tech Stocks Every Smart Investor Should Own in 2023",
+      "url": "https://finance.yahoo.com/news/7-tech-stocks-every-smart-180751360.html",
+      "summary": "Despite a tough 2022, tech stocks with fundamental advantages in innovation are still attractive. The article suggests focusing on companies driving advancements, implying that the tech sector, which often correlates with crypto innovation, may see a rebound. This sentiment could spill over into crypto markets.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "tech_stock_outlook",
+        "innovation_focus",
+        "sector_correlation"
+      ],
+      "rationale": "A positive outlook on the tech sector, particularly on innovation-driven companies, can indirectly benefit crypto markets, which are closely tied to technological advancements and investor sentiment towards growth sectors."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ndb8ecb883026",
+      "title": "REFILE-Bitcoin rises 2.3% to $23,199",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-2-3-23-100410448.html",
+      "summary": "Bitcoin saw a 2.3% price increase, reaching $23,199, continuing its upward trajectory from the year's low. Ether also experienced a modest gain. This price action suggests positive short-term market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_up",
+        "ETH_price_up",
+        "short_term_momentum"
+      ],
+      "rationale": "The consistent reporting of Bitcoin's price increase reinforces the short-term bullish trend, indicating continued positive momentum in the market."
+    },
+    {
+      "pick_idx": 17,
+      "id": "ncb1add8c6308",
+      "title": "This Week in Coins: Bitcoin and Ethereum Rise, Solana Rises Most",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-rise-135009098.html",
+      "summary": "Bitcoin and Ethereum have experienced significant gains this week, contributing to the crypto market's total capitalization exceeding $1 trillion. Bitcoin is up 16% for the week. This broad market rally indicates a positive short-term trend for major cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "price_action",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_weekly_performance",
+        "ETH_weekly_performance",
+        "market_recovery",
+        "market_cap_milestone"
+      ],
+      "rationale": "The strong weekly performance of Bitcoin and Ethereum, alongside the market cap crossing the $1 trillion mark, signals robust positive sentiment and potential for continued upward price movement in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-01-21",
+    "summary": "The crypto market continues its positive momentum, with Bitcoin and Ethereum showing significant weekly gains and the total market cap reclaiming the $1 trillion mark. This broad rally suggests a strengthening bullish sentiment. However, ongoing concerns about contagion risk from entities like Genesis filing for bankruptcy, and regulatory pressures highlighted by the SEC's disclosure requests, introduce bearish undercurrents. The deflationary pressure from Ethereum's EIP-1559 burn rate remains a supportive factor.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "Further contagion from crypto lender bankruptcies (e.g., Genesis).",
+      "Increased regulatory scrutiny and potential enforcement actions from the SEC.",
+      "Macroeconomic factors, such as persistent inflation or hawkish Fed policy, could dampen risk appetite.",
+      "Potential for profit-taking after the recent rally, leading to short-term pullbacks.",
+      "Unforeseen security breaches or exchange issues could trigger FUD."
+    ],
+    "watch_items": [
+      "Genesis bankruptcy proceedings and any further fallout.",
+      "SEC statements or actions regarding crypto regulation.",
+      "Upcoming inflation data (CPI) and Federal Reserve meeting minutes.",
+      "Binance's operational stability and any regulatory challenges.",
+      "Developments in the Ripple (XRP) lawsuit.",
+      "Performance of major altcoins and their correlation to BTC/ETH."
+    ]
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "date": "2023-05-14",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n6c407c35b402",
+      "title": "Bitcoin Reclaims $30,000: ETFs to Ride the Rally",
+      "url": "https://finance.yahoo.com/news/bitcoin-reclaims-30-000-etfs-151003761.html",
+      "summary": "Bitcoin surpassed $30,000 for the first time since June 2022, driven by expectations of the Fed ending its monetary tightening and the ongoing banking turmoil. This rally has boosted crypto-related stocks and suggests potential for increased trading volumes in Bitcoin ETFs like BITO, BITQ, XBTF, BTF, and WGMI. The event signals renewed institutional interest and a potential upward trend for Bitcoin, influenced by macroeconomic factors and the broader crypto market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_30k",
+        "ETF_interest",
+        "Fed_policy_pivot"
+      ],
+      "rationale": "The reclaim of the $30,000 level is a significant psychological and technical milestone. The mention of ETFs indicates growing institutional adoption, which can drive sustained price appreciation over the next year."
+    },
+    {
+      "pick_idx": 3,
+      "id": "ncfd7cc128989",
+      "title": "CFTC Lawsuit Against Binance Puts Crypto Investors on Edge",
+      "url": "https://finance.yahoo.com/news/cftc-lawsuit-against-binance-puts-133113887.html",
+      "summary": "The Commodity Futures Trading Commission (CFTC) has filed a lawsuit against Binance, the world's largest crypto exchange, alleging violations of trading rules, including those related to anti-money laundering and combating terrorism financing. The lawsuit claims Binance employees and customers were instructed to circumvent these provisions. This legal action has created significant uncertainty and anxiety within the cryptocurrency market, impacting investor sentiment and potentially leading to regulatory scrutiny of other major exchanges.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "CFTC_lawsuit_Binance",
+        "regulatory_uncertainty",
+        "exchange_scrutiny"
+      ],
+      "rationale": "A major lawsuit against the largest exchange creates significant regulatory risk and can lead to reduced liquidity and investor confidence. This could have a prolonged negative impact on the market as other exchanges face increased scrutiny."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1bb635089b71",
+      "title": "Florida Governor Ron DeSantis Bans CBDCs in the State",
+      "url": "https://finance.yahoo.com/news/florida-governor-ron-desantis-bans-193615323.html",
+      "summary": "Florida Governor Ron DeSantis has signed a bill that explicitly bans the use of central bank digital currencies (CBDCs) within the state. DeSantis has been vocal in his opposition to CBDCs, viewing them as part of \"woke politics.\" This legislative action defines money in Florida law to exclude CBDCs, signaling a move towards protecting traditional financial systems and potentially creating a more favorable environment for decentralized digital assets like Bitcoin in the state.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "CBDC_ban_Florida",
+        "state_level_regulation",
+        "decentralization_support"
+      ],
+      "rationale": "While a single state's ban on CBDCs has limited immediate impact, it reflects a growing trend of regulatory divergence and potential support for decentralized alternatives. This could foster a more crypto-friendly environment in certain jurisdictions over the long term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n8dcb0966bd7c",
+      "title": "Bitcoin's Huge Surge Pushes Crypto Market Cap to $1.19T, the Highest Since June",
+      "url": "https://finance.yahoo.com/news/bitcoins-huge-surge-pushes-crypto-170352525.html",
+      "summary": "The total market capitalization of cryptocurrencies has reached $1.19 trillion, its highest point since June, largely due to Bitcoin's 70% rally in early 2023. This growth occurs despite significant regulatory crackdowns within the industry. The overall market cap has increased from approximately $800 billion at the start of the year, indicating a strong recovery and renewed investor confidence in digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "crypto_market_cap_1.19T",
+        "Bitcoin_rally_70%",
+        "regulatory_headwinds_overcome"
+      ],
+      "rationale": "The significant increase in market capitalization, driven by Bitcoin's strong performance, demonstrates resilience and growing investor participation. This upward trend, even amidst regulatory challenges, suggests a sustained bullish sentiment for the broader crypto market."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n51425cafbdcb",
+      "title": "Cryptoverse: Bitcoin miners escape the bear trap",
+      "url": "https://finance.yahoo.com/news/cryptoverse-bitcoin-miners-escape-bear-051515380.html",
+      "summary": "Bitcoin miners are experiencing improved profitability due to the cryptocurrency's rally above $30,000 and falling electricity prices. Daily mining revenues have reached their highest level since June, providing a much-needed lifeline to companies that struggled with debt during the crypto winter. This recovery in miner profitability is a positive sign for the network's health and security, as it allows miners to continue operations and invest in infrastructure.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "miner_profitability_increase",
+        "electricity_prices_fall",
+        "mining_revenue_record"
+      ],
+      "rationale": "Improved miner economics are crucial for network security and stability. As miners become more profitable, they are more likely to invest in hardware and energy, supporting the long-term health and growth of the Bitcoin network."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n3c3b44e00a8b",
+      "title": "Bitcoin's Biggest Bull Case: Bank Turmoil and the Regional Banking Crisis",
+      "url": "https://finance.yahoo.com/news/bitcoins-biggest-bull-case-bank-163415356.html",
+      "summary": "The ongoing regional banking crisis, marked by several bank collapses, has driven people to seek liquidity and security in cryptocurrencies like Bitcoin. Bitcoin has shown a strong year-to-date recovery, outperforming traditional indices like the Dow Jones U.S. Banks Index. This trend suggests that Bitcoin is increasingly being viewed as a potential safe haven or alternative store of value during periods of traditional financial system instability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "banking_crisis_impact",
+        "Bitcoin_safe_haven",
+        "liquidity_seeking_behavior"
+      ],
+      "rationale": "The banking crisis has highlighted the potential benefits of decentralized assets. As trust in traditional financial institutions erodes, Bitcoin's appeal as an alternative store of value and a hedge against systemic risk is likely to grow, driving adoption and price appreciation."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n1bb5775171cb",
+      "title": "Bitcoin Financial Services Firm Unchained Capital Raises $60M",
+      "url": "https://finance.yahoo.com/news/bitcoin-financial-services-firm-unchained-150331366.html",
+      "summary": "Unchained Capital, a Bitcoin financial services firm, has successfully raised $60 million in a Series B funding round led by Valor Equity Partners, with participation from NYDIG. The capital raised will be used to expand its client base, enhance its product offerings, and develop new services. This significant funding round indicates strong investor confidence in the company's business model and the broader growth of Bitcoin-focused financial services.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Unchained_Capital_funding",
+        "institutional_investment",
+        "financial_services_growth"
+      ],
+      "rationale": "Significant funding for a Bitcoin financial services firm signals growing institutional adoption and development of the crypto ecosystem. This investment will likely lead to improved services and broader accessibility for Bitcoin users."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nc06debe48aa2",
+      "title": "Do You Believe in (Bitcoin) Magic?",
+      "url": "https://finance.yahoo.com/news/believe-bitcoin-magic-160500185.html",
+      "summary": "Magic Eden, a prominent NFT marketplace, has expanded its offerings to include Bitcoin-based collectibles, marking a significant step in integrating Bitcoin into the broader NFT and Web3 ecosystem. This move, alongside Sony's patent for transferable NFTs and Immutable/Polygon's partnership, highlights the growing interoperability and adoption of blockchain technology across gaming and digital collectibles. The integration of Bitcoin into NFT platforms could unlock new use cases and attract a wider audience.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Magic_Eden_Bitcoin_NFTs",
+        "NFT_integration",
+        "Web3_ecosystem_growth"
+      ],
+      "rationale": "The integration of Bitcoin into NFT marketplaces like Magic Eden expands its utility beyond a simple store of value. This cross-ecosystem adoption can drive demand and attract new users to both Bitcoin and the NFT space."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n065566e1f9f0",
+      "title": "Berenberg Analysts: Bitcoin 'Could Rally' Near Next Year's Halving Event",
+      "url": "https://finance.yahoo.com/news/berenberg-analysts-bitcoin-could-rally-152020844.html",
+      "summary": "Berenberg analysts predict that Bitcoin could rally significantly in the coming months, potentially outperforming the market, partly due to its classification as a commodity by the SEC and the upcoming Bitcoin halving event. The halving, which reduces the rate of new Bitcoin creation, has historically been associated with price increases. The report also notes Bitcoin's decentralized nature as a positive factor.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Bitcoin_halving_anticipation",
+        "Berenberg_analyst_rating",
+        "commodity_classification"
+      ],
+      "rationale": "The upcoming Bitcoin halving is a well-documented event that historically leads to price appreciation. Coupled with positive analyst sentiment and regulatory clarity on its commodity status, this points to a strong bullish outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nccffa18b28dc",
+      "title": "Tether Reports $1.48B Profit in Q1, Reveals Bitcoin, Gold Reserves",
+      "url": "https://finance.yahoo.com/news/tether-reports-1-48b-profit-161019881.html",
+      "summary": "Stablecoin issuer Tether reported a net profit of $1.48 billion in Q1 2023, doubling its previous quarter's earnings. For the first time, Tether disclosed its reserves, revealing $1.5 billion in Bitcoin holdings and $3.4 billion in gold. This transparency regarding its reserves, including significant Bitcoin allocation, enhances confidence in the stablecoin's backing and signals a growing acceptance of Bitcoin as a reserve asset by major crypto entities.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Tether_Q1_profit_1.48B",
+        "Tether_Bitcoin_reserves",
+        "stablecoin_transparency"
+      ],
+      "rationale": "Tether's substantial profit and its disclosure of Bitcoin reserves demonstrate financial strength and a growing integration of Bitcoin into the stablecoin ecosystem. This can increase confidence in stablecoins and indirectly support Bitcoin's market position."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n47f1a95e17e2",
+      "title": "This Week on Crypto Twitter: Musk Welcomes New Twitter CEO to Get to X—the Everything App",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-musk-welcomes-172447343.html",
+      "summary": "Elon Musk has appointed Linda Yaccarino as Twitter's new CEO, with Musk remaining as CTO and executive chairman. Yaccarino's transition from NBCUniversal aims to help Musk transform Twitter into 'X,' an 'everything app' potentially incorporating payments, including crypto. This development could signal future integration of crypto services within a major social media platform, impacting user adoption and sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Musk_Twitter_X_app",
+        "new_CEO_Yaccarino",
+        "social_media_payments"
+      ],
+      "rationale": "The potential integration of crypto into Twitter's 'everything app' under new leadership could drive significant user adoption and increase crypto's mainstream visibility in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "na9986470d37b",
+      "title": "Sam Altman is plowing ahead with nuclear fusion and his eye-scanning crypto venture—and, oh yeah, OpenAI",
+      "url": "https://finance.yahoo.com/news/sam-altman-plowing-ahead-nuclear-200434840.html",
+      "summary": "OpenAI CEO Sam Altman is pursuing multiple disruptive ventures, including nuclear fusion and an eye-scanning crypto project, alongside his work with OpenAI. Microsoft's agreement with Helion Energy highlights Altman's broader technological ambitions. While the crypto venture is not detailed, Altman's involvement in cutting-edge technology could indirectly influence the perception and development of new crypto applications.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Sam_Altman_crypto_venture",
+        "AI_and_crypto",
+        "disruptive_technology"
+      ],
+      "rationale": "Sam Altman's involvement in a crypto venture, even if not directly tied to Bitcoin, brings attention from the AI and tech sectors. The speculative nature of this venture could create minor volatility or interest, but its direct impact on Bitcoin is uncertain."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nff09ac8044f0",
+      "title": "The Turkish deepfake porn video could change the future of elections",
+      "url": "https://finance.yahoo.com/news/turkish-deepfake-porn-video-could-090000511.html",
+      "summary": "A deepfake video scandal has emerged in Turkey's upcoming election, potentially influencing the outcome. The article discusses how such misinformation campaigns can impact political events. While not directly related to cryptocurrency, the increasing sophistication of deepfakes and their potential to sway public opinion highlights broader societal trends in information dissemination and manipulation, which can indirectly affect market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "legal"
+      ],
+      "features_for_model": [
+        "deepfake_election_impact",
+        "misinformation_campaigns",
+        "geopolitical_risk"
+      ],
+      "rationale": "While this news is about Turkish elections and deepfakes, it touches on the broader theme of information warfare and its potential to destabilize markets. The immediate impact on Bitcoin is likely minimal, but it's a watch item for broader geopolitical sentiment."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n47f1a95e17e2",
+      "title": "This Week on Crypto Twitter: Musk Welcomes New Twitter CEO to Get to X—the Everything App",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-musk-welcomes-172447343.html",
+      "summary": "Elon Musk has appointed Linda Yaccarino as Twitter's new CEO, with Musk remaining as CTO and executive chairman. Yaccarino's transition from NBCUniversal aims to help Musk transform Twitter into 'X,' an 'everything app' potentially incorporating payments, including crypto. This development could signal future integration of crypto services within a major social media platform, impacting user adoption and sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Musk_Twitter_X_app",
+        "new_CEO_Yaccarino",
+        "social_media_payments"
+      ],
+      "rationale": "The potential integration of crypto into Twitter's 'everything app' under new leadership could drive significant user adoption and increase crypto's mainstream visibility in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "na9986470d37b",
+      "title": "Sam Altman is plowing ahead with nuclear fusion and his eye-scanning crypto venture—and, oh yeah, OpenAI",
+      "url": "https://finance.yahoo.com/news/sam-altman-plowing-ahead-nuclear-200434840.html",
+      "summary": "OpenAI CEO Sam Altman is pursuing multiple disruptive ventures, including nuclear fusion and an eye-scanning crypto project, alongside his work with OpenAI. Microsoft's agreement with Helion Energy highlights Altman's broader technological ambitions. While the crypto venture is not detailed, Altman's involvement in cutting-edge technology could indirectly influence the perception and development of new crypto applications.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Sam_Altman_crypto_venture",
+        "AI_and_crypto",
+        "disruptive_technology"
+      ],
+      "rationale": "Sam Altman's involvement in a crypto venture, even if not directly tied to Bitcoin, brings attention from the AI and tech sectors. The speculative nature of this venture could create minor volatility or interest, but its direct impact on Bitcoin is uncertain."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n950ec5c1a9b4",
+      "title": "Bitcoin Holds Near $29K as Investors Weigh Rate Increases, Banking Contagion",
+      "url": "https://finance.yahoo.com/news/bitcoin-holds-near-29k-investors-215225172.html",
+      "summary": "Bitcoin has been trading around $29,000 for about ten days, as investors assess potential US and European central bank interest rate hikes and ongoing banking sector issues. The price hovered between $28,700 and $29,000, with a slight dip upon the US stock market opening. This consolidation suggests market participants are cautious, awaiting clearer signals on monetary policy and the resolution of banking sector stress.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_consolidation",
+        "rate_hike_uncertainty",
+        "banking_sector_stress"
+      ],
+      "rationale": "The current price consolidation around $29K indicates a market pause as investors digest macroeconomic data and banking sector news. This suggests a period of low volatility until a clearer directional catalyst emerges."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nd7230dc22a6b",
+      "title": "Bitcoin Hovers Near $29.3K After Binance Sell Order, UK Inflation Data",
+      "url": "https://finance.yahoo.com/news/bitcoin-hovers-near-29-3k-195654827.html",
+      "summary": "Bitcoin was trading near $29,300, down 3% in 24 hours, after a large sell order on Binance and concerning UK inflation data caused its price to drop below $30,000. The decline caught traders betting on an increase off guard. This event highlights the sensitivity of Bitcoin's price to large exchange orders and macroeconomic indicators, leading to short-term volatility.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "macro",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Binance_sell_order",
+        "UK_inflation_data",
+        "short_term_volatility"
+      ],
+      "rationale": "A significant sell order on a major exchange, combined with negative inflation data, can trigger short-term price declines and increased volatility as traders react to liquidity events and macroeconomic signals."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nccffa18b28dc",
+      "title": "Tether Reports $1.48B Profit in Q1, Reveals Bitcoin, Gold Reserves",
+      "url": "https://finance.yahoo.com/news/tether-reports-1-48b-profit-161019881.html",
+      "summary": "Stablecoin issuer Tether reported a net profit of $1.48 billion in Q1 2023, doubling its previous quarter's earnings. For the first time, Tether disclosed its reserves, revealing $1.5 billion in Bitcoin holdings and $3.4 billion in gold. This transparency regarding its reserves, including significant Bitcoin allocation, enhances confidence in the stablecoin's backing and signals a growing acceptance of Bitcoin as a reserve asset by major crypto entities.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Tether_Q1_profit_1.48B",
+        "Tether_Bitcoin_reserves",
+        "stablecoin_transparency"
+      ],
+      "rationale": "Tether's strong profit and disclosure of Bitcoin reserves can boost confidence in the stablecoin market, potentially leading to increased demand for stablecoins and indirectly supporting Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n4e2c8bc0fe2b",
+      "title": "Bitfarms to Report First Quarter 2023 Financial Results on Monday, May 15, 2023",
+      "url": "https://finance.yahoo.com/news/bitfarms-report-first-quarter-2023-110000061.html",
+      "summary": "Bitfarms Ltd., a global vertically integrated Bitcoin mining company, is scheduled to release its Q1 2023 financial results on May 15, 2023, before market open. A conference call will follow to discuss the results. Investors will be looking for updates on mining operations, profitability, and future expansion plans, which can influence the stock price and sentiment towards Bitcoin mining companies.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "financial_results"
+      ],
+      "features_for_model": [
+        "Bitfarms_Q1_earnings",
+        "miner_financial_performance",
+        "earnings_report_impact"
+      ],
+      "rationale": "Company earnings reports, especially from major miners like Bitfarms, can provide insights into the health of the mining sector. Positive results could offer a slight bullish sentiment, while negative results could exert downward pressure."
+    },
+    {
+      "pick_idx": 35,
+      "id": "na777de8a33c3",
+      "title": "US stocks rise after CPI shows inflation rose at slowest pace in 2 years in April",
+      "url": "https://finance.yahoo.com/news/us-stocks-rise-cpi-shows-213708021.html",
+      "summary": "US stocks advanced as the April inflation report indicated a slowdown in consumer price pressures, with headline CPI rising 4.9%, below expectations. This cooling inflation could influence the Federal Reserve's decision on interest rates, potentially leading to a pause or end to its hiking campaign. A less hawkish Fed stance is generally positive for risk assets, including cryptocurrencies.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "US_CPI_easing",
+        "inflation_slowdown",
+        "Fed_pause_anticipation"
+      ],
+      "rationale": "Cooling inflation data reduces the likelihood of aggressive interest rate hikes by the Federal Reserve, which is generally positive for risk assets like Bitcoin. This could lead to a short-term bullish sentiment."
+    },
+    {
+      "pick_idx": 43,
+      "id": "ne74481fc5db8",
+      "title": "Bitcoin, Ether, top 10 cryptos rise; Asian equity markets mixed",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-top-10-cryptos-110854192.html",
+      "summary": "Bitcoin and Ether saw price increases on Wednesday, along with most of the top 10 cryptocurrencies, with Solana and Cardano leading the gains. This occurred while Asian equity markets traded mixed and US stock futures were down due to renewed banking sector concerns. The positive crypto performance suggests a degree of decoupling from traditional markets or a specific bullish catalyst within the crypto space.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_Ether_rise",
+        "altcoin_outperformance",
+        "crypto_market_strength"
+      ],
+      "rationale": "The broad-based rise across major cryptocurrencies, including Bitcoin and Ether, indicates positive short-term momentum. This suggests that the crypto market may be experiencing its own positive drivers, independent of broader market sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-05-14",
+    "summary": "The crypto market is showing mixed signals, with Bitcoin holding near $29K as investors weigh macroeconomic factors like inflation and potential Fed rate hikes against ongoing banking sector concerns. Positive news regarding institutional adoption, such as Bitcoin ETFs and increased miner profitability, provides a long-term bullish outlook. However, short-term volatility is present, influenced by large exchange sell orders and macroeconomic data releases. The potential integration of crypto into social media platforms like Twitter (X) also presents a near-term adoption catalyst.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Further regulatory crackdowns on major exchanges (e.g., Binance).",
+      "Unexpected hawkish stance from the Federal Reserve on interest rates.",
+      "Escalation of banking sector contagion or new financial stability concerns.",
+      "Significant sell-offs triggered by large whale movements or exchange issues.",
+      "Geopolitical events impacting global liquidity and risk appetite."
+    ],
+    "watch_items": [
+      "US CPI and FOMC meeting minutes for inflation and rate hike signals.",
+      "Developments in the CFTC lawsuit against Binance.",
+      "Elon Musk's 'X' app progress and potential crypto integration announcements.",
+      "Major Bitcoin mining company earnings reports (e.g., Bitfarms).",
+      "Any new significant institutional investment announcements or ETF filings."
+    ]
+  }
+}

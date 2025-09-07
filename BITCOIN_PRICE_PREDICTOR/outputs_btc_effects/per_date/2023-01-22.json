@@ -1,0 +1,469 @@
+{
+  "date": "2023-01-22",
+  "long_term": [
+    {
+      "pick_idx": 5,
+      "id": "n59840af2731a",
+      "title": "Bitcoin Falls as Federal Reserve Slows Rate Hikes but Stays Hawkish",
+      "url": "https://finance.yahoo.com/news/federal-hikes-us-rate-50-190510385.html",
+      "summary": "The US Federal Reserve raised interest rates by 50 basis points, bringing the target range to 4.25%-4.5%, the highest in 15 years. Fed Chair Powell signaled terminal rates could exceed 5%. Bitcoin dropped following the announcement. This indicates continued monetary tightening, which typically puts downward pressure on risk assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "monetary_policy",
+        "inflation_control"
+      ],
+      "rationale": "The Fed's continued hawkish stance and projected higher terminal rates increase the cost of capital, making riskier assets like Bitcoin less attractive. This sustained tightening cycle is a significant headwind for BTC's price appreciation over the medium term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nee99ef350cb7",
+      "title": "Factbox-From BlockFi to Genesis, crypto firms reel from exposure to FTX",
+      "url": "https://finance.yahoo.com/news/factbox-blockfi-genesis-crypto-firms-180833005.html",
+      "summary": "The collapse of FTX has led to significant fallout across the crypto industry, with many firms like BlockFi and Genesis experiencing severe financial distress due to their exposure. This highlights systemic risk within the crypto ecosystem and the interconnectedness of major players. The ongoing bankruptcies and restructuring efforts signal a period of consolidation and potential deleveraging.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "legal"
+      ],
+      "features_for_model": [
+        "FTX_collapse",
+        "contagion_risk",
+        "bankruptcy_filings"
+      ],
+      "rationale": "The FTX contagion continues to expose weaknesses and fragilities within the crypto market. The ongoing bankruptcies and deleveraging by affected firms will likely suppress overall market sentiment and liquidity for an extended period, acting as a drag on Bitcoin's recovery."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n3048b0312633",
+      "title": "Foundation Devices raises $7M for Passport, a ‘truly air gapped’ Bitcoin hardware wallet",
+      "url": "https://finance.yahoo.com/news/foundation-devices-raises-7m-passport-153817724.html",
+      "summary": "Foundation Devices secured $7 million to develop its 'truly air gapped' Bitcoin hardware wallet, Passport. This focus on enhanced security and user control for Bitcoin storage is a positive development for the ecosystem. Such advancements in self-custody solutions are crucial for long-term adoption and user confidence.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "hardware_wallet_innovation",
+        "self_custody",
+        "security_enhancement"
+      ],
+      "rationale": "Increased investment in secure, user-friendly hardware wallets like Passport enhances Bitcoin's appeal as a store of value. This development supports long-term adoption by providing robust solutions for users concerned about private key management."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n2ca65e17e923",
+      "title": "90% of WazirX's User Assets Are in Binance Wallets, According to Proof-of-Reserves Report",
+      "url": "https://finance.yahoo.com/news/90-wazirxs-user-assets-binance-090949536.html",
+      "summary": "Indian crypto exchange WazirX disclosed that 90% of its user assets are held in Binance wallets. This concentration of assets on a single exchange raises concerns about counterparty risk and transparency, especially in light of past exchange failures. The reliance on Binance for a significant portion of user funds could create systemic vulnerabilities.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "exchange_concentration",
+        "proof_of_reserves",
+        "counterparty_risk"
+      ],
+      "rationale": "The high percentage of WazirX assets held by Binance highlights a significant concentration risk. Any issues at Binance could directly impact WazirX users, contributing to broader market instability and eroding trust in centralized exchanges."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n7a7b7a815f3b",
+      "title": "Nouriel Roubini says 'literally 99% of crypto is a scam'",
+      "url": "https://finance.yahoo.com/news/nouriel-roubini-says-literally-90-of-crypto-is-a-scam-144628433.html",
+      "summary": "Economist Nouriel Roubini, known as 'Dr. Doom,' reiterated his strong negative stance on crypto, calling 99% of it a scam and a Ponzi scheme. His persistent bearish commentary, especially after the FTX collapse, contributes to negative sentiment and can influence investor perception, potentially deterring new entrants and reinforcing existing skepticism.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "skeptic_commentary",
+        "market_sentiment",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "While Roubini's views are extreme, they reflect a significant segment of skeptical opinion. His continued vocal criticism, amplified by recent industry failures, can dampen overall market sentiment and hinder broader adoption, especially among institutional investors."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n968334f631e0",
+      "title": "Iranian Courts Order Return of Thousands of Seized Crypto Mining Machines: Reports",
+      "url": "https://finance.yahoo.com/news/iranian-courts-order-return-thousands-094811470.html",
+      "summary": "Iranian courts have ordered the return of thousands of seized crypto mining rigs. This follows a ban on mining and seizure of equipment in 2021 to address power shortages. The reversal suggests a potential shift in policy or a recognition of the economic activity associated with mining, which could impact global hashrate distribution.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Iran_mining_policy",
+        "seized_equipment_return",
+        "hashrate_distribution"
+      ],
+      "rationale": "The return of seized mining equipment in Iran could lead to an increase in global hashrate, potentially affecting mining difficulty and profitability. However, the long-term impact depends on Iran's energy policies and the stability of its regulatory environment."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n64e62738a3af",
+      "title": "Legendary Apple designer lends his touch to new Ledger Stax crypto wallet",
+      "url": "https://finance.yahoo.com/news/legendary-apple-designer-lends-touch-140549764.html",
+      "summary": "Tony Fadell, known for designing the iPod and co-creating the iPhone, has developed a new hardware wallet, Ledger Stax. This collaboration brings a high level of design and user experience focus to the crypto hardware space. Such integration of established tech talent into crypto infrastructure can boost mainstream appeal and usability.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "design"
+      ],
+      "features_for_model": [
+        "hardware_wallet_design",
+        "user_experience",
+        "mainstream_adoption"
+      ],
+      "rationale": "The involvement of a renowned designer like Tony Fadell in developing the Ledger Stax wallet signals a growing emphasis on user-friendly and aesthetically pleasing crypto hardware. This can attract a broader audience, increasing adoption of secure Bitcoin storage solutions."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nf08c3071986d",
+      "title": "Crypto winter end in sight as Ethereum looks to shake the chills- analysts",
+      "url": "https://finance.yahoo.com/news/crypto-winter-end-sight-ethereum-144533296.html",
+      "summary": "Analysts suggest the end of the crypto winter may be in sight, with Ethereum expected to lead the next growth phase. Despite a brutal year and the FTX collapse, many anticipate a market pickup in 2023, driven by projects with real-world utility and increased regulation. Bitcoin may test $10,000-$12,000 lows before recovery.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "crypto_winter_outlook",
+        "Ethereum_growth",
+        "regulatory_clarity"
+      ],
+      "rationale": "The sentiment among analysts points towards a potential recovery in 2023. While acknowledging potential further lows for Bitcoin, the focus on utility-driven projects and the prospect of clearer regulations could set the stage for a broader market rebound."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n85e121738013",
+      "title": "Fidelity Remains Bullish on Bitcoin",
+      "url": "https://finance.yahoo.com/news/fidelity-remains-bullish-bitcoin-151834641.html",
+      "summary": "Despite Bitcoin's poor performance in 2022 and the FTX collapse, Fidelity maintains a bullish outlook on Bitcoin and digital assets. The company's continued investment in Bitcoin services, including 401(k) plans, indicates strong institutional conviction. This sustained support from major financial institutions is a positive long-term signal.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Fidelity_outlook",
+        "institutional_adoption",
+        "401k_integration"
+      ],
+      "rationale": "Fidelity's persistent bullish stance and ongoing development of Bitcoin-related services, such as 401(k) offerings, demonstrate strong institutional belief in Bitcoin's long-term value proposition. This institutional adoption is a key driver for future price appreciation."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n258f351dcd19",
+      "title": "Salvadoran lawmakers pass digital asset issuance law in bitcoin haven",
+      "url": "https://finance.yahoo.com/news/salvadoran-lawmakers-pass-digital-asset-215750708.html",
+      "summary": "El Salvador has passed a law to regulate the issuance of digital assets by both state and private entities. This move aims to attract investors and create new financing opportunities, building on its status as a Bitcoin legal tender. The regulatory framework for digital assets could foster innovation and adoption within the country.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "El_Salvador_regulation",
+        "digital_asset_law",
+        "bitcoin_haven"
+      ],
+      "rationale": "El Salvador's proactive approach to regulating digital assets, following its adoption of Bitcoin, signals a commitment to fostering innovation in the space. This regulatory clarity, though localized, can serve as a precedent and attract further development and investment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n600963b110c9",
+      "title": "The US Government Wants You To Know It's Cracking Down on Crypto",
+      "url": "https://finance.yahoo.com/news/us-government-wants-know-cracking-073804628.html",
+      "summary": "The US Department of Justice announced an 'International Cryptocurrency Enforcement Action,' causing a flash crash in Bitcoin and Ethereum prices. This signals increased regulatory scrutiny and enforcement, potentially impacting market sentiment and liquidity in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "regulation",
+        "hack/outage",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "DOJ_enforcement",
+        "crypto_crackdown",
+        "flash_crash"
+      ],
+      "rationale": "The DOJ's announcement of a major enforcement action created immediate fear and selling pressure, leading to a sharp price drop. This regulatory overhang will likely weigh on sentiment and price action in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n9774d8c8e47d",
+      "title": "Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds",
+      "url": "https://finance.yahoo.com/news/solo-bitcoin-miner-solves-block-174235989.html",
+      "summary": "A solo Bitcoin miner with a low hash rate of 10 TH/s successfully mined a block, an extremely rare event. While a positive story for individual miners, it has minimal impact on the overall network hashrate or price in the short term.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "solo_miner_success",
+        "mining_difficulty",
+        "hashrate_distribution"
+      ],
+      "rationale": "This is a statistically interesting event for mining enthusiasts but has negligible impact on Bitcoin's price or network dynamics in the short term. It's a narrative rather than a market-moving event."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n1d0a77316d37",
+      "title": "Crypto Sentiment Split Between Bull Trap or Bottom as Bitcoin Nears 23K",
+      "url": "https://finance.yahoo.com/news/crypto-sentiment-split-between-bull-194617874.html",
+      "summary": "The crypto market is experiencing a split in sentiment as Bitcoin approaches $23K, with debate over whether it's a bull trap or a true bottom. Recent price increases have led to cautious optimism, but the market remains sensitive to macroeconomic factors and past collapses.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "market_sentiment",
+        "bull_trap_debate",
+        "price_resistance"
+      ],
+      "rationale": "The market is at a critical juncture, with conflicting signals. The uncertainty around whether the current rally is sustainable or a bull trap creates volatility and makes short-term directional bets challenging."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n9211397da0b5",
+      "title": "2 Crypto Stocks Gearing up for Gains; Cantor Says ‘Buy’",
+      "url": "https://finance.yahoo.com/news/2-crypto-stocks-gearing-gains-225951344.html",
+      "summary": "Cantor Fitzgerald analyst Josh Siegler has a 'Buy' rating on two crypto-related stocks, anticipating gains in the sector. This positive analyst sentiment, following a strong start to the year for Bitcoin, could influence investor interest in related equities.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "analyst_rating",
+        "crypto_stocks",
+        "positive_sentiment"
+      ],
+      "rationale": "Positive analyst ratings on crypto-related stocks can provide a short-term boost to sentiment and potentially drive price action in those specific equities, indirectly reflecting on the broader crypto market."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n1d0a77316d37",
+      "title": "Crypto Sentiment Split Between Bull Trap or Bottom as Bitcoin Nears 23K",
+      "url": "https://finance.yahoo.com/news/crypto-sentiment-split-between-bull-194617874.html",
+      "summary": "The crypto market is experiencing a split in sentiment as Bitcoin approaches $23K, with debate over whether it's a bull trap or a true bottom. Recent price increases have led to cautious optimism, but the market remains sensitive to macroeconomic factors and past collapses.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "market_sentiment",
+        "bull_trap_debate",
+        "price_resistance"
+      ],
+      "rationale": "The market is at a critical juncture, with conflicting signals. The uncertainty around whether the current rally is sustainable or a bull trap creates volatility and makes short-term directional bets challenging."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n600963b110c9",
+      "title": "The US Government Wants You To Know It's Cracking Down on Crypto",
+      "url": "https://finance.yahoo.com/news/us-government-wants-know-cracking-073804628.html",
+      "summary": "The US Department of Justice announced an 'International Cryptocurrency Enforcement Action,' causing a flash crash in Bitcoin and Ethereum prices. This signals increased regulatory scrutiny and enforcement, potentially impacting market sentiment and liquidity in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "hack/outage",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "DOJ_enforcement",
+        "crypto_crackdown",
+        "flash_crash"
+      ],
+      "rationale": "The DOJ's announcement of a major enforcement action created immediate fear and selling pressure, leading to a sharp price drop. This regulatory overhang will likely weigh on sentiment and price action in the immediate short term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ne46d8743eddc",
+      "title": "3 Stocks to Sell ASAP Following the WEF’s Recession Prediction for 2023",
+      "url": "https://finance.yahoo.com/news/3-stocks-sell-asap-following-145133041.html",
+      "summary": "The World Economic Forum's survey indicates two-thirds of economists expect a global recession in 2023. This macroeconomic outlook suggests a risk-off environment, which typically pressures speculative assets like Bitcoin. Investors may reduce exposure to riskier assets in anticipation of economic downturn.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "recession_prediction",
+        "WEF_survey",
+        "risk_off_sentiment"
+      ],
+      "rationale": "The widespread expectation of a recession creates a negative macroeconomic backdrop. This sentiment typically leads to reduced risk appetite, which can translate into selling pressure on Bitcoin and other speculative assets."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n7901894ec918",
+      "title": "Is crypto better or worse since its collapse? Here's what CEOs at Davos said",
+      "url": "https://finance.yahoo.com/news/is-crypto-better-or-worse-since-its-collapse-heres-what-ceos-at-davos-said-180357129.html",
+      "summary": "CEOs at the World Economic Forum in Davos expressed cautious optimism for the global economy but showed little enthusiasm for crypto, noting its reduced presence compared to previous years. This suggests a cooling of mainstream interest and a focus on regulated entities like Circle's USDC.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Davos_forum",
+        "crypto_sentiment",
+        "mainstream_interest"
+      ],
+      "rationale": "The muted reception for crypto at Davos indicates a shift in perception, with a greater emphasis on regulated and established financial infrastructure. This could lead to reduced speculative interest in the short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n3567bd0c257a",
+      "title": "This Week on Crypto Twitter: SBF Pleads Innocence via Excel, Twitter Reacts with Memes",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-sbf-pleads-183819330.html",
+      "summary": "Sam Bankman-Fried's defense using Excel spreadsheets and Crypto Twitter's reaction with memes highlight the ongoing narrative surrounding the FTX collapse. While not directly market-moving, these social media discussions can influence sentiment and create short-term volatility.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "legal",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SBF_interview",
+        "crypto_twitter_sentiment",
+        "FTX_narrative"
+      ],
+      "rationale": "The ongoing social media discourse around the FTX fallout, including SBF's statements, contributes to market noise. While unlikely to cause significant price swings, it can influence short-term sentiment among active traders."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n1d0a77316d37",
+      "title": "Crypto Sentiment Split Between Bull Trap or Bottom as Bitcoin Nears 23K",
+      "url": "https://finance.yahoo.com/news/crypto-sentiment-split-between-bull-194617874.html",
+      "summary": "The crypto market is experiencing a split in sentiment as Bitcoin approaches $23K, with debate over whether it's a bull trap or a true bottom. Recent price increases have led to cautious optimism, but the market remains sensitive to macroeconomic factors and past collapses.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "market_sentiment",
+        "bull_trap_debate",
+        "price_resistance"
+      ],
+      "rationale": "The market is at a critical juncture, with conflicting signals. The uncertainty around whether the current rally is sustainable or a bull trap creates volatility and makes short-term directional bets challenging."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-01-22",
+    "summary": "The crypto market is navigating a complex landscape with mixed signals. Regulatory actions, particularly the DOJ's crackdown on crypto, have introduced short-term bearish pressure and volatility. Macroeconomic concerns, such as recession predictions, also contribute to a cautious sentiment. However, positive developments in institutional adoption, like Fidelity's continued bullish stance and advancements in hardware wallet security, offer long-term optimism. The market sentiment remains divided on whether current price increases represent a sustainable bottom or a temporary bull trap.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Increased regulatory enforcement actions from the DOJ and other global bodies.",
+      "Persistent macroeconomic headwinds, including recession fears and potential further interest rate hikes.",
+      "Contagion risk from ongoing crypto firm bankruptcies and liquidity issues.",
+      "Uncertainty surrounding the sustainability of the current market rally (bull trap vs. bottom)."
+    ],
+    "watch_items": [
+      "Further statements from the DOJ regarding enforcement actions.",
+      "Upcoming economic data releases (e.g., inflation reports, employment figures).",
+      "Developments in major crypto firm bankruptcies (e.g., Genesis, BlockFi).",
+      "Price action around key resistance levels for Bitcoin (e.g., $23,000)."
+    ]
+  }
+}

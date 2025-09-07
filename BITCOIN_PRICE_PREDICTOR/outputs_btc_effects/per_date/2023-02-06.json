@@ -1,0 +1,80 @@
+{
+  "date": "2023-02-06",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "ne46d8743eddc",
+      "title": "3 Stocks to Sell ASAP Following the WEF’s Recession Prediction for 2023",
+      "url": "https://finance.yahoo.com/news/3-stocks-sell-asap-following-145133041.html",
+      "summary": "Two-thirds of WEF chief economists expect a global recession in 2023, signaling a gloomy economic outlook. This prediction suggests reduced consumer spending and investor risk appetite, particularly for discretionary and speculative assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "global_recession_risk",
+        "WEF_outlook"
+      ],
+      "rationale": "A global recession would likely lead to capital flight from speculative assets like BTC, as investors prioritize safety and liquidity. This dampens demand over the next 6-12 months, exerting downward pressure on price."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "n2c215c720881",
+      "title": "Riot Announces January 2023 Production and Operations Updates",
+      "url": "https://finance.yahoo.com/news/riot-announces-january-2023-production-140000098.html",
+      "summary": "Riot Platforms reported a record 740 BTC mined in January 2023, a 62% increase year-over-year. This highlights improved operational efficiency and production capacity for a major Bitcoin miner.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "miner_production_increase",
+        "Riot_BTC_output"
+      ],
+      "rationale": "Increased Bitcoin production from a major miner like Riot suggests improved profitability and operational health. This provides a slight positive sentiment boost for BTC in the immediate 1-7 day window."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-02-06",
+    "summary": "Today's market signals present a mixed but cautiously bearish short-term outlook for BTC, while long-term fundamentals remain resilient despite macro headwinds. The significant de-risking from the Genesis/DCG/Gemini settlement offers a crucial positive catalyst, potentially offsetting immediate selling pressure. However, persistent global recession fears, continued hawkish Fed expectations, and a multi-day BTC price dip suggest caution. Miner production updates are positive but minor, and UK regulatory tightening adds regional uncertainty.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued hawkish stance from the Federal Reserve following strong jobs data.",
+      "Potential for further contagion or negative details emerging from the Genesis bankruptcy resolution.",
+      "Severity and duration of the global recession impacting risk asset appetite.",
+      "Increased regulatory crackdowns in major markets impacting liquidity and adoption.",
+      "Unexpected shifts in institutional sentiment or GBTC discount dynamics."
+    ],
+    "watch_items": [
+      "Fed Chair Jerome Powell's speech on Feb 7 for monetary policy cues.",
+      "Further details and execution of the Genesis/DCG/Gemini settlement.",
+      "Upcoming macroeconomic data releases (e.g., CPI, jobs reports).",
+      "GBTC discount movements as a proxy for institutional sentiment.",
+      "Developments in UK crypto advertising regulations and CBDC discussions."
+    ]
+  }
+}

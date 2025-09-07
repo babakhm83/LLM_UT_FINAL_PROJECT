@@ -1,0 +1,505 @@
+{
+  "date": "2018-03-03",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "nf9db9bd7db19",
+      "title": "Bitcoin falls 25 percent to $10,200 on Bitstamp exchange",
+      "url": "https://finance.yahoo.com/news/bitcoin-slides-14-percent-crackdown-085904123.html",
+      "summary": "Bitcoin experienced a significant 25% drop to $10,200 on the Bitstamp exchange. This decline was attributed to growing fears of regulatory crackdowns, particularly after reports that South Korea's finance minister considered banning cryptocurrency trading. The market sentiment was heavily influenced by potential government actions, indicating a sensitivity to regulatory uncertainty.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "South_Korea_ban_rumor",
+        "regulatory_crackdown_fear",
+        "price_drop_25%"
+      ],
+      "rationale": "This event highlights the significant impact of regulatory news on Bitcoin's price. The fear of government intervention, especially from a major market like South Korea, can trigger substantial sell-offs, demonstrating the market's vulnerability to such developments."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n2b6b1e8859ba",
+      "title": "Merrill Lynch Bans Bitcoin Investments and the SEC Warns Cryptocurrency Investors",
+      "url": "https://finance.yahoo.com/news/merrill-lynch-bans-bitcoin-investments-211400133.html",
+      "summary": "Merrill Lynch, a major brokerage arm of Bank of America, prohibited its clients from investing in bitcoin and related products like futures. Concurrently, the U.S. Securities and Exchange Commission (SEC) issued another warning to cryptocurrency investors. These actions signal a growing institutional caution and regulatory scrutiny towards the burgeoning crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "legal"
+      ],
+      "features_for_model": [
+        "Merrill_Lynch_ban",
+        "SEC_warning",
+        "institutional_caution"
+      ],
+      "rationale": "The decision by a prominent financial institution like Merrill Lynch to ban crypto investments, coupled with SEC warnings, reflects a significant shift towards institutional caution. This can deter retail investors and signal a more restrictive environment for crypto adoption."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n27982298fa39",
+      "title": "Cybercriminals target booming cryptocurrencies: report",
+      "url": "https://finance.yahoo.com/news/cybercriminals-target-booming-cryptocurrencies-report-153831320.html",
+      "summary": "A report by cybersecurity firm Digital Shadows highlights that cybercriminals are increasingly targeting the cryptocurrency space due to its rapid growth and the emergence of numerous digital coins. The unregulated and often insecure nature of digital currencies presents significant opportunities for crime and fraud, as criminals follow the money into this new frontier.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "cybercriminal_activity",
+        "crypto_security_risk",
+        "fraud_opportunity"
+      ],
+      "rationale": "The increasing targeting of cryptocurrencies by cybercriminals poses a systemic risk to the ecosystem. Frequent hacks and fraud can erode investor confidence and lead to significant losses, potentially hindering broader adoption and market growth."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n22159e363d8c",
+      "title": "KFC Introduces a Bucket That Can Only Be Paid for in Bitcoin",
+      "url": "https://finance.yahoo.com/news/kfc-introduces-bucket-only-paid-160726026.html",
+      "summary": "KFC Canada launched a limited-time 'Bitcoin Bucket' that can only be purchased using Bitcoin. Despite the company's playful acknowledgment of not fully understanding Bitcoin, this initiative represents a novel, albeit niche, form of mainstream adoption and integration of cryptocurrency into everyday consumer behavior.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "KFC_Bitcoin_Bucket",
+        "mainstream_adoption_test",
+        "consumer_integration"
+      ],
+      "rationale": "While a small-scale promotion, KFC's acceptance of Bitcoin for a specific product signifies a step towards mainstream consumer adoption. Such initiatives, even if experimental, can normalize cryptocurrency usage and attract new users."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n051d398b61bd",
+      "title": "Why Renren Inc. Stock Is Down 19% Today",
+      "url": "https://finance.yahoo.com/news/apos-why-renren-inc-stock-201500137.html",
+      "summary": "Chinese social media company Renren Inc. saw its stock price drop by 19% after a significant surge earlier in the week. The initial jump was driven by the company's announcement of plans to enter the cryptocurrency space through an Initial Coin Offering (ICO) and the development of a blockchain-based open social network. The subsequent sell-off is likely due to profit-taking after the rapid gains.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "legal"
+      ],
+      "features_for_model": [
+        "Renren_ICO",
+        "blockchain_social_network",
+        "profit_taking"
+      ],
+      "rationale": "Renren's venture into ICOs and blockchain reflects a broader trend of companies exploring these technologies. However, the sharp price swings and subsequent sell-off highlight the speculative nature and potential regulatory risks associated with such ventures, particularly in the context of ICOs."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nf68e769c774d",
+      "title": "South Korea Won't Ban Crypto Trading, Says Minister",
+      "url": "https://finance.yahoo.com/news/south-korea-won-apos-t-092003999.html",
+      "summary": "South Korea's finance minister, Kim Dong-yeon, stated that the government has no intention to ban or suppress cryptocurrency trading. Instead, the focus will be on regulating existing exchanges. This clarification eased market fears that had been amplified by earlier reports suggesting a potential ban, providing a more stable regulatory outlook for the region.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "South_Korea_no_ban",
+        "exchange_regulation",
+        "regulatory_clarification"
+      ],
+      "rationale": "This news provided significant relief to the crypto market, as South Korea is a major player. The shift from a potential ban to regulation signals a more measured approach, which is generally viewed positively by investors and can encourage continued participation."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n1641e6f5674e",
+      "title": "A French startup proves that selling USB sticks is one way to make big money on bitcoin",
+      "url": "https://finance.yahoo.com/news/french-startup-proves-selling-usb-142944830.html",
+      "summary": "French startup Ledger has sold its millionth Nano S hardware wallet, a USB-like device for storing cryptocurrency. With each unit retailing for approximately $116, this indicates over $100 million in product sales. This success highlights the growing demand for secure offline storage solutions as a crucial part of the cryptocurrency infrastructure.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Ledger_Nano_S_sales",
+        "hardware_wallet_demand",
+        "crypto_security_infrastructure"
+      ],
+      "rationale": "The significant sales of hardware wallets like Ledger's Nano S demonstrate a maturing market where users are prioritizing security. This growth in infrastructure is essential for the long-term sustainability and adoption of cryptocurrencies."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nb7a5b5de643b",
+      "title": "Bitcoin Exchange Kraken Goes Down for 40 Hours, Drawing Mt. Gox Comparisons",
+      "url": "https://finance.yahoo.com/news/bitcoin-exchange-kraken-goes-down-231315587.html",
+      "summary": "Cryptocurrency exchange Kraken experienced an extended downtime of over 40 hours, leading to comparisons with the infamous Mt. Gox hack. The prolonged outage caused significant frustration among users and raised concerns about the reliability and security of major crypto exchanges, potentially impacting market liquidity and trust.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Kraken_outage",
+        "exchange_downtime",
+        "Mt_Gox_comparison",
+        "liquidity_impact"
+      ],
+      "rationale": "Extended exchange outages like Kraken's are detrimental to market confidence and liquidity. Such events can lead to significant price volatility and deter new entrants, highlighting the need for robust exchange infrastructure."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nc657e7ca6664",
+      "title": "India Just Caused the Price of Bitcoin to Slide Again",
+      "url": "https://finance.yahoo.com/news/india-just-caused-price-bitcoin-122640940.html",
+      "summary": "The Indian government announced its intention to ban the use of Bitcoin and other cryptocurrencies for payments, as stated by Finance Minister Arun Jaitley. While acknowledging the potential of blockchain technology, the government aims to eliminate the use of crypto-assets for illicit financing and as part of payment systems, leading to a further slide in Bitcoin's price.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "India_crypto_ban",
+        "payment_restriction",
+        "regulatory_impact"
+      ],
+      "rationale": "India's decision to ban crypto for payments is a significant regulatory move that impacts a large potential market. This action, similar to other country-specific regulatory crackdowns, contributes to negative sentiment and price pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n2f6413165b43",
+      "title": "Bitcoin latest: US regulators raise concerns over investment in crypto-currency products",
+      "url": "https://finance.yahoo.com/news/bitcoin-latest-us-regulators-raise-101103793.html",
+      "summary": "US regulators, specifically the SEC's division of investment management, have expressed concerns regarding investments in cryptocurrency products. They are seeking greater clarity on how mutual funds and ETFs would handle the storage, safeguarding, and pricing of crypto-assets. This indicates a cautious approach from a key regulatory body, potentially slowing down institutional product development.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "US_regulator_concerns",
+        "SEC_clarity_request",
+        "ETF_custody_pricing"
+      ],
+      "rationale": "The SEC's request for clarity on crypto-asset handling for funds suggests a potential bottleneck for institutional adoption. While not an outright ban, it signals regulatory caution and a need for robust frameworks before widespread product launches."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 4,
+      "id": "n242bc74ee0e9",
+      "title": "Alt Coins Forecast for the week of March 5, 2018, Technical Analysis",
+      "url": "https://finance.yahoo.com/news/alt-coins-forecast-week-march-044538605.html",
+      "summary": "Bitcoin Gold showed a shooting star pattern at the bottom of its market, indicating potential sideways action with a slightly negative bias. A breakdown below the $70 level could lead to a drastic fall. This technical analysis suggests short-term volatility and a bearish outlook for Bitcoin Gold.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "Bitcoin_Gold_technical_analysis",
+        "shooting_star_pattern",
+        "potential_breakdown_below_70"
+      ],
+      "rationale": "Technical indicators for Bitcoin Gold suggest a bearish short-term outlook. The 'shooting star' pattern and potential breakdown below a key support level indicate a risk of further price declines in the coming week."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3a4a96a0c9a4",
+      "title": "Bitcoin Moves Ahead, with $12,000 in its Sights",
+      "url": "https://finance.yahoo.com/news/bitcoin-moves-ahead-12-000-065508753.html",
+      "summary": "Bitcoin gained 14.08% last week, closing at $11,052.62. While not spectacular historically, the move back above $11,000 was significant. Friday saw some struggle for direction, with a mid-day sell-off testing support at $10,829 before recovering. The overall sentiment is cautiously optimistic, with $12,000 as a near-term target.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_11000",
+        "weekly_gain_14%",
+        "target_12000",
+        "support_10829"
+      ],
+      "rationale": "Bitcoin's ability to reclaim the $11,000 level and hold support suggests underlying strength. The market is eyeing $12,000, indicating a potential short-term bullish trend if key resistance levels are breached."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n72187a3f9904",
+      "title": "Bitcoin's 'Kimchi Premium' Has All But Evaporated",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-infamous-apos-kimchi-114544560.html",
+      "summary": "The 'Kimchi Premium,' which previously saw South Korean exchanges trading Bitcoin at a significant markup, has largely disappeared. This indicates a cooling of speculative fervor and a more normalized global market for Bitcoin, with average daily trading volumes in February up 80% from November, showing sustained interest despite the premium's evaporation.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Kimchi_premium_gone",
+        "normalized_market",
+        "sustained_volume"
+      ],
+      "rationale": "The disappearance of the Kimchi Premium suggests a more rational market, which could lead to less extreme price swings. While volumes remain strong, the absence of this premium might temper some of the speculative upside in the short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nd24a20d9ed6c",
+      "title": "The Morning After: Weekend Edition",
+      "url": "https://finance.yahoo.com/news/morning-weekend-edition-130000027.html",
+      "summary": "An AWS outage affected services like Alexa and Engadget. Separately, Amazon and Google are in a dispute, with Amazon no longer stocking Nest devices. This highlights potential friction in the tech ecosystem and the impact of platform wars on product availability.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "AWS_outage",
+        "Amazon_Google_dispute",
+        "Nest_devices"
+      ],
+      "rationale": "While not directly related to crypto, major tech infrastructure outages or platform disputes can create broader market uncertainty and affect investor sentiment towards tech-heavy assets, potentially having a spillover effect."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n2981bc8ff416",
+      "title": "With Ring Acquisition, Amazon Adds More Fuel to E-commerce Growth",
+      "url": "https://finance.yahoo.com/news/ring-acquisition-amazon-adds-more-140000514.html",
+      "summary": "Amazon's acquisition of Ring for over $1 billion signals a continued push into the smart home market and a reinforcement of its e-commerce growth strategy. This move enhances Amazon's ecosystem and makes it easier for customers to integrate smart devices with their online shopping experience.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Amazon_Ring_acquisition",
+        "smart_home_market",
+        "ecommerce_growth"
+      ],
+      "rationale": "Amazon's aggressive expansion into new markets like smart home devices, funded by its e-commerce dominance, reflects a strong growth trajectory. This can indirectly benefit the broader tech and digital asset space by reinforcing the digital economy."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n97a2162e351f",
+      "title": "Will Target Disappoint Investors Next Week?",
+      "url": "https://finance.yahoo.com/news/target-disappoint-investors-next-week-170000121.html",
+      "summary": "Investors are awaiting Target's Q4 earnings report on March 6th, looking for signs of operating momentum, especially after rival Walmart posted disappointing holiday growth. Target's performance will be scrutinized for customer traffic and sales trends, which could indicate broader retail sector health.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "retail"
+      ],
+      "features_for_model": [
+        "Target_earnings_preview",
+        "retail_sector_health",
+        "holiday_sales_impact"
+      ],
+      "rationale": "Retail sector performance can be a barometer for consumer spending, which has indirect implications for risk assets like Bitcoin. A weak retail report could signal broader economic headwinds."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n9c6fb6f2ad22",
+      "title": "Better Stock: Square, Inc. (SQ) vs. Mastercard (MA)",
+      "url": "https://finance.yahoo.com/news/better-stock-square-inc-sq-190100813.html",
+      "summary": "The article compares Square and Mastercard, highlighting the massive growth potential in digital payments, projected to reach $45 trillion annually by 2025. Both companies are positioned to benefit from the shift away from cash, with Square focusing on smaller businesses and Mastercard on a broader payment network.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "digital_payments_growth",
+        "Square_vs_Mastercard",
+        "cashless_society"
+      ],
+      "rationale": "The continued growth and innovation in digital payment systems, as exemplified by Square and Mastercard, underscore the increasing digitization of finance. This trend aligns with the underlying principles of cryptocurrencies and can foster a more receptive environment for digital assets."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n3a4a96a0c9a4",
+      "title": "Bitcoin Moves Ahead, with $12,000 in its Sights",
+      "url": "https://finance.yahoo.com/news/bitcoin-moves-ahead-12-000-065508753.html",
+      "summary": "Bitcoin experienced a 14.08% gain last week, closing at $11,052.62. While Friday saw some volatility and a test of support at $10,829, the overall trend suggests a move towards the $12,000 mark. The market is showing resilience despite some mid-week selling pressure.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_11000",
+        "weekly_gain_14%",
+        "target_12000",
+        "support_10829"
+      ],
+      "rationale": "Bitcoin's upward momentum, evidenced by its weekly gain and ability to hold key support levels, suggests a positive short-term outlook. The market is likely to test higher resistance levels, with $12,000 being a key psychological target."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n72187a3f9904",
+      "title": "Bitcoin's 'Kimchi Premium' Has All But Evaporated",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-infamous-apos-kimchi-114544560.html",
+      "summary": "The 'Kimchi Premium,' a price discrepancy on South Korean exchanges, has significantly diminished. This indicates a cooling of speculative fervor and a more normalized global market. Despite this, average daily trading volumes in February remained elevated, showing sustained interest in Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Kimchi_premium_gone",
+        "normalized_market",
+        "sustained_volume"
+      ],
+      "rationale": "The fading of the Kimchi Premium suggests a more mature market, which could lead to less volatile price action. While sustained volumes are positive, the absence of this premium might temper extreme short-term price movements."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n3a4a96a0c9a4",
+      "title": "Bitcoin Moves Ahead, with $12,000 in its Sights",
+      "url": "https://finance.yahoo.com/news/bitcoin-moves-ahead-12-000-065508753.html",
+      "summary": "Bitcoin achieved a 14.08% gain last week, closing at $11,052.62. A mid-day sell-off on Friday tested support at $10,829, but Bitcoin recovered, indicating resilience. The market is now looking towards the $12,000 level as a potential near-term target.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_11000",
+        "weekly_gain_14%",
+        "target_12000",
+        "support_10829"
+      ],
+      "rationale": "Bitcoin's positive weekly performance and ability to hold support levels suggest continued upward momentum. The market sentiment is leaning towards testing the $12,000 resistance level in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-03-03",
+    "summary": "The crypto market shows mixed signals. Long-term, regulatory concerns from the US (SEC) and India's potential ban on crypto payments continue to weigh, while positive adoption signals like KFC accepting Bitcoin and strong hardware wallet sales offer some optimism. Short-term, Bitcoin is showing resilience, aiming for $12,000, but technical indicators for altcoins like Bitcoin Gold suggest caution. The fading 'Kimchi Premium' indicates a more normalized market, and broader tech sector news like AWS outages or Amazon-Google disputes add to general market uncertainty.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued regulatory uncertainty from major economies (US, India).",
+      "Potential for further exchange outages impacting liquidity and trust.",
+      "Broader tech sector vulnerabilities (e.g., AWS outage) creating spillover risk.",
+      "Altcoin specific technical breakdowns leading to contagion.",
+      "Profit-taking after recent crypto rallies."
+    ],
+    "watch_items": [
+      "US regulatory statements on crypto ETFs.",
+      "Developments in India's crypto policy.",
+      "Bitcoin's price action around $12,000 resistance.",
+      "Performance of major altcoins following technical indicators.",
+      "Any further exchange stability issues."
+    ]
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "date": "2022-10-24",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "na880185a4832",
+      "title": "Stock Market Today: Stocks Extend Losing Streak as Fed Fears Persist",
+      "url": "https://finance.yahoo.com/news/stock-market-today-stocks-extend-203819395.html",
+      "summary": "Stocks continued their losing streak as investors remained concerned about the Federal Reserve's aggressive interest rate hikes. Cleveland Fed President Loretta Mester indicated that it's too early to declare inflation has peaked and does not anticipate rate cuts this year or next. This persistent hawkish stance from the Fed directly impacts risk assets like Bitcoin, as higher interest rates generally lead to reduced liquidity and a lower appetite for speculative investments. The market's reaction to Fed commentary is a key driver for Bitcoin's price.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "inflation_outlook",
+        "market_sentiment"
+      ],
+      "rationale": "Persistent fears of extended Fed rate hikes directly reduce liquidity and risk appetite for assets like Bitcoin. This macro environment suggests continued downward pressure on BTC prices as investors prioritize safer assets."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n1a632c87167f",
+      "title": "7 Stocks That Could Survive a Market Apocalypse",
+      "url": "https://finance.yahoo.com/news/7-stocks-could-survive-market-181512546.html",
+      "summary": "The article discusses strategies for investing during potential market downturns, emphasizing the Federal Reserve's role in controlling inflation through interest rate hikes. Fed Chair Jerome Powell's commitment to raising rates until inflation is under control signals a prolonged period of tighter monetary policy. This macro backdrop is crucial for Bitcoin, as it often correlates with broader risk assets and is sensitive to changes in liquidity and investor sentiment driven by central bank actions.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fed_policy",
+        "inflation_control",
+        "risk_asset_correlation"
+      ],
+      "rationale": "The Fed's commitment to fighting inflation through rate hikes creates a challenging environment for risk assets. Bitcoin's correlation with traditional markets means it's susceptible to the same liquidity constraints and investor caution."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nfd7759190f92",
+      "title": "Dow soars 764 points to kick off October as US stocks surge on slide in US dollar and lower bond yields",
+      "url": "https://finance.yahoo.com/news/dow-soars-764-points-kick-200249507.html",
+      "summary": "US stocks experienced a strong rally at the start of October, driven by a weakening US dollar and declining bond yields. The initial spark was the UK government's reversal of its tax-cut proposal. This positive market sentiment, characterized by a weaker dollar and lower yields, often benefits Bitcoin as it reduces the attractiveness of traditional safe-haven assets and increases liquidity for riskier investments.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "market"
+      ],
+      "features_for_model": [
+        "USD_index",
+        "bond_yields",
+        "stock_market_rally"
+      ],
+      "rationale": "A weakening dollar and falling bond yields typically create a more favorable environment for risk assets like Bitcoin. This suggests a potential short-to-medium term upward trend for BTC as capital flows away from traditional safe havens."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n7d3c43e562e1",
+      "title": "Bitcoin Hits 3-Week High on Dollar Weakness, But TradFi Firms Retain Bullish Bias on Greenback",
+      "url": "https://finance.yahoo.com/news/bitcoin-cheers-dollar-weakness-tradfi-094433539.html",
+      "summary": "Bitcoin surged to a three-week high, mirroring the weakness in the US dollar. However, traditional finance firms anticipate the dollar to regain strength. The inverse relationship between Bitcoin and the US dollar index is a well-observed phenomenon. When the dollar weakens, it often leads to increased demand for alternative assets like Bitcoin, as it becomes relatively cheaper for holders of other currencies and as a hedge against potential dollar devaluation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "market"
+      ],
+      "features_for_model": [
+        "BTC_USD_correlation",
+        "USD_index_weakness",
+        "safe_haven_demand"
+      ],
+      "rationale": "Bitcoin's price action is closely tied to the US dollar's performance. Dollar weakness typically provides a tailwind for Bitcoin, suggesting potential for further price appreciation, although the outlook for the dollar remains a key variable."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n43a49ab394d5",
+      "title": "Bitcoin miners, investors still active in BTC despite price fluctuations",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-investors-still-active-093745841.html",
+      "summary": "Despite Bitcoin's price drop below $20,000 and a hawkish Fed speech, the number of addresses holding over 0.1 BTC reached an all-time high. This indicates sustained accumulation by smaller investors, even during periods of price volatility. The resilience of these investors, coupled with the potential for increased mining difficulty, suggests underlying network strength and a belief in Bitcoin's long-term value proposition.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "market"
+      ],
+      "features_for_model": [
+        "hodler_accumulation",
+        "miner_activity",
+        "network_growth"
+      ],
+      "rationale": "Continued accumulation by investors, even during price dips, signals strong long-term conviction. This on-chain activity suggests underlying demand that could support future price appreciation."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n30cc6a367a9d",
+      "title": "Goldman Sachs says here is where to park your cash",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-says-where-park-203125969.html",
+      "summary": "Goldman Sachs advises investors on navigating a challenging 2022 where stocks, bonds, and cryptocurrencies like Bitcoin have all experienced significant declines. The firm's guidance on where to park cash in such an environment is crucial for understanding institutional sentiment towards risk assets. While not directly mentioning Bitcoin, the broader market sentiment and advice from major financial institutions like Goldman Sachs influence capital allocation decisions, which can indirectly impact Bitcoin's price.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "institutional_sentiment",
+        "asset_allocation",
+        "market_strategy"
+      ],
+      "rationale": "Guidance from major financial institutions like Goldman Sachs can shape investor sentiment and capital flows. While not directly about Bitcoin, their advice on asset allocation in a downturn indirectly influences the broader market and Bitcoin's position within it."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n59d57545dc83",
+      "title": "Paying Taxes in Bitcoin Is Possible, Bolsters Usage Case",
+      "url": "https://finance.yahoo.com/news/paying-taxes-bitcoin-possible-bolsters-211721473.html",
+      "summary": "The ability to pay taxes using Bitcoin strengthens its utility and adoption as a medium of exchange. Expanding the use cases for cryptocurrencies is vital for their long-term growth and acceptance. This development, even if specific to tax payments, signals a growing integration of Bitcoin into traditional financial systems, which can foster broader adoption and potentially increase demand.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "tax_payment_bitcoin",
+        "usage_case_expansion",
+        "crypto_integration"
+      ],
+      "rationale": "The ability to pay taxes with Bitcoin enhances its utility and adoption. This integration into traditional financial processes, even for specific use cases like taxes, signals growing acceptance and can drive demand."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n30f3b9c1126e",
+      "title": "New York is now the center of crypto",
+      "url": "https://finance.yahoo.com/news/york-now-center-crypto-134651609.html",
+      "summary": "New York's emergence as a crypto hub, evidenced by the Mainnet conference, signifies a maturing ecosystem with established and emerging players. This concentration of talent and innovation can foster further development and adoption of blockchain technology and cryptocurrencies. A strong crypto ecosystem in a major financial center like New York can attract more institutional interest and capital, benefiting Bitcoin's long-term prospects.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_hub_NYC",
+        "blockchain_ecosystem",
+        "institutional_interest"
+      ],
+      "rationale": "New York's growing prominence as a crypto center indicates increasing industry maturity and potential for institutional adoption. This concentration of activity can foster innovation and attract capital, benefiting Bitcoin's long-term growth."
+    },
+    {
+      "pick_idx": 35,
+      "id": "na29cd4a50dea",
+      "title": "The Ethereum Merge Is Done, Opening a New Era for the Second-Biggest Blockchain",
+      "url": "https://finance.yahoo.com/news/ethereum-merge-done-did-064351610.html",
+      "summary": "The successful completion of the Ethereum Merge, transitioning to a proof-of-stake consensus mechanism, marks a significant technological advancement for the second-largest cryptocurrency. This upgrade drastically reduces Ethereum's energy consumption, addressing a key criticism of blockchain technology. While not directly impacting Bitcoin's protocol, the Merge's success can positively influence overall crypto market sentiment and highlight the potential for technological innovation within the space.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ETH_merge_success",
+        "PoS_adoption",
+        "energy_efficiency"
+      ],
+      "rationale": "The Ethereum Merge's successful transition to proof-of-stake demonstrates technological progress in the crypto space, potentially boosting overall market sentiment. This can indirectly benefit Bitcoin by fostering a more positive perception of blockchain technology."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n32a72fbc7ca5",
+      "title": "Renowned \"Bubble Predictor\" And Founder Of $70 Billion Investment Firm Reveals Why \"Dot-Com Crash Was Paradise Compared To Now\"",
+      "url": "https://finance.yahoo.com/news/renowned-bubble-predictor-founder-70-120000964.html",
+      "summary": "A prominent \"bubble predictor\" suggests the current market conditions are worse than the dot-com crash, with cryptocurrencies mirroring the stock market's slide. The high correlation between Bitcoin and the Nasdaq indicates that Bitcoin is increasingly behaving like a traditional tech stock, making it vulnerable to macroeconomic headwinds. This sentiment from a respected figure highlights the broader market risks affecting Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "market"
+      ],
+      "features_for_model": [
+        "market_bubble_sentiment",
+        "BTC_Nasdaq_correlation",
+        "macroeconomic_risk"
+      ],
+      "rationale": "The comparison to the dot-com crash and the high correlation between Bitcoin and the Nasdaq suggest Bitcoin is highly sensitive to broader market downturns driven by macroeconomic factors, indicating potential for further downside."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 4,
+      "id": "n8eda44f499af",
+      "title": "Bitcoin mining difficulty logs new high, up 3.4%",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-logs-high-104820477.html",
+      "summary": "Bitcoin's mining difficulty has increased by 3.44%, reaching a new all-time high. This indicates increased competition among miners, requiring more computational power to validate transactions. While a higher difficulty can signal network health and security, it also means miners need to expend more energy and resources, potentially impacting profitability, especially for less efficient operations.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_difficulty_increase",
+        "miner_competition",
+        "hashrate_pressure"
+      ],
+      "rationale": "An increase in mining difficulty suggests more miners are joining or increasing their hashrate, which can be a sign of network health but also puts pressure on miner profitability, potentially leading to sell-offs if margins tighten."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n86eb7d45aaf6",
+      "title": "Market Wrap: Bitcoin Holds Its Perch Over $19K and Is Likely to Continue Trading in Its Current Narrow Range",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-holds-perch-213136433.html",
+      "summary": "Bitcoin has remained stable above $19,000, trading within a narrow range for over a month. Analyst Peter Brandt suggests this range could persist, with potential downside to $13,000. This consolidation indicates a lack of strong buying or selling pressure, leading to low volatility in the short term. The market is likely waiting for a significant catalyst to break this pattern.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "market"
+      ],
+      "features_for_model": [
+        "BTC_price_consolidation",
+        "low_volatility",
+        "range_bound_trading"
+      ],
+      "rationale": "Bitcoin's continued trading within a narrow range suggests a market in consolidation. This lack of clear direction implies low volatility in the immediate short term, with potential for a breakout or breakdown depending on future catalysts."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ne0498cf4f4d2",
+      "title": "UK Conservatives Elect Crypto Bull Rishi Sunak as Next Prime Minister",
+      "url": "https://finance.yahoo.com/news/uk-conservatives-elect-crypto-bull-153150174.html",
+      "summary": "Rishi Sunak, known for his crypto-friendly stance, has been elected as the UK's next Prime Minister. This development could signal a more favorable regulatory environment for cryptocurrencies in the UK. While the immediate impact on Bitcoin might be limited, a more supportive regulatory framework could attract more institutional and retail interest in the long run.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "UK_PM_Sunak",
+        "crypto_regulation_UK",
+        "political_sentiment"
+      ],
+      "rationale": "The election of a crypto-friendly Prime Minister in the UK could lead to more favorable regulations, potentially boosting sentiment and adoption in the region, which may have a minor positive impact on Bitcoin."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n19f14853f91a",
+      "title": "Bitcoin Technology Startup Synota Raises $3M in Seed Round",
+      "url": "https://finance.yahoo.com/news/bitcoin-technology-startup-synota-raises-202519477.html",
+      "summary": "Synota, a startup focused on energy payments via Bitcoin's Lightning Network, has secured $3 million in seed funding. This investment, led by a Bitcoin-focused VC firm, will support the commercialization of their software, including a bitcoin mining-related service. Such funding rounds for infrastructure-focused projects indicate continued development and innovation within the Bitcoin ecosystem, potentially enhancing its utility and adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Synota_funding",
+        "Lightning_Network_development",
+        "mining_service"
+      ],
+      "rationale": "Funding for startups building on Bitcoin's infrastructure, like Synota's Lightning Network solutions, signals ongoing development and potential for increased utility. This can contribute to a positive long-term outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "ne41bb6d9e407",
+      "title": "Stock market news live updates: Stocks futures up slightly ahead of big earnings week",
+      "url": "https://finance.yahoo.com/news/stock-market-news-live-updates-october-24-115112610-113747162.html",
+      "summary": "Stock futures showed a slight increase as the market prepared for a week of significant earnings reports from major companies. Treasury yields also saw a slight rise. This indicates a cautious optimism in the broader market, with investors closely watching corporate performance for direction. Bitcoin often moves in correlation with major stock indices, so this sentiment could translate to a stable or slightly positive short-term outlook for BTC.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "market"
+      ],
+      "features_for_model": [
+        "stock_futures_up",
+        "earnings_season",
+        "treasury_yields"
+      ],
+      "rationale": "A slightly positive start to the week for stock futures, ahead of key earnings, suggests a cautious market sentiment. This could lead to a stable or slightly upward movement for Bitcoin in the very short term, as it often tracks broader market trends."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n07f704bfedac",
+      "title": "‘The million-dollar question’: CFTC chair on regulating crypto alongside the SEC",
+      "url": "https://finance.yahoo.com/news/million-dollar-cftc-chair-regulating-161912974.html",
+      "summary": "CFTC Chair Rostin Behnam addressed the ongoing discussion about regulating crypto alongside the SEC, aiming to dispel notions of a turf war. With legislative progress stalled, regulatory clarity remains a key concern for the crypto industry. Any progress or clear direction on regulation, even through inter-agency discussions, could reduce uncertainty and positively impact Bitcoin's price.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "CFTC_SEC_crypto_regulation",
+        "regulatory_clarity",
+        "legislative_stalemate"
+      ],
+      "rationale": "The ongoing discussion about crypto regulation between the CFTC and SEC, while lacking immediate legislative action, is crucial for long-term market stability. Any movement towards clarity could reduce uncertainty and positively influence Bitcoin's price."
+    },
+    {
+      "pick_idx": 17,
+      "id": "ne4e066aa512b",
+      "title": "Bitcoin Eyes Safe-Haven Status as Gold Correlation Returns, Says Bank of America",
+      "url": "https://finance.yahoo.com/news/bitcoin-eyes-safe-haven-status-134148914.html",
+      "summary": "Bank of America analysts suggest Bitcoin is showing a high correlation with gold, potentially positioning it as a safe-haven asset. This correlation indicates that investors may be using Bitcoin as a hedge against market uncertainty, similar to gold. If this trend continues, it could lead to increased demand for Bitcoin during periods of economic turmoil, positively impacting its price.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "market"
+      ],
+      "features_for_model": [
+        "BTC_gold_correlation",
+        "safe_haven_asset",
+        "market_uncertainty_hedge"
+      ],
+      "rationale": "Bitcoin's increasing correlation with gold suggests it's being viewed as a safe-haven asset. This could drive demand during market volatility, potentially leading to price appreciation in the short term."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n8eda44f499af",
+      "title": "Bitcoin mining difficulty logs new high, up 3.4%",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-logs-high-104820477.html",
+      "summary": "Bitcoin's mining difficulty has reached a new all-time high with a 3.44% increase. This signifies increased competition among miners, requiring more computational power. While this can indicate network robustness, it also puts pressure on miner profitability, potentially leading to increased selling pressure if margins are squeezed.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_difficulty_increase",
+        "miner_competition",
+        "hashrate_pressure"
+      ],
+      "rationale": "The rise in Bitcoin mining difficulty indicates increased network activity and competition. This could pressure miners' profitability, potentially leading to increased selling of BTC to cover operational costs."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n5c276077f621",
+      "title": "Global Bitcoin Payments Market to Hit $3,788.2 Bn by 2031: Allied Market Research",
+      "url": "https://finance.yahoo.com/news/global-bitcoin-payments-market-hit-143000318.html",
+      "summary": "A report by Allied Market Research projects the global Bitcoin payments market to reach $3,788.2 billion by 2031, driven by demand for operational efficiency and transparency. Increased adoption in financial institutions is expected to fuel growth. This long-term projection highlights the growing utility and potential for mainstream integration of Bitcoin in payment systems.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_payments_market_growth",
+        "financial_institution_adoption",
+        "payment_system_integration"
+      ],
+      "rationale": "Positive market growth projections for Bitcoin payments indicate increasing adoption and utility. This suggests a growing demand for BTC as a medium of exchange, which can positively influence its price in the short to medium term."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n30fd59d483bb",
+      "title": "ARK's Cathie Wood Bought $100K Worth of Bitcoin Years Ago at $250 and Has Never Sold It",
+      "url": "https://finance.yahoo.com/news/cathie-wood-still-holds-bitcoin-211053405.html",
+      "summary": "Cathie Wood, CEO of ARK Investment Management, revealed she purchased $100,000 worth of Bitcoin at $250 and has never sold it. This long-term conviction from a prominent investor like Wood can influence market sentiment and signal confidence in Bitcoin's future value. While her personal holdings don't directly impact ARK funds, her public statements often sway investor perception.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_BTC_holdings",
+        "investor_conviction",
+        "ARK_Invest_sentiment"
+      ],
+      "rationale": "A prominent investor like Cathie Wood holding Bitcoin long-term signals strong conviction. This can positively influence market sentiment and potentially attract other investors, leading to a slight upward pressure on price."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-10-24",
+    "summary": "Bitcoin remains range-bound above $19,000, reflecting a market in consolidation with low volatility. Positive news regarding the UK electing a crypto-friendly Prime Minister and strong projections for Bitcoin payments market growth offer a bullish undertone. However, increased Bitcoin mining difficulty and continued macroeconomic concerns, including potential Fed rate hikes and a strong dollar outlook from some TradFi firms, introduce bearish pressures. The market is awaiting clearer direction from upcoming earnings reports and regulatory discussions.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "Continued hawkish stance from the Federal Reserve impacting liquidity.",
+      "Potential strengthening of the US dollar against market expectations.",
+      "Broader market downturns triggered by geopolitical events or economic data.",
+      "Regulatory uncertainty surrounding cryptocurrencies.",
+      "Miner profitability pressures due to increased difficulty and energy costs."
+    ],
+    "watch_items": [
+      "Upcoming US economic data (inflation, employment).",
+      "Major tech company earnings reports.",
+      "Statements from Federal Reserve officials.",
+      "Developments in crypto regulation (CFTC/SEC discussions).",
+      "Bitcoin mining difficulty adjustments and miner behavior."
+    ]
+  }
+}

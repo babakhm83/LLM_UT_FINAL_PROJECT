@@ -1,0 +1,574 @@
+{
+  "date": "2022-12-06",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "n2cea3c6143c9",
+      "title": "WisdomTree’s Spot Bitcoin ETF Rejected by the SEC",
+      "url": "https://finance.yahoo.com/news/wisdomtree-spot-bitcoin-etf-rejected-153807884.html",
+      "summary": "The SEC rejected WisdomTree's spot Bitcoin ETF application, citing insufficient investor protection. This marks another setback for institutional adoption of Bitcoin via ETFs, continuing a trend of rejections for similar proposals, including Grayscale's. The SEC has consistently expressed concerns about market manipulation and investor safeguards in the spot Bitcoin ETF space, hindering direct institutional investment vehicles.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_rejection",
+        "institutional_adoption_barrier"
+      ],
+      "rationale": "Repeated rejections of spot Bitcoin ETFs by the SEC signal ongoing regulatory hurdles for institutional capital. This lack of approved investment vehicles limits broader adoption and can dampen market sentiment."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n81b24943f3c1",
+      "title": "Wall Street Analyst ‘Pulling the Plug’ on Bitcoin Miners Owing to Bear Market Woes",
+      "url": "https://finance.yahoo.com/news/wall-street-analyst-pulling-plug-133513290.html",
+      "summary": "A Wall Street analyst downgraded Bitcoin miners Core Scientific and Argo Blockchain, citing the ongoing crypto winter and its impact on miner profitability. Persistent inflation and rising interest rates are pushing back the Federal Reserve's pivot, making it difficult for less advantaged miners to survive. While the analyst remains positive on Bitcoin's long-term potential, the short-to-medium term outlook for miners is challenging.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_profitability_squeeze",
+        "crypto_winter_impact",
+        "interest_rate_hike_effect"
+      ],
+      "rationale": "Analyst downgrades for major Bitcoin miners reflect the severe financial pressure on the mining sector due to high energy costs and low BTC prices. This could lead to increased miner selling or bankruptcies, impacting network hashrate and potentially BTC supply dynamics."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n1e953c8cdb9f",
+      "title": "This Week in Coins: FTX Goes Broke, Bitcoin Falls to Two-Year Low",
+      "url": "https://finance.yahoo.com/news/week-coins-ftx-goes-broke-150523541.html",
+      "summary": "The collapse of FTX, a major crypto exchange, sent prices spiraling, with Bitcoin and Ethereum losing about 20% of their value. Bitcoin reached a two-year low, not seen since November 2020's bull run. This event has significantly impacted market sentiment and investor confidence, exacerbating the ongoing crypto winter.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "FTX_collapse",
+        "crypto_winter_deepening",
+        "two_year_low_BTC"
+      ],
+      "rationale": "The FTX implosion represents a systemic risk event, leading to a significant loss of trust and capital in the crypto market. This fallout is likely to have long-lasting effects on regulatory approaches and investor behavior, pushing prices lower."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n3c34fce6197c",
+      "title": "Bitfarms Provides October 2022 Production and Mining Operations Update",
+      "url": "https://finance.yahoo.com/news/bitfarms-provides-october-2022-production-110000758.html",
+      "summary": "Bitfarms mined 486 BTC in October and is on track to exceed 5,000 BTC mined in 2022. The company is progressing on its Garlock farm. This update provides operational metrics for a significant Bitcoin miner, indicating continued production despite market conditions.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "miner_production_update",
+        "Bitfarms_operations"
+      ],
+      "rationale": "While Bitfarms continues to mine BTC, the overall profitability of miners is under pressure. This report provides a data point on operational capacity but doesn't negate the broader challenges faced by the sector."
+    },
+    {
+      "pick_idx": 28,
+      "id": "neba56fb9c4f9",
+      "title": "Singapore’s Temasek writes off $275 mln FTX investment",
+      "url": "https://finance.yahoo.com/news/singapore-temasek-writes-off-275-232540874.html",
+      "summary": "Singapore's state fund Temasek is writing off its entire $275 million investment in FTX, following the exchange's bankruptcy filing. Temasek invested in FTX International and FTX US across two funding rounds. This write-off underscores the significant financial impact of the FTX collapse on institutional investors and highlights the counterparty risk within the crypto ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Temasek_FTX_writeoff",
+        "institutional_loss_crypto",
+        "FTX_contagion"
+      ],
+      "rationale": "A major sovereign wealth fund writing off a substantial investment in FTX signals deep-seated issues and contagion fears stemming from the exchange's failure. This reinforces negative sentiment and institutional caution towards the crypto space."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n0b68d7ffa8b7",
+      "title": "Bitcoin Custody Firm Casa to Add Ethereum Support",
+      "url": "https://finance.yahoo.com/news/bitcoin-custody-firm-casa-add-140000721.html",
+      "summary": "Casa, a prominent Bitcoin self-custody firm, is expanding its services to include Ethereum support. This move, set to launch in January with an overhauled app, indicates a broader trend of established Bitcoin-focused companies diversifying their offerings to cater to a wider range of digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Casa_ETH_support",
+        "custody_diversification",
+        "multi_asset_custody"
+      ],
+      "rationale": "The expansion of a reputable Bitcoin custody provider into Ethereum signifies growing maturity and demand for secure multi-asset solutions. This can attract more institutional and sophisticated retail users to the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n7252f22408f7",
+      "title": "WRAPUP 4-Binance plans to buy rival FTX in bailout as crypto market crumbles",
+      "url": "https://finance.yahoo.com/news/wrapup-2-binance-plans-buy-172508211.html",
+      "summary": "Crypto giant Binance signed a nonbinding agreement to acquire FTX's non-U.S. unit to address a liquidity crunch. This dramatic bailout between rivals Sam Bankman-Fried and Changpeng Zhao raised investor concerns about the broader crypto market's stability.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Binance_FTX_bailout",
+        "crypto_market_instability",
+        "liquidity_crisis"
+      ],
+      "rationale": "Binance's attempt to acquire FTX, though ultimately unsuccessful in preventing FTX's collapse, highlighted the severe liquidity crisis and systemic risks within the crypto industry. This event significantly damaged trust and led to increased scrutiny."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n728ce4ab543e",
+      "title": "China circles El Salvador’s economy as country edges toward crypto plunge",
+      "url": "https://finance.yahoo.com/news/china-circles-el-salvador-economy-103020980.html",
+      "summary": "El Salvador's President Nayib Bukele, who made Bitcoin legal tender, has been notably silent during recent crypto market downturns. His Bitcoin investment is reportedly down over $61 million, and the country's economy is facing warnings of slow growth from the IMF. China's potential economic influence is also a factor.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "El_Salvador_BTC_bet",
+        "IMF_warning",
+        "China_economic_influence"
+      ],
+      "rationale": "El Salvador's continued commitment to Bitcoin as legal tender, despite significant paper losses and economic headwinds, presents a long-term experiment. The country's economic performance and potential external influences (like China) could impact its crypto adoption strategy."
+    },
+    {
+      "pick_idx": 36,
+      "id": "nba791884b8b8",
+      "title": "Elon Musk's Tesla Still HODLing $218M in Bitcoin",
+      "url": "https://finance.yahoo.com/news/elon-musks-tesla-still-hodling-005300538.html",
+      "summary": "Tesla's Bitcoin holdings remain unchanged at $218 million, according to its Q3 report. This follows a sale of 75% of its holdings in July. The company's continued 'HODLing' of Bitcoin signals a degree of confidence in the asset's long-term value, despite market volatility.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Tesla_BTC_holdings",
+        "institutional_HODL",
+        "corporate_treasury_BTC"
+      ],
+      "rationale": "Tesla's decision to maintain its Bitcoin holdings, even after selling a portion, provides a positive signal of institutional conviction. This demonstrates that some major corporations are willing to hold BTC as a treasury asset."
+    },
+    {
+      "pick_idx": 40,
+      "id": "nac8d0cac7c72",
+      "title": "Federal Reserve Hikes Rates as Expected, Will Watch 'Lags' in Monetary Policy; Bitcoin Rises",
+      "url": "https://finance.yahoo.com/news/federal-hikes-rates-expected-watch-180233651.html",
+      "summary": "The Federal Reserve raised interest rates by 75 basis points to a range of 3.75%-4%, marking the fourth consecutive hike of this magnitude. This aggressive move aims to curb inflation, which remains significantly above the Fed's target. Bitcoin saw a rise following the announcement, potentially due to the rate hike being priced in.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "inflation_control",
+        "monetary_policy_lags"
+      ],
+      "rationale": "The Fed's continued aggressive rate hikes are a significant macroeconomic factor impacting risk assets like Bitcoin. While the market may have priced in this specific hike, the Fed's future policy path and the 'lags' in monetary policy transmission remain key uncertainties."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n8a81c976d1fc",
+      "title": "US stocks trade mixed as resilient economy casts doubt on Fed easing rate hikes",
+      "url": "https://finance.yahoo.com/news/us-stocks-trade-mixed-resilient-144130271.html",
+      "summary": "US stocks are mixed as a strong jobs report and solid GDP data suggest the economy remains resilient, potentially leading the Fed to continue rate hikes. The Fed is expected to raise rates by 50 basis points next week, a slowdown from previous 75-basis-point hikes, but the resilient economy might prolong the hiking cycle.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_economy_resilience",
+        "Fed_rate_hike_expectations",
+        "mixed_stock_market"
+      ],
+      "rationale": "A resilient US economy, indicated by strong jobs and GDP data, suggests the Fed may maintain a hawkish stance longer than anticipated. This could lead to continued pressure on risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n73d4a42e44da",
+      "title": "US FTC Launches Crypto Ad Crackdown… But Won't Say Against Who",
+      "url": "https://finance.yahoo.com/news/u-ftc-launches-crypto-ad-070425997.html",
+      "summary": "The Federal Trade Commission (FTC) is investigating several firms for deceptive crypto advertising. While specific targets aren't named, the bankrupt FTX and its associated entities are likely candidates. This crackdown signals increased regulatory scrutiny on crypto marketing practices.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "FTC_crypto_ad_crackdown",
+        "deceptive_marketing_regulation",
+        "FTX_advertising_scrutiny"
+      ],
+      "rationale": "The FTC's investigation into deceptive crypto advertising, especially following the FTX collapse, indicates a tightening regulatory environment for marketing. This could lead to stricter compliance requirements and potential penalties for firms."
+    },
+    {
+      "pick_idx": 4,
+      "id": "naefecfd0dd36",
+      "title": "Bitwave raises $15 million Series A to expand crypto accounting software",
+      "url": "https://finance.yahoo.com/news/bitwave-raises-15-million-series-130000142.html",
+      "summary": "Bitwave, a crypto accounting and compliance platform, raised $15 million in Series A funding to develop its institutional product. This funding comes amid industry discussions on transparency and proof of reserves, suggesting growth in demand for robust financial infrastructure in the crypto space.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitwave_funding",
+        "crypto_accounting_software",
+        "institutional_crypto_infrastructure"
+      ],
+      "rationale": "Investment in crypto accounting and compliance tools like Bitwave suggests a growing need for professionalization and regulatory adherence. This infrastructure development is a positive sign for the long-term health of the industry."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n9bcbd0241660",
+      "title": "Bitcoin Miners Offered Way to Cut Texas Electricity Usage to Help the Grid",
+      "url": "https://finance.yahoo.com/news/texas-bitcoin-miners-offered-cut-210632110.html",
+      "summary": "Texas is introducing a voluntary program to incentivize Bitcoin miners to reduce electricity consumption during peak demand. This initiative aims to ease grid stress and improve reliability, potentially impacting miner operations and profitability.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Texas_grid_program",
+        "miner_curtailment",
+        "energy_usage_optimization"
+      ],
+      "rationale": "The Texas program offers miners a way to manage costs and contribute to grid stability, but it also introduces potential operational disruptions. The voluntary nature and incentives will determine its actual impact on mining operations."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nfebf047a9c85",
+      "title": "Hong Kong’s race to launch first crypto-linked ETF begins",
+      "url": "https://finance.yahoo.com/news/hong-kong-race-launch-first-120752176.html",
+      "summary": "Three Hong Kong-based asset management firms have applied to launch Bitcoin and Ethereum futures ETFs for retail investors. This move signifies Hong Kong's ambition to become a digital asset hub and could increase accessibility to crypto investments in the region.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Hong_Kong_ETF_application",
+        "crypto_ETFs_Asia",
+        "retail_access_crypto"
+      ],
+      "rationale": "The potential launch of crypto-linked ETFs in Hong Kong could attract new capital and provide a regulated avenue for retail investors to gain exposure to Bitcoin and Ethereum, boosting adoption in the region."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n64e62738a3af",
+      "title": "Legendary Apple designer lends his touch to new Ledger Stax crypto wallet",
+      "url": "https://finance.yahoo.com/news/legendary-apple-designer-lends-touch-140549764.html",
+      "summary": "Tony Fadell, co-creator of the iPhone, has designed the new Ledger Stax hardware wallet. This collaboration brings a high level of design and user experience to the crypto hardware wallet market, potentially increasing adoption among mainstream users.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Ledger_Stax_design",
+        "Apple_designer_collaboration",
+        "hardware_wallet_innovation"
+      ],
+      "rationale": "The involvement of a renowned designer like Tony Fadell in creating the Ledger Stax wallet enhances product appeal and could drive broader adoption of hardware wallets for secure crypto storage."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n9e42ee3297b9",
+      "title": "First Mover Asia: Bitcoin Falls on Inflation Fears but Continues Its Ride Above $17K",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-falls-035413189.html",
+      "summary": "Bitcoin and other crypto prices are falling due to concerns that the U.S. economy is not slowing down enough, potentially leading the Fed to maintain higher interest rates. Despite these fears, Bitcoin is holding above $17,000.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_action",
+        "inflation_fears",
+        "Fed_policy_uncertainty"
+      ],
+      "rationale": "Inflation fears and their impact on Fed policy continue to weigh on risk assets. Bitcoin's ability to hold above $17K suggests some resilience, but the macroeconomic backdrop remains a key bearish driver."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n4085b1d247ae",
+      "title": "Bitcoin's Stagnant Crypto Dominance Points to Investor Exodus After FTX Bankruptcy",
+      "url": "https://finance.yahoo.com/news/bitcoins-stagnant-crypto-dominance-points-085607043.html",
+      "summary": "Bitcoin's dominance rate has remained steady around 40% despite the FTX bankruptcy, which typically sees BTC dominance rise during stress. This stagnant dominance suggests an exodus of investors from the broader crypto market, as BTC has not outperformed during the recent downturn.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_dominance_stagnant",
+        "investor_exodus_crypto",
+        "FTX_impact_on_altcoins"
+      ],
+      "rationale": "The unusual stagnation of Bitcoin's dominance suggests that investors are not flocking to BTC as a safe haven within crypto, indicating a broader market sell-off and a general lack of confidence."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nbc2d4dd6a6de",
+      "title": "UK finalises plan to regulate crypto",
+      "url": "https://finance.yahoo.com/news/treasury-plan-regulate-crypto-110002013.html",
+      "summary": "The UK Treasury is finalizing new rules for the cryptocurrency sector, including limits on foreign firms, provisions for company collapses, and advertising restrictions. This regulatory push follows the FTX collapse and aims to bring more order to the industry.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "UK_crypto_regulation",
+        "FTX_fallout_regulation",
+        "advertising_restrictions_crypto"
+      ],
+      "rationale": "The UK's move to finalize crypto regulations signals a global trend towards increased oversight. While potentially creating short-term uncertainty, clear regulations can foster long-term institutional adoption."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n0bd2e8ddefd6",
+      "title": "Hedge Fund Fir Tree Sues Grayscale for Details on GBTC: Bloomberg",
+      "url": "https://finance.yahoo.com/news/hedge-fund-fir-tree-sues-195527471.html",
+      "summary": "Hedge fund Fir Tree is suing Grayscale to obtain information about its Bitcoin Trust (GBTC) and push for resumed redemptions and lower fees. This legal action highlights concerns over GBTC's significant discount to its net asset value and potential mismanagement.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "legal",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fir_Tree_sues_Grayscale",
+        "GBTC_discount_concerns",
+        "Grayscale_redemption_pressure"
+      ],
+      "rationale": "Legal action against Grayscale regarding GBTC's discount and fees could pressure the trust's management and potentially impact its structure or operations, creating short-term uncertainty for BTC investors holding GBTC."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n876f101dc3da",
+      "title": "Goldman Sachs 'Plans to Snap Up Crypto Firms at Bargain Prices'",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-plans-snap-crypto-071032344.html",
+      "summary": "Goldman Sachs reportedly plans to acquire crypto firms at discounted prices, allocating tens of millions of dollars. The bank's head of digital assets cited the need for more regulated players post-FTX. This indicates potential consolidation and institutional interest in distressed crypto assets.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_crypto_acquisition",
+        "bargain_hunting_crypto",
+        "institutional_consolidation"
+      ],
+      "rationale": "Goldman Sachs' intention to acquire crypto firms signals continued institutional interest and a belief in the long-term viability of the sector, even amidst a downturn. This could lead to strategic acquisitions and market consolidation."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nf2e60dea0f8e",
+      "title": "Bitcoin Mining Difficulty Drops by Most Since July 2021 as Crypto Winter Cuts Profitability",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-drops-most-020004112.html",
+      "summary": "Bitcoin mining difficulty has decreased by 7.32%, the largest drop since July 2021, as miners shut down less profitable machines due to the crypto winter. This adjustment aims to maintain block production time but reflects the challenging economic conditions for miners.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "mining_difficulty_drop",
+        "miner_shutdowns",
+        "crypto_winter_profitability"
+      ],
+      "rationale": "A significant drop in mining difficulty indicates that a substantial number of miners are turning off their machines due to low profitability. This could lead to reduced selling pressure from miners but also signals the severity of the bear market."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n97d29ead1c9b",
+      "title": "FTSE 100 Live: Vodafone boss to step down; Bitcoin price could plunge 70% in 2023, Standard Chartered warns",
+      "url": "https://finance.yahoo.com/news/ftse-100-live-vodafone-chief-071705834.html",
+      "summary": "Standard Chartered warns that Bitcoin's price could plunge by 70% in 2023, potentially reaching $5,000, due to crypto bankruptcies and a collapse in investor confidence. This forecast highlights extreme bearish sentiment from a major financial institution.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Standard_Chartered_BTC_forecast",
+        "bearish_sentiment_crypto",
+        "investor_confidence_collapse"
+      ],
+      "rationale": "A stark warning from Standard Chartered about a potential 70% drop in Bitcoin's price reflects extreme bearish sentiment and highlights the ongoing impact of the FTX collapse and broader market contagion."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-12-06",
+    "summary": "The market sentiment remains cautious, with Bitcoin hovering around $17,000 amidst ongoing inflation fears and the lingering effects of the FTX collapse. Macroeconomic data suggesting economic resilience is tempering expectations for a Fed pivot, while regulatory developments in the UK and FTC crackdowns add to the cautious outlook. Miner profitability is being squeezed, leading to a drop in mining difficulty, and institutional interest, though present, is focused on distressed assets. The short-term outlook is dominated by macroeconomic data and regulatory news, while longer-term institutional adoption remains a key theme.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkish stance from the Federal Reserve due to persistent inflation.",
+      "Further contagion from the FTX collapse impacting other crypto entities.",
+      "Increased regulatory scrutiny and enforcement actions globally.",
+      "Weakening global economic conditions impacting risk asset appetite.",
+      "Miner capitulation leading to potential hashrate drops and selling pressure."
+    ],
+    "watch_items": [
+      "Upcoming US CPI data and FOMC meeting minutes.",
+      "Developments in the Grayscale GBTC legal case.",
+      "Any further announcements regarding crypto regulation in major jurisdictions.",
+      "Performance of major tech stocks and their correlation with crypto.",
+      "Miner financial health updates and hashrate trends."
+    ]
+  }
+}

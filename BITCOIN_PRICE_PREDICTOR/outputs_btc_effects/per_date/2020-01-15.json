@@ -1,0 +1,510 @@
+{
+  "date": "2020-01-15",
+  "long_term": [
+    {
+      "pick_idx": 10,
+      "id": "nd1695575c60e",
+      "title": "JPMorgan Sees Institutional Interest In Options On CME Bitcoin Futures",
+      "url": "https://finance.yahoo.com/news/jpmorgan-sees-institutional-interest-options-200843483.html",
+      "summary": "JPMorgan noted increasing institutional interest in options on CME Bitcoin futures. CME Group launched these options, offering a cash-settled instrument for more efficient exposure and hedging in Bitcoin. This development signals growing institutional adoption and a maturing derivatives market for cryptocurrencies, potentially leading to increased liquidity and price discovery.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CME_bitcoin_options",
+        "institutional_interest",
+        "derivatives_market"
+      ],
+      "rationale": "The launch of Bitcoin options on a major regulated exchange like CME, driven by institutional interest, signifies a significant step towards broader adoption and integration of Bitcoin into traditional finance. This can attract more capital and enhance market stability."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n8b9995615562",
+      "title": "An Army of Bitcoin Devs Is Battle-Testing Upgrades to Privacy and Scaling",
+      "url": "https://finance.yahoo.com/news/army-bitcoin-devs-battle-testing-192005710.html",
+      "summary": "Nearly 200 developers are actively reviewing Bitcoin Improvement Proposals (BIPs) for Taproot and Schnorr signatures. These upgrades aim to enhance Bitcoin's privacy and scalability. The collaborative review process, pioneered by Xapo, ensures the safety and robustness of these critical protocol changes, which could significantly improve Bitcoin's usability and transaction efficiency.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Taproot_upgrade",
+        "Schnorr_signatures",
+        "scalability_enhancement",
+        "privacy_improvement"
+      ],
+      "rationale": "Significant protocol upgrades like Taproot and Schnorr are crucial for Bitcoin's long-term viability and adoption. Enhanced privacy and scalability will make Bitcoin more attractive for a wider range of users and applications, potentially driving demand."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n62ab95434924",
+      "title": "World Bank can but won’t use bitcoin to send aid to Venezuelans, according to Human Rights Foundation CSO Alex Gladstein",
+      "url": "https://finance.yahoo.com/news/world-bank-won-t-bitcoin-164116546.html",
+      "summary": "The Human Rights Foundation suggests the World Bank could use Bitcoin for aid in Venezuela, bypassing government restrictions. While the World Bank has not adopted this, the discussion highlights Bitcoin's potential as a tool for humanitarian aid and financial inclusion in regions with unstable financial systems. This points to a growing recognition of Bitcoin's utility beyond speculation.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "humanitarian_aid",
+        "financial_inclusion",
+        "emerging_markets"
+      ],
+      "rationale": "The potential use of Bitcoin for humanitarian aid, even if not yet realized by major institutions like the World Bank, signals a broader acceptance of its utility in challenging economic environments. This could pave the way for future adoption in similar scenarios."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nbbfbc0157390",
+      "title": "Crypto lender BlockFi adds support for USDC and Litecoin",
+      "url": "https://finance.yahoo.com/news/crypto-lender-blockfi-adds-support-140022207.html",
+      "summary": "Crypto lender BlockFi has expanded its offerings to include support for USD Coin (USDC) and Litecoin (LTC). Users can now earn interest on these assets or take out USD-denominated loans against them. This move by a prominent crypto lender indicates increasing integration of various cryptocurrencies into the DeFi ecosystem and growing demand for lending and borrowing services.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "DeFi_lending",
+        "USDC_support",
+        "Litecoin_integration",
+        "institutional_lending"
+      ],
+      "rationale": "The expansion of services by crypto lenders like BlockFi to include more assets like USDC and Litecoin demonstrates the growing maturity of the DeFi space. This broadens the utility of these assets and attracts more users, potentially increasing demand."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ncc8eebd00e5c",
+      "title": "Binance Adds New Fiat Payment Options Through Integration With P2P Exchange Paxful",
+      "url": "https://finance.yahoo.com/news/binance-adds-167-fiat-payment-120000176.html",
+      "summary": "Binance has partnered with Paxful to integrate new fiat-to-crypto on-ramps, supporting over 167 currencies. This integration aims to make it easier for users globally to purchase Bitcoin using local fiat currencies. Expanding fiat gateways is crucial for increasing accessibility and adoption of cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "fiat_onramp",
+        "Paxful_integration",
+        "global_access",
+        "P2P_exchange"
+      ],
+      "rationale": "Broadening fiat on-ramps through partnerships like the one between Binance and Paxful is critical for mass adoption. Increased accessibility for users worldwide to convert fiat into crypto will drive demand and liquidity."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n67ce70aa04ed",
+      "title": "Cryptocurrency rocked by massive Bitcoin fraud",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-rocked-massive-bitcoin-fraud-002556949.html",
+      "summary": "US prosecutors arrested three individuals involved in the 'BitClub Network,' an alleged $722 million Bitcoin Ponzi scheme. This high-profile fraud case highlights the ongoing risks associated with unregulated crypto activities and the importance of regulatory oversight. Such incidents can temporarily erode investor confidence but also push for stronger regulatory frameworks.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Ponzi_scheme",
+        "BitClub_Network",
+        "fraud_enforcement",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Large-scale fraud cases like BitClub Network can damage market sentiment and lead to increased regulatory scrutiny. While negative in the short term, this can ultimately lead to a more secure and regulated environment, which is beneficial for long-term adoption."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne02e575376ad",
+      "title": "Binance Blockade of Wasabi Wallet Could Point to a Crypto Crack-Up",
+      "url": "https://finance.yahoo.com/news/binance-blockade-wasabi-wallet-could-152312477.html",
+      "summary": "Binance's Singapore arm reportedly suspended an account for attempting to send Bitcoin to Wasabi Wallet, citing AML policies. This action suggests a potential divergence between regulated exchanges and privacy-focused users, hinting at a future 'fork' in the crypto ecosystem. Such regulatory enforcement on privacy tools could impact user behavior and demand for privacy-preserving technologies.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "privacy"
+      ],
+      "features_for_model": [
+        "Binance_AML",
+        "Wasabi_wallet",
+        "privacy_enforcement",
+        "exchange_compliance"
+      ],
+      "rationale": "The tension between exchanges enforcing AML policies and users seeking privacy through tools like Wasabi Wallet highlights a key regulatory challenge. This could lead to a bifurcation in the market, impacting the adoption of privacy-focused solutions."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n0d9a2868dab6",
+      "title": "French Financial Watchdog Approves First ICO Under New ‘Visa’ Scheme",
+      "url": "https://finance.yahoo.com/news/french-financial-watchdog-approves-first-140128868.html",
+      "summary": "France's Financial Markets Authority (AMF) has approved its first Initial Coin Offering (ICO) under a new 'ICO visa' scheme. This initiative aims to provide regulatory clarity and investor protection for token sales. The approval signifies a move towards regulated fundraising mechanisms in the crypto space, potentially encouraging more compliant projects.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ICO_approval",
+        "AMF_visa",
+        "regulatory_clarity",
+        "token_fundraising"
+      ],
+      "rationale": "Regulatory approvals for ICOs, like the one in France, provide much-needed clarity and legitimacy for tokenized fundraising. This can attract more legitimate projects and institutional capital, fostering growth in the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nf21fb15bb672",
+      "title": "MARKETS DAILY: Defeating the ‘Domination’ of the US Dollar",
+      "url": "https://finance.yahoo.com/news/markets-daily-defeating-domination-us-170038278.html",
+      "summary": "The article discusses the potential for national cryptocurrencies and the ongoing debate about the US Dollar's dominance. It also mentions industrial-scale Bitcoin miners using Wall Street-style hedging instruments. The discussion around alternative currencies and sophisticated hedging strategies for miners points to the evolving financial landscape and Bitcoin's increasing integration into global finance.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "USD_dominance",
+        "national_cryptocurrencies",
+        "miner_hedging",
+        "global_finance"
+      ],
+      "rationale": "The conversation around challenging the US Dollar's dominance and the use of advanced financial instruments by miners indicates a growing sophistication in the crypto market. While not directly bullish for Bitcoin's price in the short term, it suggests a long-term trend towards greater financial integration."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n3d1feb356979",
+      "title": "What impact will the Bitcoin halving have on Bitcoin mining?",
+      "url": "https://finance.yahoo.com/news/impact-bitcoin-halving-bitcoin-mining-110034053.html",
+      "summary": "The article discusses the upcoming Bitcoin halving in May 2020 and its potential impact on Bitcoin mining profitability. It notes that many view the halving as a bullish catalyst for BTC price, with the hash rate continuously hitting all-time highs. This event is a fundamental driver for Bitcoin's supply dynamics and is widely anticipated to influence price.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_halving",
+        "mining_reward_reduction",
+        "supply_shock",
+        "hash_rate"
+      ],
+      "rationale": "The Bitcoin halving is a pre-programmed event that reduces the supply of new Bitcoin entering the market. Historically, halvings have been followed by significant price increases, making it a key bullish catalyst for the long term."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n7ef1671e0597",
+      "title": "The Crypto Daily – Movers and Shakers – 15/01/20",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-15-033412927.html",
+      "summary": "Bitcoin rallied 8.36% on Tuesday, ending the day at $8,772.6. It broke through major resistance levels and held above the third major resistance at $8,408.57. Despite the upward momentum, the near-term bearish trend from June's swing high remains intact.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_rally",
+        "resistance_break",
+        "daily_movers"
+      ],
+      "rationale": "The significant daily rally and break of resistance suggest immediate bullish momentum, though the longer-term trend remains a concern."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nf97711b7bbde",
+      "title": "Bitcoin surge halted by bitter $8,830 level of resistance",
+      "url": "https://finance.yahoo.com/news/bitcoin-surge-halted-bitter-8-101537884.html",
+      "summary": "Bitcoin's surge has been halted by the $8,830 resistance level after a 30% rally this year. The price may test support at $8,450 or attempt another breakout. Failure to break $8,830 could lead to a pullback, while a successful breakout could target $10,000.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_resistance",
+        "8830_level",
+        "support_test",
+        "potential_breakout"
+      ],
+      "rationale": "The critical $8,830 resistance level is a key determinant for short-term price direction. A failure here could lead to a sharp correction, while a break could signal a move towards $10,000."
+    },
+    {
+      "pick_idx": 3,
+      "id": "neaeb10dd59e5",
+      "title": "XRP Soars 30% In a Green Day",
+      "url": "https://finance.yahoo.com/news/xrp-soars-30-green-day-103100435.html",
+      "summary": "XRP experienced a significant 30.19% price increase on Wednesday, reaching $0.32287. This surge pushed its market cap up and represents its largest one-day gain since January 15. Over the past week, XRP has gained 11.46%.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "XRP_surge",
+        "30_percent_gain",
+        "altcoin_momentum"
+      ],
+      "rationale": "The substantial 30% jump in XRP price indicates strong short-term bullish momentum, potentially driven by specific market factors or broader altcoin sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "na0c7861effb5",
+      "title": "Ethereum price spikes 10%, continues gaining on Bitcoin",
+      "url": "https://finance.yahoo.com/news/ethereum-price-spikes-10-continues-130859196.html",
+      "summary": "Ethereum (ETH) saw a 10% price increase, reaching $165.60, its highest since late November 2019. ETH has gained over 19% in the last week and is outperforming Bitcoin, climbing 6% against BTC today. Trade volume has also doubled in the past month.",
+      "impact_horizon_days": 4,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "ETH_price_spike",
+        "10_percent_gain",
+        "ETH_vs_BTC",
+        "increased_volume"
+      ],
+      "rationale": "Ethereum's strong performance, including gains against Bitcoin and increased volume, suggests significant positive momentum that could continue in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "na7264a227bac",
+      "title": "Latest Bitcoin Cash price and analysis (BCH to USD)",
+      "url": "https://finance.yahoo.com/news/latest-bitcoin-cash-price-analysis-123001592.html",
+      "summary": "Bitcoin Cash (BCH) is trading around $340, up 40% from last week and 19% in the past 24 hours. Since the start of the year, BCH has risen $150. The article suggests positive signs and asks if recent developments will drive further price increases.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "BCH_price_increase",
+        "40_percent_weekly_gain",
+        "YTD_performance",
+        "altcoin_sentiment"
+      ],
+      "rationale": "The substantial weekly and daily gains in Bitcoin Cash indicate strong positive sentiment and potential for continued upward movement in the short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n6b659ad1216a",
+      "title": "BTCPay Server Now Processing Blockstream’s Liquid Assets",
+      "url": "https://finance.yahoo.com/news/btcpay-server-now-processing-blockstream-203356708.html",
+      "summary": "Blockstream's Liquid sidechain is now integrated with BTCPay Server, allowing customers to transact assets like L-BTC and L-USDT. This integration brings Liquid's confidential asset technology, a privacy protocol, to the BTCPay suite, enhancing privacy options for Bitcoin transactions.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "privacy"
+      ],
+      "features_for_model": [
+        "BTCPay_integration",
+        "Liquid_sidechain",
+        "L_BTC",
+        "confidential_assets"
+      ],
+      "rationale": "The integration of Liquid assets with BTCPay Server enhances privacy features for Bitcoin transactions, which could attract users seeking greater anonymity and potentially increase adoption of the Liquid network."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n1cc7c01008cb",
+      "title": "The crypto rich find security in Anchorage",
+      "url": "https://finance.yahoo.com/news/crypto-rich-security-anchorage-115730403.html",
+      "summary": "Cryptocurrency custodian startup Anchorage, backed by Visa and Andreessen Horowitz, has acquired Merkle Data. Anchorage offers secure custody solutions and now allows trading directly from custody, aiming to reduce risks for high-net-worth crypto holders. This signals institutional-grade infrastructure development.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 2,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Anchorage_acquisition",
+        "crypto_custody",
+        "institutional_security",
+        "Merkle_Data"
+      ],
+      "rationale": "The growth and acquisition activity of institutional-grade custodians like Anchorage indicate increasing demand for secure, regulated crypto services, which is a positive sign for market maturity and stability."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n5f986932d2e6",
+      "title": "JPMorgan Veterans’ Kadena Launches Public Blockchain, Integrates Wallet to Cosmos Network",
+      "url": "https://finance.yahoo.com/news/jpmorgan-spinoff-kadena-launches-public-150000846.html",
+      "summary": "Kadena, a startup founded by JPMorgan veterans, has launched its public blockchain and integrated its wallet with the Cosmos Network. This move aims to create scalable, proof-of-work alternatives and improve interoperability between blockchains. The integration facilitates communication between different blockchain ecosystems.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Kadena_launch",
+        "Cosmos_integration",
+        "blockchain_interoperability",
+        "scalability_solution"
+      ],
+      "rationale": "The launch of Kadena's public blockchain and its integration with Cosmos signifies progress in blockchain interoperability and scalability, which are crucial for broader adoption and the development of a connected crypto ecosystem."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nad3241a4639b",
+      "title": "Binance and Huobi receive more illicit Bitcoin than all other exchanges",
+      "url": "https://finance.yahoo.com/news/binance-huobi-receive-more-illicit-150505047.html",
+      "summary": "A Chainalysis report indicates Binance and Huobi received more illicit Bitcoin in 2019 than other exchanges, despite KYC measures. This highlights ongoing challenges in preventing illicit flows and suggests potential regulatory pressure on these platforms.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "exchange_risk"
+      ],
+      "features_for_model": [
+        "illicit_bitcoin",
+        "Binance_Huobi",
+        "Chainalysis_report",
+        "KYC_challenges"
+      ],
+      "rationale": "The high volume of illicit Bitcoin flowing through major exchanges like Binance and Huobi could lead to increased regulatory scrutiny and potential fines, creating short-term negative sentiment."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n0c656602eece",
+      "title": "Craig Wright private key delivered, claims to prove Bitcoin holdings",
+      "url": "https://finance.yahoo.com/news/craig-wright-private-key-delivered-130011826.html",
+      "summary": "Craig Wright's lawyers have submitted a private key to the court to prove his Bitcoin holdings in the ongoing legal dispute with the Kleiman estate. This development is a procedural step in a high-profile legal case that has implications for the ownership and provenance of early Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 5,
+        "end": 14
+      },
+      "impact_tags": [
+        "legal",
+        "provenance"
+      ],
+      "features_for_model": [
+        "Craig_Wright",
+        "private_key",
+        "Kleiman_estate",
+        "legal_dispute"
+      ],
+      "rationale": "The delivery of the private key is a procedural step in a long-standing legal battle. While it might generate some short-term news, its direct impact on Bitcoin's price is likely to be minimal unless it leads to a definitive resolution of the case."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-01-15",
+    "summary": "Bitcoin experienced a significant rally yesterday, breaking through resistance levels and reaching near $8,800, though it faces a critical hurdle at $8,830. Altcoins like XRP and Ethereum are showing strong bullish momentum, outperforming Bitcoin. Meanwhile, developments in institutional adoption, such as CME Bitcoin options and the growth of secure custodians, continue to build long-term positive sentiment. However, concerns remain regarding regulatory scrutiny on major exchanges like Binance and Huobi due to illicit fund flows, and the ongoing legal disputes surrounding early Bitcoin figures like Craig Wright add a layer of uncertainty.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Failure to break the $8,830 resistance level for Bitcoin could lead to a sharp pullback.",
+      "Increased regulatory action against major exchanges like Binance and Huobi could negatively impact market sentiment.",
+      "The ongoing legal disputes involving early Bitcoin figures could introduce uncertainty.",
+      "Geopolitical tensions, while currently not directly impacting crypto, remain a background risk.",
+      "The general volatility inherent in the cryptocurrency market."
+    ],
+    "watch_items": [
+      "Bitcoin's price action around the $8,830 resistance level.",
+      "Performance of major altcoins like ETH and XRP.",
+      "Any further news regarding regulatory actions against exchanges.",
+      "Developments in the Craig Wright legal case.",
+      "Macroeconomic indicators and global geopolitical events."
+    ]
+  }
+}

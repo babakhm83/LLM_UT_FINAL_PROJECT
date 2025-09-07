@@ -1,0 +1,487 @@
+{
+  "date": "2022-05-12",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nb127b26c96b9",
+      "title": "U.S. dollar touches 20-year high as markets shun risk",
+      "url": "https://finance.yahoo.com/news/dollar-hits-two-decade-high-004615936.html",
+      "summary": "The U.S. dollar reached a new 20-year high due to risk-off sentiment, driven by concerns over the Federal Reserve's ability to combat high inflation. This trend, fueled by rising U.S. Treasury yields and aggressive Fed tightening expectations, suggests a continued strengthening of the dollar. A strong dollar typically correlates with a weaker Bitcoin as it reduces the appeal of riskier assets and increases the cost of dollar-denominated assets for foreign investors.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "risk_aversion",
+        "Fed_tightening"
+      ],
+      "rationale": "A persistently strong U.S. dollar generally acts as a headwind for Bitcoin and other risk assets. This trend indicates a flight to safety, which is bearish for cryptocurrencies."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n3308202cafcc",
+      "title": "Top DeFi Token Price Analysis – LUNA, AVAX, UNI, and AAVE",
+      "url": "https://finance.yahoo.com/news/top-defi-token-price-analysis-160519962.html",
+      "summary": "The article highlights a bearish week for the crypto market, with Bitcoin's over 10% fall impacting DeFi tokens, most of which saw double-digit losses. LUNA, AVAX, and AAVE experienced significant drops, while UNI maintained support. This broad market downturn, driven by investor angst over inflation and Fed monetary policy, suggests a challenging environment for all cryptocurrencies, including Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "DeFi_downturn",
+        "inflation_angst",
+        "Fed_policy_impact"
+      ],
+      "rationale": "The widespread decline in DeFi tokens, mirroring Bitcoin's fall, indicates systemic bearish sentiment. This suggests that the broader crypto market is highly sensitive to macroeconomic factors and Fed actions, impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nfe37bf3ff56b",
+      "title": "Bank of England's Bailey says crypto is the 'new frontline' for scams",
+      "url": "https://finance.yahoo.com/news/crypto-bank-of-england-andrew-bailey-scam-rishi-sunak-nft-150721720.html",
+      "summary": "Bank of England Governor Andrew Bailey has identified cryptocurrencies as the 'new frontline' for criminal scams, while acknowledging the underlying technology's potential for financial innovation. This statement highlights regulatory concerns and the potential for increased scrutiny and regulation of the crypto space, which could impact adoption and investor sentiment.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_scams",
+        "regulatory_scrutiny",
+        "BoE_statement"
+      ],
+      "rationale": "Statements from central bankers like the Bank of England governor can influence regulatory approaches globally. Concerns about scams could lead to stricter regulations, potentially hindering long-term adoption and price appreciation."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n6fdbde00e1c9",
+      "title": "Kevin O’Leary on US crypto regulation: ‘We need to catch up with the rest of the world’",
+      "url": "https://finance.yahoo.com/news/kevin-o-leary-on-us-crypto-regulation-we-need-to-catch-up-with-the-rest-of-the-world-153530069.html",
+      "summary": "Kevin O'Leary, Chairman of O'Shares Investment Advisers, believes sensible government crypto regulation is crucial for mass adoption and predicts blockchain will become a significant sector in the S&P 500. He notes the increasing pace of policy proposals in the U.S., including bills for stablecoins and an executive order from the POTUS. This indicates a growing momentum towards regulatory clarity, which is generally positive for institutional adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_crypto_regulation",
+        "regulatory_clarity",
+        "institutional_adoption"
+      ],
+      "rationale": "The push for clear U.S. crypto regulations, as highlighted by Kevin O'Leary, is a positive long-term development. Regulatory clarity can attract institutional investors and foster broader adoption, which is bullish for Bitcoin."
+    },
+    {
+      "pick_idx": 16,
+      "id": "ne5cffb2ae8f9",
+      "title": "Putin’s war is disrupting crypto’s fantasy of stateless money",
+      "url": "https://finance.yahoo.com/news/putin-war-disrupting-crypto-fantasy-111000490.html",
+      "summary": "The international response to Russia's invasion of Ukraine, including financial sanctions, has highlighted the global dominance of the U.S. dollar and Washington's power. This geopolitical event underscores the interconnectedness of the global financial system and the limitations of crypto's 'stateless' ideal when faced with real-world geopolitical and economic pressures. The war's ramifications are seen as unfavorable for crypto.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "geopolitical_risk",
+        "USD_dominance",
+        "sanctions_impact"
+      ],
+      "rationale": "Geopolitical events and the resulting financial sanctions demonstrate the continued reliance on traditional financial systems and the U.S. dollar. This challenges crypto's narrative of being a truly stateless and independent financial system, potentially dampening long-term sentiment."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n534831ec3f57",
+      "title": "Tesla, Block and Blockstream to mine bitcoin off solar power in Texas",
+      "url": "https://finance.yahoo.com/news/tesla-block-blockstream-mine-bitcoin-153112955.html",
+      "summary": "Electric-vehicle maker Tesla, payments firm Block, and blockchain company Blockstream are collaborating on a solar-powered Bitcoin mining project in Texas. Tesla is providing the solar power infrastructure and Megapack batteries. This initiative aligns with growing environmental concerns in the crypto industry and demonstrates a commitment to sustainable mining practices, which could improve Bitcoin's public image and adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "sustainability"
+      ],
+      "features_for_model": [
+        "solar_mining",
+        "Tesla_partnership",
+        "sustainable_bitcoin"
+      ],
+      "rationale": "This collaboration signifies a significant step towards more sustainable Bitcoin mining, addressing a key criticism. The involvement of major companies like Tesla and Block could boost investor confidence and encourage further adoption of greener mining practices."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n80b1c0f9d7eb",
+      "title": "China takes aim at corruption in underground Bitcoin mines",
+      "url": "https://finance.yahoo.com/news/china-takes-aim-corruption-underground-025051348.html",
+      "summary": "China's anti-graft watchdog is monitoring potential corruption in underground cryptocurrency mining operations, even after the government banned the sector. The Central Commission for Discipline Inspection (CCDI) noted that some state-owned entity employees are using public resources for crypto mining. This indicates ongoing efforts by Chinese authorities to control and potentially eliminate illicit mining activities, reinforcing the country's restrictive stance on crypto.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "China_mining_ban",
+        "corruption_crackdown",
+        "illicit_mining"
+      ],
+      "rationale": "While China's ban on mining is not new, continued crackdowns on underground operations reinforce the country's negative stance on crypto mining. This contributes to a global narrative of regulatory pressure, which can have a chilling effect on mining operations and sentiment."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n71eba6d7cca3",
+      "title": "Cryptoverse: Remember when bitcoin was 'anonymous'?",
+      "url": "https://finance.yahoo.com/news/cryptoverse-remember-bitcoin-anonymous-061525624.html",
+      "summary": "A growing number of crypto users are seeking greater privacy, leading to increased interest in privacy coins like Monero and Zcash, which have gained ground as Bitcoin inches towards mainstream finance. This trend suggests a divergence in user preferences, with some prioritizing privacy over Bitcoin's more transparent, albeit pseudonymous, nature. The rise of privacy-focused solutions could impact the long-term appeal of Bitcoin if privacy concerns become more prominent.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "privacy_coins",
+        "user_preference_shift",
+        "Bitcoin_transparency"
+      ],
+      "rationale": "The increasing demand for privacy coins indicates a segment of the crypto market prioritizing anonymity. While this doesn't directly impact Bitcoin's core utility, it highlights a potential shift in user focus that could influence future adoption trends."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n29a49237bcee",
+      "title": "Intellabridge to Present at Wharton's Mack Institute For Innovation Spring Conference",
+      "url": "https://finance.yahoo.com/news/intellabridge-present-whartons-mack-institute-134800858.html",
+      "summary": "Intellabridge Technology Corporation will present on 'Sustainability In Blockchain' at Wharton's Mack Institute for Innovation Management Spring Conference. This presentation focuses on how newer blockchain systems offer environmentally sustainable solutions. Such discussions at academic institutions can foster greater understanding and acceptance of blockchain technology, potentially leading to broader adoption and positive sentiment towards crypto assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "sustainability",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockchain_sustainability",
+        "academic_conference",
+        "environmental_impact"
+      ],
+      "rationale": "Presentations on blockchain sustainability at prestigious institutions like Wharton can help educate a wider audience and improve the perception of the technology. This contributes to a more favorable long-term outlook for crypto adoption."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n906fba99320b",
+      "title": "Could Bitcoin Be A Game Changer For The Black Community?",
+      "url": "https://finance.yahoo.com/news/could-bitcoin-game-changer-black-040000117.html",
+      "summary": "The article explores how Bitcoin could be a game-changer for the Black community, which holds a disproportionately small amount of U.S. household wealth due to historical policies. Bitcoin's low barrier to entry is seen as an opportunity for financial empowerment and building generational wealth. This highlights a growing segment of the population turning to crypto for financial inclusion.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "social"
+      ],
+      "features_for_model": [
+        "financial_inclusion",
+        "Black_community_adoption",
+        "wealth_building"
+      ],
+      "rationale": "The increasing adoption of Bitcoin by underserved communities for financial empowerment is a positive sign for long-term growth. It broadens the user base and strengthens the narrative of Bitcoin as a tool for financial inclusion."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n97fa86160107",
+      "title": "Stock Market Today: S&P Inches Toward Bear Market",
+      "url": "https://finance.yahoo.com/news/stock-market-today-p-inches-201700704.html",
+      "summary": "The Producer Price Index (PPI) showed continued high inflation, rising 11% year-over-year, only slightly less than the previous month's record. This data, following high consumer price index (CPI) figures, reinforces fears of aggressive Federal Reserve tightening. The overall market sentiment remains risk-off, impacting cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro"
+      ],
+      "features_for_model": [
+        "PPI_inflation",
+        "Fed_tightening_fears",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Persistent high inflation data, as indicated by the PPI, strengthens the case for aggressive Fed rate hikes, which typically leads to a sell-off in risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "na34416f6a7be",
+      "title": "Column: Bitcoin, NFTs, SPACs, meme stocks — all those pandemic investment darlings are crashing",
+      "url": "https://finance.yahoo.com/news/column-bitcoin-nfts-spacs-meme-130003989.html",
+      "summary": "The article notes that many pandemic-era investment darlings, including Bitcoin, NFTs, SPACs, and meme stocks, are now crashing. This broad market downturn across speculative assets suggests a significant shift in investor sentiment away from high-risk investments, impacting Bitcoin's price and volatility.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "speculative_asset_crash",
+        "risk_off_sentiment",
+        "pandemic_bubble_burst"
+      ],
+      "rationale": "The widespread collapse of speculative assets indicates a deleveraging trend and a flight to safety. This environment is highly bearish for Bitcoin, which has been a prominent 'pandemic darling'."
+    },
+    {
+      "pick_idx": 4,
+      "id": "neab97361ec32",
+      "title": "These were the 5 worst performing cryptos over the past week amid stablecoin collapse",
+      "url": "https://finance.yahoo.com/news/were-5-worst-performing-cryptos-170254731.html",
+      "summary": "The article highlights that many cryptocurrencies have experienced significant losses over the past week, with the total crypto market capitalization falling drastically. The collapse of stablecoins like TerraUSD (UST) and the subsequent impact on Tether (USDT) have exacerbated market fear and volatility, leading to sharp declines across the board.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "stablecoin_collapse",
+        "crypto_market_crash",
+        "Tether_depeg_fear"
+      ],
+      "rationale": "The ongoing stablecoin crisis, particularly the depegging of UST and concerns around Tether, is creating significant contagion risk and driving down prices across the entire crypto market, including Bitcoin."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n8581a808cc21",
+      "title": "XRP Returns to sub-$0.40 ahead of Ripple’s Friday Court Date",
+      "url": "https://finance.yahoo.com/news/xrp-returns-sub-0-40-063502958.html",
+      "summary": "XRP has fallen below $0.40 ahead of a court date in the SEC case against Ripple Labs. The market is experiencing risk aversion, with XRP down significantly. Key technical indicators are bearish, and XRP is trading below its 50-day EMA. This legal uncertainty and bearish technicals contribute to the overall negative sentiment in the crypto market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "SEC_v_Ripple",
+        "XRP_price_action",
+        "legal_uncertainty"
+      ],
+      "rationale": "The ongoing SEC lawsuit against Ripple creates uncertainty for XRP and can spill over into broader market sentiment, especially with key court dates approaching."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nec59f6f73558",
+      "title": "Tesla's billion-dollar bitcoin bet may be under water as crypto crashes",
+      "url": "https://finance.yahoo.com/news/teslas-billion-dollar-bitcoin-bet-154038963.html",
+      "summary": "Tesla's $1.5 billion Bitcoin investment made in 2021 is likely experiencing significant unrealized losses as the cryptocurrency market crashes. Bitcoin has lost over half its value recently, and sharply declined over the last week. This situation could impact Tesla's balance sheet and potentially influence future corporate adoption decisions.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Tesla_BTC_holding",
+        "unrealized_losses",
+        "corporate_sentiment"
+      ],
+      "rationale": "The significant paper losses on Tesla's Bitcoin holdings could lead to a more cautious approach from the company and other institutional investors regarding crypto investments."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n06f6e9e54cde",
+      "title": "Coinbase Says Users Could Be Subject to Bankruptcy Filings After Reporting Q1 Loss of $430 Million",
+      "url": "https://finance.yahoo.com/news/coinbase-says-users-could-subject-175253004.html",
+      "summary": "Coinbase reported a Q1 loss of $430 million and warned that customer crypto assets held in custody could be subject to bankruptcy proceedings if the company were to go bankrupt. This disclosure, coupled with the volatile market behavior and significant losses in major cryptocurrencies, raises concerns about the safety of assets held on centralized exchanges.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Coinbase_bankruptcy_risk",
+        "custodial_assets",
+        "exchange_risk"
+      ],
+      "rationale": "Coinbase's bankruptcy disclosure creates significant fear and uncertainty among users, potentially leading to asset withdrawals from exchanges and a broader loss of confidence in centralized crypto platforms."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n03294401bdb2",
+      "title": "Crypto collapse intensifies as stablecoin Tether slides below dollar peg",
+      "url": "https://finance.yahoo.com/news/bitcoin-resumes-tumble-drops-around-034519555.html",
+      "summary": "The meltdown of TerraUSD (UST) has impacted other stablecoins, with Tether (USDT) falling below its dollar peg. This ripple effect is intensifying the crypto market sell-off, pushing Bitcoin to 16-month lows. High inflation data and fears of aggressive central bank tightening are exacerbating investor anxiety.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "Tether_depeg",
+        "stablecoin_crisis",
+        "crypto_market_meltdown"
+      ],
+      "rationale": "The depegging of Tether, a major stablecoin, is a critical event that amplifies systemic risk and fear in the crypto market, leading to sharp price declines across all major assets."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n01adbd5b374a",
+      "title": "GLOBAL MARKETS-Stocks in tailspin, dollar soars as hard landing fears mount",
+      "url": "https://finance.yahoo.com/news/global-markets-stocks-tailspin-dollar-121007423.html",
+      "summary": "Global stocks have fallen to a 1-1/2 year low, with the dollar hitting two-decade highs as fears of a hard economic landing grow. This risk-off sentiment is driven by persistent inflation and expectations of aggressive interest rate hikes. Bitcoin is also tumbling, hitting a new 16-month low.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "global_recession_fears",
+        "USD_strength",
+        "risk_off"
+      ],
+      "rationale": "The broad market sell-off and strengthening dollar indicate a severe risk-off environment, which is highly detrimental to Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n264e79aaaa1b",
+      "title": "UPDATE 7-Crypto collapse intensifies as stablecoin Tether slides below dollar peg",
+      "url": "https://finance.yahoo.com/news/5-crypto-collapse-intensifies-stablecoin-195859151.html",
+      "summary": "The meltdown of TerraUSD (UST) has caused a ripple effect across crypto markets, pushing Tether (USDT) below its dollar peg and sending Bitcoin to 16-month lows. This intensified sell-off is driven by high inflation data and fears of aggressive central bank tightening, creating a highly volatile and bearish environment.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "Tether_depeg",
+        "stablecoin_crisis",
+        "crypto_market_meltdown"
+      ],
+      "rationale": "The ongoing stablecoin crisis, particularly the depegging of Tether, is a critical event that amplifies systemic risk and fear in the crypto market, leading to sharp price declines across all major assets."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n839b30b056cd",
+      "title": "Bitcoin, Ethereum, crypto at 2022’s lowest point",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-crypto-2022-lowest-045212546.html",
+      "summary": "Bitcoin has fallen to its lowest point since December 2020, trading around $28,652, amidst bearish market sentiments. Ethereum has also hit its cheapest value since July 2021. This broad crypto bear run is attributed to rising inflation in China and the U.S., and ongoing supply chain disruptions.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_lowest_point",
+        "ETH_lowest_point",
+        "crypto_bear_market"
+      ],
+      "rationale": "Bitcoin and Ethereum reaching multi-month lows signifies a strong bearish trend, driven by macroeconomic factors and the broader crypto market downturn."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n4566c7ce46678",
+      "title": "Tether Loses $1 Peg, Bitcoin Drops to 2020 Levels of Near $24K",
+      "url": "https://finance.yahoo.com/news/tether-loses-1-peg-bitcoin-072620469.html",
+      "summary": "The Tether (USDT) stablecoin has lost its parity with the U.S. dollar, falling to 97 cents. Concurrently, Bitcoin has dropped below the $27,000 support level, reaching levels not seen since December 2020. This loss of stablecoin peg and sharp decline in Bitcoin price are driven by poor market sentiment and fears surrounding algorithmic stablecoins.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "Tether_depeg",
+        "BTC_2020_levels",
+        "stablecoin_crisis"
+      ],
+      "rationale": "The depegging of Tether, a major stablecoin, combined with Bitcoin's sharp decline to multi-year lows, signals extreme market distress and a significant loss of confidence."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-05-12",
+    "summary": "The market is experiencing a severe downturn driven by persistent inflation fears and aggressive Fed tightening expectations. The collapse of stablecoins like TerraUSD and Tether has amplified this risk-off sentiment, pushing Bitcoin and other cryptocurrencies to multi-month lows. Major stock indices are also under pressure, indicating a broad market deleveraging. The strong U.S. dollar further exacerbates these bearish trends.",
+    "scenario_probs": {
+      "bull": 0.1,
+      "base": 0.3,
+      "bear": 0.6
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued inflation data leading to more aggressive Fed rate hikes.",
+      "Further contagion from stablecoin depegging events.",
+      "Broader market sell-off impacting risk assets.",
+      "Geopolitical tensions exacerbating economic slowdown fears.",
+      "Regulatory crackdowns on crypto assets."
+    ],
+    "watch_items": [
+      "US CPI and PPI data releases.",
+      "Federal Reserve statements on monetary policy.",
+      "Developments in the Terra/Luna and Tether stablecoin situations.",
+      "Major corporate earnings reports.",
+      "Global equity market performance."
+    ]
+  }
+}

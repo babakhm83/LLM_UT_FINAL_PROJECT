@@ -1,0 +1,543 @@
+{
+  "date": "2022-09-25",
+  "long_term": [
+    {
+      "pick_idx": 9,
+      "id": "n9b318c6fa2d9",
+      "title": "Bitcoin, Ethereum fall after Jerome Powell warns of ‘some pain’ ahead in fighting inflation",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-fall-jerome-powell-155020049.html",
+      "summary": "Federal Reserve Chair Jerome Powell's speech at Jackson Hole signaled a continued aggressive stance against inflation, warning of \"some pain\" to the economy. This hawkish sentiment, emphasizing forceful use of monetary tools, typically leads to reduced risk appetite, impacting assets like Bitcoin and Ethereum. The market's reaction suggests investors are pricing in a higher probability of economic slowdown and reduced liquidity, which is generally bearish for speculative assets.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Powell_speech",
+        "Jackson_Hole",
+        "inflation_fighting",
+        "interest_rates",
+        "risk_off"
+      ],
+      "rationale": "Powell's hawkish tone directly impacts investor sentiment towards risk assets. Higher interest rates and potential economic slowdown are bearish for Bitcoin and Ethereum, as they reduce liquidity and increase the cost of capital."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf3060e6b70b8",
+      "title": "Crypto investors hold their breath as $200 billion at risk in Ethereum ‘merge’",
+      "url": "https://finance.yahoo.com/news/crypto-investors-hold-breath-200-151951690.html",
+      "summary": "The Ethereum Merge, a significant protocol upgrade transitioning from Proof-of-Work to Proof-of-Stake, was a major event for the crypto market. While promising energy efficiency, the complexity and scale of the upgrade carried inherent risks of failure. A successful Merge would likely be bullish for ETH and potentially the broader market due to reduced energy concerns, while a failure could trigger significant sell-offs.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge",
+        "Proof_of_Stake",
+        "energy_efficiency",
+        "protocol_upgrade",
+        "ETH_price"
+      ],
+      "rationale": "The Merge was a critical technical event for Ethereum. Its success or failure had direct implications for ETH's price and the broader crypto market's perception of technological risk and sustainability."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nf63a2a43eeba",
+      "title": "Markets: Bitcoin price falls below US$19,000, XRP gains on SEC lawsuit developments, Ether post-Merge slide continues",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-price-falls-below-005903464.html",
+      "summary": "Bitcoin's price breaking below the $19,000 level for the second time in a week indicates a lack of buying conviction and potential for further downside. The continued slide in Ether post-Merge suggests that the anticipated bullish impact may have been priced in or that broader market sentiment is overriding the event's positive effects. XRP's gain due to SEC lawsuit developments highlights the impact of regulatory clarity on specific altcoins.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_drop",
+        "Ether_post_Merge",
+        "SEC_lawsuit",
+        "XRP_gain",
+        "regulatory_clarity"
+      ],
+      "rationale": "Breaking key support levels like $19,000 for Bitcoin signals bearish momentum. The post-Merge weakness in Ether and the positive regulatory news for XRP illustrate divergent market forces impacting different crypto assets."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n3a6a6f0db2a3",
+      "title": "How Mega Lawsuit Against MicroStrategy’s Michael Saylor Could Affect Bitcoin",
+      "url": "https://finance.yahoo.com/news/mega-lawsuit-against-microstrategy-michael-190743842.html",
+      "summary": "The lawsuit against Michael Saylor by the District of Columbia Attorney General, alleging tax evasion and conspiracy with MicroStrategy, introduces significant regulatory risk. If successful, it could set a precedent for how high-profile crypto advocates and their companies are treated by tax authorities, potentially impacting investor confidence and the perceived regulatory landscape for Bitcoin adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Saylor_lawsuit",
+        "MicroStrategy",
+        "tax_evasion",
+        "regulatory_risk",
+        "DC_AG"
+      ],
+      "rationale": "A lawsuit against a prominent Bitcoin advocate like Saylor and his company raises concerns about regulatory enforcement and potential tax liabilities, which could deter institutional adoption and negatively impact Bitcoin's price."
+    },
+    {
+      "pick_idx": 41,
+      "id": "nf07e982642f9",
+      "title": "The head of the SEC says most cryptocurrencies are operating illegally",
+      "url": "https://finance.yahoo.com/news/head-sec-says-most-cryptocurrencies-211800085.html",
+      "summary": "SEC Chair Gary Gensler's statement that the vast majority of the nearly 10,000 crypto tokens are securities, and thus subject to SEC regulation, signals a significant increase in regulatory scrutiny. This implies a potential for enforcement actions against many projects and exchanges, creating uncertainty and potentially dampening innovation and investment in the short to medium term.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_Gensler",
+        "crypto_securities",
+        "regulation_crackdown",
+        "enforcement_risk",
+        "token_classification"
+      ],
+      "rationale": "Gensler's assertion directly challenges the operational framework of many crypto projects, indicating a strong likelihood of future regulatory actions that could significantly impact market participants and asset valuations."
+    },
+    {
+      "pick_idx": 47,
+      "id": "nac1c1a788521",
+      "title": "Crypto firms under fresh scrutiny after Biden administration proposes crackdown",
+      "url": "https://finance.yahoo.com/news/crypto-firms-under-fresh-scrutiny-161154376.html",
+      "summary": "The Biden administration's proposed crackdown on fraudulent activity in the digital asset market, including requirements for crypto exchanges to report suspicious transactions and increased penalties for unlicensed money transmitting, signals a more aggressive regulatory approach. This could lead to greater compliance costs for crypto firms and potentially restrict certain activities, impacting market liquidity and innovation.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Biden_administration",
+        "crypto_regulation",
+        "crackdown",
+        "KYC_AML",
+        "exchange_reporting"
+      ],
+      "rationale": "The proposed regulatory framework aims to bring crypto firms under stricter oversight, similar to traditional financial institutions, which could increase operational costs and introduce new compliance burdens, potentially slowing down market growth."
+    },
+    {
+      "pick_idx": 49,
+      "id": "nb4548455d6d6",
+      "title": "We can have effective crypto regulation without stifling innovation. Here’s how",
+      "url": "https://finance.yahoo.com/news/effective-crypto-regulation-without-stifling-100800953.html",
+      "summary": "The article discusses the need for effective crypto regulation following market turmoil like the TerraUSD collapse and the failures of Three Arrows Capital, Celsius, and Voyager. It suggests a path for regulation that balances investor protection with fostering innovation, implying that clear regulatory frameworks are crucial for long-term market stability and adoption, but the path to achieving this balance is complex and uncertain.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_regulation",
+        "investor_protection",
+        "innovation",
+        "market_stability",
+        "Terra_collapse"
+      ],
+      "rationale": "The ongoing debate and development of crypto regulation are critical for the industry's future. While the goal is to balance protection and innovation, the uncertainty surrounding specific rules and their implementation creates a mixed outlook."
+    },
+    {
+      "pick_idx": 1,
+      "id": "na0f47a757cc6",
+      "title": "Companies exploring crypto at 'slightly more conservative pace': Bakkt CEO",
+      "url": "https://finance.yahoo.com/news/companies-exploring-crypto-at-slightly-more-conservative-pace-bakkt-ceo-171943736.html",
+      "summary": "Bakkt CEO Gavin Michael noted that multinational companies are still interested in crypto but are proceeding with more caution due to the market downturn. This suggests a slowdown in institutional adoption and integration of crypto services, as companies become more thoughtful about their entry into the crypto economy. This conservative approach could temper the pace of new institutional capital entering the market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_adoption",
+        "Bakkt_CEO",
+        "conservative_pace",
+        "corporate_interest",
+        "market_downturn"
+      ],
+      "rationale": "A more conservative approach from large corporations in exploring crypto adoption directly impacts the inflow of institutional capital, which is a key driver for market growth and price appreciation."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n6a54a183bfdb",
+      "title": "IMF sees stablecoins posing biggest risk to crypto markets — 'There are others that could fail'",
+      "url": "https://finance.yahoo.com/news/imf-crypto-stablecoin-july-economic-update-132951869.html",
+      "summary": "The IMF's warning about stablecoins and the potential for further failures highlights systemic risks within the crypto market. Such pronouncements can erode investor confidence and lead to contagion effects, especially if a major stablecoin were to de-peg. This risk perception can trigger broader market sell-offs and increase volatility.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "IMF_warning",
+        "stablecoin_risk",
+        "market_failure",
+        "systemic_risk",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "The IMF's assessment of stablecoin risks points to potential vulnerabilities in the crypto ecosystem. Any significant stablecoin failure could trigger a broader market crisis, impacting Bitcoin and other cryptocurrencies."
+    },
+    {
+      "pick_idx": 13,
+      "id": "naae36f55c222",
+      "title": "SMIC Mass Produces 14nm Nodes, Advances To 5nm, 7nm",
+      "url": "https://finance.yahoo.com/news/smic-mass-produces-14nm-nodes-003531507.html",
+      "summary": "SMIC's advancement in chip manufacturing, particularly towards 7nm and 5nm nodes despite equipment restrictions, is significant for the semiconductor industry. While not directly tied to crypto, advancements in chip production capacity and technology can indirectly benefit the hardware required for mining and other crypto-related infrastructure, potentially lowering costs or increasing efficiency over the long term.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "SMIC",
+        "semiconductor_advancement",
+        "chip_production",
+        "mining_hardware",
+        "tech_innovation"
+      ],
+      "rationale": "Improvements in semiconductor manufacturing, especially for advanced nodes, can eventually lead to more efficient and cost-effective hardware for crypto mining and other computational tasks, providing a long-term, albeit indirect, bullish signal."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n3f5bcaa67fbf",
+      "title": "It was the day when everything fell – except the dollar",
+      "url": "https://finance.yahoo.com/news/day-everything-fell-except-dollar-070000916.html",
+      "summary": "On Friday, global markets including Bitcoin, stocks, bonds, and commodities experienced a synchronized downturn, driven by recession fears and geopolitical tensions. The US dollar strengthened significantly. This broad risk-off sentiment suggests a strong bearish bias across asset classes, with Bitcoin likely to follow suit due to its correlation with traditional risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "risk_off"
+      ],
+      "features_for_model": [
+        "global_downturn",
+        "dollar_strength",
+        "risk_aversion",
+        "recession_fears",
+        "correlation_risk_assets"
+      ],
+      "rationale": "The widespread sell-off across all major asset classes, coupled with dollar strength, indicates a strong risk-off sentiment that is highly likely to continue impacting Bitcoin negatively in the immediate short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0e8374e9eb1e",
+      "title": "How Crypto Sectors Are Trading Through the Dollar Strength 'Tsunami'",
+      "url": "https://finance.yahoo.com/news/crypto-sectors-trading-dollar-strength-145000961.html",
+      "summary": "The Federal Reserve's 75 basis point rate hike, the third in a row, aims to cool the economy. Higher interest rates typically increase demand for the dollar, making it more expensive for other assets, including crypto, to attract capital. This dynamic suggests continued pressure on crypto prices as the dollar strengthens.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "dollar_strength",
+        "interest_rates",
+        "liquidity_squeeze",
+        "crypto_trading"
+      ],
+      "rationale": "The Fed's continued aggressive rate hikes are designed to strengthen the dollar and reduce liquidity, creating a challenging environment for risk assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n061ebf1c9d23",
+      "title": "Jax.Network's mining pool gains 1.58 Ehash/s",
+      "url": "https://finance.yahoo.com/news/jax-networks-mining-pool-gains-190900726.html",
+      "summary": "JaxPool, a mining pool focused on merge-mining Jax.Network with Bitcoin, has seen a significant increase in its hashrate. While this is positive for the Jax.Network ecosystem, its direct impact on Bitcoin's price or volatility is likely to be minimal given the overall scale of Bitcoin's network hashrate. It indicates increased mining activity for a specific altcoin.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_pool_hashrate",
+        "Jax_Network",
+        "merge_mining",
+        "hashrate_increase",
+        "mining_competition"
+      ],
+      "rationale": "An increase in hashrate for a specific mining pool is generally a neutral to slightly positive development for that network, but it has negligible short-term impact on Bitcoin's price."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n3f5bcaa67fbf",
+      "title": "It was the day when everything fell – except the dollar",
+      "url": "https://finance.yahoo.com/news/day-everything-fell-except-dollar-070000916.html",
+      "summary": "On Friday, global markets including Bitcoin, stocks, bonds, and commodities experienced a synchronized downturn, driven by recession fears and geopolitical tensions. The US dollar strengthened significantly. This broad risk-off sentiment suggests a strong bearish bias across asset classes, with Bitcoin likely to follow suit due to its correlation with traditional risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "risk_off"
+      ],
+      "features_for_model": [
+        "global_downturn",
+        "dollar_strength",
+        "risk_aversion",
+        "recession_fears",
+        "correlation_risk_assets"
+      ],
+      "rationale": "The widespread sell-off across all major asset classes, coupled with dollar strength, indicates a strong risk-off sentiment that is highly likely to continue impacting Bitcoin negatively in the immediate short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0e8374e9eb1e",
+      "title": "How Crypto Sectors Are Trading Through the Dollar Strength 'Tsunami'",
+      "url": "https://finance.yahoo.com/news/crypto-sectors-trading-dollar-strength-145000961.html",
+      "summary": "The Federal Reserve's 75 basis point rate hike, the third in a row, aims to cool the economy. Higher interest rates typically increase demand for the dollar, making it more expensive for other assets, including crypto, to attract capital. This dynamic suggests continued pressure on crypto prices as the dollar strengthens.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "dollar_strength",
+        "interest_rates",
+        "liquidity_squeeze",
+        "crypto_trading"
+      ],
+      "rationale": "The Fed's continued aggressive rate hikes are designed to strengthen the dollar and reduce liquidity, creating a challenging environment for risk assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n061ebf1c9d23",
+      "title": "Jax.Network's mining pool gains 1.58 Ehash/s",
+      "url": "https://finance.yahoo.com/news/jax-networks-mining-pool-gains-190900726.html",
+      "summary": "JaxPool, a mining pool focused on merge-mining Jax.Network with Bitcoin, has seen a significant increase in its hashrate. While this is positive for the Jax.Network ecosystem, its direct impact on Bitcoin's price or volatility is likely to be minimal given the overall scale of Bitcoin's network hashrate. It indicates increased mining activity for a specific altcoin.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_pool_hashrate",
+        "Jax_Network",
+        "merge_mining",
+        "hashrate_increase",
+        "mining_competition"
+      ],
+      "rationale": "An increase in hashrate for a specific mining pool is generally a neutral to slightly positive development for that network, but it has negligible short-term impact on Bitcoin's price."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n3f5bcaa67fbf",
+      "title": "It was the day when everything fell – except the dollar",
+      "url": "https://finance.yahoo.com/news/day-everything-fell-except-dollar-070000916.html",
+      "summary": "On Friday, global markets including Bitcoin, stocks, bonds, and commodities experienced a synchronized downturn, driven by recession fears and geopolitical tensions. The US dollar strengthened significantly. This broad risk-off sentiment suggests a strong bearish bias across asset classes, with Bitcoin likely to follow suit due to its correlation with traditional risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "risk_off"
+      ],
+      "features_for_model": [
+        "global_downturn",
+        "dollar_strength",
+        "risk_aversion",
+        "recession_fears",
+        "correlation_risk_assets"
+      ],
+      "rationale": "The widespread sell-off across all major asset classes, coupled with dollar strength, indicates a strong risk-off sentiment that is highly likely to continue impacting Bitcoin negatively in the immediate short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n0e8374e9eb1e",
+      "title": "How Crypto Sectors Are Trading Through the Dollar Strength 'Tsunami'",
+      "url": "https://finance.yahoo.com/news/crypto-sectors-trading-dollar-strength-145000961.html",
+      "summary": "The Federal Reserve's 75 basis point rate hike, the third in a row, aims to cool the economy. Higher interest rates typically increase demand for the dollar, making it more expensive for other assets, including crypto, to attract capital. This dynamic suggests continued pressure on crypto prices as the dollar strengthens.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "dollar_strength",
+        "interest_rates",
+        "liquidity_squeeze",
+        "crypto_trading"
+      ],
+      "rationale": "The Fed's continued aggressive rate hikes are designed to strengthen the dollar and reduce liquidity, creating a challenging environment for risk assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n061ebf1c9d23",
+      "title": "Jax.Network's mining pool gains 1.58 Ehash/s",
+      "url": "https://finance.yahoo.com/news/jax-networks-mining-pool-gains-190900726.html",
+      "summary": "JaxPool, a mining pool focused on merge-mining Jax.Network with Bitcoin, has seen a significant increase in its hashrate. While this is positive for the Jax.Network ecosystem, its direct impact on Bitcoin's price or volatility is likely to be minimal given the overall scale of Bitcoin's network hashrate. It indicates increased mining activity for a specific altcoin.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_pool_hashrate",
+        "Jax_Network",
+        "merge_mining",
+        "hashrate_increase",
+        "mining_competition"
+      ],
+      "rationale": "An increase in hashrate for a specific mining pool is generally a neutral to slightly positive development for that network, but it has negligible short-term impact on Bitcoin's price."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n3f5bcaa67fbf",
+      "title": "It was the day when everything fell – except the dollar",
+      "url": "https://finance.yahoo.com/news/day-everything-fell-except-dollar-070000916.html",
+      "summary": "On Friday, global markets including Bitcoin, stocks, bonds, and commodities experienced a synchronized downturn, driven by recession fears and geopolitical tensions. The US dollar strengthened significantly. This broad risk-off sentiment suggests a strong bearish bias across asset classes, with Bitcoin likely to follow suit due to its correlation with traditional risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "risk_off"
+      ],
+      "features_for_model": [
+        "global_downturn",
+        "dollar_strength",
+        "risk_aversion",
+        "recession_fears",
+        "correlation_risk_assets"
+      ],
+      "rationale": "The widespread sell-off across all major asset classes, coupled with dollar strength, indicates a strong risk-off sentiment that is highly likely to continue impacting Bitcoin negatively in the immediate short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-09-25",
+    "summary": "The market sentiment remains overwhelmingly bearish, driven by macroeconomic factors. The Federal Reserve's aggressive interest rate hikes are strengthening the dollar and reducing liquidity, leading to a broad risk-off sentiment across global markets, including crypto. Bitcoin and other major cryptocurrencies experienced significant declines, correlating with traditional risk assets. Geopolitical tensions further exacerbate these fears. While some niche mining activity shows growth, it has minimal impact on the broader market trend.",
+    "scenario_probs": {
+      "bull": 0.1,
+      "base": 0.3,
+      "bear": 0.6
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Continued hawkish stance from the Federal Reserve.",
+      "Escalation of geopolitical tensions (e.g., Ukraine war).",
+      "Further strengthening of the US Dollar.",
+      "Potential for contagion from stablecoin de-pegging or exchange failures.",
+      "Regulatory crackdowns impacting crypto firms and innovation."
+    ],
+    "watch_items": [
+      "US CPI data releases.",
+      "FOMC meeting minutes and speeches.",
+      "Global macroeconomic indicators (e.g., PMI, GDP).",
+      "Developments in major regulatory cases (e.g., SEC vs. Ripple).",
+      "Performance of traditional risk assets (e.g., Nasdaq, S&P 500)."
+    ]
+  }
+}

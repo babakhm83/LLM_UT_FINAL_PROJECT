@@ -1,0 +1,492 @@
+{
+  "date": "2018-01-03",
+  "long_term": [
+    {
+      "pick_idx": 26,
+      "id": "n34158c5aa079",
+      "title": "Home prices and consumer confidence — What you need to know on Tuesday",
+      "url": "https://finance.yahoo.com/news/home-prices-consumer-confidence-need-know-tuesday-230835209.html",
+      "summary": "This article discusses upcoming economic data releases, including home price data and consumer confidence numbers. While not directly about Bitcoin, it reflects the broader macroeconomic environment. A strong economy and high consumer confidence can indirectly support risk assets like cryptocurrencies, as investors may have more disposable income and a greater appetite for speculative investments. However, it also notes that the Dow is at a record high, suggesting potential for a market correction.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "consumer_confidence",
+        "home_prices",
+        "macro_data"
+      ],
+      "rationale": "Broader economic indicators can influence investor sentiment towards risk assets. While positive economic data might suggest a risk-on environment, the mention of record highs in the Dow hints at potential overvaluation and a possible correction, creating uncertainty for Bitcoin."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n396b7af48236",
+      "title": "Bitcoin's surge intensifies need for global regulation of cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-surge-intensifies-global-144931333.html",
+      "summary": "The article highlights the increasing mainstream investor interest in cryptocurrencies, evidenced by Bitcoin breaking the $10,000 barrier. It also points out the growing concern among regulators about the use of cryptocurrencies by criminals to evade law enforcement. This suggests an increasing likelihood of regulatory action to address these concerns, which could impact the cryptocurrency market significantly.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "global_regulation",
+        "crypto_crime",
+        "investor_interest"
+      ],
+      "rationale": "The surge in Bitcoin's price is directly linked to increased investor interest, but this also attracts regulatory scrutiny due to criminal activity. The article explicitly states that regulators are fretting, indicating a strong likelihood of future regulatory measures that could dampen speculative growth."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n83dee58b7b9f",
+      "title": "GLOBAL MARKETS-Stocks dip on U.S. tax reform doubt; no respite in havens",
+      "url": "https://finance.yahoo.com/news/global-markets-stocks-dip-u-213145313.html",
+      "summary": "This article discusses global market sentiment influenced by doubts surrounding U.S. tax reform. It notes a dip in global stocks and a lack of movement in safe-haven assets. The mention of Bitcoin trading down from its all-time high in the snippet suggests that broader market sentiment, particularly concerning U.S. economic policy and tax reform, can influence Bitcoin's price, even if indirectly.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "US_tax_reform",
+        "global_stocks",
+        "market_sentiment"
+      ],
+      "rationale": "Uncertainty around significant U.S. fiscal policy like tax reform can lead to broader market volatility. The snippet indicates Bitcoin is also affected, suggesting a correlation with traditional markets during periods of policy uncertainty, making its direction uncertain."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nf17964524d24",
+      "title": "Investors bought stocks because of tax reform and will now 'sell the news': Wharton's Siegel",
+      "url": "https://finance.yahoo.com/news/investors-bought-stocks-because-tax-221544510.html",
+      "summary": "Wharton's Jeremy Siegel suggests that the market rally has been driven by anticipation of tax reform, and investors may 'sell the news' once it's passed. This implies a potential short-term pullback in equity markets. While not directly about Bitcoin, a 'sell the news' event in traditional markets could lead to a broader risk-off sentiment, potentially impacting Bitcoin as investors reduce exposure to speculative assets.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "sell_the_news",
+        "tax_reform_impact",
+        "market_rally"
+      ],
+      "rationale": "The 'sell the news' phenomenon in traditional markets, driven by the passage of tax reform, could trigger a broader risk-off sentiment. This would likely lead investors to divest from speculative assets like Bitcoin, causing a price decline."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n6609fbacf9be",
+      "title": "Bitcoin Futures to Launch Dec. 18: 9 Things to Know",
+      "url": "https://finance.yahoo.com/news/bitcoin-futures-launch-dec-18-175309872.html",
+      "summary": "This article announces the upcoming launch of Bitcoin futures trading on CME Group, following Cboe's earlier launch. The U.S. Commodity Futures Trading Commission (CFTC) will be closely monitoring trading activity. The introduction of regulated futures markets provides institutional investors with a more accessible and regulated way to gain exposure to Bitcoin, potentially increasing demand and price stability over the long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "bitcoin_futures",
+        "CME_launch",
+        "CFTC_monitoring"
+      ],
+      "rationale": "The launch of regulated Bitcoin futures on a major exchange like CME is a significant step towards institutional adoption. This provides a regulated on-ramp for institutional capital, which is expected to drive demand and price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ncaa006df8642",
+      "title": "North Korea May Be Behind the Latest Bitcoin Heist in South Korea: Report",
+      "url": "https://finance.yahoo.com/news/north-korea-may-behind-latest-171756182.html",
+      "summary": "A report suggests North Korea may be responsible for a recent Bitcoin heist from a South Korean exchange, leading to its collapse. This highlights the ongoing security risks associated with cryptocurrency exchanges and the potential for state-sponsored actors to exploit vulnerabilities. Such incidents can erode investor confidence and lead to increased regulatory scrutiny, potentially impacting Bitcoin's long-term adoption and price.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "north_korea_heist",
+        "exchange_collapse",
+        "crypto_security"
+      ],
+      "rationale": "Security breaches and alleged state-sponsored theft damage the reputation of the cryptocurrency ecosystem. This incident, involving the collapse of an exchange, reinforces concerns about security and could lead to stricter regulations, hindering long-term adoption and potentially impacting price negatively."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n03fb5584306c",
+      "title": "Bitcoin price drops 29pc in four days",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-drops-29pc-four-095426080.html",
+      "summary": "This article reports a significant price drop in Bitcoin, attributing it to the abandonment of plans to alter its underlying technology and a shift towards a rival cryptocurrency. The sharp decline highlights Bitcoin's inherent volatility and the impact of technical developments or lack thereof on its price. It also suggests that the market is sensitive to changes in the underlying protocol and the emergence of competing cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_price_drop",
+        "tech_upgrade_abandoned",
+        "rival_crypto_adoption"
+      ],
+      "rationale": "A nearly 30% price drop in four days, linked to a failed technical upgrade and a shift to a rival, demonstrates extreme volatility and sensitivity to protocol changes. This indicates that the market is still maturing and susceptible to significant price swings based on technical and competitive factors."
+    },
+    {
+      "pick_idx": 42,
+      "id": "ndfb73a27f58b",
+      "title": "Bitcoin Futures Are Up 13% After Eye-Popping Surge in Market Debut",
+      "url": "https://finance.yahoo.com/news/bitcoin-futures-13-eye-popping-124626884.html",
+      "summary": "This article covers the debut of Bitcoin futures on the Cboe exchange, marking the first time investors could gain exposure through a mainstream, regulated exchange. The futures saw an initial surge, indicating strong demand. This regulated entry point is expected to legitimize Bitcoin further and attract more institutional investment, potentially leading to increased price stability and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "bitcoin_futures_debut",
+        "Cboe_launch",
+        "regulated_exchange"
+      ],
+      "rationale": "The launch of regulated Bitcoin futures on a major exchange like Cboe is a critical development for institutional adoption. The initial surge suggests significant demand, and this regulated avenue is expected to bring more capital into the market, driving long-term price appreciation."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nca931eeecd3b",
+      "title": "Bitcoin hits all-time high above $11,700 as recovery accelerates",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-time-high-above-212741175.html",
+      "summary": "This article reports Bitcoin reaching a new all-time high above $11,700, marking a significant recovery from a previous 20% plunge. The rapid rebound highlights the extreme volatility of Bitcoin but also its strong upward momentum driven by increasing investor interest. The mention of exchanges struggling to keep up with trading volume during previous swings indicates growing demand and potential liquidity challenges.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "all_time_high",
+        "rapid_recovery",
+        "high_trading_volume"
+      ],
+      "rationale": "Bitcoin's ability to recover from a significant drop and reach new all-time highs demonstrates strong underlying demand and bullish sentiment. The mention of exchanges struggling with volume indicates increasing adoption and potential liquidity constraints, which can further drive prices up in the short term."
+    },
+    {
+      "pick_idx": 30,
+      "id": "ne820643f6f65",
+      "title": "Bitcoin Is Skyrocketing and it Just Hit $17,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-skyrocketing-just-hit-17-170759357.html",
+      "summary": "This article reports Bitcoin surging past $17,000, driven by anticipation of its trading on major U.S. exchanges. It also notes concerns about security following a breach at NiceHash, potentially involving the theft of $70 million worth of Bitcoin. This dual narrative of rapid price appreciation and security concerns reflects the ongoing speculative frenzy and the inherent risks in the cryptocurrency market.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "bitcoin_price_surge",
+        "exchange_listing_anticipation",
+        "security_breach"
+      ],
+      "rationale": "The price surge to $17,000, fueled by anticipation of exchange listings, indicates strong speculative demand. However, the simultaneous mention of a significant security breach at NiceHash highlights the persistent risks, creating a mixed signal for short-term price action."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 11,
+      "id": "ne352cf828850",
+      "title": "Bitcoin Climbs on Reports of Monster Bet by Peter Thiel's Founders Fund",
+      "url": "https://finance.yahoo.com/news/bitcoin-climbs-reports-monster-bet-133400354.html",
+      "summary": "Reports indicate that Peter Thiel's Founders Fund has invested millions in Bitcoin, with holdings now worth hundreds of millions. This news is driving Bitcoin's price up, adding credibility to the cryptocurrency industry. The investment from a prominent venture capitalist like Thiel is seen as a significant endorsement, potentially attracting more capital and boosting short-term price momentum.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Peter_Thiel_investment",
+        "Founders_Fund",
+        "VC_endorsement"
+      ],
+      "rationale": "A substantial investment from a high-profile venture capital firm like Founders Fund provides significant positive sentiment and validation for Bitcoin. This is likely to drive short-term price increases as traders react to the news."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n9ac1326d78ca",
+      "title": "Bitcoin Cash Is Up, But Correction May Be On Cards",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-correction-may-cards-133016080.html",
+      "summary": "Bitcoin Cash (BCH) has seen gains but technical charts suggest a potential short-term correction. Despite recent appreciation, BCH is still down from its record high. The article notes that investors have been diversifying into smaller cryptocurrencies like BCH during Bitcoin's rallies. This suggests that while BCH has seen interest, its upward momentum might be unsustainable in the immediate future.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 5
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bitcoin_cash_correction",
+        "technical_analysis",
+        "altcoin_diversification"
+      ],
+      "rationale": "Technical indicators suggest a potential correction for Bitcoin Cash, despite recent gains. The article implies that the recent diversification into BCH might be a temporary trend, making it vulnerable to a short-term price decline."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n0f1d757ccf8b",
+      "title": "Ripple cryptocurrency hits a record high above $3",
+      "url": "https://finance.yahoo.com/news/ripple-cryptocurrency-hits-record-high-094704502.html",
+      "summary": "Ripple (XRP) has reached a new all-time high above $3, continuing its strong rally. The digital coin has seen significant gains over the past year and holds the second-largest market capitalization. This surge in Ripple's price, driven by investor interest, is a notable short-term trend in the altcoin market.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "ripple_price_surge",
+        "XRP_all_time_high",
+        "altcoin_momentum"
+      ],
+      "rationale": "Ripple's continued surge to new all-time highs indicates strong short-term bullish momentum. This is a significant event in the altcoin market and suggests continued investor interest in this specific cryptocurrency."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n238e33dc0d52",
+      "title": "Bitcoin's 'Altcoin' Cryptocurrency Rivals Are Finally Catching Up",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-apos-altcoin-apos-154431430.html",
+      "summary": "Bitcoin alternatives like Stellar and Cardano are experiencing significant growth, causing Bitcoin's market share to fall. Stellar, in particular, has doubled in the early days of the year. This trend suggests a potential shift in investor focus from Bitcoin to other cryptocurrencies, which could impact Bitcoin's dominance and price in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "altcoin_growth",
+        "bitcoin_market_share_loss",
+        "stellar_performance"
+      ],
+      "rationale": "The rapid growth of altcoins like Stellar is drawing attention and capital away from Bitcoin, leading to a decrease in its market share. This trend could create short-term volatility for Bitcoin as investors diversify, making its direction uncertain."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n932db921e104",
+      "title": "E-Trade Financial Launches CME Bitcoin Futures Trading",
+      "url": "https://finance.yahoo.com/news/e-trade-financial-launches-cme-090005669.html",
+      "summary": "E-Trade Financial has opened trading for CME Bitcoin futures, following its earlier launch of CBOE Bitcoin futures. The margin requirement for CME futures is set at 80%. This expansion of access to Bitcoin futures on a major brokerage platform indicates growing institutional and retail interest in regulated derivatives, which could influence short-term price action.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "futures"
+      ],
+      "features_for_model": [
+        "e_trade_futures",
+        "CME_bitcoin_futures",
+        "brokerage_access"
+      ],
+      "rationale": "The availability of CME Bitcoin futures on a major platform like E-Trade signifies increased accessibility for traders. This could lead to higher trading volumes and potentially influence short-term price movements as more participants enter the market."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ndee52d393eaf",
+      "title": "Bitcoin and Ethereum Price Forecast – Prices Move Higher on Bullish Momentum",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-price-forecast-prices-041102503.html",
+      "summary": "Bitcoin prices have recovered and are trading near the $15,000 region, facing short-term resistance. The price increase is attributed to news of Peter Thiel's fund investing millions in Bitcoin, lending credibility to the industry. The article suggests that regulatory news has been driving Bitcoin prices, indicating a sensitivity to regulatory developments.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "bitcoin_price_recovery",
+        "Peter_Thiel_investment",
+        "regulatory_news"
+      ],
+      "rationale": "The recovery of Bitcoin prices, boosted by significant VC investment and ongoing regulatory news, suggests positive short-term momentum. While $15,000 presents resistance, the underlying drivers point towards continued upward pressure."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n66cc45c047ec",
+      "title": "Key Spec of Apple's 2018 iPhones Revealed",
+      "url": "https://finance.yahoo.com/news/key-spec-apple-apos-2018-182200643.html",
+      "summary": "This article discusses specifications for Apple's 2018 iPhones, including battery capacities. While not directly related to cryptocurrencies, it reflects the broader tech market sentiment. Positive developments in major tech companies can sometimes correlate with a general risk-on sentiment that might spill over into speculative assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "apple_iphone_specs",
+        "tech_sector_sentiment",
+        "market_correlation"
+      ],
+      "rationale": "News about major tech companies like Apple can influence overall market sentiment. While not a direct driver for Bitcoin, positive developments in the tech sector might indirectly support a risk-on environment, creating a slight bullish bias."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n39f546f6bf22",
+      "title": "Why BlackBerry, Ulta Salon, and Advanced Micro Devices Jumped Today",
+      "url": "https://finance.yahoo.com/news/why-blackberry-ulta-salon-advanced-213000742.html",
+      "summary": "This article highlights strong performance in the stock market, with major indices hitting record highs, partly due to positive economic indicators and Federal Reserve minutes suggesting continued economic strength. While focused on traditional stocks, the overall bullish market sentiment can create a favorable environment for risk assets like Bitcoin, potentially driving its price higher.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "stock_market_rally",
+        "record_highs",
+        "economic_strength"
+      ],
+      "rationale": "A strong performance in traditional markets, with indices hitting record highs, often correlates with increased investor appetite for risk. This positive market sentiment can spill over into cryptocurrencies, potentially driving Bitcoin's price higher in the short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "na2d07accb700",
+      "title": "Ripple Hits $3 as Surging Cryptocurrency Reaches New All-Time High",
+      "url": "https://finance.yahoo.com/news/ripple-hits-3-surging-cryptocurrency-234100901.html",
+      "summary": "Ripple's XRP token has reached a new all-time high of $3, tripling its value in a short period. Despite Bitcoin's higher price, Ripple's large token volume makes its total market value significant. This rapid ascent of Ripple highlights strong short-term investor interest and momentum in the altcoin market.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "ripple_price_hike",
+        "XRP_all_time_high",
+        "altcoin_surge"
+      ],
+      "rationale": "Ripple's impressive price surge and new all-time high indicate strong short-term bullish momentum. This altcoin performance is a key indicator of current market sentiment and capital flows within the cryptocurrency space."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n9e2e5c0c84fc",
+      "title": "Why the Price of Ripple is So Much Less than Bitcoin",
+      "url": "https://finance.yahoo.com/news/why-price-ripple-much-less-174600952.html",
+      "summary": "This article explains that while Ripple's token price is much lower than Bitcoin's, its large token supply makes its market capitalization comparable. Ripple has seen over 1,000% growth in less than a month. This highlights the significant short-term interest and price appreciation in Ripple, contributing to the broader altcoin rally.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "ripple_market_cap",
+        "XRP_price_growth",
+        "altcoin_rally"
+      ],
+      "rationale": "Ripple's substantial short-term price growth and increasing market cap demonstrate strong investor interest. This altcoin performance is a key factor in the current market dynamics, suggesting continued upward pressure for Ripple in the immediate term."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-01-03",
+    "summary": "The market is showing mixed signals today. Long-term, the introduction of Bitcoin futures on major exchanges like CME and E-Trade, coupled with the anticipation of institutional adoption, presents a bullish outlook. However, concerns about regulatory scrutiny due to increasing criminal activity and past security breaches like the North Korean heist cast a bearish shadow. Short-term, altcoins like Ripple and Stellar are experiencing significant rallies, indicating strong investor interest and potential for further gains. Bitcoin itself is showing resilience, climbing on news of significant VC investment, but faces short-term resistance. The overall market sentiment is cautiously optimistic, with a strong undercurrent of speculative activity in altcoins.",
+    "scenario_probs": {
+      "bull": 0.5,
+      "base": 0.3,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Regulatory crackdowns due to increasing crypto crime.",
+      "Potential for a market-wide correction ('sell the news' effect from tax reform).",
+      "Security breaches and exchange collapses eroding investor confidence.",
+      "Extreme volatility in altcoins, leading to potential sharp pullbacks.",
+      "Uncertainty surrounding the long-term utility and adoption of various cryptocurrencies."
+    ],
+    "watch_items": [
+      "Further developments on Bitcoin futures trading volume and open interest.",
+      "Regulatory statements from major financial bodies (e.g., SEC, CFTC).",
+      "Performance of key altcoins like Ripple (XRP) and Stellar (XLM).",
+      "Any new major security incidents involving cryptocurrency exchanges or wallets.",
+      "Macroeconomic data releases and central bank commentary (e.g., Fed minutes)."
+    ]
+  }
+}

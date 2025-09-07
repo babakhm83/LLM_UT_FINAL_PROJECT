@@ -1,0 +1,495 @@
+{
+  "date": "2019-09-14",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nc1d5cd9d1aca",
+      "title": "A September Slowdown Could Offer Bearish ETF Plays",
+      "url": "https://finance.yahoo.com/news/september-slowdown-could-offer-bearish-043816844.html",
+      "summary": "The article suggests that historical September trends, coupled with inverted yield curves and the ongoing US-China trade war, point towards a potential economic slowdown. This environment could create opportunities for bearish ETF investors. The recent imposition of US tariffs on Chinese goods is highlighted as a significant factor contributing to these concerns, potentially impacting global economic sentiment and risk appetite.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "September_slowdown",
+        "inverted_yield_curve",
+        "US-China_trade_war",
+        "tariffs"
+      ],
+      "rationale": "The confluence of macro-economic headwinds like trade wars and potential slowdowns typically leads to reduced risk appetite, which can negatively impact speculative assets like Bitcoin. The mention of bearish ETF plays indicates a market sentiment that could translate to broader selling pressure."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0bade18f30a2",
+      "title": "Bakkt begins user testing bitcoin futures",
+      "url": "https://finance.yahoo.com/news/bakkt-begins-user-testing-bitcoin-094606132.html",
+      "summary": "Bakkt, a digital asset platform backed by the Intercontinental Exchange (ICE), has commenced user testing for its bitcoin futures services. This move is a significant step towards creating a regulated market for bitcoin, aiming to attract institutional investment. However, the article notes that regulatory hurdles still need to be cleared before Bakkt can fully realize its potential and draw in substantial institutional capital.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Bakkt_futures_testing",
+        "institutional_adoption",
+        "regulated_market"
+      ],
+      "rationale": "The successful launch and adoption of regulated derivatives products like Bakkt's futures are crucial for attracting institutional capital. This institutional inflow is widely seen as a major catalyst for significant price appreciation in Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n10ed7b05e323",
+      "title": "Financial Markets Collapse Supports Bitcoin",
+      "url": "https://finance.yahoo.com/news/financial-markets-collapse-supports-bitcoin-111209679.html",
+      "summary": "This article suggests that a potential collapse in traditional financial markets could bolster Bitcoin's appeal as an alternative asset. It highlights that Bitcoin's price action around $11,800 is acting as a support level, indicating potential for further upside if this level holds. The piece also notes that altcoins are not yet mirroring Bitcoin's rally, with Litecoin's halving event being a notable exception, showing a significant price increase.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "financial_market_collapse",
+        "safe_haven_asset",
+        "Bitcoin_support_level"
+      ],
+      "rationale": "In times of traditional market instability, Bitcoin can act as a 'digital gold' or safe-haven asset, attracting capital seeking refuge from economic turmoil. This narrative, if it plays out, could significantly drive demand and price."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nd4050e83d2c2",
+      "title": "Agriculture ETFs Rebound as China Exempts Soy, Pork from Additional tariffs",
+      "url": "https://finance.yahoo.com/news/agriculture-etfs-rebound-china-exempts-195146475.html",
+      "summary": "The article reports that agriculture-related ETFs are experiencing a rebound following China's decision to exempt certain agricultural products from additional tariffs. This de-escalation in the trade war is seen as reducing uncertainty. Specifically, the Teucrium Soybean Fund and iPath Series B Bloomberg Livestock Subindex Total Return ETN are mentioned as gaining value, indicating a positive market reaction to eased trade tensions.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "China_tariff_exemptions",
+        "trade_war_deescalation",
+        "agriculture_ETFs"
+      ],
+      "rationale": "Easing trade tensions between major economies like the US and China generally reduce global economic uncertainty. This can lead to increased investor confidence and a greater willingness to invest in riskier assets, including cryptocurrencies."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nb48c7e7cf7e3",
+      "title": "SEC Chair Clayton: Would-Be Bitcoin ETFs Have ‘Work Left to Be Done’",
+      "url": "https://finance.yahoo.com/news/sec-chair-clayton-bitcoin-etfs-195350216.html",
+      "summary": "SEC Chairman Jay Clayton stated that while progress is being made towards approving a bitcoin ETF, there is still 'work left to be done.' He reiterated concerns about price manipulation and custody of digital assets as key hurdles. This indicates that regulatory approval for a spot Bitcoin ETF remains a significant, albeit delayed, catalyst for institutional adoption.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_approval_progress",
+        "price_manipulation_concerns",
+        "custody_solutions"
+      ],
+      "rationale": "The ongoing dialogue and stated progress from the SEC Chair, while cautious, signals a potential future approval of a Bitcoin ETF. Such an approval would unlock significant institutional capital, driving demand and price."
+    },
+    {
+      "pick_idx": 23,
+      "id": "naf2d2b484535",
+      "title": "Litecoin Just Halved Its Crypto Rewards for Miners",
+      "url": "https://finance.yahoo.com/news/litecoin-just-halved-crypto-rewards-102005054.html",
+      "summary": "Litecoin (LTC) has undergone its scheduled halving event, reducing the block reward for miners by half. This event, which occurs every 840,000 blocks, is designed to control the supply of new LTC entering the market. Historically, halving events have been associated with price increases for Litecoin due to reduced supply and increased scarcity.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "miner"
+      ],
+      "features_for_model": [
+        "Litecoin_halving",
+        "block_reward_reduction",
+        "supply_scarcity"
+      ],
+      "rationale": "The Litecoin halving reduces the rate at which new coins are created, increasing scarcity. This, combined with potential increased demand from miners needing to acquire LTC, has historically led to price appreciation for the asset."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n2b840b9cd8d2",
+      "title": "Portuguese Tax Authority announces it won’t tax cryptocurrency",
+      "url": "https://finance.yahoo.com/news/portuguese-tax-authority-announces-won-160007137.html",
+      "summary": "The Portuguese Tax Authority (PTA) has officially declared that cryptocurrencies will not be taxed in Portugal. This means individuals will not be subject to capital gains tax or VAT on crypto transactions. The PTA's stance is that the exchange of cryptocurrency for fiat currency constitutes a VAT-free service, creating a favorable environment for crypto adoption and usage within the country.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Portugal_crypto_tax_exemption",
+        "favorable_regulation",
+        "crypto_adoption"
+      ],
+      "rationale": "Favorable regulatory environments, such as tax exemptions, can significantly boost cryptocurrency adoption and usage within a jurisdiction. This can lead to increased demand and a more robust local crypto ecosystem."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nf74552b5341e",
+      "title": "SEC chair Jay Clayton states ‘progress has been made’ for a Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/sec-chair-jay-clayton-states-093200911.html",
+      "summary": "SEC Chair Jay Clayton indicated that the crypto ecosystem has made progress in addressing issues that previously hindered Bitcoin ETF approval. He specifically mentioned price manipulation and custody of digital assets as key areas of focus. While acknowledging that 'there's still work to be done,' his comments suggest a potentially more open stance from the SEC on the matter.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_progress",
+        "custody_solutions",
+        "price_manipulation_mitigation"
+      ],
+      "rationale": "The SEC chair's comments about progress on Bitcoin ETF approval are a positive signal for institutional adoption. If an ETF is eventually approved, it would provide a regulated on-ramp for traditional investors, potentially driving significant capital into Bitcoin."
+    },
+    {
+      "pick_idx": 41,
+      "id": "nc8a038992a48",
+      "title": "Circle CEO: Bitcoin still a safe haven asset despite recent wild ride",
+      "url": "https://finance.yahoo.com/news/circle-ceo-bitcoin-still-safe-210811309.html",
+      "summary": "Circle CEO Jeremy Allaire maintains that Bitcoin remains an 'attractive' safe-haven asset, even amidst its price volatility. He cites President Trump's tariff announcements as a factor that initially boosted Bitcoin as markets showed signs of stress. This perspective suggests that, despite short-term fluctuations, the underlying narrative of Bitcoin as a hedge against global economic uncertainty persists.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "safe_haven_narrative",
+        "economic_uncertainty",
+        "Circle_CEO_sentiment"
+      ],
+      "rationale": "The persistent narrative of Bitcoin as a 'digital gold' or safe-haven asset, especially during times of geopolitical and economic uncertainty, can attract capital seeking to preserve wealth. This narrative, if reinforced by macro events, can drive demand."
+    },
+    {
+      "pick_idx": 43,
+      "id": "ncd5cbbc068ce",
+      "title": "Tim Draper hedges $250,000 Bitcoin price call",
+      "url": "https://finance.yahoo.com/news/tim-draper-hedges-250-000-100031122.html",
+      "summary": "Venture capitalist Tim Draper, known for his $250,000 Bitcoin price prediction by 2022, has slightly hedged his forecast, suggesting it might occur in Q1 2023. He notes that Bitcoin has consolidated more than he anticipated and that fewer competitors have emerged. Draper believes Bitcoin's consolidation is a sign of its growing dominance and resilience in the market.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Tim_Draper_prediction",
+        "Bitcoin_dominance",
+        "VC_sentiment"
+      ],
+      "rationale": "Prominent venture capitalists like Tim Draper expressing continued bullishness, even with slight adjustments to timelines, signals strong conviction in Bitcoin's long-term potential. This sentiment can influence other investors and contribute to market optimism."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nfb17810cee1a",
+      "title": "Bitcoin Price Indicator May Signal Next Leg Higher",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-indicator-may-signal-093558387.html",
+      "summary": "A key technical indicator suggests a bullish turn in Bitcoin's price action, drawing parallels to the market movements of 2015. The article highlights that Bitcoin's bear market ended in December 2018, followed by a consolidation period before a bull market began in April 2019. The indicator's positive signal could precede a significant price rally.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bullish_indicator",
+        "2015_pattern_repeat",
+        "price_rally_signal"
+      ],
+      "rationale": "Technical indicators suggesting a bullish trend reversal can often lead to short-term price increases as traders and algorithms react to the signals."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nc4025c9e439a",
+      "title": "Bitcoin rebounds after falling below $10,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-rebounds-falling-below-10-132739779.html",
+      "summary": "Bitcoin experienced a dip below the $10,000 support level, reaching a low of $9,850 before rebounding to $10,100. The sell-off resulted in $80 million in liquidations on BitMEX. Despite the volatility, Bitcoin spent less than an hour below the $10,000 mark, indicating resilience in maintaining this psychological level.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "technical"
+      ],
+      "features_for_model": [
+        "support_retest",
+        "rebound_from_10k",
+        "BitMEX_liquidations"
+      ],
+      "rationale": "The quick rebound after testing the $10,000 support level suggests strong buying pressure at that price point, potentially indicating a short-term bullish continuation."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nfcf2039bb770",
+      "title": "Hodl Hodl Wants You to Clone Its Bitcoin Exchange",
+      "url": "https://finance.yahoo.com/news/hodl-hodl-wants-clone-p2p-110959344.html",
+      "summary": "Peer-to-peer Bitcoin exchange Hodl Hodl plans to open-source its software, allowing anyone to launch their own version of the exchange. This move is partly a response to regulatory vulnerabilities. By making the code freely available, Hodl Hodl aims to decentralize its platform and mitigate risks associated with potential government crackdowns.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Hodl_Hodl_open_source",
+        "P2P_exchange_decentralization",
+        "regulatory_mitigation"
+      ],
+      "rationale": "While the open-sourcing of P2P exchange technology is a positive for decentralization, its direct short-term impact on Bitcoin's price is likely to be minimal unless it leads to a significant increase in P2P trading volume or adoption."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n6a305ee31caa",
+      "title": "Emerging Markets: Investors Should Keep an Eye on Growth",
+      "url": "https://finance.yahoo.com/news/emerging-markets-investors-keep-eye-130010877.html",
+      "summary": "The article highlights sustained growth in emerging markets, which is contributing to the global economy. Despite a general risk-off sentiment in capital markets, emerging markets are presented as an area of potential opportunity. The World Bank notes that emerging market growth is crucial for overall global economic expansion.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "emerging_market_growth",
+        "global_economic_outlook",
+        "risk_appetite"
+      ],
+      "rationale": "Positive sentiment and growth in emerging markets can sometimes correlate with increased risk appetite globally, which can indirectly benefit Bitcoin as a risk-on asset."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n97b63cd13eea",
+      "title": "Square Crypto provides $100k grant to BTCPay Server",
+      "url": "https://finance.yahoo.com/news/square-crypto-provides-100k-grant-200723577.html",
+      "summary": "Square Crypto has awarded a $100,000 grant to the BTCPay Foundation, the organization behind the open-source, self-hosted Bitcoin payment processor, BTCPay Server. Square Crypto views this as an investment in the future of money, despite BTCPay Server being a potential competitor, emphasizing the benefits of open-sourced products for the entire ecosystem.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Square_grant",
+        "BTCPay_Server_funding",
+        "open_source_payments"
+      ],
+      "rationale": "Support from major payment processors like Square for open-source Bitcoin infrastructure like BTCPay Server signals growing mainstream acceptance and development, which is positive for Bitcoin adoption."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nfb17810cee1a",
+      "title": "Bitcoin Price Indicator May Signal Next Leg Higher",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-indicator-may-signal-093558387.html",
+      "summary": "A key technical indicator suggests a bullish turn in Bitcoin's price action, drawing parallels to the market movements of 2015. The article highlights that Bitcoin's bear market ended in December 2018, followed by a consolidation period before a bull market began in April 2019. The indicator's positive signal could precede a significant price rally.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bullish_indicator",
+        "2015_pattern_repeat",
+        "price_rally_signal"
+      ],
+      "rationale": "Technical indicators suggesting a bullish trend reversal can often lead to short-term price increases as traders and algorithms react to the signals."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nc4025c9e439a",
+      "title": "Bitcoin rebounds after falling below $10,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-rebounds-falling-below-10-132739779.html",
+      "summary": "Bitcoin experienced a dip below the $10,000 support level, reaching a low of $9,850 before rebounding to $10,100. The sell-off resulted in $80 million in liquidations on BitMEX. Despite the volatility, Bitcoin spent less than an hour below the $10,000 mark, indicating resilience in maintaining this psychological level.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "technical"
+      ],
+      "features_for_model": [
+        "support_retest",
+        "rebound_from_10k",
+        "BitMEX_liquidations"
+      ],
+      "rationale": "The quick rebound after testing the $10,000 support level suggests strong buying pressure at that price point, potentially indicating a short-term bullish continuation."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nfcf2039bb770",
+      "title": "Hodl Hodl Wants You to Clone Its Bitcoin Exchange",
+      "url": "https://finance.yahoo.com/news/hodl-hodl-wants-clone-p2p-110959344.html",
+      "summary": "Peer-to-peer Bitcoin exchange Hodl Hodl plans to open-source its software, allowing anyone to launch their own version of the exchange. This move is partly a response to regulatory vulnerabilities. By making the code freely available, Hodl Hodl aims to decentralize its platform and mitigate risks associated with potential government crackdowns.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Hodl_Hodl_open_source",
+        "P2P_exchange_decentralization",
+        "regulatory_mitigation"
+      ],
+      "rationale": "While the open-sourcing of P2P exchange technology is a positive for decentralization, its direct short-term impact on Bitcoin's price is likely to be minimal unless it leads to a significant increase in P2P trading volume or adoption."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nfb17810cee1a",
+      "title": "Bitcoin Price Indicator May Signal Next Leg Higher",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-indicator-may-signal-093558387.html",
+      "summary": "A key technical indicator suggests a bullish turn in Bitcoin's price action, drawing parallels to the market movements of 2015. The article highlights that Bitcoin's bear market ended in December 2018, followed by a consolidation period before a bull market began in April 2019. The indicator's positive signal could precede a significant price rally.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bullish_indicator",
+        "2015_pattern_repeat",
+        "price_rally_signal"
+      ],
+      "rationale": "Technical indicators suggesting a bullish trend reversal can often lead to short-term price increases as traders and algorithms react to the signals."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nc4025c9e439a",
+      "title": "Bitcoin rebounds after falling below $10,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-rebounds-falling-below-10-132739779.html",
+      "summary": "Bitcoin experienced a dip below the $10,000 support level, reaching a low of $9,850 before rebounding to $10,100. The sell-off resulted in $80 million in liquidations on BitMEX. Despite the volatility, Bitcoin spent less than an hour below the $10,000 mark, indicating resilience in maintaining this psychological level.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "technical"
+      ],
+      "features_for_model": [
+        "support_retest",
+        "rebound_from_10k",
+        "BitMEX_liquidations"
+      ],
+      "rationale": "The quick rebound after testing the $10,000 support level suggests strong buying pressure at that price point, potentially indicating a short-term bullish continuation."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-09-14",
+    "summary": "Bitcoin showed resilience by quickly rebounding above the $10,000 mark after a brief dip, indicating strong support at this level. Technical indicators are signaling a potential next leg higher, drawing parallels to historical bull markets. Meanwhile, positive developments in institutional adoption, such as Bakkt's user testing and Square's grant to BTCPay Server, continue to build long-term bullish sentiment. However, ongoing regulatory discussions around ETFs and broader macroeconomic concerns like trade wars introduce some uncertainty.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued regulatory uncertainty regarding Bitcoin ETFs.",
+      "Potential for renewed trade war escalation impacting global markets.",
+      "Short-term price volatility and liquidation events.",
+      "Lack of broad altcoin participation in rallies."
+    ],
+    "watch_items": [
+      "SEC ETF decision timelines",
+      "US-China trade negotiations",
+      "Bakkt platform launch progress",
+      "Key support/resistance levels around $10,000"
+    ]
+  }
+}

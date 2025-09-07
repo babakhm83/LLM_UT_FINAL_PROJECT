@@ -1,0 +1,525 @@
+{
+  "date": "2022-04-27",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nfe5cb3cdb8bb",
+      "title": "Dollar gains ground after Powell comments",
+      "url": "https://finance.yahoo.com/news/dollar-gains-ground-powell-comments-014530610.html",
+      "summary": "Federal Reserve Chair Jerome Powell's comments suggest a more aggressive monetary policy path, leading to a strengthening dollar. This indicates a potential tightening of financial conditions, which historically can be a headwind for risk assets like Bitcoin. The market is pricing in more aggressive rate hikes, impacting liquidity and investor sentiment towards growth assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Powell_comments",
+        "dollar_strength",
+        "rate_hikes",
+        "monetary_policy"
+      ],
+      "rationale": "A stronger dollar and the prospect of aggressive rate hikes by the Federal Reserve typically reduce liquidity in the market, making riskier assets like Bitcoin less attractive. This tightening of financial conditions can lead to capital outflows from crypto."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne5e410fa00a9",
+      "title": "Cryptoverse: Bitcoin's scared of commitment, Mr Biden",
+      "url": "https://finance.yahoo.com/news/cryptoverse-bitcoins-scared-commitment-mr-061000099.html",
+      "summary": "President Biden's executive order on cryptocurrencies signals a move towards greater regulation and mainstream integration. While this can be seen as a positive step for long-term adoption and legitimacy, the increased scrutiny and potential for stricter rules could also introduce uncertainty and compliance challenges for the crypto industry.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Biden_executive_order",
+        "crypto_regulation",
+        "mainstream_adoption"
+      ],
+      "rationale": "Governmental interest and potential regulation can legitimize Bitcoin, fostering long-term adoption. However, the specifics of these regulations could also impose constraints or create uncertainty, impacting investor sentiment and development."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n3e5762b5484c",
+      "title": "European Union Lawmakers Vote No to Proof-of-Work Ban",
+      "url": "https://finance.yahoo.com/news/eu-lawmakers-vote-no-proof-005434255.html",
+      "summary": "The EU's decision not to ban Proof-of-Work (PoW) mining is a significant positive development for Bitcoin. This regulatory clarity removes a major potential threat to Bitcoin's core consensus mechanism, which could have driven miners to other jurisdictions. It provides a more stable environment for PoW-based cryptocurrencies within a major economic bloc.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "EU_PoW_ban_rejection",
+        "mining_regulation",
+        "regulatory_clarity"
+      ],
+      "rationale": "The EU's rejection of a PoW ban provides significant regulatory clarity and removes a potential existential threat to Bitcoin mining operations within the bloc. This is a net positive for the network's security and decentralization."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nfdc444b12d60",
+      "title": "UK's Law Enforcement Agency Calls for Regulation of Crypto Mixing Tech: Report",
+      "url": "https://finance.yahoo.com/news/uks-law-enforcement-agency-calls-092010749.html",
+      "summary": "The UK's National Crime Agency (NCA) advocating for the regulation of crypto mixing technologies highlights a growing global trend towards regulating privacy-enhancing tools. While intended to combat illicit activities, such regulations could impact the privacy features of cryptocurrencies like Bitcoin, potentially affecting user adoption and sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "privacy"
+      ],
+      "features_for_model": [
+        "UK_NCA_mixing_regulation",
+        "crypto_privacy_tools",
+        "AML_KYC"
+      ],
+      "rationale": "Calls for regulating crypto mixing technology signal increased regulatory focus on privacy features. While aimed at combating crime, this could lead to a less private environment for Bitcoin users, potentially impacting adoption and sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nbf4c23e14000",
+      "title": "IMF warns of rising cryptocurrency risks in emerging markets",
+      "url": "https://finance.yahoo.com/news/imf-warns-on-crypto-risks-145143525.html",
+      "summary": "The IMF's warning about cryptocurrency risks in emerging markets, particularly in the context of the Ukraine war, suggests potential global regulatory responses. Increased 'cryptoization' in these regions could prompt international bodies to push for stricter oversight, potentially impacting Bitcoin's adoption and regulatory landscape worldwide.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "IMF_emerging_market_risk",
+        "cryptoization",
+        "global_regulation"
+      ],
+      "rationale": "The IMF's concerns about crypto adoption in emerging markets, exacerbated by geopolitical events, could lead to broader international regulatory pressure. This might affect Bitcoin's global adoption trajectory and regulatory framework."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2d69943e9517",
+      "title": "Tech talent flees Russia as Western sanctions bite",
+      "url": "https://finance.yahoo.com/news/tech-talent-flees-russia-western-123843272.html",
+      "summary": "The exodus of tech talent from Russia due to Western sanctions and political instability could indirectly impact the global tech and crypto ecosystem. While not a direct driver for Bitcoin, a brain drain from a significant tech hub might slow innovation or shift talent pools, potentially affecting the broader digital asset space.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Russia_tech_talent_exodus",
+        "sanctions_impact",
+        "geopolitical_risk"
+      ],
+      "rationale": "The departure of tech talent from Russia due to sanctions could lead to a redistribution of skilled individuals globally. While not a direct impact on Bitcoin's price, it might influence the development and adoption of blockchain technologies in different regions."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n2ac153ef5410",
+      "title": "Mastercard and Visa block Russian financial institutions after new sanctions",
+      "url": "https://finance.yahoo.com/news/mastercard-visa-block-russian-firms-financial-institutions-sanctions-100647048.html",
+      "summary": "Mastercard and Visa's decision to block Russian financial institutions due to sanctions demonstrates the increasing weaponization of traditional financial infrastructure. This event highlights the potential for similar actions against crypto entities or users if deemed necessary by governments, reinforcing the need for decentralized and censorship-resistant financial systems.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Mastercard_Visa_Russia_sanctions",
+        "financial_infrastructure",
+        "censorship_resistance"
+      ],
+      "rationale": "The blocking of Russian financial institutions by major payment networks underscores the potential for traditional finance to be used as a tool for geopolitical sanctions. This reinforces the value proposition of decentralized systems like Bitcoin for censorship resistance."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n6e34642c72ec",
+      "title": "India’s Highest Court Seeks Govt. To Clarify Whether Crypto Is Legal",
+      "url": "https://finance.yahoo.com/news/india-highest-court-seeks-govt-115520404.html",
+      "summary": "India's Supreme Court seeking clarity on the legality of crypto indicates ongoing regulatory uncertainty in a major market. This lack of clear legal framework can hinder adoption and investment, creating a cautious environment for crypto businesses and users in India, which could have ripple effects on global sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_Supreme_Court_crypto_clarity",
+        "regulatory_uncertainty",
+        "legal_framework"
+      ],
+      "rationale": "Regulatory uncertainty in a large market like India can deter adoption and investment. The Supreme Court's call for clarity suggests a potential shift, but the outcome remains to be seen, creating a cautious outlook for the region."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n8aa09a81d243",
+      "title": "Peter Thiel calls Warren Buffett a ‘sociopathic grandpa from Omaha,’ taking aim at Bitcoin’s ‘enemies’ Jamie Dimon and Larry Fink",
+      "url": "https://finance.yahoo.com/news/peter-thiel-calls-warren-buffett-195556019.html",
+      "summary": "Peter Thiel's strong defense of Bitcoin against prominent critics like Warren Buffett at the Bitcoin 2022 conference signals growing institutional and influential support for the cryptocurrency. Such vocal advocacy from high-profile figures can boost investor confidence and attract new capital into the market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Peter_Thiel_Bitcoin_advocacy",
+        "institutional_support",
+        "Bitcoin_conference"
+      ],
+      "rationale": "High-profile endorsements from figures like Peter Thiel, who publicly defends Bitcoin against traditional finance critics, can significantly boost market sentiment and attract further institutional interest and adoption."
+    },
+    {
+      "pick_idx": 38,
+      "id": "na557f24055d2",
+      "title": "UPDATE 4-Bitcoin surges after Biden signs executive order on digital assets",
+      "url": "https://finance.yahoo.com/news/1-bitcoin-jumps-apparent-yellen-113000945.html",
+      "summary": "President Biden's executive order on digital assets, mandating government agencies to assess crypto risks and benefits, has spurred a positive reaction in Bitcoin. This signals a proactive approach from the U.S. government towards understanding and potentially integrating digital assets, which could lead to clearer regulatory frameworks and increased institutional adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Biden_EO_digital_assets",
+        "US_government_crypto_assessment",
+        "regulatory_framework"
+      ],
+      "rationale": "The U.S. government's executive order on digital assets signals a move towards understanding and potentially regulating cryptocurrencies. This proactive stance can lead to greater clarity and institutional adoption, boosting Bitcoin's long-term prospects."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nc66fcb01fe8c",
+      "title": "First Mover Asia: Indian Crypto Exchanges' Trading Volume Continues to Dive Following New Tax Law; Cryptos Higher",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-trading-indian-223902889.html",
+      "summary": "Trading volumes on Indian crypto exchanges have significantly decreased following the implementation of a new tax law. This indicates a negative short-term impact on liquidity and trading activity in a major market, potentially leading to reduced price discovery and increased volatility.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "India_crypto_tax",
+        "trading_volume_decline",
+        "liquidity_impact"
+      ],
+      "rationale": "The sharp drop in trading volumes in India due to new taxes suggests reduced market participation and liquidity. This can lead to increased price volatility and a short-term bearish sentiment for Bitcoin."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n021c2686c0da",
+      "title": "Mexican Remittances Are the Continent’s Largest; Crypto Companies Want a Cut",
+      "url": "https://finance.yahoo.com/news/mexican-remittances-continent-largest-crypto-184043846.html",
+      "summary": "Crypto companies are targeting the large Mexican remittance market, indicating a push for real-world adoption and utility. Partnerships with remittance providers or the development of user-friendly platforms for cross-border payments could increase Bitcoin's transactional use and demand.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Mexico_remittances",
+        "crypto_adoption",
+        "cross_border_payments"
+      ],
+      "rationale": "Increased focus on using crypto for remittances in Mexico signifies a growing demand for practical applications. Successful integration could boost transactional volume and adoption, positively impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n700574294c38",
+      "title": "Riot Blockchain to Develop 1GW of Bitcoin Mining Capacity in Texas",
+      "url": "https://finance.yahoo.com/news/riot-blockchain-develop-1gw-bitcoin-152304456.html",
+      "summary": "Riot Blockchain's expansion of its mining capacity in Texas signals continued investment and growth in the North American mining sector. This development contributes to the overall network hashrate and demonstrates confidence in Bitcoin mining's profitability, potentially influencing miner behavior and network security.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Riot_Blockchain_expansion",
+        "mining_capacity",
+        "Texas_mining"
+      ],
+      "rationale": "Expansion of mining capacity by major players like Riot Blockchain indicates continued investment in the sector. This can lead to increased network hashrate, potentially improving security and stability, though it also increases competition for resources."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nd31ee5a2a6ef",
+      "title": "5 Cybersecurity Stocks to Buy for Q2",
+      "url": "https://finance.yahoo.com/news/5-cybersecurity-stocks-buy-q2-101512080.html",
+      "summary": "While this article focuses on cybersecurity stocks, the underlying theme of increasing digital security is relevant to the crypto space. A strong cybersecurity posture is crucial for protecting digital assets, and any advancements or concerns in this sector can indirectly influence investor confidence in crypto security.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_tags": [
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "cybersecurity_stocks",
+        "digital_security",
+        "asset_protection"
+      ],
+      "rationale": "Increased focus on cybersecurity, even in traditional tech stocks, highlights the importance of digital asset security. Positive developments in cybersecurity could indirectly boost confidence in crypto's infrastructure, while negative news could raise concerns."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne13af6ceb274",
+      "title": "Tech-mageddon: Stunning Alphabet miss plunges Nasdaq into bear territory—and to its lowest level since 2020",
+      "url": "https://finance.yahoo.com/news/tech-mageddon-stunning-alphabet-miss-100626585.html",
+      "summary": "Alphabet's revenue miss and the subsequent plunge of the Nasdaq into bear territory indicate a broader market downturn affecting tech stocks. Bitcoin's correlation with tech stocks means this sell-off could exert downward pressure on Bitcoin's price in the short term, driven by macro sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Nasdaq_bear_market",
+        "Alphabet_earnings_miss",
+        "tech_stock_selloff"
+      ],
+      "rationale": "The significant downturn in the Nasdaq, driven by tech giants like Alphabet, suggests a broader market risk-off sentiment. Bitcoin's high correlation with tech stocks means this macro trend is likely to exert downward pressure in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2c9d976e2ef3",
+      "title": "In Times of Inflation Vinter and ByteTree Makes a BOLD Bet on Bitcoin and Gold",
+      "url": "https://finance.yahoo.com/news/times-inflation-vinter-bytetree-makes-082000362.html",
+      "summary": "The launch of a BOLD1 index combining Bitcoin and gold as a hedge against inflation signals growing institutional interest in Bitcoin as a store of value. This product offering could attract capital from traditional investors seeking inflation protection, potentially increasing demand for Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_gold_index",
+        "inflation_hedge",
+        "institutional_product"
+      ],
+      "rationale": "The introduction of a Bitcoin and gold index as an inflation hedge indicates institutional adoption and a growing perception of Bitcoin as a store of value. This could attract new capital and support prices in the short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n49fc9e6afa74",
+      "title": "What You Need to Know About Fidelity's New Bitcoin Offering for Your 401(k)",
+      "url": "https://finance.yahoo.com/news/know-fidelitys-bitcoin-offering-401-200758449.html",
+      "summary": "Fidelity's introduction of a Bitcoin offering for 401(k) plans is a significant step towards mainstream institutional adoption. This move could unlock substantial capital from retirement accounts, increasing demand for Bitcoin and legitimizing it as an investment asset for a broader audience.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Fidelity_401k_Bitcoin",
+        "retirement_accounts",
+        "institutional_adoption"
+      ],
+      "rationale": "Fidelity's move to offer Bitcoin in 401(k) plans is a major catalyst for institutional adoption. It opens up a vast pool of retirement capital, potentially driving significant demand and price appreciation in the short to medium term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nee9f6087cda2",
+      "title": "Bitcoin and ETH Near Breakout Zone, SOL Eyes Bullish Break",
+      "url": "https://finance.yahoo.com/news/bitcoin-eth-near-breakout-zone-141318838.html",
+      "summary": "Bitcoin and Ethereum are approaching potential breakout zones, suggesting a possible upward price movement. Technical analysis indicates that if these levels are breached, it could lead to increased buying pressure and positive sentiment, impacting short-term price action.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_ETH_breakout_zone",
+        "SOL_bullish_break",
+        "technical_analysis"
+      ],
+      "rationale": "Technical indicators suggest Bitcoin and Ethereum are nearing potential breakout levels. A successful breach could trigger a short-term rally, driven by increased buying momentum and positive market sentiment."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n7d57075f10487",
+      "title": "Bitcoin Recovers to $39K as Stocks Rebound",
+      "url": "https://finance.yahoo.com/news/bitcoin-recovers-39k-stocks-rebound-190012493.html",
+      "summary": "Bitcoin's recovery to $39K, coinciding with a rebound in traditional stock markets, highlights its continued correlation with broader market sentiment. This suggests that macro factors are currently a primary driver of Bitcoin's short-term price movements.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_stock_rebound",
+        "market_correlation",
+        "macro_sentiment"
+      ],
+      "rationale": "Bitcoin's price action is closely mirroring the rebound in traditional stock markets. This correlation suggests that positive macro sentiment is currently driving Bitcoin's short-term recovery."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n7b18b6d01599",
+      "title": "Bitcoin, stocks fall as US dollar hits two-year high; Doge concedes top 10",
+      "url": "https://finance.yahoo.com/news/bitcoin-stocks-fall-us-dollar-015408914.html",
+      "summary": "The dollar's rise to a two-year high, coupled with falling stock markets, indicates a flight to safety driven by inflation and interest rate hike concerns. This macro environment is bearish for risk assets like Bitcoin, suggesting potential for further price declines in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "stock_market_fall",
+        "flight_to_safety"
+      ],
+      "rationale": "A strong U.S. dollar and falling stock markets signal a risk-off environment. This macro trend is bearish for Bitcoin, suggesting potential for continued price weakness in the immediate short term."
+    },
+    {
+      "pick_idx": 29,
+      "id": "nb3bd656a6a7d",
+      "title": "New York State Assembly votes to pause crypto mining",
+      "url": "https://finance.yahoo.com/news/york-state-assembly-votes-pause-054926715.html",
+      "summary": "New York's assembly passing a bill to pause new permits for proof-of-work mining facilities using carbon-based energy sources introduces regulatory uncertainty. While existing renewable operations are unaffected, this move could impact future mining expansion in a key region, potentially affecting hashrate distribution and sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "miner"
+      ],
+      "features_for_model": [
+        "NY_mining_moratorium",
+        "PoW_regulation",
+        "mining_expansion_impact"
+      ],
+      "rationale": "New York's potential pause on new non-renewable crypto mining permits creates regulatory uncertainty. This could deter mining investment in the region and potentially lead to a slight shift in hashrate distribution, impacting sentiment."
+    },
+    {
+      "pick_idx": 46,
+      "id": "neb9d6c8b00f6",
+      "title": "More than US$500 mln of crypto longs liquidated so far this week",
+      "url": "https://finance.yahoo.com/news/more-us-500-mln-crypto-083947870.html",
+      "summary": "The liquidation of over $500 million in crypto long positions this week, coinciding with the Nasdaq's decline, indicates significant selling pressure and deleveraging in the market. This suggests a bearish short-term sentiment and potential for further price drops as leveraged positions are unwound.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "crypto_long_liquidations",
+        "market_deleveraging",
+        "selling_pressure"
+      ],
+      "rationale": "Large-scale liquidations of leveraged long positions signal significant selling pressure and a deleveraging trend. This indicates a bearish short-term outlook, as the market works through excess leverage."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n2ccaaa0d186b",
+      "title": "Finland Plans to Donate Seized Bitcoins to Help Ukraine: Report",
+      "url": "https://finance.yahoo.com/news/finland-plans-donate-seized-bitcoins-213627246.html",
+      "summary": "Finland's plan to donate seized bitcoins to Ukraine demonstrates the growing use of crypto in geopolitical contexts and for humanitarian aid. While the direct price impact might be limited, it highlights the increasing integration of Bitcoin into global financial and political affairs.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Finland_seized_BTC_Ukraine",
+        "crypto_humanitarian_aid",
+        "geopolitical_use"
+      ],
+      "rationale": "Finland's plan to donate seized Bitcoin to Ukraine showcases the evolving role of crypto in international affairs. While not a direct price driver, it signals increasing adoption and utility in real-world scenarios."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-04-27",
+    "summary": "The market sentiment remains cautious, influenced by a strong U.S. dollar and a downturn in tech stocks, leading to significant liquidations of crypto longs. However, positive developments like Fidelity's 401(k) offering and institutional interest in Bitcoin as an inflation hedge provide some bullish undercurrents. Regulatory news from New York regarding mining and the IMF's warnings on emerging markets add to the mixed outlook.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued correlation with tech stocks and broader market downturns.",
+      "Increased regulatory scrutiny and potential for unfavorable legislation.",
+      "High levels of leverage and potential for cascading liquidations.",
+      "Uncertainty surrounding the impact of global macroeconomic factors like inflation and interest rate hikes."
+    ],
+    "watch_items": [
+      "US Dollar Index (DXY) movements",
+      "Nasdaq Composite performance",
+      "Fidelity's 401(k) Bitcoin offering adoption rates",
+      "New York mining moratorium developments",
+      "Further statements from the Federal Reserve on monetary policy"
+    ]
+  }
+}

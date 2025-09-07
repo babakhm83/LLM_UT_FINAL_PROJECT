@@ -1,0 +1,501 @@
+{
+  "date": "2022-01-15",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n375822ca3029",
+      "title": "UPDATE 1-Bitcoin hovers near more than 3-month lows after U.S. payrolls",
+      "url": "https://finance.yahoo.com/news/1-bitcoin-hovers-near-more-144322232.html",
+      "summary": "Bitcoin experienced a significant price drop, reaching over three-month lows following the release of U.S. payroll data. This decline, part of a broader cryptocurrency sell-off, was attributed to concerns over tighter U.S. monetary policy. The cryptocurrency has seen a substantial decrease from its November all-time high, highlighting its persistent volatility.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "US_payrolls_miss",
+        "monetary_policy_tightening",
+        "BTC_price_low"
+      ],
+      "rationale": "The news indicates a negative short-term reaction to macroeconomic data, suggesting potential for continued downward pressure if broader market sentiment remains risk-averse due to monetary policy concerns."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n74378eaa01a4",
+      "title": "Baseball-Perth Heat to pay players and staff in Bitcoin",
+      "url": "https://finance.yahoo.com/news/baseball-perth-heat-pay-players-115025483.html",
+      "summary": "The Perth Heat, an Australian Baseball League team, announced they will pay players and staff in Bitcoin, partnering with OpenNode for Bitcoin payments via the Lightning Network. This move signifies growing adoption of cryptocurrency within the sports sector, following similar trends with crypto exchange sponsorships in soccer.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "sports_adoption",
+        "Lightning_Network_usage",
+        "Perth_Heat"
+      ],
+      "rationale": "This represents a tangible step in real-world adoption of Bitcoin, particularly through the Lightning Network, which could foster broader acceptance and usage in everyday transactions."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ndb2e7ce208f0",
+      "title": "Bitcoin Mining Profitability Starts Falling After Stellar Year: Research",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-profitability-starts-falling-144800374.html",
+      "summary": "Bitcoin mining profitability has begun to decline after a period of high returns, according to Arcane Research. This trend follows China's crackdown on miners, which initially halved the network's hashrate. While remaining miners saw increased returns due to lower competition and rising prices, profitability has now started to slip.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "mining_profitability_decrease",
+        "hashrate_dynamics",
+        "miner_economics"
+      ],
+      "rationale": "A decrease in mining profitability could lead to reduced selling pressure from miners, but it might also signal a slowdown in network expansion or increased operational costs, potentially impacting future network security and growth."
+    },
+    {
+      "pick_idx": 9,
+      "id": "ne6c283d1d6bb",
+      "title": "Market Wrap: Bitcoin Options Lean Bearish as Some Altcoins Outperform",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-options-lean-212219030.html",
+      "summary": "Bitcoin experienced a price dip, trading lower along with equities as buyer demand waned. Despite a brief price bounce, Bitcoin fell below $48,000, with support expected around $46,000. The market showed a wide dispersion in returns, with some altcoins like Solana and Avalanche outperforming Bitcoin and Ether.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "market_sentiment",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BTC_options_bearish",
+        "altcoin_outperformance",
+        "market_dispersion"
+      ],
+      "rationale": "The bearish sentiment in Bitcoin options and the underperformance relative to some altcoins suggest a potential rotation of capital, indicating a short-term cautious outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nc323c237c5e5",
+      "title": "'Continuity' means both Biden and Powell own inflation response",
+      "url": "https://finance.yahoo.com/news/continuity-means-both-biden-and-powell-own-inflation-response-morning-brief-100839904.html",
+      "summary": "Jerome Powell's reappointment as Federal Reserve chairman binds President Biden's political fortunes to the Fed's response to surging prices. This continuity implies a focus on managing inflation, which will likely involve tighter monetary policy, impacting risk assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_policy_continuity",
+        "inflation_response",
+        "Biden_Powell_agreement"
+      ],
+      "rationale": "The explicit focus on inflation management by both the President and the Fed Chair suggests a high probability of continued hawkish monetary policy, which typically exerts downward pressure on risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n45c3d9ce5224",
+      "title": "Celsius Network Lost $54 Million in BadgerDao",
+      "url": "https://finance.yahoo.com/news/celsius-network-lost-54-million-092530269.html",
+      "summary": "Celsius Network reportedly lost $54 million in Bitcoin during a hack on the BadgerDAO protocol, which resulted in a total loss of $115 million. The incident raises concerns about the security practices of Celsius, particularly its use of MetaMask for client funds.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "hack/outage",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Celsius_BadgerDAO_hack",
+        "DeFi_security_risk",
+        "institutional_fund_loss"
+      ],
+      "rationale": "This security breach and significant loss for a major crypto lender like Celsius could erode confidence in DeFi protocols and centralized lending platforms, potentially leading to reduced capital inflows and increased scrutiny."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nfa2585e80f9a",
+      "title": "El Salvador's plan to power Bitcoin by volcano 'will end in environmental disaster'",
+      "url": "https://finance.yahoo.com/news/el-salvadors-plan-power-bitcoin-203035874.html",
+      "summary": "El Salvador's President Nayib Bukele's plan to power a 'Bitcoin city' using geothermal energy from a volcano has been criticized by environmentalists. The project, which involves issuing Bitcoin bonds, faces skepticism regarding its environmental impact and feasibility.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "El_Salvador_Bitcoin_City",
+        "geothermal_energy_crypto",
+        "environmental_impact_crypto"
+      ],
+      "rationale": "While the initiative showcases El Salvador's commitment to Bitcoin adoption, the environmental concerns and the ambitious nature of the 'Bitcoin City' project introduce uncertainty about its long-term success and broader implications."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n1dd0e5fb6ae2",
+      "title": "Bitcoin, Ether Dip in ‘Bearish Asia Session’ as China Rate Cut Fails to Inspire Risk Buying",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-dip-bearish-asia-080539840.html",
+      "summary": "Bitcoin and Ether experienced declines during Asian trading hours, continuing a trend of weakness when the U.S. market is closed. This occurred despite China's interest rate cut, as traditional markets remained risk-averse. The data suggests a consistent selling pressure during Asian sessions throughout the year.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Asia_session_weakness",
+        "China_rate_cut_ineffective",
+        "risk_aversion"
+      ],
+      "rationale": "The consistent weakness during Asian trading sessions, even with supportive macro news like a rate cut, indicates a persistent bearish sentiment or structural selling pressure that could continue to weigh on prices."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n2f62eaaec22c",
+      "title": "Most Influential: The Developers Who Wrote Bitcoin’s Taproot Upgrade",
+      "url": "https://finance.yahoo.com/news/most-influential-developers-wrote-bitcoin-145333617.html",
+      "summary": "This article highlights the developers behind Bitcoin's Taproot upgrade, the most significant enhancement in four years. Taproot, comprising three Bitcoin Improvement Proposals (BIPs), aims to improve privacy, efficiency, and smart contract capabilities on the Bitcoin network.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Taproot_upgrade",
+        "BIPs",
+        "developer_impact"
+      ],
+      "rationale": "The successful implementation of Taproot is a fundamental improvement to Bitcoin's protocol, enhancing its capabilities for privacy and smart contracts, which could drive future adoption and innovation."
+    },
+    {
+      "pick_idx": 42,
+      "id": "nfca61fa7d46c",
+      "title": "Marathon Digital Holdings’ Bitcoin Mining Fleet To Reach 23.3 Exahash after Latest Purchase of BITMAIN’s ANTMINER S19 XP",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-bitcoin-mining-190000052.html",
+      "summary": "Marathon Digital Holdings is expanding its Bitcoin mining fleet by purchasing a record number of ANTMINER S19 XP miners from BITMAIN. This acquisition is expected to increase its total mining capacity to 23.3 EH/s by early 2023, significantly boosting its operational scale.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Marathon_mining_expansion",
+        "BITMAIN_S19_XP",
+        "mining_hashrate_increase"
+      ],
+      "rationale": "Significant expansion of mining capacity by a major player like Marathon indicates continued investment and confidence in the profitability of Bitcoin mining, potentially contributing to network security and hash rate growth."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "naf14844bf760",
+      "title": "Bitfinex Announces Suspension of Services in Ontario, Canada",
+      "url": "https://finance.yahoo.com/news/bitfinex-announces-suspension-services-ontario-002143358.html",
+      "summary": "Bitfinex is suspending services for users in Ontario, Canada, following increased regulatory activity in the region. This move reflects the growing trend of crypto exchanges adapting to evolving regulatory frameworks globally.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "listing"
+      ],
+      "features_for_model": [
+        "Bitfinex_Ontario_suspension",
+        "crypto_regulation_Canada",
+        "exchange_compliance"
+      ],
+      "rationale": "While a localized event, it highlights the ongoing regulatory pressures on exchanges, which could lead to similar actions elsewhere and impact liquidity or user access in specific markets."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n73b055a6a28b",
+      "title": "Crypto – U.S Market Correlation Continued on Friday, Delivering Bitcoin (BTC) Support",
+      "url": "https://finance.yahoo.com/news/crypto-u-market-correlation-continued-005323628.html",
+      "summary": "Bitcoin and the broader crypto market showed bullish sentiment on Friday, aligning with U.S. equity markets. Market jitters from Thursday's hawkish FOMC chatter subsided after Wednesday's inflation data, which had previously driven Bitcoin lower.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_US_market_correlation",
+        "FOMC_chatter_abated",
+        "inflation_data_impact"
+      ],
+      "rationale": "The correlation with U.S. equities and the easing of hawkish Fed sentiment provide short-term support for Bitcoin, suggesting a potential for positive price action if this trend continues."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n583273ec1f8c",
+      "title": "Secret (SCRT) Jumps 16% on Friday, as Film NFT Chatter Builds ahead of Tarantino NFT Sale",
+      "url": "https://finance.yahoo.com/news/secret-scrt-jumps-16-friday-021648218.html",
+      "summary": "The crypto market experienced a bullish session on Friday, with Bitcoin and Ethereum seeing gains. Secret (SCRT) surged 16.3%, reaching a new all-time high, driven by anticipation of a Quentin Tarantino NFT sale. This highlights the impact of NFT-related news on altcoin performance.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "SCRT_price_surge",
+        "Tarantino_NFT_sale",
+        "NFT_driven_altcoin_rally"
+      ],
+      "rationale": "The strong performance of SCRT, fueled by NFT hype, demonstrates the significant influence of the NFT market on specific altcoins and could signal broader interest in crypto-assets linked to digital collectibles."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0236870056eb",
+      "title": "The Antis Inu Community Flourishes from Brilliant Airdrop Marketing Strategy; Poised to Compete for the Top Dog in Crypto",
+      "url": "https://finance.yahoo.com/news/antis-inu-community-flourishes-brilliant-052800157.html",
+      "summary": "Antis Inu, a new memecoin on Binance Smart Chain, has launched with a unique marketing strategy involving an airdrop to one million Shiba Inu holders. The project is led by a doxxed developer with a history of successful crypto ventures.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "meme_coin"
+      ],
+      "features_for_model": [
+        "Antis_Inu_launch",
+        "memecoin_airdrop",
+        "Shiba_Inu_holders"
+      ],
+      "rationale": "While memecoins can experience rapid price swings based on community sentiment and marketing, the success of this airdrop strategy is speculative and its long-term impact on Antis Inu's price is uncertain."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nea79b0525531",
+      "title": "‘Bitcoin is absolutely a tool for social justice’: ex-government regulator turned crypto adviser",
+      "url": "https://finance.yahoo.com/news/bitcoin-tool-for-social-justice-ex-government-regulator-turned-crypto-adviser-123417764.html",
+      "summary": "Despite a recent dip below $40,000, Bitcoin recovered to $43,000, with predictions of surpassing $75,000 by year-end. An ex-government regulator views Bitcoin as a tool for social justice, particularly for Black Americans, highlighting its potential for financial inclusion.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "social_justice"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "social_justice_narrative",
+        "financial_inclusion"
+      ],
+      "rationale": "The narrative of Bitcoin as a tool for social justice and financial inclusion could attract new user segments, potentially providing a subtle but consistent bullish tailwind, especially if the price continues to recover."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n68bedc9c7be8",
+      "title": "Bitcoin Hunter Begins the Free-of-charge Cellular Phone Bitcoin Mining Service.",
+      "url": "https://finance.yahoo.com/news/bitcoin-hunter-begins-free-charge-143600451.html",
+      "summary": "The Bitcoin Group has launched 'Bitcoin Hunter,' a free cellular phone Bitcoin mining service available on the Google Play Store. This service allows new users to mine Bitcoin using their electronic wallets.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_Hunter_app",
+        "mobile_mining",
+        "free_mining_service"
+      ],
+      "rationale": "While a novel approach to mobile mining, the profitability and scalability of such services are typically very low, making its direct impact on Bitcoin's price or network hash rate negligible in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n8bcc2c95c63b",
+      "title": "Bitcoin Trends for 2022 From the Experts",
+      "url": "https://finance.yahoo.com/news/bitcoin-trends-2022-experts-200001631.html",
+      "summary": "Experts anticipate Bitcoin's performance in 2022, noting its strong 2021 showing despite a weaker end to the year. Key trends include increased adoption, the impact of ETFs, and the ongoing debate around its acceptance as payment, with predictions of significant price appreciation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "ETF",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_2022_trends",
+        "expert_predictions",
+        "adoption_outlook"
+      ],
+      "rationale": "Positive expert outlooks and continued adoption trends, despite short-term volatility, suggest underlying bullish sentiment that could support price increases in the near term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n73b055a6a28b",
+      "title": "Crypto – U.S Market Correlation Continued on Friday, Delivering Bitcoin (BTC) Support",
+      "url": "https://finance.yahoo.com/news/crypto-u-market-correlation-continued-005323628.html",
+      "summary": "Bitcoin and the broader crypto market showed bullish sentiment on Friday, aligning with U.S. equity markets. Market jitters from Thursday's hawkish FOMC chatter subsided after Wednesday's inflation data, which had previously driven Bitcoin lower.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_US_market_correlation",
+        "FOMC_chatter_abated",
+        "inflation_data_impact"
+      ],
+      "rationale": "The correlation with U.S. equities and the easing of hawkish Fed sentiment provide short-term support for Bitcoin, suggesting a potential for positive price action if this trend continues."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nea79b0525531",
+      "title": "‘Bitcoin is absolutely a tool for social justice’: ex-government regulator turned crypto adviser",
+      "url": "https://finance.yahoo.com/news/bitcoin-tool-for-social-justice-ex-government-regulator-turned-crypto-adviser-123417764.html",
+      "summary": "Despite a recent dip below $40,000, Bitcoin recovered to $43,000, with predictions of surpassing $75,000 by year-end. An ex-government regulator views Bitcoin as a tool for social justice, particularly for Black Americans, highlighting its potential for financial inclusion.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "social_justice"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "social_justice_narrative",
+        "financial_inclusion"
+      ],
+      "rationale": "The narrative of Bitcoin as a tool for social justice and financial inclusion could attract new user segments, potentially providing a subtle but consistent bullish tailwind, especially if the price continues to recover."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n8bcc2c95c63b",
+      "title": "Bitcoin Trends for 2022 From the Experts",
+      "url": "https://finance.yahoo.com/news/bitcoin-trends-2022-experts-200001631.html",
+      "summary": "Experts anticipate Bitcoin's performance in 2022, noting its strong 2021 showing despite a weaker end to the year. Key trends include increased adoption, the impact of ETFs, and the ongoing debate around its acceptance as payment, with predictions of significant price appreciation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "ETF",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_2022_trends",
+        "expert_predictions",
+        "adoption_outlook"
+      ],
+      "rationale": "Positive expert outlooks and continued adoption trends, despite short-term volatility, suggest underlying bullish sentiment that could support price increases in the near term."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-01-15",
+    "summary": "Bitcoin showed resilience, recovering from a dip below $40,000 and aligning with a positive U.S. equity market. While regulatory news from Ontario impacts Bitfinex, the broader market sentiment appears cautiously optimistic, supported by easing hawkish Fed commentary. Expert predictions for 2022 remain largely bullish, with adoption narratives, including social justice angles, gaining traction.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Resurgence of hawkish Fed rhetoric impacting risk assets.",
+      "Continued regulatory uncertainty and enforcement actions globally.",
+      "Potential for further contagion from DeFi protocol exploits.",
+      "Geopolitical events impacting global economic stability."
+    ],
+    "watch_items": [
+      "US CPI data releases",
+      "FOMC meeting minutes",
+      "Major exchange regulatory announcements",
+      "Key altcoin performance (e.g., ETH, SOL)",
+      "Developments in Bitcoin ETF applications"
+    ]
+  }
+}

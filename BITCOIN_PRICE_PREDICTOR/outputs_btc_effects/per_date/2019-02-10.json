@@ -1,0 +1,462 @@
+{
+  "date": "2019-02-10",
+  "long_term": [
+    {
+      "pick_idx": 5,
+      "id": "ndd9fca1b0b70",
+      "title": "Bitcoin ransoms just are not what they used to be",
+      "url": "https://finance.yahoo.com/news/bitcoin-ransoms-just-not-used-000322984.html",
+      "summary": "This article from December 2018 discusses the declining use of Bitcoin for ransomware demands, noting that perpetrators are finding it less effective due to increased tracking capabilities. While not directly impacting price, this trend suggests a maturing ecosystem where illicit uses become harder to execute anonymously, potentially reducing negative sentiment associated with crypto's association with crime over the long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ransomware_demand_volume",
+        "illicit_activity_sentiment"
+      ],
+      "rationale": "A decrease in the effectiveness of Bitcoin for illicit activities like ransomware can lead to a more positive long-term perception of the cryptocurrency, potentially reducing regulatory scrutiny and improving adoption sentiment."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nc68a43df816f",
+      "title": "Bitcoin Could Fall Below $1,260 if the Bear Market Continues: JP Morgan Analysts",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-fall-below-1-135102946.html",
+      "summary": "In January 2019, JP Morgan analysts predicted Bitcoin could fall to $1,260 if the bear market persisted, while estimating a cost support at $2,400. This bearish outlook from a major financial institution reflects the prevailing sentiment in the market at the time, indicating institutional skepticism and potential for further price declines. Such forecasts can influence investor behavior and market sentiment over extended periods.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "JP_Morgan_analyst_prediction",
+        "bear_market_sentiment",
+        "cost_support_level"
+      ],
+      "rationale": "A bearish prediction from a major financial institution like JP Morgan can significantly impact market sentiment and investor confidence, potentially leading to sustained price pressure and a prolonged bear market."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n4f2485d590e0",
+      "title": "India: Police Bust Bitcoin Ponzi Scheme that Defrauded 8,000 Crypto Investors",
+      "url": "https://finance.yahoo.com/news/india-police-bust-bitcoin-ponzi-131528261.html",
+      "summary": "This news from December 2018 reports on Indian police busting a Bitcoin Ponzi scheme that defrauded 8,000 investors and seized nearly $2 million in Bitcoin. Such events highlight the risks of unregulated markets and the need for consumer protection. While a localized event, repeated instances of fraud can damage the broader crypto ecosystem's reputation and hinder long-term adoption and regulatory clarity.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "legal"
+      ],
+      "features_for_model": [
+        "Ponzi_scheme_bust",
+        "investor_fraud",
+        "India_regulatory_action"
+      ],
+      "rationale": "The exposure of large-scale Ponzi schemes, especially in emerging markets, can erode investor trust and lead to stricter regulatory crackdowns, potentially slowing down adoption and innovation in the long run."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n24a3d3bb81ef",
+      "title": "Google Play Forces Crypto Wallet Samourai to Remove Security Features",
+      "url": "https://finance.yahoo.com/news/google-play-forces-crypto-wallet-183013610.html",
+      "summary": "In January 2019, Google Play mandated that the crypto wallet Samourai remove certain security features, citing policy conflicts. This action by a major platform highlights the ongoing tension between centralized app stores and decentralized technologies. Such restrictions can limit user access to advanced privacy features, potentially impacting the adoption of privacy-focused crypto tools and creating friction for developers.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Google_Play_policy",
+        "wallet_security_features",
+        "app_store_restrictions"
+      ],
+      "rationale": "Centralized platforms like Google Play imposing restrictions on crypto wallets can hinder the development and adoption of privacy-enhancing technologies, creating a less open ecosystem."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n32c95f0e7871",
+      "title": "Bitcoin Tax Confusion Has Accountants Turning to Specialized Software",
+      "url": "https://finance.yahoo.com/news/bitcoin-tax-confusion-accountants-turning-180516225.html",
+      "summary": "This article from December 2018 points out the growing complexity of Bitcoin taxation, leading accountants to adopt specialized software. This indicates an increasing integration of crypto into traditional financial systems and a growing need for compliance. As more individuals and institutions engage with crypto, the demand for tax solutions will likely rise, signaling a maturing market and increased institutional adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_tax_software",
+        "accountant_adoption",
+        "tax_compliance"
+      ],
+      "rationale": "The increasing need for specialized software to handle Bitcoin taxation signifies a growing mainstream adoption and integration into traditional finance, which is a long-term bullish signal."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n8bd6f2bedc73",
+      "title": "FitPay Bitcoin Device Attempts to Bridge Gap Between Crypto, Traditional Payments",
+      "url": "https://finance.yahoo.com/news/fitpay-bitcoin-device-attempts-bridge-162458663.html",
+      "summary": "In January 2019, FitPay unveiled a device allowing Bitcoin holders to make contactless payments at retail locations. This initiative aims to bridge the gap between cryptocurrency and traditional payment systems. Such developments, if successful, can significantly boost crypto adoption for everyday transactions, increasing utility and demand for Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "contactless_payment_device",
+        "crypto_to_fiat_bridge",
+        "payment_integration"
+      ],
+      "rationale": "The development of devices that facilitate everyday Bitcoin payments directly addresses a key adoption barrier, potentially increasing utility and driving demand for the cryptocurrency."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n9cf649e195a7",
+      "title": "Cryptocurrencies Price Jump as Facebook Develops Digital Tokens",
+      "url": "https://finance.yahoo.com/news/cryptocurrencies-price-jump-facebook-develops-084100833.html",
+      "summary": "This news from December 2018 reports a price jump in cryptocurrencies, including Bitcoin and Ethereum, due to reports of Facebook developing digital tokens for its WhatsApp messaging app. While the direct impact of Facebook's project on Bitcoin is indirect, the involvement of a tech giant signals growing institutional interest and potential for wider adoption of digital assets, which can have a positive long-term effect on the entire crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Facebook_digital_token",
+        "WhatsApp_integration",
+        "tech_giant_adoption"
+      ],
+      "rationale": "The potential involvement of major tech companies like Facebook in developing digital tokens can legitimize the crypto space and drive broader adoption, indirectly benefiting Bitcoin through increased market awareness and infrastructure development."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n6718aa9b6a17",
+      "title": "Number of Bitcoin ATMs Hits 4,000 Globally: Why is it Growing So Rapidly?",
+      "url": "https://finance.yahoo.com/news/number-bitcoin-atms-hits-4-114023146.html",
+      "summary": "This January 2019 report highlights the rapid growth of Bitcoin ATMs, surpassing 4,000 globally. This expansion indicates increasing accessibility for users to acquire Bitcoin with fiat currency, a crucial factor for adoption. The growth also occurs alongside a focus on compliance (KYC/AML), suggesting a maturing and more regulated industry, which is positive for long-term stability and institutional interest.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Bitcoin_ATM_growth",
+        "fiat_onramp_accessibility",
+        "KYC_AML_compliance"
+      ],
+      "rationale": "The significant increase in Bitcoin ATMs globally enhances accessibility for new users and demonstrates a growing, more compliant infrastructure, which is a positive indicator for long-term adoption."
+    },
+    {
+      "pick_idx": 36,
+      "id": "ndfb9433b6c11",
+      "title": "Bitcoin And Ethereum Daily Price Forecast – Crypto Markets On Bull’s Path Post Holiday Season",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-daily-price-forecast-150512062.html",
+      "summary": "Published in early January 2019, this forecast suggests a potential bullish trend for Bitcoin and Ethereum post-holiday season. It notes Bitcoin trading at $3,888, up 0.54%, with a bullish price action for the second trading session of the year. The article mentions a $5 billion 24-hour trading volume, which is viewed as bullish. This sentiment, if sustained, could indicate a shift from the bear market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "post_holiday_season_sentiment",
+        "trading_volume_analysis",
+        "bullish_price_action"
+      ],
+      "rationale": "The positive sentiment and trading activity following the holiday season, as suggested by this early January 2019 forecast, could signal a potential bottoming out of the bear market and a move towards recovery."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n5eeafc0d6a29",
+      "title": "Coinbase Launches Direct Crypto to Crypto Conversion for U.S Customers",
+      "url": "https://finance.yahoo.com/news/coinbase-launches-direct-crypto-crypto-103500343.html",
+      "summary": "In December 2018, Coinbase launched a 'Convert' feature allowing U.S. customers to directly convert between various cryptocurrencies. This move simplifies trading for users, potentially increasing liquidity and trading volume. By reducing friction in crypto-to-crypto exchanges, Coinbase's feature can encourage more active participation in the market, contributing to overall ecosystem growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinbase_convert_feature",
+        "crypto_to_crypto_conversion",
+        "trading_friction_reduction"
+      ],
+      "rationale": "Simplifying the process of converting between cryptocurrencies on a major exchange like Coinbase can lower barriers to entry and encourage more trading activity, boosting liquidity and adoption."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n40f91434b3a7",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 10/02/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-034912825.html",
+      "summary": "Bitcoin Cash ABC fell 1.69% on Saturday, partially reversing Friday's rally. It ended the day at $126.09 after a bearish start, with intraday lows and recoveries. The day's losses reduced the week's gain to 7.27%. This indicates a short-term consolidation or minor pullback after a recent rally.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BCH_ABC_price_action",
+        "weekend_trading_volatility"
+      ],
+      "rationale": "The article describes a minor pullback for Bitcoin Cash ABC on Saturday after a strong Friday rally, suggesting a short-term bearish sentiment or consolidation."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne572c6698b02",
+      "title": "Bitcoin – The Bears Look to Have the Final Say This Week",
+      "url": "https://finance.yahoo.com/news/bitcoin-bears-look-final-week-044200491.html",
+      "summary": "Bitcoin fell 0.16% on Saturday, consolidating Friday's 8.31% rally. It ended the day at $3,718.3, failing to break back through $3,800. The article suggests bears might have the final say this week, with holding above $3,650 being key. This indicates a cautious short-term outlook with potential for downward pressure.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_consolidation",
+        "bearish_weekly_outlook",
+        "support_level_watch"
+      ],
+      "rationale": "The analysis suggests Bitcoin is consolidating after a rally, with bears potentially gaining control, indicating a short-term bearish bias if key support levels are not maintained."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na66744cf4ddf",
+      "title": "Bitcoin a ‘Major Concern’ for the Indian Government, if Used for Payments: Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-major-concern-indian-government-091504992.html",
+      "summary": "This report from February 10, 2019, states that the Indian government views Bitcoin as a 'major concern' if used for payments, citing risks of money laundering and terrorism funding. A panel is drafting new regulations, focusing on the impact on the Rupee. This indicates potential for stricter regulatory measures in India, which could affect local adoption and sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_regulatory_concern",
+        "Bitcoin_payment_risk",
+        "rupee_impact"
+      ],
+      "rationale": "The Indian government's concern over Bitcoin usage for payments suggests potential regulatory tightening, which could negatively impact adoption and sentiment in the region in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nc5a303ed67ed",
+      "title": "Oil Price Fundamental Weekly Forecast – Sideways to Lower Trade with Stock Market Adding to Volatility",
+      "url": "https://finance.yahoo.com/news/oil-price-fundamental-weekly-forecast-104558715.html",
+      "summary": "This forecast from Feb 10, 2019, predicts sideways to lower trade for oil prices due to stock market volatility. While not directly about crypto, broader market sentiment and volatility can spill over. If the stock market experiences significant downturns, it could lead to a flight to safety, potentially impacting risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "oil_price_forecast",
+        "stock_market_volatility",
+        "macroeconomic_sentiment"
+      ],
+      "rationale": "Broader market volatility, as indicated by the oil price forecast, can influence risk appetite for assets like Bitcoin, creating uncertainty in the short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n291adf766691",
+      "title": "Price of Gold Fundamental Weekly Forecast – With Dollar Relationship Skewed, Investors Will Turn to Stock Market Volatility for Direction",
+      "url": "https://finance.yahoo.com/news/price-gold-fundamental-weekly-forecast-114426799.html",
+      "summary": "This forecast from Feb 10, 2019, suggests investors will look to stock market volatility for direction, with the dollar relationship skewed. Weakness in gold was attributed to strong NFP and PMI data, leading to higher Treasury yields and a stronger dollar. This macro environment, with a strong dollar and potential stock market volatility, could pressure risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "gold_price_forecast",
+        "dollar_strength",
+        "stock_market_volatility"
+      ],
+      "rationale": "A strong dollar and potential stock market volatility, as suggested by the gold forecast, can create headwinds for Bitcoin as investors may favor safer assets."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n5d8d0b35b397",
+      "title": "SEC ‘Crypto Mom’: Delay in Crypto Regulation May Allow More Freedom for Technology",
+      "url": "https://finance.yahoo.com/news/sec-crypto-mom-delay-crypto-121300893.html",
+      "summary": "SEC Commissioner Hester Peirce ('Crypto Mom') commented on Feb 8, 2019, that regulatory delays might allow the crypto industry more freedom. This perspective suggests a potentially less restrictive regulatory environment in the near term, which could be seen as positive for innovation and development, though the long-term impact of regulatory uncertainty remains.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation"
+      ],
+      "features_for_model": [
+        "SEC_regulation_delay",
+        "Hester_Peirce_comment",
+        "regulatory_freedom"
+      ],
+      "rationale": "A statement from an SEC commissioner suggesting that regulatory delays might foster more freedom for the crypto industry could be interpreted as a short-term positive, reducing immediate regulatory overhang."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n499f18de2e02",
+      "title": "Major Currencies Gradually Roll Back After Short Recovery, Bitcoin Stays Over $3,600",
+      "url": "https://finance.yahoo.com/news/major-currencies-gradually-roll-back-154900643.html",
+      "summary": "On Feb 10, 2019, Bitcoin remained above $3,600 for the third consecutive day, while other major cryptocurrencies saw pullbacks. Bitcoin had gained over $200 on Friday, Feb 8. This indicates Bitcoin's relative resilience compared to other altcoins, suggesting a potential short-term outperformance or stabilization.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_stability",
+        "altcoin_pullback",
+        "resilience_vs_market"
+      ],
+      "rationale": "Bitcoin's ability to hold above $3,600 while other major currencies pull back suggests short-term strength and potential outperformance relative to the broader crypto market."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n99b0fb7809bc",
+      "title": "Simply ‘Logical’ for Every Big Macro Fund to Hold 1% in Bitcoin: US Billionaire Investor",
+      "url": "https://finance.yahoo.com/news/simply-logical-every-big-macro-182312627.html",
+      "summary": "Billionaire investor Mike Novogratz stated on Feb 10, 2019, that it's logical for macro funds to hold 1% in Bitcoin. This follows a Bitcoin price recovery above $3,500, with the total crypto market cap increasing. Such endorsements from prominent investors can boost market sentiment and attract institutional interest, potentially influencing short-term price action.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Novogratz_endorsement",
+        "institutional_allocation_suggestion",
+        "market_sentiment_boost"
+      ],
+      "rationale": "A prominent billionaire investor recommending a 1% allocation to Bitcoin for macro funds can positively influence market sentiment and attract short-term buying pressure."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n8258215637cf",
+      "title": "Fundstrat Expects 2019 to Bring Incremental Improvements Supporting Higher Crypto Prices",
+      "url": "https://finance.yahoo.com/news/fundstrat-expects-2019-bring-incremental-184300651.html",
+      "summary": "Fundstrat Global Advisors released its 2019 crypto outlook on Feb 8, 2019, predicting incremental improvements supporting higher prices. Analyst Tom Lee highlighted 9 such improvements. This positive outlook from a research firm can influence market sentiment and potentially lead to increased buying interest in the short term.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Fundstrat_outlook",
+        "Tom_Lee_prediction",
+        "incremental_improvements"
+      ],
+      "rationale": "A positive outlook from a reputable research firm like Fundstrat, predicting improvements that support higher prices, can create short-term bullish sentiment and encourage investment."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n499f18de2e02",
+      "title": "Major Currencies Gradually Roll Back After Short Recovery, Bitcoin Stays Over $3,600",
+      "url": "https://finance.yahoo.com/news/major-currencies-gradually-roll-back-154900643.html",
+      "summary": "On Feb 10, 2019, Bitcoin remained above $3,600 for the third consecutive day, while other major cryptocurrencies saw pullbacks. Bitcoin had gained over $200 in value on Friday, Feb 8. This indicates Bitcoin's relative resilience compared to other altcoins, suggesting a potential short-term outperformance or stabilization.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_stability",
+        "altcoin_pullback",
+        "resilience_vs_market"
+      ],
+      "rationale": "Bitcoin's ability to hold above $3,600 while other major currencies pull back suggests short-term strength and potential outperformance relative to the broader crypto market."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-02-10",
+    "summary": "Bitcoin shows resilience, holding above $3,600 while other major currencies experience pullbacks, suggesting short-term strength. However, broader market concerns like potential Indian regulatory tightening and global economic volatility (indicated by oil and gold forecasts) present headwinds. Institutional sentiment remains cautiously optimistic with endorsements from figures like Mike Novogratz and research firms like Fundstrat predicting incremental improvements.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued regulatory uncertainty globally, particularly in India.",
+      "Broader macroeconomic downturn impacting risk assets.",
+      "Potential for increased selling pressure if Bitcoin fails to hold key support levels.",
+      "The lingering effects of the prolonged bear market from 2018."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $3,600 support.",
+      "Developments in Indian cryptocurrency regulations.",
+      "Global stock market performance and volatility.",
+      "Statements from major financial institutions and analysts regarding crypto."
+    ]
+  }
+}

@@ -1,0 +1,522 @@
+{
+  "date": "2019-11-19",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "nde7374194491",
+      "title": "Pessimism Pummeled",
+      "url": "https://finance.yahoo.com/news/pessimism-pummeled-080448731.html",
+      "summary": "Commerce Secretary Wilbur Ross suggested that licenses allowing U.S. companies to sell to Huawei \"will be forthcoming very shortly.\" This de-escalation of trade war tensions, particularly concerning Huawei, could positively impact global tech supply chains and Chinese equity markets. A more stable geopolitical environment generally supports risk assets, including cryptocurrencies, by reducing macro uncertainty and potentially boosting global liquidity.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US-China_trade_talks",
+        "Huawei_ban_easing",
+        "global_tech_sentiment"
+      ],
+      "rationale": "Easing trade tensions between the US and China can reduce global economic uncertainty, which is generally positive for risk assets like Bitcoin. A more stable environment can encourage investment in technology and innovation, indirectly benefiting the crypto space."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ne3fcbe2e69f6",
+      "title": "Alipay to ban all Bitcoin transactions",
+      "url": "https://finance.yahoo.com/news/alipay-ban-bitcoin-transactions-073035684.html",
+      "summary": "Chinese payments platform Alipay announced a ban on all transactions related to Bitcoin and other cryptocurrencies. This move by a major financial platform in a key market like China signals a continued restrictive stance on crypto activities. Such policies can limit on-ramps and off-ramps for Chinese users, potentially impacting trading volumes and sentiment, especially if other similar platforms follow suit.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Alipay_ban",
+        "China_crypto_policy",
+        "payment_processor_restrictions"
+      ],
+      "rationale": "This action by Alipay, a significant payment processor in China, directly restricts access and usability for Chinese users engaging with Bitcoin. It reinforces a negative regulatory sentiment in a major global economy, potentially dampening adoption and trading activity."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na13436aa52fc",
+      "title": "Bitcoin Lightning Network Specs Pass First ‘Formal’ Security Test",
+      "url": "https://finance.yahoo.com/news/specs-behind-bitcoin-lightning-pass-091112233.html",
+      "summary": "Researchers from the University of Edinburgh have released the results of a formal security verification for the Bitcoin Lightning Network. Passing this rigorous mathematical test is a significant step in validating the network's underlying security. Improved security and reliability of scaling solutions like the Lightning Network are crucial for broader adoption and can increase confidence in Bitcoin's long-term viability as a payment system.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network_security",
+        "formal_verification",
+        "scalability_enhancement"
+      ],
+      "rationale": "Formal security verification of the Lightning Network addresses critical concerns about its robustness. This enhances confidence in Bitcoin's scalability, a key factor for long-term adoption and utility as a payment network."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n00dea73a9901",
+      "title": "SEC, CFTC Charge XBT Corp. With Selling Unregistered Swaps for Bitcoin",
+      "url": "https://finance.yahoo.com/news/sec-cftc-charge-xbt-corp-184929331.html",
+      "summary": "U.S. regulators, including the SEC and CFTC, have charged XBT Corp. for allegedly selling unregistered security-based swaps for bitcoin. This action highlights the ongoing regulatory scrutiny of crypto derivatives and financial products. Such enforcement actions can set precedents for how crypto-related financial instruments are regulated, potentially impacting the development and offering of similar products in the future.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_CFTC_enforcement",
+        "unregistered_swaps",
+        "crypto_derivatives_regulation"
+      ],
+      "rationale": "Regulatory actions against firms offering unregistered crypto-related financial products signal a tightening regulatory environment. While this specific case might be isolated, it contributes to the broader trend of increased oversight, which can create uncertainty for market participants."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n91e58f54dcdf",
+      "title": "Bitcoin Trades Flat Even as Fed Signals Inflation-Boosting Balance Increase",
+      "url": "https://finance.yahoo.com/news/bitcoin-trades-flat-even-fed-110011886.html",
+      "summary": "The Federal Reserve's plan to expand its balance sheet is viewed by crypto market experts as a long-term positive for Bitcoin, potentially acting as a hedge against inflation. However, Bitcoin's price remained consolidated around $8,200, indicating a lack of immediate bullish reaction. This suggests that while macro factors like monetary policy can influence sentiment over time, other market dynamics are currently dominating price action.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fed_balance_sheet_expansion",
+        "inflation_hedge",
+        "monetary_policy_impact"
+      ],
+      "rationale": "The Fed's balance sheet expansion is a form of quantitative easing that can devalue fiat currencies, making assets like Bitcoin potentially more attractive as a store of value. This macro trend supports a long-term bullish outlook."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n31d45262faf0",
+      "title": "US House Passes Bill for FinCEN to Study Blockchain Use",
+      "url": "https://finance.yahoo.com/news/us-house-passes-bill-fincen-210053515.html",
+      "summary": "The U.S. House of Representatives passed legislation requiring the Financial Crimes Enforcement Network (FinCEN) to study the use of blockchain and other innovative technologies for law enforcement. This bill, if enacted, would mandate FinCEN to explore how blockchain can improve its operations. Increased government interest and study of blockchain technology can lead to greater understanding, potential integration, and a more favorable regulatory environment in the long run.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "FinCEN_blockchain_study",
+        "US_government_adoption",
+        "law_enforcement_tech"
+      ],
+      "rationale": "Government bodies studying blockchain technology signals growing institutional recognition and potential future adoption. This can lead to clearer regulatory frameworks and increased integration of blockchain solutions in various sectors."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n6060697df3aa",
+      "title": "Genesis Clocks Quarterly Surge in Cash and Stablecoin Lending",
+      "url": "https://finance.yahoo.com/news/genesis-clocks-quarterly-surge-cash-212554649.html",
+      "summary": "Genesis Capital reported a significant increase in cash and stablecoin lending, with BTC-denominated loans now representing less than 60% of its portfolio. The growth in cash lending to 31.2% of the loan portfolio indicates a shift in how institutions are accessing capital within the crypto ecosystem. This trend suggests increasing institutional comfort with lending and borrowing in fiat or stablecoins, which can improve liquidity and capital efficiency in the market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Genesis_lending_growth",
+        "stablecoin_lending",
+        "institutional_capital_flow"
+      ],
+      "rationale": "The rise in cash and stablecoin lending by institutions like Genesis indicates growing maturity and liquidity in the crypto lending market. This provides more avenues for capital deployment and can attract further institutional interest."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n08488cb302ca",
+      "title": "ICE’s Bakkt launch dwarfed by rival",
+      "url": "https://finance.yahoo.com/news/ice-bakkt-launch-dwarfed-rival-115755747.html",
+      "summary": "The launch of Bakkt, Intercontinental Exchange's (ICE) Bitcoin futures contracts exchange, has seen lower-than-expected trade volume. Investors had hoped Bakkt would attract significant Wall Street capital, but its initial performance has been modest. This underperformance suggests that institutional adoption through regulated futures products may take longer than anticipated, potentially dampening short-term bullish sentiment driven by institutional inflows.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bakkt_volume",
+        "institutional_futures",
+        "ICE_launch_performance"
+      ],
+      "rationale": "The low initial trading volume on Bakkt indicates that the anticipated wave of institutional capital via regulated futures products has not materialized as strongly as expected. This suggests a slower path to institutional adoption than many had hoped."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n23de134b3103",
+      "title": "SegWit transactions on Bitcoin network have risen sharply in September",
+      "url": "https://finance.yahoo.com/news/segwit-transactions-bitcoin-network-risen-091508349.html",
+      "summary": "Segregated Witness (SegWit) transactions on the Bitcoin network saw a significant increase in September, rising to about 55% of all transactions from below 40% in prior months. SegWit is a protocol upgrade designed to increase transaction capacity and lower fees. This trend indicates improved adoption and utilization of a more efficient transaction method, which is positive for Bitcoin's usability and scalability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "SegWit_adoption",
+        "transaction_efficiency",
+        "Bitcoin_scalability"
+      ],
+      "rationale": "The increasing adoption of SegWit transactions signifies a more efficient use of the Bitcoin network, leading to lower fees and higher capacity. This is a fundamental improvement that supports Bitcoin's long-term utility and adoption."
+    },
+    {
+      "pick_idx": 32,
+      "id": "na79058bd5c77",
+      "title": "Trump Administration Popped 2017 Bitcoin Bubble, Ex-CFTC Chair Says",
+      "url": "https://finance.yahoo.com/news/trump-administration-popped-2017-bitcoin-191510223.html",
+      "summary": "Former CFTC Chairman Christopher Giancarlo suggests that the Trump administration, through the CFTC, Treasury, and SEC, believed that the introduction of Bitcoin futures would help 'pop the 2017 Bitcoin bubble.' This perspective implies that regulatory bodies were actively managing market sentiment and potentially influencing price action by allowing regulated derivatives. Such historical context is important for understanding the regulatory landscape and its impact on market cycles.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "ex_CFTC_chair_statement",
+        "bitcoin_bubble_theory",
+        "regulatory_influence"
+      ],
+      "rationale": "The statement from a former CFTC chair provides insight into the perceived regulatory intent behind the introduction of Bitcoin futures. While historical, it suggests that regulatory actions can be perceived as attempts to manage market cycles, which is a factor in long-term market sentiment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n0a7ec17e7fd7",
+      "title": "China Crypto Crackdown Elicits Binance, Tron Weibo Appeal",
+      "url": "https://finance.yahoo.com/news/china-crypto-crackdown-elicits-binance-130620762.html",
+      "summary": "Crypto giants Binance and Tron have had their official accounts suspended on China's Weibo, a major micro-blogging platform. This action, alongside notices from Shanghai watchdogs calling for a cleanup of crypto trading companies, indicates a fresh wave of regulatory crackdown in China. Such moves can negatively impact sentiment and trading activity for affected platforms and the broader market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "China_Weibo_ban",
+        "Binance_Tron_suspension",
+        "crypto_crackdown_China"
+      ],
+      "rationale": "The suspension of major crypto exchange and platform accounts on Weibo, coupled with regulatory warnings in China, signals an immediate negative sentiment and potential disruption to trading activities for Chinese users."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n79d64e943543",
+      "title": "Bitcoin Price Faces Deeper Dive as Bear Cross Confirmed",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-faces-deeper-dive-093000678.html",
+      "summary": "A long-term bear crossover of the 100 and 200-day moving averages (MAs) has been confirmed, suggesting a potential continuation of the downward trend. Bitcoin is also looking to test the 100-period MA on the weekly chart at $7,520. This technical signal, combined with fading sentiment due to a lack of positive developments, points to further price declines in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bear_cross_MA",
+        "100_200_MA_crossover",
+        "weekly_MA_test"
+      ],
+      "rationale": "The confirmation of a bearish moving average crossover on longer timeframes, coupled with the potential test of a key weekly support level, indicates strong downward momentum and a high probability of further price drops in the immediate short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nad30da5f8d18",
+      "title": "The sky is falling as the entire cryptocurrency market crashes",
+      "url": "https://finance.yahoo.com/news/sky-falling-entire-cryptocurrency-market-123130182.html",
+      "summary": "The cryptocurrency market has experienced a significant decline, with total market capitalization falling by around 5% in less than 24 hours, representing the second-largest drop in under a month. Bitcoin, Ethereum, and XRP are down 4-5%, with other altcoins seeing even steeper losses. This broad market sell-off indicates widespread negative sentiment and selling pressure.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "market_crash",
+        "altcoin_selloff",
+        "total_market_cap_drop"
+      ],
+      "rationale": "A widespread market crash affecting most cryptocurrencies signals strong bearish sentiment and immediate selling pressure. This broad decline is likely to continue influencing price action in the very short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne70fa5979900",
+      "title": "Bitcoin: A Drop Below $8,000 Opens the Doors Toward $5,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-drop-below-8-000-134239630.html",
+      "summary": "Bitcoin's price is worsening and approaching the critical $8,000 support level, which also coincides with the 200-day simple moving average. Failure to hold this level could trigger further sell-offs, potentially targeting $5,000. The inability to maintain this key psychological and technical support zone suggests significant bearish pressure.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "below_8000_support",
+        "200_day_MA_test",
+        "potential_5000_target"
+      ],
+      "rationale": "Breaking below the significant $8,000 support level and the 200-day moving average would invalidate key bullish technical indicators and likely lead to accelerated selling pressure, targeting lower price levels."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n1d32ae990f4c",
+      "title": "Bullish for Bitcoin? US SEC reconsiders rejected Bitwise ETF",
+      "url": "https://finance.yahoo.com/news/bullish-bitcoin-us-sec-reconsiders-140049042.html",
+      "summary": "The U.S. SEC is reportedly reconsidering its rejection of the Bitwise Bitcoin ETF proposal. A Bitcoin ETF is seen as a major catalyst for widespread adoption, allowing traditional investors easier access to the crypto market. If approved, it could significantly boost demand and price. However, the reconsideration itself, without approval, offers a glimmer of hope but not a guaranteed immediate impact.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "SEC_approval"
+      ],
+      "features_for_model": [
+        "SEC_ETF_reconsideration",
+        "Bitwise_ETF_proposal",
+        "institutional_adoption_catalyst"
+      ],
+      "rationale": "The SEC reconsidering a Bitcoin ETF application is a positive development that could lead to significant institutional inflows if approved. While approval is not guaranteed, the prospect alone can influence market sentiment and price in the short to medium term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n2194a1888caa",
+      "title": "Fidelity Digital Assets Gets NY Trust Charter to Custody Bitcoin for Institutions",
+      "url": "https://finance.yahoo.com/news/fidelity-digital-assets-gets-ny-172522993.html",
+      "summary": "Fidelity Digital Asset Services (FDAS) has obtained a trust company charter from the New York Department of Financial Services (NYDFS). This allows Fidelity to custody bitcoin for institutional investors in New York. Being one of 22 companies approved for virtual currency business activities by the NYDFS, this move strengthens institutional infrastructure and confidence in digital asset custody.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Fidelity_NYDFS_charter",
+        "institutional_custody",
+        "digital_asset_infrastructure"
+      ],
+      "rationale": "Fidelity's acquisition of a New York trust charter for bitcoin custody is a significant step in building institutional-grade infrastructure. This enhances trust and security for institutional investors, potentially leading to increased capital allocation into Bitcoin."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n79d64e943543",
+      "title": "Bitcoin Price Faces Deeper Dive as Bear Cross Confirmed",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-faces-deeper-dive-093000678.html",
+      "summary": "A long-term bear crossover of the 100 and 200-day moving averages (MAs) has been confirmed, suggesting a potential continuation of the downward trend. Bitcoin is also looking to test the 100-period MA on the weekly chart at $7,520. This technical signal, combined with fading sentiment due to a lack of positive developments, points to further price declines in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bear_cross_MA",
+        "100_200_MA_crossover",
+        "weekly_MA_test"
+      ],
+      "rationale": "The confirmation of a bearish moving average crossover on longer timeframes, coupled with the potential test of a key weekly support level, indicates strong downward momentum and a high probability of further price drops in the immediate short term."
+    },
+    {
+      "pick_idx": 15,
+      "id": "ne70fa5979900",
+      "title": "Bitcoin: A Drop Below $8,000 Opens the Doors Toward $5,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-drop-below-8-000-134239630.html",
+      "summary": "Bitcoin's price is worsening and approaching the critical $8,000 support level, which also coincides with the 200-day simple moving average. Failure to hold this level could trigger further sell-offs, potentially targeting $5,000. The inability to maintain this key psychological and technical support zone suggests significant bearish pressure.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "below_8000_support",
+        "200_day_MA_test",
+        "potential_5000_target"
+      ],
+      "rationale": "Breaking below the significant $8,000 support level and the 200-day moving average would invalidate key bullish technical indicators and likely lead to accelerated selling pressure, targeting lower price levels."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n1d32ae990f4c",
+      "title": "Bullish for Bitcoin? US SEC reconsiders rejected Bitwise ETF",
+      "url": "https://finance.yahoo.com/news/bullish-bitcoin-us-sec-reconsiders-140049042.html",
+      "summary": "The U.S. SEC is reportedly reconsidering its rejection of the Bitwise Bitcoin ETF proposal. A Bitcoin ETF is seen as a major catalyst for widespread adoption, allowing traditional investors easier access to the crypto market. If approved, it could significantly boost demand and price. However, the reconsideration itself, without approval, offers a glimmer of hope but not a guaranteed immediate impact.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "SEC_approval"
+      ],
+      "features_for_model": [
+        "SEC_ETF_reconsideration",
+        "Bitwise_ETF_proposal",
+        "institutional_adoption_catalyst"
+      ],
+      "rationale": "The SEC reconsidering a Bitcoin ETF application is a positive development that could lead to significant institutional inflows if approved. While approval is not guaranteed, the prospect alone can influence market sentiment and price in the short to medium term."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n2194a1888caa",
+      "title": "Fidelity Digital Assets Gets NY Trust Charter to Custody Bitcoin for Institutions",
+      "url": "https://finance.yahoo.com/news/fidelity-digital-assets-gets-ny-172522993.html",
+      "summary": "Fidelity Digital Asset Services (FDAS) has obtained a trust company charter from the New York Department of Financial Services (NYDFS). This allows Fidelity to custody bitcoin for institutional investors in New York. Being one of 22 companies approved for virtual currency business activities by the NYDFS, this move strengthens institutional infrastructure and confidence in digital asset custody.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Fidelity_NYDFS_charter",
+        "institutional_custody",
+        "digital_asset_infrastructure"
+      ],
+      "rationale": "Fidelity's acquisition of a New York trust charter for bitcoin custody is a significant step in building institutional-grade infrastructure. This enhances trust and security for institutional investors, potentially leading to increased capital allocation into Bitcoin."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n0a7ec17e7fd7",
+      "title": "China Crypto Crackdown Elicits Binance, Tron Weibo Appeal",
+      "url": "https://finance.yahoo.com/news/china-crypto-crackdown-elicits-binance-130620762.html",
+      "summary": "Crypto giants Binance and Tron have had their official accounts suspended on China's Weibo, a major micro-blogging platform. This action, alongside notices from Shanghai watchdogs calling for a cleanup of crypto trading companies, indicates a fresh wave of regulatory crackdown in China. Such moves can negatively impact sentiment and trading activity for affected platforms and the broader market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "China_Weibo_ban",
+        "Binance_Tron_suspension",
+        "crypto_crackdown_China"
+      ],
+      "rationale": "The suspension of major crypto exchange and platform accounts on Weibo, coupled with regulatory warnings in China, signals an immediate negative sentiment and potential disruption to trading activities for Chinese users."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-11-19",
+    "summary": "Bitcoin is experiencing a significant downturn, with prices falling below key support levels like $8,000 and the 200-day moving average, confirming bearish technical signals. This is exacerbated by a broad market sell-off across most cryptocurrencies. Negative regulatory news from China, including account suspensions on Weibo for major exchanges, adds to the bearish sentiment. However, there's a glimmer of hope with the SEC reportedly reconsidering the Bitwise Bitcoin ETF proposal, which could be a long-term bullish catalyst if approved. Fidelity's acquisition of a New York trust charter for institutional custody also strengthens the underlying infrastructure.",
+    "scenario_probs": {
+      "bull": 0.2,
+      "base": 0.4,
+      "bear": 0.4
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued regulatory crackdown in China impacting sentiment and liquidity.",
+      "Failure to hold critical support levels ($8,000, 200-day MA) leading to further price declines.",
+      "Broader market sell-off and negative sentiment persisting.",
+      "Uncertainty surrounding the SEC's ETF decision.",
+      "Geopolitical trade tensions impacting global risk appetite."
+    ],
+    "watch_items": [
+      "SEC decision on Bitwise Bitcoin ETF",
+      "Developments in US-China trade negotiations",
+      "Key support/resistance levels for BTC ($7,500, $8,000)",
+      "Regulatory statements from major economies",
+      "On-chain data for whale activity and exchange flows"
+    ]
+  }
+}

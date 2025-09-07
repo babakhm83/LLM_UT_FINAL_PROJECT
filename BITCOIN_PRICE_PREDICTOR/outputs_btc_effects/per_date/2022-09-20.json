@@ -1,0 +1,503 @@
+{
+  "date": "2022-09-20",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n9d832e5a10a0",
+      "title": "Bitcoin falls below $19,000 as cryptos creak under rate hike risk",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-below-19-000-063814680.html",
+      "summary": "Bitcoin dropped to a three-month low of $18,387, with cryptocurrencies broadly declining due to regulatory concerns and the looming threat of global interest rate hikes. Ether also saw a significant drop. This highlights the sensitivity of the crypto market to macroeconomic factors and monetary policy, suggesting a challenging environment for digital assets in the near to medium term as central banks tighten their belts.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "rate_hike_risk",
+        "crypto_downturn",
+        "regulatory_concerns"
+      ],
+      "rationale": "The article directly links crypto price drops to anticipated interest rate hikes and regulatory concerns. This macro-driven sentiment is a significant bearish factor for Bitcoin and the broader crypto market, indicating potential for further downside as monetary policy tightens."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n6a060c8c4745",
+      "title": "US stocks trade mixed ahead of Fed's economic report while investors eye more big rate hikes",
+      "url": "https://finance.yahoo.com/news/us-stocks-trade-mixed-ahead-134159180.html",
+      "summary": "US stocks showed mixed performance as investors awaited the Federal Reserve's beige book report and anticipated further significant interest rate hikes. The upcoming FOMC meeting later in September, with potential for another 75-basis-point hike, creates an environment of uncertainty. This macroeconomic backdrop, driven by central bank policy, directly impacts risk assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "FOMC_meeting",
+        "rate_hike_expectations",
+        "economic_report"
+      ],
+      "rationale": "The anticipation of aggressive Fed rate hikes is a strong bearish signal for risk assets, including Bitcoin. The market's reaction to economic reports and Fed commentary will continue to dictate short-to-medium term price action."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n77c5fe319488",
+      "title": "To Unplug or Double Down? Crypto Mining in Crypto Winter",
+      "url": "https://finance.yahoo.com/news/unplug-double-down-crypto-mining-164057173.html",
+      "summary": "The article discusses the difficult decisions facing Bitcoin miners during a crypto winter, where profitability is squeezed by falling Bitcoin prices and rising energy costs. Miners must balance the cost of energy and difficulty levels against potential Bitcoin rewards. This situation can lead to miners unplugging operations or even going bankrupt, impacting the network's hashrate and potentially its security.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_profitability",
+        "energy_costs",
+        "hashrate_difficulty"
+      ],
+      "rationale": "The struggles of Bitcoin miners directly affect the network's hashrate and operational stability. A significant reduction in mining activity due to economic pressures can be a bearish indicator for Bitcoin's underlying infrastructure and security."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nfd88624be5e8",
+      "title": "Jamie Dimon warns ‘something worse’ than a recession could be coming",
+      "url": "https://finance.yahoo.com/news/jamie-dimon-warns-something-worse-130119140.html",
+      "summary": "JPMorgan Chase CEO Jamie Dimon expressed concerns about the economic outlook, suggesting a 20-30% chance of 'something worse' than a mild recession. He cited factors like Fed rate hikes, quantitative tightening, oil shocks, the Ukraine war, and US-China tensions as potential storm clouds. This pessimistic outlook from a prominent financial leader can negatively impact investor sentiment towards risk assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "recession_risk",
+        "geopolitical_tension",
+        "economic_outlook"
+      ],
+      "rationale": "Pessimistic economic forecasts from influential figures like Jamie Dimon often translate into reduced risk appetite across financial markets. This sentiment can lead investors to divest from speculative assets like Bitcoin, driving prices down."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n7d6494c7bfd4",
+      "title": "Market Wrap: Bitcoin Up Slightly Despite Fed Chairman's Hawkish Comments",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-slightly-despite-205417075.html",
+      "summary": "Bitcoin and Ether saw slight gains despite hawkish comments from Federal Reserve Chairman Jerome Powell, which increased expectations for a 75 basis point rate hike in September. Powell reiterated the Fed's commitment to curbing inflation. The market's reaction suggests a degree of resilience, but the underlying bearish pressure from monetary policy remains significant.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Powell_comments",
+        "rate_hike_expectations",
+        "inflation_control"
+      ],
+      "rationale": "Despite a slight uptick, the context of hawkish Fed comments and the expectation of further rate hikes creates a bearish environment. This suggests that any short-term price increases may be met with selling pressure as the market digests the tightening monetary policy."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n3e2c40ecc3c5",
+      "title": "Mexican crypto exchange Bitso reaches more than 1 mln users in Brazil",
+      "url": "https://finance.yahoo.com/news/mexican-crypto-exchange-bitso-reaches-174625357.html",
+      "summary": "Mexican crypto exchange Bitso has surpassed one million users in Brazil, exceeding its own expectations and reporting a 66% increase in transaction volumes in June compared to May. This growth in a major South American market indicates increasing adoption and user engagement in the region, which is a positive sign for the broader crypto ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "user_growth",
+        "regional_adoption",
+        "transaction_volume"
+      ],
+      "rationale": "Significant user growth for a major crypto exchange in a key emerging market like Brazil signals increasing adoption. This expansion contributes to the overall health and liquidity of the crypto market, providing a long-term bullish tailwind."
+    },
+    {
+      "pick_idx": 32,
+      "id": "nc9ec5ce706ca",
+      "title": "Ethereum Miner Chandler Guo Predicts 90% of PoW Miners Will Go Bankrupt",
+      "url": "https://finance.yahoo.com/news/chandler-guo-predicts-90-pow-162551367.html",
+      "summary": "Ethereum miner Chandler Guo predicts that 90% of Proof-of-Work (PoW) miners will go bankrupt following Ethereum's transition to Proof-of-Stake (PoS). Many miners are exploring PoW forks of Ethereum, but Guo believes only a fraction will survive. This indicates significant disruption and potential consolidation within the mining sector, impacting the economics of mining for cryptocurrencies that remain on PoW.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "miner",
+        "protocol"
+      ],
+      "features_for_model": [
+        "miner_bankruptcy",
+        "PoW_vs_PoS",
+        "mining_sector_consolidation"
+      ],
+      "rationale": "The prediction of widespread miner bankruptcy due to the Ethereum Merge highlights the economic pressures on PoW miners. This could lead to reduced hashrate on other PoW chains and potentially impact the security and decentralization of those networks if miners are forced to shut down."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n6556ca7e68be",
+      "title": "ETH crosses Bitcoin in options market for first time in history",
+      "url": "https://finance.yahoo.com/news/eth-crosses-bitcoin-options-market-032417343.html",
+      "summary": "Ethereum's native token, Ether (ETH), has surpassed Bitcoin (BTC) in the options market on the Deribit exchange for the first time. The cumulative dollar value of open Ether options contracts reached $5.7 billion, compared to Bitcoin's $4.35 billion. This surge is attributed to anticipation surrounding Ethereum's upcoming Merge upgrade.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ETH_options_volume",
+        "BTC_options_volume",
+        "Ethereum_Merge_anticipation"
+      ],
+      "rationale": "Ether surpassing Bitcoin in options market open interest signifies a significant shift in trader sentiment and focus towards Ethereum, largely driven by the Merge. This increased derivatives activity suggests strong interest and potential for price appreciation in ETH."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n1cd403dcd6a9",
+      "title": "Brazil's Largest Investment Bank, BTG Pactual, Launches Crypto Trading Platform",
+      "url": "https://finance.yahoo.com/news/brazils-largest-investment-bank-btg-155603938.html",
+      "summary": "Brazil's largest investment bank, BTG Pactual, has launched a crypto trading platform called Mynt, allowing users to trade Bitcoin, Ether, Solana, Cardano, and Algorand with a minimum investment of 100 Brazilian reals. This move by a major traditional financial institution into offering crypto services signals growing institutional acceptance and integration of digital assets into mainstream finance.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTG_Pactual_launch",
+        "Brazil_crypto_adoption",
+        "institutional_crypto_services"
+      ],
+      "rationale": "The entry of a major investment bank like BTG Pactual into the crypto space is a strong indicator of institutional adoption. This broadens access to digital assets for traditional investors and enhances market liquidity and legitimacy."
+    },
+    {
+      "pick_idx": 40,
+      "id": "nc434dd5ce220",
+      "title": "PoW Die-Hards Plan to Fork and Mine Their Own Ethereum Chains After The Merge",
+      "url": "https://finance.yahoo.com/news/pow-die-hards-plan-fork-053059404.html",
+      "summary": "Dedicated Ethereum miners, facing the obsolescence of their hardware due to the Merge, are planning to fork the Ethereum blockchain to maintain a Proof-of-Work (PoW) version. This move highlights the resistance to the transition and the potential for network fragmentation. While it could create new tokens, it also introduces uncertainty and competition for mining resources.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "miner"
+      ],
+      "features_for_model": [
+        "Ethereum_fork",
+        "PoW_mining",
+        "network_fragmentation"
+      ],
+      "rationale": "The planned forks of Ethereum by PoW miners introduce uncertainty. While it could create new opportunities, it also dilutes network effect and mining power, potentially impacting the value proposition of both the original Ethereum and its forks."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ncacdaddcc986",
+      "title": "Markets: Bitcoin back above US$19,000 while Ether posts strongest gains since post-Merge",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-back-above-us-005445608.html",
+      "summary": "Bitcoin rose above $19,000, recovering from an overnight dip, while Ether showed signs of shaking off its post-Merge slump with gains. The top 10 cryptocurrencies also saw increases. This suggests a short-term positive sentiment, potentially driven by a brief respite from bearish macro news or technical buying.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "ETH_post_merge_gains",
+        "market_sentiment"
+      ],
+      "rationale": "Bitcoin reclaiming the $19,000 level and Ether showing strength post-Merge indicates a short-term positive price movement, suggesting a potential bounce in the immediate trading sessions."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n52dce93abff4",
+      "title": "Dow slides 300 points as investors brace for rate-hike decision from the Federal Reserve",
+      "url": "https://finance.yahoo.com/news/dow-slides-300-points-investors-200626580.html",
+      "summary": "US stocks, including the Dow Jones Industrial Average, closed lower as investors anticipate a significant rate hike from the Federal Reserve. The 2-year Treasury yield surged to a multi-year high. This indicates heightened market anxiety and a risk-off sentiment ahead of the Fed's policy decision.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_anticipation",
+        "stock_market_downturn",
+        "treasury_yield_surge"
+      ],
+      "rationale": "The significant drop in US stocks and rising Treasury yields ahead of the Fed decision signal strong bearish sentiment. This risk-off environment is likely to negatively impact Bitcoin and other risk assets in the very short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nd1797b04a470",
+      "title": "First Mover Americas: Bitcoin Traders Await Fed, Cosmos Is Heating Up",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-traders-140049268.html",
+      "summary": "Bitcoin slipped to around $19,200 due to fears of higher interest rates, while Cosmos' ATOM token saw gains. Ether's supply growth has slowed post-Merge. The overall crypto market sentiment appears bearish, with traders awaiting the Fed's decision on interest rates.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_slip",
+        "Fed_decision_await",
+        "bearish_market_mood"
+      ],
+      "rationale": "Bitcoin's slip ahead of the Fed decision and the general bearish sentiment suggest continued downward pressure in the immediate short term. The market is highly sensitive to the upcoming Fed announcement."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n76e4bd039335",
+      "title": "DeFi Platform Maple Finance Aims to Help Struggling Bitcoin Miners With $300M Lending Pool",
+      "url": "https://finance.yahoo.com/news/defi-platform-maple-finance-aims-152655295.html",
+      "summary": "DeFi firm Maple Finance is launching a $300 million lending pool for North American and Australian Bitcoin miners facing difficulties due to low BTC prices and high energy costs. This initiative aims to provide much-needed capital to miners, potentially stabilizing their operations and supporting network hashrate.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "miner_lending_pool",
+        "DeFi_liquidity",
+        "mining_industry_support"
+      ],
+      "rationale": "The availability of a $300 million lending pool for Bitcoin miners could provide crucial liquidity, helping them weather the current downturn. This support for miners could indirectly benefit Bitcoin by stabilizing hashrate and operational capacity."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n86e38295aa3f",
+      "title": "Saylor's MicroStrategy buys $6M more bitcoin, now holds 130,000 total",
+      "url": "https://finance.yahoo.com/news/saylors-microstrategy-buys-bitcoin-125728492.html",
+      "summary": "MicroStrategy, the largest corporate holder of Bitcoin, announced it purchased an additional 301 bitcoins for approximately $6 million. This brings their total holdings to 130,000 bitcoins. The company continues to accumulate Bitcoin despite market volatility, signaling strong conviction in its long-term value.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_buy",
+        "corporate_bitcoin_holdings",
+        "long_term_conviction"
+      ],
+      "rationale": "MicroStrategy's continued Bitcoin purchases, even during a downturn, provide a positive signal for institutional adoption and demonstrate sustained confidence. This consistent buying pressure, though small in daily terms, contributes to overall demand."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n08155a293e8e",
+      "title": "Bitcoin's Pre-Fed Weakness Has Chart Analysts Focused on Support at $18.3K",
+      "url": "https://finance.yahoo.com/news/bitcoins-pre-fed-weakness-chart-153921471.html",
+      "summary": "Bitcoin is showing weakness ahead of the Federal Reserve's interest rate decision, with technical analysts focusing on support at $18,300. A breach of this level could worsen the bear market. The cryptocurrency was trading down 3.5% at press time, indicating immediate bearish pressure.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action",
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "BTC_support_level",
+        "pre_Fed_weakness",
+        "technical_analysis"
+      ],
+      "rationale": "The focus on a key support level ($18.3K) and the immediate 3.5% drop ahead of a major macro event (Fed decision) strongly suggests a bearish outlook for Bitcoin in the very short term. A break below this level would confirm further downside."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n0f771144697a",
+      "title": "Nasdaq bets big on digital assets despite crypto turmoil",
+      "url": "https://finance.yahoo.com/news/nasdaq-bets-big-digital-assets-155015690.html",
+      "summary": "Nasdaq is launching a digital assets business to offer custody services for cryptocurrencies like Bitcoin and Ethereum, targeting institutional investors. This move by a major stock exchange operator into crypto infrastructure signals growing institutional interest and confidence in the digital asset space, despite current market turmoil.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 3,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Nasdaq_digital_assets",
+        "institutional_custody",
+        "crypto_infrastructure_expansion"
+      ],
+      "rationale": "Nasdaq's entry into crypto custody services is a significant development for institutional adoption. While the immediate price impact might be muted, it builds long-term confidence and provides essential infrastructure for future growth."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nf40e4d944a80",
+      "title": "Crypto Lender Voyager Digital Seeks to ‘Unwind’ $200M Loan to Alameda Research",
+      "url": "https://finance.yahoo.com/news/voyager-seeks-unwind-alameda-loan-040655340.html",
+      "summary": "Insolvent crypto lender Voyager Digital is seeking court permission to unwind a $200 million loan to Alameda Research, with Alameda to receive $160 million in collateral. The loan, largely in BTC and ETH, was made before Voyager's bankruptcy. This action highlights the ongoing fallout from crypto firm collapses and the complex process of asset recovery.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "legal",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Voyager_Alameda_loan",
+        "bankruptcy_proceedings",
+        "collateral_unwind"
+      ],
+      "rationale": "The unwinding of a large loan between distressed entities like Voyager and Alameda introduces complexity and potential for further market disruption. While the direct impact on BTC/ETH prices might be limited, it underscores the fragility in parts of the crypto ecosystem."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n3ebfc0ba0ea1",
+      "title": "Sam Bankman-Fried's Alameda will repay $200 million in crypto to bankrupt lender Voyager - after the crash hit dollar values",
+      "url": "https://finance.yahoo.com/news/sam-bankman-frieds-alameda-repay-141128349.html",
+      "summary": "Alameda Research plans to repay Voyager Digital $200 million in crypto to settle a loan, which was worth $377 million before the market crash. The repayment, to be made in BTC, ETH, and other cryptos, comes as Voyager faces bankruptcy. This highlights the impact of the crypto downturn on loan valuations and the challenges of asset recovery.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "legal",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Alameda_Voyager_repayment",
+        "crypto_loan_settlement",
+        "market_crash_impact"
+      ],
+      "rationale": "Similar to the Voyager/Alameda loan news, this report details the repayment of a crypto loan where the dollar value has significantly decreased due to the market crash. This situation reflects broader issues of leverage and asset valuation within the crypto industry, creating uncertainty."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n21e8da7e88e1",
+      "title": "Ethereum drops 20% as SEC declares control over network",
+      "url": "https://finance.yahoo.com/news/ethereum-price-drops-sec-declares-control-093528955.html",
+      "summary": "Ethereum's price has dropped over 20% following reports that the SEC may consider it under US jurisdiction due to the majority of its validator nodes being located in the US. This regulatory uncertainty, coupled with the post-Merge slump, creates significant bearish pressure on ETH.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "price_action"
+      ],
+      "features_for_model": [
+        "ETH_SEC_jurisdiction",
+        "regulatory_uncertainty",
+        "post_merge_slump"
+      ],
+      "rationale": "The SEC's potential assertion of control over Ethereum introduces significant regulatory risk, which is a strong bearish catalyst. Combined with the post-Merge price action, this news is likely to drive ETH prices lower in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-09-20",
+    "summary": "The market is heavily focused on the upcoming Federal Reserve interest rate decision, leading to a risk-off sentiment across traditional markets and cryptocurrencies. Bitcoin has shown weakness, testing key support levels, while Ether is also under pressure following its post-Merge slump and potential regulatory scrutiny from the SEC. Despite some positive developments like institutional interest and miner support initiatives, the dominant factor remains macroeconomic uncertainty driven by the Fed's monetary policy.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Aggressive Fed rate hike exceeding expectations.",
+      "Negative inflation data or commentary.",
+      "Further regulatory action against major cryptocurrencies.",
+      "Increased selling pressure from miners facing financial difficulties.",
+      "Geopolitical events impacting global markets."
+    ],
+    "watch_items": [
+      "Federal Reserve FOMC Meeting and Interest Rate Decision",
+      "US CPI and PPI data releases",
+      "Statements from Fed officials",
+      "Bitcoin's price action around the $18,300 support level",
+      "Developments in SEC investigations related to crypto assets"
+    ]
+  }
+}

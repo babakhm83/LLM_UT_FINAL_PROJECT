@@ -1,0 +1,499 @@
+{
+  "date": "2023-02-05",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nca917e226420",
+      "title": "Riot Announces December 2022 Production and Operations Updates",
+      "url": "https://finance.yahoo.com/news/riot-announces-december-2022-production-214500763.html",
+      "summary": "Riot Platforms reported producing 659 BTC in December 2022, a 55% increase year-over-year. This update highlights the company's operational efficiency and growing Bitcoin production capacity. Such consistent growth in mining output can be a positive indicator for the network's security and the profitability of mining operations, potentially influencing investor sentiment towards Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Riot_production_increase",
+        "BTC_mining_efficiency"
+      ],
+      "rationale": "Increased Bitcoin production by a major miner like Riot suggests improved operational efficiency and potentially lower production costs. This can be a positive signal for the overall health of the mining sector and indirectly for Bitcoin's network security and value."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne7cbad0d1868",
+      "title": "Cryptocurrency-exposed stocks fall as Bitcoin rally loses some steam",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-exposed-stocks-fall-bitcoin-092948925.html",
+      "summary": "Shares of cryptocurrency-exposed companies, including Coinbase and miners Riot and Marathon Digital, fell as Bitcoin's recent rally showed signs of weakening. This indicates a continued sensitivity of crypto-related equities to Bitcoin's price movements and broader market sentiment, especially ahead of key economic events like central bank interest rate decisions.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "crypto_stocks_decline",
+        "Bitcoin_price_volatility",
+        "Fed_rate_hike_anticipation"
+      ],
+      "rationale": "The correlation between crypto-exposed stocks and Bitcoin's price remains strong. A pullback in these stocks, especially when linked to broader market concerns like interest rate hikes, suggests a potential for broader market sentiment to negatively impact Bitcoin."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nd820e2d57d61",
+      "title": "Crypto Markets Today: Bitcoin Clings to $23K, FTX’s Creditor List Revealed",
+      "url": "https://finance.yahoo.com/news/crypto-markets-today-bitcoin-clings-225532196.html",
+      "summary": "The FTX creditor list, revealing the exchange's extensive reach across various industries, was unsealed. While Bitcoin held steady around $23K, the ongoing fallout from FTX's collapse continues to cast a shadow over the market, impacting confidence and potentially leading to regulatory scrutiny.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "legal"
+      ],
+      "features_for_model": [
+        "FTX_creditor_list",
+        "Bitcoin_price_stability",
+        "crypto_market_fallout"
+      ],
+      "rationale": "The revelation of the FTX creditor list provides a clearer picture of the contagion effects. While it doesn't immediately impact Bitcoin's price, it fuels ongoing discussions about market stability and regulatory responses, which will have long-term implications."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ndb23c1498bbc",
+      "title": "5 Top ETF Zones Beating the Market to Start 2023",
+      "url": "https://finance.yahoo.com/news/5-top-etf-zones-beating-161004474.html",
+      "summary": "The Valkyrie Bitcoin Miners ETF (WGMI) was among the top-performing ETFs in early 2023, gaining double digits. This suggests renewed investor interest in the mining sector, potentially driven by expectations of easing inflation and a slower pace of Fed rate hikes, which could positively influence Bitcoin's price.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Bitcoin_miners_ETF_performance",
+        "inflation_easing_hopes",
+        "Fed_rate_hike_expectations"
+      ],
+      "rationale": "Strong performance of a Bitcoin miners ETF indicates growing institutional interest and positive sentiment towards the crypto mining sector. This can translate to increased demand for Bitcoin as miners become more profitable and potentially expand operations."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n616058275a31",
+      "title": "Japan Embraces Web3 As Global Regulators Grow Wary of Crypto",
+      "url": "https://finance.yahoo.com/news/japan-embraces-web3-global-regulators-205328250.html",
+      "summary": "Japan is actively embracing Web3 technologies, positioning itself as a crypto-friendly jurisdiction while other global regulators express caution. This proactive stance by a major economy could foster innovation and adoption, potentially creating a more favorable environment for crypto assets like Bitcoin.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Japan_Web3_adoption",
+        "crypto_friendly_regulation",
+        "global_regulatory_divergence"
+      ],
+      "rationale": "Japan's supportive regulatory approach to Web3 and crypto is a significant positive development. It signals a potential shift in global regulatory sentiment and could attract significant investment and talent, boosting adoption and innovation in the crypto space."
+    },
+    {
+      "pick_idx": 13,
+      "id": "na81e8d17d215",
+      "title": "Crypto lender Genesis files for bankruptcy protection",
+      "url": "https://finance.yahoo.com/news/crypto-lender-genesis-files-for-bankruptcy-protection-125411795.html",
+      "summary": "Crypto lender Genesis Global Capital has filed for Chapter 11 bankruptcy protection, citing between $1 billion and $10 billion in liabilities. This filing marks another significant casualty in the ongoing crypto winter, highlighting systemic risks and potential contagion within the industry.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Genesis_bankruptcy",
+        "crypto_lender_contagion",
+        "industry_liquidity_crisis"
+      ],
+      "rationale": "The bankruptcy of a major crypto lender like Genesis further erodes confidence in the centralized crypto ecosystem. It signals ongoing liquidity issues and potential for further distress, which can lead to reduced trading volumes and price pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n14ff161235fd",
+      "title": "Bitcoin climbs above $20,000 first time in over two months",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-5-5-19-222433452.html",
+      "summary": "Bitcoin surpassed the $20,000 mark for the first time in over two months, with a 4.6% increase. This price action suggests a potential shift in market sentiment and a recovery from recent lows, possibly driven by broader economic optimism and increased investor demand.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_20k_breakout",
+        "monthly_high_performance",
+        "investor_sentiment_shift"
+      ],
+      "rationale": "Breaking the $20,000 psychological level is a significant bullish signal, indicating renewed buying pressure and a potential end to the prolonged bear market. This could attract more retail and institutional investors, driving further price appreciation."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n08aafdfb9605",
+      "title": "Crypto Industry 'Scared of a Strong SEC': Sen. Elizabeth Warren",
+      "url": "https://finance.yahoo.com/news/crypto-industry-scared-strong-sec-021540693.html",
+      "summary": "Senator Elizabeth Warren advocates for stronger SEC enforcement against crypto fraud, stating the industry fears a robust regulatory body. This sentiment highlights the ongoing debate around crypto regulation and the potential for increased oversight, which could impact market participants.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_enforcement_advocacy",
+        "crypto_regulation_debate",
+        "Elizabeth_Warren_stance"
+      ],
+      "rationale": "The call for stronger SEC action reflects a growing political will to regulate the crypto industry. While increased regulation can bring stability, it also poses risks to innovation and could lead to stricter controls on certain crypto assets and activities."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n1de73fcb8bc5",
+      "title": "SEC sends letter to companies urging updated disclosures amid 'widespread disruption' in crypto markets",
+      "url": "https://finance.yahoo.com/news/sec-sends-letter-to-companies-urging-updated-disclosures-amid-widespread-disruption-in-crypto-markets-205617732.html",
+      "summary": "The SEC has requested public companies to update their disclosures regarding the impact of crypto market disruptions. This proactive measure by the SEC aims to ensure transparency and investor protection, signaling a heightened focus on the crypto sector's integration with traditional finance.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "disclosure"
+      ],
+      "features_for_model": [
+        "SEC_disclosure_request",
+        "crypto_market_disruption_impact",
+        "investor_protection_measures"
+      ],
+      "rationale": "The SEC's request for updated disclosures indicates increased regulatory scrutiny on companies exposed to crypto. This could lead to more cautious investment from traditional institutions and potentially impact the flow of capital into the crypto market."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n0e1cbe3c50ae",
+      "title": "Crypto market breaks above $1 trillion for the first time since FTX's collapse, with bitcoin set for its best month since October 2021",
+      "url": "https://finance.yahoo.com/news/crypto-market-breaks-above-1-115712550.html",
+      "summary": "The total cryptocurrency market capitalization has surpassed $1 trillion, reaching its highest point since the FTX collapse. Bitcoin is on track for its best monthly performance since October 2021, indicating a significant rebound in investor confidence and a potential recovery from the crypto winter.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crypto_market_cap_1T_breakout",
+        "Bitcoin_best_month_performance",
+        "investor_confidence_recovery"
+      ],
+      "rationale": "Crossing the $1 trillion market cap threshold and Bitcoin's strong monthly performance are clear indicators of a market recovery. This suggests that the worst of the crypto winter may be over, and renewed capital inflow is driving prices higher."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n160a46eb0d7e",
+      "title": "Best Crash Gambling Sites for Real Money 2023 - Crash Crypto Bitcoin Game",
+      "url": "https://finance.yahoo.com/news/best-crash-gambling-sites-real-001732061.html",
+      "summary": "This article discusses crash gambling, a game involving a graph and changing betting odds where players must cash out before the game crashes. It highlights the risk and reward mechanics, relevant for understanding speculative trading behavior.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crash_gambling_game",
+        "speculative_trading_behavior",
+        "risk_reward_mechanics"
+      ],
+      "rationale": "While not directly impacting Bitcoin's fundamentals, the discussion of 'crash' games can reflect broader speculative sentiment in markets, potentially influencing short-term trading behavior."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0e73e0cb3e4d",
+      "title": "Super Bowl 2023: The 10 most controversial Super Bowl ads ever",
+      "url": "https://finance.yahoo.com/news/super-bowl-2023-10-most-115826540.html",
+      "summary": "The article previews the Super Bowl 2023, focusing on controversial ads. The Super Bowl is a major cultural event with significant advertising spend, and the nature of ads can sometimes reflect or influence broader consumer sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Super_Bowl_ads",
+        "consumer_sentiment",
+        "cultural_event"
+      ],
+      "rationale": "The Super Bowl is a major advertising event. While not directly crypto-related, the general sentiment and consumer behavior reflected in ads can sometimes provide a very indirect signal about market psychology."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n238391fd8702",
+      "title": "The Creator of ChatGPT Thinks AI Should Be Regulated",
+      "url": "https://finance.yahoo.com/news/creator-chatgpt-thinks-ai-regulated-140029821.html",
+      "summary": "OpenAI's CTO, Mira Murati, believes AI should be regulated. This discussion around AI regulation could indirectly influence the broader tech and innovation landscape, which sometimes overlaps with the development and adoption of new technologies like blockchain.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "AI_regulation_discussion",
+        "OpenAI_CTO_stance",
+        "tech_innovation_sentiment"
+      ],
+      "rationale": "The conversation around AI regulation is gaining momentum. While not directly about crypto, it reflects a broader trend of increased scrutiny on emerging technologies, which could eventually extend to blockchain and digital assets."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n29bdbd24cd8a",
+      "title": "‘I would not touch crypto in a million years’: Jim Cramer blasts 'dangerous' $4.3B bailout of crypto bank — here's how to prep for a collapse of crypto confidence",
+      "url": "https://finance.yahoo.com/news/not-business-usual-jim-cramer-130000924.html",
+      "summary": "Jim Cramer expresses strong skepticism towards crypto, calling a $4.3 billion bailout loan to a crypto bank 'dangerous' and 'not business as usual.' His comments reflect a bearish sentiment among some traditional finance commentators.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Jim_Cramer_skepticism",
+        "crypto_bank_bailout",
+        "bearish_commentary"
+      ],
+      "rationale": "Jim Cramer's highly visible bearish commentary on crypto, especially concerning bank bailouts, can influence retail investor sentiment and create short-term FUD (Fear, Uncertainty, Doubt), potentially leading to price dips."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3104c98ab9fc",
+      "title": "7 Overvalued Stocks That Will Get Clobbered This Year",
+      "url": "https://finance.yahoo.com/news/7-overvalued-stocks-clobbered-161142421.html",
+      "summary": "This article identifies seven overvalued stocks expected to underperform. While focused on traditional equities, the analysis of market sentiment and overvaluation can provide context for broader market risk appetite, which indirectly affects crypto.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "overvalued_stocks",
+        "market_risk_appetite",
+        "equity_market_sentiment"
+      ],
+      "rationale": "General market sentiment analysis, even for traditional stocks, can offer clues about overall investor risk tolerance. If the broader market is perceived as overvalued or facing headwinds, it might reduce appetite for riskier assets like Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n00f29f59f47c",
+      "title": "This Week on Crypto Twitter: Sam Bankman-Fried Emailed Witnesses and Bought Cumrocket Tokens",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-sam-bankman-182607091.html",
+      "summary": "The article highlights activity on Crypto Twitter, including Sam Bankman-Fried's alleged communication with witnesses and the performance of altcoins like Polygon and Shiba Inu. It also notes the continued public interest in the FTX saga.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "legal",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SBF_witness_communication",
+        "altcoin_performance",
+        "FTX_saga_interest"
+      ],
+      "rationale": "News related to SBF's legal proceedings, even tangential mentions of his activities, can keep the FTX narrative in the spotlight. This ongoing attention to past failures can create lingering negative sentiment, even as other altcoins show strength."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n160a46eb0d7e",
+      "title": "Best Crash Gambling Sites for Real Money 2023 - Crash Crypto Bitcoin Game",
+      "url": "https://finance.yahoo.com/news/best-crash-gambling-sites-real-001732061.html",
+      "summary": "This article discusses crash gambling, a game involving a graph and changing betting odds where players must cash out before the game crashes. It highlights the risk and reward mechanics, relevant for understanding speculative trading behavior.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crash_gambling_game",
+        "speculative_trading_behavior",
+        "risk_reward_mechanics"
+      ],
+      "rationale": "While not directly impacting Bitcoin's fundamentals, the discussion of 'crash' games can reflect broader speculative sentiment in markets, potentially influencing short-term trading behavior."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n0e73e0cb3e4d",
+      "title": "Super Bowl 2023: The 10 most controversial Super Bowl ads ever",
+      "url": "https://finance.yahoo.com/news/super-bowl-2023-10-most-115826540.html",
+      "summary": "The article previews the Super Bowl 2023, focusing on controversial ads. The Super Bowl is a major cultural event with significant advertising spend, and the nature of ads can sometimes reflect or influence broader consumer sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Super_Bowl_ads",
+        "consumer_sentiment",
+        "cultural_event"
+      ],
+      "rationale": "The Super Bowl is a major advertising event. While not directly crypto-related, the general sentiment and consumer behavior reflected in ads can sometimes provide a very indirect signal about market psychology."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n9565f3a7ad8f",
+      "title": "7 Sorry Growth Stocks to Sell in February Before It’s Too Late",
+      "url": "https://finance.yahoo.com/news/7-sorry-growth-stocks-sell-133051748.html",
+      "summary": "This article advises selling seven 'sorry' growth stocks in February due to market volatility and potential headwinds. It suggests caution for investors in growth stocks, which can indirectly impact risk appetite for crypto assets.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "growth_stocks_to_sell",
+        "market_volatility",
+        "investor_caution"
+      ],
+      "rationale": "A bearish outlook on growth stocks in general can signal a broader risk-off sentiment in the market. This could lead investors to reduce exposure to speculative assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nc69c368ea946",
+      "title": "‘I would not touch crypto in a million years’: Jim Cramer blasts 'dangerous' $4.3B bailout of crypto bank — here's how to prep for a collapse of crypto confidence",
+      "url": "https://finance.yahoo.com/news/not-business-usual-jim-cramer-130000924.html",
+      "summary": "Jim Cramer expresses strong skepticism towards crypto, calling a $4.3 billion bailout loan to a crypto bank 'dangerous' and 'not business as usual.' His comments reflect a bearish sentiment among some traditional finance commentators.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Jim_Cramer_skepticism",
+        "crypto_bank_bailout",
+        "bearish_commentary"
+      ],
+      "rationale": "Jim Cramer's highly visible bearish commentary on crypto, especially concerning bank bailouts, can influence retail investor sentiment and create short-term FUD (Fear, Uncertainty, Doubt), potentially leading to price dips."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-02-05",
+    "summary": "The market sentiment remains cautiously optimistic, with Bitcoin holding above $23,000, supported by positive ETF performance and broader economic hopes. However, lingering concerns from crypto lender bankruptcies and bearish commentary from figures like Jim Cramer introduce short-term volatility. Regulatory discussions, particularly around AI and the SEC's stance, add an element of uncertainty to the longer-term outlook.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued negative sentiment from prominent financial commentators.",
+      "Potential for further contagion from crypto lender bankruptcies.",
+      "Uncertainty surrounding future regulatory actions by the SEC.",
+      "Macroeconomic data releases that could shift Fed policy expectations."
+    ],
+    "watch_items": [
+      "Jim Cramer's commentary on crypto.",
+      "Developments in ongoing crypto regulatory investigations.",
+      "Performance of Bitcoin mining ETFs.",
+      "Macroeconomic indicators (e.g., inflation data, employment figures)."
+    ]
+  }
+}

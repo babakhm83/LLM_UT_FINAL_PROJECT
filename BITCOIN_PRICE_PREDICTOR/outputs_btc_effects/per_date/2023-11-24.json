@@ -1,0 +1,504 @@
+{
+  "date": "2023-11-24",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n51d030022bac",
+      "title": "Bitcoin Price Shoots Up on BlackRock (BLK) ETF Approval Rumor",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-shoots-blackrock-blk-093800383.html",
+      "summary": "Reports of the SEC approving BlackRock's spot Bitcoin ETF application caused Bitcoin's price to briefly cross $30,000. While later clarified as a rumor, the event highlights the significant market impact of potential ETF approvals. A regulated and orderly way for investors to gain Bitcoin exposure without direct ownership is a key driver for institutional interest and potential price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_rumor",
+        "SEC_approval_speculation",
+        "institutional_demand"
+      ],
+      "rationale": "The repeated market reaction to ETF approval rumors underscores the anticipation for such a product. If approved, a spot Bitcoin ETF would unlock significant institutional capital, driving demand and price appreciation over the long term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n6a48281e47c8",
+      "title": "Bitcoin, Ether fall with Toncoin leading losses in top 10 cryptos",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-fall-toncoin-leading-102711521.html",
+      "summary": "Bitcoin and other top cryptocurrencies experienced a decline, influenced by the Federal Reserve's indication of continued higher interest rates. This macro-economic sentiment suggests a tightening liquidity environment, which typically pressures risk assets like cryptocurrencies. The Fed's stance on rates remains a critical factor for broader market sentiment and asset valuations.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_expectations",
+        "macroeconomic_headwinds",
+        "risk_off_sentiment"
+      ],
+      "rationale": "The Federal Reserve's monetary policy directly impacts risk appetite for assets like Bitcoin. A prolonged period of higher interest rates can reduce capital available for speculative investments, leading to downward pressure on crypto prices."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n53f71008d072",
+      "title": "Is Ethereum once again a victim of its own success?",
+      "url": "https://finance.yahoo.com/news/ethereum-once-again-victim-own-090100503.html",
+      "summary": "Ethereum's transition to Proof-of-Stake (PoS) has increased staking, leading to concerns about network liquidity. Developers are proposing solutions to limit staking rates to maintain network health, which could impact user access to rewards. This situation highlights the ongoing challenges in balancing network security, decentralization, and liquidity for staked assets.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Ethereum_staking_liquidity",
+        "PoS_network_health",
+        "DeFi_integration"
+      ],
+      "rationale": "While increased staking can signal network health and adoption, potential liquidity constraints could hinder DeFi growth and user participation. The resolution of these issues will be crucial for Ethereum's long-term value proposition."
+    },
+    {
+      "pick_idx": 6,
+      "id": "neefa620bb54d",
+      "title": "REFILE-FOREX-US dollar retreats as risk appetite rises, Fed rate hikes seen as done",
+      "url": "https://finance.yahoo.com/news/forex-us-dollar-retreats-risk-145716113.html",
+      "summary": "The U.S. dollar weakened as risk appetite returned, with markets anticipating the Federal Reserve has concluded its interest rate hikes. This sentiment shift suggests a potential easing of monetary policy or a pause, which typically benefits risk assets like cryptocurrencies. A weaker dollar can also correlate with increased global liquidity, potentially flowing into emerging asset classes.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_weakness",
+        "Fed_pause_sentiment",
+        "risk_on_environment"
+      ],
+      "rationale": "A Fed pause or pivot is a significant macro catalyst for risk assets. A weaker dollar and increased risk appetite generally lead to capital inflows into cryptocurrencies, supporting higher prices."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n088864533aa1",
+      "title": "Sam Bankman-Fried must now convince a jury that the former crypto king was not a crook",
+      "url": "https://finance.yahoo.com/news/sam-bankman-fried-must-now-111418261.html",
+      "summary": "The trial of Sam Bankman-Fried (SBF), founder of FTX, is underway, with prosecutors alleging he stole billions in customer deposits. This high-profile case significantly impacts the perception of the crypto industry, potentially leading to increased regulatory scrutiny and a loss of trust among retail and institutional investors. The outcome could shape future regulations and market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SBF_trial",
+        "FTX_collapse",
+        "regulatory_crackdown_risk"
+      ],
+      "rationale": "The SBF trial and the FTX collapse have severely damaged the reputation of the crypto industry. This could lead to stricter regulations and a prolonged period of reduced institutional adoption, negatively impacting Bitcoin's long-term growth prospects."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nbfc8c615c6bf",
+      "title": "Could Sam Bankman-Fried's Saga Happen Without Crypto?",
+      "url": "https://finance.yahoo.com/news/could-sam-bankman-frieds-saga-212913019.html",
+      "summary": "Sam Bankman-Fried's trial is a pivotal moment for crypto, with SBF becoming a symbol of the industry's flaws. The narrative surrounding his downfall highlights issues of mismanagement, fraud, and lack of transparency. This trial is crucial for shaping public and regulatory perception of the entire cryptocurrency space.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SBF_symbolism",
+        "crypto_industry_perception",
+        "regulatory_impact"
+      ],
+      "rationale": "The SBF saga serves as a cautionary tale that could lead to more stringent regulations, potentially stifling innovation and adoption in the crypto space. This negative sentiment can weigh on Bitcoin's long-term outlook."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n20819b59f7ec",
+      "title": "BlackRock (BLK) Seeks Crypto Expansion, Files for Ethereum ETF",
+      "url": "https://finance.yahoo.com/news/blackrock-blk-seeks-crypto-expansion-140100489.html",
+      "summary": "BlackRock has filed for a spot Ethereum ETF, signaling further institutional interest in the digital asset space beyond Bitcoin. This move, following their Bitcoin ETF application, suggests a broader strategy to offer crypto-related investment products. The potential approval of an Ethereum ETF could significantly boost demand and adoption for ETH.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BlackRock_ETH_ETF_filing",
+        "institutional_adoption_ETH",
+        "crypto_product_expansion"
+      ],
+      "rationale": "BlackRock's continued expansion into crypto ETFs, now including Ethereum, demonstrates a strong commitment from a major financial institution. This is a significant positive signal for institutional adoption and could lead to substantial capital inflows into the Ethereum ecosystem."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nb833398c22a5",
+      "title": "Dogecoin literally mooning? Deal to blast physical token into space sends price skyrocketing",
+      "url": "https://finance.yahoo.com/news/dogecoin-literally-mooning-deal-blast-203944035.html",
+      "summary": "A deal to send a physical Dogecoin token into space has caused its price to surge. While this is a speculative and novelty-driven event, it highlights the meme-driven nature of some crypto assets and their susceptibility to viral marketing. Such events can create short-term volatility but have limited long-term impact on fundamental value.",
+      "impact_horizon_months": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Dogecoin_space_event",
+        "meme_coin_volatility",
+        "novelty_driven_demand"
+      ],
+      "rationale": "While the Dogecoin space event is a short-term speculative driver, it showcases the power of narrative and community in crypto. It has minimal impact on Bitcoin's long-term fundamentals but reflects broader market sentiment towards altcoins."
+    },
+    {
+      "pick_idx": 16,
+      "id": "na7828467c592",
+      "title": "3 Blockchain Stocks to Buy Before Bitcoin’s Halving in 2024",
+      "url": "https://finance.yahoo.com/news/3-blockchain-stocks-buy-bitcoin-204641725.html",
+      "summary": "The article suggests investing in blockchain stocks ahead of the 2024 Bitcoin halving, citing the potential for these stocks to outperform Bitcoin itself, as seen in the 2020 bull market. It highlights institutional adoption and the growing acceptance of crypto as a primary asset class as key drivers. The upcoming halving is presented as a significant catalyst for the sector.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_halving_anticipation",
+        "blockchain_stocks",
+        "institutional_adoption_trend"
+      ],
+      "rationale": "The anticipation of the Bitcoin halving event, coupled with increasing institutional interest, suggests a potentially bullish period for the broader crypto ecosystem, including related stocks. This indicates a growing maturity and acceptance of digital assets."
+    },
+    {
+      "pick_idx": 17,
+      "id": "ncd0b41e1126d",
+      "title": "Bitcoin’s Hash Rate Hits All-time High, Shows Strong Network Ahead of Halving",
+      "url": "https://finance.yahoo.com/news/bitcoin-hash-rate-hits-time-053634446.html",
+      "summary": "Bitcoin's hash rate has reached an all-time high, indicating increased network security and mining activity. This surge in computing power ahead of the 2024 halving suggests robust miner confidence and investment in the network's infrastructure. A higher hash rate generally makes the network more secure and resistant to attacks.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Bitcoin_hash_rate_ATH",
+        "network_security",
+        "halving_preparation"
+      ],
+      "rationale": "An all-time high hash rate signifies strong network health and miner confidence, especially leading up to the halving. This robust infrastructure is a positive long-term indicator for Bitcoin's security and operational capacity."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n1957676fc9fa",
+      "title": "BitMask Wallet 0.7.0 Soars: A Quantum Leap in Bitcoin Evolution Surges Over 760,000 Wallets in Just One Month",
+      "url": "https://finance.yahoo.com/news/bitmask-wallet-0-7-0-024346912.html",
+      "summary": "The beta release of BitMask Wallet 0.7.0 has seen rapid user adoption, surpassing 760,000 wallets in a month without advertising. This indicates strong community trust and growing utility for Bitcoin. The partnership with DIBA Global further solidifies its position.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BitMask_wallet_adoption",
+        "user_growth_metric",
+        "Bitcoin_utility_expansion"
+      ],
+      "rationale": "Rapid user adoption of a new Bitcoin wallet suggests increasing engagement with the Bitcoin ecosystem, potentially leading to higher transaction volumes and network activity in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n9120cdefd9b1",
+      "title": "Coinbase Stock’s (NASDAQ:COIN) Valuation is Getting Ahead of Itself",
+      "url": "https://finance.yahoo.com/news/coinbase-stock-nasdaq-coin-valuation-045235566.html",
+      "summary": "Coinbase's valuation has surged significantly, driven by Bitcoin's performance and ETF approval expectations. However, the analysis suggests its valuation may be outpacing its business fundamentals, leading to a neutral stance. This indicates potential for short-term volatility in COIN stock.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinbase_valuation",
+        "COIN_stock_sentiment",
+        "ETF_anticipation_impact"
+      ],
+      "rationale": "While ETF anticipation boosts Coinbase, concerns about its valuation could lead to short-term price corrections. This sentiment might spill over to broader crypto market sentiment if COIN's price action is closely watched."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n1a3beddcc664",
+      "title": "Bull Market Is Coming, According to Heads of Australia Crypto Exchanges",
+      "url": "https://finance.yahoo.com/news/bull-market-coming-according-heads-053111453.html",
+      "summary": "Leaders of major Australian crypto exchanges anticipate a bull market in early 2024. This positive outlook from industry participants suggests growing confidence and preparation for increased market activity. Such sentiment can influence short-term trading behavior.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Australia_crypto_sentiment",
+        "bull_market_forecast",
+        "exchange_preparedness"
+      ],
+      "rationale": "Positive sentiment from exchange leaders can create a self-fulfilling prophecy, encouraging more trading activity and potentially driving prices higher in the near term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n2f39d2782024",
+      "title": "Bitcoin Sender Mistakenly Overpays Record $3M in Transaction Fees",
+      "url": "https://finance.yahoo.com/news/bitcoin-sender-mistakenly-overpays-record-053338335.html",
+      "summary": "A Bitcoin sender paid an unprecedented $3 million in transaction fees for a single transaction, highlighting potential network congestion or user error. While an isolated incident, extremely high fees can deter smaller transactions and impact network usability in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "high_BTC_transaction_fees",
+        "network_congestion_indicator",
+        "user_error_event"
+      ],
+      "rationale": "While an anomaly, exceptionally high transaction fees can temporarily reduce liquidity for smaller transactions and signal potential network strain, which could lead to minor price fluctuations."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na9b99866ee00",
+      "title": "El Salvador’s Nayib Bukele Down 8% on His 3,120 BTC Investment",
+      "url": "https://finance.yahoo.com/news/el-salvador-nayib-bukele-down-054103803.html",
+      "summary": "El Salvador's President Nayib Bukele's Bitcoin investment is reportedly down 7.7%. This news, while specific to a government's holdings, can influence public perception and sentiment towards Bitcoin adoption, especially in countries considering similar strategies. It highlights the volatility of Bitcoin as a reserve asset.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "El_Salvador_BTC_holdings",
+        "Bukele_investment_performance",
+        "state_adoption_sentiment"
+      ],
+      "rationale": "Negative performance of a high-profile Bitcoin investment by a head of state can create short-term negative sentiment, potentially impacting retail investor confidence and leading to minor price dips."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nea3e742a044b",
+      "title": "Glassnode: Bitcoin ETF To Unlock $70B in New Demand",
+      "url": "https://finance.yahoo.com/news/glassnode-bitcoin-etf-unlock-70b-082559274.html",
+      "summary": "On-chain data firm Glassnode estimates that a spot Bitcoin ETF approval could unlock up to $70 billion in new demand. This projection is based on capital shifting from other ETFs and gold. The report highlights diminishing Bitcoin supply available for trading, suggesting potential price appreciation if demand surges.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Glassnode_ETF_demand_forecast",
+        "potential_capital_inflow",
+        "supply_demand_imbalance"
+      ],
+      "rationale": "The prospect of significant new capital inflows driven by a Bitcoin ETF approval is a strong short-term bullish signal. This anticipation alone can drive price action as investors position themselves for potential approval."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n4d551cd7d885",
+      "title": "Bitfarms Announces C$60 Million Private Placement with U.S. Institutional Investors",
+      "url": "https://finance.yahoo.com/news/bitfarms-announces-c-60-million-123000666.html",
+      "summary": "Bitcoin mining company Bitfarms has secured C$60 million through a private placement with U.S. institutional investors. This capital infusion indicates continued institutional interest in the mining sector and provides Bitfarms with resources for operations and growth, potentially impacting its stock and Bitcoin mining capacity.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "miner"
+      ],
+      "features_for_model": [
+        "Bitfarms_private_placement",
+        "institutional_investment_miner",
+        "mining_capacity_funding"
+      ],
+      "rationale": "Institutional investment in mining companies like Bitfarms signals underlying confidence in the sector. This can lead to increased mining activity and potentially support Bitcoin's price through enhanced network security."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n9844321c584d",
+      "title": "Another major crypto exchange has been hacked, with $100 million stolen",
+      "url": "https://finance.yahoo.com/news/another-major-crypto-exchange-hacked-173030024.html",
+      "summary": "Cryptocurrency exchange HTX and the Heco Chain protocol have been victims of a cyberattack, resulting in approximately $100 million in stolen funds. HTX has pledged full reimbursement. This event raises concerns about exchange security and could lead to temporary withdrawal suspensions or reduced user confidence.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "HTX_hack",
+        "exchange_security_breach",
+        "stolen_funds_amount"
+      ],
+      "rationale": "Major exchange hacks erode trust and can lead to temporary liquidity issues or user apprehension, potentially causing short-term price dips for affected assets and the broader market."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nea3e742a044b",
+      "title": "Glassnode: Bitcoin ETF To Unlock $70B in New Demand",
+      "url": "https://finance.yahoo.com/news/glassnode-bitcoin-etf-unlock-70b-082559274.html",
+      "summary": "On-chain data firm Glassnode estimates that a spot Bitcoin ETF approval could unlock up to $70 billion in new demand. This projection is based on capital shifting from other ETFs and gold. The report highlights diminishing Bitcoin supply available for trading, suggesting potential price appreciation if demand surges.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Glassnode_ETF_demand_forecast",
+        "potential_capital_inflow",
+        "supply_demand_imbalance"
+      ],
+      "rationale": "The prospect of significant new capital inflows driven by a Bitcoin ETF approval is a strong short-term bullish signal. This anticipation alone can drive price action as investors position themselves for potential approval."
+    },
+    {
+      "pick_idx": 27,
+      "id": "nea3e742a044b",
+      "title": "Glassnode: Bitcoin ETF To Unlock $70B in New Demand",
+      "url": "https://finance.yahoo.com/news/glassnode-bitcoin-etf-unlock-70b-082559274.html",
+      "summary": "On-chain data firm Glassnode estimates that a spot Bitcoin ETF approval could unlock up to $70 billion in new demand. This projection is based on capital shifting from other ETFs and gold. The report highlights diminishing Bitcoin supply available for trading, suggesting potential price appreciation if demand surges.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Glassnode_ETF_demand_forecast",
+        "potential_capital_inflow",
+        "supply_demand_imbalance"
+      ],
+      "rationale": "The prospect of significant new capital inflows driven by a Bitcoin ETF approval is a strong short-term bullish signal. This anticipation alone can drive price action as investors position themselves for potential approval."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-11-24",
+    "summary": "The crypto market is showing mixed signals today. Positive sentiment is driven by anticipation of a Bitcoin ETF approval, with Glassnode estimating significant potential demand. However, concerns about Coinbase's valuation and a major exchange hack (HTX) introduce bearish elements. El Salvador's Bitcoin investment performance also adds a note of caution. The overall market sentiment remains cautiously optimistic, with a strong focus on institutional adoption catalysts.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Regulatory uncertainty surrounding potential ETF approvals.",
+      "Macroeconomic factors, including interest rate decisions and inflation.",
+      "Security breaches and hacks on exchanges or protocols.",
+      "Negative sentiment stemming from high-profile legal cases (e.g., SBF trial).",
+      "Increased transaction fees impacting network usability."
+    ],
+    "watch_items": [
+      "SEC decisions on spot Bitcoin ETFs.",
+      "Federal Reserve statements on monetary policy.",
+      "Coinbase (COIN) stock performance and analyst ratings.",
+      "Developments in the SBF trial.",
+      "Major exchange security updates and incident responses."
+    ]
+  }
+}

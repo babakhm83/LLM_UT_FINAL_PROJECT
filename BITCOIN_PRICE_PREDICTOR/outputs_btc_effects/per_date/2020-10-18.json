@@ -1,0 +1,508 @@
+{
+  "date": "2020-10-18",
+  "long_term": [
+    {
+      "pick_idx": 10,
+      "id": "neb836e0b923d",
+      "title": "Ready to Wumbo: LND Enables More, Larger Bitcoin Transactions on Lightning",
+      "url": "https://finance.yahoo.com/news/ready-wumbo-lnd-enables-more-173150625.html",
+      "summary": "LND, a leading Lightning Network implementation, has adopted support for 'wumbo' channels. This update allows users to deposit more funds into Lightning Network channels and conduct larger transactions. This development is significant for the scalability and usability of Bitcoin's second-layer payment protocol, potentially paving the way for broader adoption by businesses and individuals seeking faster and cheaper transactions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_capacity",
+        "LND_update",
+        "wumbo_channels",
+        "transaction_size"
+      ],
+      "rationale": "Increased capacity and larger transaction sizes on the Lightning Network are crucial for its adoption as a viable payment solution. This upgrade removes a key technical barrier, making it more attractive for businesses and users, which could lead to increased BTC utility and demand over the medium term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "na142a494b775",
+      "title": "Bitcoin Sets Record 63 Straight Days Closing Above $10,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-sets-record-63-straight-000123922.html",
+      "summary": "Bitcoin achieved a record 63 consecutive daily closes above $10,000. This streak, surpassing the previous record from the 2017 bull run, indicates sustained market confidence and stability above a key psychological and technical level. While the price action within this period has been relatively range-bound, the consistent closing price demonstrates resilience and a potential shift in market sentiment towards higher valuations.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "price_stability",
+        "psychological_level",
+        "market_sentiment",
+        "consecutive_closes"
+      ],
+      "rationale": "Consistently closing above $10,000 for an extended period signals strong underlying demand and a potential re-rating of Bitcoin's value. This sustained price action can attract further institutional interest and retail adoption, reinforcing a bullish long-term outlook."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n6f9346238d1a",
+      "title": "Tron links up with BitGo to bring Wrapped BTC, ETH to blockchain network",
+      "url": "https://finance.yahoo.com/news/tron-links-bitgo-bring-wrapped-184242775.html",
+      "summary": "Tron is partnering with BitGo to introduce Wrapped Bitcoin (WBTC) and Wrapped Ether (WETH) as TRC20 tokens on its network. WBTC is a synthetic representation of Bitcoin backed 1:1 by custodied Bitcoin. This integration allows Bitcoin to be used within the Tron ecosystem, potentially increasing liquidity and interoperability for BTC holders and developers within Tron's DeFi and dApp landscape.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "wrapped_bitcoin",
+        "TRON_integration",
+        "BitGo_partnership",
+        "interoperability"
+      ],
+      "rationale": "Bringing WBTC to the Tron network enhances Bitcoin's utility and composability within another major blockchain ecosystem. This cross-chain integration can attract new users and capital, potentially boosting demand for Bitcoin as it becomes more accessible in different DeFi environments."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n33776fb212e4",
+      "title": "Ebang International Holdings Inc. Establishes Subsidiary in Canada in Preparation of Establishing Digital Asset Financial Service Platform",
+      "url": "https://finance.yahoo.com/news/ebang-international-holdings-inc-establishes-123000581.html",
+      "summary": "Ebang International Holdings, a Bitcoin mining machine manufacturer, has established a subsidiary in Canada to enhance its industrial chain and develop a digital asset financial service platform. The Canadian subsidiary has obtained a Money Service Business License. This strategic move indicates a diversification into financial services and a commitment to regulatory compliance in a key jurisdiction, signaling potential growth in the broader digital asset ecosystem.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_manufacturer",
+        "Canadian_subsidiary",
+        "MSB_license",
+        "digital_asset_platform"
+      ],
+      "rationale": "Ebang's expansion into financial services, backed by a regulated Canadian entity, suggests a move towards broader market participation. This diversification could leverage their existing infrastructure and expertise, potentially contributing to the growth and legitimacy of the digital asset space."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n12fd4953e88e",
+      "title": "Money Reimagined: How Ethereum 2.0’s ‘Lockup’ Will Drive DeFi Innovation",
+      "url": "https://finance.yahoo.com/news/money-reimagined-ethereum-2-0-151018953.html",
+      "summary": "The upcoming Ethereum 2.0 upgrade, particularly the 'lockup' of staked ETH, is expected to incentivize DeFi innovation. With a significant amount of ETH potentially locked for extended periods, there will be a strong demand for solutions that unlock the value of these staked assets without compromising the upgrade's integrity. This scenario creates a fertile ground for DeFi developers to build new products and services.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "DeFi",
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethereum_2.0",
+        "ETH_staking",
+        "DeFi_innovation",
+        "liquidity_unlock"
+      ],
+      "rationale": "The ETH 2.0 lockup is a major catalyst for DeFi innovation. By creating demand for yield-generating strategies on locked ETH, it can significantly boost capital inflows and development within the DeFi ecosystem, indirectly benefiting Bitcoin through overall market growth and correlation."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n53b45b0d3420",
+      "title": "U.S. charges BitMEX cryptocurrency founders with failing to prevent money laundering",
+      "url": "https://finance.yahoo.com/news/u-charges-bitmex-cryptocurrency-executives-155136081.html",
+      "summary": "U.S. prosecutors have filed criminal charges against four founders and executives of BitMEX, a major cryptocurrency derivatives exchange, for allegedly violating the Bank Secrecy Act and conspiring to do so. This action highlights the increasing regulatory scrutiny on centralized crypto platforms and the potential for legal challenges to impact market participants and the broader industry's compliance efforts.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "BitMEX_charges",
+        "money_laundering",
+        "regulatory_scrutiny",
+        "Bank_Secrecy_Act"
+      ],
+      "rationale": "Regulatory actions against major exchanges like BitMEX can create uncertainty and fear in the market, potentially leading to reduced trading volumes and a cautious approach from investors. This could have a dampening effect on Bitcoin's price in the short to medium term."
+    },
+    {
+      "pick_idx": 36,
+      "id": "nccc4019dc62b",
+      "title": "First Mover: Bitcoin Investors the Sane Ones as Federal Reserve Cheers Inflation, Price Nears $11K",
+      "url": "https://finance.yahoo.com/news/first-mover-bitcoin-investors-sane-125620774.html",
+      "summary": "The article posits that Bitcoin investors are acting rationally by seeking assets that hedge against inflation, especially as the Federal Reserve appears to be embracing inflationary policies. The narrative suggests that Bitcoin is increasingly viewed as a store of value, similar to gold, in an environment of quantitative easing and potential currency debasement. This perspective frames Bitcoin as a sound investment strategy against macro-economic trends.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "store_of_value"
+      ],
+      "features_for_model": [
+        "inflation_hedge",
+        "store_of_value",
+        "Fed_policy",
+        "currency_debasement"
+      ],
+      "rationale": "The narrative of Bitcoin as an inflation hedge is a powerful long-term driver. As central banks continue expansionary monetary policies, assets like Bitcoin that are scarce and outside traditional financial systems are likely to see increased demand."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n2721a99483c4",
+      "title": "Bitcoin DeFi Expands as the RSK Infrastructure Framework (RIF) integrates DAI",
+      "url": "https://finance.yahoo.com/news/bitcoin-defi-expands-rsk-infrastructure-142000396.html",
+      "summary": "The RSK Infrastructure Framework (RIF) has integrated the DAI stablecoin via the RSK-Ethereum token bridge. This integration allows DAI to be used on the Bitcoin-powered RSK smart contract platform, enhancing Bitcoin's DeFi capabilities. Developers can now build decentralized applications on RSK that interact with the Ethereum ecosystem, leveraging network effects and liquidity while benefiting from RSK's scalability and lower transaction costs.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "DeFi",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "RSK_integration",
+        "DAI_stablecoin",
+        "Bitcoin_DeFi",
+        "token_bridge"
+      ],
+      "rationale": "The integration of DAI on RSK signifies a growing trend of bringing stablecoins and DeFi functionalities to the Bitcoin ecosystem. This expansion of Bitcoin's utility beyond just a store of value can attract more users and capital, positively impacting Bitcoin's long-term prospects."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n7cdf923adebf",
+      "title": "Square Invests in Bitcoins to Boost Cryptocurrency Footprint",
+      "url": "https://finance.yahoo.com/news/square-invests-bitcoins-boost-cryptocurrency-145502629.html",
+      "summary": "Square has invested $50 million in Bitcoin, acquiring 4,709 BTC. This move increases the company's Bitcoin reserves and is expected to enhance its cryptocurrency offerings, particularly through its Cash App. The investment signals strong corporate confidence in Bitcoin and its potential for revenue generation, further legitimizing Bitcoin as an asset class for institutional adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Square_investment",
+        "corporate_treasury",
+        "Cash_App",
+        "BTC_acquisition"
+      ],
+      "rationale": "Significant corporate investments in Bitcoin, like Square's, are powerful endorsements that attract further institutional capital and signal growing acceptance of Bitcoin as a legitimate asset. This trend is a strong bullish indicator for long-term price appreciation."
+    },
+    {
+      "pick_idx": 47,
+      "id": "nbe10d58fc515",
+      "title": "Blockchain Bites: DeFi Meets NFTs, TSLA Beats Bitcoin in Volatility, Uniswap Breaks $2B",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-defi-meets-nfts-155732204.html",
+      "summary": "This article highlights several key trends: Bitcoin's reduced volatility compared to Tesla (TSLA), the growth of DeFi with Uniswap surpassing $2 billion in total value locked, and the intersection of DeFi with Non-Fungible Tokens (NFTs). It also notes that Bitwise's Bitcoin fund has doubled in size, indicating increased accredited investor interest. These points collectively suggest a maturing crypto market with growing institutional participation and expanding use cases.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "DeFi",
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "DeFi_growth",
+        "NFT_integration",
+        "institutional_interest",
+        "Bitwise_fund"
+      ],
+      "rationale": "The increasing institutional interest, as evidenced by the Bitwise fund's growth, and the expanding use cases in DeFi and NFTs, point to a broadening adoption of crypto assets. This diversification of demand beyond speculative trading is a positive sign for long-term value."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n1fb86bea7db1",
+      "title": "The Crypto Daily – Movers and Shakers – October 18th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-october-030126714.html",
+      "summary": "Bitcoin saw a modest rise of 0.44% on Saturday, partially recovering from Friday's decline. It traded between $11,275 and $11,418, staying within established support and resistance levels. The price action suggests consolidation, with Bitcoin failing to break through the first major resistance at $11,511.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_wrap"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "consolidation",
+        "support_resistance"
+      ],
+      "rationale": "The mixed price action and failure to break resistance suggest a lack of immediate upward momentum, but also no significant downside pressure. The market appears to be in a holding pattern."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne9a25096a564",
+      "title": "How Stocks, Bitcoin and Other Investments Fare in a 0% Interest Rate World",
+      "url": "https://finance.yahoo.com/news/stocks-bitcoin-other-investments-fare-130000714.html",
+      "summary": "This piece discusses the implications of a zero-bound interest rate environment for various investments, including Bitcoin. It suggests that in such a scenario, risk assets like Bitcoin may become more attractive as investors seek yield and hedge against potential inflation, a theme that could influence market sentiment in the coming days.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "zero_interest_rates",
+        "risk_assets",
+        "inflation_hedge",
+        "macro_sentiment"
+      ],
+      "rationale": "The ongoing discussion about low interest rates and potential inflation can create a favorable narrative for Bitcoin as a store of value, potentially driving short-term buying interest."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n11ad07075353",
+      "title": "ALT 5 Sigma Digital Instrument Market Summary for BTC, ETH, LTC, BCH",
+      "url": "https://finance.yahoo.com/news/alt-5-sigma-digital-instrument-205000701.html",
+      "summary": "ALT 5 Sigma provides its daily market summary for Bitcoin, Ether, and Litecoin. This is a routine market data update, offering no specific directional catalysts but providing context on asset performance.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "market_data"
+      ],
+      "features_for_model": [
+        "market_summary",
+        "ALT5Sigma"
+      ],
+      "rationale": "Routine market data updates typically have minimal short-term impact unless they reveal significant deviations or trends not already priced in."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb868a68291c8",
+      "title": "Pelosi Says It’s Tuesday or Bust if White House Wants a Pre-Election Stimulus Package: Report",
+      "url": "https://finance.yahoo.com/news/pelosi-says-tuesday-bust-white-212633747.html",
+      "summary": "House Speaker Nancy Pelosi has set a Tuesday deadline for the White House to reach a deal on a pandemic stimulus package, indicating that failure to do so would make passage before the election unlikely. This news injects uncertainty into the market regarding potential fiscal stimulus, which could impact risk assets like Bitcoin.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "stimulus"
+      ],
+      "features_for_model": [
+        "stimulus_talks",
+        "Pelosi_deadline",
+        "fiscal_policy",
+        "election_uncertainty"
+      ],
+      "rationale": "The impending deadline for stimulus talks creates a binary event risk. A positive outcome could boost risk assets, while a failure to agree could lead to a sell-off."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ne9a25096a564",
+      "title": "How Stocks, Bitcoin and Other Investments Fare in a 0% Interest Rate World",
+      "url": "https://finance.yahoo.com/news/stocks-bitcoin-other-investments-fare-130000714.html",
+      "summary": "This piece discusses the implications of a zero-bound interest rate environment for various investments, including Bitcoin. It suggests that in such a scenario, risk assets like Bitcoin may become more attractive as investors seek yield and hedge against potential inflation, a theme that could influence market sentiment in the coming days.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "zero_interest_rates",
+        "risk_assets",
+        "inflation_hedge",
+        "macro_sentiment"
+      ],
+      "rationale": "The ongoing discussion about low interest rates and potential inflation can create a favorable narrative for Bitcoin as a store of value, potentially driving short-term buying interest."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n11ad07075353",
+      "title": "ALT 5 Sigma Digital Instrument Market Summary for BTC, ETH, LTC, BCH",
+      "url": "https://finance.yahoo.com/news/alt-5-sigma-digital-instrument-205000701.html",
+      "summary": "ALT 5 Sigma provides its daily market summary for Bitcoin, Ether, and Litecoin. This is a routine market data update, offering no specific directional catalysts but providing context on asset performance.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "market_data"
+      ],
+      "features_for_model": [
+        "market_summary",
+        "ALT5Sigma"
+      ],
+      "rationale": "Routine market data updates typically have minimal short-term impact unless they reveal significant deviations or trends not already priced in."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n1fb86bea7db1",
+      "title": "The Crypto Daily – Movers and Shakers – October 18th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-october-030126714.html",
+      "summary": "Bitcoin saw a modest rise of 0.44% on Saturday, partially recovering from Friday's decline. It traded between $11,275 and $11,418, staying within established support and resistance levels. The price action suggests consolidation, with Bitcoin failing to break through the first major resistance at $11,511.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_wrap"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "consolidation",
+        "support_resistance"
+      ],
+      "rationale": "The mixed price action and failure to break resistance suggest a lack of immediate upward momentum, but also no significant downside pressure. The market appears to be in a holding pattern."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne9a25096a564",
+      "title": "How Stocks, Bitcoin and Other Investments Fare in a 0% Interest Rate World",
+      "url": "https://finance.yahoo.com/news/stocks-bitcoin-other-investments-fare-130000714.html",
+      "summary": "This piece discusses the implications of a zero-bound interest rate environment for various investments, including Bitcoin. It suggests that in such a scenario, risk assets like Bitcoin may become more attractive as investors seek yield and hedge against potential inflation, a theme that could influence market sentiment in the coming days.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "zero_interest_rates",
+        "risk_assets",
+        "inflation_hedge",
+        "macro_sentiment"
+      ],
+      "rationale": "The ongoing discussion about low interest rates and potential inflation can create a favorable narrative for Bitcoin as a store of value, potentially driving short-term buying interest."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n11ad07075353",
+      "title": "ALT 5 Sigma Digital Instrument Market Summary for BTC, ETH, LTC, BCH",
+      "url": "https://finance.yahoo.com/news/alt-5-sigma-digital-instrument-205000701.html",
+      "summary": "ALT 5 Sigma provides its daily market summary for Bitcoin, Ether, and Litecoin. This is a routine market data update, offering no specific directional catalysts but providing context on asset performance.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "market_data"
+      ],
+      "features_for_model": [
+        "market_summary",
+        "ALT5Sigma"
+      ],
+      "rationale": "Routine market data updates typically have minimal short-term impact unless they reveal significant deviations or trends not already priced in."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nb868a68291c8",
+      "title": "Pelosi Says It’s Tuesday or Bust if White House Wants a Pre-Election Stimulus Package: Report",
+      "url": "https://finance.yahoo.com/news/pelosi-says-tuesday-bust-white-212633747.html",
+      "summary": "House Speaker Nancy Pelosi has set a Tuesday deadline for the White House to reach a deal on a pandemic stimulus package, indicating that failure to do so would make passage before the election unlikely. This news injects uncertainty into the market regarding potential fiscal stimulus, which could impact risk assets like Bitcoin.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "stimulus"
+      ],
+      "features_for_model": [
+        "stimulus_talks",
+        "Pelosi_deadline",
+        "fiscal_policy",
+        "election_uncertainty"
+      ],
+      "rationale": "The impending deadline for stimulus talks creates a binary event risk. A positive outcome could boost risk assets, while a failure to agree could lead to a sell-off."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-10-18",
+    "summary": "Bitcoin is showing signs of consolidation, trading within a tight range after a modest Saturday gain. Macroeconomic factors, particularly the ongoing stimulus package negotiations and the implications of a zero-interest-rate environment, are key drivers influencing market sentiment. The upcoming Tuesday deadline for stimulus talks presents a significant event risk, with potential for either a bullish or bearish reaction depending on the outcome.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Failure to reach a stimulus deal by Tuesday could trigger a market sell-off.",
+      "Increased regulatory scrutiny on exchanges (e.g., BitMEX charges) could create broader market uncertainty.",
+      "Macroeconomic factors like a strengthening USD or renewed COVID-19 concerns could negatively impact risk assets.",
+      "Technical resistance around $11,500 could cap short-term upside."
+    ],
+    "watch_items": [
+      "US stimulus package negotiations and Pelosi's Tuesday deadline.",
+      "Federal Reserve commentary on interest rates and inflation.",
+      "Bitcoin's price action around the $11,500 resistance level.",
+      "Developments in DeFi and institutional adoption trends."
+    ]
+  }
+}

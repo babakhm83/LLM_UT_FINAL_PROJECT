@@ -1,0 +1,508 @@
+{
+  "date": "2023-12-13",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n5cce69c09c79",
+      "title": "Michael Saylor’s Microstrategy Stock Price Reaches Two-Year-High, Boosted by Bitcoin Holdings",
+      "url": "https://finance.yahoo.com/news/michael-saylor-microstrategy-stock-price-052937545.html",
+      "summary": "MicroStrategy's stock price has surged to a two-year high, surpassing $500, driven by its substantial Bitcoin holdings. The company's long-term strategy of accumulating Bitcoin as a hedge against inflation and a store of value has proven profitable. This sustained bullish stance by a prominent corporate entity signals strong conviction in Bitcoin's long-term value proposition, potentially influencing institutional adoption and market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_stock_performance",
+        "Saylor_conviction",
+        "corporate_bitcoin_holdings"
+      ],
+      "rationale": "MicroStrategy's continued success with its Bitcoin strategy reinforces the narrative of Bitcoin as a corporate treasury asset. This positive performance can attract further institutional interest and investment, potentially driving up Bitcoin's price over the long term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n236ad7255e59",
+      "title": "The Sudden Downfall of Changpeng Zhao, the Crypto Titan Behind Binance",
+      "url": "https://finance.yahoo.com/news/changpeng-zhao-brawling-titan-binance-230827290.html",
+      "summary": "Changpeng Zhao (CZ), the founder of Binance, has faced significant legal challenges, including pleading guilty to U.S. money-laundering charges and stepping down as CEO. This event marks a major shift in the cryptocurrency landscape, impacting the perception of regulatory compliance within major exchanges and potentially leading to stricter oversight. The fallout could influence the operational strategies of other large crypto platforms and the overall trust in centralized exchanges.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Binance_CEO_legal_issues",
+        "CZ_plea_deal",
+        "exchange_regulatory_scrutiny"
+      ],
+      "rationale": "The legal troubles and departure of Binance's CEO create significant uncertainty for the exchange and the broader crypto market. This could lead to increased regulatory pressure on all exchanges, potentially impacting liquidity and innovation in the short to medium term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n9230a01239c2",
+      "title": "Arthur Hayes Says BTC Is Rallying Over US Military Spending, Not ETF Hype",
+      "url": "https://finance.yahoo.com/news/arthur-hayes-says-btc-rallying-053200278.html",
+      "summary": "Arthur Hayes, co-founder of BitMEX, argues that the recent crypto market rally is driven by increased US military spending and subsequent government borrowing, rather than anticipation of a spot Bitcoin ETF. He suggests that this increased government debt issuance could lead to inflation and a devaluing of fiat currency, making Bitcoin an attractive hedge. This perspective offers an alternative macroeconomic driver for Bitcoin's price appreciation, focusing on fiscal policy rather than financial product innovation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Hayes_thesis",
+        "military_spending_impact",
+        "government_debt_inflation"
+      ],
+      "rationale": "Hayes's macroeconomic thesis, linking military spending to potential inflation and Bitcoin's appeal as a hedge, provides a long-term bullish fundamental argument. If geopolitical tensions and government spending increase, this could indeed drive demand for Bitcoin as a safe-haven asset."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nfec89d16f404",
+      "title": "Bug Fix on Bitcoin Core Could End Bitcoin Ordinals and BRC-20 Token, According to Bitcoin Developer",
+      "url": "https://finance.yahoo.com/news/bug-fix-bitcoin-core-could-073725344.html",
+      "summary": "A potential bug fix in the upcoming Bitcoin Core v27 upgrade could halt the creation of Bitcoin Ordinals and BRC-20 tokens. These tokens have recently driven network congestion and transaction fees. If implemented, this fix could reduce network strain, potentially lowering fees and improving transaction times, but it would also curtail the growth of this new use case on the Bitcoin network. The impact on Bitcoin's utility and developer activity remains to be seen.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_Core_upgrade",
+        "Ordinals_BRC20_impact",
+        "network_congestion_fix"
+      ],
+      "rationale": "The potential removal of Ordinals and BRC-20s could reduce network congestion and fees, which is positive for Bitcoin's core functionality. However, it also stifles a nascent innovation, creating uncertainty about future network usage and potential revenue streams from transaction fees."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ncdde1b7d20a0",
+      "title": "Digital Assets Register 8th Straight Week of Inflows",
+      "url": "https://finance.yahoo.com/news/digital-assets-register-8th-straight-193010263.html",
+      "summary": "Digital asset investment products have experienced eight consecutive weeks of inflows, totaling $176 million in the past week. Bitcoin continues to dominate these inflows, accounting for $155 million. Exchange-traded products (ETPs) are capturing a growing share of crypto volumes. This sustained inflow trend indicates increasing investor confidence and capital allocation towards digital assets, particularly Bitcoin, suggesting a positive sentiment shift in the market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "digital_asset_inflows",
+        "ETP_volume_share",
+        "Bitcoin_dominance"
+      ],
+      "rationale": "Consistent weekly inflows into digital asset products, especially Bitcoin, signal strong and sustained institutional demand. This trend, if it continues, is a significant indicator of growing mainstream adoption and a potential precursor to a broader bull market."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n872104103095",
+      "title": "Crypto is ‘so back’ for everyone—except retail investors",
+      "url": "https://finance.yahoo.com/news/crypto-back-everyone-except-retail-150843458.html",
+      "summary": "The crypto market is experiencing a significant rally, with Bitcoin surpassing $40,000, leading to a resurgence of bullish sentiment and phrases like \"WAGMI.\" While institutional players like BlackRock are driving mainstream adoption, the article suggests that retail investors are not yet fully participating in this recovery. This divergence could indicate a market driven by institutional capital, with retail investors potentially lagging behind, creating an opportunity for them to enter if sentiment continues to improve.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "retail_investor_participation",
+        "institutional_adoption_driver",
+        "market_sentiment_resurgence"
+      ],
+      "rationale": "The strong institutional interest and rally in Bitcoin suggest a positive long-term outlook. The potential for retail investors to catch up could further fuel demand, although their current lag indicates a market still maturing in its accessibility."
+    },
+    {
+      "pick_idx": 25,
+      "id": "ne1cda05485c9",
+      "title": "Bitcoin soars to 1-1/2-year high on ETF bets",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-3-95-31-171249711.html",
+      "summary": "Bitcoin surged 10% to a 1.5-year high, breaking $34,000, as speculation about a potential spot Bitcoin ETF approval intensified. Crypto-related stocks, including Coinbase, Marathon Digital, and MicroStrategy, also saw significant gains. This rally, driven by the prospect of institutional products, indicates a strong market reaction to regulatory developments and a growing belief in Bitcoin's mainstream financial integration.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_ETF_speculation",
+        "crypto_stock_rally",
+        "institutional_product_anticipation"
+      ],
+      "rationale": "The anticipation of a spot Bitcoin ETF approval has been a major catalyst for Bitcoin's price appreciation. If approved, it would significantly increase accessibility for institutional investors, potentially leading to sustained price increases and broader adoption."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n45ad7e6d07bb",
+      "title": "Bitcoin just won't die",
+      "url": "https://finance.yahoo.com/news/bitcoin-just-wont-die-135408250.html",
+      "summary": "Bitcoin's price has doubled since the FTX collapse a year ago, outperforming both the S&P 500 and major tech stocks in 2023. Hopes for a spot Bitcoin ETF approval have fueled these gains. The resilience of Bitcoin, despite major industry setbacks like FTX, highlights its fundamental strength and growing acceptance as a digital asset and potential store of value, suggesting a robust recovery and continued relevance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Bitcoin_resilience",
+        "post_FTX_recovery",
+        "ETF_optimism"
+      ],
+      "rationale": "Bitcoin's ability to not only survive but thrive after major industry crises like FTX demonstrates its underlying strength. Coupled with the positive sentiment surrounding potential ETF approvals, this resilience points to a strong long-term growth trajectory."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n150f140f3f61",
+      "title": "Bitcoin Overtakes Ethereum in Transaction Fees on the Back of Renewed Ordinals Frenzy",
+      "url": "https://finance.yahoo.com/news/bitcoin-overtakes-ethereum-transaction-fees-054926881.html",
+      "summary": "Bitcoin has surpassed Ethereum in average daily transaction fees, driven by increased activity from the Ordinals Protocol and BRC-20 tokens. This surge in fees indicates a growing demand for block space on the Bitcoin network, highlighting new use cases beyond simple payments. While this can lead to higher transaction costs, it also demonstrates Bitcoin's evolving utility and potential for generating revenue through fees, which could be a long-term positive for network security and value.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_transaction_fees",
+        "Ordinals_BRC20_activity",
+        "network_utility_expansion"
+      ],
+      "rationale": "The increased transaction fees on Bitcoin, driven by Ordinals and BRC-20s, show a growing demand for block space and new use cases. This activity, while causing congestion, demonstrates Bitcoin's adaptability and potential for fee-based revenue, which can be a long-term bullish factor."
+    },
+    {
+      "pick_idx": 38,
+      "id": "ned348b0ad3be",
+      "title": "BlackRock Confirms Plans for Ethereum Spot ETF With NASDAQ Filing, Sparks ETH Price Surge",
+      "url": "https://finance.yahoo.com/news/blackrock-confirms-plans-ethereum-spot-054152023.html",
+      "summary": "BlackRock has officially confirmed its intention to launch a spot Ethereum ETF by filing a 19b-4 form with the SEC. This move, following its Bitcoin ETF filing, signals a significant expansion of institutional interest into the broader digital asset market. The confirmation has already sparked a surge in Ethereum's price, indicating strong market anticipation for such products and suggesting a potential for increased institutional adoption of Ethereum.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BlackRock_ETH_ETF_filing",
+        "Ethereum_price_surge",
+        "institutional_adoption_ETH"
+      ],
+      "rationale": "BlackRock's move into an Ethereum ETF mirrors the excitement around a Bitcoin ETF, suggesting a broader institutional embrace of major cryptocurrencies. This could lead to increased capital inflows into Ethereum and a more integrated role for ETH in traditional finance."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 4,
+      "id": "n90ec87b4f58a",
+      "title": "BlackRock Amends Bitcoin ETF Application, Easing Access for Wall Street Banks",
+      "url": "https://finance.yahoo.com/news/blackrock-amends-bitcoin-etf-application-052300842.html",
+      "summary": "BlackRock has revised its spot Bitcoin ETF application to allow Wall Street banks like JPMorgan and Goldman Sachs to create new shares using cash instead of crypto. This \"prepay\" model bypasses restrictions on banks holding crypto directly. This change aims to facilitate broader participation from major financial institutions, potentially smoothing the path for ETF approval and increasing liquidity upon launch.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "liquidity"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "features_for_model": [
+        "BlackRock_ETF_amendment",
+        "cash_creation_model",
+        "Wall_Street_bank_access"
+      ],
+      "rationale": "The amendment by BlackRock to allow cash creations for its Bitcoin ETF application is a significant step towards broader institutional adoption. This could accelerate SEC approval and increase the ETF's liquidity upon launch, positively impacting Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nde1240307cdf",
+      "title": "Who Would Buy Bitcoin ETF If Approved? Analyst Survey Reveals",
+      "url": "https://finance.yahoo.com/news/buy-bitcoin-etf-approved-analyst-223506688.html",
+      "summary": "An analyst survey indicates that financial advisors (RIAs) have limited current Bitcoin offerings for clients but show interest in a spot Bitcoin ETF. The survey also explored preferences for ETF vs. crypto-linked stocks or direct crypto purchases. Findings suggest a significant potential demand from traditional financial channels if an ETF is approved, highlighting the market's readiness for regulated crypto exposure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "features_for_model": [
+        "ETF_demand_survey",
+        "RIA_client_interest",
+        "crypto_exposure_preference"
+      ],
+      "rationale": "The survey results suggest a strong latent demand for a Bitcoin ETF from financial advisors and their clients. This indicates that upon approval, significant capital could flow into Bitcoin via this regulated product, boosting price and volatility."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n6b4d52dcd2ac",
+      "title": "US stocks edge higher as investors brace for the final Fed decision of the year",
+      "url": "https://finance.yahoo.com/news/us-stocks-edge-higher-investors-223739963.html",
+      "summary": "US stocks are trading higher as investors await the Federal Reserve's final interest rate decision of the year. While rates are expected to remain unchanged, the Fed's commentary on future policy and inflation will be closely watched. Any hint of a more hawkish stance could impact risk assets, including Bitcoin, while a dovish outlook would likely be supportive.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "features_for_model": [
+        "Fed_decision_anticipation",
+        "interest_rate_outlook",
+        "stock_market_sentiment"
+      ],
+      "rationale": "The Federal Reserve's interest rate decision and accompanying commentary are a key short-term driver for all risk assets. Uncertainty around the Fed's future stance creates potential for volatility in Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n89325f034048",
+      "title": "Bitwise Prepping as if Spot Bitcoin ETF Is Coming",
+      "url": "https://finance.yahoo.com/news/bitwise-prepping-spot-bitcoin-etf-211527722.html",
+      "summary": "Bitwise Asset Management is actively preparing for a potential spot Bitcoin ETF launch, developing marketing and sales strategies and engaging with regulators. This proactive stance from a major player in the crypto ETF space signals strong conviction in the likelihood of approval and suggests that firms are positioning themselves for significant inflows and market impact.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "features_for_model": [
+        "Bitwise_ETF_preparation",
+        "regulatory_engagement",
+        "market_positioning"
+      ],
+      "rationale": "Bitwise's preparations indicate that key industry players are anticipating a spot Bitcoin ETF approval. This heightened readiness suggests that if approved, the market will be well-positioned to absorb inflows, potentially leading to a swift price reaction."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ndfc05e7f0ffa",
+      "title": "Bitcoin Has More Than Doubled in Value in 2023. Here's Why It Could Do It Again in 2024.",
+      "url": "https://finance.yahoo.com/news/bitcoin-more-doubled-value-2023-105600665.html",
+      "summary": "Bitcoin has seen a 160% price increase in 2023, following a pattern of significant gains. The article suggests that factors like the upcoming halving event and potential ETF approvals could drive further doubling of its value in 2024. This outlook, based on historical patterns and upcoming catalysts, points to continued bullish sentiment and potential for substantial price appreciation.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "ETF",
+        "halving"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "features_for_model": [
+        "Bitcoin_2023_performance",
+        "2024_halving_impact",
+        "ETF_catalyst"
+      ],
+      "rationale": "The article highlights Bitcoin's strong 2023 performance and forecasts further gains in 2024, driven by the halving and ETF prospects. This positive outlook, if it influences market sentiment, could lead to increased buying pressure in the short term."
+    },
+    {
+      "pick_idx": 17,
+      "id": "neb9a91db3744",
+      "title": "BlackRock, Fidelity Discuss Spot Bitcoin ETF With SEC",
+      "url": "https://finance.yahoo.com/news/blackrock-fidelity-discuss-spot-bitcoin-235114970.html",
+      "summary": "BlackRock and Fidelity are among the issuers meeting with the SEC to discuss their spot Bitcoin ETF filings. These discussions, involving key regulatory divisions, are crucial for the approval process. The active engagement suggests progress is being made, increasing the probability of approval and potentially impacting market sentiment in the near term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "features_for_model": [
+        "SEC_ETF_discussions",
+        "BlackRock_Fidelity_engagement",
+        "regulatory_progress"
+      ],
+      "rationale": "Direct discussions between major ETF applicants and the SEC are a strong signal of progress towards approval. Positive news from these meetings could significantly boost Bitcoin's price in the immediate short term."
+    },
+    {
+      "pick_idx": 22,
+      "id": "ndbf222b09902",
+      "title": "Tesla and Block among Bitcoin-holding firms to get boost from accounting rule change in late 2024",
+      "url": "https://finance.yahoo.com/news/tesla-block-among-bitcoin-holding-182111575.html",
+      "summary": "A new accounting rule change, effective late 2024, will allow companies like Tesla and Block holding Bitcoin to report gains without immediate loss recognition. This change is expected to benefit firms with significant Bitcoin treasuries by improving their financial reporting and potentially making their stock more attractive. While the impact is for late 2024, the anticipation of this change could influence investor sentiment towards these companies and indirectly Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "regulation"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "features_for_model": [
+        "accounting_rule_change",
+        "Tesla_Block_BTC_holdings",
+        "financial_reporting_impact"
+      ],
+      "rationale": "While the accounting rule change is for late 2024, the news itself could provide a minor short-term boost to Bitcoin-holding companies and signal a more favorable regulatory environment for corporate Bitcoin adoption, potentially influencing sentiment."
+    },
+    {
+      "pick_idx": 24,
+      "id": "ncbc376033411",
+      "title": "Coinbase's international exchange to launch spot crypto trading",
+      "url": "https://finance.yahoo.com/news/coinbases-international-exchange-launch-spot-155034773.html",
+      "summary": "Coinbase is launching spot crypto trading services on its international exchange, starting with Bitcoin and Ether against USDC for institutional clients. This expansion beyond the US market signifies Coinbase's growth strategy and aims to capture a larger share of the global crypto trading volume. The move could increase liquidity and trading activity on the platform.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "liquidity",
+        "infrastructure"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "features_for_model": [
+        "Coinbase_international_launch",
+        "spot_crypto_trading",
+        "institutional_client_focus"
+      ],
+      "rationale": "Coinbase's expansion of spot trading services internationally is a positive development for market liquidity and accessibility. This could lead to increased trading volumes and potentially higher demand for the listed cryptocurrencies."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n6906a6482c9e",
+      "title": "Goldman Sachs digital assets chief sees 'huge appetite' for blockchain assets",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-digital-assets-chief-134228408.html",
+      "summary": "Goldman Sachs anticipates a significant increase in blockchain asset trading volumes within the next one to two years, citing growing client interest in crypto derivatives. This outlook, coupled with expectations of a spot Bitcoin ETF approval, suggests a strong institutional push towards digital assets. The bank's positive sentiment could influence other traditional financial institutions to increase their involvement in the crypto space.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "liquidity"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "features_for_model": [
+        "Goldman_Sachs_outlook",
+        "blockchain_asset_trading",
+        "institutional_interest_growth"
+      ],
+      "rationale": "Goldman Sachs' positive outlook on blockchain assets and increasing client interest in crypto derivatives signals growing institutional adoption. This sentiment could translate into increased trading activity and capital inflows in the short term."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nc59c0898ef0c",
+      "title": "a16z and Founders Fund lead $13.5 million round for crypto onboarding startup Dynamic Labs",
+      "url": "https://finance.yahoo.com/news/a16z-founders-fund-lead-13-130100741.html",
+      "summary": "Crypto onboarding startup Dynamic Labs has raised $13.5 million, led by prominent venture capital firms a16z and Founders Fund. The company focuses on creating seamless login experiences using digital wallets for both crypto and non-crypto companies. This funding round highlights continued investment in the Web3 infrastructure and user experience, which could indirectly benefit Bitcoin adoption by making crypto more accessible.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "features_for_model": [
+        "VC_funding_crypto_startup",
+        "Dynamic_Labs_onboarding",
+        "Web3_user_experience"
+      ],
+      "rationale": "Significant venture capital funding for crypto onboarding solutions indicates a focus on improving user experience, which is crucial for broader adoption. While not a direct price driver, this infrastructure development is a positive signal for the ecosystem."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-12-13",
+    "summary": "Bitcoin's price action is heavily influenced by anticipation surrounding potential spot ETF approvals, with BlackRock amending its application to include cash creations, a move seen as positive for institutional access. Meanwhile, the Federal Reserve's upcoming interest rate decision remains a key macro driver, with markets expecting rates to hold steady but closely watching forward guidance. Institutional sentiment appears strong, with Goldman Sachs expressing optimism about blockchain asset growth, and Coinbase expanding its international spot trading services. However, the potential impact of a Bitcoin Core upgrade on Ordinals and BRC-20 tokens introduces a layer of protocol-level uncertainty.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "SEC denial or further delays of spot Bitcoin ETF applications.",
+      "Hawkish surprise from the Federal Reserve's interest rate decision.",
+      "Unforeseen negative developments regarding major exchanges (e.g., Binance legal issues).",
+      "Technical issues or significant negative sentiment shifts regarding Ordinals/BRC-20s.",
+      "Broader macroeconomic downturn impacting risk assets."
+    ],
+    "watch_items": [
+      "SEC pronouncements on spot Bitcoin ETF applications.",
+      "Federal Reserve FOMC meeting and press conference.",
+      "BlackRock and Fidelity ETF filing updates.",
+      "Coinbase trading volume and international expansion news.",
+      "MicroStrategy stock performance as a Bitcoin proxy."
+    ]
+  }
+}

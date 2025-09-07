@@ -1,0 +1,521 @@
+{
+  "date": "2019-12-01",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "na5bd44a9db9a",
+      "title": "With 18 Million Bitcoins Mined, How Hard Is That 21 Million Limit?",
+      "url": "https://finance.yahoo.com/news/18-million-bitcoins-mined-hard-210009973.html",
+      "summary": "The mining of the 18 millionth Bitcoin milestone highlights the decreasing supply and the approach towards the 21 million coin cap. This scarcity is a fundamental driver of Bitcoin's long-term value proposition, often referred to as 'digital gold.' As the supply becomes more constrained, demand increases, potentially leading to price appreciation over extended periods. This event serves as a constant reminder of Bitcoin's fixed and predictable issuance schedule, a key differentiator from fiat currencies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_halving_countdown",
+        "scarcity_driver",
+        "digital_gold_narrative"
+      ],
+      "rationale": "The diminishing supply of Bitcoin is a core tenet of its long-term value. Reaching the 18 million mined milestone reinforces this scarcity, which is inherently bullish for the asset's future price appreciation."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n73556a199128",
+      "title": "The many events driving uncertainty in the cryptocurrency markets",
+      "url": "https://finance.yahoo.com/news/many-events-driving-uncertainty-cryptocurrency-135257706.html",
+      "summary": "The report indicates a shift from a 'mildly bullish' August to a 'neutral' outlook for October, citing a lack of institutional investor involvement as a key factor. This suggests that broader market sentiment and institutional adoption are critical for sustained price growth. The uncertainty surrounding regulatory developments and the performance of new institutional products like Bakkt's launch can significantly influence investor confidence and capital flows into the crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "institutional_adoption_lag",
+        "market_sentiment_neutral",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "The article highlights a period of market uncertainty driven by a lack of institutional interest and potential regulatory headwinds. This suggests that future price movements will be heavily influenced by these factors over the medium to long term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n5089aa6d1ad0",
+      "title": "Bitcoin Gets Hammered as China Clamps Down on Crypto Activity",
+      "url": "https://finance.yahoo.com/news/bitcoin-gets-hammered-china-clamps-150500067.html",
+      "summary": "Reports of China shutting down Binance's Shanghai offices signal a tightening regulatory environment in a major market. This crackdown, aimed at stifling crypto-related businesses, can lead to significant price drops and reduced liquidity as exchanges and miners face operational challenges. Such actions by a large economy can create ripple effects across the global crypto market, impacting investor sentiment and potentially leading to prolonged downturns if similar measures are adopted elsewhere.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "china_crypto_crackdown",
+        "exchange_shutdown",
+        "regulatory_risk"
+      ],
+      "rationale": "China's crackdown on crypto activity, including the reported closure of Binance's offices, represents a significant regulatory risk. This can lead to reduced liquidity and negative sentiment, impacting Bitcoin's price over the medium term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nb421e33b35f3",
+      "title": "Germany says Bitcoin is ‘not real money’",
+      "url": "https://finance.yahoo.com/news/germany-says-bitcoin-not-real-170008584.html",
+      "summary": "Germany's Federal Parliament stating that Bitcoin is 'not real money' reflects a cautious and skeptical stance from a major European economy. This sentiment, particularly in response to projects like Libra, indicates potential regulatory friction and a lack of official recognition for cryptocurrencies as a legitimate financial instrument. Such pronouncements can dampen institutional interest and slow down broader adoption, creating a long-term bearish pressure on the market.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "germany_regulatory_stance",
+        "crypto_not_real_money",
+        "sovereign_control_concern"
+      ],
+      "rationale": "Official statements from major economies like Germany questioning the nature of Bitcoin as 'real money' can create long-term regulatory uncertainty and hinder institutional adoption, posing a bearish risk."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nd80b1a95f7af",
+      "title": "Deribit’s bitcoin contract price flash crashes 15% due to an error; COO says it cost $1.3M",
+      "url": "https://finance.yahoo.com/news/deribit-perpetual-swap-contract-experiences-225744206.html",
+      "summary": "A 15% flash crash on Deribit's perpetual swap contract, attributed to an error and coinciding with Coinbase Pro downtime, highlights the fragility of derivatives markets and the interconnectedness of exchanges. Such incidents can erode trust in trading platforms and lead to increased volatility. The potential for technical glitches and the significant financial impact ($1.3M) underscore the need for robust infrastructure and risk management in the derivatives space, which can affect overall market stability.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.55,
+      "impact_tags": [
+        "infrastructure",
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "deribit_flash_crash",
+        "exchange_downtime",
+        "derivatives_volatility"
+      ],
+      "rationale": "The Deribit flash crash, linked to technical issues and exchange downtime, reveals vulnerabilities in the derivatives market. This can lead to increased volatility and a loss of confidence, impacting liquidity and price discovery in the short to medium term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nae1ddd8c22b5",
+      "title": "Ransomware attacks targeting local infrastructure, new research shows",
+      "url": "https://finance.yahoo.com/news/ransomware-attacks-targeting-local-infrastructure-113231054.html",
+      "summary": "The increasing sophistication and targeting of ransomware attacks against businesses and government infrastructure, with victims paying in fiat and cryptocurrency, suggests a growing use of digital assets in illicit activities. While not directly impacting Bitcoin's core value, this trend can lead to increased regulatory scrutiny and a negative perception of cryptocurrencies. The cybersecurity firm's findings highlight a growing threat that could indirectly influence market sentiment and regulatory responses.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ransomware_attacks",
+        "crypto_illicit_use",
+        "cybersecurity_risk"
+      ],
+      "rationale": "The rise in ransomware attacks using cryptocurrency as payment, while not a direct price driver, can lead to increased regulatory pressure and negative public perception, posing a long-term bearish risk."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n19b190be47f8",
+      "title": "Galaxy Digital to Launch 2 New Bitcoin Funds in November",
+      "url": "https://finance.yahoo.com/news/galaxy-digital-launch-2-bitcoin-205736817.html",
+      "summary": "Galaxy Digital, led by Michael Novogratz, is launching two new Bitcoin funds aimed at accredited investors, offering low-fee, institutionally managed exposure. This move signifies growing institutional interest and the development of more accessible investment vehicles for Bitcoin. The availability of such products can attract significant capital, boosting demand and potentially driving up prices over the long term as more traditional investors gain exposure.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "galaxy_digital_funds",
+        "institutional_bitcoin_exposure",
+        "novogratz_endorsement"
+      ],
+      "rationale": "The launch of new Bitcoin funds by Galaxy Digital, targeting accredited investors, indicates increasing institutional adoption and provides a more accessible avenue for traditional capital to enter the market, which is bullish long-term."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nd1a8271b2db2",
+      "title": "Key Indicator Turns Bullish as Bitcoin Struggles to Break Above $10K",
+      "url": "https://finance.yahoo.com/news/key-indicator-turns-bullish-bitcoin-110005889.html",
+      "summary": "The article notes a bullish turn in the three-day chart MACD, suggesting potential for price appreciation towards the 2019 high. However, it also points to immediate bearish signals like buyer exhaustion and China's state media advising against speculation, which could dampen trading. This mixed outlook suggests short-term volatility but a potential for longer-term upside if the bullish technical indicators prevail over bearish sentiment and regulatory concerns.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "macd_bullish_turn",
+        "buyer_exhaustion",
+        "china_speculation_warning"
+      ],
+      "rationale": "The confluence of bullish technical indicators and bearish sentiment/regulatory warnings creates an uncertain outlook. While a bullish indicator exists, immediate headwinds suggest caution for the medium term."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n9cdb705efd1a",
+      "title": "Explainer: Central bank digital currencies: edging towards reality?",
+      "url": "https://finance.yahoo.com/news/explainer-central-bank-digital-currencies-145609280.html",
+      "summary": "Central banks exploring their own digital currencies (CBDCs) presents a complex dynamic for cryptocurrencies. While some see CBDCs as a validation of blockchain technology, others view them as a threat to decentralized cryptocurrencies by offering state-controlled digital alternatives. The EU's concern about Libra eroding state control highlights this tension. The development of CBDCs could lead to a bifurcation of the digital currency landscape, potentially impacting the long-term adoption and utility of decentralized cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "cbdc_development",
+        "central_bank_digital_currency",
+        "regulatory_competition"
+      ],
+      "rationale": "The exploration of CBDCs by central banks introduces a new layer of competition and regulatory complexity. This could either legitimize digital currencies or pose a threat to decentralized cryptocurrencies, creating long-term uncertainty."
+    },
+    {
+      "pick_idx": 43,
+      "id": "nca08ad221fbe",
+      "title": "Former ConsenSys executive says Bitcoin will increase ‘stability for the average person’",
+      "url": "https://finance.yahoo.com/news/ted-talk-former-consensys-executive-164333991.html",
+      "summary": "A former ConsenSys executive's TED talk advocating for cryptocurrencies to replace outdated monetary systems, particularly for those in countries with high inflation like Argentina and Venezuela, highlights the potential for Bitcoin to provide financial stability. This narrative of Bitcoin as a hedge against inflation and a tool for financial inclusion in unstable economies can drive adoption and demand over the long term, especially in emerging markets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "financial_inclusion",
+        "inflation_hedge",
+        "emerging_market_adoption"
+      ],
+      "rationale": "The narrative of Bitcoin providing financial stability in countries with high inflation, as espoused by a former ConsenSys executive, points to a growing adoption driver in emerging markets, which is bullish for the long term."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n2b02daaab070",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 01/12/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-014600010.html",
+      "summary": "Bitcoin Cash ABC experienced a 3.23% drop on Saturday, reversing Friday's gains and falling through key support levels. The price action indicates bearish momentum for BCH, with a failure to hold support suggesting further downside potential in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin"
+      ],
+      "features_for_model": [
+        "bch_price_action",
+        "support_breakdown",
+        "bearish_momentum"
+      ],
+      "rationale": "Bitcoin Cash ABC's failure to hold support levels and its significant drop on Saturday suggest continued bearish pressure in the very short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n3ff96d463c42",
+      "title": "The Crypto Daily – Movers and Shakers -01/12/19",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-01-021719547.html",
+      "summary": "Bitcoin fell 2.52% on Saturday, reversing some of Friday's gains and failing to hold the first major resistance level. The price slid to a late afternoon intraday low, breaking through the first major support level. This indicates immediate bearish sentiment and potential for further downside in the coming days.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "bitcoin"
+      ],
+      "features_for_model": [
+        "btc_price_action",
+        "support_breakdown",
+        "bearish_sentiment"
+      ],
+      "rationale": "Bitcoin's significant drop on Saturday, breaking through support levels, suggests immediate bearish pressure and a potential for further decline in the next few days."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n9fbaf3fe9506",
+      "title": "The Week Ahead – It’s a Hectic Week Ahead. Stats and Geopolitics are in Focus",
+      "url": "https://finance.yahoo.com/news/week-ahead-hectic-week-ahead-034735095.html",
+      "summary": "The upcoming week features a heavy economic calendar with key manufacturing and services PMI numbers, as well as ADP employment data. These macroeconomic indicators, particularly those impacting the US Dollar, can influence broader market sentiment and risk appetite, potentially affecting Bitcoin's price in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "economic_calendar",
+        "pmi_data",
+        "adp_employment"
+      ],
+      "rationale": "The upcoming week's economic data releases, especially those related to manufacturing, services, and employment, could introduce volatility and influence Bitcoin's price direction."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nb1846b2a0ee8",
+      "title": "What Awaits the AUD This Week?",
+      "url": "https://finance.yahoo.com/news/awaits-aud-week-092202729.html",
+      "summary": "The Australian Dollar (AUD) is facing negative pressure due to domestic issues, with private capital expenditure falling. While not directly related to Bitcoin, broader commodity currency weakness can sometimes correlate with risk-off sentiment in global markets, potentially impacting Bitcoin's price if it triggers a wider market sell-off.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "aud_weakness",
+        "capital_expenditure_fall",
+        "commodity_currency_sentiment"
+      ],
+      "rationale": "Weakness in commodity currencies like the AUD, driven by domestic issues, can sometimes signal broader risk-off sentiment, which could indirectly affect Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf1d969953eca",
+      "title": "Why Bitcoin has value despite its volatility",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-value-despite-volatility-100056190.html",
+      "summary": "This article discusses Bitcoin's inherent volatility and its appeal to investors with high risk tolerance who believe in its long-term potential. While it doesn't offer immediate price predictions, the acknowledgment of recent price drops (4.6% last weekend) and its current hovering around $6,000 (though the article text seems to be cut off, implying a lower price than current context) reinforces the short-term bearish sentiment observed in other news.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "bitcoin"
+      ],
+      "features_for_model": [
+        "btc_volatility",
+        "recent_price_drop",
+        "risk_tolerance"
+      ],
+      "rationale": "The article's mention of recent price drops and Bitcoin hovering around a lower price point reinforces the bearish sentiment observed in other short-term news, suggesting continued downward pressure."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n45f2b2f4f8f3",
+      "title": "What is HEX and why should Bitcoin holders care?",
+      "url": "https://finance.yahoo.com/news/hex-why-bitcoin-holders-care-120010630.html",
+      "summary": "This article introduces HEX, a new project developed by an early Bitcoin adopter. While it's presented as an experiment and not financial advice, the mention of HEX and its potential impact on Bitcoin holders suggests a new narrative or competitor in the crypto space. The introduction of new projects, especially those with ties to early Bitcoin figures, can sometimes draw attention and capital away from established assets, creating minor short-term uncertainty.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "altcoin"
+      ],
+      "features_for_model": [
+        "hex_project",
+        "new_crypto_launch",
+        "altcoin_competition"
+      ],
+      "rationale": "The introduction of a new project like HEX, while experimental, can create minor short-term uncertainty by drawing attention and potentially capital away from Bitcoin."
+    },
+    {
+      "pick_idx": 8,
+      "id": "na56a625c88b2",
+      "title": "PODCAST: Altcoins and Ancient History With Litecoin’s Charlie Lee",
+      "url": "https://finance.yahoo.com/news/podcast-altcoins-ancient-history-litecoin-130500521.html",
+      "summary": "This podcast features Litecoin's Charlie Lee discussing various topics, including network effects, testnet game theory, founder anonymity, audits, and technical upgrades like Schnorr signatures. While the content is primarily educational and historical, discussions around technical improvements and network health can indirectly influence sentiment towards Litecoin and potentially other altcoins in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "altcoin",
+        "protocol"
+      ],
+      "features_for_model": [
+        "charlie_lee_podcast",
+        "litecoin_tech_updates",
+        "network_effect"
+      ],
+      "rationale": "Discussions on technical aspects and network health of altcoins like Litecoin can create minor short-term sentiment shifts within the altcoin market."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n8341a435a760",
+      "title": "Brexit and the Importance of the December 12 Election",
+      "url": "https://finance.yahoo.com/news/brexit-importance-december-12-election-171218058.html",
+      "summary": "The upcoming UK general election on December 12th is highlighted as a crucial event for Brexit's future. Political uncertainty surrounding Brexit can impact global markets, including cryptocurrencies, by influencing investor sentiment and risk appetite. A clear outcome from the election could reduce this uncertainty, potentially leading to a more stable market environment.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "geopolitics"
+      ],
+      "features_for_model": [
+        "brexit_election",
+        "uk_geopolitics",
+        "market_uncertainty"
+      ],
+      "rationale": "The upcoming UK election and its impact on Brexit introduce geopolitical uncertainty that can affect global market sentiment and, by extension, Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2b02daaab070",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 01/12/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-014600010.html",
+      "summary": "Bitcoin Cash ABC experienced a 3.23% drop on Saturday, reversing Friday's gains and falling through key support levels. The price action indicates bearish momentum for BCH, with a failure to hold support suggesting further downside potential in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin"
+      ],
+      "features_for_model": [
+        "bch_price_action",
+        "support_breakdown",
+        "bearish_momentum"
+      ],
+      "rationale": "Bitcoin Cash ABC's failure to hold support levels and its significant drop on Saturday suggest continued bearish pressure in the very short term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nf1aa5ccbad8a",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 01/12/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-014600010.html",
+      "summary": "Bitcoin Cash ABC fell by 3.23% on Saturday, reversing Friday's gains and falling through key support levels. The price action indicates bearish momentum for BCH, with a failure to hold support suggesting further downside potential in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin"
+      ],
+      "features_for_model": [
+        "bch_price_action",
+        "support_breakdown",
+        "bearish_momentum"
+      ],
+      "rationale": "Bitcoin Cash ABC's failure to hold support levels and its significant drop on Saturday suggest continued bearish pressure in the very short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n3ff96d463c42",
+      "title": "The Crypto Daily – Movers and Shakers -01/12/19",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-01-021719547.html",
+      "summary": "Bitcoin fell by 2.52% on Saturday, reversing some of Friday's gains and failing to hold the first major resistance level. The price slid to a late afternoon intraday low, breaking through the first major support level. This indicates immediate bearish sentiment and potential for further downside in the coming days.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "bitcoin"
+      ],
+      "features_for_model": [
+        "btc_price_action",
+        "support_breakdown",
+        "bearish_sentiment"
+      ],
+      "rationale": "Bitcoin's significant drop on Saturday, breaking through support levels, suggests immediate bearish pressure and a potential for further decline in the next few days."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-12-01",
+    "summary": "Bitcoin experienced a notable decline on Saturday, falling 2.52% and breaking through key support levels, indicating immediate bearish sentiment. This is further supported by the bearish price action of Bitcoin Cash ABC. While the upcoming week presents significant economic data releases that could introduce volatility, geopolitical uncertainty surrounding Brexit also looms. The long-term outlook remains mixed, with institutional adoption signals like new fund launches countered by regulatory concerns and the ongoing debate about the nature of digital currencies.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued bearish price action and breakdown of support levels.",
+      "Negative impact from upcoming macroeconomic data releases.",
+      "Geopolitical uncertainty stemming from Brexit developments.",
+      "Regulatory crackdowns or negative sentiment from major economies.",
+      "Technical failures or vulnerabilities in trading platforms."
+    ],
+    "watch_items": [
+      "Bitcoin price action around key support levels ($7,500).",
+      "US economic data releases (PMI, ADP employment).",
+      "Developments related to Brexit and the UK election.",
+      "Statements from major central banks regarding digital currencies.",
+      "Performance of altcoins, particularly Bitcoin Cash ABC."
+    ]
+  }
+}

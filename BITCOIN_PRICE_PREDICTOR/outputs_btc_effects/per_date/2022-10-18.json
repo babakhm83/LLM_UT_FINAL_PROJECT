@@ -1,0 +1,487 @@
+{
+  "date": "2022-10-18",
+  "long_term": [
+    {
+      "pick_idx": 12,
+      "id": "nf4dcb33c7f14",
+      "title": "Bitcoin Falls Below $20K, Crypto Slumps as Fed Rate Risks Rise",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-below-20k-crypto-194252104.html",
+      "summary": "Bitcoin has fallen below the critical $20,000 mark, leading a broader crypto market downturn. This decline is attributed to Federal Reserve Chair Jerome Powell's hawkish stance on U.S. monetary policy, signaling continued interest rate hikes. The total crypto market capitalization has dipped below $1 trillion, mirroring losses in other risk-driven markets. This indicates a strong correlation between traditional market sentiment, driven by Fed policy, and cryptocurrency price action.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BTC_price_below_20k",
+        "Fed_hawkish_stance",
+        "crypto_market_downturn",
+        "total_market_cap_below_1T"
+      ],
+      "rationale": "The persistent hawkishness from the Federal Reserve directly impacts risk assets like Bitcoin. Higher interest rates reduce the attractiveness of speculative investments, leading to capital outflows and price depreciation. This trend is likely to continue as long as inflation remains elevated."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na567a11a9c54",
+      "title": "Powell’s Interest-rate Antibiotics Could Succeed, but Not Without Risk",
+      "url": "https://finance.yahoo.com/news/powell-interest-rate-antibiotics-could-172632554.html",
+      "summary": "Federal Reserve Chair Jerome Powell remains committed to his rate-hiking cycle to combat inflation, aiming to bring it down to the 2% target. Despite the potential for success in curbing inflation, this aggressive monetary policy carries significant risks for the broader economy. The continued commitment to tightening financial conditions suggests a prolonged period of higher borrowing costs, which can dampen investment and economic growth.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_hikes",
+        "inflation_target_2%",
+        "tightening_monetary_policy",
+        "economic_growth_risk"
+      ],
+      "rationale": "Powell's unwavering commitment to fighting inflation through rate hikes creates a challenging environment for risk assets. The 'antibiotics' approach, while potentially effective against inflation, can lead to a significant economic slowdown, negatively impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n60b82b5532f0",
+      "title": "The White House Touts A Digital Dollar: What Does That Mean?",
+      "url": "https://finance.yahoo.com/news/white-house-touts-digital-dollar-191759789.html",
+      "summary": "The Biden administration has outlined a comprehensive plan for the potential adoption of a central bank digital currency (CBDC) in the U.S. This initiative reflects a reaction to the rapid growth of cryptocurrencies and the increasing adoption of digital assets by the public. The government's engagement with CBDCs could lead to new regulatory frameworks and potentially influence the future landscape of digital finance, including the role of private cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_CBDC_adoption",
+        "Biden_administration_digital_dollar",
+        "regulatory_framework_crypto",
+        "digital_finance_landscape"
+      ],
+      "rationale": "The U.S. exploring a CBDC could have long-term implications for Bitcoin. While it might legitimize digital assets, it could also introduce competition or lead to stricter regulations on private cryptocurrencies. The ultimate impact depends on the design and implementation of the digital dollar."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n9a411914027d",
+      "title": "Compute North Files for Bankruptcy as Crypto-Mining Host Owes up to $500M",
+      "url": "https://finance.yahoo.com/news/crypto-mining-data-center-provider-205213119.html",
+      "summary": "Compute North, a major crypto-mining data center operator, has filed for bankruptcy, owing up to $500 million. This filing highlights the severe financial strain on the cryptocurrency mining industry, exacerbated by the slump in crypto prices. The company's CEO has stepped down amidst these challenges. This event underscores the difficulties miners face in remaining profitable, potentially leading to further consolidation or distress in the sector.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Compute_North_bankruptcy",
+        "crypto_mining_stress",
+        "miner_profitability_challenges",
+        "sector_consolidation"
+      ],
+      "rationale": "The bankruptcy of a significant mining infrastructure provider like Compute North signals broader industry weakness. It suggests that many miners are struggling with profitability due to low crypto prices and high operational costs, which could lead to reduced network hashrate and further downward pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nd38469af38e9",
+      "title": "Bitfarms to Participate in Upcoming Investor Conferences",
+      "url": "https://finance.yahoo.com/news/bitfarms-participate-upcoming-investor-conferences-110000602.html",
+      "summary": "Bitfarms Ltd., a global Bitcoin self-mining company, announced its management team's participation in upcoming investor conferences, including the Needham 2nd Annual Crypto Conference and the H.C. Wainwright & Co. 24th Annual Global Investment Conference. These events provide platforms for the company to discuss its growth opportunities, financial objectives, and corporate strategy with investors and analysts. Such engagement is crucial for maintaining investor confidence and potentially securing future funding.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Bitfarms_investor_conference",
+        "miner_corporate_strategy",
+        "investor_relations"
+      ],
+      "rationale": "While Bitfarms' participation in conferences is standard practice, it can provide insights into the health and strategy of a major mining operation. Positive updates could offer a slight bullish sentiment for the mining sector, but the overall impact on Bitcoin is likely to be limited unless significant new information emerges."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n190f01de4dfb",
+      "title": "Binance Launches $500 Million Lending Pool for Bitcoin Miners",
+      "url": "https://finance.yahoo.com/news/binance-launches-500-million-lending-095449342.html",
+      "summary": "Binance, the world's largest cryptocurrency exchange, has introduced a $500 million lending pool specifically for Bitcoin miners. This initiative aims to provide debt financing to public and private Bitcoin mining and digital asset infrastructure companies globally. The loans will have terms of 18-24 months with interest rates between 5% and 10%, requiring collateral. This move by Binance could offer much-needed liquidity to a struggling mining sector.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Binance_miner_lending_pool",
+        "BTC_miner_liquidity",
+        "debt_financing_mining",
+        "mining_sector_support"
+      ],
+      "rationale": "Providing a substantial lending pool to Bitcoin miners by a major exchange like Binance can alleviate some of the financial pressure on the sector. This support could help miners maintain operations, potentially stabilizing hashrate and indirectly supporting Bitcoin's price by preventing widespread capitulation."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n50785d6491b5",
+      "title": "Blockchain In Manufacturing Market is expected to generate a revenue of USD 766.2 Million in 2030, Globally, at 80.0% CAGR: Verified Market Research®",
+      "url": "https://finance.yahoo.com/news/blockchain-manufacturing-market-expected-generate-151500426.html",
+      "summary": "The global blockchain in manufacturing market is projected to reach $766.2 million by 2030, growing at an impressive CAGR of 80.0%. This significant growth is driven by blockchain's applications in supply chain management, digital product memory, and the Internet of Things (IoT). The adoption of blockchain technology in manufacturing signifies its increasing utility beyond cryptocurrencies, indicating broader industry acceptance and integration.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "blockchain_technology"
+      ],
+      "features_for_model": [
+        "blockchain_manufacturing_growth",
+        "supply_chain_management_blockchain",
+        "IoT_blockchain_integration",
+        "industry_adoption_blockchain"
+      ],
+      "rationale": "The strong projected growth of blockchain in the manufacturing sector indicates increasing enterprise adoption of the underlying technology. This broader acceptance and development of blockchain solutions can foster innovation and infrastructure improvements that may eventually benefit cryptocurrencies like Bitcoin through increased developer talent and technological advancements."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nadacde8d2130",
+      "title": "Best Universities for Blockchain 2022: Massachusetts Institute of Technology",
+      "url": "https://finance.yahoo.com/news/best-universities-blockchain-2022-massachusetts-112606094.html",
+      "summary": "The Massachusetts Institute of Technology (MIT) is recognized as a leading institution for blockchain research and education. MIT has produced a significant number of blockchain papers and hosted numerous conferences and initiatives in the field. This academic leadership contributes to the development of talent and innovation within the blockchain space, fostering a deeper understanding and wider application of the technology.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "education"
+      ],
+      "features_for_model": [
+        "MIT_blockchain_research",
+        "blockchain_education",
+        "talent_development_crypto",
+        "academic_innovation_blockchain"
+      ],
+      "rationale": "Strong academic involvement, like that of MIT, in blockchain research and education is a positive long-term indicator. It suggests a growing pool of skilled developers and a deeper understanding of the technology, which can drive future innovation and adoption of blockchain-based solutions, including those related to Bitcoin."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nd945b3dd54bc",
+      "title": "3 Ways Traditional Investors Can Gain Crypto Exposure",
+      "url": "https://finance.yahoo.com/news/3-ways-traditional-investors-gain-125000802.html",
+      "summary": "The article outlines three methods for traditional investors to gain exposure to the cryptocurrency market. It emphasizes the need for financial advisors to understand these investment strategies, which range from direct cryptocurrency investments to indirect exposure through crypto-related companies. This highlights a growing trend of institutional and traditional investor interest in digital assets, suggesting a potential increase in capital inflow into the crypto space.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "traditional_investor_crypto_exposure",
+        "institutional_adoption_crypto",
+        "financial_advisor_crypto",
+        "capital_inflow_crypto"
+      ],
+      "rationale": "The increasing accessibility and interest from traditional investors in gaining crypto exposure is a positive sign for long-term adoption. As more institutional capital enters the market through various avenues, it can provide greater liquidity and price stability for cryptocurrencies like Bitcoin."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n3650374a4d5c",
+      "title": "First Mover Asia: Cryptos Rise, Even as Stocks Falter; Token2049 Conference Signals Singapore’s Resurgence as a Crypto Hub",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-cryptos-rise-001525468.html",
+      "summary": "Cryptocurrencies experienced a gentle rise despite a downturn in equities, with the Token2049 Conference highlighting Singapore's renewed prominence as a global crypto hub. This suggests a growing resilience in the crypto market, even amidst broader economic headwinds. Singapore's strengthened position as a crypto center could attract more businesses, talent, and investment to the region, fostering innovation and adoption.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_hub_Singapore",
+        "Token2049_conference",
+        "crypto_market_resilience",
+        "regional_adoption_crypto"
+      ],
+      "rationale": "The resurgence of Singapore as a crypto hub, evidenced by events like Token2049, indicates continued development and interest in the digital asset space. This can lead to increased regulatory clarity and business activity, which are generally positive for Bitcoin's long-term adoption and integration."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 6,
+      "id": "n54bd5c0c12f5",
+      "title": "Ethereum price up 2% after preparations start on upgrade",
+      "url": "https://finance.yahoo.com/news/ethereum-price-shanghai-upgrade-090725986.html",
+      "summary": "Ethereum's price has seen a 2% increase as core developers begin preparations for the network's upcoming Shanghai Upgrade. This upgrade is significant as it will enable validators to withdraw their staked ETH. The positive price movement suggests that anticipation of network improvements and enhanced functionality can positively influence the price of the underlying asset.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "protocol",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETH_Shanghai_upgrade",
+        "ETH_price_increase",
+        "validator_withdrawals",
+        "network_enhancement"
+      ],
+      "rationale": "Positive news regarding network upgrades, like Ethereum's Shanghai Upgrade, often leads to short-term price appreciation for the associated cryptocurrency. This sentiment can spill over to Bitcoin as a leading indicator of positive developments in the broader crypto market."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n6a67344e1a0d",
+      "title": "Markets: Bitcoin price rises amid sweeping gains across top 10 crypto, Polygon increases 7%",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-price-rises-amid-100005839.html",
+      "summary": "Bitcoin has experienced a price rise, accompanied by broad gains across the top 10 cryptocurrencies, with Polygon showing a notable 7.8% increase. This broad market uplift suggests a positive sentiment shift or increased buying pressure across major digital assets. The performance of altcoins like Polygon can sometimes indicate broader market trends or investor appetite for specific technological advancements.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_rise",
+        "top_10_crypto_gains",
+        "Polygon_price_increase",
+        "market_sentiment_shift"
+      ],
+      "rationale": "A broad-based rally in the crypto market, led by Bitcoin and strong altcoin performance, suggests increased buying interest. This positive momentum can carry over in the short term, potentially lifting Bitcoin's price as market participants become more optimistic."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nd14e6c753a55",
+      "title": "Growing Popularity of Cash-Margined Bitcoin Futures Suggests Crypto 'Liquidation Cascades' Might Become Rare",
+      "url": "https://finance.yahoo.com/news/growing-popularity-cash-margined-bitcoin-110232084.html",
+      "summary": "The increasing popularity of cash-margined Bitcoin futures is structurally changing the derivatives market, potentially making 'liquidation cascades' less frequent. Cash-margined contracts, which use USD or stablecoins as collateral, now represent a record 65% of BTC futures open interest. This shift suggests a more stable derivatives market, reducing the likelihood of extreme, cascading liquidations that can cause sharp price drops.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "cash_margined_BTC_futures",
+        "reduced_liquidation_risk",
+        "derivatives_market_stability",
+        "BTC_open_interest"
+      ],
+      "rationale": "A more stable derivatives market with reduced liquidation cascade risk is a positive development for Bitcoin's price action. It implies that extreme price swings caused by forced liquidations may become less common, leading to more predictable price movements."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n0a8107c37e19",
+      "title": "Dow jumps 600 points as US stocks extend big rally amid upbeat earnings",
+      "url": "https://finance.yahoo.com/news/dow-jumps-600-points-us-134649739.html",
+      "summary": "U.S. stocks experienced a significant rally, with the Dow Jones Industrial Average jumping 600 points, extending Monday's gains. This surge is attributed to stronger-than-expected earnings reports from companies like Goldman Sachs and Johnson & Johnson. The positive earnings season is boosting market sentiment, indicating a potential short-term uptrend in equities.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "US_stocks_rally",
+        "Dow_Jones_gain",
+        "upbeat_earnings",
+        "market_sentiment_boost"
+      ],
+      "rationale": "A strong rally in U.S. stocks, driven by positive earnings, often correlates with increased risk appetite in broader markets. This can lead to a short-term positive spillover effect on Bitcoin as investors become more willing to invest in riskier assets."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n27225339d54e",
+      "title": "FOREX-Dollar higher but gains in check as risk appetite rebounds",
+      "url": "https://finance.yahoo.com/news/forex-dollar-higher-gains-check-193845628.html",
+      "summary": "The U.S. dollar showed a slight increase but faced limitations as global financial markets experienced a rebound in risk appetite. This suggests that while the dollar remains strong, the positive shift in market sentiment is preventing it from reaching new highs. The revival of risk appetite is a key factor influencing the performance of risk assets like Bitcoin.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength_limited",
+        "risk_appetite_rebound",
+        "global_market_sentiment",
+        "forex_market"
+      ],
+      "rationale": "A rebound in risk appetite, even with a strong dollar, is generally positive for Bitcoin. It indicates that investors are becoming more comfortable taking on risk, which can lead to increased demand for assets like Bitcoin."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n13de824a260b",
+      "title": "First Mover Americas: Bitcoin Holding Up at $19.5K Despite Bearish Conditions",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-holding-125710463.html",
+      "summary": "Bitcoin has maintained its position around $19,500, showing resilience despite prevailing bearish market conditions and economic uncertainty. This stability suggests a potential floor for the price, indicating that buying interest is present even amidst negative sentiment. The CoinDesk Market Index (CMI) experienced a slight dip, but Bitcoin's relative strength is noteworthy.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_stability_19.5K",
+        "bearish_market_conditions",
+        "economic_uncertainty",
+        "BTC_relative_strength"
+      ],
+      "rationale": "Bitcoin holding steady around $19.5K despite bearish news indicates a degree of support. This resilience suggests that short-term price action might be less volatile than expected, potentially leading to consolidation or a minor upward movement if positive catalysts emerge."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nf3bd5962ff55",
+      "title": "Markets: Bitcoin, Ether rise; Polygon, Solana lead gainers among the top 10 tokens",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-rise-polygon-013217910.html",
+      "summary": "Bitcoin and Ether have seen price increases, with Polygon and Solana leading the gains among the top 10 cryptocurrencies. This broad upward movement across major digital assets suggests a positive short-term sentiment in the crypto market. The outperformance of specific altcoins like Polygon and Solana can sometimes signal increased investor interest in specific ecosystems or technological developments.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_ETH_price_rise",
+        "Polygon_Solana_gains",
+        "top_10_crypto_performance",
+        "positive_short_term_sentiment"
+      ],
+      "rationale": "The synchronized rise of Bitcoin, Ether, and leading altcoins indicates a general positive sentiment in the crypto market. This broad-based upward momentum is likely to continue in the short term, potentially pushing Bitcoin higher as more capital flows into the space."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n474b4f3fa2d0",
+      "title": "SEC, CFTC Launch Probe Into Bankrupt Crypto Fund Three Arrows Capital: Report",
+      "url": "https://finance.yahoo.com/news/sec-cftc-launch-probe-bankrupt-102902829.html",
+      "summary": "U.S. regulators, the SEC and CFTC, are reportedly investigating the bankrupt crypto hedge fund Three Arrows Capital (3AC). The probe focuses on potential violations of rules, including misleading investors about its financial health and failing to register with the agencies. This regulatory scrutiny on a major failed entity could lead to stricter enforcement actions and increased compliance requirements across the crypto industry.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_CFTC_probe_3AC",
+        "crypto_fund_bankruptcy",
+        "regulatory_enforcement",
+        "investor_misleading_allegations"
+      ],
+      "rationale": "Increased regulatory scrutiny and investigations into major bankruptcies like Three Arrows Capital can create short-term uncertainty and a negative sentiment in the crypto market. This could lead to a temporary dip in Bitcoin's price as investors anticipate potential crackdowns or stricter compliance measures."
+    },
+    {
+      "pick_idx": 43,
+      "id": "nfc17cfa39fa5",
+      "title": "Silvergate shares slump 20% after it delays stablecoin rollout",
+      "url": "https://finance.yahoo.com/news/silvergate-shares-slump-slowing-crypto-deposits-140251539.html",
+      "summary": "Silvergate Capital Corp's shares fell over 20% following the announcement that its stablecoin rollout will be delayed beyond year-end. The bank also reported slower crypto deposit exchanges compared to previous quarters. This news indicates potential headwinds for crypto-focused financial institutions and a possible slowdown in institutional adoption of crypto services.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Silvergate_stablecoin_delay",
+        "slowing_crypto_deposits",
+        "crypto_financial_institution_headwinds",
+        "institutional_adoption_slowdown"
+      ],
+      "rationale": "The delay in Silvergate's stablecoin rollout and slower crypto deposit activity signals potential challenges for financial institutions deeply integrated with the crypto market. This could lead to a short-term bearish sentiment, as it suggests a slowdown in institutional engagement and potential liquidity issues."
+    },
+    {
+      "pick_idx": 49,
+      "id": "nfed4b5208673",
+      "title": "‘I finally found my tribe’: Inside Latin America’s booming crypto testing ground",
+      "url": "https://finance.yahoo.com/news/finally-found-tribe-inside-latin-120000071.html",
+      "summary": "Latin America, particularly Brazil, is emerging as a significant testing ground for cryptocurrency adoption, with a growing community of Web3 entrepreneurs and investors. The region's increasing engagement with digital assets, driven by factors like inflation and a desire for financial innovation, suggests a strong grassroots adoption trend. This burgeoning interest could lead to increased demand for cryptocurrencies.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Latin_America_crypto_adoption",
+        "Brazil_crypto_growth",
+        "Web3_entrepreneurs",
+        "grassroots_adoption"
+      ],
+      "rationale": "The growing adoption of crypto in Latin America, driven by local economic conditions and innovation, represents a positive trend for overall demand. Increased adoption in emerging markets can contribute to Bitcoin's global user base and potentially drive short-term price appreciation."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-10-18",
+    "summary": "Bitcoin is showing resilience around the $19.5K mark despite bearish macro conditions, buoyed by a broader crypto market rally and positive U.S. equity performance driven by strong earnings. However, regulatory scrutiny on bankrupt crypto entities like Three Arrows Capital and headwinds for crypto-focused financial institutions like Silvergate introduce short-term uncertainty. The growing popularity of cash-margined futures and increasing adoption in regions like Latin America offer long-term bullish signals, while Ethereum's upcoming upgrade adds a positive catalyst for the broader ecosystem.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkishness from the Federal Reserve and potential for further interest rate hikes.",
+      "Increased regulatory scrutiny and enforcement actions against crypto entities.",
+      "Broader economic downturn impacting risk asset appetite.",
+      "Potential for contagion from further failures in the crypto lending or mining sectors.",
+      "Geopolitical instability and its impact on global markets."
+    ],
+    "watch_items": [
+      "Upcoming CPI and FOMC meeting minutes for further macro direction.",
+      "Performance of major tech stocks and their earnings reports.",
+      "Developments in regulatory investigations into crypto firms.",
+      "Hashrate trends and miner profitability metrics.",
+      "Flows into Bitcoin ETFs and other institutional products."
+    ]
+  }
+}

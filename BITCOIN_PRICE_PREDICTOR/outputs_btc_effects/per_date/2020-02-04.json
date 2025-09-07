@@ -1,0 +1,496 @@
+{
+  "date": "2020-02-04",
+  "long_term": [
+    {
+      "pick_idx": 6,
+      "id": "n735d9c6b82af",
+      "title": "60% of Bitcoins haven’t moved for more than a year",
+      "url": "https://finance.yahoo.com/news/60-bitcoins-haven-t-moved-150018091.html",
+      "summary": "A significant portion of Bitcoin, nearly 60% (10.7 million BTC), has remained unmoved for over a year, indicating widespread HODLing. This suggests a strong conviction among holders to retain their assets rather than trade them. Such behavior is generally viewed as a bullish sign for the market, implying reduced selling pressure and a potential for price appreciation as supply available for immediate sale is limited.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "hodling_activity",
+        "long_term_holder_sentiment",
+        "btc_supply_velocity"
+      ],
+      "rationale": "A large percentage of Bitcoin being held long-term suggests strong investor conviction and reduced selling pressure. This can lead to price appreciation as available supply for trading diminishes."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ne5b94574fa6d",
+      "title": "Bitcoin could more than double again in 2020 after 30% surge, says Tom Lee",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-more-than-double-again-in-2020-after-30-surge-says-tom-lee-164534544.html",
+      "summary": "Fundstrat Global Advisors' Tom Lee predicts Bitcoin could more than double in 2020, following a 30% surge in January. He highlights Bitcoin trading above its 200-day moving average as a significant bullish technical signal, noting that the cryptocurrency has historically traded higher 80% of the time after achieving this feat. This suggests a potential continuation of the upward trend.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "tom_lee_prediction",
+        "200_day_moving_average_cross",
+        "btc_2020_outlook"
+      ],
+      "rationale": "A prominent analyst's bullish prediction, backed by a key technical indicator (200-day MA), suggests strong potential for price appreciation. This can attract further investment and positive sentiment."
+    },
+    {
+      "pick_idx": 15,
+      "id": "na09feaf84819",
+      "title": "Grayscale’s Bitcoin Trust is now registered with the SEC as reporting company",
+      "url": "https://finance.yahoo.com/news/grayscale-bitcoin-trust-now-registered-160858178.html",
+      "summary": "Grayscale's Bitcoin Trust (GBTC) has become the first cryptocurrency investment vehicle to register as an SEC reporting company by filing a Form 10. This move enhances transparency and regulatory compliance, potentially paving the way for increased institutional adoption and broader market acceptance. It signifies a step towards greater legitimacy within the traditional financial system.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "sec_reporting_company",
+        "grayscale_gbtc",
+        "institutional_adoption_enabler"
+      ],
+      "rationale": "Becoming an SEC reporting company increases GBTC's legitimacy and transparency, attracting institutional investors and potentially leading to greater adoption of Bitcoin as an asset class."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nd356b3e8a7a6",
+      "title": "Bitmain Shifts Miner Sales Tactics, Betting Big on Bitcoin Halving Pump",
+      "url": "https://finance.yahoo.com/news/bitmain-shifts-miner-sales-tactics-021500980.html",
+      "summary": "Bitmain, a major bitcoin mining hardware manufacturer, is adjusting its sales strategy, potentially in anticipation of the upcoming Bitcoin halving. This strategic shift, coupled with the return of co-founder Jihan Wu, aims to restore market dominance. The company's focus on the halving suggests an expectation of increased mining profitability and demand for hardware, which could indirectly support Bitcoin's price.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitmain_strategy_shift",
+        "bitcoin_halving_anticipation",
+        "mining_hardware_demand"
+      ],
+      "rationale": "Bitmain's strategic shift and focus on the halving indicate an expectation of increased mining activity and profitability, which can be a bullish signal for Bitcoin's price."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n38300f73f2a4",
+      "title": "Blockchain heading for the moon",
+      "url": "https://finance.yahoo.com/news/blockchain-heading-moon-170052023.html",
+      "summary": "The blockchain industry is experiencing significant growth with governments passing crypto-friendly legislation and major enterprises adopting the technology. Global banks are actively implementing blockchain solutions, and Bitcoin's acceptance is becoming a global phenomenon. This widespread adoption and integration across various sectors suggest a positive long-term outlook for blockchain technology and cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "global_blockchain_adoption",
+        "enterprise_blockchain_integration",
+        "government_crypto_regulation"
+      ],
+      "rationale": "Widespread adoption by governments and enterprises, coupled with increasing global acceptance of Bitcoin, points to a strong positive long-term trend for the blockchain ecosystem."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n450ff695b021",
+      "title": "Bitcoin Jumps 5%, Gaining With Gold, After US Kills Top Iranian Official",
+      "url": "https://finance.yahoo.com/news/bitcoin-jumps-5-gaining-gold-180502822.html",
+      "summary": "Bitcoin experienced a 5% price surge, mirroring gains in gold, following a U.S. drone strike that killed a top Iranian military commander. This event fueled speculation about increased demand for Bitcoin as a safe-haven asset amidst heightened geopolitical turmoil. The price increase pushed Bitcoin into positive territory for the year, indicating its potential role as a hedge against geopolitical risks.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "geopolitical_event_impact",
+        "bitcoin_as_safe_haven",
+        "gold_correlation"
+      ],
+      "rationale": "Bitcoin's performance as a safe-haven asset during geopolitical events suggests it can act as a hedge, potentially driving demand and price appreciation during periods of global instability."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n8aa6f61f429d",
+      "title": "More than 700 new blockchain companies launch in China in January alone",
+      "url": "https://finance.yahoo.com/news/more-700-blockchain-companies-launch-090011333.html",
+      "summary": "China saw the launch of 714 new blockchain and distributed ledger technology companies in January alone, indicating continued growth in the sector. While the total number of operating blockchain companies in China is significant, this surge in new ventures highlights ongoing innovation and investment. This trend suggests a robust development environment for blockchain technology in a major global economy.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "china_blockchain_growth",
+        "new_blockchain_ventures",
+        "dlt_company_formation"
+      ],
+      "rationale": "A significant number of new blockchain companies launching in China indicates strong domestic interest and development, potentially leading to new applications and increased adoption."
+    },
+    {
+      "pick_idx": 36,
+      "id": "nbde0972b8dca",
+      "title": "Bitcoin is ‘not effective’ to serve purposes of money, says billionaire investor Ray Dalio",
+      "url": "https://finance.yahoo.com/news/bitcoin-not-effective-serve-purposes-102856128.html",
+      "summary": "Billionaire investor Ray Dalio, founder of Bridgewater Associates, expressed skepticism about Bitcoin's effectiveness as money, citing its limitations as a medium of exchange and store of wealth. He advocates for gold as a portfolio asset, contrasting it with cash, which he calls 'trash.' Dalio's view, while critical, also highlights the ongoing debate about Bitcoin's role in the financial system.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ray_dalio_bitcoin_view",
+        "bitcoin_as_money_debate",
+        "gold_advocacy"
+      ],
+      "rationale": "While a prominent investor expresses doubts, the ongoing debate and differing opinions from influential figures create uncertainty about Bitcoin's long-term utility and adoption as a primary financial asset."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n14a20736b15b",
+      "title": "Bitcoin: Big Market Shift Dead Ahead",
+      "url": "https://finance.yahoo.com/news/bitcoin-big-market-shift-dead-140839102.html",
+      "summary": "The upcoming Bitcoin halving in May 2020 is highlighted as a significant event that will reduce the creation of new Bitcoin by 50%. This programmed reduction in supply, occurring approximately every four years, is designed to gradually decrease new coin creation towards zero. Such events have historically preceded significant market shifts and price increases due to the supply shock.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_halving_event",
+        "supply_shock",
+        "btc_issuance_reduction"
+      ],
+      "rationale": "The impending Bitcoin halving event is a fundamental catalyst that will reduce new supply, historically leading to significant price appreciation due to increased scarcity."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n4bf4cd4ec88f",
+      "title": "Bitcoin set for growth in 2020 due to fixed supply and increasing adoption, says Bloomberg analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-set-growth-2020-due-113018716.html",
+      "summary": "A Bloomberg analyst predicts Bitcoin's price will increase in 2020, driven by its fixed supply of 21 million coins and growing adoption. The analyst notes Bitcoin's lead in the adoption race, particularly as a store-of-value asset in an environment favoring independent currencies. The projected supply increase of about 2.5% in 2020, an all-time low, further supports the bullish outlook.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bloomberg_analyst_prediction",
+        "btc_fixed_supply",
+        "increasing_adoption_trend"
+      ],
+      "rationale": "The combination of a capped supply and increasing adoption, as highlighted by a Bloomberg analyst, creates a strong fundamental case for Bitcoin's price appreciation in the coming year."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n6b73da8e18fa",
+      "title": "BitMEX to launch XRP perpetual swap tomorrow, with up to 50x leverage",
+      "url": "https://finance.yahoo.com/news/bitmex-launch-xrp-perpetual-swap-074512856.html",
+      "summary": "BitMEX is launching an XRP perpetual swap contract with up to 50x leverage on February 5th. This move by a major derivatives exchange to list a new, highly leveraged product for a significant altcoin could increase trading volume and volatility in XRP, and potentially influence Bitcoin's trading dynamics through cross-market effects.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "listing",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bitmex_xrp_swap",
+        "leverage_trading_launch",
+        "altcoin_derivatives"
+      ],
+      "rationale": "The launch of a high-leverage XRP contract on BitMEX could increase trading activity and volatility for XRP, potentially creating ripple effects in the broader crypto market."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nbfda1017db15",
+      "title": "Direct flight-to-safety with gold for volatile crypto assets launched by DACX & US Gold Currency together with Blockfills",
+      "url": "https://finance.yahoo.com/news/direct-flight-safety-gold-volatile-090000594.html",
+      "summary": "A new partnership has launched a crypto-gold and fiat-stablecoin-gold pairs market, allowing for a 'flight-to-safety' from volatile crypto assets into gold-backed tokens. This innovation provides a new avenue for risk management within the crypto space, potentially impacting demand for stablecoins and Bitcoin as investors seek stability.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crypto_gold_stablecoin",
+        "flight_to_safety_mechanism",
+        "asset_diversification_tool"
+      ],
+      "rationale": "The introduction of gold-backed stablecoins offers a new risk-off option for crypto investors, potentially diverting some capital from Bitcoin and impacting overall market liquidity."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n8e537eb3439d",
+      "title": "Asian Markets Stabilize After Monday's Sell-Off, Coronavirus Cases Cross 20K",
+      "url": "https://finance.yahoo.com/news/asian-markets-stabilize-mondays-sell-090641925.html",
+      "summary": "Asian markets showed signs of stabilization after a previous sell-off, despite the rising number of coronavirus cases. This stabilization in broader markets could provide a more stable backdrop for risk assets like Bitcoin, potentially reducing immediate selling pressure. However, the ongoing spread of the virus remains a significant macro risk.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "asian_market_stabilization",
+        "coronavirus_cases_impact",
+        "risk_on_sentiment"
+      ],
+      "rationale": "Stabilization in Asian markets could offer a temporary reprieve for Bitcoin, but the escalating coronavirus situation poses a persistent macro risk that could trigger renewed sell-offs."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb0f258c235ff",
+      "title": "Pullback Ahead? Bitcoin Price Indicators Suggest Waning Bull Momentum",
+      "url": "https://finance.yahoo.com/news/pullback-ahead-bitcoin-price-indicators-110355618.html",
+      "summary": "Bitcoin's price action on Monday formed a 'doji' candle, signaling potential bull fatigue and a shift towards a price pullback. Key support is identified at the 200-day moving average ($8,867). If this level holds, a move towards $9,600 is possible, but a break below $8,200 would invalidate the bullish trend. This suggests a near-term consolidation or correction.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "doji_candle_pattern",
+        "bull_fatigue",
+        "200_day_ma_support_test"
+      ],
+      "rationale": "Technical indicators suggest waning bullish momentum and a potential short-term pullback, with the 200-day moving average acting as a critical support level to watch."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n612cfa49a36a",
+      "title": "Bitcoin loses momentum with test of $9,150 support",
+      "url": "https://finance.yahoo.com/news/bitcoin-loses-momentum-test-9-120201879.html",
+      "summary": "Bitcoin has retreated towards the $9,150 support level after failing to break above $9,560. This level previously acted as resistance, leading to an 8% drop. A break below $9,150 could push Bitcoin towards the $8,850 range, which aligns with the 200-day moving average. Trading below this MA could signal a bearish phase.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "momentum_loss",
+        "9150_support_test",
+        "200_day_ma_confluence"
+      ],
+      "rationale": "Bitcoin's failure to sustain upward momentum and its test of key support levels indicate potential for a short-term price decline, especially if the 200-day MA is breached."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n52542a4a0305",
+      "title": "Bitcoin SV Sees Minor Split as Blockchain Shifts to ‘Genesis’ Upgrade",
+      "url": "https://finance.yahoo.com/news/bitcoin-sv-sees-minor-split-131602960.html",
+      "summary": "Bitcoin SV (BSV) has undergone a hard fork to implement its 'Genesis' upgrade, restoring the original Bitcoin protocol. While described as a minor split, any blockchain fork can introduce temporary uncertainty or minor network disruptions. The impact on Bitcoin itself is likely minimal, but it adds to the general noise in the crypto space.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "protocol"
+      ],
+      "features_for_model": [
+        "bsv_genesis_fork",
+        "blockchain_protocol_upgrade",
+        "minor_network_split"
+      ],
+      "rationale": "The BSV hard fork, while primarily affecting BSV, adds to the general blockchain activity and can create minor, short-term uncertainty in the broader crypto market sentiment."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nad495ca3b84d",
+      "title": "5 ways Bitcoin's price is looking up",
+      "url": "https://finance.yahoo.com/news/5-ways-bitcoins-price-looking-135543049.html",
+      "summary": "The article presents five reasons for a bullish outlook on Bitcoin's price, including recent price increases across major cryptocurrencies like BTC, ETH, and XRP. It suggests that Bitcoin may have turned a corner after a decline in late 2019, with prices going up being a simple indicator of a bull market. This points to a potential short-term upward trend.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bullish_price_indicators",
+        "altcoin_performance_correlation",
+        "market_turnaround_signal"
+      ],
+      "rationale": "Positive price action across major cryptocurrencies and specific bullish indicators suggest a potential short-term upward movement for Bitcoin."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n23d02623b914",
+      "title": "Twitter co-founder backs an app that lets users buy bitcoin",
+      "url": "https://finance.yahoo.com/news/twitter-co-founder-backs-app-104533074.html",
+      "summary": "Biz Stone, co-founder of Twitter, has invested in Mode Banking, a fintech app that facilitates Bitcoin purchases. While the app aims for quick onboarding, a test revealed potential KYC issues. Nevertheless, high-profile backing for crypto-related fintech can boost confidence and adoption, potentially increasing demand for Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 1,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "biz_stone_investment",
+        "fintech_app_adoption",
+        "btc_onramp_expansion"
+      ],
+      "rationale": "The backing of a prominent tech figure for a Bitcoin-buying app, despite some operational hurdles, signals growing mainstream interest and can contribute to increased Bitcoin adoption."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf96ec72b464d",
+      "title": "Inside the Standards Race for Implementing FATF’s Travel Rule",
+      "url": "https://finance.yahoo.com/news/inside-standards-race-implementing-fatf-161025449.html",
+      "summary": "Crypto businesses are preparing to comply with the FATF's 'Travel Rule,' requiring identifying information for transactions above a certain threshold. Competing technical implementations are emerging, with a focus on messaging standards. Compliance challenges are significant, and the FATF will review proposed solutions in June 2020. This regulatory development could impact liquidity and transaction flows.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "fatf_travel_rule_compliance",
+        "crypto_regulation_standards",
+        "transaction_data_sharing"
+      ],
+      "rationale": "The ongoing development and implementation of the FATF Travel Rule could lead to changes in how crypto transactions are processed, potentially affecting liquidity and requiring adjustments from exchanges."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nd54229fb441e",
+      "title": "Coronavirus helps make the case for crypto: Tom Lee",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-top-18000-if-history-of-this-technical-buy-signal-repeats-itself-tom-lee-213148645.html",
+      "summary": "Tom Lee suggests that fears surrounding the coronavirus outbreak, which have rattled equity markets, could bolster the case for cryptocurrencies like Bitcoin as a safe-haven asset. This sentiment, combined with Bitcoin trading above its 200-day moving average, reinforces a bullish outlook, potentially driving demand for Bitcoin as a hedge against global uncertainty.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "coronavirus_impact_on_crypto",
+        "safe_haven_demand",
+        "tom_lee_bullish_thesis"
+      ],
+      "rationale": "The global health concern is seen as a potential catalyst for increased demand for Bitcoin as a safe-haven asset, reinforcing bullish sentiment and potentially driving prices higher."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-02-04",
+    "summary": "Bitcoin shows signs of waning momentum, with technical indicators suggesting a potential short-term pullback towards the $9,150 support level and the 200-day moving average. However, long-term bullish factors remain, including the upcoming halving and increasing adoption, supported by positive analyst sentiment and the potential for Bitcoin to act as a safe-haven asset amidst global uncertainties like the coronavirus outbreak. The launch of new derivatives products and regulatory developments add to the short-term volatility.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Escalation of the coronavirus outbreak impacting global markets.",
+      "Failure to hold key technical support levels ($9,150, 200-day MA).",
+      "Increased regulatory scrutiny or adverse news impacting sentiment.",
+      "High leverage in new derivative products leading to cascading liquidations.",
+      "Potential for broader market sell-off if macroeconomic conditions worsen."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $9,150 and the 200-day MA.",
+      "Developments related to the coronavirus outbreak and its market impact.",
+      "FATF Travel Rule implementation progress and potential effects.",
+      "Performance of altcoins and their correlation with Bitcoin.",
+      "Any further analyst commentary or institutional adoption news."
+    ]
+  }
+}

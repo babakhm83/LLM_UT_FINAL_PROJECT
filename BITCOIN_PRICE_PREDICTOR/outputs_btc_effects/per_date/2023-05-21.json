@@ -1,0 +1,502 @@
+{
+  "date": "2023-05-21",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n805f82a55076",
+      "title": "MicroStrategy buys 6,555 Bitcoin worth US$150 mln",
+      "url": "https://finance.yahoo.com/news/microstrategy-buys-6-555-bitcoin-132904000.html",
+      "summary": "MicroStrategy acquired 6,555 Bitcoin for approximately US$150 million, averaging US$23,238 per coin, between February 16 and March 23. This acquisition brings their total holdings to around 138,955 Bitcoin, acquired for roughly US$4.14 billion at an average price of US$29,817. MicroStrategy remains the largest corporate holder of Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_buy",
+        "corporate_bitcoin_holdings"
+      ],
+      "rationale": "Continued accumulation by a major corporate holder like MicroStrategy signals strong conviction in Bitcoin's long-term value. This sustained buying pressure from significant entities can support price appreciation over time."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ne4787e9308a4",
+      "title": "Crypto’s Ethereum Network Completes Key Software Upgrade Without a Hitch",
+      "url": "https://finance.yahoo.com/news/crypto-ethereum-network-finishes-shanghai-000859406.html",
+      "summary": "Ethereum's Shanghai software upgrade was successfully completed, alleviating concerns about potential rapid outflows of staked Ether. The upgrade went smoothly, leading to a rally in Ether's price past $2,000 for the first time since August.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethereum_Shanghai_upgrade",
+        "staked_ETH_outflows",
+        "ETH_price_rally"
+      ],
+      "rationale": "The successful Shanghai upgrade enhances Ethereum's utility and scalability, removing a key uncertainty. This positive development for the second-largest cryptocurrency can have spillover effects on the broader crypto market, including Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n5480b74725d6",
+      "title": "Judge Denies Motion to Seal Hinman Documents in Ripple SEC Case",
+      "url": "https://finance.yahoo.com/news/judge-denies-motion-seal-hinman-131107347.html",
+      "summary": "A judge denied a motion to seal documents related to a 2018 speech by former SEC director Bill Hinman, which explained why he didn't consider Bitcoin or Ethereum as securities. This ruling in the Ripple SEC case could impact the regulatory landscape for other cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Ripple_SEC_case",
+        "Hinman_documents",
+        "crypto_securities_classification"
+      ],
+      "rationale": "The ongoing legal battles, particularly the Ripple case, create regulatory uncertainty. Clarity on whether ETH or other altcoins are considered securities could significantly influence investor sentiment and market dynamics for Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n1ab2c103a786",
+      "title": "The Zacks Analyst Blog Highlights iPatha.B Sugar Subindex TR ETN, Sprott Junior Uranium Miners ETF, Bitwise Bitcoin Strategy Optimum Roll ETF, Advisorshares Pure US Cannabis ETF and KrraneShares Global Carbon Offset Strategy ETF",
+      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-ipatha-100010819.html",
+      "summary": "This Zacks Analyst Blog highlights various ETFs, including the Bitwise Bitcoin Strategy Optimum Roll ETF (BITC). The mention of a Bitcoin strategy ETF suggests continued institutional interest and product development in the crypto space, offering avenues for traditional investors to gain exposure.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_strategy_ETF",
+        "institutional_adoption"
+      ],
+      "rationale": "The availability and promotion of Bitcoin-related ETFs by financial analysis firms like Zacks indicate growing institutional acceptance and product innovation. This trend can lead to increased capital inflows into Bitcoin over the long term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nec15a265b632",
+      "title": "WonderFi, Coinsquare and CoinSmart to Combine to Create Canada's Largest Regulated Crypto Asset Trading Platform with 1.65 Million Registered Users",
+      "url": "https://finance.yahoo.com/news/wonderfi-coinsquare-coinsmart-combine-create-114600186.html",
+      "summary": "WonderFi, Coinsquare, and CoinSmart are merging to form Canada's largest regulated crypto asset trading platform, serving 1.65 million users. This consolidation aims to create a more robust and compliant crypto ecosystem within Canada.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "crypto_exchange_consolidation",
+        "regulated_platform",
+        "Canadian_crypto_market"
+      ],
+      "rationale": "The creation of larger, regulated crypto platforms in major economies like Canada fosters greater trust and accessibility. This consolidation can attract more mainstream users and institutional capital, indirectly benefiting Bitcoin's adoption."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nf4d0bb725d44",
+      "title": "Bitcoin’s Frenzy of Activity Pushes Average Transaction Fee Over $7, Nearly 2-Year High",
+      "url": "https://finance.yahoo.com/news/bitcoin-frenzy-activity-pushes-average-213058119.html",
+      "summary": "Increased activity on the Bitcoin blockchain, driven by Ethereum-style tokens and NFTs via the Ordinals protocol, has pushed average transaction fees to nearly $7.25, a level not seen since July 2021. This surge in fees indicates high network demand and benefits miners.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Bitcoin_transaction_fees",
+        "Ordinals_protocol",
+        "BRC-20_tokens",
+        "network_congestion"
+      ],
+      "rationale": "High transaction fees indicate robust demand for Bitcoin's block space, often correlated with increased user activity and speculative interest. This can be a bullish signal, showing the network's utility and driving miner revenue."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n3a5fcd84fcd1",
+      "title": "Strike Brings Lightning-Fast Money Transfers from the U.S. to Vietnam",
+      "url": "https://finance.yahoo.com/news/strike-brings-lightning-fast-money-141000720.html",
+      "summary": "Strike, a digital payments platform built on Bitcoin's Lightning Network, has launched fast, low-cost money transfers from the U.S. to Vietnam. This expansion leverages the Lightning Network for cross-border remittances, offering an alternative to traditional providers.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Strike_Lightning_Network",
+        "cross_border_payments",
+        "remittances",
+        "Vietnam_expansion"
+      ],
+      "rationale": "The expansion of the Lightning Network for real-world use cases like remittances demonstrates its growing utility and scalability. Increased adoption of the Lightning Network can lead to higher Bitcoin demand and transaction volume."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n44b2e873ae3e",
+      "title": "Buy SQ Stock? Why You Should Invest $100 in Block Now.",
+      "url": "https://finance.yahoo.com/news/buy-sq-stock-why-invest-142710513.html",
+      "summary": "Block (formerly Square) is exploring the Bitcoin mining hardware business and adding new features to its Square payments app. The company's willingness to innovate within the crypto space, including Bitcoin mining, suggests a long-term commitment to the ecosystem.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Block_Square",
+        "Bitcoin_mining_hardware",
+        "Web3_payments"
+      ],
+      "rationale": "Companies like Block entering the Bitcoin mining hardware space and integrating crypto services signals broader industry adoption and infrastructure development. This can lead to increased demand for Bitcoin and its related technologies."
+    },
+    {
+      "pick_idx": 34,
+      "id": "ne76029d2fe9d",
+      "title": "Bitcoin Reclaims $30,000: ETFs to Ride the Rally",
+      "url": "https://finance.yahoo.com/news/bitcoin-reclaims-30-000-etfs-151003761.html",
+      "summary": "Bitcoin has surpassed $30,000 for the first time since June 2022, driven by expectations of the Fed ending its monetary tightening and recent banking turmoil. The article highlights ETFs like BITO and BITQ as ways for investors to gain exposure to the rally.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_30k",
+        "Fed_monetary_policy",
+        "banking_turmoil",
+        "Bitcoin_ETFs"
+      ],
+      "rationale": "Bitcoin reclaiming the $30,000 level is a significant psychological and technical milestone. The anticipation of a Fed pause and the availability of Bitcoin ETFs provide strong tailwinds for continued price appreciation."
+    },
+    {
+      "pick_idx": 42,
+      "id": "nfcc6ae5ad65a",
+      "title": "Crypto is hitting its ‘trough of disillusionment.’ Like the internet, its next phase will be better",
+      "url": "https://finance.yahoo.com/news/crypto-hitting-trough-disillusionment-internet-102758701.html",
+      "summary": "The article draws parallels between the current crypto market phase and the internet's 'trough of disillusionment' before its resurgence. It suggests that despite current skepticism, crypto's next phase will involve significant improvements and wider adoption, similar to the internet's evolution.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_trough_disillusionment",
+        "internet_analogy",
+        "long_term_adoption"
+      ],
+      "rationale": "This perspective suggests that the current market downturn is a natural part of technological adoption cycles. By comparing crypto to the internet's historical trajectory, it implies a strong potential for future growth and innovation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nefbec2a07eb4",
+      "title": "12 Trusted Bitcoin Investment Sites",
+      "url": "https://finance.yahoo.com/news/12-trusted-bitcoin-investment-sites-113829652.html",
+      "summary": "This article reviews trusted Bitcoin investment sites, emphasizing due diligence regarding reputation, authenticity, and current status. It highlights the importance of careful selection in the evolving crypto landscape.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_investment_sites",
+        "due_diligence"
+      ],
+      "rationale": "While not directly impacting price, the focus on trusted sites suggests a growing user base seeking reliable entry points, which could contribute to gradual adoption."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0590732d6826",
+      "title": "DogeMiyagi Emerges as Ethereum Price Dangles, While Bitcoin’s Decline Intensifies with a 10% Fall in May 2023",
+      "url": "https://finance.yahoo.com/news/dogemiyagi-emerges-ethereum-price-dangles-165159627.html",
+      "summary": "A leaked document suggests potential classification of most cryptocurrencies as securities, causing investor worry. The article questions if meme coins will gain popularity if Bitcoin and Ethereum prices fall, mentioning DogeMiyagi.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "meme_coin"
+      ],
+      "features_for_model": [
+        "crypto_securities_classification",
+        "meme_coin_sentiment",
+        "BTC_ETH_price_decline"
+      ],
+      "rationale": "The potential for broad crypto classification as securities, coupled with a mention of Bitcoin's decline, creates negative sentiment and could lead to short-term selling pressure."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n067b450add27",
+      "title": "Presidential Candidate Kennedy Vows to Defend Bitcoin Against ‘Invasive Surveillance’",
+      "url": "https://finance.yahoo.com/news/presidential-candidate-kennedy-vows-defend-173541052.html",
+      "summary": "Presidential candidate Robert F. Kennedy Jr. declared his support for Bitcoin at the Bitcoin Conference, vowing to defend it against 'invasive surveillance.' His platform emphasizes protecting privacy and decentralization.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "RFK_Jr_Bitcoin_support",
+        "privacy_advocacy",
+        "political_sentiment"
+      ],
+      "rationale": "Positive political endorsements, especially from a presidential candidate, can boost sentiment and attract new users, potentially leading to a minor short-term price increase."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nd79e2a58be01",
+      "title": "This Week on Crypto Twitter: SEC Dragnet Drags On",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-sec-dragnet-181916005.html",
+      "summary": "Crypto prices remained flat this week amidst ongoing regulatory battles with the SEC. Chairman Gary Gensler reiterated the SEC's stance on existing securities laws for crypto, while Commissioner Hester Pierce argued for clearer rules.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_regulation",
+        "crypto_industry_battle",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "The continued regulatory uncertainty from the SEC creates a cautious market environment, potentially dampening short-term price action and increasing volatility."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n4ade08435f11",
+      "title": "Biden Slams Wealthy Crypto Traders as U.S. Budget Talks Resume",
+      "url": "https://finance.yahoo.com/news/biden-slams-wealthy-crypto-traders-195408418.html",
+      "summary": "President Joe Biden criticized 'wealthy tax cheats and crypto traders' during U.S. budget negotiations. This statement comes as the U.S. faces a potential debt default on June 1.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Biden_crypto_comments",
+        "US_debt_ceiling",
+        "tax_policy"
+      ],
+      "rationale": "Presidential remarks targeting crypto traders, especially in the context of budget talks and potential debt default, can create negative sentiment and regulatory overhang, impacting short-term price."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf08b13a6c3ef",
+      "title": "Crypto Miner Marathon Pledges $500K in Matching Funds to Brink for Bitcoin Development",
+      "url": "https://finance.yahoo.com/news/crypto-miner-marathon-pledges-500k-205028431.html",
+      "summary": "Marathon Digital Holdings will match donations to Brink, a Bitcoin R&D firm, up to $500,000. These funds will support Bitcoin Core developers, crucial for the blockchain's ongoing maintenance and improvement.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Marathon_Digital_Holdings",
+        "Brink_funding",
+        "Bitcoin_Core_developers",
+        "developer_funding"
+      ],
+      "rationale": "Support for Bitcoin Core developers is vital for the network's long-term health and security. This initiative by Marathon signals a commitment to the ecosystem's foundational development, which is a positive, albeit subtle, short-term signal."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n067b450add27",
+      "title": "Presidential Candidate Kennedy Vows to Defend Bitcoin Against ‘Invasive Surveillance’",
+      "url": "https://finance.yahoo.com/news/presidential-candidate-kennedy-vows-defend-173541052.html",
+      "summary": "Presidential candidate Robert F. Kennedy Jr. declared his support for Bitcoin at the Bitcoin Conference, vowing to defend it against 'invasive surveillance.' His platform emphasizes protecting privacy and decentralization.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "RFK_Jr_Bitcoin_support",
+        "privacy_advocacy",
+        "political_sentiment"
+      ],
+      "rationale": "Positive political endorsements, especially from a presidential candidate, can boost sentiment and attract new users, potentially leading to a minor short-term price increase."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nf08b13a6c3ef",
+      "title": "Crypto Miner Marathon Pledges $500K in Matching Funds to Brink for Bitcoin Development",
+      "url": "https://finance.yahoo.com/news/crypto-miner-marathon-pledges-500k-205028431.html",
+      "summary": "Marathon Digital Holdings will match donations to Brink, a Bitcoin R&D firm, up to $500,000. These funds will support Bitcoin Core developers, crucial for the blockchain's ongoing maintenance and improvement.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Marathon_Digital_Holdings",
+        "Brink_funding",
+        "Bitcoin_Core_developers",
+        "developer_funding"
+      ],
+      "rationale": "Support for Bitcoin Core developers is vital for the network's long-term health and security. This initiative by Marathon signals a commitment to the ecosystem's foundational development, which is a positive, albeit subtle, short-term signal."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n067b450add27",
+      "title": "Presidential Candidate Kennedy Vows to Defend Bitcoin Against ‘Invasive Surveillance’",
+      "url": "https://finance.yahoo.com/news/presidential-candidate-kennedy-vows-defend-173541052.html",
+      "summary": "Presidential candidate Robert F. Kennedy Jr. declared his support for Bitcoin at the Bitcoin Conference, vowing to defend it against 'invasive surveillance.' His platform emphasizes protecting privacy and decentralization.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "RFK_Jr_Bitcoin_support",
+        "privacy_advocacy",
+        "political_sentiment"
+      ],
+      "rationale": "Positive political endorsements, especially from a presidential candidate, can boost sentiment and attract new users, potentially leading to a minor short-term price increase."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nd79e2a58be01",
+      "title": "This Week on Crypto Twitter: SEC Dragnet Drags On",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-sec-dragnet-181916005.html",
+      "summary": "Crypto prices remained flat this week amidst ongoing regulatory battles with the SEC. Chairman Gary Gensler reiterated the SEC's stance on existing securities laws for crypto, while Commissioner Hester Pierce argued for clearer rules.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_regulation",
+        "crypto_industry_battle",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "The continued regulatory uncertainty from the SEC creates a cautious market environment, potentially dampening short-term price action and increasing volatility."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-05-21",
+    "summary": "The crypto market is experiencing mixed signals. Long-term, institutional adoption and infrastructure development, such as the Ethereum Shanghai upgrade and the growth of Bitcoin ETFs, remain bullish drivers. However, ongoing regulatory scrutiny from the SEC and political rhetoric from figures like President Biden introduce short-term uncertainty and potential bearish sentiment. The Bitcoin conference is also a focal point, with political figures like RFK Jr. offering support, which could provide a minor bullish boost.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Increased SEC enforcement actions and regulatory uncertainty.",
+      "Negative macroeconomic data or unexpected Fed policy shifts.",
+      "Worsening global economic conditions or geopolitical instability.",
+      "Significant security breaches or hacks on major exchanges/protocols.",
+      "Failure of key crypto projects or companies leading to contagion."
+    ],
+    "watch_items": [
+      "SEC vs. Ripple case developments",
+      "US debt ceiling negotiations and potential outcomes",
+      "Statements from Federal Reserve officials",
+      "Bitcoin 2023 Conference key announcements and sentiment",
+      "On-chain data for Bitcoin transaction volume and fees"
+    ]
+  }
+}

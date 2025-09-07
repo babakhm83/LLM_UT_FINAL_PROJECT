@@ -1,0 +1,480 @@
+{
+  "date": "2022-04-21",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n87a7d42032b7",
+      "title": "Bitcoin dips below $40,000 for the first time in nearly a month, in broad crypto market slump",
+      "url": "https://finance.yahoo.com/news/bitcoin-dips-below-40-000-101520233.html",
+      "summary": "Bitcoin and Ethereum experienced significant drops, falling as much as 5% and 6% respectively, as investors moved away from riskier assets. This broad market slump in crypto is attributed to growing concerns over inflation and the increasing likelihood of aggressive interest rate hikes by the Federal Reserve. Experts suggest that Bitcoin could potentially fall to $30,000, indicating a bearish sentiment driven by macroeconomic factors impacting tech stocks and other risk-sensitive investments.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_below_40k",
+        "crypto_market_slump",
+        "inflation_concerns",
+        "rate_hike_fears"
+      ],
+      "rationale": "The dip below $40,000 signals a significant bearish sentiment driven by macroeconomic concerns. This trend is likely to persist as inflation remains a key driver for central bank policy, impacting risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n7cd6ddece3d8",
+      "title": "US stocks end higher to break losing streak spurred by fears of a hawkish Fed",
+      "url": "https://finance.yahoo.com/news/us-stocks-end-higher-break-201105544.html",
+      "summary": "Wall Street benchmarks closed higher, reversing a two-day decline, as investors embraced risk despite a hawkish stance from the Federal Reserve. St. Louis Fed President James Bullard's comments about the central bank being \"behind the curve\" on inflation and needing to raise rates by 3% this year were absorbed by the market. This suggests a resilience in risk appetite, even with the prospect of aggressive monetary tightening.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "hawkish_fed_stance",
+        "stock_market_resilience",
+        "interest_rate_hikes"
+      ],
+      "rationale": "Despite hawkish Fed commentary, the market showed resilience, suggesting that investors are pricing in rate hikes. This could lead to a more stable, albeit potentially slower, growth environment for risk assets, including Bitcoin, as the market adjusts."
+    },
+    {
+      "pick_idx": 9,
+      "id": "na77db805c101",
+      "title": "Crypto Regulation: Proof-of-Work Bitcoin Mining Could Be Banned in New York Due to Climate Concerns",
+      "url": "https://finance.yahoo.com/news/crypto-regulation-proof-bitcoin-mining-150603659.html",
+      "summary": "New York State Assembly's Environmental Conservation Committee advanced a bill proposing a two-year moratorium on proof-of-work cryptocurrency mining operations due to environmental concerns. This legislative move highlights growing regulatory scrutiny on the energy consumption of Bitcoin mining. If enacted, such a ban could significantly impact mining operations within the state and potentially set a precedent for other jurisdictions, affecting hashrate distribution and mining profitability.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "NY_mining_ban_bill",
+        "PoW_environmental_concerns",
+        "crypto_regulation"
+      ],
+      "rationale": "A potential ban on proof-of-work mining in a major jurisdiction like New York poses a significant regulatory risk. This could lead to a decrease in network hashrate and potentially impact mining profitability, creating a bearish sentiment for the mining sector and indirectly for Bitcoin."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n8b0f0e7262b4",
+      "title": "Shiba, Dogecoin Among Biggest Losers as Macro Fears Lead to Market Fall",
+      "url": "https://finance.yahoo.com/news/shiba-dogecoin-among-biggest-losers-131226220.html",
+      "summary": "Cryptocurrencies, including meme coins like Shiba Inu and Dogecoin, experienced a market-wide decline of 4% in market capitalization over 24 hours. This downturn is driven by poor macroeconomic sentiment and increasing fears of a recession in Western economies. Goldman Sachs analysts noted that aggressive Federal Reserve measures to control inflation could lead to an economic contraction, impacting riskier assets like cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "macroeconomic_fears",
+        "recession_risk",
+        "meme_coin_decline",
+        "Fed_policy_impact"
+      ],
+      "rationale": "The broad crypto market slump, driven by macroeconomic fears and recession risks, indicates a flight to safety. This sentiment is likely to continue affecting risk assets, including Bitcoin, as the Federal Reserve tightens monetary policy."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n6d681e0146ca",
+      "title": "Analyst Still Positive on Stronghold Digital Despite Miss, Citing Miner’s Low Costs",
+      "url": "https://finance.yahoo.com/news/analyst-still-positive-stronghold-digital-140147806.html",
+      "summary": "An analyst from Compass Point maintains a positive outlook on Bitcoin miner Stronghold Digital (SDIG), despite recent setbacks, due to its low operational costs. The company's use of waste coal for energy positions it as one of the lowest-cost Bitcoin miners in the U.S. The analyst believes the management team's experience will help the company overcome short-term challenges, suggesting a fundamental strength in its mining operations.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "miner_low_costs",
+        "Stronghold_Digital_operations",
+        "waste_coal_energy"
+      ],
+      "rationale": "Stronghold Digital's low-cost mining operations, utilizing waste coal, provide a competitive advantage. This operational efficiency is a positive long-term indicator for the company and, by extension, for the Bitcoin mining ecosystem's resilience."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n278562296268",
+      "title": "What Biden’s Crypto Order Means For Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/biden-crypto-order-means-bitcoin-194500786.html",
+      "summary": "President Biden's executive order on cryptocurrencies could accelerate regulatory efforts, potentially bringing spot cryptocurrency ETFs closer to approval in the U.S. The order directs agencies like the Treasury Department and SEC to study crypto's risks and market stability. It also prompts the Federal Reserve to explore a central bank digital currency (CBDC). This regulatory clarity could pave the way for increased institutional adoption and product development in the crypto space.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Biden_crypto_order",
+        "spot_ETF_approval",
+        "regulatory_clarity",
+        "CBDC_exploration"
+      ],
+      "rationale": "The Biden administration's focus on crypto regulation and potential approval of spot Bitcoin ETFs signals a move towards greater institutional acceptance. This regulatory clarity is a significant bullish catalyst for long-term Bitcoin adoption and price appreciation."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n8d17d6a5dd38",
+      "title": "As Gold Nears Record, Bitcoin Doesn't Shine So Brightly",
+      "url": "https://finance.yahoo.com/news/gold-nears-record-bitcoin-doesnt-214346028.html",
+      "summary": "Gold is attracting significant attention as its price approaches a record high amid the escalating Russia-Ukraine war, positioning it as a safe-haven asset. In contrast, Bitcoin's performance as a global macroeconomic asset remains under scrutiny, with some analysts questioning its 'digital gold' narrative. The article suggests that Bitcoin is still viewed primarily as a technological innovation, and its role as a stable store of value in times of geopolitical uncertainty is yet to be fully established.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "gold_as_safe_haven",
+        "BTC_vs_gold",
+        "geopolitical_uncertainty",
+        "macroeconomic_asset_performance"
+      ],
+      "rationale": "The comparison between gold's safe-haven appeal and Bitcoin's uncertain macroeconomic performance highlights a potential divergence. While geopolitical events boost gold, Bitcoin's narrative as a safe haven is still being tested, creating uncertainty about its role in a risk-off environment."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n1b60b1264283",
+      "title": "Stablecoin Issuer Circle Secures $400 Million Funding Round",
+      "url": "https://finance.yahoo.com/news/stablecoin-issuer-circle-secures-400-034757370.html",
+      "summary": "Circle, the issuer of USD Coin (USDC), has secured $400 million in a funding round led by institutional investors BlackRock and Fidelity. BlackRock will also manage Circle's stablecoin reserves. This significant institutional investment underscores growing confidence in stablecoins and their integration into traditional finance. The funding will likely support Circle's growth and further solidify USDC's position in the market, potentially increasing liquidity and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "stablecoin",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Circle_funding",
+        "USDC_institutional_adoption",
+        "stablecoin_reserve_management",
+        "BlackRock_Fidelity_investment"
+      ],
+      "rationale": "The substantial institutional funding for Circle, a major stablecoin issuer, signals strong validation from traditional finance. This influx of capital and management expertise will likely enhance stablecoin liquidity and further integrate them into the broader financial ecosystem, benefiting Bitcoin indirectly."
+    },
+    {
+      "pick_idx": 30,
+      "id": "na45915377092",
+      "title": "Post-Merge Ether Will Be a Commodity-Linked Bond, Could Rally to $10K, BitMEX Co-Founder Says",
+      "url": "https://finance.yahoo.com/news/post-merge-ether-commodity-linked-103611591.html",
+      "summary": "Arthur Hayes, co-founder of BitMEX, predicts Ether (ETH) could reach over $10,000 by year-end. He describes post-Merge Ether as having characteristics of a commodity-linked bond, suggesting it will be driven by supply and demand dynamics similar to commodities. This outlook is tied to the Ethereum network's transition to Proof-of-Stake (PoS), which is expected to reduce ETH issuance and potentially increase its utility as a financial asset.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_post_merge",
+        "commodity_linked_bond",
+        "ETH_price_prediction_10k",
+        "Proof_of_Stake_transition"
+      ],
+      "rationale": "The prediction of Ether reaching $10,000 post-Merge, driven by its new 'commodity-linked bond' characteristics, suggests a significant bullish outlook for the Ethereum ecosystem. This could spill over to Bitcoin as a leading indicator for the broader crypto market."
+    },
+    {
+      "pick_idx": 49,
+      "id": "nea163ab6cfdc",
+      "title": "Bitcoin pushes past the $47,000 mark for the first time since January in broad crypto market rally",
+      "url": "https://finance.yahoo.com/news/bitcoin-pushes-past-47-000-152247149.html",
+      "summary": "Bitcoin and Ethereum reached three-month highs, leading a broad crypto market rally. This surge is attributed to returning risk appetite, institutional support, and positive sentiment. Bitcoin traded up 6.36% in 24 hours to $47,520, indicating a strong upward momentum. Altcoins like Avalanche and Solana also saw double-digit gains, suggesting a healthy market-wide recovery.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_above_47k",
+        "crypto_market_rally",
+        "institutional_support",
+        "risk_appetite_return"
+      ],
+      "rationale": "Bitcoin breaking past $47,000 signifies a strong bullish trend, driven by increased institutional interest and improved market sentiment. This upward momentum, coupled with positive altcoin performance, suggests a potential for continued price appreciation in the near to medium term."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n560fd1bbde98",
+      "title": "Bitcoin Nearly Hits $43K, Trades at 10-Day High",
+      "url": "https://finance.yahoo.com/news/bitcoin-nearly-hits-43k-trades-190757199.html",
+      "summary": "Bitcoin's price reached its highest level in 10 days, recovering from a recent five-week low. It was up 1.1% in 24 hours to $41,498. This recovery comes as Federal Reserve Chair Jerome Powell indicated that a 50 basis point interest rate hike is a possibility for the May meeting. The market is reacting to this potential monetary policy move.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "10_day_high",
+        "Powell_50bps_hike_possibility"
+      ],
+      "rationale": "Bitcoin's price recovery to a 10-day high suggests short-term bullish momentum. However, the anticipation of a potential 50 bps rate hike from the Fed introduces uncertainty and could cap further upside."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nf99da90226ae",
+      "title": "Stock Market Today: Rate-Hike Rumblings Rattle the Stock Market",
+      "url": "https://finance.yahoo.com/news/stock-market-today-rate-hike-201504094.html",
+      "summary": "Stocks reversed sharply lower on Thursday due to renewed fears about interest rate hikes. Federal Reserve Chair Jerome Powell signaled that the next rate hike might be larger than expected, potentially 50 basis points in May. This hawkish commentary is causing a sell-off in equities and could impact risk assets like Bitcoin.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "rate_hike_fears",
+        "Powell_hawkish_comments",
+        "stock_market_selloff",
+        "50bps_hike_possibility"
+      ],
+      "rationale": "Powell's hawkish remarks about a potential 50 bps rate hike are creating significant headwinds for the stock market and risk assets. This sentiment is likely to lead to increased volatility and downward pressure on Bitcoin in the immediate short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ncd34c4d8bfee",
+      "title": "BitRiver Calls OFAC Sanctions ‘Unfair’ Anti-Competitive Move to Benefit US Miners",
+      "url": "https://finance.yahoo.com/news/bitriver-calls-ofac-sanctions-unfair-134015398.html",
+      "summary": "Bitcoin mining firm BitRiver has criticized the U.S. Office for Foreign Assets Control (OFAC) sanctions, calling them an unfair, anti-competitive move designed to benefit U.S. miners. BitRiver's CEO claims the company has never served Russian government institutions or sanctioned entities. These sanctions could disrupt mining operations and potentially impact hashrate distribution.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BitRiver_sanctions",
+        "OFAC_sanctions",
+        "US_miner_advantage",
+        "mining_disruption"
+      ],
+      "rationale": "The OFAC sanctions against BitRiver introduce regulatory uncertainty and could disrupt mining operations. This geopolitical factor may lead to a temporary decrease in hashrate or a shift in mining infrastructure, creating short-term bearish pressure."
+    },
+    {
+      "pick_idx": 7,
+      "id": "na5974b31d516",
+      "title": "Flared-Gas Bitcoin Miner Crusoe Energy Raises $350M Series C",
+      "url": "https://finance.yahoo.com/news/flared-gas-bitcoin-miner-crusoe-040000439.html",
+      "summary": "Crusoe Energy, a company utilizing flared natural gas for Bitcoin mining, has raised $505 million in a new funding round, including a $350 million Series C equity offering. This significant capital infusion will support the expansion of its operations. The company's innovative approach to mining using waste gas highlights a growing trend towards more sustainable and cost-effective mining practices.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "miner",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Crusoe_Energy_funding",
+        "flared_gas_mining",
+        "sustainable_mining",
+        "Series_C_funding"
+      ],
+      "rationale": "Crusoe Energy's substantial funding round validates its innovative approach to Bitcoin mining. This expansion signals growth in the mining sector and a move towards more environmentally conscious practices, which could be a positive sentiment driver."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n38bfd939bb32",
+      "title": "SFLMaven to Accept Bitcoin as Payment for Product Sales and Begins to Diversify Cash Holdings to Include Bitcoin with Series of BTC Allocations",
+      "url": "https://finance.yahoo.com/news/sflmaven-accept-bitcoin-payment-product-123000115.html",
+      "summary": "SFLMaven Corp., a provider of luxury goods, will now accept Bitcoin for product sales and is diversifying its cash holdings to include BTC. The company believes in the future of Bitcoin and digital payments. This move indicates a growing trend of mainstream businesses integrating cryptocurrency for transactions and treasury management.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "SFLMaven_BTC_acceptance",
+        "luxury_goods_crypto",
+        "treasury_diversification",
+        "digital_payments"
+      ],
+      "rationale": "SFLMaven's adoption of Bitcoin for payments and treasury diversification is a small but positive sign of increasing mainstream acceptance. While the direct impact on Bitcoin's price may be minimal, it contributes to the broader narrative of crypto integration."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n1a533a319671",
+      "title": "US stocks reverse sharply lower after Fed Chair Powell signals a half-point rate hike is possible next month",
+      "url": "https://finance.yahoo.com/news/us-stocks-reverse-sharply-lower-200819264.html",
+      "summary": "US stocks turned sharply lower as Federal Reserve Chairman Jerome Powell indicated a potential 50-basis-point rate hike in May. This hawkish stance caused Treasury yields to jump. The market is reacting negatively to the prospect of more aggressive monetary tightening, which typically dampens investor appetite for risk assets.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Powell_50bps_hike_signal",
+        "US_stocks_selloff",
+        "Treasury_yields_jump",
+        "hawkish_Fed"
+      ],
+      "rationale": "Powell's strong signal of a potential 50 bps rate hike is a significant bearish catalyst for risk assets. This is likely to lead to immediate selling pressure on Bitcoin as investors de-risk their portfolios."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n1029f143b6d5",
+      "title": "Fed's Powell Says 50 Basis Point Hike ‘On the Table’",
+      "url": "https://finance.yahoo.com/news/feds-powell-says-50-basis-183925585.html",
+      "summary": "Federal Reserve Chair Jerome Powell stated that a 50 basis point interest rate hike will be 'on the table' for the upcoming May meeting. This aggressive stance aims to combat inflation, which has reached an 8.5% rate, the fastest in four decades. The Fed has rarely increased rates by more than 25 basis points in recent years, making this a notable shift in monetary policy.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Powell_50bps_hike",
+        "inflation_fight",
+        "FOMC_May_meeting",
+        "aggressive_monetary_policy"
+      ],
+      "rationale": "Powell's confirmation of a potential 50 bps rate hike signals a more aggressive approach to inflation control. This is a strong bearish signal for Bitcoin, as higher interest rates generally reduce liquidity and investor appetite for risk assets."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n3bbd94ead714",
+      "title": "Bitcoin and ETH Regain Traction, Why LUNA’s Rally Isn’t Over Yet",
+      "url": "https://finance.yahoo.com/news/bitcoin-eth-regain-traction-why-153901431.html",
+      "summary": "Bitcoin has seen a decent increase, breaking above the $42,500 resistance zone and consolidating near $42,500. Ether (ETH) is also showing strength, though still below $3,200. The article suggests that LUNA's rally may continue. The price action indicates a short-term bullish sentiment for Bitcoin and ETH, with immediate support levels identified.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_ETH_regain_traction",
+        "BTC_above_42500",
+        "LUNA_rally_continuation",
+        "short_term_bullish"
+      ],
+      "rationale": "Bitcoin's ability to break resistance and consolidate above $42,500 suggests short-term bullish momentum. This positive price action, coupled with ETH's strength, indicates a potential for further upside in the immediate trading sessions."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nef1fa908a810",
+      "title": "Shiba Inu, Dogecoin payments accepted by Porsche Baltimore dealership",
+      "url": "https://finance.yahoo.com/news/shiba-inu-dogecoin-payments-accepted-053340968.html",
+      "summary": "A Porsche dealership in Baltimore, Maryland, has started accepting payments in Shiba Inu (SHIB) and Dogecoin (DOGE) through the crypto payment service provider BitPay. The dealership lists a Porsche Cayenne SUV priced in both DOGE and SHIB. This adoption by a luxury automotive brand signifies a growing trend of mainstream businesses integrating cryptocurrencies for transactions.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Porsche_dealership_crypto",
+        "SHIB_DOGE_payments",
+        "luxury_auto_adoption",
+        "BitPay_integration"
+      ],
+      "rationale": "The acceptance of SHIB and DOGE by a Porsche dealership is a positive, albeit minor, development for altcoin adoption. It contributes to the broader narrative of crypto integration into everyday commerce, potentially boosting sentiment for these specific tokens."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nc4e7ce68946a",
+      "title": "Bitcoin generated an 'oversold buy' signal that could lead to short-term upside of 13%, Fairlead's Katie Stockton says",
+      "url": "https://finance.yahoo.com/news/bitcoin-generated-oversold-buy-signal-132030327.html",
+      "summary": "Fairlead Strategies' Katie Stockton suggests Bitcoin has generated an 'oversold buy' signal, potentially leading to a short-term upside of 13% towards resistance at $48,100. The weekly MACD indicator shows improved momentum. This technical analysis indicates a possible short-term bullish trend for Bitcoin, contingent on holding key support levels.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_oversold_buy_signal",
+        "short_term_upside_potential",
+        "Katie_Stockton_analysis",
+        "weekly_MACD_buy_signal"
+      ],
+      "rationale": "The 'oversold buy' signal and potential for 13% upside, as indicated by technical analysis, suggest a short-term bullish outlook for Bitcoin. This could lead to increased buying pressure if the cryptocurrency holds its support levels."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-04-21",
+    "summary": "Bitcoin showed signs of recovery, trading at a 10-day high, but the broader market sentiment remains cautious due to hawkish signals from Federal Reserve Chair Jerome Powell regarding potential 50 basis point rate hikes. This has led to a sharp reversal in US stocks, creating a bearish short-term outlook. Long-term, institutional adoption continues with Circle's significant funding round and the potential for spot Bitcoin ETFs, while regulatory concerns around mining in New York present a bearish risk. Mining companies are also seeing investment, indicating continued infrastructure development.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Aggressive Fed rate hikes could trigger a broader market sell-off, impacting Bitcoin.",
+      "Regulatory actions, such as potential mining bans in New York, pose a significant threat.",
+      "Geopolitical tensions and inflation concerns continue to create market volatility.",
+      "The effectiveness of Bitcoin as a safe-haven asset remains under scrutiny during periods of global uncertainty."
+    ],
+    "watch_items": [
+      "Federal Reserve policy statements and interest rate decisions.",
+      "Developments on potential US spot Bitcoin ETF approvals.",
+      "New York State legislative actions regarding crypto mining.",
+      "Performance of major tech stocks as indicators of broader market sentiment.",
+      "On-chain data for Bitcoin and Ethereum, focusing on whale activity and exchange flows."
+    ]
+  }
+}

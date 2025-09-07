@@ -1,0 +1,504 @@
+{
+  "date": "2022-07-28",
+  "long_term": [
+    {
+      "pick_idx": 18,
+      "id": "n2b32f5135b0d",
+      "title": "Coinbase cuts 1,100 crypto jobs as Bitcoin plunges 10pc",
+      "url": "https://finance.yahoo.com/news/bitcoin-plunges-10pc-crypto-meltdown-110457073.html",
+      "summary": "Coinbase, a major cryptocurrency exchange, announced layoffs of approximately 18% of its staff (around 1,100 employees) due to a significant slump in Bitcoin prices. CEO Brian Armstrong warned of a potential \"crypto winter.\" This news reflects the broader market downturn, with Bitcoin falling to its lowest level since December 2020 and over $100 billion wiped off the total crypto market value in a single day. The layoffs signal a significant contraction within the crypto industry, impacting employment and investor sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Coinbase_layoffs",
+        "crypto_winter",
+        "BTC_price_drop"
+      ],
+      "rationale": "Large-scale layoffs at a major exchange like Coinbase indicate severe industry headwinds and a potential prolonged downturn. This sentiment can deter new investors and lead to reduced capital inflows into Bitcoin and the broader crypto market over the next year."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nc31b7b2903a9",
+      "title": "Bitcoin falls below $19,000 following Grayscale ETF rejection",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-june-30-140257134.html",
+      "summary": "Bitcoin's price dropped below $19,000 after the SEC rejected ETF proposals from Grayscale and Bitwise, and amid ongoing inflation fears. This decline marked Bitcoin's worst month since December 2018, with over 37% lost in June. The SEC's decision on ETFs, which are seen as a gateway for institutional adoption, coupled with macroeconomic pressures, significantly impacted market sentiment and price action.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "SEC_ETF_rejection",
+        "BTC_below_19k",
+        "June_worst_month"
+      ],
+      "rationale": "The SEC's rejection of Bitcoin ETFs, particularly from a prominent player like Grayscale, signals regulatory hurdles that could slow institutional adoption. This, combined with persistent inflation fears, creates a negative feedback loop, likely suppressing Bitcoin's price for several months."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n3c576614cf4e",
+      "title": "BoE Explains Why Crypto Crash Survivors Could Become Future Amazons, eBays",
+      "url": "https://finance.yahoo.com/news/boe-explains-why-crypto-crash-172726528.html",
+      "summary": "Bank of England Deputy Governor Jon Cunliffe drew parallels between the crypto market crash and the dot-com bubble, suggesting that survivors could emerge as dominant tech companies like Amazon and eBay. He noted that the crypto meltdown, wiping over $1 trillion in value, mirrors the dot-com collapse where many companies failed, but survivors thrived. This perspective highlights the potential for innovation and consolidation within the crypto space, even amidst significant price drops.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_crash_survivors",
+        "dot_com_bubble_analogy",
+        "future_tech_giants"
+      ],
+      "rationale": "The analogy to the dot-com bubble suggests that while many crypto projects may fail, the underlying technology and resilient projects could lead to significant long-term growth and market dominance, similar to how Amazon and eBay emerged from the tech bust."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n9ee093cb1704",
+      "title": "91% of crypto users plan to buy more over next 6 months: BofA survey",
+      "url": "https://finance.yahoo.com/news/crypto-users-plan-to-buy-more-in-next-6-months-115237324.html",
+      "summary": "A Bank of America Global Research survey indicates that 91% of U.S. crypto users and prospective users intend to purchase more cryptocurrencies within the next six months, despite the recent sharp price declines. This high percentage of planned buying suggests strong underlying demand and conviction among existing and potential investors, even during a bear market. The survey highlights a persistent interest in digital assets.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BofA_survey",
+        "crypto_user_intent",
+        "buy_next_6_months"
+      ],
+      "rationale": "Despite current market conditions, a significant majority of crypto users plan to increase their holdings. This indicates strong retail demand and a belief in the long-term potential of cryptocurrencies, which could drive price appreciation over the next six months."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n42f2a5381c61",
+      "title": "Deutsche Bank: Crypto Free Fall Could Continue Because of the System’s Complexity",
+      "url": "https://finance.yahoo.com/news/deutsche-bank-crypto-freefall-could-122931355.html",
+      "summary": "Deutsche Bank analysts suggest that the crypto market's free fall might persist due to the inherent complexity of the system. They highlight the lack of common valuation models, the fragmented nature of the market, and the speculative trading strategies involving multiple coins as factors contributing to price instability. This analysis points to ongoing volatility and potential further declines.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Deutsche_Bank_analysis",
+        "crypto_complexity",
+        "valuation_models",
+        "market_fragmentation"
+      ],
+      "rationale": "The complexity and lack of standardized valuation models in the crypto market, as highlighted by Deutsche Bank, create an environment ripe for continued volatility and potential price declines. This suggests a challenging outlook for the crypto market in the medium term."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n4602d5f95a35",
+      "title": "US plunges into recession as inflation hammers world’s biggest economy",
+      "url": "https://finance.yahoo.com/news/shell-british-gas-owner-hand-064804394.html",
+      "summary": "Official figures indicate the U.S. economy has shrunk for two consecutive quarters, fitting the technical definition of a recession. Despite President Biden's insistence otherwise, citing low unemployment, the GDP decline suggests significant economic headwinds. This macroeconomic environment, characterized by inflation and contraction, typically leads to reduced risk appetite and capital flight from speculative assets like Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "US_recession",
+        "GDP_contraction",
+        "inflation_impact"
+      ],
+      "rationale": "A recessionary environment typically leads investors to de-risk, moving capital away from speculative assets like Bitcoin. The confirmation of a U.S. recession, even if debated by policymakers, is a strong bearish signal for risk assets over the next several months."
+    },
+    {
+      "pick_idx": 16,
+      "id": "neb14e31dcb75",
+      "title": "Bitcoin education accelerates adoption, lowers volatility: Ben Caselin, AAX",
+      "url": "https://finance.yahoo.com/news/bitcoin-education-accelerates-adoption-lowers-101623261.html",
+      "summary": "Ben Caselin of AAX suggests that increased Bitcoin education is a key driver for accelerating adoption and reducing price volatility. As more people understand Bitcoin's fundamentals and use cases, it can lead to more stable and widespread adoption. The article notes Bitcoin's price recovery above $23,000 after a period of decline, and the total crypto market capitalization climbing back above $1 trillion, indicating a potential shift towards more mature market behavior.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_education",
+        "adoption_acceleration",
+        "volatility_reduction"
+      ],
+      "rationale": "Enhanced understanding and education around Bitcoin can foster greater adoption and lead to more stable price action. This long-term trend of increasing knowledge and integration is a positive catalyst for Bitcoin's future growth."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n77f6fde726bc",
+      "title": "Crypto Mining Stocks Bounce Amid Bitcoin Recovery",
+      "url": "https://finance.yahoo.com/news/crypto-mining-stocks-bounce-amid-104234363.html",
+      "summary": "The share prices of crypto mining companies saw an increase as Bitcoin stabilized above the $21,000 mark. Stocks like Digihost Technology, TeraWulf, and Marathon Digital experienced significant gains. This trend suggests that the performance of mining stocks is closely tied to Bitcoin's price movements and that a recovery in Bitcoin can lead to a rebound in the mining sector.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_stocks_bounce",
+        "BTC_recovery",
+        "miner_sentiment"
+      ],
+      "rationale": "The correlation between Bitcoin's price and mining stocks indicates that a sustained recovery in Bitcoin could lead to further gains for mining companies, reflecting a broader positive sentiment in the crypto infrastructure sector."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n551e2e1fc898",
+      "title": "Crypto Cloud Storage STORJ Leads Rally by 55% As ETH, BTC Consolidate",
+      "url": "https://finance.yahoo.com/news/crypto-cloud-storage-storj-leads-225240849.html",
+      "summary": "Storj, a crypto-powered cloud storage solution, experienced a significant rally of 55%, outperforming Bitcoin and Ethereum which were consolidating. This indicates a potential rotation of capital into specific utility-focused altcoins, even as the broader market remains relatively flat. Storj's market cap increase suggests growing investor interest in decentralized storage solutions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "STORJ_rally",
+        "altcoin_outperformance",
+        "decentralized_storage"
+      ],
+      "rationale": "The strong performance of Storj highlights the potential for utility-driven altcoins to gain traction. As the crypto market matures, projects with tangible use cases like decentralized storage may attract significant investment, driving their value over the long term."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n085200d61fef",
+      "title": "RocketFuel to Host Investor Relations Webinar on July 27, 2022",
+      "url": "https://finance.yahoo.com/news/rocketfuel-host-investor-relations-webinar-131500863.html",
+      "summary": "RocketFuel Blockchain, Inc., a payment solutions provider for ACH, Bitcoin, and other cryptocurrencies, announced an investor relations webinar. CEO Peter Jensen will provide updates on financial performance, business roadmap, and the impact of their new Virtual Asset Services Provider (VASP) license. This event signals ongoing development and potential growth for companies integrating crypto payments.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "RocketFuel_webinar",
+        "VASP_license",
+        "crypto_payments"
+      ],
+      "rationale": "Company-specific updates and the acquisition of a VASP license suggest positive developments in the crypto payment infrastructure. While the impact on Bitcoin itself might be indirect, it contributes to the overall ecosystem's growth and adoption."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "na97367cad8c0",
+      "title": "GDP Falls Further in Q2, Fueling Talk of a Recession",
+      "url": "https://finance.yahoo.com/news/gdp-falls-further-q2-fueling-124602429.html",
+      "summary": "The U.S. economy contracted at an annualized pace of 0.9% in the second quarter, marking two consecutive quarters of economic contraction. This data, worse than expected, fuels recessionary concerns. Bitcoin saw a slight dip following the release, indicating a negative short-term reaction to the macroeconomic news.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro"
+      ],
+      "features_for_model": [
+        "US_GDP_contraction",
+        "recession_talk",
+        "BTC_dip"
+      ],
+      "rationale": "The confirmation of a second consecutive GDP contraction is a bearish signal for risk assets like Bitcoin, likely leading to short-term price pressure as investors react to recession fears."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n24f9e434802e",
+      "title": "Ether Dominates Futures Trading as Shorts See $200M in Liquidations",
+      "url": "https://finance.yahoo.com/news/ether-dominates-futures-trading-shorts-093501697.html",
+      "summary": "Crypto markets rallied as the Federal Reserve raised interest rates by 75 basis points. Bitcoin jumped 10%, and Ether soared 16%. Ether led gains among major cryptocurrencies, with Solana, BNB, and Cardano also seeing increases. This rally suggests a positive short-term reaction to the Fed's move, potentially indicating that the market has priced in expected rate hikes.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "ETH_rally",
+        "BTC_gain",
+        "short_liquidations"
+      ],
+      "rationale": "The market's positive reaction to the Fed's rate hike, with significant gains in Bitcoin and Ether, suggests a short-term bullish sentiment. The liquidation of shorts further supports this upward momentum."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n1cbd9a997e04",
+      "title": "Ethereum Pops 10% as Fed Signals Rate Hikes Are Working Markets Rally Despite Another Rate Hike of 0.75%",
+      "url": "https://finance.yahoo.com/news/markets-rally-fed-hikes-rates-013818897.html",
+      "summary": "Crypto markets rallied after the U.S. Federal Reserve increased its benchmark interest rate by 0.75%. Ether is up 10%, Bitcoin rose 7.4%, and other altcoins like Solana and Polkadot also saw significant gains. The Fed indicated that its rate hikes might be effective in controlling inflation, leading to a risk-on sentiment in the market.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_0.75%",
+        "ETH_10%_gain",
+        "BTC_7.4%_gain",
+        "inflation_control_signal"
+      ],
+      "rationale": "The market's strong positive reaction to the Fed's rate hike, coupled with signals that the hikes are working, suggests a short-term bullish trend. Investors are likely anticipating a potential slowdown in future rate increases."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n8b2f65e26378",
+      "title": "Bitcoin and Ethereum up over 10% amid recession fears",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-over-10-amid-161020511.html",
+      "summary": "The cryptocurrency market surged, with Bitcoin and Ethereum rising over 10%, despite news of the U.S. economy shrinking for the second straight quarter. This counter-intuitive rally suggests that the market may be reacting more to the Federal Reserve's actions and potential future policy shifts than to the recession data itself.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_ETH_rally",
+        "recession_fears",
+        "Fed_policy_reaction"
+      ],
+      "rationale": "The market's upward movement despite recession fears indicates a focus on the Fed's monetary policy. A potential pause or slowdown in rate hikes could be interpreted as bullish for risk assets in the immediate short term."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n60b26102bb60",
+      "title": "Dick Durbin Joins US Senators Criticizing Fidelity’s Plan to Include Bitcoin in 401(k) Plans",
+      "url": "https://finance.yahoo.com/news/dick-durbin-joins-us-senators-180050817.html",
+      "summary": "Senator Dick Durbin and other U.S. senators have expressed concerns over Fidelity's plan to offer Bitcoin in 401(k) retirement accounts, citing the asset's volatility and \"untested\" nature. This regulatory scrutiny from influential figures could lead to increased oversight or restrictions on crypto integration into traditional retirement plans, potentially dampening institutional adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Senator_Durbin_criticism",
+        "Fidelity_401k_plan",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Increased regulatory attention and criticism from U.S. senators regarding the inclusion of Bitcoin in 401(k) plans could create uncertainty and slow down institutional adoption, potentially impacting Bitcoin's price negatively in the short term."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nafc2e53b0863",
+      "title": "Janet Yellen Sees No Recession, Calls US Economy ‘Exceptionally Strong’",
+      "url": "https://finance.yahoo.com/news/janet-yellen-sees-no-recession-201811901.html",
+      "summary": "Treasury Secretary Janet Yellen stated that the U.S. economy is not in a recession, despite declining GDP for two consecutive quarters. She cited a strong labor market as evidence of economic resilience. This optimistic outlook from a key government official could provide some short-term support for risk assets by countering recessionary fears.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro"
+      ],
+      "features_for_model": [
+        "Yellen_no_recession",
+        "strong_US_economy",
+        "labor_market"
+      ],
+      "rationale": "Positive commentary from the Treasury Secretary, downplaying recession risks and highlighting economic strength, can provide a short-term boost to market sentiment and potentially support Bitcoin's price."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nc1df6acd894d",
+      "title": "First Mover Americas: No Recession for Bitcoin as U.S. GDP Shrinks, Zipmex Files for Bankruptcy",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-no-recession-135548617.html",
+      "summary": "Bitcoin held onto gains despite the U.S. GDP shrinking for the second consecutive quarter. The article also notes that crypto exchange Zipmex has filed for bankruptcy protection. While the GDP data is a bearish macroeconomic indicator, the market's resilience suggests a focus on other factors, possibly the Fed's stance. Zipmex's bankruptcy adds to the ongoing contagion in the crypto industry.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "macro",
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "US_GDP_shrinks",
+        "Zipmex_bankruptcy",
+        "BTC_resilience"
+      ],
+      "rationale": "The mixed signals from the GDP data (bearish) and Bitcoin's price action (resilient) create uncertainty. The Zipmex bankruptcy is a negative event, but the market's ability to hold gains suggests a potential decoupling from traditional recession indicators in the very short term."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n1cbd9a997e04",
+      "title": "Ethereum Pops 10% as Fed Signals Rate Hikes Are Working Markets Rally Despite Another Rate Hike of 0.75%",
+      "url": "https://finance.yahoo.com/news/markets-rally-fed-hikes-rates-013818897.html",
+      "summary": "Crypto markets rallied on Wednesday and Thursday following the Federal Reserve's 0.75% interest rate hike. Ether saw a 10% increase, Bitcoin rose 7.4%, and other altcoins also gained. The Fed's indication that its rate hikes may be effective in curbing inflation contributed to a positive market sentiment, suggesting a potential peak in aggressive monetary policy.",
+      "impact_horizon_days": 4,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETH_10%_gain",
+        "BTC_7.4%_gain",
+        "Fed_rate_hike_effectiveness",
+        "risk_on_sentiment"
+      ],
+      "rationale": "The market's strong positive reaction to the Fed's rate hike, coupled with signals that the hikes are working, suggests a short-term bullish trend. Investors are likely anticipating a potential slowdown in future rate increases."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n1c9178dac712",
+      "title": "The Merge Draws Ever Closer as Ethereum Passes Another Critical Test",
+      "url": "https://finance.yahoo.com/news/merge-draws-ever-closer-ethereum-104034380.html",
+      "summary": "Ethereum successfully completed its tenth mainnet shadow fork, a critical test for 'The Merge' upgrade. This smooth execution indicates progress towards the highly anticipated transition to Proof-of-Stake. Positive developments in Ethereum's network upgrades can boost investor confidence and potentially drive ETH price appreciation.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge_progress",
+        "mainnet_shadow_fork",
+        "ETH_upgrade_success"
+      ],
+      "rationale": "Successful technical milestones for Ethereum's 'The Merge' are a significant positive catalyst. This progress can attract more developers and users, leading to increased demand for ETH and potentially higher prices in the coming weeks."
+    },
+    {
+      "pick_idx": 50,
+      "id": "n8eaff6332826",
+      "title": "Courts to be given power to award damages in Bitcoin",
+      "url": "https://finance.yahoo.com/news/courts-given-power-award-damages-050000044.html",
+      "summary": "British courts are set to gain the power to award damages in Bitcoin under new proposals to modernize the legal system for crypto assets. The Law Commission recommends creating a new legal category for crypto assets like Bitcoin and NFTs. This move signifies increasing legal and regulatory clarity for digital assets, which could foster greater mainstream adoption and reduce legal uncertainties.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "UK_court_damages_BTC",
+        "crypto_asset_law",
+        "legal_clarity"
+      ],
+      "rationale": "The potential for courts to award damages in Bitcoin introduces greater legal certainty and legitimacy for crypto assets. This development, while not directly impacting price, contributes to a more mature and regulated environment, which is generally positive for adoption."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-07-28",
+    "summary": "The market reacted positively to the Federal Reserve's 75 basis point rate hike, with Bitcoin and Ethereum seeing significant gains. Despite the U.S. economy contracting for a second consecutive quarter, signaling recessionary fears, the crypto market displayed resilience, possibly anticipating a slowdown in future rate hikes. Regulatory scrutiny from U.S. senators regarding Fidelity's 401(k) plans for Bitcoin introduced some bearish sentiment, while positive developments in Ethereum's 'The Merge' provided a bullish technical catalyst.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.5
+    },
+    "key_risks": [
+      "Continued macroeconomic uncertainty and potential for further interest rate hikes.",
+      "Regulatory headwinds and potential for stricter oversight on crypto integration into traditional finance.",
+      "Contagion risk from ongoing bankruptcies and financial distress within the crypto industry (e.g., Zipmex).",
+      "The debate around the definition of recession and its potential impact on risk asset appetite.",
+      "Technical challenges or delays in Ethereum's 'The Merge' upgrade."
+    ],
+    "watch_items": [
+      "Further Fed commentary on inflation and future rate hikes.",
+      "Developments in regulatory proposals concerning crypto in retirement accounts.",
+      "On-chain data for Bitcoin and Ethereum to confirm sustained buying pressure.",
+      "News regarding other crypto lenders or exchanges facing financial difficulties.",
+      "Progress updates on Ethereum's 'The Merge' testing and timeline."
+    ]
+  }
+}

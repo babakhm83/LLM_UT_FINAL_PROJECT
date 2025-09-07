@@ -1,0 +1,525 @@
+{
+  "date": "2018-04-07",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n93acffd05afb",
+      "title": "Bitcoin’s Price Surges Above $10,000—But Investors Still Down $60 Billion in 2018",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-surges-above-10-222416746.html",
+      "summary": "Bitcoin briefly surpassed $10,200, recovering from a dip below $6,000. This rally was attributed to positive news for the broader cryptocurrency market, including signs that the U.S. had no plans to ban cryptocurrency, following remarks by CFTC Chair Christopher Giancarlo and SEC Chair Jay Clayton. The market had previously fallen due to fears of global cryptocurrency crackdowns.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_surge",
+        "regulatory_clarity_US",
+        "institutional_sentiment"
+      ],
+      "rationale": "Positive regulatory signals from key U.S. financial bodies can significantly boost investor confidence and adoption, driving long-term price appreciation. This event suggests a more favorable regulatory environment is developing."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nad5615e89d51",
+      "title": "Bitcoin, Bears and Gold",
+      "url": "https://finance.yahoo.com/news/bitcoin-bears-gold-100000058.html",
+      "summary": "The head of the Bank for International Settlements (BIS) labeled Bitcoin a \"threat to financial stability\" and a \"Ponzi scheme,\" causing the cryptocurrency to fall below $6,000. Bitcoin has faced persistent negativity, losing over 50% of its value year-to-date. Additionally, reports of U.S. and UK banks banning credit card purchases of digital currencies added to the bearish sentiment.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BIS_negative_stance",
+        "credit_card_ban_banks",
+        "crypto_as_Ponzi_scheme"
+      ],
+      "rationale": "Strong negative sentiment from a major international financial institution like the BIS, coupled with banking restrictions, can create significant headwinds for cryptocurrency adoption and price. This indicates a potential for increased regulatory scrutiny and institutional resistance."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n4beeb6113ede",
+      "title": "Japan punishes seven cryptocurrency exchanges over regulatory lapses",
+      "url": "https://finance.yahoo.com/news/japans-fsa-issues-punishments-cryptocurrency-014851308.html",
+      "summary": "Japan's Financial Services Agency (FSA) penalized seven cryptocurrency exchanges, including ordering two to suspend operations, following the $530 million Coincheck theft. The FSA cited inadequate internal controls and ordered improvements in risk management and anti-money laundering measures. This action briefly drove down bitcoin prices.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Japan_FSA_punishment",
+        "exchange_suspension",
+        "Coincheck_theft_impact"
+      ],
+      "rationale": "Regulatory actions, especially those involving suspensions and penalties after major hacks, signal a tightening regulatory environment. This can deter new investors and increase operational costs for exchanges, impacting overall market sentiment and liquidity."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nbd4ddbc8edd0",
+      "title": "Bitcoin's Price Has Nearly Unwound Its Futures Boost",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-price-nearly-unwound-133013373.html",
+      "summary": "Bitcoin's price drop to three-month lows below $6,000 is seen as a reversal of the boost it received from the news of CME Group, Cboe, and Cantor Fitzgerald considering futures launches in December 2017. This speculation had driven prices to $10,000, creating a positive feedback loop. The current price action suggests the market is unwinding that speculative surge.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_futures_unwinding",
+        "speculative_bubble_burst",
+        "price_reversion"
+      ],
+      "rationale": "The unwinding of gains driven by futures speculation indicates that the market may have overextended itself. This suggests a period of consolidation or further decline as the speculative premium dissipates, impacting short-to-medium term price action."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nc0d0589b3541",
+      "title": "Cryptocurrency: Bitcoin is Dropping After Google’s Major Decision",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-bitcoin-dropping-google-major-172300073.html",
+      "summary": "Google announced it would block all advertisements related to cryptocurrencies, including ICOs and exchanges. Following this news, Bitcoin's price slid below $9,000. Google's decision mirrors Facebook's earlier ban on similar ads, indicating a trend of major tech platforms restricting crypto promotion.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Google_ad_ban_crypto",
+        "Facebook_ad_ban_crypto",
+        "platform_restriction"
+      ],
+      "rationale": "The decision by major advertising platforms like Google and Facebook to ban crypto ads significantly limits new user acquisition channels. This can slow down adoption and create a negative sentiment, impacting long-term growth prospects."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n8c168519c87b",
+      "title": "A Cautious View on Blockchain Investing",
+      "url": "https://finance.yahoo.com/news/cautious-view-blockchain-investing-153518432.html",
+      "summary": "The digital currency market is described as volatile, hard to value, and lacking regulation, making it risky for investors. Some investors are opting to invest in blockchain technologies through ETFs like Amplify Transformational Data Sharing ETF (BLOK) and Reality Shares Nasdaq Blockchain Economy ETF (BLCN) as an alternative to direct cryptocurrency investment.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockchain_ETF_adoption",
+        "crypto_volatility_risk",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "This article highlights the inherent risks in direct crypto investment and the growing interest in blockchain technology via ETFs. This suggests a maturing market where investors seek regulated exposure, potentially diverting some capital from direct crypto holdings but validating the underlying technology."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n37801205bd9e",
+      "title": "Nigeria’s Central Bank Warns Against Cryptocurrency Investments, Again",
+      "url": "https://finance.yahoo.com/news/nigeria-central-bank-warns-against-125016065.html",
+      "summary": "Nigeria's Central Bank has reiterated its warning against cryptocurrency investments, reflecting a cautious approach to technological disruptions. This stance is part of a pattern where the nation often interprets developments in unique ways, with the internet's adoption serving as a past example of initial caution followed by eventual integration.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Nigeria_CBN_warning",
+        "emerging_market_regulation",
+        "crypto_adoption_hesitation"
+      ],
+      "rationale": "Warnings from central banks in emerging markets can signal a broader trend of regulatory caution. While not a direct ban, such statements can dampen local adoption and investment, especially if other nations follow suit."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nac25d72c8af5",
+      "title": "Over $1: XRP Rises As Ripple-Coinbase Rumors Renew",
+      "url": "https://finance.yahoo.com/news/over-1-xrp-rises-ripple-122046562.html",
+      "summary": "XRP's price increased by 16% amid speculation of a major exchange listing, potentially on Coinbase. Social media sentiment suggests investors anticipate further gains, especially with potential appearances by Ripple CEO Brad Garlinghouse and Coinbase COO Asiff Hirji on CNBC's \"Fast Money.\" This fuels conjecture about XRP being added to Coinbase's trading platform.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "listing",
+        "adoption"
+      ],
+      "features_for_model": [
+        "XRP_Coinbase_listing_rumor",
+        "exchange_listing_speculation",
+        "altcoin_momentum"
+      ],
+      "rationale": "The prospect of a major exchange listing like Coinbase for XRP can significantly increase its liquidity and accessibility, driving demand and price. Such events are key catalysts for altcoin growth and broader market sentiment."
+    },
+    {
+      "pick_idx": 42,
+      "id": "nb8b8e644bc11",
+      "title": "Venezuelan President Asks Banks to Mine the National Cryptocurrency. Unions are Aghast.",
+      "url": "https://finance.yahoo.com/news/venezuelan-president-asks-banks-mine-160443691.html",
+      "summary": "Venezuelan President Nicolas Maduro is encouraging national banks to mine and use the Petro, the country's national cryptocurrency. This directive has drawn strong opposition from unions, with some labeling the Petro a government invention for money laundering. State-owned companies are also reportedly ordered to participate.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Venezuela_Petro_mining",
+        "state_sponsored_crypto",
+        "union_opposition"
+      ],
+      "rationale": "While state-backed cryptocurrency initiatives can signal adoption, the controversy and accusations of money laundering surrounding Venezuela's Petro suggest potential instability and regulatory risks. Its success is highly dependent on broader economic and political factors."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n6ddd9a731d41",
+      "title": "Coinbase's Overcharging Glitch Is Both Worldpay and Visa's Fault",
+      "url": "https://finance.yahoo.com/news/coinbase-apos-overcharging-glitch-likely-191819649.html",
+      "summary": "Coinbase customers experienced double and triple charges for cryptocurrency purchases due to a glitch involving Worldpay and Visa. This issue led to some customers being overcharged multiple times, draining their accounts. The incident occurred as Bitcoin's price was beginning to recover above $10,000.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_overcharge_glitch",
+        "Visa_Worldpay_issue",
+        "payment_processing_failure"
+      ],
+      "rationale": "Payment processing failures on major exchanges like Coinbase can erode user trust and lead to temporary liquidity issues. Such incidents highlight infrastructure vulnerabilities and can cause short-term price drops due to user apprehension."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n1708394b2975",
+      "title": "I Bought Amazon at $600, and I'd Buy it Again at $1,400",
+      "url": "https://finance.yahoo.com/news/bought-amazon-600-apos-d-204500638.html",
+      "summary": "Amazon's stock experienced a decline in early March due to market instability from President Trump's tariffs and his criticisms of the company. Trump claimed Amazon avoided taxes, harmed the Postal Service, and hurt brick-and-mortar retailers.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "legal"
+      ],
+      "features_for_model": [
+        "Trump_Amazon_criticism",
+        "tariff_impact_tech",
+        "USPS_dispute"
+      ],
+      "rationale": "Presidential criticism and trade policy uncertainty can create short-term volatility for large tech companies. While this is not directly related to crypto, it reflects broader market sentiment influenced by geopolitical events."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nd002a3707c25",
+      "title": "Billionaire Mark Cuban Hates Bitcoin and Gold Equally: ‘I’d Buy a Pet Rock First’",
+      "url": "https://finance.yahoo.com/news/billionaire-mark-cuban-hates-bitcoin-140717092.html",
+      "summary": "Mark Cuban expressed strong negative sentiment towards both Bitcoin and gold, calling them non-viable alternatives to currency and stating they lack inherent value. He believes their value is solely derived from supply and demand.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Mark_Cuban_anti_BTC",
+        "crypto_valuation_criticism",
+        "institutional_skepticism"
+      ],
+      "rationale": "High-profile investor skepticism can influence market sentiment, particularly among retail investors. Cuban's strong negative opinion might contribute to a short-term bearish sentiment for Bitcoin."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n015061ceb740",
+      "title": "The British pound rallies against the Japanese yen after initial fall this week",
+      "url": "https://finance.yahoo.com/news/british-pound-rallies-against-japanese-050014523.html",
+      "summary": "The British pound showed resilience, rallying after an initial fall and testing an uptrend line. A break above the weekly candle could lead to further gains. The market is expected to be volatile and influenced by U.S.-China relations.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "GBP_JPY_rally",
+        "US_China_trade_war_impact",
+        "FX_volatility"
+      ],
+      "rationale": "This is a forex market analysis. While not directly related to Bitcoin, it highlights the broader macroeconomic sentiment driven by US-China trade tensions, which can spill over into risk assets like cryptocurrencies."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n9cf2f5b4a0e1",
+      "title": "AUD/USD has choppy and sideways week",
+      "url": "https://finance.yahoo.com/news/aud-usd-choppy-sideways-week-045714622.html",
+      "summary": "The Australian dollar experienced a choppy, sideways week, breaking above 0.77 before showing indecision. An uptrend line underneath is expected to provide support. A break above the week's candle could lead to the 0.78 level.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "AUD_USD_sideways",
+        "risk_appetite_indicator",
+        "FX_indecision"
+      ],
+      "rationale": "Similar to the GBP/JPY analysis, this forex report reflects broader market sentiment. The AUD/USD's performance can be an indicator of global risk appetite, which often correlates with Bitcoin's price movements."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n72134b4a855e",
+      "title": "Crude Oil Tumbles on Worries of Counter-Tariffs by China",
+      "url": "https://finance.yahoo.com/news/crude-oil-tumbles-worries-counter-102429822.html",
+      "summary": "Crude oil prices fell due to fears of a global trade war, with China warning of \"at any cost\" trade measures if the U.S. continues protectionist policies. This follows President Trump's threat of additional tariffs.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "oil_price_drop",
+        "China_counter_tariffs",
+        "trade_war_escalation"
+      ],
+      "rationale": "Escalating trade tensions between the U.S. and China create broad market uncertainty. This can lead to a risk-off sentiment, negatively impacting risk assets like Bitcoin, and also affecting commodity prices like oil."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n58b8242fb26d",
+      "title": "U.S Payrolls Disappoint, but Fed Chief Powell Indicates Rate Hikes Would Continue",
+      "url": "https://finance.yahoo.com/news/u-payrolls-disappoint-fed-chief-160122789.html",
+      "summary": "The U.S. Dollar Index fell, but the dollar closed mixed against individual currencies due to U.S.-China tensions and weaker-than-expected Non-Farm Payrolls. Fed Chair Powell's testimony suggested continued rate hikes, while the dollar weakened against safe-haven currencies but strengthened against export-sensitive ones.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "NFP_miss",
+        "Powell_rate_hike_signal",
+        "USD_mixed_performance"
+      ],
+      "rationale": "Disappointing economic data (NFP miss) combined with hawkish Fed commentary creates mixed signals for the market. This macro uncertainty can lead to increased volatility across asset classes, including Bitcoin."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nda277f0802f6",
+      "title": "Why President Trump's War of Words Against Amazon Could Backfire",
+      "url": "https://finance.yahoo.com/news/why-president-trump-apos-war-144500198.html",
+      "summary": "President Trump's criticisms of Amazon, particularly regarding its impact on the U.S. Postal Service, caused its shares to fall. Trump claimed Amazon was not paying 'real costs' and demanded higher rates for parcel delivery.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "legal"
+      ],
+      "features_for_model": [
+        "Trump_Amazon_criticism",
+        "USPS_pricing_dispute",
+        "political_risk_tech"
+      ],
+      "rationale": "Similar to the earlier Amazon news, this highlights political risk impacting large corporations. While not directly crypto-related, it reflects a broader market sensitivity to political rhetoric and potential regulatory actions."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n87ae0fa1adc9",
+      "title": "Twitter's Jack Dorsey​: Why Bitcoin will become the world's dominant currency",
+      "url": "https://finance.yahoo.com/news/twitter-apos-jack-dorsey-why-102920629.html",
+      "summary": "Jack Dorsey, CEO of Twitter and Square, expressed his belief that Bitcoin will eventually become the world's dominant currency. He made these remarks at a public event in London.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Jack_Dorsey_BTC_bullish",
+        "Square_CEO_endorsement",
+        "dominant_currency_prediction"
+      ],
+      "rationale": "Endorsements from prominent tech figures like Jack Dorsey can significantly boost sentiment and adoption for Bitcoin. This positive signal from a major player in the fintech space is a bullish short-term catalyst."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n3b21f867928a",
+      "title": "Bitcoin tries to rally during the week, but it shows failure yet again",
+      "url": "https://finance.yahoo.com/news/bitcoin-tries-rally-during-week-051535142.html",
+      "summary": "Bitcoin attempted to rally above $7,000 this week but faced significant bearish pressure, forming a shooting star candlestick pattern. A break below $6,000 could lead to a decline towards $4,000, with $5,000 as psychological support. A break above the shooting star's high would be bullish.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_rally_failure",
+        "shooting_star_pattern",
+        "key_support_resistance_levels"
+      ],
+      "rationale": "The formation of a shooting star candlestick after a failed rally suggests strong selling pressure. A break below key support levels would confirm a bearish trend, indicating potential for significant price drops in the short term."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n5849edbf36ef",
+      "title": "Monero Just Hard Forked — and It Resulted in Four New Projects",
+      "url": "https://finance.yahoo.com/news/monero-just-hard-forked-resulted-024139845.html",
+      "summary": "Monero (XMR) underwent a hard fork to version 12 of its protocol. However, not all users agreed, leading to the continuation of the pre-fork blockchain as four new projects: Monero Classic (XMC), Monero 0 (XMZ), Monero Original (XMO), and another Monero Classic (XMC).",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "fork"
+      ],
+      "features_for_model": [
+        "Monero_hard_fork",
+        "XMR_protocol_upgrade",
+        "new_crypto_projects"
+      ],
+      "rationale": "Hard forks can create uncertainty and fragmentation within a cryptocurrency's ecosystem. While it can lead to innovation, it also dilutes network effects and can cause short-term price volatility for the original and new tokens."
+    },
+    {
+      "pick_idx": 36,
+      "id": "nd3719b71e08d",
+      "title": "India and Pakistan Tell Banks to Cut Ties to Cryptocurrency",
+      "url": "https://finance.yahoo.com/news/india-pakistan-tell-banks-cut-184805347.html",
+      "summary": "The Reserve Bank of India ordered regulated entities to cut ties with cryptocurrency services within three months, impacting banks and potentially making crypto purchases more difficult. The RBI cited consumer protection and anti-money laundering concerns, while acknowledging the technology's potential.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_RBI_crypto_ban",
+        "Pakistan_crypto_regulation",
+        "emerging_market_crackdown"
+      ],
+      "rationale": "Regulatory clampdowns in major emerging markets like India and Pakistan can significantly reduce adoption and liquidity. This signals a global trend of increased scrutiny and potential restrictions on cryptocurrency transactions."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-04-07",
+    "summary": "The market sentiment is mixed, with ongoing concerns about U.S.-China trade tensions impacting commodities like oil and creating broader market uncertainty. In the crypto space, negative commentary from influential figures like Mark Cuban contrasts with positive endorsements from tech leaders like Jack Dorsey. Regulatory actions in India and Japan, along with payment processing glitches on Coinbase, highlight ongoing risks and infrastructure challenges. Bitcoin's price action shows continued volatility and failure to hold key resistance levels.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Escalating U.S.-China trade war impacting global markets.",
+      "Continued regulatory scrutiny and potential bans in key jurisdictions.",
+      "Technical indicators suggesting further downside for Bitcoin.",
+      "Negative sentiment from influential investors and tech platforms.",
+      "Infrastructure vulnerabilities in exchanges and payment processors."
+    ],
+    "watch_items": [
+      "Further developments in U.S.-China trade negotiations.",
+      "Statements from major central banks (e.g., Fed) on monetary policy.",
+      "Any new regulatory announcements from major economies.",
+      "Bitcoin's ability to hold the $6,000 support level.",
+      "Major exchange announcements regarding new listings or security updates."
+    ]
+  }
+}

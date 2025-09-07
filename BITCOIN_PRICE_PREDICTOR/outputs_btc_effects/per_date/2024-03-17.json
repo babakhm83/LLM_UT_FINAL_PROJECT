@@ -1,0 +1,464 @@
+{
+  "date": "2024-03-17",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n0e78957553df",
+      "title": "Bitcoin hits record high",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-record-high-155748697.html",
+      "summary": "Bitcoin reached a new all-time high of $69,244 on March 5, 2024, surpassing its previous record from November 2021. This surge represents a 61% year-to-date increase and over 200% gain in the past year, bringing its market value to $1.32 trillion. The price action indicates strong investor confidence and a potential continuation of the bull market, driven by factors like institutional adoption and macroeconomic sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "ATH_price",
+        "YTD_performance",
+        "market_cap_growth"
+      ],
+      "rationale": "The achievement of a new all-time high signifies robust market demand and a potential shift in investor perception towards Bitcoin as a significant asset class. This sustained upward momentum is likely to attract further institutional interest and retail participation over the coming months."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n36b280ccf67d",
+      "title": "Don't Look Now, but Bitcoin Just Surged to Within 5% of Its All-Time High",
+      "url": "https://finance.yahoo.com/news/dont-look-now-bitcoin-just-185728808.html",
+      "summary": "Bitcoin's price surged to $66,500, nearing its 2021 all-time high. This rally is attributed to both macroeconomic factors and Bitcoin-specific developments. Investor focus is increasingly shifting back to cryptocurrencies, suggesting a potential resurgence of interest and capital inflow into the digital asset space.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "price_near_ATH",
+        "investor_sentiment_shift"
+      ],
+      "rationale": "The proximity to its all-time high indicates strong underlying buying pressure and a potential breakout. This trend suggests that Bitcoin is regaining its momentum, driven by a combination of market sentiment and fundamental factors, which could lead to sustained growth."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n984bb388cf67",
+      "title": "Stock market today: S&P 500, Nasdaq hit fresh records to cap best February in nearly a decade",
+      "url": "https://finance.yahoo.com/news/stock-market-today-stocks-trade-higher-after-feds-preferred-inflation-gauge-continues-cooling-143056021.html",
+      "summary": "US stocks, including the S&P 500 and Nasdaq, reached record highs in February, marking the best performance for these indices in nearly a decade. This rally was partly fueled by investor reactions to cooling inflation data. The strong performance in traditional markets often correlates with increased risk appetite, which can spill over into digital assets like Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "stock_market_rally",
+        "inflation_data_impact",
+        "risk_appetite"
+      ],
+      "rationale": "A strong performance in traditional equity markets often indicates a broader increase in investor risk appetite, which can positively influence speculative assets like Bitcoin. The correlation suggests that positive macroeconomic sentiment is likely to support crypto markets as well."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n5df9ebdde861",
+      "title": "Do Bitcoin ETFs Kill the Bull Case for Crypto Equities?",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-kill-bull-case-164500107.html",
+      "summary": "The launch of spot Bitcoin ETFs has seen significant inflows, with nearly $4 billion in assets gathered in the first six days and $10 billion in volume traded in the first three days. While Grayscale's ETF experienced outflows, the overall demand for Bitcoin ETFs is strong. This institutional adoption via ETFs is seen as a positive development for the broader crypto market, potentially validating Bitcoin and attracting more capital.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "ETF_volume",
+        "institutional_adoption"
+      ],
+      "rationale": "The substantial inflows and trading volume for Bitcoin ETFs demonstrate significant institutional demand and validation for Bitcoin as an asset class. This trend is expected to continue, driving further adoption and potentially higher prices over the long term."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n5e4aedaf98ab",
+      "title": "Bitcoin to the moon? Here’s why it’s near an all-time high",
+      "url": "https://finance.yahoo.com/news/bitcoin-moon-why-near-time-194739926.html",
+      "summary": "Bitcoin's price has surged by 20% in five days, nearing its all-time high of $69,000 set in November 2021. This rally is partly attributed to billions of dollars flowing into the cryptocurrency following the SEC's approval of Bitcoin ETFs. Despite some skepticism, the strong price action suggests increasing investor confidence and market momentum.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "price_surge",
+        "ETF_impact",
+        "investor_confidence"
+      ],
+      "rationale": "The rapid price appreciation, driven by ETF approvals, indicates a strong demand surge. This momentum, coupled with the increasing accessibility through ETFs, suggests a sustained upward trend for Bitcoin in the medium to long term."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nc840e10bfa34",
+      "title": "Is It Too Late to Buy MicroStrategy Stock?",
+      "url": "https://finance.yahoo.com/news/too-buy-microstrategy-stock-125100279.html",
+      "summary": "MicroStrategy has significantly increased its Bitcoin holdings, acquiring 193,000 bitcoins since 2020. This strategy has led to a substantial rise in its stock price, outperforming its core business growth. The company's aggressive Bitcoin accumulation highlights a strong conviction in the cryptocurrency's long-term value, making its stock a proxy for Bitcoin investment.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_holdings",
+        "MSTR_stock_performance",
+        "corporate_bitcoin_strategy"
+      ],
+      "rationale": "MicroStrategy's substantial and ongoing accumulation of Bitcoin demonstrates a strong institutional belief in its long-term appreciation. This strategy directly links the company's stock performance to Bitcoin's price movements, making it a significant indicator of institutional sentiment."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n48091a40c16a",
+      "title": "Retail Investors Are Sleeping on Bitcoin's March Towards All-Time Highs: IntoTheBlock",
+      "url": "https://finance.yahoo.com/news/retail-investors-sleeping-bitcoins-march-184903829.html",
+      "summary": "Retail investor participation in Bitcoin's rally towards all-time highs appears muted, according to IntoTheBlock. On-chain data and web searches suggest that institutional investors might be the primary drivers of the current market phase. This indicates a potential for increased retail adoption if the trend continues, offering further upside potential.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "retail_investor_participation",
+        "institutional_driver",
+        "potential_retail_inflow"
+      ],
+      "rationale": "The current market phase being driven by institutional investors, with retail participation lagging, suggests there is significant room for growth. As retail investors potentially enter the market, it could provide an additional catalyst for price appreciation."
+    },
+    {
+      "pick_idx": 38,
+      "id": "ne51df566ad28",
+      "title": "Bitcoin ETFs Flows Could Propel BTC Prices to $112K This Year: CryptoQuant",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-flows-could-propel-034516321.html",
+      "summary": "CryptoQuant predicts Bitcoin could reach $112,000 this year if current ETF inflow trends persist. Even in a 'worse case' scenario, a price target of $55,000 is projected, representing a nearly 15% increase from current levels. These projections are based on the impact of ETF inflows on Bitcoin's market capitalization.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ETF_inflow_projection",
+        "BTC_price_target",
+        "market_cap_impact"
+      ],
+      "rationale": "The analysis by CryptoQuant highlights the significant potential impact of ongoing ETF inflows on Bitcoin's price. The projected targets, even the conservative ones, suggest a strong bullish outlook driven by institutional capital deployment."
+    },
+    {
+      "pick_idx": 46,
+      "id": "nc0b162a3213a",
+      "title": "Bitcoin ETFs Are Here. Why You Should Buy and Hold Long Term",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-why-buy-hold-151100359.html",
+      "summary": "The approval of spot Bitcoin ETFs simplifies Bitcoin investing, making it accessible to a broader audience. This ease of access is expected to fundamentally change crypto investing. The article advocates for a long-term, buy-and-hold strategy, suggesting that the ETFs will drive sustained growth and adoption of Bitcoin.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ETF_accessibility",
+        "long_term_strategy",
+        "crypto_investing_evolution"
+      ],
+      "rationale": "The introduction of Bitcoin ETFs represents a significant infrastructural development that lowers the barrier to entry for investors. This increased accessibility is a fundamental driver for long-term adoption and sustained price appreciation."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n86e9a02bc102",
+      "title": "Bitcoin Could See Growth in Layer-2 Ecosystem, Drawing on Ethereum's Experience: Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-see-growth-layer-150426780.html",
+      "summary": "A report suggests Bitcoin's layer-2 ecosystem, including the Lightning Network, could experience significant growth. This development aims to address network limitations and congestion, drawing parallels with Ethereum's layer-2 scaling solutions. Growth in layer-2 solutions can enhance Bitcoin's utility and transaction efficiency.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "layer2_ecosystem_growth",
+        "lightning_network_adoption",
+        "scalability_solutions"
+      ],
+      "rationale": "The development and adoption of layer-2 solutions are crucial for Bitcoin's scalability and utility. Increased efficiency and reduced transaction costs can foster broader adoption and innovation within the Bitcoin ecosystem."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n89dda945fbde",
+      "title": "Could Bitcoin Be a Billionaire Maker?",
+      "url": "https://finance.yahoo.com/news/could-bitcoin-billionaire-maker-085000626.html",
+      "summary": "Cathie Wood predicts Bitcoin could reach $1 million by 2030. The article explores if a modest investment could lead to billionaire status. This optimistic outlook, driven by recent price surges past $70,000, suggests continued strong investor sentiment and potential for further short-term gains.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "price_prediction",
+        "investor_sentiment",
+        "ATH_breakout"
+      ],
+      "rationale": "The bullish price prediction and recent ATH breakout contribute to positive short-term sentiment, potentially driving further buying pressure in the immediate days."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n733f8c78c0ac",
+      "title": "BITmarkets' New Crypto Outlook Adresses Bitcoin Halving and Other Milestones of 2024",
+      "url": "https://finance.yahoo.com/news/bitmarkets-crypto-outlook-adresses-bitcoin-103000897.html",
+      "summary": "BITmarkets published its Crypto Outlook 2024, focusing on the upcoming Bitcoin halving and the impact of ETFs. The report explores potential of new assets like Helium and AVAX. The anticipation of the halving event is a known bullish catalyst for Bitcoin, potentially influencing price action in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "halving",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Bitcoin_halving_anticipation",
+        "ETF_development_outlook"
+      ],
+      "rationale": "The upcoming Bitcoin halving is a significant event that historically leads to price increases. Anticipation of this event can drive short-term buying interest."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n2602067df3a4",
+      "title": "A Beginners Guide to Cryptocurrency Wealth Building in 2024",
+      "url": "https://finance.yahoo.com/news/beginners-guide-cryptocurrency-wealth-building-110128087.html",
+      "summary": "This guide highlights Bitcoin's continued popularity and the increasing accessibility of cryptocurrency investing. With over 9,000 cryptocurrencies available, the market is expanding. The ease of access for new investors suggests continued inflows and potential for short-term price discovery.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "beginner_investor_guide",
+        "crypto_market_expansion",
+        "accessibility_increase"
+      ],
+      "rationale": "Content aimed at new investors can signal growing interest and potential for new capital entering the market, which could provide a short-term boost."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nfc1d5f5499f7",
+      "title": "The Ultimate Cryptocurrency to Buy With $1,000 Right Now",
+      "url": "https://finance.yahoo.com/news/ultimate-cryptocurrency-buy-1-000-121000572.html",
+      "summary": "The crypto market cap is $2.7 trillion, with Bitcoin's price skyrocketing 340% since early 2023 and reaching record territory. The article suggests that waiting for a pullback might be a mistake, implying current buying opportunities. This sentiment can encourage short-term buying.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "market_cap_growth",
+        "BTC_price_performance",
+        "buy_opportunity_sentiment"
+      ],
+      "rationale": "Articles highlighting 'buy now' opportunities, especially for Bitcoin, can influence immediate trading decisions and contribute to short-term price momentum."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n49a177c96c78",
+      "title": "Bitcoin vs. Bitcoin ETFs: Here's What I'm Buying",
+      "url": "https://finance.yahoo.com/news/bitcoin-vs-bitcoin-etfs-heres-124500600.html",
+      "summary": "The arrival of Bitcoin ETFs is a game-changer, legitimizing Bitcoin and democratizing access. Investing in Bitcoin is now as simple as buying stocks. This ease of access is expected to drive significant inflows and potentially influence short-term price action.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_impact",
+        "democratized_access",
+        "investor_behavior"
+      ],
+      "rationale": "The narrative around ETFs simplifying Bitcoin investment can attract new buyers in the short term, boosting demand and price."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ndb22b30d89fa",
+      "title": "Interest Rate Cuts Loom. Here's My Favorite Investment If the Fed Follows Through",
+      "url": "https://finance.yahoo.com/news/interest-rate-cuts-loom-heres-143600255.html",
+      "summary": "Optimism is growing for Federal Reserve rate cuts, potentially by summer. The article identifies Bitcoin as a favorite investment in this scenario, citing its potential to benefit from lower interest rates. This expectation of monetary easing can positively influence Bitcoin's short-term price.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "macro",
+        "interest_rates"
+      ],
+      "features_for_model": [
+        "Fed_rate_cut_expectation",
+        "monetary_easing_impact",
+        "Bitcoin_as_investment"
+      ],
+      "rationale": "The expectation of Fed rate cuts generally leads to increased liquidity and risk appetite, which can benefit assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n89dda945fbde",
+      "title": "Could Bitcoin Be a Billionaire Maker?",
+      "url": "https://finance.yahoo.com/news/could-bitcoin-billionaire-maker-085000626.html",
+      "summary": "Cathie Wood predicts Bitcoin could reach $1 million by 2030. The article explores if a modest investment could lead to billionaire status. This optimistic outlook, driven by recent price surges past $70,000, suggests continued strong investor sentiment and potential for further short-term gains.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "price_prediction",
+        "investor_sentiment",
+        "ATH_breakout"
+      ],
+      "rationale": "The bullish price prediction and recent ATH breakout contribute to positive short-term sentiment, potentially driving further buying pressure in the immediate days."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n733f8c78c0ac",
+      "title": "BITmarkets' New Crypto Outlook Adresses Bitcoin Halving and Other Milestones of 2024",
+      "url": "https://finance.yahoo.com/news/bitmarkets-crypto-outlook-adresses-bitcoin-103000897.html",
+      "summary": "BITmarkets published its Crypto Outlook 2024, focusing on the upcoming Bitcoin halving and the impact of ETFs. The report explores potential of new assets like Helium and AVAX. The anticipation of the halving event is a known bullish catalyst for Bitcoin, potentially influencing price action in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "halving",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Bitcoin_halving_anticipation",
+        "ETF_development_outlook"
+      ],
+      "rationale": "The upcoming Bitcoin halving is a significant event that historically leads to price increases. Anticipation of this event can drive short-term buying interest."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n49a177c96c78",
+      "title": "Bitcoin vs. Bitcoin ETFs: Here's What I'm Buying",
+      "url": "https://finance.yahoo.com/news/bitcoin-vs-bitcoin-etfs-heres-124500600.html",
+      "summary": "The arrival of Bitcoin ETFs is a game-changer, legitimizing Bitcoin and democratizing access. Investing in Bitcoin is now as simple as buying stocks. This ease of access is expected to drive significant inflows and potentially influence short-term price action.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_impact",
+        "democratized_access",
+        "investor_behavior"
+      ],
+      "rationale": "The narrative around ETFs simplifying Bitcoin investment can attract new buyers in the short term, boosting demand and price."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-03-17",
+    "summary": "Bitcoin has recently achieved new all-time highs, driven by strong institutional adoption through ETFs and positive macroeconomic sentiment. The upcoming halving event is also a significant bullish catalyst. While retail investor participation is still developing, the overall trend points towards continued growth. The market is closely watching for potential Fed rate cuts, which could further boost risk assets.",
+    "scenario_probs": {
+      "bull": 0.65,
+      "base": 0.25,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "Potential for profit-taking after recent ATHs.",
+      "Unforeseen regulatory changes impacting crypto.",
+      "Macroeconomic data that deviates from rate cut expectations.",
+      "Increased volatility due to speculative trading."
+    ],
+    "watch_items": [
+      "Bitcoin ETF inflow/outflow data.",
+      "Statements from Federal Reserve officials regarding monetary policy.",
+      "Developments related to the Bitcoin halving.",
+      "Retail investor sentiment indicators."
+    ]
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "date": "2018-06-03",
+  "long_term": [
+    {
+      "pick_idx": 7,
+      "id": "nf97666f73e41",
+      "title": "Takeaways from Berkshire Hathaway meeting",
+      "url": "https://finance.yahoo.com/news/wall-street-took-away-berkshire-hathaways-annual-meeting-151150817.html",
+      "summary": "Warren Buffett and Charlie Munger discussed various topics at the Berkshire Hathaway annual meeting. Notably, they compared cryptocurrencies to \"trading turds,\" indicating a strong bearish sentiment from influential figures in traditional finance towards Bitcoin. This sentiment can influence institutional adoption and public perception.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Buffett_crypto_sentiment",
+        "institutional_adoption_barrier"
+      ],
+      "rationale": "Buffett's strong negative commentary on cryptocurrencies serves as a significant signal to the market. Such high-profile dismissals can deter potential institutional investors and dampen retail sentiment, creating headwinds for Bitcoin's long-term growth."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nefa88aa8f298",
+      "title": "Inside NVIDIA's Fastest-Growing Business",
+      "url": "https://finance.yahoo.com/news/inside-nvidia-apos-fastest-growing-123100158.html",
+      "summary": "NVIDIA, a leading graphics chip manufacturer, has seen significant growth, with revenue and profits up substantially. Their chips are crucial for various computing tasks, including AI and data centers, which are increasingly relevant to blockchain and cryptocurrency infrastructure, particularly for mining and advanced computations.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "NVIDIA_GPU_demand",
+        "AI_infrastructure",
+        "blockchain_compute_power"
+      ],
+      "rationale": "The increasing demand for powerful computing hardware, driven by AI and data centers, directly benefits companies like NVIDIA. This trend supports the underlying infrastructure required for blockchain technologies and potentially for future cryptocurrency innovations."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n9594eb98396c",
+      "title": "Coinbase CEO Brian Armstrong to talk the future of cryptocurrency at Disrupt SF",
+      "url": "https://finance.yahoo.com/news/coinbase-ceo-brian-armstrong-talk-174521892.html",
+      "summary": "Coinbase CEO Brian Armstrong is scheduled to speak at TechCrunch Disrupt SF. Coinbase is a major cryptocurrency exchange that has played a key role in bringing cryptocurrencies into the mainstream. Armstrong's insights on the future of the industry can influence market sentiment and adoption trends.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_CEO_outlook",
+        "crypto_mainstream_adoption"
+      ],
+      "rationale": "Key industry leaders like Brian Armstrong often provide forward-looking statements that can shape market expectations. His participation in a prominent tech conference suggests continued focus on mainstream adoption and development of the crypto ecosystem."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n04bbce3d7e34",
+      "title": "US Central Bank Explains How Bitcoin is Like ‘Regular Currency’",
+      "url": "https://finance.yahoo.com/news/us-central-bank-explains-bitcoin-215557276.html",
+      "summary": "A content strategist from the Federal Reserve Bank of St. Louis suggests Bitcoin is similar to regular currency, citing its lack of backing by physical assets and its value being driven by demand. This perspective from a central bank entity could signal a shift towards greater acceptance or understanding of digital currencies.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Fed_stance_on_Bitcoin",
+        "digital_currency_acceptance"
+      ],
+      "rationale": "When a U.S. central bank entity discusses Bitcoin in terms of its functional similarities to traditional currency, it can legitimize the asset class. This could pave the way for more favorable regulatory treatment and broader institutional acceptance over the long term."
+    },
+    {
+      "pick_idx": 32,
+      "id": "nc6d690eb8925",
+      "title": "Bitcoin begins May with retreat back below $9,000 after 30% pop in April",
+      "url": "https://finance.yahoo.com/news/bitcoin-begins-may-retreat-back-135500265.html",
+      "summary": "Bitcoin experienced a significant retreat in early May after a strong 30% rally in April, falling below $9,000. This indicates a volatile market with potential for sharp reversals, suggesting that the upward momentum from April might not be sustainable without further fundamental catalysts.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_May_retreat",
+        "April_rally_reversal",
+        "price_volatility"
+      ],
+      "rationale": "The sharp drop after a strong April rally highlights the speculative nature and volatility of Bitcoin. While the April gains were substantial, the subsequent pullback suggests that the market is still finding its footing and may face further price discovery."
+    },
+    {
+      "pick_idx": 38,
+      "id": "nf6d1e01206d3",
+      "title": "Bitcoin Gains; Google Bans Crypto Mining Extensions",
+      "url": "https://finance.yahoo.com/news/bitcoin-gains-google-bans-crypto-054300165.html",
+      "summary": "Bitcoin prices saw gains, while Google announced a ban on cryptocurrency mining extensions in the Chrome Web Store. This move by Google could impact the accessibility and ease of use for certain crypto-related activities, potentially affecting user adoption and development.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Google_crypto_ban",
+        "Chrome_mining_extensions",
+        "platform_risk"
+      ],
+      "rationale": "Google's decision to ban crypto mining extensions, while seemingly minor, represents a broader trend of major tech platforms imposing restrictions on crypto-related activities. This can create friction for users and developers, potentially slowing down adoption and innovation."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n46a311a8f41d",
+      "title": "Richard Verkley - on the Transformative Potential of Blockchain for Mining Industry",
+      "url": "https://finance.yahoo.com/news/richard-verkley-transformative-potential-blockchain-041000492.html",
+      "summary": "Richard Verkley discusses the transformative potential of blockchain technology for the mining industry, highlighting its ability to improve operations and business conduct. This indicates a growing recognition of blockchain's utility beyond cryptocurrencies, potentially driving broader adoption of the technology.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockchain_mining_integration",
+        "enterprise_blockchain_adoption",
+        "industrial_use_cases"
+      ],
+      "rationale": "The application of blockchain in traditional industries like mining signifies its maturation and increasing utility. Such adoption in non-crypto sectors can lead to greater investment and development in blockchain technology, indirectly benefiting the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n327bf3fc9404",
+      "title": "Ethereum is top public blockchain, bitcoin No. 13 in China's new index",
+      "url": "https://finance.yahoo.com/news/ethereum-top-public-blockchain-bitcoin-no-13-chinas-191021977.html",
+      "summary": "China's government has released its first Global Public Chain Assessment Index, ranking Ethereum as the top public blockchain and Bitcoin at 13th. This index evaluates technological capability, usefulness, and innovativeness, providing a state-backed perspective on blockchain projects.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "China_blockchain_index",
+        "Ethereum_ranking",
+        "Bitcoin_ranking"
+      ],
+      "rationale": "While China's index provides a new metric for evaluating blockchains, its impact on Bitcoin's long-term trajectory is uncertain. The ranking might influence investor perception within China and potentially signal future regulatory approaches, but it doesn't fundamentally alter Bitcoin's core value proposition."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n9ece6b64741e",
+      "title": "The Zacks Analyst Blog Highlights: VanEck Vectors Semiconductor, iShares PHLX Semiconductor, PowerShares Dynamic Semiconductor, SPDR S&P Semiconductor and First Trust Nasdaq Semiconductor",
+      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-vaneck-103810189.html",
+      "summary": "This article highlights semiconductor ETFs, indicating strong investor interest in the semiconductor sector. Semiconductors are critical components for the hardware that powers blockchain technology and cryptocurrency mining, suggesting potential indirect benefits for the crypto market.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "semiconductor_ETF_interest",
+        "GPU_supply_chain",
+        "mining_hardware_demand"
+      ],
+      "rationale": "Increased investment in semiconductor ETFs reflects a broader trend of growth in the technology sector. This demand for advanced chips is positive for companies supplying hardware essential for cryptocurrency mining and blockchain infrastructure development."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n4b949fba7fb1",
+      "title": "Hollywood producer plans to incentivize content viewers with tokens",
+      "url": "https://finance.yahoo.com/news/hollywood-producer-plans-incentivise-content-164018449.html",
+      "summary": "A Hollywood producer plans to reward content viewers with tokens, leveraging blockchain technology to create new engagement models. This move into the entertainment industry signifies the expanding use cases for tokenization and could drive broader consumer awareness and adoption of crypto-related incentives.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "tokenization_entertainment",
+        "blockchain_content_incentives",
+        "consumer_adoption_crypto"
+      ],
+      "rationale": "The application of tokens to incentivize content viewers in the entertainment industry represents a novel use case for blockchain. This can increase consumer familiarity with token-based rewards and potentially drive demand for cryptocurrencies as a medium of exchange."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n70a3788a9fbc",
+      "title": "Bitcoin Treads Water Early as the Bulls Look for More",
+      "url": "https://finance.yahoo.com/news/bitcoin-treads-water-early-bulls-051005702.html",
+      "summary": "Bitcoin gained 1.56% on Saturday, ending the day at $7,638.1, its highest close since May 23rd. It experienced a mid-morning rally but remained range-bound for the rest of the day. Bulls are seeking further upward momentum.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_action_June_3",
+        "bullish_momentum_seeking"
+      ],
+      "rationale": "Bitcoin showed a slight gain but struggled to maintain momentum, indicating a lack of strong conviction from buyers. The price action suggests consolidation rather than a clear directional move in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nbf8e5931d1a1",
+      "title": "Op-ed: Visa vs. Cryptocurrency — It’s Only a Matter of Time",
+      "url": "https://finance.yahoo.com/news/op-ed-visa-vs-cryptocurrency-175530045.html",
+      "summary": "Visa payment disruptions in Europe highlighted the potential use case for cryptocurrency as an alternative payment network. The incident sparked discussions about crypto's merits, suggesting that system failures in traditional payment providers could drive users towards decentralized alternatives.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Visa_outage_impact",
+        "crypto_payment_alternative",
+        "payment_system_risk"
+      ],
+      "rationale": "Failures in established payment systems like Visa can temporarily increase interest in cryptocurrencies as a more resilient alternative. This could lead to a small, short-term increase in demand or positive sentiment for crypto as a payment method."
+    },
+    {
+      "pick_idx": 10,
+      "id": "na1fb665af9a7",
+      "title": "Gold Monthly Forecast – June 2018",
+      "url": "https://finance.yahoo.com/news/gold-monthly-forecast-june-2018-172955366.html",
+      "summary": "Gold has been declining in May due to a strengthening US Dollar, driven by positive US economic scenarios and rising Treasury yields. Geopolitical issues are present but are overshadowed by economic factors favoring the dollar.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "Gold_price_trend",
+        "USD_strength",
+        "Treasury_yields"
+      ],
+      "rationale": "The bearish outlook for gold due to a strong dollar and rising yields suggests a risk-off sentiment in traditional markets. This macro environment can sometimes correlate with a risk-off sentiment in cryptocurrencies, potentially leading to downward pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ncd304faccedd",
+      "title": "Bitcoin Cash, Litecoin and Ripple Daily Analysis – 03/06/18",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-litecoin-ripple-daily-042107012.html",
+      "summary": "Bitcoin Cash rallied 8.26% on Saturday, breaking through resistance levels and testing selling pressure at the 23.6% FIB Retracement Level. It eased back below $1,100 by day's end. Litecoin and Ripple also saw gains.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "volatility"
+      ],
+      "features_for_model": [
+        "BCH_price_action",
+        "altcoin_rally",
+        "FIB_retracement_level"
+      ],
+      "rationale": "The positive price action in Bitcoin Cash and other altcoins on Saturday suggests a potential short-term rotation into other cryptocurrencies. This could provide some spillover positive sentiment for Bitcoin, though the gains were modest."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nd4db416d6ff1",
+      "title": "Japan’s GMO Launches App to Reward Gamers in Bitcoin",
+      "url": "https://finance.yahoo.com/news/japan-gmo-launches-app-reward-105101380.html",
+      "summary": "GMO Internet in Japan has launched 'CryptoChips by GMO,' an app to reward gamers with cryptocurrency, initially supporting Bitcoin. This initiative aims to integrate Bitcoin into gaming as a reward mechanism, potentially increasing its utility and adoption among a younger demographic.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "listing"
+      ],
+      "features_for_model": [
+        "GMO_Japan_crypto_app",
+        "Bitcoin_gaming_rewards",
+        "user_adoption_gamers"
+      ],
+      "rationale": "The launch of an app rewarding gamers with Bitcoin in Japan is a positive development for Bitcoin adoption. It introduces the cryptocurrency to a new user base and demonstrates its potential as a reward mechanism, which could lead to increased demand."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nda9cb8498039",
+      "title": "Bitcoin Cash, Litecoin and Ripple Daily Analysis – 03/06/18",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-litecoin-ripple-daily-042107012.html",
+      "summary": "Bitcoin Cash rallied 8.26% on Saturday, breaking through resistance levels and testing selling pressure at the 23.6% FIB Retracement Level. It eased back below $1,100 by day's end. Litecoin and Ripple also saw gains.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "volatility"
+      ],
+      "features_for_model": [
+        "BCH_price_action",
+        "altcoin_rally",
+        "FIB_retracement_level"
+      ],
+      "rationale": "The positive price action in Bitcoin Cash and other altcoins on Saturday suggests a potential short-term rotation into other cryptocurrencies. This could provide some spillover positive sentiment for Bitcoin, though the gains were modest."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nda9cb8498039",
+      "title": "Bitcoin Cash, Litecoin and Ripple Daily Analysis – 03/06/18",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-litecoin-ripple-daily-042107012.html",
+      "summary": "Bitcoin Cash rallied 8.26% on Saturday, breaking through resistance levels and testing selling pressure at the 23.6% FIB Retracement Level. It eased back below $1,100 by day's end. Litecoin and Ripple also saw gains.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "volatility"
+      ],
+      "features_for_model": [
+        "BCH_price_action",
+        "altcoin_rally",
+        "FIB_retracement_level"
+      ],
+      "rationale": "The positive price action in Bitcoin Cash and other altcoins on Saturday suggests a potential short-term rotation into other cryptocurrencies. This could provide some spillover positive sentiment for Bitcoin, though the gains were modest."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n70a3788a9fbc",
+      "title": "Bitcoin Treads Water Early as the Bulls Look for More",
+      "url": "https://finance.yahoo.com/news/bitcoin-treads-water-early-bulls-051005702.html",
+      "summary": "Bitcoin gained 1.56% on Saturday, ending the day at $7,638.1, its highest close since May 23rd. It experienced a mid-morning rally but remained range-bound for the rest of the day. Bulls are seeking further upward momentum.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_action_June_3",
+        "bullish_momentum_seeking"
+      ],
+      "rationale": "Bitcoin showed a slight gain but struggled to maintain momentum, indicating a lack of strong conviction from buyers. The price action suggests consolidation rather than a clear directional move in the immediate short term."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nd4db416d6ff1",
+      "title": "Japan’s GMO Launches App to Reward Gamers in Bitcoin",
+      "url": "https://finance.yahoo.com/news/japan-gmo-launches-app-reward-105101380.html",
+      "summary": "GMO Internet in Japan has launched 'CryptoChips by GMO,' an app to reward gamers with cryptocurrency, initially supporting Bitcoin. This initiative aims to integrate Bitcoin into gaming as a reward mechanism, potentially increasing its utility and adoption among a younger demographic.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "listing"
+      ],
+      "features_for_model": [
+        "GMO_Japan_crypto_app",
+        "Bitcoin_gaming_rewards",
+        "user_adoption_gamers"
+      ],
+      "rationale": "The launch of an app rewarding gamers with Bitcoin in Japan is a positive development for Bitcoin adoption. It introduces the cryptocurrency to a new user base and demonstrates its potential as a reward mechanism, which could lead to increased demand."
+    },
+    {
+      "pick_idx": 41,
+      "id": "nbf8e5931d1a1",
+      "title": "Op-ed: Visa vs. Cryptocurrency — It’s Only a Matter of Time",
+      "url": "https://finance.yahoo.com/news/op-ed-visa-vs-cryptocurrency-175530045.html",
+      "summary": "Visa payment disruptions in Europe highlighted the potential use case for cryptocurrency as an alternative payment network. The incident sparked discussions about crypto's merits, suggesting that system failures in traditional payment providers could drive users towards decentralized alternatives.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Visa_outage_impact",
+        "crypto_payment_alternative",
+        "payment_system_risk"
+      ],
+      "rationale": "Failures in established payment systems like Visa can temporarily increase interest in cryptocurrencies as a more resilient alternative. This could lead to a small, short-term increase in demand or positive sentiment for crypto as a payment method."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-06-03",
+    "summary": "Bitcoin is showing signs of consolidation after a volatile period, trading sideways with minor gains. Positive developments include the potential for broader adoption through gaming rewards in Japan and the ongoing discussion of crypto as a payment alternative to traditional systems like Visa, especially after recent disruptions. However, macro factors like a strengthening dollar and rising yields are creating headwinds for safe-haven assets like gold, which could indirectly pressure riskier assets like Bitcoin. The long-term outlook remains influenced by institutional sentiment and technological integration into traditional industries.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued strength of the US Dollar and rising Treasury yields may pressure risk assets.",
+      "Regulatory uncertainty and potential crackdowns from major tech platforms (e.g., Google's ban on mining extensions).",
+      "Market volatility and lack of sustained bullish momentum could lead to further price retracements.",
+      "Negative sentiment from influential figures like Warren Buffett can deter institutional adoption."
+    ],
+    "watch_items": [
+      "USD Index (DXY)",
+      "US Treasury Yields",
+      "Major tech company announcements regarding crypto",
+      "Developments in the gaming industry's integration of crypto",
+      "Any further commentary from prominent investors on Bitcoin"
+    ]
+  }
+}

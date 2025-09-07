@@ -1,0 +1,521 @@
+{
+  "date": "2021-02-02",
+  "long_term": [
+    {
+      "pick_idx": 11,
+      "id": "nea989f173030",
+      "title": "Bitcoin jumps to record $28,600 as 2020 rally reaches new heights",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-record-28-600-095959649.html",
+      "summary": "Bitcoin reached a new all-time high of $28,599.99 on December 30, 2020, having quadrupled in value throughout the year. This surge was attributed to increased interest from larger investors, attracted by Bitcoin's perceived inflation-hedging qualities, potential for quick gains, and its growing expectation as a mainstream payment method. The price had already surged by nearly half since breaking $20,000 on December 16, indicating strong institutional adoption and growing mainstream acceptance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_ATH",
+        "institutional_demand",
+        "inflation_hedge"
+      ],
+      "rationale": "The sustained rally to new all-time highs driven by institutional investors signals a fundamental shift in Bitcoin's perception as a legitimate asset class. This trend is likely to continue as more institutions allocate capital, reinforcing its position as a digital store of value."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n319c459e91ea",
+      "title": "Bitcoin’s Rising Popularity With Investors Means Gold Will ‘Suffer’: JPMorgan",
+      "url": "https://finance.yahoo.com/news/bitcoin-rising-popularity-investors-means-145020001.html",
+      "summary": "JPMorgan analysts suggest that Bitcoin's increasing popularity among institutional investors could lead to gold's decline as a preferred store of value. They noted significant outflows from gold ETFs since October while the Grayscale Bitcoin Trust saw substantial inflows. This indicates a potential rotation of capital from traditional safe-haven assets to digital assets like Bitcoin, driven by institutional adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_vs_Gold",
+        "institutional_rotation",
+        "ETF_outflows"
+      ],
+      "rationale": "The narrative of Bitcoin as 'digital gold' is gaining traction, with institutional investors potentially viewing it as a superior inflation hedge. This shift could lead to sustained capital inflows into Bitcoin, negatively impacting gold's market share over the long term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n0e7f313641ca",
+      "title": "Ethereum Far Outpaces Bitcoin in Developer Activity in 2020: Electric Capital Report",
+      "url": "https://finance.yahoo.com/news/ethereum-far-outpaces-bitcoin-developer-170106937.html",
+      "summary": "An Electric Capital report highlights that Ethereum significantly outpaced Bitcoin in developer activity in 2020, with over 300 new developers joining the network monthly. This sustained growth, even through a crypto winter, indicates a robust and expanding ecosystem for Ethereum. The report tracks developer engagement across various blockchain networks, emphasizing Ethereum's strong appeal to coders.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ETH_developer_activity",
+        "ecosystem_growth",
+        "network_adoption"
+      ],
+      "rationale": "High developer activity is a strong indicator of innovation and future growth potential for a blockchain network. Ethereum's continued dominance in this area suggests ongoing development of dApps and infrastructure, which could drive increased utility and demand for ETH."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nd9e8826e71e7",
+      "title": "Ether’s Rise to Record Highs May Propel Cryptocurrency to $10.5K: Fundstrat Global",
+      "url": "https://finance.yahoo.com/news/ether-rise-record-highs-may-153023866.html",
+      "summary": "Fundstrat Global Advisors predicts that Ethereum's ether could rally to $10,500, driven by its use cases and blockchain technology. The strategist cited ether as the 'best risk/reward investment play in crypto,' suggesting that blockchain computing might become the future of cloud services. This forecast is based on ether's recent record highs and its underlying technological potential.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ETH_price_prediction",
+        "blockchain_utility",
+        "DeFi_growth"
+      ],
+      "rationale": "The projection of a significant price increase for Ether, supported by its expanding use cases and potential as a foundational technology for future cloud services, indicates strong long-term bullish sentiment. This highlights the growing utility and adoption of the Ethereum network."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n082a83b339e1",
+      "title": "ETF Edge: ETF Themes To Watch In 2021",
+      "url": "https://finance.yahoo.com/news/etf-edge-etf-themes-watch-222354675.html",
+      "summary": "The ETF industry saw record inflows of over $500 billion and the launch of more than 300 new funds in 2020. Key themes for 2021 include ESG (Environmental, Social, and Governance) investing and thematic ETFs. This trend suggests a growing appetite for diversified investment products, which could indirectly benefit crypto-related ETFs or funds that include digital assets as part of broader thematic plays.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "thematic_ETFs",
+        "ESG_investing"
+      ],
+      "rationale": "The massive growth in the ETF market indicates a broader trend of institutional and retail investors seeking accessible investment vehicles. As crypto gains more legitimacy, it's plausible that more crypto-focused ETFs or ETFs incorporating crypto exposure will emerge, driving adoption."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n821155706306",
+      "title": "Argentina’s Ripio Acquires Second-Largest Crypto Exchange in Brazil",
+      "url": "https://finance.yahoo.com/news/argentina-ripio-acquires-second-largest-130021256.html",
+      "summary": "Ripio, an Argentinian crypto exchange, acquired BitcoinTrade, the second-largest exchange in Brazil, to expand its presence in the Latin American crypto market. Ripio crossed the 1 million user milestone by the end of 2020. This acquisition signifies consolidation and growth within regional crypto markets, indicating increasing adoption and infrastructure development in emerging economies.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "LATAM_crypto_adoption",
+        "exchange_consolidation",
+        "Ripio_acquisition"
+      ],
+      "rationale": "The acquisition highlights the growing maturity of the crypto market in Latin America, with companies expanding their reach through consolidation. This regional growth can contribute to overall global adoption and increased liquidity."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nd2c0e90bef8e",
+      "title": "Ripple demands Bitcoin and Ethereum docs from SEC amid legal fight",
+      "url": "https://finance.yahoo.com/news/ripple-demands-bitcoin-ethereum-docs-173503442.html",
+      "summary": "Ripple has filed a Freedom of Information request with the SEC, seeking documents related to the SEC's determination that Bitcoin and Ethereum are not securities. This move comes as the SEC sues Ripple for selling unlicensed XRP. The request aims to establish a precedent for how other cryptocurrencies are treated, potentially impacting regulatory clarity for the entire market.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Ripple_SEC_lawsuit",
+        "BTC_ETH_securities_status",
+        "regulatory_clarity"
+      ],
+      "rationale": "The outcome of Ripple's legal battle and its request for SEC documentation could significantly influence the regulatory landscape for cryptocurrencies. Clarity on whether Bitcoin and Ethereum are considered securities would reduce uncertainty for investors and businesses."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n8c64290949d1",
+      "title": "Statechains Scaling Solution Offers New Potential for Bitcoin Privacy",
+      "url": "https://finance.yahoo.com/news/statechains-scaling-solution-offers-potential-140000009.html",
+      "summary": "CommerceBlock is developing a new tool using statechains to enhance Bitcoin's privacy and scalability. The Mercury Wallet is testing this technology, which aims to allow Bitcoin to scale beyond its current limitations and reach more users. The open-source nature of the project encourages community involvement in bug fixing and development.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_scalability",
+        "BTC_privacy",
+        "statechains_tech"
+      ],
+      "rationale": "Improvements in Bitcoin's scalability and privacy are crucial for its long-term adoption as a medium of exchange. Technologies like statechains could address these limitations, making Bitcoin more practical for everyday transactions and potentially increasing its utility."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n1fc404d825e1",
+      "title": "Silk Road’s Ulbricht Being Considered for Pardon by Trump: Report",
+      "url": "https://finance.yahoo.com/news/silk-road-ulbricht-being-considered-021039451.html",
+      "summary": "U.S. President Donald Trump was reportedly considering a pardon for Ross Ulbricht, the founder of the defunct dark web marketplace Silk Road. The White House Counsel's office was reviewing Ulbricht's case documents ahead of Trump's departure. While the direct impact on Bitcoin is unclear, any presidential pardon related to early crypto figures could stir market sentiment and discussions around the origins and early adoption of Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "macro"
+      ],
+      "features_for_model": [
+        "Ross_Ulbricht_pardon",
+        "Silk_Road_legacy",
+        "crypto_regulation_history"
+      ],
+      "rationale": "A pardon for Ross Ulbricht, while not directly impacting Bitcoin's price, could reignite discussions about the early days of cryptocurrency and its association with illicit activities. This might have a marginal, sentiment-driven effect on the market."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n8b6fcb53aaee",
+      "title": "Musk Says He’s a Bitcoin ‘Supporter,’ Buffeting Price Again",
+      "url": "https://finance.yahoo.com/news/musk-says-bitcoin-supporter-buffeting-081328383.html",
+      "summary": "Elon Musk declared himself a Bitcoin supporter on the social audio app Clubhouse, stating he believes it's a 'good thing' and that he was 'late to the party.' This statement, following his earlier #bitcoin tag on Twitter, caused Bitcoin's price to spike. Musk's influence on market sentiment is significant, and his endorsement signals growing mainstream acceptance.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "influencer"
+      ],
+      "features_for_model": [
+        "Elon_Musk_endorsement",
+        "BTC_price_impact",
+        "influencer_sentiment"
+      ],
+      "rationale": "Elon Musk's public support for Bitcoin has a proven track record of driving price action. His continued endorsement, especially from a prominent figure in technology and business, reinforces Bitcoin's legitimacy and attracts new investors, contributing to upward price momentum."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 11,
+      "id": "n29099adceedb",
+      "title": "Why Ark's Cathie Wood remains bullish on Bitcoin, Tesla",
+      "url": "https://finance.yahoo.com/news/cathie-wood-ark-invest-big-ideas-for-2021-bitcoin-tesla-191031793.html",
+      "summary": "Ark Invest CEO Cathie Wood reiterates her bullish stance on Bitcoin, expecting institutional adoption to continue driving its price. She notes the correlation between Bitcoin's performance and institutional moves. Wood's conviction suggests continued institutional interest and potential for further price appreciation in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "influencer"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_outlook",
+        "institutional_adoption_BTC",
+        "market_sentiment"
+      ],
+      "rationale": "Cathie Wood's continued bullish sentiment, particularly her emphasis on institutional adoption, provides a strong positive signal for the short term. This reinforces the narrative of increasing mainstream acceptance and potential for continued price discovery."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n8a98b8aade63",
+      "title": "MicroStrategy Adds to Bitcoin Trove With Another $10M Purchase",
+      "url": "https://finance.yahoo.com/news/microstrategy-adds-bitcoin-trove-another-145012793.html",
+      "summary": "MicroStrategy purchased an additional 295 BTC for $10 million, averaging $33,810 per coin. This follows a previous $10 million purchase. CEO Michael Saylor indicated the company's commitment to accumulating Bitcoin. Such corporate treasury allocations are positive indicators of institutional confidence and can influence short-term price action.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "corporate_treasury"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_buy",
+        "corporate_treasury_allocation",
+        "institutional_buying_pressure"
+      ],
+      "rationale": "MicroStrategy's continued accumulation of Bitcoin signals strong conviction from a major corporate player. This consistent buying pressure can provide short-term support and contribute to positive price momentum."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n766f027de043",
+      "title": "Bitcoin Miners Saw Revenue Rise 62% in January From December",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-saw-revenue-rise-193154306.html",
+      "summary": "Bitcoin miners generated an estimated $1.1 billion in revenue in January, a 62% increase from December, driven by Bitcoin's price climb. Miner revenues per TH/s also saw an increase. This surge in miner revenue indicates increased profitability and network activity, which can be a bullish signal for the price.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "miner",
+        "revenue",
+        "network_activity"
+      ],
+      "features_for_model": [
+        "BTC_miner_revenue",
+        "mining_profitability",
+        "network_hashrate"
+      ],
+      "rationale": "Increased miner revenue suggests robust network activity and profitability, which can translate into higher demand for mining hardware and potentially influence miner selling behavior. This positive fundamental can support short-term price stability or upward movement."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nab5d84c6240e",
+      "title": "Ethereum Miners Earned Record $830M in January",
+      "url": "https://finance.yahoo.com/news/ethereum-miners-earned-record-830m-161559296.html",
+      "summary": "Ethereum miners earned a record $830 million in January, surpassing previous records from January 2018. Network activity, fees, and Ether's price surge contributed to this revenue. Notably, network fees constituted nearly 40% of the revenue, indicating high demand for block space.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "revenue",
+        "network_activity",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "ETH_miner_revenue",
+        "network_fees",
+        "DeFi_activity"
+      ],
+      "rationale": "Record revenue for Ethereum miners, driven significantly by network fees, points to high demand for block space, likely due to DeFi activity. This strong network usage and profitability can be a positive catalyst for Ether's price in the short term."
+    },
+    {
+      "pick_idx": 46,
+      "id": "nf016267acfb3",
+      "title": "First Mover: Federal Reserve Soup Now Includes Bitcoin, DeFi, Silver, GameStop",
+      "url": "https://finance.yahoo.com/news/first-mover-federal-soup-now-141529885.html",
+      "summary": "Bitcoin is trading higher, approaching the $30,000-$36,000 range. Ether is rising towards a new record, potentially boosted by renewed interest in DeFi amid the Robinhood/GameStop saga. XRP's price tripled recently, possibly due to coordinated pumps. The broader market sentiment is influenced by these events and the Federal Reserve's stance.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "DeFi",
+        "retail_trading"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "ETH_record_high",
+        "DeFi_interest",
+        "GameStop_impact"
+      ],
+      "rationale": "The confluence of positive price action for Bitcoin and Ether, coupled with renewed interest in DeFi, suggests a bullish short-term outlook. The ongoing retail trading frenzy, while primarily focused on equities, is spilling over into crypto, creating positive momentum."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n9dddcc7c05d2",
+      "title": "These Two Firms Want to Upgrade Crypto Infrastructure for Banks and Exchanges",
+      "url": "https://finance.yahoo.com/news/two-firms-want-upgrade-crypto-140007475.html",
+      "summary": "METACO and Cobalt are launching a SaaS offering for institutional digital asset trading, providing bank-grade custody and post-trade settlement. This initiative addresses the perceived lack of institutional-grade infrastructure in the crypto space. Improving infrastructure is key for broader institutional adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_infrastructure",
+        "custody_solutions",
+        "SaaS_offering"
+      ],
+      "rationale": "The development of institutional-grade infrastructure is a critical step for increasing crypto adoption by traditional financial institutions. This offering could facilitate smoother onboarding and more robust trading for banks and exchanges, positively impacting market liquidity and sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nf9bf7f2c2963",
+      "title": "Investview Revenue Soars Following Bitcoin Rally",
+      "url": "https://finance.yahoo.com/news/investview-revenue-soars-following-bitcoin-224736718.html",
+      "summary": "Investview's Bitcoin mining revenue increased by 47.3% month-on-month in January, with profit margins rising by 70.7%. The company produced 80 BTC in January, benefiting from the Bitcoin price appreciation. They are also relocating their largest mining operation to a new facility with better power and hosting rates.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "revenue",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Investview_mining_revenue",
+        "BTC_mining_operations",
+        "facility_relocation"
+      ],
+      "rationale": "Investview's strong revenue growth from Bitcoin mining, coupled with operational improvements like facility relocation, indicates positive business performance. While specific to one company, it reflects the broader trend of increased profitability in the mining sector due to higher BTC prices."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n2a9ec64254c8",
+      "title": "21Shares Launching First Polkadot ETP on SIX Exchange",
+      "url": "https://finance.yahoo.com/news/21shares-launching-first-polkadot-etp-082434552.html",
+      "summary": "21Shares is launching the world's first Polkadot ETP on the Swiss SIX Exchange on February 4th. This move aims to capitalize on the growing interest in Polkadot and provide investors with a regulated way to gain exposure. The listing signifies increasing institutional interest in altcoins beyond Bitcoin and Ethereum.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 2,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETP",
+        "institutional",
+        "adoption",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "Polkadot_ETP",
+        "21Shares_listing",
+        "altcoin_institutional_access"
+      ],
+      "rationale": "The launch of a Polkadot ETP on a regulated exchange is a significant development for the altcoin market. It provides a regulated avenue for institutional investors to access Polkadot, potentially driving demand and price appreciation for DOT in the short to medium term."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n95aa771d82d1",
+      "title": "Tesla Begins EV Sales In Israel One Month After Getting Approval",
+      "url": "https://finance.yahoo.com/news/tesla-begins-ev-sales-israel-220545907.html",
+      "summary": "Tesla has started taking preorders for its EVs in Israel, a month after receiving approval. This expansion into new markets is part of Tesla's mission to accelerate the world's transition to sustainable energy. While not directly crypto-related, Tesla's CEO, Elon Musk, is a significant influencer in the crypto space, and positive news from his companies can sometimes correlate with crypto market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "influencer"
+      ],
+      "features_for_model": [
+        "Tesla_market_expansion",
+        "Elon_Musk_company_news",
+        "market_sentiment_correlation"
+      ],
+      "rationale": "While this news is about Tesla's EV sales, Elon Musk's prominent role and his influence on the crypto market make any positive news from his ventures a potential sentiment driver. It's a weak correlation, but worth noting for its indirect impact on market psychology."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nec93072797db",
+      "title": "India Minister Suggests Modi Government Not Planning Outright Crypto Ban",
+      "url": "https://finance.yahoo.com/news/india-minister-suggests-modi-government-151949485.html",
+      "summary": "An Indian minister indicated that the government aims to regulate cryptocurrencies rather than ban them outright, focusing on curbing illicit transactions and preventing their use in payments. This suggests a move towards regulatory clarity in a major economy, which is generally positive for crypto adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 5,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "India_crypto_regulation",
+        "regulatory_clarity",
+        "emerging_market_adoption"
+      ],
+      "rationale": "Positive regulatory developments in large economies like India are crucial for global crypto adoption. The move towards regulation rather than a ban reduces uncertainty and can encourage more mainstream participation, positively impacting sentiment and potentially price."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-02-02",
+    "summary": "Bitcoin and Ethereum are showing strength, with ETH hitting new all-time highs and BTC trading within a strong range, buoyed by institutional interest and positive on-chain metrics. The broader market sentiment is bullish, influenced by continued institutional adoption narratives and positive developments in DeFi. However, the ongoing retail trading frenzy in equities, particularly the GameStop saga, adds a layer of volatility and uncertainty to market dynamics, with potential regulatory scrutiny looming.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Regulatory uncertainty, especially concerning potential government reactions to market volatility seen in equities.",
+      "The spillover effects of the GameStop saga and potential for increased scrutiny on retail trading platforms.",
+      "Macroeconomic shifts or unexpected inflation data that could influence central bank policy.",
+      "Technical resistance levels for Bitcoin and Ethereum that could lead to short-term pullbacks.",
+      "The ongoing debate about Bitcoin's classification as a security, as highlighted by Ripple's legal actions."
+    ],
+    "watch_items": [
+      "Elon Musk's continued commentary on Bitcoin and Tesla's performance.",
+      "Developments in the SEC's case against Ripple and its implications for BTC/ETH regulatory status.",
+      "The performance of DeFi protocols and network fees on Ethereum.",
+      "Any further institutional announcements regarding Bitcoin or crypto investments.",
+      "The outcome of any congressional hearings related to the GameStop trading events."
+    ]
+  }
+}

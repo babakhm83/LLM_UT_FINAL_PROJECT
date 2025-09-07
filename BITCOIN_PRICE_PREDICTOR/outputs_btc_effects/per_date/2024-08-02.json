@@ -1,0 +1,541 @@
+{
+  "date": "2024-08-02",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "naf8fffc2c6a4",
+      "title": "Cryptocurrency Price Movements Today: Bitcoin Pares Gains After Touching $68,000",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-price-movements-today-bitcoin-172645120.html",
+      "summary": "Spot bitcoin ETFs reached a new all-time high in cumulative inflows, signaling strong institutional demand. Bernstein analysts suggest that the potential for a more crypto-friendly environment under a Trump presidency is not fully priced in, which could positively impact crypto prices. The upcoming launch of spot ether ETFs is also anticipated to boost the market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "Trump_policy",
+        "ETH_ETF_launch"
+      ],
+      "rationale": "Sustained institutional inflows via ETFs and potential regulatory tailwinds from a crypto-friendly administration create a strong positive outlook for Bitcoin and the broader market over the next year."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n85f1ad4db84c",
+      "title": "Bitcoin innovation is essential for U.S. economic future, says Perianne Boring",
+      "url": "https://finance.yahoo.com/news/bitcoin-innovation-essential-u-economic-012316833.html",
+      "summary": "Perianne Boring, founder of the Digital Chamber, emphasizes the critical role of U.S. policymakers in shaping the future of Bitcoin and blockchain technology. Policymakers' understanding of crypto's safety and efficacy is highlighted as crucial for its integration into the U.S. economic landscape. This suggests a growing recognition of Bitcoin's potential beyond just a speculative asset.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "policy_influence",
+        "digital_chamber",
+        "economic_integration"
+      ],
+      "rationale": "Increased engagement and understanding from U.S. policymakers, as advocated by figures like Perianne Boring, can lead to more favorable regulations and greater adoption, fostering long-term growth for Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n71eeea2617ed",
+      "title": "Senate Committee Passes Surprise Crypto Bill — Could Boost the Price of Bitcoin, Ethereum, XRP",
+      "url": "https://finance.yahoo.com/news/senate-committee-passes-surprise-crypto-143011591.html",
+      "summary": "A Senate committee has passed a crypto bill that could mandate increased user data collection from crypto companies, potentially impacting privacy but also signaling regulatory movement. While the provision aims to prevent terrorism financing, its implications for market participants are significant. The news comes amid Bitcoin's price consolidation.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "policy"
+      ],
+      "features_for_model": [
+        "crypto_bill_passage",
+        "data_collection_mandate",
+        "terrorism_financing_prevention"
+      ],
+      "rationale": "The passage of a crypto bill by a Senate committee introduces regulatory clarity, which can be a net positive for institutional adoption. However, the specific data collection requirements could introduce friction, making the net impact uncertain in the medium term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nf110e8c2a353",
+      "title": "Bitcoin Miners With Attractive Power Contracts Are Potential M&A Targets, JPMorgan Says",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-attractive-power-contracts-172203465.html",
+      "summary": "JPMorgan suggests that Bitcoin mining companies with favorable power contracts could become M&A targets for hyperscalers and AI firms seeking energy solutions. This trend validates the mining sector's pivot towards high-performance computing (HPC) and indicates a potential consolidation within the mining industry, driven by demand for energy infrastructure.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "miner_M_and_A",
+        "AI_energy_demand",
+        "HPC_pivot"
+      ],
+      "rationale": "The increasing demand for energy from AI and hyperscale computing creates a new revenue stream and potential M&A opportunities for Bitcoin miners, strengthening their business models and potentially leading to more efficient operations."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf94cfffbab82",
+      "title": "Bitcoin, Ethereum, Dogecoin In Full Meltdown As Mt. Gox Moves $2.7B To New Wallet: King Crypto Decline To $51K Feared By Analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-dogecoin-full-meltdown-172035744.html",
+      "summary": "The movement of a significant amount of Bitcoin ($2.7 billion) from Mt. Gox to a new wallet has triggered market fears of a potential sell-off, leading to a broad market decline. Analysts are concerned about Bitcoin potentially falling to $51K. This event highlights the sensitivity of the crypto market to large asset movements from historical events.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "liquidity",
+        "macro",
+        "event_risk"
+      ],
+      "features_for_model": [
+        "Mt_Gox_repayment",
+        "large_wallet_transfer",
+        "market_fear"
+      ],
+      "rationale": "The impending distribution of funds from Mt. Gox represents a significant supply shock risk. While the exact timing and impact are uncertain, the market's reaction to large wallet movements suggests a potential for downward price pressure in the short to medium term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "na20b35e4a390",
+      "title": "Trump to address ‘future of the American Bitcoin industry’ at crypto gathering this month",
+      "url": "https://finance.yahoo.com/news/trump-address-future-american-bitcoin-142828623.html",
+      "summary": "Former President Donald Trump is scheduled to speak at the Bitcoin 2024 conference, signaling his intent to court crypto voters and their financial support. His address on the 'future of the American Bitcoin industry' indicates a growing political focus on cryptocurrency, potentially leading to more favorable policies.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Trump_speech",
+        "crypto_policy_focus",
+        "political_support"
+      ],
+      "rationale": "Increased political engagement from a major presidential candidate like Donald Trump suggests a potential shift towards more crypto-friendly policies, which could provide a significant tailwind for Bitcoin's long-term adoption and price appreciation."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nb30da8ed0c68",
+      "title": "Long Bitcoin and Short Bitcoin Cash to Benefit From Mt. Gox Repayments: Trader",
+      "url": "https://finance.yahoo.com/news/long-bitcoin-short-bitcoin-cash-062917543.html",
+      "summary": "A trading firm suggests a market-neutral strategy of going long Bitcoin and short Bitcoin Cash to profit from Mt. Gox repayments, based on supply/demand dynamics. This strategy anticipates increased demand for BTC due to repayments while expecting BCH to underperform.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "liquidity",
+        "market_neutral"
+      ],
+      "features_for_model": [
+        "Mt_Gox_strategy",
+        "BTC_vs_BCH",
+        "supply_demand_dynamics"
+      ],
+      "rationale": "The Mt. Gox repayment event is expected to increase the supply of BTC available in the market. A strategy that capitalizes on this by favoring BTC over BCH could be profitable, reflecting a short-term divergence in performance driven by specific event dynamics."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n897fe23892df",
+      "title": "Bitcoin is sending a warning that the stock market is about to sell off, Stifel says",
+      "url": "https://finance.yahoo.com/news/bitcoin-sending-warning-stock-market-150604200.html",
+      "summary": "Stifel strategist Barry Bannister notes a strong correlation between Bitcoin and the Nasdaq 100, suggesting Bitcoin's recent 10% sell-off serves as a warning for the broader stock market. He anticipates a summer correction in stocks, influenced by persistent high interest rates.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "correlation",
+        "risk_off"
+      ],
+      "features_for_model": [
+        "BTC_stock_correlation",
+        "Nasdaq_100_warning",
+        "interest_rate_impact"
+      ],
+      "rationale": "The strong correlation between Bitcoin and tech stocks, particularly the Nasdaq 100, implies that Bitcoin's price movements can act as a leading indicator for broader market sentiment. A significant Bitcoin downturn could signal an impending stock market correction."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nd6afe15de2a1",
+      "title": "Wash-sale rule: What is it, examples, and penalties",
+      "url": "https://finance.yahoo.com/news/wash-sale-rule-examples-penalties-120600130.html",
+      "summary": "The article explains the wash-sale rule in the U.S., which disallows deducting losses if identical securities are bought within 30 days. Importantly, it clarifies that this rule does not apply to cryptocurrency trading. This distinction is crucial for crypto investors managing their tax liabilities.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "taxation"
+      ],
+      "features_for_model": [
+        "wash_sale_rule_exemption",
+        "crypto_tax_advantage",
+        "investor_flexibility"
+      ],
+      "rationale": "The exemption of cryptocurrencies from the wash-sale rule provides greater flexibility for traders to manage their portfolios and tax obligations, potentially encouraging more active trading and investment in the crypto space."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n03ac7cfd2478",
+      "title": "Donald Trump flips on crypto: From 'scam' to building a 'crypto army'",
+      "url": "https://finance.yahoo.com/news/donald-trump-flips-crypto-scam-130000241.html",
+      "summary": "Former President Donald Trump has shifted his stance on cryptocurrencies, moving from criticism to active outreach to crypto enthusiasts and industry leaders. His recent statements and meetings indicate a strategic effort to gain support from the crypto community, potentially influencing future regulatory approaches.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Trump_crypto_stance",
+        "political_outreach",
+        "regulatory_shift"
+      ],
+      "rationale": "Donald Trump's evolving and increasingly positive stance on cryptocurrency, coupled with his efforts to engage the crypto community, suggests a potential for a more favorable regulatory environment should he be elected, which would be a significant long-term catalyst for Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ncc6859a2afde",
+      "title": "Coinbase Global (COIN) Q2 2024 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/news/coinbase-global-coin-q2-2024-014514273.html",
+      "summary": "Coinbase's Q2 2024 earnings call transcript provides insights into the company's performance, including revenue, trading volumes, and strategic outlook. Any commentary on user growth, regulatory developments, or future product launches could impact investor sentiment towards Coinbase and, by extension, the broader crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "earnings",
+        "exchange",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "COIN_earnings",
+        "trading_volume_commentary",
+        "regulatory_outlook"
+      ],
+      "rationale": "Coinbase's earnings call is a key event for sentiment. Positive commentary on trading volumes or regulatory clarity could boost confidence, while weak performance or negative outlooks might pressure crypto prices."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ncada2383a019",
+      "title": "Block (SQ) Q2 2024 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/news/block-sq-q2-2024-earnings-020017643.html",
+      "summary": "Block's (formerly Square) Q2 2024 earnings call will offer updates on its financial performance, including its Bitcoin-related activities (e.g., Bitcoin purchases, Cash App's Bitcoin services). Any significant announcements regarding its Bitcoin strategy or adoption could influence market sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "earnings",
+        "adoption",
+        "exchange"
+      ],
+      "features_for_model": [
+        "SQ_earnings",
+        "Cash_App_Bitcoin",
+        "Block_strategy"
+      ],
+      "rationale": "Block's performance, particularly its Bitcoin segment and Cash App's crypto features, provides a proxy for broader retail adoption trends. Positive updates could signal increased retail interest."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n1cc4f8a0c486",
+      "title": "MicroStrategy (MSTR) Q2 2024 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/news/microstrategy-mstr-q2-2024-earnings-024516377.html",
+      "summary": "MicroStrategy's Q2 2024 earnings call is critical as the company is a major corporate holder of Bitcoin. Any commentary on their Bitcoin acquisition strategy, future plans, or financial health related to their holdings will be closely watched by the market.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "earnings",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "MSTR_earnings",
+        "Bitcoin_holdings_strategy",
+        "corporate_treasury"
+      ],
+      "rationale": "MicroStrategy's continued commitment to acquiring Bitcoin is a significant indicator of institutional adoption. Their earnings call will reveal if this strategy remains intact, potentially influencing market sentiment and Bitcoin's price."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1e21e903d1dd",
+      "title": "Stock market today: Indexes tank as data paints a negative picture for the economy",
+      "url": "https://finance.yahoo.com/news/stock-market-today-indexes-tank-042615429.html",
+      "summary": "US stocks declined significantly due to discouraging economic data, including soaring jobless claims and a drop in the ISM manufacturing index. This suggests a weakening economy, which could lead to a 'risk-off' sentiment impacting Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "risk_off",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "jobless_claims_spike",
+        "ISM_manufacturing_drop",
+        "economic_slowdown"
+      ],
+      "rationale": "Weak economic data, particularly rising jobless claims and contracting manufacturing, points to a potential economic slowdown. This typically triggers a 'risk-off' sentiment, which can lead investors to divest from speculative assets like Bitcoin."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n00cce975ee9a",
+      "title": "Bitcoin as a Strategic Reserve",
+      "url": "https://finance.yahoo.com/news/bitcoin-strategic-043000223.html",
+      "summary": "Former President Donald Trump and Senator Cynthia Lummis proposed creating a strategic reserve for Bitcoin at the Bitcoin Nashville conference. This political discussion around Bitcoin's potential role as a strategic asset could influence regulatory discussions and market perception.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "policy"
+      ],
+      "features_for_model": [
+        "Trump_strategic_reserve",
+        "Lummis_proposal",
+        "political_endorsement"
+      ],
+      "rationale": "The discussion of Bitcoin as a strategic reserve by prominent political figures signals increasing mainstream acceptance and potential government backing, which could positively influence investor confidence and adoption in the short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n8b7566b5cac6",
+      "title": "Bitcoin Plummets to $62K, $310M in Long Positions Liquidated",
+      "url": "https://finance.yahoo.com/news/bitcoin-plummets-62k-310m-long-062656069.html",
+      "summary": "Bitcoin experienced a sharp drop to $62K, leading to significant liquidations of long positions. This price action, coupled with large liquidations, indicates strong selling pressure and potential for further downside in the immediate short term.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility",
+        "miner"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "long_position_liquidation",
+        "selling_pressure"
+      ],
+      "rationale": "The sharp price decline and substantial liquidation of long positions indicate a strong bearish sentiment and potential for cascading liquidations, suggesting further downward price movement in the very short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n9ebc684f7019",
+      "title": "Kamala Harris Can't Cede Crypto to Trump, Could be Difference in Battleground States: Think Tank",
+      "url": "https://finance.yahoo.com/news/kamala-harris-cant-cede-crypto-094451922.html",
+      "summary": "A think tank suggests that Kamala Harris must engage with the crypto community to avoid ceding potential votes and donations to Donald Trump, especially in battleground states. This highlights the growing political importance of cryptocurrency in the upcoming election.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "policy"
+      ],
+      "features_for_model": [
+        "Harris_crypto_strategy",
+        "Trump_vs_Harris",
+        "election_impact"
+      ],
+      "rationale": "The political maneuvering around cryptocurrency for electoral gain suggests that policy discussions and potential regulatory shifts could become more prominent, creating short-term volatility as candidates vie for the crypto vote."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n3676a840b7c4",
+      "title": "Bitcoin and Alt Coin Hodlers Hold Their Breath as 140,000 BTC from Mt. Gox Settlement Flow into the Market",
+      "url": "https://finance.yahoo.com/news/bitcoin-alt-coin-hodlers-hold-142721028.html",
+      "summary": "The impending distribution of approximately 140,000 BTC from the Mt. Gox settlement is causing apprehension in the crypto market. This large supply influx could exert downward pressure on Bitcoin's price, impacting altcoins as well.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "event_risk",
+        "macro"
+      ],
+      "features_for_model": [
+        "Mt_Gox_distribution",
+        "BTC_supply_shock",
+        "market_apprehension"
+      ],
+      "rationale": "The large-scale distribution of Bitcoin from Mt. Gox represents a significant supply event that could lead to increased selling pressure and price declines in the short term, especially if a large portion of these holdings are immediately sold."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n4318aaf0255a",
+      "title": "Morgan Stanley to Offer Bitcoin ETFs to Wealthy Clients: CNBC",
+      "url": "https://finance.yahoo.com/news/morgan-stanley-offer-bitcoin-etfs-151106805.html",
+      "summary": "Morgan Stanley is enabling its financial advisors to offer Bitcoin ETFs to wealthy clients, responding to client demand. This move by a major financial institution signifies growing institutional acceptance and could lead to increased inflows into Bitcoin ETFs.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Morgan_Stanley_ETF_offering",
+        "wealth_management_adoption",
+        "institutional_demand"
+      ],
+      "rationale": "The inclusion of Bitcoin ETFs by a major wealth manager like Morgan Stanley indicates a significant step in institutional adoption, potentially driving substantial inflows and boosting market confidence in the short to medium term."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n7e8be600bd14",
+      "title": "Bitcoin Slumps Below $63K, Altcoins Rekt, as Crypto Succumbs to Risk Off Mood",
+      "url": "https://finance.yahoo.com/news/bitcoin-slumps-below-63k-altcoins-153911339.html",
+      "summary": "Bitcoin has fallen below $63K, with altcoins also experiencing significant losses, as the broader crypto market succumbs to a 'risk-off' sentiment. This is occurring despite a weak jobs report that typically favors risk assets, suggesting underlying market weakness.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "risk_off",
+        "volatility",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_breakdown",
+        "altcoin_selloff",
+        "risk_aversion"
+      ],
+      "rationale": "The sharp decline in Bitcoin and altcoins, driven by a 'risk-off' sentiment, indicates immediate selling pressure. The failure of a weak jobs report to boost crypto prices suggests a strong bearish momentum that is likely to persist in the very short term."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n66e1f00f2685",
+      "title": "Coinbase's 'Solid' Earnings May Get Derailed by Low Volume, Fed Headwinds, Analysts Say",
+      "url": "https://finance.yahoo.com/news/coinbases-solid-earnings-may-derailed-173217252.html",
+      "summary": "Analysts describe Coinbase's Q2 earnings as 'solid' but caution that low trading volumes and potential Federal Reserve headwinds could slow growth in Q3. A 27% drop in transaction fee revenue is a concern, potentially impacting future earnings.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "earnings",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "COIN_revenue_outlook",
+        "transaction_fee_decline",
+        "Fed_headwinds"
+      ],
+      "rationale": "While Coinbase's Q2 earnings were solid, the projected slowdown due to lower trading volumes and potential Fed actions creates uncertainty. This could lead to a cautious sentiment in the market regarding crypto exchange performance."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-08-02",
+    "summary": "The crypto market is experiencing significant downward pressure today, with Bitcoin dropping below $63K and substantial liquidations of long positions. This is driven by a broader 'risk-off' sentiment in financial markets, exacerbated by weak U.S. economic data (higher jobless claims, lower ISM manufacturing index). Political discussions around Bitcoin as a strategic reserve and institutional adoption via Morgan Stanley offering Bitcoin ETFs provide some long-term bullish signals, but the immediate outlook is bearish due to macro headwinds and the impending Mt. Gox distribution.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "Continued 'risk-off' sentiment in global markets impacting speculative assets.",
+      "Potential for further selling pressure from Mt. Gox distributions.",
+      "Weakening economic indicators suggesting a potential recession.",
+      "Increased volatility due to large liquidations.",
+      "Uncertainty surrounding upcoming political developments and their impact on crypto regulation."
+    ],
+    "watch_items": [
+      "US Jobs Report (released today)",
+      "Federal Reserve statements/minutes",
+      "Mt. Gox distribution progress",
+      "Coinbase (COIN) and MicroStrategy (MSTR) earnings call follow-up",
+      "Developments in US political campaigns regarding crypto policy"
+    ]
+  }
+}

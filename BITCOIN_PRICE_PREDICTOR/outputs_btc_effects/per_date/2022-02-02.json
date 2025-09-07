@@ -1,0 +1,499 @@
+{
+  "date": "2022-02-02",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n2a9888a2d14b",
+      "title": "Bitcoin slides after surprisingly hawkish Fed comments knock crypto markets, with altcoins falling the hardest",
+      "url": "https://finance.yahoo.com/news/bitcoin-slides-surprisingly-hawkish-fed-122941187.html",
+      "summary": "Bitcoin and Ethereum experienced significant drops following hawkish remarks from the Federal Reserve, signaling potential rate hikes. This macroeconomic sentiment impacted the broader crypto market, with altcoins like Solana and Avalanche seeing steeper declines. The trend suggests a correlation between traditional market sentiment driven by Fed policy and cryptocurrency price action, indicating a bearish short-to-medium term outlook for crypto assets sensitive to monetary tightening.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "hawkish_fed",
+        "rate_hike_fears",
+        "altcoin_selloff"
+      ],
+      "rationale": "Hawkish Federal Reserve commentary directly impacts risk assets like Bitcoin by increasing borrowing costs and reducing liquidity. This can lead to significant price drops as investors de-risk their portfolios."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n6f966532a5a5",
+      "title": "US Inflation Jumps to 39-Year High of 6.8% in November; Bitcoin Falls",
+      "url": "https://finance.yahoo.com/news/us-inflation-rate-surges-6-134116932.html",
+      "summary": "US inflation reached a 39-year high of 6.8% in November, a figure closely watched by Bitcoin traders as a potential inflation hedge. Despite this, Bitcoin experienced a fall, indicating that the market's perception of Bitcoin as an inflation hedge might be challenged or that other macroeconomic factors are currently dominating price action. The high inflation print, however, could still support a long-term bullish narrative if central banks fail to control it effectively.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "inflation"
+      ],
+      "features_for_model": [
+        "high_inflation",
+        "CPI_data",
+        "inflation_hedge_debate"
+      ],
+      "rationale": "High inflation can be a double-edged sword for Bitcoin. While it can attract investors seeking an inflation hedge, it also pressures central banks to tighten monetary policy, which can be bearish for risk assets."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nc79fd5bc6ed6",
+      "title": "Major Mining Pools’ Bitcoin Hashrate Nears Recovery as Kazakhstan’s Internet Is Partially Restored",
+      "url": "https://finance.yahoo.com/news/major-mining-pools-bitcoin-hashrate-123511217.html",
+      "summary": "The Bitcoin hashrate showed signs of recovery after a significant drop due to internet blackouts in Kazakhstan, a major mining hub. This event highlighted the geographical concentration risk in Bitcoin mining. As Kazakhstan's internet access is partially restored, the network's hashrate is expected to normalize, indicating resilience. However, the incident serves as a reminder of the potential impact of geopolitical instability and infrastructure issues on network security and mining operations.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "kazakhstan_internet_outage",
+        "hashrate_recovery",
+        "mining_diversification"
+      ],
+      "rationale": "The recovery of the hashrate post-Kazakhstan internet issues suggests network resilience. Diversification of mining operations globally is a long-term positive for network security and decentralization."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n3e0cebe15670",
+      "title": "Bitcoin and Ethereum Market Cap Could Surpass Gold: Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-market-cap-could-204058958.html",
+      "summary": "ARK Invest's 'Big Ideas 2022' report projects Bitcoin reaching $1 million and Ethereum $180,000 by 2030, suggesting their market capitalization could eventually surpass that of gold. This optimistic outlook from a prominent investment firm, led by Cathie Wood, signals strong institutional belief in the long-term growth and adoption of cryptocurrencies as a significant asset class, potentially challenging traditional stores of value.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ARK_Invest_prediction",
+        "BTC_1M_target",
+        "ETH_180K_target",
+        "crypto_vs_gold"
+      ],
+      "rationale": "High-profile institutional reports projecting significant long-term growth for Bitcoin and Ethereum can attract substantial capital and bolster market sentiment, driving adoption and price appreciation."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n90d9dd1dfc2c",
+      "title": "Bitcoin slides and Nasdaq enters correction territory",
+      "url": "https://finance.yahoo.com/news/bhp-steers-100m-nickel-investment-235915859.html",
+      "summary": "Bitcoin's price decline coincided with the Nasdaq index entering correction territory, indicating a broader market downturn driven by fears of rising interest rates. This suggests that cryptocurrencies are increasingly correlated with traditional tech stocks and are sensitive to macroeconomic shifts. The sell-off reflects investor caution regarding higher borrowing costs, impacting growth-oriented assets.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "tech_stock_correlation"
+      ],
+      "features_for_model": [
+        "nasdaq_correction",
+        "fed_rate_hike_fears",
+        "risk_off_sentiment"
+      ],
+      "rationale": "The correlation between Bitcoin and tech stocks means that a downturn in equity markets, especially driven by monetary policy concerns, will likely drag Bitcoin prices lower."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n1a738ec9c319",
+      "title": "New Latin American Country Will Adopt Bitcoin as Legal Tender Within 6 Months, Says Max Keiser",
+      "url": "https://finance.yahoo.com/news/exclusive-latin-american-country-adopt-163811353.html",
+      "summary": "Max Keiser predicts that another Latin American country will adopt Bitcoin as legal tender in the second quarter of 2022. This follows El Salvador's adoption, which has been closely watched. Further sovereign adoption of Bitcoin could significantly boost its legitimacy and adoption rates globally, potentially leading to increased demand and price appreciation. The impact would be more pronounced if a larger economy were to follow suit.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "latin_america_adoption",
+        "legal_tender_expansion",
+        "max_keiser_prediction"
+      ],
+      "rationale": "Sovereign adoption of Bitcoin as legal tender increases its utility and global acceptance, potentially driving demand and positive price momentum."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nfb68e5713b39",
+      "title": "Block’s Cash App Is Finally Integrating the Lightning Network",
+      "url": "https://finance.yahoo.com/news/block-cash-app-finally-integrating-163155241.html",
+      "summary": "Block (formerly Square) is integrating the Lightning Network into its Cash App, enabling faster and free Bitcoin transactions for US users. This development is a significant step for Bitcoin's scalability and usability, potentially increasing adoption for everyday payments. Wider integration of the Lightning Network by major payment platforms could drive demand for Bitcoin and enhance its utility as a medium of exchange.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "cash_app_lightning",
+        "ln_integration",
+        "scalability_improvement"
+      ],
+      "rationale": "The integration of the Lightning Network into a widely used app like Cash App significantly improves Bitcoin's transaction speed and cost, fostering greater adoption for payments."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n7b67dcd7ec68",
+      "title": "Millennials Intend to Buy More Cryptos in 2022, Survey Reveals",
+      "url": "https://finance.yahoo.com/news/millennials-intend-buy-more-cryptos-183802102.html",
+      "summary": "A CNBC survey indicates that millennials plan to increase their cryptocurrency investments in 2022, despite recent price dips. This demographic, which already shows high ownership rates among millionaires, is expected to drive future demand. Increased investment from this tech-savvy generation could significantly impact market growth and adoption trends over the coming years.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "demographics"
+      ],
+      "features_for_model": [
+        "millennial_adoption",
+        "crypto_investment_intent",
+        "demographic_demand"
+      ],
+      "rationale": "Growing interest and planned investment from millennials, a key demographic for digital assets, signals sustained demand and potential for increased adoption."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n7d0a43031a99",
+      "title": "Bitcoin's 'MACD' Indicator Threatens Long-Term Bullish Bias as Rate Hike Fears Linger",
+      "url": "https://finance.yahoo.com/news/bitcoins-macd-indicator-threatens-long-081353512.html",
+      "summary": "Bitcoin's monthly MACD indicator has crossed below zero, suggesting a potential shift from a bullish to a bearish trend on longer timeframes. This technical signal, combined with lingering fears of Federal Reserve rate hikes, poses a risk to Bitcoin's long-term bullish outlook. A confirmed bearish signal could lead to sustained price declines if support levels are broken.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "macd_bearish_signal",
+        "rate_hike_fears",
+        "long_term_trend_change"
+      ],
+      "rationale": "Technical indicators like the MACD, when combined with negative macroeconomic sentiment, can signal a potential reversal of long-term bullish trends, leading to extended price downturns."
+    },
+    {
+      "pick_idx": 46,
+      "id": "nb7c6f33dcd0c",
+      "title": "Bitcoin Slides Below $38K, Support Is Above $35K",
+      "url": "https://finance.yahoo.com/news/bitcoin-slides-below-38k-support-185309295.html",
+      "summary": "Bitcoin has fallen below the $38,000 mark, with key support identified around $35,000. The momentum on intraday charts is fading, suggesting a potential continuation of the pullback. The relative strength index (RSI) approaching overbought territory on Tuesday preceded this decline. The 100-period moving average on the four-hour chart is also acting as resistance. This indicates short-term bearish pressure.",
+      "impact_horizon_months": 1,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical_analysis",
+        "volatility"
+      ],
+      "features_for_model": [
+        "btc_price_drop",
+        "support_level_break",
+        "rsi_overbought",
+        "short_term_bearish"
+      ],
+      "rationale": "Technical indicators and price action suggest short-term bearish momentum, with Bitcoin facing resistance and testing support levels."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n99a5a0bd78e8",
+      "title": "Stock Market Today: Alphabet, Growth Names Add More Fuel to the Rally",
+      "url": "https://finance.yahoo.com/news/stock-market-today-alphabet-growth-212132378.html",
+      "summary": "The stock market continued its rebound in early February, buoyed by positive corporate earnings. Despite a weaker-than-expected ADP jobs report, analysts attributed the decline to the Omicron variant. This suggests that while the jobs market may show temporary weakness, the underlying trend for growth stocks and the broader market remains positive, which could spill over into crypto markets.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "stocks"
+      ],
+      "features_for_model": [
+        "stock_market_rally",
+        "positive_earnings",
+        "adp_jobs_miss"
+      ],
+      "rationale": "A positive stock market sentiment, driven by earnings and a belief that job market weakness is temporary, can create a favorable environment for risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nd7c4cad3cb69",
+      "title": "First Mover Asia: Crypto Prices Plunge Late After Weak Meta Earnings",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-crypto-prices-232846750.html",
+      "summary": "Bitcoin ended its winning streak, experiencing heavier selling pressure late in U.S. trading hours, potentially influenced by weak Meta earnings. Technical analysis suggests BTC's pullback could continue into the Asia trading day, with initial support at $35K. This indicates a bearish short-term outlook driven by broader tech sector weakness and negative sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "tech_stock_correlation"
+      ],
+      "features_for_model": [
+        "meta_earnings_miss",
+        "crypto_price_plunge",
+        "technical_support_level"
+      ],
+      "rationale": "Weak earnings from major tech companies like Meta can trigger a broader risk-off sentiment, negatively impacting correlated assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nd9143be032d3",
+      "title": "MicroStrategy reported a $146 million impairment charge related to its bitcoin holdings in the 4th quarter",
+      "url": "https://finance.yahoo.com/news/microstrategy-reported-146-million-impairment-155402565.html",
+      "summary": "MicroStrategy recorded a significant $146.6 million impairment charge for its Bitcoin holdings in Q4 2021, resulting in a net loss. This reflects the substantial depreciation in Bitcoin's value during the period. While an impairment charge itself is a non-cash accounting event, it highlights the volatility of Bitcoin and can negatively influence investor sentiment towards companies heavily invested in the asset.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "impairment_charge"
+      ],
+      "features_for_model": [
+        "microstrategy_impairment",
+        "btc_holding_loss",
+        "corporate_earnings_impact"
+      ],
+      "rationale": "A large impairment charge by a major Bitcoin holder like MicroStrategy can signal negative sentiment and potentially lead to further selling pressure as investors react to the reported losses."
+    },
+    {
+      "pick_idx": 7,
+      "id": "naa72d393766c",
+      "title": "Amplify Debuts Bitcoin-Heavy Inflation ETF",
+      "url": "https://finance.yahoo.com/news/amplify-debuts-bitcoin-heavy-inflation-210000095.html",
+      "summary": "Amplify has launched a new ETF, IWIN, designed to benefit from inflation, with a significant weighting in Bitcoin products. This fund's debut indicates growing institutional interest in using Bitcoin as a hedge against inflation. The ETF's performance could attract further capital into Bitcoin, especially if inflation remains elevated, potentially providing a short-term boost.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "inflation"
+      ],
+      "features_for_model": [
+        "inflation_etf_launch",
+        "bitcoin_inflation_hedge",
+        "institutional_product"
+      ],
+      "rationale": "The launch of a Bitcoin-heavy inflation ETF signals increasing institutional adoption and can attract new capital flows into Bitcoin, potentially boosting short-term price action."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n32b980d3d9b6",
+      "title": "SEC Delaying Decision on Bitwise Spot Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/sec-delaying-decision-bitwise-spot-163000417.html",
+      "summary": "The SEC has again delayed its decision on the Bitwise spot Bitcoin ETF application. This recurring pattern of delays reflects the SEC's cautious stance on approving spot Bitcoin ETFs, which has been a persistent overhang for the market. Each delay can contribute to negative sentiment and uncertainty, potentially capping upside momentum in the short term.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation"
+      ],
+      "features_for_model": [
+        "sec_delay",
+        "spot_btc_etf",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "SEC delays on spot Bitcoin ETFs create regulatory uncertainty and can dampen market sentiment, acting as a short-term headwind for Bitcoin's price."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nd337d97e6b75",
+      "title": "Crypto Exchange Volumes Surge as India Introduces 30% Tax on Crypto",
+      "url": "https://finance.yahoo.com/news/crypto-exchange-volumes-surge-india-121726838.html",
+      "summary": "India's introduction of a 30% tax on crypto transactions has led to a surge in trading volumes on Indian exchanges. While the tax itself is a bearish development, the increased activity suggests that Indian investors are actively participating in the market, potentially driving liquidity and price discovery. This could lead to short-term volatility as the market adjusts to the new tax regime.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "india_crypto_tax",
+        "exchange_volume_surge",
+        "tax_impact"
+      ],
+      "rationale": "Increased trading volumes in India following a new tax could indicate heightened market activity, leading to short-term price volatility as the market digests the regulatory change."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nf0ec25b349f1",
+      "title": "Crypto Market Snoozes Through ADP Payroll Shocker",
+      "url": "https://finance.yahoo.com/news/crypto-market-snoozes-adp-payroll-154458848.html",
+      "summary": "The crypto market showed little reaction to a significantly weaker-than-expected ADP jobs report, which indicated a loss of 301,000 jobs in January. This lack of response suggests that the crypto market may be less sensitive to short-term labor market data or that other factors are currently dominating sentiment. The muted reaction implies that this specific data point is unlikely to drive significant short-term price movements.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "adp_jobs_report",
+        "crypto_market_reaction",
+        "low_volatility"
+      ],
+      "rationale": "The crypto market's indifference to the ADP jobs report suggests that this specific macroeconomic data point is not a primary short-term driver of price action."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n1ee00b966128",
+      "title": "Fed's Hawkish Pivot May Not Last, Bitcoin Analysts Say",
+      "url": "https://finance.yahoo.com/news/feds-hawkish-pivot-may-not-191835856.html",
+      "summary": "Some crypto analysts believe the Federal Reserve's hawkish stance on inflation might be temporary, suggesting that the central bank could back off from tightening monetary policy if traditional markets or the economy show signs of strain. This contrarian view implies that the current bearish pressure from Fed policy might be short-lived, potentially leading to a rebound if the Fed pivots back to a more dovish stance.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 1,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "Fed_policy"
+      ],
+      "features_for_model": [
+        "fed_pivot_theory",
+        "hawkish_to_dovish",
+        "monetary_policy_uncertainty"
+      ],
+      "rationale": "The possibility of the Fed softening its hawkish stance could alleviate pressure on risk assets like Bitcoin, potentially leading to a short-term price recovery."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n6030e295385a",
+      "title": "Market Wrap: Bitcoin Bounce Pauses on Low Volume",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-bounce-pauses-212136092.html",
+      "summary": "Bitcoin's price bounce has stalled due to weak buying activity and low trading volume following January's sell-off. Analysts are uncertain about BTC's short-term direction, with volatility and volume remaining low, indicating a lack of conviction. This suggests a period of consolidation or a potential continuation of the downtrend if buying pressure does not increase.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_low_volume",
+        "consolidation_phase",
+        "lack_of_conviction"
+      ],
+      "rationale": "Low volume and volatility suggest a lack of strong conviction from market participants, indicating a potential for sideways movement or a continuation of the prior trend."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n4255df528541",
+      "title": "Latest Ethereum price and analysis (ETH to USD)",
+      "url": "https://finance.yahoo.com/news/latest-ethereum-price-analysis-eth-131621295.html",
+      "summary": "Ethereum is showing strength, trading above $2,800 and rising 29% over eight days, outperforming Bitcoin's recovery. However, $2,900 remains a significant resistance level, having caused rejections in May. This suggests that while Ethereum is showing resilience, breaking through this key resistance is crucial for sustained upward momentum. Failure to do so could lead to a pullback.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "eth_price_strength",
+        "resistance_level",
+        "eth_vs_btc_performance"
+      ],
+      "rationale": "Ethereum's strong recent performance is notable, but its ability to break key resistance levels will determine its short-term trajectory. Failure to do so could lead to a reversal."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-02-02",
+    "summary": "The crypto market is experiencing mixed signals. While some analysts suggest the Fed's hawkish stance might not last, leading to potential short-term bullishness, the immediate sentiment remains cautious. Weak Meta earnings and the SEC's continued delays on spot Bitcoin ETFs are contributing to bearish pressure. MicroStrategy's impairment charge also adds to negative sentiment. However, the launch of a Bitcoin-heavy inflation ETF and strong performance from Ethereum suggest underlying bullish trends may persist, albeit with significant short-term volatility.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkishness from the Federal Reserve impacting risk assets.",
+      "Further negative sentiment from major tech earnings impacting correlated crypto assets.",
+      "Ongoing regulatory uncertainty surrounding spot Bitcoin ETFs.",
+      "Potential for increased volatility due to low trading volumes and lack of market conviction."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and economic data releases.",
+      "Performance of major tech stocks (e.g., Meta, Alphabet).",
+      "Developments regarding SEC ETF decisions.",
+      "Bitcoin's ability to hold support around $35,000.",
+      "Ethereum's price action relative to the $2,900 resistance level."
+    ]
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "date": "2019-02-18",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "ne6cf53bad490",
+      "title": "Bitcoin Price Hits Record Sixth Consecutive Month of Losses",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-hits-record-sixth-105959352.html",
+      "summary": "Bitcoin experienced its sixth consecutive month of losses in January 2019, reinforcing a bearish outlook. Technical indicators suggest a potential re-test of December lows near $3,100. A sustained rise above the 200-week moving average at $3,298 could signal a shift, but the overall trend indicated a prolonged bear market phase, impacting investor sentiment and capital inflow.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "consecutive_losses",
+        "bear_market_duration",
+        "technical_indicators",
+        "support_levels"
+      ],
+      "rationale": "This news highlights a significant bearish trend, indicating sustained price depreciation over an extended period. The consecutive monthly losses suggest deep-seated market weakness and a potential for further downside, impacting long-term investor confidence."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n0ab7b15835b2",
+      "title": "Exclusive: Voyager’s Game-Changing Bitcoin Trading App Just Went Live in the US",
+      "url": "https://finance.yahoo.com/news/exclusive-voyager-game-changing-bitcoin-130004740.html",
+      "summary": "Voyager launched its algorithmic trading app in nine US states, enabling users to find optimal prices for Bitcoin and other cryptocurrencies across exchanges. The app aims to improve liquidity and price discovery for retail traders. This development signifies increased accessibility and sophisticated trading tools entering the retail crypto market, potentially boosting adoption and trading volume.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "trading_app_launch",
+        "algorithmic_trading",
+        "retail_adoption",
+        "exchange_liquidity"
+      ],
+      "rationale": "The launch of a new trading app with advanced features like algorithmic execution can attract new users and improve trading efficiency. This contributes to the broader adoption and infrastructure development of the crypto market, potentially leading to increased liquidity and price discovery."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n7b76025a3a71",
+      "title": "Indian Banks Force Customers to Promise Not to Use Bitcoin",
+      "url": "https://finance.yahoo.com/news/indian-banks-force-customers-promise-104921720.html",
+      "summary": "Following regulatory measures from the Reserve Bank of India, some Indian banks are requiring customers to sign agreements prohibiting cryptocurrency use. This creates a difficult choice for crypto supporters, potentially stifling adoption in a major market. Such actions reflect regulatory headwinds and a cautious approach from traditional financial institutions towards digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "indian_banking_regulation",
+        "crypto_prohibition",
+        "adoption_hindrance",
+        "regulatory_headwinds"
+      ],
+      "rationale": "This news indicates a significant regulatory barrier in a large economy, directly impacting user adoption. The forced choice between banking services and crypto use creates a negative sentiment and limits the growth potential in that region."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n8d0da0be8bb7",
+      "title": "Mining Giant Bitmain Reportedly Suspends Mining Operations in Texas",
+      "url": "https://finance.yahoo.com/news/mining-giant-bitmain-reportedly-suspends-150200211.html",
+      "summary": "Mining giant Bitmain has reportedly suspended its mining operations in Rockdale, Texas, laying off most employees. This move suggests potential operational challenges or strategic shifts for major mining players. Such disruptions can impact network hashrate and mining profitability, indirectly affecting Bitcoin's price and network security.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "bitmain_operations",
+        "texas_mining_suspension",
+        "hasrate_impact",
+        "mining_profitability"
+      ],
+      "rationale": "The suspension of operations by a major mining entity like Bitmain can signal broader industry challenges, such as profitability issues or regulatory uncertainty. This could lead to a decrease in network hashrate, potentially impacting network security and miner sentiment."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n9787b158b8cd",
+      "title": "Where’s the ‘Missing’ $150 Million? Crypto Exchange QuadrigaCX’s Fiasco Gets Weirder with New Research",
+      "url": "https://finance.yahoo.com/news/where-missing-150-million-crypto-144639130.html",
+      "summary": "New research suggests QuadrigaCX may not have had a cold wallet or the reported $150 million in crypto. The ongoing saga of QuadrigaCX's missing funds continues to raise concerns about exchange security and transparency. Such events erode trust in centralized exchanges and can lead to a flight to self-custody or more reputable platforms.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "quadrigacx_fiasco",
+        "exchange_security_breach",
+        "missing_funds",
+        "trust_erosion"
+      ],
+      "rationale": "The QuadrigaCX situation represents a significant loss of user funds and a major blow to exchange trustworthiness. Such high-profile failures can deter new investors and lead to increased scrutiny from regulators, impacting the broader market sentiment."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n7df9058e7e70",
+      "title": "In Exactly 1 Week, Bitcoin Will Have Suffered its Longest Bear Market in History",
+      "url": "https://finance.yahoo.com/news/exactly-1-week-bitcoin-suffered-122024926.html",
+      "summary": "By February 2, 2019, Bitcoin would have experienced its longest bear market in history if its price remained below $16,000. This highlights the prolonged downturn and the difficulty in recovering from the 2018 crash. The extended bear market impacts investor psychology and can lead to capitulation, further suppressing prices.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "longest_bear_market",
+        "historical_downturn",
+        "investor_psychology",
+        "price_recovery_challenges"
+      ],
+      "rationale": "This news directly addresses the prolonged bear market, a critical factor for long-term price trends. The historical context of the bear market's duration suggests a deep correction phase that could continue to weigh on prices and investor sentiment."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nc8cb3eaad05e",
+      "title": "These Bitcoin Analysts Explain Why the Crypto Market Isn’t Out of the Woods",
+      "url": "https://finance.yahoo.com/news/bitcoin-analysts-explain-why-crypto-003137937.html",
+      "summary": "Analysts suggest that Bitcoin is not yet out of its bear market, requiring a much larger upward push to signal a definitive end. Recent price retracements are seen as stability rather than a strong recovery. This cautious outlook implies that the market may still face further downside or a prolonged period of consolidation.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "market_sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "bear_market_continuation",
+        "upward_push_needed",
+        "consolidation_phase",
+        "analyst_sentiment"
+      ],
+      "rationale": "Expert opinions suggesting the market is not out of the woods reinforce the bearish sentiment. The need for a significant upward push indicates that current price action might be a temporary bounce rather than a sustained recovery, implying continued caution."
+    },
+    {
+      "pick_idx": 27,
+      "id": "nb33efe094b1b",
+      "title": "‘Arcane’ SEC Rules May Kill Chances of Bitcoin ETF in 2019: Crypto Mom",
+      "url": "https://finance.yahoo.com/news/arcane-sec-rules-may-kill-152719898.html",
+      "summary": "Securities and Exchange Commissioner Hester Peirce, known as 'Crypto Mom,' believes that 'arcane rules' at the SEC are hindering the approval of a Bitcoin ETF in 2019. The continued delay in ETF approval limits institutional adoption and a significant catalyst for price appreciation.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "sec_etf_approval",
+        "regulatory_delay",
+        "institutional_adoption_barrier",
+        "crypto_mom_comments"
+      ],
+      "rationale": "The ongoing delays in Bitcoin ETF approvals, attributed to regulatory complexities, represent a significant hurdle for institutional capital. This lack of a regulated investment vehicle limits broader market participation and potential price appreciation."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n45d89783cc30",
+      "title": "Bitcoin to End 2018 With 80% Drop, What Investors Should Expect in 2019",
+      "url": "https://finance.yahoo.com/news/bitcoin-end-2018-80-drop-173057634.html",
+      "summary": "Bitcoin was set to end 2018 with an 80% drop from its all-time high. Entering 2019 in a bear market, investors were looking for catalysts like the launch of Bakkt's Bitcoin futures market. The significant year-end drop signaled a deep bear market, with expectations for 2019 heavily dependent on new infrastructure and market developments.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "market_sentiment",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "year_end_drop",
+        "bear_market_status",
+        "bakkt_launch_expectation",
+        "2019_outlook"
+      ],
+      "rationale": "The 80% drop in 2018 clearly defines the severity of the bear market. Expectations for 2019 were heavily tied to new developments like Bakkt, indicating that the market was in a recovery phase contingent on external factors, with the prior year's performance being a strong bearish indicator."
+    },
+    {
+      "pick_idx": 44,
+      "id": "na5a1d79fcf68",
+      "title": "MIT and Stanford Professors Are Designing a Cryptocurrency to Top Bitcoin: Unit-e",
+      "url": "https://finance.yahoo.com/news/mit-stanford-professors-designing-cryptocurrency-171605571.html",
+      "summary": "Professors from MIT, Stanford, and other universities are developing 'Unit-e,' a cryptocurrency designed to process thousands of transactions per second without compromising decentralization. This initiative represents academic efforts to improve blockchain scalability and efficiency, potentially offering a competitive alternative to Bitcoin in the long term.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "academic_crypto_development",
+        "scalability_improvement",
+        "unit_e_project",
+        "transaction_speed"
+      ],
+      "rationale": "While the development of a new, potentially superior cryptocurrency by academic institutions is noteworthy, its long-term impact on Bitcoin is uncertain. It represents innovation but doesn't immediately affect Bitcoin's current market position or price."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nce1d85c4f329",
+      "title": "Bitcoin, Ethereum Rally as Market Gains Over $5 Billion in a Day; Crypto Bulls Returning?",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-rally-market-gains-115320017.html",
+      "summary": "The cryptocurrency market saw a significant rally, with the total market cap increasing by over $5 billion in a day. Bitcoin and Ethereum experienced notable gains, suggesting a potential return of bullish sentiment. This broad market upswing indicates increased buying pressure and positive momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "market_cap_gain",
+        "btc_eth_rally",
+        "bullish_sentiment",
+        "daily_gains"
+      ],
+      "rationale": "A broad market rally with significant gains across major cryptocurrencies indicates a short-term shift in sentiment and increased buying activity, suggesting upward price momentum."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ncb4f2a39d2f3",
+      "title": "Bank of Spain: Bitcoin Unable to Solve Problems of Traditional Payment Systems",
+      "url": "https://finance.yahoo.com/news/report-bitcoin-unable-solve-problems-222000849.html",
+      "summary": "An official from the Bank of Spain believes Bitcoin cannot solve the problems of traditional payment systems. This opinion from a central bank official highlights ongoing skepticism from traditional finance regarding Bitcoin's utility as a payment method, potentially dampening short-term adoption narratives.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bank_of_spain_report",
+        "bitcoin_payment_criticism",
+        "traditional_finance_skepticism",
+        "adoption_narrative_impact"
+      ],
+      "rationale": "Skepticism from a central bank regarding Bitcoin's payment capabilities can negatively influence short-term sentiment and adoption discussions, though its direct price impact might be limited."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n4605b80911a9",
+      "title": "Tim Draper Predicts Crypto Will Rule, Only Criminals Will Use Cash in Five Years",
+      "url": "https://finance.yahoo.com/news/tim-draper-predicts-crypto-rule-183300480.html",
+      "summary": "Tim Draper predicts that in five years, only criminals will use fiat currency as crypto becomes universally widespread. This optimistic long-term outlook from a prominent investor could provide a minor short-term sentiment boost, reinforcing the narrative of crypto's eventual dominance.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "tim_draper_prediction",
+        "crypto_dominance",
+        "fiat_obsolescence",
+        "investor_sentiment"
+      ],
+      "rationale": "While a long-term prediction, such bullish commentary from a well-known investor can provide a short-term sentiment lift, encouraging a more positive outlook among traders."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n3059f52126bf",
+      "title": "Bitcoin And Ethereum Daily Price Forecast – Major Cryptocoins on Path To Breach Psychological Resistance Levels",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-daily-price-forecast-171804007.html",
+      "summary": "Bitcoin and Ethereum are on a recovery rally, staying above critical levels for the second consecutive weekend. This sustained rally is boosting investor sentiment and attracting more fund flow. The market is showing signs of breaching psychological resistance levels, indicating potential upward price movement.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_eth_recovery_rally",
+        "resistance_breach",
+        "investor_sentiment_boost",
+        "fund_flow"
+      ],
+      "rationale": "The sustained recovery rally and the potential to breach resistance levels suggest positive short-term price action and increased market confidence."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf59b2a855782",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 18/02/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-033334953.html",
+      "summary": "Bitcoin Cash ABC showed mixed performance on Sunday, rising to break resistance levels before reversing. This indicates volatility and potential for short-term price swings. The ability to break and then fall back from resistance levels suggests a battle between buyers and sellers.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bch_abc_analysis",
+        "resistance_break_reversal",
+        "short_term_volatility",
+        "support_resistance_battle"
+      ],
+      "rationale": "The mixed performance of Bitcoin Cash ABC, breaking resistance then reversing, suggests short-term price uncertainty and potential for volatility in the immediate future."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n9044e7d472cd",
+      "title": "Blockstream Publishes Schnorr-Based Test Code for Bitcoin Blockchain Upgrade",
+      "url": "https://finance.yahoo.com/news/blockstream-publishes-schnorr-based-test-232500312.html",
+      "summary": "Blockstream released test code for MuSig, a Schnorr-based multi-signature scheme, as a potential upgrade for the Bitcoin blockchain. This development aims to improve transaction size, performance, and privacy. While a long-term protocol improvement, it signals ongoing development and potential future enhancements.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockstream_musig",
+        "schnorr_signatures",
+        "protocol_upgrade",
+        "transaction_privacy"
+      ],
+      "rationale": "The release of test code for a significant protocol upgrade like Schnorr signatures indicates ongoing development that could improve Bitcoin's efficiency and privacy, providing a subtle long-term bullish signal that might influence short-term sentiment."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n6754ca157cc6",
+      "title": "Bitmain Unveils Its Latest Energy-Efficient Mining Chip for Bitcoin",
+      "url": "https://finance.yahoo.com/news/bitmain-unveils-latest-energy-efficient-215339406.html",
+      "summary": "Bitmain launched a new 7nm ASIC processor, the BM1397, designed for energy efficiency and faster performance in mining SHA256 cryptocurrencies like Bitcoin. This hardware advancement could improve mining profitability and potentially increase the network's hashrate, signaling positive developments in mining infrastructure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitmain_bm1397",
+        "asic_chip",
+        "energy_efficiency",
+        "mining_performance"
+      ],
+      "rationale": "New, more efficient mining hardware from a major player like Bitmain can lead to increased mining activity and hashrate, which is generally a positive indicator for network health and indirectly for price."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n2c91e6ef6c7a",
+      "title": "Bitcoin – The Bulls Bring $4,000 Levels into Range",
+      "url": "https://finance.yahoo.com/news/bitcoin-bulls-bring-4-000-035716299.html",
+      "summary": "Bitcoin gained 1.61% on Sunday, ending the day at $3,735.5 and bringing $4,000 levels into range. The price broke through key resistance levels before a slight pullback. This indicates strong buying pressure and a potential move towards higher price targets in the short term.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "btc_price_action",
+        "resistance_break",
+        "bullish_momentum",
+        "4000_level_target"
+      ],
+      "rationale": "The price action shows Bitcoin approaching a significant psychological level ($4,000) and breaking resistance, indicating strong short-term bullish momentum."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n4f17752811a5",
+      "title": "Crypto Markets See Bullish Growth, Asian Stock Markets Rally Ahead of US-China Trade Talk",
+      "url": "https://finance.yahoo.com/news/crypto-markets-see-bullish-growth-082900627.html",
+      "summary": "Crypto markets are experiencing a bullish surge, with top cryptocurrencies showing growth. This coincides with rallies in Asian stock markets ahead of US-China trade talks. The positive correlation suggests a broader risk-on sentiment benefiting both traditional and crypto markets.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "crypto_market_growth",
+        "asian_stock_rally",
+        "us_china_trade_talks",
+        "risk_on_sentiment"
+      ],
+      "rationale": "The concurrent bullish growth in crypto markets and stock markets, driven by positive trade talk sentiment, suggests a broader risk-on environment that is likely to support crypto prices in the short term."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n0cf2f793926d",
+      "title": "Bitcoin Price Breaks Medium-Term Resistance after Surging 8% Near $4,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-breaks-medium-term-202355900.html",
+      "summary": "Bitcoin's price surged by 8.08% on February 18th, breaking through a medium-term resistance trendline and reaching an intraday high near $3,917. This strong upward movement indicates significant buying pressure and a potential continuation of the bullish trend.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "btc_price_surge",
+        "resistance_break",
+        "bullish_trend_continuation",
+        "4000_level_approach"
+      ],
+      "rationale": "A significant price surge and the breaking of medium-term resistance are strong bullish signals for the short term, indicating increased buying momentum and a potential move towards higher price levels."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nad0ad800d072",
+      "title": "Crypto Prices Advance; Rakuten’s App to Support Crypto Payment",
+      "url": "https://finance.yahoo.com/news/crypto-prices-advance-rakuten-app-003800739.html",
+      "summary": "Major digital coins advanced, with reports indicating Japan's e-commerce giant Rakuten will update its payment app to support cryptocurrencies by March 18. This move by a major player like Rakuten signifies growing adoption and integration of crypto into mainstream payment systems, boosting positive sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "rakuten_crypto_support",
+        "payment_app_update",
+        "e_commerce_adoption",
+        "mainstream_integration"
+      ],
+      "rationale": "The integration of crypto payments by a major e-commerce platform like Rakuten is a significant adoption catalyst, likely to positively influence short-term sentiment and potentially increase transaction volume."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n53bb6d14e4e4",
+      "title": "Bullish Sentiment for Bitcoin As Long Bets Near 11-Month Highs",
+      "url": "https://finance.yahoo.com/news/bullish-sentiment-bitcoin-long-bets-145655538.html",
+      "summary": "Bullish bets on Bitcoin reached 11-month highs on Bitfinex, with long positions significantly outnumbering short positions. This indicates strong positive sentiment among traders. Such a high long-short ratio suggests an expectation of price appreciation in the near term.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bullish_sentiment",
+        "long_short_ratio",
+        "bitfinex_data",
+        "trader_optimism"
+      ],
+      "rationale": "A significant increase in bullish sentiment, as indicated by the high long-short ratio on a major exchange, suggests that traders are anticipating price increases, which can be a self-fulfilling prophecy in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-02-18",
+    "summary": "The crypto market is showing strong bullish momentum today, with Bitcoin and Ethereum rallying significantly and breaking through key resistance levels. This positive sentiment is supported by broader market trends and news of major companies like Rakuten integrating crypto payments. However, skepticism from traditional financial institutions like the Bank of Spain persists, highlighting ongoing regulatory and adoption challenges. Developments in mining hardware and protocol upgrades offer long-term bullish signals, but short-term price action is primarily driven by market sentiment and technical breakouts.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued regulatory uncertainty and negative statements from traditional financial institutions.",
+      "Potential for profit-taking after the recent rally, leading to short-term pullbacks.",
+      "The market's reliance on sentiment-driven rallies, which can be volatile.",
+      "The ongoing impact of past exchange failures (e.g., QuadrigaCX) on overall trust."
+    ],
+    "watch_items": [
+      "Bitcoin's ability to hold above $3,800.",
+      "Developments in US-China trade talks and their impact on global markets.",
+      "Further announcements regarding institutional adoption or regulatory clarity.",
+      "Performance of altcoins, particularly Ethereum, for broader market health indicators."
+    ]
+  }
+}

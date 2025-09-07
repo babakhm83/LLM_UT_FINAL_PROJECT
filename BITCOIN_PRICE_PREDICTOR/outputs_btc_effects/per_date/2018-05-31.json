@@ -1,0 +1,419 @@
+{
+  "date": "2018-05-31",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "n85bd46cae4a1",
+      "title": "Morgan Stanley: Bitcoin Is No Threat To PayPal's Online Dominance",
+      "url": "https://finance.yahoo.com/news/morgan-stanley-bitcoin-no-threat-135558139.html",
+      "summary": "Morgan Stanley analyst James Faucette stated that Bitcoin poses no significant threat to PayPal's online dominance. Faucette highlighted PayPal's growing acceptance and its ability to outperform broader e-commerce growth. This view suggests that while Bitcoin gained traction as an investment asset in 2017, its utility as a medium of exchange is not seen as a disruptive force to established payment networks by major financial institutions.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_sentiment",
+        "payment_competition"
+      ],
+      "rationale": "This report from a major financial institution indicates a lack of institutional belief in Bitcoin's immediate threat to traditional payment systems. This sentiment can dampen investor enthusiasm and adoption efforts."
+    },
+    {
+      "pick_idx": 11,
+      "id": "na8b5016c6c6a",
+      "title": "Forget Bitcoin, Consider Blockchain ETFs",
+      "url": "https://finance.yahoo.com/news/forget-bitcoin-consider-blockchain-etfs-190807089.html",
+      "summary": "The article suggests that investors interested in the blockchain space should consider blockchain-focused Exchange Traded Funds (ETFs) rather than directly investing in Bitcoin. It highlights the Reality Shares Nasdaq NexGen Economy ETF (BLCN) as an example. This approach indicates a growing institutional interest in the underlying technology of cryptocurrencies, potentially leading to broader adoption and investment in the blockchain ecosystem.",
+      "impact_horizon_months": 18,
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockchain_etf_adoption",
+        "institutional_investment_vehicles"
+      ],
+      "rationale": "The promotion of blockchain ETFs signals a maturing market and a pathway for more traditional investors to gain exposure to the technology, potentially driving capital into the broader ecosystem."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n5bf0f3887401",
+      "title": "Taiwan Aims to Enforce Cryptocurrency Regulations by November",
+      "url": "https://finance.yahoo.com/news/taiwan-aims-enforce-cryptocurrency-regulations-075108360.html",
+      "summary": "Taiwan plans to implement cryptocurrency regulations by November, involving multiple government entities to prevent money laundering. This move by a significant Asian economy indicates a global trend towards regulatory clarity for digital assets. Such regulations, if well-structured, can foster greater institutional adoption and investor confidence, while poorly designed ones could stifle innovation.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "taiwan_crypto_regulation",
+        "asian_regulatory_trends"
+      ],
+      "rationale": "Regulatory developments in major economies like Taiwan are crucial for long-term adoption. The outcome of these regulations will determine whether they act as a catalyst or a hindrance to crypto's integration."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n315079975a66",
+      "title": "Bitcoin Cash, Litecoin and Ripple Daily Analysis – 23/04/18",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-litecoin-ripple-daily-061001386.html",
+      "summary": "This analysis notes a significant rally in Bitcoin Cash (52.3% for the week), attributed to improved market sentiment and anticipation of an upcoming hard fork. It also mentions gains in Litecoin and Ripple. The mention of a hard fork for Bitcoin Cash suggests potential network upgrades or changes that could impact its utility and value.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_cash_fork",
+        "altcoin_sentiment"
+      ],
+      "rationale": "The upcoming hard fork for Bitcoin Cash could lead to technological improvements or a split, both of which can significantly impact its price and adoption in the medium term."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n9307d3957531",
+      "title": "What Stocks Perform Well in the Midst of a Trade War?",
+      "url": "https://finance.yahoo.com/news/stocks-perform-well-midst-trade-111700859.html",
+      "summary": "The article discusses the potential impact of a trade war between the US and China, noting that proposed tariffs on goods could lead to market volatility. While not directly about crypto, geopolitical tensions and trade wars often drive investors towards perceived safe-haven assets or alternative stores of value, which could indirectly benefit Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "geopolitical_risk",
+        "trade_war_impact"
+      ],
+      "rationale": "Escalating trade tensions can create macroeconomic uncertainty, potentially driving some capital towards non-sovereign assets like Bitcoin as a hedge against traditional market instability."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n3d0d83cdf96c",
+      "title": "Here's How Advanced Micro Devices, Inc. Stock Fell 17% Last Month",
+      "url": "https://finance.yahoo.com/news/apos-advanced-micro-devices-inc-142800411.html",
+      "summary": "Advanced Micro Devices (AMD) stock fell due to the announcement of specialized cryptocurrency mining tools for Ethereum. This highlights the significant impact of crypto mining hardware demand on semiconductor companies. A strong demand for mining hardware can boost sales for companies like AMD and NVIDIA, but also signals increased network difficulty and potentially lower profitability for miners if crypto prices don't keep pace.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "semiconductor_demand",
+        "mining_hardware_sales"
+      ],
+      "rationale": "The strong link between AMD's stock performance and crypto mining demand shows the direct impact of the crypto ecosystem on hardware manufacturers, which is a key infrastructure component."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n8e3505413f50",
+      "title": "Verifone Systems Lands a Big Buyout",
+      "url": "https://finance.yahoo.com/news/verifone-systems-lands-big-buyout-210100521.html",
+      "summary": "Verifone Systems, a provider of point-of-sale systems, was taken private in a buyout deal. The article notes that this deal spotlights the continuing decline of cash usage. As traditional payment systems evolve and potentially decline in relevance due to digital alternatives, it could create more space for cryptocurrencies to gain traction as a payment method.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "pos_system_trends",
+        "cashless_society"
+      ],
+      "rationale": "The trend away from cash, highlighted by the Verifone buyout, suggests a broader shift towards digital transactions, which could indirectly benefit cryptocurrencies as alternative payment solutions."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n3bd3bcb05024",
+      "title": "Telegram’s Pavel Durov Is Using Bitcoin to Bypass Russian Sanctions",
+      "url": "https://finance.yahoo.com/news/telegram-pavel-durov-using-bitcoin-205618643.html",
+      "summary": "Telegram CEO Pavel Durov is reportedly using Bitcoin to bypass Russian sanctions. This highlights Bitcoin's utility as a censorship-resistant and borderless financial tool, particularly in regions facing political or economic restrictions. Such use cases demonstrate Bitcoin's value proposition beyond speculation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "bitcoin_sanction_bypass",
+        "censorship_resistance"
+      ],
+      "rationale": "The use of Bitcoin to circumvent sanctions in a major country like Russia underscores its potential as a tool for financial freedom and its resilience against governmental control, boosting its long-term adoption narrative."
+    },
+    {
+      "pick_idx": 42,
+      "id": "ne0575e0ee786",
+      "title": "Samsung Is Building ASIC Chips for Halong Mining",
+      "url": "https://finance.yahoo.com/news/samsung-building-asic-chips-halong-005756959.html",
+      "summary": "Samsung is confirmed to be producing ASIC chips for Halong Mining, a move that intensifies competition in the ASIC market, particularly against Bitmain. This development signifies major tech players entering the crypto hardware space, indicating growing institutional interest and investment in the mining infrastructure, which is crucial for network security and growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "samsung_asic_production",
+        "mining_hardware_competition"
+      ],
+      "rationale": "Samsung's entry into ASIC chip production for mining signals significant institutional backing and technological advancement in the mining hardware sector, which is fundamental to Bitcoin's network health and scalability."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n4bc4bf10ae8d",
+      "title": "This Hidden Cryptocurrency Risk Is Beginning to Take Shape",
+      "url": "https://finance.yahoo.com/news/hidden-cryptocurrency-risk-beginning-shape-132100168.html",
+      "summary": "The article discusses the rapid rise of cryptocurrencies in 2017, attributing it to factors like blockchain technology. It hints at a 'hidden risk' without specifying it, but the context suggests potential overvaluation or speculative bubbles. While acknowledging the technology's potential, it also warns of inherent risks in the nascent crypto market.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_market_risk",
+        "blockchain_technology_adoption"
+      ],
+      "rationale": "The mention of a 'hidden risk' suggests potential market corrections or volatility. While blockchain technology is a long-term positive, short-to-medium term risks related to speculation and market sentiment need to be considered."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "n7d118d885c4b",
+      "title": "Bitcoin Prices Slide; Korean Court Rules Cryptocurrency Has Economic Value",
+      "url": "https://finance.yahoo.com/news/bitcoin-prices-slide-korean-court-073600920.html",
+      "summary": "Bitcoin prices slid on Thursday amid global regulatory tightening and a South Korean Supreme Court ruling that cryptocurrency has economic value and can be confiscated. This ruling, while acknowledging economic value, also introduces a regulatory risk element, potentially impacting market sentiment and price action in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "korea_court_ruling",
+        "regulatory_tightening"
+      ],
+      "rationale": "The South Korean court ruling, while recognizing economic value, also implies potential for confiscation, adding a layer of regulatory uncertainty that could pressure prices in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "naf4e336bd113",
+      "title": "A blockchain start-up just raised $4 billion without a live product",
+      "url": "https://finance.yahoo.com/news/blockchain-start-just-raised-4-162600180.html",
+      "summary": "Cayman Islands-based Block.one raised $4 billion, surpassing major IPOs, despite not having a fully launched product. This massive fundraising highlights significant investor interest in blockchain technology, but also raises questions about delivery expectations and capital allocation. The success of such ventures can influence overall market sentiment towards blockchain projects.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockchain_startup_funding",
+        "vc_investment_trends"
+      ],
+      "rationale": "The substantial capital raised by a blockchain startup, even without a live product, indicates strong venture capital appetite for the sector, potentially boosting overall market confidence and investment in related technologies."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n7f90acfe56e5",
+      "title": "What Happened in the Stock Market Today",
+      "url": "https://finance.yahoo.com/news/happened-stock-market-today-210507794.html",
+      "summary": "The stock market fell as the Trump administration announced tariffs on U.S. allies, impacting export-dependent industrial and retail stocks. The Dow Jones Industrial Average saw a significant drop. This broad market downturn due to trade tensions could spill over into the cryptocurrency market, as investors de-risk.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "trade_war_tariffs",
+        "market_downturn"
+      ],
+      "rationale": "The imposition of tariffs and subsequent market sell-off creates a risk-off environment, which often leads to a decrease in speculative asset prices, including cryptocurrencies."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n49da5e05368b",
+      "title": "Going Up? Bitcoin Price Sets Sights on New Resistance",
+      "url": "https://finance.yahoo.com/news/7-800-ahead-bitcoin-sets-092049548.html",
+      "summary": "Bitcoin (BTC) is approaching a key supply zone above $7,500 and could test resistance at $7,870 within 24 hours. Technical analysis suggests a potential upside move, but bulls are facing hurdles at moving averages. The article highlights immediate price targets and technical indicators, suggesting short-term price action is driven by these levels.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "bitcoin_technical_resistance",
+        "price_target_7870"
+      ],
+      "rationale": "Technical analysis points to specific resistance levels that Bitcoin needs to overcome. Failure to do so could lead to a price reversal, while breaking through could signal further short-term gains."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n8787545046bc",
+      "title": "ASUS announces a motherboard just for crypto-mining",
+      "url": "https://finance.yahoo.com/news/asus-announces-motherboard-just-crypto-091318140.html",
+      "summary": "ASUS has launched the H370 Mining Master motherboard, designed to support up to 20 graphics cards for cryptocurrency mining, particularly for Ethereum. This specialized hardware development indicates continued investment and innovation in the mining sector, which can impact network security and the cost of mining.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "asus_mining_motherboard",
+        "gpu_mining_hardware"
+      ],
+      "rationale": "The introduction of specialized mining hardware by a major manufacturer like ASUS suggests ongoing demand and development in the mining infrastructure, which is a positive sign for network growth."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n4438bf824c8e",
+      "title": "Bitcoin company Blockchain hits 25 million crypto wallets",
+      "url": "https://finance.yahoo.com/news/bitcoin-company-blockchain-hits-25-million-crypto-wallets-110011639.html",
+      "summary": "Blockchain, a leading provider of cryptocurrency wallet software, has reached 25 million customer wallets. This milestone signifies substantial user adoption and growth in the cryptocurrency ecosystem. Increased wallet usage is a key indicator of broader adoption and participation in the crypto market.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockchain_wallet_adoption",
+        "user_growth_milestone"
+      ],
+      "rationale": "The significant increase in cryptocurrency wallet users indicates growing mainstream interest and adoption, which is a fundamental driver for price appreciation."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n88532536566f",
+      "title": "Ripple CEO Says Bitcoin Is the ‘Napster of Digital Assets’",
+      "url": "https://finance.yahoo.com/news/ripple-ceo-says-bitcoin-napster-154241569.html",
+      "summary": "Ripple CEO Brad Garlinghouse compared Bitcoin to Napster, suggesting that while transformative, it might be superseded by more regulated and integrated solutions like Spotify or iTunes. This statement reflects a view that Bitcoin's current form may not be the ultimate solution for digital assets, potentially impacting sentiment among those who see Bitcoin as the definitive digital currency.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ripple_ceo_commentary",
+        "bitcoin_disruption_narrative"
+      ],
+      "rationale": "Such commentary from a prominent figure in the crypto space, especially one with a competing product, can introduce doubt about Bitcoin's long-term dominance and potentially affect short-term sentiment."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n7d118d885c4b",
+      "title": "Bitcoin Prices Slide; Korean Court Rules Cryptocurrency Has Economic Value",
+      "url": "https://finance.yahoo.com/news/bitcoin-prices-slide-korean-court-073600920.html",
+      "summary": "Cryptocurrency prices declined on Thursday, influenced by global regulatory tightening and a South Korean Supreme Court ruling recognizing cryptocurrency as an asset with economic value, subject to confiscation. This dual news suggests a complex regulatory environment, with potential for both increased legitimacy and increased control.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "korea_court_ruling",
+        "global_regulatory_trends"
+      ],
+      "rationale": "The ruling from South Korea, while acknowledging economic value, also introduces the possibility of confiscation, which can be perceived as a bearish regulatory development in the short term."
+    },
+    {
+      "pick_idx": 43,
+      "id": "ndeb1d7ade441",
+      "title": "Ripple CEO Garlinghouse: Bitcoin Price Won’t Correlate With XRP Price Forever",
+      "url": "https://finance.yahoo.com/news/ripple-ceo-garlinghouse-bitcoin-price-145121509.html",
+      "summary": "Ripple CEO Brad Garlinghouse believes the high correlation between Bitcoin and XRP prices will eventually diverge as investors recognize their distinct use cases. He suggests a more rational market will emerge, reflecting independent technological values. This perspective could influence how investors view the relationship between Bitcoin and other altcoins.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "market_structure"
+      ],
+      "features_for_model": [
+        "ripple_ceo_correlation_view",
+        "xrp_btc_divergence"
+      ],
+      "rationale": "The statement suggests a potential decoupling of altcoin prices from Bitcoin's movements, which could lead to more diversified price action within the crypto market, but the timing and impact are uncertain."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-05-31",
+    "summary": "The crypto market is experiencing mixed signals. Bitcoin prices are sliding amid global regulatory tightening and a South Korean court ruling that acknowledges crypto's economic value but also its potential for confiscation. This regulatory uncertainty, coupled with broader market downturns driven by trade tensions, suggests a bearish short-term outlook. However, significant venture capital funding for blockchain startups and milestones in user adoption (e.g., Blockchain.com wallets) indicate underlying bullish sentiment for the technology's long-term potential. Developments in mining hardware and institutional interest in blockchain ETFs also point to continued infrastructure growth.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Escalating global trade tensions and potential for broader market sell-offs.",
+      "Increased regulatory scrutiny and potential for restrictive measures in key jurisdictions.",
+      "Technical resistance levels for Bitcoin could lead to short-term price corrections.",
+      "Uncertainty surrounding the actual implementation and impact of new blockchain projects funded by large capital raises."
+    ],
+    "watch_items": [
+      "Further developments on US-China trade relations.",
+      "South Korean regulatory actions following the court ruling.",
+      "Bitcoin's ability to hold key support levels.",
+      "Progress and product launches from major blockchain startups like Block.one.",
+      "Statements from major crypto players regarding market trends and adoption."
+    ]
+  }
+}

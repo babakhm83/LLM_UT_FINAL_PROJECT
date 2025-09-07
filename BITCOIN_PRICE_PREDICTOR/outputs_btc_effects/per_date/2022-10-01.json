@@ -1,0 +1,472 @@
+{
+  "date": "2022-10-01",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n9a832cf0347e",
+      "title": "FOREX-Dollar eases, but remains near 2-decade highs",
+      "url": "https://finance.yahoo.com/news/forex-dollar-eases-remains-near-185136349.html",
+      "summary": "The US dollar remained strong, trading near a two-decade high as the Federal Reserve signaled further interest rate hikes. This sustained strength in the dollar typically puts downward pressure on risk assets like Bitcoin, as it increases the cost of holding non-dollar denominated assets and signals a tightening global liquidity environment. The dollar's strength is a significant macroeconomic factor influencing cryptocurrency valuations.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "dollar_strength",
+        "interest_rates",
+        "Fed_policy"
+      ],
+      "rationale": "A strong dollar generally correlates with lower risk appetite for assets like Bitcoin. The ongoing hawkish stance of the Federal Reserve further reinforces this trend, suggesting continued pressure on crypto markets."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n75a3ca00e030",
+      "title": "'Like a Y2K moment': Crypto markets are bracing for Ethereum's Merge next month",
+      "url": "https://finance.yahoo.com/news/ethereum-merge-date-what-happens-165148563.html",
+      "summary": "Ethereum's highly anticipated 'Merge' event, transitioning from Proof-of-Work (PoW) to Proof-of-Stake (PoS), was a major long-term catalyst. This upgrade promised to significantly reduce energy consumption and potentially increase scalability and transaction efficiency. The successful completion of the Merge was expected to boost investor confidence in Ethereum and the broader crypto ecosystem, potentially leading to increased adoption and innovation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge",
+        "PoS_transition",
+        "energy_efficiency"
+      ],
+      "rationale": "The Merge represented a fundamental upgrade to Ethereum's network, promising improved efficiency and reduced environmental impact. This was a significant positive development for the second-largest cryptocurrency and the broader crypto space."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n0e53e045fd2f",
+      "title": "Dow craters 1,276 points as stocks notch their worst day since June 2020 after hot inflation reading",
+      "url": "https://finance.yahoo.com/news/dow-craters-1-276-points-201827434.html",
+      "summary": "A significantly higher-than-expected August inflation report (CPI) led to a sharp decline in US stock markets, with the Dow Jones Industrial Average experiencing its worst day since June 2020. This data reinforced expectations of aggressive interest rate hikes by the Federal Reserve, which typically leads to a risk-off sentiment across financial markets, negatively impacting risk assets like Bitcoin.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "CPI_surprise",
+        "inflation_data",
+        "Fed_rate_hikes"
+      ],
+      "rationale": "High inflation readings directly lead to expectations of more aggressive monetary tightening by the Fed. This macro environment is detrimental to risk assets, including Bitcoin, due to increased borrowing costs and reduced liquidity."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n9fdf177755fe",
+      "title": "Bitcoin's Bullish Seasonality Muddled by Continued Slide in 'USD Liquidity Index'",
+      "url": "https://finance.yahoo.com/news/bitcoins-bullish-seasonality-muddled-continued-084738032.html",
+      "summary": "The article highlights the historical tendency for Bitcoin to perform well in October, but cautions that a declining 'USD Liquidity Index' could temper this bullish seasonality. This index reflects the amount of readily available US dollars in the financial system, and its decline suggests tightening liquidity, which can be a headwind for risk assets. The interplay between seasonal trends and liquidity conditions is crucial for Bitcoin's price action.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bitcoin_seasonality",
+        "USD_liquidity_index",
+        "market_liquidity"
+      ],
+      "rationale": "While October historically shows bullish seasonality for Bitcoin, the declining USD liquidity index presents a counteracting bearish force. This creates an uncertain outlook, dependent on which factor dominates."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n2cf0e1d95ed2",
+      "title": "The UK’s Crisis of Confidence Was Years in the Making",
+      "url": "https://finance.yahoo.com/news/uk-crisis-confidence-years-making-230014404.html",
+      "summary": "This article discusses the UK's self-inflicted financial crisis, exacerbated by government decisions and leading to increased pressure on the new prime minister. Such sovereign debt concerns and economic instability in major economies can spill over into global financial markets, including cryptocurrencies, as investors seek safe havens or reduce overall risk exposure. The broader economic sentiment is a key driver for asset prices.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "UK_economy",
+        "sovereign_debt",
+        "economic_instability"
+      ],
+      "rationale": "Significant economic turmoil in a major global economy like the UK can lead to broader market contagion and a flight to safety, negatively impacting risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n30b2d6ed442e",
+      "title": "How billionaire Sam Bankman-Fried does a crypto deal: In his own words",
+      "url": "https://finance.yahoo.com/news/billionaire-sam-bankman-fried-does-021500182.html",
+      "summary": "The article provides insight into Sam Bankman-Fried's (SBF) approach to crypto deals, portraying him as a 'white knight' or 'mercenary' depending on perspective. SBF's active role in acquiring distressed crypto firms during the bear market, such as FTX's acquisitions of BlockFi and Voyager Digital assets, significantly impacts market consolidation and the perceived stability of the industry. His actions influence market sentiment and the competitive landscape.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SBF_deals",
+        "FTX_acquisitions",
+        "market_consolidation"
+      ],
+      "rationale": "SBF's aggressive acquisition strategy during the bear market consolidates power and influences market structure. While potentially stabilizing for acquired assets, it also concentrates risk and raises questions about long-term market health."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n36cb5ee0a9d1",
+      "title": "7 Trends That Could Reignite Crypto Growth",
+      "url": "https://finance.yahoo.com/news/might-restart-crypto-bull-market-130520408.html",
+      "summary": "This article from Bernstein identifies seven key trends that could reignite crypto growth, with the successful Ethereum Merge being a primary catalyst. Other factors include the adoption of rollups for scalability, institutional adoption, and regulatory clarity. These trends collectively point towards potential future growth drivers for the crypto market, impacting Bitcoin and other digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge_success",
+        "rollup_adoption",
+        "institutional_adoption",
+        "regulatory_clarity"
+      ],
+      "rationale": "The article outlines multiple positive catalysts for crypto growth, including the crucial Ethereum Merge and increasing institutional interest. These factors suggest a potential resurgence in the market over the medium to long term."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n74ef7149985f",
+      "title": "Bankrupt Crypto Lender Celsius Gets Cash-Injection Offers, Approval to Sell Mined Bitcoin",
+      "url": "https://finance.yahoo.com/news/bankrupt-crypto-lender-celsius-gets-221115523.html",
+      "summary": "Bankrupt crypto lender Celsius Network received cash-injection offers and judicial approval to sell its mined Bitcoin. This development is significant as it indicates potential restructuring and a move towards solvency for a major player in the crypto lending space. The sale of mined Bitcoin could add to market supply, while the cash injections signal potential for continued operations or a more orderly wind-down, impacting market sentiment and liquidity.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "miner"
+      ],
+      "features_for_model": [
+        "Celsius_bankruptcy",
+        "mined_bitcoin_sale",
+        "crypto_lending_sector"
+      ],
+      "rationale": "Celsius's financial distress and subsequent legal proceedings have broader implications for the crypto lending sector. The sale of mined Bitcoin could introduce selling pressure, while the potential for cash injections offers a glimmer of stability."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n5a314c9289b0",
+      "title": "Crypto hack losses top $2 billion as crime shifts amid market decline",
+      "url": "https://finance.yahoo.com/news/crypt-hack-losses-2022-150100075.html",
+      "summary": "The report indicates a significant increase in crypto hack losses, exceeding $2 billion by August 2022, with a notable shift towards DeFi protocols. This trend highlights ongoing security vulnerabilities within the crypto space, particularly in decentralized finance. High hack losses erode investor confidence and can lead to reduced participation and capital inflow, posing a long-term risk to market growth and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_hacks",
+        "DeFi_security",
+        "crime_trends"
+      ],
+      "rationale": "The escalating losses from crypto hacks, particularly in DeFi, undermine trust and security in the ecosystem. This persistent threat can deter new investors and hinder long-term adoption."
+    },
+    {
+      "pick_idx": 42,
+      "id": "nf1b392a1d5fc",
+      "title": "Ethereum merge actually happened – and just in time to spare the Nvidia RTX 4090",
+      "url": "https://finance.yahoo.com/news/ethereum-merge-actually-happened-just-170734120.html",
+      "summary": "This article confirms the completion of the Ethereum Merge and its positive implication for gamers anticipating new Nvidia graphics cards. The Merge's shift from Proof-of-Work (PoW) to Proof-of-Stake (PoS) significantly reduced the demand for high-end GPUs used in mining. This is a positive development for the gaming hardware market and indirectly for the broader tech sector, potentially freeing up GPU supply and reducing prices.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge_completion",
+        "GPU_demand",
+        "Nvidia_RTX_4090"
+      ],
+      "rationale": "The successful Merge reduced the demand for GPUs in Ethereum mining, which is beneficial for the gaming hardware market. This indirectly supports the broader tech ecosystem and could lead to more accessible hardware for other applications."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n44cff472280f",
+      "title": "Biden Officials Float Fuel Export Limit in Meeting With Refiners",
+      "url": "https://finance.yahoo.com/news/white-house-set-meet-oil-155344922.html",
+      "summary": "US officials met with refiners to discuss limiting fuel exports, suggesting potential government intervention if voluntary action isn't taken. This indicates potential government involvement in energy markets, which could indirectly affect broader economic sentiment and risk appetite, potentially impacting Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "fuel_export_limit",
+        "energy_policy",
+        "government_intervention"
+      ],
+      "rationale": "Government intervention in energy markets can create broader economic uncertainty, which may lead to a slight risk-off sentiment impacting Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ndd8acdf157c8",
+      "title": "Immutable Holdings Announces Voting Results for Its Annual and Special Meeting of Shareholders",
+      "url": "https://finance.yahoo.com/news/immutable-holdings-announces-voting-results-004200255.html",
+      "summary": "Immutable Holdings, a blockchain holding company, announced voting results for its shareholder meeting. While this is a corporate governance event, it signals operational stability and continued management focus. For a publicly traded crypto-related company, such announcements can influence investor sentiment towards the company and, by extension, the broader crypto market.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "institutional"
+      ],
+      "features_for_model": [
+        "Immutable_Holdings",
+        "shareholder_meeting",
+        "corporate_governance"
+      ],
+      "rationale": "This is a standard corporate announcement that is unlikely to have a significant direct impact on Bitcoin's price, but it indicates stability for a publicly traded crypto entity."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb72d133fba51",
+      "title": "A huge number of ‘Zombie’ companies are drowning in debt. This CEO sees a reckoning as interest rates soar",
+      "url": "https://finance.yahoo.com/news/huge-number-zombie-companies-drowning-120000776.html",
+      "summary": "The article highlights the growing number of 'zombie companies' burdened by debt, facing a reckoning due to soaring interest rates. This macroeconomic concern suggests potential financial instability and a tightening credit environment, which can negatively impact risk assets like Bitcoin by reducing liquidity and increasing default risks across the economy.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "zombie_companies",
+        "corporate_debt",
+        "rising_interest_rates"
+      ],
+      "rationale": "The increasing financial fragility of companies due to high debt and rising rates signals a potential economic slowdown, which typically leads to reduced investment in riskier assets like Bitcoin."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3909ba9d1954",
+      "title": "Liberal Arts Colleges Show the 'Inherent Interdisciplinary' Nature of Web3",
+      "url": "https://finance.yahoo.com/news/liberal-arts-colleges-show-inherent-140927745.html",
+      "summary": "The article discusses how liberal arts colleges are incorporating crypto and Web3 concepts into their curriculum, indicating growing academic interest and potential future talent development in the blockchain space. This signals increasing mainstream acceptance and educational integration, which is a positive long-term indicator for crypto adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "education"
+      ],
+      "features_for_model": [
+        "Web3_education",
+        "academic_adoption",
+        "crypto_curriculum"
+      ],
+      "rationale": "Increased academic interest and integration of Web3 concepts suggest growing mainstream adoption and a future pipeline of talent for the crypto industry."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n8759cbc74acb",
+      "title": "WestCoast NFT Picks Crypto News Website CoinChapter as its Official Media Partner",
+      "url": "https://finance.yahoo.com/news/westcoast-nft-picks-crypto-news-145445670.html",
+      "summary": "WestCoastNFT has partnered with CoinChapter.com, a crypto news website, as its official media partner. This partnership aims to boost coverage of NFT projects. Such collaborations between NFT firms and media outlets can increase visibility and awareness for the NFT sector, potentially driving interest and activity in related digital assets.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "NFT_media_partnership",
+        "CoinChapter",
+        "WestCoastNFT"
+      ],
+      "rationale": "Partnerships that increase visibility for the NFT sector can lead to greater interest and potentially higher trading volumes for related assets."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n1b780b4891fb",
+      "title": "Crypto 'may have hit the ultimate bottom months ago,' analyst says",
+      "url": "https://finance.yahoo.com/news/crypto-orices-q3-2022-165448694.html",
+      "summary": "An analyst suggests that the crypto market may have hit its ultimate bottom months prior, citing cascading liquidations and a market now dominated by 'true believers.' While the total market cap has seen a slight recovery since July, this sentiment suggests a potential shift in market psychology, moving away from speculative selling towards a more resilient base.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "crypto_bottom",
+        "market_sentiment",
+        "liquidation_cascade"
+      ],
+      "rationale": "Analyst sentiment suggesting a market bottom can influence investor psychology and potentially lead to increased buying pressure if conviction grows."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n0181a2683c70",
+      "title": "3 REITs to Sell in October",
+      "url": "https://finance.yahoo.com/news/3-reits-sell-october-200414365.html",
+      "summary": "The article advises selling certain Real Estate Investment Trusts (REITs), specifically those focused on hotels and resorts, due to a potential recession and limited upside. This bearish outlook on a traditional asset class can reflect broader economic concerns that may also impact risk assets like Bitcoin, as investors de-risk their portfolios.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "REITs_sell",
+        "recession_risk",
+        "hotel_sector"
+      ],
+      "rationale": "Negative sentiment towards traditional risk assets like certain REITs can indicate a broader risk-off environment that may also affect Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "ndd8acdf157c8",
+      "title": "Immutable Holdings Announces Voting Results for Its Annual and Special Meeting of Shareholders",
+      "url": "https://finance.yahoo.com/news/immutable-holdings-announces-voting-results-004200255.html",
+      "summary": "Immutable Holdings, a publicly-traded blockchain holding company, announced the voting results of its Annual and Special Meeting of Shareholders. The election of directors indicates continued corporate governance and operational continuity. Such news for a publicly traded crypto-related entity can provide a minor boost to investor confidence in the sector.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "institutional"
+      ],
+      "features_for_model": [
+        "Immutable_Holdings",
+        "shareholder_vote",
+        "corporate_update"
+      ],
+      "rationale": "This is a routine corporate announcement that suggests stability for a publicly traded crypto company, but is unlikely to cause significant price movement for Bitcoin."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n1b780b4891fb",
+      "title": "Crypto 'may have hit the ultimate bottom months ago,' analyst says",
+      "url": "https://finance.yahoo.com/news/crypto-orices-q3-2022-165448694.html",
+      "summary": "An analyst suggests that the crypto market may have hit its ultimate bottom months prior, citing cascading liquidations and a market now dominated by 'true believers.' While the total market cap has seen a slight recovery since July, this sentiment suggests a potential shift in market psychology, moving away from speculative selling towards a more resilient base.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "crypto_bottom_call",
+        "market_psychology",
+        "investor_conviction"
+      ],
+      "rationale": "Positive analyst sentiment about a market bottom can foster a more optimistic outlook and potentially encourage buying activity."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-10-01",
+    "summary": "The market sentiment is mixed, with ongoing concerns about macroeconomic factors like rising interest rates and corporate debt impacting risk assets. However, there are also signs of potential recovery and growing adoption in the crypto space, particularly with academic interest in Web3 and partnerships within the NFT ecosystem. The analyst sentiment suggesting a potential market bottom provides a cautiously optimistic short-term outlook.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkish stance from the Federal Reserve and persistent inflation data.",
+      "Increased corporate debt and potential for 'zombie company' failures impacting broader financial stability.",
+      "Ongoing security vulnerabilities and hacks within the DeFi space eroding investor confidence.",
+      "Geopolitical instability and its impact on global liquidity and risk appetite."
+    ],
+    "watch_items": [
+      "US CPI and PPI data releases",
+      "Federal Reserve statements and meeting minutes",
+      "Major crypto exchange news (e.g., FTX, Binance)",
+      "Developments in Ethereum's post-Merge ecosystem",
+      "Global macroeconomic indicators (e.g., GDP, unemployment)"
+    ]
+  }
+}

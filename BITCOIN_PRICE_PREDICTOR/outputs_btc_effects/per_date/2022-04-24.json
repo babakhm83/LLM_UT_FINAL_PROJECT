@@ -1,0 +1,512 @@
+{
+  "date": "2022-04-24",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n3f95ec5279b5",
+      "title": "Bitcoin Ends Q1 Closely Following S&P 500",
+      "url": "https://finance.yahoo.com/news/bitcoin-ends-q1-closely-following-074901760.html",
+      "summary": "Bitcoin's correlation with the S&P 500 tightened significantly in Q1 2022, reaching nearly 0.9. This indicates that Bitcoin is increasingly behaving as a risk-on asset, mirroring traditional market movements. As the S&P 500 closed the quarter down 5.5%, Bitcoin also experienced a decline, closing down 2%. This close tracking suggests that broader macroeconomic factors and investor sentiment towards risk assets are heavily influencing Bitcoin's price action, potentially limiting its uncorrelated safe-haven appeal.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_SP500_correlation",
+        "risk_on_asset",
+        "Q1_performance"
+      ],
+      "rationale": "The increasing correlation between Bitcoin and the S&P 500 suggests that Bitcoin's price is becoming more sensitive to traditional market dynamics. This could lead to greater volatility in line with broader economic trends."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n5f32e06791e7",
+      "title": "Michael Saylor says MicroStrategy stock is essentially serving as a spot bitcoin ETF as investors wait for the first one to be approved",
+      "url": "https://finance.yahoo.com/news/michael-saylor-says-microstrategy-stock-152357292.html",
+      "summary": "MicroStrategy CEO Michael Saylor views his company's stock as a de facto spot Bitcoin ETF, given the SEC's continued delay in approving a spot Bitcoin ETF. MicroStrategy holds a significant amount of Bitcoin on its balance sheet, making its stock performance closely tied to Bitcoin's price. This perspective highlights the demand for direct Bitcoin exposure through regulated financial products and suggests that institutional investors are seeking ways to gain exposure, even if indirectly through companies like MicroStrategy.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "ETF"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_holdings",
+        "spot_ETF_demand",
+        "institutional_adoption"
+      ],
+      "rationale": "Saylor's statement underscores the strong institutional demand for Bitcoin exposure. The success of MicroStrategy as a proxy for a spot ETF could pave the way for broader institutional adoption and potentially influence future ETF approvals."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n015b7e3fe8f3",
+      "title": "Bitcoin's strength is being driven by Russians choosing the crypto as an avenue to move their wealth out of the country, legendary investor Mark Mobius says",
+      "url": "https://finance.yahoo.com/news/bitcoins-strength-being-driven-russians-145554569.html",
+      "summary": "Legendary investor Mark Mobius suggests that Bitcoin's recent strength may be partly attributed to Russians using it as a means to move wealth out of the country amidst sanctions. This indicates Bitcoin's utility as a censorship-resistant store of value and transfer mechanism during geopolitical instability. While the extent of this impact is debated, it highlights a potential use case for Bitcoin beyond speculative investment, particularly in regions facing economic or political turmoil.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Russia_sanctions",
+        "capital_flight",
+        "store_of_value"
+      ],
+      "rationale": "Geopolitical events can drive demand for Bitcoin as a safe haven or capital flight tool. If this trend continues, it could provide a sustained bullish catalyst for Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n6d97adca27fa",
+      "title": "Ukraine President Enacts a Law To Legalize Crypto As Donations Pour-In",
+      "url": "https://finance.yahoo.com/news/ukraine-president-enacts-law-legalize-115434796.html",
+      "summary": "Ukraine's President Volodymyr Zelenskyy signed a bill to legalize cryptocurrencies, following substantial crypto donations received to aid the country's defense. This move formalizes the legal status of virtual assets and signals a progressive approach to digital finance. The Ministry of Digital Transformation is developing tax regulations for crypto. This legalization could foster greater adoption and integration of crypto within Ukraine's economy, potentially serving as a model for other nations.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Ukraine_legalization",
+        "crypto_donations",
+        "regulatory_framework"
+      ],
+      "rationale": "The legalization of crypto in Ukraine demonstrates its growing acceptance and utility, especially in times of crisis. This could encourage further adoption and regulatory clarity globally."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nfe1ac0e6d527",
+      "title": "The US must invest in digital assets to protect its interests, Chainalysis founder tells Congress. He joins a chorus of experts calling on policymakers to prioritize crypto.",
+      "url": "https://finance.yahoo.com/news/us-must-invest-digital-assets-190550110.html",
+      "summary": "Chainalysis co-founder Jonathan Levin urged Congress to prioritize investment in digital assets to maintain U.S. financial leadership. He emphasized the need for transparency and building robust financial infrastructure for the 21st century. This call for action from a prominent blockchain analytics firm highlights the growing recognition among policymakers of the strategic importance of digital assets and the potential risks of falling behind in this technological race.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_digital_asset_policy",
+        "financial_infrastructure",
+        "regulatory_clarity"
+      ],
+      "rationale": "A proactive stance from the US government on digital assets could lead to favorable regulations and increased institutional adoption, boosting the entire crypto market."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n7c6ab942fdc9",
+      "title": "MicroStrategy Unit Gets $205M Collateral Loan From Silvergate to Buy Bitcoin",
+      "url": "https://finance.yahoo.com/news/microstrategy-unit-gets-205m-collateral-133150825.html",
+      "summary": "MicroStrategy's subsidiary, MacroStrategy, secured a $205 million loan from Silvergate Bank, using its Bitcoin holdings as collateral. This move demonstrates how traditional financial institutions are increasingly integrating with the crypto ecosystem, offering services like collateralized lending. It also signifies MicroStrategy's continued commitment to its Bitcoin strategy, leveraging its holdings to acquire more. This type of financial innovation can unlock liquidity for crypto-backed assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_loan",
+        "Silvergate_partnership",
+        "BTC_collateralized_lending"
+      ],
+      "rationale": "This loan highlights the growing acceptance of Bitcoin as collateral by traditional financial institutions, signaling increased integration and potential for further capital inflow."
+    },
+    {
+      "pick_idx": 22,
+      "id": "ne0e7d546f5e4",
+      "title": "EU's MiCA Bill Moves Forward Without Bitcoin Limiting Provision",
+      "url": "https://finance.yahoo.com/news/eus-mica-bill-moves-forward-113657734.html",
+      "summary": "The European Union's Markets in Crypto Assets (MiCA) regulatory package is progressing without a provision that would have restricted proof-of-work cryptocurrencies like Bitcoin. This development is positive for Bitcoin, as it avoids a potentially significant regulatory hurdle in a major economic bloc. The continued progress of MiCA, even without the restrictive clause, suggests a move towards clearer regulation in the EU, which could foster greater adoption and innovation.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "EU_MiCA_regulation",
+        "proof_of_work_ban_removed",
+        "regulatory_clarity_EU"
+      ],
+      "rationale": "The EU's decision to not ban proof-of-work cryptocurrencies is a significant regulatory win for Bitcoin. It removes a major uncertainty and could encourage further development and adoption within the EU."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n6a6e488c7c7d",
+      "title": "Bitcoin Lightning Network-Based Strike Can Rival Visa – MS",
+      "url": "https://finance.yahoo.com/news/bitcoin-lightning-network-based-strike-112519630.html",
+      "summary": "Morgan Stanley sees potential for the Bitcoin Lightning Network, particularly through payment platform Strike, to rival Visa. Strike's partnerships with Shopify and NCR, a major point-of-sale provider, indicate growing real-world adoption of Bitcoin for payments. This development suggests that Bitcoin's Layer 2 solutions are maturing and could offer a scalable alternative to traditional payment networks, driving utility and adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Lightning_Network_adoption",
+        "Strike_partnerships",
+        "payment_scalability"
+      ],
+      "rationale": "The potential for the Lightning Network to compete with Visa signifies a major step towards Bitcoin's utility as a payment system. Successful integration with major platforms like Shopify could drive significant transaction volume."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n3d455748c668",
+      "title": "Bitcoin HODLers Unfazed by Macro and Geopolitical Risks",
+      "url": "https://finance.yahoo.com/news/bitcoin-hodlers-unfazed-macro-geopolitical-204852746.html",
+      "summary": "Despite heightened macro and geopolitical risks, Bitcoin 'HODLers' continue to accumulate, according to Glassnode data. This suggests a strong conviction among long-term holders, who are not deterred by short-term market fluctuations. The data indicates a HODLer-dominated market, implying that a significant portion of Bitcoin supply is held by investors with a long-term perspective, potentially reducing selling pressure.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "HODLer_accumulation",
+        "on_chain_data",
+        "long_term_conviction"
+      ],
+      "rationale": "Strong HODLer sentiment indicates a resilient market base, suggesting that even amidst broader economic uncertainty, dedicated holders are accumulating, which can support price stability and future growth."
+    },
+    {
+      "pick_idx": 49,
+      "id": "ncf1a92262c04",
+      "title": "Digihost Achieves Milestone of 1 EH/s in Hashrate and Announces Bitcoin Dividend Policy",
+      "url": "https://finance.yahoo.com/news/digihost-achieves-milestone-1-eh-110000118.html",
+      "summary": "Bitcoin mining company Digihost announced it achieved 1 EH/s in hashrate and introduced a dividend policy payable in BTC or cash. Reaching a significant hashrate milestone indicates operational growth and increased network security. The dividend policy, especially if payable in BTC, could incentivize holding and potentially increase demand for Bitcoin among shareholders. This signals a maturing mining sector and a move towards shareholder returns.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "miner",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Digihost_hashrate",
+        "BTC_dividend_policy",
+        "mining_operations"
+      ],
+      "rationale": "Increased hashrate contributes to network security, while a BTC dividend policy could attract investors seeking yield in crypto, potentially boosting demand."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n5bfb255f2653",
+      "title": "Why Bitcoin’s Navigation of Recent Global Economic Downturns Shows that Crypto is Here to Stay",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-navigation-recent-global-080451109.html",
+      "summary": "The article highlights significant venture capital investment ($30 billion in 2021) into crypto/Web 3.0 startups and institutional adoption by companies like Tesla, Block, and MicroStrategy. It frames Bitcoin's resilience during economic downturns as evidence of its staying power. The growth of DeFi and NFTs in 2021 is also noted as a driver of opportunities.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "VC_funding_crypto",
+        "institutional_adoption_BTC",
+        "DeFi_NFT_growth"
+      ],
+      "rationale": "Continued VC funding and institutional adoption are positive signals for the crypto market, suggesting underlying strength despite short-term volatility."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n3270ddf2c7ba",
+      "title": "3 NFT Stocks That Reddit Investors Still Love",
+      "url": "https://finance.yahoo.com/news/3-nft-stocks-reddit-investors-105301573.html",
+      "summary": "The article identifies Coinbase, Dolphin Entertainment, and Funko as NFT-related stocks favored by Reddit investors. Coinbase's new NFT marketplace is highlighted as a potential growth area, while Dolphin Entertainment operates NFT marketplaces and Funko aims to boost revenue through NFTs. This indicates continued retail interest in the NFT ecosystem and related companies.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "retail"
+      ],
+      "features_for_model": [
+        "NFT_stocks",
+        "Coinbase_NFT_marketplace",
+        "retail_investor_sentiment"
+      ],
+      "rationale": "Retail investor interest in NFT-related stocks, particularly Coinbase's NFT venture, could provide a short-term boost to sentiment and potentially related crypto assets."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n27629795efa0",
+      "title": "Environmental charities ditch cryptocurrencies after admitting they damage the planet",
+      "url": "https://finance.yahoo.com/news/environmental-charities-ditch-cryptocurrencies-admitting-141455324.html",
+      "summary": "Several environmental charities, including Greenpeace and WWF, are abandoning cryptocurrency projects due to concerns about the technology's carbon footprint. This news highlights ongoing environmental scrutiny of Bitcoin's proof-of-work mechanism. While the direct impact on Bitcoin's price might be limited in the short term, it contributes to a negative narrative around energy consumption.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ESG_concerns",
+        "crypto_carbon_footprint",
+        "environmental_scrutiny"
+      ],
+      "rationale": "Negative sentiment regarding Bitcoin's environmental impact can create headwinds, especially if it influences regulatory discussions or institutional investment decisions."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nd59c9b2aa4a0",
+      "title": "But Exchanges, What Low Volumes You Have!",
+      "url": "https://finance.yahoo.com/news/exchanges-low-volumes-145000067.html",
+      "summary": "This article discusses the relatively low trading volumes on exchanges during the past week, potentially influenced by the Greek Easter holiday. While Bitcoin's price performed 'relatively ok,' the low volume suggests a lack of strong conviction or participation from traders. This could indicate a period of consolidation or a lack of immediate catalysts for a significant price move.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "exchange_volume",
+        "holiday_impact",
+        "consolidation_phase"
+      ],
+      "rationale": "Low trading volumes can precede significant price movements, but in the short term, they suggest a lack of strong directional momentum and potentially reduced liquidity."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n525d5438f0fd",
+      "title": "Coinbase: 'The bull thesis is the long-term crypto adoption,' analyst says",
+      "url": "https://finance.yahoo.com/news/coinbase-bull-thesis-crypto-adoption-analyst-185031112.html",
+      "summary": "An Oppenheimer analyst maintains a bullish outlook on Coinbase, citing long-term crypto adoption as the primary driver. Despite crypto-focused stocks being down significantly year-to-date, the analyst believes the market is not fully pricing in the potential for future adoption. This perspective suggests that fundamental growth drivers in the crypto space remain intact, even if short-term sentiment is negative.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "listing"
+      ],
+      "features_for_model": [
+        "Coinbase_bull_thesis",
+        "long_term_crypto_adoption",
+        "analyst_sentiment"
+      ],
+      "rationale": "Positive analyst sentiment on Coinbase, tied to long-term adoption, can influence investor perception and potentially drive demand for the stock and related crypto assets."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n5331f16de90e",
+      "title": "LBank Exchange Will List CoinViewCap (CVC) on April 28, 2022",
+      "url": "https://finance.yahoo.com/news/lbank-exchange-list-coinviewcap-cvc-203400451.html",
+      "summary": "LBank Exchange announced it will list CoinViewCap (CVC) on April 28, 2022. New exchange listings, especially for smaller cap tokens, can often lead to short-term price pumps due to increased accessibility and trading volume. This event is specific to CVC but can contribute to broader positive sentiment if the listing is successful.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 4,
+        "end": 5
+      },
+      "impact_tags": [
+        "listing",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "LBank_listing",
+        "CVC_token",
+        "exchange_listing_impact"
+      ],
+      "rationale": "A new exchange listing can create short-term buying pressure for the listed token, potentially creating minor positive spillover effects on broader market sentiment."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nfb52405cb8a7",
+      "title": "First Mover Asia: The Metaverse Is Subject to Earth’s Boring Old Rules",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-metaverse-subject-225119348.html",
+      "summary": "This article suggests that legal frameworks and real-world regulations will impact the metaverse and NFTs. It notes that Bitcoin has struggled to sustain positive momentum. The piece implies that the metaverse and related digital assets will not be immune to existing legal and regulatory challenges, which could create headwinds for adoption and development.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "metaverse"
+      ],
+      "features_for_model": [
+        "metaverse_regulation",
+        "NFT_legal_challenges",
+        "BTC_momentum"
+      ],
+      "rationale": "The acknowledgment of regulatory challenges for the metaverse and NFTs could dampen speculative interest in related assets and potentially impact broader crypto sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n20d4fa50d3df",
+      "title": "Crypto could give Russia several ways to sidestep sanctions — and bitcoin mining powered by embargo-hit energy is just one, the IMF says",
+      "url": "https://finance.yahoo.com/news/crypto-could-russia-several-ways-080000941.html",
+      "summary": "The IMF report suggests Russia could use crypto to circumvent sanctions, including leveraging its energy resources for Bitcoin mining. This raises concerns about the potential for illicit use of cryptocurrencies to undermine economic sanctions. The report implies a need for enhanced regulatory oversight and international cooperation to prevent such activities.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "legal"
+      ],
+      "features_for_model": [
+        "Russia_sanctions_evasion",
+        "crypto_illicit_use",
+        "IMF_report"
+      ],
+      "rationale": "Concerns about Russia using crypto to evade sanctions could lead to increased regulatory scrutiny and potential crackdowns, creating a bearish sentiment in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n5bfb255f2653",
+      "title": "Why Bitcoin’s Navigation of Recent Global Economic Downturns Shows that Crypto is Here to Stay",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-navigation-recent-global-080451109.html",
+      "summary": "The article highlights significant venture capital investment ($30 billion in 2021) into crypto/Web 3.0 startups and institutional adoption by companies like Tesla, Block, and MicroStrategy. It frames Bitcoin's resilience during economic downturns as evidence of its staying power. The growth of DeFi and NFTs in 2021 is also noted as a driver of opportunities.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "VC_funding_crypto",
+        "institutional_adoption_BTC",
+        "DeFi_NFT_growth"
+      ],
+      "rationale": "Continued VC funding and institutional adoption are positive signals for the crypto market, suggesting underlying strength despite short-term volatility."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n525d5438f0fd",
+      "title": "Coinbase: 'The bull thesis is the long-term crypto adoption,' analyst says",
+      "url": "https://finance.yahoo.com/news/coinbase-bull-thesis-crypto-adoption-analyst-185031112.html",
+      "summary": "An Oppenheimer analyst maintains a bullish outlook on Coinbase, citing long-term crypto adoption as the primary driver. Despite crypto-focused stocks being down significantly year-to-date, the analyst believes the market is not fully pricing in the potential for future adoption. This perspective suggests that fundamental growth drivers in the crypto space remain intact, even if short-term sentiment is negative.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "listing"
+      ],
+      "features_for_model": [
+        "Coinbase_bull_thesis",
+        "long_term_crypto_adoption",
+        "analyst_sentiment"
+      ],
+      "rationale": "Positive analyst sentiment on Coinbase, tied to long-term adoption, can influence investor perception and potentially drive demand for the stock and related crypto assets."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-04-24",
+    "summary": "The crypto market is showing mixed signals. Long-term, institutional adoption and regulatory clarity in major economies like the EU are providing a bullish backdrop. However, short-term concerns about Russia evading sanctions via crypto and environmental impact of PoW mining are introducing bearish sentiment. Low trading volumes suggest a lack of strong conviction, while positive analyst views on companies like Coinbase offer some optimism. The market appears to be consolidating, awaiting clearer direction.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Increased regulatory scrutiny due to illicit use concerns.",
+      "Persistent negative sentiment regarding Bitcoin's energy consumption.",
+      "Low trading volumes indicating potential for sharp price movements.",
+      "Geopolitical tensions impacting global economic stability.",
+      "Failure to gain traction in real-world payment use cases."
+    ],
+    "watch_items": [
+      "US regulatory developments on digital assets",
+      "EU MiCA bill progress",
+      "Coinbase NFT marketplace performance",
+      "Russia-related crypto sanctions enforcement",
+      "Lightning Network adoption metrics"
+    ]
+  }
+}

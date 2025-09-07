@@ -1,0 +1,546 @@
+{
+  "date": "2024-07-03",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n094081627850",
+      "title": "Is Bitcoin On Track to Make a Big Move and Hit $100,000 in 2024?",
+      "url": "https://finance.yahoo.com/news/bitcoin-track-big-move-hit-150300591.html",
+      "summary": "This article discusses the potential for Bitcoin to reach $100,000 in 2024, highlighting its historical price appreciation and current trading levels. It suggests that based on past performance, achieving this milestone is increasingly likely, though the exact timing remains uncertain. The piece frames Bitcoin's growth as a significant financial event, implying continued upward momentum.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_target",
+        "2024_outlook",
+        "historical_performance"
+      ],
+      "rationale": "The article reflects a prevailing bullish sentiment among analysts regarding Bitcoin's price potential. Such widespread positive outlooks can influence investor behavior and contribute to price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n91a2ebd8474b",
+      "title": "Bitcoin drops below US$60,000 as Mt. Gox repayment looms",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-below-us-60-173702771.html",
+      "summary": "Bitcoin's price has fallen below $60,000, marking a significant psychological level. This decline is attributed to the impending repayment of creditors by the defunct Mt. Gox exchange. The trustee announced that distributions will begin next week, potentially introducing substantial selling pressure into the market. This event is a decade-long overhang that could further destabilize prices.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Mt_Gox_repayment",
+        "BTC_price_drop",
+        "selling_pressure"
+      ],
+      "rationale": "The Mt. Gox repayment represents a significant event that could flood the market with a large amount of Bitcoin, creating immediate selling pressure. This overhang has been a concern for some time and its commencement is a bearish signal."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n765bd41b6995",
+      "title": "Ether Could Drop 30% After Launch of Spot Ether ETFs, Says Crypto Hedge Fund",
+      "url": "https://finance.yahoo.com/news/ether-could-drop-30-launch-124346509.html",
+      "summary": "A crypto hedge fund predicts Ether could drop by 30% post-launch of spot Ether ETFs, citing lower institutional interest and weaker network cash flows compared to Bitcoin. The fund estimates Ether ETFs will attract only 15% of the flows seen by Bitcoin ETFs. This suggests a potential for reduced demand and price pressure on ETH.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "ETH_ETF_impact",
+        "institutional_flows",
+        "price_prediction"
+      ],
+      "rationale": "The potential for a significant price drop in Ether following ETF launches, as predicted by a hedge fund, indicates a bearish sentiment regarding institutional adoption and demand for ETH-based products. This could indirectly affect Bitcoin by influencing overall market sentiment."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ncb2241f76d3b",
+      "title": "Stock market today: US stocks jump to records as investors cheer cooler May inflation data",
+      "url": "https://finance.yahoo.com/news/stock-market-today-us-stocks-213748874.html",
+      "summary": "US stocks reached record highs following softer-than-expected inflation data for May. Consumer prices were flat month-over-month and up 3.3% year-over-year. This has fueled investor optimism for potential Federal Reserve rate cuts, with expectations of three or more cuts by year-end. The positive macro environment for traditional markets can spill over into crypto.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "inflation_data",
+        "rate_cut_expectations",
+        "stock_market_rally"
+      ],
+      "rationale": "Cooler inflation data and the resulting optimism for Fed rate cuts create a favorable macro environment. Lower interest rates typically make riskier assets like Bitcoin more attractive, potentially driving demand and price appreciation."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n3acbdb89ac3b",
+      "title": "Robinhood to buy crypto exchange Bitstamp in effort to expand globally",
+      "url": "https://finance.yahoo.com/news/robinhood-buy-crypto-exchange-bitstamp-153522648.html",
+      "summary": "Robinhood is acquiring the crypto exchange Bitstamp for $200 million, marking its largest deal to date. This strategic move signals Robinhood's ambition to become a major player in the digital asset space and expand its global reach. Regulatory approval is pending, but the acquisition highlights growing institutional interest and consolidation within the crypto industry.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Robinhood_acquisition",
+        "Bitstamp_deal",
+        "global_expansion"
+      ],
+      "rationale": "Robinhood's acquisition of Bitstamp signifies a significant step in mainstream adoption and integration of crypto services. This expansion by a major financial platform can attract new users and increase liquidity, positively impacting the broader crypto market."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n2cb8cea0d77b",
+      "title": "ETF Inflows on Track to Beat 2023 After June Haul",
+      "url": "https://finance.yahoo.com/news/etf-inflows-track-beat-2023-211948666.html",
+      "summary": "Investors poured $81.4 billion into U.S. ETFs in June, putting flows on track to surpass 2023's total. Year-to-date inflows reached $406.1 billion, double last year's midpoint. A significant portion went into stock and fixed income ETFs, indicating a shift back to riskier assets. Total assets under management exceeded $9.22 trillion.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "June_performance",
+        "YTD_assets"
+      ],
+      "rationale": "Strong ETF inflows, particularly into equity funds, suggest a broader market appetite for risk assets. This positive sentiment in traditional finance can translate to increased investment in cryptocurrencies, especially Bitcoin, which has seen significant ETF adoption."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nfc4602c96016",
+      "title": "Bloomberg Analyst Raises Spot Ethereum ETF Approval Odds to 75%: Will Approvals Happen This Week?",
+      "url": "https://finance.yahoo.com/news/bloomberg-analyst-raises-spot-ethereum-225511004.html",
+      "summary": "A Bloomberg ETF analyst has increased the probability of spot Ethereum ETF approval to 75%. This news significantly impacted ETH's price, causing it to surge over 10% rapidly. The analyst's track record with Bitcoin ETFs lends credibility to this updated outlook, suggesting a higher likelihood of institutional product availability for Ether.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ETH_ETF_approval_odds",
+        "Bloomberg_analyst",
+        "ETH_price_surge"
+      ],
+      "rationale": "The increased odds of spot Ether ETF approval are a strong bullish signal for ETH and potentially the broader crypto market. Institutional product availability often drives significant capital inflows and legitimizes the asset class."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nda0af11f0a4e",
+      "title": "Largest Telecom Provider in Europe, Deutsche Telekom, Will Begin Mining Bitcoin",
+      "url": "https://finance.yahoo.com/news/largest-telecom-provider-europe-deutsche-060329949.html",
+      "summary": "Deutsche Telekom, Europe's largest telecommunications provider, announced its entry into Bitcoin mining. The company has been running Bitcoin and Lightning nodes since 2023. This move by a major European telecom giant signifies growing corporate interest and adoption of blockchain technology and digital assets.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "mining"
+      ],
+      "features_for_model": [
+        "Deutsche_Telekom",
+        "BTC_mining",
+        "corporate_adoption"
+      ],
+      "rationale": "The entry of a major European telecom company into Bitcoin mining is a significant indicator of institutional adoption and the increasing integration of crypto into traditional business operations. This can boost confidence and attract further corporate interest."
+    },
+    {
+      "pick_idx": 33,
+      "id": "na867552b8d50",
+      "title": "Bitcoin is about to clear a big overhang, and the crypto will recover from its slump to reach $150,000 by year-end, Fundstrat's Tom Lee says",
+      "url": "https://finance.yahoo.com/news/bitcoin-clear-big-overhang-crypto-174548757.html",
+      "summary": "Fundstrat's Tom Lee predicts Bitcoin will reach $150,000 by year-end, citing the clearing of an overhang related to Mt. Gox repayments. He believes the crypto is on track for a sharp rally, recovering from recent slumps. Lee has been a consistent bullish forecaster for Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "prediction"
+      ],
+      "features_for_model": [
+        "Tom_Lee_prediction",
+        "BTC_price_target",
+        "Mt_Gox_overhang"
+      ],
+      "rationale": "A prominent analyst like Tom Lee predicting a significant price target ($150k) by year-end, especially with the rationale of clearing the Mt. Gox overhang, provides strong bullish sentiment and could influence market expectations and investment decisions."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n2bfaf6812ac6",
+      "title": "Bitcoin To Stay Under $75K Until the US Election or Fed Cuts Rates, Says Novogratz",
+      "url": "https://finance.yahoo.com/news/bitcoin-stay-under-75k-until-083855822.html",
+      "summary": "Mike Novogratz, CEO of Galaxy Digital, predicts Bitcoin will consolidate between $55,000 and $75,000 for the next few months. He believes this range will hold until either the US presidential election provides regulatory clarity or the Federal Reserve begins cutting interest rates due to an economic slowdown.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "prediction"
+      ],
+      "features_for_model": [
+        "Novogratz_prediction",
+        "BTC_consolidation",
+        "US_election",
+        "Fed_rate_cuts"
+      ],
+      "rationale": "Novogratz's outlook suggests a period of consolidation, influenced by macroeconomic factors like the US election and Fed policy. This indicates a neutral to slightly uncertain short-term outlook, dependent on external catalysts."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n498360be6a19",
+      "title": "Bitcoin Sinks Under $61K as One Trader Sticks to $150K Prediction This Year",
+      "url": "https://finance.yahoo.com/news/bitcoin-sinks-under-61k-one-074819848.html",
+      "summary": "Bitcoin and other cryptocurrencies have seen sharp declines, reversing earlier gains. This drop is partly attributed to concerns over large Bitcoin sales from the defunct Mt. Gox exchange, which is set to distribute assets soon. Despite this, one trader maintains a $150K prediction for the year.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "Mt_Gox",
+        "liquidity",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "Mt_Gox_distribution",
+        "Asian_trading_hours"
+      ],
+      "rationale": "The immediate drop below $61K, driven by Mt. Gox concerns and reversing recent gains, suggests strong short-term selling pressure. This is a clear bearish signal for the next few days."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n99c47710c67b",
+      "title": "Crypto Industry Is About to Boom, Is Outperforming the Internet: Architect Partners",
+      "url": "https://finance.yahoo.com/news/crypto-industry-boom-outperforming-internet-090248834.html",
+      "summary": "Investment bank Architect Partners reports that the crypto industry is entering a major growth phase, adding over $750 billion in value in the first half of the year. The firm states that crypto is outperforming the internet at similar stages of their development, indicating strong positive momentum.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "crypto_growth_phase",
+        "H1_value_add",
+        "outperforming_internet"
+      ],
+      "rationale": "This positive outlook from an investment bank, highlighting significant value creation and outperformance, suggests a bullish sentiment that could influence short-term market behavior and investor confidence."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nc74cf7434b98",
+      "title": "YieldMax™ ETFs Announces Monthly Distributions on MSTY (101.60%), NVDY (101.58%), CONY (90.37%), YBIT (83.67%), TSLY (70.99%) and Others",
+      "url": "https://finance.yahoo.com/news/yieldmax-etfs-announces-monthly-distributions-105500204.html",
+      "summary": "YieldMax™ ETFs are announcing monthly distributions for various strategies, including those tracking TSLA, NVDA, and Bitcoin (YBIT). The high distribution yields (e.g., 101% for MSTY and NVDY) indicate active options strategies. While not directly impacting BTC price, these announcements reflect investor interest in yield-generating products tied to underlying assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "ETF",
+        "yield_strategy"
+      ],
+      "features_for_model": [
+        "YieldMax_distributions",
+        "options_income",
+        "YBIT_yield"
+      ],
+      "rationale": "While these ETF distributions are related to options strategies and not direct spot buying, they reflect a segment of the market seeking yield. The mention of YBIT (Bitcoin ETF) suggests continued interest in Bitcoin-related financial products, but the impact on immediate price action is likely minimal."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n9e84287d73e8",
+      "title": "First Mover Americas: Bitcoin Falls to $60K as Mt. Gox Overhang Looms",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-falls-120555391.html",
+      "summary": "Bitcoin dropped to $60,000, marking a 4% decline in 24 hours, and was the worst performer among crypto majors. This fall occurred after U.S. spot BTC ETFs experienced $13 million in outflows on Tuesday, breaking a five-day streak of inflows. Concerns about the Mt. Gox overhang persist.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "Mt_Gox",
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_fall",
+        "ETF_outflows",
+        "Mt_Gox_concern"
+      ],
+      "rationale": "The combination of ETF outflows and the persistent Mt. Gox overhang creates significant short-term bearish pressure. Bitcoin's underperformance relative to other majors highlights the immediate impact of these factors."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n569f4936ae37",
+      "title": "RIOT ANNOUNCES JUNE 2024 PRODUCTION AND OPERATIONS UPDATES",
+      "url": "https://finance.yahoo.com/news/riot-announces-june-2024-production-130000816.html",
+      "summary": "Riot Platforms exceeded its Q2 2024 target by reaching 22.0 EH/s in deployed hash rate and produced 255 Bitcoin in June 2024. This operational update indicates strong performance from a major Bitcoin miner, suggesting continued investment and expansion in the mining sector.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "hashrate"
+      ],
+      "features_for_model": [
+        "Riot_production",
+        "hashrate_increase",
+        "miner_operations"
+      ],
+      "rationale": "Positive operational updates from a major miner like Riot, showing increased hash rate and production, can be seen as a bullish signal for the mining sector and indirectly for Bitcoin's network health and security."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nb89cf13910a9",
+      "title": "Bitdeer Announces June 2024 Production and Operations Update",
+      "url": "https://finance.yahoo.com/news/bitdeer-announces-june-2024-production-131000518.html",
+      "summary": "Bitdeer reported mining 179 Bitcoin in June 2024 and a significant increase in global contracted power capacity to 2.5 GW. They are also progressing with ASIC shipments and chip development. This update indicates continued growth and investment in mining infrastructure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "hashrate"
+      ],
+      "features_for_model": [
+        "Bitdeer_production",
+        "power_capacity_increase",
+        "ASIC_development"
+      ],
+      "rationale": "Similar to Riot, Bitdeer's positive operational update, including increased Bitcoin production and power capacity, suggests a healthy mining sector. This contributes to a generally bullish sentiment for Bitcoin's underlying infrastructure."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n8fbc7429c027",
+      "title": "Bitcoin Losing $60K Handle May Trigger Wave of ETF Liquidations: Analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-losing-60k-handle-may-133137867.html",
+      "summary": "An analyst suggests that if Bitcoin breaks below the $60,000-$61,000 range, it could trigger liquidations for U.S. spot BTC ETFs, as many investors have an average entry price within this zone. This scenario could lead to a significant wave of selling pressure.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_ETF_liquidation",
+        "support_level_break",
+        "average_entry_price"
+      ],
+      "rationale": "The potential for a cascade of ETF liquidations if Bitcoin falls below a key support level is a significant short-term bearish risk. This could exacerbate downward price movements."
+    },
+    {
+      "pick_idx": 14,
+      "id": "na3197705543f",
+      "title": "Bitcoin Bottom Is Near as Miners Capitulating Near FTX Implosion Level: CryptoQuant",
+      "url": "https://finance.yahoo.com/news/bitcoin-bottom-near-miners-capitulating-151727680.html",
+      "summary": "CryptoQuant reports that Bitcoin miner capitulation metrics are approaching levels seen during the FTX crash. Daily miner revenue has dropped significantly post-halving, leading inefficient miners to shut down, causing a hashrate slump. This suggests a potential market bottom is forming.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "market_sentiment",
+        "capitulation"
+      ],
+      "features_for_model": [
+        "miner_capitulation",
+        "FTX_level_comparison",
+        "hashrate_slump"
+      ],
+      "rationale": "Miner capitulation, while painful in the short term, is often a precursor to a market bottom. The data suggesting this is happening now could indicate that the worst of the selling pressure is nearing its end."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n0b0e885378aa",
+      "title": "Robinhood (HOOD) Plans to Offer Crypto Futures in Europe, U.S.",
+      "url": "https://finance.yahoo.com/news/robinhood-hood-plans-offer-crypto-152800278.html",
+      "summary": "Robinhood plans to offer cryptocurrency futures in the US and Europe, leveraging licenses from its planned acquisition of Bitstamp. This expansion into futures trading signifies a deepening of Robinhood's crypto offerings and a move towards more complex financial products.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "Robinhood",
+        "futures",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Robinhood_crypto_futures",
+        "Bitstamp_acquisition",
+        "Europe_expansion"
+      ],
+      "rationale": "Robinhood's entry into crypto futures trading, especially in Europe, indicates a growing demand for regulated crypto derivatives. This can increase liquidity and attract more sophisticated traders, potentially boosting overall market activity."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n31e170736772",
+      "title": "Bitfarms Provides June 2024 Production and Operations Update",
+      "url": "https://finance.yahoo.com/news/bitfarms-provides-june-2024-production-162800479.html",
+      "summary": "Bitfarms mined 189 BTC in June 2024, increasing its installed hashrate to 11.4 EH/s and improving energy efficiency. They are also expanding strategically in the U.S. and have set ambitious targets for 2025. This update highlights continued operational growth and efficiency improvements in the mining sector.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "efficiency"
+      ],
+      "features_for_model": [
+        "Bitfarms_production",
+        "hashrate_growth",
+        "energy_efficiency"
+      ],
+      "rationale": "Bitfarms' positive operational update, showing increased production, hashrate, and efficiency, reinforces the bullish trend in the mining sector. These improvements contribute to the overall health and security of the Bitcoin network."
+    },
+    {
+      "pick_idx": 18,
+      "id": "neccd95708e52",
+      "title": "TeraWulf Announces June 2024 Production and Operations Update",
+      "url": "https://finance.yahoo.com/news/terawulf-announces-june-2024-production-170500790.html",
+      "summary": "TeraWulf reported 8.8 EH/s of installed and operational self-mining capacity in June 2024, a 76% year-over-year increase. Building 4 at Lake Mariner is nearing completion, projecting over 10.0 EH/s in July. AI/HPC projects are also advancing. The company utilizes 95% zero-carbon energy.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "hashrate"
+      ],
+      "features_for_model": [
+        "TeraWulf_production",
+        "capacity_increase",
+        "zero_carbon_energy"
+      ],
+      "rationale": "TeraWulf's substantial year-over-year growth in operational capacity and progress on infrastructure projects, coupled with its commitment to zero-carbon energy, presents a positive operational picture for the mining sector."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nbeb52794fba7",
+      "title": "Bitcoin expected to rebound in 2024 and hit $150,000, per analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-expected-rebound-2024-hit-181149552.html",
+      "summary": "Despite a recent dip below $60,000, Bitcoin is forecast to rebound and reach $150,000 by December, according to Fundstrat's Tom Lee. This represents a potential 138% increase. The price drop is partly attributed to Mt. Gox customer repayments, raising fears of large sell-offs.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "prediction",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_forecast",
+        "Tom_Lee_target",
+        "Mt_Gox_impact"
+      ],
+      "rationale": "The strong bullish prediction from a well-known analyst, even amidst short-term negative news like Mt. Gox, suggests underlying confidence in Bitcoin's long-term trajectory. This can provide a psychological boost in the short term."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nd6726cbc44cb",
+      "title": "Why Bitcoin is tanking to $60,000 when stocks keep hitting all-time highs",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-tanking-60-000-182244066.html",
+      "summary": "Bitcoin has fallen sharply to near $60,000, contrasting with the soaring stock market. This decline is partly due to nearly $9 billion in crypto unlocks from Mt. Gox, creating fears of large sell-offs. The distributions, though batched, loom over the market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "Mt_Gox",
+        "liquidity",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_price_decline",
+        "Mt_Gox_unlocks",
+        "stock_market_divergence"
+      ],
+      "rationale": "The direct correlation drawn between Bitcoin's sharp decline and the Mt. Gox unlocks, juxtaposed with strong stock market performance, highlights immediate bearish sentiment driven by potential sell pressure and a divergence in asset class performance."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-07-03",
+    "summary": "Bitcoin experienced a significant downturn, falling below $60,000, primarily driven by concerns over impending Mt. Gox repayments and a break in spot ETF inflows. This contrasts with a strong performance in traditional stock markets, which hit all-time highs on positive inflation data and dovish Fed commentary. Miner updates from companies like Riot, Bitdeer, Bitfarms, and TeraWulf showed continued operational growth and efficiency improvements, offering a bullish counterpoint to the immediate price action. Analysts remain divided, with some predicting a near-term bottom due to miner capitulation, while others highlight the risk of ETF liquidations if key support levels break.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.3,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued selling pressure from Mt. Gox repayments.",
+      "Potential for cascading liquidations if Bitcoin breaks below key support levels ($60k-$61k).",
+      "Uncertainty surrounding the timing and impact of potential Fed rate cuts.",
+      "Divergence in performance between crypto and traditional markets.",
+      "Regulatory developments impacting the broader digital asset space."
+    ],
+    "watch_items": [
+      "Mt. Gox distribution progress and market reaction.",
+      "Spot Bitcoin ETF flow data (daily inflows/outflows).",
+      "Key support/resistance levels for Bitcoin ($60k, $61k, $53k).",
+      "Statements from Federal Reserve officials regarding monetary policy.",
+      "Performance of major altcoins and their correlation with Bitcoin."
+    ]
+  }
+}

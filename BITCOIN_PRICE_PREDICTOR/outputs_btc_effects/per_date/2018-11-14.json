@@ -1,0 +1,501 @@
+{
+  "date": "2018-11-14",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n33d50a79d24e",
+      "title": "Bitcoin – Bitcoin Bucks the Trend Early. Will Institutional Money Help?",
+      "url": "https://finance.yahoo.com/news/bitcoin-bitcoin-bucks-trend-early-045412501.html",
+      "summary": "Bitcoin ended the week of September 17, 2018, at $6,500, showing a 3.92% gain that partially reversed a previous week's 14.3% slide. Despite a choppy start to the day, Bitcoin experienced a late reversal, falling through support levels before recovering. The article questions whether institutional money will provide a boost to the cryptocurrency's price, suggesting a potential catalyst for future growth if adoption increases.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "institutional_adoption",
+        "market_sentiment",
+        "price_recovery"
+      ],
+      "rationale": "The mention of institutional money potentially helping Bitcoin suggests a long-term bullish trend if adoption materializes. The price action, while choppy, shows resilience, indicating underlying support."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n6284c96faab2",
+      "title": "When will Bitcoin Come to Life?",
+      "url": "https://finance.yahoo.com/news/bitcoin-come-life-090043176.html",
+      "summary": "Published on November 4, 2018, this article reflects on Bitcoin's 10th anniversary, noting a significant decline in public interest and trading volume compared to the previous year. Google search queries for Bitcoin had reached a record low, down 93%, and trading volumes had plunged. This suggests a period of market maturation and potentially a consolidation phase after the 2017 bull run, with a question mark over future catalysts for renewed interest.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "google_trends",
+        "trading_volume",
+        "market_sentiment",
+        "user_interest"
+      ],
+      "rationale": "The article highlights a significant drop in public interest and trading volume, indicating a bearish sentiment in the short to medium term. However, it also frames this as a reflection on Bitcoin's decade of existence, leaving the long-term outlook uncertain."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nb9bb0c7a4df5",
+      "title": "1 in 3 Londoners Plan to Invest in Crypto, Twice the National Average: Survey",
+      "url": "https://finance.yahoo.com/news/1-3-londoners-plan-invest-151740972.html",
+      "summary": "A September 2018 survey revealed that 30% of Londoners intended to invest in cryptocurrencies, significantly higher than the UK national average of 13%. This increased awareness and interest were attributed to the lucrative returns seen during the 2017 bull run. Such regional adoption trends can indicate broader shifts in investor sentiment and potential future demand for digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "retail_adoption",
+        "investor_sentiment",
+        "geographic_adoption"
+      ],
+      "rationale": "Higher planned investment in a major financial hub like London suggests growing mainstream acceptance and potential for increased capital inflow into the crypto market over time."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n79e6994e9f1a",
+      "title": "Under Pressure, Bitmain Releases Patch to Let Bitcoin Miners Activate ‘Overt AsicBoost’",
+      "url": "https://finance.yahoo.com/news/under-pressure-bitmain-releases-patch-150838758.html",
+      "summary": "In October 2018, mining giant Bitmain released a firmware update enabling 'overt AsicBoost,' a technology that offers significant cost savings for Bitcoin miners. This move came after the verification that their Antminer S9 hardware supported the feature, which had been disabled by default. The update aims to improve mining efficiency, potentially impacting network hashrate and miner profitability.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "asicboost_enablement",
+        "mining_efficiency",
+        "miner_profitability"
+      ],
+      "rationale": "Improved mining efficiency through AsicBoost can lead to increased miner profitability and potentially a higher network hashrate, which is generally a positive signal for Bitcoin's network health and security."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n830877c59437",
+      "title": "‘Rehypothecation’: Inside the Wall Street Practice that Could Ruin Bitcoin",
+      "url": "https://finance.yahoo.com/news/rehypothecation-inside-wall-street-practice-235057940.html",
+      "summary": "This October 2018 article delves into the Wall Street practice of 'rehypothecation' and 'commingling' and its potential implications for the cryptocurrency market. It explores how these practices, which involve the reuse of customer assets, could pose risks to Bitcoin and other cryptocurrencies if they become prevalent in the crypto space without adequate regulation, potentially leading to systemic risks.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "rehypothecation_risk",
+        "commingling_risk",
+        "wall_street_practices",
+        "regulatory_risk"
+      ],
+      "rationale": "The potential introduction of Wall Street's rehypothecation practices into the crypto market, without proper safeguards, could introduce significant systemic risk and volatility, posing a long-term bearish threat."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n9b42a4899ab7",
+      "title": "Battle of the Privacycoins: Verge Offers Little Privacy and Nothing Unique",
+      "url": "https://finance.yahoo.com/news/battle-privacycoins-verge-offers-little-165055709.html",
+      "summary": "Published in September 2018, this article critically examines Verge, a privacy-focused cryptocurrency, suggesting it offers limited privacy and lacks unique features compared to other privacy coins. It highlights the challenges privacy coins face in balancing anonymity with usability and regulatory scrutiny, and how projects failing to deliver on their core promises can lose investor confidence.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "privacycoin_analysis",
+        "verge_project_review",
+        "feature_differentiation"
+      ],
+      "rationale": "While this specific article is about Verge, it touches on the broader theme of privacy in cryptocurrencies. The ongoing development and adoption of privacy-enhancing technologies could have a long-term impact on the crypto market, though the outcome remains uncertain."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n292e52e13188",
+      "title": "Automated Trading Programs Manipulate Crypto Prices, WSJ Says",
+      "url": "https://finance.yahoo.com/news/automated-trading-programs-manipulate-crypto-081100115.html",
+      "summary": "A Wall Street Journal report in October 2018 highlighted that automated trading programs, or bots, are manipulating cryptocurrency prices due to the lack of regulation. These bots employ strategies like 'spoofing' (entering and canceling fake orders) to trick investors. This suggests that market integrity is compromised, potentially leading to increased volatility and reduced trust in the crypto markets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "trading_bots",
+        "market_manipulation",
+        "spoofing",
+        "regulatory_oversight"
+      ],
+      "rationale": "The prevalence of bots manipulating prices due to regulatory gaps points to a systemic issue that could hinder long-term price discovery and investor confidence, suggesting a bearish outlook until addressed."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n4d6f8e711c46",
+      "title": "World’s Largest Crypto Exchange Binance Announces All Listing Fees Will Be Donated to Charity",
+      "url": "https://finance.yahoo.com/news/world-largest-crypto-exchange-binance-110200607.html",
+      "summary": "In October 2018, Binance, the world's largest cryptocurrency exchange, announced it would donate all listing fees to charity and allow developers to name their own fee amount. This move aimed to promote goodwill and maintain high listing standards. While a positive PR move, it could also signal a shift in exchange revenue models and potentially attract more projects, indirectly benefiting the ecosystem.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "binance_listing_policy",
+        "charitable_donations",
+        "exchange_revenue_model"
+      ],
+      "rationale": "Binance's decision to donate listing fees to charity, while not directly impacting price, signals a maturing and socially conscious approach from a major exchange, potentially fostering positive sentiment and broader ecosystem growth."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n3ac9225e1bd5",
+      "title": "Colorado and California Just Elected Pro-Bitcoin Governors",
+      "url": "https://finance.yahoo.com/news/colorado-california-just-elected-pro-174402697.html",
+      "summary": "Following the November 2018 midterm elections, Colorado and California elected governors, Jared Polis and Gavin Newsom respectively, who have shown favorable attitudes towards cryptocurrencies and blockchain technology. Polis had previously accepted bitcoin donations, and Newsom's platform included progressive elements. This development suggests a potential for more crypto-friendly policies at the state level in the US.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "pro_bitcoin_politicians",
+        "state_level_regulation",
+        "political_sentiment"
+      ],
+      "rationale": "The election of governors with pro-crypto stances in key states like California and Colorado could lead to more favorable regulatory environments and increased adoption of blockchain technology, a long-term bullish factor."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n37452313bb49",
+      "title": "Crypto exchange Coinbase opens Dublin office as Brexit looms",
+      "url": "https://finance.yahoo.com/news/crypto-exchange-coinbase-opens-dublin-232303708.html",
+      "summary": "In October 2018, Coinbase opened an office in Dublin to maintain its EU service rights post-Brexit. This strategic move by a major exchange highlights the ongoing impact of geopolitical events on the crypto industry and the need for businesses to adapt to regulatory changes. It signifies continued investment and expansion within Europe, despite Brexit uncertainties.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "coinbase_expansion",
+        "brexit_impact",
+        "eu_regulatory_strategy"
+      ],
+      "rationale": "Coinbase's proactive expansion into Dublin to navigate Brexit demonstrates the crypto industry's adaptation to regulatory landscapes, suggesting continued operational growth and market access in Europe."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n60ef763e9f09",
+      "title": "Newsflash: Crypto Market Cap Drops Below $200 Billion for First Time in November",
+      "url": "https://finance.yahoo.com/news/newsflash-crypto-market-cap-drops-164026146.html",
+      "summary": "On November 14, 2018, the total cryptocurrency market capitalization fell below $200 billion for the first time in November. This occurred ahead of the Bitcoin Cash hard fork. The market had previously reached $220 billion on November 7, with bulls anticipating a breakout above Bitcoin's 200-day moving average, which failed to materialize, leading to a decline.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "market_cap_drop",
+        "200_day_ma_failure",
+        "pre_fork_uncertainty"
+      ],
+      "rationale": "The significant drop in market cap below a key psychological level indicates strong selling pressure and a bearish sentiment in the immediate short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nc7e0603bf596",
+      "title": "Markets See Massive Sell-Off, Bitcoin Dips Below $5,600 for the First Time in 2018",
+      "url": "https://finance.yahoo.com/news/markets-see-massive-sell-off-202900263.html",
+      "summary": "On November 14, 2018, crypto markets experienced a sharp sell-off, with Bitcoin dropping below $5,600 for the first time in 2018. The decline was particularly pronounced between 10:30 a.m. and 12:00 p.m. UTC-5, with top cryptocurrencies falling as much as 18%. Bitcoin reached a low of $5,506, down approximately 11% on the day.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "massive_sell_off",
+        "yearly_low_bitcoin",
+        "crypto_market_downturn"
+      ],
+      "rationale": "The massive sell-off and Bitcoin hitting a new yearly low are strong indicators of immediate bearish momentum and potential for further downside."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n6a93277341bd",
+      "title": "Bitcoin Price Sinks to New Yearly Low as Sell-Off Batters Crypto Markets",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-sinks-yearly-low-212519180.html",
+      "summary": "On November 14, 2018, Bitcoin's price fell to a new yearly low of 5280-fiat, dropping over 12% before the US trading session. This decline breached the 6000-fiat support level, reaching its weakest point since October 2017. The article suggests this 'flash crash' has fundamental reasons beyond technicalities.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "yearly_low_bitcoin",
+        "price_breach_support",
+        "flash_crash"
+      ],
+      "rationale": "The breach of a key support level and the significant price drop to a yearly low indicate strong bearish sentiment and potential for continued downward pressure."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n7e0aaa1874ec",
+      "title": "Ohio Congressman Wants to ‘Eliminate’ SEC Jurisdiciton over Crypto Industry: Report",
+      "url": "https://finance.yahoo.com/news/ohio-congressman-wants-eliminate-sec-222720975.html",
+      "summary": "A report on November 14, 2018, stated that Ohio Rep. Warren Davidson expressed opposition to SEC regulation of the crypto industry, advocating for its elimination. This sentiment from a congressman could influence future regulatory discussions and potentially lead to a more favorable environment for crypto innovation if adopted more broadly.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation"
+      ],
+      "features_for_model": [
+        "sec_jurisdiction_opposition",
+        "congressional_sentiment",
+        "regulatory_uncertainty_reduction"
+      ],
+      "rationale": "A congressman advocating for reduced SEC jurisdiction is a positive signal for the crypto industry, potentially reducing regulatory overhang and encouraging investment, though its immediate impact is limited."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n3d4a86a0c482",
+      "title": "Bitcoin, Ethereum, Ripple, Bitcoin Cash, EOS, Stellar, Litecoin, Cardano, Monero, TRON: Price Analysis, Nov. 14",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-ripple-bitcoin-cash-211800711.html",
+      "summary": "On November 14, 2018, cryptocurrencies faced a renewed bear attack after months of stability, with total market capitalization dipping below $188 billion. The article notes that this sell-off after a period of range-bound trading is a negative sign, indicating sellers have gained control.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "renewed_bear_attack",
+        "market_cap_below_188b",
+        "sellers_gain_control"
+      ],
+      "rationale": "The analysis clearly indicates a shift to bearish momentum across the market, with sellers taking control after a period of consolidation, suggesting further price declines."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nfe33cc32fe58",
+      "title": "IMF Head Makes Case for Central Bank Digital Currencies In Recent Speech",
+      "url": "https://finance.yahoo.com/news/imf-head-makes-case-central-193811640.html",
+      "summary": "In a November 14, 2018 speech, IMF head Christine Lagarde suggested that central banks should consider issuing digital currencies. She highlighted the potential benefits of digital currencies for the digital economy. This statement from a major international financial institution head indicates a growing institutional interest in digital currency concepts, potentially influencing future adoption and regulation.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "imf_cbdc_advocacy",
+        "central_bank_digital_currency",
+        "institutional_interest_digital_currency"
+      ],
+      "rationale": "The IMF head's endorsement of CBDCs signals a potential shift in how central banks view digital currencies, which could indirectly legitimize and drive innovation in the broader digital asset space."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n5cc83907b058",
+      "title": "Op Ed: Anatomy of the Tether Attack: Are Stablecoins Vulnerable?",
+      "url": "https://finance.yahoo.com/news/op-ed-anatomy-tether-attack-155044300.html",
+      "summary": "This opinion piece from November 14, 2018, analyzes the attack on Tether in October, where its peg to the USD broke, causing a 7% drop but simultaneously boosting Bitcoin and the crypto market by over 10%. It questions the vulnerability of stablecoins and the potential for such attacks to influence market dynamics.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "tether_attack_analysis",
+        "stablecoin_vulnerability",
+        "market_impact_of_stablecoin_depeg"
+      ],
+      "rationale": "The vulnerability of stablecoins like Tether, and the market's reaction to its de-pegging, highlights potential systemic risks and volatility drivers within the crypto ecosystem."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nc106cb6917e0",
+      "title": "'Crypto civil war' slams bitcoin, but it won't last, says BKCM's Brian Kelly",
+      "url": "https://finance.yahoo.com/news/apos-crypto-civil-war-apos-235600408.html",
+      "summary": "On November 14, 2018, cryptocurrency fund manager Brian Kelly stated that Bitcoin's recent volatility, which he attributed to concerns over the Bitcoin Cash hard fork, would not last. He noted that traders were worried about potential chaos or slowdowns after the software upgrade, causing Bitcoin prices to tank more than 10%.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "protocol",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bitcoin_cash_fork_impact",
+        "crypto_civil_war",
+        "market_volatility"
+      ],
+      "rationale": "The 'crypto civil war' related to the Bitcoin Cash fork is causing significant short-term volatility. While Kelly believes it's temporary, the immediate impact is bearish due to market uncertainty."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd7d2590636f8",
+      "title": "Bitcoin drops to one-year low as slump persists; ethereum down sharply",
+      "url": "https://finance.yahoo.com/news/bitcoin-extends-losses-drops-lowest-171247935.html",
+      "summary": "On November 14, 2018, Bitcoin fell to a more than one-year low, breaching the $6,000 support level and triggering a wave of selling across crypto assets. The slump, which began early in the year, saw Bitcoin reach $5,533.09 on Bitstamp, down 9% to $5,690.47. Analysts noted consolidation and downside price movement in the preceding days.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "one_year_low_bitcoin",
+        "support_breach_6000",
+        "prolonged_slump"
+      ],
+      "rationale": "The breach of a critical support level and the persistent slump indicate strong bearish momentum, suggesting further price declines in the immediate short term."
+    },
+    {
+      "pick_idx": 33,
+      "id": "ndb622adfafdc",
+      "title": "Bloodbath: Crypto Market Drops in $8B Wipeout; Bitcoin Cash Down 24.4% in 1 Week",
+      "url": "https://finance.yahoo.com/news/bloodbath-crypto-market-drops-8b-120027126.html",
+      "summary": "On November 14, 2018, the crypto market experienced an $8 billion wipeout in 12 hours, with Bitcoin Cash (BCH) down 24.4% in a week. BCH fell below $500, down from a monthly high of $630. This significant downturn, especially for BCH ahead of its hard fork, reflects heightened market fear and selling pressure.",
+      "impact_horizon_days": 4,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "liquidity",
+        "protocol"
+      ],
+      "features_for_model": [
+        "8b_market_wipeout",
+        "bch_price_drop",
+        "pre_fork_selloff"
+      ],
+      "rationale": "The substantial market wipeout and significant drop in Bitcoin Cash price, particularly ahead of its hard fork, point to strong bearish sentiment and potential for continued downward price action."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-11-14",
+    "summary": "The crypto market is experiencing a significant downturn today, with Bitcoin hitting a new yearly low below $5,600 and the total market cap dropping below $200 billion. This broad sell-off is attributed to a combination of factors including the impending Bitcoin Cash hard fork, which is creating uncertainty and volatility, and a general risk-off sentiment in global markets. Despite some positive long-term signals like institutional interest and regulatory developments, the immediate outlook remains bearish due to the prevailing selling pressure and technical breakdowns.",
+    "scenario_probs": {
+      "bull": 0.15,
+      "base": 0.35,
+      "bear": 0.5
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued selling pressure driven by the Bitcoin Cash hard fork uncertainty.",
+      "Breach of key support levels leading to further technical breakdowns.",
+      "Broader macroeconomic factors contributing to risk-off sentiment.",
+      "Potential for further negative news or regulatory crackdowns.",
+      "Liquidity drying up as sellers dominate the market."
+    ],
+    "watch_items": [
+      "Bitcoin Cash hard fork outcome (Nov 15th)",
+      "Key support/resistance levels for BTC ($5,500, $6,000)",
+      "Overall market sentiment and trading volumes",
+      "Statements from major financial institutions regarding digital assets",
+      "Developments in regulatory discussions (e.g., SEC jurisdiction)"
+    ]
+  }
+}

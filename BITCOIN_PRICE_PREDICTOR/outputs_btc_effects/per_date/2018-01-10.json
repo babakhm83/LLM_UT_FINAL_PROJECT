@@ -1,0 +1,495 @@
+{
+  "date": "2018-01-10",
+  "long_term": [
+    {
+      "pick_idx": 12,
+      "id": "nd63c613b7eca",
+      "title": "Bitcoin Surges Above $12,000 For the First Time",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-above-12-000-064826620.html",
+      "summary": "Bitcoin broke above $12,000 for the first time, reaching a record high. This surge was partly attributed to the U.S. derivatives regulator allowing CME Group and CBOE Global Markets to list bitcoin futures contracts. This move is seen as a step towards greater regulation and mainstream adoption, making it easier to trade bitcoin as an asset class.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "bitcoin_futures_launch",
+        "price_milestone_12k"
+      ],
+      "rationale": "The approval of Bitcoin futures by major exchanges like CME and CBOE signals increasing institutional acceptance and provides a regulated avenue for investment. This legitimizes Bitcoin as an asset class and is likely to drive further adoption and price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n436a0bd94a60",
+      "title": "Bitcoin futures start trading on CBOE exchange",
+      "url": "https://finance.yahoo.com/news/bitcoin-futures-start-trading-cboe-exchange-235536580--finance.html",
+      "summary": "Bitcoin futures began trading on the CBOE Futures Exchange, marking a significant new way for investors to bet on the cryptocurrency's price movements. The initial trading saw January futures at $15,940, with a notable number of contracts traded shortly after opening. These futures are cash-settled, based on the Gemini Exchange's auction price.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "CBOE_bitcoin_futures_launch",
+        "institutional_access"
+      ],
+      "rationale": "The launch of Bitcoin futures on a major exchange like CBOE is a critical development for institutional adoption. It provides a regulated and accessible way for larger players to gain exposure, which is expected to increase liquidity and price stability over the long term."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n9ed49fd4a4be",
+      "title": "French finance minister calls for bitcoin regulation debate at G20",
+      "url": "https://finance.yahoo.com/news/french-finance-minister-calls-bitcoin-regulation-debate-g20-204714576--sector.html",
+      "summary": "France's Finance Minister Bruno Le Maire announced plans to propose a discussion on bitcoin regulation at the G20 summit in April. He cited the risk of speculation and the need for a coordinated approach among G20 members to regulate the virtual currency. This signals a growing international focus on establishing regulatory frameworks for cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "G20_regulation_discussion",
+        "international_regulatory_coordination"
+      ],
+      "rationale": "The call for G20 discussion on Bitcoin regulation indicates a growing global consensus on the need for oversight. While the outcome is uncertain, it suggests a move towards more structured regulatory environments, which could impact market development and investor confidence over the next couple of years."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n7994db8180c4",
+      "title": "SEC/NASAA Ring in 2018 by Hinting at Need for (More) Cryptocurrency Regulation",
+      "url": "https://finance.yahoo.com/news/sec-nasaa-ring-2018-hinting-205122763.html",
+      "summary": "Key figures from the U.S. Securities and Exchange Commission (SEC) and the North American Securities Administrators Association (NASAA) have endorsed concerns about cryptocurrencies and ICOs. They are urging \"more\" regulation, signaling a proactive stance from U.S. regulators in addressing risks associated with digital assets and their related investment products.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_NASAA_regulation_focus",
+        "crypto_oversight_expansion"
+      ],
+      "rationale": "The explicit statements from SEC and NASAA officials highlight a clear intent to increase regulatory scrutiny on cryptocurrencies. This could lead to stricter enforcement and new rules, impacting how digital assets are offered and traded, with potential for both positive (investor protection) and negative (stifled innovation) consequences."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n2f4b35023ae3",
+      "title": "Hackers steal $64 million from cryptocurrency firm NiceHash",
+      "url": "https://finance.yahoo.com/news/hackers-steal-64-million-cryptocurrency-firm-nicehash-173410268--finance.html",
+      "summary": "Slovenian cryptocurrency marketplace NiceHash reported a hack resulting in the loss of approximately $64 million worth of bitcoin. This incident underscores the significant security risks within the booming digital currency sector due to uneven oversight. It's the latest in a series of high-profile exchange hacks, including the past collapse of Mt. Gox.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "hack/outage",
+        "security",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "NiceHash_hack",
+        "exchange_security_breach",
+        "bitcoin_loss_64M"
+      ],
+      "rationale": "Major security breaches like the NiceHash hack erode investor confidence and highlight the inherent risks in the crypto ecosystem. Such events can lead to temporary price drops and increased scrutiny on exchange security, potentially impacting liquidity and market sentiment."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n5ef4d4079737",
+      "title": "Bitcoin cash soars above $3,000 after Coinbase says it will offer trading of the cryptocurrency",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-soars-above-3-011159206.html",
+      "summary": "Bitcoin Cash experienced a significant price surge, exceeding $3,000, following Coinbase's announcement that it would enable trading of the cryptocurrency on its platform. This move by a major exchange significantly boosted Bitcoin Cash's visibility and accessibility, marking a new all-time high for the asset.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "listing",
+        "exchange_listing"
+      ],
+      "features_for_model": [
+        "Coinbase_listing_BCH",
+        "altcoin_surge",
+        "exchange_listing_impact"
+      ],
+      "rationale": "The listing of Bitcoin Cash on a prominent exchange like Coinbase is a major catalyst for adoption and price appreciation. It provides increased liquidity and accessibility for a wider range of investors, driving demand and potentially influencing the performance of other altcoins."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nb1713fd54d16",
+      "title": "Explainer: Ripple and XRP",
+      "url": "https://finance.yahoo.com/news/ripple-xrp-everything-need-know-164535965.html",
+      "summary": "The article explains Ripple and its settlement token XRP, highlighting XRP's extraordinary 32,377% rise in 2017, far surpassing Bitcoin, Litecoin, and Ether. It notes XRP's growth from $0.01 to over $1 within the year, positioning it as a significant player in the burgeoning cryptocurrency market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "XRP_growth_2017",
+        "Ripple_adoption",
+        "altcoin_performance"
+      ],
+      "rationale": "The massive growth of XRP in 2017, driven by Ripple's focus on institutional adoption for cross-border payments, suggests a strong underlying demand. Continued partnerships and development could sustain this trend, making XRP a significant long-term contender."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nf5b132087257",
+      "title": "Bitcoin is a 'dangerous speculative bubble,' Yale expert says",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-dangerous-speculative-bubble-024041201.html",
+      "summary": "Stephen Roach, a Yale University senior fellow and former Morgan Stanley chief economist, described Bitcoin as a \"dangerous speculative bubble\" as its price approached $12,000. He warned investors about the toxic nature of such concepts, drawing on his extensive experience as an influential economist.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Yale_expert_bubble_call",
+        "speculative_warning"
+      ],
+      "rationale": "High-profile warnings from respected economists like Stephen Roach can influence market sentiment, potentially leading to increased caution or selling pressure. While not a direct market event, such commentary contributes to the ongoing debate about Bitcoin's valuation and sustainability."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n9a5b7c61563c",
+      "title": "Gundlach says if you bet against bitcoin today 'you'll make money'",
+      "url": "https://finance.yahoo.com/news/gundlach-says-bet-against-bitcoin-175534182.html",
+      "summary": "Jeffrey Gundlach, CEO of DoubleLine Capital, expressed skepticism about Bitcoin speculation, calling it \"nutty stuff\" with little underlying analysis. He advised that shorting Bitcoin today would be profitable, though he acknowledged its potential to go higher. Gundlach stated he does not own Bitcoin and doubts the legitimacy of cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Gundlach_short_bitcoin",
+        "skeptic_sentiment"
+      ],
+      "rationale": "Prominent investors like Jeffrey Gundlach voicing bearish sentiments can sway market participants. His view that shorting Bitcoin would be profitable, despite acknowledging potential upside, adds to the narrative of Bitcoin being a highly speculative asset, potentially impacting investor behavior."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n2795d6fad395",
+      "title": "Bitcoin Faces Bear Move as Price Drops Toward $15K",
+      "url": "https://finance.yahoo.com/news/bitcoin-faces-bearish-move-prices-121017597.html",
+      "summary": "Bitcoin's price weakened, falling below $17,000 over the weekend and hitting a low of $15,253. The cryptocurrency depreciated by 8.86% in 24 hours. Fears of a Chinese crackdown on Bitcoin mining, including potential withdrawal of discounted electricity and tax deductions, were cited as a possible reason for the weakened bid tone.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "miner"
+      ],
+      "features_for_model": [
+        "BTC_price_drop_15k",
+        "China_mining_crackdown_rumors"
+      ],
+      "rationale": "Reports of potential regulatory action in China against Bitcoin mining, such as the withdrawal of electricity subsidies, can create significant downward pressure. This news directly impacts the cost and feasibility of mining, a fundamental aspect of Bitcoin's network, leading to bearish sentiment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 12,
+      "id": "neb0266588376",
+      "title": "Buffett says he will never invest in cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/buffett-says-never-invest-cryptocurrencies-140657883.html",
+      "summary": "Warren Buffett stated he will never invest in cryptocurrencies, predicting they will \"come to a bad end.\" His comments follow Jamie Dimon's regret over calling Bitcoin a fraud. Buffett's stance adds to the ongoing debate on Wall Street about the legitimacy of cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_no_crypto",
+        "bad_ending_prediction"
+      ],
+      "rationale": "Warren Buffett's strong bearish statement on cryptocurrencies, given his influence, can create negative sentiment and potentially trigger short-term selling pressure as investors react to his prediction of a 'bad end'."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nc1e6fb233c0a",
+      "title": "Buffett says he will never invest in cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/buffett-says-never-invest-cryptocurrencies-141139777--sector.html",
+      "summary": "Warren Buffett reiterated his stance against investing in cryptocurrencies, stating they will \"come to a bad end.\" His comments were made during an interview with CNBC, adding to the ongoing discussion about the future of digital assets and the divide on Wall Street regarding their legitimacy.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_crypto_warning",
+        "institutional_skepticism"
+      ],
+      "rationale": "Similar to the previous entry, Buffett's influential opinion against cryptocurrencies can negatively impact short-term market sentiment, potentially leading to a dip in prices as traders digest his strong warning."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n3d1d2c51aac8",
+      "title": "Bitcoin: Warren Buffett warns cryptocurrency craze 'will come to a bad ending'",
+      "url": "https://finance.yahoo.com/news/bitcoin-warren-buffet-warns-cryptocurrency-211135432.html",
+      "summary": "Warren Buffett expressed certainty that the cryptocurrency craze will \"come to a bad ending,\" advising against investment. His remarks come as Bitcoin reached record highs, sparking intense interest from both amateur and institutional investors, including Goldman Sachs reportedly setting up a trading desk.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_bad_ending_bitcoin",
+        "investor_caution"
+      ],
+      "rationale": "Buffett's strong prediction of a negative outcome for cryptocurrencies, amplified by media coverage, is likely to create a short-term bearish sentiment, potentially leading to profit-taking or a pause in upward momentum."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n28777e8a20ed",
+      "title": "Bitcoin: Warren Buffett warns cryptocurrency craze 'will come to a bad ending'",
+      "url": "https://finance.yahoo.com/news/bitcoin-warren-buffet-warns-cryptocurrency-211135330.html",
+      "summary": "Warren Buffett stated that the cryptocurrency craze \"will come to a bad ending,\" advising against any investment in the sector. His comments, made during a CNBC interview, come amid significant interest in Bitcoin and other digital currencies from various investor segments.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_crypto_doom",
+        "market_sentiment_impact"
+      ],
+      "rationale": "The repetition of Buffett's bearish outlook reinforces its potential impact. This consistent messaging from a highly respected investor can contribute to a short-term downturn or increased volatility as the market digests the negative sentiment."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n0f5aa4c4a0aa",
+      "title": "Warren Buffett says bitcoin 'definitely will come to a bad ending'",
+      "url": "https://finance.yahoo.com/news/warren-buffett-says-bitcoin-apos-135500991.html",
+      "summary": "Berkshire Hathaway CEO Warren Buffett declared that cryptocurrencies \"will come to a bad ending\" and confirmed his firm would never invest in them. He expressed a lack of interest in the cryptocurrency bandwagon, highlighting his firm's avoidance of such assets.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_no_crypto_position",
+        "certainty_of_failure"
+      ],
+      "rationale": "Buffett's definitive statement about cryptocurrencies 'definitely' coming to a bad end, coupled with his firm's complete avoidance, adds significant weight to the bearish narrative and could trigger short-term selling pressure."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n3d1d2c51aac8",
+      "title": "Bitcoin: Warren Buffett warns cryptocurrency craze 'will come to a bad ending'",
+      "url": "https://finance.yahoo.com/news/bitcoin-warren-buffet-warns-cryptocurrency-211135432.html",
+      "summary": "Warren Buffett is not investing in the cryptocurrency craze, predicting a negative outcome. His comments, made during a CNBC interview, come as Bitcoin's price surged, attracting significant interest from both retail and institutional investors, with Goldman Sachs reportedly exploring a trading desk.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_crypto_doom_prediction",
+        "institutional_caution"
+      ],
+      "rationale": "The consistent messaging from Warren Buffett regarding the inevitable negative outcome of the crypto craze is a significant bearish signal that could influence short-term market sentiment and potentially lead to price corrections."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n9063137be839",
+      "title": "Kodak shares have more than tripled since company announced its new cryptocurrency 'KodakCoin'",
+      "url": "https://finance.yahoo.com/news/kodak-shares-more-tripled-since-153513636.html",
+      "summary": "Eastman Kodak's stock has surged over 57% after announcing plans for its own cryptocurrency, KodakCoin, and a blockchain-based photo rights platform. The company's stock more than doubled on Tuesday, indicating strong investor enthusiasm for its pivot into the blockchain space.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "listing",
+        "blockchain_hype"
+      ],
+      "features_for_model": [
+        "Kodak_KodakCoin_launch",
+        "stock_surge_blockchain_pivot",
+        "corporate_crypto_adoption"
+      ],
+      "rationale": "Kodak's stock price tripling after announcing KodakCoin demonstrates the significant market impact of companies adopting blockchain technology. This 'blockchain hype' can drive short-term price increases for companies involved, even if the underlying utility is speculative."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nb6ea0175d3bf",
+      "title": "Kodak jumps over 70% a day after jumping on the blockchain bandwagon (KODK)",
+      "url": "https://finance.yahoo.com/news/kodak-jumps-over-70-day-141032612.html",
+      "summary": "Kodak's stock experienced a significant spike, jumping over 70% after the company announced its blockchain initiative, KodakCoin, aimed at managing image rights for photographers. The stock saw an even larger surge of up to 136% the previous day, highlighting investor excitement for its move into the crypto space.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "blockchain_hype",
+        "stock_performance",
+        "corporate_crypto_adoption"
+      ],
+      "features_for_model": [
+        "Kodak_blockchain_spike",
+        "KodakCoin_impact",
+        "corporate_crypto_play"
+      ],
+      "rationale": "The substantial stock price increase for Kodak following its blockchain announcement illustrates the market's current enthusiasm for companies integrating crypto or blockchain technology. This 'blockchain bandwagon' effect can lead to rapid, albeit potentially short-lived, price surges."
+    },
+    {
+      "pick_idx": 30,
+      "id": "neaa566873399",
+      "title": "Why These Blockchain Stocks Are Soaring Today",
+      "url": "https://finance.yahoo.com/news/why-blockchain-stocks-soaring-today-175948205.html",
+      "summary": "Shares of Eastman Kodak, Seven Stars Cloud Group, and Cogint Inc. surged due to blockchain-related announcements. Kodak and Cogint recently joined the trend, while Seven Stars made its first blockchain move in September, indicating a broader market trend of companies leveraging blockchain for stock price gains.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "blockchain_hype",
+        "stock_performance",
+        "corporate_crypto_adoption"
+      ],
+      "features_for_model": [
+        "blockchain_stock_surge",
+        "Kodak_SSC_COGT_rally",
+        "corporate_blockchain_announcements"
+      ],
+      "rationale": "The widespread surge in stocks associated with blockchain announcements, like Kodak's, highlights a speculative trend. Investors are actively seeking out companies that adopt blockchain, driving short-term price increases irrespective of the fundamental value of the blockchain implementation."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n4ba2612247f3",
+      "title": "MORGAN STANLEY: Bitcoin could use more energy than Argentina this year",
+      "url": "https://finance.yahoo.com/news/morgan-stanley-bitcoin-could-more-155001498.html",
+      "summary": "Morgan Stanley projects that Bitcoin mining could consume more electricity in 2018 than Argentina, and potentially more than electric vehicle demand in 2025. This high energy consumption could represent 0.6% of global consumption and necessitate adaptations from utility companies.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "infrastructure",
+        "environment"
+      ],
+      "features_for_model": [
+        "BTC_energy_consumption_projection",
+        "Morgan_Stanley_report",
+        "environmental_impact_concern"
+      ],
+      "rationale": "Morgan Stanley's projection on Bitcoin's energy consumption, while a longer-term concern, can create short-term negative sentiment. It fuels the narrative around Bitcoin's environmental impact and regulatory scrutiny, potentially affecting investor perception."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-01-10",
+    "summary": "The market is dominated by significant bearish sentiment from influential figures like Warren Buffett, who predicts a negative end for cryptocurrencies. This is contrasted by continued 'blockchain hype' driving up stocks of companies like Kodak that announce crypto initiatives. Meanwhile, regulatory discussions are ongoing globally, with France calling for G20 talks, and US regulators hinting at more oversight. Bitcoin's price is under pressure, partly due to fears of Chinese mining crackdowns, while some altcoins like Ethereum and Bitcoin Cash are showing resilience.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Continued negative sentiment from prominent investors like Buffett could trigger further price declines.",
+      "Increased regulatory scrutiny from US agencies (SEC/NASAA) and international bodies (G20) could lead to market uncertainty.",
+      "Geopolitical factors, such as potential Chinese crackdowns on mining, pose a significant risk to network operations and price.",
+      "The 'blockchain hype' driving non-crypto companies' stock prices could be a short-term bubble that bursts, leading to broader market contagion.",
+      "The high energy consumption of Bitcoin mining is becoming a more prominent concern, potentially attracting regulatory attention."
+    ],
+    "watch_items": [
+      "Warren Buffett's ongoing commentary on crypto.",
+      "Developments in G20 regulatory discussions.",
+      "SEC and NASAA statements on crypto regulation.",
+      "China's stance and actions regarding cryptocurrency mining.",
+      "Performance of companies announcing blockchain initiatives (e.g., Kodak).",
+      "Price action and volatility of major cryptocurrencies (BTC, ETH, XRP)."
+    ]
+  }
+}

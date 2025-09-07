@@ -1,0 +1,470 @@
+{
+  "date": "2022-12-27",
+  "long_term": [
+    {
+      "pick_idx": 5,
+      "id": "n849ef5e969a9",
+      "title": "GLOBAL MARKETS-Shares jump, dollar falls after cooler-than-expected U.S. inflation",
+      "url": "https://finance.yahoo.com/news/global-markets-shares-jump-dollar-142640667.html",
+      "summary": "Cooler-than-expected U.S. inflation data in October, with CPI rising 0.4% and core CPI up 0.3%, has led to expectations that the Federal Reserve may temper its aggressive rate hike program. This has resulted in a jump in U.S. share futures and European shares, a fall in U.S. and European government bond yields, and a recovery in Bitcoin, although the broader crypto market remains on edge. The data suggests a potential shift in monetary policy that could be beneficial for risk assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "US_inflation_CPI",
+        "Fed_rate_hike_expectations",
+        "risk_on_sentiment"
+      ],
+      "rationale": "Cooler inflation data reduces the pressure on the Federal Reserve to aggressively hike interest rates, which is generally positive for risk assets like Bitcoin. This macro shift can lead to increased investor confidence and capital inflow into the crypto market over the medium term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nf7d6bd280483",
+      "title": "Fundstrat saw Bitcoin hitting $200,000 before it fell to $16,000. Here’s why they’re still hopeful after a ‘horrific year’ for crypto",
+      "url": "https://finance.yahoo.com/news/fundstrat-saw-bitcoin-hitting-200-190222123.html",
+      "summary": "Despite a 'horrific year' for crypto, Fundstrat remains optimistic about Bitcoin's long-term prospects, having previously predicted a $200,000 price target. The firm acknowledges the significant downturn from Bitcoin's peak of $70,000 to its current trading price around $16,000, exacerbated by events like the FTX collapse. This resilience in outlook from a prominent analyst firm suggests a belief in the underlying value and future growth potential of Bitcoin, despite short-term market turmoil.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Fundstrat_outlook",
+        "Bitcoin_price_target",
+        "crypto_winter_sentiment"
+      ],
+      "rationale": "Strong long-term price targets from influential analysts like Fundstrat can influence market sentiment and attract institutional capital. This indicates a belief in Bitcoin's fundamental value proposition, suggesting potential for significant price appreciation over the next couple of years."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n4a13414299b0",
+      "title": "FOREX-Dollar set for biggest two-day fall since 2009 as rate outlook shifts",
+      "url": "https://finance.yahoo.com/news/forex-dollar-set-biggest-two-135245575.html",
+      "summary": "The dollar is experiencing its largest two-day drop since 2009, driven by a cooler U.S. inflation reading (7.7% year-on-year in October) that has tempered expectations for rapid Federal Reserve rate hikes. This shift in monetary policy outlook is prompting investors to move into riskier assets, including cryptocurrencies. The easing of China's COVID curbs also contributes to improved risk appetite.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "USD_weakness",
+        "Fed_pivot_expectations",
+        "risk_on_sentiment"
+      ],
+      "rationale": "A weakening dollar typically correlates with increased liquidity and risk appetite, which can flow into assets like Bitcoin. The shift in Fed expectations away from aggressive hikes is a key driver for this trend, potentially boosting crypto prices over the coming months."
+    },
+    {
+      "pick_idx": 21,
+      "id": "ncbfb01d63093",
+      "title": "Congressman Brad Sherman Takes Aim at ‘Billionaire Crypto Bros’ for Slowing Regulation",
+      "url": "https://finance.yahoo.com/news/congressman-brad-sherman-takes-aim-105643784.html",
+      "summary": "Congressman Brad Sherman has criticized the crypto industry, particularly 'billionaire crypto bros,' for lobbying against meaningful regulation following the FTX collapse. He highlights the significant political donations made by figures like FTX CEO Sam Bankman-Fried. This sentiment indicates a growing political will to implement stricter regulations in the crypto space, which could impact industry growth and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "crypto_regulation_advocacy",
+        "Sherman_criticism",
+        "FTX_fallout_impact"
+      ],
+      "rationale": "Increased calls for regulation, especially after major collapses like FTX, can create uncertainty and potentially stifle innovation or adoption in the short to medium term. However, clear regulations could also foster greater institutional trust in the long run."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n6bd7945d563b",
+      "title": "UPDATE 6-Crypto lender BlockFi files for bankruptcy, cites FTX exposure",
+      "url": "https://finance.yahoo.com/news/1-crypto-lender-blockfi-files-153127132.html",
+      "summary": "Crypto lender BlockFi has filed for Chapter 11 bankruptcy protection, citing exposure to the FTX exchange's collapse. This filing marks another casualty in the crypto industry following the FTX implosion, highlighting the interconnectedness and fragility of some crypto businesses. The continued bankruptcies and fallout from FTX are likely to weigh on market sentiment and investor confidence.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "legal"
+      ],
+      "features_for_model": [
+        "BlockFi_bankruptcy",
+        "FTX_contagion",
+        "crypto_lender_risk"
+      ],
+      "rationale": "The bankruptcy of another significant crypto lender like BlockFi, directly linked to the FTX failure, reinforces negative sentiment and liquidity concerns within the industry. This can lead to further price declines and a cautious approach from investors."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n0b406e9de55a",
+      "title": "Bitcoin Custody Firm Casa to Add Ethereum Support",
+      "url": "https://finance.yahoo.com/news/bitcoin-custody-firm-casa-add-140000721.html",
+      "summary": "Casa, a well-known Bitcoin self-custody firm, is expanding its services to include Ethereum support. This move, set to launch in January with an overhauled app, signifies a broader acceptance and integration of other major cryptocurrencies within the infrastructure supporting digital assets. It suggests a growing maturity in the crypto ecosystem, where specialized firms are broadening their offerings to cater to a wider range of digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Casa_ETH_support",
+        "custody_service_expansion",
+        "multi_asset_support"
+      ],
+      "rationale": "The expansion of a reputable Bitcoin custody firm into Ethereum support indicates a growing demand for secure multi-asset solutions. This can attract more institutional and sophisticated investors who require robust custody for various digital assets."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n14d22bb9645d",
+      "title": "‘Hyperbitcoinization’ Is a Few Years Away, Predicts Samson Mow",
+      "url": "https://finance.yahoo.com/news/hyperbitcoinization-few-years-away-predicts-155413093.html",
+      "summary": "Samson Mow, a prominent figure in the Bitcoin community, predicts 'hyperbitcoinization' to be a few years away. He notes that some governments, like the UK and Portugal, are warming up to Bitcoin, following El Salvador and the Central African Republic's adoption. This long-term bullish outlook from an influential advocate suggests a belief in Bitcoin's eventual widespread adoption and dominance as a global currency.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "hyperbitcoinization_prediction",
+        "Samson_Mow_outlook",
+        "nation_state_adoption"
+      ],
+      "rationale": "The concept of 'hyperbitcoinization,' where Bitcoin becomes the dominant global currency, represents a highly bullish long-term scenario. Predictions from influential figures like Samson Mow, coupled with increasing governmental interest, suggest a potential pathway for this future, driving long-term investment interest."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nb68927be7ee8",
+      "title": "Independent Audit Confirms Binance’s Bitcoin Is More Than Fully Backed",
+      "url": "https://finance.yahoo.com/news/independent-audit-confirms-binance-bitcoin-194656680.html",
+      "summary": "An independent audit by Mazars has confirmed that Binance holds more Bitcoin than required to cover customer deposits, reporting a 101% collateralization ratio. This positive assurance regarding the reserves of one of the largest exchanges can help restore confidence in the market, especially after the FTX crisis. Transparency in reserves is crucial for the stability and trust in centralized crypto platforms.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Binance_proof_of_reserves",
+        "audit_confirmation",
+        "exchange_stability"
+      ],
+      "rationale": "Positive proof-of-reserves from a major exchange like Binance can alleviate concerns about solvency and counterparty risk, which have been heightened by recent events. This can lead to increased trust and potentially more capital flowing into exchanges and the broader market."
+    },
+    {
+      "pick_idx": 40,
+      "id": "nf06e9362d4d0",
+      "title": "GLOBAL MARKETS-Asia shares pause as Fed warns against exuberance",
+      "url": "https://finance.yahoo.com/news/global-markets-asia-shares-pause-001841074.html",
+      "summary": "Asian stock markets are pausing after a rally, as a Federal Reserve official cautioned against exuberance following a single inflation miss. Bond yields and the dollar saw a slight increase. Beijing's property support and COVID measures, along with an upcoming Biden-Xi meeting at the G20, are also influencing market sentiment. The cautious tone from the Fed suggests that while inflation may be easing, a definitive pivot is not yet guaranteed.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fed_caution",
+        "Asian_market_sentiment",
+        "geopolitical_factors"
+      ],
+      "rationale": "The Fed's cautious stance and warning against exuberance create uncertainty for risk assets. While positive news from China is supportive, the overall market sentiment remains sensitive to monetary policy signals, making short-term price action for Bitcoin potentially volatile."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n95d5ef50f21f",
+      "title": "Bitcoin Mining Firm TeraWulf Raises $10M in New Capital to Repay Some of Its Debts",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-firm-terawulf-raises-150316218.html",
+      "summary": "Bitcoin miner TeraWulf has raised approximately $10 million through a registered direct offering and convertible notes to repay debts. The company also plans to purchase new miners from Bitmain. This capital raise and restructuring indicate efforts by mining firms to strengthen their financial positions amidst challenging market conditions, which is crucial for their operational continuity and future growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "TeraWulf_capital_raise",
+        "miner_debt_restructuring",
+        "Bitmain_miner_purchase"
+      ],
+      "rationale": "Successful capital raises by mining companies like TeraWulf to manage debt and upgrade infrastructure are positive signs for the network's health. It suggests that even in a bear market, key infrastructure players are finding ways to sustain and improve operations, which is indirectly supportive of Bitcoin's long-term value."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "n04e517318fab",
+      "title": "FOREX-Dollar retreats as risk appetite improves; Australia, NZ currencies rise",
+      "url": "https://finance.yahoo.com/news/forex-dollar-retreats-risk-appetite-011034756.html",
+      "summary": "The dollar is broadly lower as risk appetite improves, with Australian and New Zealand currencies rising. This is attributed to China's announcement to scrap COVID quarantine rules for inbound travelers, a significant step towards easing border curbs. The positive sentiment in broader markets could spill over into crypto.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_weakness",
+        "China_reopening_sentiment",
+        "risk_on_appetite"
+      ],
+      "rationale": "Improved risk appetite and a weaker dollar typically correlate with positive price action in Bitcoin. China's reopening news is a significant catalyst for global sentiment, potentially boosting crypto markets in the very short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n607504900957",
+      "title": "TWT, Terra, and Solana headline 2022's top cryptocurrency gainers and losers lists",
+      "url": "https://finance.yahoo.com/news/twt-terra-solana-headline-2022s-043518090.html",
+      "summary": "As 2022 concludes, the crypto market has largely been under selling pressure. Trust Wallet Token (TWT) is highlighted as one of the few gainers in the top 100 cryptocurrencies. This indicates a divergence in performance within the crypto market, with specific tokens showing resilience or growth despite the overall bearish trend.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "TWT_performance",
+        "crypto_market_divergence",
+        "year_end_review"
+      ],
+      "rationale": "While TWT's performance is noted, the overall context of a bearish market and the mention of Terra (a failed project) and Solana (which has faced significant issues) suggest that this is more of a year-end review than a forward-looking catalyst. It doesn't provide a strong directional signal for Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n1c858a6f3b19",
+      "title": "Japan Mulls Reversing Ban on Foreign-Issued Stablecoins: Report",
+      "url": "https://finance.yahoo.com/news/japan-mulls-reversing-ban-foreign-163325638.html",
+      "summary": "Japan's Financial Services Agency is considering a framework for circulating foreign-issued stablecoins, requiring sufficient collateral. This potential regulatory shift could open up new avenues for stablecoin adoption and usage within Japan, which may indirectly benefit the broader crypto market by increasing accessibility and regulatory clarity.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Japan_stablecoin_regulation",
+        "FSA_framework",
+        "collateral_requirements"
+      ],
+      "rationale": "Regulatory clarity and potential adoption of stablecoins in a major economy like Japan can be a positive signal for the crypto market. It suggests a move towards more regulated and integrated digital asset frameworks, which could attract more institutional interest."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nf6837a22b27e",
+      "title": "Markets: Bitcoin, Ether rise; XRP leads gains",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-rise-xrp-013853000.html",
+      "summary": "Bitcoin and Ether saw slight increases, with XRP leading gains among the top 10 cryptocurrencies. This indicates a general uptick in the market, with XRP showing particular strength. The news also mentions a drop in the Bitcoin hashrate due to a U.S. storm, which could have implications for mining operations.",
+      "impact_horizon_days": 1,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "liquidity",
+        "miner"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "ETH_price_action",
+        "XRP_outperformance",
+        "Bitcoin_hashrate_drop"
+      ],
+      "rationale": "A slight rise in Bitcoin and Ether prices, coupled with positive momentum in other altcoins, suggests a short-term bullish bias. However, the mention of a hashrate drop due to weather could introduce some volatility."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n15c4beafce03",
+      "title": "Markets: Bitcoin, Ether extend gains; XRP biggest winner in top 10 cryptos",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-extend-gains-095941286.html",
+      "summary": "Bitcoin and Ethereum have extended their gains, with XRP being the top performer among the top 10 cryptocurrencies. This continued upward momentum suggests positive sentiment in the market, with specific altcoins showing strong relative strength. The price action indicates a short-term bullish trend.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_momentum",
+        "ETH_momentum",
+        "XRP_strength",
+        "altcoin_performance"
+      ],
+      "rationale": "The continuation of gains for Bitcoin and Ethereum, along with strong performance from XRP, indicates a positive short-term trend. This suggests that buying pressure is present in the market, potentially leading to further price appreciation."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n3594efc9d8be",
+      "title": "BTC.com hacked, around US$3 mln assets stolen",
+      "url": "https://finance.yahoo.com/news/btc-com-hacked-around-us-040450443.html",
+      "summary": "Blockchain browser and mining pool BTC.com reported a hack resulting in the loss of approximately $2.3 million of its own assets and $700,000 of client assets. The company has reported the incident to law enforcement. This hack, while relatively small in the context of the overall crypto market, can still contribute to negative sentiment and concerns about security.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC.com_hack",
+        "asset_loss",
+        "security_concerns"
+      ],
+      "rationale": "While the amount stolen is not substantial, any security breach can negatively impact market sentiment. This event could lead to increased caution among users and investors regarding the security of crypto platforms."
+    },
+    {
+      "pick_idx": 16,
+      "id": "na27ce8bb2b45",
+      "title": "Stocks and Bitcoin may be down, but gold prices just hit a six-month high above $1,800",
+      "url": "https://finance.yahoo.com/news/stocks-bitcoin-may-down-gold-203057473.html",
+      "summary": "While stocks and Bitcoin have experienced significant declines in 2022, gold prices have reached a six-month high above $1,800, showing a 1.3% increase for the year. This performance is attributed to aggressive interest rate hikes by central banks, which have strengthened the U.S. dollar and U.S. Treasuries, gold's competitors. The resilience of gold suggests a flight to safety, which could indirectly impact Bitcoin's risk-on appeal.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "gold_price_performance",
+        "inflation_hedge",
+        "USD_strength",
+        "interest_rate_hikes"
+      ],
+      "rationale": "Gold's strength as a safe-haven asset in a high-inflation, rising-rate environment could draw capital away from riskier assets like Bitcoin. This suggests a potential headwind for Bitcoin in the short term if investors prioritize capital preservation."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nfee8fbd82c28",
+      "title": "US Probes How $372 Million Vanished in Hack After FTX Bankruptcy",
+      "url": "https://finance.yahoo.com/news/us-probes-372-million-vanished-165000788.html",
+      "summary": "Federal prosecutors are investigating a cybercrime that drained over $370 million from FTX shortly after its bankruptcy filing. This probe is separate from the fraud case against Sam Bankman-Fried. The news highlights ongoing security vulnerabilities and illicit activities within the crypto space, which can further erode investor confidence.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "FTX_hack_investigation",
+        "DOJ_probe",
+        "stolen_assets",
+        "cybercrime_impact"
+      ],
+      "rationale": "The investigation into a significant hack occurring post-FTX bankruptcy reinforces negative sentiment and concerns about security and illicit activities in the crypto market. This could lead to short-term selling pressure as investors react to the news."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nb005c58e41e0",
+      "title": "7 Cryptos to Watch During the Final Days of 2022",
+      "url": "https://finance.yahoo.com/news/7-cryptos-watch-during-final-154228886.html",
+      "summary": "Investors are advised to be cautious in the final days of 2022 due to lower trading volumes during the holiday season, making cryptocurrencies susceptible to large price swings. While this can lead to quick gains or losses, vigilance is required. The overall market capitalization has remained relatively stable around $809 billion.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "holiday_trading_volume",
+        "crypto_volatility",
+        "market_cap_stability"
+      ],
+      "rationale": "Low trading volumes during the holiday period can lead to increased volatility, making price movements unpredictable. This suggests a cautious approach is warranted, with potential for both upward and downward swings in the short term."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n865e81842fbf",
+      "title": "Bitcoin Miner Argo Blockchain Suspends Trading on NASDAQ",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-argo-blockchain-suspends-151351365.html",
+      "summary": "Bitcoin mining company Argo Blockchain has requested a trading suspension on NASDAQ until Wednesday, citing an upcoming significant announcement regarding its financial performance, business strategy, and future operations. This suspension indicates potential financial distress or a major strategic shift for the company.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "listing"
+      ],
+      "features_for_model": [
+        "Argo_Blockchain_suspension",
+        "NASDAQ_trading_halt",
+        "miner_financial_distress"
+      ],
+      "rationale": "The suspension of trading for a publicly listed Bitcoin miner like Argo Blockchain often signals financial difficulties or significant corporate events. This can create negative sentiment within the mining sector and potentially impact Bitcoin's price if it's perceived as a broader industry issue."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-12-27",
+    "summary": "The crypto market is showing mixed signals today. Positive sentiment is driven by improving risk appetite and China's easing of COVID-19 restrictions, leading to a weaker dollar and slight gains in Bitcoin and Ether. However, concerns remain due to ongoing investigations into hacks and bankruptcies within the crypto space, such as the FTX-related probe and Argo Blockchain's trading suspension. The market is also sensitive to macroeconomic factors like inflation data and central bank commentary, with gold's strength suggesting a preference for safer assets.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued negative sentiment from FTX contagion and related bankruptcies.",
+      "Potential for further regulatory crackdowns or uncertainty.",
+      "Macroeconomic headwinds such as persistent inflation or aggressive Fed policy.",
+      "Security breaches and hacks impacting market confidence.",
+      "Low trading volumes during the holiday season leading to increased volatility."
+    ],
+    "watch_items": [
+      "US inflation data releases",
+      "Statements from Federal Reserve officials",
+      "Developments in ongoing crypto regulatory discussions",
+      "Performance of major altcoins (e.g., XRP)",
+      "News regarding major crypto exchange solvency or security"
+    ]
+  }
+}

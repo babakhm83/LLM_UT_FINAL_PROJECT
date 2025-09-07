@@ -1,0 +1,460 @@
+{
+  "date": "2022-03-23",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nf1fd1afbb7cd",
+      "title": "Market Wrap: Bitcoin Drifts Lower, Although Analysts Expect Bearish Sentiment to Fade",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-drifts-lower-211815202.html",
+      "summary": "Bitcoin and stocks traded lower due to escalating geopolitical risks, with talks between Russia and Ukraine yielding no agreement. This kept markets on edge, benefiting safe-haven assets like gold and the U.S. dollar. Despite the short-term downturn, analysts anticipate a stabilization of bearish sentiment, citing persistent long-term demand for Bitcoin. A growing proportion of investors are becoming long-term holders, which is viewed as a positive indicator for the cryptocurrency's future.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "geopolitical_risk",
+        "long_term_demand",
+        "investor_sentiment"
+      ],
+      "rationale": "The article highlights a shift towards long-term holding, suggesting a fundamental strengthening of Bitcoin's investor base despite short-term macroeconomic headwinds. This indicates resilience and potential for future price appreciation."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n2d3fa2965dbf",
+      "title": "Bitcoin mimics stocks rally, hits 2-week high",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-8-82-40-222752332.html",
+      "summary": "Bitcoin reached its highest point in two weeks, extending previous gains as cryptocurrencies benefited from a recovery in risk appetite and a rally in stock markets. The cryptocurrency saw a significant increase from its year-to-date low, marking a substantial bounce after weeks of decline. This movement suggests a correlation with broader market sentiment and a potential return of investor confidence in risk assets.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "risk_appetite",
+        "stock_market_correlation",
+        "price_recovery"
+      ],
+      "rationale": "The strong correlation with stock market rallies indicates that Bitcoin is increasingly being treated as a risk-on asset. A sustained recovery in broader markets could lead to significant upside for Bitcoin."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n79281bb7ead9",
+      "title": "Market Wrap: Bitcoin Pulls Back After Fed Chair's Comments; Volatility Oversold",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-pulls-back-201508201.html",
+      "summary": "Bitcoin dipped after Federal Reserve Chair Jerome Powell indicated the central bank's readiness to aggressively raise interest rates to combat inflation. Powell suggested the possibility of 50 basis point rate hikes, a move that could slow economic growth and negatively impact speculative assets like cryptocurrencies. This tightening monetary policy stance is a significant headwind for risk assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "fed_rate_hikes",
+        "inflation_control",
+        "monetary_policy"
+      ],
+      "rationale": "Aggressive interest rate hikes by the Federal Reserve are a direct headwind for speculative assets like Bitcoin. This signals a potential period of reduced liquidity and increased risk aversion in the market."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n5af22e3631b1",
+      "title": "Crypto regulation is coming, just not this year: SEC's Peirce",
+      "url": "https://finance.yahoo.com/news/crypto-regulation-coming-just-not-this-year-se-cs-pierce-172824069.html",
+      "summary": "SEC Commissioner Hester Peirce anticipates a proposal to broaden the definition of an exchange, which could indirectly regulate cryptocurrency exchanges. However, she does not expect the SEC to introduce direct crypto regulation this year. The proposed expanded definition could encompass platforms not traditionally considered exchanges, including those in the crypto space.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation"
+      ],
+      "features_for_model": [
+        "SEC_regulation",
+        "exchange_definition",
+        "regulatory_clarity"
+      ],
+      "rationale": "While direct regulation is not expected this year, the potential for indirect regulation through expanded exchange definitions creates a degree of uncertainty. This could impact how crypto platforms operate and are perceived by regulators."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n2f8d93ce5f3f",
+      "title": "Intuit CEO Warns of Tax Bill Shock for Bitcoin, NFT Traders",
+      "url": "https://finance.yahoo.com/news/intuit-ceo-warns-tax-bill-201324246.html",
+      "summary": "Intuit CEO Sasan Goodarzi warned that individuals who invested in speculative assets like Bitcoin and NFTs, or actively traded equities on commission-free platforms, might face unexpected tax bills. This highlights the increasing complexity of tax reporting for digital asset transactions and the potential for increased scrutiny from tax authorities.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "tax_implications",
+        "crypto_reporting",
+        "speculative_assets"
+      ],
+      "rationale": "Increased tax awareness and potential for unexpected tax liabilities could lead some traders to reduce their activity or holdings, creating a slight drag on market sentiment and liquidity."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n91fb4d716067",
+      "title": "Bitcoin crashes as claims of safe haven blown to bits by Russia's invasion of Ukraine",
+      "url": "https://finance.yahoo.com/news/bitcoin-crash-russia-invasion-of-ukraine-ethereum-solana-crypto-123342893.html",
+      "summary": "Bitcoin's price plummeted following Russia's invasion of Ukraine, falling to a one-month low. This event severely challenged the narrative of Bitcoin as a safe-haven asset, with experts suggesting it is currently behaving as a risk asset. The sharp decline diminished its market value, impacting its reputation as 'digital gold'.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "geopolitical_event",
+        "risk_asset_behavior",
+        "safe_haven_narrative"
+      ],
+      "rationale": "The invasion of Ukraine and Bitcoin's subsequent price drop have reinforced its correlation with traditional risk assets, undermining its 'digital gold' narrative. This suggests that geopolitical instability may lead to outflows rather than inflows."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n83de002786e0",
+      "title": "EU Parliamentarians Push to Limit Bitcoin Use Over Energy Concerns",
+      "url": "https://finance.yahoo.com/news/eu-parliamentarians-push-limit-bitcoin-114902741.html",
+      "summary": "European Union lawmakers are considering regulations that could ban energy-intensive cryptocurrencies like Bitcoin, specifically targeting proof-of-work (PoW) consensus mechanisms. This move reflects growing environmental concerns surrounding cryptocurrency mining and could lead to significant regulatory hurdles for PoW-based assets within the EU.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "EU_regulation",
+        "PoW_ban",
+        "energy_consumption"
+      ],
+      "rationale": "A potential ban on PoW mining in the EU would significantly impact Bitcoin's adoption and mining operations within the bloc, creating a bearish sentiment and potentially driving miners to other jurisdictions."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n0354ea1cf6ba",
+      "title": "El Salvador Asked to Get out of Bitcoin (BTC) by the IMF",
+      "url": "https://finance.yahoo.com/news/el-salvador-asked-bitcoin-btc-024419819.html",
+      "summary": "The International Monetary Fund (IMF) has advised El Salvador to abandon its Bitcoin adoption, citing risks to financial stability. This recommendation from a major global financial institution could influence other countries considering similar moves and signals a cautious stance from international bodies towards widespread Bitcoin adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "IMF_recommendation",
+        "El_Salvador_bitcoin",
+        "financial_stability_risk"
+      ],
+      "rationale": "The IMF's warning to El Salvador highlights the regulatory and financial stability concerns surrounding Bitcoin adoption. This could deter other nations from following suit and create a negative sentiment for the asset's broader acceptance."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n74461af10e9e",
+      "title": "Why Your Bitcoin is Safe: Expert Takeaways Following Biden’s Executive Order on Digital Assets",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-safe-expert-takeaways-174915944.html",
+      "summary": "President Biden's executive order on digital assets has been positively received by the crypto industry, with many experts viewing it as a long-awaited recognition and advancement of the space. This unified, government-wide approach to digital assets is seen as a positive step towards regulatory clarity and potential institutional adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Biden_EO",
+        "digital_assets_regulation",
+        "regulatory_clarity"
+      ],
+      "rationale": "The executive order signifies a proactive stance from the U.S. government towards digital assets, potentially paving the way for clearer regulations and increased institutional involvement, which is bullish for Bitcoin."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n5fa468216507",
+      "title": "Argo Blockchain PLC Announces January 2022 Operational Update",
+      "url": "https://finance.yahoo.com/news/argo-blockchain-plc-announces-january-070000940.html",
+      "summary": "Argo Blockchain mined 172 Bitcoin in January 2022, a decrease from December's 214 BTC, primarily due to increased network difficulty. Despite the lower mining volume, the company's mining revenue for January was significant. This operational update provides insight into the challenges and revenues associated with Bitcoin mining.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "miner_operations",
+        "network_difficulty",
+        "mining_revenue"
+      ],
+      "rationale": "While a slight decrease in mined BTC due to network difficulty is noted, the continued revenue generation from mining indicates the ongoing viability of the mining sector, which is a key part of the Bitcoin ecosystem."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n29529739c89a",
+      "title": "NFT Venture Studio Bridge 3 Labs Launches Alpha Pass to Access Exclusive IRL Assets",
+      "url": "https://finance.yahoo.com/news/nft-venture-studio-bridge-3-061000437.html",
+      "summary": "Bridge 3 Labs, an NFT venture studio, has launched an Alpha Pass providing access to exclusive real-world assets. This initiative taps into the growing NFT market and aims to bridge the gap between digital ownership and tangible benefits, potentially driving interest and utility for NFTs.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "NFT_utility",
+        "IRL_assets",
+        "venture_studio"
+      ],
+      "rationale": "The launch of an NFT utility focused on real-world assets could generate short-term interest and trading volume within the NFT space, potentially having a minor positive spillover effect on broader crypto sentiment."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n8f31e066b94b",
+      "title": "Ethereum’s blockchain is nearing a huge turning point that could push Ether’s market value ahead of Bitcoin’s",
+      "url": "https://finance.yahoo.com/news/ethereum-blockchain-nearing-huge-turning-222257909.html",
+      "summary": "Ethereum's upcoming upgrade is anticipated to enhance its scalability, security, and sustainability, potentially attracting more institutional investors and boosting Ether's market value, possibly surpassing Bitcoin's. The upgrade aims to make its crypto mining obsolete, significantly reducing energy consumption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Ethereum_upgrade",
+        "ETH_scalability",
+        "institutional_adoption"
+      ],
+      "rationale": "The impending Ethereum upgrade is a significant catalyst that could drive substantial price appreciation for ETH in the short term, potentially influencing the broader altcoin market and Bitcoin's dominance."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n9338622f75e2",
+      "title": "FOREX-Dollar climbs, euro dips, as Biden brings sanctions plan to Europe",
+      "url": "https://finance.yahoo.com/news/forex-dollar-climbs-euro-dips-192012062.html",
+      "summary": "The dollar strengthened while the euro weakened as oil prices surged amid President Biden's trip to Europe to announce new sanctions against Russia. Biden's meeting with NATO and European leaders is expected to focus on measures targeting Russia, contributing to market volatility and a flight to the dollar.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "EUR_weakness",
+        "geopolitical_sanctions"
+      ],
+      "rationale": "Geopolitical tensions and sanctions against Russia are increasing oil prices and strengthening the dollar, which can lead to reduced liquidity in risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nac021381528e",
+      "title": "Why Do Old-Line Businesses Enter Crypto Mining? Simple: Fat Profits",
+      "url": "https://finance.yahoo.com/news/why-old-line-businesses-enter-150518135.html",
+      "summary": "Traditional businesses are entering cryptocurrency mining due to historically high profit margins, even as they have shrunk from 90% to 60%-70%. The allure of these margins persists because they remain competitive compared to other industries affected by macroeconomic factors. This continued interest suggests ongoing investment in the mining infrastructure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_profitability",
+        "traditional_business_adoption",
+        "infrastructure_investment"
+      ],
+      "rationale": "Continued entry of traditional businesses into crypto mining indicates sustained investment in the underlying infrastructure, which can support network security and decentralization, a long-term positive for Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n28e71330b098",
+      "title": "First Mover Asia: With Finance Bill Vote, India Continues to Reckon With the Growing Crypto Industry; Bitcoin, Ether Tread Water",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-finance-bill-223821343.html",
+      "summary": "India's Parliament is expected to pass a finance bill that includes a high crypto tax, concluding a seven-week debate. While this may bring some regulatory clarity, the high tax rate could impact trading volumes and investor sentiment within the country. Bitcoin and Ether are currently trading sideways.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "India_crypto_tax",
+        "regulatory_clarity",
+        "trading_volume"
+      ],
+      "rationale": "The high crypto tax in India could dampen trading activity, potentially reducing liquidity and impacting short-term price movements, while the overall regulatory clarity might be a net positive in the longer term."
+    },
+    {
+      "pick_idx": 15,
+      "id": "na77db805c101",
+      "title": "Crypto Regulation: Proof-of-Work Bitcoin Mining Could Be Banned in New York Due to Climate Concerns",
+      "url": "https://finance.yahoo.com/news/crypto-regulation-proof-bitcoin-mining-150603659.html",
+      "summary": "The New York State Assembly's Environmental Conservation Committee advanced a bill proposing a two-year moratorium on proof-of-work (PoW) cryptocurrency mining operations due to environmental concerns. This legislative action could significantly impact mining activities within New York.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "NY_mining_ban",
+        "PoW_moratorium",
+        "environmental_concerns"
+      ],
+      "rationale": "A potential ban on PoW mining in New York could lead to miners relocating or reducing operations, impacting network hash rate and potentially creating negative sentiment in the short term."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n66d5ac3a27ad",
+      "title": "Bitcoin's Correlation to S&P 500 Hits 17-Month High",
+      "url": "https://finance.yahoo.com/news/bitcoins-correlation-p-500-hits-083740983.html",
+      "summary": "Bitcoin's 90-day correlation with the S&P 500 has reached its highest point since October 2020, indicating increased sensitivity to stock market movements. This heightened correlation, occurring amid concerns about Federal Reserve tightening, suggests Bitcoin may behave more like a risk asset, influenced by broader market sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_SP500_correlation",
+        "risk_on_asset",
+        "market_sentiment"
+      ],
+      "rationale": "The increasing correlation with the S&P 500 means Bitcoin's price action will likely be heavily influenced by the performance of traditional stock markets, making it vulnerable to broader market downturns."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n4e7ff4af802a",
+      "title": "Bitcoin and Ether Reach Key Support, Why ADA Could Surge To $1.2",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-reach-key-support-151450023.html",
+      "summary": "Bitcoin experienced a downside correction, testing the $41,850 support level, while Ether tested its key $2,925 support. Cardano (ADA) is showing bullish momentum, with bulls aiming for a test of $1.2. This suggests a mixed short-term outlook, with some altcoins showing strength while major cryptocurrencies are consolidating.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "market_sentiment",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BTC_support_level",
+        "ETH_support_level",
+        "ADA_bullish_momentum"
+      ],
+      "rationale": "Bitcoin and Ether finding support is a positive sign, but the mixed performance with ADA suggests a cautious market. Short-term price action will depend on whether these support levels hold and if broader market sentiment improves."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n4e7ff4af802a",
+      "title": "Bitcoin and Ether Reach Key Support, Why ADA Could Surge To $1.2",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-reach-key-support-151450023.html",
+      "summary": "Bitcoin experienced a downside correction, testing the $41,850 support level, while Ether tested its key $2,925 support. Cardano (ADA) is showing bullish momentum, with bulls aiming for a test of $1.2. This suggests a mixed short-term outlook, with some altcoins showing strength while major cryptocurrencies are consolidating.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "market_sentiment",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BTC_support_level",
+        "ETH_support_level",
+        "ADA_bullish_momentum"
+      ],
+      "rationale": "Bitcoin and Ether finding support is a positive sign, but the mixed performance with ADA suggests a cautious market. Short-term price action will depend on whether these support levels hold and if broader market sentiment improves."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n525cb3053fe6",
+      "title": "Fintech Firm Mogo Forms Ventures Unit to Manage Its Mostly Crypto-Related Investments",
+      "url": "https://finance.yahoo.com/news/fintech-firm-mogo-forms-ventures-152707426.html",
+      "summary": "Canadian fintech Mogo has established Mogo Ventures to manage its C$124 million investment portfolio, which includes significant crypto holdings like a stake in Coinsquare and direct holdings in Bitcoin and Ether. This move signals continued institutional interest and strategic allocation towards digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "fintech_investment",
+        "crypto_portfolio",
+        "institutional_interest"
+      ],
+      "rationale": "The creation of a dedicated ventures unit by a fintech firm to manage crypto investments indicates growing institutional commitment to the asset class, potentially leading to increased capital inflows."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-03-23",
+    "summary": "Bitcoin's correlation with the S&P 500 has reached a 17-month high, indicating increased sensitivity to traditional market movements. While Ethereum's upcoming upgrade presents a bullish catalyst for ETH, geopolitical tensions and potential regulatory actions in New York regarding Bitcoin mining create headwinds. The market is showing mixed signals, with some altcoins exhibiting strength while major cryptocurrencies consolidate around key support levels.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued correlation with S&P 500 leading to sell-offs on broader market weakness.",
+      "Potential regulatory crackdown on PoW mining in key jurisdictions like New York.",
+      "Geopolitical instability and its impact on risk appetite and liquidity.",
+      "Federal Reserve's aggressive monetary policy tightening potentially reducing market liquidity."
+    ],
+    "watch_items": [
+      "Ethereum upgrade progress",
+      "New York State Assembly mining bill developments",
+      "S&P 500 performance and market sentiment",
+      "USD strength and its impact on crypto liquidity",
+      "Further geopolitical developments related to Russia-Ukraine conflict"
+    ]
+  }
+}

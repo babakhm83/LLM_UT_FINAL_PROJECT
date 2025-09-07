@@ -1,0 +1,491 @@
+{
+  "date": "2024-07-21",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n7b6f0a1a10f1",
+      "title": "Semler Scientific's Bitcoin Bet Sends Stock Soaring 43%",
+      "url": "https://finance.yahoo.com/news/semler-scientifics-bitcoin-bet-sends-200500282.html",
+      "summary": "Semler Scientific, a medical device maker, saw its stock surge over 43% after announcing a new treasury strategy heavily focused on Bitcoin. The company purchased 581 bitcoins for $40 million, averaging approximately $68,850 per bitcoin, using a significant portion of its $62.8 million cash reserves. This move signals increasing corporate adoption of Bitcoin as a treasury asset, potentially influencing other companies to follow suit and boosting demand for BTC.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "corporate_treasury_bitcoin",
+        "SMLR_stock_performance"
+      ],
+      "rationale": "Corporate adoption of Bitcoin as a treasury asset is a strong signal of increasing institutional acceptance. This trend, exemplified by Semler Scientific's significant purchase, can drive demand and positively impact Bitcoin's price over the medium to long term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n69443369fc37",
+      "title": "DeFi Technologies Announces Launch of Core Chain Validator Node to Participate in Network Consensus and Staking, Stakes 1,498 BTC",
+      "url": "https://finance.yahoo.com/news/defi-technologies-announces-launch-core-113000755.html",
+      "summary": "DeFi Technologies, through its subsidiary Valour Inc., has launched a validator node on the Core Chain and staked 1,498 BTC. This initiative is part of a broader collaboration with Core Foundation, which includes developing innovative Bitcoin ETPs. By participating in network consensus and staking, DeFi Technologies aims to generate rewards and enhance its DeFi infrastructure business. This move highlights the growing integration of Bitcoin into DeFi protocols and staking mechanisms.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "DeFi",
+        "infrastructure",
+        "staking"
+      ],
+      "features_for_model": [
+        "DeFi_Technologies_staking",
+        "Core_Chain_integration",
+        "BTC_staking_yield"
+      ],
+      "rationale": "The staking of a significant amount of BTC by DeFi Technologies on the Core Chain demonstrates the expanding utility of Bitcoin within the DeFi ecosystem. This can lead to increased demand for BTC as collateral and participation in yield-generating activities, supporting long-term price appreciation."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n24c2ed351cc4",
+      "title": "Bitcoin Traders See Short-Term Bearish Target at $60K as Miners Pare Holdings",
+      "url": "https://finance.yahoo.com/news/bitcoin-traders-see-short-term-111739912.html",
+      "summary": "Traders are anticipating a potential drop in Bitcoin's price to $60,000 in the coming weeks, citing increased selling activity from miners and general profit-taking. On-chain data indicates a rise in Bitcoin transfers from mining pools to exchanges, often a precursor to sales. This suggests that miners, facing cash demands, may be offloading their holdings, which could exert downward pressure on the price.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_selling_pressure",
+        "BTC_price_target_60k",
+        "on_chain_miner_flow"
+      ],
+      "rationale": "Increased selling pressure from Bitcoin miners, driven by cash needs post-halving, can create short-term headwinds for the price. This trend, if sustained, could lead to a price correction as supply increases on exchanges."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n4ca335322753",
+      "title": "SEC Tells ETH ETF Issuers Fund Can Start Trading Next Tuesday: Sources",
+      "url": "https://finance.yahoo.com/news/sec-tells-eth-etf-issuers-210619563.html",
+      "summary": "Sources indicate that the SEC has informed Ethereum ETF issuers that their funds can begin trading on July 23rd. Issuers are required to submit final S-1 forms by Wednesday. This development follows a period where ETH has outperformed BTC, driven by anticipation of ETF trading approval. The potential launch of ETH ETFs could significantly boost institutional adoption and capital inflows into the Ethereum ecosystem.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_ETF_approval",
+        "SEC_S1_filing",
+        "ETH_outperformance_BTC"
+      ],
+      "rationale": "The imminent launch of spot Ethereum ETFs is a major catalyst for institutional adoption, similar to Bitcoin ETFs. This is expected to drive significant capital inflows into ETH, potentially leading to substantial price appreciation and increased market liquidity."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n0a8e06172555",
+      "title": "This Is Why Altcoin Investors Struggle Despite Bitcoin, Ether Sitting Near Yearly Highs",
+      "url": "https://finance.yahoo.com/news/why-altcoin-investors-struggle-despite-211301213.html",
+      "summary": "Altcoins like SOL, AVAX, APT, and SUI have experienced significant corrections (40%-70%), contrasting with the relative stability of BTC and ETH near yearly highs. This divergence is attributed to venture funds facing pressure to sell tokens for realized profits and the lack of overall capital inflows into crypto markets. Upcoming token unlocks also pose a risk for altcoins. This suggests a market rotation favoring established assets like BTC and ETH over speculative altcoins.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "altcoin",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "altcoin_correction",
+        "venture_fund_selling",
+        "token_unlocks"
+      ],
+      "rationale": "The underperformance of altcoins relative to BTC and ETH, driven by venture fund selling pressure and limited capital inflows, indicates a market preference for more established cryptocurrencies. This trend could continue, with capital flowing away from riskier altcoins towards BTC and ETH."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n5efc09f88734",
+      "title": "StratoVM: Bringing the Power of DeFi to Bitcoin's Secure Foundation",
+      "url": "https://finance.yahoo.com/news/stratovm-bringing-power-defi-bitcoins-125500871.html",
+      "summary": "StratoVM is a Layer 2 solution designed to bridge the Ethereum DeFi ecosystem with Bitcoin's security. By anchoring data hashes on the Bitcoin blockchain, it inherits Bitcoin's security properties. This development aims to enhance Bitcoin's utility by enabling more complex DeFi applications, potentially increasing demand for BTC as a foundational asset for decentralized finance.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "DeFi",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "StratoVM",
+        "Bitcoin_Layer2",
+        "DeFi_on_Bitcoin"
+      ],
+      "rationale": "The development of Layer 2 solutions like StratoVM that leverage Bitcoin's security for DeFi applications is a significant long-term bullish development. It expands Bitcoin's use cases beyond a store of value, potentially driving demand and innovation."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n85f1ad4db84c",
+      "title": "Bitcoin innovation is essential for U.S. economic future, says Perianne Boring",
+      "url": "https://finance.yahoo.com/news/bitcoin-innovation-essential-u-economic-012316833.html",
+      "summary": "Perianne Boring, founder of the Digital Chamber, emphasizes the critical role of U.S. policymakers in shaping the future of Bitcoin and blockchain technology. She highlights the need for political acceptance and leadership to foster Bitcoin innovation, which she believes is essential for the U.S. economic future. This underscores the importance of regulatory clarity and government support for the crypto industry.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_policy_bitcoin",
+        "regulatory_clarity",
+        "economic_impact_bitcoin"
+      ],
+      "rationale": "Positive regulatory developments and a supportive stance from U.S. policymakers are crucial for the long-term growth and adoption of Bitcoin. Statements like these suggest a growing recognition of Bitcoin's importance, which could lead to more favorable regulations and increased institutional interest."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n8ea56763809a",
+      "title": "Bipartisan support of cryptocurrency is resurging in Congress. Here’s why",
+      "url": "https://finance.yahoo.com/news/bipartisan-support-cryptocurrency-resurging-congress-142318183.html",
+      "summary": "Cryptocurrency is gaining bipartisan support in Congress, with recent actions including the Senate's vote to overturn SAB-121 and the upcoming consideration of the FIT21 Act, which aims to establish a U.S. regulatory regime for crypto. This growing political momentum suggests a more favorable regulatory environment for the crypto industry, potentially boosting investor confidence and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "congressional_support_crypto",
+        "SAB121_overturn",
+        "FIT21_Act"
+      ],
+      "rationale": "Increasing bipartisan support for cryptocurrency in the U.S. Congress, particularly concerning regulatory frameworks, is a significant long-term bullish factor. Clearer regulations can attract more institutional capital and foster broader adoption."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n51fd74b47e35",
+      "title": "Bitcoin Could Hit $500,000 by October 2025, According to This Billionaire Investor",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-hit-500-000-120500061.html",
+      "summary": "Billionaire venture capitalist Chamath Palihapitiya predicts Bitcoin could reach $500,000 by October 2025, citing the halving event as a primary catalyst for rapid price appreciation. This prediction, alongside other bullish forecasts from institutions like Standard Chartered ($150,000 by end of 2024), highlights strong long-term optimism driven by supply-side economics and increasing adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction_500k",
+        "Chamath_Palihapitiya",
+        "halving_impact"
+      ],
+      "rationale": "High-profile predictions from influential investors like Chamath Palihapitiya, coupled with the fundamental impact of the halving event, contribute to a strong long-term bullish sentiment. These forecasts can influence market psychology and attract further investment."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n5511bbde9665",
+      "title": "U.S. and German Government's Bitcoin Movements Raise Market Concerns",
+      "url": "https://finance.yahoo.com/news/u-german-governments-bitcoin-movements-045710769.html",
+      "summary": "The German government has again transferred large amounts of Bitcoin (1,500 BTC) to exchanges, following similar actions last week that coincided with a price dip. These movements, from wallets linked to seized assets, raise concerns about potential selling pressure. Germany holds a significant amount of seized Bitcoin, and its transaction patterns can influence market sentiment and price action.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "German_government_BTC_transfer",
+        "US_government_BTC_movement",
+        "seized_BTC_liquidation"
+      ],
+      "rationale": "Government movements of large Bitcoin holdings, especially towards exchanges, can be interpreted as potential selling pressure. This has historically led to short-term price dips, creating a bearish sentiment in the market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n5c2b12338c61",
+      "title": "Warren Buffett once said there are 'two kinds of items people buy' to grow wealth — but only one 'really is investing'",
+      "url": "https://finance.yahoo.com/news/warren-buffett-once-said-two-105500805.html",
+      "summary": "Warren Buffett's definition of investing, distinguishing between true investment and mere speculation, is a timeless principle. While not directly about Bitcoin, his emphasis on fundamental value and long-term holding can influence investor psychology, potentially leading to a more cautious approach towards highly speculative assets if market sentiment shifts.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Buffett_investing_definition",
+        "market_sentiment_shift"
+      ],
+      "rationale": "Buffett's commentary, while general, can subtly influence market sentiment by reinforcing a focus on fundamental value. This might lead to a slight pullback in highly speculative crypto assets if broader market sentiment turns risk-averse."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne883f3f7e5c1",
+      "title": "Is Ethereum a No-Brainer Buy After the Bitcoin Halving?",
+      "url": "https://finance.yahoo.com/news/ethereum-no-brainer-buy-bitcoin-105700090.html",
+      "summary": "The article discusses Ethereum's potential for significant price appreciation following the Bitcoin halving, drawing parallels to previous halving cycles that spurred bull markets. It suggests that ETH could post spectacular gains, similar to BTC, and highlights Ethereum as a key cryptocurrency to watch for rapid price appreciation in the near term.",
+      "impact_horizon_days": 14,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "halving",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_post_halving_rally",
+        "ETH_BTC_correlation"
+      ],
+      "rationale": "The post-Bitcoin halving period has historically seen a ripple effect on other major cryptocurrencies like Ethereum. This article suggests ETH could benefit from similar momentum, potentially driving short-term price increases."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n0cad8ee786a8",
+      "title": "Stocks that make up the Trump trade",
+      "url": "https://finance.yahoo.com/news/stocks-that-make-up-the-trump-trade-130017653.html",
+      "summary": "Wall Street is anticipating potential benefits for certain stocks in a second Trump administration, with his platform company (DJT) already seeing gains. Trump's focus on industries like energy and border security could influence market sentiment. While not directly crypto-related, shifts in broader market sentiment due to political events can impact risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "political"
+      ],
+      "features_for_model": [
+        "Trump_trade_stocks",
+        "political_sentiment_impact"
+      ],
+      "rationale": "Political developments and potential policy shifts associated with a Trump presidency can influence overall market risk appetite, indirectly affecting Bitcoin's price. The immediate impact is likely to be sentiment-driven."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb58816145661",
+      "title": "Prediction: Ethereum Will Hit $5,000 by 2025",
+      "url": "https://finance.yahoo.com/news/prediction-ethereum-hit-5-000-124900985.html",
+      "summary": "Ethereum has shown strong performance in the first half of 2024, with predictions suggesting it could reach $5,000 by 2025. Key factors for this growth include continued development and adoption within its ecosystem. The article highlights Ethereum's potential for rapid price appreciation, suggesting a bullish outlook for the coming months.",
+      "impact_horizon_days": 14,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "ETH_price_prediction_5000",
+        "ETH_ecosystem_growth"
+      ],
+      "rationale": "Positive price predictions for Ethereum, supported by its recent performance and ecosystem growth, can boost short-term buying interest. The anticipation of reaching new price targets can drive momentum."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na0d98e81bd6e",
+      "title": "Is Bitcoin on Track to Hit $100,000 by 2025?",
+      "url": "https://finance.yahoo.com/news/bitcoin-track-hit-100-000-131700548.html",
+      "summary": "Bitcoin has experienced significant gains in 2024 but has seen some choppiness since its March peak. The article explores the possibility of Bitcoin reaching $100,000 by 2025, analyzing its current price action and the potential for a breakout. Bullish sentiment remains, with expectations of further gains.",
+      "impact_horizon_days": 14,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction_100k",
+        "BTC_post_peak_performance"
+      ],
+      "rationale": "The ongoing discussion and analysis around Bitcoin's potential to reach $100,000 can sustain bullish sentiment and encourage buying activity in the short term, especially if positive price action emerges."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nc6d5e3708bf7",
+      "title": "‘Almost’ Everyone in Crypto’s a Winner in a Second Trump Administration",
+      "url": "https://finance.yahoo.com/news/almost-everyone-crypto-winner-second-190137354.html",
+      "summary": "A second Trump administration is predicted to be beneficial for the crypto industry, particularly for Bitcoin miners and companies seeking to go public in the US. Foreign companies might face challenges. This suggests a potentially more favorable regulatory environment for crypto in the US under a Trump presidency, which could boost market sentiment.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "political"
+      ],
+      "features_for_model": [
+        "Trump_admin_crypto_policy",
+        "crypto_regulation_US"
+      ],
+      "rationale": "The prospect of a more crypto-friendly regulatory environment under a potential Trump administration could lead to increased investor confidence and positive sentiment towards Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n5ce3cf835ffe",
+      "title": "Analyst Predicts Bitcoin To Soar By 83%, But There's One Major Catch: 'We're Going To Get That Continuation As Long As ...'",
+      "url": "https://finance.yahoo.com/news/analyst-predicts-bitcoin-soar-83-194511487.html",
+      "summary": "Analyst Kevin Svenson predicts an 83% surge for Bitcoin, contingent on stock market stability. He believes Bitcoin is in a bullish structure that began in early 2023. The prediction highlights the strong correlation between Bitcoin and the broader stock market, suggesting that positive equity performance is key for crypto gains.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "correlation"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction_83_percent",
+        "stock_market_correlation"
+      ],
+      "rationale": "Analyst predictions of significant Bitcoin gains, tied to stock market performance, can create short-term buying pressure. If the stock market remains stable or trends upward, this could translate to positive momentum for Bitcoin."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne883f3f7e5c1",
+      "title": "Is Ethereum a No-Brainer Buy After the Bitcoin Halving?",
+      "url": "https://finance.yahoo.com/news/ethereum-no-brainer-buy-bitcoin-105700090.html",
+      "summary": "The article discusses Ethereum's potential for significant price appreciation following the Bitcoin halving, drawing parallels to previous halving cycles that spurred bull markets. It suggests that ETH could post spectacular gains, similar to BTC, and highlights Ethereum as a key cryptocurrency to watch for rapid price appreciation in the near term.",
+      "impact_horizon_days": 14,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "halving",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_post_halving_rally",
+        "ETH_BTC_correlation"
+      ],
+      "rationale": "The post-Bitcoin halving period has historically seen a ripple effect on other major cryptocurrencies like Ethereum. This article suggests ETH could benefit from similar momentum, potentially driving short-term price increases."
+    },
+    {
+      "pick_idx": 9,
+      "id": "na0d98e81bd6e",
+      "title": "Is Bitcoin on Track to Hit $100,000 by 2025?",
+      "url": "https://finance.yahoo.com/news/bitcoin-track-hit-100-000-131700548.html",
+      "summary": "Bitcoin has experienced significant gains in 2024 but has seen some choppiness since its March peak. The article explores the possibility of Bitcoin reaching $100,000 by 2025, analyzing its current price action and the potential for a breakout. Bullish sentiment remains, with expectations of further gains.",
+      "impact_horizon_days": 14,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction_100k",
+        "BTC_post_peak_performance"
+      ],
+      "rationale": "The ongoing discussion and analysis around Bitcoin's potential to reach $100,000 can sustain bullish sentiment and encourage buying activity in the short term, especially if positive price action emerges."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n5ce3cf835ffe",
+      "title": "Analyst Predicts Bitcoin To Soar By 83%, But There's One Major Catch: 'We're Going To Get That Continuation As Long As ...'",
+      "url": "https://finance.yahoo.com/news/analyst-predicts-bitcoin-soar-83-194511487.html",
+      "summary": "Analyst Kevin Svenson predicts an 83% surge for Bitcoin, contingent on stock market stability. He believes Bitcoin is in a bullish structure that began in early 2023. The prediction highlights the strong correlation between Bitcoin and the broader stock market, suggesting that positive equity performance is key for crypto gains.",
+      "impact_horizon_days": 7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "correlation"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction_83_percent",
+        "stock_market_correlation"
+      ],
+      "rationale": "Analyst predictions of significant Bitcoin gains, tied to stock market performance, can create short-term buying pressure. If the stock market remains stable or trends upward, this could translate to positive momentum for Bitcoin."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-07-21",
+    "summary": "The market sentiment remains cautiously optimistic, with ongoing discussions about potential price targets for Bitcoin and Ethereum. While long-term bullish narratives persist, driven by institutional adoption and technological advancements like Layer 2 solutions, short-term price action is influenced by broader macroeconomic factors and political developments. Miner selling pressure and government BTC movements present potential headwinds, while positive analyst predictions and the anticipation of ETH ETF launches offer support.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Continued selling pressure from Bitcoin miners.",
+      "Negative macroeconomic data impacting risk assets.",
+      "Uncertainty surrounding future regulatory developments.",
+      "Potential for broader market sell-offs due to geopolitical events.",
+      "Increased volatility from large government Bitcoin transfers."
+    ],
+    "watch_items": [
+      "US stock market performance (S&P 500, Nasdaq).",
+      "SEC statements and actions regarding crypto ETFs.",
+      "On-chain data for miner outflows.",
+      "Statements from key political figures regarding crypto policy.",
+      "Ethereum network development and adoption metrics."
+    ]
+  }
+}

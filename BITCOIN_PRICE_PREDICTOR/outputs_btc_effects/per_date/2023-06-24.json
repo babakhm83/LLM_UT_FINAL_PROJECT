@@ -1,0 +1,508 @@
+{
+  "date": "2023-06-24",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n0a30df6c02d2",
+      "title": "Biden administration pushes for 30% electricity tax in swipe at crypto miners",
+      "url": "https://finance.yahoo.com/news/biden-administration-pushes-30-electricity-060021445.html",
+      "summary": "The Biden administration is proposing a 30% tax on electricity used by cryptocurrency miners, citing \"negative spillovers\" from the industry. This initiative follows a series of regulatory actions against crypto exchanges, which some believe could drive the technology out of the U.S. The proposed tax aims to make miners contribute to the costs they impose on others, potentially impacting the profitability and location decisions of mining operations.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "US_mining_tax",
+        "Biden_admin_policy",
+        "energy_cost"
+      ],
+      "rationale": "A significant tax on mining operations directly increases operational costs, potentially reducing profitability and discouraging new investment in the U.S. This could lead to a migration of mining activities to more favorable jurisdictions."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n9bc1ff5bffd7",
+      "title": "Weekly Market Wrap: SEC crackdown on Binance, Coinbase ‘can’t stop’ Bitcoin as it trades above US$26,000",
+      "url": "https://finance.yahoo.com/news/weekly-market-wrap-sec-crackdown-131402825.html",
+      "summary": "Bitcoin remained above $26,000 despite a tumultuous week for the crypto industry, marked by the SEC suing Binance's U.S. wing for 13 charges related to securities violations and also suing Coinbase. These actions highlight ongoing regulatory scrutiny in the U.S., which could impact exchange operations and token classifications, but Bitcoin's resilience suggests a potential decoupling from exchange-specific issues.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "SEC_enforcement",
+        "Binance_lawsuit",
+        "Coinbase_lawsuit",
+        "BTC_price_resilience"
+      ],
+      "rationale": "The SEC's aggressive stance against major exchanges creates uncertainty and potential liquidity drains. However, Bitcoin's ability to hold above key levels suggests underlying demand and a potential for it to act as a safe haven amidst regulatory turmoil."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nf2c4c0796cf3",
+      "title": "Bitcoin Is Poised to Reclaim Crypto’s Spotlight: Berenberg",
+      "url": "https://finance.yahoo.com/news/bitcoin-poised-reclaim-crypto-spotlight-105932943.html",
+      "summary": "Berenberg suggests Bitcoin may regain its prominence in the crypto market over the coming months, especially as U.S. regulators crack down on other tokens, potentially classifying them as securities. Bitcoin's decentralized nature is seen as a key differentiator, making it less susceptible to enforcement actions compared to other cryptocurrencies. This could lead to increased investor focus and capital allocation towards Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_dominance",
+        "regulatory_arbitrage",
+        "Berenberg_outlook"
+      ],
+      "rationale": "As other crypto assets face regulatory headwinds, Bitcoin's status as a non-security asset could attract capital seeking refuge. This regulatory clarity for Bitcoin, relative to altcoins, positions it for increased adoption and market share."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nd39a2f09774f",
+      "title": "SEC lawsuit sees Binance.US wobble, trading platforms delist cryptos",
+      "url": "https://finance.yahoo.com/news/sec-lawsuit-sees-binance-us-110028905.html",
+      "summary": "The SEC lawsuit against Binance.US has led to significant disruptions, including trading platforms delisting cryptocurrencies. This reflects a deepening chill in the U.S. crypto market compared to regions like Hong Kong, which is actively courting Web3 development. The regulatory actions are creating a bifurcated global landscape for digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_regulatory_crackdown",
+        "Binance_US_delisting",
+        "global_crypto_divergence"
+      ],
+      "rationale": "The SEC's actions against Binance.US directly impact liquidity and market access within the U.S. This regulatory pressure, contrasted with more crypto-friendly environments elsewhere, could lead to a sustained exodus of capital and talent from the U.S. market."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n20613775b565",
+      "title": "Blockstream Developer Neigut Expects ‘Cambrian Explosion’ of Bitcoin Layer 2 Protocols",
+      "url": "https://finance.yahoo.com/news/blockstream-developer-neigut-expects-cambrian-110000513.html",
+      "summary": "A Blockstream developer anticipates a significant increase in Bitcoin Layer 2 protocols, driven by enhanced functionality from features like covenants and script updates. This development could significantly improve Bitcoin's scalability and utility, potentially attracting more users and developers to the ecosystem.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_Layer2",
+        "scalability_enhancement",
+        "covenants_BIP118"
+      ],
+      "rationale": "Advancements in Layer 2 solutions are crucial for Bitcoin's long-term adoption and usability. A 'Cambrian explosion' of these protocols would significantly boost transaction capacity and reduce fees, making Bitcoin more competitive for everyday use."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n265db09461af",
+      "title": "Tether to Start Mining Bitcoin in Uruguay",
+      "url": "https://finance.yahoo.com/news/tether-start-mining-bitcoin-uruguay-024131625.html",
+      "summary": "Tether, the issuer of USDT, is entering the Bitcoin mining sector by launching operations in Uruguay, a country with a high percentage of renewable energy. This move is part of Tether's treasury management strategy and involves investing in Uruguay's energy production. It signifies a growing trend of stablecoin issuers diversifying their operations and potentially increasing demand for renewable energy in mining.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "Tether_mining",
+        "Uruguay_energy",
+        "stablecoin_diversification"
+      ],
+      "rationale": "Tether's entry into mining, particularly in a region with abundant renewable energy, signals further institutionalization of Bitcoin mining. This can contribute to a more stable and environmentally conscious mining industry, potentially increasing overall network hashrate."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nd820502fb6b4",
+      "title": "Bitcoin Price Prediction Is Bearish According to These Traders, But These Tokens Could Pump",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-prediction-bearish-according-200108222.html",
+      "summary": "Bitcoin's momentum has stalled after briefly surpassing $30,000, with traders expressing bearish sentiment. The article also highlights upstart tokens with potential for significant returns, suggesting a shift in focus from established cryptocurrencies to newer, potentially higher-growth projects. This indicates a market sentiment that is cautious on Bitcoin's short-term prospects but optimistic about emerging opportunities.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_stagnation",
+        "trader_sentiment",
+        "altcoin_opportunity"
+      ],
+      "rationale": "The prevailing bearish sentiment among traders, coupled with Bitcoin's sideways price action, suggests a lack of immediate upward catalysts. This could lead to a period of consolidation or a minor downturn before any significant recovery."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n521697f0795f",
+      "title": "Plan for 30% tax on Bitcoin mining appears dead under debt ceiling deal",
+      "url": "https://finance.yahoo.com/news/plan-30-tax-bitcoin-mining-200910639.html",
+      "summary": "A proposed 30% tax on Bitcoin mining by the White House seems to have been abandoned as part of the debt ceiling deal. This development is a relief for the mining sector, as it removes a significant potential cost increase. The outcome suggests a more favorable regulatory environment for miners in the short to medium term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "US_mining_tax_repeal",
+        "debt_ceiling_deal",
+        "mining_regulation_relief"
+      ],
+      "rationale": "The removal of a proposed 30% tax on Bitcoin mining significantly reduces a potential headwind for the industry. This policy shift is likely to encourage continued investment and operation of mining facilities within the U.S."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n12501791b4cb",
+      "title": "Binance embraces Bitcoin NFTs, which some users are blaming for slower transactions",
+      "url": "https://finance.yahoo.com/news/binance-embraces-bitcoin-nfts-users-170858600.html",
+      "summary": "Binance's endorsement of Bitcoin NFTs (Ordinals) is a significant development, potentially boosting their adoption. However, some users attribute network congestion and slower transactions to Ordinals. This highlights a tension between innovation on the Bitcoin network and its capacity, which could impact user experience and transaction fees.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Binance_Ordinals_support",
+        "Bitcoin_NFT_adoption",
+        "network_congestion",
+        "transaction_fees"
+      ],
+      "rationale": "Binance's support for Bitcoin NFTs could drive significant adoption, but the associated network strain and higher fees present a challenge. The long-term impact will depend on how effectively the Bitcoin network scales and how users adapt to these new use cases."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n35c3939ceb65",
+      "title": "‘Bringing some of the investor protections to it’: How EDX Markets is embracing TradFi to become the safest bet in crypto",
+      "url": "https://finance.yahoo.com/news/bringing-investor-protections-edx-markets-110000667.html",
+      "summary": "EDX Markets, backed by traditional finance players like Citadel Securities, Fidelity, and Charles Schwab, aims to provide a safer crypto trading environment by incorporating investor protections. This approach seeks to address the shortcomings exposed by events like the FTX collapse and potential regulatory actions against other exchanges, positioning EDX as a more compliant and secure platform.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "EDX_Markets",
+        "TradFi_integration",
+        "investor_protection",
+        "crypto_exchange_safety"
+      ],
+      "rationale": "The involvement of major traditional finance firms in EDX Markets suggests a move towards greater institutional adoption and regulatory compliance. This can attract more conservative capital to the crypto space, fostering a more stable and trustworthy ecosystem."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "naeecc4e3138e",
+      "title": "UK man who pleaded guilty to celebrity Twitter hack gets five years in prison",
+      "url": "https://finance.yahoo.com/news/uk-man-pleaded-guilty-celebrity-005343627.html",
+      "summary": "A UK man has been sentenced to five years in prison for his role in hacking celebrity Twitter accounts, including Joe Biden and Elon Musk, as part of a Bitcoin scam. The hack involved hijacking over 130 accounts. This news highlights ongoing security risks and the potential for crypto scams linked to social engineering.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Twitter_hack_sentencing",
+        "crypto_scam_conviction",
+        "social_engineering_risk"
+      ],
+      "rationale": "While the sentencing itself is a past event, it serves as a reminder of the persistent threat of crypto-related scams and hacks, which can indirectly impact market sentiment and trust."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n747b3486cd7c",
+      "title": "This Week in Coins: Bitcoin and Ethereum Rally Hard Post-BlackRock",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-rally-151454557.html",
+      "summary": "Bitcoin and Ethereum have seen significant rallies following BlackRock's filing for a Bitcoin spot ETF. Despite the SEC's historical rejections of such applications, the move by the world's largest asset manager is seen as a major catalyst, potentially influencing future regulatory decisions and attracting institutional capital.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_filing",
+        "BTC_rally",
+        "ETH_rally",
+        "institutional_adoption_catalyst"
+      ],
+      "rationale": "BlackRock's ETF application is a significant bullish signal, increasing the perceived legitimacy and accessibility of Bitcoin for institutional investors. This could drive further price appreciation and positive market sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nfc1cb24251ba",
+      "title": "Iran’s Drones Pave Way For Russian Offensives In Ukraine",
+      "url": "https://finance.yahoo.com/news/iran-drones-pave-way-russian-170000544.html",
+      "summary": "Russia is reportedly looking to purchase additional Iranian drones, with Kyiv claiming significant usage of these drones in strikes. This geopolitical development, while not directly crypto-related, contributes to broader global instability and risk-off sentiment, which can indirectly affect speculative assets like Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Russia_Ukraine_conflict",
+        "Iran_drones",
+        "geopolitical_instability"
+      ],
+      "rationale": "Escalating geopolitical tensions can lead to increased market volatility and a flight to safety, potentially impacting risk assets like Bitcoin negatively."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nafd0f61416b1",
+      "title": "Twitter hacker and crypto scammer sentenced to five years in prison",
+      "url": "https://finance.yahoo.com/news/twitter-hacker-and-crypto-scammer-sentenced-to-five-years-in-prison-205649771.html",
+      "summary": "Joseph James O’Connor, known as PlugwalkJoe, has been sentenced to five years in prison for his role in the 2020 Twitter hack and a subsequent crypto scam that netted $794,000. The hack compromised high-profile accounts. This sentencing reinforces the legal consequences for crypto-related cybercrimes.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Twitter_hack_sentencing",
+        "crypto_scam_conviction",
+        "cybercrime_enforcement"
+      ],
+      "rationale": "The sentencing of a prominent hacker involved in a crypto scam serves as a deterrent and reinforces the regulatory environment, though its direct impact on price is likely minimal."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n747b3486cd7c",
+      "title": "This Week in Coins: Bitcoin and Ethereum Rally Hard Post-BlackRock",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-rally-151454557.html",
+      "summary": "Bitcoin and Ethereum have seen significant rallies following BlackRock's filing for a Bitcoin spot ETF. Despite the SEC's historical rejections of such applications, the move by the world's largest asset manager is seen as a major catalyst, potentially influencing future regulatory decisions and attracting institutional capital.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_filing",
+        "BTC_rally",
+        "ETH_rally",
+        "institutional_adoption_catalyst"
+      ],
+      "rationale": "BlackRock's ETF application is a significant bullish signal, increasing the perceived legitimacy and accessibility of Bitcoin for institutional investors. This could drive further price appreciation and positive market sentiment."
+    },
+    {
+      "pick_idx": 7,
+      "id": "naeecc4e3138e",
+      "title": "UK man who pleaded guilty to celebrity Twitter hack gets five years in prison",
+      "url": "https://finance.yahoo.com/news/uk-man-pleaded-guilty-celebrity-005343627.html",
+      "summary": "A UK man has been sentenced to five years in prison for his role in hacking celebrity Twitter accounts, including Joe Biden and Elon Musk, as part of a Bitcoin scam. The hack involved hijacking over 130 accounts. This news highlights ongoing security risks and the potential for crypto scams linked to social engineering.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Twitter_hack_sentencing",
+        "crypto_scam_conviction",
+        "social_engineering_risk"
+      ],
+      "rationale": "While the sentencing itself is a past event, it serves as a reminder of the persistent threat of crypto-related scams and hacks, which can indirectly impact market sentiment and trust."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n1436cc484911",
+      "title": "A Dark Cloud Is Looming Over Chemical Stocks",
+      "url": "https://finance.yahoo.com/news/dark-cloud-looming-over-chemical-150000414.html",
+      "summary": "Warnings from the chemical sector about earnings outlooks are increasing, coinciding with broader signs of weakening global demand and economic growth. Several European companies have issued profit warnings. This sector-specific downturn could be indicative of a wider economic slowdown, impacting investor risk appetite for all assets, including crypto.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "chemical_sector_warnings",
+        "global_demand_slowdown",
+        "economic_recession_risk"
+      ],
+      "rationale": "Deteriorating conditions in a key industrial sector can signal broader economic weakness, potentially leading to reduced investment in risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n747b3486cd7c",
+      "title": "This Week in Coins: Bitcoin and Ethereum Rally Hard Post-BlackRock",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-rally-151454557.html",
+      "summary": "Bitcoin and Ethereum have seen significant rallies following BlackRock's filing for a Bitcoin spot ETF. Despite the SEC's historical rejections of such applications, the move by the world's largest asset manager is seen as a major catalyst, potentially influencing future regulatory decisions and attracting institutional capital.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_filing",
+        "BTC_rally",
+        "ETH_rally",
+        "institutional_adoption_catalyst"
+      ],
+      "rationale": "BlackRock's ETF application is a significant bullish signal, increasing the perceived legitimacy and accessibility of Bitcoin for institutional investors. This could drive further price appreciation and positive market sentiment."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nfc1cb24251ba",
+      "title": "Iran’s Drones Pave Way For Russian Offensives In Ukraine",
+      "url": "https://finance.yahoo.com/news/iran-drones-pave-way-russian-170000544.html",
+      "summary": "Russia is reportedly looking to purchase additional Iranian drones, with Kyiv claiming significant usage of these drones in strikes. This geopolitical development, while not directly crypto-related, contributes to broader global instability and risk-off sentiment, which can indirectly affect speculative assets like Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Russia_Ukraine_conflict",
+        "Iran_drones",
+        "geopolitical_instability"
+      ],
+      "rationale": "Escalating geopolitical tensions can lead to increased market volatility and a flight to safety, potentially impacting risk assets like Bitcoin negatively."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nafd0f61416b1",
+      "title": "Twitter hacker and crypto scammer sentenced to five years in prison",
+      "url": "https://finance.yahoo.com/news/twitter-hacker-and-crypto-scammer-sentenced-to-five-years-in-prison-205649771.html",
+      "summary": "Joseph James O’Connor, known as PlugwalkJoe, has been sentenced to five years in prison for his role in the 2020 Twitter hack and a subsequent crypto scam that netted $794,000. The hack compromised high-profile accounts. This sentencing reinforces the legal consequences for crypto-related cybercrimes.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Twitter_hack_sentencing",
+        "crypto_scam_conviction",
+        "cybercrime_enforcement"
+      ],
+      "rationale": "The sentencing of a prominent hacker involved in a crypto scam serves as a deterrent and reinforces the regulatory environment, though its direct impact on price is likely minimal."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-06-24",
+    "summary": "The crypto market is showing resilience, with Bitcoin and Ethereum rallying significantly following BlackRock's Bitcoin spot ETF filing, signaling strong institutional interest. However, ongoing regulatory scrutiny, exemplified by the SEC's actions against major exchanges like Binance and Coinbase, continues to create uncertainty and potential liquidity concerns. Geopolitical tensions and broader economic slowdown indicators also present a bearish backdrop, suggesting a cautious outlook despite positive ETF news.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Further SEC enforcement actions against major crypto entities.",
+      "Negative macroeconomic data leading to a broader risk-off sentiment.",
+      "Failure to secure regulatory approval for Bitcoin spot ETFs.",
+      "Increased network congestion and high transaction fees on Bitcoin.",
+      "Geopolitical escalations impacting global markets."
+    ],
+    "watch_items": [
+      "SEC statements on ETFs",
+      "Binance and Coinbase legal proceedings",
+      "Global inflation and interest rate decisions",
+      "Developments in Bitcoin Layer 2 solutions",
+      "Macroeconomic data releases (e.g., GDP, CPI)"
+    ]
+  }
+}

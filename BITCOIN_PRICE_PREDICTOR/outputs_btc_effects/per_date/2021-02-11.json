@@ -1,0 +1,513 @@
+{
+  "date": "2021-02-11",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n15394e5c08fe",
+      "title": "Bitcoin rallies above $30,000 for first time",
+      "url": "https://finance.yahoo.com/news/bitcoin-rallies-above-30-000-152059826.html",
+      "summary": "Bitcoin's price surged past $30,000 for the first time in early January 2021, marking a significant milestone. This rally, which saw Bitcoin advance over 300% in 2020 and add over 50% after crossing $20,000, indicated growing adoption as a mainstream payment method. The sustained upward momentum suggested increasing investor confidence and a potential shift in its perception from a niche asset to a more established store of value.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_price_milestone",
+        "mainstream_adoption"
+      ],
+      "rationale": "Crossing the $30,000 threshold was a psychological and technical breakout, signaling strong demand and increasing institutional interest. This event set a new benchmark for Bitcoin's potential as a digital store of value, influencing long-term investor sentiment."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ncd9f3e59ae3e",
+      "title": "Market Wrap: The ‘Elon Effect’ Blasts Bitcoin to $44.8K While Ether Moons",
+      "url": "https://finance.yahoo.com/news/market-wrap-elon-effect-blasts-212912015.html",
+      "summary": "Elon Musk's influence, dubbed the 'Elon Effect,' propelled Bitcoin to a record high of $44,801 in early February 2021. This event highlighted the significant impact prominent figures can have on cryptocurrency prices. The surge indicated growing retail and potentially institutional interest, amplified by social media and influential endorsements, suggesting a positive sentiment shift and increased market participation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Elon_Musk_endorsement",
+        "BTC_record_high",
+        "ETH_price_surge"
+      ],
+      "rationale": "Musk's public endorsement and Bitcoin's subsequent price surge demonstrated the power of celebrity influence in the crypto market. This event attracted broader attention and validated Bitcoin as a significant asset, potentially drawing in more institutional capital."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n66593ec933c5",
+      "title": "Bitcoin’s Market Value Now Exceeds That of Facebook",
+      "url": "https://finance.yahoo.com/news/bitcoin-market-value-now-exceeds-163433482.html",
+      "summary": "In early January 2021, Bitcoin's market capitalization surpassed that of Facebook, positioning it among the top global companies. This milestone underscored Bitcoin's growing acceptance and its emergence as a significant asset class. The comparison to established tech giants signaled a maturation of the cryptocurrency market and its increasing relevance in traditional finance.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_market_cap_vs_tech_giants",
+        "digital_asset_valuation"
+      ],
+      "rationale": "Surpassing a major tech company like Facebook in market value was a powerful statement about Bitcoin's perceived value and its integration into the broader financial landscape. This indicated a significant shift in investor perception and potential for continued growth."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n23276fc564aa",
+      "title": "Jim Cramer Thinks ‘Every’ Corporate Treasurer Should Be Thinking Bitcoin",
+      "url": "https://finance.yahoo.com/news/cramer-says-every-corporate-treasurer-182351404.html",
+      "summary": "CNBC personality Jim Cramer expressed a bullish stance on Bitcoin in February 2021, suggesting that corporate treasurers should consider including it on their balance sheets as a hedge. This sentiment from a prominent financial commentator indicated a growing acceptance of Bitcoin within traditional corporate finance circles, potentially driving further institutional adoption and demand.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Cramer_bullish_BTC",
+        "corporate_treasury_adoption",
+        "BTC_as_hedge"
+      ],
+      "rationale": "The endorsement from a well-known financial commentator like Jim Cramer signals a shift in perception towards Bitcoin as a legitimate corporate treasury asset. This could encourage more companies to explore Bitcoin holdings, increasing institutional demand."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nd1badda2d70c",
+      "title": "FOREX-Dollar shackled by doubts over U.S. recovery; bitcoin tops $47,000 for first time",
+      "url": "https://finance.yahoo.com/news/forex-dollar-shackled-doubts-over-004047944.html",
+      "summary": "In early February 2021, Bitcoin surged past $47,000 for the first time, coinciding with doubts about the U.S. economic recovery and a weakening dollar. This correlation suggested that Bitcoin was being viewed as a potential hedge against macroeconomic uncertainties and currency devaluation, reinforcing its 'digital gold' narrative and attracting investors seeking alternative stores of value.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_record",
+        "USD_weakness",
+        "inflation_hedge"
+      ],
+      "rationale": "The simultaneous rise of Bitcoin and decline of the dollar, driven by macroeconomic concerns, reinforced Bitcoin's narrative as a hedge against inflation and currency debasement. This macro trend is a significant long-term driver for Bitcoin adoption."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n9fdf2a334273",
+      "title": "Governments Will Start to Hodl Bitcoin in 2021",
+      "url": "https://finance.yahoo.com/news/governments-start-hodl-bitcoin-2021-150043234.html",
+      "summary": "A prediction in late December 2020 suggested that governments would begin to hold Bitcoin in 2021. If realized, this would represent a significant shift in institutional adoption, moving beyond corporations and investment funds to sovereign entities. Such a move would legitimize Bitcoin further and could lead to substantial demand, impacting its long-term price trajectory.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "government_BTC_holdings",
+        "sovereign_adoption",
+        "BTC_legitimacy"
+      ],
+      "rationale": "Government adoption of Bitcoin would be a major catalyst, signaling a high level of trust and integration into global financial systems. This would significantly increase demand and potentially stabilize its price, making it a more attractive long-term asset."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n7c7f857a4b5f",
+      "title": "The Relationship Between US Government Debt and Bitcoin, Explained",
+      "url": "https://finance.yahoo.com/news/relationship-between-us-government-debt-191505440.html",
+      "summary": "An analysis in mid-January 2021 explored the relationship between rising US government debt and Bitcoin's potential as a hedge. The argument posited that increased debt and potential inflation could drive investors towards Bitcoin as a safe haven, similar to gold. This perspective highlights Bitcoin's role in a broader macroeconomic context, influencing its long-term value proposition.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_debt_ceiling",
+        "BTC_inflation_hedge",
+        "fiat_devaluation"
+      ],
+      "rationale": "The increasing US government debt and concerns about inflation create a favorable macro environment for Bitcoin as a potential hedge. This narrative is a key driver for long-term institutional and retail interest."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n4e9c08fbb5ca",
+      "title": "CFA’s First ‘Research Brief’ on Cryptoassets, Bitcoin, and Blockchain",
+      "url": "https://finance.yahoo.com/news/cfa-first-research-brief-cryptoassets-204049201.html",
+      "summary": "In early January 2021, the CFA Institute published its first research brief on cryptoassets, aiming to educate investment professionals. This initiative signaled a growing recognition and formalization of cryptocurrencies within the financial industry. Such educational efforts are crucial for building trust and facilitating broader institutional adoption and understanding of Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "CFA_Institute_research",
+        "crypto_education",
+        "professional_adoption"
+      ],
+      "rationale": "The CFA Institute's engagement with cryptoassets signifies a growing acceptance and integration of digital assets into mainstream financial education and practice. This can lead to increased professional understanding and investment."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n6fb82771d515",
+      "title": "Hong Kong-Listed BC Group Raises $90M as Institutional Crypto Demand Soars in Asia",
+      "url": "https://finance.yahoo.com/news/hong-kong-listed-bc-group-102303498.html",
+      "summary": "In early January 2021, Hong Kong-listed BC Group raised $90 million, driven by soaring institutional demand for crypto in Asia. This funding round for a regulated crypto platform highlighted the significant growth and investment appetite in the Asian market. It indicated a strong trend of institutional capital flowing into the digital asset space, particularly in regions with developing regulatory frameworks.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Asia_institutional_demand",
+        "BC_Group_funding",
+        "regulated_crypto_platform"
+      ],
+      "rationale": "The substantial funding raised by a regulated Asian crypto firm reflects strong institutional interest and capital inflow in the region. This trend suggests a growing maturity of the crypto market in Asia and its increasing integration with traditional finance."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n230c619c3b1d",
+      "title": "Bitcoin emergence as 'digital gold' could lift price to $146,000, says JPM",
+      "url": "https://finance.yahoo.com/news/bitcoin-emergence-digital-gold-could-134927054.html",
+      "summary": "In early January 2021, JPMorgan predicted that Bitcoin, as a 'digital gold,' could reach $146,000 if it establishes itself as a safe-haven asset. This forecast, driven by Bitcoin's competition with gold and its role as an inflation hedge, underscored the growing institutional view of Bitcoin's long-term potential. The prediction highlighted the increasing narrative of Bitcoin as a store of value, influencing investor sentiment and long-term price expectations.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "JPM_BTC_price_target",
+        "digital_gold_narrative",
+        "inflation_hedge"
+      ],
+      "rationale": "JPMorgan's $146,000 price target, based on Bitcoin's 'digital gold' narrative, signifies strong institutional belief in its long-term value as a store of wealth and inflation hedge. This influential forecast can shape market expectations and attract further investment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "ncf8e124db1a1",
+      "title": "First Mover: Bitcoin at Center Stage (and Record High) as Mastercard, BNY Go Crypto",
+      "url": "https://finance.yahoo.com/news/first-mover-bitcoin-center-stage-143514263.html",
+      "summary": "On February 11, 2021, Bitcoin hit a new record high of $48,297 following Mastercard's announcement to support crypto payments and BNY Mellon's move into crypto custody. These major financial institutions' embrace of digital assets signaled increased mainstream adoption and provided a significant bullish catalyst for Bitcoin's price in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "listing"
+      ],
+      "features_for_model": [
+        "BTC_record_high",
+        "Mastercard_crypto_payments",
+        "BNY_Mellon_crypto_custody"
+      ],
+      "rationale": "Mastercard and BNY Mellon's announcements are major endorsements of crypto, directly impacting Bitcoin's price by increasing its perceived legitimacy and accessibility for merchants and institutions."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n2d0a7078686a",
+      "title": "Blockchain Bites: Mastercard, BNY Mellon Embrace Crypto; Amazon Floats ‘Digital Currency’ Project",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-mastercard-bny-mellon-175329211.html",
+      "summary": "On February 11, 2021, news broke that Mastercard would support digital currency transactions and BNY Mellon would offer crypto custody services. These developments, alongside Amazon's potential digital currency project, indicated a broad trend of major financial and tech players integrating with the crypto space, creating immediate positive sentiment and potential price appreciation for Bitcoin.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Mastercard_digital_currency",
+        "BNY_Mellon_custody",
+        "Amazon_digital_currency_rumor"
+      ],
+      "rationale": "The simultaneous announcements from major financial institutions like Mastercard and BNY Mellon create a strong positive sentiment, directly boosting Bitcoin's price and indicating a significant shift towards mainstream crypto adoption."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nd1815bf0f591",
+      "title": "BNY Mellon Opens Its Doors To Bitcoin And Cryptocurrency Custody",
+      "url": "https://finance.yahoo.com/news/bny-mellon-opens-doors-bitcoin-162626746.html",
+      "summary": "BNY Mellon announced on February 11, 2021, its plan to offer Bitcoin and digital asset custody services. As the first global bank to offer integrated digital asset services, this move was a significant validation for the crypto market. It signaled increased institutional trust and infrastructure development, likely driving short-term demand and price increases for Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BNY_Mellon_BTC_custody",
+        "first_global_bank_digital_assets",
+        "institutional_infrastructure"
+      ],
+      "rationale": "BNY Mellon's entry into crypto custody is a landmark event, providing institutional-grade infrastructure and trust, which is expected to attract significant capital and boost Bitcoin's price in the immediate term."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n14c9230748f3",
+      "title": "Bitcoin soars to all-time high after BNY Mellon announces crypto venture",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-time-high-bny-140855207.html",
+      "summary": "On February 11, 2021, Bitcoin reached a new all-time high shortly after BNY Mellon announced its new digital asset unit. This news directly fueled the price surge, demonstrating the immediate market reaction to institutional adoption. The event highlighted the sensitivity of Bitcoin's price to major financial infrastructure developments.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "institutional",
+        "listing",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_all_time_high",
+        "BNY_Mellon_crypto_venture",
+        "institutional_impact"
+      ],
+      "rationale": "The immediate price surge to an all-time high following BNY Mellon's announcement underscores the market's positive reaction to institutional infrastructure development, creating a strong short-term bullish signal."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n4f47b80990d8",
+      "title": "The Zacks Analyst Blog Highlights: Tesla, PayPal, Square, Microsoft and Amazon",
+      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-tesla-110811990.html",
+      "summary": "On February 11, 2021, Zacks highlighted Tesla's push of Bitcoin to new highs, mentioning PayPal, Square, Microsoft, and Amazon. This broad coverage across major tech and finance companies indicated a widespread positive sentiment towards crypto. The mention of these companies suggests a growing ecosystem where digital assets are becoming increasingly integrated, potentially driving short-term price momentum.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "listing"
+      ],
+      "features_for_model": [
+        "Tesla_BTC_impact",
+        "PayPal_adoption",
+        "Square_adoption",
+        "Amazon_crypto_interest"
+      ],
+      "rationale": "The inclusion of Bitcoin's impact alongside major tech and payment companies in analyst blogs suggests a broadening acceptance and integration, creating positive short-term market sentiment."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n0f5866f6dc27",
+      "title": "Mastercard Expands Cryptocurrency Support, Citing Growing Interest",
+      "url": "https://finance.yahoo.com/news/mastercard-expands-cryptocurrency-support-citing-025029070.html",
+      "summary": "Mastercard announced on February 11, 2021, its plans to expand cryptocurrency support due to growing consumer and merchant interest. This move allows users to convert crypto to fiat for spending. The expansion signals a significant step towards mainstream usability and adoption, likely boosting Bitcoin's short-term price by increasing demand and utility.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Mastercard_crypto_expansion",
+        "consumer_interest",
+        "merchant_adoption",
+        "crypto_to_fiat_conversion"
+      ],
+      "rationale": "Mastercard's expansion of crypto support directly increases the utility and accessibility of Bitcoin, driving demand and likely leading to a short-term price increase."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n3050c20061b0",
+      "title": "SkyBridge's Scaramucci puts $100,000 price target on Bitcoin, sees more money managers and CFOs adopting it",
+      "url": "https://finance.yahoo.com/news/skybridge-anthony-scaramucci-sees-hundred-thousand-dollar-bitcoin-price-144153719.html",
+      "summary": "On February 11, 2021, SkyBridge Capital founder Anthony Scaramucci predicted Bitcoin could reach $100,000 within 12 months, citing increasing adoption by money managers and CFOs. This high-profile forecast, coupled with SkyBridge's own Bitcoin fund launch, reinforced positive sentiment and suggested continued institutional interest, potentially impacting Bitcoin's price in the short to medium term.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Scaramucci_BTC_target",
+        "SkyBridge_fund",
+        "institutional_adoption_forecast"
+      ],
+      "rationale": "High-profile price targets from influential figures like Scaramucci, combined with institutional fund launches, create positive market sentiment and can drive short-term price action."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n9f83bbc4f345",
+      "title": "A bitcoin ETF could finally come this year: Mike Novogratz",
+      "url": "https://finance.yahoo.com/news/mike-novogratz-bitcoin-etf-regulation-gary-gensler-securities-exchange-commission-sec-121515970.html",
+      "summary": "On February 11, 2021, Mike Novogratz predicted a U.S.-listed Bitcoin ETF could launch in 2021, citing institutional adoption and a new administration. The potential approval of a Bitcoin ETF is a significant catalyst for increased retail and institutional investment, which could lead to substantial price appreciation and volatility in the short term.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_ETF_approval_prospect",
+        "Novogratz_prediction",
+        "institutional_demand"
+      ],
+      "rationale": "The prospect of a U.S. Bitcoin ETF approval is a major bullish catalyst, expected to unlock significant institutional and retail capital, driving price and volatility in the short term."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n14c9230748f3",
+      "title": "Bitcoin soars to all-time high after BNY Mellon announces crypto venture",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-time-high-bny-140855207.html",
+      "summary": "On February 11, 2021, Bitcoin reached a new all-time high shortly after BNY Mellon announced its new digital asset unit. This news directly fueled the price surge, demonstrating the immediate market reaction to institutional adoption. The event highlighted the sensitivity of Bitcoin's price to major financial infrastructure developments.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "institutional",
+        "listing",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_all_time_high",
+        "BNY_Mellon_crypto_venture",
+        "institutional_impact"
+      ],
+      "rationale": "The immediate price surge to an all-time high following BNY Mellon's announcement underscores the market's positive reaction to institutional infrastructure development, creating a strong short-term bullish signal."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n18be11049ff9",
+      "title": "Mastercard Joins Tesla, PayPal in Crypto Revolution",
+      "url": "https://finance.yahoo.com/news/mastercard-joins-tesla-paypal-crypto-090448076.html",
+      "summary": "Payments giant Mastercard announced on February 11, 2021, its plan to support select cryptocurrencies on its network. This move follows similar initiatives by Tesla and PayPal, signaling a growing trend of mainstream financial players embracing digital assets. The increased utility and accessibility offered by Mastercard are expected to drive short-term demand and positive price action for Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Mastercard_crypto_support",
+        "Tesla_BTC_investment",
+        "PayPal_crypto_integration",
+        "mainstream_adoption"
+      ],
+      "rationale": "Mastercard's integration of cryptocurrencies, alongside other major players like Tesla and PayPal, signifies a powerful trend towards mainstream adoption, which is likely to boost Bitcoin's price in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-02-11",
+    "summary": "Bitcoin experienced a significant bullish day, reaching new all-time highs above $48,000, driven by major institutional announcements. Mastercard confirmed plans to support crypto payments, and BNY Mellon announced its entry into crypto custody services, signaling strong mainstream adoption and infrastructure development. These events, coupled with positive analyst commentary and continued institutional interest, created a highly bullish short-term outlook. The broader market sentiment remained positive, with tech stocks also performing well, though concerns about the U.S. economic recovery and dollar weakness persisted.",
+    "scenario_probs": {
+      "bull": 0.7,
+      "base": 0.25,
+      "bear": 0.05
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Potential for profit-taking after rapid price increases.",
+      "Regulatory uncertainty remains a long-term overhang.",
+      "Macroeconomic shifts could impact risk appetite.",
+      "High energy consumption concerns for Bitcoin mining.",
+      "Volatility inherent in the cryptocurrency market."
+    ],
+    "watch_items": [
+      "Further institutional announcements (e.g., other banks, payment processors).",
+      "Developments regarding a potential Bitcoin ETF approval.",
+      "Macroeconomic data releases (e.g., inflation, employment).",
+      "Elon Musk's continued commentary on cryptocurrencies.",
+      "On-chain metrics for whale activity and exchange flows."
+    ]
+  }
+}

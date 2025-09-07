@@ -1,0 +1,509 @@
+{
+  "date": "2022-07-06",
+  "long_term": [
+    {
+      "pick_idx": 5,
+      "id": "na6018ba46227",
+      "title": "Cryptocurrency market value slumps under $1 trillion",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-market-value-slumps-under-093713834.html",
+      "summary": "The global cryptocurrency market fell below $1 trillion for the first time since January 2021, reaching a low of $926 billion. This decline, losing $1 trillion in value over two months, is attributed to investors ditching riskier assets amidst high inflation and anticipated interest rate hikes by central banks. Bitcoin experienced a significant drop of over 10%. This broad market downturn signals a shift away from speculative assets, impacting Bitcoin's valuation and investor sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "market_cap_below_1T",
+        "risk_off_sentiment",
+        "inflation_hike_fear"
+      ],
+      "rationale": "The significant drop in the overall crypto market cap below $1 trillion indicates a severe deleveraging event. This macro-driven sell-off suggests a prolonged period of reduced liquidity and investor appetite for risk, directly impacting Bitcoin's price and potential for recovery."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n0ebdce03693a",
+      "title": "Crypto hedge fund Three Arrow Capital defaults on $670 million loan as liquidity dries up across the sector",
+      "url": "https://finance.yahoo.com/news/crypto-hedge-fund-three-arrow-154704174.html",
+      "summary": "Crypto hedge fund Three Arrows Capital (3AC) defaulted on a $670 million loan from Voyager Digital, comprised of 15,000 BTC and $350 million in USDC. This failure to pay is a significant blow to the crypto sector, highlighting the increasing liquidity pressures and contagion risks. The default underscores the fragility of leveraged positions within the industry and the potential for cascading failures.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "3AC_default",
+        "Voyager_exposure",
+        "contagion_risk"
+      ],
+      "rationale": "The default by a major hedge fund like Three Arrows Capital signals systemic risk and liquidity evaporation within the crypto ecosystem. This event can trigger further margin calls and liquidations, negatively impacting Bitcoin's price and overall market stability."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n59bb59b4af33",
+      "title": "Bitcoin: El Salvador hosts 44 countries to encourage crypto adoption",
+      "url": "https://finance.yahoo.com/news/bitcoin-el-salvador-hosts-44-121507733.html",
+      "summary": "El Salvador, the first country to adopt Bitcoin as legal tender, hosted 44 nations to discuss the benefits and rollout of cryptocurrency. This initiative aims to promote financial inclusion and the digital economy, signaling a potential global trend towards crypto adoption. The event highlights El Salvador's commitment to Bitcoin and its role in fostering international dialogue on digital assets.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "El_Salvador_adoption",
+        "global_crypto_conference",
+        "financial_inclusion"
+      ],
+      "rationale": "El Salvador's continued efforts to promote Bitcoin adoption among a wide range of countries can foster a positive narrative and potentially lead to increased global acceptance. This could drive demand and infrastructure development for Bitcoin over the long term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n96cec5bfccf2",
+      "title": "US Crackdown on Forced Labor in China Risks Further Supply Chaos",
+      "url": "https://finance.yahoo.com/news/us-crackdown-forced-labor-china-090000131.html",
+      "summary": "A US law, effective June 21, barring goods made with forced labor in China, could further disrupt global supply chains already strained by the pandemic and war. This policy aims to address human rights abuses but risks exacerbating existing logistical challenges, potentially impacting the production and availability of various goods, including those related to technology and manufacturing.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "US_China_trade_policy",
+        "supply_chain_disruption",
+        "forced_labor_ban"
+      ],
+      "rationale": "Geopolitical tensions and supply chain disruptions can indirectly affect Bitcoin by influencing global economic sentiment and the availability of hardware for mining or related technologies. Uncertainty in trade policies can lead to broader market volatility."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n67ee851a3f39",
+      "title": "Soluna Receives $35M From Spring Lane to Build Green Data Centers",
+      "url": "https://finance.yahoo.com/news/soluna-receives-35m-spring-lane-133910440.html",
+      "summary": "Soluna Holdings secured $35 million in project financing from Spring Lane Capital to develop more green data centers. These facilities are designed to convert wasted renewable energy into clean computing power for services like Bitcoin mining and AI. This investment supports the growth of sustainable infrastructure for computationally intensive industries.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "mining"
+      ],
+      "features_for_model": [
+        "green_data_centers",
+        "renewable_energy_mining",
+        "Soluna_funding"
+      ],
+      "rationale": "Investment in green data centers for Bitcoin mining aligns with growing ESG concerns and can improve the network's environmental perception. Increased efficiency and sustainable energy sources for mining operations could support long-term network health and adoption."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n2fc0c60c5695",
+      "title": "Luna Foundation Guard says its Bitcoin reserves are down to 313 from over 80,000, and it will use ‘remaining assets’ to pay back ‘smallest’ stablecoin holders",
+      "url": "https://finance.yahoo.com/news/luna-foundation-guard-says-bitcoin-140917497.html",
+      "summary": "The Luna Foundation Guard (LFG) reported holding only 313 Bitcoin, a drastic reduction from its initial 80,000+ BTC reserve, used to defend Terra's UST stablecoin. LFG plans to use remaining assets to compensate smaller stablecoin holders. This announcement details the significant loss of reserves and the fallout from the Terra ecosystem collapse, impacting investor confidence in algorithmic stablecoins.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "LFG_BTC_reserve_drop",
+        "Terra_collapse_fallout",
+        "algorithmic_stablecoin_risk"
+      ],
+      "rationale": "The near-total depletion of LFG's Bitcoin reserves due to the Terra collapse is a stark reminder of the risks associated with algorithmic stablecoins. This event severely damaged trust in such mechanisms and contributed to broader market fear, impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nab234019cb34",
+      "title": "Galaxy’s Novogratz Stays Optimistic on Crypto Adoption Even as Markets Languish",
+      "url": "https://finance.yahoo.com/news/galaxy-novogratz-stays-optimistic-crypto-163449427.html",
+      "summary": "Galaxy Digital CEO Michael Novogratz remains optimistic about crypto adoption despite current market downturns. He views Bitcoin as a store of value and a 'real macro asset.' Novogratz's perspective suggests that while short-term volatility is expected, the long-term adoption and utility of digital assets are likely to continue growing.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Novogratz_optimism",
+        "BTC_store_of_value",
+        "macro_asset"
+      ],
+      "rationale": "Endorsement from prominent figures like Michael Novogratz, who sees Bitcoin as a macro asset, can bolster investor confidence. His long-term optimistic outlook, despite market headwinds, suggests underlying belief in crypto's fundamental value and adoption trajectory."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n555da85f730b",
+      "title": "Consider Digital Assets Instead of Still-Pricey Real Estate, Say JPMorgan Strategists",
+      "url": "https://finance.yahoo.com/news/consider-digital-assets-instead-still-175026055.html",
+      "summary": "JPMorgan strategists suggest digital assets are a preferred alternative asset class over expensive real estate. They note that while public markets price in recession risks, some alternative assets like real estate may not have fully repriced. This view positions digital assets, despite recent volatility, as a potentially more attractive investment compared to traditional, high-priced assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "JPMorgan_digital_assets",
+        "alternative_assets",
+        "real_estate_comparison"
+      ],
+      "rationale": "Institutional endorsement from a major bank like JPMorgan, suggesting digital assets as a preferred alternative to real estate, can attract new capital. This signals a potential shift in asset allocation strategies, benefiting Bitcoin's long-term adoption."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n606c5e291b33",
+      "title": "UST Struggles to Maintain Peg as LUNA, Crypto Markets Crash",
+      "url": "https://finance.yahoo.com/news/ust-struggles-maintain-peg-luna-092753143.html",
+      "summary": "TerraUSD (UST), an algorithmic stablecoin, lost its peg to the US dollar due to large withdrawals from the Terra ecosystem, occurring amidst bearish market conditions. This de-pegging has led to a significant sell-off in its native token, LUNA. The event highlights the inherent risks of algorithmic stablecoins and their potential to destabilize broader crypto markets.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "UST_depeg",
+        "LUNA_crash",
+        "algorithmic_stablecoin_risk"
+      ],
+      "rationale": "The collapse of UST and LUNA demonstrated the fragility of algorithmic stablecoins and caused significant contagion. This event eroded trust in the DeFi space and contributed to a broader market downturn, negatively impacting Bitcoin's price and investor sentiment."
+    },
+    {
+      "pick_idx": 49,
+      "id": "nfd31c3ceefbb",
+      "title": "Gold has let us down so far but the price will rise soon – and so will this miner",
+      "url": "https://finance.yahoo.com/news/gold-let-us-down-far-040000861.html",
+      "summary": "Despite gold's underperformance as an inflation hedge, its price is expected to rise due to falling supply and increasing demand, particularly from central banks diversifying away from the US dollar due to sanctions. This shift in central bank strategy could increase demand for gold as a safe-haven asset, potentially influencing investor sentiment towards other uncorrelated assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "gold_inflation_hedge",
+        "central_bank_demand",
+        "sanctions_impact"
+      ],
+      "rationale": "A potential rise in gold prices, driven by central bank diversification and geopolitical factors, could signal a broader shift towards alternative assets. If gold strengthens as a hedge, it might indirectly benefit Bitcoin by increasing overall investor interest in non-fiat assets."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 4,
+      "id": "n0f27a56758ec",
+      "title": "Crypto exchange FTX has \"a few billion\" to support industry - Bankman-Fried",
+      "url": "https://finance.yahoo.com/news/crypto-exchange-ftx-few-billion-162241059.html",
+      "summary": "FTX CEO Sam Bankman-Fried stated the exchange has \"a few billion\" available to support struggling crypto firms, suggesting the worst of the liquidity crunch may have passed. This indicates FTX's willingness to act as a white knight, potentially stabilizing market sentiment and preventing further contagion.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "FTX_liquidity_support",
+        "Bankman-Fried_statement",
+        "market_stabilization"
+      ],
+      "rationale": "FTX's stated ability to provide liquidity can act as a confidence booster, potentially stemming further sell-offs. This news could lead to a short-term price recovery for Bitcoin as it signals a potential backstop for the industry."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ne02ebfab75b2",
+      "title": "Binance Extends Zero-Fee Bitcoin Trading Globally",
+      "url": "https://finance.yahoo.com/news/binance-extends-zero-fee-bitcoin-160517684.html",
+      "summary": "Binance is eliminating trading fees for Bitcoin globally starting July 8th, extending a program previously launched in the US. This move aims to increase competitiveness and accessibility, potentially driving higher trading volumes on the platform.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 2,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Binance_zero_fee_BTC",
+        "trading_volume_boost",
+        "competition"
+      ],
+      "rationale": "The elimination of trading fees by a major exchange like Binance can stimulate trading activity and attract new users. This could lead to increased liquidity and potentially a short-term price bump for Bitcoin as more traders engage with the market."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nc1112c06306e",
+      "title": "Bitcoin (BTC) Fear & Greed Index Remains in the Extreme Fear Zone",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-fear-greed-index-010226257.html",
+      "summary": "The Bitcoin Fear & Greed Index remains in the 'Extreme Fear' zone, indicating significant negative sentiment among investors. Despite a choppy but bullish Tuesday, Bitcoin ended the day at $20,159, falling short of key resistance levels and remaining below its 100-day EMA, suggesting bearish technical indicators.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fear_Greed_Index_Extreme_Fear",
+        "bearish_technical_indicators",
+        "sentiment_analysis"
+      ],
+      "rationale": "The persistent 'Extreme Fear' sentiment suggests that investor confidence is low, which can lead to further selling pressure. Bearish technical indicators reinforce the short-term bearish outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf90ee1aacf9d",
+      "title": "‘Wolf of Wall Street’ says Bitcoin investments will be profitable in three to five years",
+      "url": "https://finance.yahoo.com/news/wolf-wall-street-says-bitcoin-042453208.html",
+      "summary": "Jordan Belfort, the 'Wolf of Wall Street,' predicts Bitcoin investments will be profitable within three to five years, advising a long-term perspective. This optimistic long-term outlook from a prominent figure, despite current market conditions, could influence investor sentiment.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Jordan_Belfort_prediction",
+        "long_term_BTC_outlook",
+        "investor_sentiment"
+      ],
+      "rationale": "While Belfort's long-term prediction is positive, its immediate impact on price might be limited due to the current bearish sentiment and the extended timeframe. However, it could provide a psychological boost to some investors."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n0bc6f22b3f81",
+      "title": "FOREX-Euro hits fresh two-decade low vs dollar on concerns over energy prices",
+      "url": "https://finance.yahoo.com/news/forex-euro-hits-fresh-two-095928612.html",
+      "summary": "The euro has fallen to a fresh two-decade low against the dollar due to concerns over rising energy prices and potential shortages in the Eurozone. This currency weakness, coupled with a strengthening dollar, reflects broader macroeconomic anxieties and a flight to safety.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "EUR_USD_low",
+        "energy_price_concerns",
+        "USD_strength"
+      ],
+      "rationale": "A strong dollar often correlates with a weaker Bitcoin as investors move capital to perceived safe havens. The macroeconomic concerns driving the euro's decline and dollar's strength create a risk-off environment that can pressure Bitcoin."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n7c748c145389",
+      "title": "Crypto crash: Bitcoin price sinks further as Voyager Digital files for bankruptcy",
+      "url": "https://finance.yahoo.com/news/crypto-crash-bitcoin-price-sinks-094919619.html",
+      "summary": "Bitcoin's price has fallen again as crypto lender Voyager Digital filed for bankruptcy. Voyager's Chapter 11 filing, citing prolonged volatility and contagion, marks another significant firm failure in the crypto space, potentially increasing fear and impacting market liquidity.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Voyager_bankruptcy",
+        "crypto_contagion",
+        "market_fear"
+      ],
+      "rationale": "Voyager Digital's bankruptcy filing is a direct consequence of the ongoing crypto market downturn and contagion. This event further erodes investor confidence and highlights liquidity issues, likely leading to continued downward pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n5b8eecfc619f",
+      "title": "India's cryptocurrency industry reels as new tax hammers trading",
+      "url": "https://finance.yahoo.com/news/indias-cryptocurrency-industry-reels-tax-115413688.html",
+      "summary": "India's new 1% tax on crypto trades has severely impacted the industry, causing trading volumes to plummet by up to 90%. This tax, combined with existing regulatory burdens and a 30% digital income tax, has further discouraged investors, leading to a significant downturn in trading activity.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "India_crypto_tax",
+        "trading_volume_drop",
+        "regulatory_burden"
+      ],
+      "rationale": "The new tax in India is a significant regulatory hurdle that directly reduces trading volume and liquidity. This negative development in a major market can contribute to a broader bearish sentiment and impact Bitcoin's price."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n0dba3f22aac1",
+      "title": "CleanSpark Announces June 2022 Bitcoin Production",
+      "url": "https://finance.yahoo.com/news/cleanspark-announces-june-2022-bitcoin-130000731.html",
+      "summary": "CleanSpark reported producing 339 BTC in June 2022, with daily production hitting an all-time high of 12.1 BTC and hashrate increasing 12% month-over-month. The company holds 561 BTC. This operational update highlights increased mining efficiency and hashrate growth.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CleanSpark_production_increase",
+        "mining_efficiency",
+        "hashrate_growth"
+      ],
+      "rationale": "Increased production and hashrate from mining companies like CleanSpark can be a positive signal for network health and efficiency. While a single miner's output has limited impact, a trend of improved operational metrics can contribute to a more positive sentiment."
+    },
+    {
+      "pick_idx": 45,
+      "id": "ne93657753a85",
+      "title": "Bitcoin Recovers Above $20K as Short ETF Sees Record $51M in Weekly Inflows",
+      "url": "https://finance.yahoo.com/news/bitcoin-recovers-above-20k-short-110027918.html",
+      "summary": "Bitcoin has recovered above $20,000, showing a gradual recovery after a recent drop. The ProShares Short Bitcoin Strategy ETF (BITI) saw record $51 million in weekly inflows, indicating institutional interest in betting against Bitcoin's price. This suggests mixed institutional sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "BITI_inflows",
+        "institutional_sentiment"
+      ],
+      "rationale": "The recovery above $20K is a short-term positive, but record inflows into a short Bitcoin ETF signal significant bearish institutional sentiment. This divergence suggests potential for volatility and a tug-of-war between bullish and bearish forces."
+    },
+    {
+      "pick_idx": 50,
+      "id": "nebfeeb3cc430",
+      "title": "Riot Blockchain Announces June 2022 Production and Operations Updates",
+      "url": "https://finance.yahoo.com/news/riot-blockchain-announces-june-2022-130000534.html",
+      "summary": "Riot Blockchain produced 421 BTC in June 2022, a 73% increase year-over-year, and held approximately 6,654 BTC. The company's hashrate capacity is growing. This update indicates strong operational performance and expansion in Bitcoin mining.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Riot_BTC_production",
+        "hashrate_growth",
+        "mining_operations"
+      ],
+      "rationale": "Riot Blockchain's significant year-over-year increase in BTC production and growing hashrate capacity are positive operational indicators. This suggests improved mining efficiency and expansion, which can indirectly support Bitcoin's network health."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-07-06",
+    "summary": "The crypto market remains under pressure, with Bitcoin hovering around $20,000 amidst ongoing macroeconomic concerns and contagion fears from firm bankruptcies like Voyager Digital. While some exchanges like Binance are offering zero-fee trading to stimulate activity, and firms like FTX signal liquidity support, the 'Extreme Fear' sentiment persists. The strengthening dollar and weak Euro further contribute to a risk-off environment, suggesting continued volatility in the short term.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued contagion from crypto firm bankruptcies (e.g., Voyager).",
+      "Persistent macroeconomic headwinds (inflation, interest rate hikes, recession fears).",
+      "Strengthening USD and weakening EUR impacting global liquidity.",
+      "Negative investor sentiment reflected in the Fear & Greed Index.",
+      "Regulatory uncertainty and new tax implementations (e.g., India)."
+    ],
+    "watch_items": [
+      "Voyager Digital bankruptcy proceedings.",
+      "FTX's liquidity support actions and statements.",
+      "Binance's zero-fee trading impact on volume.",
+      "US CPI data release (upcoming).",
+      "Fed meeting minutes analysis."
+    ]
+  }
+}

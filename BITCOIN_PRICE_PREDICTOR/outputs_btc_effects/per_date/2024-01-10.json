@@ -1,0 +1,512 @@
+{
+  "date": "2024-01-10",
+  "long_term": [
+    {
+      "pick_idx": 6,
+      "id": "n962537c295eb",
+      "title": "Bitcoin climbs above $45,000 to 21-month peak as new year kicks off",
+      "url": "https://finance.yahoo.com/news/bitcoin-climbs-above-45-000-031939968.html",
+      "summary": "Bitcoin reached a 21-month high of over $45,000, marking a strong start to 2024 with a 156% gain in 2023. This surge is largely attributed to optimism surrounding the potential approval of spot Bitcoin ETFs. The price movement indicates increasing institutional interest and a potential shift in market sentiment towards a more bullish outlook for Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_ATH_level",
+        "ETF_anticipation",
+        "yearly_performance"
+      ],
+      "rationale": "The sustained climb above $45,000 signals strong buying pressure and growing institutional adoption. The positive momentum from 2023, coupled with ETF anticipation, suggests a continued upward trend over the next year."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n67f1bc5ca0d7",
+      "title": "Spot Bitcoin ETF: The Mainstream Era",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-etf-mainstream-era-215037562.html",
+      "summary": "The article highlights Bitcoin's strong performance in 2023, up over 150%, and positions the potential approval of a spot Bitcoin ETF in January 2024 as a major catalyst. It suggests that combining Bitcoin's technological innovation with an ETF wrapper could be industry-changing, potentially ushering in a new era of mainstream adoption and accessibility for investors.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ETF_approval_impact",
+        "mainstream_adoption",
+        "investor_sentiment"
+      ],
+      "rationale": "The potential approval of a spot Bitcoin ETF is a critical development for mainstream adoption. This regulatory clarity and accessibility are expected to unlock significant institutional capital, driving substantial price appreciation."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n40f828ecd2ee",
+      "title": "JPMorgan Cautions Against Recent Crypto Market Rally Amid ETF Excitement",
+      "url": "https://finance.yahoo.com/news/jpmorgan-cautions-against-recent-crypto-053129333.html",
+      "summary": "JPMorgan expresses skepticism about the current crypto rally, driven by spot Bitcoin ETF optimism. They argue that ETF approval might lead to existing capital shifting from current Bitcoin products to new ETFs, rather than attracting entirely new capital. This suggests a potential for limited net new inflows, tempering the expected impact of ETF approvals.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "JPM_ETF_caution",
+        "capital_rotation",
+        "net_inflow_impact"
+      ],
+      "rationale": "While ETF approval is generally bullish, JPMorgan's caution highlights a potential nuance: existing capital reallocation rather than new capital influx. This could moderate the immediate price impact, creating a more gradual adoption curve."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nca0f26542e31",
+      "title": "Bitcoin Spot ETF Catalyst for a 'Major Bull Run' in 2024, Says Saylor",
+      "url": "https://finance.yahoo.com/news/bitcoin-spot-etf-catalyst-major-080426861.html",
+      "summary": "Michael Saylor believes a spot Bitcoin ETF approval will unlock significant pent-up demand, potentially driving a 2x to 10x increase in demand for Bitcoin. Combined with the upcoming halving event, which will reduce supply, Saylor predicts a major bull run in 2024. This outlook emphasizes the dual impact of increased accessibility and reduced supply.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Saylor_outlook",
+        "ETF_demand_driver",
+        "halving_impact"
+      ],
+      "rationale": "Saylor's strong conviction, backed by the dual catalysts of ETF approval and the halving, presents a compelling case for a significant bull run. The 'high bandwidth compliant channel' for investors is a key driver of potential demand."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n2595f11a1f65",
+      "title": "Galaxy Digital CEO Mike Novogratz says Bitcoin will rebound to its all-time high by next year in wake of ETF approvals",
+      "url": "https://finance.yahoo.com/news/galaxy-digital-ceo-mike-novogratz-165403202.html",
+      "summary": "Mike Novogratz predicts Bitcoin will reach its all-time high within a year, driven by potential ETF approvals that could inject billions into the sector. He sees the ETF as a crucial step for institutional investment, enabling Bitcoin to skyrocket. This forecast aligns with the broader sentiment of increased institutional capital flowing into Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Novogratz_prediction",
+        "ETF_capital_inflow",
+        "all_time_high_target"
+      ],
+      "rationale": "Novogratz's prediction, based on the anticipated ETF approvals, suggests a strong bullish sentiment from a prominent industry figure. The potential for billions in new capital reinforces the expectation of a significant price recovery."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n1b19b2d8baca",
+      "title": "Crypto-linked shares rise premarket as Bitcoin hits highest price since May 2022",
+      "url": "https://finance.yahoo.com/news/crypto-linked-shares-rise-premarket-063444667.html",
+      "summary": "Shares of crypto-related companies like Coinbase, Marathon Digital, and Riot Platforms saw premarket gains as Bitcoin reached its highest price since May 2022. This movement indicates a positive correlation between Bitcoin's price action and the performance of publicly traded crypto companies, driven by broader market optimism and anticipation of regulatory clarity.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_stock_performance",
+        "BTC_price_correlation",
+        "premarket_gains"
+      ],
+      "rationale": "The rise in crypto-linked shares reflects a broader market sentiment shift, with investors anticipating positive developments. This suggests that the positive momentum in Bitcoin is translating into gains for related equities."
+    },
+    {
+      "pick_idx": 40,
+      "id": "ne7da89f63ce2",
+      "title": "Crypto is having a 2023 moment",
+      "url": "https://finance.yahoo.com/news/crypto-is-having-a-2023-moment-190339186.html",
+      "summary": "Bitcoin surpassed $42,000, reaching a yearly high, and the crypto market is showing renewed optimism despite past scandals. Investor sentiment is improving, with potential regulatory approval of crypto ETFs seen as a key driver for increased investor exposure and a positive market outlook.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "crypto_market_sentiment",
+        "ETF_catalyst",
+        "yearly_high"
+      ],
+      "rationale": "The article points to a significant shift in investor sentiment and a recovery in Bitcoin's price, largely fueled by the prospect of ETF approvals. This indicates a growing acceptance and integration of crypto into traditional finance."
+    },
+    {
+      "pick_idx": 44,
+      "id": "nf700a48e4992",
+      "title": "Bitcoin mining could supercharge transition to renewables, study claims",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-could-supercharge-transition-123839558.html",
+      "summary": "A Cornell University study suggests Bitcoin mining can accelerate the transition to renewable energy by utilizing excess electricity from solar and wind projects. This could generate revenue for renewable energy projects, reducing their environmental impact and potentially creating a symbiotic relationship between crypto mining and sustainable energy infrastructure.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "mining_renewables_link",
+        "energy_transition",
+        "environmental_impact"
+      ],
+      "rationale": "While not a direct price driver, the potential for Bitcoin mining to support renewable energy infrastructure is a long-term positive for the ecosystem's sustainability and public perception, indirectly supporting adoption."
+    },
+    {
+      "pick_idx": 46,
+      "id": "neade86000c0f",
+      "title": "Bitcoin Hits $45,000 Mark First Time Since 2022: ETFs in Focus",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-45-000-mark-180000432.html",
+      "summary": "Bitcoin surpassed $45,000 for the first time since April 2022, driven by increasing investor confidence in anticipation of potential Bitcoin ETF approvals. This price milestone signifies a strong comeback for Bitcoin and highlights the market's positive reaction to the prospect of greater institutional access.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_milestone",
+        "ETF_anticipation",
+        "institutional_access"
+      ],
+      "rationale": "Breaking the $45,000 level is a significant technical and psychological barrier, reinforcing the bullish sentiment. The focus on ETFs as the primary driver suggests continued upward pressure if approvals materialize."
+    },
+    {
+      "pick_idx": 48,
+      "id": "nee6a6552ec18",
+      "title": "Bitcoin Just Made History. The Cryptocurrency Could Soar 230% to 340% by 2025, According to Wall Street Analysts",
+      "url": "https://finance.yahoo.com/news/bitcoin-just-made-history-cryptocurrency-221931782.html",
+      "summary": "The SEC approved the first spot Bitcoin ETFs, a historic event for crypto. Analysts predict Bitcoin could soar 230%-340% by 2025. The approval of 11 issuer applications, including major players like BlackRock and Fidelity, marks a significant step towards mainstream adoption and institutional integration.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BTC_ETF_approval",
+        "analyst_price_target",
+        "institutional_integration"
+      ],
+      "rationale": "The SEC's approval of spot Bitcoin ETFs is a landmark event, validating Bitcoin as an asset class. The ambitious price targets from Wall Street analysts underscore the expected impact of this regulatory clarity and increased institutional participation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n9f7305cf28ee",
+      "title": "The SEC just approved spot bitcoin ETFs. Here's what investors should know.",
+      "url": "https://finance.yahoo.com/news/sec-just-approved-spot-bitcoin-211311426.html",
+      "summary": "The SEC approved spot Bitcoin ETFs on Wednesday, a major regulatory step expected to drive significant investment. Major firms like BlackRock and Fidelity are among those approved to offer these ETFs. Bitcoin prices have already surged in response, more than doubling since last year.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SEC_ETF_approval",
+        "institutional_inflow",
+        "price_reaction"
+      ],
+      "rationale": "The actual approval of spot Bitcoin ETFs is a confirmed bullish catalyst, expected to drive immediate inflows and price appreciation over the next few days."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n09ff1b8ef26e",
+      "title": "European Gas Climbs Amid Fresh Supply Risks and Cold Snap",
+      "url": "https://finance.yahoo.com/news/european-gas-rises-red-sea-075949208.html",
+      "summary": "European natural gas prices are volatile due to Red Sea attacks and a cold snap. This geopolitical tension and weather event could indirectly impact broader market sentiment and liquidity, potentially affecting risk assets like Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "geopolitical_risk",
+        "energy_prices",
+        "market_volatility"
+      ],
+      "rationale": "While not directly related to crypto, escalating geopolitical risks and energy price volatility can increase overall market uncertainty and potentially lead to a flight to safety, impacting Bitcoin's short-term price action."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nae166ece99aa",
+      "title": "Restey immortalizes Gensler’s tweet on the Bitcoin blockchain",
+      "url": "https://finance.yahoo.com/news/restey-immortalizes-gensler-tweet-bitcoin-204939638.html",
+      "summary": "An artist inscribed SEC Chair Gary Gensler's tweet debunking a false ETF approval onto the Bitcoin blockchain. This action serves as a historical record of the SEC's account hack and Gensler's clarification, highlighting the chaotic events surrounding the ETF approval process.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "hack/outage",
+        "protocol"
+      ],
+      "features_for_model": [
+        "blockchain_inscription",
+        "SEC_hack_response",
+        "historical_record"
+      ],
+      "rationale": "This is a symbolic event that captures the narrative around the SEC hack. It has minimal direct impact on price but adds to the ongoing story of the ETF approval process."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n1ca8f6e3b13e",
+      "title": "With the fake Bitcoin ETF approval, Gary Gensler created his own worst nightmare",
+      "url": "https://finance.yahoo.com/news/fake-bitcoin-etf-approval-gary-143307922.html",
+      "summary": "The SEC's hacked Twitter account falsely announced Bitcoin ETF approvals, causing market confusion and a price spike followed by a drop. This incident highlights the SEC's vulnerability and the potential for misinformation to impact crypto markets, creating a challenging situation for Chair Gensler.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "volatility"
+      ],
+      "features_for_model": [
+        "SEC_hack_impact",
+        "misinformation_event",
+        "market_confusion"
+      ],
+      "rationale": "The SEC hack and subsequent false announcement created significant short-term volatility and highlighted regulatory communication risks, which could lead to cautious sentiment in the immediate aftermath."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n30decc53624a",
+      "title": "Trending tickers: Bitcoin | Greggs | Sainsbury’s | Tesla",
+      "url": "https://finance.yahoo.com/news/trending-tickers-bitcoin-greggs-sainsburys-tesla-105248093.html",
+      "summary": "Bitcoin's price surged towards $48,000 after a false SEC announcement of spot Bitcoin ETF approvals, causing a temporary spike. This event underscores the market's sensitivity to ETF news and the impact of misinformation, even if brief.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "ETF",
+        "hack/outage",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_spike",
+        "SEC_hack_news",
+        "ETF_anticipation_volatility"
+      ],
+      "rationale": "The brief price surge and subsequent stabilization due to the SEC hack demonstrates the market's immediate reaction to ETF-related news, even false news, highlighting short-term volatility."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n490ef62827d7",
+      "title": "BlackRock, Ark Slash Bitcoin ETF Fees Again Ahead of SEC Deadline",
+      "url": "https://finance.yahoo.com/news/blackrock-ark-slash-bitcoin-etf-123237195.html",
+      "summary": "Leading ETF issuers like BlackRock and Ark have further reduced their proposed fees for spot Bitcoin ETFs. This fee-cutting competition aims to attract investors ahead of the SEC's decision, signaling aggressive positioning by major players in anticipation of the approval.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ETF_fee_reduction",
+        "issuer_competition",
+        "pre_approval_strategy"
+      ],
+      "rationale": "The aggressive fee reductions by major issuers indicate strong confidence in ETF approval and a competitive push to capture market share, which is a positive signal for the ecosystem."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n38067fb47590",
+      "title": "SEC’s cybersecurity in question after ETF tweet blunder",
+      "url": "https://finance.yahoo.com/news/sec-cybersecurity-etf-tweet-blunder-171023002.html",
+      "summary": "US senators are demanding answers from the SEC regarding the erroneous tweet about spot Bitcoin ETF approvals. This cybersecurity incident, which caused a temporary price surge and subsequent drop, has raised questions about the SEC's communication protocols and security measures.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "volatility"
+      ],
+      "features_for_model": [
+        "SEC_cybersecurity_issue",
+        "regulatory_scrutiny",
+        "market_reaction_to_hack"
+      ],
+      "rationale": "The fallout from the SEC hack, including potential regulatory scrutiny and increased caution, could create a short-term overhang on market sentiment, even after the actual ETF approval."
+    },
+    {
+      "pick_idx": 27,
+      "id": "na9ad79264a2a",
+      "title": "CBOE filings show spot bitcoin ETFs slated to begin trading on Thursday",
+      "url": "https://finance.yahoo.com/news/multiple-spot-bitcoin-etfs-begin-194130882.html",
+      "summary": "CBOE website filings indicate that multiple spot Bitcoin ETFs are scheduled to begin trading on Thursday. This suggests that the SEC approval is imminent and that the market is preparing for the launch of these products, reinforcing the bullish outlook.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "ETF",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CBOE_filings",
+        "ETF_trading_date",
+        "launch_preparation"
+      ],
+      "rationale": "The CBOE filings are a strong indicator that the ETFs are on track for launch, providing concrete evidence of the impending market event and reinforcing the bullish sentiment."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n1c73a0f6af2b",
+      "title": "UPDATE 2-US FBI, SEC join probe of fake social media post from regulator",
+      "url": "https://finance.yahoo.com/news/1-us-sec-fbi-join-200706704.html",
+      "summary": "The FBI and SEC are investigating the fake social media post regarding Bitcoin ETF approvals. This investigation highlights the seriousness of the cybersecurity breach and could lead to increased regulatory focus on platform security and communication protocols.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "FBI_SEC_investigation",
+        "cybersecurity_breach",
+        "regulatory_oversight"
+      ],
+      "rationale": "The involvement of the FBI in the investigation adds a layer of seriousness to the SEC hack, potentially leading to stricter security measures or communication guidelines, which could indirectly affect market operations."
+    },
+    {
+      "pick_idx": 48,
+      "id": "nee6a6552ec18",
+      "title": "Bitcoin Just Made History. The Cryptocurrency Could Soar 230% to 340% by 2025, According to Wall Street Analysts",
+      "url": "https://finance.yahoo.com/news/bitcoin-just-made-history-cryptocurrency-221931782.html",
+      "summary": "The SEC approved the first spot Bitcoin ETFs, a historic moment for crypto. Analysts predict Bitcoin could soar 230%-340% by 2025. The approval of 11 issuer applications, including major players like BlackRock and Fidelity, marks a significant step towards mainstream adoption and institutional integration.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_ETF_approval",
+        "analyst_price_target",
+        "institutional_integration"
+      ],
+      "rationale": "The actual approval of spot Bitcoin ETFs is a confirmed, high-impact bullish event. The analyst price targets suggest sustained positive sentiment and potential for significant price appreciation in the short to medium term."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-01-10",
+    "summary": "The crypto market is dominated by the SEC's approval of spot Bitcoin ETFs, a landmark event that has driven significant price appreciation and investor optimism. Despite a brief period of volatility caused by a hack of the SEC's X account, the underlying sentiment remains strongly bullish. The approval is expected to unlock substantial institutional capital, further boosting Bitcoin's price and the broader crypto ecosystem. Competition among ETF issuers is intensifying with fee reductions, signaling a robust launch.",
+    "scenario_probs": {
+      "bull": 0.7,
+      "base": 0.25,
+      "bear": 0.05
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.9
+    },
+    "key_risks": [
+      "Further SEC regulatory actions or statements could introduce uncertainty.",
+      "The market may experience profit-taking after the initial ETF approval euphoria.",
+      "Broader macroeconomic factors, such as inflation data or Fed policy shifts, could influence risk appetite.",
+      "The SEC hack incident raises concerns about communication and security, potentially leading to increased scrutiny."
+    ],
+    "watch_items": [
+      "Spot Bitcoin ETF trading volumes and net flows.",
+      "Statements from SEC officials regarding ETF oversight.",
+      "Key macroeconomic data releases (e.g., CPI, PPI).",
+      "Performance of major crypto-related stocks (Coinbase, Marathon Digital, Riot Platforms).",
+      "Developments in the broader geopolitical landscape (e.g., Red Sea tensions)."
+    ]
+  }
+}

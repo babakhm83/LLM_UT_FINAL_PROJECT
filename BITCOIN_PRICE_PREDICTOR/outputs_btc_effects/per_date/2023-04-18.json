@@ -1,0 +1,550 @@
+{
+  "date": "2023-04-18",
+  "long_term": [
+    {
+      "pick_idx": 8,
+      "id": "n0475260cecb4",
+      "title": "U.S. Banking System Turmoil Has Spurred Bitcoin Outperformance: Coinbase",
+      "url": "https://finance.yahoo.com/news/u-banking-system-turmoil-spurred-095610765.html",
+      "summary": "Coinbase research indicates that Bitcoin has outperformed other assets since mid-February, with its market dominance increasing. This resilience is attributed to the turmoil in the U.S. banking system, suggesting a flight to Bitcoin as a perceived safe haven or alternative during traditional financial instability. This trend highlights Bitcoin's growing role as a macro asset, potentially attracting more institutional interest and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "banking_crisis",
+        "bitcoin_dominance",
+        "macro_hedge"
+      ],
+      "rationale": "The banking crisis has positioned Bitcoin as a potential safe haven, driving increased adoption and market dominance. This narrative is likely to persist, attracting further institutional capital and reinforcing Bitcoin's role as a macro asset."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nd69cf390fad8",
+      "title": "Bitcoin leads crypto rally as central banks promise liquidity to stem rising bank risk",
+      "url": "https://finance.yahoo.com/news/bitcoin-leads-crypto-rally-central-033912434.html",
+      "summary": "Bitcoin surged over the weekend, breaching $28,000, as central banks coordinated efforts to inject liquidity into markets amid global banking industry concerns. This rally, led by Bitcoin, suggests that traditional financial instability is driving capital into cryptocurrencies. The central bank actions to ensure liquidity could also indirectly benefit risk assets like Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "central_bank_liquidity",
+        "banking_instability",
+        "bitcoin_rally"
+      ],
+      "rationale": "Central bank liquidity injections in response to banking sector stress are a significant macro tailwind for risk assets, including Bitcoin. This event reinforces the narrative of Bitcoin as an alternative financial system."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n6d4b46c1a7ab",
+      "title": "Circle’s USDC stablecoin regains parity as regulators act to stop bank run risk",
+      "url": "https://finance.yahoo.com/news/circle-usdc-stablecoin-regains-parity-053345580.html",
+      "summary": "USDC regained its dollar peg after regulators intervened to stabilize Silicon Valley Bank, where Circle held significant reserves. This event demonstrated the fragility of stablecoins tied to traditional banking infrastructure but also highlighted the effectiveness of regulatory intervention in restoring confidence. The successful resolution of the USDC de-pegging incident is crucial for maintaining trust in the stablecoin ecosystem and, by extension, the broader crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "USDC_stability",
+        "regulatory_intervention",
+        "banking_crisis_resolution"
+      ],
+      "rationale": "The swift regulatory action to backstop USDC deposits restored confidence in stablecoins. This event, while highlighting risks, ultimately demonstrated the system's resilience and the importance of regulatory oversight for market stability."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n3c3b44e00a8b",
+      "title": "Bitcoin's Biggest Bull Case: Bank Turmoil and the Regional Banking Crisis",
+      "url": "https://finance.yahoo.com/news/bitcoins-biggest-bull-case-bank-163415356.html",
+      "summary": "The article posits that the U.S. regional banking crisis, with multiple bank collapses, is Bitcoin's strongest bull case. It highlights Bitcoin's year-to-date performance (up 62.7%) compared to the Dow Jones U.S. Banks Index (down over 14%). This suggests a significant shift of capital from traditional banking to crypto assets seeking liquidity and security, reinforcing Bitcoin's narrative as an alternative to the traditional financial system.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "banking_crisis",
+        "bitcoin_outperformance",
+        "alternative_asset"
+      ],
+      "rationale": "The ongoing banking crisis directly benefits Bitcoin by showcasing the perceived failures of traditional finance and driving capital into digital assets. This narrative is a powerful long-term driver for adoption and price appreciation."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n241bbb05f5e0",
+      "title": "GRAPHIC-Markets in Q1: Moving fast and breaking things",
+      "url": "https://finance.yahoo.com/news/graphic-markets-q1-moving-fast-090000877.html",
+      "summary": "The first quarter of 2023 was marked by significant volatility across financial markets, including a strong rally in world stocks, bond market swings, and banking turmoil. Bitcoin also experienced a notable comeback. This period of high volatility and systemic stress in traditional finance often leads investors to seek alternative assets, potentially benefiting Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Q1_market_volatility",
+        "banking_turmoil",
+        "bitcoin_recovery"
+      ],
+      "rationale": "The turbulent Q1 market environment, characterized by banking stress and general uncertainty, has historically driven investors towards Bitcoin as a hedge. This trend is likely to continue as macro conditions remain volatile."
+    },
+    {
+      "pick_idx": 43,
+      "id": "na18283f1fe2c",
+      "title": "Bitcoin Miners' Revenue From Fees Rises Suggesting Onset of Major Bull Run",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-revenue-fees-rises-104803604.html",
+      "summary": "An increase in Bitcoin miners' revenue from transaction fees, indicated by a positive two-year \"Z-score,\" suggests rising network demand and potentially the start of a bull run. Historically, such indicators have preceded significant price rallies. This metric reflects increased on-chain activity and user adoption, which are fundamental drivers of Bitcoin's long-term value.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "miner_revenue_fees",
+        "network_demand",
+        "bull_run_indicator"
+      ],
+      "rationale": "Rising miner revenue from fees is a strong on-chain signal of increased network usage and demand, often preceding significant price appreciation. This indicates a healthy and growing Bitcoin ecosystem."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n20b3fec1caaa",
+      "title": "Bitcoin Crosses $24.7K, Sees Highest Liquidations in Two Months",
+      "url": "https://finance.yahoo.com/news/bitcoin-crosses-24-7k-sees-060231166.html",
+      "summary": "Bitcoin surged past $24,700, recovering weekend losses and hitting a three-week high. This rally coincided with over $100 million in Bitcoin shorts being liquidated, the highest in two months. The price action suggests strong buying pressure and a potential short squeeze, indicating increased bullish sentiment among traders.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_price_surge",
+        "short_liquidation",
+        "bullish_sentiment"
+      ],
+      "rationale": "The significant liquidation of shorts indicates a rapid upward price movement driven by strong buying pressure, potentially signaling the start of a sustained rally."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0a8f315f673e",
+      "title": "Ripple price soars 20% as XRP investors await verdict on SEC case",
+      "url": "https://finance.yahoo.com/news/ripple-price-xrp-investors-verdict-sec-case-105529299.html",
+      "summary": "Ripple's XRP saw a 20% price surge as investors anticipated a verdict in its legal battle with the SEC. This highlights how regulatory clarity or favorable outcomes can significantly impact altcoin prices and investor sentiment. While focused on XRP, the outcome of such high-profile cases can have ripple effects across the broader crypto market, influencing regulatory approaches and investor confidence.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_case_verdict",
+        "XRP_price_surge",
+        "regulatory_clarity"
+      ],
+      "rationale": "The anticipation of a verdict in the SEC vs. Ripple case creates significant price volatility for XRP. A favorable outcome could boost altcoins, while an unfavorable one could dampen sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n93ab65c42070",
+      "title": "Bitcoin price bounces back as Silicon Valley Bank rescued",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-bounces-back-silicon-114029509.html",
+      "summary": "Bitcoin experienced a nearly 10% price rebound following assurances from the US government regarding customer funds after the collapse of Silicon Valley Bank. This event demonstrates Bitcoin's sensitivity to traditional banking stability and its ability to recover quickly when systemic risks are perceived to be mitigated. The market's reaction underscores the interconnectedness of crypto and traditional finance.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "SVB_rescue",
+        "bitcoin_rebound",
+        "banking_stability"
+      ],
+      "rationale": "The swift government intervention to rescue SVB provided market stability, allowing Bitcoin to rebound. This shows Bitcoin's correlation with broader financial market sentiment, especially during periods of banking stress."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n5b01bdc628de",
+      "title": "Cryptoverse: Bitcoin moves towards Satoshi's payment dream",
+      "url": "https://finance.yahoo.com/news/cryptoverse-bitcoin-moves-towards-satoshis-061809796.html",
+      "summary": "The article suggests that Bitcoin is increasingly fulfilling its original purpose as a payment system, despite market volatility. Developments in crypto payments are progressing, even if overshadowed by market fluctuations. This indicates a maturing ecosystem where Bitcoin's utility beyond speculation is growing, which is a positive long-term development for adoption and value.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_payments",
+        "utility_growth",
+        "ecosystem_maturation"
+      ],
+      "rationale": "The increasing focus on Bitcoin's utility for payments, rather than just speculation, signifies a maturing market and broader adoption, which is a fundamental long-term bullish factor."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "n1bb5775171cb",
+      "title": "Bitcoin Financial Services Firm Unchained Capital Raises $60M",
+      "url": "https://finance.yahoo.com/news/bitcoin-financial-services-firm-unchained-150331366.html",
+      "summary": "Unchained Capital secured $60 million in Series B funding, led by Valor Equity Partners and including NYDIG. This capital infusion will support client base growth, product enhancement, and expansion. Such funding rounds indicate strong investor confidence in the Bitcoin financial services sector and its potential for growth.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Unchained_Capital_funding",
+        "VC_investment",
+        "financial_services_growth"
+      ],
+      "rationale": "Significant funding for a Bitcoin financial services firm signals growing institutional interest and development in the sector, potentially boosting confidence and adoption."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n05924e29ff36",
+      "title": "SEC Granted Access to Singapore Records for Terra's Do Kwon",
+      "url": "https://finance.yahoo.com/news/sec-granted-access-singapore-records-094456312.html",
+      "summary": "A U.S. judge denied Do Kwon's request to block the SEC from obtaining documents from Singapore related to Terraform Labs' operations. This legal development is a setback for Do Kwon and could lead to further clarity or action in the ongoing legal proceedings, potentially impacting market sentiment around projects facing similar regulatory scrutiny.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_DoKwon_legal",
+        "Terraform_records",
+        "regulatory_enforcement"
+      ],
+      "rationale": "Continued legal pressure on figures like Do Kwon can create negative sentiment in the broader crypto market, especially for projects with similar regulatory challenges."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ne44e83f09b56",
+      "title": "Trammell Venture Partners Launches New Bitcoin-native Startup Ecosystem Web Platform, Venture-backed Bitcoin Jobs Board",
+      "url": "https://finance.yahoo.com/news/trammell-venture-partners-launches-bitcoin-143000648.html",
+      "summary": "Trammell Venture Partners (TVP) launched a new web platform focused on Bitcoin-native startups, venture capital research, and crypto job searches. This initiative aims to foster growth and connectivity within the Bitcoin ecosystem, indicating continued development and investment in the space.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "TVP_platform_launch",
+        "bitcoin_startup_ecosystem",
+        "VC_funding_focus"
+      ],
+      "rationale": "The launch of platforms supporting Bitcoin startups and jobs signifies ongoing ecosystem development and investment, which is a positive signal for future growth."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nd7fefbc6824b",
+      "title": "Intel Discontinues Bitcoin Mining Chip Series",
+      "url": "https://finance.yahoo.com/news/intel-discontinues-bitcoin-mining-chip-162439239.html",
+      "summary": "Intel is ending production of its Bitcoin mining chip series (Blockscale 1000 Series ASIC). While this might seem bearish for specialized hardware, it could signal a shift in Intel's strategy or a consolidation in the mining hardware market. The impact on Bitcoin mining difficulty and profitability is likely to be minimal in the short term, as other manufacturers continue to produce ASICs.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Intel_ASIC_discontinuation",
+        "mining_hardware_shift",
+        "chip_production"
+      ],
+      "rationale": "Intel's exit from the Bitcoin mining chip market is a strategic business decision. While it removes a potential supplier, the overall impact on mining operations is likely to be limited given the presence of other major ASIC manufacturers."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n7e7f442c0491",
+      "title": "Bitcoin, Ether, other crypto fall as SEC waves big stick; Dogecoin gains; U.S. equity futures flat",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-other-crypto-fall-041738853.html",
+      "summary": "Bitcoin and Ether dipped as the SEC intensified regulatory actions, suing crypto exchange Bittrex. This highlights ongoing regulatory uncertainty and its impact on market sentiment. While some altcoins like Dogecoin gained, the overall trend suggests a cautious market awaiting clearer regulatory frameworks.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_enforcement",
+        "Bittrex_lawsuit",
+        "crypto_regulation_uncertainty"
+      ],
+      "rationale": "Increased SEC enforcement actions create regulatory uncertainty, leading to short-term price dips for major cryptocurrencies as investors become more risk-averse."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf38e8e85398b",
+      "title": "MicroStrategy’s Saylor Integrates Bitcoin Lightning Address Into Corporate Email",
+      "url": "https://finance.yahoo.com/news/microstrategy-saylor-integrates-bitcoin-lightning-003318325.html",
+      "summary": "Michael Saylor integrated Bitcoin's Lightning Network into his corporate email address (saylor@microstrategy.com), enabling direct BTC payments. This move showcases the practical application and growing usability of the Lightning Network for everyday transactions and reinforces MicroStrategy's commitment to Bitcoin adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Lightning_Network_integration",
+        "Saylor_email_payment",
+        "MicroStrategy_adoption"
+      ],
+      "rationale": "The integration of Lightning Network into a corporate email address by a prominent figure like Michael Saylor demonstrates practical adoption and usability improvements, potentially encouraging wider use of the network."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n3d4254f6241f",
+      "title": "Bitcoin Surge Parallels Price Movement in 2019: Analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-surge-parallels-price-movement-005028496.html",
+      "summary": "An analyst from K33 Research suggests Bitcoin's current price action mirrors its pattern from 2018-2019, predicting a potential rise to $45,000. This technical analysis indicates a potential bullish trend continuation, drawing parallels to a previous recovery period.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "Bitcoin_2019_analogy",
+        "price_pattern_similarity",
+        "analyst_prediction"
+      ],
+      "rationale": "Historical price pattern analysis suggests a potential for significant upside if current market behavior continues to mirror the 2019 recovery phase."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nb55ebbbe44fa",
+      "title": "Bitcoin slips, Ether inches above US$2,100",
+      "url": "https://finance.yahoo.com/news/bitcoin-slips-ether-inches-above-110744752.html",
+      "summary": "Bitcoin dropped while Ether edged above $2,100, with renewed regulatory concerns impacting sentiment after the SEC charged Bittrex. This suggests a mixed short-term outlook, with regulatory actions creating headwinds for some assets while others show resilience.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "SEC_Bittrex_action",
+        "Ether_resilience",
+        "regulatory_sentiment"
+      ],
+      "rationale": "Regulatory actions are creating mixed signals, with Bitcoin facing downward pressure while Ether shows some strength, indicating a market sensitive to regulatory news."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n3707ca1047f1",
+      "title": "Ethereum inflows slow following Shanghai upgrade, exchanges see Ether influx",
+      "url": "https://finance.yahoo.com/news/ethereum-inflows-slow-following-shanghai-044220582.html",
+      "summary": "Ethereum-linked products saw minimal investment interest ($300,000) in the week ending April 14, despite the Shanghai upgrade. This suggests that the immediate impact of the upgrade on investment inflows might be less pronounced than anticipated, with a notable influx of Ether to exchanges possibly indicating selling pressure.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Ethereum_inflows_slow",
+        "Shanghai_upgrade_impact",
+        "Ether_exchange_influx"
+      ],
+      "rationale": "Slowing inflows and an influx of Ether to exchanges post-Shanghai upgrade could indicate potential selling pressure or a pause in bullish momentum for Ether."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n0f8faaaccb3f",
+      "title": "Ethereum Unstaking Requests Now Face About a 17-Day Wait",
+      "url": "https://finance.yahoo.com/news/ethereum-unstaking-requests-now-face-182852399.html",
+      "summary": "Ethereum validators are now facing an estimated 17-day wait for unstaking requests following the Shanghai upgrade, an increase from previous estimates. This longer queue time could slightly dampen immediate selling pressure by making it more cumbersome for stakers to exit, but also highlights the network's capacity constraints for withdrawals.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Ethereum_unstaking_wait",
+        "Shanghai_upgrade_withdrawals",
+        "validator_queue"
+      ],
+      "rationale": "The increasing wait time for unstaking Ether might slightly deter immediate selling, but it also points to potential network congestion for withdrawals, which could be a minor bearish factor if it persists."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n86d03283629f",
+      "title": "First Mover Americas: Bitcoin Regains $30K as Alts Heat Up",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-regains-122031128.html",
+      "summary": "Bitcoin has reclaimed the $30,000 level, with altcoins also showing strength. This suggests a positive market sentiment and potential for broader altcoin rallies. The recovery in Bitcoin's price often acts as a catalyst for increased interest and investment in other cryptocurrencies.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_regains_30K",
+        "altcoin_rally",
+        "positive_market_sentiment"
+      ],
+      "rationale": "Bitcoin breaking above $30,000 is a significant psychological and technical level, often leading to increased confidence and capital flow into altcoins."
+    },
+    {
+      "pick_idx": 29,
+      "id": "na28acd156b68",
+      "title": "Cryptoverse: Bitcoin miners escape the bear trap",
+      "url": "https://finance.yahoo.com/news/cryptoverse-bitcoin-miners-escape-bear-051515380.html",
+      "summary": "Bitcoin miners are experiencing improved profitability due to Bitcoin's rally above $30,000 and falling electricity prices. This has boosted their revenue to the highest level since June of the previous year. Improved miner economics can lead to increased network security and potentially more investment in mining infrastructure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_profitability_increase",
+        "bitcoin_price_impact",
+        "electricity_cost_reduction"
+      ],
+      "rationale": "Improved miner profitability is a positive sign for the Bitcoin network's health and security, potentially leading to increased hash rate and investment in mining operations."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-04-18",
+    "summary": "Bitcoin has shown resilience, regaining the $30,000 mark, driven by a combination of macro factors like banking sector turmoil and positive on-chain indicators such as rising miner revenues. However, ongoing regulatory scrutiny from the SEC, exemplified by actions against exchanges like Bittrex, continues to cast a shadow, leading to mixed sentiment and price action across the market. While Bitcoin shows strength, the regulatory environment remains a key risk factor for short-term price movements.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Increased SEC enforcement actions and regulatory uncertainty impacting major exchanges and projects.",
+      "Potential for broader contagion from any unresolved issues in the traditional banking sector.",
+      "Short-term profit-taking after recent price rallies.",
+      "Macroeconomic data releases that could shift central bank policy expectations."
+    ],
+    "watch_items": [
+      "SEC vs. crypto exchange lawsuits (e.g., Bittrex)",
+      "Developments in the Terra/Do Kwon legal case",
+      "Upcoming macroeconomic data releases (e.g., inflation, employment)",
+      "Performance of Ether post-Shanghai upgrade and unstaking queue times",
+      "Miner profitability and hash rate trends"
+    ]
+  }
+}

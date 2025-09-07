@@ -1,0 +1,507 @@
+{
+  "date": "2018-11-17",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n4b427dd521b5",
+      "title": "Bitcoin and Ethereum Price Forecast – BTC Prices Buoyant as Market Hopes for Good Times",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-price-forecast-btc-072823443.html",
+      "summary": "The market's focus remains on the potential approval of Bitcoin ETFs, which could attract significant institutional investment and encourage large funds to trade the asset. Despite the SEC's apparent reluctance and delays, the prospect of ETF approval continues to be a key driver for market sentiment, suggesting a potential long-term bullish outlook if approvals materialize. The article highlights the ongoing debate and anticipation surrounding regulatory decisions impacting broader market adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ETF_approval_anticipation",
+        "institutional_adoption_potential"
+      ],
+      "rationale": "The potential approval of Bitcoin ETFs is a significant long-term catalyst that could unlock substantial institutional capital. This news, while not new, consistently influences market expectations for future adoption and price appreciation."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n18d65c6ac85a",
+      "title": "Goldman Sachs is Signing up Customers for its Bitcoin Trading Product: Report",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-signing-customers-bitcoin-233555856.html",
+      "summary": "Goldman Sachs is reportedly onboarding a limited number of clients for its new bitcoin trading product, a non-deliverable forward derivative. This move signifies growing institutional interest and the development of more sophisticated financial products for cryptocurrencies. The bank is also considering custody services, indicating a broader commitment to the digital asset space. This development suggests a maturing market and increased accessibility for traditional finance players.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_BTC_trading",
+        "institutional_product_launch",
+        "custody_services_consideration"
+      ],
+      "rationale": "The involvement of a major investment bank like Goldman Sachs in offering Bitcoin trading products is a strong signal of institutional acceptance and integration. This can lead to increased liquidity and legitimacy for Bitcoin."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ne44fe62eee38",
+      "title": "Bitcoin may cause catastrophic climate change by 2033, study warns",
+      "url": "https://finance.yahoo.com/news/bitcoin-may-cause-catastrophic-climate-160000264.html",
+      "summary": "A study warns that Bitcoin mining's electricity consumption could significantly contribute to climate change, potentially raising global temperatures by over two degrees Celsius by 2033. The research estimates Bitcoin's carbon dioxide production in 2017 and projects future impacts based on its increasing use. This highlights a growing concern regarding the environmental footprint of cryptocurrencies, which could lead to regulatory scrutiny or pressure for more sustainable mining practices.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_energy_consumption",
+        "climate_change_impact",
+        "mining_sustainability_concerns"
+      ],
+      "rationale": "Environmental concerns surrounding Bitcoin mining are a growing narrative that could lead to negative sentiment, regulatory intervention, or a push for greener mining solutions, impacting long-term adoption and cost structures."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n5cc83907b058",
+      "title": "Op Ed: Anatomy of the Tether Attack: Are Stablecoins Vulnerable?",
+      "url": "https://finance.yahoo.com/news/op-ed-anatomy-tether-attack-155044300.html",
+      "summary": "An analysis of a past attack on Tether, the dominant stablecoin, reveals its vulnerability and the potential impact on the broader crypto market. The attack caused Tether's peg to the USD to drop by 7%, while simultaneously boosting Bitcoin and other cryptocurrencies by over 10%. This event raises questions about the stability and security of stablecoins, which are crucial for crypto trading and liquidity, and suggests that such vulnerabilities could be exploited for profit or to manipulate markets.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Tether_attack_analysis",
+        "stablecoin_vulnerability",
+        "market_manipulation_risk"
+      ],
+      "rationale": "The vulnerability of stablecoins like Tether, and the potential for attacks to cause significant price swings, highlights systemic risks. While the attack itself might be short-lived, the underlying fragility of stablecoins could impact market confidence and liquidity over the medium term."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n4e9b266dd4d6",
+      "title": "‘Rehypothecation’: More about the Wall Street Practice that Could Ruin Bitcoin",
+      "url": "https://finance.yahoo.com/news/rehypothecation-more-wall-street-practice-230018353.html",
+      "summary": "This article delves into the Wall Street practice of rehypothecation and its potential negative implications for Bitcoin and the broader cryptocurrency market. Rehypothecation involves the reuse of client assets by financial institutions, which can lead to increased leverage and systemic risk. The piece explores how this practice, if applied to crypto assets, could undermine ownership principles and create unforeseen financial vulnerabilities, potentially impacting market stability and investor trust.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "rehypothecation_risk",
+        "Wall_Street_practices",
+        "crypto_asset_custody"
+      ],
+      "rationale": "The potential application of traditional finance practices like rehypothecation to crypto assets could introduce significant risks, including counterparty risk and a lack of true ownership, which could negatively impact market confidence and stability."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n3455e2e2ea3e",
+      "title": "Coinsource Receives BitLicense to Operate Bitcoin ATMs in New York",
+      "url": "https://finance.yahoo.com/news/coinsource-receives-bitlicense-operate-bitcoin-161131997.html",
+      "summary": "Bitcoin ATM operator Coinsource has been granted a BitLicense by the New York Department of Financial Services (NYDFS). This license validates Coinsource's operations and signifies a positive step for crypto accessibility in a major financial hub. CEO Sheffield Clark views this as a win for New Yorkers, enabling easier access to digital finance. The expansion of regulated Bitcoin ATM networks is crucial for broader adoption and integration into the traditional financial system.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinsource_BitLicense",
+        "NYDFS_approval",
+        "BTC_ATM_expansion"
+      ],
+      "rationale": "Regulatory approval for Bitcoin ATMs in key jurisdictions like New York is a positive sign for adoption and infrastructure development. It increases accessibility for users and signals a more regulated and mature crypto ecosystem."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n6b91c41772dc",
+      "title": "5 Highlights from Bitcoin-Bashing NYU Economist’s Senate Testimony",
+      "url": "https://finance.yahoo.com/news/5-highlights-bitcoin-bashing-nyu-155126683.html",
+      "summary": "NYU economist Nouriel Roubini testified before the U.S. Senate, reiterating his strong criticisms of Bitcoin and cryptocurrencies, labeling them as 'sh*tcoins' and highlighting their perceived flaws. His testimony focused on issues like market manipulation, lack of intrinsic value, and environmental concerns. Such vocal opposition from prominent figures in traditional finance and academia can influence regulatory sentiment and public perception, potentially creating headwinds for the crypto industry.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Nouriel_Roubini_testimony",
+        "crypto_criticism",
+        "regulatory_sentiment"
+      ],
+      "rationale": "Prominent critics like Nouriel Roubini voicing concerns in official forums like Senate testimony can shape regulatory discussions and public opinion, potentially leading to stricter oversight or negative market sentiment."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n3c5bcbf6f4d3",
+      "title": "NYSE Owner’s Bitcoin Futures Market Will Open in Mid-December",
+      "url": "https://finance.yahoo.com/news/nyse-owner-bitcoin-futures-market-000348277.html",
+      "summary": "Intercontinental Exchange (ICE), the owner of the New York Stock Exchange, is set to launch its physically-settled Bitcoin futures contract on December 12. This contract will be backed by actual bitcoins held in ICE's Digital Asset Warehouse and cleared through ICE Clear U.S. The introduction of physically-settled futures by a major exchange like ICE is a significant development, offering a more direct way for institutional investors to gain exposure to Bitcoin and potentially increasing market liquidity and stability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ICE_BTC_futures",
+        "physically_settled_futures",
+        "institutional_exposure"
+      ],
+      "rationale": "The launch of physically-settled Bitcoin futures by ICE, the NYSE owner, is a major step towards institutional adoption. It provides a regulated and robust avenue for large investors to participate, potentially driving demand and price appreciation."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nef5bfb5a67c2",
+      "title": "SEC Charges Forex Broker for Illegal Securities Swaps Involving Bitcoin",
+      "url": "https://finance.yahoo.com/news/sec-charges-forex-broker-illegal-192947731.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has filed charges against a forex broker, 1pool Ltd. (1Broker), and its CEO for violating federal laws related to security-based swaps funded by Bitcoin. This action, involving multiple government agencies, marks a coordinated effort to regulate activities involving cryptocurrencies. Such enforcement actions highlight the increasing regulatory scrutiny on the crypto space and can deter illicit activities, but also create uncertainty for legitimate participants.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_enforcement",
+        "1Broker_charges",
+        "illegal_swaps_regulation"
+      ],
+      "rationale": "Regulatory enforcement actions, even against smaller players, signal a tightening grip on the crypto market. This can create a chilling effect on innovation and investment, especially for products that blur the lines between traditional finance and crypto."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n3d298e7e88e1",
+      "title": "Bitcoin Will Not Challenge Gold as a Safe-Haven Asset: Equity Analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-not-challenge-gold-safe-011524573.html",
+      "summary": "An equity analyst from Morningstar Research Services argues that Bitcoin is unlikely to challenge gold's position as a safe-haven asset. While acknowledging Bitcoin's potential as a payment instrument via the Lightning Network, the analyst believes its primary short-term use case as 'digital gold' is not strong enough to displace gold's market share. This perspective suggests that Bitcoin may struggle to gain traction as a true store of value against traditional safe havens, potentially limiting its long-term appeal for risk-averse investors.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_vs_gold",
+        "safe_haven_asset_debate",
+        "digital_gold_narrative"
+      ],
+      "rationale": "The debate over Bitcoin's role as a safe-haven asset versus gold is ongoing. An analyst's view that it won't challenge gold suggests a potential limitation on its appeal to a broader investor base seeking traditional hedges against economic uncertainty."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n7e6b7189ede8",
+      "title": "Cryptocurrency investors set for refunds after SEC settles with start-ups",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-investors-set-refunds-sec-060000867.html",
+      "summary": "Two crypto startups, Paragon Coin and CarrierEQ, have settled with the SEC for failing to register their token sales. Investors may be eligible for refunds. This action underscores the SEC's ongoing crackdown on unregistered ICOs and sets a precedent for future settlements. The requirement for refunds could impact the liquidity of these specific tokens and signal a stricter regulatory environment for ICOs.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "ICO"
+      ],
+      "features_for_model": [
+        "SEC_settlement_refunds",
+        "ICO_regulatory_action",
+        "Paragon_CarrierEQ_fines"
+      ],
+      "rationale": "SEC settlements requiring refunds for unregistered ICOs can create negative sentiment and potentially lead to sell-offs in similar projects, impacting overall market liquidity in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n196f5d7430b1",
+      "title": "Another $4 Billion Drop: Crypto Market Downtrend Continues as Bitcoin Cash Falls",
+      "url": "https://finance.yahoo.com/news/another-4-billion-drop-crypto-080809778.html",
+      "summary": "The crypto market valuation has dropped by approximately $4 billion in the last 24 hours, extending a downtrend. Bitcoin Cash (BCH) has seen significant declines, even after its recent fork into BCHSV and BCHABC. This continued market weakness, driven by factors including the Bitcoin Cash fork fallout, suggests ongoing bearish pressure and potential for further price declines in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_downtrend",
+        "Bitcoin_Cash_fork"
+      ],
+      "features_for_model": [
+        "crypto_market_cap_drop",
+        "BCH_price_decline",
+        "post_fork_volatility"
+      ],
+      "rationale": "The continued market downturn and specific weakness in Bitcoin Cash post-fork indicate strong bearish momentum. This suggests that selling pressure is likely to persist in the very short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n775ef182e35e",
+      "title": "Why NVIDIA's Stock Crashed",
+      "url": "https://finance.yahoo.com/news/why-nvidia-apos-stock-crashed-122400380.html",
+      "summary": "NVIDIA's stock plummeted after the company issued significantly lower revenue guidance than expected, citing a decline in cryptocurrency mining demand. This indicates a direct impact of the crypto market downturn on a key hardware supplier. The reduced demand for GPUs from miners suggests a cooling of the crypto mining sector, which could have ripple effects on hardware prices and availability.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "NVIDIA_revenue_warning",
+        "crypto_mining_demand_drop",
+        "GPU_sales_impact"
+      ],
+      "rationale": "NVIDIA's earnings miss due to decreased crypto mining demand is a strong indicator of the crypto market's impact on related industries. This suggests a potential slowdown in mining activity and related hardware sales in the near term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na4358485055b",
+      "title": "How SEC’s Paragon Ruling Could Send Many Crypto ICOs to Bankruptcy",
+      "url": "https://finance.yahoo.com/news/sec-paragon-ruling-could-send-135043009.html",
+      "summary": "The SEC's ruling against Paragon and AirFox, requiring them to pay fines and refund investors, could lead to widespread bankruptcies for other ICO projects. The substantial refund amounts ($12M and $15M respectively) highlight the financial burden imposed by such rulings. This increased regulatory pressure and financial risk associated with ICOs could lead to a significant reduction in new token offerings and a sell-off of existing ones.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "ICO",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_ICO_crackdown",
+        "Paragon_AirFox_rulings",
+        "ICO_bankruptcy_risk"
+      ],
+      "rationale": "The SEC's aggressive stance on ICOs, forcing refunds, creates significant financial risk for many projects. This could trigger a wave of selling pressure and a decline in the value of many altcoins in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n9c69a3e8bfe1",
+      "title": "Fundstrat’s Tom Lee Predicts Bitcoin Recovery, But Lowers End-Year Target to $15K",
+      "url": "https://finance.yahoo.com/news/fundstrat-tom-lee-predicts-bitcoin-171900300.html",
+      "summary": "Renowned analyst Tom Lee has revised his year-end Bitcoin price target downwards from $25,000 to $15,000, citing Bitcoin's break-even mining cost of around $7,000. Despite the lowered target, Lee remains bullish on a recovery. This adjustment reflects the current bearish sentiment and the difficulty in reaching previous optimistic price levels in the near term, but the underlying bullish sentiment suggests a potential rebound if key levels are maintained.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "analyst_prediction",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Tom_Lee_BTC_target",
+        "break_even_price",
+        "bullish_recovery_prediction"
+      ],
+      "rationale": "While a lowered price target from a prominent analyst can be seen as bearish, the continued prediction of a recovery suggests underlying optimism. This creates an uncertain short-term outlook, with potential for volatility around the $7,000 break-even level."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n30c541ef5846",
+      "title": "Crisis: After $30 Billion Invested, Most Crypto ICOs Have Nothing to Show",
+      "url": "https://finance.yahoo.com/news/crisis-30-billion-invested-most-174807761.html",
+      "summary": "A significant portion of the over $30 billion raised by ICOs in the past two years has yielded little in terms of user growth, blockchain adoption, or activity on decentralized systems. This highlights a systemic issue within the ICO market, where many projects lack substance. The article points to successful examples like Binance Coin as exceptions. This widespread failure of ICOs could further erode investor confidence and lead to a contraction in the altcoin market.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "ICO",
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "ICO_failure_rate",
+        "blockchain_adoption_lag",
+        "investor_confidence_erosion"
+      ],
+      "rationale": "The widespread failure of ICOs to deliver on promises is a major bearish signal for the altcoin market. This lack of tangible progress can lead to further price depreciation and a loss of investor trust in the short term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n13fb215a3691",
+      "title": "‘Bitcoin’s No Longer Boring,’ Price Heading Towards $1.5K, Say Bloomberg Analysts",
+      "url": "https://finance.yahoo.com/news/bitcoin-no-longer-boring-price-194000222.html",
+      "summary": "Bloomberg Intelligence analysts predict that Bitcoin's price could fall further, potentially reaching $1,500, a significant drop from its current levels. They cite the potential turmoil from the Bitcoin Cash hard fork as a contributing factor. This bearish outlook from a reputable source suggests that the market may experience further downside pressure in the immediate future, driven by ongoing uncertainty and technical factors.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "analyst_prediction",
+        "Bitcoin_Cash_fork",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Bloomberg_BTC_forecast",
+        "potential_price_crash",
+        "BCH_fork_impact"
+      ],
+      "rationale": "A bearish forecast from Bloomberg analysts, predicting a further 70% drop, adds significant negative sentiment. This could trigger panic selling and accelerate price declines in the very short term."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n9337cee6a91c",
+      "title": "Hash Wars: Calvin Ayre & CoinGeek Refuse to Concede Defeat in Bitcoin Cash Fork Fight",
+      "url": "https://finance.yahoo.com/news/hash-wars-calvin-ayre-coingeek-183031710.html",
+      "summary": "Calvin Ayre's CoinGeek is actively engaged in the Bitcoin Cash (BCH) hash wars, refusing to concede defeat in the ongoing chain split. The company's stance suggests a prolonged battle for network control and consensus. This internal conflict within the BCH community creates uncertainty and can lead to increased volatility for BCH and potentially impact the broader crypto market due to its association with Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "Bitcoin_Cash_fork",
+        "miner",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BCH_hash_war",
+        "CoinGeek_stance",
+        "chain_split_conflict"
+      ],
+      "rationale": "The ongoing 'hash wars' within Bitcoin Cash create significant uncertainty and volatility for BCH. This internal conflict can spill over into the broader market, especially if it leads to network instability or further price drops."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n7e6b7189ede8",
+      "title": "Cryptocurrency investors set for refunds after SEC settles with start-ups",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-investors-set-refunds-sec-060000867.html",
+      "summary": "Two crypto startups, Paragon Coin and CarrierEQ, have settled with the SEC for failing to register their token sales. Investors may be eligible for refunds. This action underscores the SEC's ongoing crackdown on unregistered ICOs and sets a precedent for future settlements. The requirement for refunds could impact the liquidity of these specific tokens and signal a stricter regulatory environment for ICOs.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "ICO"
+      ],
+      "features_for_model": [
+        "SEC_settlement_refunds",
+        "ICO_regulatory_action",
+        "Paragon_CarrierEQ_fines"
+      ],
+      "rationale": "SEC settlements requiring refunds for unregistered ICOs can create negative sentiment and potentially lead to sell-offs in similar projects, impacting overall market liquidity in the short term."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n775ef182e35e",
+      "title": "Why NVIDIA's Stock Crashed",
+      "url": "https://finance.yahoo.com/news/why-nvidia-apos-stock-crashed-122400380.html",
+      "summary": "NVIDIA's stock plummeted after the company issued significantly lower revenue guidance than expected, citing a decline in cryptocurrency mining demand. This indicates a direct impact of the crypto market downturn on a key hardware supplier. The reduced demand for GPUs from miners suggests a cooling of the crypto mining sector, which could have ripple effects on hardware prices and availability.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "NVIDIA_revenue_warning",
+        "crypto_mining_demand_drop",
+        "GPU_sales_impact"
+      ],
+      "rationale": "NVIDIA's earnings miss due to decreased crypto mining demand is a strong indicator of the crypto market's impact on related industries. This suggests a potential slowdown in mining activity and related hardware sales in the near term."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-11-17",
+    "summary": "The crypto market remains under pressure, with a $4 billion drop in valuation overnight and continued weakness in Bitcoin Cash post-fork. Regulatory actions are also a significant factor, with the SEC settling with startups and potentially impacting other ICOs. NVIDIA's stock crash due to reduced crypto mining demand highlights the interconnectedness of the crypto and traditional tech sectors. Despite some analyst predictions of a recovery, the prevailing sentiment is bearish, with further price drops anticipated by some.",
+    "scenario_probs": {
+      "bull": 0.2,
+      "base": 0.3,
+      "bear": 0.5
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.5
+    },
+    "key_risks": [
+      "Continued downward pressure from the Bitcoin Cash fork fallout.",
+      "Increased regulatory scrutiny and enforcement actions from the SEC impacting ICOs.",
+      "Negative sentiment driven by analyst predictions of further price drops.",
+      "Weakening demand from the mining sector impacting hardware manufacturers like NVIDIA.",
+      "Broader market downturn affecting overall crypto asset valuations."
+    ],
+    "watch_items": [
+      "Bitcoin Cash (BCH) price action and hash rate distribution.",
+      "SEC statements and further enforcement actions against ICOs.",
+      "NVIDIA's stock performance and commentary on crypto demand.",
+      "Analyst commentary on Bitcoin's price trajectory and key support levels.",
+      "Developments related to institutional adoption, such as the upcoming ICE Bitcoin futures."
+    ]
+  }
+}

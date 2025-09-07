@@ -1,0 +1,479 @@
+{
+  "date": "2024-03-13",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "naf190ac024d8",
+      "title": "Bitcoin surges in biggest weekly rally in four months",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-biggest-weekly-rally-161357961.html",
+      "summary": "Bitcoin experienced a significant weekly rally, its largest in four months, driven by increased buying activity ahead of the April halving event. Outflows from Bitcoin ETFs also slowed, contributing to the positive momentum. The price reached one-month highs, signaling strong investor interest following the approval of U.S. spot Bitcoin ETFs.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_rally_momentum",
+        "halving_anticipation",
+        "ETF_outflow_slowdown"
+      ],
+      "rationale": "The surge indicates strong institutional adoption and positive sentiment driven by the halving event. This sustained interest suggests a potentially bullish long-term outlook for Bitcoin as more capital flows into the asset class."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n233f35b6b323",
+      "title": "Morgan Stanley (MS) Mulling to Offer Spot Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/morgan-stanley-ms-mulling-offer-174400060.html",
+      "summary": "Morgan Stanley is reportedly evaluating the possibility of offering spot Bitcoin ETFs to its clients. This potential move by a major financial institution signifies growing institutional acceptance and could significantly broaden access to Bitcoin for a wider investor base, further validating the asset class.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MS_ETF_offering",
+        "institutional_adoption_signal"
+      ],
+      "rationale": "If Morgan Stanley offers spot Bitcoin ETFs, it would represent a significant endorsement from a traditional financial giant. This could lead to substantial inflows and increased legitimacy for Bitcoin as an investment asset."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n9a13c6500d1f",
+      "title": "Bitcoin rises after rapid climb to new record",
+      "url": "https://finance.yahoo.com/news/bitcoin-back-rise-vaulting-record-072925661.html",
+      "summary": "Bitcoin experienced another surge, reaching new record highs amidst continued crypto mania. The rally is fueled by investor inflows into U.S. spot exchange-traded crypto products. Ether also saw a significant jump, indicating broad market enthusiasm.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_ATH_break",
+        "crypto_mania",
+        "ETF_inflows"
+      ],
+      "rationale": "The sustained upward momentum and new record highs, driven by ETF inflows, suggest a strong bullish trend. This indicates increasing mainstream acceptance and demand for Bitcoin as an asset class."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nd66b166c2f3c",
+      "title": "FOREX-Dollar falls as Powell says Fed is on track to cut rates this year",
+      "url": "https://finance.yahoo.com/news/forex-dollar-falls-powell-says-202806852.html",
+      "summary": "Federal Reserve Chair Jerome Powell indicated that the Fed remains on track to cut interest rates this year, despite some uncertainty about inflation. This statement led to a weakening of the U.S. dollar across the board. A less strong dollar typically benefits risk assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_cut_signal",
+        "USD_weakness"
+      ],
+      "rationale": "Lower interest rates generally make riskier assets more attractive. The dollar's decline following Powell's comments suggests a more favorable macro environment for Bitcoin, potentially leading to increased investment."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nb75e9b31da3e",
+      "title": "Bankruptcy Judge Allows Genesis To Liquidate $1.3B Worth of GBTC Stock",
+      "url": "https://finance.yahoo.com/news/bankruptcy-judge-allows-genesis-liquidate-045539846.html",
+      "summary": "A bankruptcy judge has permitted Genesis to liquidate approximately $1.3 billion in Grayscale Bitcoin Trust (GBTC) shares. This move is part of Genesis's restructuring efforts and could lead to increased selling pressure on GBTC, potentially impacting its premium/discount to Bitcoin's spot price.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Genesis_GBTC_liquidation",
+        "GBTC_selling_pressure"
+      ],
+      "rationale": "The liquidation of a large GBTC holding could introduce selling pressure, but the impact on Bitcoin's spot price is uncertain. It might also signal a shift in institutional holdings towards more liquid spot ETFs."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nf8edc0040b59",
+      "title": "This Bitcoin News May Spell Trouble for MicroStrategy in 2024. Here's Why",
+      "url": "https://finance.yahoo.com/news/bitcoin-news-may-spell-trouble-090000544.html",
+      "summary": "The approval of spot Bitcoin ETFs could present challenges for companies like MicroStrategy, which have historically benefited from providing Bitcoin exposure. Increased competition from ETFs might impact MicroStrategy's unique market position and fee structure.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_competition",
+        "ETF_market_share"
+      ],
+      "rationale": "While ETFs offer easier access, MicroStrategy's large Bitcoin holdings and corporate strategy remain a significant factor. The long-term impact depends on how institutional and retail investors choose to gain Bitcoin exposure."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nc9f11003ad9b",
+      "title": "Crypto for Advisors: Impact of the Spot Bitcoin ETFs for Portfolios",
+      "url": "https://finance.yahoo.com/news/crypto-advisors-impact-spot-bitcoin-164500722.html",
+      "summary": "The article discusses the impact of spot Bitcoin ETFs on investment portfolios, noting significant inflows and the growing conversation around asset allocation. It highlights how these ETFs are making Bitcoin more accessible for traditional financial advisors and their clients.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_portfolio_allocation",
+        "advisor_adoption"
+      ],
+      "rationale": "The increasing integration of Bitcoin ETFs into traditional portfolio management strategies signifies a major shift towards mainstream adoption, suggesting sustained demand and potential price appreciation."
+    },
+    {
+      "pick_idx": 32,
+      "id": "nc37d173082c6",
+      "title": "‘Rich Dad’ Robert Kiyosaki Explains Why Bitcoin Is the Future of Money",
+      "url": "https://finance.yahoo.com/news/rich-dad-robert-kiyosaki-explains-181740087.html",
+      "summary": "Robert Kiyosaki, author of 'Rich Dad Poor Dad,' believes Bitcoin is the future of money, citing its independence from central control as a key advantage. His endorsement, coupled with Bitcoin's recent bullish run, adds to the narrative of Bitcoin as a store of value.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Kiyosaki_endorsement",
+        "BTC_future_of_money"
+      ],
+      "rationale": "Prominent figures like Kiyosaki advocating for Bitcoin as the future of money can influence public perception and adoption. This narrative supports Bitcoin's long-term value proposition as a decentralized asset."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n26cac114b64d",
+      "title": "SEC Approval Was Huge for Bitcoin ETFs. But the World's Biggest Just Got a Far More Important Win.",
+      "url": "https://finance.yahoo.com/news/sec-approval-huge-bitcoin-etfs-081500304.html",
+      "summary": "The SEC's approval of spot Bitcoin ETFs was a significant event, opening the door for broader investor access. This development is seen as a major step in Bitcoin's journey towards becoming a mainstream financial asset, attracting new capital and increasing its legitimacy.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "SEC_ETF_approval",
+        "institutional_legitimacy"
+      ],
+      "rationale": "The SEC approval and subsequent ETF launches represent a watershed moment for Bitcoin, facilitating institutional adoption and potentially driving significant capital inflows, reinforcing a long-term bullish outlook."
+    },
+    {
+      "pick_idx": 42,
+      "id": "nfe0e8e94fdcc",
+      "title": "Bitcoin to $100,000 or Shiba Inu to $0.01: What's More Likely to Happen in 2024?",
+      "url": "https://finance.yahoo.com/news/bitcoin-100-000-shiba-inu-114000654.html",
+      "summary": "The article discusses the potential for Bitcoin to reach $100,000 in 2024, driven by excitement surrounding spot Bitcoin ETFs and overall market bullishness. It contrasts this with the speculative potential of smaller altcoins.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_target_100k",
+        "ETF_driven_bull_market"
+      ],
+      "rationale": "The strong sentiment and institutional interest, particularly around ETFs, create a favorable environment for Bitcoin to reach ambitious price targets, signaling a robust long-term growth trajectory."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n377ea48a31d8",
+      "title": "Bitcoin Could Drop to $58K as Cool-Off Period Is Imminent, Swissblock Says",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-drop-58k-cool-212718652.html",
+      "summary": "Analysts suggest Bitcoin's rally may be losing momentum, with potential for a short-term pullback to around $58,000 due to waning momentum indicators. However, the long-term uptrend is expected to resume.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_pullback_imminent",
+        "RSI_divergence"
+      ],
+      "rationale": "Technical indicators suggest a short-term correction is possible, which could lead to a temporary dip in price before the broader uptrend potentially resumes."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n0478c62ddd60",
+      "title": "Spot Bitcoin ETF Inflows Hit One-Day High of Over $1B",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-etf-inflows-hit-174627073.html",
+      "summary": "Spot Bitcoin ETFs experienced a record one-day inflow of over $1 billion, with BlackRock's IBIT leading the surge. This significant capital injection indicates strong investor demand and positive sentiment towards Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "record_ETF_inflows",
+        "IBIT_demand"
+      ],
+      "rationale": "Record inflows into spot Bitcoin ETFs provide strong buying pressure, suggesting continued upward momentum for Bitcoin in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nbc5b2e136552",
+      "title": "Bitcoin Fog Founder Convicted of Money Laundering",
+      "url": "https://finance.yahoo.com/news/bitcoin-fog-founder-convicted-money-192027356.html",
+      "summary": "The founder of Bitcoin Fog, a crypto mixer, has been convicted of money laundering charges. This legal development could lead to increased scrutiny on privacy-enhancing technologies and potentially impact sentiment around certain crypto services.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "legal",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Bitcoin_Fog_conviction",
+        "crypto_mixer_scrutiny"
+      ],
+      "rationale": "While a specific case, it highlights regulatory focus on illicit activities within crypto, which could create minor headwinds or uncertainty in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nbddcd33e7ca6",
+      "title": "Bitcoin ETFs hit record inflows, propel BTC to new highs",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-hit-record-inflows-172847591.html",
+      "summary": "Bitcoin ETFs have attracted record daily inflows, pushing Bitcoin's price to new all-time highs above $73,000. This surge in demand for regulated Bitcoin products is a significant catalyst for price appreciation.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "record_BTC_ETF_inflows",
+        "BTC_ATH_surge"
+      ],
+      "rationale": "The record inflows directly translate to increased buying pressure, reinforcing the bullish momentum and pushing Bitcoin to new price highs in the very short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n575520ae77e7",
+      "title": "Jack Dorsey's Block Begins Shipping Bitkey Bitcoin Wallets",
+      "url": "https://finance.yahoo.com/news/jack-dorseys-block-begins-shipping-151305698.html",
+      "summary": "Jack Dorsey's Block has started shipping its new self-custody Bitcoin wallet, Bitkey. The wallet integrates with Cash App and Coinbase, aiming to simplify Bitcoin buying and selling. This initiative promotes self-custody and broader Bitcoin adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitkey_shipping",
+        "self_custody_promotion"
+      ],
+      "rationale": "The launch and shipping of a new hardware wallet by a prominent fintech company can foster greater self-custody and user engagement, contributing to adoption, though the immediate price impact is likely minor."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n03267d14b0ff",
+      "title": "JPMorgan CEO Jamie Dimon Warns Against Hasty Rate Cuts, Emphasizes Caution Amid Bitcoin Surge",
+      "url": "https://finance.yahoo.com/news/jpmorgan-ceo-jamie-dimon-warns-193012404.html",
+      "summary": "JPMorgan CEO Jamie Dimon advised caution regarding hasty interest rate cuts by the Federal Reserve. His comments, made amidst Bitcoin's surge, suggest a more conservative stance on monetary policy, which could influence market sentiment.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Dimon_rate_cut_caution",
+        "Fed_policy_uncertainty"
+      ],
+      "rationale": "Dimon's cautious outlook on rate cuts could temper market optimism, potentially creating short-term volatility for risk assets like Bitcoin, even as the broader trend remains positive."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n5ea46a85a38d",
+      "title": "Joe Biden Proposes New Crypto Regulation, Including A Mining Tax And 'Wash Sale Rule'",
+      "url": "https://finance.yahoo.com/news/joe-biden-proposes-crypto-regulation-140015435.html",
+      "summary": "President Biden's budget proposal includes a 30% excise tax on electricity costs for crypto mining and a 'wash sale rule' for digital assets. These proposals signal increased regulatory attention and potential tax implications for the crypto industry.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 1,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Biden_mining_tax",
+        "crypto_wash_sale_rule"
+      ],
+      "rationale": "The proposed mining tax and wash sale rule could increase operational costs for miners and impact trading strategies, potentially creating short-term negative sentiment or price pressure."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd78898ef3cb1",
+      "title": "Ethereum Finalizes 'Dencun' Upgrade, in Landmark Move to Reduce Data Fees",
+      "url": "https://finance.yahoo.com/news/ethereum-finalizes-dencun-upgrade-landmark-135813178.html",
+      "summary": "Ethereum has successfully activated its 'Dencun' upgrade, designed to significantly reduce data fees for Layer-2 scaling solutions. This upgrade is a crucial step for Ethereum's scalability and ecosystem growth.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ETH_Dencun_upgrade",
+        "L2_fee_reduction"
+      ],
+      "rationale": "The Dencun upgrade's success in reducing L2 fees is a positive development for the Ethereum ecosystem, potentially boosting activity and adoption on scaling solutions, which could indirectly benefit ETH."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n7a84b2a57668",
+      "title": "Bitcoin Miner Revenue Reaches All-Time Highs",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-revenue-reaches-time-052253656.html",
+      "summary": "Bitcoin miners are experiencing record daily revenues, driven by the cryptocurrency's price surge and increased transaction fees. This indicates robust network activity and profitability for miners.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_miner_revenue_ATH",
+        "transaction_fee_surge"
+      ],
+      "rationale": "Record miner revenue suggests high network demand and transaction volume, which are positive indicators for Bitcoin's ecosystem health and can support price momentum."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n296081787076",
+      "title": "Michael Saylor's MicroStrategy Raising Another $500M to Buy More Bitcoin",
+      "url": "https://finance.yahoo.com/news/michael-saylors-microstrategy-raising-another-210034053.html",
+      "summary": "MicroStrategy is raising an additional $500 million through convertible debt to purchase more Bitcoin. This move reinforces the company's strategy of accumulating Bitcoin and signals continued institutional conviction.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "MSTR_raise_500M",
+        "MSTR_buy_BTC"
+      ],
+      "rationale": "MicroStrategy's continued aggressive Bitcoin accumulation, funded by new capital, provides direct buying pressure and signals strong confidence from a major corporate holder."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-03-13",
+    "summary": "Bitcoin experienced a volatile day, hitting new all-time highs above $73,000, largely driven by record inflows into spot Bitcoin ETFs. However, hotter-than-expected US CPI data caused a temporary pullback, raising concerns about potential delays in Fed rate cuts. Despite this, the overall sentiment remains bullish due to strong ETF demand and positive developments in the Ethereum ecosystem with the Dencun upgrade. Regulatory news, such as proposed mining taxes, introduces some short-term bearish pressure.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "Persistent inflation data leading to delayed Fed rate cuts.",
+      "Increased regulatory scrutiny and potential new taxes on crypto mining.",
+      "Profit-taking after reaching new all-time highs.",
+      "Technical indicators suggesting a short-term cool-off period."
+    ],
+    "watch_items": [
+      "US CPI data and Fed commentary",
+      "Spot Bitcoin ETF flows",
+      "MicroStrategy's Bitcoin acquisition strategy",
+      "Ethereum Dencun upgrade impact on L2s",
+      "Developments in crypto regulation (e.g., mining tax)"
+    ]
+  }
+}

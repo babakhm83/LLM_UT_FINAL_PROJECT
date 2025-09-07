@@ -1,0 +1,471 @@
+{
+  "date": "2022-05-18",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n830c72707ef8",
+      "title": "5 Coins to Watch Closely This Week: BTC, XRP, NEAR, TRX, ETC",
+      "url": "https://finance.yahoo.com/news/5-coins-watch-closely-week-154332148.html",
+      "summary": "Bitcoin (BTC) experienced minor gains, with bulls targeting the $40,000 mark, but the broader market remained range-bound. Notably, April 2022 marked Bitcoin's worst-ever April performance. This indicates a challenging macroeconomic environment impacting crypto prices, suggesting potential for continued volatility and a need for cautious optimism in the short to medium term.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "altcoin_performance",
+        "monthly_performance_analysis"
+      ],
+      "rationale": "The article highlights Bitcoin's poor April performance and range-bound market conditions, suggesting broader macroeconomic headwinds. This sets a cautious tone for the next few months, indicating that significant price appreciation may be challenging without a shift in market sentiment or macro factors."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1bc1ff9a44bf",
+      "title": "The Human Cost of Lunatic Hubris",
+      "url": "https://finance.yahoo.com/news/human-cost-lunatic-hubris-182800697.html",
+      "summary": "The collapse of the Terra ecosystem has led to significant financial losses and despair for LUNA backers, with reports of suicides. This event serves as a stark reminder of the risks associated with highly speculative crypto projects and the potential for extreme negative consequences when flawed designs are coupled with unchecked ambition. The long-term impact could be increased regulatory scrutiny and a more cautious approach from investors towards similar projects.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Terra_collapse",
+        "LUNA_impact",
+        "crypto_risk_sentiment"
+      ],
+      "rationale": "The Terra ecosystem collapse, with its severe human cost, is a major event that will likely lead to increased regulatory pressure and a lasting negative sentiment towards algorithmic stablecoins and highly leveraged DeFi protocols. This could deter institutional adoption and slow down innovation in the space for an extended period."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n3717eab293e1",
+      "title": "OKlink releases the Global Crypto Market First Quarter Report 2022",
+      "url": "https://finance.yahoo.com/news/oklink-releases-global-crypto-market-095200759.html",
+      "summary": "The OKLink report for Q1 2022 indicates that monetary policy significantly affected the cryptocurrency market. MicroStrategy is highlighted as the largest holder of Bitcoin among overseas listed companies. The report provides a comprehensive review of market performance and popular topics, suggesting that macro-economic factors, particularly central bank policies, will continue to be a dominant influence on crypto prices throughout the year.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Q1_crypto_report",
+        "monetary_policy_impact",
+        "MicroStrategy_BTC_holdings"
+      ],
+      "rationale": "The report's emphasis on monetary policy's impact on crypto suggests that interest rate hikes and inflation concerns will remain key drivers of Bitcoin's price action. This macro-economic backdrop will likely shape market sentiment and investment flows for the foreseeable future."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n6e4ae61c12a2",
+      "title": "Luna Foundation Guard has now dumped $2.4 billion from its Bitcoin reserves in failed attempt to defend TerraUSD peg",
+      "url": "https://finance.yahoo.com/news/luna-foundation-guard-now-dumped-145139063.html",
+      "summary": "The Luna Foundation Guard liquidated nearly all of its Bitcoin reserves, totaling billions, in a failed attempt to maintain the TerraUSD (UST) stablecoin's peg. This significant sell-off of BTC by a major holder, driven by the collapse of UST, demonstrates the interconnectedness of the crypto market and the potential for large-scale liquidations to impact Bitcoin's price. The event highlights the risks of algorithmic stablecoins and their reliance on volatile reserves.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "protocol",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "LFG_BTC_liquidation",
+        "UST_peg_failure",
+        "stablecoin_risk"
+      ],
+      "rationale": "The massive liquidation of Bitcoin reserves by the Luna Foundation Guard to defend the UST peg represents a significant bearish catalyst. This forced selling pressure, coupled with the loss of confidence in algorithmic stablecoins, will likely weigh on Bitcoin's price for several months."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n2f356df4340b",
+      "title": "Bitcoin, ether, cardano along with other tokens crash in a crypto bloodbath, as investor angst over high-risk assets intensifies",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-cardano-along-other-095624573.html",
+      "summary": "Bitcoin plunged to its lowest point since December 2020, wiping out all of 2021's gains, as a broader rout in risk assets impacted the crypto market. Ether, dogecoin, and cardano also experienced severe sell-offs. This broad market downturn, driven by investor anxiety over high-risk assets, suggests a significant shift in market sentiment, likely to persist for several months due to ongoing macroeconomic concerns.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crypto_market_crash",
+        "risk_off_sentiment",
+        "BTC_price_decline"
+      ],
+      "rationale": "The widespread crash across major cryptocurrencies, driven by a flight from risk assets, indicates a strong bearish sentiment in the market. This suggests that the current downturn is likely to continue for a significant period, influenced by broader economic uncertainties."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n49634fded909",
+      "title": "Ethereum Has What It Takes to Take Off Ahead of Its 2.0 Upgrade",
+      "url": "https://finance.yahoo.com/news/ethereum-takes-off-ahead-2-100548726.html",
+      "summary": "Ethereum has shown strong performance, up 40% from its March 7 low, driven by anticipation of the Ethereum 2.0 upgrade. This upgrade is expected to enhance transaction speed, volume, and network scalability. The positive outlook for Ethereum's technological advancements suggests potential for sustained growth and adoption, making it an attractive long-term investment despite broader market volatility.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethereum_2.0_upgrade",
+        "ETH_performance",
+        "scalability_enhancements"
+      ],
+      "rationale": "The upcoming Ethereum 2.0 upgrade is a significant long-term bullish catalyst, promising improved network performance and scalability. This technological advancement is likely to attract more developers and users, driving demand for ETH over the next year."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nb134f4402f95",
+      "title": "Blockchain.com Teams With Altis Partners on Asset Management Platform",
+      "url": "https://finance.yahoo.com/news/blockchain-com-teams-altis-partners-130749913.html",
+      "summary": "Blockchain.com has launched an asset management service, Blockchain.com Asset Management (BCAM), in partnership with Altis Partners. This move targets institutional and high-net-worth investors, combining traditional finance with crypto. The development signifies growing institutional interest and infrastructure build-out in the crypto space, suggesting a positive long-term trend for adoption and market maturity.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Blockchain.com_asset_management",
+        "institutional_crypto_adoption",
+        "Altis_Partners_collaboration"
+      ],
+      "rationale": "The launch of a dedicated asset management platform by a major crypto player like Blockchain.com signals increasing institutional adoption and the maturation of the crypto market. This trend is likely to continue, attracting more capital and driving long-term growth."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nc533c0b1e4d5",
+      "title": "Investors ploughed $300 million into bitcoin last week as Terra's stablecoin went into meltdown",
+      "url": "https://finance.yahoo.com/news/investors-ploughed-300-million-bitcoin-161922498.html",
+      "summary": "Despite the TerraUSD (UST) stablecoin collapse and broader market sell-off, investors poured a record $274 million into crypto assets last week, with Bitcoin seeing $299 million in inflows. This suggests that a significant portion of investors viewed the downturn as a buying opportunity, indicating resilience and potential for recovery in the medium term, particularly for Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_inflows",
+        "crypto_investment_sentiment",
+        "UST_collapse_impact"
+      ],
+      "rationale": "The substantial inflows into Bitcoin funds during a period of market turmoil indicate strong conviction from investors who see the current prices as a discount. This suggests a potential for a rebound and sustained interest in Bitcoin over the next six months."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n9d0b63840f4f",
+      "title": "Now That Q1 Is Over, Is the Bull Market Back?",
+      "url": "https://finance.yahoo.com/news/now-q1-over-bull-market-145000100.html",
+      "summary": "The first quarter of 2022 saw Bitcoin range-bound between $37,500 and $42,500, despite significant macroeconomic events like the Russia-Ukraine war and Federal Reserve rate hikes. This resilience suggests underlying support for Bitcoin. However, the article questions whether the bull market is truly back, implying continued uncertainty and potential for volatility in the near to medium term.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Q1_2022_crypto_review",
+        "BTC_range_bound",
+        "macroeconomic_factors"
+      ],
+      "rationale": "The article points to Bitcoin's surprising resilience in Q1 2022 despite negative macro events. While it questions a full bull market return, the underlying support suggests that Bitcoin may be better positioned than other risk assets, offering a degree of stability in the coming months."
+    },
+    {
+      "pick_idx": 41,
+      "id": "na1caaba645c5",
+      "title": "BofA Initiates Coverage of Silvergate With ‘Buy’ Rating, Sees 50% Potential Upside",
+      "url": "https://finance.yahoo.com/news/bofa-initiates-coverage-silvergate-buy-134810420.html",
+      "summary": "Bank of America initiated coverage of Silvergate Capital (SI) with a 'Buy' rating, citing a 50% potential upside. BofA believes Silvergate is well-positioned to benefit from the growth of the cryptocurrency ecosystem, particularly through stablecoin adoption for payments. This positive institutional outlook on a crypto-focused financial institution suggests a favorable long-term view on the integration of crypto into traditional finance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Silvergate_rating",
+        "BofA_coverage",
+        "stablecoin_adoption"
+      ],
+      "rationale": "A major bank initiating a 'Buy' rating on a crypto-exposed financial institution like Silvergate signals strong institutional confidence in the sector's long-term growth. This positive sentiment is likely to influence investment flows and adoption trends over the next year."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n2b9861b5ca18",
+      "title": "Bitcoin (BTC) Remains Under Pressure Despite a Bullish Tuesday Session",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-remains-under-pressure-031254076.html",
+      "summary": "Bitcoin (BTC) rose 1.93% on Tuesday, closing at $30,416, but remains under pressure with resistance at $31,000. The Fear & Greed Index hit an 8/100, indicating extreme fear. Technical indicators are bearish, with BTC below its 50-day EMA. The NASDAQ's performance influenced Bitcoin's move. This suggests continued short-term volatility and a bearish bias, with a potential for further downside if key support levels break.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "Fear_Greed_Index",
+        "NASDAQ_correlation"
+      ],
+      "rationale": "Bitcoin's inability to break key resistance levels and its bearish technical indicators, coupled with extreme fear in the market, suggest continued downward pressure in the immediate short term. The correlation with the NASDAQ further reinforces this bearish outlook."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ned6208c540ac",
+      "title": "China is now the world's 2nd-biggest bitcoin miner after activity bounced back from the government's crackdown",
+      "url": "https://finance.yahoo.com/news/china-now-worlds-2nd-biggest-164848776.html",
+      "summary": "China has re-emerged as the second-largest Bitcoin miner, despite government bans, due to a surge in covert operations. This recovery in mining activity, even if clandestine, could contribute to network hashrate stability and potentially signal a shift in global mining distribution. However, the covert nature introduces uncertainty regarding transparency and long-term sustainability.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "China_mining_hashrate",
+        "covert_mining_operations",
+        "mining_distribution_shift"
+      ],
+      "rationale": "While China's resurgence in mining is noted, the covert nature of operations makes its immediate impact on price uncertain. It could provide some underlying support to the network hashrate, but the lack of transparency limits its bullish short-term impact."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ne49015eb1fd5",
+      "title": "How Bitcoin’s Reacting to Stablecoin Drama",
+      "url": "https://finance.yahoo.com/news/bitcoin-reacting-stablecoin-drama-203219436.html",
+      "summary": "Bitcoin experienced significant losses following the instability of algorithmic stablecoins like UST, with reports indicating a large percentage of investments are underwater. The article suggests that despite the turmoil, there are underlying rumblings in the market. This indicates that the stablecoin crisis is a major short-term bearish factor, but the market might be finding a bottom.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_reaction_to_stablecoin_crisis",
+        "UST_impact",
+        "market_sentiment_shift"
+      ],
+      "rationale": "The direct link between the stablecoin crisis and Bitcoin's losses highlights a significant short-term bearish pressure. While the article hints at potential bottoming, the immediate aftermath of such a crisis is typically characterized by continued selling and fear."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n6490a160b497",
+      "title": "Mike Novogratz Ends Twitter Silence, Shares Take on UST/LUNA Crash",
+      "url": "https://finance.yahoo.com/news/mike-novogratz-ends-twitter-silence-180657236.html",
+      "summary": "Mike Novogratz, CEO of Galaxy Digital, shared his perspective on the LUNA and UST crash, acknowledging the 'brutal macro backdrop.' His commentary suggests that the market is grappling with both crypto-specific events and broader economic challenges. This indicates that sentiment will remain cautious in the short term, influenced by both crypto-native issues and macroeconomic headwinds.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "protocol",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Novogratz_commentary",
+        "UST_LUNA_crash_analysis",
+        "macro_backdrop"
+      ],
+      "rationale": "Novogratz's commentary, acknowledging both crypto-specific issues and a 'brutal macro backdrop,' reinforces the short-term bearish sentiment. His cautious tone suggests that the market is likely to remain under pressure as it digests these combined factors."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nc014dff05df2",
+      "title": "What's more stable than Bitcoin or UST? AriZona Iced Tea",
+      "url": "https://finance.yahoo.com/news/whats-more-stable-bitcoin-ust-213726353.html",
+      "summary": "The article humorously points out the instability of stablecoins like UST by comparing them to the consistent $0.99 price of AriZona Iced Tea. It also mentions a proposal for an 'AriZona-backed stablecoin.' While lighthearted, it underscores the current crisis of confidence in stablecoins, which directly impacts Bitcoin's perceived stability and market sentiment in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "protocol",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "stablecoin_instability",
+        "UST_comparison",
+        "crypto_confidence_crisis"
+      ],
+      "rationale": "The comparison highlights the extreme lack of trust in stablecoins currently. This sentiment directly affects Bitcoin's perceived stability and can lead to further selling pressure as investors seek safer assets, even if humorously framed."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n1802e1072597",
+      "title": "Bitcoin Miner Argo Blockchain Emerged Unscathed From Its UST Stake",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-argo-blockchain-emerged-153930604.html",
+      "summary": "Argo Blockchain reported that its stake in UST was not material and it 'nearly break-even' on the position during the UST meltdown. This suggests that while the company was exposed, the impact was limited. For the short term, this news is neutral to slightly positive for Argo, but it doesn't significantly alter the broader market sentiment for Bitcoin itself.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Argo_Blockchain_UST_exposure",
+        "miner_impact_analysis",
+        "UST_meltdown_effect"
+      ],
+      "rationale": "Argo Blockchain's limited exposure to UST is a company-specific positive, but it does little to change the overall bearish sentiment driven by the broader stablecoin crisis. The impact on Bitcoin's price is negligible in the short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n192f15954a2b",
+      "title": "Crypto Update – Markets Wobbled Could Tether (USDT) Collapse Next",
+      "url": "https://finance.yahoo.com/news/crypto-markets-wobbled-could-tether-123723794.html",
+      "summary": "The collapse of Terra Luna has staggered crypto markets, with Tether's market cap plunging 10% in May. The article questions whether Tether could collapse next, highlighting its significant trading volume. A de-pegging of Tether would have catastrophic consequences for the entire crypto ecosystem, amplifying the current bearish sentiment and potentially leading to a further sharp decline in Bitcoin's price.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "protocol",
+        "liquidity",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Tether_USDT_risk",
+        "stablecoin_contagion",
+        "crypto_market_volatility"
+      ],
+      "rationale": "The potential collapse of Tether, a major stablecoin, represents a systemic risk to the entire crypto market. Given the current fragile state of the market following the UST collapse, any further instability in stablecoins would likely trigger a significant sell-off in Bitcoin."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nde5857e95103",
+      "title": "Bitcoin Struggles to Hold Support at $27K-$30K",
+      "url": "https://finance.yahoo.com/news/bitcoin-struggles-hold-support-27k-175019832.html",
+      "summary": "Bitcoin (BTC) has been trading in a tight range between $27,000 and $30,000, a key support zone and the lower bound of its year-long trading range. A decisive break below $27,000 could lead to further downside. The current struggle to hold support indicates weak buying interest and a high probability of breaking lower in the short term.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "liquidity",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_support_levels",
+        "trading_range_breakdown",
+        "short_term_price_action"
+      ],
+      "rationale": "Bitcoin's inability to hold key support levels at $27K-$30K signals significant selling pressure. A breakdown below this range would likely trigger a sharp decline, making the short-term outlook decidedly bearish."
+    },
+    {
+      "pick_idx": 22,
+      "id": "na83c283ed0a4",
+      "title": "Bitcoin, Major Cryptos Slide as Markets Digest Hawkish Powell Remarks",
+      "url": "https://finance.yahoo.com/news/bitcoin-major-cryptos-slide-markets-120108555.html",
+      "summary": "Bitcoin dipped below $30,000, mirroring a retreat in traditional markets, as traders assessed Fed Chair Powell's pledge to continue tightening monetary policy until inflation weakens. This hawkish stance from the Fed is a significant short-term bearish catalyst for risk assets like Bitcoin, potentially extending its losing streak.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Powell_hawkish_stance",
+        "BTC_price_slide",
+        "Fed_monetary_policy"
+      ],
+      "rationale": "Fed Chair Powell's commitment to aggressive rate hikes to combat inflation creates a challenging environment for risk assets. This hawkish commentary directly impacts Bitcoin's short-term price action, suggesting further downside pressure."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n6ece8661b430",
+      "title": "Stock Market Today: Dow Sinks 1,164 Points in Worst Day Since June 2020",
+      "url": "https://finance.yahoo.com/news/stock-market-today-dow-sinks-203627727.html",
+      "summary": "The Dow Jones Industrial Average experienced its worst day since June 2020, plummeting 1,164 points due to weak retail earnings from Walmart and Target, which signaled inflation's impact on consumers. This broad market sell-off, driven by recession fears, will likely spill over into the crypto market, exacerbating the existing bearish sentiment and potentially leading to further price declines for Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Dow_Jones_plunge",
+        "retail_earnings_impact",
+        "recession_fears"
+      ],
+      "rationale": "The significant drop in major stock indices, driven by inflation concerns and weak retail earnings, indicates a strong risk-off sentiment. This macro environment is highly correlated with Bitcoin's performance, suggesting a high probability of further price declines in the immediate short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-05-18",
+    "summary": "The crypto market remains under significant pressure, with Bitcoin struggling to hold key support levels around $27K-$30K. This is largely driven by a combination of the ongoing stablecoin crisis (UST/LUNA) and broader macroeconomic concerns, including hawkish commentary from the Federal Reserve and weak retail earnings sparking recession fears. Major stock indices have seen substantial declines, mirroring the risk-off sentiment impacting Bitcoin. While some long-term catalysts like Ethereum's 2.0 upgrade and institutional interest remain, the short-term outlook is decidedly bearish.",
+    "scenario_probs": {
+      "bull": 0.2,
+      "base": 0.3,
+      "bear": 0.5
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Further contagion from stablecoin instability (e.g., Tether)",
+      "Aggressive Fed rate hikes impacting risk assets",
+      "Worsening macroeconomic data and recession fears",
+      "Continued selling pressure from large holders (e.g., LFG liquidations)",
+      "Regulatory crackdown following stablecoin failures"
+    ],
+    "watch_items": [
+      "Tether (USDT) stability",
+      "Key Bitcoin support levels ($27k, $25k)",
+      "US CPI and FOMC meeting minutes (upcoming)",
+      "Global equity market performance",
+      "Developments in the SEC v Ripple case"
+    ]
+  }
+}

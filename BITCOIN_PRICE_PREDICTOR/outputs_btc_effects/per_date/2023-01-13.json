@@ -1,0 +1,501 @@
+{
+  "date": "2023-01-13",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n0eadfcdf3fbd",
+      "title": "Cathie Wood’s ARK Invest is bingeing on Bitcoin, Coinbase, and Tesla even as other investors have fled all three this year",
+      "url": "https://finance.yahoo.com/news/cathie-wood-ark-invest-bingeing-215809081.html",
+      "summary": "Cathie Wood's ARK Invest is significantly increasing its holdings in Bitcoin, Coinbase, and the Grayscale Bitcoin Trust, despite a challenging year for these assets. This contrarian approach signals strong long-term conviction in the cryptocurrency sector and its underlying technologies. Wood's continued investment in these volatile assets suggests a belief in their future growth potential and a willingness to weather short-term market downturns, potentially influencing other institutional investors.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ARK_Invest_buying",
+        "Coinbase_holding",
+        "Grayscale_Bitcoin_Trust_buying"
+      ],
+      "rationale": "Cathie Wood's sustained investment in Bitcoin and related assets demonstrates strong institutional conviction. Her firm's actions can influence market sentiment and attract further capital, indicating a potential for long-term price appreciation."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne851fc5bb6c0",
+      "title": "Understanding the FTX Fallout From the Eyes of a Bitcoiner",
+      "url": "https://finance.yahoo.com/news/understanding-ftx-fallout-eyes-bitcoiner-161427850.html",
+      "summary": "The FTX collapse is presented as a watershed moment for the crypto industry, highlighting the risks associated with cults of personality and high-profile blowups. From a 'Bitcoiner's' perspective, the event underscores the importance of robust risk management and adherence to core principles, contrasting with the speculative excesses seen elsewhere. This perspective suggests that while the industry faces significant challenges, the underlying technology and sound projects will likely endure and potentially emerge stronger.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "FTX_collapse_impact",
+        "crypto_industry_risk",
+        "risk_management"
+      ],
+      "rationale": "The FTX implosion significantly damaged trust and led to increased regulatory scrutiny, creating a prolonged bearish sentiment. This event will likely shape the industry's trajectory for months to come, emphasizing the need for greater transparency and accountability."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n798ba0e46caf",
+      "title": "Cardano-Based Regulated Stablecoin USDA Will Hit the Market in Early 2023",
+      "url": "https://finance.yahoo.com/news/cardano-based-regulated-stablecoin-usda-101322551.html",
+      "summary": "Emurgo, a founding entity of Cardano, plans to launch USDA, a U.S.-dollar-pegged stablecoin, in early 2023. This stablecoin will be the first fully fiat-backed and regulatory-compliant stablecoin within the Cardano ecosystem. The introduction of USDA is seen as a crucial step in realizing the future potential for the Cardano community, aiming to provide stability and facilitate transactions within the network.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Cardano_stablecoin_launch",
+        "USDA_stablecoin",
+        "regulatory_compliance"
+      ],
+      "rationale": "The launch of a regulated, fiat-backed stablecoin on Cardano is a significant development for the ecosystem. It enhances utility and can attract more users and developers, potentially boosting adoption and the value of ADA."
+    },
+    {
+      "pick_idx": 15,
+      "id": "ncbfb01d63093",
+      "title": "Congressman Brad Sherman Takes Aim at ‘Billionaire Crypto Bros’ for Slowing Regulation",
+      "url": "https://finance.yahoo.com/news/congressman-brad-sherman-takes-aim-105643784.html",
+      "summary": "U.S. Congressman Brad Sherman has criticized the crypto industry, particularly 'billionaire crypto bros,' for hindering the progress of meaningful legislation. He points to the significant political donations made by crypto figures during the recent midterms as an attempt to delay regulatory action. This sentiment highlights the ongoing tension between the crypto industry's desire for innovation and the government's push for oversight and consumer protection.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Sherman_regulation_push",
+        "crypto_lobbying",
+        "political_donations"
+      ],
+      "rationale": "Increased calls for regulation from influential lawmakers like Brad Sherman signal a growing likelihood of stricter rules. This could stifle innovation and adoption in the short to medium term, creating a bearish outlook."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n3594efc9d8be",
+      "title": "BTC.com hacked, around US$3 mln assets stolen",
+      "url": "https://finance.yahoo.com/news/btc-com-hacked-around-us-040450443.html",
+      "summary": "BTC.com, a blockchain browser and mining pool, reported a hack that resulted in the theft of approximately $2.3 million of its own assets and $700,000 of client assets. The company has reported the cyberattack to law enforcement authorities in Shenzhen, China, who have launched an investigation. This incident highlights ongoing security vulnerabilities within the crypto infrastructure, even for established platforms.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "hack/outage",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC.com_hack",
+        "mining_pool_security",
+        "asset_theft"
+      ],
+      "rationale": "Security breaches, even if relatively small in value, erode confidence in the underlying infrastructure. This incident contributes to a broader narrative of risk in the crypto space, potentially dampening investor sentiment."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n22a7dfdae964",
+      "title": "Bitcoin Miners Powered Off as Winter Storm Battered North America",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-powered-off-winter-105455417.html",
+      "summary": "A severe winter storm across North America forced many Bitcoin miners to power down their operations, leading to a significant drop in the Bitcoin mining hashrate. The hashrate, a measure of the network's computing power, decreased by approximately 40%. This curtailment practice, while helping electricity grids, demonstrates the sensitivity of mining operations to external factors like extreme weather and energy demand.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_miner_curtailment",
+        "winter_storm_impact",
+        "mining_hashrate_drop"
+      ],
+      "rationale": "While a temporary reduction in hashrate due to weather is not fundamentally bearish for Bitcoin, it highlights operational risks and the energy-intensive nature of mining. The recovery of hashrate will be a key indicator."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n8ceb9e5f216f",
+      "title": "Edward Snowden: Sanctioning of Ethereum Mixer Tornado Cash Was 'Deeply Illiberal and Profoundly Authoritarian'",
+      "url": "https://finance.yahoo.com/news/edward-snowden-sanctioning-ethereum-mixer-183908126.html",
+      "summary": "Edward Snowden has strongly criticized the U.S. government's sanctioning of the Ethereum mixing tool Tornado Cash, labeling it 'deeply illiberal and profoundly authoritarian.' Snowden, known for his NSA revelations and involvement with privacy-focused cryptocurrencies like Zcash, argues that the crypto community is not taking this development seriously enough. His stance underscores the ongoing debate around privacy, censorship, and government control within the digital asset space.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "privacy"
+      ],
+      "features_for_model": [
+        "Snowden_Tornado_Cash_stance",
+        "privacy_vs_regulation",
+        "Ethereum_mixer_sanctions"
+      ],
+      "rationale": "Snowden's strong condemnation of Tornado Cash sanctions raises concerns about government overreach and its impact on privacy-focused crypto tools. This could lead to increased scrutiny of similar protocols and potentially affect the development of privacy-enhancing technologies."
+    },
+    {
+      "pick_idx": 26,
+      "id": "naacd128cf396",
+      "title": "Hashdex Releases 2023 Crypto Investment Outlook",
+      "url": "https://finance.yahoo.com/news/hashdex-releases-2023-crypto-investment-133500478.html",
+      "summary": "Hashdex, a crypto asset manager, has released its 2023 Crypto Investment Outlook, identifying key themes for the new year including accelerating adoption, scaling solutions, and a greener future. Despite the challenges of 2022, Hashdex views the past year as not entirely negative for crypto, suggesting that the underlying investment thesis is still playing out. The report aims to provide investors with insights into the future of crypto and what to watch for in the coming year.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "Hashdex_2023_outlook",
+        "crypto_adoption_trends",
+        "scaling_solutions"
+      ],
+      "rationale": "A positive outlook from a reputable asset manager like Hashdex, focusing on adoption and scaling, suggests a belief in the long-term viability and growth of the crypto market. This can attract investor interest and support prices."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n2b8c225a6fde",
+      "title": "Cathie Wood still sees bitcoin hitting $1 million by 2030 as the current crisis will have the token 'coming out of this smelling like a rose'",
+      "url": "https://finance.yahoo.com/news/cathie-wood-still-sees-bitcoin-133033778.html",
+      "summary": "Cathie Wood reiterated her forecast for Bitcoin to reach $1 million by 2030, believing that the current market crises will ultimately strengthen the token. She emphasizes the enduring value of blockchain technology and sees the ongoing challenges as a necessary 'battle test' for survivors. Wood's persistent bullishness, despite the prolonged bear market and the FTX collapse, highlights her conviction in Bitcoin's long-term potential.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_BTC_1M_forecast",
+        "blockchain_technology_value",
+        "crisis_as_test"
+      ],
+      "rationale": "Cathie Wood's strong, long-term bullish conviction on Bitcoin, projecting a $1 million price target, is a significant indicator of institutional belief. Her view that current crises will 'battle test' the market and lead to stronger survivors reinforces a positive long-term outlook."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n1c35df01c239",
+      "title": "Canada to Prohibit Crypto Firms From Offering Leveraged Trading to Citizens",
+      "url": "https://finance.yahoo.com/news/canada-prohibit-crypto-firms-offering-123322209.html",
+      "summary": "Canada is set to implement tighter regulations for crypto firms, including a ban on margin and leverage trading for its citizens. Additionally, firms will be required to hold Canadian clients' assets separately from their proprietary business. These expanded terms, outlined by the Canadian Securities Administrators, aim to enhance investor protection and market integrity within the country's growing crypto sector.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Canada_leverage_ban",
+        "crypto_regulation_tightening",
+        "asset_segregation"
+      ],
+      "rationale": "Canada's move to ban leveraged trading and mandate asset segregation signals a stricter regulatory environment. This could limit participation and potentially slow down adoption in the Canadian market, creating a bearish short-to-medium term impact."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nfd4ee4f5d7c4",
+      "title": "US stocks rise to finish best week since November as major banks warn of tough times ahead",
+      "url": "https://finance.yahoo.com/news/us-stocks-rise-finish-best-210225190.html",
+      "summary": "US stocks concluded their best week since November, despite warnings from major banks like JPMorgan, Citigroup, and Bank of America about a potential mild recession in 2023. This divergence suggests that market sentiment is currently prioritizing positive inflation data and potential Fed pivots over recessionary fears, at least in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_stocks_rally",
+        "bank_recession_warnings",
+        "best_week_since_Nov"
+      ],
+      "rationale": "The positive sentiment in traditional markets, driven by hopes of easing inflation, often spills over into crypto. This suggests a potential short-term bullish trend for Bitcoin, despite underlying economic concerns."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n557595f6130a",
+      "title": "Bitcoin climbs above $20,000 first time in over two months",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-5-5-19-222433883.html",
+      "summary": "Bitcoin has surpassed the $20,000 mark, its highest level in over two months, with a significant daily price increase. This surge is attributed to a combination of factors, including a cooling U.S. inflation report and a weaker U.S. dollar. The cryptocurrency has seen a notable recovery from its year-to-date low.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "BTC_above_20k",
+        "two_month_high",
+        "cooling_inflation_impact"
+      ],
+      "rationale": "Breaking the $20,000 psychological level is a significant bullish signal, indicating strong buying pressure. This price action, fueled by positive macro data, is likely to attract further attention and potentially drive prices higher in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n155a1b113709",
+      "title": "Bitcoin Miner Bitfarms Warns of Default, Looks to Amend BlockFi Loan",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-bitfarms-looks-amend-131715797.html",
+      "summary": "Bitcoin miner Bitfarms is facing potential default on a $20 million loan from the bankrupt crypto lender BlockFi. The company is seeking to amend the loan terms. The loan, originally for $32 million, is now secured by assets valued at only $5 million, highlighting the financial distress many mining operations experienced due to falling Bitcoin prices and increased leverage.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitfarms_default_warning",
+        "BlockFi_loan_default",
+        "miner_financial_distress"
+      ],
+      "rationale": "News of a miner potentially defaulting on a loan, especially from a failed entity like BlockFi, can create negative sentiment. While specific to Bitfarms, it reflects broader industry financial pressures."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n28b448ba1a15",
+      "title": "Dollar weakens in wake of CPI release; yen climbs ahead of BOJ",
+      "url": "https://finance.yahoo.com/news/dollar-weakens-wake-cpi-release-030347262.html",
+      "summary": "The U.S. dollar index has weakened following a cooling U.S. inflation report, which has opened the door for the Federal Reserve to potentially ease its pace of interest rate hikes. The dollar is on track for its worst weekly performance since early November, indicating a shift in market expectations regarding monetary policy.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "USD_weakening",
+        "cooling_CPI_impact",
+        "Fed_rate_hike_expectations"
+      ],
+      "rationale": "A weaker dollar generally correlates with increased risk appetite, which can benefit Bitcoin. The expectation of a slower pace of Fed rate hikes is a positive macro signal for risk assets."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n9fc0f7fb19e8",
+      "title": "Hive Blockchain Deploys First Intel-Powered Bitcoin Mining Machines",
+      "url": "https://finance.yahoo.com/news/hive-blockchain-deploys-first-intel-182047051.html",
+      "summary": "Hive Blockchain has deployed its first mining machines utilizing Intel's Blockscale chips. This move could challenge the dominance of existing ASIC manufacturers and allow mining companies to customize their hardware. The new machines offer significant computing power, signaling an advancement in mining efficiency and potentially impacting the competitive landscape of Bitcoin mining.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Hive_Intel_chips",
+        "mining_hardware_innovation",
+        "ASIC_competition"
+      ],
+      "rationale": "The introduction of new, potentially more efficient mining hardware from Intel could lead to increased hashrate and improved mining economics. This is a positive development for the Bitcoin network's security and decentralization."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n5bb59b3b311f",
+      "title": "Bitcoin's 'Volatility Smile' Shows Increased Demand for Bullish Exposure",
+      "url": "https://finance.yahoo.com/news/bitcoins-volatility-smile-shows-increased-105939145.html",
+      "summary": "Bitcoin's recent rally has led to a positive sentiment shift among options traders, with an increased demand for out-of-the-money call options. This 'volatility smile' indicates a growing belief in further price appreciation, as traders are willing to pay a premium for bullish exposure. Factors like falling U.S. inflation and expectations of slower Fed rate hikes are contributing to this optimistic outlook.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "options_market",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_volatility_smile",
+        "bullish_options_demand",
+        "OTM_call_options"
+      ],
+      "rationale": "The 'volatility smile' in Bitcoin options, showing increased demand for bullish bets, is a strong indicator of positive sentiment and potential for further upside. This suggests traders are anticipating continued price increases."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n6fc78b9d731d",
+      "title": "Bitcoin Cash Jumps 10% Ahead of Optimistic May Hard Fork",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-jumps-10-ahead-074757588.html",
+      "summary": "Bitcoin Cash (BCH) price has surged nearly 10% in the past 24 hours, driven by anticipation of its May hard fork. The upgrade is expected to introduce 'CashTokens,' enabling decentralized applications and enhancing network security and privacy. Traders are optimistic about potential price movements, with resistance levels identified at $150.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BCH_price_surge",
+        "May_hard_fork_anticipation",
+        "CashTokens_launch"
+      ],
+      "rationale": "The price jump in Bitcoin Cash ahead of its hard fork suggests positive market sentiment towards the upgrade. The introduction of CashTokens could boost utility and adoption, providing a short-term bullish catalyst."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n7f2c93c919a2",
+      "title": "Grayscale: SEC Argument for Blocking Bitcoin Spot ETF 'Illogical'",
+      "url": "https://finance.yahoo.com/news/grayscale-sec-argument-blocking-bitcoin-133102912.html",
+      "summary": "Grayscale has filed a reply brief in its legal battle with the SEC, calling the regulator's argument for blocking a Bitcoin spot ETF 'illogical.' This filing is part of ongoing litigation initiated after the SEC denied Grayscale's conversion of its Bitcoin Trust (GBTC) into an ETF. The core of the dispute lies in the SEC's assertion that the ETF application did not adequately protect investors.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Grayscale_vs_SEC",
+        "Bitcoin_spot_ETF_denial",
+        "legal_challenge"
+      ],
+      "rationale": "Grayscale's continued legal challenge against the SEC's denial of a spot Bitcoin ETF is a significant event. A favorable ruling could unlock substantial institutional capital, providing a strong bullish catalyst. The ongoing legal process creates price volatility."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n1a52fe214d8d",
+      "title": "Weekly Market Wrap: Bitcoin rebounds above US$18,000, Ether gains over 13%",
+      "url": "https://finance.yahoo.com/news/weekly-market-wrap-bitcoin-rebounds-104224267.html",
+      "summary": "Bitcoin has rebounded above $18,000, and Ether has seen gains exceeding 13% over the past week. This positive performance is attributed partly to the rally in traditional equity markets, which has provided tailwinds for cryptocurrencies. The market sentiment suggests that many 'weak hands' have exited, leading to reduced sell-side liquidity and supporting price increases.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_above_18k",
+        "ETH_gains",
+        "equity_market_tailwinds"
+      ],
+      "rationale": "The strong weekly performance of Bitcoin and Ethereum, coupled with positive sentiment and reduced sell-side liquidity, indicates a bullish short-term trend. This momentum is likely to continue if macro conditions remain favorable."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n5851009eeb82",
+      "title": "Crypto.com cuts 20% of staff as layoffs continue to hit crypto industry",
+      "url": "https://finance.yahoo.com/news/cryptocom-cuts-20-of-staff-as-layoffs-continue-to-hit-crypto-industry-135720610.html",
+      "summary": "Crypto.com, a major crypto exchange, has announced significant layoffs, cutting 20% of its workforce. This move follows a pattern of widespread job cuts across the crypto industry, attributed to ambitious growth in 2022 that outpaced the market's trajectory amidst negative economic developments. The layoffs reflect the ongoing challenges and consolidation within the sector.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Crypto.com_layoffs",
+        "industry_wide_cuts",
+        "bear_market_impact"
+      ],
+      "rationale": "Significant layoffs at a major exchange like Crypto.com indicate continued financial strain and a contraction in the industry. While not directly impacting Bitcoin's price, it contributes to negative sentiment and highlights the ongoing bear market conditions."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-01-13",
+    "summary": "Bitcoin has surged above $20,000, marking a significant bullish development driven by cooling U.S. inflation data and a weakening dollar. This positive macro environment is boosting risk assets, including cryptocurrencies, with Ether also showing strong gains. However, ongoing industry challenges like miner defaults and exchange layoffs temper the optimism, while regulatory scrutiny remains a persistent concern. The market is showing increased demand for bullish exposure, as indicated by options trading activity.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "Continued regulatory pressure from agencies like the SEC.",
+      "Potential for unexpected macroeconomic shocks or shifts in Fed policy.",
+      "Lingering effects of the FTX collapse and contagion risks.",
+      "Vulnerability of mining operations to energy price volatility and debt.",
+      "Security breaches impacting exchanges or infrastructure providers."
+    ],
+    "watch_items": [
+      "SEC vs. Grayscale ETF lawsuit developments.",
+      "Further CPI and FOMC meeting minutes releases.",
+      "Major exchange and DeFi platform solvency announcements.",
+      "Hashrate trends and mining difficulty adjustments.",
+      "Developments in the Winklevoss twins' Gemini Earn program and SEC charges."
+    ]
+  }
+}

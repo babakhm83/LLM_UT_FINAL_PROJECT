@@ -1,0 +1,534 @@
+{
+  "date": "2022-07-01",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n0a92635f05df",
+      "title": "S&P 500 slides into a bear market as recession worries ramp up",
+      "url": "https://finance.yahoo.com/news/us-stocks-climb-china-provides-134022070.html",
+      "summary": "The S&P 500 entered a bear market, signifying a 20% decline from its recent highs. This downturn was driven by escalating recession fears, impacting the broader market sentiment. Such macroeconomic conditions often lead investors to de-risk, potentially pulling capital away from riskier assets like Bitcoin and other cryptocurrencies as they seek safer havens.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "S&P_500_bear_market",
+        "recession_fears",
+        "macroeconomic_downturn"
+      ],
+      "rationale": "A bear market in traditional equities indicates a significant risk-off sentiment. This typically correlates with reduced investment in speculative assets like cryptocurrencies, leading to downward pressure on Bitcoin's price."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n17142f39915f",
+      "title": "Dow plummets more than 1,100 points as US stocks crater on growing fears of a recession following weak results from retail giants",
+      "url": "https://finance.yahoo.com/news/dow-plummets-more-1-100-200736089.html",
+      "summary": "The Dow Jones Industrial Average experienced a significant drop of over 1,100 points, driven by weak earnings from major retail companies and heightened recession fears. This broad market sell-off reflects investor anxiety about the economic outlook, which can spill over into the crypto market, as investors reduce exposure to all risk assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Dow_Jones_plunge",
+        "recession_fears",
+        "retail_earnings_miss"
+      ],
+      "rationale": "A sharp decline in major stock indices, particularly due to negative corporate earnings and recession fears, signals a broader economic slowdown. This environment typically leads to capital flight from riskier assets, including Bitcoin."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ndc6cea27d5f0",
+      "title": "Crypto Update – Bitcoin and Ethereum Nearing Crash Status",
+      "url": "https://finance.yahoo.com/news/crypto-bitcoin-ethereum-nearing-crash-155713185.html",
+      "summary": "This analysis suggests Bitcoin and Ethereum are approaching a critical breakdown point, potentially leading to a 'flash crash.' The article highlights that both cryptocurrencies are trading below key support levels, indicating significant downward momentum. This bearish outlook is influenced by recent Federal Reserve actions and broader market sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_ETH_crash_potential",
+        "support_level_breakdown",
+        "Fed_impact"
+      ],
+      "rationale": "The article explicitly forecasts a potential crash for Bitcoin and Ethereum, citing technical breakdowns and macroeconomic pressures. This suggests a significant short-to-medium term bearish trend for the crypto market."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3b039abe63a8",
+      "title": "Bitcoin Plunges Below $20K for First Time Since December 2020; Ether Drops Below $1K",
+      "url": "https://finance.yahoo.com/news/bitcoin-plunges-below-20k-first-090608151.html",
+      "summary": "Bitcoin fell below the significant psychological level of $20,000 for the first time since December 2020, with Ethereum also dropping below $1,000. This price action is attributed to the ongoing crypto panic, exacerbated by the collapse of the Terra ecosystem. Such a sharp decline indicates strong selling pressure and a loss of confidence in the market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "market_sentiment",
+        "protocol"
+      ],
+      "features_for_model": [
+        "BTC_below_20k",
+        "ETH_below_1k",
+        "Terra_collapse_impact"
+      ],
+      "rationale": "Breaking below critical support levels like $20,000 for Bitcoin is a strong bearish signal. This event, coupled with the contagion from the Terra ecosystem collapse, indicates a severe downturn in market sentiment and liquidity."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n386819797ed4",
+      "title": "Interest rate hike, bear market, crypto crash, and more happened this week. This is what it means.",
+      "url": "https://finance.yahoo.com/news/interest-rate-hike-bear-market-122617073.html",
+      "summary": "This article summarizes a week marked by a Federal Reserve interest rate hike, a bear market in stocks, and significant crypto plunges. It suggests that these events collectively indicate a period of economic gloom and potential further declines for consumers and markets. The S&P 500 experienced its worst week since March 2020.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "stock_bear_market",
+        "crypto_crash",
+        "economic_gloom"
+      ],
+      "rationale": "The confluence of a Fed rate hike, a stock market bear market, and a crypto crash points to a systemic risk-off environment. This suggests that Bitcoin and other cryptocurrencies are likely to face continued downward pressure due to tightening monetary policy and reduced risk appetite."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n555da85f730b",
+      "title": "Consider Digital Assets Instead of Still-Pricey Real Estate, Say JPMorgan Strategists",
+      "url": "https://finance.yahoo.com/news/consider-digital-assets-instead-still-175026055.html",
+      "summary": "JPMorgan strategists suggest that digital assets have become a preferred alternative asset class over real estate, which they deem 'still-pricey.' This perspective implies a potential shift in investor allocation, with digital assets, despite recent repricing, being viewed more favorably than traditional assets like real estate in the current macroeconomic climate.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "JPMorgan_digital_assets",
+        "real_estate_comparison",
+        "alternative_assets"
+      ],
+      "rationale": "Institutional endorsement from a major bank like JPMorgan, suggesting digital assets as an alternative to overvalued real estate, can attract new capital. This indicates a potential long-term shift in asset allocation favoring crypto."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n2bf68e328b94",
+      "title": "Bill Gates said he doesn't own any cryptocurrency because it isn't 'adding to society'",
+      "url": "https://finance.yahoo.com/news/bill-gates-said-doesnt-own-061734297.html",
+      "summary": "Bill Gates stated he does not invest in cryptocurrency because he believes it does not contribute value to society. He has previously cautioned against crypto investments, particularly for those with less capital, and highlighted its environmental impact. This sentiment from a prominent figure can influence public perception and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Bill_Gates_crypto_skepticism",
+        "societal_value",
+        "environmental_impact_concern"
+      ],
+      "rationale": "While not a direct market mover, prominent figures like Bill Gates expressing skepticism about crypto's societal value can negatively influence broader public adoption and sentiment, potentially dampening long-term demand."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n6d328326e5e6",
+      "title": "China Ban on Bitcoin Mining Fails Epically According to New Data",
+      "url": "https://finance.yahoo.com/news/china-ban-bitcoin-mining-fails-114327791.html",
+      "summary": "New data suggests that China's ban on Bitcoin mining has not been entirely effective, with evidence of a resurgence in mining activity. This indicates that despite regulatory efforts, the underlying infrastructure and interest in Bitcoin mining persist. The US has become a leading hub for crypto mining following China's ban.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "China_mining_ban_ineffective",
+        "US_mining_growth",
+        "hashrate_resilience"
+      ],
+      "rationale": "The resilience of Bitcoin mining in China, despite a ban, suggests a strong underlying network effect. The shift of mining operations to the US also indicates a global distribution of hashrate, which can be seen as a positive for network decentralization and security."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n903cb0d6b024",
+      "title": "What Do Cryptocurrencies and Digital Money Mean for the Global Financial Markets?",
+      "url": "https://finance.yahoo.com/news/cryptocurrencies-digital-money-mean-global-100332728.html",
+      "summary": "This article explores the impact of cryptocurrencies and digital money on global financial markets, highlighting the reshaping of finance and the need for regulatory clarity on operational resilience and data protection. It notes that cryptocurrencies have fundamentally shifted the industry, with some countries adopting them as legal tender.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_impact_financial_markets",
+        "digital_money_evolution",
+        "regulatory_clarity_need"
+      ],
+      "rationale": "The increasing integration of cryptocurrencies and digital money into the global financial system, coupled with discussions around regulation and adoption as legal tender, signifies a long-term trend towards mainstream acceptance and utility."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n071d111b52de",
+      "title": "'Big Short' investor Michael Burry, Paul Krugman, and Mark Cuban have weighed in on the crypto crash. Here's what 7 market watchers say about the sell-off.",
+      "url": "https://finance.yahoo.com/news/big-short-investor-michael-burry-090000418.html",
+      "summary": "This article compiles opinions from prominent market watchers like Michael Burry, Paul Krugman, and Mark Cuban regarding the recent crypto crash. While some express skepticism and highlight the speculative nature of the market, others offer insights into the causes and potential future movements. The diverse range of opinions reflects the ongoing debate about crypto's value and future.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "market_sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "Michael_Burry_crypto_view",
+        "Paul_Krugman_crypto_view",
+        "Mark_Cuban_crypto_view",
+        "crypto_crash_analysis"
+      ],
+      "rationale": "The differing opinions from influential figures like Burry (bearish) and Cuban (often bullish on tech) create market uncertainty. While the crash itself is a bearish signal, the varied expert commentary means the immediate impact on sentiment is mixed."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "nedbb47bf3d61",
+      "title": "GBTC Discount Widens to 36% as Legal Fight With SEC Looms",
+      "url": "https://finance.yahoo.com/news/gbtc-discount-widens-36-legal-083207420.html",
+      "summary": "The Grayscale Bitcoin Trust (GBTC) is trading at an all-time discount of 36.3% to the spot price of Bitcoin. This widening discount, coupled with the looming legal battle with the SEC over its conversion to a spot Bitcoin ETF, suggests significant market pessimism regarding GBTC's future and potentially Bitcoin's institutional adoption path.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "GBTC_discount_widening",
+        "SEC_legal_fight",
+        "spot_ETF_rejection_impact"
+      ],
+      "rationale": "A widening GBTC discount indicates a lack of confidence in its ability to convert to a spot ETF, which could reduce demand for Bitcoin indirectly. The ongoing legal fight with the SEC adds further uncertainty."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ncc6c5bd4fb98",
+      "title": "'Big Short' investor Michael Burry warns the historic slump in stocks and crypto may only be half done — and he expects weak earnings to drag markets lower",
+      "url": "https://finance.yahoo.com/news/big-short-investor-michael-burry-113955173.html",
+      "summary": "Michael Burry, known for predicting the 2008 financial crisis, warns that the current market slump in stocks and crypto might only be halfway complete. He anticipates that weak corporate earnings will drive further market declines, as a slump in consumer spending impacts company profits. This outlook suggests continued downward pressure on risk assets.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Michael_Burry_warning",
+        "earnings_compression",
+        "consumer_spending_slump"
+      ],
+      "rationale": "Michael Burry's bearish outlook, specifically citing upcoming weak earnings and consumer spending slowdowns, directly points to potential further downside for both traditional markets and crypto in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "ne5a5ecfa6979",
+      "title": "El Salvador's president doubles down on bitcoin, buys $1.5 million more",
+      "url": "https://finance.yahoo.com/news/el-salvadors-president-doubles-down-091847227.html",
+      "summary": "El Salvador's President Nayib Bukele announced another purchase of 80 bitcoins for approximately $1.5 million at $19,000 each. This action reinforces the country's commitment to Bitcoin as legal tender, despite the current market downturn. Such government adoption, even at a loss, can be seen as a positive signal for long-term belief in the asset.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "government"
+      ],
+      "features_for_model": [
+        "El_Salvador_BTC_purchase",
+        "Bukele_adoption",
+        "legal_tender_reinforcement"
+      ],
+      "rationale": "El Salvador's continued Bitcoin purchases, even during a price dip, signal strong conviction in the asset. While the amount is relatively small in the grand scheme, it represents ongoing government adoption and a potential small boost to demand."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n6089c176a60e",
+      "title": "Crypto Market Daily Highlights – BTC Visits Sub-$19,000",
+      "url": "https://finance.yahoo.com/news/crypto-market-daily-highlights-btc-003519477.html",
+      "summary": "The crypto market ended June on a bearish note, with Bitcoin visiting sub-$19,000 levels. Risk aversion dominated global financial markets, with the crypto market closely tracking the NASDAQ 100. The total crypto market cap fell for the fifth consecutive day, indicating broad-based selling pressure.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_sub_19k",
+        "NASDAQ_correlation",
+        "market_cap_decline",
+        "risk_aversion"
+      ],
+      "rationale": "Bitcoin trading below $19,000 and the overall market cap decline highlight significant selling pressure and risk aversion. This suggests that the bearish trend is likely to continue in the immediate short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "ne84300b9a076",
+      "title": "Bitcoin (BTC) Fear & Greed Index Unmoved by Late BTC Rally",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-fear-greed-index-012023722.html",
+      "summary": "Bitcoin experienced a late rally but the Fear & Greed Index remained unchanged, indicating persistent fear in the market. The index's stagnation despite a price uptick suggests that underlying sentiment has not improved, and the market remains cautious. Technical indicators show Bitcoin is still below its 50-day EMA.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_Fear_Greed_Index",
+        "late_rally_impact",
+        "50_day_EMA_breach"
+      ],
+      "rationale": "The unchanged Fear & Greed Index despite a late rally suggests that the underlying bearish sentiment persists. This indicates that the rally may not be sustainable and could face resistance, leading to continued price volatility."
+    },
+    {
+      "pick_idx": 18,
+      "id": "ndb60a8a140d8",
+      "title": "How the EU plans to regulate the crypto market",
+      "url": "https://finance.yahoo.com/news/eu-plans-regulate-crypto-market-121640537.html",
+      "summary": "The European Union has agreed on provisional rules to govern crypto assets, aiming to curb market abuse and manipulation. These rules will require crypto firms to disclose the environmental impact of their assets and impose reserve requirements for stablecoins. This regulatory clarity could foster greater institutional adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "stablecoin",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "EU_MiCA_regulation",
+        "crypto_asset_rules",
+        "environmental_disclosure",
+        "stablecoin_reserves"
+      ],
+      "rationale": "The EU's comprehensive regulatory framework (MiCA) provides much-needed clarity for the crypto market. This could encourage institutional investment and reduce regulatory uncertainty, potentially leading to increased adoption and price appreciation."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n7897a7fa393e",
+      "title": "Crypto World Is Cautious of Finer Details In EU's MiCA Law",
+      "url": "https://finance.yahoo.com/news/crypto-world-cautious-finer-details-155546424.html",
+      "summary": "While the EU's Markets in Crypto Assets (MiCA) regulation is largely welcomed, the crypto industry is cautious about specific details, particularly concerning stablecoins. The legislation's treatment of different digital assets could impact their issuance and proliferation, creating a nuanced regulatory landscape.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 5,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "EU_MiCA_details",
+        "stablecoin_regulation_impact",
+        "industry_caution"
+      ],
+      "rationale": "The crypto industry's cautious reaction to the finer details of the EU's MiCA law, especially regarding stablecoins, introduces uncertainty. The specific implementation of these rules could have varying impacts on different crypto assets in the short term."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n18ab985cc0e2",
+      "title": "VanEck files for spot Bitcoin ETF despite Grayscale rejection",
+      "url": "https://finance.yahoo.com/news/vaneck-files-spot-bitcoin-etf-051159096.html",
+      "summary": "Investment firm VanEck has reapplied for a spot Bitcoin ETF with the SEC, following Grayscale's rejection. The SEC has consistently denied spot Bitcoin ETF applications, citing concerns about market manipulation and investor protection, while approving futures-based ETFs. This ongoing regulatory hurdle creates uncertainty for institutional Bitcoin adoption.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "VanEck_spot_ETF_filing",
+        "SEC_rejection_pattern",
+        "market_manipulation_concerns"
+      ],
+      "rationale": "VanEck's renewed attempt for a spot Bitcoin ETF, despite previous rejections and Grayscale's setback, highlights the persistent demand for such a product. However, the SEC's continued stance creates short-term uncertainty and potential for negative sentiment if rejected again."
+    },
+    {
+      "pick_idx": 38,
+      "id": "na500fbd58e7e",
+      "title": "Brutal Month for Bitcoin as June Ends With Biggest Drop in 11 Years",
+      "url": "https://finance.yahoo.com/news/brutal-month-bitcoin-june-ends-165642126.html",
+      "summary": "Bitcoin experienced its largest monthly price drop in 11 years in June, slumping over 37.3%. This significant decline occurred amidst a broader market sell-off that led to job cuts in the crypto industry and liquidity issues for lenders like Celsius. The epic market sell-off indicates extreme bearish sentiment and deleveraging.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_June_drop",
+        "11_year_low_monthly",
+        "crypto_industry_layoffs",
+        "lender_liquidity_crisis"
+      ],
+      "rationale": "The record-breaking monthly drop for Bitcoin in June signifies extreme bearish sentiment and forced deleveraging across the crypto market. This historical price action suggests continued downward pressure and potential for further volatility in the immediate short term."
+    },
+    {
+      "pick_idx": 48,
+      "id": "nc2515f83cf0e",
+      "title": "Crypto lender Voyager Digital suspends withdrawals, deposits",
+      "url": "https://finance.yahoo.com/news/1-crypto-lender-voyager-digital-200254113.html",
+      "summary": "Crypto lender Voyager Digital has suspended withdrawals, trading, and deposits, citing a default notice issued to Three Arrows Capital (3AC) for failure to meet loan obligations. This move, along with exploring strategic alternatives, indicates severe liquidity issues within the crypto lending sector and potential contagion risks.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Voyager_suspension",
+        "3AC_default",
+        "crypto_lender_liquidity_crisis",
+        "contagion_risk"
+      ],
+      "rationale": "Voyager Digital's suspension of services due to liquidity issues and exposure to Three Arrows Capital highlights systemic risks in the crypto lending space. This event can trigger further fear and contagion, impacting liquidity and confidence across the market."
+    },
+    {
+      "pick_idx": 49,
+      "id": "nb9ca2c5d16fe",
+      "title": "FTX Seen Set to Buy BlockFi for Peanuts After Passing on Celsius",
+      "url": "https://finance.yahoo.com/news/ftx-seen-set-buy-blockfi-032236014.html",
+      "summary": "Reports suggest FTX is in talks to acquire the distressed crypto platform BlockFi for a significantly reduced valuation, possibly $25 million, after previously passing on Celsius. This potential acquisition, if finalized, would represent a major consolidation in the crypto lending sector, driven by the current market downturn and liquidity challenges faced by these firms.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "acquisition",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "FTX_BlockFi_acquisition",
+        "distressed_asset_buyout",
+        "crypto_lender_consolidation"
+      ],
+      "rationale": "The potential acquisition of BlockFi by FTX highlights the ongoing consolidation and distress in the crypto lending market. While FTX's strength could be a positive, the low valuation of BlockFi underscores the severe market conditions and potential for further negative sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-07-01",
+    "summary": "The crypto market closed June with significant bearish momentum, as Bitcoin dipped below $19,000, mirroring broader market declines driven by recession fears and hawkish Fed policy. Key events include the widening GBTC discount, Michael Burry's continued bearish warnings, and liquidity crises at crypto lenders like Voyager Digital, signaling systemic risk. However, positive regulatory developments from the EU (MiCA) and continued adoption signals from El Salvador offer some counterbalancing optimism for the longer term. The market sentiment remains heavily skewed towards fear, with little immediate relief in sight.",
+    "scenario_probs": {
+      "bull": 0.25,
+      "base": 0.45,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "Continued macroeconomic headwinds (inflation, interest rate hikes, recession fears).",
+      "Further contagion from crypto lender failures and defaults (e.g., Three Arrows Capital, Voyager).",
+      "Regulatory uncertainty, particularly regarding spot Bitcoin ETF approvals.",
+      "Weakening consumer spending impacting corporate earnings and overall market sentiment.",
+      "Potential for further sharp price declines if key support levels are breached."
+    ],
+    "watch_items": [
+      "US CPI and PPI data releases",
+      "Federal Reserve meeting minutes/statements",
+      "Major crypto lender solvency updates (e.g., Celsius, BlockFi)",
+      "Developments in the SEC vs. Grayscale legal case",
+      "Global macroeconomic indicators (PMIs, employment data)"
+    ]
+  }
+}

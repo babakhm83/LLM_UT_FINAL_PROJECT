@@ -1,0 +1,540 @@
+{
+  "date": "2022-06-20",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nd28cc37b6fd8",
+      "title": "Cryptocurrency market value slumps under $1 trillion",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-market-value-slumps-under-093713122.html",
+      "summary": "The cryptocurrency market's value dropped below $1 trillion for the first time since January 2021, reaching as low as $926 billion. This decline follows a peak of $2.9 trillion in November 2021. The slump is attributed to investors ditching riskier assets amid high inflation and anticipated interest rate hikes by central banks, which are expected to hinder economic growth. Bitcoin has seen a significant drop in value, mirroring the broader market trend.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "market_cap_below_1T",
+        "investor_risk_off",
+        "inflation_impact",
+        "rate_hike_fear"
+      ],
+      "rationale": "This news signifies a major contraction in the crypto market, driven by macroeconomic factors. The sustained drop below $1 trillion indicates a prolonged bear market sentiment, impacting investor confidence and capital inflow for an extended period."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne561884290a7",
+      "title": "Three Arrows Capital Confirms Heavy Losses From LUNA's Collapse, Exploring Potential Options: Report",
+      "url": "https://finance.yahoo.com/news/three-arrows-capital-confirms-heavy-134653632.html",
+      "summary": "Three Arrows Capital (3AC), a prominent crypto fund, has confirmed significant losses due to the collapse of TerraUSD (UST) and its native token LUNA. The firm is reportedly seeking legal and financial advisors to navigate its situation. With over $3 billion in assets under management as of April, 3AC's distress could have ripple effects across the crypto ecosystem, potentially leading to further contagion and liquidity issues.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "DeFi",
+        "contagion",
+        "institutional"
+      ],
+      "features_for_model": [
+        "3AC_losses",
+        "LUNA_collapse_impact",
+        "crypto_fund_distress",
+        "contagion_risk"
+      ],
+      "rationale": "The financial distress of a major crypto fund like Three Arrows Capital, directly linked to the Terra ecosystem collapse, signals systemic risk. This event can trigger a cascade of liquidations and further erode confidence, leading to sustained downward pressure on the market."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nd4e50af60fd4",
+      "title": "Crypto market selloff presents rare Bitcoin opportunity: Huobi Research Institute",
+      "url": "https://finance.yahoo.com/news/crypto-market-selloff-presents-rare-140000629.html",
+      "summary": "Huobi Research Institute suggests that the current crypto market selloff presents a rare buying opportunity for Bitcoin. Despite a 20% plunge in market capitalization over four days, reaching $925.4 billion, and a 68% drop from its peak, the report posits that Bitcoin prices are entering a bottoming range. This perspective contrasts with the prevailing bearish sentiment, highlighting potential long-term value accumulation during the downturn.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "market_sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_buying_opportunity",
+        "market_bottom_potential",
+        "Huobi_report"
+      ],
+      "rationale": "While the report suggests a buying opportunity, the underlying sentiment remains bearish. The 'rare opportunity' framing indicates a contrarian view, but the broader market conditions and ongoing sell-offs temper the immediate bullish impact. It's more of a long-term accumulation signal."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n211733bbaa4d",
+      "title": "Bitcoin Options Data Suggests Bearish Sentiment Among Investors",
+      "url": "https://finance.yahoo.com/news/bitcoin-options-data-suggests-bearish-081806265.html",
+      "summary": "Analysis of Bitcoin options trading indicates a growing bearish sentiment among investors. This sentiment is observed as Bitcoin trades within a range of $29,000 to $30,000. The asset has experienced a significant decline, dropping to nearly $24,000 amid systemic risks within the crypto ecosystem and broader market inflation fears. Bitcoin has been on a downward trend for seven consecutive weeks, showing strong correlation with U.S. market movements.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "market_sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_options_bearish",
+        "investor_sentiment",
+        "inflation_fear",
+        "market_correlation"
+      ],
+      "rationale": "Options data is a forward-looking indicator of market sentiment. The prevalence of bearish bets suggests that traders anticipate further price declines, reinforcing the negative outlook for Bitcoin in the medium term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ndce2efe85e55",
+      "title": "‘Nothing positive’: Salvadorans struggle to adapt to Bitcoin",
+      "url": "https://finance.yahoo.com/news/nothing-positive-salvadorans-struggle-adapt-195500455.html",
+      "summary": "Salvadorans are reportedly struggling to adapt to Bitcoin as the country's legal tender. Reports indicate a lack of positive experiences, with many citizens finding the adoption challenging. This sentiment suggests that the practical implementation of Bitcoin as a national currency is facing significant hurdles, potentially impacting broader adoption narratives and the perceived success of such initiatives.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "El_Salvador_BTC_struggle",
+        "adoption_challenges",
+        "legal_tender_sentiment"
+      ],
+      "rationale": "The struggles in El Salvador, a key test case for Bitcoin adoption, cast doubt on the viability of similar initiatives. Negative user experiences and difficulties in practical application can hinder broader adoption and create a bearish narrative around state-level crypto integration."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n55ccfb15b667",
+      "title": "A fast one from down under: Australia approves BTC, ETH ETFs",
+      "url": "https://finance.yahoo.com/news/fast-one-down-under-australia-081229434.html",
+      "summary": "Australia has approved three separate crypto exchange-traded funds (ETFs), including those for Bitcoin (BTC) and Ethereum (ETH). This development comes as the U.S. continues to deliberate on the approval of a spot-traded Bitcoin ETF. The Australian approval signifies growing institutional acceptance and provides a regulated avenue for investors to gain exposure to cryptocurrencies, potentially increasing capital inflow.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Australia_BTC_ETH_ETF_approval",
+        "institutional_adoption",
+        "regulated_exposure"
+      ],
+      "rationale": "The approval of crypto ETFs in Australia is a positive step for institutional adoption. It provides a regulated pathway for investment, which can attract more capital into the crypto market over the long term, signaling a maturing asset class."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n7aed928a19a4",
+      "title": "First Mover Americas: Coinbase Layoffs and the 'Bear Market Guide' to Bitcoin",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-coinbase-layoffs-153457656.html",
+      "summary": "Coinbase has announced layoffs, signaling a contraction in the crypto industry amidst a bear market. The news coincides with the release of a 'Bear Market Guide' to Bitcoin, suggesting a focus on navigating challenging market conditions. These events reflect a broader trend of industry consolidation and cost-cutting in response to declining prices and investor sentiment.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "market_sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Coinbase_layoffs",
+        "bear_market_sentiment",
+        "crypto_industry_contraction"
+      ],
+      "rationale": "Layoffs at a major exchange like Coinbase are a strong indicator of industry headwinds and a bearish outlook. This reflects reduced business activity and investor confidence, suggesting a prolonged period of market downturn."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nb0f91ebbda23",
+      "title": "Bitcoin Drops Below $20,000 As Cryptocurrency Selloff Accelerates",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-below-20-000-220327801.html",
+      "summary": "Bitcoin has fallen below the significant $20,000 threshold for the first time since late 2020, indicating an acceleration of the cryptocurrency selloff. The price dropped as much as 12% to below $18,100. This marks a return to levels seen in November 2020, prior to Bitcoin's ascent to its all-time high. The breach of this psychological level suggests a deepening bear market and a significant loss of investor confidence.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_tags": [
+        "market_sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_below_20k",
+        "selloff_acceleration",
+        "psychological_level_breach",
+        "bear_market_deepening"
+      ],
+      "rationale": "Breaking below $20,000 is a critical technical and psychological event. It signals a significant loss of momentum and reinforces the bearish trend, likely leading to further price declines and increased fear in the market."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nee6b9aaa1203",
+      "title": "Bitcoin (BTC) Holds Tight as TerraUSD Woes Hit the Crypto Market",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-holds-tight-terrausd-100437975.html",
+      "summary": "Bitcoin (BTC) managed to hold its ground despite the ongoing turmoil surrounding TerraUSD (UST) and Terra (LUNA). While BTC showed resilience, the broader crypto market was negatively impacted by the Terra ecosystem's collapse. Bitcoin's technical indicators were flashing red, with the price sitting below the 50-day Exponential Moving Average (EMA), suggesting underlying weakness despite short-term stability.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "DeFi",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_resilience_Terra_woes",
+        "TerraUSD_impact",
+        "BTC_below_50_EMA",
+        "broader_market_impact"
+      ],
+      "rationale": "While Bitcoin showed some resilience against the Terra collapse, the fact that its technical indicators are bearish suggests that this stability might be temporary. The broader market contagion from Terra's failure continues to pose a risk."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nde887fe8301f",
+      "title": "Bitcoin flirts with US$40K as Fed stamps highest rate hike in 22 years",
+      "url": "https://finance.yahoo.com/news/bitcoin-flirts-us-40k-fed-012048439.html",
+      "summary": "Bitcoin approached the US$40,000 mark as the U.S. Federal Reserve implemented its largest interest rate hike in 22 years, a 50 basis point increase. This move, aimed at combating high inflation, created a target range of 0.75%-1%. The Fed's aggressive stance on inflation, with March recording the highest CPI in the U.S. at 8.5%, signals a tightening monetary policy that typically impacts risk assets like Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BTC_near_40k",
+        "Fed_50bps_hike",
+        "inflation_fight",
+        "tightening_monetary_policy"
+      ],
+      "rationale": "The Fed's aggressive rate hike is a significant bearish signal for risk assets. Higher interest rates increase the cost of capital and reduce the attractiveness of speculative investments like Bitcoin, potentially leading to sustained price pressure."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n943319f2a62f",
+      "title": "New York has passed a bill placing a moratorium on cryptocurrency mining as state lawmakers seek to address environmental concerns",
+      "url": "https://finance.yahoo.com/news/york-passed-bill-placing-moratorium-162620455.html",
+      "summary": "New York state lawmakers have approved a bill imposing a two-year moratorium on certain cryptocurrency mining operations, specifically those using proof-of-work and carbon-based energy sources. This regulatory action, aimed at addressing environmental concerns, has been met with criticism from the Blockchain Association. The moratorium could impact mining operations within the state and set a precedent for similar regulations elsewhere.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "environment",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "NY_mining_moratorium",
+        "proof_of_work_ban",
+        "environmental_regulation",
+        "blockchain_association_criticism"
+      ],
+      "rationale": "Regulatory actions like the New York mining moratorium can stifle industry growth and create uncertainty. This type of legislation can deter investment in mining infrastructure and potentially lead to a shift in mining operations to less regulated jurisdictions."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "na3989945fd86",
+      "title": "Bancor Suspends 'Impermanent Loss Protection', Citing Market Strain",
+      "url": "https://finance.yahoo.com/news/bancor-suspends-impermanent-loss-protection-055535187.html",
+      "summary": "Decentralized finance network Bancor is suspending its Impermanent Loss Protection feature due to \"hostile market conditions.\" This move follows similar liquidity strains experienced by other DeFi platforms like Celsius Network and Babel Finance. The suspension highlights the ongoing pressure on DeFi protocols amidst a broader crypto market downturn and rising interest rates.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "DeFi",
+        "liquidity",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Bancor_ILP_suspension",
+        "DeFi_liquidity_strain",
+        "hostile_market_conditions"
+      ],
+      "rationale": "The suspension of ILP by Bancor signals further stress within the DeFi sector. This indicates potential liquidity issues and a lack of confidence in maintaining such features during a downturn, which could lead to reduced participation and price pressure on related tokens."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0840bf5fa81c",
+      "title": "Solend DAO overturns vote to take over at-risk ‘whale’ wallet",
+      "url": "https://finance.yahoo.com/news/solend-dao-overturns-vote-over-095151481.html",
+      "summary": "The Solend DAO has overturned its previous governance vote that would have allowed it to seize control of a large 'whale' wallet at risk of liquidation. The new vote extends the voting period and removes emergency powers. This decision aims to prevent potential protocol risks associated with forced liquidations, reflecting a more cautious approach to managing systemic risks within DeFi protocols.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "DeFi",
+        "governance",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Solend_DAO_overturn",
+        "whale_wallet_liquidation_risk",
+        "DeFi_governance_decision"
+      ],
+      "rationale": "While the overturning of the vote avoids a potentially destabilizing liquidation, it highlights the ongoing risks associated with large positions in DeFi. The market may interpret this as a sign of underlying fragility, but the immediate impact on price is likely to be muted."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n862a1bc3dca2",
+      "title": "Morning Crypto Briefing: Bitcoin (BTC) Recovers $20K Handle Following Weekend Turmoil",
+      "url": "https://finance.yahoo.com/news/morning-crypto-briefing-bitcoin-btc-110148244.html",
+      "summary": "Bitcoin has recovered above the $20,000 mark after a significant weekend sell-off that saw prices dip below $18,000. Ethereum is also showing signs of recovery. However, analysts remain cautious, suspecting further downside due to unfavorable macroeconomic conditions. Solana has shown resilience despite a governance issue with Solend.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_recovers_20k",
+        "weekend_selloff_rebound",
+        "macro_headwinds",
+        "Solana_resilience"
+      ],
+      "rationale": "The recovery above $20,000 is a positive short-term signal, but the underlying macroeconomic concerns persist. This suggests the rebound might be a temporary relief rally rather than a sustained uptrend, keeping the overall sentiment uncertain."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n14a83f1e4d7f",
+      "title": "Bitcoin Miner Selloff Accelerates as Markets Fall to 18-Month Low",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-selloff-accelerates-markets-031427666.html",
+      "summary": "The cryptocurrency market capitalization has fallen to an 18-month low, below $850 billion. Public Bitcoin miners are increasingly selling their holdings. This accelerated selling pressure from miners is expected to continue until it is exhausted, contributing to the downward trend in the market. The overall market has collapsed by 72.5% since its November 2021 peak.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "miner_selloff_acceleration",
+        "18_month_low",
+        "market_cap_below_850B",
+        "miner_selling_exhaustion"
+      ],
+      "rationale": "Increased selling from Bitcoin miners, often forced by operational costs and declining profitability, adds significant downward pressure. This indicates a lack of confidence in short-term price appreciation and can prolong the market downturn."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n1a825c2627dc",
+      "title": "Bitcoin recovers above US$20K after weekend slump",
+      "url": "https://finance.yahoo.com/news/bitcoin-recovers-above-us-20k-005848300.html",
+      "summary": "Bitcoin's price has recovered above the US$20,000 mark after a weekend slump that saw it hit a low of US$17,708, its lowest point since December 2020. The cryptocurrency gained over 7% in the past day, trading at US$20,504. Ethereum also saw a significant surge. The overall crypto market has been valued under US$1 trillion for seven consecutive days.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_above_20k_recovery",
+        "weekend_slump_rebound",
+        "ETH_surge",
+        "market_cap_under_1T"
+      ],
+      "rationale": "The recovery above $20,000 is a short-term positive, but the market remains under $1 trillion, indicating continued weakness. The rebound is likely driven by short-covering and opportunistic buying, but sustained upward momentum is questionable given ongoing macro concerns."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nedcdeee0fc19",
+      "title": "Elon Musk says he’s still buying dogecoin after 90% price crash",
+      "url": "https://finance.yahoo.com/news/elon-musk-says-still-buying-112106255.html",
+      "summary": "Elon Musk stated he is still buying dogecoin despite its 90% price crash from its peak. His comments caused a brief surge in dogecoin's price, though gains were quickly erased. Musk's continued support and buying of dogecoin could provide some level of sentiment support for the meme coin, but its impact on broader market trends is limited.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "adoption",
+        "influencer"
+      ],
+      "features_for_model": [
+        "Musk_buying_DOGE",
+        "DOGE_price_crash",
+        "influencer_sentiment"
+      ],
+      "rationale": "Elon Musk's continued support for Dogecoin is a sentiment driver for that specific asset, but its impact on Bitcoin or the broader market is minimal. The price reaction was short-lived, indicating limited lasting influence."
+    },
+    {
+      "pick_idx": 12,
+      "id": "ndcb2b1787a61",
+      "title": "Binance didn’t buy US$2B worth of Bitcoin, founder Changpeng Zhao says",
+      "url": "https://finance.yahoo.com/news/binance-didn-t-buy-us-025726279.html",
+      "summary": "Binance founder Changpeng Zhao (CZ) clarified that the exchange did not purchase $2 billion worth of Bitcoin, refuting media reports. He explained that increases in Binance's cold wallet balance are due to user deposits, not acquisitions. This clarification corrects a potentially misleading narrative about significant institutional buying activity.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "institutional",
+        "exchange_activity"
+      ],
+      "features_for_model": [
+        "Binance_BTC_purchase_denial",
+        "CZ_clarification",
+        "cold_wallet_deposits",
+        "institutional_buying_narrative"
+      ],
+      "rationale": "This news corrects a false report of significant institutional buying, which might have briefly boosted sentiment. The denial removes a potential bullish catalyst and reinforces the current bearish sentiment by highlighting the absence of major new capital inflows."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nb3741be36564",
+      "title": "ProShares to launch ETF aimed at shorting bitcoin",
+      "url": "https://finance.yahoo.com/news/proshares-launch-etf-aimed-shorting-205207970.html",
+      "summary": "ProShares, a known provider of Bitcoin-linked ETFs, announced plans to launch a new ETF designed to profit from a decline in Bitcoin's price. The ProShares Short Bitcoin Strategy ETF (BITI) will offer investors a way to bet against Bitcoin or hedge their existing exposure. This product caters to bearish sentiment and provides a regulated avenue for shorting the cryptocurrency.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 4
+      },
+      "impact_tags": [
+        "ETF",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "ProShares_Short_BTC_ETF",
+        "bearish_ETF_launch",
+        "short_exposure_product",
+        "hedging_tool"
+      ],
+      "rationale": "The launch of a short Bitcoin ETF indicates growing institutional interest in profiting from price declines. This product could attract more bearish capital and potentially increase selling pressure on Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n3a680866f628",
+      "title": "Crypto Market Near Bottom, Relief Rally Imminent: Huobi Research Institute",
+      "url": "https://finance.yahoo.com/news/crypto-market-near-bottom-relief-150000452.html",
+      "summary": "Huobi Research Institute suggests the crypto market is nearing its bottom and a relief rally is imminent, despite recent volatility and institutional capitulation (e.g., Three Arrows Capital, Celsius). The report, titled 'FUD –Fear, Uncertainty and Doubt – Is A Relief Rally Near?', indicates that current levels of FUD and capitulation present an undervalued opportunity.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "Huobi_report_bottom",
+        "relief_rally_imminent",
+        "FUD_capitulation",
+        "undervalued_opportunity"
+      ],
+      "rationale": "This report offers a contrarian bullish view, suggesting that extreme fear and capitulation could precede a rebound. While the short-term impact might be limited by ongoing macro pressures, it provides a potential catalyst for a short-term bounce."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n219f5f3a7d81",
+      "title": "Crypto industry fears contagion as bitcoin slips under $20,000",
+      "url": "https://finance.yahoo.com/news/crypto-industry-gripped-anxiety-bitcoin-034621699.html",
+      "summary": "The cryptocurrency industry is experiencing anxiety as Bitcoin struggles to stay above $20,000, with fears of contagion from major crypto players' issues. Bitcoin fell to $17,592.78 on Saturday, breaking below $20,000 for the first time since December 2020, losing almost 60% of its value. This situation highlights systemic risks and a potential for a wider market shakeout.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "contagion",
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_under_20k_anxiety",
+        "contagion_fear",
+        "systemic_risk",
+        "market_shakeout_potential"
+      ],
+      "rationale": "The fear of contagion and Bitcoin's breach of the $20,000 level create significant short-term bearish pressure. This sentiment can lead to further selling as investors de-risk and anticipate broader market instability."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-06-20",
+    "summary": "The crypto market is showing signs of stabilization with Bitcoin recovering above $20,000 after a sharp weekend decline. However, underlying macroeconomic concerns and ongoing liquidity issues within the DeFi sector continue to weigh on sentiment. Miner selling is accelerating, and the launch of a short Bitcoin ETF indicates persistent bearish sentiment among some investors. Despite a few contrarian reports suggesting a market bottom, the overall outlook remains cautious, with potential for further volatility.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.45,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued macroeconomic tightening (Fed rate hikes, inflation).",
+      "Further contagion from distressed crypto firms (e.g., Three Arrows Capital, Celsius).",
+      "Increased regulatory scrutiny and potential new restrictions.",
+      "Miner selling pressure exacerbating price declines.",
+      "Lack of sustained institutional inflow despite ETF approvals in some regions."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and economic data releases.",
+      "Performance of major DeFi protocols and liquidity levels.",
+      "Developments in ongoing legal cases involving crypto entities (e.g., SEC v. Ripple).",
+      "On-chain data regarding miner behavior and exchange flows.",
+      "Global equity market performance as a proxy for risk appetite."
+    ]
+  }
+}

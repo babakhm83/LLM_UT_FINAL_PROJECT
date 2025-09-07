@@ -1,0 +1,511 @@
+{
+  "date": "2023-01-01",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "ncee1458c78a1",
+      "title": "How stable is Binance, really?",
+      "url": "https://finance.yahoo.com/news/stable-binance-really-172938784.html",
+      "summary": "Binance, the world's largest crypto exchange, faced scrutiny following the collapse of FTX. While Binance CEO Changpeng Zhao played a role in FTX's downfall, questions about Binance's own stability and reserves emerged. The exchange's ability to withstand market stress and regulatory pressures will be crucial for its long-term viability and the broader crypto market's confidence. Any instability could lead to significant contagion effects.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Binance_stability",
+        "exchange_risk",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Binance's stability is paramount for the crypto ecosystem. Its potential issues could trigger a wider market downturn, impacting Bitcoin's price and adoption. The ongoing regulatory scrutiny adds to the uncertainty."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n323ef87e1f33",
+      "title": "Crypto stocks slide as FTX prepares for bankruptcy proceedings",
+      "url": "https://finance.yahoo.com/news/crypto-stocks-slide-ftx-prepares-155954659.html",
+      "summary": "The bankruptcy proceedings of FTX led to a significant downturn in crypto-related stocks, including Silvergate Capital, MicroStrategy, Riot Blockchain, and Marathon Digital. This event highlighted the interconnectedness and fragility of the crypto market, demonstrating how the failure of one major entity can have widespread repercussions on publicly traded companies and investor sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "FTX_bankruptcy",
+        "crypto_stock_performance",
+        "market_contagion"
+      ],
+      "rationale": "The FTX collapse created a significant negative sentiment shock, impacting crypto-related equities. This event underscores systemic risk and can lead to reduced institutional interest and capital inflow into the crypto space for an extended period."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n3298853e834d",
+      "title": "Binance CEO Zhao says don't fight crypto, regulate it",
+      "url": "https://finance.yahoo.com/news/binance-ceo-zhao-says-dont-195724111.html",
+      "summary": "Binance CEO Changpeng Zhao advocates for regulation over opposition to the crypto sector, suggesting it's a better approach for governments as digital currencies become more mainstream. This stance comes in the wake of several platform collapses, including FTX, which has intensified regulatory focus. Zhao believes proactive regulation can foster industry growth and stability.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "crypto_regulation_advocacy",
+        "Binance_stance",
+        "industry_maturation"
+      ],
+      "rationale": "A clear and constructive regulatory framework, supported by major players like Binance, can foster institutional adoption and long-term growth for Bitcoin. This signals a move towards greater legitimacy and stability in the crypto market."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nc099dd8647cc",
+      "title": "Bankrupt miner Core Scientific may sell facilities under development: report",
+      "url": "https://finance.yahoo.com/news/bankrupt-miner-core-scientific-may-035934341.html",
+      "summary": "Core Scientific, a major Bitcoin miner, filed for Chapter 11 bankruptcy and is considering selling its undeveloped mining facilities. This move reflects the financial strain on mining operations due to lower Bitcoin prices and high energy costs. The potential sale of assets could impact the overall hashrate and network security, while also signaling distress within the mining sector.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Core_Scientific_bankruptcy",
+        "miner_distress",
+        "hashrate_impact"
+      ],
+      "rationale": "The financial difficulties of large mining operations like Core Scientific indicate sector-wide pressure. This can lead to reduced mining capacity, potentially affecting network security and profitability, which indirectly impacts Bitcoin's price."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n33938fe51828",
+      "title": "Europe’s Last Bitcoin Mining Refuge Is No Longer Viable",
+      "url": "https://finance.yahoo.com/news/europe-last-bitcoin-mining-refuge-151824116.html",
+      "summary": "Bitcoin miners in northern Norway and Sweden are powering down due to surging energy tariffs, despite previously seeking refuge there for cheaper power. This situation highlights the impact of high energy prices on mining profitability and operational viability, forcing miners to reconsider locations and potentially reduce their operations. The viability of mining in certain regions is directly tied to energy costs.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "European_mining_challenges",
+        "energy_costs",
+        "miner_operations"
+      ],
+      "rationale": "Rising energy costs making mining operations in previously favorable regions unviable suggests broader economic pressures affecting the mining industry. This can lead to reduced hashrate and potentially impact the network's decentralization."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n9fea2994065f",
+      "title": "Bitcoin Bear Market Has a Silver Lining, CryptoCompare's Q3 Review Shows",
+      "url": "https://finance.yahoo.com/news/bitcoin-bear-market-silver-lining-130000313.html",
+      "summary": "Despite a significant Bitcoin price drop in the bear market, CryptoCompare's Q3 review indicates that both small and large investors have consistently bought on dips. This behavior contrasts with previous bear markets, suggesting a growing conviction among investors in Bitcoin's long-term value, even amidst market volatility and the collapse of industry players.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "investor_buying_behavior",
+        "bear_market_accumulation",
+        "long_term_conviction"
+      ],
+      "rationale": "Consistent buying by investors during the bear market, as reported by CryptoCompare, indicates underlying demand and belief in Bitcoin's future value. This accumulation phase could set the stage for a recovery and future price appreciation."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n1de73fcb8bc5",
+      "title": "SEC sends letter to companies urging updated disclosures amid 'widespread disruption' in crypto markets",
+      "url": "https://finance.yahoo.com/news/sec-sends-letter-to-companies-urging-updated-disclosures-amid-widespread-disruption-in-crypto-markets-205617732.html",
+      "summary": "The SEC has requested public companies to update their disclosures regarding the impact of recent crypto bankruptcies and market distress on their businesses. This action signals increased regulatory oversight and a demand for transparency in how crypto market events affect publicly traded entities. It could lead to more cautious investor sentiment and stricter compliance requirements.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_disclosure_requirements",
+        "crypto_market_impact",
+        "regulatory_oversight"
+      ],
+      "rationale": "The SEC's push for enhanced disclosures indicates a heightened focus on crypto-related risks for public companies. This could lead to greater caution from institutional investors and potentially impact how companies integrate crypto into their operations."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n17bf28812685",
+      "title": "Federal Reserve Hikes Rates as Expected, Will Watch 'Lags' in Monetary Policy; Bitcoin Rises",
+      "url": "https://finance.yahoo.com/news/federal-raises-us-interest-rate-180233118.html",
+      "summary": "The Federal Reserve implemented a widely anticipated 75 basis point interest rate hike, bringing the target range to 3.75%-4%. This aggressive monetary tightening aims to combat high inflation. While the rate hike was expected, the Fed's focus on 'lags' in monetary policy suggests a potential shift in future tightening pace. Bitcoin saw a rise following the announcement.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "monetary_policy_lags",
+        "inflation_control"
+      ],
+      "rationale": "Continued Fed rate hikes generally put pressure on risk assets like Bitcoin. However, the mention of 'lags' could signal a potential slowdown in future hikes, which might be interpreted as a positive for Bitcoin if inflation shows signs of cooling."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n4143b2f67847",
+      "title": "How 2022 shocked, rocked and rolled global markets",
+      "url": "https://finance.yahoo.com/news/2022-shocked-rocked-rolled-global-061558354.html",
+      "summary": "2022 was an exceptionally turbulent year for global markets, marked by trillions of dollars wiped off stock values, bond market volatility, and the collapse of several crypto empires. The year saw nearly 300 interest rate hikes and significant price swings, making it one of the most volatile periods for investors. This backdrop of macroeconomic instability and crypto-specific crises significantly impacted asset prices.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "global_market_volatility",
+        "2022_economic_turmoil",
+        "crypto_market_crises"
+      ],
+      "rationale": "The extreme volatility and negative sentiment of 2022, driven by macro factors and crypto-specific events, created a challenging environment for Bitcoin. This period of deleveraging and risk-off sentiment is likely to have lingering effects on investor confidence and capital allocation."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n2a3efd29fdba",
+      "title": "Insurers shun FTX-linked crypto firms as contagion risk mounts",
+      "url": "https://finance.yahoo.com/news/insurers-shun-ftx-linked-crypto-050322767.html",
+      "summary": "Insurers are increasingly denying or limiting coverage for companies exposed to FTX, leaving crypto traders and exchanges uninsured against losses. This reluctance stems from existing concerns about market regulation and price volatility, amplified by FTX's collapse. The lack of insurance coverage heightens operational risks for crypto firms.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "insurer_risk_aversion",
+        "FTX_contagion",
+        "crypto_insurance_gap"
+      ],
+      "rationale": "The withdrawal of insurance coverage for crypto firms, particularly those linked to FTX, signals a significant increase in perceived risk. This could deter institutional participation and increase operational costs for crypto businesses, potentially impacting the broader market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ne2cf45c689e8",
+      "title": "Legendary investor Jeremy Grantham flagged a 'superbubble' in asset prices and predicted a historic market crash. Here are his 8 best quotes of 2022.",
+      "url": "https://finance.yahoo.com/news/legendary-investor-jeremy-grantham-flagged-114500549.html",
+      "summary": "Jeremy Grantham, a renowned investor, warned of a 'superbubble' in asset prices and predicted a significant market crash in 2022. He also expressed a negative view on Bitcoin. His outlook suggests a continued bearish sentiment for risk assets, including cryptocurrencies, in the near term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Grantham_superbubble",
+        "market_crash_prediction",
+        "bitcoin_pessimism"
+      ],
+      "rationale": "Grantham's bearish outlook, particularly his view on Bitcoin, can influence investor sentiment and contribute to short-term price weakness if widely adopted."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nce4da06e947e",
+      "title": "What Will It Take for Bitcoin Mining Companies to Survive in 2023?",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-companies-survive-2023-165000752.html",
+      "summary": "Bitcoin mining companies faced a challenging 2022 due to rising capital costs, decreased profitability from lower BTC prices, and increased hashrate. Major public miners saw significant stock price declines. Survival in 2023 will depend on cost management, operational efficiency, and potentially new strategies to navigate the bear market.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_survival_2023",
+        "mining_profitability",
+        "hashrate_dynamics"
+      ],
+      "rationale": "The ongoing struggles of Bitcoin miners, as detailed in this article, suggest continued pressure on the mining sector. This could lead to reduced mining difficulty adjustments or potential sell-offs of mined BTC, impacting short-term price action."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nb8c1902b7c49",
+      "title": "Bitcoin Could Easily Rally To $160,000 Says Crypto Analyst: Here's How Soon It May Happen",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-easily-rally-160-201726144.html",
+      "summary": "A crypto analyst, Dave the Wave, who accurately predicted the 2022 Bitcoin price collapse, now forecasts a potential rally to $160,000 by January 2025, based on his logarithmic growth curve (LGC) model. This optimistic outlook suggests a potential long-term upward trend, despite current market conditions.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_prediction",
+        "LGC_model",
+        "analyst_sentiment"
+      ],
+      "rationale": "While this is a longer-term prediction, such bullish forecasts can create positive short-term sentiment and attract speculative buying, especially if other market indicators align."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nce4da06e947e",
+      "title": "What Will It Take for Bitcoin Mining Companies to Survive in 2023?",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-companies-survive-2023-165000752.html",
+      "summary": "Bitcoin mining companies faced a challenging 2022 due to rising capital costs, decreased profitability from lower BTC prices, and increased hashrate. Major public miners saw significant stock price declines. Survival in 2023 will depend on cost management, operational efficiency, and potentially new strategies to navigate the bear market.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_survival_2023",
+        "mining_profitability",
+        "hashrate_dynamics"
+      ],
+      "rationale": "The ongoing struggles of Bitcoin miners, as detailed in this article, suggest continued pressure on the mining sector. This could lead to reduced mining difficulty adjustments or potential sell-offs of mined BTC, impacting short-term price action."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nb8c1902b7c49",
+      "title": "Bitcoin Could Easily Rally To $160,000 Says Crypto Analyst: Here's How Soon It May Happen",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-easily-rally-160-201726144.html",
+      "summary": "A crypto analyst, Dave the Wave, who accurately predicted the 2022 Bitcoin price collapse, now forecasts a potential rally to $160,000 by January 2025, based on his logarithmic growth curve (LGC) model. This optimistic outlook suggests a potential long-term upward trend, despite current market conditions.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_prediction",
+        "LGC_model",
+        "analyst_sentiment"
+      ],
+      "rationale": "While this is a longer-term prediction, such bullish forecasts can create positive short-term sentiment and attract speculative buying, especially if other market indicators align."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ne2cf45c689e8",
+      "title": "Legendary investor Jeremy Grantham flagged a 'superbubble' in asset prices and predicted a historic market crash. Here are his 8 best quotes of 2022.",
+      "url": "https://finance.yahoo.com/news/legendary-investor-jeremy-grantham-flagged-114500549.html",
+      "summary": "Jeremy Grantham, a renowned investor, warned of a 'superbubble' in asset prices and predicted a significant market crash in 2022. He also expressed a negative view on Bitcoin. His outlook suggests a continued bearish sentiment for risk assets, including cryptocurrencies, in the near term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Grantham_superbubble",
+        "market_crash_prediction",
+        "bitcoin_pessimism"
+      ],
+      "rationale": "Grantham's bearish outlook, particularly his view on Bitcoin, can influence investor sentiment and contribute to short-term price weakness if widely adopted."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nce4da06e947e",
+      "title": "What Will It Take for Bitcoin Mining Companies to Survive in 2023?",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-companies-survive-2023-165000752.html",
+      "summary": "Bitcoin mining companies faced a challenging 2022 due to rising capital costs, decreased profitability from lower BTC prices, and increased hashrate. Major public miners saw significant stock price declines. Survival in 2023 will depend on cost management, operational efficiency, and potentially new strategies to navigate the bear market.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_survival_2023",
+        "mining_profitability",
+        "hashrate_dynamics"
+      ],
+      "rationale": "The ongoing struggles of Bitcoin miners, as detailed in this article, suggest continued pressure on the mining sector. This could lead to reduced mining difficulty adjustments or potential sell-offs of mined BTC, impacting short-term price action."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n20890a406f56",
+      "title": "US stocks rise after positive GDP revision and ahead of speech from Fed Chairman Jerome Powell",
+      "url": "https://finance.yahoo.com/news/us-stocks-rise-positive-gdp-144256641.html",
+      "summary": "US stocks saw gains as investors awaited a speech from Fed Chairman Jerome Powell, who was expected to maintain a hawkish tone on inflation. A revised upward GDP growth figure for Q3 was also a factor, though ADP payroll data missed estimates. This indicates a mixed economic signal ahead of key monetary policy commentary.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Powell_speech_outlook",
+        "GDP_revision",
+        "ADP_payroll_miss"
+      ],
+      "rationale": "Powell's speech is a key event. A hawkish tone could pressure risk assets like Bitcoin, while any hint of a dovish pivot could provide a short-term boost."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n17bf28812685",
+      "title": "Federal Reserve Hikes Rates as Expected, Will Watch 'Lags' in Monetary Policy; Bitcoin Rises",
+      "url": "https://finance.yahoo.com/news/federal-raises-us-interest-rate-180233118.html",
+      "summary": "The Federal Reserve implemented a widely anticipated 75 basis point interest rate hike, bringing the target range to 3.75%-4%. This aggressive monetary tightening aims to combat high inflation. While the rate hike was expected, the Fed's focus on 'lags' in monetary policy suggests a potential shift in future tightening pace. Bitcoin saw a rise following the announcement.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_impact",
+        "monetary_policy_lags",
+        "Bitcoin_reaction"
+      ],
+      "rationale": "The immediate positive reaction of Bitcoin to the Fed's announcement, despite the rate hike, suggests that the market may have already priced in the move and is looking for signs of a slower tightening pace."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nc1b2d9b5116b",
+      "title": "FOREX-U.S. dollar gains ground as investors focus on future Fed path",
+      "url": "https://finance.yahoo.com/news/forex-u-dollar-gains-ground-220042184.html",
+      "summary": "The U.S. dollar strengthened against the yen and euro, pulling back from earlier lows, as investors focused on the Federal Reserve's future rate hike path. Comments from Fed officials suggested a potential slower tightening pace, influencing currency markets and potentially impacting risk assets.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "Fed_path_focus",
+        "risk_asset_pressure"
+      ],
+      "rationale": "A strengthening dollar typically correlates with pressure on Bitcoin. Investor focus on the Fed's path suggests continued sensitivity to monetary policy, which could lead to short-term volatility."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-01-01",
+    "summary": "The start of 2023 presents a mixed outlook for Bitcoin. Long-term, the market is grappling with the fallout from the FTX collapse and ongoing macroeconomic pressures, including interest rate hikes, which continue to weigh on risk assets. However, signs of investor accumulation during the bear market and a potential shift in the Fed's tightening pace offer some optimism. Short-term, sentiment remains fragile, with key economic data and Fed commentary being critical drivers. The struggles of Bitcoin miners also add a layer of concern for the network's infrastructure.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Continued hawkishness from the Federal Reserve impacting risk assets.",
+      "Further contagion from the FTX collapse affecting other crypto entities.",
+      "Deterioration in global macroeconomic conditions leading to a broader market downturn.",
+      "Increased regulatory scrutiny and potential enforcement actions against crypto firms.",
+      "Weakness in the Bitcoin mining sector impacting network security or liquidity."
+    ],
+    "watch_items": [
+      "Federal Reserve meeting minutes and speeches",
+      "Key inflation data (CPI, PPI)",
+      "Major crypto exchange financial health reports",
+      "Developments in crypto regulation globally",
+      "Performance of major Bitcoin mining stocks"
+    ]
+  }
+}

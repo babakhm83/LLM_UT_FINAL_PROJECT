@@ -1,0 +1,505 @@
+{
+  "date": "2020-11-20",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n3755896da44a",
+      "title": "Bitcoin breaks $18,000 with all-time high in sight",
+      "url": "https://finance.yahoo.com/news/bitcoin-breaks-18-000-rally-092108332.html",
+      "summary": "Bitcoin surged past $18,000, reaching its highest point since December 2017, extending its 2020 rally. This upward momentum is attributed to increasing demand for Bitcoin as an inflation hedge and growing expectations of mainstream acceptance. The cryptocurrency has seen a significant year-to-date increase, nearing its all-time high from the 2017 bubble. This sustained growth suggests a strengthening institutional and retail interest, potentially paving the way for new price discovery.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_breakout",
+        "inflation_hedge",
+        "mainstream_acceptance"
+      ],
+      "rationale": "The sustained rally and breaking of significant psychological levels like $18,000 indicate strong market sentiment. This suggests a potential for further price appreciation as more investors, including institutions, adopt Bitcoin."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n5251b9c1c39c",
+      "title": "PayPal Embraces Crypto, Igniting Market as Mainstream Adoption Inches Closer",
+      "url": "https://finance.yahoo.com/news/paypal-granted-york-first-conditional-120016632.html",
+      "summary": "PayPal's official entry into the cryptocurrency market, allowing its 346 million users to buy, sell, and hold crypto, marks a significant step towards mainstream adoption. While withdrawals and deposits are not yet supported, the integration enables cryptocurrency as a funding source for purchases across PayPal's 26 million merchants. This move is expected to drive increased utility and accessibility for digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "PayPal_integration",
+        "mainstream_adoption",
+        "merchant_payments"
+      ],
+      "rationale": "PayPal's massive user base and merchant network provide a direct on-ramp for millions to interact with cryptocurrencies, significantly boosting adoption and utility. This integration validates crypto as a payment method and is likely to encourage similar moves from other payment giants."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n4562559d0dde",
+      "title": "Mode PLC adopts Bitcoin as treasury reserve asset",
+      "url": "https://finance.yahoo.com/news/mode-plc-adopts-bitcoin-treasury-111843839.html",
+      "summary": "Mode Global Holdings, a UK-listed fintech group, has allocated up to 10% of its cash reserves to purchase Bitcoin, adopting it as a treasury reserve asset. This decision is driven by record low UK interest rates and the potential for negative rates. Mode becomes the first publicly listed UK company to take this step, signaling a growing trend of corporate treasury diversification into digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "corporate_treasury_bitcoin",
+        "UK_listing",
+        "reserve_asset"
+      ],
+      "rationale": "This move by a publicly listed company demonstrates increasing institutional confidence in Bitcoin as a store of value, especially in low-interest-rate environments. It sets a precedent for other companies considering similar treasury management strategies."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nf5177eac6458",
+      "title": "Grayscale sees more than $1 billion in new investments in Q3",
+      "url": "https://finance.yahoo.com/news/grayscale-sees-more-1-billion-163950678.html",
+      "summary": "Grayscale Investments reported over $1.05 billion in inflows for its investment products in Q3 2020, marking its largest quarterly inflow ever. The majority of these investments (81%) came from institutional investors. This substantial institutional demand highlights a growing conviction in digital assets as a viable investment class, contributing to sustained market growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Grayscale_inflows",
+        "institutional_demand",
+        "Q3_investment"
+      ],
+      "rationale": "Record inflows, particularly from institutional investors, into Grayscale's products signal strong and growing demand. This sustained institutional interest is a key driver for long-term price appreciation and market maturity."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n7e6f9df3be42",
+      "title": "For years J.P. Morgan was skeptical of Bitcoin. Now the bank’s analysts say its value could triple, challenging gold",
+      "url": "https://finance.yahoo.com/news/years-j-p-morgan-skeptical-151108534.html",
+      "summary": "J.P. Morgan analysts have shifted their stance on Bitcoin, suggesting its value could potentially triple and challenge gold's position as a millennial-preferred alternative asset. This change in perspective from a major traditional financial institution, despite past skepticism, indicates a growing acceptance and recognition of Bitcoin's potential as a store of value and investment asset.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "JPM_analyst_report",
+        "Bitcoin_vs_gold",
+        "millennial_adoption"
+      ],
+      "rationale": "A major bank like J.P. Morgan acknowledging Bitcoin's potential to rival gold is a significant endorsement. This shift in sentiment from traditional finance can attract more capital and further legitimize Bitcoin as an asset class."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n0c728b79e7ee",
+      "title": "Bitcoin’s Rally Could Be Caused by a Supply Crunch in China",
+      "url": "https://finance.yahoo.com/news/bitcoin-rally-could-caused-supply-192420663.html",
+      "summary": "Bitcoin's price surge may be partly driven by a drying up of supply from Chinese miners struggling to sell their crypto due to a government crackdown on local exchanges. This reduced miner selling pressure, coupled with increasing demand, could be a significant factor in the current rally, potentially leading to sustained price appreciation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "miner",
+        "supply_demand"
+      ],
+      "features_for_model": [
+        "China_miner_supply",
+        "OTC_crackdown",
+        "supply_crunch"
+      ],
+      "rationale": "A reduction in available Bitcoin supply, especially if driven by significant market participants like Chinese miners, can create upward price pressure. This supply-side constraint, combined with growing demand, is a bullish signal for the market."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n30fca5600d5c",
+      "title": "Bitcoin hits highest level since Jan. 2018 amid post-election volatility",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-highest-level-since-152222564.html",
+      "summary": "Bitcoin surpassed $14,900, reaching its highest point since January 2018. This surge is linked to post-election volatility and expectations of increased central bank stimulus to counter the economic impact of COVID-19. The cryptocurrency has seen a significant increase since the US presidential election, indicating a positive correlation with macroeconomic stimulus measures.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_ATH_adjacent",
+        "post_election_rally",
+        "stimulus_expectations"
+      ],
+      "rationale": "The combination of geopolitical uncertainty (US election) and anticipated monetary stimulus often drives investors towards alternative assets like Bitcoin. This suggests a favorable macro environment for further price appreciation."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n195e472278cc",
+      "title": "The Post-COVID Financial World Is Much More Crypto-Friendly",
+      "url": "https://finance.yahoo.com/news/post-covid-financial-world-much-213358150.html",
+      "summary": "The post-COVID-19 pandemic financial landscape is increasingly favoring cryptocurrency. Trends like the emphasis on remote transactions, the rise of fintech, and a re-evaluation of profitable industries are contributing to a more crypto-friendly environment. The influx of traffic to the sector and the explosion of DeFi suggest that cryptocurrency will play a central role in the years ahead.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "post_COVID_crypto_adoption",
+        "fintech_growth",
+        "DeFi_explosion"
+      ],
+      "rationale": "The pandemic has accelerated digital transformation and highlighted the limitations of traditional financial systems, creating a more receptive environment for cryptocurrencies. This macro shift is a strong tailwind for long-term crypto adoption and growth."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n9a7330fe0bfa",
+      "title": "Family Offices May Now See Bitcoin as Alternative to Gold: JPMorgan Report",
+      "url": "https://finance.yahoo.com/news/family-offices-may-now-see-231122302.html",
+      "summary": "A JPMorgan report suggests that family offices are increasingly viewing Bitcoin as an alternative to gold, evidenced by the Grayscale Bitcoin Trust outperforming gold ETFs. This trend indicates a growing institutional acceptance of Bitcoin as a store of value and a hedge against inflation, moving beyond just millennial interest.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "family_office_demand",
+        "Bitcoin_vs_gold_alternative",
+        "JPM_report"
+      ],
+      "rationale": "The growing interest from family offices, a significant segment of institutional investors, in Bitcoin as a gold alternative is a strong bullish signal. It signifies a broadening of adoption beyond retail and early institutional adopters."
+    },
+    {
+      "pick_idx": 44,
+      "id": "nc8c1ae683696",
+      "title": "5% of Coinbase Employees Take Severance Offer Over ‘Apolitical’ Stance",
+      "url": "https://finance.yahoo.com/news/5-coinbase-employees-severance-offer-174201720.html",
+      "summary": "Approximately 5% of Coinbase's workforce accepted severance packages following the company's decision to adopt an 'apolitical' stance. This internal debate highlights the broader industry discussion on how crypto companies engage with social and political issues. While a small percentage, it reflects a significant internal disagreement that could influence company culture and public perception.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_apolitical_stance",
+        "employee_severance",
+        "company_culture_debate"
+      ],
+      "rationale": "While the direct price impact is minimal, this event reflects internal friction within a major crypto company regarding its public stance. This could indirectly affect broader industry sentiment and regulatory approaches, creating uncertainty."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n3283bfafce00",
+      "title": "ALT 5 Sigma Digital Instrument Market Summary for BTC, ETH, LTC, BCH",
+      "url": "https://finance.yahoo.com/news/alt-5-sigma-digital-instrument-214000430.html",
+      "summary": "Market data for Bitcoin (BTC/USD) shows a price of $18,583.80 with a slight 24-hour change of $0.04 and a 7-day change of $0.14. The 24-hour volume is $36,669 million. This data reflects current market conditions and trading activity.",
+      "impact_horizon_days": 1,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_update",
+        "24hr_volume",
+        "7d_change"
+      ],
+      "rationale": "The slight positive 24-hour and 7-day changes, coupled with substantial volume, indicate continued positive momentum in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n16674a376fd6",
+      "title": "Market Wrap: Bitcoin Hits $18.8K as Total Crypto Locked in DeFi Passes $14B",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-hits-18-212547108.html",
+      "summary": "Bitcoin reached new 2020 highs, trading around $18,638, with a 3.5% gain in the last 24 hours. The price is above its 10-day and 50-day moving averages, signaling a bullish trend. Total cryptocurrency locked in DeFi also surpassed $14 billion, indicating strong activity in the decentralized finance sector.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "BTC_price_18.8K",
+        "DeFi_TVL_14B",
+        "bullish_MA_crossover"
+      ],
+      "rationale": "Bitcoin hitting new highs and surpassing key moving averages, alongside strong DeFi growth, suggests robust market sentiment and liquidity, likely to sustain upward momentum in the immediate short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nc363bbfd89dd",
+      "title": "MicroStrategy Wants to Be in the Bitcoin Business, Not Just an Investor",
+      "url": "https://finance.yahoo.com/news/microstrategy-wants-bitcoin-business-not-191221427.html",
+      "summary": "MicroStrategy is actively seeking blockchain experts to develop a suite of Bitcoin data services, leveraging its business intelligence experience. This indicates a strategic shift beyond simply holding Bitcoin, aiming to build a business around the asset. The specifics of these services are still being defined.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "MicroStrategy_data_services",
+        "blockchain_expertise",
+        "business_intelligence"
+      ],
+      "rationale": "MicroStrategy's proactive move to build services around Bitcoin signals strong conviction and potential for increased utility and adoption, which is bullish for the market."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nbf62e4dbe2bc",
+      "title": "The Bitcoin Fund by 3iQ Completes Offering",
+      "url": "https://finance.yahoo.com/news/bitcoin-fund-3iq-completes-offering-142700335.html",
+      "summary": "The Bitcoin Fund by 3iQ has completed a treasury offering, raising gross proceeds of C$75,525,000. This successful offering, available in Canadian and U.S. dollars, indicates strong investor demand for regulated Bitcoin investment vehicles.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "3iQ_Bitcoin_Fund_offering",
+        "capital_raise",
+        "regulated_product"
+      ],
+      "rationale": "A successful capital raise for a regulated Bitcoin fund demonstrates continued institutional appetite and provides further evidence of growing accessibility to Bitcoin for traditional investors."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n16674a376fd6",
+      "title": "Market Wrap: Bitcoin Hits $18.8K as Total Crypto Locked in DeFi Passes $14B",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-hits-18-212547108.html",
+      "summary": "Bitcoin price reached $18,813, a new 2020 high, with strong upward momentum indicated by its position above key moving averages. The total value locked in DeFi also exceeded $14 billion, highlighting robust activity and liquidity in the broader crypto market.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "BTC_price_18.8K",
+        "DeFi_TVL_14B",
+        "bullish_momentum"
+      ],
+      "rationale": "The confluence of Bitcoin's price breaking new highs and the significant growth in DeFi TVL suggests strong market liquidity and investor confidence, likely to drive further short-term gains."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n58eff5b6c92a",
+      "title": "BlackRock’s Chief Investment Officer Says Bitcoin Could Replace Gold to a Large Extent",
+      "url": "https://finance.yahoo.com/news/blackrock-exec-says-bitcoin-could-140419263.html",
+      "summary": "BlackRock's CIO of Fixed Income, Rick Rieder, stated that Bitcoin could largely replace gold due to its greater functionality. He also believes cryptocurrency is 'here to stay' and 'durable.' This endorsement from the world's largest asset manager is a significant bullish signal for Bitcoin's long-term narrative as a digital store of value.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BlackRock_CIO_endorsement",
+        "Bitcoin_digital_gold",
+        "institutional_sentiment"
+      ],
+      "rationale": "A statement from BlackRock's CIO is a powerful endorsement, reinforcing the 'digital gold' narrative and signaling potential institutional capital inflows, which is highly bullish for short-term price action."
+    },
+    {
+      "pick_idx": 12,
+      "id": "ne3fd472c4579",
+      "title": "Morgan Creek CEO Says Bitcoin Doing ‘Extremely Well’ Due to Fed Reserve’s Dollar Devaluation",
+      "url": "https://finance.yahoo.com/news/morgan-creek-ceo-says-bitcoin-103936757.html",
+      "summary": "Morgan Creek Capital Management CEO Mark Yusko attributes Bitcoin's strong performance to the Federal Reserve's dollar devaluation and the prevalence of 'zombie companies.' He views Bitcoin as a hedge against inflation, suggesting continued demand driven by macroeconomic factors.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "inflation_hedge"
+      ],
+      "features_for_model": [
+        "Morgan_Creek_CEO_comment",
+        "Fed_dollar_devaluation",
+        "inflation_hedge"
+      ],
+      "rationale": "The narrative of Bitcoin as an inflation hedge, supported by comments from prominent investors and macroeconomic trends like dollar devaluation, is a strong short-term bullish driver."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n2c9dca0d00dd",
+      "title": "Players Prefer Cashing Out in Bitcoin Amid Rally, Says Online Poker Giant",
+      "url": "https://finance.yahoo.com/news/players-prefer-cashing-bitcoin-amid-112310970.html",
+      "summary": "Winning Poker Network reports that 90-95% of its players prefer Bitcoin payouts due to the current rally, forcing the network to buy millions in Bitcoin daily. This indicates increased utility and demand for Bitcoin as a medium of exchange, especially during price surges.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "poker_payouts_BTC",
+        "increased_utility",
+        "demand_surge"
+      ],
+      "rationale": "The preference for Bitcoin payouts by a large poker network highlights its growing use as a transactional currency, adding to demand and potentially influencing short-term price action."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n31de2f62c653",
+      "title": "US Firm Launches Company-Sponsored Bitcoin Retirement Plans",
+      "url": "https://finance.yahoo.com/news/us-firm-launches-company-sponsored-120130628.html",
+      "summary": "Digital Asset Investment Management (DAiM) has launched the first company-sponsored retirement plans allowing up to a 10% allocation to Bitcoin. This move, following a year-long test, signifies a growing trend of integrating Bitcoin into traditional retirement savings vehicles, potentially increasing demand from a new investor segment.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_401k_plans",
+        "retirement_savings",
+        "new_investor_segment"
+      ],
+      "rationale": "The introduction of Bitcoin into company-sponsored retirement plans is a significant step for mainstream adoption, potentially unlocking substantial new capital inflows and boosting demand."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nc24d33298c9c",
+      "title": "10 Metrics Where Bitcoin Has Already Hit New All-Time Highs",
+      "url": "https://finance.yahoo.com/news/10-metrics-where-bitcoin-already-200016782.html",
+      "summary": "While the spot price of Bitcoin has not yet reached its all-time high, several other key metrics, such as network activity and holder accumulation, have already surpassed previous peaks. This indicates underlying strength and growth in the Bitcoin ecosystem beyond just the price action.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_on-chain_metrics_ATH",
+        "network_growth",
+        "holder_accumulation"
+      ],
+      "rationale": "Positive on-chain metrics suggest strong fundamental growth and adoption, which often precedes or supports new price highs, indicating continued bullish sentiment."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-11-20",
+    "summary": "Bitcoin is trading at new highs, nearing $19,000, driven by strong institutional interest and the 'digital gold' narrative. Key developments include BlackRock's CIO endorsing Bitcoin as a gold alternative and the launch of Bitcoin retirement plans, signaling increasing mainstream adoption. DeFi TVL also hit new milestones, indicating robust market liquidity. While short-term price action is bullish, the market is closely watching for any potential volatility as Bitcoin approaches its all-time high.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "Potential for profit-taking as Bitcoin approaches all-time highs.",
+      "Regulatory uncertainty or negative news could trigger a sharp correction.",
+      "Macroeconomic shifts or a sudden change in investor sentiment.",
+      "Liquidity crunches or exchange issues could impact price stability."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $19,000-$20,000 resistance.",
+      "Further institutional adoption announcements.",
+      "DeFi Total Value Locked (TVL) trends.",
+      "Macroeconomic data releases (e.g., inflation, interest rates).",
+      "Developments in central bank digital currencies (CBDCs)."
+    ]
+  }
+}

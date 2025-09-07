@@ -1,0 +1,503 @@
+{
+  "date": "2020-05-29",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n241dbce00fc9",
+      "title": "First Mover: Bitcoin Now Crushing Gold After Biggest Price Jump in Six Weeks",
+      "url": "https://finance.yahoo.com/news/first-mover-bitcoin-now-crushing-113255720.html",
+      "summary": "Bitcoin's price jumped 13% in a single day, marking its largest increase in six weeks. This surge occurred as Federal Reserve Chair Jerome Powell pledged an \"unlimited pot\" of money to stabilize the U.S. economy amidst the COVID-19 pandemic. This development positions Bitcoin as a potential hedge against inflation, challenging gold's traditional role, especially given the Fed's quantitative easing measures. The article suggests a shift in investor sentiment towards Bitcoin as an inflation hedge.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_vs_Gold",
+        "Fed_stimulus",
+        "inflation_hedge"
+      ],
+      "rationale": "The article highlights Bitcoin's outperformance against gold, driven by significant Fed stimulus. This suggests a growing narrative of Bitcoin as a digital store of value, potentially attracting long-term investment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nbba663c21f65",
+      "title": "EPAM Joins Effort to Help Cryptocurrency Exchanges Comply With FATF ‘Travel Rule’",
+      "url": "https://finance.yahoo.com/news/epam-joins-effort-help-cryptocurrency-143055166.html",
+      "summary": "Software provider EPAM Systems has joined the OpenVASP association to help cryptocurrency exchanges comply with the Financial Action Task Force (FATF) 'Travel Rule'. This rule requires virtual asset service providers to share originator and beneficiary information for transactions exceeding certain thresholds. EPAM's involvement signifies a move towards greater regulatory compliance within the crypto industry, potentially increasing institutional adoption and reducing perceived risks.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "FATF_Travel_Rule",
+        "KYC_AML",
+        "crypto_regulation"
+      ],
+      "rationale": "Increased regulatory compliance, such as adherence to the FATF Travel Rule, can foster greater institutional trust and adoption. This infrastructure development is crucial for the long-term legitimacy and growth of the cryptocurrency market."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n4570206f2ef3",
+      "title": "Crypto Long & Short: Why Bitcoin’s Big Rally Is a Sign of Its Economic Resilience",
+      "url": "https://finance.yahoo.com/news/crypto-long-short-why-bitcoin-020059464.html",
+      "summary": "The article discusses Bitcoin's rally in the context of severe Q1 GDP contractions globally (-4.8% in the US, -5.8% in France). Despite negative economic indicators and warnings of further downturns, stock markets have shown resilience. The author posits that Bitcoin's price action, despite the broader economic crisis, indicates its growing economic resilience and potential as a safe-haven asset or a hedge against traditional market volatility.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_economic_resilience",
+        "GDP_contraction",
+        "safe_haven_asset"
+      ],
+      "rationale": "Bitcoin's ability to rally amidst significant global economic contraction suggests a decoupling from traditional markets and a growing perception as a resilient asset. This resilience could attract capital seeking alternatives to struggling traditional assets."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nf55380049ab6",
+      "title": "CFTC Approves Bitnomial to Offer Futures Contracts Settled in Real Bitcoin",
+      "url": "https://finance.yahoo.com/news/cftc-approves-bitnomial-offer-futures-205449503.html",
+      "summary": "The U.S. Commodity Futures Trading Commission (CFTC) has approved Bitnomial Exchange to operate as a designated contracts market (DCM), allowing it to offer Bitcoin futures and options contracts. Bitnomial focuses on physically-settled contracts, differentiating it from some existing offerings. This approval expands the regulated derivatives market for Bitcoin in the U.S., potentially attracting more institutional capital and providing clearer price discovery mechanisms.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CFTC_approval",
+        "BTC_futures",
+        "physically_settled_contracts"
+      ],
+      "rationale": "CFTC approval for physically-settled Bitcoin futures signifies increased regulatory acceptance and provides a more direct way for institutional investors to gain exposure, potentially driving demand and price appreciation."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nad159051712a",
+      "title": "Bitcoin Crashes as Halving Hype Loses Impetus Over the Weekend",
+      "url": "https://finance.yahoo.com/news/bitcoin-rough-weekend-price-slumps-003340284.html",
+      "summary": "Bitcoin experienced a significant price drop over the weekend, declining about 13% to around $8,675, just ahead of its highly anticipated halving event. The halving, which cuts miners' rewards in half, is expected to increase volatility. The article suggests that the pre-halving hype may have lost momentum, leading to a price correction. Increased volatility is anticipated throughout May due to the halving and the ongoing pandemic.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "miner",
+        "protocol"
+      ],
+      "features_for_model": [
+        "BTC_halving",
+        "price_volatility",
+        "miner_reward_cut"
+      ],
+      "rationale": "The upcoming halving is a significant protocol event that historically impacts price. While the immediate reaction was negative, the long-term effect of reduced supply issuance could be bullish, though short-term volatility is expected."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n4f1e422d20b4",
+      "title": "Manufacturers Mark Down Bitcoin Miners as Price Drop, Halving Change Calculus",
+      "url": "https://finance.yahoo.com/news/manufacturers-mark-down-bitcoin-miners-043000626.html",
+      "summary": "Bitcoin mining machine manufacturers are offering discounts of up to 20% due to the recent cryptocurrency price crash. This situation is complicated by the upcoming Bitcoin halving in May, which will reduce mining rewards. Miners are likely to become less profitable unless Bitcoin's price increases significantly. This indicates potential pressure on mining operations and a possible shift in mining hardware market dynamics.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_hardware_prices",
+        "halving_impact",
+        "mining_profitability"
+      ],
+      "rationale": "Discounted mining hardware suggests reduced demand or profitability expectations for miners. Combined with the halving, this could lead to a contraction in mining operations or a consolidation of more efficient miners, impacting network hashrate."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n236d82ea0c9a",
+      "title": "Chinese DeFi Platform dForce Raises $1.5M From Multicoin, Huobi Capital",
+      "url": "https://finance.yahoo.com/news/chinese-defi-platform-dforce-raises-230123697.html",
+      "summary": "dForce, a major Chinese decentralized finance (DeFi) platform, has secured $1.5 million in a seed funding round led by Multicoin Capital and including Huobi Capital. The funds will be used for staffing and launching new DeFi products in 2020. This investment highlights the growing interest and development in the DeFi sector, particularly from Asian markets, and suggests continued innovation and expansion of decentralized financial services.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "DeFi_funding",
+        "Chinese_DeFi",
+        "institutional_DeFi_investment"
+      ],
+      "rationale": "Significant funding for a DeFi platform indicates strong investor confidence in the sector's growth. This development contributes to the broader adoption and maturation of decentralized finance, which can indirectly benefit Bitcoin as the foundational cryptocurrency."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n2b955d8f710b",
+      "title": "An ether mining firm is acquiring a bitcoin mining facility for $2.8M",
+      "url": "https://finance.yahoo.com/news/ether-mining-firm-acquiring-bitcoin-133018862.html",
+      "summary": "HIVE Blockchain Technologies, primarily an ether mining firm, is expanding into Bitcoin mining by acquiring a 30 MW facility in Quebec for approximately $2.8 million. This move will more than double HIVE's total power capacity to around 50 MW. The acquisition signifies diversification within the mining sector and a strategic expansion into Bitcoin mining operations, potentially increasing overall network hashrate and indicating confidence in Bitcoin's long-term viability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_diversification",
+        "ETH_miner_BTC_mining",
+        "mining_capacity_expansion"
+      ],
+      "rationale": "The acquisition by an established mining firm demonstrates a strategic diversification into Bitcoin mining, signaling confidence in the asset's future. This expansion of mining infrastructure can contribute to network security and stability."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n15d8eba152de",
+      "title": "Square’s Cash App now allows automatic bitcoin purchases",
+      "url": "https://finance.yahoo.com/news/square-cash-app-now-allows-101506630.html",
+      "summary": "Square's Cash App has introduced an 'Auto Invest' feature, enabling users to schedule automatic Bitcoin purchases (daily, weekly, or bi-weekly) using dollar-cost averaging. This new functionality aims to simplify Bitcoin accumulation by minimizing the impact of market volatility. The minimum recurring purchase is $10, and the app also displays Bitcoin in satoshis. This feature lowers the barrier to entry for new investors and promotes consistent buying behavior.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Cash_App_DCA",
+        "auto_BTC_purchase",
+        "retail_adoption"
+      ],
+      "rationale": "The integration of automatic Bitcoin purchases via a popular payment app like Cash App significantly lowers the barrier to entry for retail investors. This feature promotes consistent, long-term accumulation, driving adoption and demand."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n40ed448609fb",
+      "title": "Bitcoin Miner Maker Ebang Files for a $100M US IPO",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-maker-ebang-files-185110537.html",
+      "summary": "Ebang International Holdings, a major manufacturer of Bitcoin mining equipment, has filed for a $100 million initial public offering (IPO) in the United States. The company plans to list under the ticker symbol EBON on the NYSE or Nasdaq. This move indicates a growing interest from traditional financial markets in the cryptocurrency mining sector and could provide Ebang with capital for expansion, potentially leading to increased production of mining hardware.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Ebang_IPO",
+        "mining_hardware_manufacturer",
+        "US_listing"
+      ],
+      "rationale": "A U.S. IPO for a major Bitcoin miner manufacturer signals increasing institutional interest and validation of the mining sector. This could lead to greater capital investment in mining infrastructure, supporting network growth and security."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "ne67ec78a4255",
+      "title": "The Crypto Daily – Movers and Shakers -29/05/20",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-29-041148859.html",
+      "summary": "Bitcoin rallied by 4.11% on Thursday, reaching $9,589.3. After a mixed start, it broke through resistance levels at $9,349.47 and $9,488.63 before easing back. The near-term bearish trend remains intact, but the price action shows upward momentum within the day.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price"
+      ],
+      "features_for_model": [
+        "BTC_daily_move",
+        "resistance_breakout",
+        "price_momentum"
+      ],
+      "rationale": "The article reports a strong daily rally with Bitcoin breaking key resistance levels, indicating positive short-term price momentum."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n8929727c5705",
+      "title": "Trump Signs Executive Order To End Social Media Legal Immunity For Third-Party Content",
+      "url": "https://finance.yahoo.com/news/trump-signs-executive-order-end-050853249.html",
+      "summary": "President Trump signed an executive order targeting social media platforms' legal immunity under Section 230, aiming to curb perceived bias against conservative viewpoints. This action could lead to increased regulatory scrutiny and potential changes in how platforms handle content, which might indirectly affect the flow of information and sentiment within online communities, including crypto-related discussions.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Trump_EO",
+        "Section_230",
+        "social_media_regulation"
+      ],
+      "rationale": "While not directly related to crypto, government actions impacting major tech platforms can create broader market uncertainty or shifts in online discourse, potentially influencing crypto sentiment."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf78b93c71959",
+      "title": "Bitcoin’s intrinsic value is now in line with its market price, says JPMorgan strategist",
+      "url": "https://finance.yahoo.com/news/bitcoin-intrinsic-value-now-line-100022215.html",
+      "summary": "JPMorgan strategist Nikolaos Panigirtzoglou stated that Bitcoin's intrinsic value has closed the gap with its market price post-halving, suggesting it is now fairly valued. Previously, the strategist considered Bitcoin overvalued. This assessment from a major financial institution could influence institutional sentiment and investment decisions.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "price"
+      ],
+      "features_for_model": [
+        "JPMorgan_analysis",
+        "BTC_intrinsic_value",
+        "fair_valuation"
+      ],
+      "rationale": "A major bank's strategist deeming Bitcoin 'fairly valued' after the halving could provide a psychological boost and attract cautious institutional interest in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n3ae4a16c2514",
+      "title": "Latest Bitcoin price and analysis (BTC to USD)",
+      "url": "https://finance.yahoo.com/news/latest-bitcoin-price-analysis-btc-114629767.html",
+      "summary": "Bitcoin is attempting a third breakout above $10,000 ahead of the CME Bitcoin futures contract expiry. The expiry is expected to cause volatile price swings early next week. Open interest for CME Bitcoin contracts hit an all-time high in early May. Bitcoin is currently trading around $9,400.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "price",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_futures_expiry",
+        "CME_open_interest",
+        "price_volatility"
+      ],
+      "rationale": "The upcoming CME futures expiry introduces significant uncertainty and potential for volatility, making short-term price action unpredictable but likely active."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nb275a2f18209",
+      "title": "Bitcoin Rally Falters as Stocks Drop Ahead of Trump’s China Speech",
+      "url": "https://finance.yahoo.com/news/bitcoin-rally-falters-stocks-drop-121715270.html",
+      "summary": "Bitcoin's rally is faltering as traditional markets react negatively to rising U.S.-China tensions and potential policy announcements. Bitcoin is trading near $9,400 after reaching an eight-day high of $9,620. European stocks are declining. This suggests that geopolitical and macroeconomic factors are currently outweighing positive crypto-specific sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "price"
+      ],
+      "features_for_model": [
+        "BTC_vs_stocks",
+        "US_China_tensions",
+        "geopolitical_risk"
+      ],
+      "rationale": "The correlation with declining stock markets due to geopolitical tensions suggests a short-term bearish pressure on Bitcoin as risk-off sentiment prevails."
+    },
+    {
+      "pick_idx": 12,
+      "id": "ndef122464f59",
+      "title": "First Mover: Bitcoin Rally Shows Traders Don’t Care That Goldman Hates Their Asset Class",
+      "url": "https://finance.yahoo.com/news/first-mover-bitcoin-rally-shows-125123611.html",
+      "summary": "Despite Goldman Sachs' negative assessment of Bitcoin as an \"unsuitable investment\" and a \"mania,\" Bitcoin prices have surged. This indicates that crypto traders are largely unfazed by traditional finance institutions' skepticism, suggesting a growing conviction in the asset class independent of legacy financial endorsements.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "price"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_sentiment",
+        "trader_conviction",
+        "BTC_price_resilience"
+      ],
+      "rationale": "Bitcoin's ability to rally despite negative commentary from a major institution like Goldman Sachs highlights strong independent market sentiment and resilience, suggesting continued upward pressure."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ne2a4431a7a46",
+      "title": "Digital Dollar Project Calls for 2-Tiered Distribution System in First White Paper for US CBDC",
+      "url": "https://finance.yahoo.com/news/digital-dollar-project-calls-2-130003606.html",
+      "summary": "The Digital Dollar Project has released its first white paper proposing a framework for a U.S. central bank digital currency (CBDC) with a two-tiered distribution system. This initiative aims to maintain the dollar's global reserve status and improve financial inclusion. The development of a U.S. CBDC could have long-term implications for the digital asset landscape and the role of private cryptocurrencies.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "CBDC"
+      ],
+      "features_for_model": [
+        "Digital_Dollar_Project",
+        "US_CBDC_whitepaper",
+        "monetary_policy"
+      ],
+      "rationale": "The proposal for a U.S. CBDC is a significant development in the digital currency space. While its direct impact on Bitcoin is uncertain in the short term, it signals increased government interest in digital currencies, potentially influencing regulatory approaches."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n1e2e4143dbd1",
+      "title": "‘Passwordless Login’ Startup Magic Raises $4M From Naval Ravikant, Placeholder",
+      "url": "https://finance.yahoo.com/news/passwordless-login-startup-magic-raises-130006217.html",
+      "summary": "Magic, a startup focused on passwordless login solutions for decentralized applications (dApps), has raised $4 million in seed funding from prominent investors including Naval Ravikant. This funding aims to improve user experience in the blockchain space by simplifying authentication. Better UX is crucial for broader dApp adoption.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "passwordless_login",
+        "dApp_UX",
+        "seed_funding"
+      ],
+      "rationale": "Improvements in user experience, such as passwordless login solutions, are vital for increasing dApp adoption. This funding round suggests progress in making blockchain applications more accessible."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n4e34518005f8",
+      "title": "ALT 5 Sigma Launches ALT 5 Pay, a Cryptocurrency to Fiat Payment Gateway",
+      "url": "https://finance.yahoo.com/news/alt-5-sigma-launches-alt-155000675.html",
+      "summary": "ALT 5 Sigma has launched ALT 5 Pay, a payment gateway that allows businesses to accept cryptocurrency payments and receive instant fiat settlements. Initially supporting Bitcoin, it plans to add Bitcoin Cash, Ethereum, and Dash within 30 days. This service aims to facilitate mainstream adoption of crypto payments by bridging the gap between digital assets and traditional commerce.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_fiat_gateway",
+        "ALT5Pay",
+        "merchant_adoption"
+      ],
+      "rationale": "The launch of a crypto-to-fiat payment gateway simplifies transactions for businesses and consumers, potentially driving adoption of cryptocurrencies for everyday commerce."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n952ef0f7b6a8",
+      "title": "In Trump Versus Twitter, Decentralized Tech May Win",
+      "url": "https://finance.yahoo.com/news/trump-versus-twitter-decentralized-tech-144744046.html",
+      "summary": "President Trump's executive order targeting Section 230 of the Communications Decency Act, in response to Twitter fact-checking his tweets, could bolster the case for decentralized platforms. The move highlights concerns about censorship on centralized social media, potentially driving interest towards decentralized alternatives that offer greater freedom of speech.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Trump_Twitter_dispute",
+        "Section_230_challenge",
+        "decentralized_alternatives"
+      ],
+      "rationale": "The conflict between President Trump and Twitter could indirectly benefit decentralized communication platforms by highlighting the perceived risks of centralized control over speech, potentially increasing user interest."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-05-29",
+    "summary": "Bitcoin experienced a mixed day, showing resilience with a notable rally on Thursday, breaking key resistance levels, but faltered slightly as global markets reacted to rising US-China tensions. Despite negative commentary from institutions like Goldman Sachs, trader conviction appears strong, suggesting underlying bullish sentiment. However, upcoming CME futures expiry and geopolitical risks introduce significant short-term volatility. Long-term, developments in regulatory compliance, institutional adoption via new derivatives, and retail accessibility through payment apps continue to build a positive outlook.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Heightened US-China geopolitical tensions impacting global markets.",
+      "Volatility surrounding the upcoming CME Bitcoin futures contract expiry.",
+      "Potential regulatory actions stemming from the US executive order on social media.",
+      "Macroeconomic uncertainty due to the ongoing pandemic."
+    ],
+    "watch_items": [
+      "CME Bitcoin futures expiry data",
+      "Developments in US-China trade relations",
+      "Stock market performance",
+      "Further commentary from major financial institutions on Bitcoin valuation"
+    ]
+  }
+}

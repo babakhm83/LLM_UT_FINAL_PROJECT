@@ -1,0 +1,498 @@
+{
+  "date": "2020-08-02",
+  "long_term": [
+    {
+      "pick_idx": 15,
+      "id": "n1d0002eedba7",
+      "title": "Bitcoin News Roundup for July 6, 2020",
+      "url": "https://finance.yahoo.com/news/bitcoin-news-roundup-july-6-160000085.html",
+      "summary": "This roundup highlights key developments including sinking Bitcoin volatility, the potential for lightning payments to bank accounts, and real-world accountability on the blockchain. It also notes Bitcoin's positive correlation with stocks after a dip below $9K. The news suggests a growing infrastructure and adoption narrative for Bitcoin, potentially increasing its utility and value over the long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "lightning_network_adoption",
+        "blockchain_accountability",
+        "btc_stock_correlation"
+      ],
+      "rationale": "The increasing utility of Bitcoin through lightning payments and the focus on blockchain accountability point to a maturing ecosystem. This suggests a more robust and integrated future for Bitcoin, supporting long-term bullish sentiment."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nb61eb69fc114",
+      "title": "Novogratz: Galaxy Digital Will ‘Suck’ if Bitcoin Fails to Become an Institutional Asset",
+      "url": "https://finance.yahoo.com/news/novogratz-galaxy-digital-suck-bitcoin-162102658.html",
+      "summary": "Mike Novogratz, founder of Galaxy Digital, emphasizes the critical need for Bitcoin to be adopted by institutional investors, particularly financial advisors, to drive its value. Galaxy Digital is developing educational courses to facilitate this adoption. The success of Bitcoin as a store of value and 'digital gold' hinges on this institutional embrace, which Novogratz believes is the next major growth driver.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_adoption_drive",
+        "financial_advisor_education",
+        "digital_gold_narrative"
+      ],
+      "rationale": "The explicit focus on institutional adoption, spearheaded by influential figures like Novogratz, is a key driver for long-term Bitcoin value. If successful, this could unlock significant capital inflows and legitimize Bitcoin as a major asset class."
+    },
+    {
+      "pick_idx": 23,
+      "id": "na06efe86c601",
+      "title": "Trump Told Treasury Secretary to ‘Go After’ Bitcoin, Bolton Book Reportedly Claims",
+      "url": "https://finance.yahoo.com/news/trump-told-treasury-secretary-bitcoin-123903556.html",
+      "summary": "A report from John Bolton's book claims President Trump instructed Treasury Secretary Steve Mnuchin to target Bitcoin for fraud, prioritizing it over trade negotiations with China. This indicates a potential for increased regulatory scrutiny or adverse government action against Bitcoin in the US. Such a stance could create headwinds for adoption and market sentiment.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "us_presidential_stance_on_btc",
+        "treasury_secretary_action",
+        "regulatory_crackdown_risk"
+      ],
+      "rationale": "Direct presidential interest in targeting Bitcoin, even if based on a report, signals potential for future regulatory actions. This could dampen institutional interest and create uncertainty, impacting long-term price appreciation."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nd8aaa678212c",
+      "title": "First Mover: The Dollar Drop May Have Helped Push Bitcoin Past $11K",
+      "url": "https://finance.yahoo.com/news/first-mover-dollar-drop-may-112727668.html",
+      "summary": "The weakening U.S. dollar has coincided with a significant price surge in Bitcoin, pushing it past $11,000 to a new 2020 high. This suggests a growing correlation between Bitcoin's performance and macroeconomic factors, particularly currency devaluation. As a potential hedge against inflation and a store of value, Bitcoin's appeal is amplified during periods of dollar weakness.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "usd_devaluation_hedge",
+        "inflation_hedge_narrative",
+        "btc_price_breakout"
+      ],
+      "rationale": "The inverse relationship between the USD and Bitcoin, driven by its 'digital gold' narrative, is a powerful long-term bullish signal. As global economic uncertainty persists, this trend is likely to continue, supporting higher Bitcoin prices."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n400e029d1a04",
+      "title": "Bitcoin’s Lightning Network Is Vulnerable to ‘Looting’: New Research Explains",
+      "url": "https://finance.yahoo.com/news/bitcoin-lightning-network-vulnerable-looting-193410651.html",
+      "summary": "New research highlights a potential vulnerability in Bitcoin's Lightning Network, where attackers could 'loot' funds by exploiting blockchain congestion. This attack vector could lead to loss of funds if users are not careful. While the research points to a specific attack method, it also underscores the ongoing development and security considerations for scaling solutions.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "lightning_network_vulnerability",
+        "sec_001_attack",
+        "scalability_security_risk"
+      ],
+      "rationale": "While the Lightning Network is crucial for Bitcoin's scalability, identified vulnerabilities could slow adoption or create FUD. Addressing these issues is vital for long-term network health and user confidence."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n12c5a14ac33f",
+      "title": "LocalBitcoins’ Volume Holds Steady Despite Stricter Compliance Procedures",
+      "url": "https://finance.yahoo.com/news/localbitcoins-volume-holds-steady-despite-192541629.html",
+      "summary": "Despite implementing stricter compliance measures like identity verification and removing cash transactions, LocalBitcoins has maintained steady trading volumes. This resilience suggests that increased regulatory adherence does not necessarily stifle P2P trading activity. The platform's volume has tracked that of major centralized exchanges, indicating a healthy and adaptable P2P market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "p2p_volume_resilience",
+        "kyc_aml_impact_on_btc",
+        "localbitcoins_compliance"
+      ],
+      "rationale": "The ability of a P2P platform like LocalBitcoins to maintain volume despite stricter compliance indicates a growing user base that prioritizes access and is willing to meet regulatory requirements, a positive sign for broader adoption."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n0991e9e819ab",
+      "title": "Bitcoin Crosses $11,400 Mark, Beats Major Indexes In July Gains",
+      "url": "https://finance.yahoo.com/news/bitcoin-crosses-11-400-mark-173548134.html",
+      "summary": "Bitcoin surpassed $11,460 in July, outperforming major stock indexes with a 23% gain for the month. This surge is partly attributed to a directive allowing national banks to open crypto wallets. The positive news cycle and upward price movement reflect increasing bullish sentiment and potential institutional interest, reinforcing Bitcoin's position as a strong-performing asset.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "btc_july_performance",
+        "bank_crypto_wallet_directive",
+        "institutional_sentiment_boost"
+      ],
+      "rationale": "Bitcoin's strong July performance, exceeding traditional markets and boosted by regulatory clarity for banks, signals growing acceptance and potential for sustained growth. This trend is likely to attract more capital and further solidify its market position."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n263c78abb12a",
+      "title": "Money Reimagined: This Isn’t Good for Bitcoin",
+      "url": "https://finance.yahoo.com/news/money-reimagined-isn-t-good-173100712.html",
+      "summary": "The recent Twitter hack, which involved a Bitcoin giveaway scam, is seen as detrimental to Bitcoin's reputation. Associating Bitcoin with fraud and unsavory behavior could increase regulatory pressure, potentially hindering innovation and adoption. The incident highlights the ongoing challenge of combating illicit activities and maintaining a positive public image for cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "reputation"
+      ],
+      "features_for_model": [
+        "twitter_hack_scam",
+        "btc_reputation_damage",
+        "regulatory_pressure_increase"
+      ],
+      "rationale": "Negative publicity from scams, especially those involving major platforms like Twitter, can lead to increased regulatory scrutiny. This could slow down the adoption of Bitcoin and create a less favorable environment for innovation in the long run."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n240173e00292",
+      "title": "Expedia switches crypto on for 700,000 holidaymakers",
+      "url": "https://finance.yahoo.com/news/expedia-switches-crypto-700-000-092234466.html",
+      "summary": "Online travel company Expedia is now enabling cryptocurrency payments for its 700,000 annual bookings through a partnership with Travala.com. Users can book accommodations using over 30 cryptocurrencies, including Bitcoin and Ethereum. This integration represents a significant step in mainstream adoption of crypto for everyday transactions, expanding its utility beyond speculative investment.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "integration"
+      ],
+      "features_for_model": [
+        "expedia_crypto_payments",
+        "mainstream_adoption_boost",
+        "travel_industry_integration"
+      ],
+      "rationale": "The integration of crypto payments by a major travel platform like Expedia signifies a growing acceptance and utility for digital assets in real-world commerce. This broadens the use case for Bitcoin and other cryptocurrencies, fostering long-term adoption."
+    },
+    {
+      "pick_idx": 43,
+      "id": "nfe740a727655",
+      "title": "Odds of Bitcoin Hitting Record High in 2020 Are (Slightly) Up, Options Data Suggests",
+      "url": "https://finance.yahoo.com/news/odds-bitcoin-hitting-record-high-131647811.html",
+      "summary": "Options market data suggests a slightly increased probability of Bitcoin reaching its 2017 record high by year-end, following a breach of key resistance levels. While the probability remains low (7%), this sentiment shift in the derivatives market indicates growing optimism among traders. The breach of the trendline from the 2017 peak is a technical bullish signal.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "market_sentiment",
+        "technical"
+      ],
+      "features_for_model": [
+        "btc_options_sentiment",
+        "record_high_probability",
+        "technical_resistance_breach"
+      ],
+      "rationale": "Positive signals from the options market and technical analysis suggest a potential for Bitcoin to challenge previous highs. This sentiment, if sustained, could lead to further price appreciation in the medium term."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "ncce800ea8bf4",
+      "title": "Bitcoin and Ethereum crash by more than 12% in 6 minutes as more than $1B of positions gets liquidated",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-crash-more-12-051122667.html",
+      "summary": "Bitcoin and Ethereum experienced a sharp, rapid decline of over 12% and 20% respectively, leading to the liquidation of more than $1 billion in futures positions. Bitcoin fell from $11,930 to $10,550 before partially recovering. This volatility indicates significant market instability and potential for sharp price swings.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "flash_crash_event",
+        "liquidation_cascade",
+        "btc_eth_volatility_spike"
+      ],
+      "rationale": "The sudden and severe price drop, coupled with massive liquidations, indicates extreme short-term volatility and a potential for further downward pressure as market sentiment adjusts."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nae093aede143",
+      "title": "Flash Crash: Bitcoin Price Slides by $1.4K in Minutes",
+      "url": "https://finance.yahoo.com/news/flash-crash-bitcoin-price-slides-114507778.html",
+      "summary": "Bitcoin saw a dramatic $1,458 price drop in under an hour, falling from $11,969 to $10,659. This rapid decline liquidated approximately $1.4 billion in positions across major exchanges. The event caught traders off guard and significantly reduced buying pressure, highlighting extreme short-term market sensitivity.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "flash_crash_btc",
+        "1.4b_liquidation",
+        "price_drop_minutes"
+      ],
+      "rationale": "The immediate aftermath of a flash crash of this magnitude typically involves continued price consolidation or a slow recovery, with increased risk of further downside due to shaken confidence."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ne4f73cf743ea",
+      "title": "Uncertainty Surrounds Microsoft's Potential TikTok Acquisition",
+      "url": "https://finance.yahoo.com/news/uncertainty-surrounds-microsofts-potential-tiktok-170228197.html",
+      "summary": "Conflicting reports suggest uncertainty regarding Microsoft's potential acquisition of TikTok's US operations, with the White House reportedly opposing the deal. This geopolitical uncertainty could impact broader market sentiment, potentially affecting risk assets like Bitcoin if it leads to increased global trade tensions or regulatory unpredictability.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "geopolitics"
+      ],
+      "features_for_model": [
+        "tiktok_msft_deal_uncertainty",
+        "geopolitical_risk_sentiment",
+        "us_china_tech_tension"
+      ],
+      "rationale": "Geopolitical and regulatory uncertainties, especially involving major tech companies and governments, can create broader market jitters, indirectly impacting Bitcoin's risk-on appetite."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ncce800ea8bf4",
+      "title": "Bitcoin and Ethereum crash by more than 12% in 6 minutes as more than $1B of positions gets liquidated",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-crash-more-12-051122667.html",
+      "summary": "A severe and rapid price crash affected both Bitcoin and Ethereum, liquidating over $1 billion in futures positions. Bitcoin's price plummeted from $11,930 to $10,550, with a partial recovery to $11,400. This event highlights extreme short-term volatility and the potential for cascading liquidations to exacerbate price movements.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "btc_eth_liquidation_event",
+        "1b_futures_liquidation",
+        "short_term_volatility_spike"
+      ],
+      "rationale": "The significant liquidation event suggests a sharp deleveraging in the market, which can lead to continued price weakness or choppy trading as the market digests the sudden price shock."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nae093aede143",
+      "title": "Flash Crash: Bitcoin Price Slides by $1.4K in Minutes",
+      "url": "https://finance.yahoo.com/news/flash-crash-bitcoin-price-slides-114507778.html",
+      "summary": "Bitcoin experienced a rapid $1,458 price decline within an hour, falling from $11,969 to $10,659. This sudden drop, which liquidated nearly $1.4 billion in positions, indicates a sharp contraction in buying pressure and potential for further price instability in the immediate short term.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "btc_flash_crash",
+        "1.4k_price_drop",
+        "trader_liquidation_event"
+      ],
+      "rationale": "A sharp price reversal of this magnitude often leads to a period of consolidation or further selling pressure as traders reassess market conditions and risk exposure."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n7a228d15d3ce",
+      "title": "For What Future Are We Building Bitcoin?",
+      "url": "https://finance.yahoo.com/news/future-building-bitcoin-120000406.html",
+      "summary": "This piece discusses Meltem Demirors' essay on the future intentions for Bitcoin development. It touches on Bitcoin's origins as a rebellious, anti-establishment technology. While not directly price-impacting, such foundational discussions can influence long-term development and adoption narratives, which indirectly affect sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "bitcoin_development_philosophy",
+        "anti_establishment_narrative",
+        "future_adoption_strategy"
+      ],
+      "rationale": "Discussions about Bitcoin's core philosophy and future direction can shape long-term sentiment, but their immediate price impact is usually minimal unless tied to specific development updates or adoption strategies."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nad79bb30fe93",
+      "title": "The Crypto Daily – Movers and Shakers – August 2nd, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-august-002733129.html",
+      "summary": "Bitcoin rallied 4.01% on Saturday, closing at $11,804.7 after a bearish start. It broke through key resistance levels at $11,530 and $11,710. The near-term bullish trend remains intact, supported by the move above $11,000. However, the day also saw a significant price drop (detailed in other articles), indicating high volatility.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "volatility",
+        "technical"
+      ],
+      "features_for_model": [
+        "btc_daily_rally",
+        "resistance_breakout",
+        "bullish_trend_intact"
+      ],
+      "rationale": "While the article notes a bullish trend and resistance breakouts, the context of the day includes a severe flash crash, making the short-term outlook highly volatile and uncertain."
+    },
+    {
+      "pick_idx": 12,
+      "id": "ncce800ea8bf4",
+      "title": "Bitcoin and Ethereum crash by more than 12% in 6 minutes as more than $1B of positions gets liquidated",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-crash-more-12-051122667.html",
+      "summary": "A sharp decline saw Bitcoin and Ethereum prices drop significantly, leading to over $1 billion in liquidated futures positions. Bitcoin's price fell from $11,930 to $10,550, with a partial recovery. This event highlights extreme short-term volatility and the risk of cascading liquidations impacting market stability.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "btc_eth_crash_event",
+        "1b_liquidation_volume",
+        "market_instability"
+      ],
+      "rationale": "The significant liquidation event suggests a deleveraging process is underway, which could lead to continued price weakness or consolidation in the immediate days following the crash."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nae093aede143",
+      "title": "Flash Crash: Bitcoin Price Slides by $1.4K in Minutes",
+      "url": "https://finance.yahoo.com/news/flash-crash-bitcoin-price-slides-114507778.html",
+      "summary": "Bitcoin experienced a rapid $1,458 price drop in under an hour, falling from $11,969 to $10,659. This sudden decline, which liquidated nearly $1.4 billion in positions, indicates a sharp contraction in buying pressure and potential for further price instability in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "btc_flash_crash_impact",
+        "1.4b_liquidated_positions",
+        "short_term_price_volatility"
+      ],
+      "rationale": "The severe price drop and high liquidation volume suggest that the market is highly sensitive to sudden shifts, and a period of consolidation or further downside is possible in the short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n2035df3d222b",
+      "title": "DeFi is Booming: Level01 Can Repeat The Success of Compound and Maker",
+      "url": "https://finance.yahoo.com/news/defi-booming-level01-repeat-success-172825590.html",
+      "summary": "The article discusses the booming Decentralized Finance (DeFi) sector and suggests that projects like Level01 could emulate the success of Compound and Maker. While this is a positive indicator for the broader DeFi ecosystem, its direct short-term impact on Bitcoin price is limited, though it contributes to overall crypto market sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "defi_growth_trend",
+        "level01_potential",
+        "compound_maker_success"
+      ],
+      "rationale": "The growth of DeFi is a positive trend for the crypto market overall, but its direct short-term impact on Bitcoin is indirect, influencing broader market sentiment rather than causing immediate price action."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-08-02",
+    "summary": "Bitcoin experienced extreme volatility on August 2nd, with a significant flash crash wiping out over $1.4 billion in leveraged positions. Despite a sharp drop from over $11,900 to $10,500, Bitcoin showed some recovery, ending the day around $11,800. This suggests a highly sensitive market prone to rapid liquidations. Long-term, the narrative of Bitcoin as a digital gold and inflation hedge remains strong, supported by institutional interest and increasing adoption in sectors like travel. However, regulatory concerns, highlighted by the Twitter hack and potential government actions, pose ongoing risks.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.3,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Extreme short-term volatility and liquidation cascades.",
+      "Potential for increased regulatory scrutiny following the Twitter hack.",
+      "Geopolitical uncertainties impacting broader market sentiment.",
+      "The effectiveness of the Lightning Network's security against new attack vectors."
+    ],
+    "watch_items": [
+      "Further price action following the flash crash.",
+      "Developments in the Microsoft-TikTok deal.",
+      "Statements from US Treasury Secretary Mnuchin regarding crypto.",
+      "Progress on institutional adoption initiatives (e.g., Galaxy Digital's efforts)."
+    ]
+  }
+}

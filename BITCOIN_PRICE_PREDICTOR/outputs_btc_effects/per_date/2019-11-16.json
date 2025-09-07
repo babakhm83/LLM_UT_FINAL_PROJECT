@@ -1,0 +1,495 @@
+{
+  "date": "2019-11-16",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n91e58f54dcdf",
+      "title": "Bitcoin Trades Flat Even as Fed Signals Inflation-Boosting Balance Increase",
+      "url": "https://finance.yahoo.com/news/bitcoin-trades-flat-even-fed-110011886.html",
+      "summary": "The Federal Reserve's plan to expand its balance sheet is viewed as a long-term positive for Bitcoin by market experts. Despite this, Bitcoin's price has remained stagnant around $8,200. Short-term technical indicators suggest a potential bullish move towards the 200-day moving average above $8,600. However, a drop below $7,763 would invalidate this bullish pattern, indicating continued indecision in the market.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Fed_balance_sheet_expansion",
+        "BTC_consolidation",
+        "moving_average_cross"
+      ],
+      "rationale": "The Fed's balance sheet expansion is a macro-economic factor that could lead to inflation, potentially benefiting Bitcoin as a hedge. However, the immediate price action shows a lack of correlation, suggesting other factors are currently dominating."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ne3fcbe2e69f6",
+      "title": "Alipay to ban all Bitcoin transactions",
+      "url": "https://finance.yahoo.com/news/alipay-ban-bitcoin-transactions-073035684.html",
+      "summary": "Chinese payments platform Alipay has announced a ban on all transactions related to Bitcoin and other cryptocurrencies. This decision directly impacts Binance's P2P platform, which intended to use Alipay as a fiat-on-ramp for Chinese customers. The move signifies a tightening regulatory stance in China towards cryptocurrency transactions.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Alipay_ban",
+        "China_regulation",
+        "P2P_onramp_restriction"
+      ],
+      "rationale": "This regulatory action by a major payment processor in China restricts access and usability for Chinese users, potentially dampening adoption and trading volume from a significant market."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd43715e9da6c",
+      "title": "Bitcoin's First Smart Contract Platform RSK Connects With Japan's Biggest Blockchain Accelerator BINARYSTAR to Boost Adoption",
+      "url": "https://finance.yahoo.com/news/bitcoins-first-smart-contract-platform-120000584.html",
+      "summary": "IOV Labs, the developer of RSK, the first Bitcoin-backed smart contract platform, has partnered with BINARYSTAR, Japan's largest blockchain accelerator. This collaboration aims to boost blockchain adoption in Japan, with RSK delivering a keynote at BINARYSTAR's Unblock Tokyo event. The partnership signifies an effort to expand the utility and reach of Bitcoin's smart contract capabilities.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "RSK_partnership",
+        "Japan_blockchain_adoption",
+        "smart_contract_expansion"
+      ],
+      "rationale": "Expanding RSK's reach into the Japanese market through a major accelerator is a positive step for Bitcoin's smart contract ecosystem, potentially driving developer activity and new use cases."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nadd4486a22fb",
+      "title": "Crypto Traders’ Lawsuit Claims Bitfinex, Tether Cost Market Over $1 Trillion",
+      "url": "https://finance.yahoo.com/news/crypto-traders-lawsuit-claims-bitfinex-144356661.html",
+      "summary": "A lawsuit filed in New York alleges that Bitfinex and its affiliate Tether engaged in deceptive and market-manipulating practices, causing damages exceeding $1 trillion to crypto traders. The plaintiffs seek class-action status, highlighting significant concerns about market integrity and the practices of major stablecoin issuers and exchanges.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitfinex_Tether_lawsuit",
+        "market_manipulation_allegations",
+        "stablecoin_scrutiny"
+      ],
+      "rationale": "This lawsuit, if successful or even if it leads to further investigation, could significantly impact market confidence in Tether and Bitfinex, potentially leading to regulatory scrutiny and market instability."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n9e994783d3aa",
+      "title": "‘Libra is delusional’ – Chinese lawmaker slams Facebook",
+      "url": "https://finance.yahoo.com/news/libra-delusional-chinese-lawmaker-slams-210023447.html",
+      "summary": "A Chinese politician, Huang Qifan, has criticized Facebook's Libra project as 'delusional,' warning that decentralized currencies challenging fiat could cause chaos. This statement comes as China plans to launch its own cryptocurrency to rival Libra. The sentiment reflects a growing global regulatory concern and potential competition from state-backed digital currencies.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Libra_criticism",
+        "China_CBDC",
+        "regulatory_sentiment"
+      ],
+      "rationale": "While critical of Libra, the mention of China's own upcoming cryptocurrency highlights a significant development in the digital currency space, potentially influencing global adoption trends and regulatory approaches."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n34804d9ca4e0",
+      "title": "WATCH: Inside a Siberian Crypto Mining Complex",
+      "url": "https://finance.yahoo.com/news/watch-inside-siberian-crypto-mining-133015361.html",
+      "summary": "Siberia's Irkutsk region has become an attractive hub for crypto miners due to cheap hydropower, a cold climate, and abandoned industrial infrastructure. Bratsk, home to one of Russia's largest hydropower plants, is a prime example, with its abundant cheap electricity drawing miners globally. This trend indicates the ongoing importance of energy costs and infrastructure for mining operations.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Siberia_mining_hub",
+        "cheap_electricity",
+        "mining_infrastructure"
+      ],
+      "rationale": "The development of mining hubs in regions with low energy costs is a fundamental aspect of Bitcoin's infrastructure, supporting network security and decentralization over the long term."
+    },
+    {
+      "pick_idx": 29,
+      "id": "ne96e86785b4f",
+      "title": "Could Crypto Valley overtake Silicon Valley?",
+      "url": "https://finance.yahoo.com/news/could-crypto-valley-overtake-silicon-220124251.html",
+      "summary": "Switzerland's 'Crypto Valley' has shown resilience during the crypto winter, with over 800 active companies and 4,000 employees in its blockchain ecosystem. CVVC reports that companies with strong fundamentals have seen increased valuations. This suggests a maturing and growing crypto industry in established jurisdictions.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Crypto_Valley_growth",
+        "Switzerland_blockchain",
+        "ecosystem_development"
+      ],
+      "rationale": "The growth of established crypto hubs like Switzerland's Crypto Valley indicates increasing institutional interest and a more robust development environment, which is positive for long-term adoption."
+    },
+    {
+      "pick_idx": 32,
+      "id": "ncb8be18b3e33",
+      "title": "ESG ETF Assets More Than Double in 2019",
+      "url": "https://finance.yahoo.com/news/esg-etf-assets-more-double-210627598.html",
+      "summary": "Assets in Environmental, Social, and Governance (ESG) ETFs have more than doubled in 2019, with significant concentration in the largest strategies. This trend reflects growing investor interest in sustainable and socially responsible investing, which could indirectly influence capital allocation towards innovative technologies like blockchain and digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ESG_ETF_growth",
+        "sustainable_investing",
+        "capital_allocation_trends"
+      ],
+      "rationale": "While not directly related to Bitcoin, the surge in ESG investing indicates a broader shift in investor preferences towards responsible and forward-looking assets, which could eventually encompass digital assets."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n9bfb2068ce4c",
+      "title": "5 India ETFs to Watch as Country Continues to Cut Rates",
+      "url": "https://finance.yahoo.com/news/5-india-etfs-watch-country-144841340.html",
+      "summary": "India's central bank has implemented its fifth rate cut in 2019 to stimulate growth. This monetary easing, similar to actions by other central banks, can influence global liquidity and investor sentiment towards risk assets. While focused on traditional markets, such macro trends can indirectly affect cryptocurrency markets.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "India_rate_cuts",
+        "emerging_market_monetary_policy",
+        "global_liquidity"
+      ],
+      "rationale": "Monetary easing in major economies, including India, can lead to increased liquidity, which may find its way into riskier assets like cryptocurrencies, though the direct impact is often indirect."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n2d4b835ab251",
+      "title": "SEC Chair, Commissioners to Talk Crypto at Congress Hearing Next Week",
+      "url": "https://finance.yahoo.com/news/sec-chair-commissioners-talk-crypto-220011452.html",
+      "summary": "The U.S. House Financial Services Committee will hold a hearing with SEC Chairman Jay Clayton and other commissioners to discuss cryptocurrencies and Facebook's Libra. This congressional scrutiny signals ongoing regulatory attention and the potential for new frameworks or enforcement actions impacting the crypto industry.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_hearing",
+        "congressional_scrutiny",
+        "crypto_regulation"
+      ],
+      "rationale": "Regulatory discussions at the highest levels in the US are critical for the long-term development and adoption of cryptocurrencies, with potential for significant impact on market participants."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nf6f6ce734ac8",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 16/11/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-013730936.html",
+      "summary": "Bitcoin Cash ABC experienced a significant drop of 4.89% on Friday, following a 2.40% decline on Thursday, closing at $261.62. The asset showed mixed trading, briefly rising before falling through key support levels. This indicates bearish momentum for BCH in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BCH_price_drop",
+        "support_level_break",
+        "bearish_momentum"
+      ],
+      "rationale": "The sharp decline and breach of support levels for Bitcoin Cash ABC suggest continued downward pressure in the very short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nfbf4ea2e6873",
+      "title": "How to Spot Bitcoin’s Golden or Death Cross Using Simple Moving Averages",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-golden-death-cross-091056452.html",
+      "summary": "This article explains the significance of 'golden crosses' (bullish) and 'death crosses' (bearish) formed by moving averages. It highlights their historical predictive power for market downturns. Understanding these technical indicators is crucial for short-term trading strategies.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "golden_cross",
+        "death_cross",
+        "moving_average_signals"
+      ],
+      "rationale": "The discussion of potential golden or death crosses provides a framework for interpreting short-term price movements and anticipating potential trend shifts."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na28b18c0a574",
+      "title": "Crypto Derivatives: A Corner of the Market or the Market Itself?",
+      "url": "https://finance.yahoo.com/news/crypto-derivatives-corner-market-market-100021183.html",
+      "summary": "The article discusses the growing importance of crypto derivatives, noting CME's announcement of Bitcoin options in Q1 2020, shortly before the ICE/Bakkt launch. This highlights increasing institutional interest and the development of more sophisticated trading instruments.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "derivatives"
+      ],
+      "features_for_model": [
+        "CME_bitcoin_options",
+        "Bakkt_launch",
+        "derivatives_market_growth"
+      ],
+      "rationale": "The expansion of regulated derivatives products like CME's Bitcoin options signals growing institutional adoption and can lead to increased liquidity and price discovery."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf6f6ce734ac8",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 16/11/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-013730936.html",
+      "summary": "Bitcoin Cash ABC slid by 4.89% on Friday, breaking through the 23.6% FIB level and falling through key support. This indicates significant bearish pressure on BCH in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BCH_price_action",
+        "FIB_level_break",
+        "support_breach"
+      ],
+      "rationale": "The continued sharp decline and failure to hold support levels for BCH suggest further downside risk in the coming days."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nfbf4ea2e6873",
+      "title": "How to Spot Bitcoin’s Golden or Death Cross Using Simple Moving Averages",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-golden-death-cross-091056452.html",
+      "summary": "This article explains the significance of 'golden crosses' (bullish) and 'death crosses' (bearish) formed by moving averages. It highlights their historical predictive power for market downturns. Understanding these technical indicators is crucial for short-term trading strategies.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "golden_cross_indicator",
+        "death_cross_indicator",
+        "moving_average_analysis"
+      ],
+      "rationale": "The potential for moving average crosses provides a technical signal that traders will be watching closely for short-term directional cues."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n444d208b879b",
+      "title": "The real story behind Bitcoin Gold from one of its creators",
+      "url": "https://finance.yahoo.com/news/real-story-behind-bitcoin-gold-140018380.html",
+      "summary": "Bitcoin Gold co-creator Alejandro Regojo discusses the project, highlighting its position as a successful Bitcoin fork. The focus is on pushing widespread adoption. This indicates ongoing development and community efforts within the Bitcoin ecosystem.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "altcoin",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_Gold_adoption",
+        "fork_development",
+        "altcoin_ecosystem"
+      ],
+      "rationale": "While a smaller altcoin, the continued focus on adoption for Bitcoin Gold can contribute to overall market activity and sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "na836324ea749",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 16/11/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-013730936.html",
+      "summary": "Bitcoin Cash ABC tanks again, sliding by 4.89% on Friday and breaking through key support levels. This indicates strong bearish sentiment for BCH in the immediate short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BCH_bearish_trend",
+        "support_breakdown",
+        "altcoin_volatility"
+      ],
+      "rationale": "The repeated sharp declines and failure to hold support for BCH suggest a high probability of continued downward price action in the very near term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n3454001b12e8",
+      "title": "European Equities: A Week in Review – 15/11/19",
+      "url": "https://finance.yahoo.com/news/european-equities-week-review-15-030632365.html",
+      "summary": "European equities saw modest gains, with the CAC40 leading. Mixed news from the US and China on trade impacted market sentiment. The Eurozone economic calendar was busy, with ZEW data being a focus. This suggests a cautious global market environment.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "equities"
+      ],
+      "features_for_model": [
+        "European_equities_performance",
+        "US_China_trade_talks",
+        "ZEW_economic_data"
+      ],
+      "rationale": "The mixed signals from traditional markets, particularly regarding US-China trade, can influence overall risk appetite, indirectly affecting Bitcoin."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nfbf4ea2e6873",
+      "title": "How to Spot Bitcoin’s Golden or Death Cross Using Simple Moving Averages",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-golden-death-cross-091056452.html",
+      "summary": "This article explains the significance of 'golden crosses' (bullish) and 'death crosses' (bearish) formed by moving averages. It highlights their historical predictive power for market downturns. Understanding these technical indicators is crucial for short-term trading strategies.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "golden_cross_signal",
+        "death_cross_signal",
+        "MA_cross_analysis"
+      ],
+      "rationale": "The potential for moving average crosses provides a technical signal that traders will be watching closely for short-term directional cues."
+    },
+    {
+      "pick_idx": 12,
+      "id": "na28b18c0a574",
+      "title": "Crypto Derivatives: A Corner of the Market or the Market Itself?",
+      "url": "https://finance.yahoo.com/news/crypto-derivatives-corner-market-market-100021183.html",
+      "summary": "The article discusses the growing importance of crypto derivatives, noting CME's announcement of Bitcoin options in Q1 2020, shortly before the ICE/Bakkt launch. This highlights increasing institutional interest and the development of more sophisticated trading instruments.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "derivatives"
+      ],
+      "features_for_model": [
+        "CME_BTC_options",
+        "Bakkt_launch_impact",
+        "derivatives_market_development"
+      ],
+      "rationale": "The expansion of regulated derivatives products like CME's Bitcoin options signals growing institutional adoption and can lead to increased liquidity and price discovery."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-11-16",
+    "summary": "Bitcoin is showing signs of consolidation, with mixed signals from both long-term adoption trends and short-term technical indicators. The ongoing US-China trade talks and regulatory developments, such as the SEC hearing, remain key macro drivers. Short-term, altcoins like Bitcoin Cash ABC are experiencing significant downward pressure, while the derivatives market shows increasing institutional interest with upcoming CME options.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Regulatory uncertainty from the upcoming SEC hearing.",
+      "Continued bearish momentum in altcoins like BCH impacting overall market sentiment.",
+      "Uncertainty surrounding the US-China trade deal progress.",
+      "Potential for technical 'death cross' signals to trigger sell-offs."
+    ],
+    "watch_items": [
+      "SEC Congressional Hearing (Sept 24th)",
+      "US-China Trade Deal Developments",
+      "Bitcoin Cash ABC price action",
+      "CME Bitcoin Options Launch (Q1 2020)"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "api_keys": {
+    "gemini": [
+      "YOUR_GEMINI_API_KEY_1",
+      "YOUR_GEMINI_API_KEY_2",
+      "YOUR_GEMINI_API_KEY_3"
+    ],
+    "openai": "YOUR_OPENAI_API_KEY",
+    "openai_base_url": "https://api.openai.com/v1"
+  },
+  "models": {
+    "summarization_model": "gemini-2.0-flash-exp",
+    "effects_model": "your-effects-model-endpoint",
+    "forecast_model": "your-forecast-model-endpoint",
+    "advisory_model": "gpt-4o"
+  },
+  "news": {
+    "max_articles": 30,
+    "short_term_count": 10,
+    "long_term_count": 10,
+    "sources": [
+      "https://news.google.com/rss/search?q=Bitcoin+price&hl=en-US&gl=US&ceid=US:en",
+      "https://news.google.com/rss/search?q=BTC+crypto&hl=en-US&gl=US&ceid=US:en",
+      "https://news.google.com/rss/search?q=Cryptocurrency+market&hl=en-US&gl=US&ceid=US:en",
+      "https://cointelegraph.com/rss",
+      "https://decrypt.co/feed",
+      "https://bitcoinmagazine.com/.rss/full/",
+      "https://www.coindesk.com/arc/outboundfeeds/rss/"
+    ]
+  },
+  "output_dir": "Files/Final Project/outputs/pipeline",
+  "prompt_style": "comprehensive"
+}

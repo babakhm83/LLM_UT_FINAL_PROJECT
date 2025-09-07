@@ -1,0 +1,489 @@
+{
+  "date": "2018-07-29",
+  "long_term": [
+    {
+      "pick_idx": 9,
+      "id": "n8a21fd182dda",
+      "title": "Bitcoin Magazine’s Week in Review: Looking to the Past and the Future",
+      "url": "https://finance.yahoo.com/news/bitcoin-magazine-week-review-looking-150433508.html",
+      "summary": "South Korea has ruled bitcoin a legally recognizable asset, a positive development for investors. Meanwhile, BTC City in Slovenia is adopting full cryptocurrency support across all vendors. The article also touches on the evolution of blockchain education. These developments indicate growing regulatory clarity and adoption in different regions, suggesting a maturing ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "South_Korea_regulation",
+        "Slovenia_adoption",
+        "blockchain_education"
+      ],
+      "rationale": "Positive regulatory news from South Korea and broader adoption in Slovenia signal increasing mainstream acceptance and integration of cryptocurrencies. This trend, if sustained, can foster greater institutional interest and market growth over the medium term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nb7b48c80505e",
+      "title": "Andreessen Horowitz has a new crypto fund -- and its first female general partner is running it with Chris Dixon",
+      "url": "https://finance.yahoo.com/news/andreessen-horowitz-crypto-fund-first-200333028.html",
+      "summary": "Andreessen Horowitz (a16z) has closed a $300 million crypto fund, signaling significant venture capital commitment to the blockchain space. This move reflects growing institutional interest and investment in crypto startups, indicating a maturing market and potential for future innovation and growth.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "a16z_crypto_fund",
+        "venture_capital_investment",
+        "institutional_adoption"
+      ],
+      "rationale": "A major VC firm like Andreessen Horowitz launching a substantial crypto fund demonstrates strong institutional belief in the sector's long-term potential. This influx of capital can fuel innovation and development, driving adoption and market growth."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n7bd66b7e28da",
+      "title": "Binance Halts All Trading Over Abnormal Crypto Transactions",
+      "url": "https://finance.yahoo.com/news/binance-halts-trading-over-abnormal-051504282.html",
+      "summary": "Binance, the world's largest cryptocurrency exchange, suspended trading due to abnormal transactions involving the Syscoin token. While the issue was investigated and resolved, such incidents highlight the operational risks and potential for disruptions on major exchanges, impacting user confidence and market stability.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Binance_outage",
+        "Syscoin_issue",
+        "exchange_risk"
+      ],
+      "rationale": "While this specific incident was resolved, repeated exchange disruptions can erode trust and liquidity, creating short-term volatility. The long-term impact depends on the frequency and severity of such events."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n8e1835483f1d",
+      "title": "Gold Slips On Positive US Inflation Data",
+      "url": "https://finance.yahoo.com/news/gold-slips-positive-us-inflation-100345597.html",
+      "summary": "Spot gold prices declined as U.S. consumer prices accelerated, hitting the Federal Reserve's 2% target for the first time in six years. This positive inflation data, coupled with a strengthening dollar and prospects of further Fed rate hikes, typically puts downward pressure on gold.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "US_inflation_data",
+        "Fed_rate_hikes",
+        "USD_strength"
+      ],
+      "rationale": "Positive US inflation data and the prospect of further Fed rate hikes generally strengthen the USD and increase the opportunity cost of holding non-yielding assets like gold. This macro environment can be a headwind for speculative assets like Bitcoin."
+    },
+    {
+      "pick_idx": 39,
+      "id": "nd40696fad44d",
+      "title": "Get Smart About Energy With a Smart Beta ETF",
+      "url": "https://finance.yahoo.com/news/smart-energy-smart-beta-etf-150332796.html",
+      "summary": "The energy sector is performing well, but conventional ETFs are cap-weighted. Smart beta ETFs offer an alternative approach to energy exposure. This highlights a trend towards more sophisticated investment vehicles and sector-specific strategies, which could eventually extend to digital asset investment products.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "smart_beta_ETF",
+        "energy_sector_investment",
+        "sophisticated_ETFs"
+      ],
+      "rationale": "The increasing sophistication of ETF products and strategies in traditional markets suggests a potential future for similar innovations in the crypto space, attracting more institutional capital."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n25b81798b7ee",
+      "title": "This Is as Good as It Gets for Advanced Micro Devices, Inc.",
+      "url": "https://finance.yahoo.com/news/good-gets-advanced-micro-devices-154551269.html",
+      "summary": "Advanced Micro Devices (AMD) has seen a significant rally, but the article suggests this might be the peak for now. This analysis of a major semiconductor company, a key player in hardware for computing and potentially blockchain-related applications, provides context for the broader tech hardware market.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "AMD_stock_analysis",
+        "semiconductor_market",
+        "tech_hardware_outlook"
+      ],
+      "rationale": "While not directly about crypto, the performance of semiconductor companies like AMD can influence the cost and availability of mining hardware, indirectly affecting the crypto mining ecosystem."
+    },
+    {
+      "pick_idx": 44,
+      "id": "nc5251b61ec32",
+      "title": "These are the Top Venture Capital Firms Investing in Blockchain",
+      "url": "https://finance.yahoo.com/news/top-venture-capital-firms-investing-081050293.html",
+      "summary": "Venture capital firms have been investing in blockchain for years, with the industry maturing significantly in the last two. Over 120 VC firms have made multiple investments. This indicates a growing institutional commitment and validation of blockchain technology beyond just cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "VC_blockchain_investment",
+        "blockchain_industry_maturation",
+        "institutional_commitment"
+      ],
+      "rationale": "The increasing number of VC firms actively investing in blockchain technology signifies strong belief in its long-term viability and potential for disruption across various sectors, which is a positive signal for the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n01834bedba65",
+      "title": "South Africa’s Secluded Whites-Only Orania Community is Testing a Digital Currency",
+      "url": "https://finance.yahoo.com/news/south-africa-secluded-whites-only-123044186.html",
+      "summary": "The community of Orania in South Africa is experimenting with a digital currency, the E-Ora, as an extension of its existing local currency. This represents a micro-level adoption of digital currency for community independence and functionality.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Orania_digital_currency",
+        "local_currency_experiment",
+        "digital_currency_adoption"
+      ],
+      "rationale": "While a niche example, the testing of a digital currency by a community highlights the ongoing exploration and adoption of digital monetary systems, contributing to the broader narrative of digital currency utility."
+    },
+    {
+      "pick_idx": 47,
+      "id": "nfbe053ab531d",
+      "title": "After CEO Jumps Ship, Can J.C. Penney Stay Afloat?",
+      "url": "https://finance.yahoo.com/news/ceo-jumps-ship-j-c-141200464.html",
+      "summary": "J.C. Penney's CEO has left for Lowe's, raising questions about the department store chain's future. This news reflects broader challenges in the retail sector, which can indirectly impact consumer spending and sentiment towards riskier assets.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "retail_sector_challenges",
+        "CEO_departure",
+        "consumer_spending_outlook"
+      ],
+      "rationale": "Weakness in traditional retail sectors can sometimes correlate with broader economic concerns, potentially impacting investor risk appetite for all asset classes, including cryptocurrencies."
+    },
+    {
+      "pick_idx": 49,
+      "id": "nd1b5b832e621",
+      "title": "William Shatner Promotes Solar-Powered Cryptocoin Mining",
+      "url": "https://finance.yahoo.com/news/william-shatner-promotes-solar-powered-234448335.html",
+      "summary": "William Shatner is promoting solar-powered cryptocurrency mining facilities. This initiative highlights efforts to address the environmental concerns associated with crypto mining by leveraging renewable energy sources, which could improve the public perception and sustainability of mining operations.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "solar_mining",
+        "renewable_energy_crypto",
+        "mining_sustainability"
+      ],
+      "rationale": "The promotion of solar-powered mining by a public figure addresses environmental concerns, potentially leading to more sustainable mining practices and improved public perception, which is beneficial for the long-term health of the crypto ecosystem."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n9e81dce4ae81",
+      "title": "NZD/USD Forex Technical Analysis – Rangebound Trade Suggests Impending Volatility",
+      "url": "https://finance.yahoo.com/news/nzd-usd-forex-technical-analysis-014130135.html",
+      "summary": "The NZD/USD is trading within a month-long range, suggesting potential for increased volatility. This technical observation in forex markets can sometimes correlate with broader market sentiment, including for risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "NZDUSD_range",
+        "forex_volatility",
+        "market_sentiment"
+      ],
+      "rationale": "Forex range-bound trading can indicate a period of consolidation before a significant move, which might spill over into other markets if sentiment shifts broadly."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nc8323cbebdad",
+      "title": "USD/JPY Forex Technical Analysis – Taking Out 111.30 Could Drive Dollar/Yen into 111.899 to 112.208",
+      "url": "https://finance.yahoo.com/news/usd-jpy-forex-technical-analysis-025600225.html",
+      "summary": "The USD/JPY closed lower despite strong US GDP data, as investors questioned sustainability. Falling US Treasury yields made the dollar less attractive. This suggests a potential shift in USD strength, which can impact risk assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USDJPY_technical",
+        "US_GDP_reaction",
+        "Treasury_yields"
+      ],
+      "rationale": "A weakening USD, even on positive US data, can be a signal for reduced risk appetite, potentially impacting Bitcoin negatively in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n1121245446c7",
+      "title": "Bitcoin Cash, Litecoin and Ripple Daily Analysis – 29/07/18",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-litecoin-ripple-daily-041246314.html",
+      "summary": "Bitcoin Cash saw a modest gain on Saturday, continuing its recovery from earlier lows but remaining below key resistance levels. The extended bearish trend for BCH remains intact, indicating continued weakness in the altcoin market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "altcoin"
+      ],
+      "features_for_model": [
+        "BCH_analysis",
+        "altcoin_trend",
+        "crypto_market_sentiment"
+      ],
+      "rationale": "The continued bearish trend in Bitcoin Cash, a significant altcoin, suggests broader weakness in the altcoin market, which often correlates with Bitcoin's performance."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n7aa25da029d4",
+      "title": "Bitcoin – Will it be a Weekend Rally or Back to Sub-$8,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-weekend-rally-back-sub-043252363.html",
+      "summary": "Bitcoin experienced a range-bound Saturday, recovering from intraday lows but failing to break significant resistance. Support was found around $8,000, preventing a drop below that level. The price action indicates indecision and a potential struggle to maintain upward momentum.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_weekend_action",
+        "support_resistance",
+        "price_consolidation"
+      ],
+      "rationale": "Bitcoin's inability to decisively break higher or lower suggests a period of consolidation. The key support at $8,000 is being tested, and a break below could trigger further selling."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne1cb70492943",
+      "title": "Coinbase Internal Probe Finds No Evidence Of Bitcoin Cash Insider Trading",
+      "url": "https://finance.yahoo.com/news/coinbase-internal-probe-finds-no-133903035.html",
+      "summary": "Coinbase's internal investigation found no evidence of insider trading related to the Bitcoin Cash listing. This news removes a cloud of suspicion that had been hanging over the exchange and the BCH listing, potentially improving sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "legal",
+        "exchange"
+      ],
+      "features_for_model": [
+        "Coinbase_probe",
+        "BCH_insider_trading",
+        "exchange_compliance"
+      ],
+      "rationale": "The resolution of insider trading allegations against Coinbase removes a significant negative overhang, potentially boosting confidence in the exchange and the broader market's regulatory compliance."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n0e47eed110b5",
+      "title": "Billionaire Hedge Fund Manager Bill Miller is Bullish on Bitcoin",
+      "url": "https://finance.yahoo.com/news/billionaire-hedge-fund-manager-bill-183648626.html",
+      "summary": "Billionaire hedge fund manager Bill Miller expressed a bullish outlook on Bitcoin, calling it an 'interesting' asset. Positive sentiment from high-profile investors can influence market perception and attract further investment.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Bill_Miller_bullish",
+        "Bitcoin_outlook",
+        "institutional_sentiment"
+      ],
+      "rationale": "Positive commentary from a well-known investor like Bill Miller can provide a short-term boost to Bitcoin's price and sentiment, potentially encouraging more buying activity."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n8e085dd1e8c7",
+      "title": "Rogue Qiwi Employee Mined 500,000 Bitcoins on Company Hardware [Then Lost Them All]",
+      "url": "https://finance.yahoo.com/news/rogue-qiwi-employee-mined-500-193315267.html",
+      "summary": "A former Qiwi employee mined 500,000 bitcoins on company hardware in 2011 but lost them all. This historical anecdote highlights early mining practices and the evolution of mining operations, though its direct short-term market impact is minimal.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "Qiwi_mining_incident",
+        "historical_mining",
+        "bitcoin_genesis"
+      ],
+      "rationale": "This is a historical anecdote with little to no direct short-term impact on current market dynamics, but it provides context on the early days of Bitcoin mining."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n20d91e3549cf",
+      "title": "Bitcoin Price Headed to New Highs: Crypto Hedge Fund Manager Spencer Bogart",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-headed-highs-crypto-203039994.html",
+      "summary": "Crypto hedge fund manager Spencer Bogart predicts Bitcoin is headed for new highs, citing its recent test of the $8,500 mark. This optimistic forecast from an industry professional could influence short-term trading sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Spencer_Bogart_prediction",
+        "BTC_price_target",
+        "crypto_fund_manager"
+      ],
+      "rationale": "Positive price predictions from industry experts can create a self-fulfilling prophecy in the short term, encouraging buying and pushing prices towards the predicted levels."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nb5157e769b45",
+      "title": "Vancouver Bitcoin Mining Firm Installs 85 MW Substation to Power Massive Expansion Plans",
+      "url": "https://finance.yahoo.com/news/vancouver-bitcoin-mining-firm-installs-212547385.html",
+      "summary": "DMG Blockchain Solutions is installing an 85 MW substation to support its crypto mining facility expansion. This indicates significant investment and growth in the mining sector, potentially increasing network hashrate and security.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "DMG_mining_expansion",
+        "85MW_substation",
+        "mining_infrastructure"
+      ],
+      "rationale": "Increased investment in mining infrastructure, like DMG's substation, suggests confidence in the profitability of mining and can lead to higher network hashrate, which is generally positive for Bitcoin's security and stability."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nb5157e769b45",
+      "title": "Vancouver Bitcoin Mining Firm Installs 85 MW Substation to Power Massive Expansion Plans",
+      "url": "https://finance.yahoo.com/news/vancouver-bitcoin-mining-firm-installs-212547385.html",
+      "summary": "DMG Blockchain Solutions is installing an 85 MW substation to support its crypto mining facility expansion. This indicates significant investment and growth in the mining sector, potentially increasing network hashrate and security.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "DMG_mining_expansion",
+        "85MW_substation",
+        "mining_infrastructure"
+      ],
+      "rationale": "Increased investment in mining infrastructure, like DMG's substation, suggests confidence in the profitability of mining and can lead to higher network hashrate, which is generally positive for Bitcoin's security and stability."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-07-29",
+    "summary": "The crypto market is showing mixed signals. Bitcoin is consolidating around the $8,000 level, indicating indecision, with analysts split on whether it will rally or fall. Positive sentiment from institutional investors like Bill Miller and predictions of new highs offer some bullish support. However, broader altcoin weakness and the potential for USD strength due to US economic data present headwinds. The resolution of Coinbase's insider trading probe is a positive development for exchange confidence.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Potential USD strength due to US economic data could pressure risk assets.",
+      "Continued weakness in altcoins may drag down Bitcoin.",
+      "Lack of decisive price action suggests potential for a sharp move in either direction.",
+      "Regulatory uncertainty remains a background risk for the crypto market."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $8,000 support.",
+      "USD/JPY and NZD/USD forex movements for broader market sentiment.",
+      "Statements from major crypto investors and analysts.",
+      "Developments in regulatory clarity for cryptocurrencies."
+    ]
+  }
+}

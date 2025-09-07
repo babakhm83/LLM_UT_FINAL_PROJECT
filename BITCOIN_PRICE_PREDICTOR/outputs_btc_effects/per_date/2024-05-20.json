@@ -1,0 +1,489 @@
+{
+  "date": "2024-05-20",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "nf7a7da2531eb",
+      "title": "Bitcoin Rebounds to $70K, Shrugging Off Hot U.S. Inflation Print",
+      "url": "https://finance.yahoo.com/news/bitcoin-rebounds-70k-shrugging-off-210052110.html",
+      "summary": "Bitcoin demonstrated resilience by rebounding to $70,000 after a brief dip caused by hotter-than-expected U.S. inflation data for March. Despite the Consumer Price Index (CPI) rising faster than anticipated, leading to tempered expectations for rate cuts, BTC managed to erase its losses and outperform other asset classes like U.S. equities and gold. This suggests a strong underlying demand for Bitcoin, even in the face of macroeconomic headwinds.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "CPI_surprise",
+        "BTC_rebound",
+        "outperformance"
+      ],
+      "rationale": "The ability of Bitcoin to recover from negative inflation data indicates strong investor conviction. This resilience suggests that Bitcoin may be decoupling from traditional market reactions to inflation, potentially driven by its increasing adoption as a store of value."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nf8c670abeaf8",
+      "title": "Analyst Who Called Bitcoin's Pre-Halving Rally to $70K Turns Bearish",
+      "url": "https://finance.yahoo.com/news/analyst-called-bitcoins-pre-halving-055051110.html",
+      "summary": "An analyst who accurately predicted Bitcoin's bottom in November 2022 and its subsequent pre-halving rally to record highs has now turned bearish on risk assets, including crypto. The primary trigger cited is persistent inflation and the resulting expectation of fewer Fed rate cuts. This shift in sentiment from a reputable analyst could influence market participants and potentially lead to a price correction.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "analyst_sentiment_shift",
+        "inflation_concern",
+        "rate_cut_expectations"
+      ],
+      "rationale": "A respected analyst turning bearish, citing macro factors like inflation and interest rates, can create a ripple effect. This sentiment could lead to reduced institutional inflows and increased selling pressure, impacting Bitcoin's price negatively in the short to medium term."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n803c2eb1cf5b",
+      "title": "US Authorities Transfer $2 Billion in Seized Bitcoin from Silk Road to New Address",
+      "url": "https://finance.yahoo.com/news/us-authorities-transfer-2-billion-055058654.html",
+      "summary": "U.S. authorities have moved approximately $2 billion worth of Bitcoin, seized in connection with the Silk Road marketplace, to a new address. This action, involving a test transaction followed by a large transfer, indicates potential future market activity or liquidation of these seized assets. The movement of such a significant amount of Bitcoin could influence market sentiment and liquidity.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "seized_BTC_transfer",
+        "Silk_Road_assets",
+        "DOJ_activity"
+      ],
+      "rationale": "The transfer of a large volume of seized Bitcoin by U.S. authorities creates uncertainty. While the immediate impact is unclear, it signals potential future selling pressure or a change in custody, which could affect market dynamics."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n7a7072d920c1",
+      "title": "How the Bitcoin Halving Could Affect Network Security",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-could-affect-network-134649526.html",
+      "summary": "The upcoming Bitcoin halving raises questions about network security. A potential reduction in hash rates due to smaller miners exiting the market could leave the network more vulnerable to 51% attacks. While past halvings have had minimal impact, this event's scale and the evolving mining landscape warrant attention regarding its long-term security implications.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "halving_impact",
+        "network_security",
+        "hashrate_reduction",
+        "miner_economics"
+      ],
+      "rationale": "The halving directly impacts miner economics, potentially leading to a decrease in network hash rate if less efficient miners shut down. This could theoretically reduce network security, although historical data suggests resilience. The long-term impact on security is a key consideration."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n482143600c7a",
+      "title": "How Much Crypto Should Be a Part of Your Retirement Portfolio?",
+      "url": "https://finance.yahoo.com/news/much-crypto-part-retirement-portfolio-152550234.html",
+      "summary": "The approval of spot Bitcoin ETFs has renewed interest in crypto, bringing institutional legitimacy and easier access. With Bitcoin spot ETFs holding significant assets under management, this trend indicates growing mainstream acceptance and integration of cryptocurrencies into traditional investment portfolios, including retirement planning. This suggests a long-term shift in asset allocation.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "ETF"
+      ],
+      "features_for_model": [
+        "ETF_adoption",
+        "retirement_portfolio",
+        "institutional_inflows",
+        "mainstream_acceptance"
+      ],
+      "rationale": "The increasing allocation of crypto, particularly Bitcoin, into retirement portfolios signifies a fundamental shift in how digital assets are perceived. This institutional adoption and integration into long-term investment strategies provide a strong tailwind for sustained growth."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n71597957ce86",
+      "title": "Ethena Onboards Bitcoin as Backing Asset to Make USDe 'Safer'",
+      "url": "https://finance.yahoo.com/news/ethena-onboards-bitcoin-backing-asset-070351463.html",
+      "summary": "Ethena Labs is incorporating Bitcoin as a backing asset for its synthetic dollar product, USDe, aiming to enhance its safety. This move involves purchasing and shorting Bitcoin in a cash-and-carry trade. The integration of Bitcoin into DeFi protocols like Ethena could increase demand for BTC and further its utility within the broader crypto ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethena_USDe",
+        "BTC_backing",
+        "DeFi_integration",
+        "synthetic_dollar"
+      ],
+      "rationale": "The use of Bitcoin as collateral in a prominent DeFi protocol like Ethena demonstrates growing utility and demand for BTC beyond simple speculation. This integration can attract more capital and users to both Bitcoin and the DeFi space."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n9b67d8055ffb",
+      "title": "The Bitcoin Halving Is Here, and With It a Giant Surge in Transaction Fees",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-giant-surge-transaction-001630160.html",
+      "summary": "The recent Bitcoin halving has led to a significant surge in transaction fees, largely driven by the launch of the new Bitcoin-based 'Runes' protocol. This increased demand for block space and higher fees can incentivize miners and potentially lead to greater network security and innovation in the long run, although it also impacts user costs.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "halving_fees",
+        "Runes_protocol",
+        "transaction_cost",
+        "miner_revenue"
+      ],
+      "rationale": "The surge in transaction fees post-halving, fueled by new protocols like Runes, directly increases miner revenue. This economic incentive can bolster network security and encourage further development, creating a positive feedback loop for Bitcoin's ecosystem."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n5a20c58bcbec",
+      "title": "Craig Wright Drops Appeal Against Hodlonaut in Norway",
+      "url": "https://finance.yahoo.com/news/craig-wright-drops-appeal-against-183549023.html",
+      "summary": "Craig Wright has dropped his appeal against Hodlonaut in Norway, concluding a long-standing legal battle. This decision follows a UK judge's ruling that Wright is not the inventor of Bitcoin. The resolution of this legal dispute removes a significant overhang for the crypto community, potentially reducing regulatory uncertainty and negative sentiment associated with such prolonged legal challenges.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Craig_Wright_legal",
+        "Hodlonaut_case",
+        "Satoshi_ Nakamoto_claim",
+        "legal_uncertainty_removal"
+      ],
+      "rationale": "The conclusion of the Craig Wright legal saga removes a persistent source of negative sentiment and legal uncertainty for the Bitcoin community. This clarity can be seen as a minor positive, reducing a potential drag on market sentiment."
+    },
+    {
+      "pick_idx": 47,
+      "id": "n74dbd827bfca",
+      "title": "Exodus Movement, Inc. Announces Uplist to NYSE American Exchange",
+      "url": "https://finance.yahoo.com/news/exodus-movement-inc-announces-uplist-121500836.html",
+      "summary": "Exodus Movement, Inc., a self-custodial cryptocurrency software platform, has been approved for listing on the NYSE American exchange. This uplisting signifies increased institutional recognition and accessibility for companies operating within the crypto space. It can attract more traditional investors and enhance the company's profile and liquidity.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "listing"
+      ],
+      "features_for_model": [
+        "Exodus_listing",
+        "NYSE_American",
+        "crypto_software",
+        "institutional_access"
+      ],
+      "rationale": "The uplisting of a crypto-focused company like Exodus to a major exchange like NYSE American is a positive signal for broader adoption and integration of crypto businesses into traditional finance. This can improve liquidity and investor confidence."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne61010dc1c49",
+      "title": "Flash News: OKX Ventures Announces Seed Round Investment in Arch Network, a Bitcoin-Native Application and Smart Contract Platform",
+      "url": "https://finance.yahoo.com/news/flash-news-okx-ventures-announces-163000950.html",
+      "summary": "OKX Ventures has invested in Arch Network, a Bitcoin-native application and smart contract platform. This investment supports the development of DeFi on the Bitcoin blockchain without bridges, indicating a growing trend towards expanding Bitcoin's functionality and ecosystem. Such developments can increase Bitcoin's utility and attract further innovation.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "OKX_Ventures",
+        "Arch_Network",
+        "Bitcoin_L2",
+        "DeFi_on_Bitcoin"
+      ],
+      "rationale": "Investment in Bitcoin-native platforms like Arch Network signals a push to enhance Bitcoin's utility beyond a store of value. This development could lead to increased demand for Bitcoin as a foundational layer for new applications and services."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n6ccf8ff9288a",
+      "title": "Bitcoin Price Holds Firm Above Key Support Level at $66K",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-holds-firm-above-052639504.html",
+      "summary": "Bitcoin has maintained its position above the critical $66,000 support level, fostering optimism among traders who believe a local bottom may have formed. The price has seen a notable gain over the past week, suggesting a potential reversal or consolidation before further upward movement.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_support_level",
+        "price_consolidation",
+        "trader_sentiment"
+      ],
+      "rationale": "Holding above a key support level indicates buying pressure is absorbing selling pressure, suggesting potential for a short-term price increase or stabilization."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n055c400e784d",
+      "title": "Research Firm Favors Bitcoin 'Covered Strangle' Strategy to Enhance Portfolio Yield by 17%",
+      "url": "https://finance.yahoo.com/news/research-firm-favors-bitcoin-covered-063351572.html",
+      "summary": "A research firm suggests a 'covered strangle' options strategy for Bitcoin investors, involving selling out-of-the-money call and put options while holding spot Bitcoin. This strategy aims to generate an additional 17% yield, potentially increasing demand for options trading and influencing Bitcoin's price volatility.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_options_strategy",
+        "covered_strangle",
+        "yield_enhancement",
+        "options_volume"
+      ],
+      "rationale": "The promotion of yield-generating strategies could attract more capital into Bitcoin, but the impact on price is complex, potentially increasing volatility through options activity."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nba00d407c2b0",
+      "title": "Ether, Bitcoin Open Asia Trading Week Flat as ETH ETF Decision, Nvidia Earnings Loom",
+      "url": "https://finance.yahoo.com/news/ether-bitcoin-open-asia-trading-070210366.html",
+      "summary": "Bitcoin and Ether are trading flat as the Asian trading week begins. Market participants are closely watching the upcoming decisions on Ether ETFs and Nvidia's earnings report. These events could significantly influence market sentiment and price action in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETH_ETF_decision",
+        "Nvidia_earnings",
+        "Asia_trading_session",
+        "market_consolidation"
+      ],
+      "rationale": "The flat trading suggests a pause before key events. The ETH ETF decision and Nvidia earnings are significant catalysts that could drive short-term price movements for both crypto and tech stocks."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nfff54cdcfff4",
+      "title": "Venture capital investment in crypto picks up after long decline",
+      "url": "https://finance.yahoo.com/news/venture-capital-investment-crypto-picks-051017574.html",
+      "summary": "Global venture capital investment in crypto companies saw an increase in Q1 2024, reaching $2.4 billion after seven consecutive quarters of decline. This rebound in VC funding suggests renewed investor confidence and potential for future growth and innovation within the crypto industry.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "VC_funding_increase",
+        "crypto_investment",
+        "Q1_2024_data",
+        "investor_confidence"
+      ],
+      "rationale": "An uptick in venture capital funding is a positive signal for the crypto ecosystem, indicating increased investment in promising projects and potentially driving innovation and adoption."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ndf954ca98f6f",
+      "title": "Zacks Investment Ideas feature highlights: Coinbase, Cleanspark, Platforms, IBIT and GBTC",
+      "url": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-085300182.html",
+      "summary": "Zacks highlights Coinbase, Cleanspark, Riot Platforms, and Bitcoin ETFs (IBIT, GBTC) amidst a broader market rally. The positive sentiment in traditional markets and the strong performance of Bitcoin ETFs suggest continued interest and potential upside for crypto-related equities and assets.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Coinbase_stock",
+        "Riot_Platforms",
+        "IBIT",
+        "GBTC",
+        "market_rally"
+      ],
+      "rationale": "Positive mentions of crypto-related stocks and ETFs in the context of a broader market rally suggest a favorable short-term outlook, driven by investor sentiment and institutional adoption."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nb2f09c6b7d3a",
+      "title": "AEP Ohio flags cryptocurrency miners as it proposes tariffs, discounts for data centers",
+      "url": "https://finance.yahoo.com/news/aep-ohio-flags-cryptocurrency-miners-093000474.html",
+      "summary": "AEP Ohio has identified cryptocurrency miners as significant energy consumers moving into its service area, proposing new tariffs and discounts for data centers. This indicates increasing demand for electricity from mining operations, which could impact energy infrastructure and potentially mining profitability.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "crypto_miners",
+        "AEP_Ohio",
+        "energy_demand",
+        "mining_tariffs"
+      ],
+      "rationale": "Increased regulatory attention and potential cost changes for miners due to energy demand could impact mining operations and profitability, creating short-term uncertainty."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n46600ab471ad",
+      "title": "Bitcoin and Ethereum Market Trends: Regulatory Impacts and Furrever Token (FURR)'s Rise Amid Highs and Lows",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-market-trends-regulatory-110200201.html",
+      "summary": "Bitcoin is showing potential for a breakout above $67,000 after a 10% gain over the past week. Ethereum faces regulatory hurdles, while new tokens like Furrever Token are gaining attention. The market is dynamic, with Bitcoin showing bullish momentum despite broader regulatory concerns.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "ETH_regulatory_hurdles",
+        "market_momentum",
+        "altcoin_narrative"
+      ],
+      "rationale": "Bitcoin's upward price movement suggests positive short-term momentum, potentially driven by broader market sentiment, despite ongoing regulatory discussions around other cryptocurrencies."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n0209b22dee03",
+      "title": "Bitcoin Climbs 10%, Ethereum 5%, and Furrever Token Promises 15X Returns: How Will the Market React?",
+      "url": "https://finance.yahoo.com/news/bitcoin-climbs-10-ethereum-5-152000524.html",
+      "summary": "Bitcoin has climbed 10% and Ethereum 5% this week, indicating strong bullish sentiment. The market is reacting positively to these gains, with speculation about the potential impact of new tokens promising high returns. This broad market upswing suggests increased investor appetite.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_gain",
+        "ETH_gain",
+        "market_sentiment",
+        "altcoin_hype"
+      ],
+      "rationale": "Significant price increases in both Bitcoin and Ethereum signal strong buying pressure and positive market sentiment, likely to continue in the short term."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n53c337980528",
+      "title": "Ether Jumps 10% to $3.4K After Bloomberg Ups Odds of Spot ETF Approval",
+      "url": "https://finance.yahoo.com/news/ether-jumps-10-3-4k-193436496.html",
+      "summary": "Ether experienced a significant price jump of over 10% to $3.4K following an increased probability of spot ETH ETF approval from Bloomberg analysts. This news has created immediate positive momentum for ETH, highlighting the market's sensitivity to regulatory developments.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETH_ETF_approval_odds",
+        "Bloomberg_analyst",
+        "ETH_price_surge",
+        "regulatory_catalyst"
+      ],
+      "rationale": "The sharp increase in Ether's price following positive news on ETF approval odds demonstrates a strong, immediate reaction to regulatory catalysts, indicating high short-term bullish sentiment."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n3a1625d3b0e8",
+      "title": "‘It’s absurd’: From Morgan Stanley to the state of Wisconsin, here’s who just poured billions into Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/absurd-morgan-stanley-state-wisconsin-203438217.html",
+      "summary": "Institutional investment managers, including major firms like Morgan Stanley and entities like the state of Wisconsin, have reported significant investments in spot Bitcoin ETFs in their Q1 filings. This widespread institutional adoption, particularly into BlackRock's IBIT, underscores growing mainstream acceptance and provides substantial capital inflows.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_ETF_investment",
+        "Morgan_Stanley",
+        "Wisconsin_state_fund",
+        "IBIT_inflows",
+        "13F_filings"
+      ],
+      "rationale": "Substantial institutional inflows into Bitcoin ETFs, as revealed by 13F filings, indicate strong underlying demand and provide significant liquidity, supporting a bullish short-term outlook."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-05-20",
+    "summary": "Bitcoin is showing resilience, holding above key support levels and experiencing a notable price increase, signaling potential bullish momentum. The crypto market is also reacting positively to increased venture capital funding and institutional inflows into Bitcoin ETFs. However, upcoming ETH ETF decisions and Nvidia earnings introduce an element of uncertainty. Regulatory developments, particularly concerning Ether ETFs, are a major focus for short-term price action.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Potential for negative regulatory decisions on ETH ETFs.",
+      "Unforeseen macroeconomic data impacting risk asset sentiment.",
+      "Increased transaction fees post-halving could deter retail users.",
+      "Volatility from Nvidia earnings impacting broader tech and crypto markets."
+    ],
+    "watch_items": [
+      "ETH ETF decision timelines",
+      "Nvidia earnings report and guidance",
+      "US inflation data releases",
+      "Flows into spot Bitcoin ETFs",
+      "Miner profitability and hash rate trends"
+    ]
+  }
+}

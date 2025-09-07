@@ -1,0 +1,488 @@
+{
+  "date": "2020-10-10",
+  "long_term": [
+    {
+      "pick_idx": 23,
+      "id": "n627225729884",
+      "title": "Blockchain Bites: MicroStrategy’s BTC Buy, Bitmain’s Power Struggle, Paxful’s Goodbye",
+      "url": "https://www.coindesk.com/blockchain-bites-microstrategy-btc-buy-bitmain-power-struggle-paxfuls-goodbye",
+      "summary": "MicroStrategy, a business intelligence company, announced it may increase its BTC holdings beyond its initial $250 million purchase in August. This move, followed by an additional $175 million BTC acquisition, significantly converted its cash reserves into Bitcoin. This institutional adoption signals growing confidence in Bitcoin as a treasury asset, potentially influencing other corporations to follow suit and increasing demand over the long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_treasury",
+        "corporate_bitcoin_adoption"
+      ],
+      "rationale": "MicroStrategy's substantial investment in Bitcoin demonstrates strong institutional conviction. This adoption by a publicly traded company can pave the way for broader corporate treasury diversification into Bitcoin, driving long-term demand and price appreciation."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n09ead3d8d78e",
+      "title": "Square Puts 1% of Total Assets in Bitcoin in Surprise $50M Investment",
+      "url": "https://www.coindesk.com/square-puts-1-total-assets-bitcoin-surprise-50m-investment",
+      "summary": "Square, the payments company led by Jack Dorsey, announced a $50 million investment in Bitcoin, representing 1% of its total assets. The company cited Bitcoin's potential for economic empowerment and participation in a global monetary system. This significant corporate purchase by a major fintech player validates Bitcoin as a legitimate asset and can encourage further institutional adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Square_BTC_investment",
+        "fintech_adoption_BTC"
+      ],
+      "rationale": "Square's direct investment in Bitcoin signals a growing acceptance of the cryptocurrency by mainstream financial technology companies. This move can attract more institutional capital and bolster confidence in Bitcoin's long-term viability."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n66cd7b7cba89",
+      "title": "Bitcoin Supply on Ethereum Tops $1B",
+      "url": "https://www.coindesk.com/bitcoin-supply-ethereum-tops-1b",
+      "summary": "Over $1 billion worth of Bitcoin has been tokenized on the Ethereum network, with Wrapped Bitcoin (WBTC) accounting for over 65% of this supply. This significant increase in tokenized Bitcoin on Ethereum highlights the growing utility of Bitcoin within the DeFi ecosystem and its increasing interoperability with other blockchain networks. This trend suggests a deeper integration of Bitcoin into the broader digital asset landscape.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "tokenized_BTC_on_ETH",
+        "WBTC_supply_growth",
+        "BTC_DeFi_integration"
+      ],
+      "rationale": "The increasing tokenization of Bitcoin on Ethereum signifies its growing utility within the DeFi space. This integration enhances Bitcoin's accessibility and use cases, potentially driving demand and adoption."
+    },
+    {
+      "pick_idx": 9,
+      "id": "ne5560c090765",
+      "title": "Ethereum miners generated all-time high fee revenue of $17 million yesterday",
+      "url": "https://finance.yahoo.com/news/ethereum-miners-generated-time-high-084458364.html",
+      "summary": "Ethereum miners generated a record $17 million in fees on September 1st, significantly outpacing Bitcoin miners. This surge in fees is attributed to the booming Decentralized Finance (DeFi) sector, which has led to increased network activity and higher transaction costs on Ethereum. The sustained high demand for Ethereum's network services, driven by DeFi, indicates a robust and growing ecosystem that could eventually benefit Bitcoin through increased adoption and innovation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "DeFi",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_miner_revenue_ATH",
+        "DeFi_gas_fees_surge"
+      ],
+      "rationale": "Record Ethereum miner fees, driven by DeFi, showcase the network's utility and demand. This success can indirectly benefit Bitcoin by demonstrating the potential of blockchain technology and attracting more users and developers to the crypto space."
+    },
+    {
+      "pick_idx": 32,
+      "id": "nfdf1b64d8291",
+      "title": "Miners’ Bitcoin Holdings Reach Two-Year High to Almost 2M",
+      "url": "https://www.coindesk.com/miners-bitcoin-holdings-reach-two-year-high-almost-2m",
+      "summary": "Bitcoin miners are holding more BTC than at any point in the past two years, signaling increased bullishness. Aggregate holdings have increased notably, suggesting miners are less inclined to sell their mined Bitcoin, potentially due to anticipation of higher future prices. This accumulation by miners can reduce the circulating supply available for sale, creating upward price pressure.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "adoption"
+      ],
+      "features_for_model": [
+        "miner_BTC_accumulation",
+        "reduced_circulating_supply"
+      ],
+      "rationale": "Miners accumulating Bitcoin to two-year highs suggests confidence in future price appreciation. This reduced selling pressure from miners can contribute to a more stable and upward price trend."
+    },
+    {
+      "pick_idx": 22,
+      "id": "na091d49a85d6",
+      "title": "Discrete Log Contracts Are Bringing Private, ‘Scriptless’ Smart Contracts to Bitcoin",
+      "url": "https://www.coindesk.com/discrete-log-contracts-bringing-private-scriptless-smart-contracts-bitcoin",
+      "summary": "The development of discrete log contracts (DLCs) is making private, 'scriptless' smart contracts feasible on Bitcoin. This advancement, enabled by technical progress in 'scriptless-scripts', enhances Bitcoin's smart contract capabilities without compromising privacy. The ability to execute more sophisticated and private smart contracts on Bitcoin could broaden its use cases and appeal.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "DLC_on_Bitcoin",
+        "scriptless_scripts_advancement",
+        "Bitcoin_smart_contract_enhancement"
+      ],
+      "rationale": "The introduction of DLCs enhances Bitcoin's smart contract functionality, making them more private and versatile. This development could unlock new applications and increase Bitcoin's utility beyond a simple store of value."
+    },
+    {
+      "pick_idx": 46,
+      "id": "nc63f3a78e9c7",
+      "title": "Writing Bitcoin Smart Contracts Is About to Get Easier With New Coding Language",
+      "url": "https://www.coindesk.com/writing-bitcoin-smart-contracts-easier-new-coding-language",
+      "summary": "A new programming language called Minsc is being developed to simplify the creation of Bitcoin smart contracts. Created by Bitcoin developer Nadav Ivgi, Minsc aims to make smart contracts more accessible to a wider range of developers. This initiative could lead to more innovative applications being built on Bitcoin, thereby increasing its adoption and utility.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Minsc_coding_language",
+        "easier_BTC_smart_contracts"
+      ],
+      "rationale": "The development of user-friendly tools for Bitcoin smart contracts can accelerate innovation and adoption. Easier development could lead to a wider range of applications and services built on the Bitcoin network."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nb1f11aef71b9",
+      "title": "Blockchain Bites: Bitcoin’s Steep Sell-Off, Pornhub’s Crypto Payments, Twitter’s Latest Hack",
+      "url": "https://www.coindesk.com/blockchain-bites-bitcoins-steep-sell-off-pornhubs-crypto-payments-twitters-latest-hack",
+      "summary": "Pornhub's decision to accept Bitcoin and Litecoin payments for its premium product represents a notable instance of mainstream adoption for cryptocurrencies in online services. While the article also mentions other events, this payment integration by a large platform demonstrates a tangible use case and can encourage other businesses to explore crypto payment solutions, fostering broader adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Pornhub_crypto_payments",
+        "mainstream_payment_adoption"
+      ],
+      "rationale": "Pornhub's adoption of crypto payments is a small but significant step towards mainstream acceptance. Such integrations by well-known platforms can normalize crypto payments and encourage wider adoption by consumers and businesses."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n1bdc4ced530c",
+      "title": "Alias: Privacy Has a New Name",
+      "url": "https://www.accesswire.com/alias-privacy-name-070000840.html",
+      "summary": "The rebranding of Spectrecoin to Alias signifies a renewed focus on privacy and proof-of-stake technology. The announcement highlights the challenges privacy-focused projects face due to regulatory pressures and delistings from exchanges. The project's continued development and emphasis on privacy rights are important for the broader crypto ecosystem, as it pushes back against increasing governmental scrutiny on digital privacy.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "protocol"
+      ],
+      "features_for_model": [
+        "privacy_coin_rebrand",
+        "regulatory_pressure_on_privacy"
+      ],
+      "rationale": "While the focus on privacy is a long-term positive for a segment of the crypto market, regulatory headwinds create uncertainty. The success of such projects will depend on their ability to navigate evolving regulations."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nf299ddc7917e",
+      "title": "Against the Odds, Some Bitcoin Traders Are Betting on a $36K Price by Year’s End",
+      "url": "https://www.coindesk.com/against-odds-bitcoin-traders-betting-36k-price-years-end",
+      "summary": "Deribit exchange is seeing increased interest in Bitcoin options with strike prices as high as $36,000 expiring by the end of 2020. This indicates a segment of sophisticated traders are anticipating a significant bullish move. While these are options and not direct purchases, the sentiment reflected in the options market can influence price action and signal potential future trends.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "derivatives",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_options_high_strike",
+        "bullish_derivatives_sentiment"
+      ],
+      "rationale": "Significant activity in high-strike Bitcoin options suggests a bullish outlook among some traders. This sentiment, if it translates into actual buying pressure, could contribute to price appreciation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n031f3798ef75",
+      "title": "Bitcoin Nears $11.5K on US Stimulus Prospects, Seems to Confirm Bullish Trend",
+      "url": "https://www.coindesk.com/bitcoin-nears-11-5k-us-stimulus-prospects-seems-confirm-bullish-trend",
+      "summary": "Bitcoin prices are approaching $11,500, driven by optimism surrounding a potential US stimulus package. The White House's increased offer to Democrats is seen as a positive catalyst. A new stimulus round could benefit Bitcoin through increased government spending and central bank liquidity, potentially boosting its price in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "stimulus"
+      ],
+      "features_for_model": [
+        "BTC_price_stimulus_optimism",
+        "US_stimulus_package_deal"
+      ],
+      "rationale": "Positive sentiment around a US stimulus package is driving Bitcoin higher. This macro catalyst is likely to provide a short-term boost to BTC prices as liquidity increases."
+    },
+    {
+      "pick_idx": 10,
+      "id": "ndf20cebfb4ed",
+      "title": "The Crypto Daily – Movers and Shakers – October 10th, 2020",
+      "url": "https://www.fxempire.com/news/the-crypto-daily-movers-and-shakers-october-10th-2020",
+      "summary": "Bitcoin closed above $11,000 for the first time since September 20th. Despite an initial bearish start to the day, Bitcoin rallied and broke through resistance levels. The near-term bullish trend remains intact, indicating continued positive momentum in the immediate future.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_close_above_11k",
+        "bullish_trend_continuation"
+      ],
+      "rationale": "Bitcoin's ability to close above $11,000 and break resistance levels suggests sustained bullish momentum in the very short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n031f3798ef75",
+      "title": "Bitcoin Nears $11.5K on US Stimulus Prospects, Seems to Confirm Bullish Trend",
+      "url": "https://www.coindesk.com/bitcoin-nears-11-5k-us-stimulus-prospects-seems-confirm-bullish-trend",
+      "summary": "Bitcoin's price is nearing $11,500, bolstered by optimism for a US stimulus package. The White House's increased offer to Democrats is a key driver. This development suggests a potential for increased liquidity and economic stimulus, which historically benefits risk assets like Bitcoin.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "macro",
+        "stimulus"
+      ],
+      "features_for_model": [
+        "BTC_price_stimulus_deal_prospects",
+        "US_stimulus_package_boost"
+      ],
+      "rationale": "The prospect of a US stimulus package is a strong short-term bullish catalyst for Bitcoin, potentially pushing prices towards $11.5K."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n09ff3b187f3b",
+      "title": "Pelosi Rejects, Senate GOP Bridles at White House’s $1.8T Stimulus Offer: Reports",
+      "url": "https://www.coindesk.com/pelosi-rejects-white-house-1-8t-stimulus-offer-reports",
+      "summary": "House Speaker Nancy Pelosi rejected the White House's $1.8 trillion stimulus offer, citing insufficient provisions for testing, safety, and childcare. Meanwhile, some Senate Republicans are reportedly opposed to a large stimulus package. This political deadlock creates uncertainty around the timing and size of a potential stimulus, which could dampen immediate bullish sentiment for risk assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "stimulus",
+        "regulation"
+      ],
+      "features_for_model": [
+        "stimulus_negotiation_stalemate",
+        "US_fiscal_policy_uncertainty"
+      ],
+      "rationale": "The ongoing political wrangling over the stimulus package introduces uncertainty, which could temper the immediate bullish impact on Bitcoin, creating potential for short-term volatility."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n160950af6b18",
+      "title": "A Regulatory Reckoning for the Crypto Industry?",
+      "url": "https://www.coindesk.com/regulatory-reckoning-crypto-industry",
+      "summary": "The crypto industry is facing increased regulatory scrutiny with actions against BitMEX, a UK derivative ban, and new DOJ enforcement frameworks. This heightened regulatory environment could lead to increased compliance costs and potential market disruptions, impacting trading volumes and investor sentiment in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "crypto_regulatory_crackdown",
+        "BitMEX_enforcement",
+        "UK_derivatives_ban"
+      ],
+      "rationale": "Increased regulatory actions and uncertainty, such as those against BitMEX and the UK's derivative ban, can create short-term bearish pressure and volatility as the market digests the implications."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nd7830c7c1488",
+      "title": "SEC Will Be Forced to Give Crypto Guidance Despite Bureaucracy, Risk-Avoidance: Peirce",
+      "url": "https://www.coindesk.com/sec-forced-more-guidance-crypto-peirce",
+      "summary": "SEC Commissioner Hester Peirce believes increased interest in crypto will force the SEC to provide more guidance. While this is a positive long-term development, the slow pace of regulatory clarity can create short-term uncertainty and hinder adoption. The market will be watching for any concrete steps towards clearer regulations.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 5,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_crypto_guidance_demand",
+        "regulatory_clarity_uncertainty"
+      ],
+      "rationale": "The SEC's slow approach to crypto guidance creates short-term uncertainty. While Peirce's comments suggest future clarity, the immediate impact is neutral to slightly bearish due to the lack of concrete action."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n8e5d0de423f2",
+      "title": "Bitcoin transaction values and fees grew in 2020’s third quarter",
+      "url": "https://www.theblockcrypto.com/linked/817070/bitcoin-transaction-values-fees-grew-third-quarter",
+      "summary": "Bitcoin's third-quarter report shows a 25% increase in transaction value ($225B) and an 88% gain in miner fee revenue compared to Q2. This indicates increased network usage and demand for block space. Higher fees can incentivize miners and potentially lead to more secure block production, a positive sign for network health.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_Q3_transaction_value",
+        "BTC_miner_fee_growth",
+        "network_usage_increase"
+      ],
+      "rationale": "Increased transaction values and miner fees in Q3 suggest growing network activity and demand for block space, which is a positive indicator for Bitcoin's utility and health."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n5fac5be28efa",
+      "title": "Bitcoin transaction values and fees grew in 2020’s third quarter",
+      "url": "https://www.theblockcrypto.com/linked/817070/bitcoin-transaction-values-fees-grew-third-quarter",
+      "summary": "The Bitcoin network saw a 25% increase in transaction value and an 88% rise in miner fee revenue in Q3 2020. This growth in network activity and fees suggests increased demand for Bitcoin transactions, which can be a bullish signal for price and network security.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_Q3_transaction_volume",
+        "BTC_miner_fee_revenue_increase"
+      ],
+      "rationale": "The growth in Bitcoin's transaction value and fees during Q3 indicates increased network utilization, a positive sign for its utility and potential price appreciation."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n160950af6b18",
+      "title": "A Regulatory Reckoning for the Crypto Industry?",
+      "url": "https://www.coindesk.com/regulatory-reckoning-crypto-industry",
+      "summary": "The crypto industry is facing a wave of regulatory actions, including the BitMEX case and the UK's ban on crypto derivatives for retail investors. These developments signal a tightening regulatory environment, which could lead to increased volatility and caution among traders in the short term.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 2,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "crypto_regulation_increase",
+        "BitMEX_legal_action",
+        "UK_crypto_derivatives_ban"
+      ],
+      "rationale": "Heightened regulatory scrutiny and enforcement actions against major crypto entities can create short-term uncertainty and a bearish sentiment in the market."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3729a32881e5",
+      "title": "Benzinga's Bulls And Bears Of The Week: AT&T, Apple, Tesla And More",
+      "url": "https://www.benzinga.com/analysis/20/10/170917377/benzingas-bulls-and-bears-of-the-week-at-t-apple-tesla-and-more",
+      "summary": "The broader market, including the Nasdaq, saw gains despite volatility related to presidential tweets and the COVID-19 response. While this article focuses on traditional stocks, the general market sentiment and macroeconomic factors (like stimulus talks) indirectly influence Bitcoin's price action.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "US_equity_market_performance",
+        "macroeconomic_volatility"
+      ],
+      "rationale": "The general market sentiment is mixed, with gains in major indices but ongoing volatility from macro factors. This creates an uncertain short-term outlook for Bitcoin, which often correlates with broader risk assets."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-10-10",
+    "summary": "Bitcoin is showing strong bullish momentum, nearing $11.5K, primarily driven by optimism surrounding a potential US stimulus package. This macro catalyst is expected to provide a short-term boost. However, ongoing political deadlock in stimulus negotiations and increasing regulatory scrutiny across the crypto industry introduce elements of uncertainty and potential bearish pressure. Network activity, as indicated by transaction values and fees, remains robust, supporting a generally positive outlook.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "Failure to reach a US stimulus agreement could dampen market sentiment.",
+      "Increased regulatory actions and enforcement could lead to short-term price corrections.",
+      "Geopolitical events or unexpected macro shocks could impact risk assets.",
+      "Potential for profit-taking after recent price rallies."
+    ],
+    "watch_items": [
+      "US stimulus negotiations progress.",
+      "SEC and DOJ regulatory announcements.",
+      "Key resistance/support levels for BTC ($11,500, $10,666).",
+      "DeFi sector performance and Ethereum gas fees.",
+      "Institutional adoption announcements."
+    ]
+  }
+}

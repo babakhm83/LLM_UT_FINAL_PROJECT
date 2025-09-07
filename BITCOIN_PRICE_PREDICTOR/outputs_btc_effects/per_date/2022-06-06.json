@@ -1,0 +1,502 @@
+{
+  "date": "2022-06-06",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nb21705b013a0",
+      "title": "First Mover Americas: BTC Dominance Reaches 7-Month Highs, Alts Suffer",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-btc-dominance-132952948.html",
+      "summary": "Bitcoin's dominance over altcoins reached a seven-month high in late May 2022, a level not seen since October 2021. This trend suggests a potential flight to safety within the crypto market, with investors favoring Bitcoin over more volatile altcoins. This shift in dominance can indicate a broader market sentiment where Bitcoin is perceived as a more stable store of value during periods of uncertainty, impacting the performance and capital allocation towards other digital assets.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "market_sentiment",
+        "altcoin_performance"
+      ],
+      "features_for_model": [
+        "BTC_dominance_high",
+        "altcoin_selloff"
+      ],
+      "rationale": "A sustained high BTC dominance indicates a risk-off sentiment in the broader crypto market, potentially leading to further price consolidation or decline for altcoins. This suggests a preference for Bitcoin as a relatively safer asset within the crypto space."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n17142f39915f",
+      "title": "Dow plummets more than 1,100 points as US stocks crater on growing fears of a recession following weak results from retail giants",
+      "url": "https://finance.yahoo.com/news/dow-plummets-more-1-100-200736089.html",
+      "summary": "The Dow Jones Industrial Average experienced a significant drop of over 1,100 points due to heightened recession fears, triggered by weak earnings from major retailers like Target. This broad market sell-off, driven by concerns over inflation and economic slowdown, directly impacts risk assets. As Bitcoin has shown increasing correlation with traditional markets, particularly tech stocks, such macroeconomic downturns pose a substantial downside risk to its price.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "recession_fears",
+        "stock_market_correlation"
+      ],
+      "features_for_model": [
+        "macroeconomic_downturn",
+        "recession_risk",
+        "stock_market_crash"
+      ],
+      "rationale": "The sharp decline in major stock indices due to recession fears signals a broader risk-off environment. Given Bitcoin's increasing correlation with equities, this macroeconomic trend is a significant bearish indicator for its price."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n42f5fba81eef",
+      "title": "BTC Tracks Nasdaq as Crypto Faces Its First Recession",
+      "url": "https://finance.yahoo.com/news/btc-tracks-nasdaq-crypto-faces-192211116.html",
+      "summary": "The article highlights Bitcoin's strong correlation (over 0.9) with the Nasdaq index since April 2022, indicating that crypto is increasingly tracking traditional stock market movements. As economists suggest the world might be on the cusp of its first recession since 2008, this correlation implies that Bitcoin's performance will be heavily influenced by the broader economic downturn. This suggests that any recessionary pressures impacting tech stocks will likely translate to similar pressures on Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "stock_market_correlation",
+        "recession"
+      ],
+      "features_for_model": [
+        "BTC_Nasdaq_correlation",
+        "global_recession_risk"
+      ],
+      "rationale": "The strong correlation between Bitcoin and the Nasdaq, coupled with growing recession fears, suggests that Bitcoin is highly susceptible to macroeconomic headwinds. A global recession would likely lead to a significant downturn in Bitcoin's price."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n8364dddbef83",
+      "title": "Crypto Market Daily Highlights – May 3",
+      "url": "https://finance.yahoo.com/news/crypto-market-daily-highlights-may-132401162.html",
+      "summary": "This report from early May 2022 notes lingering regulatory risks, with the SEC expanding its Crypto Assets and Cyber Unit, and industry leaders responding to lawmaker concerns over Bitcoin mining. Regulatory scrutiny and potential new regulations can create uncertainty and negatively impact investor sentiment and adoption, potentially leading to price volatility and reduced liquidity. The focus on mining's environmental impact also signals potential future regulatory actions.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "miner",
+        "uncertainty"
+      ],
+      "features_for_model": [
+        "SEC_regulatory_expansion",
+        "lawmaker_scrutiny_mining",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "Increased regulatory attention and potential enforcement actions from bodies like the SEC can create significant uncertainty in the crypto market. Concerns over Bitcoin mining's environmental impact also point to potential future regulatory hurdles."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n2ccaaa0d186b",
+      "title": "Finland Plans to Donate Seized Bitcoins to Help Ukraine: Report",
+      "url": "https://finance.yahoo.com/news/finland-plans-donate-seized-bitcoins-213627246.html",
+      "summary": "Finland is reportedly planning to donate seized Bitcoin, potentially worth up to 73 million euros, to Ukraine. While the direct impact on Bitcoin's price might be limited, this event highlights the increasing use of Bitcoin in geopolitical contexts and for humanitarian aid. It also signals a growing acceptance of Bitcoin as a transferable asset, even when seized from illicit activities, which could have long-term implications for its perceived legitimacy and utility.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "geopolitical",
+        "regulation"
+      ],
+      "features_for_model": [
+        "seized_BTC_donation",
+        "BTC_geopolitical_use",
+        "Ukraine_aid"
+      ],
+      "rationale": "The donation of seized Bitcoin for humanitarian aid, while a small amount, contributes to the narrative of Bitcoin's utility beyond speculation. It can foster positive sentiment and demonstrate its role in global events, potentially increasing long-term adoption."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n7be3ba5da0f7",
+      "title": "Tesla, Block and Blockstream to mine bitcoin off solar power in Texas",
+      "url": "https://finance.yahoo.com/news/tesla-block-blockstream-mine-bitcoin-153112861.html",
+      "summary": "Tesla, Block, and Blockstream are collaborating to mine Bitcoin using solar power in Texas. This initiative, leveraging Tesla's Megapack batteries for solar energy, addresses environmental concerns surrounding Bitcoin mining. Such partnerships signal a growing trend towards sustainable mining practices, which could improve Bitcoin's public image and potentially mitigate regulatory risks associated with energy consumption. This could attract more institutional interest and support long-term price appreciation.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "regulation",
+        "miner"
+      ],
+      "features_for_model": [
+        "solar_powered_mining",
+        "Tesla_mining_partnership",
+        "sustainable_mining"
+      ],
+      "rationale": "This collaboration promotes sustainable Bitcoin mining, addressing a key environmental concern. It demonstrates significant corporate backing for greener mining operations, which could lead to improved public perception and reduced regulatory pressure."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n4df031ba5d98",
+      "title": "Cryptoverse: Will you grow old with bitcoin?",
+      "url": "https://finance.yahoo.com/news/cryptoverse-grow-old-bitcoin-052001625.html",
+      "summary": "The article suggests a growing trend of older Americans (aged 18-60) engaging with cryptocurrencies for retirement funding, with older demographics showing more devotion to the asset class. This indicates an expanding user base and potential for increased long-term demand as more individuals, including those in retirement planning stages, adopt Bitcoin. This broader adoption across age groups can contribute to market stability and growth.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "retirement_planning"
+      ],
+      "features_for_model": [
+        "retirement_adoption",
+        "demographic_expansion",
+        "long_term_demand"
+      ],
+      "rationale": "The increasing adoption of Bitcoin for retirement planning by a wider demographic suggests a maturing market and growing long-term demand. This trend indicates a shift towards Bitcoin as a potential store of value for wealth preservation."
+    },
+    {
+      "pick_idx": 32,
+      "id": "nf99da90226ae",
+      "title": "Stock Market Today: Rate-Hike Rumblings Rattle the Stock Market",
+      "url": "https://finance.yahoo.com/news/stock-market-today-rate-hike-201504094.html",
+      "summary": "Federal Reserve Chair Jerome Powell signaled a potential for faster and larger interest rate hikes, with a 50 basis point hike being on the table for the May meeting. This hawkish stance from the Fed aims to combat inflation but increases the risk of an economic slowdown or recession. Higher interest rates generally make riskier assets, including cryptocurrencies, less attractive as borrowing costs rise and safer investments like bonds become more appealing.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "interest_rates",
+        "inflation"
+      ],
+      "features_for_model": [
+        "hawkish_fed",
+        "interest_rate_hikes",
+        "inflation_control"
+      ],
+      "rationale": "Aggressive interest rate hikes by the Federal Reserve are a significant macroeconomic headwind for risk assets like Bitcoin. This policy tightening increases borrowing costs and can lead to reduced liquidity and investment in speculative assets."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n2053f0b8f40e",
+      "title": "Hawkish Fedspeak keeps dollar king, yen slumps to 20-year low",
+      "url": "https://finance.yahoo.com/news/hawkish-fedspeak-keeps-dollar-king-031105350.html",
+      "summary": "Hawkish comments from Federal Reserve officials reinforced expectations for faster U.S. policy tightening, leading to a stronger dollar against major currencies like the yen and euro. A strong dollar can sometimes correlate with weaker commodity and risk asset prices, including Bitcoin, as it increases the cost of dollar-denominated assets for holders of other currencies. This trend suggests a tightening global liquidity environment.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "currency_strength",
+        "interest_rates"
+      ],
+      "features_for_model": [
+        "strong_USD",
+        "hawkish_fedspeak",
+        "tightening_liquidity"
+      ],
+      "rationale": "A strengthening US dollar, driven by hawkish Fed policy, often acts as a headwind for risk assets like Bitcoin. This indicates a global trend of tightening monetary conditions, which can reduce capital flows into speculative markets."
+    },
+    {
+      "pick_idx": 46,
+      "id": "ncded91fef5f2",
+      "title": "Bitcoin 2022 Exclusive: Building Symbiotic Relationships Between Old And New Finance",
+      "url": "https://finance.yahoo.com/news/bitcoin-2022-exclusive-building-symbiotic-121627964.html",
+      "summary": "This article from April 2022 discusses the ongoing efforts to bridge traditional finance (TradFi) with the digital asset space, as highlighted at the Bitcoin 2022 conference. The focus on building symbiotic relationships suggests increasing institutional interest and integration of blockchain technology into existing financial systems. This trend, if sustained, could lead to greater adoption, improved infrastructure, and more robust market participation over the long term.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure",
+        "fintech"
+      ],
+      "features_for_model": [
+        "TradFi_integration",
+        "institutional_adoption",
+        "fintech_symbiosis"
+      ],
+      "rationale": "The ongoing efforts to integrate traditional finance with the crypto space, as discussed at major industry events, signal increasing institutional acceptance and development of infrastructure. This trend points towards greater legitimacy and potential for long-term growth."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n3467778ba3e2",
+      "title": "Bitcoin gains over 5% to $31,441.76",
+      "url": "https://finance.yahoo.com/news/bitcoin-gains-over-5-31-200103683.html",
+      "summary": "Bitcoin experienced a notable price increase of over 5% on June 6, 2022, reaching $31,441.76. This gain represents a positive short-term price movement, breaking a potential streak of declines. The increase suggests a temporary shift in market sentiment or a technical bounce, which could influence trading activity in the immediate days ahead.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_increase",
+        "short_term_rally"
+      ],
+      "rationale": "A significant daily price increase of over 5% indicates positive short-term momentum and could lead to further upward price action in the immediate trading sessions."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n574d913ef19d",
+      "title": "Bitcoin and ETH Signal Bullish Breakout, ADA Aims Fresh Surge",
+      "url": "https://finance.yahoo.com/news/bitcoin-eth-signal-bullish-breakout-150407828.html",
+      "summary": "Bitcoin showed signs of a recovery wave, breaking above key resistance levels at $30,200 and $30,800, and settling above $31,000. This technical breakout suggests potential for further upward movement in the short term. The article also notes Ether and ADA showing bullish signals, indicating a potential broader market recovery or positive sentiment across major cryptocurrencies.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_bullish_breakout",
+        "ETH_recovery",
+        "ADA_surge_potential"
+      ],
+      "rationale": "Technical indicators suggest a bullish breakout for Bitcoin, with price action breaking key resistance levels. This could lead to continued positive momentum in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n63d01c582308",
+      "title": "Bitcoin Funds Rake In New Money as Altcoin Funds Suffer",
+      "url": "https://finance.yahoo.com/news/bitcoin-funds-rake-money-altcoin-195208377.html",
+      "summary": "Bitcoin investment funds experienced inflows for the second consecutive week, netting $125.9 million in the week ending June 3. This contrasts with altcoin funds, which suffered outflows. This trend indicates a preference for Bitcoin among institutional investors, suggesting a potential flight to perceived safety within the crypto market. Increased inflows can support price stability and potentially drive short-term gains.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_fund_inflows",
+        "altcoin_fund_outflows",
+        "institutional_preference"
+      ],
+      "rationale": "Significant inflows into Bitcoin funds, while altcoin funds see outflows, suggest a short-term rotation into Bitcoin. This increased demand can provide upward price pressure."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n5914e21d9444",
+      "title": "RETRANSMISSION: HIVE Blockchain Provides May 2022 Production Update",
+      "url": "https://finance.yahoo.com/news/retransmission-hive-blockchain-provides-may-100000116.html",
+      "summary": "HIVE Blockchain reported its May 2022 production figures, holding a significant balance of 3,186 Bitcoin. The company's consistent production and HODLing strategy indicate a commitment to accumulating Bitcoin. While this is a company-specific update, it contributes to the overall narrative of miners holding onto their mined assets, potentially reducing sell pressure and supporting prices. This can be seen as a positive signal for market stability.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "HIVE_BTC_production",
+        "miner_HODL_strategy"
+      ],
+      "rationale": "Miners holding onto their mined Bitcoin reduces immediate sell pressure. HIVE's consistent production and HODL strategy contribute to this sentiment, potentially supporting short-term price stability."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n39ff22bfceda",
+      "title": "Bitcoin extends its 3-day gain above $31,000 as crypto investors flee more volatile altcoins",
+      "url": "https://finance.yahoo.com/news/bitcoin-extends-3-day-gain-193749646.html",
+      "summary": "Bitcoin has extended its gains for a third consecutive day, surpassing $31,000. This rally is attributed to crypto investors moving away from more volatile altcoins. This trend, supported by institutional inflows, suggests a short-term rotation into Bitcoin as a relatively safer asset within the crypto market. The sustained upward momentum indicates positive sentiment and potential for further price appreciation in the near term.",
+      "impact_horizon_days": 4,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "price_action",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_3_day_gain",
+        "altcoin_flight",
+        "institutional_inflows"
+      ],
+      "rationale": "Bitcoin's extended multi-day gain, driven by investors fleeing altcoins, signals a short-term bullish trend and increased demand for Bitcoin as a safer haven within crypto."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n39b9ec6e4581",
+      "title": "Previewing the Regulatory Panels at Consensus 2022",
+      "url": "https://finance.yahoo.com/news/previewing-regulatory-panels-consensus-2022-153000840.html",
+      "summary": "The upcoming Consensus 2022 conference features significant regulatory and lawmaker participation, indicating a focus on the evolving regulatory landscape for cryptocurrencies. Discussions around regulation can influence market sentiment and investor confidence. Positive or clear regulatory frameworks could be bullish, while uncertainty or restrictive measures could be bearish. The presence of these discussions suggests potential near-term catalysts for price movement based on regulatory developments.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "event"
+      ],
+      "features_for_model": [
+        "Consensus_2022_regulation",
+        "regulatory_discussion"
+      ],
+      "rationale": "The focus on regulatory panels at Consensus 2022 suggests that news and sentiment from these discussions could impact the market in the short term. The outcome of these discussions remains uncertain, leading to a mixed outlook."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nb94233c97b29",
+      "title": "Crypto Miner Hut 8 Bucks Trend by ‘Hodling’ Its Mined Bitcoins",
+      "url": "https://finance.yahoo.com/news/crypto-miner-hut-8-bucks-144253177.html",
+      "summary": "Hut 8, a Canadian crypto miner, is continuing its strategy of holding all mined Bitcoins, even as other miners sell to cover expenses. The company mined 309 BTC in May, with all of it deposited into custody. This 'HODL' strategy reduces immediate sell pressure on Bitcoin from miners. Consistent accumulation by miners can contribute to market stability and potentially support prices in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Hut_8_HODL",
+        "miner_sell_pressure_reduction"
+      ],
+      "rationale": "Hut 8's decision to hold all mined Bitcoin reduces potential sell pressure from miners, which can be a positive factor for short-term price stability."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n874776497f1d",
+      "title": "NY bill aims to limit crypto miners using fossil fuel-generated power",
+      "url": "https://finance.yahoo.com/news/ny-bill-aims-limit-crypto-203944921.html",
+      "summary": "New York's State Legislature passed a bill that would impose a two-year moratorium on using fossil-fuel power plants for cryptocurrency mining. Governor Kathy Hochul has not yet decided whether to sign it. If enacted, this could impact mining operations in the state, potentially leading to relocation or increased costs for miners relying on such energy sources. This regulatory development could create short-term uncertainty and affect mining profitability.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "miner"
+      ],
+      "features_for_model": [
+        "NY_mining_moratorium",
+        "fossil_fuel_ban",
+        "regulatory_uncertainty_mining"
+      ],
+      "rationale": "The potential moratorium on fossil-fuel-powered mining in New York introduces regulatory uncertainty. The outcome of the governor's decision could influence mining operations and sentiment in the short term."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n6d81ae67964d",
+      "title": "Bitcoin Bounces Above $27K-$30K Support Zone; Resistance at $33K-$35K",
+      "url": "https://finance.yahoo.com/news/bitcoin-bounces-above-27k-30k-183229431.html",
+      "summary": "Bitcoin has experienced a relief bounce, holding support above $27,000 and $30,000. The cryptocurrency is up 4% in the past 24 hours, suggesting a stabilization of the price range. This bounce indicates short-term buying interest and a potential pause in the downtrend. However, resistance remains at $33K-$35K, suggesting that the overall bearish trend might persist unless these levels are decisively broken.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "price_action",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "BTC_support_hold",
+        "short_term_bounce",
+        "resistance_levels"
+      ],
+      "rationale": "Bitcoin's bounce above key support levels indicates a short-term positive price movement. This could lead to further gains if resistance levels are overcome, but the overall trend remains uncertain."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n8cce067fcec6",
+      "title": "Crypto investors are ditching other tokens for Bitcoin",
+      "url": "https://finance.yahoo.com/news/crypto-investors-ditching-tokens-for-bitcoin-201812266.html",
+      "summary": "Since early May, crypto investors have been selling altcoins and buying Bitcoin, increasing its market dominance to 47.3%, the highest since July 2021. This trend suggests a flight to safety within the crypto market, with Bitcoin being perceived as a more stable asset. This increased demand and dominance for Bitcoin could support its price in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_dominance_increase",
+        "altcoin_selloff",
+        "flight_to_safety"
+      ],
+      "rationale": "The shift of investor capital from altcoins to Bitcoin, increasing its market dominance, indicates a short-term bullish sentiment for BTC as investors seek perceived safety."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-06-06",
+    "summary": "Bitcoin showed a positive trend today, gaining over 5% and breaking above key resistance levels, driven by investors rotating out of more volatile altcoins. This is supported by continued inflows into Bitcoin funds, signaling institutional preference. However, broader macroeconomic concerns, including recession fears and potential interest rate hikes, continue to cast a shadow. Regulatory developments, such as the New York mining moratorium bill, introduce short-term uncertainty. Overall, the short-term sentiment appears cautiously optimistic for Bitcoin due to these inflows and price action, but long-term headwinds from macroeconomics and regulation persist.",
+    "scenario_probs": {
+      "bull": 0.5,
+      "base": 0.3,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Persistent inflation and aggressive Fed rate hikes could trigger a broader market downturn.",
+      "Regulatory uncertainty, particularly regarding mining and potential enforcement actions, could dampen sentiment.",
+      "Correlation with traditional markets means any significant equity sell-off could drag Bitcoin down.",
+      "Altcoin underperformance could signal a lack of broad market participation, limiting Bitcoin's upside."
+    ],
+    "watch_items": [
+      "US CPI data release (upcoming)",
+      "Federal Reserve statements on monetary policy",
+      "Consensus 2022 conference discussions on regulation",
+      "Performance of major tech stocks (e.g., Nasdaq components)",
+      "New York Governor's decision on the mining moratorium bill"
+    ]
+  }
+}

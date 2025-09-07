@@ -1,0 +1,483 @@
+{
+  "date": "2018-02-24",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "nb601c6fc7e24",
+      "title": "Bitcoin Prices Rebound Following Possibly the Largest Cryptocurrency Hack Yet",
+      "url": "https://finance.yahoo.com/news/bitcoin-prices-rebound-following-possibly-185403518.html",
+      "summary": "Japanese cryptocurrency exchange Coincheck confirmed a hack resulting in the loss of approximately $524 million worth of NEM coins. This event, potentially the largest exchange hack to date, surpassing Mt. Gox in 2014, caused significant investor sell-offs and market jitters. The scale of the loss highlights the security risks inherent in centralized exchanges and the need for robust security measures within the crypto ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coincheck_hack",
+        "exchange_security_breach",
+        "NEM_loss",
+        "market_volatility"
+      ],
+      "rationale": "The Coincheck hack represents a significant security failure in a major exchange, eroding trust and potentially leading to increased regulatory scrutiny. Such events can trigger broader market downturns and a flight to perceived safer assets, impacting BTC price and adoption for an extended period."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n40823f5ed299",
+      "title": "U.S. companies list blockchain ETFs as bitcoin proposals languish",
+      "url": "https://finance.yahoo.com/news/u-companies-list-blockchain-etfs-211801532.html",
+      "summary": "Several U.S. companies are launching ETFs that invest in companies leveraging blockchain technology, rather than direct cryptocurrency holdings. This approach circumvents regulatory hurdles faced by Bitcoin ETF proposals. By investing in companies like Hitachi and Accenture, these ETFs offer indirect exposure to the blockchain space, potentially attracting institutional capital and validating the underlying technology's broader applications.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockchain_ETF_launch",
+        "indirect_crypto_exposure",
+        "institutional_adoption_path"
+      ],
+      "rationale": "The introduction of blockchain-focused ETFs, even without direct crypto holdings, signals growing institutional interest and a pathway for traditional finance to engage with the technology. This can lead to increased capital inflows into companies building blockchain infrastructure, indirectly benefiting the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n4174def3ead0",
+      "title": "Bitcoin Price Looking Heavy As News Turns Negative",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-looking-heavy-news-114541532.html",
+      "summary": "Bitcoin's price is facing downward pressure due to a recent spate of negative news, including the Coincheck hack. While no bitcoin was directly stolen, the incident has shifted the mainstream news narrative, potentially impacting buyer sentiment. The article notes that the negative news cycle is capping potential upside for Bitcoin, suggesting a bearish short-to-medium term outlook.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "negative_news_sentiment",
+        "Coincheck_hack_impact",
+        "bearish_narrative"
+      ],
+      "rationale": "The shift in mainstream news narrative following security incidents like the Coincheck hack can significantly influence investor sentiment. This negative sentiment can create headwinds for price appreciation, leading to sustained downward pressure or consolidation."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n13b70d777c78",
+      "title": "Bitcoin bounces back from three-month low in volatile trade",
+      "url": "https://finance.yahoo.com/news/bitcoin-slides-below-6-000-half-value-lost-082626289--sector.html",
+      "summary": "Bitcoin experienced a sharp decline to a three-month low below $6,000, driven by concerns over global regulatory clampdowns and banks banning credit card purchases of crypto. Despite a subsequent rally to above $8,000, the market remains volatile. This price action highlights the sensitivity of Bitcoin to regulatory news and traditional financial institution policies.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "liquidity",
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "regulatory_fears",
+        "credit_card_ban",
+        "price_volatility",
+        "market_recovery_attempt"
+      ],
+      "rationale": "The significant price swings demonstrate the market's sensitivity to regulatory actions and financial institution policies. While a bounce occurred, the underlying concerns about regulation and liquidity remain, suggesting continued volatility and an uncertain path forward."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n09fb94b820b5",
+      "title": "Bitcoin and Ethereum Price Forecast – BTC Continues Under Pressure",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-price-forecast-btc-035729521.html",
+      "summary": "South Korea's finance minister clarified that any proposed ban on cryptocurrency exchanges requires inter-departmental discussion and new legislation, a process that could take months or years. This statement introduces uncertainty but also suggests that an immediate, outright ban is unlikely. The fluidity of the situation in South Korea remains a key factor influencing market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "South_Korea_regulation_clarification",
+        "exchange_ban_delay",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "The clarification from South Korea's finance minister reduces immediate fears of a ban but introduces a prolonged period of regulatory uncertainty. This prolonged uncertainty can continue to weigh on market sentiment and price action as the industry awaits definitive policy decisions."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n3888acdfe252",
+      "title": "FTSE 100 tumbles to eight-week low as markets gripped by fears of rising interest rates",
+      "url": "https://finance.yahoo.com/news/ftse-100-tumbles-eight-week-083507512.html",
+      "summary": "Global stock markets, including the FTSE 100, experienced a sell-off due to fears of rising interest rates and accelerating monetary policy tightening by central banks. Soaring U.S. wage growth suggests rising inflation, potentially forcing the Federal Reserve to increase rates. This macro environment, coupled with Lloyds Bank banning crypto credit card purchases, creates a risk-off sentiment impacting cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "rising_interest_rates_fear",
+        "inflation_expectations",
+        "Fed_policy_tightening",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Rising interest rates and tightening monetary policy typically lead to a decrease in risk appetite, causing investors to move away from speculative assets like cryptocurrencies. This macro trend can exert significant downward pressure on Bitcoin's price."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n5177997ee549",
+      "title": "New Study Links Price Manipulation to Bitcoin's Insane Surge",
+      "url": "https://finance.yahoo.com/news/study-links-price-manipulation-bitcoin-222710345.html",
+      "summary": "A study published in the Journal of Monetary Economics suggests that suspicious trading activity on the Mt. Gox exchange may have been responsible for a significant portion of Bitcoin's price surge. Researchers analyzed data from Mt. Gox and found a correlation between manipulative trades and price increases. This finding raises concerns about market integrity and the potential for artificial price inflation.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "market_integrity"
+      ],
+      "features_for_model": [
+        "price_manipulation_study",
+        "Mt_Gox_analysis",
+        "market_integrity_concerns"
+      ],
+      "rationale": "Evidence of price manipulation, especially linked to historical events like the Mt. Gox collapse, can damage the reputation of the cryptocurrency market and deter institutional adoption. This can lead to increased regulatory scrutiny and a more cautious approach from investors."
+    },
+    {
+      "pick_idx": 37,
+      "id": "na8b3d0ea0d2e",
+      "title": "Bitcoin and Ethereum Price Forecast – BTC Prices Remain Steady",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-price-forecast-btc-043917077.html",
+      "summary": "Bitcoin prices have shown stability, trading steadily above the $6,000 region after a previous sharp decline. The market has seemingly shrugged off negative news from recent weeks, with investors demonstrating renewed confidence. This resilience suggests a potential bottoming out and a shift towards recovery, defying earlier predictions of the 'end of the bitcoin world'.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_stability",
+        "investor_confidence_return",
+        "market_resilience"
+      ],
+      "rationale": "The market's ability to recover from significant price drops and stabilize above key support levels indicates growing investor confidence. This resilience suggests that the negative sentiment may be subsiding, paving the way for a potential upward trend."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n38377ed466b7",
+      "title": "Bitcoin is losing its dominance over the crypto market",
+      "url": "https://finance.yahoo.com/news/bitcoin-losing-dominance-over-crypto-225555567.html",
+      "summary": "Bitcoin's market share has more than halved since the beginning of 2017, indicating a decline in its dominance within the broader cryptocurrency market. Despite Bitcoin's significant price appreciation and the introduction of futures markets, the rise of altcoins and other blockchain projects suggests a diversifying crypto landscape. This trend could lead to increased competition and potentially dilute Bitcoin's influence.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "market_structure"
+      ],
+      "features_for_model": [
+        "bitcoin_dominance_decline",
+        "altcoin_growth",
+        "diversifying_crypto_market"
+      ],
+      "rationale": "While Bitcoin remains the market leader, its declining dominance suggests a maturing and diversifying cryptocurrency ecosystem. This could lead to increased volatility and shifts in market leadership, making it crucial to monitor the performance of altcoins and emerging blockchain technologies."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n7e70a6defe20",
+      "title": "Blockchain’s Greatest Impact Will Be in Developing Countries, Says UPenn Lecturer",
+      "url": "https://finance.yahoo.com/news/blockchain-greatest-impact-developing-countries-200411603.html",
+      "summary": "A University of Pennsylvania lecturer suggests that blockchain technology's most significant impact will be felt in developing countries, citing examples like Zimbabwe and Venezuela. The technology is expected to bring convenience and automation to these regions, similar to its adoption in the West. This perspective highlights the potential for blockchain to address specific challenges in emerging economies.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "blockchain_developing_countries",
+        "financial_inclusion",
+        "emerging_market_adoption"
+      ],
+      "rationale": "The potential for blockchain to drive financial inclusion and economic development in developing countries represents a significant long-term growth driver. Successful implementation in these regions could lead to widespread adoption and innovation, indirectly benefiting the entire blockchain ecosystem."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n7428e0e63918",
+      "title": "Is Trump Breaking His Medical Marijuana Promise?",
+      "url": "https://finance.yahoo.com/news/trump-breaking-medical-marijuana-promise-164100088.html",
+      "summary": "The article discusses the growth of the U.S. marijuana market, with sales projected to increase significantly. It highlights consumer opinion shifts favoring legalization. While the focus is on marijuana, the broader theme of evolving regulatory landscapes around controversial industries can indirectly influence sentiment towards other nascent markets like cryptocurrencies.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "marijuana_market_growth",
+        "regulatory_evolution_sentiment"
+      ],
+      "rationale": "While not directly related to crypto, the discussion around evolving regulations in the marijuana sector can create a broader sentiment about how governments approach and regulate new, previously prohibited industries. This could subtly influence expectations for crypto regulation."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n35cd4cfaa017",
+      "title": "Even Elon Musk doesn’t buy into the Bitcoin hype",
+      "url": "https://finance.yahoo.com/news/even-elon-musk-doesn-t-buy-bitcoin-hype-021603232.html",
+      "summary": "Elon Musk, while owning a small amount of Bitcoin, does not appear to be on the 'hype train.' This statement, alongside comments from Warren Buffett and Charlie Munger expressing skepticism about cryptocurrency, contributes to a narrative of caution among prominent figures. This sentiment can influence retail investor behavior.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Elon_Musk_skepticism",
+        "crypto_hype_caution",
+        "influencer_sentiment"
+      ],
+      "rationale": "Statements from high-profile individuals like Elon Musk, expressing skepticism about Bitcoin, can negatively impact retail investor sentiment and potentially lead to short-term price corrections."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n17802da6bbb0",
+      "title": "Bitcoin Price Analysis: Bitcoin Faces Pivotal Support as Bulls Exhaust Buying Pressure",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-analysis-bitcoin-faces-002614161.html",
+      "summary": "Bitcoin has pulled back to the $9,000 range after rallying to the $11,000s, breaking a descending channel. While the breakout initially signaled a bullish reversal, bulls appear to be exhausting their buying pressure. The analysis suggests Bitcoin is facing pivotal support, implying a potential for further consolidation or a retest of lower levels if support fails.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_support_level",
+        "bullish_exhaustion",
+        "technical_breakout_retest"
+      ],
+      "rationale": "The analysis points to a critical support level for Bitcoin. If this support fails, it could trigger further selling pressure. The exhaustion of buying pressure suggests a potential short-term reversal or consolidation phase."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nfc5ec5799b2a",
+      "title": "Top Dividend Stocks Warren Buffett Is Buying Now",
+      "url": "https://finance.yahoo.com/news/top-dividend-stocks-warren-buffett-004500255.html",
+      "summary": "Warren Buffett's Berkshire Hathaway has been acquiring shares in dividend-paying companies like Bank of New York Mellon, Apple, and Monsanto. This indicates a focus on established, dividend-paying assets, potentially reflecting a broader market sentiment favoring stability over high-risk growth. Such a trend could draw capital away from more speculative assets like Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_buys",
+        "dividend_stocks_focus",
+        "capital_rotation_sentiment"
+      ],
+      "rationale": "Warren Buffett's investment choices often influence market sentiment. His focus on stable, dividend-paying stocks suggests a potential rotation of capital away from riskier assets, which could include cryptocurrencies, leading to subdued demand for Bitcoin."
+    },
+    {
+      "pick_idx": 12,
+      "id": "ndac7108bdd20",
+      "title": "Riot Blockchain Gets Hit by Another Shareholder Lawsuit",
+      "url": "https://finance.yahoo.com/news/riot-blockchain-gets-hit-another-154745111.html",
+      "summary": "Riot Blockchain (formerly Bioptix) faces a shareholder lawsuit alleging a lack of genuine focus on blockchain technology despite its name change and stock surge. Key shareholder Barry Honig is also implicated. This news highlights potential regulatory and legal risks for companies rebranding around blockchain without substantive operations, which can cast a shadow on the broader sector.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Riot_Blockchain_lawsuit",
+        "rebranding_risk",
+        "regulatory_scrutiny_concern"
+      ],
+      "rationale": "Shareholder lawsuits and allegations of misleading rebranding can increase regulatory scrutiny on companies associated with blockchain. This negative sentiment can spill over to the broader crypto market, especially for companies perceived as capitalizing on the trend without genuine innovation."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n8143e4230b4e",
+      "title": "Warren Buffett on his bet against the hedge funds",
+      "url": "https://finance.yahoo.com/news/warren-buffetts-bet-hedge-funds-reveals-investment-lesson-everyone-135500243.html",
+      "summary": "Warren Buffett's decade-long bet against hedge funds highlights the irrationality of markets, where 'mob fears or enthusiasms' can override fundamentals. He emphasizes the need to disregard these emotions and focus on simple fundamentals. This perspective, shared in his annual letter, reinforces a cautious approach to speculative assets.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "Buffett_market_irrationality",
+        "disregard_mob_sentiment",
+        "focus_on_fundamentals"
+      ],
+      "rationale": "Buffett's commentary on market irrationality and the importance of fundamentals can influence investor behavior, encouraging a more risk-averse stance. This might lead to reduced speculative interest in volatile assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n15120c8655a5",
+      "title": "8 memorable quotes from Warren Buffett's newest shareholder letter",
+      "url": "https://finance.yahoo.com/news/8-memorable-quotes-warren-buffetts-newest-shareholder-letter-154242942.html",
+      "summary": "Warren Buffett's latest shareholder letter touches on the M&A environment, his aversion to leverage, and his disregard for fees charged by active managers. His emphasis on sensible purchase prices and aversion to leverage suggests a preference for conservative financial strategies, which may contrast with the speculative nature of the crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_letter_quotes",
+        "aversion_to_leverage",
+        "sensible_acquisitions"
+      ],
+      "rationale": "Buffett's consistent messaging on financial prudence and aversion to leverage, as highlighted in his shareholder letters, can reinforce a cautious market sentiment. This may indirectly dampen enthusiasm for highly leveraged or speculative crypto investments."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n17802da6bbb0",
+      "title": "Bitcoin Price Analysis: Bitcoin Faces Pivotal Support as Bulls Exhaust Buying Pressure",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-analysis-bitcoin-faces-002614161.html",
+      "summary": "Bitcoin has pulled back to the $9,000 range after rallying to the $11,000s, breaking a descending channel. While the breakout initially signaled a bullish reversal, bulls appear to be exhausting their buying pressure. The analysis suggests Bitcoin is facing pivotal support, implying a potential for further consolidation or a retest of lower levels if support fails.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_support_level",
+        "bullish_exhaustion",
+        "technical_breakout_retest"
+      ],
+      "rationale": "The analysis points to a critical support level for Bitcoin. If this support fails, it could trigger further selling pressure. The exhaustion of buying pressure suggests a potential short-term reversal or consolidation phase."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n17802da6bbb0",
+      "title": "Bitcoin Price Analysis: Bitcoin Faces Pivotal Support as Bulls Exhaust Buying Pressure",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-analysis-bitcoin-faces-002614161.html",
+      "summary": "Bitcoin has pulled back to the $9,000 range after rallying to the $11,000s, breaking a descending channel. While the breakout initially signaled a bullish reversal, bulls appear to be exhausting their buying pressure. The analysis suggests Bitcoin is facing pivotal support, implying a potential for further consolidation or a retest of lower levels if support fails.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "technical_analysis",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_support_level",
+        "bullish_exhaustion",
+        "technical_breakout_retest"
+      ],
+      "rationale": "The analysis points to a critical support level for Bitcoin. If this support fails, it could trigger further selling pressure. The exhaustion of buying pressure suggests a potential short-term reversal or consolidation phase."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n35cd4cfaa017",
+      "title": "Even Elon Musk doesn’t buy into the Bitcoin hype",
+      "url": "https://finance.yahoo.com/news/even-elon-musk-doesn-t-buy-bitcoin-hype-021603232.html",
+      "summary": "Elon Musk, while owning a small amount of Bitcoin, does not appear to be on the 'hype train.' This statement, alongside comments from Warren Buffett and Charlie Munger expressing skepticism about cryptocurrency, contributes to a narrative of caution among prominent figures. This sentiment can influence retail investor behavior.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Elon_Musk_skepticism",
+        "crypto_hype_caution",
+        "influencer_sentiment"
+      ],
+      "rationale": "Statements from high-profile individuals like Elon Musk, expressing skepticism about Bitcoin, can impact retail investor sentiment and potentially lead to short-term price corrections."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-02-24",
+    "summary": "The crypto market is navigating a complex landscape of regulatory uncertainty and shifting investor sentiment. While some news points to potential long-term adoption through blockchain ETFs and developing country use cases, short-term sentiment is being influenced by prominent figures expressing skepticism (Musk, Buffett) and technical indicators suggesting bull exhaustion. The market is also sensitive to macro factors like rising interest rates, which could lead to a risk-off environment. The Coincheck hack continues to cast a shadow, highlighting security risks.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Increased regulatory scrutiny globally, particularly in major economies.",
+      "Negative sentiment from influential figures impacting retail investor behavior.",
+      "Broader macroeconomic shifts (e.g., rising interest rates) leading to risk-off sentiment.",
+      "Further security breaches or exchange failures eroding trust.",
+      "Failure of Bitcoin to hold key technical support levels."
+    ],
+    "watch_items": [
+      "Statements from regulators in key jurisdictions (US, EU, Asia).",
+      "Developments in blockchain ETF approvals and inflows.",
+      "Major exchange security updates or incident reports.",
+      "Key Bitcoin price levels ($9,000 support, $11,000 resistance).",
+      "Macroeconomic data releases (inflation, interest rate expectations)."
+    ]
+  }
+}

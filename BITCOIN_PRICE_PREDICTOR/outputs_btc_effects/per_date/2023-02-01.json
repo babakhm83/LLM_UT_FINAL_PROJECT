@@ -1,0 +1,466 @@
+{
+  "date": "2023-02-01",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "nc74d6bd38d36",
+      "title": "MicroStrategy (MSTR) Makes its 1st Bitcoin Sale Via Subsidiary",
+      "url": "https://finance.yahoo.com/news/microstrategy-mstr-makes-1st-bitcoin-140302189.html",
+      "summary": "MicroStrategy, a major Bitcoin holder, has sold a portion of its Bitcoin holdings for the first time since 2020. Chairman Michael Saylor views Bitcoin as a long-term hedge against inflation. This move, while potentially signaling a shift in strategy or a need for liquidity, could be interpreted as a bearish signal if it indicates a lack of conviction in Bitcoin's long-term appreciation. However, the company's continued belief in Bitcoin as an inflation hedge suggests a mixed outlook.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_sale",
+        "Saylor_inflation_hedge",
+        "institutional_sentiment"
+      ],
+      "rationale": "MicroStrategy's sale of Bitcoin, even a small portion, can be seen as a bearish signal, suggesting potential liquidity needs or a change in their long-term holding strategy. However, their continued endorsement of Bitcoin as an inflation hedge introduces uncertainty."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n079db65ef8bf",
+      "title": "Markets: Bitcoin holds at four-month high above US$22,000, crypto market cap back over US$1 trillion",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-holds-4-month-020306350.html",
+      "summary": "Bitcoin has maintained a four-month high above $22,000, with the overall crypto market capitalization surpassing $1 trillion. This surge is partly attributed to comments from a U.S. Federal Reserve official suggesting a smaller interest rate increase. The broader market rally, coupled with positive sentiment from Fed commentary, indicates growing investor confidence and potential for further upside.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_4month_high",
+        "crypto_market_cap_1T",
+        "Fed_rate_hike_sentiment"
+      ],
+      "rationale": "Bitcoin reaching a four-month high and the crypto market cap exceeding $1 trillion signals renewed investor interest and positive market momentum. Dovish comments from the Fed further support this bullish sentiment."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n30f2dd3ceb98",
+      "title": "Bitcoin Miner 1Thash Sent Almost All Its BTC to Binance",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-1thash-sent-almost-212731819.html",
+      "summary": "A Chinese Bitcoin miner, 1Thash, has transferred nearly 5,600 BTC (approximately $124 million) to the Binance exchange. Historically, large inflows of Bitcoin from miners to exchanges are considered a bearish signal, as it often precedes selling pressure. This action by 1Thash suggests a potential intention to liquidate a significant portion of their holdings, which could impact Bitcoin's price.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "miner_BTC_inflow_Binance",
+        "1Thash_sell_pressure",
+        "exchange_flow_signal"
+      ],
+      "rationale": "The transfer of a large amount of Bitcoin from a miner to an exchange is a classic bearish indicator, suggesting potential selling pressure that could drive down the price."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n865159011db3",
+      "title": "First Mover Americas: Another FTX Insider Is Talking, Bloomberg Says",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-another-ftx-131430362.html",
+      "summary": "Reports indicate that another insider from the collapsed FTX exchange is cooperating with U.S. authorities. Increased cooperation from former FTX employees could lead to further revelations about the exchange's downfall, potentially impacting regulatory scrutiny and investor sentiment towards the broader crypto market. This ongoing investigation could create uncertainty and volatility.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "regulation"
+      ],
+      "features_for_model": [
+        "FTX_insider_cooperation",
+        "regulatory_scrutiny",
+        "market_sentiment_FTX"
+      ],
+      "rationale": "Further cooperation from FTX insiders could lead to more clarity on the exchange's collapse, but also potentially trigger increased regulatory action, creating short-term uncertainty for the market."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n7335899cde28",
+      "title": "North America Blockchain and Cryptocurrency Market 2022: US Government Increasing Regulation Amidst Crypto Crash",
+      "url": "https://finance.yahoo.com/news/north-america-blockchain-cryptocurrency-market-095300771.html",
+      "summary": "The North American blockchain and cryptocurrency market is experiencing increased regulatory attention from the U.S. government, particularly in the wake of the crypto crash. This trend suggests a move towards more structured and regulated digital asset markets. While increased regulation can sometimes stifle innovation, it can also foster greater institutional adoption and long-term stability.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_regulation_increase",
+        "crypto_crash_impact",
+        "North_America_market"
+      ],
+      "rationale": "Increased U.S. government regulation in the crypto space, especially after a market downturn, signals a significant shift towards a more controlled environment, which could have a profound long-term impact on adoption and market structure."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n055884e32f66",
+      "title": "Making Comprehensive Crypto Policy Out of Regulatory Patchwork",
+      "url": "https://finance.yahoo.com/news/making-comprehensive-crypto-policy-regulatory-150025120.html",
+      "summary": "The lack of a cohesive regulatory framework for cryptocurrencies in the U.S. is highlighted, with the FTX collapse exacerbating disagreements among stakeholders on how to regulate the industry. The ongoing debate and the absence of clear rules create an environment of uncertainty, potentially hindering institutional investment and broader adoption. The path towards comprehensive policy remains unclear.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "crypto_regulatory_patchwork",
+        "FTX_collapse_impact",
+        "policy_disagreement"
+      ],
+      "rationale": "The fragmented regulatory landscape and ongoing disagreements about crypto policy, amplified by the FTX failure, create significant uncertainty that could impede market development and investor confidence."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n389b7a3c9746",
+      "title": "Proof Founder Kevin Rose Just Had Over $1M Worth of NFTs Stolen From His Wallet",
+      "url": "https://finance.yahoo.com/news/proof-founder-kevin-rose-just-200758736.html",
+      "summary": "Kevin Rose, co-founder of Proof and creator of Moonbirds, reported that his Ethereum wallet was compromised, resulting in the theft of over $1 million worth of NFTs, including valuable Chromie Squiggles and Autoglyphs. This incident underscores the persistent security risks in the crypto space, even for experienced individuals, and highlights the vulnerability of digital assets to hacks and exploits.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "hack/outage",
+        "adoption"
+      ],
+      "features_for_model": [
+        "NFT_theft_Kevin_Rose",
+        "wallet_security_risk",
+        "Web3_exploit"
+      ],
+      "rationale": "The significant NFT theft from a prominent figure like Kevin Rose highlights ongoing security vulnerabilities in the crypto ecosystem, which can deter new users and impact confidence in digital asset ownership."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n1608f74bcab9",
+      "title": "More money, more problems for crypto",
+      "url": "https://finance.yahoo.com/news/more-money-more-problems-crypto-200057073.html",
+      "summary": "The article discusses the potential for FTX's new CEO, John J. Ray III, to restart operations of the bankrupt exchange. While this could offer some resolution for creditors, it also introduces complexity and uncertainty regarding the future of the company and its assets. The possibility of a revival, however unlikely, adds another layer to the ongoing fallout from the FTX collapse.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_tags": [
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "FTX_restart_possibility",
+        "Ray_III_strategy",
+        "crypto_fallout"
+      ],
+      "rationale": "The potential for FTX to restart operations, though uncertain, adds complexity to the ongoing bankruptcy proceedings and could influence market sentiment regarding the recovery of assets and the future of centralized exchanges."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n7cb46a531d61",
+      "title": "FTX Trading presentation explains 'the mechanics behind' the Alameda debacle",
+      "url": "https://finance.yahoo.com/news/ftx-trading-presentation-explains-mechanics-060000488.html",
+      "summary": "FTX Trading has revealed details about how Alameda Research was able to borrow 'effectively unlimited amounts' from FTX customers without collateral. The presentation also uncovered a feature allowing a select group to remove assets from the exchange without ledger records. These revelations provide crucial insight into the operational failures and potential fraud that led to FTX's collapse, impacting regulatory investigations and market trust.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "FTX_Alameda_mechanics",
+        "unlimited_borrowing",
+        "unrecorded_asset_removal"
+      ],
+      "rationale": "The detailed explanation of FTX and Alameda's operational mechanics, including the ability to borrow unlimited funds and remove assets without records, provides concrete evidence of mismanagement and potential fraud, reinforcing negative sentiment and regulatory scrutiny."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n0ca7a8813ce8",
+      "title": "Argo Blockchain shares soar after selling Texas mining facility to Galaxy Digital",
+      "url": "https://finance.yahoo.com/news/argo-blockchain-shares-soar-selling-022400221.html",
+      "summary": "Argo Blockchain's stock price surged over 100% after announcing the sale of its Texas Helios facility to Galaxy Digital for $65 million. This strategic move helps Argo Blockchain alleviate financial pressure and avoid bankruptcy, allowing it to continue operations. The sale demonstrates the challenging financial environment for miners but also highlights their ability to adapt and survive through asset sales.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Argo_Blockchain_sale",
+        "Helios_facility",
+        "Galaxy_Digital_acquisition"
+      ],
+      "rationale": "The sale of its Texas facility by Argo Blockchain to Galaxy Digital for $65 million is a positive development for the miner, helping it avoid bankruptcy and secure liquidity, though it reflects the ongoing financial strain in the mining sector."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n3f60164376c5",
+      "title": "Bitfarms Mines 486 Bitcoin in January",
+      "url": "https://finance.yahoo.com/news/bitfarms-mines-486-bitcoin-january-120000978.html",
+      "summary": "Bitfarms reported mining 486 Bitcoin in January, with an upgraded Paraguay farm adding 2,888 new miners. This operational update indicates continued production and expansion within the mining sector. Increased hashrate and production figures can be seen as a positive sign for the company and potentially for the network's overall health, though the direct impact on BTC price is usually marginal.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitfarms_Jan_mining",
+        "Paraguay_farm_upgrade",
+        "miner_production_update"
+      ],
+      "rationale": "Bitfarms' January mining report shows consistent production and operational improvements, which is a minor positive signal for the mining sector and network activity."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n2b724990fcb0",
+      "title": "Bitcoin and Hang Seng's Stalled Rally Might Mean Wider De-Risking Ahead, TradFi Firm Says",
+      "url": "https://finance.yahoo.com/news/bitcoin-hang-sengs-stalled-rally-100348830.html",
+      "summary": "Bitcoin's recent rally has stalled near technical resistance, mirroring a similar trend in Hong Kong's Hang Seng index. A traditional finance observer suggests this could signal a broader de-risking trend across financial markets. The stalled momentum for Bitcoin, coupled with weakness in traditional markets, points to potential downside risk in the short term.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_rally_stalled",
+        "Hang_Seng_correlation",
+        "de_risking_signal"
+      ],
+      "rationale": "The stalled rally in Bitcoin, mirroring traditional markets, suggests a potential shift towards risk aversion, which could lead to a short-term price correction."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nb895fa43294c",
+      "title": "ARK Invest Maintains Prediction Bitcoin Price Will Hit $1M by 2030",
+      "url": "https://finance.yahoo.com/news/ark-invest-maintains-prediction-bitcoin-092711367.html",
+      "summary": "ARK Invest reiterated its prediction that Bitcoin will reach $1 million by 2030, citing its sound fundamentals and increased value proposition due to recent market turmoil. While this is a long-term outlook, such strong conviction from a prominent investment firm can positively influence short-term sentiment and attract new investors.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ARK_Invest_BTC_1M_prediction",
+        "institutional_conviction",
+        "long_term_outlook"
+      ],
+      "rationale": "ARK Invest's continued bullish long-term outlook on Bitcoin, despite market volatility, can provide a psychological boost and attract investor interest in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nd0ff8c7ef403",
+      "title": "New Bitcoin protocol may shake up the NFT market",
+      "url": "https://finance.yahoo.com/news/bitcoin-protocol-may-shake-nft-063029364.html",
+      "summary": "A new protocol named Ordinals has been released on Bitcoin, enabling users to embed larger amounts of data into transactions, potentially creating collectible images similar to NFTs. This development could significantly impact the NFT market by bringing more functionality to the Bitcoin blockchain, potentially diverting attention and capital from other NFT-centric blockchains.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_Ordinals_protocol",
+        "NFT_on_Bitcoin",
+        "market_reshaping"
+      ],
+      "rationale": "The introduction of the Ordinals protocol on Bitcoin could create new use cases for NFTs on the network, potentially impacting the broader NFT market dynamics and attracting new users to Bitcoin."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n0ee3ad4e3fe2",
+      "title": "US Blacklists Bitcoin, Ether Addresses Tied to Russian Sanctions-Evasion Efforts",
+      "url": "https://finance.yahoo.com/news/us-blacklists-bitcoin-ether-addresses-170437448.html",
+      "summary": "The U.S. Treasury Department has blacklisted Bitcoin and Ether addresses linked to sanctions evasion efforts by a Russian national. This action by OFAC highlights the increasing focus on tracing and sanctioning crypto assets used for illicit activities. Such measures can create regulatory uncertainty and potentially impact liquidity for certain addresses or entities.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "US_OFAC_sanctions",
+        "BTC_ETH_address_blacklist",
+        "sanctions_evasion"
+      ],
+      "rationale": "The U.S. blacklisting of crypto addresses tied to sanctions evasion signals increased regulatory enforcement, which could create a chilling effect on certain market participants and potentially impact liquidity."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n36426755f5b2",
+      "title": "Tesla Details $140 Million Bitcoin Loss in SEC Filing",
+      "url": "https://finance.yahoo.com/news/tesla-details-140-million-bitcoin-022440393.html",
+      "summary": "Tesla reported a $140 million loss on its Bitcoin holdings in 2022, including a $204 million impairment charge and $64 million in gains from conversions. This disclosure highlights the volatility of Bitcoin as an asset and the financial impact of holding it, especially during a bear market. While a loss for Tesla, it's a factual reporting of asset value fluctuation.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Tesla_BTC_loss",
+        "impairment_charge",
+        "asset_volatility"
+      ],
+      "rationale": "Tesla's reported $140 million Bitcoin loss serves as a reminder of the asset's volatility and can contribute to negative sentiment, though it's a direct reflection of market conditions rather than a new catalyst."
+    },
+    {
+      "pick_idx": 10,
+      "id": "na1e20e6be7ed",
+      "title": "Nasdaq climbs 2% as US stocks rise following smaller rate hike from the Fed",
+      "url": "https://finance.yahoo.com/news/nasdaq-climbs-2-us-stocks-210859846.html",
+      "summary": "US stocks, including the Nasdaq, rose following the Federal Reserve's announcement of a 25 basis point rate hike, which was smaller than some anticipated. Fed Chair Powell indicated rates would remain high for some time. The market's positive reaction to a slower pace of rate hikes suggests a potential easing of monetary policy concerns, which is generally bullish for risk assets like Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_25bps",
+        "US_stocks_rally",
+        "Powell_hawkish_stance"
+      ],
+      "rationale": "The Fed's smaller-than-expected rate hike and the subsequent rally in US stocks create a positive macroeconomic backdrop that is likely to benefit Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nb21c41e6e1bd",
+      "title": "Bitcoin Holds Steady as Fed Hikes Interest Rates Again",
+      "url": "https://finance.yahoo.com/news/bitcoin-holds-steady-fed-hikes-201852489.html",
+      "summary": "Bitcoin and the broader crypto market remained steady following the Federal Reserve's 25 basis point interest rate hike, which was in line with market expectations. This stability suggests that the market has already priced in the rate increase, and the lack of significant negative reaction indicates resilience.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "BTC_steady_after_Fed_hike",
+        "rate_hike_priced_in",
+        "market_resilience"
+      ],
+      "rationale": "Bitcoin's steady performance despite another Fed rate hike suggests the market has absorbed the news, indicating a potential stabilization and positive sentiment."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n350d99e76582",
+      "title": "UK government reveals 'robust' plans to regulate crypto",
+      "url": "https://finance.yahoo.com/news/uk-details-crypto-regulation-plans-designed-to-protect-consumers-112539484.html",
+      "summary": "The UK government has outlined 'ambitious' plans for crypto regulation, focusing on stronger rules for trading platforms, lending, and new token issuances to protect consumers and foster safe growth. This proactive regulatory approach, especially after major exchange collapses, could lead to greater institutional adoption and market stability in the UK.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "UK_crypto_regulation",
+        "consumer_protection",
+        "safe_growth_framework"
+      ],
+      "rationale": "The UK's detailed plans for crypto regulation signal a move towards a more mature and regulated market, which could attract institutional investment and boost confidence in the long term, with positive short-term sentiment."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nc8c9611506b0",
+      "title": "Hackers lifted $3.8 billion from crypto investors in 2022",
+      "url": "https://finance.yahoo.com/news/hackers-lifted-38-billion-from-crypto-investors-in-2022-132405068.html",
+      "summary": "Hackers stole $3.8 billion from crypto investors in 2022, a 13% increase from 2021, with DeFi protocols accounting for the majority of these losses. This highlights persistent security challenges in the crypto space, particularly within DeFi, which remains a significant obstacle to broader adoption and trust.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "crypto_hacks_2022",
+        "DeFi_security_risk",
+        "annual_theft_record"
+      ],
+      "rationale": "The record-breaking amount stolen by hackers in 2022, particularly from DeFi, underscores ongoing security vulnerabilities that can erode investor confidence and hinder market growth in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-02-01",
+    "summary": "Bitcoin is holding steady above $23,000 following the Federal Reserve's 25 basis point rate hike, which was largely priced in by the market. Positive sentiment from the Fed's decision and a rally in US stocks suggest a bullish short-term outlook. However, concerns about stalled rallies in both Bitcoin and traditional markets, coupled with ongoing FTX fallout and significant crypto hacks, introduce elements of caution. The introduction of the Ordinals protocol on Bitcoin could also reshape the NFT landscape.",
+    "scenario_probs": {
+      "bull": 0.5,
+      "base": 0.3,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued stalled momentum in traditional markets could spill over to crypto.",
+      "Further revelations from FTX insiders could trigger regulatory crackdowns.",
+      "Persistent security vulnerabilities in DeFi could lead to more hacks.",
+      "The effectiveness and long-term impact of the Ordinals protocol are still uncertain."
+    ],
+    "watch_items": [
+      "US CPI and FOMC meeting minutes",
+      "Developments in FTX legal proceedings",
+      "Performance of tech stocks and correlation with Bitcoin",
+      "Any further significant crypto hacks or exploits"
+    ]
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "date": "2024-07-13",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "nfb4494db4813",
+      "title": "Bitcoin Spot ETFs Saw $143M in Inflows, Highest in a Month",
+      "url": "https://finance.yahoo.com/news/bitcoin-spot-etfs-saw-143m-062619490.html",
+      "summary": "US spot Bitcoin ETFs experienced their highest net inflows in a month, with $143.1 million pouring in on July 5. This significant influx, occurring after Bitcoin's price dipped below $54,000, suggests institutional investors are capitalizing on lower prices to accumulate BTC. Fidelity's Wise Origin Bitcoin Fund led the inflows, indicating sustained institutional demand despite recent market volatility.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "institutional_demand",
+        "price_dip_accumulation"
+      ],
+      "rationale": "Consistent inflows into spot Bitcoin ETFs signal growing institutional adoption and confidence in Bitcoin as an asset class. This sustained demand provides a strong foundation for price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nfa816410649e",
+      "title": "Australia Stock Exchange Approves First Spot Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/australia-stock-exchange-approves-first-055359436.html",
+      "summary": "Australia's largest stock exchange, the ASX, has approved its first spot Bitcoin ETF, the VanEck Bitcoin ETF (VBTC), set to commence trading on June 20. This follows VanEck's successful launch of a spot Bitcoin ETF in the US. The approval highlights growing global demand for regulated Bitcoin investment products and signals increasing mainstream acceptance.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Australia_ETF_approval",
+        "global_adoption",
+        "regulated_access"
+      ],
+      "rationale": "The approval of a spot Bitcoin ETF in Australia, following similar developments in the US, indicates a broader trend of regulatory acceptance and increased accessibility for institutional and retail investors globally. This expansion of regulated investment vehicles is a long-term bullish catalyst."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nc915c3b960ab",
+      "title": "Wisconsin Becomes The First State to Buy Bitcoin (BTC), These 3 States May Be Next",
+      "url": "https://finance.yahoo.com/news/wisconsin-becomes-first-state-buy-171510213.html",
+      "summary": "Wisconsin has become the first US state to invest in Bitcoin, indirectly through spot ETFs. This move by the State of Wisconsin Investment Board is seen as a significant step towards institutional adoption, potentially paving the way for other states to follow suit. Increased adoption by public entities can bolster Bitcoin's legitimacy and demand.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "ETF"
+      ],
+      "features_for_model": [
+        "state_investment",
+        "pension_fund_adoption",
+        "institutional_adoption_trend"
+      ],
+      "rationale": "A state government investing in Bitcoin, even indirectly via ETFs, represents a significant endorsement and a potential catalyst for wider adoption by other public entities. This institutional adoption can lead to substantial capital inflows and increased demand for Bitcoin."
+    },
+    {
+      "pick_idx": 22,
+      "id": "ne416d6f3325f",
+      "title": "U.S. Bitcoin ETF Holdings Hit New High of More Than 850K Tokens",
+      "url": "https://finance.yahoo.com/news/u-bitcoin-etf-holdings-hit-122447937.html",
+      "summary": "U.S.-listed spot Bitcoin ETFs have reached a new record, holding over 850,000 BTC. This surpasses the previous high set in early April. Grayscale's GBTC remains the largest holder, followed by BlackRock's IBIT. This accumulation by ETFs demonstrates sustained institutional interest and demand for Bitcoin exposure through regulated products.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_holdings_record",
+        "institutional_accumulation",
+        "IBIT_holdings"
+      ],
+      "rationale": "The continuous increase in Bitcoin holdings by US spot ETFs signifies robust and growing institutional demand. This accumulation trend directly impacts Bitcoin's supply dynamics and reinforces its position as a recognized asset class."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n493c83d6685c",
+      "title": "Bitcoin may hit $1 million by 2033, report says",
+      "url": "https://finance.yahoo.com/news/bitcoin-may-hit-1-million-214215167.html",
+      "summary": "A report from AllianceBernstein projects Bitcoin to reach $1 million by 2033 and $500,000 by 2029, with $200,000 expected within the next year. The report attributes this growth to Bitcoin's increasing adoption within asset allocation portfolios, especially with the launch of spot Bitcoin ETFs. This long-term bullish outlook is supported by ongoing adoption trends.",
+      "impact_horizon_months": 60,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "price_prediction_1M",
+        "long_term_growth_forecast",
+        "ETF_impact_on_adoption"
+      ],
+      "rationale": "High-profile price predictions from reputable financial institutions, supported by factors like ETF adoption, contribute to market sentiment and long-term investment thesis for Bitcoin. These forecasts can attract new capital and reinforce existing holdings."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n68fcc916307f",
+      "title": "Here's How the Bitcoin Halving Is Playing Out",
+      "url": "https://finance.yahoo.com/news/heres-bitcoin-halving-playing-104700784.html",
+      "summary": "The Bitcoin halving events are pivotal moments impacting supply and demand dynamics. The recent halving, similar to previous ones, is expected to influence the cryptocurrency's price. Historically, halvings have been followed by bull runs, suggesting a potential positive impact on Bitcoin's price over the medium to long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "halving_impact",
+        "supply_shock",
+        "historical_halving_cycles"
+      ],
+      "rationale": "The Bitcoin halving reduces the rate at which new Bitcoins are created, leading to a decrease in supply. Historically, this supply shock has preceded significant price increases, making it a key long-term bullish driver."
+    },
+    {
+      "pick_idx": 33,
+      "id": "na3197705543f",
+      "title": "Bitcoin Bottom Is Near as Miners Capitulating Near FTX Implosion Level: CryptoQuant",
+      "url": "https://finance.yahoo.com/news/bitcoin-bottom-near-miners-capitulating-151727680.html",
+      "summary": "Bitcoin miner capitulation metrics are approaching levels seen during the FTX crash, suggesting a potential market bottom. Daily miner revenue has dropped significantly post-halving, causing less efficient miners to turn off equipment, leading to a hashrate slump. This miner distress can precede a price recovery.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_capitulation",
+        "FTX_level_comparison",
+        "hashrate_slump"
+      ],
+      "rationale": "Miner capitulation, indicated by metrics approaching FTX-era lows, suggests that the market may be nearing a bottom. As less efficient miners exit, the network can become more robust, potentially leading to a price rebound."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n4349c3465aad",
+      "title": "3 Bitcoin Mining Stocks Continuing to Thrive Post-Halving",
+      "url": "https://finance.yahoo.com/news/3-bitcoin-mining-stocks-continuing-163400303.html",
+      "summary": "Bitcoin mining stocks like Marathon Digital (MARA) have shown resilience post-halving, mirroring historical trends. Despite Bitcoin's recent pullback, the article suggests the digital currency is oversold at its 200-day moving average. The performance of mining stocks can be a leading indicator for Bitcoin's price action.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "mining_stock_performance",
+        "post_halving_resilience",
+        "MARA_stock_trend"
+      ],
+      "rationale": "The continued strength of Bitcoin mining stocks post-halving, despite short-term price dips, suggests underlying positive sentiment and operational efficiency. Their performance often correlates with Bitcoin's price movements, indicating potential for future gains."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n8a11ba2061a2",
+      "title": "Wisconsin Pension Plan Likely to Invest Much More in Bitcoin ETF, Marquette Professor Says",
+      "url": "https://finance.yahoo.com/news/wisconsin-pension-plan-likely-invest-182335859.html",
+      "summary": "A finance professor suggests that Wisconsin's pension plan's initial investment in spot Bitcoin ETFs was a trial phase, and more significant investments are likely. The State of Wisconsin Investment Board's innovative approach to crypto adoption indicates a growing trend of public pension funds exploring digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "pension_fund_expansion",
+        "SWIB_investment_strategy",
+        "institutional_allocation_increase"
+      ],
+      "rationale": "The potential for a large state pension fund to significantly increase its allocation to Bitcoin ETFs represents a substantial capital inflow. This signals a maturing market and growing acceptance of Bitcoin by traditional financial institutions."
+    },
+    {
+      "pick_idx": 50,
+      "id": "nbc286ad132d5",
+      "title": "Bitcoin Could Soar 5,453% by 2030, According to Cathie Wood. But Is That Realistic?",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-soar-5-453-094100059.html",
+      "summary": "Cathie Wood of Ark Investment Management predicts Bitcoin could reach nearly $1.5 million by 2030, a potential 5,453% increase from current levels. This bullish outlook is based on Bitcoin's market capitalization and its role in the broader crypto ecosystem. Such high-profile predictions, while speculative, can influence market sentiment and attract long-term investors.",
+      "impact_horizon_months": 72,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_prediction",
+        "long_term_price_target",
+        "market_cap_growth_potential"
+      ],
+      "rationale": "High-conviction price targets from influential figures like Cathie Wood, while speculative, can shape market narratives and attract capital. The underlying thesis of Bitcoin's massive growth potential remains a significant long-term bullish factor."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nff260f580c7a",
+      "title": "Stock market today: Dow closes above 40,000 as rally breaks out beyond mega-cap tech",
+      "url": "https://finance.yahoo.com/news/stock-market-today-dow-closes-041923718.html",
+      "summary": "The Dow Jones Industrial Average closed above 40,000 for the first time since mid-May, with stocks rallying broadly as intensifying rate-cut bets followed cooling consumer inflation data. The broadening rally, extending beyond mega-cap tech, suggests positive sentiment across the broader market.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "broad_market_rally",
+        "cooling_inflation",
+        "rate_cut_sentiment"
+      ],
+      "rationale": "Positive macroeconomic data (cooling inflation) and increased bets on Fed rate cuts are boosting overall market sentiment, which often spills over into crypto markets, including Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "naf3592b1e896",
+      "title": "Stock-Split Watch: MicroStrategy Is Next",
+      "url": "https://finance.yahoo.com/news/stock-split-watch-microstrategy-next-122900545.html",
+      "summary": "MicroStrategy (MSTR) is set to undergo a stock split, following similar moves by Nvidia, Chipotle, and Broadcom. Stock splits can increase a stock's liquidity and accessibility, potentially attracting more retail investors. As a major Bitcoin holder, MSTR's performance can influence Bitcoin sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "listing",
+        "institutional"
+      ],
+      "features_for_model": [
+        "MSTR_stock_split",
+        "AI_stock_trend",
+        "liquidity_enhancement"
+      ],
+      "rationale": "A stock split for MicroStrategy, a prominent Bitcoin holder, could lead to increased retail interest and potentially a short-term positive sentiment boost for Bitcoin, though the direct impact is likely to be limited."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n5cc271569a9e",
+      "title": "Crypto Market Braces for Volatility as $10B in Bitcoin and Ether Options Set to Expire",
+      "url": "https://finance.yahoo.com/news/crypto-market-braces-volatility-10b-070024921.html",
+      "summary": "Over $10 billion in Bitcoin and Ether options are set to expire on Deribit this Friday. Large quarterly expiries often lead to heightened market volatility as trading volumes increase and positions are unwound or rolled over. This event could cause short-term price fluctuations.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "options_expiry_volume",
+        "BTC_ETH_derivatives",
+        "volatility_event"
+      ],
+      "rationale": "The large volume of options expiring can lead to increased trading activity and potential price swings as market participants adjust their positions. The direction of these movements is uncertain until the expiry occurs."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n42d61f153769",
+      "title": "Bitcoin Plunges Under $59K as Crypto Bulls See $230M Liquidations",
+      "url": "https://finance.yahoo.com/news/bitcoin-plunges-under-59k-crypto-055206355.html",
+      "summary": "Fears of selling pressure from Mt. Gox repayments and potential miner sales caused Bitcoin to drop below $59,000, leading to significant liquidations for leveraged traders. Trading firms anticipate a subdued market due to uncertainty surrounding the Mt. Gox supply release.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "miner",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Mt_Gox_sell_pressure",
+        "miner_sales_fear",
+        "leveraged_liquidations"
+      ],
+      "rationale": "The immediate threat of Mt. Gox repayments and potential miner selling creates downward pressure and increases the risk of further liquidations, impacting short-term price action."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n19381f36c545",
+      "title": "German Lawmaker Urges Government to Halt Bitcoin Sell-Off and Adopt It as Strategic Reserve",
+      "url": "https://finance.yahoo.com/news/german-lawmaker-urges-government-halt-071300747.html",
+      "summary": "A German lawmaker is urging the government to stop selling its Bitcoin holdings and consider it a strategic reserve. This call highlights a debate within governments about the role of Bitcoin, and any potential shift in policy could influence market sentiment and adoption.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Germany_BTC_policy",
+        "strategic_reserve_debate",
+        "government_sell_off_halt"
+      ],
+      "rationale": "While a single lawmaker's opinion may not immediately alter government policy, it reflects a growing discussion around Bitcoin's utility for national reserves. Any actual policy change could have a notable impact."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n991c6f95b059",
+      "title": "Bitcoin Price Decline on Germany, Mt. Gox and Miner Sell Pressure May Be Overblown: NYDIG",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-decline-germany-mt-200149572.html",
+      "summary": "NYDIG suggests that the recent Bitcoin price decline attributed to German sales, Mt. Gox refunds, and miner selling might be overstated. While acknowledging other factors, NYDIG believes the price impact from these catalysts could be exaggerated, implying potential for a quicker recovery.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "hack/outage",
+        "macro"
+      ],
+      "features_for_model": [
+        "NYDIG_analysis",
+        "overstated_sell_pressure",
+        "catalyst_reassessment"
+      ],
+      "rationale": "If the market's perceived selling pressures (Germany, Mt. Gox, miners) are indeed overblown, as suggested by NYDIG, then the recent price decline might be less fundamentally driven, potentially leading to a faster rebound."
+    },
+    {
+      "pick_idx": 41,
+      "id": "nf94cfffbab82",
+      "title": "Bitcoin, Ethereum, Dogecoin In Full Meltdown As Mt.Gox Moves $2.7B To New Wallet: King Crypto Decline To $51K Feared By Analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-dogecoin-full-meltdown-172035744.html",
+      "summary": "The cryptocurrency market experienced a significant downturn, with Bitcoin, Ethereum, and Dogecoin seeing substantial losses. This decline is partly attributed to Mt. Gox moving $2.7 billion to a new wallet, raising fears of a large sell-off. Analysts fear a further drop to $51,000 for Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "miner"
+      ],
+      "features_for_model": [
+        "Mt_Gox_wallet_move",
+        "crypto_meltdown",
+        "potential_sell_off_fear"
+      ],
+      "rationale": "The movement of a large sum from Mt. Gox, coupled with significant price drops across major cryptocurrencies, creates immediate bearish sentiment and increases the probability of further downside in the very short term."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nc2a9453bf1bd",
+      "title": "REX Shares, Tuttle Launch Leveraged Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/rex-shares-tuttle-unveil-leveraged-160000334.html",
+      "summary": "REX Shares and Tuttle Capital Management have launched leveraged Bitcoin ETFs (2x long and 2x inverse). These products offer amplified exposure to Bitcoin's daily performance, catering to traders seeking higher risk/reward opportunities. The introduction of leveraged products can increase short-term volatility.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "leveraged_BTC_ETF",
+        "Tuttle_Capital",
+        "REX_Shares",
+        "short_term_volatility_driver"
+      ],
+      "rationale": "The launch of leveraged Bitcoin ETFs can increase short-term volatility by attracting traders who seek amplified gains, potentially leading to sharper price movements in either direction."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n8ad2ef3a9e77",
+      "title": "Stock market today: S&P 500, Nasdaq jump to fresh records as jobs report fuels bets for September rate cut",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-sp-500-futures-hold-near-record-with-june-jobs-data-on-deck-110807489.html",
+      "summary": "US stocks reached all-time highs, driven by a June jobs report that strengthened expectations for a September Federal Reserve rate cut. The S&P 500 and Nasdaq saw significant gains, with tech giants leading the way. This positive macroeconomic sentiment often correlates with increased risk appetite in crypto markets.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "record_stock_highs",
+        "jobs_report_impact",
+        "September_rate_cut_expectation"
+      ],
+      "rationale": "Strong macroeconomic data, particularly a jobs report that increases the likelihood of a Fed rate cut, typically boosts investor confidence and risk appetite, which can positively influence Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 49,
+      "id": "nf19212ce9643",
+      "title": "Stock market today: Stocks extend record-setting rally, Tesla rises ahead of Musk pay decision",
+      "url": "https://finance.yahoo.com/news/stock-market-today-stocks-extend-record-setting-rally-after-more-cool-inflation-data-tesla-rises-ahead-of-musk-pay-decision-160025849.html",
+      "summary": "US stocks continued their record-setting rally, supported by cooling inflation data and a revised Federal Reserve outlook for rate cuts. The S&P 500 and Nasdaq achieved new all-time highs. This broad market strength and positive sentiment can spill over into the cryptocurrency market.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "record_stock_rally",
+        "cooling_inflation_data",
+        "Fed_rate_cut_outlook"
+      ],
+      "rationale": "Continued positive macroeconomic signals, including cooling inflation and a more dovish Fed stance, create a favorable environment for risk assets. This sentiment often translates to increased buying pressure on Bitcoin in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-07-13",
+    "summary": "The market sentiment remains cautiously optimistic, buoyed by cooling inflation data and increased expectations for Federal Reserve rate cuts, which have pushed major stock indices to new records. This positive macroeconomic backdrop is generally supportive of risk assets like Bitcoin. However, lingering concerns about potential selling pressure from Mt. Gox repayments and miner activity, alongside the upcoming large options expiry, introduce short-term volatility risks. Institutional inflows into Bitcoin ETFs continue to be a strong long-term bullish signal.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Mt. Gox repayment sell-off pressure",
+      "Miner selling activity impacting supply",
+      "Short-term volatility from large options expiry",
+      "Potential for unexpected macroeconomic data shifts",
+      "Regulatory uncertainty in specific jurisdictions"
+    ],
+    "watch_items": [
+      "Mt. Gox wallet movements",
+      "Miner capitulation metrics",
+      "US CPI and FOMC meeting minutes (upcoming)",
+      "Flows into major Bitcoin ETFs (IBIT, FBTC)",
+      "Global ETF approvals and adoption trends"
+    ]
+  }
+}

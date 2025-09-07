@@ -1,0 +1,456 @@
+{
+  "date": "2022-09-23",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n86e38295aa3f",
+      "title": "Saylor's MicroStrategy buys $6M more bitcoin, now holds 130,000 total",
+      "url": "https://finance.yahoo.com/news/saylors-microstrategy-buys-bitcoin-125728492.html",
+      "summary": "MicroStrategy, the largest corporate holder of bitcoin, announced it purchased an additional 301 bitcoins for approximately $6 million. This brings their total holdings to 130,000 bitcoins, acquired at an average price of $19,851 per coin. The company's continued accumulation of Bitcoin, despite price fluctuations, signals strong conviction in its long-term value proposition.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_buying_BTC",
+        "corporate_treasury_allocation"
+      ],
+      "rationale": "MicroStrategy's consistent buying demonstrates sustained institutional belief in Bitcoin as a store of value. This ongoing accumulation by a major corporate entity provides a baseline of demand and signals confidence to the broader market."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nffac4e251bbd",
+      "title": "Bitcoin advocate Michael Saylor stepping down as CEO of company after crypto crash loses it $1 billion",
+      "url": "https://finance.yahoo.com/news/bitcoin-advocate-michael-saylor-stepping-151900185.html",
+      "summary": "Michael Saylor, a prominent Bitcoin advocate and CEO of MicroStrategy, is stepping down from his CEO role after the company experienced significant losses due to its Bitcoin holdings. While he will remain Chairman, this transition might signal a shift in MicroStrategy's aggressive Bitcoin acquisition strategy, potentially impacting market sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Saylor_CEO_transition",
+        "MicroStrategy_strategy_shift"
+      ],
+      "rationale": "Saylor's departure as CEO, while remaining Chairman, introduces uncertainty regarding MicroStrategy's future Bitcoin strategy. This could lead to a temporary cooling of institutional adoption sentiment if the new leadership pivots away from aggressive buying."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n7b794dadda1b",
+      "title": "Bitcoin could return to $68,000 within 4 years and hit $500,000 in the next decade, MicroStrategy's Michael Saylor says",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-return-68-000-135232771.html",
+      "summary": "Michael Saylor, a staunch Bitcoin proponent, predicts Bitcoin could reach $68,000 within four years and $500,000 within a decade. Despite Bitcoin's 2022 decline, MicroStrategy continues to accumulate. These long-term price targets, while speculative, reflect a persistent bullish outlook from a significant corporate accumulator.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Saylor_price_prediction",
+        "long_term_BTC_outlook"
+      ],
+      "rationale": "Saylor's continued bullish price targets, coupled with MicroStrategy's ongoing accumulation, reinforce a narrative of long-term value for Bitcoin among institutional players. This can attract further investment and support price appreciation over extended periods."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n4b7c9c147220",
+      "title": "Crypto Says Institutions Are Back, Though Retail Has Cold Feet",
+      "url": "https://finance.yahoo.com/news/crypto-says-institutions-back-though-230000825.html",
+      "summary": "The crypto industry is seeing a resurgence of institutional interest, exemplified by BlackRock's partnership with Coinbase. However, retail investor sentiment remains cautious. This divergence suggests that while institutional inflows may provide a floor, broader market recovery hinges on renewed retail participation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "retail_sentiment"
+      ],
+      "features_for_model": [
+        "institutional_inflows",
+        "retail_sentiment_lag"
+      ],
+      "rationale": "The return of institutional interest, particularly from major players like BlackRock, indicates a growing acceptance of crypto assets. This institutional adoption can provide significant capital and legitimacy, driving long-term price appreciation, even if retail sentiment lags."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nd82ead487cb0",
+      "title": "US Treasury sanctions crypto ‘mixer’ Tornado Cash",
+      "url": "https://finance.yahoo.com/news/us-treasury-sanctions-crypto-mixer-181548162.html",
+      "summary": "The U.S. Treasury sanctioned Tornado Cash, a crypto mixing service, citing its use by illicit actors. This action makes it illegal for U.S. citizens to use the service and marks the second time a mixer has been sanctioned. This regulatory move signals increased scrutiny on privacy-enhancing technologies within the crypto space.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Tornado_Cash_sanction",
+        "regulatory_crackdown_privacy_tools"
+      ],
+      "rationale": "The sanctioning of Tornado Cash by the U.S. Treasury highlights a growing regulatory focus on privacy tools in crypto. This could lead to increased compliance burdens and potential chilling effects on the development and adoption of similar technologies, impacting market sentiment."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n24773baa7f1e",
+      "title": "Evaluating Ethereum: 1 Week After the Merge",
+      "url": "https://finance.yahoo.com/news/evaluating-ethereum-1-week-merge-113000663.html",
+      "summary": "One week after Ethereum's successful transition to Proof-of-Stake (PoS), the network's performance and impact are being evaluated. This major upgrade significantly reduces energy consumption and alters the tokenomics of ETH. The long-term implications for network security, scalability, and adoption are still unfolding.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge_success",
+        "ETH_PoS_transition",
+        "energy_efficiency_upgrade"
+      ],
+      "rationale": "The successful Ethereum Merge to Proof-of-Stake is a landmark event, drastically reducing energy consumption and improving the network's sustainability. This upgrade enhances Ethereum's long-term appeal and potential for wider adoption, positively impacting ETH's value."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n6a0c59ca5b07",
+      "title": "First Mover Asia: Crypto Companies Struggle With Layoffs, but Some See Opportunity to Add Talent; BTC, ETH Soar After Fed Rate Hike",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-crypto-companies-230538046.html",
+      "summary": "Despite widespread layoffs in the crypto industry, Bitcoin and Ether saw significant price increases following a Federal Reserve rate hike. This suggests that while the industry faces internal challenges, broader macroeconomic factors and specific events can still drive short-term price momentum.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_layoffs",
+        "BTC_ETH_rally_post_Fed_hike"
+      ],
+      "rationale": "The rally in BTC and ETH following a Fed rate hike, despite industry layoffs, indicates that positive macroeconomic news can override sector-specific headwinds in the short term. This suggests a potential for broader market recovery if macro conditions improve."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nb7c07a3bd1a5",
+      "title": "Marathon Digital Holdings Announces Bitcoin Production and Mining Operation Updates for August 2022",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-announces-bitcoin-200500923.html",
+      "summary": "Marathon Digital Holdings reported energizing approximately 25,000 miners in August, increasing its hash rate and improving Bitcoin production. This operational update highlights the company's continued investment and expansion in Bitcoin mining infrastructure, signaling a commitment to increasing BTC output.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Marathon_miner_deployment",
+        "hashrate_increase"
+      ],
+      "rationale": "Marathon's expansion of its mining operations indicates continued investment in the Bitcoin network's infrastructure. Increased hash rate and production from miners can contribute to network security and indirectly support Bitcoin's value proposition over the long term."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n4ea59c164d05",
+      "title": "Environmental Groups to Spend Another $1M on Ads for Bitcoin Code Change After the Merge",
+      "url": "https://finance.yahoo.com/news/environmental-groups-spend-another-1m-144837203.html",
+      "summary": "Environmental groups plan to spend an additional $1 million on ads advocating for Bitcoin to adopt a Proof-of-Stake (PoS) consensus mechanism, similar to Ethereum's recent Merge. This campaign aims to pressure the Bitcoin community to reduce the network's energy consumption, highlighting ongoing ESG concerns.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_PoS_advocacy",
+        "ESG_pressure_on_BTC"
+      ],
+      "rationale": "The continued pressure from environmental groups for Bitcoin to adopt PoS reflects growing ESG concerns. While unlikely to force a code change soon, it could influence investor sentiment and regulatory discussions around Bitcoin's environmental impact."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n24d5f2768d22",
+      "title": "Crypto: Ripple and tsuka soar despite another Fed rate hike",
+      "url": "https://finance.yahoo.com/news/ripple-xrp-tsuka-ethereum-bitcoin-sec-fed-interest-rate-141721630.html",
+      "summary": "Ripple (XRP) and Tsuka experienced significant price surges despite a broader market downturn following the Federal Reserve's 75 basis point rate hike. This suggests that specific project developments or market dynamics can sometimes override macroeconomic influences, leading to isolated bullish movements.",
+      "impact_horizon_months": 1,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "XRP_price_surge",
+        "Tsuka_price_surge",
+        "Fed_rate_hike_impact_divergence"
+      ],
+      "rationale": "The outperformance of XRP and Tsuka amidst a generally negative market indicates that specific catalysts can drive individual crypto assets. While not directly impacting Bitcoin's long-term trend, it shows pockets of strength driven by project-specific news."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n1d4cd3144f90",
+      "title": "Interview: How Cosmos Is Building An Interchain Future",
+      "url": "https://finance.yahoo.com/news/interview-cosmos-building-interchain-future-124140826.html",
+      "summary": "Cosmos is developing an interchain future by connecting various blockchains. The upcoming Cosmos community convergence in Medellin on Sept. 26 could generate positive sentiment and highlight the project's progress, potentially influencing ATOM's price and broader DeFi trends.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Cosmos_interchain_development",
+        "Cosmos_community_event"
+      ],
+      "rationale": "The upcoming Cosmos community event could generate positive buzz and highlight development progress, potentially leading to short-term price appreciation for ATOM and signaling continued innovation in the inter-blockchain communication space."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ncb9c59a16db3",
+      "title": "Is Powell 2022’s Paul Volcker? The Answer Matters to Bitcoin",
+      "url": "https://finance.yahoo.com/news/powell-2022-paul-volcker-answer-170000951.html",
+      "summary": "The article draws parallels between Fed Chair Jerome Powell and Paul Volcker, suggesting Powell's aggressive rate hikes could tame inflation but potentially lead to a recession. This comparison highlights the market's focus on the Fed's monetary policy and its potential impact on risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Powell_Volcker_comparison",
+        "hawkish_Fed_policy",
+        "recession_fears"
+      ],
+      "rationale": "The comparison of Powell to Volcker emphasizes the Fed's aggressive stance on inflation. This hawkish outlook, coupled with recession fears, is a significant bearish catalyst for risk assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n13933e98c86f",
+      "title": "GLOBAL MARKETS-Stocks tumble, dollar soars and bonds plunge as recession fears grow",
+      "url": "https://finance.yahoo.com/news/global-markets-stocks-tumble-dollar-210336197.html",
+      "summary": "Global markets experienced a significant downturn, with stocks tumbling, the dollar soaring, and bonds plunging due to growing recession fears. This broad market sell-off indicates a strong risk-off sentiment, which typically impacts cryptocurrencies negatively.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "global_market_selloff",
+        "recession_fears",
+        "strong_dollar"
+      ],
+      "rationale": "The widespread market decline and heightened recession fears create a strong risk-off environment. This sentiment is highly bearish for Bitcoin, which often correlates with traditional risk assets, suggesting a likely price decrease in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n99aa3a3d99b7",
+      "title": "First Mover Americas: Bitcoin Hanging Tough as Stocks Slide",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-hanging-134655528.html",
+      "summary": "Bitcoin has shown resilience, trading relatively stable despite a broader stock market slide. However, Ethereum miners potentially dumping $319 million in ETH could create downward pressure. The narrowing stETH/ETH discount suggests reduced DeFi risk premium.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_resilience_vs_stocks",
+        "ETH_miner_selling_pressure",
+        "stETH_ETH_discount_evaporation"
+      ],
+      "rationale": "Bitcoin's relative strength against sliding stocks is a positive sign, but potential selling pressure from ETH miners and the normalization of the stETH/ETH discount introduce short-term volatility and potential downside risk."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n5ecfeb22c970",
+      "title": "GLOBAL MARKETS-Stocks slump to 2-year low as rates reality bites",
+      "url": "https://finance.yahoo.com/news/global-markets-stocks-slump-2-054306627.html",
+      "summary": "Global stocks have fallen to a two-year low as the reality of higher-for-longer interest rates sets in. This widespread market downturn, driven by aggressive central bank policies, is creating a negative environment for risk assets, including Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "stocks_2_year_low",
+        "rates_reality_bites",
+        "aggressive_central_bank_policy"
+      ],
+      "rationale": "The continued decline in global stock markets to a two-year low, directly attributed to the impact of rising interest rates, reinforces a bearish outlook for Bitcoin. This macro environment suggests further price pressure in the short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n210ebe8011c3",
+      "title": "Market Wrap: Bitcoin Drops Below $19K Amid Ongoing Volatility",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-drops-below-212316249.html",
+      "summary": "Bitcoin and Ether experienced price drops on Friday, trading below $19,000 and showing continued volatility. The lack of a significant catalyst to drive prices higher, combined with a week-over-week decline, indicates a bearish short-term trend.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_below_19k",
+        "ETH_price_drop",
+        "ongoing_volatility"
+      ],
+      "rationale": "Bitcoin falling below $19,000 and Ether experiencing a price drop, coupled with ongoing volatility and a lack of positive catalysts, points to continued bearish sentiment and potential for further price declines in the immediate short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n933700bfc134",
+      "title": "Bitcoin Miner Marathon Digital Downgraded at BTIG on Headwinds From Compute North’s Bankruptcy",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-marathon-digital-downgraded-132457969.html",
+      "summary": "BTIG downgraded Marathon Digital (MARA) to neutral due to Compute North's bankruptcy, which is Marathon's primary hosting provider. This bankruptcy is expected to slow Marathon's hash capacity growth in the near term, potentially impacting its Bitcoin production.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Marathon_Digital_downgrade",
+        "Compute_North_bankruptcy",
+        "miner_operational_headwinds"
+      ],
+      "rationale": "The downgrade of Marathon Digital due to Compute North's bankruptcy filing introduces negative sentiment for mining stocks. This operational disruption could lead to reduced hash rate growth for Marathon, potentially impacting its Bitcoin production and stock price."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n077faf53fd14",
+      "title": "Bitcoin Miner Iris Energy Signs Up To $100M Equity Deal With B. Riley",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-iris-energy-signs-141126642.html",
+      "summary": "Bitcoin miner Iris Energy has secured a $100 million equity deal with B. Riley. This financing comes as mining stocks face headwinds from falling Bitcoin prices and rising energy costs. The deal provides Iris with capital for operations and expansion.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Iris_Energy_equity_deal",
+        "B_Riley_investment",
+        "miner_financing"
+      ],
+      "rationale": "Iris Energy's equity deal provides crucial funding amidst a challenging mining environment. This capital infusion can support their operations and expansion plans, potentially leading to increased hash rate and Bitcoin production, which is a mild positive for the network."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n30e4ac2dc99f",
+      "title": "Bitcoin Miner Cipher Looks to Sell Up to $250M in Stock",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-cipher-looks-sell-161439002.html",
+      "summary": "Cipher Mining is planning to sell up to $250 million in stock through an at-the-market offering. This move comes as Bitcoin miners face financial pressure from declining Bitcoin prices and high energy costs. The capital raised will fund development and operations.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Cipher_Mining_stock_offering",
+        "miner_capital_raising",
+        "dilution_risk"
+      ],
+      "rationale": "Cipher Mining's plan to sell a significant amount of stock indicates potential financial strain and the need for capital. This could lead to dilution for existing shareholders and suggests a bearish short-term outlook for the miner's stock, potentially impacting sentiment for the sector."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n10353c8b63f8",
+      "title": "The Crypto Winter’s Latest Casualty Is Data Center Firm Compute North",
+      "url": "https://finance.yahoo.com/news/crypto-winter-latest-casualty-data-221028014.html",
+      "summary": "Compute North, a data center firm serving crypto miners, has filed for bankruptcy. This event is attributed to the ongoing crypto winter and financial difficulties. The bankruptcy highlights the severe impact of the bear market on infrastructure providers in the crypto ecosystem.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Compute_North_bankruptcy",
+        "crypto_winter_impact",
+        "data_center_provider_distress"
+      ],
+      "rationale": "The bankruptcy of Compute North, a key infrastructure provider for crypto miners, is a significant negative development. It signals distress within the mining sector and could lead to further operational disruptions and reduced hash power, impacting Bitcoin's network health and price."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-09-23",
+    "summary": "Global markets are experiencing a severe risk-off sentiment, with stocks tumbling to two-year lows and recession fears intensifying due to aggressive central bank rate hikes. Bitcoin and Ether are trading lower, reflecting this macro environment. While Bitcoin shows some resilience against stocks, potential selling pressure from Ethereum miners and the bankruptcy of a key data center provider for miners (Compute North) introduce short-term bearish catalysts. Miner stocks are also facing headwinds, with downgrades and stock offerings indicating financial strain.",
+    "scenario_probs": {
+      "bull": 0.2,
+      "base": 0.4,
+      "bear": 0.4
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued aggressive monetary tightening by central banks.",
+      "Escalating recession fears impacting global economic activity.",
+      "Potential for further contagion from crypto infrastructure failures (e.g., data centers).",
+      "Increased selling pressure from Ethereum miners post-Merge.",
+      "Regulatory uncertainty and crackdowns on privacy tools."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and economic data releases (CPI, PPI).",
+      "Performance of major stock indices (S&P 500, Nasdaq).",
+      "Hash rate and profitability of major Bitcoin miners.",
+      "Developments regarding Compute North's bankruptcy and its impact on other miners.",
+      "Ethereum miner wallet activity."
+    ]
+  }
+}

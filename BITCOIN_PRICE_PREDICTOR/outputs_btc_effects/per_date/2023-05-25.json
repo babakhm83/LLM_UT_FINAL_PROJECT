@@ -1,0 +1,532 @@
+{
+  "date": "2023-05-25",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "na577dd12f2d4",
+      "title": "Liechtenstein to allow payment for certain state services in Bitcoin - Handelsblatt",
+      "url": "https://finance.yahoo.com/news/liechtenstein-allow-payment-certain-state-114344919.html",
+      "summary": "Liechtenstein plans to accept Bitcoin for certain state services, with the intention to immediately exchange it for Swiss francs. This move by a European nation signals a growing acceptance of Bitcoin as a transactional tool, even if for limited government services. It could encourage similar initiatives in other jurisdictions, fostering broader adoption and potentially increasing demand for Bitcoin as a medium of exchange.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Liechtenstein_BTC_payments",
+        "state_service_adoption",
+        "crypto_acceptance"
+      ],
+      "rationale": "This represents a tangible step towards government-level adoption of Bitcoin, even if primarily for conversion. It sets a precedent for other nations and could encourage broader acceptance of cryptocurrencies for public services."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n7b9fef3b6086",
+      "title": "Sweden Drives Final Nail Into Its Bitcoin Mining Industry With Tax Hike",
+      "url": "https://finance.yahoo.com/news/sweden-drives-final-nail-bitcoin-153944151.html",
+      "summary": "Sweden is abolishing tax incentives for data centers, which is expected to significantly impact its Bitcoin mining industry. This decision, coupled with high energy prices in Europe, makes mining less profitable in the region. It suggests a trend of regulatory tightening and increased operational costs for miners, potentially leading to a geographical shift in mining operations towards more favorable jurisdictions.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "miner"
+      ],
+      "features_for_model": [
+        "Sweden_mining_tax_hike",
+        "data_center_incentives_abolished",
+        "European_mining_challenges"
+      ],
+      "rationale": "This regulatory action in Sweden makes mining less viable, potentially reducing hashrate from the region and indicating a challenging environment for miners in Europe due to energy costs and policy. This could lead to a slight downward pressure on network security or a shift in mining concentration."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n5457a9c145b4",
+      "title": "Fed hikes interest rates 0.25 percentage point but signals pause in inflation fight",
+      "url": "https://finance.yahoo.com/news/live-updates-fed-expected-hike-103626491.html",
+      "summary": "The Federal Reserve raised interest rates by 0.25 percentage points and signaled a potential pause in future hikes, contingent on inflation easing. This marks a shift from aggressive tightening and suggests a more data-dependent approach. A pause or slowdown in rate hikes is generally seen as positive for risk assets like Bitcoin, as it reduces borrowing costs and can increase liquidity in the market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_pause_signal",
+        "inflation_monitoring",
+        "monetary_policy_shift"
+      ],
+      "rationale": "The Fed's signal of a potential pause in rate hikes is a significant macro development. Reduced monetary tightening generally benefits risk assets, including Bitcoin, by lowering the cost of capital and potentially increasing investor appetite for growth assets."
+    },
+    {
+      "pick_idx": 12,
+      "id": "na34cb84aa1a6",
+      "title": "Winklevoss twins plot British base for crypto empire",
+      "url": "https://finance.yahoo.com/news/winklevoss-twins-plot-british-crypto-050000322.html",
+      "summary": "The Winklevoss twins are considering the UK as a base for their crypto exchange Gemini, citing a \"hostile\" regulatory climate in the US. This move highlights the global competition for crypto businesses and the impact of regulatory uncertainty in the US. A strong UK presence for Gemini could foster innovation and attract more institutional capital to the region, potentially benefiting the broader crypto ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Winklevoss_UK_expansion",
+        "Gemini_regulatory_arbitrage",
+        "US_regulatory_hostility"
+      ],
+      "rationale": "The potential establishment of a major crypto exchange like Gemini in the UK, driven by regulatory concerns in the US, indicates a global trend of regulatory arbitrage. This could lead to increased institutional adoption and development in the UK, potentially benefiting the broader crypto market."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n0507061f7d73",
+      "title": "Bitcoin price hits 2023 high after 85% surge",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-hits-2023-high-093809883.html",
+      "summary": "Bitcoin's price surpassed $30,000, reaching a 2023 high and marking an 85% increase year-to-date. This surge indicates strong market sentiment and recovery after a challenging 2022. The broader crypto market also saw significant gains, suggesting a potential shift towards a more bullish phase, driven by renewed investor interest and possibly macro factors.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_surge_2023",
+        "2023_high_reached",
+        "market_sentiment_recovery"
+      ],
+      "rationale": "The significant price surge and reaching a new 2023 high demonstrates strong upward momentum and renewed investor confidence. This price action often attracts more capital and attention, potentially leading to further sustained growth."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n07c44b33525e",
+      "title": "How Jack Dorsey's Bitcoin Legal Defense Fund is fighting for the future of open source software",
+      "url": "https://finance.yahoo.com/news/jack-dorseys-bitcoin-legal-defense-161256117.html",
+      "summary": "The Jack Dorsey-backed Bitcoin Legal Defense Fund is defending Bitcoin developers against a lawsuit claiming Satoshi Nakamoto's identity. This legal battle could have significant implications for open-source software development and the core principles of Bitcoin. A favorable outcome for the developers would reinforce the decentralized nature of Bitcoin and protect open-source contributors from frivolous lawsuits.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "legal"
+      ],
+      "features_for_model": [
+        "Dorsey_Bitcoin_Legal_Fund",
+        "Satoshi_Nakamoto_lawsuit",
+        "open_source_defense"
+      ],
+      "rationale": "The defense of Bitcoin developers against a potentially precedent-setting lawsuit is crucial for the long-term health of open-source development and Bitcoin's decentralized ethos. A positive resolution would reduce legal uncertainty for core contributors."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nf2c4c0796cf3",
+      "title": "Bitcoin Is Poised to Reclaim Crypto’s Spotlight: Berenberg",
+      "url": "https://finance.yahoo.com/news/bitcoin-poised-reclaim-crypto-spotlight-105932943.html",
+      "summary": "Berenberg suggests Bitcoin may regain its leading position in the crypto market, especially as regulators crack down on other tokens potentially deemed securities. Bitcoin's inherent decentralization is seen as a shield against such regulatory actions. This view implies that Bitcoin's unique status as a commodity, rather than a security, will become more pronounced, attracting capital away from altcoins facing regulatory headwinds.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Berenberg_BTC_spotlight",
+        "regulatory_crackdown_impact",
+        "Bitcoin_as_commodity"
+      ],
+      "rationale": "The analysis from Berenberg highlights Bitcoin's potential to consolidate its market leadership due to regulatory clarity compared to other crypto assets. This could lead to increased capital flows into Bitcoin as a perceived 'safer' digital asset."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n2314282059c5",
+      "title": "Global Blockchain and Cryptocurrency Market 2023",
+      "url": "https://finance.yahoo.com/news/global-blockchain-cryptocurrency-market-2023-113200660.html",
+      "summary": "A report indicates the cryptocurrency market is set for rapid expansion, with policymakers implementing regulations. The US is noted as a frontrunner in tighter regulations, despite the 'crypto winter.' Increasing global adoption of cryptocurrency, including in the US, suggests a growing market size and potential for innovation, even within a regulated framework.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "global_crypto_market_growth",
+        "US_regulatory_leadership",
+        "policy_implementation"
+      ],
+      "rationale": "The report points to significant market expansion driven by increasing global adoption and regulatory frameworks. While US regulation is tightening, it also provides a clearer path for institutional participation, which is a net positive for long-term growth."
+    },
+    {
+      "pick_idx": 38,
+      "id": "nfb406095de2c",
+      "title": "MicroStrategy Repays Silvergate Loan, Spends $150M Buying More Bitcoin",
+      "url": "https://finance.yahoo.com/news/microstrategy-repays-silvergate-loan-spends-141906053.html",
+      "summary": "MicroStrategy, a major Bitcoin corporate holder, repaid its loan from Silvergate Bank and reclaimed its collateralized Bitcoin. Concurrently, the company purchased an additional $150 million worth of Bitcoin. This action demonstrates continued conviction in Bitcoin by a significant institutional player and reduces counterparty risk associated with specific financial institutions like Silvergate.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_buy",
+        "Silvergate_loan_repayment",
+        "corporate_treasury_allocation"
+      ],
+      "rationale": "MicroStrategy's continued accumulation of Bitcoin, even after repaying a loan, signals strong institutional conviction. This buying pressure from a prominent holder can positively influence market sentiment and price."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n5209967e0d02",
+      "title": "You can't replace the dollar, but here are 5 alternative assets that are chipping away at the greenback's supremacy",
+      "url": "https://finance.yahoo.com/news/cant-replace-dollar-5-alternative-071202040.html",
+      "summary": "The article discusses alternative assets like Bitcoin that are gradually challenging the US dollar's global dominance. It highlights a trend of de-dollarization and countries seeking backup reserve currencies. Bitcoin's role as a potential hedge against inflation and a store of value outside traditional financial systems is increasingly recognized, contributing to its long-term adoption narrative.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "de_dollarization_trend",
+        "Bitcoin_reserve_asset",
+        "alternative_assets"
+      ],
+      "rationale": "The narrative of Bitcoin as a potential hedge against dollar devaluation and a component of de-dollarization strategies is a significant long-term driver. As more countries explore alternatives, Bitcoin's role as a global, decentralized store of value could be further cemented."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n9324b26345af",
+      "title": "Sam Altman’s crypto project Worldcoin got more coin in latest $115M raise",
+      "url": "https://finance.yahoo.com/news/sam-altman-crypto-project-worldcoin-190012256.html",
+      "summary": "Sam Altman's Worldcoin project raised $115 million in a Series C round. The project aims to create a global ID and currency. While the funding itself is a positive signal for the project, concerns about privacy risks associated with its 'orb' technology persist. This news could generate some speculative interest in WLD tokens, but the privacy concerns might limit broader adoption or create negative sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "funding"
+      ],
+      "features_for_model": [
+        "Worldcoin_funding_raise",
+        "Sam_Altman_project",
+        "privacy_concerns"
+      ],
+      "rationale": "Significant funding for a high-profile project can create short-term buzz. However, ongoing privacy concerns might temper any bullish sentiment, leading to an uncertain immediate price impact."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nb4d666f2f764",
+      "title": "Hong Kong’s new crypto rules covered by China state TV in rare move from Beijing",
+      "url": "https://finance.yahoo.com/news/hong-kong-crypto-rules-covered-072552736.html",
+      "summary": "China's state TV (CCTV) reported on Hong Kong's new crypto regulations, a rare move that caught market attention. This suggests a potential shift in Beijing's stance or increased interest in the region's crypto developments. Such attention could signal a more favorable regulatory environment or increased institutional interest in Hong Kong as a crypto hub, potentially boosting sentiment for regional crypto assets.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Hong_Kong_crypto_regulation_CCTV",
+        "China_state_TV_coverage",
+        "regulatory_clarity_Asia"
+      ],
+      "rationale": "Positive coverage from China's state TV on Hong Kong's crypto regulations is a significant signal. It could indicate growing acceptance or a more favorable regulatory outlook from mainland China towards the region's crypto ambitions, boosting sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nfd9f5f5d8715",
+      "title": "Ron DeSantis goes crypto, says the Biden administration will kill Bitcoin",
+      "url": "https://finance.yahoo.com/news/ron-desantis-goes-crypto-says-144225782.html",
+      "summary": "Presidential candidate Ron DeSantis voiced strong pro-crypto sentiments, stating the Biden administration poses a threat to Bitcoin. His comments align with a segment of the Republican party that views crypto favorably and criticizes current regulatory approaches. This political rhetoric could influence investor sentiment, particularly among those who favor a less regulated crypto environment.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "DeSantis_pro_crypto",
+        "Biden_admin_crypto_threat",
+        "political_sentiment_crypto"
+      ],
+      "rationale": "Political commentary from a presidential candidate, especially one with a strong stance on crypto, can influence short-term sentiment. DeSantis's pro-Bitcoin remarks might appeal to a certain investor base, potentially creating minor positive price action."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n427f8be1895b",
+      "title": "First Mover Asia: Bitcoin Holding Pattern Continues as Lawmakers Make Progress in Debt Limit Negotiations",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-holding-234551772.html",
+      "summary": "Bitcoin is in a holding pattern as lawmakers make progress on debt limit negotiations. This suggests that market participants are cautiously awaiting the outcome of these critical fiscal discussions. Positive progress on the debt ceiling could reduce macro uncertainty and potentially lead to a risk-on sentiment, benefiting Bitcoin. Conversely, a deadlock could increase volatility.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_holding_pattern",
+        "debt_limit_negotiations",
+        "macro_uncertainty"
+      ],
+      "rationale": "The ongoing US debt ceiling negotiations are a major macro driver. Progress towards a resolution could reduce uncertainty and boost risk assets like Bitcoin, while a failure to reach an agreement would likely increase volatility and potentially lead to a sell-off."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n38164fb9522c",
+      "title": "DeSantis: ‘Bitcoin Represents a Threat to the Current Regime’",
+      "url": "https://finance.yahoo.com/news/desantis-bitcoin-represents-threat-current-041456342.html",
+      "summary": "Ron DeSantis views Bitcoin as a threat to the 'current regime' and advocates for its protection. This strong pro-Bitcoin stance from a political figure suggests a potential for policies that favor the cryptocurrency's growth and adoption. Such political endorsements can boost confidence among investors and signal a more favorable regulatory future.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "DeSantis_Bitcoin_threat_regime",
+        "pro_Bitcoin_policy",
+        "political_endorsement"
+      ],
+      "rationale": "DeSantis's framing of Bitcoin as a threat to the 'current regime' is a strong political statement. This rhetoric could resonate with crypto-advocates and signal a potential shift towards more crypto-friendly policies if he gains power."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nf69e55cc2871",
+      "title": "Passing Fad? Bitcoin Ordinals Inscriptions Just Hit a New Milestone",
+      "url": "https://finance.yahoo.com/news/passing-fad-bitcoin-ordinals-inscriptions-192029889.html",
+      "summary": "Bitcoin Ordinals inscriptions have surpassed 9 million, tripling since May 1st. This rapid growth indicates sustained interest and utility for the Ordinals protocol, which allows for inscribing data onto Bitcoin's blockchain. The increasing adoption suggests Ordinals are more than a fleeting trend and could contribute to network activity and potentially higher transaction fees.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ordinals_inscriptions_milestone",
+        "Bitcoin_blockchain_activity",
+        "NFT_on_Bitcoin"
+      ],
+      "rationale": "The significant increase in Ordinals inscriptions points to growing utility and adoption of this new feature on the Bitcoin network. This increased activity can lead to higher transaction fees and more network usage, which is generally positive for Bitcoin."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n9c14c29f3888",
+      "title": "US stocks fall as debt ceiling debate drags on and minutes show Fed split on more rate hikes",
+      "url": "https://finance.yahoo.com/news/us-stocks-fall-debt-ceiling-040324175.html",
+      "summary": "US stocks declined due to ongoing debt ceiling debates and a split within the Federal Reserve regarding future rate hikes. The uncertainty surrounding the debt ceiling creates a risk-off environment, potentially impacting Bitcoin. The Fed's internal division on monetary policy adds to macro uncertainty, making investors cautious.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "US_stocks_fall",
+        "debt_ceiling_impasse",
+        "Fed_split_rate_hikes"
+      ],
+      "rationale": "The combination of unresolved debt ceiling issues and a divided Fed creates significant macroeconomic uncertainty. This typically leads to a risk-off sentiment, which can negatively impact Bitcoin as investors seek safer assets."
+    },
+    {
+      "pick_idx": 20,
+      "id": "na51f4dd655f7",
+      "title": "Bitcoin drops near US$26,000 amid U.S. debt uncertainties",
+      "url": "https://finance.yahoo.com/news/bitcoin-drops-near-us-26-023418860.html",
+      "summary": "Bitcoin has fallen below $26,000, influenced by US debt ceiling uncertainties and broader macroeconomic concerns. The decline reflects a cautious market sentiment as investors await resolution on fiscal matters. This price action indicates that macro risks are currently outweighing any positive developments in the crypto space.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "US_debt_ceiling_uncertainty",
+        "macroeconomic_concerns"
+      ],
+      "rationale": "The direct correlation between US debt ceiling uncertainties and Bitcoin's price drop highlights the immediate impact of macro risks. This suggests that until the debt ceiling issue is resolved, Bitcoin may face downward pressure."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n0221d9fbcdb3",
+      "title": "First Mover Americas: Bitcoin Falls to $26K; Is $24K Next?",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-falls-121918101.html",
+      "summary": "Bitcoin has fallen to $26K, with technical analysis suggesting a potential drop to $24K. This decline is attributed to renewed bets on the Fed remaining hawkish, a stronger US dollar, and lingering debt ceiling uncertainties. These factors collectively create a bearish short-term outlook for Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_fall_26K",
+        "Fed_hawkish_bets",
+        "USD_strength",
+        "debt_ceiling_uncertainty"
+      ],
+      "rationale": "Multiple bearish macro factors, including potential Fed hawkishness, a strengthening dollar, and debt ceiling concerns, are converging to push Bitcoin's price down. Technical analysis suggesting further downside reinforces a short-term bearish outlook."
+    },
+    {
+      "pick_idx": 32,
+      "id": "ne7b7fccad15e",
+      "title": "Crypto Consortium Fahrenheit Wins Bid to Acquire Bankrupt Celsius' Assets",
+      "url": "https://finance.yahoo.com/news/crypto-consortium-fahrenheit-wins-bid-090703663.html",
+      "summary": "The crypto consortium Fahrenheit has won the bid to acquire the assets of the bankrupt Celsius Network. This acquisition includes Celsius's mining unit and other investments. The successful acquisition and restructuring by Fahrenheit could lead to a more stable operational environment for these assets and potentially unlock value, positively impacting the market sentiment around distressed crypto entities.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Fahrenheit_Celsius_acquisition",
+        "bankrupt_asset_restructuring",
+        "Celsius_mining_unit"
+      ],
+      "rationale": "The acquisition of Celsius's assets by Fahrenheit represents a step towards resolving a major bankruptcy case. This could lead to the operationalization of those assets and a positive sentiment shift regarding the resolution of past industry failures."
+    },
+    {
+      "pick_idx": 35,
+      "id": "nc035eb0a68bf",
+      "title": "First Mover Asia: Bitcoin Holds Below $27K Amid Macro Uncertainties",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-holds-004555066.html",
+      "summary": "Bitcoin is trading below $27K as Asian markets open, with investors focused on US debt ceiling woes and other macro uncertainties. This indicates that broader economic concerns are currently dominating market sentiment, leading to a consolidation or slight downturn in Bitcoin's price.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_below_27K",
+        "macro_uncertainties",
+        "debt_ceiling_woes"
+      ],
+      "rationale": "Bitcoin's inability to break above $27K, coupled with ongoing macro uncertainties like the debt ceiling, suggests continued sideways or downward pressure in the immediate short term."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nadeefdbbc9da",
+      "title": "Bitcoin's Hot Ordinals Economy is Getting a Dollar-Backed Stablecoin",
+      "url": "https://finance.yahoo.com/news/bitcoins-hot-ordinals-economy-getting-130000842.html",
+      "summary": "Stably USD, a dollar-backed stablecoin, is launching as a BRC20 token on the Bitcoin network to support the Ordinals economy. This stablecoin aims to make trading Ordinals cheaper and more efficient. The introduction of a stablecoin specifically for the Ordinals market could boost activity and liquidity within this growing niche.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Ordinals_stablecoin",
+        "Stably_USD_BRC20",
+        "Bitcoin_economy_liquidity"
+      ],
+      "rationale": "The launch of a stablecoin tailored for the Ordinals ecosystem is a significant development. It can facilitate easier trading and investment within this niche, potentially increasing overall activity and demand for Bitcoin as a base layer."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n95ae3b8c6718",
+      "title": "Binance Launching NFT Loan Feature",
+      "url": "https://finance.yahoo.com/news/binance-launching-nft-loan-feature-133409577.html",
+      "summary": "Binance is launching an NFT loan feature, allowing users to borrow ETH using NFTs as collateral. This move integrates DeFi principles into Binance's NFT marketplace, offering instant liquidity and competitive rates. Such features can increase utility for NFTs and attract more users to the platform, potentially boosting trading volume and interest in NFTs.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Binance_NFT_loans",
+        "DeFi_integration",
+        "NFT_collateral"
+      ],
+      "rationale": "Binance's introduction of an NFT loan feature enhances the utility of NFTs by providing liquidity. This integration of DeFi concepts into a major NFT marketplace can attract more users and capital, potentially boosting the NFT market."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-05-25",
+    "summary": "Bitcoin remains range-bound, hovering below $27K, heavily influenced by ongoing US debt ceiling negotiations and mixed signals from the Federal Reserve. Political commentary from presidential candidate Ron DeSantis offers a bullish narrative for crypto, while the growth of Bitcoin Ordinals and the launch of a stablecoin for this ecosystem suggest increasing on-chain activity. However, broader macro uncertainties and a strengthening dollar are creating a bearish short-term sentiment, with technicals pointing to potential further downside.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.3,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Failure to resolve US debt ceiling negotiations, leading to market instability.",
+      "Resurgence of inflation or hawkish Fed commentary, increasing macro headwinds.",
+      "Increased regulatory scrutiny on specific crypto projects or exchanges.",
+      "Technical breakdown below key support levels ($26,000) for Bitcoin.",
+      "Negative sentiment spillover from other risk assets."
+    ],
+    "watch_items": [
+      "US Debt Ceiling negotiations progress/stalemate.",
+      "Federal Reserve statements and economic data releases.",
+      "Developments in Bitcoin Ordinals adoption and related infrastructure.",
+      "Political statements regarding cryptocurrency regulation.",
+      "Performance of major altcoins and their correlation with Bitcoin."
+    ]
+  }
+}

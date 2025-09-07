@@ -1,0 +1,463 @@
+{
+  "date": "2020-04-26",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n7ae3e3d5c8e7",
+      "title": "Bitcoin Extends Rally as Trading Volume for CME Futures Hits Three-Week High",
+      "url": "https://finance.yahoo.com/news/bitcoin-extends-rally-trading-volume-120016497.html",
+      "summary": "Bitcoin's price rally has been accompanied by a significant increase in trading volume on CME futures, reaching a three-week high. This surge in activity suggests growing institutional interest and confidence in Bitcoin's upward momentum. The increased volume indicates more active participation and potentially deeper liquidity in the Bitcoin derivatives market, which can support sustained price appreciation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "CME_futures_volume",
+        "BTC_price_rally",
+        "institutional_interest"
+      ],
+      "rationale": "Increased trading volume on a major derivatives exchange like CME often signals growing institutional adoption and interest. This can lead to more stable price discovery and potentially higher prices over the medium term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n05f49a13963e",
+      "title": "Bitmain Partially Refunds Bitcoin Miner Buyers After Price Cuts",
+      "url": "https://finance.yahoo.com/news/bitmain-partially-refunds-bitcoin-miner-094618878.html",
+      "summary": "Bitmain, a major Bitcoin mining hardware manufacturer, is offering partial refunds to customers who purchased its latest mining machines before recent price reductions. This move reflects the impact of Bitcoin's price volatility and the upcoming halving event on mining profitability. The refunds suggest a proactive approach by Bitmain to manage customer relations amidst market uncertainty, potentially stabilizing demand for new hardware.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitmain_refunds",
+        "mining_profitability",
+        "BTC_halving_impact"
+      ],
+      "rationale": "Bitmain's actions indicate the pressure on mining profitability due to price drops and the halving. While a short-term negative for miner sentiment, it could also signal a more stable mining hardware market in the long run if Bitmain manages inventory and pricing effectively."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n20eab06da8e0",
+      "title": "Can Bitcoin Survive the Climate Change Revolution?",
+      "url": "https://finance.yahoo.com/news/bitcoin-survive-climate-change-revolution-060000689.html",
+      "summary": "This article explores the potential impact of the growing focus on environmental, social, and governance (ESG) factors on Bitcoin's energy-intensive mining process. As sustainability becomes a key consideration for corporations and investors, Bitcoin's energy consumption could face increasing scrutiny and pressure. This could lead to a push for more energy-efficient mining solutions or a negative sentiment from ESG-focused investors.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ESG_scrutiny",
+        "Bitcoin_energy_consumption",
+        "mining_sustainability"
+      ],
+      "rationale": "The increasing global emphasis on climate change and ESG principles could lead to regulatory or investor pressure on Bitcoin's energy-intensive mining, potentially impacting its long-term adoption and perception."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n354cf5ef270f",
+      "title": "‘Digital Dollar’ Stripped From Latest US Coronavirus Relief Bill",
+      "url": "https://finance.yahoo.com/news/digital-dollar-stripped-latest-us-141525992.html",
+      "summary": "The exclusion of a 'digital dollar' from the latest U.S. coronavirus relief bill indicates a slower pace for central bank digital currency (CBDC) development in the U.S. While not directly impacting Bitcoin, it suggests that traditional financial systems are not yet prioritizing a digital dollar rollout, which could indirectly benefit decentralized alternatives in the longer term by leaving a void.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "digital_dollar_omission",
+        "US_stimulus_bill",
+        "CBDC_development_pace"
+      ],
+      "rationale": "The absence of a 'digital dollar' in U.S. stimulus packages suggests a delayed adoption of CBDCs, potentially creating a more favorable environment for decentralized digital currencies like Bitcoin in the medium to long term."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n264f9539f4ef",
+      "title": "Bitcoin trading volume on exchanges grew 61 percent in Q1 compared to previous quarter",
+      "url": "https://finance.yahoo.com/news/bitcoin-trading-volume-exchanges-grew-150542099.html",
+      "summary": "Bitcoin trading volumes across major exchanges saw a substantial 61% increase in Q1 2020 compared to the previous quarter. This significant rise in trading activity indicates heightened market interest and participation, likely driven by macroeconomic uncertainty and the anticipation of the Bitcoin halving event. Increased volume can lead to greater liquidity and potentially more stable price movements.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "Q1_2020_BTC_volume_growth",
+        "exchange_activity",
+        "market_participation"
+      ],
+      "rationale": "A significant increase in trading volume suggests growing market interest and liquidity, which are positive indicators for price stability and potential upward movement over the next few months."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n937391ace4d7",
+      "title": "US Treasury Department Blacklists 20 Bitcoin Addresses Tied to Alleged North Korean Hackers",
+      "url": "https://finance.yahoo.com/news/us-treasury-department-blacklists-20-172359142.html",
+      "summary": "The U.S. Treasury Department has sanctioned 20 Bitcoin addresses linked to alleged North Korean hackers, including the Lazarus Group. This action highlights regulatory efforts to combat illicit activities in the crypto space. While it may deter some bad actors, it also signals increased government oversight and potential for future regulations that could impact Bitcoin's perceived anonymity and regulatory standing.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "US_Treasury_sanctions",
+        "blacklisted_BTC_addresses",
+        "Lazarus_Group_link"
+      ],
+      "rationale": "Regulatory actions like blacklisting addresses can increase scrutiny on Bitcoin transactions, potentially impacting its use for illicit purposes but also signaling a move towards greater regulatory compliance, which could be a long-term positive."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n48df0e7cb904",
+      "title": "First Mover: Trillions in Coronavirus Stimulus Bring Out the Bitcoin Bulls",
+      "url": "https://finance.yahoo.com/news/first-mover-trillions-coronavirus-stimulus-124752264.html",
+      "summary": "The massive influx of trillions of dollars in coronavirus stimulus packages by governments and central banks is fueling a bullish narrative for Bitcoin. Proponents argue that currency debasement from such stimulus measures will drive investors towards Bitcoin as an inflation hedge. This sentiment, coupled with the upcoming halving, creates a strong bullish case for Bitcoin as a store of value.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "COVID_stimulus_trillions",
+        "BTC_inflation_hedge",
+        "currency_debasement_narrative"
+      ],
+      "rationale": "Large-scale monetary stimulus is seen by many as a catalyst for Bitcoin adoption as an inflation hedge, potentially driving significant price appreciation over the next year."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nace72d1e2854",
+      "title": "FATF Says US ‘Largely Compliant’ With Virtual Currency Recommendations",
+      "url": "https://finance.yahoo.com/news/fatf-says-us-largely-compliant-071000627.html",
+      "summary": "The Financial Action Task Force (FATF) has assessed the U.S. as 'largely compliant' with its recommendations for preventing money laundering and terrorist financing through digital assets. This positive assessment suggests a relatively stable and developing regulatory environment in the U.S. for virtual currencies, which can foster greater institutional confidence and adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "FATF_US_compliance",
+        "virtual_currency_regulation",
+        "AML_CTF_standards"
+      ],
+      "rationale": "A 'largely compliant' rating for the U.S. by FATF indicates a maturing regulatory framework, which can boost institutional confidence and pave the way for broader adoption."
+    },
+    {
+      "pick_idx": 44,
+      "id": "nd938467a6b6c",
+      "title": "India's top court strikes down RBI banking ban on cryptocurrency",
+      "url": "https://finance.yahoo.com/news/indias-top-court-quashes-rbi-054727271.html",
+      "summary": "India's Supreme Court has overturned the Reserve Bank of India's (RBI) ban on banks handling cryptocurrency transactions. This landmark decision is expected to revitalize the Indian crypto market, allowing exchanges and traders to operate more freely and potentially increasing trading volumes and adoption within the country. This positive regulatory development could have a ripple effect across other emerging markets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_Supreme_Court_ruling",
+        "RBI_ban_overturned",
+        "crypto_banking_access"
+      ],
+      "rationale": "The quashing of India's banking ban on crypto transactions is a significant regulatory win, expected to boost adoption and trading activity within a large, previously restricted market."
+    },
+    {
+      "pick_idx": 48,
+      "id": "ndc8b52ec58ef",
+      "title": "Options Market Signals Doubt Bitcoin Price Will Rise After Halving",
+      "url": "https://finance.yahoo.com/news/options-market-signals-doubt-bitcoin-150030266.html",
+      "summary": "The Bitcoin options market is showing signs of doubt regarding a significant price increase following the upcoming halving event. This suggests that market participants are not heavily pricing in a post-halving rally, potentially indicating a more muted reaction than some bulls expect. The sentiment in the options market can often be a leading indicator of future price action.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_options_market_sentiment",
+        "halving_price_expectation",
+        "market_doubt"
+      ],
+      "rationale": "The options market's skepticism about a post-halving rally suggests that the event might be priced in or that other factors could dampen price appreciation, indicating a potentially less bullish short-term outlook."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ndcb932a27d35",
+      "title": "The Crypto Daily – Movers and Shakers -26/04/20",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-26-025532550.html",
+      "summary": "Bitcoin experienced a slight gain of 0.40% on Saturday, trading around $7,538.5. After an initial dip, it rallied to a high of $7,700 before pulling back. The price action shows some volatility, with resistance at $7,708.03. This indicates a struggle to maintain upward momentum, with potential for short-term price consolidation or a slight pullback.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price"
+      ],
+      "features_for_model": [
+        "BTC_daily_price_movement",
+        "Saturday_trading_action",
+        "resistance_level_test"
+      ],
+      "rationale": "The mixed price action on Saturday, with a rally followed by a pullback, suggests short-term indecision and potential for consolidation or a minor dip."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nf8493e0d20a0",
+      "title": "The Rise of ASICs: A Step-by-Step History of Bitcoin Mining",
+      "url": "https://finance.yahoo.com/news/rise-asics-step-step-history-094335454.html",
+      "summary": "This article details the evolution of Bitcoin mining hardware, specifically ASICs. Understanding the efficiency and cost of mining equipment is crucial for assessing miner profitability and network security. Changes in ASIC technology can influence mining difficulty and the distribution of hash power, indirectly affecting Bitcoin's price and network health.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ASIC_evolution",
+        "mining_equipment_efficiency",
+        "hash_rate_distribution"
+      ],
+      "rationale": "While historical, the ongoing development and adoption of more efficient ASICs can impact mining profitability and network hash rate, which are underlying factors for Bitcoin's price."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n43f8db88b55f",
+      "title": "Crypto expert compares Ethereum to oil amid recent crash",
+      "url": "https://finance.yahoo.com/news/crypto-expert-compares-ethereum-oil-113025935.html",
+      "summary": "An expert compares Ethereum's utility-driven nature to oil, contrasting it with Bitcoin and gold as stores of value. The recent negative oil prices highlight the risks of utility-dependent assets during demand shocks. This comparison could influence investor sentiment towards Ethereum, suggesting potential volatility if demand for its network services falters.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "price",
+        "macro"
+      ],
+      "features_for_model": [
+        "ETH_oil_comparison",
+        "utility_token_risk",
+        "negative_oil_prices_impact"
+      ],
+      "rationale": "The analogy to oil, especially after its price crash, could create negative sentiment around Ethereum's utility-driven model, potentially impacting its price in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n5fe60f70d2b3",
+      "title": "Lightning Network Messaging, Political Expediency and What Crisis Has Revealed",
+      "url": "https://finance.yahoo.com/news/lightning-network-messaging-political-expediency-141500754.html",
+      "summary": "This article discusses the potential of the Lightning Network for private messaging and its implications in the current crisis. Developments in layer-2 solutions like the Lightning Network can improve Bitcoin's scalability and usability, which are key factors for broader adoption and potentially positive for its price. Increased utility can drive demand.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network_messaging",
+        "scalability_improvements",
+        "private_communication_protocol"
+      ],
+      "rationale": "Advancements in the Lightning Network enhance Bitcoin's utility and scalability, which are positive catalysts for adoption and could lead to increased demand and price appreciation."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nd61d8ec36726",
+      "title": "CANAAN ALERT: ROSEN, THE FIRST FILING FIRM, Reminds Canaan Inc. Investors of the Important May 4 Deadline in First Filed Federal Securities Class Action; Investors With Losses are Encouraged to Contact Firm Before Deadline - CAN",
+      "url": "https://finance.yahoo.com/news/canaan-alert-rosen-first-filing-202000373.html",
+      "summary": "This is a legal alert regarding a class action lawsuit against Canaan Inc., a Bitcoin mining hardware manufacturer. The deadline for investors to join the lawsuit is May 4th. Such legal actions can create uncertainty and negative sentiment around the company, potentially impacting its stock price and, by extension, the sentiment towards the mining sector.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "miner",
+        "legal"
+      ],
+      "features_for_model": [
+        "Canaan_Inc_class_action",
+        "securities_lawsuit_deadline",
+        "mining_company_legal_risk"
+      ],
+      "rationale": "The ongoing class action lawsuit against Canaan Inc. introduces legal uncertainty, which could negatively affect investor sentiment towards the company and the broader mining hardware sector."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ndcc358b94c9b",
+      "title": "CLASS ACTION UPDATE for CAN, GOSS and I: Levi & Korsinsky, LLP Reminds Investors of Class Actions on Behalf of Shareholders",
+      "url": "https://finance.yahoo.com/news/class-action-goss-levi-korsinsky-212500579.html",
+      "summary": "This alert highlights class action lawsuits against several companies, including Canaan Inc. (CAN). Such legal actions can create negative sentiment and uncertainty for the involved companies. For Bitcoin, this could translate to a slight bearish pressure on mining-related stocks and potentially a minor impact on overall market sentiment if the issues are significant.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "miner",
+        "legal"
+      ],
+      "features_for_model": [
+        "Canaan_Inc_shareholder_lawsuit",
+        "class_action_filing",
+        "mining_sector_legal_risk"
+      ],
+      "rationale": "Similar to the previous pick, class action lawsuits against mining hardware manufacturers like Canaan can create negative sentiment and potentially impact the broader mining ecosystem's perception."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nf8493e0d20a0",
+      "title": "The Rise of ASICs: A Step-by-Step History of Bitcoin Mining",
+      "url": "https://finance.yahoo.com/news/rise-asics-step-step-history-094335454.html",
+      "summary": "This article details the evolution of Bitcoin mining hardware, specifically ASICs. Understanding the efficiency and cost of mining equipment is crucial for assessing miner profitability and network security. Changes in ASIC technology can influence mining difficulty and the distribution of hash power, indirectly affecting Bitcoin's price and network health.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ASIC_evolution",
+        "mining_equipment_efficiency",
+        "hash_rate_distribution"
+      ],
+      "rationale": "While historical, the ongoing development and adoption of more efficient ASICs can impact mining profitability and network hash rate, which are underlying factors for Bitcoin's price."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ndcb932a27d35",
+      "title": "The Crypto Daily – Movers and Shakers -26/04/20",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-26-025532550.html",
+      "summary": "Bitcoin experienced a slight gain of 0.40% on Saturday, trading around $7,538.5. After an initial dip, it rallied to a high of $7,700 before pulling back. The price action shows some volatility, with resistance at $7,708.03. This indicates a struggle to maintain upward momentum, with potential for short-term price consolidation or a slight pullback.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price"
+      ],
+      "features_for_model": [
+        "BTC_daily_price_movement",
+        "Saturday_trading_action",
+        "resistance_level_test"
+      ],
+      "rationale": "The mixed price action on Saturday, with a rally followed by a pullback, suggests short-term indecision and potential for consolidation or a minor dip."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nf8493e0d20a0",
+      "title": "The Rise of ASICs: A Step-by-Step History of Bitcoin Mining",
+      "url": "https://finance.yahoo.com/news/rise-asics-step-step-history-094335454.html",
+      "summary": "This article details the evolution of Bitcoin mining hardware, specifically ASICs. Understanding the efficiency and cost of mining equipment is crucial for assessing miner profitability and network security. Changes in ASIC technology can influence mining difficulty and the distribution of hash power, indirectly affecting Bitcoin's price and network health.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ASIC_evolution",
+        "mining_equipment_efficiency",
+        "hash_rate_distribution"
+      ],
+      "rationale": "While historical, the ongoing development and adoption of more efficient ASICs can impact mining profitability and network hash rate, which are underlying factors for Bitcoin's price."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n43f8db88b55f",
+      "title": "Crypto expert compares Ethereum to oil amid recent crash",
+      "url": "https://finance.yahoo.com/news/crypto-expert-compares-ethereum-oil-113025935.html",
+      "summary": "An expert compares Ethereum's utility-driven nature to oil, contrasting it with Bitcoin and gold as stores of value. The recent negative oil prices highlight the risks of utility-dependent assets during demand shocks. This comparison could influence investor sentiment towards Ethereum, suggesting potential volatility if demand for its network services falters.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "price",
+        "macro"
+      ],
+      "features_for_model": [
+        "ETH_oil_comparison",
+        "utility_token_risk",
+        "negative_oil_prices_impact"
+      ],
+      "rationale": "The analogy to oil, especially after its price crash, could create negative sentiment around Ethereum's utility-driven model, potentially impacting its price in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-04-26",
+    "summary": "Bitcoin experienced mixed price action on Saturday, showing some volatility but failing to decisively break through resistance levels. Long-term, the narrative around massive stimulus packages continues to support a bullish outlook, with the upcoming halving event also a key factor. However, concerns about Bitcoin's energy consumption and negative sentiment from options markets suggest potential headwinds. Regulatory developments, like the FATF's assessment of the US and India's court ruling, remain positive for adoption.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Short-term price consolidation or pullback due to resistance levels.",
+      "Increasing scrutiny on Bitcoin's energy consumption from ESG perspectives.",
+      "Potential negative sentiment from the options market regarding post-halving price action.",
+      "Legal challenges against mining hardware manufacturers could impact sector sentiment."
+    ],
+    "watch_items": [
+      "Bitcoin's price action around $7,700 resistance.",
+      "Developments in the Lightning Network and other scalability solutions.",
+      "Any further statements or actions from the US Federal Reserve or other central banks regarding stimulus.",
+      "News related to the upcoming Bitcoin halving event and its market impact."
+    ]
+  }
+}

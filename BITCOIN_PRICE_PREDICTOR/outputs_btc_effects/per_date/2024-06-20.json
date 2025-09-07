@@ -1,0 +1,593 @@
+{
+  "date": "2024-06-20",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n391f750538d9",
+      "title": "Bitcoin Mining Cost Drops to $45K as Inefficient Miners Exit: JPMorgan",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-cost-drops-45k-150502942.html",
+      "summary": "JPMorgan estimates the current Bitcoin mining cost has fallen to around $45,000. This decrease is attributed to the exit of less efficient miners following the halving event. The report suggests that the launch of the Runes protocol initially prevented a significant hashrate drop, but ongoing headwinds mean the bank sees no near-term upside for Bitcoin's price. This indicates a potential consolidation phase for miners, with only the most efficient surviving.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "macro",
+        "protocol"
+      ],
+      "features_for_model": [
+        "mining_cost_reduction",
+        "miner_exit",
+        "halving_impact",
+        "Runes_protocol"
+      ],
+      "rationale": "A higher mining cost generally implies more pressure on miners to sell BTC to cover operational expenses. A lower cost suggests greater profitability and potentially less selling pressure from miners, but JPMorgan's bearish outlook on price tempers this. The exit of inefficient miners could lead to a more stable network in the long run."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ne8a74bf944d8",
+      "title": "First Mover Americas: Bitcoin Hits $71K as Ether ETF Hopes Build",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-hits-120344517.html",
+      "summary": "Bitcoin surged past $71,000, reaching its highest point since early April, driven by growing optimism around the potential approval of an Ether ETF in the U.S. This positive sentiment also boosted the broader crypto market, with the CoinDesk 20 Index rising over 8.5% and Ether (ETH) jumping nearly 20%. The news suggests that institutional interest and regulatory developments, particularly concerning ETH ETFs, are significant catalysts for crypto market performance.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "ETH_ETF_anticipation",
+        "institutional_adoption",
+        "market_sentiment"
+      ],
+      "rationale": "The potential approval of an Ether ETF signals increasing institutional acceptance and regulatory clarity for digital assets. This can unlock significant capital inflows, driving both ETH and BTC prices higher as the market anticipates broader adoption."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n06dc99682394",
+      "title": "OP_CAT Proposal to Bring Smart Contracts to Bitcoin Finally Gets a 'BIP Number'",
+      "url": "https://finance.yahoo.com/news/op-cat-proposal-bring-smart-220305476.html",
+      "summary": "The OP_CAT proposal, aimed at introducing Ethereum-like smart contract functionality to Bitcoin, has been assigned a BIP number (347). While this is a procedural step, it facilitates discussion and development around the upgrade. The proposal's success hinges on community consensus, but its advancement signifies a potential long-term enhancement to Bitcoin's capabilities, making it more versatile for complex applications.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "OP_CAT_proposal",
+        "Bitcoin_smart_contracts",
+        "BIP_number",
+        "protocol_upgrade"
+      ],
+      "rationale": "Introducing smart contract capabilities to Bitcoin could significantly expand its use cases beyond a store of value, potentially driving adoption and innovation. This long-term development could increase network utility and demand."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n2d16d1a5a28b",
+      "title": "Bitcoin Miner Stronghold Looking at Options, Including Sale of Company",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-stronghold-looking-options-130253448.html",
+      "summary": "Bitcoin miner Stronghold Digital Mining (SDIG) is exploring strategic alternatives, including a potential sale of the company. This move comes amid a perceived \"valuation dislocation\" for the stock. The company, which uses energy from coal waste, is considering various transactions to maximize shareholder value. This situation highlights the financial pressures some miners face, especially after the halving, and could lead to industry consolidation.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_consolidation",
+        "SDIG_strategic_review",
+        "halving_pressure",
+        "energy_infrastructure"
+      ],
+      "rationale": "The financial health of miners is a key indicator of network security and miner selling pressure. If struggling miners are forced to sell their BTC holdings, it could negatively impact price. Conversely, consolidation could lead to more efficient operations."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n8b80adfa39e7",
+      "title": "BlackRock Sees Sovereign Wealth Funds, Pensions Coming to Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/blackrock-sees-sovereign-wealth-funds-110221703.html",
+      "summary": "BlackRock's head of digital assets, Robert Mitchnick, anticipates that sovereign wealth funds and pension funds will eventually invest in Bitcoin ETFs. The firm is actively engaging in educational efforts with these large institutional players. While current inflows into spot Bitcoin ETFs have seen a lull, BlackRock believes this is a temporary phase, and significant institutional capital is poised to enter the market, driving long-term demand.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_inflows",
+        "sovereign_wealth_funds",
+        "pension_funds",
+        "BlackRock_ETF"
+      ],
+      "rationale": "The entry of large, long-term institutional investors like sovereign wealth funds and pensions would represent a massive influx of capital into Bitcoin. This would significantly increase demand and potentially lead to sustained price appreciation."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n8b5d3524812f",
+      "title": "Bitcoin network surpasses 1 billion transactions",
+      "url": "https://finance.yahoo.com/news/bitcoin-network-surpasses-1-billion-062655141.html",
+      "summary": "The Bitcoin network has achieved a significant milestone by recording its one billionth transaction. This growth in transaction volume is partly attributed to the introduction of Bitcoin Ordinals and Runes, which also led to record transaction fees during their debut. The increasing number of transactions indicates growing network usage and adoption, even as the halving impacts miner rewards.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "transaction_volume",
+        "network_growth",
+        "Ordinals",
+        "Runes_protocol"
+      ],
+      "rationale": "A higher number of transactions signifies increased utility and adoption of the Bitcoin network. This growing usage, especially with new protocols like Ordinals and Runes, suggests a maturing ecosystem and potential for future demand."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n63786a38be91",
+      "title": "How Bitcoin ETFs Are Changing the Risk-Reward Ratio for Institutional Investors",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-changing-risk-reward-134554930.html",
+      "summary": "The introduction of spot Bitcoin ETFs in the U.S. has positively impacted the digital asset industry, attracting retail investors and setting records for investment. Crucially, SEC approval has altered the risk-reward profile for Bitcoin, re-engaging institutional investors and prompting some to restart previously paused projects. This integration into traditional finance is broadening crypto's accessibility.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Bitcoin_ETF_impact",
+        "institutional_investor_sentiment",
+        "risk_reward_profile",
+        "SEC_approval"
+      ],
+      "rationale": "Bitcoin ETFs have significantly lowered the barrier to entry for institutional investors, making Bitcoin more accessible and less risky. This increased institutional demand is a major driver for long-term price appreciation."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n2ae88babce43",
+      "title": "Metaplanet Makes Bitcoin a Reserve Asset as Japan’s Debt Mountain Grows",
+      "url": "https://finance.yahoo.com/news/metaplanet-makes-bitcoin-asset-japan-060742752.html",
+      "summary": "Tokyo-listed Metaplanet has adopted Bitcoin as a strategic reserve asset to hedge against Japan's high government debt, negative real interest rates, and yen volatility. With Japan's debt-to-GDP ratio exceeding 250%, this move by a publicly traded company signals a growing trend of alternative asset adoption in response to macroeconomic pressures. This could encourage other companies facing similar challenges to consider Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "corporate_reserve_asset",
+        "Japan_debt",
+        "yen_volatility",
+        "Metaplanet_BTC"
+      ],
+      "rationale": "When companies, especially those in economies facing significant debt and currency instability, adopt Bitcoin as a reserve asset, it validates its role as a potential hedge. This can inspire similar actions from other corporations, increasing demand."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n1bd8d4bcb6c5",
+      "title": "7 Crypto Mining Stocks That Could Make You a Fortune (If You Dare)",
+      "url": "https://finance.yahoo.com/news/7-crypto-mining-stocks-could-164953470.html",
+      "summary": "Despite recent price drops for Bitcoin and crypto mining stocks, the article suggests that investors might consider buying the dip. It notes that \"Bitcoin whales may have finally started buying the dip.\" The piece highlights that even with regulatory hurdles and market volatility, Bitcoin and its related stocks have shown resilience and potential for significant returns, especially after halving events.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_mining_stocks",
+        "buy_the_dip",
+        "halving_impact",
+        "whale_activity"
+      ],
+      "rationale": "The mining sector is a crucial part of the Bitcoin ecosystem. Positive sentiment and potential buying from large holders ('whales') can signal a bottoming out and a precursor to a price recovery, benefiting mining stocks and indirectly Bitcoin itself."
+    },
+    {
+      "pick_idx": 48,
+      "id": "na01a780135be",
+      "title": "BlockDAG Network on Forbes alongside Bitcoin; The Momentum Keeps Growing",
+      "url": "https://finance.yahoo.com/news/blockdag-network-forbes-alongside-bitcoin-210000055.html",
+      "summary": "BlockDAG Network has been featured in Forbes, a significant recognition for a new cryptocurrency project. Being mentioned alongside Bitcoin in a reputable publication like Forbes indicates growing interest and potential for adoption. This exposure can attract new investors and developers, contributing to the project's long-term growth and potentially influencing broader market sentiment towards innovative blockchain solutions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "BlockDAG_network",
+        "Forbes_mention",
+        "crypto_innovation",
+        "project_momentum"
+      ],
+      "rationale": "While BlockDAG is a specific project, its mention in Forbes alongside Bitcoin highlights the increasing mainstream attention and validation of new blockchain technologies. This broader trend can contribute to overall market growth and investor confidence."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n82a09d879204",
+      "title": "Bitcoin ETF launches on Australia's main stock exchange for the first time",
+      "url": "https://finance.yahoo.com/news/bitcoin-etf-launches-australias-main-030014089.html",
+      "summary": "A Bitcoin ETF has launched on Australia's main stock exchange (ASX), marking a significant step for crypto adoption in the region. The VanEck Bitcoin ETF, while not holding Bitcoin directly, invests in a U.S.-listed trust. This launch follows years of negotiation and signifies growing institutional interest in providing regulated access to Bitcoin for Australian investors.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Australia_ETF_launch",
+        "ASX_listing",
+        "VanEck_ETF",
+        "regional_adoption"
+      ],
+      "rationale": "The launch of a Bitcoin ETF in Australia expands regulated access to Bitcoin for a new investor base, potentially driving short-term inflows and positive sentiment."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nde6be0d38165",
+      "title": "Bitcoin Whales Realize Unprecedented $1.2B in Profits Amid Market Turmoil",
+      "url": "https://finance.yahoo.com/news/bitcoin-whales-realize-unprecedented-1-060106802.html",
+      "summary": "Long-term Bitcoin holders (whales) have cashed out $1.2 billion in profits over the past two weeks, an unprecedented amount in USD terms. This profit-taking activity, last seen in April 2022, indicates that significant holders are reducing their positions, potentially due to market volatility or a desire to lock in gains.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "whale_activity",
+        "profit_taking",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "whale_selling",
+        "profit_realization",
+        "BTC_liquidity_drain",
+        "market_turmoil"
+      ],
+      "rationale": "Large-scale profit-taking by whales can increase selling pressure in the short term, potentially leading to price declines or increased volatility as supply enters the market."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n57f7b78b86bf",
+      "title": "Bitcoin Whales Sold Over $1B BTC in Past Two Weeks: CryptoQuant",
+      "url": "https://finance.yahoo.com/news/bitcoin-whales-sold-over-1b-111947876.html",
+      "summary": "On-chain data indicates that long-term Bitcoin holders and miners have been significant sellers over the last two weeks, with little sign of renewed buying interest. This trend is evidenced by a decrease in UTXO age bands. Some analysts suggest miners might be shifting focus to the AI sector due to reduced post-halving rewards, contributing to increased selling.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "whale_activity",
+        "miner_selling",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "long_term_holder_selling",
+        "miner_selling_pressure",
+        "UTXO_age_bands",
+        "AI_sector_competition"
+      ],
+      "rationale": "Continued selling pressure from both long-term holders and miners can suppress prices and indicate a lack of immediate buying conviction in the market."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ne527812b678c",
+      "title": "Should You Buy the Bitcoin Dip?",
+      "url": "https://finance.yahoo.com/news/buy-bitcoin-dip-082709963.html",
+      "summary": "Bitcoin has experienced volatility, failing to sustain momentum after hitting an all-time high in April. Recent price action has seen gains erased, raising questions about whether it's a good time to buy the dip. The article suggests that Bitcoin's price can dip for various reasons, implying a need for caution and analysis of current market conditions.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_dip",
+        "volatility",
+        "momentum_loss",
+        "market_sentiment"
+      ],
+      "rationale": "The question of buying the dip reflects current market uncertainty. If the dip is driven by macro factors or profit-taking, it could continue. If it's a healthy correction before further upside, it could present a buying opportunity."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ncd5de6a42609",
+      "title": "Dogecoin Traders Appear to Short Token as Meme Coin Frenzy Eases",
+      "url": "https://finance.yahoo.com/news/dogecoin-traders-appear-short-token-101017122.html",
+      "summary": "Dogecoin (DOGE) is attracting short bets as the meme coin sector experiences a general decline. Funding rates for DOGE have turned negative, indicating a bearish sentiment among futures traders. This shift suggests that the speculative frenzy around meme coins may be cooling, potentially leading to further price drops for DOGE and similar assets.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "meme_coin",
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "DOGE_short_interest",
+        "meme_coin_sentiment",
+        "funding_rates",
+        "sector_rotation"
+      ],
+      "rationale": "Increasing short interest and negative funding rates for Dogecoin signal a bearish short-term outlook for the meme coin sector, potentially dragging down other speculative assets."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ne220535e33e1",
+      "title": "AI crypto tokens rally after Nvidia's record gains",
+      "url": "https://finance.yahoo.com/news/crypto-rally-after-nvidia-record-gains-101741553.html",
+      "summary": "AI-related cryptocurrency tokens have seen a significant rally, outperforming major digital assets like Bitcoin and Ether. This surge follows Nvidia's record gains and its ascent to become the world's most valuable company. The strong performance in AI chip stocks is directly translating into increased investor interest and capital flowing into AI-focused crypto projects.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "AI",
+        "adoption",
+        "sector_rotation"
+      ],
+      "features_for_model": [
+        "AI_crypto_tokens",
+        "Nvidia_performance",
+        "sector_rally",
+        "AI_infrastructure"
+      ],
+      "rationale": "The strong performance of AI-related stocks, particularly Nvidia, is creating a positive spillover effect into AI-focused cryptocurrencies, driving demand and potentially lifting the broader crypto market."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n4f65ee52235d",
+      "title": "3 Crypto Stocks to Watch as Ethereum Rises on Regulatory Win",
+      "url": "https://finance.yahoo.com/news/3-crypto-stocks-watch-ethereum-115600602.html",
+      "summary": "Ethereum (ETH) has shown strong performance year-to-date, hovering around $3500, with a 56.4% gain. Its role as a platform for decentralized finance (DeFi) and its smart contract functionality make it significant beyond its status as the second-largest crypto. The article implies that positive developments for Ethereum, potentially including regulatory clarity, could benefit related crypto stocks.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "ETH",
+        "regulation",
+        "DeFi",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_price_performance",
+        "DeFi_growth",
+        "smart_contracts",
+        "regulatory_clarity"
+      ],
+      "rationale": "Positive momentum for Ethereum, especially if driven by regulatory clarity (as hinted by the 'regulatory win'), can boost sentiment and investment in ETH and related crypto assets and stocks."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n986718b9a2dd",
+      "title": "Michael Saylor's MicroStrategy Acquires 11.9K More Bitcoin for $786M",
+      "url": "https://finance.yahoo.com/news/michael-saylors-microstrategy-acquires-11-122959593.html",
+      "summary": "MicroStrategy, the largest corporate holder of Bitcoin, has acquired an additional 11,931 BTC for $786 million. This purchase increases their total holdings to 226,331 BTC, acquired at an average price of $36,798. This consistent accumulation by a prominent corporate entity signals strong conviction in Bitcoin's long-term value and can influence market sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "MicroStrategy_acquisition",
+        "MSTR_BTC_holdings",
+        "corporate_treasury",
+        "bullish_conviction"
+      ],
+      "rationale": "Continued large-scale purchases by MicroStrategy demonstrate sustained institutional demand and can provide a floor for Bitcoin's price, signaling confidence to the broader market."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n26aeffb34e70",
+      "title": "Telegram Is Crypto’s Adoption Machine",
+      "url": "https://finance.yahoo.com/news/telegram-crypto-adoption-machine-140233471.html",
+      "summary": "The article argues that Telegram, through its integration with The Open Network (TON), is a significant driver of crypto adoption, addressing poor user experience, limited utility, and distribution challenges. It suggests that Telegram's platform, with its large user base, is more effective at onboarding new users to crypto than substantial venture capital investments.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "UX"
+      ],
+      "features_for_model": [
+        "Telegram_adoption",
+        "TON_integration",
+        "user_experience",
+        "mass_onboarding"
+      ],
+      "rationale": "Increased adoption through platforms like Telegram can lead to higher network usage and demand for associated cryptocurrencies, potentially boosting their prices and overall market sentiment."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n77b78dcfeb5c",
+      "title": "Spot Bitcoin ETF Outflows Hit $813M Since June 10",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-etf-outflows-hit-195144992.html",
+      "summary": "Spot Bitcoin ETFs have experienced net outflows totaling $813 million over the past seven trading days, with Grayscale's GBTC and Fidelity's FBTC seeing the largest outflows. This trend coincides with Bitcoin's price falling below $65,000, indicating a short-term cooling of investor enthusiasm for these products.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "ETF_outflows",
+        "GBTC_outflows",
+        "FBTC_outflows",
+        "BTC_price_pressure"
+      ],
+      "rationale": "Significant outflows from major Bitcoin ETFs suggest reduced buying pressure and potential selling in the spot market, which can lead to short-term price declines and increased volatility."
+    },
+    {
+      "pick_idx": 39,
+      "id": "nde89fc09c156",
+      "title": "Buy These 5 Crypto Stocks Before the Next Bitcoin Rally",
+      "url": "https://finance.yahoo.com/news/buy-5-crypto-stocks-next-121600193.html",
+      "summary": "The article suggests buying crypto stocks before the next Bitcoin rally, noting that while Bitcoin's rally halted in April, it has still gained 53.8% year-to-date. It highlights that Bitcoin's price has been turbulent but remains up significantly over the year. The SEC's approval of Bitcoin ETFs in January is cited as a catalyst for the rally.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "crypto_stocks",
+        "ETF",
+        "rally_anticipation"
+      ],
+      "features_for_model": [
+        "crypto_stock_investment",
+        "BTC_rally_anticipation",
+        "SEC_ETF_approval",
+        "year_to_date_performance"
+      ],
+      "rationale": "The anticipation of a future Bitcoin rally, supported by the continued impact of ETF approvals, suggests a potential for crypto-related stocks to perform well in the near to medium term."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n897fe23892df",
+      "title": "Bitcoin is sending a warning that the stock market is about to sell off, Stifel says",
+      "url": "https://finance.yahoo.com/news/bitcoin-sending-warning-stock-market-150604200.html",
+      "summary": "Stifel strategist Barry Bannister suggests Bitcoin's recent 10% sell-off since June 7 is a warning sign for the broader stock market, citing a strong correlation between Bitcoin and the Nasdaq 100 since 2020. Bannister anticipates a summer correction in stocks, influenced by persistent higher interest rates.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "correlation",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_stock_correlation",
+        "Nasdaq_100_warning",
+        "summer_correction",
+        "interest_rate_impact"
+      ],
+      "rationale": "A strong correlation between Bitcoin and major stock indices like the Nasdaq 100 means that a significant Bitcoin sell-off could precede or coincide with a broader market downturn, especially if driven by macro factors like interest rates."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-06-20",
+    "summary": "The market is showing mixed signals today. Long-term, the approval of Ether ETFs and increasing institutional interest in Bitcoin ETFs remain strong bullish catalysts. However, short-term, significant profit-taking by Bitcoin whales and outflows from spot Bitcoin ETFs are creating downward pressure. AI-related crypto tokens are rallying strongly, driven by Nvidia's performance, indicating a sector rotation. Miners are also facing pressure post-halving, with some potentially selling assets. The correlation between Bitcoin and the Nasdaq suggests potential broader market weakness ahead.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued ETF outflows and whale selling pressure could lead to a short-term price correction.",
+      "Persistent high interest rates could dampen risk appetite across both crypto and traditional markets.",
+      "Regulatory scrutiny or negative developments could impact specific crypto assets or the broader market.",
+      "The correlation between Bitcoin and tech stocks suggests a potential for broader market sell-offs to drag down crypto.",
+      "Miner selling post-halving could add to supply pressure."
+    ],
+    "watch_items": [
+      "Spot Bitcoin ETF flows (daily net inflows/outflows)",
+      "Whale wallet activity and on-chain metrics (e.g., UTXO age)",
+      "Nvidia stock performance and AI crypto token movements",
+      "Macroeconomic data releases (inflation, interest rate expectations)",
+      "Developments regarding Ether ETF approvals and other regulatory news"
+    ]
+  }
+}

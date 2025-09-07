@@ -1,0 +1,594 @@
+{
+  "date": "2018-01-24",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n37d3f99f4771",
+      "title": "Bitcoin blows past $16,000, alarm bells ring louder",
+      "url": "https://finance.yahoo.com/news/bitcoin-blows-past-16-000-alarm-bells-ring-005627358--sector.html",
+      "summary": "Bitcoin reached a new lifetime high above $16,000 in December 2017, fueled by record traffic on exchanges and anticipation of the first bitcoin futures contract. This surge intensified debates about a potential bubble, highlighting growing investor interest and the increasing institutional involvement in the cryptocurrency market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "bitcoin_price_ATH",
+        "futures_launch",
+        "exchange_traffic"
+      ],
+      "rationale": "The rapid price appreciation and the introduction of futures contracts signaled significant institutional interest and market maturation. This event set a precedent for future price discovery and adoption cycles."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n2d986b89a70c",
+      "title": "5 Burning Questions for Bitcoin Investors in 2018",
+      "url": "https://finance.yahoo.com/news/5-burning-questions-bitcoin-investors-113001429.html",
+      "summary": "As 2018 began, key questions for Bitcoin investors included Wall Street's potential embrace of cryptocurrencies and Bitcoin's resilience after significant price drops. The lack of a clear regulatory roadmap was a major hurdle for institutional adoption, but new products were emerging to address this.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Wall_Street_adoption",
+        "regulatory_roadmap",
+        "institutional_investment"
+      ],
+      "rationale": "The article highlights the critical interplay between regulatory clarity and institutional adoption, which would be major drivers for Bitcoin's long-term value and market integration."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n47b6ab109514",
+      "title": "Crypto stocks tumble as bitcoin selloff continues",
+      "url": "https://finance.yahoo.com/news/crypto-stocks-tumble-bitcoin-selloff-165517066.html",
+      "summary": "In mid-January 2018, blockchain and bitcoin-related stocks experienced a significant decline following a steep fall in Bitcoin's price. Fears of regulatory clampdowns in South Korea, Japan, China, France, and the US contributed to the sell-off, pushing Bitcoin below $10,000.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "regulatory_fears",
+        "crypto_stock_selloff",
+        "bitcoin_price_crash"
+      ],
+      "rationale": "This news directly reflects the impact of regulatory uncertainty on the crypto market, leading to broad-based selling pressure on related assets and a significant price correction for Bitcoin."
+    },
+    {
+      "pick_idx": 27,
+      "id": "nd27d3dd20d0d",
+      "title": "Bitcoin is gaining ground after futures trading gets approval from US regulators",
+      "url": "https://finance.yahoo.com/news/bitcoin-gaining-ground-futures-trading-134100618.html",
+      "summary": "In early December 2017, Bitcoin's price rose following the US Commodity Futures Trading Commission's (CFTC) approval of bitcoin futures trading on major US exchanges like CME and Cboe. This regulatory approval was seen as a significant step towards legitimizing Bitcoin and attracting more institutional capital.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "futures_launch",
+        "institutional"
+      ],
+      "features_for_model": [
+        "CFTC_approval",
+        "bitcoin_futures",
+        "regulatory_legitimacy"
+      ],
+      "rationale": "The CFTC approval of bitcoin futures was a landmark event, signaling regulatory acceptance and paving the way for increased institutional participation, which is a strong long-term bullish catalyst."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n9e001f13ef7c",
+      "title": "Bitcoin's wild volatility could soon start shaping other markets",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-wild-volatility-could-152200499.html",
+      "summary": "In late December 2017, it was noted that Bitcoin's extreme volatility, while not yet a systemic risk, could begin to influence other markets, particularly due to China's significant role in Bitcoin mining. This highlighted the growing interconnectedness and potential spillover effects of the cryptocurrency market.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_volatility",
+        "market_interconnectedness",
+        "mining_concentration"
+      ],
+      "rationale": "The increasing volatility and its potential to impact other markets, especially those linked to mining infrastructure like China, suggests a growing systemic relevance for Bitcoin."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n35921093df9e",
+      "title": "Cryptocurrency Proxy Stocks Fall as Bitcoin Stumbles",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-proxy-stocks-fall-bitcoin-173205889.html",
+      "summary": "In early January 2018, cryptocurrency proxy stocks like Riot Blockchain and LongFin, along with the Bitcoin Investment Trust (GBTC), saw sharp declines. This drop coincided with significant price drops in major cryptocurrencies such as Bitcoin, Litecoin, Dash, and Ripple, driven by broader market sentiment and regulatory concerns.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "market_sentiment",
+        "regulation"
+      ],
+      "features_for_model": [
+        "crypto_proxy_stocks",
+        "bitcoin_price_decline",
+        "regulatory_concerns"
+      ],
+      "rationale": "The correlated decline of crypto proxy stocks with Bitcoin indicates a strong market sentiment shift, driven by underlying concerns about the cryptocurrency's stability and regulatory environment."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n543b616b3f55",
+      "title": "AlphaPoint Unveils New Blockchain Network, CEO Hire",
+      "url": "https://www.coindesk.com/alphapoint-unveils-new-blockchain-network-ceo-hire/",
+      "summary": "In late November 2017, AlphaPoint announced the creation of a new public network, the AlphaPoint Public Network (APN), aimed at digitizing real-world assets. The company also planned a token sale for the network, signaling a move towards broader blockchain applications beyond just cryptocurrencies.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockchain_network",
+        "asset_digitization",
+        "token_sale"
+      ],
+      "rationale": "The development of new blockchain networks for asset digitization represents a significant expansion of blockchain technology's utility, potentially driving adoption and innovation in various sectors."
+    },
+    {
+      "pick_idx": 39,
+      "id": "nfc50f2389d89",
+      "title": "Report: Peter Thiel's Founders Fund Bets Millions on Bitcoin",
+      "url": "https://finance.yahoo.com/news/report-peter-thiel-apos-founders-220047540.html",
+      "summary": "In early January 2018, it was reported that Peter Thiel's Founders Fund invested between $15 million and $20 million in Bitcoin. This significant investment from a prominent venture capital firm signaled growing institutional confidence and capital inflow into the cryptocurrency market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "VC_investment",
+        "Peter_Thiel",
+        "bitcoin_capital_inflow"
+      ],
+      "rationale": "Major venture capital investments like this from influential figures like Peter Thiel validate Bitcoin as an asset class and attract further institutional capital, boosting long-term price potential."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n3e1d8670bdf4",
+      "title": "Bitcoin Plunges Again As South Korea Considers Major Crackdown On Crypto Speculation",
+      "url": "https://finance.yahoo.com/news/bitcoin-plunges-again-south-korea-124148422.html",
+      "summary": "In late December 2017, Bitcoin experienced a significant price drop following news that South Korean officials were reviewing measures, including potential exchange shutdowns, to curb cryptocurrency speculation. This highlighted the sensitivity of the market to regulatory actions in key jurisdictions.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "South_Korea_regulation",
+        "crypto_crackdown",
+        "bitcoin_price_drop"
+      ],
+      "rationale": "Regulatory actions, especially from major markets like South Korea, have a pronounced impact on Bitcoin's price and market sentiment, demonstrating the ongoing risk of government intervention."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n8f7b74960ca4",
+      "title": "Coinbase halts trading after volatile bitcoin price fluctuation (updated)",
+      "url": "https://finance.yahoo.com/news/coinbase-halts-trading-volatile-bitcoin-184500009.html",
+      "summary": "In late December 2017, Coinbase, a major cryptocurrency exchange, temporarily halted buying and selling due to extreme volatility in Bitcoin's price. Bitcoin experienced a sharp drop from a high of $15,800 to $10,800 within 24 hours, highlighting the market's instability.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "hack/outage",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Coinbase_halt",
+        "bitcoin_volatility",
+        "exchange_issues"
+      ],
+      "rationale": "Exchange halts during periods of high volatility indicate strain on infrastructure and can exacerbate price swings, reflecting underlying market instability and impacting liquidity."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n00d314c182e8",
+      "title": "Canadian National Railway Gathers Steam for 2018",
+      "url": "https://finance.yahoo.com/news/canadian-national-railway-gathers-steam-184100790.html",
+      "summary": "Canadian National Railway (CNI) reported a significant year-over-year jump in Q4 net income, but the market reacted negatively, suggesting a perceived slowdown. The article notes that the market is becoming more discerning about earnings reports.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "earnings"
+      ],
+      "features_for_model": [
+        "CNI_earnings",
+        "market_reaction",
+        "earnings_discrepancy"
+      ],
+      "rationale": "Despite strong headline profit growth, the negative market reaction suggests underlying concerns about the quality of earnings or future outlook, potentially creating short-term headwinds."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3109d2996398",
+      "title": "Apple Inc. Is Trying to Change This Controversial iPhone X Design Feature",
+      "url": "https://finance.yahoo.com/news/apple-inc-trying-change-controversial-134600604.html",
+      "summary": "Apple is reportedly looking to change the controversial 'notch' design on the iPhone X display. This feature, housing the front-facing camera and depth-sensing technology, has been a point of contention for some users.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "iPhone_X_design",
+        "Apple_product_updates",
+        "user_sentiment"
+      ],
+      "rationale": "While not directly related to crypto, this indicates ongoing product development and user feedback loops for major tech companies, which can influence broader tech sector sentiment."
+    },
+    {
+      "pick_idx": 6,
+      "id": "na303e4a9b2f8",
+      "title": "Why the Blockchain Is So Much Bigger Than Bitcoin and Cryptocurrency",
+      "url": "https://www.inverse.com/blockchain-is-so-much-bigger-than-bitcoin-and-cryptocurrency",
+      "summary": "The article posits that blockchain technology's potential extends far beyond cryptocurrencies like Bitcoin, revolutionizing data storage, trust, and transactions. As Bitcoin hype potentially wanes, blockchain's broader applications may gain prominence.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockchain_technology",
+        "beyond_bitcoin",
+        "data_storage_revolution"
+      ],
+      "rationale": "This piece frames blockchain as a foundational technology with long-term potential, suggesting a shift in focus from speculative crypto assets to practical blockchain applications."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n10a2829139dc",
+      "title": "The Bitcoin Ship Steadies as Negative News Slows",
+      "url": "https://www.fxempire.com/news/the-bitcoin-ship-steadies-as-negative-news-slows-20180124",
+      "summary": "Bitcoin showed resilience, moving back towards $11,000 on Tuesday after touching sub-$10,000 levels. The market demonstrated stability despite negative news, indicating a potential bottoming out and a recovery from recent lows.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_recovery",
+        "market_resilience",
+        "negative_news_impact"
+      ],
+      "rationale": "The stabilization of Bitcoin's price and its ability to recover from recent lows, despite ongoing negative sentiment, suggests a potential short-term upward trend or consolidation phase."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n18e5dc95626e",
+      "title": "What Happened in the Stock Market Today",
+      "url": "https://www.fool.com/investing/2018/01/24/what-happened-in-the-stock-market-today.aspx",
+      "summary": "Major stock benchmarks saw mixed results, with the Dow Jones Industrial Average closing at a record high while the S&P 500 posted a loss. Technology stocks retreated, while gold surged.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "stock_market_performance",
+        "tech_sector_retreat",
+        "gold_surge"
+      ],
+      "rationale": "Mixed market signals, with tech weakness and gold strength, could indicate a rotation away from riskier assets, potentially impacting crypto sentiment."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nf0179c509544",
+      "title": "Bank of America CEO: We have tons of blockchain patents",
+      "url": "https://finance.yahoo.com/news/bank-america-ceo-blockchain-patents-almost-anybody-201251192.html",
+      "summary": "Bank of America's CEO stated the bank holds numerous blockchain patents and continues to focus on blockchain technology, even as the 'blockchain but not bitcoin' narrative has quieted down due to the surge in cryptocurrency prices.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "blockchain"
+      ],
+      "features_for_model": [
+        "BoA_blockchain_patents",
+        "institutional_blockchain_adoption",
+        "financial_institution_tech"
+      ],
+      "rationale": "Major financial institutions like Bank of America investing heavily in blockchain patents signals a long-term commitment to the technology, which could indirectly benefit the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nfcf821b8838c",
+      "title": "UBS Chairman Warns of 'Massive' Potential Drop in Bitcoin",
+      "url": "https://finance.yahoo.com/news/ubs-chairman-warns-apos-massive-121950709.html",
+      "summary": "UBS Chairman Axel Weber warned of a potential 'massive' drop in Bitcoin's value due to increased regulation and stated the bank would not trade Bitcoin or offer it to retail clients. He expressed concerns about investor protection if the market corrects.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "UBS_warning",
+        "bitcoin_price_risk",
+        "regulatory_impact"
+      ],
+      "rationale": "Statements from high-profile banking executives like the UBS Chairman can influence market sentiment, potentially leading to short-term price pressure on Bitcoin due to fears of regulatory crackdowns."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nfcf821b8838c",
+      "title": "UBS Chairman Warns of 'Massive' Potential Drop in Bitcoin",
+      "url": "https://finance.yahoo.com/news/ubs-chairman-warns-apos-massive-121950709.html",
+      "summary": "UBS Group AG Chairman Axel Weber cautioned about a potential 'massive' drop in Bitcoin's value, citing regulatory risks and stating the bank's refusal to trade Bitcoin or offer it to retail clients. He highlighted concerns about investor protection in a volatile market.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "UBS_Chairman_warning",
+        "bitcoin_regulatory_risk",
+        "investor_protection"
+      ],
+      "rationale": "The cautionary remarks from a major bank chairman regarding Bitcoin's volatility and regulatory risks can create negative sentiment and potentially trigger short-term selling pressure."
+    },
+    {
+      "pick_idx": 27,
+      "id": "nf8f0dd38594a",
+      "title": "Oops -- You Claimed Your Social Security Benefits Too Early. What Now?",
+      "url": "https://www.fool.com/retirement/2018/01/24/oops-you-claimed-your-social-security-benefits-too.aspx",
+      "summary": "The article discusses the common misconception that reduced Social Security benefits claimed early will automatically increase later. It highlights the permanent nature of these reductions if not addressed promptly, impacting personal finance decisions.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "social_security_benefits",
+        "retirement_planning",
+        "personal_finance_decisions"
+      ],
+      "rationale": "This is a personal finance article with no direct impact on Bitcoin, but it reflects broader economic sentiment and consumer behavior patterns that could indirectly influence risk appetite."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n517975e83147",
+      "title": "Rapper 50 Cent reportedly made millions selling his album for bitcoin",
+      "url": "https://www.businessinsider.com/50-cent-bitcoin-album-sales-2018-1",
+      "summary": "Rapper 50 Cent reportedly accepted Bitcoin for his 2014 album, 'Animal Ambition,' and the 700 BTC are now valued between $7 million and $8.5 million. He has reportedly held onto his Bitcoin holdings.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "celebrity_endorsement"
+      ],
+      "features_for_model": [
+        "50_cent_bitcoin",
+        "celebrity_adoption",
+        "long_term_hold"
+      ],
+      "rationale": "Celebrity adoption and successful long-term holding of Bitcoin can generate positive sentiment and demonstrate the potential for significant returns, indirectly supporting market interest."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n1a48c71a41d1",
+      "title": "Bitcoin prices could triple by year's end, Bespoke analyst predicts",
+      "url": "https://www.cnbc.com/2018/01/24/bitcoin-prices-could-triple-by-years-end-bespoke-analyst-predicts.html",
+      "summary": "An analyst from Bespoke Investment Group predicts Bitcoin's price could nearly triple by the end of 2018, suggesting the January crash is likely over and the market is recovering from a bottom around $9,000.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_price_prediction",
+        "analyst_forecast",
+        "market_bottom"
+      ],
+      "rationale": "Positive analyst predictions and the indication of a market bottom can boost short-term sentiment and encourage buying activity, especially after a period of decline."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n878fbdc80726",
+      "title": "Today In Blockchain: Cemtrex, Sharing Economy, SPI Energy, And 50 Cent",
+      "url": "https://www.benzinga.com/crypto/18/01/10943900/today-in-blockchain-cemtrex-sharing-economy-spi-energy-and-50-cent",
+      "summary": "Cemtrex announced a strategic partnership with Lucyd to develop AR solutions using blockchain. This collaboration highlights the growing integration of blockchain technology into various industries beyond finance.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "blockchain",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cemtrex_partnership",
+        "Lucyd_blockchain",
+        "AR_blockchain_integration"
+      ],
+      "rationale": "Partnerships like Cemtrex and Lucyd demonstrate the expanding use cases for blockchain technology in emerging fields like augmented reality, signaling broader adoption trends."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n0f17a3bf5e42",
+      "title": "IBM: For Blockchain, Food Safety Is Just the Beginning",
+      "url": "https://www.fool.com/investing/2018/01/24/ibm-for-blockchain-food-safety-is-just-the-beginnin.aspx",
+      "summary": "IBM is a leader in commercial blockchain applications, with a focus on areas like food safety. The article suggests that investor interest is shifting from Bitcoin mania to practical blockchain use cases.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "blockchain",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "IBM_blockchain",
+        "food_safety_blockchain",
+        "commercial_blockchain"
+      ],
+      "rationale": "IBM's continued development and promotion of blockchain for enterprise solutions, such as food safety, reinforces the narrative of blockchain's utility beyond cryptocurrencies and could attract broader tech investment."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n10a2829139dc",
+      "title": "The Bitcoin Ship Steadies as Negative News Slows",
+      "url": "https://www.fxempire.com/news/the-bitcoin-ship-steadies-as-negative-news-slows-20180124",
+      "summary": "Bitcoin showed resilience, moving back towards $11,000 on Tuesday after touching sub-$10,000 levels. The market demonstrated stability despite negative news, indicating a potential bottoming out and a recovery from recent lows.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_recovery",
+        "market_resilience",
+        "negative_news_impact"
+      ],
+      "rationale": "The stabilization of Bitcoin's price and its ability to recover from recent lows, despite ongoing negative sentiment, suggests a potential short-term upward trend or consolidation phase."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-01-24",
+    "summary": "Bitcoin showed signs of stabilization, trading around $11,000 after a volatile period, with some analysts predicting a significant price increase by year-end. However, cautionary notes from major financial institutions like UBS regarding regulatory risks and potential price drops persist. Meanwhile, broader market sentiment in traditional finance saw mixed results, with tech stocks retreating. The underlying blockchain technology continues to see development and adoption in various industries, signaling a long-term trend separate from cryptocurrency speculation.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued regulatory uncertainty and potential crackdowns in key jurisdictions.",
+      "High volatility and potential for sharp price reversals in Bitcoin.",
+      "Negative sentiment from major financial institutions could deter new investors.",
+      "Broader market downturns could spill over into the crypto market."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $10,000-$11,500 support/resistance levels.",
+      "Statements from major financial regulators (e.g., SEC, CFTC).",
+      "Developments in institutional adoption and futures market activity.",
+      "News regarding major crypto exchange stability and security.",
+      "Macroeconomic data releases impacting risk appetite."
+    ]
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "date": "2022-11-26",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n6ce67abc1cd0",
+      "title": "Michael Saylor compares SBF to 'The Wolf of Wall Street'",
+      "url": "https://finance.yahoo.com/news/sam-bankman-fried-jordan-belfort-of-crypto-era-microstrategy-193604232.html",
+      "summary": "Michael Saylor, a prominent Bitcoin advocate and CEO of MicroStrategy, drew parallels between Sam Bankman-Fried (SBF) and 'The Wolf of Wall Street,' Jordan Belfort. Saylor believes the recent crypto crash, exacerbated by events like the FTX collapse, will accelerate regulatory intervention in the industry. His comments highlight the growing scrutiny and potential for stricter regulations that could impact the broader crypto market, including Bitcoin's adoption and price trajectory.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Saylor_commentary",
+        "SBF_FTX_fallout",
+        "regulatory_acceleration"
+      ],
+      "rationale": "Saylor's strong stance on regulatory intervention, drawing parallels to financial misconduct, suggests a heightened risk of stricter regulations following the FTX collapse. This could dampen institutional adoption and investor sentiment in the medium to long term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n948d03480cb4",
+      "title": "Fed’s top bank watchdog eyes new regulation for banks doing crypto",
+      "url": "https://finance.yahoo.com/news/fed-top-bank-watchdog-eyes-030939414.html",
+      "summary": "The U.S. Federal Reserve, through its vice chair for supervision Michael Barr, is actively considering new regulations for banks involved in crypto-asset activities. This indicates a growing concern within the Fed about the potential 'novel risks' these activities pose to banks and their customers. The Fed is collaborating with the OCC and FDIC to ensure these activities are well-regulated, signaling a move towards a more formalized and potentially restrictive regulatory framework for crypto integration within traditional finance.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Fed_supervision",
+        "crypto_banking_regulation",
+        "OCC_FDIC_collaboration"
+      ],
+      "rationale": "The Fed's proactive stance on regulating crypto activities within banks suggests a tightening regulatory environment. This could limit the integration of crypto into traditional financial systems, potentially impacting institutional adoption and overall market liquidity."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n169e97845092",
+      "title": "FOREX-Dollar steadies as China tightens COVID curbs",
+      "url": "https://finance.yahoo.com/news/forex-dollar-steadies-china-tightens-091403886.html",
+      "summary": "The U.S. dollar showed stability as China reimposed COVID-19 curbs, impacting investor sentiment. Simultaneously, Bitcoin faced pressure due to contagion fears stemming from the FTX exchange collapse. This news highlights the interconnectedness of global macro factors and crypto market sentiment, where geopolitical events and major crypto failures can independently and collectively influence asset prices.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "China_COVID_policy",
+        "FTX_contagion_fear"
+      ],
+      "rationale": "The tightening COVID curbs in China can lead to broader economic slowdowns, impacting global demand and potentially affecting risk assets like Bitcoin. The FTX contagion fears also add to the bearish sentiment, creating a dual pressure on the crypto market."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n520758e890ed",
+      "title": "Cardano leads crypto fall as US inflation hits 40-year high",
+      "url": "https://finance.yahoo.com/news/cardano-price-crypto-us-inflation-095758303.html",
+      "summary": "Cardano experienced a significant price drop, mirroring a broader decline in the crypto market, as U.S. inflation data exceeded expectations. The higher-than-anticipated Consumer Price Index (CPI) of 8.2% for September signals persistent inflationary pressures, which typically leads central banks to maintain or increase interest rates. This macroeconomic environment is generally bearish for risk assets, including cryptocurrencies, as it increases borrowing costs and reduces investor appetite for speculative investments.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "US_inflation_CPI",
+        "interest_rate_hike_expectation",
+        "crypto_market_correlation"
+      ],
+      "rationale": "Persistent high inflation and the expectation of continued hawkish monetary policy from the Federal Reserve create a challenging macroeconomic backdrop for cryptocurrencies. This environment typically leads to reduced liquidity and a lower risk appetite among investors."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n1ade9bdae3bc",
+      "title": "MicroStrategy Reported Impairment Charge of $727K on Bitcoin Holdings in Q3",
+      "url": "https://finance.yahoo.com/news/microstrategy-reported-impairment-charge-727k-201622156.html",
+      "summary": "MicroStrategy reported a significantly reduced digital asset impairment charge of $727,000 in Q3, a stark contrast to the $917.8 million in Q2. This reduction is attributed to the relative stability of Bitcoin's price at the end of both quarters. The impairment charge reflects accounting rules where digital assets are recorded at cost and then adjusted for price declines. The lower charge indicates less severe price depreciation for MicroStrategy's Bitcoin holdings compared to the previous quarter.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "MicroStrategy_impairment_charge",
+        "BTC_price_stability",
+        "Q3_earnings"
+      ],
+      "rationale": "While a reduced impairment charge is a positive accounting signal for MicroStrategy, it primarily reflects a stabilization in Bitcoin's price rather than a fundamental bullish shift. The impact on the broader market is likely to be minimal, but it suggests a less negative sentiment from a major corporate holder."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n05d68976a25c",
+      "title": "Bitcoin Association Asks Exchanges to Block 'Empty Block' Bitcoin SV Miner",
+      "url": "https://finance.yahoo.com/news/bitcoin-association-asks-exchanges-block-092234749.html",
+      "summary": "The Bitcoin Association has requested that crypto exchanges and miners block a specific Bitcoin SV (BSV) miner producing 'empty blocks.' These blocks contain no transactional data beyond essential network requirements. This action highlights ongoing technical and governance challenges within the BSV ecosystem and could signal potential network instability or contentious forks, which might indirectly affect broader crypto market sentiment if perceived as a systemic issue.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BSV_miner_block_production",
+        "Bitcoin_Association_request",
+        "network_governance_dispute"
+      ],
+      "rationale": "This is a niche issue within the Bitcoin SV network. While it points to potential governance issues, its direct impact on Bitcoin or the broader crypto market is likely to be negligible unless it escalates into a more significant network event."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n56c407f118b0",
+      "title": "As Bitcoin Teases 100-Day Average, Prominent Traders Say Latest Crypto Bounce Looks More Constructive Than August",
+      "url": "https://finance.yahoo.com/news/bitcoin-teases-100-day-average-103404669.html",
+      "summary": "Bitcoin is approaching its 100-day simple moving average (SMA), a technical level that previously acted as resistance. Prominent traders suggest the current market bounce is more sustainable than the one seen in August, citing reduced contagion effects from past collapses (Three Arrows Capital, Celsius, Terra) and miner liquidations. This sentiment indicates a potential shift towards a more constructive market sentiment, driven by technical indicators and a perceived reduction in systemic risk.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_100_day_SMA",
+        "trader_sentiment",
+        "miner_liquidation",
+        "contagion_reduction"
+      ],
+      "rationale": "The technical signal of approaching the 100-day SMA, combined with positive sentiment from traders regarding reduced systemic risk and miner capitulation, suggests a potential for a short-term bullish trend. This could lead to increased liquidity and price appreciation."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n24b575bbf3c2",
+      "title": "Grayscale Investments® Files Opening Brief in Lawsuit Against the U.S. Securities and Exchange Commission",
+      "url": "https://finance.yahoo.com/news/grayscale-investments-files-opening-brief-001000628.html",
+      "summary": "Grayscale Investments has filed its opening brief in its lawsuit challenging the SEC's denial of its Bitcoin Trust (GBTC) conversion into a spot Bitcoin ETF. The brief argues the SEC's decision was arbitrary, capricious, and discriminatory. This legal challenge is a significant long-term development that could pave the way for a spot Bitcoin ETF in the U.S., which is widely expected to unlock substantial institutional capital and boost Bitcoin adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Grayscale_lawsuit_SEC",
+        "GBTC_to_ETF_conversion",
+        "spot_Bitcoin_ETF_approval"
+      ],
+      "rationale": "A favorable outcome in Grayscale's lawsuit could lead to the approval of a spot Bitcoin ETF in the U.S., a major catalyst for institutional adoption and potentially significant price appreciation for Bitcoin over the long term."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n5e7af732ecea",
+      "title": "'Rich Dad Poor Dad' Author Will Be 'EXCITED' When Bitcoin Falls To This Price Level Amidst FTX Fiasco",
+      "url": "https://finance.yahoo.com/news/rich-dad-poor-dad-author-150109662.html",
+      "summary": "Robert Kiyosaki, author of 'Rich Dad Poor Dad,' remains a long-term Bitcoin investor and is anticipating a potential new bottom for the cryptocurrency amidst the ongoing FTX fallout. He expresses a desire to buy more Bitcoin at lower price levels, indicating his continued conviction in Bitcoin's long-term value despite short-term market volatility and the negative sentiment surrounding the FTX collapse. His perspective suggests a belief in Bitcoin's resilience and potential for future growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Kiyosaki_BTC_outlook",
+        "FTX_fallout_impact",
+        "long_term_investor_sentiment"
+      ],
+      "rationale": "Kiyosaki's continued bullish long-term outlook and his intention to buy more Bitcoin at lower prices reflect a persistent belief in the asset's value. This sentiment from a well-known investor can influence retail investor behavior and contribute to gradual adoption."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n4f905328c9b9",
+      "title": "Fidelity to offer zero-fee crypto trading to retail investors",
+      "url": "https://finance.yahoo.com/news/fidelity-zero-fee-crypto-trading-retail-investors-100017468.html",
+      "summary": "Fidelity Investments is launching a new service, Fidelity Crypto, offering commission-free trading of Bitcoin and Ethereum to its approximately 40 million retail investors. This move by a major financial institution to provide zero-fee trading for major cryptocurrencies is a significant step towards increasing accessibility and adoption among a broad retail audience. It signals a growing acceptance of crypto as an asset class within traditional finance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Fidelity_zero_fee_trading",
+        "retail_investor_access",
+        "BTC_ETH_trading"
+      ],
+      "rationale": "Fidelity's entry into zero-fee crypto trading for millions of retail investors is a major adoption driver. It lowers the barrier to entry and increases accessibility, potentially leading to a significant influx of new capital into the crypto market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ne0d482c37b54",
+      "title": "Fed outlook leaves investors feeling a bit more thankful",
+      "url": "https://finance.yahoo.com/news/fed-outlook-leaves-investors-feeling-110222865.html",
+      "summary": "The Federal Reserve's November meeting minutes suggest a potential slowdown in the pace of interest rate hikes, with a 0.5% increase anticipated in December. This dovish tone has boosted investor sentiment, leading to gains in the S&P 500. The Fed's language indicates a desire to \"reduce the risk of instability in the financial system.\" This shift in monetary policy expectations could translate to a more favorable environment for risk assets, including Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "Fed_meeting_minutes",
+        "dovish_outlook",
+        "rate_hike_slowdown"
+      ],
+      "rationale": "The prospect of slower interest rate hikes from the Fed is a positive signal for risk assets. This could lead to increased liquidity and a short-term boost in Bitcoin's price as investors anticipate less aggressive monetary tightening."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n74b4187a73b1",
+      "title": "Visitors Now Can Sell Bitcoin in Dubai for Cash at SBID",
+      "url": "https://finance.yahoo.com/news/visitors-now-sell-bitcoin-dubai-110500260.html",
+      "summary": "SBID has launched a service in Dubai allowing visitors to sell Bitcoin for cash. This initiative aims to expand crypto exposure in the city, which is actively implementing crypto-friendly regulations. The development underscores Dubai's growing importance as a hub for decentralized finance and cryptocurrencies, potentially increasing local liquidity and adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Dubai_crypto_regulation",
+        "BTC_cash_conversion",
+        "OTC_liquidity"
+      ],
+      "rationale": "While a positive development for local adoption in Dubai, the impact of this specific OTC service on global Bitcoin liquidity and price is likely to be minimal in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n61c193b16677",
+      "title": "This Week in Coins: Bitcoin, Ethereum Stable—Has the Worst of the FTX Damage Passed?",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-stable-132937056.html",
+      "summary": "Bitcoin and Ethereum have shown relative stability this week, with Bitcoin trading almost unchanged and Ethereum slightly up. This comes after significant price drops earlier in the week, reaching two-year lows for Bitcoin. The question arises whether the market has absorbed the worst of the FTX fallout. The current stability suggests a potential pause in the downward trend, but the market remains sensitive to further contagion or negative news.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "BTC_ETH_price_stability",
+        "FTX_damage_assessment",
+        "market_sentiment"
+      ],
+      "rationale": "The stabilization of Bitcoin and Ethereum prices after significant drops indicates a potential short-term bottoming process. However, the market remains fragile, and any new negative catalysts could easily reverse this trend."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n1290904ea38b",
+      "title": "Major Canadian Crypto Exchange Coinsquare Says Client Data Breached",
+      "url": "https://finance.yahoo.com/news/major-canadian-crypto-exchange-coinsquare-205343550.html",
+      "summary": "Coinsquare, a major Canadian crypto exchange, has reported a data incident where an unauthorized third party accessed a customer database containing personal information. The exchange assures that customer assets in cold storage are secure and not at risk. This breach, however, could erode user trust and potentially lead to increased regulatory scrutiny for the exchange and the broader Canadian crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinsquare_data_breach",
+        "customer_data_exposure",
+        "user_trust_impact"
+      ],
+      "rationale": "While customer assets are reportedly safe, a data breach can damage user trust and potentially lead to outflows or reduced trading activity on the platform. This could have a minor negative impact on liquidity and sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n9a8c9501c391",
+      "title": "Wall Street’s ‘Dr. Doom’ calls crypto ‘corrupt gambling’ and rips ‘proof of reserves’ trumpeted after FTX collapse",
+      "url": "https://finance.yahoo.com/news/wall-street-dr-doom-calls-235105417.html",
+      "summary": "Nouriel Roubini, known as 'Dr. Doom,' has strongly criticized cryptocurrencies as 'corrupt gambling' and dismissed the 'proof of reserves' initiatives by exchanges like Binance following the FTX collapse. His remarks reflect a deeply bearish sentiment from a prominent Wall Street figure, reinforcing negative perceptions of the crypto industry and potentially deterring risk-averse investors.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Roubini_crypto_criticism",
+        "corrupt_gambling_label",
+        "proof_of_reserves_skepticism"
+      ],
+      "rationale": "Roubini's highly critical commentary, amplified by his reputation, can negatively influence market sentiment, especially among traditional investors. This reinforces the bearish narrative and could discourage new capital inflow in the short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n61c193b16677",
+      "title": "This Week in Coins: Bitcoin, Ethereum Stable—Has the Worst of the FTX Damage Passed?",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-stable-132937056.html",
+      "summary": "Bitcoin and Ethereum have shown relative stability this week, with Bitcoin trading almost unchanged and Ethereum slightly up. This comes after significant price drops earlier in the week, reaching two-year lows for Bitcoin. The question arises whether the market has absorbed the worst of the FTX fallout. The current stability suggests a potential pause in the downward trend, but the market remains sensitive to further contagion or negative news.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "BTC_ETH_price_stability",
+        "FTX_damage_assessment",
+        "market_sentiment"
+      ],
+      "rationale": "The stabilization of Bitcoin and Ethereum prices after significant drops indicates a potential short-term bottoming process. However, the market remains fragile, and any new negative catalysts could easily reverse this trend."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n61c193b16677",
+      "title": "This Week in Coins: Bitcoin, Ethereum Stable—Has the Worst of the FTX Damage Passed?",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-stable-132937056.html",
+      "summary": "Bitcoin and Ethereum have shown relative stability this week, with Bitcoin trading almost unchanged and Ethereum slightly up. This comes after significant price drops earlier in the week, reaching two-year lows for Bitcoin. The question arises whether the market has absorbed the worst of the FTX fallout. The current stability suggests a potential pause in the downward trend, but the market remains sensitive to further contagion or negative news.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "BTC_ETH_price_stability",
+        "FTX_damage_assessment",
+        "market_sentiment"
+      ],
+      "rationale": "The stabilization of Bitcoin and Ethereum prices after significant drops indicates a potential short-term bottoming process. However, the market remains fragile, and any new negative catalysts could easily reverse this trend."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nc8e7a75a82ee",
+      "title": "'Rich Dad Poor Dad' Author Says Economy Is Biggest Bubble In World History: 'God Have Mercy On Us All'",
+      "url": "https://finance.yahoo.com/news/rich-dad-poor-dad-author-165530252.html",
+      "summary": "Robert Kiyosaki, author of 'Rich Dad, Poor Dad,' has issued a dire warning, labeling the current economy as the 'biggest bubble in world history.' He reiterates his avoidance of traditional investments like equities, bonds, and ETFs, focusing instead on alternative assets. This bearish macroeconomic outlook, coupled with predictions of recessions in major economies, suggests a continued risk-off sentiment that could pressure risk assets like Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Kiyosaki_economic_bubble",
+        "recession_prediction",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Kiyosaki's strong bearish macroeconomic view, predicting a global economic bubble and recessions, reinforces a risk-off sentiment. This could lead investors to reduce exposure to speculative assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n1290904ea38b",
+      "title": "Major Canadian Crypto Exchange Coinsquare Says Client Data Breached",
+      "url": "https://finance.yahoo.com/news/major-canadian-crypto-exchange-coinsquare-205343550.html",
+      "summary": "Coinsquare, a major Canadian crypto exchange, has reported a data incident where an unauthorized third party accessed a customer database containing personal information. The exchange assures that customer assets in cold storage are secure and not at risk. This breach, however, could erode user trust and potentially lead to increased regulatory scrutiny for the exchange and the broader Canadian crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinsquare_data_breach",
+        "customer_data_exposure",
+        "user_trust_impact"
+      ],
+      "rationale": "While customer assets are reportedly safe, a data breach can damage user trust and potentially lead to outflows or reduced trading activity on the platform. This could have a minor negative impact on liquidity and sentiment."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n9a8c9501c391",
+      "title": "Wall Street’s ‘Dr. Doom’ calls crypto ‘corrupt gambling’ and rips ‘proof of reserves’ trumpeted after FTX collapse",
+      "url": "https://finance.yahoo.com/news/wall-street-dr-doom-calls-235105417.html",
+      "summary": "Nouriel Roubini, known as 'Dr. Doom,' has strongly criticized cryptocurrencies as 'corrupt gambling' and dismissed the 'proof of reserves' initiatives by exchanges like Binance following the FTX collapse. His remarks reflect a deeply bearish sentiment from a prominent Wall Street figure, reinforcing negative perceptions of the crypto industry and potentially deterring risk-averse investors.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Roubini_crypto_criticism",
+        "corrupt_gambling_label",
+        "proof_of_reserves_skepticism"
+      ],
+      "rationale": "Roubini's highly critical commentary, amplified by his reputation, can negatively influence market sentiment, especially among traditional investors. This reinforces the bearish narrative and could discourage new capital inflow in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-11-26",
+    "summary": "The market sentiment is cautiously optimistic due to a potentially dovish shift in the Federal Reserve's stance, suggesting a slower pace of interest rate hikes. This has provided some stability to risk assets, including Bitcoin, which has held its ground after recent lows. However, lingering concerns about contagion from the FTX collapse and negative commentary from prominent figures like Nouriel Roubini continue to cast a bearish shadow, creating an uncertain short-term outlook. Long-term, institutional adoption drivers like Fidelity's zero-fee trading and the ongoing Grayscale lawsuit remain key bullish catalysts.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued contagion from FTX collapse impacting other exchanges or DeFi protocols.",
+      "Resurgence of hawkish Fed rhetoric or worse-than-expected inflation data.",
+      "Negative regulatory developments or enforcement actions against crypto entities.",
+      "Geopolitical events impacting global liquidity and risk appetite.",
+      "Further erosion of user trust due to ongoing security incidents or scams."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and economic data releases (inflation, employment).",
+      "Developments in the FTX bankruptcy proceedings and any further contagion.",
+      "Regulatory announcements from major financial bodies (SEC, CFTC, etc.).",
+      "Performance of major altcoins and their correlation with Bitcoin.",
+      "On-chain data indicating shifts in miner behavior or large holder accumulation/distribution."
+    ]
+  }
+}

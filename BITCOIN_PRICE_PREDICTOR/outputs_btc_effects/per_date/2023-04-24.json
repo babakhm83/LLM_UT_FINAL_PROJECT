@@ -1,0 +1,511 @@
+{
+  "date": "2023-04-24",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n875dd42eb318",
+      "title": "April Seasonality Favors Bitcoin and Stocks",
+      "url": "https://finance.yahoo.com/news/april-seasonality-favor-bitcoin-stocks-064935676.html",
+      "summary": "Historically, April has been a strong month for Bitcoin, showing gains in six out of the past ten years with an average return exceeding 17%. This seasonal trend suggests a potential bullish period for Bitcoin in the near to medium term. The S&P 500 also historically performs well in April, indicating a potentially positive correlation with broader market sentiment. This historical data provides a baseline expectation for a bullish April.",
+      "impact_horizon_months": 1,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "april_seasonality",
+        "btc_historical_returns",
+        "sp500_seasonality"
+      ],
+      "rationale": "Historical data indicates April is a seasonally strong month for Bitcoin, with average returns above 17% over the past decade. This suggests a positive outlook for the cryptocurrency during this period."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nc11317750488",
+      "title": "Ethereum jumps to its highest price in 8 months ahead of highly anticipated network upgrade",
+      "url": "https://finance.yahoo.com/news/ethereum-jumps-highest-price-8-142506534.html",
+      "summary": "Ethereum reached an eight-month high, trading at $1,884 ahead of its Shanghai upgrade on April 12th. This upgrade marks Ethereum's full transition to a proof-of-stake network. Despite broader macro uncertainties and banking sector turmoil, Ether's price surge indicates strong market anticipation and positive sentiment towards the network's technological advancements. This event is a significant catalyst for the Ethereum ecosystem.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "eth_shanghai_upgrade",
+        "eth_price_surge",
+        "proof_of_stake"
+      ],
+      "rationale": "The upcoming Shanghai upgrade is a major technical milestone for Ethereum, driving significant price appreciation and investor interest. Successful implementation is expected to further solidify its position and attract more adoption."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nd72635517500",
+      "title": "Centralized Stablecoins Are Problematic. Is a Decentralized Alternative on the Way?",
+      "url": "https://finance.yahoo.com/news/centralized-stablecoins-problematic-decentralized-alternative-131055464.html",
+      "summary": "Stablecoins are crucial for crypto trading and DeFi, but centralized versions present risks. The discussion around decentralized alternatives highlights a potential shift in the stablecoin landscape. This could lead to increased adoption of more robust and transparent stablecoin solutions, impacting the overall crypto market by providing a more reliable bridge between fiat and digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "stablecoin_decentralization",
+        "defi_growth",
+        "stablecoin_regulation"
+      ],
+      "rationale": "The ongoing debate and development of decentralized stablecoins address inherent risks in centralized models. This evolution could significantly impact DeFi and overall crypto market stability, potentially driving adoption of more resilient solutions."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n1181587f950d",
+      "title": "Magic Eden Bitcoin NFT Launchpad Debuts as Ordinals Total Nears 1 Million",
+      "url": "https://finance.yahoo.com/news/magic-eden-bitcoin-nft-launchpad-160102047.html",
+      "summary": "Magic Eden's launch of a Bitcoin NFT launchpad coincides with the Ordinals protocol nearing one million inscriptions. This development signifies growing interest and infrastructure for NFTs on the Bitcoin network, potentially increasing Bitcoin's utility beyond a store of value. The expansion of NFT capabilities on Bitcoin could attract new users and developers, boosting the ecosystem.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "bitcoin_nfts",
+        "ordinals_protocol",
+        "magic_eden_launchpad"
+      ],
+      "rationale": "The emergence of NFT capabilities on the Bitcoin network, supported by platforms like Magic Eden, expands Bitcoin's use case. This innovation could drive adoption and integrate Bitcoin more deeply into the broader digital asset ecosystem."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nd5691d7293dd",
+      "title": "Global Blockchain and Cryptocurrency Market 2023: U.S Remains the Frontrunner in Implementing Cryptocurrency Regulation",
+      "url": "https://finance.yahoo.com/news/global-blockchain-cryptocurrency-market-2023-221500142.html",
+      "summary": "The report highlights the U.S. as a leader in cryptocurrency regulation, despite the ongoing 'crypto winter'. This proactive regulatory stance, while potentially creating short-term challenges, can foster long-term stability and institutional adoption. Clearer regulatory frameworks are crucial for attracting traditional finance players and ensuring the sustainable growth of the blockchain and cryptocurrency market.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "us_crypto_regulation",
+        "blockchain_market_growth",
+        "regulatory_clarity"
+      ],
+      "rationale": "The U.S. leading in crypto regulation, even during a downturn, suggests a path towards greater institutional adoption. Regulatory clarity is a key driver for long-term market health and investor confidence."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n26903bd11f2a",
+      "title": "Bitcoin vs. Gold: Here's What the Founder of the World's Largest Hedge Fund Would Choose",
+      "url": "https://finance.yahoo.com/news/bitcoin-vs-gold-heres-founder-142406073.html",
+      "summary": "Ray Dalio, founder of Bridgewater Associates, weighs in on the Bitcoin vs. Gold debate, known for his bullish stance on gold. The article discusses how both assets are seen as hedges against traditional finance, especially during times of banking instability. Dalio's perspective, while favoring gold, acknowledges the role of digital assets in the current economic climate, influencing investor perception.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_vs_gold",
+        "ray_dalio_view",
+        "hedge_asset"
+      ],
+      "rationale": "The comparison between Bitcoin and gold by a prominent hedge fund founder like Ray Dalio influences investor sentiment. While he leans towards gold, the discussion itself highlights Bitcoin's growing role as a potential store of value and hedge against financial instability."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n35b42c96cb32",
+      "title": "Bitcoin rises above US$28,000; XRP biggest gainer in top 10 cryptos",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-above-us-28-104129552.html",
+      "summary": "Bitcoin surpassed $28,000, with XRP leading gains among top cryptocurrencies. This price action occurred amidst strengthening Asian equity markets, reflecting a relief rally following actions to address the banking sector crisis. Investors are now focused on the U.S. Federal Reserve's interest rate decision. The broader market sentiment appears cautiously optimistic, influenced by macroeconomic factors.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "btc_price_above_28k",
+        "xrp_gains",
+        "fed_interest_rates"
+      ],
+      "rationale": "Bitcoin breaking the $28,000 level, coupled with positive equity market sentiment and anticipation of Fed policy, suggests a short-to-medium term bullish trend. The performance of other altcoins like XRP also indicates broader market recovery."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nd6c65a01c456",
+      "title": "Marathon Digital Holdings Reports Fourth Quarter and Fiscal Year 2022 Results",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-reports-fourth-221900612.html",
+      "summary": "Marathon Digital Holdings reported its Q4 and FY 2022 results, including a net loss of $686.7 million for the fiscal year. While the company experienced a significant loss, its operational focus on supporting and securing the Bitcoin ecosystem remains. The financial performance, though negative, is a data point for understanding the operational health of major Bitcoin miners, which can indirectly influence Bitcoin's network security and miner sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "marathon_digital_earnings",
+        "bitcoin_miner_performance",
+        "net_loss"
+      ],
+      "rationale": "Marathon Digital's financial results, while showing a loss, provide insight into the operational and financial health of a major Bitcoin miner. This can indirectly affect the network's hashrate and miner sentiment, impacting Bitcoin's long-term security and price dynamics."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nb9e7c0fa0345",
+      "title": "Crypto’s Unfulfilled Dreams Get a Tailwind From U.S. Crackdown on Binance, Coinbase",
+      "url": "https://finance.yahoo.com/news/crypto-unfulfilled-dreams-tailwind-u-203553810.html",
+      "summary": "The article suggests that U.S. regulatory actions against major exchanges like Binance and Coinbase could inadvertently benefit decentralized crypto projects by reinforcing the core principle of decentralization. This regulatory pressure might push users and developers towards more P2P networks, aligning with Satoshi Nakamoto's original vision and potentially fostering innovation in decentralized finance.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "us_regulatory_crackdown",
+        "binance_coinbase_regulation",
+        "decentralization_tailwind"
+      ],
+      "rationale": "Regulatory actions against centralized exchanges could push users towards decentralized alternatives, aligning with crypto's core ethos. This shift could accelerate the adoption and development of truly decentralized platforms."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n66e3f4527ab8",
+      "title": "Nasdaq planning to launch custody services for crypto by end of Q2",
+      "url": "https://finance.yahoo.com/news/nasdaq-planning-launch-custody-services-183402756.html",
+      "summary": "Nasdaq intends to launch cryptocurrency custody services for Bitcoin and Ether by the end of the second quarter. This move by a major traditional financial infrastructure provider signals increasing institutional acceptance and integration of digital assets. Successful launch and regulatory approval could significantly boost confidence and attract more institutional capital into the crypto market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "nasdaq_custody_services",
+        "institutional_adoption",
+        "crypto_infrastructure"
+      ],
+      "rationale": "Nasdaq's entry into crypto custody services is a significant validation from traditional finance. This development is expected to attract institutional investors and enhance the legitimacy and infrastructure of the digital asset market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 5,
+      "id": "nb89daa04cf80",
+      "title": "Bitcoin Posts Biggest Weekly Loss in 5 Months as Dollar Liquidity Declines, Debt Ceiling Fears Return",
+      "url": "https://finance.yahoo.com/news/bitcoin-posts-biggest-weekly-loss-082632487.html",
+      "summary": "Bitcoin experienced its largest weekly loss in five months, falling 9% to $27,600. This decline is attributed to rising bond yields and decreasing U.S. dollar liquidity, alongside renewed concerns about the U.S. debt ceiling. These macroeconomic factors are creating headwinds for risk assets, including Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_weekly_loss",
+        "dollar_liquidity_decline",
+        "debt_ceiling_fears",
+        "rising_bond_yields"
+      ],
+      "rationale": "The combination of declining dollar liquidity, rising bond yields, and debt ceiling concerns creates a negative macroeconomic environment for Bitcoin, leading to significant selling pressure."
+    },
+    {
+      "pick_idx": 6,
+      "id": "na2987efc7b36",
+      "title": "Bitcoin Price May Hit $100K by Year End, Standard Chartered Bank Says",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-may-hit-100k-143258605.html",
+      "summary": "Standard Chartered Bank predicts Bitcoin could reach $100,000 by year-end, citing the end of the 'crypto winter,' the banking sector crisis, and the Fed's potential end to rate hikes. This optimistic outlook suggests a strong bullish sentiment from a major financial institution, potentially influencing market expectations.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "standard_chartered_prediction",
+        "btc_100k_target",
+        "crypto_winter_end",
+        "fed_rate_hikes_end"
+      ],
+      "rationale": "A major bank's bullish forecast for Bitcoin, driven by macro factors and the end of the crypto winter, can significantly boost market sentiment and attract investment."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nb89daa04cf80",
+      "title": "Bitcoin Posts Biggest Weekly Loss in 5 Months as Dollar Liquidity Declines, Debt Ceiling Fears Return",
+      "url": "https://finance.yahoo.com/news/bitcoin-posts-biggest-weekly-loss-082632487.html",
+      "summary": "Bitcoin experienced its largest weekly loss in five months, falling 9% to $27,600. This decline is attributed to rising bond yields and decreasing U.S. dollar liquidity, alongside renewed concerns about the U.S. debt ceiling. These macroeconomic factors are creating headwinds for risk assets, including Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_weekly_loss",
+        "dollar_liquidity_decline",
+        "debt_ceiling_fears",
+        "rising_bond_yields"
+      ],
+      "rationale": "The combination of declining dollar liquidity, rising bond yields, and debt ceiling concerns creates a negative macroeconomic environment for Bitcoin, leading to significant selling pressure."
+    },
+    {
+      "pick_idx": 9,
+      "id": "ne0058c9802c3",
+      "title": "Bitcoin's Six-Week Hot Streak Ends as Institutions Turn to Ethereum",
+      "url": "https://finance.yahoo.com/news/bitcoins-six-week-hot-streak-172932019.html",
+      "summary": "Bitcoin saw outflows for the first time in six weeks, with $53.1 million leaving investment products, attributed to profit-taking. This shift, coupled with institutions potentially turning to Ethereum, suggests a short-term rotation out of Bitcoin. The inability to hold above $30,000 and a slide towards $27,000 reinforces this bearish short-term outlook.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_outflows",
+        "eth_institutional_interest",
+        "profit_taking",
+        "btc_price_drop"
+      ],
+      "rationale": "Bitcoin's hot streak ending with outflows and a potential shift towards Ethereum indicates a short-term bearish sentiment, exacerbated by profit-taking and a failure to maintain key price levels."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n9bcc5630400d",
+      "title": "Satoshi-Era Bitcoin Whale Moves $11 Million After Sleeping for 12 Years",
+      "url": "https://finance.yahoo.com/news/satoshi-era-bitcoin-whale-moves-185907607.html",
+      "summary": "A long-dormant Bitcoin 'whale' moved approximately $11 million worth of BTC after 12 years of inactivity. Such movements from early holders can sometimes signal a change in sentiment or a distribution event. While the exact intent is unknown, these large, infrequent transactions can create short-term volatility.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "btc_whale_movement",
+        "satoshi_era_btc",
+        "large_transaction",
+        "dormant_address_activity"
+      ],
+      "rationale": "The movement of a large amount of Bitcoin from a long-dormant address can introduce short-term volatility and uncertainty as the market reacts to the potential implications of such a transaction."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nebd3fa901c98",
+      "title": "Ethereum Shanghai Upgrade Brings Record Inflow of 572K ETH Staked in a Week",
+      "url": "https://finance.yahoo.com/news/ethereum-shanghai-upgrade-brings-record-235059842.html",
+      "summary": "Ethereum's Shanghai upgrade has resulted in a record weekly inflow of 572,000 ETH into staking contracts, valued at over $1 billion. This surge, driven by institutional staking providers and reward reinvestment, indicates strong confidence and participation in Ethereum's proof-of-stake mechanism post-upgrade. This is a significant bullish signal for ETH.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "eth_shanghai_upgrade_impact",
+        "eth_staking_inflow",
+        "institutional_staking",
+        "record_deposit"
+      ],
+      "rationale": "The record inflow of ETH into staking post-Shanghai upgrade demonstrates strong demand and confidence in Ethereum's proof-of-stake model, signaling a bullish short-term outlook for ETH."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n3dbd9c596a1c",
+      "title": "Declining Bitcoin-Ether Correlation Could Affect Crypto Investors’ Hedging Strategies: Coinbase",
+      "url": "https://finance.yahoo.com/news/declining-bitcoin-ether-correlation-could-073822921.html",
+      "summary": "Coinbase reports a declining correlation between Bitcoin and Ether returns since mid-March, particularly after the Ethereum Shanghai upgrade. Bitcoin has outperformed Ether during this period, partly due to U.S. banking turmoil and regulatory scrutiny on non-Bitcoin assets. This divergence could impact hedging strategies.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "protocol"
+      ],
+      "features_for_model": [
+        "btc_eth_correlation_decline",
+        "eth_shanghai_upgrade",
+        "btc_outperformance",
+        "hedging_strategies"
+      ],
+      "rationale": "The decreasing correlation between BTC and ETH, with BTC outperforming, suggests a potential shift in market dynamics. This could impact how investors hedge their portfolios and might signal a short-term divergence in their price movements."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n27b51a41cdeb",
+      "title": "Bitcoin ‘Halving’ Due Next Year Spurs Predictions of Rally in Token Past $50,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-due-next-spurs-001331270.html",
+      "summary": "Crypto analysts predict Bitcoin could rally past $50,000 next year, driven by the upcoming 'halving' event which reduces the supply of new tokens. This event is historically associated with price increases. The anticipation of this supply shock is a significant long-term bullish catalyst.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_halving_anticipation",
+        "btc_supply_shock",
+        "btc_price_prediction_50k",
+        "crypto_analyst_sentiment"
+      ],
+      "rationale": "The upcoming Bitcoin halving event, a known catalyst for price rallies due to supply reduction, is already generating bullish predictions. This anticipation can influence short-term price action as investors position for the event."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nee6d8cc30e85",
+      "title": "Memecoin 'Frenzy' Cools As Dogecoin, PEPE Slip",
+      "url": "https://finance.yahoo.com/news/memecoin-phenomenon-cools-dogecoin-pepe-122414391.html",
+      "summary": "The memecoin frenzy is cooling down, with Dogecoin and PEPE experiencing significant price drops. This trend suggests a rotation out of speculative, high-volatility assets as Bitcoin fails to hold key levels. The cooling of memecoin interest could indicate a broader market sentiment shift towards more stable assets.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "memecoin_downturn",
+        "dogecoin_price_slip",
+        "pepe_price_drop",
+        "speculative_asset_rotation"
+      ],
+      "rationale": "The sharp decline in memecoins like Dogecoin and PEPE, following Bitcoin's inability to maintain higher prices, signals a cooling of speculative interest and a potential bearish sentiment for riskier crypto assets."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nc0e94d44748f",
+      "title": "Bitcoin could hit $100,000 by end-2024, Standard Chartered says",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-hit-100-000-091838772.html",
+      "summary": "Standard Chartered Bank predicts Bitcoin could reach $100,000 by year-end 2024, citing the end of the 'crypto winter,' banking sector turmoil, and the Fed's potential end to rate hikes. This optimistic outlook suggests a strong bullish sentiment from a major financial institution, potentially influencing market expectations.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "standard_chartered_prediction",
+        "btc_100k_target_2024",
+        "crypto_winter_end",
+        "fed_rate_hikes_end"
+      ],
+      "rationale": "A major bank's bullish forecast for Bitcoin, driven by macro factors and the end of the crypto winter, can significantly boost market sentiment and attract investment."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-04-24",
+    "summary": "Bitcoin experienced a significant weekly loss, down 9%, driven by declining dollar liquidity, rising bond yields, and renewed debt ceiling fears. This macro environment is pressuring risk assets. Meanwhile, Ethereum's Shanghai upgrade has led to record ETH staking inflows, indicating strong confidence in its proof-of-stake mechanism. Standard Chartered issued a bullish $100k price target for Bitcoin by end-2024, citing the end of the crypto winter and Fed policy shifts. However, memecoins are cooling, and a declining BTC-ETH correlation suggests potential short-term divergence.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.3,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued macroeconomic headwinds (inflation, interest rates, debt ceiling).",
+      "Potential for further dollar liquidity tightening.",
+      "Profit-taking pressure on Bitcoin after recent gains.",
+      "Regulatory uncertainty impacting centralized exchanges and specific altcoins.",
+      "Geopolitical tensions impacting global markets."
+    ],
+    "watch_items": [
+      "U.S. CPI data release (upcoming)",
+      "Fed interest rate decision (upcoming)",
+      "Debt ceiling negotiations progress",
+      "Further institutional adoption announcements (e.g., Nasdaq custody)",
+      "On-chain data for whale movements and exchange flows"
+    ]
+  }
+}

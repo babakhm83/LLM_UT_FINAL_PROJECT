@@ -1,0 +1,537 @@
+{
+  "date": "2020-07-01",
+  "long_term": [
+    {
+      "pick_idx": 11,
+      "id": "n901b1c8e17f6",
+      "title": "Number of Bitcoins on Crypto Exchanges Hits 18-Month Low",
+      "url": "https://finance.yahoo.com/news/number-bitcoins-crypto-exchanges-hits-131943460.html",
+      "summary": "The total number of bitcoins held in cryptocurrency exchanges wallets dropped to an 18-month low, marking an 11% year-to-date reduction. This suggests more investors are taking direct possession of their cryptocurrency, potentially indicating increased confidence and a long-term holding sentiment. Such a trend can reduce selling pressure and support price appreciation over time.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "exchange_balance_low",
+        "hodl_sentiment",
+        "accumulation_trend"
+      ],
+      "rationale": "A decrease in exchange balances indicates that investors are moving their BTC off exchanges, likely for long-term holding. This reduces the available supply for immediate sale, potentially leading to price appreciation over time."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n3cc804174404",
+      "title": "Wrapped Bitcoin added as DAI collateral type to DeFi lending protocol Maker",
+      "url": "https://finance.yahoo.com/news/wrapped-bitcoin-added-dai-collateral-134925405.html",
+      "summary": "Maker governance token holders approved a proposal to add Wrapped Bitcoin (WBTC) as a collateral type for generating DAI. This integration allows Bitcoin holders to leverage their BTC within the Ethereum DeFi ecosystem, increasing Bitcoin's utility and demand. It signifies growing interoperability and adoption of Bitcoin within decentralized finance, potentially driving further innovation and value accrual.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "WBTC_collateral_MakerDAO",
+        "DeFi_integration",
+        "BTC_utility_expansion"
+      ],
+      "rationale": "Adding WBTC as collateral in MakerDAO significantly enhances Bitcoin's utility by enabling its use in the DeFi ecosystem. This integration can drive demand for WBTC and, by extension, Bitcoin, fostering greater adoption and innovation."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n5788bfb7a26c",
+      "title": "Caitlin Long’s Avanti Raises $5M, Submits Wyoming Bank Charter Application Draft",
+      "url": "https://finance.yahoo.com/news/caitlin-long-avanti-raises-5m-203538550.html",
+      "summary": "Crypto bank Avanti, led by Caitlin Long, raised $5 million and submitted a Wyoming bank charter application. This development signifies progress towards regulated, institutional-grade custody solutions for digital assets. Successful chartering could pave the way for greater integration of crypto with traditional finance, attracting institutional capital and enhancing legitimacy.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Avanti_bank_charter",
+        "institutional_custody_progress",
+        "Wyoming_crypto_friendly"
+      ],
+      "rationale": "The pursuit of a bank charter by Avanti represents a significant step towards regulated institutional access to crypto. This could unlock substantial capital inflows and legitimize the asset class, driving long-term adoption."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n0392379b54da",
+      "title": "This Liechtenstein Bank Can Now Custody Crypto",
+      "url": "https://finance.yahoo.com/news/liechtenstein-bank-now-custody-crypto-173308560.html",
+      "summary": "A Liechtenstein bank has received approval to custody crypto assets. This regulatory development in Europe signals a growing acceptance and integration of digital assets within the traditional financial system. Such moves by established financial institutions can attract institutional investors and increase the overall legitimacy and adoption of cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Liechtenstein_bank_crypto_custody",
+        "European_regulatory_acceptance",
+        "institutional_adoption_signal"
+      ],
+      "rationale": "The ability of a traditional bank to custody crypto assets in Liechtenstein is a positive regulatory signal. It indicates a broader trend of financial institutions embracing digital assets, which can lead to increased institutional investment."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n24cbe4223298",
+      "title": "Google To Invest $2B In Polish Data Center",
+      "url": "https://finance.yahoo.com/news/google-invest-2b-polish-data-124849097.html",
+      "summary": "Google is investing $2 billion in a new data center in Poland. While not directly related to crypto, such large-scale infrastructure investments by tech giants can indirectly benefit the crypto ecosystem by improving internet connectivity and data processing capabilities globally. This can support the development and scalability of blockchain technologies and decentralized applications.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.3,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Google_infrastructure_investment",
+        "data_center_expansion",
+        "global_connectivity_improvement"
+      ],
+      "rationale": "While not directly crypto-focused, significant investments in global data infrastructure by major tech companies like Google can indirectly support the growth and accessibility of blockchain technologies by improving network performance and availability."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n367adf090f7d",
+      "title": "Bitwage Rolls Out Bitcoin 401(k) Plan With Help From Gemini",
+      "url": "https://finance.yahoo.com/news/bitwage-rolls-bitcoin-401-k-130933352.html",
+      "summary": "Bitwage launched a Bitcoin 401(k) plan, enabling employees to receive retirement savings in BTC, with Gemini as a partner. This product innovation targets the retirement savings market, a massive sector of traditional finance. Successful adoption could significantly increase Bitcoin's use case as a long-term store of value and a retirement asset, driving demand and adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitwage_401k_plan",
+        "Gemini_partnership",
+        "retirement_savings_BTC"
+      ],
+      "rationale": "The introduction of a Bitcoin 401(k) plan by Bitwage, in partnership with Gemini, is a significant step towards integrating Bitcoin into mainstream retirement savings. This could drive substantial long-term demand and adoption."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n52c68cdf17e5",
+      "title": "Bitcoin News Roundup for June 10, 2020",
+      "url": "https://finance.yahoo.com/news/bitcoin-news-roundup-june-10-160500378.html",
+      "summary": "This roundup mentions a YouTube broadcast with Ethereum creator Vitalik Buterin and Andrew Yang's former campaign staff discussing protests and a 'crisis of legitimacy.' While not directly price-impacting, such discussions around societal legitimacy and the role of technology can influence long-term sentiment and adoption of decentralized systems like Bitcoin.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Vitalik_Buterin_discussion",
+        "societal_legitimacy_crisis",
+        "decentralization_sentiment"
+      ],
+      "rationale": "Discussions involving prominent figures in the crypto space about societal issues and legitimacy can shape long-term public perception and adoption trends, though the immediate price impact is minimal."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nab2544b5d928",
+      "title": "Novogratz: Galaxy Digital Will ‘Suck’ if Bitcoin Fails to Become an Institutional Asset",
+      "url": "https://finance.yahoo.com/news/novogratz-galaxy-digital-suck-bitcoin-162102658.html",
+      "summary": "Mike Novogratz believes financial advisors are the next key group to adopt Bitcoin as a store of value. Galaxy Digital is developing an educational course for them. This focus on advisor adoption highlights a strategic push for institutional integration, which is crucial for Bitcoin's long-term growth and price appreciation.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Novogratz_institutional_adoption",
+        "financial_advisors_BTC",
+        "Galaxy_Digital_education"
+      ],
+      "rationale": "Novogratz's emphasis on financial advisor adoption as a key driver for Bitcoin's institutionalization is a strong indicator of future demand. Successful outreach to this segment could significantly boost long-term capital inflows."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n53e3586c11db",
+      "title": "BitLicense at 5: A Timeline of New York’s Landmark Cryptocurrency Regulation",
+      "url": "https://finance.yahoo.com/news/bitlicense-5-timeline-york-landmark-140100043.html",
+      "summary": "This article reviews the five-year impact of New York's BitLicense. While initially seen as burdensome, it has also driven industry maturity and consumer protection. The ongoing evolution and application of such regulations are critical for the long-term legitimacy and institutional adoption of cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BitLicense_impact",
+        "NY_crypto_regulation",
+        "industry_maturation"
+      ],
+      "rationale": "The long-term impact of regulations like the BitLicense is crucial for the crypto industry's maturation and institutional acceptance. While initially challenging, clear regulatory frameworks can foster trust and attract larger players."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n59067fe1104c",
+      "title": "Bitcoin’s mining difficulty falls 9.29 percent",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-falls-9-151418808.html",
+      "summary": "Bitcoin's mining difficulty saw a significant drop of 9.29%. This decrease, the second largest of 2020, indicates a reduction in network hashrate, likely due to less efficient miners being priced out after the halving. While a short-term bearish signal for miner profitability, it can lead to more efficient mining operations and potentially a more stable network in the long run.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "mining_difficulty_drop",
+        "hashrate_decrease",
+        "miner_efficiency_adjustment"
+      ],
+      "rationale": "A significant drop in mining difficulty suggests that less efficient miners have left the network post-halving. This can be a short-term negative for miner profitability but may lead to a more robust and efficient network in the long term."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nd3113e45d074",
+      "title": "The Crypto Daily – Movers and Shakers – July 1st, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-011319796.html",
+      "summary": "Bitcoin fell 0.48% on Tuesday, ending June down 3.18% but up 42.33% for Q2. The price action showed a mixed start, with an intraday high of $9,206.5 before falling to $9,077.0, then revisiting $9,190 before easing back. This indicates continued consolidation within the $9,000-$9,300 range.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_consolidation",
+        "daily_volatility_low",
+        "range_bound_trading"
+      ],
+      "rationale": "Bitcoin is trading within a tight range, showing low volatility. This suggests a lack of strong directional conviction in the immediate short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "na3f973d2beeb",
+      "title": "Bitcoin ETP Listed on Europe’s Third-Largest Exchange",
+      "url": "https://finance.yahoo.com/news/bitcoin-etp-listed-europe-third-051210238.html",
+      "summary": "Deutsche Boerse has listed a Bitcoin ETP on its Xetra trading venue. This expansion into a major European market provides institutional investors with easier access to Bitcoin exposure. It's a positive development for adoption and could attract new capital flows.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "listing",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_ETP_listing_Xetra",
+        "European_institutional_access",
+        "product_expansion"
+      ],
+      "rationale": "The listing of a Bitcoin ETP on a major European exchange like Xetra increases accessibility for institutional investors, potentially driving demand and positive price action in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n8ce93fd7469f",
+      "title": "Swiss Government Makes Moves to Encourage Crypto Businesses",
+      "url": "https://finance.yahoo.com/news/swiss-government-makes-moves-encourage-080007273.html",
+      "summary": "Switzerland is enacting new laws to lower legal barriers for blockchain startups while maintaining favorable tax laws. This regulatory clarity and support can attract crypto businesses and talent to the region, fostering innovation and potentially increasing network activity.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Swiss_crypto_regulation",
+        "blockchain_startup_support",
+        "legal_barrier_reduction"
+      ],
+      "rationale": "Favorable regulatory changes in Switzerland can attract crypto businesses, potentially leading to increased development and adoption of blockchain technologies, which could have a mild positive short-term impact."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nfc309c686e0d",
+      "title": "Bitcoin’s Mining Difficulty Has Rarely Been This Static in a Decade",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-rarely-static-081755885.html",
+      "summary": "Bitcoin's mining difficulty saw its smallest percentage change in 10 years, a mere 0.0033% decrease. This extreme stability suggests a balanced hashrate, with miners either entering or leaving the network at a similar pace. It indicates a period of low network flux, which might precede a more significant move.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_difficulty_static",
+        "hashrate_stability",
+        "network_flux_low"
+      ],
+      "rationale": "The unusual stability in mining difficulty suggests a temporary equilibrium in network hashrate, offering little immediate directional signal but potentially indicating a period of consolidation before a change."
+    },
+    {
+      "pick_idx": 8,
+      "id": "na44dc1452a9f",
+      "title": "New York-Based Asset Manager Closes $190M Round for Bitcoin Institutional Fund",
+      "url": "https://finance.yahoo.com/news/york-based-asset-manager-closes-104712554.html",
+      "summary": "NYDIG raised $190 million for another Bitcoin fund. This significant capital raise from institutional investors underscores growing confidence in Bitcoin as an asset class. Such inflows can directly impact demand and price, especially in the short term.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "funding",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "NYDIG_fundraising",
+        "institutional_capital_inflow",
+        "BTC_fund_AUM_increase"
+      ],
+      "rationale": "A substantial $190 million capital raise for a Bitcoin fund by NYDIG is a strong bullish signal, indicating significant institutional demand that can positively impact price in the immediate short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n1e46fdbc9c35",
+      "title": "Coinbase Takes Over Servicing for 21Shares’ Bitcoin ETP, Displaces Kingdom Trust",
+      "url": "https://finance.yahoo.com/news/coinbase-takes-over-servicing-21shares-142007369.html",
+      "summary": "Coinbase Custody will now service 21Shares' Bitcoin ETP, replacing Kingdom Trust. This move leverages Coinbase's established infrastructure and reputation for security. It's a positive signal for the ETP's stability and could lead to increased investor confidence and potentially higher inflows.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "listing",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_custody_21Shares",
+        "ETP_servicing_change",
+        "custodian_shift"
+      ],
+      "rationale": "The change in custodian for a Bitcoin ETP to Coinbase Custody, a reputable provider, enhances the product's perceived security and reliability, potentially attracting more investment."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n972319af30b7",
+      "title": "Blockchain Bites: DeFi and DEXs Surge, Bitcoin’s Negligible Adjustment and an ICO Class Action",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-defi-dexs-surge-160500408.html",
+      "summary": "DeFi and DEXs are experiencing growth, while Bitcoin's difficulty adjustment was negligible. The mention of an ICO class action lawsuit is a negative development for that specific project but highlights ongoing legal scrutiny in the broader crypto space. The surge in DeFi/DEXs indicates strong activity in that sector.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "DeFi",
+        "DEX",
+        "legal",
+        "miner"
+      ],
+      "features_for_model": [
+        "DeFi_volume_surge",
+        "DEX_growth",
+        "ICO_class_action",
+        "BTC_difficulty_negligible"
+      ],
+      "rationale": "The surge in DeFi and DEX activity is a positive short-term catalyst for the broader crypto market, while Bitcoin's negligible difficulty adjustment offers little immediate price impact. An ICO class action is a minor negative for sentiment."
+    },
+    {
+      "pick_idx": 15,
+      "id": "ne6a4a546a311",
+      "title": "US Appeals Court Allows Warrantless Search of Blockchain, Exchange Data",
+      "url": "https://finance.yahoo.com/news/us-appeals-court-allows-warrantless-171522063.html",
+      "summary": "A US appeals court affirmed that blockchain and exchange data can be searched without a warrant in certain cases. This ruling could increase regulatory and law enforcement access to on-chain data, potentially impacting privacy-focused users and services. It's a bearish development for privacy and could lead to increased scrutiny.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "privacy"
+      ],
+      "features_for_model": [
+        "warrantless_search_blockchain",
+        "court_ruling_data_access",
+        "privacy_concern_increase"
+      ],
+      "rationale": "The court ruling allowing warrantless searches of blockchain and exchange data is a bearish development for privacy-focused aspects of crypto and could lead to increased regulatory pressure."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nb671a6ba235f",
+      "title": "Bitcoin spot market volume fell by over 30% in June while DEXs picked up market share",
+      "url": "https://finance.yahoo.com/news/bitcoin-spot-market-volume-fell-214928810.html",
+      "summary": "Bitcoin spot and futures volumes declined significantly in June, while decentralized exchanges (DEXs) saw a 70% increase in volume. This shift suggests a migration of trading activity towards DeFi platforms. The decrease in spot volume could indicate reduced retail interest or a pause in trading, potentially leading to lower liquidity and price volatility.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "DEX",
+        "volume"
+      ],
+      "features_for_model": [
+        "BTC_spot_volume_decrease",
+        "DEX_volume_increase",
+        "trading_activity_shift"
+      ],
+      "rationale": "A sharp drop in Bitcoin spot volume suggests reduced trading activity and potentially lower liquidity, which could lead to increased volatility or a temporary price stagnation in the very short term."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n21",
+      "title": "New York-Based Asset Manager Closes $190M Round for Bitcoin Institutional Fund",
+      "url": "https://finance.yahoo.com/news/york-based-asset-manager-closes-104712554.html",
+      "summary": "NYDIG raised $190 million for another Bitcoin fund. This significant capital raise from institutional investors underscores growing confidence in Bitcoin as an asset class. Such inflows can directly impact demand and price, especially in the short term.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "institutional",
+        "funding",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "NYDIG_fundraising",
+        "institutional_capital_inflow",
+        "BTC_fund_AUM_increase"
+      ],
+      "rationale": "A substantial $190 million capital raise for a Bitcoin fund by NYDIG is a strong bullish signal, indicating significant institutional demand that can positively impact price in the immediate short term."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n22",
+      "title": "Coinbase Takes Over Servicing for 21Shares’ Bitcoin ETP, Displaces Kingdom Trust",
+      "url": "https://finance.yahoo.com/news/coinbase-takes-over-servicing-21shares-142007369.html",
+      "summary": "Coinbase Custody will now service 21Shares' Bitcoin ETP, replacing Kingdom Trust. This move leverages Coinbase's established infrastructure and reputation for security. It's a positive signal for the ETP's stability and could lead to increased investor confidence and potentially higher inflows.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "listing",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_custody_21Shares",
+        "ETP_servicing_change",
+        "custodian_shift"
+      ],
+      "rationale": "The change in custodian for a Bitcoin ETP to Coinbase Custody, a reputable provider, enhances the product's perceived security and reliability, potentially attracting more investment."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-07-01",
+    "summary": "Bitcoin is consolidating in a tight range around $9,100-$9,300, showing low volatility. Positive developments include the listing of a Bitcoin ETP on a major European exchange and significant institutional funding rounds, which are bullish signals for increased adoption and capital inflow. However, a recent court ruling allowing warrantless searches of blockchain data presents a bearish privacy concern. The shift in trading volume towards DEXs and a drop in Bitcoin spot volume suggest a changing market dynamic.",
+    "scenario_probs": {
+      "bull": 0.5,
+      "base": 0.3,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued low spot volume indicating potential lack of conviction.",
+      "Regulatory uncertainty stemming from court rulings on data access.",
+      "Potential for broader market downturn impacting crypto sentiment.",
+      "Shifting trading activity to DEXs could reduce liquidity on major exchanges."
+    ],
+    "watch_items": [
+      "Bitcoin price action around the $9,000 support level.",
+      "Further institutional fund inflows.",
+      "Developments in DeFi and DEX volumes.",
+      "Any new regulatory statements or actions from major economies."
+    ]
+  }
+}

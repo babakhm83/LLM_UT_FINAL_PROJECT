@@ -1,0 +1,511 @@
+{
+  "date": "2024-03-23",
+  "long_term": [
+    {
+      "pick_idx": 15,
+      "id": "n8e68afff202c",
+      "title": "UPDATE 3-Bitcoin market cap crosses $1 trillion as buyers flood in",
+      "url": "https://finance.yahoo.com/news/1-total-amount-invested-bitcoin-132129545.html",
+      "summary": "Bitcoin's market capitalization surpassed $1 trillion for the first time since November 2021, driven by sustained inflows into U.S. spot Bitcoin ETFs. The price reached a 25-month high of $52,079, reflecting a 22% increase in February. This milestone underscores the growing institutional adoption and investor confidence in Bitcoin as a significant asset class, indicating a potential for continued upward momentum.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "market_cap_1T",
+        "ETF_inflows",
+        "institutional_adoption"
+      ],
+      "rationale": "The crossing of the $1 trillion market cap is a significant psychological and financial milestone, directly attributable to the success of spot Bitcoin ETFs. This indicates strong institutional demand and a broadening investor base, suggesting sustained interest and potential for further price appreciation over the medium term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nd9abfe5f9714",
+      "title": "Explaining Bitcoin's Rally: What Catapulted It Beyond $50,000",
+      "url": "https://finance.yahoo.com/news/explaining-bitcoins-rally-catapulted-beyond-221921675.html",
+      "summary": "Bitcoin's rally past $50,000, reaching a 52-week high near $53,000, is attributed to several factors, including the recent approval of spot Bitcoin ETFs and a historical pattern of cyclical price movements. The article suggests that the current surge might be indicative of future growth, following a pattern of new highs followed by bear markets, but with the current cycle potentially showing sustained strength.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "price_50k",
+        "ETF_approval_impact",
+        "cyclical_pattern"
+      ],
+      "rationale": "The sustained push above $50,000, driven by ETF approvals, signals a new phase of market acceptance. While historical cycles suggest volatility, the current institutional interest provides a stronger foundation for longer-term price discovery."
+    },
+    {
+      "pick_idx": 12,
+      "id": "naf190ac024d8",
+      "title": "Bitcoin surges in biggest weekly rally in four months",
+      "url": "https://finance.yahoo.com/news/bitcoin-surges-biggest-weekly-rally-161357961.html",
+      "summary": "Bitcoin experienced its largest weekly rally in four months, reaching one-month highs above $47,705. This surge was attributed to buying ahead of the April halving event and a slowdown in outflows from Bitcoin ETFs. The rally also coincided with the approval of U.S. spot Bitcoin ETFs, reinforcing positive market sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "halving",
+        "adoption"
+      ],
+      "features_for_model": [
+        "weekly_rally",
+        "halving_anticipation",
+        "ETF_outflows_slowdown"
+      ],
+      "rationale": "The combination of anticipation for the halving event and positive ETF flows creates a strong bullish signal for the medium term. These factors suggest increased demand and a potential supply shock, which historically leads to price appreciation."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n7af70c24b2eb",
+      "title": "Bitcoin-Focused Payments App Strike Rolls Out Services to Africa",
+      "url": "https://finance.yahoo.com/news/bitcoin-focused-payments-app-strike-204508015.html",
+      "summary": "Strike, a Bitcoin-focused payments application, is expanding its services to several African countries, including Nigeria and South Africa. This expansion aims to provide broader access to Bitcoin services on the continent, leveraging blockchain technology for remittances and payments. It signifies a growing global adoption of Bitcoin for practical financial use cases.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "payments"
+      ],
+      "features_for_model": [
+        "Strike_Africa_expansion",
+        "global_adoption",
+        "remittance_use_case"
+      ],
+      "rationale": "The expansion of a Bitcoin-native payment app into Africa represents a significant step for global adoption and utility. Increased usage for remittances and payments can drive demand and solidify Bitcoin's role as a financial tool beyond speculation."
+    },
+    {
+      "pick_idx": 7,
+      "id": "na6a41d7fdd74",
+      "title": "Deutsche Bank-Backed Swiss Fintech Firm Receives Approval To Offer Tokenized Securities to Retail Clients",
+      "url": "https://finance.yahoo.com/news/deutsche-bank-backed-swiss-fintech-141243971.html",
+      "summary": "Taurus, a Swiss fintech firm backed by Deutsche Bank, has received regulatory approval to offer tokenized securities to retail clients. This development allows for transactions using cryptocurrencies and traditional fiat currencies, marking a step towards democratizing access to digital assets and traditional finance integration.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "tokenized_securities",
+        "retail_access",
+        "fintech_integration"
+      ],
+      "rationale": "The approval for tokenized securities by a regulated, bank-backed entity signals a broader trend of traditional finance integrating with digital assets. This can pave the way for increased liquidity and new investment products, indirectly benefiting the broader crypto ecosystem, including Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne5c570c5c564",
+      "title": "Bloomberg: Bitcoin Spot ETF Adoption Slowed Down by Due Diligence",
+      "url": "https://finance.yahoo.com/news/bloomberg-bitcoin-spot-etf-adoption-040020078.html",
+      "summary": "The adoption of spot Bitcoin ETFs is experiencing a temporary slowdown due to extensive due diligence processes by major trading platforms like LPL Financial. These firms are carefully evaluating the ETFs before offering them to clients, with some planning to complete their due diligence within three months. This indicates a cautious but methodical approach to institutional integration.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ETF_adoption_slowdown",
+        "due_diligence",
+        "institutional_caution"
+      ],
+      "rationale": "While the due diligence process might cause a short-term dip in ETF inflows, it signifies a maturing market where institutions are performing thorough checks. This caution is likely to lead to more sustainable long-term adoption once completed."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na1ad94eb4ac3",
+      "title": "Traders Prefer Bitcoin to Ether Despite Developing Spot ETH ETF Narrative",
+      "url": "https://finance.yahoo.com/news/traders-prefer-bitcoin-ether-despite-071102947.html",
+      "summary": "Futures pricing suggests traders expect Bitcoin to outperform Ether in the coming months, despite the developing narrative around spot ETH ETFs. Uncertainty remains regarding the SEC's classification of Ether (security vs. commodity), and market makers may cap Ether's upside. This indicates a preference for Bitcoin's established narrative and clearer regulatory path.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "BTC_vs_ETH_performance",
+        "ETH_ETF_uncertainty",
+        "trader_preference"
+      ],
+      "rationale": "The market's preference for Bitcoin over Ether, even with potential ETH ETF catalysts, highlights Bitcoin's current dominance and perceived safety. This preference is likely to continue in the short to medium term, supporting Bitcoin's price action."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nbec905d85681",
+      "title": "Should You Buy the Dip on Bitcoin Mining Stocks?",
+      "url": "https://finance.yahoo.com/news/buy-dip-bitcoin-mining-stocks-092300714.html",
+      "summary": "Bitcoin mining stocks have seen significant declines in early 2024 despite the overall bullish sentiment around Bitcoin and its ETFs. The article questions whether this dip presents a buying opportunity or reflects a fundamental shift in market outlook, suggesting potential changes in market dynamics affecting mining profitability.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "mining_stock_dip",
+        "MARA_RIOT_performance",
+        "market_outlook_shift"
+      ],
+      "rationale": "The underperformance of mining stocks despite Bitcoin's strength suggests potential headwinds for the mining sector, possibly related to increased competition, energy costs, or the upcoming halving's impact on profitability. This warrants caution."
+    },
+    {
+      "pick_idx": 32,
+      "id": "ne920d91d4285",
+      "title": "Sweden’s Central Bank Chief Wants 'as Little Bitcoin as Possible' in Country's Financial System: Bloomberg",
+      "url": "https://finance.yahoo.com/news/sweden-central-bank-chief-wants-141320847.html",
+      "summary": "The governor of Sweden's central bank, Erik Thedeen, expressed a desire to minimize Bitcoin's presence in the country's financial system, calling it an 'instrument that is impossible to value' and based on 'pure speculation.' He cited past collapses of crypto exchanges as justification for his stance.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Sweden_central_bank_stance",
+        "anti_bitcoin_sentiment",
+        "speculative_asset_label"
+      ],
+      "rationale": "While this is a localized sentiment, it reflects ongoing regulatory skepticism from traditional financial institutions. Such views, if they gain traction, could pose a long-term challenge to broader adoption and regulatory clarity."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nbb9aff95b316",
+      "title": "Warren Buffett Says He Wouldn't Pay $25 For All The Bitcoin In The World – He Considers Crypto 'Rat Poison' And Warns: 'I Can Say With Almost Certainty That They Will Come To A Bad Ending'",
+      "url": "https://finance.yahoo.com/news/warren-buffett-says-wouldnt-pay-175917403.html",
+      "summary": "Warren Buffett reiterated his strong negative stance on cryptocurrency, calling it 'rat poison' and predicting a 'bad ending.' Despite growing acceptance in traditional finance, Buffett remains a vocal critic, highlighting the persistent skepticism from influential figures in the investment world.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Buffett_criticism",
+        "rat_poison_analogy",
+        "skepticism"
+      ],
+      "rationale": "Buffett's persistent criticism, while not directly impacting price in the short term, represents a significant segment of traditional finance that remains unconvinced. This sentiment can influence broader market perception and regulatory attitudes over time."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "nd2aef3e9a9b1",
+      "title": "Bitcoin Slips to $64K as Large Grayscale GBTC Outflows Continue",
+      "url": "https://finance.yahoo.com/news/bitcoin-slips-64k-large-grayscale-160603444.html",
+      "summary": "Bitcoin fell below $63,000 amid a broader crypto sell-off, with Galaxy CEO Mike Novogratz suggesting a recovery to $73,000 will take time. Coinbase analysts believe ETF inflows will resume once Grayscale's GBTC selling pressure subsides, supported by favorable macro conditions.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "GBTC_outflows",
+        "price_dip_63k",
+        "ETF_inflow_resumption_forecast"
+      ],
+      "rationale": "Continued large outflows from GBTC are creating selling pressure, causing a short-term price dip. However, the expectation of renewed ETF inflows once this selling pressure eases suggests a potential rebound within the next week."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n7f8253feb0db",
+      "title": "Stock market today: US stocks dip but end with a gain for the week after Fed-fueled rally",
+      "url": "https://finance.yahoo.com/news/stock-market-today-us-stocks-041633218.html",
+      "summary": "US stocks experienced a dip on Friday but closed the week with gains, buoyed by a rally following the Federal Reserve's policy meeting. However, Bitcoin ETFs saw their worst week of outflows since their debut in January, indicating a potential short-term cooling of enthusiasm for crypto investment products.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_ETF_outflows",
+        "Fed_meeting_impact",
+        "weekly_stock_performance"
+      ],
+      "rationale": "The significant outflows from Bitcoin ETFs this week, despite a generally positive stock market, suggest a short-term shift in investor sentiment away from crypto. This could lead to continued price pressure on Bitcoin in the immediate days ahead."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n40fb677be20f",
+      "title": "LMAX Group CEO Forecasts Bullish Trend: Anticipates Crypto Prices To Surge, Citing Potential $6 Trillion Asset Class",
+      "url": "https://finance.yahoo.com/news/lmax-group-ceo-forecasts-bullish-003045594.html",
+      "summary": "LMAX Group CEO David Mercer predicts Bitcoin reaching new highs is 'inevitable' due to institutional investment outweighing selling pressures. He highlights that daily Bitcoin mining (around 900 BTC) is significantly less than ETF inflows, suggesting a bullish trend for crypto prices as it approaches a potential $6 trillion asset class.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "LMAX_CEO_outlook",
+        "institutional_inflows",
+        "mining_vs_ETF_flow"
+      ],
+      "rationale": "The CEO's strong bullish outlook, backed by the comparison of daily mining supply versus ETF inflows, suggests that demand is likely to continue outstripping supply in the short term, supporting higher prices."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nd2aef3e9a9b1",
+      "title": "Bitcoin Slips to $64K as Large Grayscale GBTC Outflows Continue",
+      "url": "https://finance.yahoo.com/news/bitcoin-slips-64k-large-grayscale-160603444.html",
+      "summary": "Bitcoin experienced a dip to $64,000 amid a broader crypto sell-off, with significant outflows from Grayscale's GBTC continuing. Analysts suggest that ETF inflows will likely resume once GBTC selling pressure diminishes, especially given favorable macroeconomic conditions.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "GBTC_outflows",
+        "price_dip_64k",
+        "ETF_inflow_resumption_forecast"
+      ],
+      "rationale": "The ongoing outflows from GBTC are a direct cause of the recent price decline. While a short-term bearish pressure exists, the expectation of renewed inflows suggests this dip might be temporary, with potential for recovery within the next few days."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n8380f1964ee3",
+      "title": "Should You Buy Bitcoin While It's $67,000?",
+      "url": "https://finance.yahoo.com/news/buy-bitcoin-while-67-000-131500176.html",
+      "summary": "Bitcoin has shown remarkable performance, up 308% since the start of 2023, and is currently trading 9% below its all-time high of $73,750. The article discusses whether it's a good time to buy at $67,000, considering the overall bullish sentiment in the crypto market and its proximity to record highs.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "price_67k",
+        "ATH_proximity",
+        "bullish_sentiment"
+      ],
+      "rationale": "Despite recent volatility, Bitcoin's strong year-to-date performance and proximity to its all-time high suggest continued upward momentum. The prevailing bullish sentiment, fueled by institutional interest, indicates potential for further gains in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n551b7f05e043",
+      "title": "1 Popular Cryptocurrency Could Soar 310% by 2025, According to a Wall Street Analyst -- No, It's Not Bitcoin",
+      "url": "https://finance.yahoo.com/news/1-popular-cryptocurrency-could-soar-093000192.html",
+      "summary": "A Wall Street analyst predicts Ethereum could surge 310% to $14,000 by 2025, driven by smart contract technology and potential spot Ethereum ETFs. While Bitcoin has dominated headlines, Ethereum's underlying technology and upcoming ETF prospects present a strong case for significant upside.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "ETH_price_prediction",
+        "ETH_ETF_catalyst",
+        "smart_contract_growth"
+      ],
+      "rationale": "While this focuses on Ethereum, the potential approval of an ETH ETF would mirror the positive impact seen with Bitcoin ETFs. This could lead to increased institutional interest and capital flowing into the broader crypto market, indirectly benefiting Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ne1a16382448d",
+      "title": "New Bitcoin Whales Emerge in the Corporate World",
+      "url": "https://finance.yahoo.com/news/bitcoin-whales-emerge-corporate-world-170000225.html",
+      "summary": "Several companies, including MicroStrategy, have significantly increased their Bitcoin holdings, leading to substantial share price appreciation. MicroStrategy holds over 174,530 BTC, valued at approximately $9.1 billion. This trend highlights growing corporate adoption and confidence in Bitcoin as a treasury asset.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "corporate_bitcoin_holdings",
+        "MicroStrategy_BTC_count",
+        "treasury_asset_adoption"
+      ],
+      "rationale": "The increasing number of companies adding Bitcoin to their balance sheets signifies a strong endorsement from the corporate sector. This ongoing accumulation can provide a steady demand floor and contribute to price appreciation in the short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "na6edff3dba22",
+      "title": "HAG Advances with Key Project Milestones: A Leap Forward in Bitcoin Mining",
+      "url": "https://finance.yahoo.com/news/hag-advances-key-project-milestones-200000902.html",
+      "summary": "HAG, an SEC-filed security token focused on Bitcoin mining, has achieved significant milestones, including the deployment of S21 mining machines. This marks HAG's entry into Bitcoin mining operations and aims to set new benchmarks for transparency and investor value in the sector.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "HAG_mining_deployment",
+        "S21_machines",
+        "security_token_mining"
+      ],
+      "rationale": "The successful deployment of new mining hardware by HAG is a positive development for the mining sector. Increased mining efficiency and capacity can contribute to a more robust network and potentially influence miner behavior regarding selling pressure."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0ae5e0dad0b1",
+      "title": "Wall Street’s Favorite Penny Stocks? 7 Names That Could Make You Filthy Rich",
+      "url": "https://finance.yahoo.com/news/wall-street-favorite-penny-stocks-100000800.html",
+      "summary": "With bullish market sentiment, investors are exploring risk-on assets, including penny stocks. The article suggests that confirmation of potential Fed rate cuts is encouraging investors to seek growth opportunities. While not directly about Bitcoin, this sentiment shift towards risk assets can spill over into the crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "risk_on_sentiment",
+        "Fed_rate_cut_expectations",
+        "penny_stock_interest"
+      ],
+      "rationale": "The general increase in risk appetite, driven by expectations of Fed rate cuts, creates a favorable environment for speculative assets like Bitcoin. This broader market sentiment can provide a tailwind for crypto prices in the short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n8380f1964ee3",
+      "title": "Should You Buy Bitcoin While It's $67,000?",
+      "url": "https://finance.yahoo.com/news/buy-bitcoin-while-67-000-131500176.html",
+      "summary": "Bitcoin is trading near its all-time high, showing significant gains since 2023. The article discusses the current price point of $67,000 and whether it's a good entry point, considering the overall bullish sentiment in the crypto market and its proximity to record highs.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "price_67k",
+        "ATH_proximity",
+        "bullish_sentiment"
+      ],
+      "rationale": "The current price level, while high, is supported by strong underlying demand and positive market sentiment. The proximity to the all-time high suggests that the upward momentum may continue in the short term, especially if key resistance levels are broken."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-03-23",
+    "summary": "Bitcoin experienced volatility, dipping below $63,000 due to continued Grayscale GBTC outflows, which have led to the worst week of ETF outflows since January. However, strong bullish sentiment persists, with LMAX Group CEO predicting inevitable new highs driven by institutional inflows that outpace daily mining supply. Corporate adoption continues, with companies like MicroStrategy increasing their BTC holdings. The market is also watching Ethereum's potential ETF approval, which could further boost overall crypto market sentiment.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "Continued significant outflows from GBTC could exert sustained downward pressure.",
+      "Regulatory uncertainty surrounding potential ETH ETFs could dampen broader market enthusiasm.",
+      "Macroeconomic data releases (e.g., inflation, employment) could trigger unexpected shifts in risk appetite.",
+      "Increased leverage in futures markets could lead to sharp, cascading liquidations.",
+      "Geopolitical events or major exchange hacks could introduce sudden volatility."
+    ],
+    "watch_items": [
+      "Grayscale GBTC outflow data",
+      "Spot Ethereum ETF application decisions",
+      "Federal Reserve statements on interest rates",
+      "Major corporate Bitcoin treasury announcements",
+      "On-chain data for whale movements and exchange balances"
+    ]
+  }
+}

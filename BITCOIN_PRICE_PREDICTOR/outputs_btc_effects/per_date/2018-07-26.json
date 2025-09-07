@@ -1,0 +1,498 @@
+{
+  "date": "2018-07-26",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n7efb03492ab7",
+      "title": "BlackRock is evaluating cryptocurrencies, CEO Fink says",
+      "url": "https://finance.yahoo.com/news/blackrock-evaluating-cryptocurrencies-ceo-says-125137892.html",
+      "summary": "BlackRock, the world's largest asset manager, has formed a working group to study blockchain technology and cryptocurrencies. CEO Larry Fink stated that while he doesn't see massive investor demand currently, the company is actively exploring the space. Any move by BlackRock into cryptocurrencies or blockchain would represent a significant shift and a major endorsement for the nascent industry.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BlackRock_evaluation",
+        "institutional_adoption_signal"
+      ],
+      "rationale": "The involvement of a major asset manager like BlackRock signals growing institutional interest in digital assets. This could pave the way for broader adoption and increased capital inflows into the crypto market over the medium to long term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n8b67db2b7887",
+      "title": "China’s Small-Time Bitcoin Miners Exposed By Flooding In Sichuan Province",
+      "url": "https://finance.yahoo.com/news/china-small-time-bitcoin-miners-123010033.html",
+      "summary": "Flooding in China's Sichuan province has disrupted a significant concentration of small-scale Bitcoin miners, leading to a loss of hash rate on the Bitcoin network. Many mining operations in the area were destroyed. China is known to host a substantial portion of the global Bitcoin hash rate, making such disruptions noteworthy for network security and mining difficulty.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Sichuan_floods",
+        "miner_disruption",
+        "hashrate_loss"
+      ],
+      "rationale": "This event highlights the geographical concentration of mining infrastructure and its vulnerability to natural disasters. A significant loss of hash rate can temporarily impact mining difficulty and potentially lead to short-term price pressure due to reduced network security perception."
+    },
+    {
+      "pick_idx": 17,
+      "id": "ncf37441d221d",
+      "title": "Today In Cryptocurrencies: Buffett & Dimon Rip Bitcoin, $1.1 Billion Of Crypto Stolen In 2018",
+      "url": "https://finance.yahoo.com/news/today-cryptocurrencies-buffett-dimon-rip-205743905.html",
+      "summary": "The cryptocurrency market saw mixed sentiment, with prominent figures like Warren Buffett and Jamie Dimon criticizing Bitcoin. Cybersecurity firm Carbon Black reported that $1.1 billion in cryptocurrency had been stolen in 2018, with malware making thefts accessible even to those without technical skills. This highlights ongoing security concerns and negative sentiment from influential financial leaders.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "hack/outage",
+        "macro"
+      ],
+      "features_for_model": [
+        "Buffett_Dimon_criticism",
+        "crypto_theft_2018",
+        "security_concerns"
+      ],
+      "rationale": "Negative commentary from high-profile investors like Buffett and Dimon can influence market sentiment and deter institutional adoption. The significant amount of stolen crypto also raises concerns about security and regulatory oversight, potentially dampening investor confidence."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n0e24c9f89b37",
+      "title": "Local Crypto Exchanges are Circumventing India’s New Bitcoin Ban: Here’s How",
+      "url": "https://finance.yahoo.com/news/local-crypto-exchanges-circumventing-india-021310579.html",
+      "summary": "Following the Reserve Bank of India's ban on fiat-to-crypto trading and the Supreme Court's refusal to lift it, local cryptocurrency exchanges are shifting to crypto-to-crypto trading to circumvent the restrictions. This indicates resilience and adaptability within the crypto ecosystem in the face of regulatory challenges, suggesting that outright bans may not fully stifle activity.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_crypto_ban_circumvention",
+        "crypto_to_crypto_trading",
+        "regulatory_adaptability"
+      ],
+      "rationale": "The ability of Indian exchanges to adapt to regulatory pressure by shifting to crypto-to-crypto trading demonstrates the persistent demand for digital assets. This adaptability suggests that regulatory hurdles, while impactful, may not completely halt crypto adoption globally."
+    },
+    {
+      "pick_idx": 4,
+      "id": "naaba08ffa43e",
+      "title": "NVIDIA and AMD Are About to Lose This Big Catalyst",
+      "url": "https://finance.yahoo.com/news/nvidia-amd-lose-big-catalyst-150000455.html",
+      "summary": "Cryptocurrency mining has been a significant revenue driver for GPU manufacturers like NVIDIA and AMD. Jon Peddie Research estimated that miners spent $776 million on graphics cards in 2017, with AMD benefiting significantly. However, the article suggests this catalyst might be diminishing, implying a potential slowdown in demand from this sector for hardware manufacturers.",
+      "impact_horizon_months": 9,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "miner",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "GPU_demand_crypto",
+        "AMD_NVIDIA_catalyst",
+        "miner_revenue_impact"
+      ],
+      "rationale": "A decline in demand from crypto miners for GPUs could signal a cooling of mining profitability or a shift in mining hardware. This could indirectly affect the crypto market by reducing demand for specialized hardware, though it's more directly a factor for the semiconductor industry."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n2e15e1526e8e",
+      "title": "Introducing Cryptoindex Platform - Potential to be the \"Dow Jones\" of the Crypto Market",
+      "url": "https://finance.yahoo.com/news/introducing-cryptoindex-platform-potential-dow-220700753.html",
+      "summary": "A new platform, Cryptoindex, aims to become the benchmark for the cryptocurrency market, akin to the Dow Jones Industrial Average. Powered by AI, it seeks to create a market benchmark amidst the rapid growth and proliferation of cryptocurrencies. The platform's success could lead to more standardized valuation and analysis tools for the crypto space.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cryptoindex_platform",
+        "AI_benchmark",
+        "market_standardization"
+      ],
+      "rationale": "The development of a credible market benchmark and index for cryptocurrencies is crucial for institutional adoption and broader market understanding. If successful, it could provide a standardized way to track the performance of the crypto market, similar to traditional financial markets."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n57f31938f846",
+      "title": "Bitcoin Cash Network Highly Centralized, 49% of all Nodes Run on Alibaba’s Facilities: Bitpico",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-network-highly-centralized-142908817.html",
+      "summary": "A report by hacker group Bitpico claims the Bitcoin Cash network suffers from significant node centralization, with a large percentage of nodes reportedly running on Alibaba's facilities. This centralization raises concerns about network security and censorship resistance, potentially impacting the perceived decentralization and trustworthiness of Bitcoin Cash.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BCH_node_centralization",
+        "Alibaba_hosting",
+        "network_security_concerns"
+      ],
+      "rationale": "High centralization in a cryptocurrency network can be a significant deterrent for users and investors who value decentralization. This finding could negatively impact Bitcoin Cash's reputation and adoption, potentially leading to a shift in capital to more decentralized alternatives."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd1e49fa7c98b",
+      "title": "Bitcoin and Ethereum Price Forecast – BTC Prices Continue to Slide",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-price-forecast-btc-042801381.html",
+      "summary": "The article forecasts continued downward price movement for Bitcoin, with prices falling towards support regions around $6300. It suggests that as global risks recede, funds are being pulled from the crypto market into other markets offering better returns. This indicates a potential shift in investor sentiment away from riskier assets like cryptocurrencies.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_forecast_slide",
+        "risk_off_sentiment",
+        "capital_flight_crypto"
+      ],
+      "rationale": "The prediction of continued price slides, attributed to a broader 'risk-off' sentiment and capital reallocation, suggests a bearish short-to-medium term outlook for Bitcoin. This macro trend can significantly impact crypto prices as investors seek safer havens."
+    },
+    {
+      "pick_idx": 15,
+      "id": "na4d7b4f65e52",
+      "title": "USD/JPY Price Forecast – US dollar rallies against Japanese yen",
+      "url": "https://finance.yahoo.com/news/usd-jpy-price-forecast-us-033807152.html",
+      "summary": "The US dollar is showing strength against the Japanese yen, with a 'golden cross' forming on the daily chart, suggesting a potential uptrend. The market is described as being in a 'risk on' environment, which typically benefits currencies like the USD over the JPY. This indicates a broader market sentiment that may be less favorable for safe-haven assets.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "USD_JPY_rally",
+        "risk_on_environment",
+        "golden_cross_USD"
+      ],
+      "rationale": "While this is a forex forecast, a sustained 'risk-on' environment indicated by USD/JPY strength can sometimes correlate with increased appetite for risk assets like cryptocurrencies, though the direct link is weak. It suggests a general market sentiment that might indirectly support crypto."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n6bcb20b0468e",
+      "title": "Is Caterpillar Inc. a Buy?",
+      "url": "https://finance.yahoo.com/news/caterpillar-inc-buy-131500707.html",
+      "summary": "Caterpillar achieved its highest-ever quarterly profit, but the stock performance has been lackluster, suggesting market skepticism about its future prospects. The article questions whether the market's fears are rational or if Caterpillar stock presents a buying opportunity. This highlights a potential disconnect between company performance and market valuation.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_tags": [
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Caterpillar_performance",
+        "market_skepticism",
+        "industrial_sector_sentiment"
+      ],
+      "rationale": "Caterpillar's performance is often seen as a bellwether for the global economy and industrial activity. Its mixed market reception could indicate broader economic concerns that might indirectly affect investor sentiment towards risk assets like cryptocurrencies."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 13,
+      "id": "n3aa1895528ba",
+      "title": "Newsflash: Bitcoin Price Slides After SEC Rejects Winklevoss ETF",
+      "url": "https://finance.yahoo.com/news/newsflash-bitcoin-price-slides-sec-213501359.html",
+      "summary": "The Bitcoin price dropped significantly after the SEC rejected the Winklevoss twins' second attempt at a Bitcoin ETF. The price fell from around $8,300 to below $8,100 shortly after the announcement, indicating a strong negative reaction to the regulatory decision.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "ETF",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_ETF_rejection",
+        "Winklevoss_ETF_denial",
+        "BTC_price_reaction_ETF"
+      ],
+      "rationale": "The SEC's rejection of a highly anticipated Bitcoin ETF is a significant bearish catalyst. It signals continued regulatory hurdles for institutional products and can lead to immediate price declines as market participants react to the news."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nfec2702b74c5",
+      "title": "U.S. regulator stands by decision to block Winklevoss bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/sec-says-not-approve-winklevoss-bitcoin-etf-211355779--sector.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) reaffirmed its decision to block the Winklevoss Bitcoin ETF, citing concerns about market manipulation. The regulator found arguments for sufficient protection against manipulation unpersuasive in a detailed analysis. This reinforces the bearish sentiment from the initial rejection.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "ETF",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_reaffirms_ETF_block",
+        "market_manipulation_concerns",
+        "Winklevoss_ETF_denial_confirmation"
+      ],
+      "rationale": "The confirmation from the SEC that it stands by its decision to block the Winklevoss ETF reinforces the negative sentiment. This prolonged uncertainty and regulatory disapproval are likely to continue weighing on Bitcoin's price in the immediate short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n3f3c1b6a01e0",
+      "title": "Winklevoss Bitcoin ETF Proposal Denied by U.S. SEC",
+      "url": "https://finance.yahoo.com/news/winklevoss-bitcoin-etf-proposal-denied-231900256.html",
+      "summary": "The SEC has officially denied the Winklevoss Bitcoin ETF proposal, following a 3-1 vote against a rule change filed by BATS Global Market's BZX exchange. The SEC cited that the proposal and related rule changes did not meet the necessary requirements, particularly concerning market manipulation.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "ETF",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_denies_Winklevoss_ETF",
+        "BZX_rule_change_rejected",
+        "crypto_ETF_regulatory_hurdle"
+      ],
+      "rationale": "This is a direct confirmation of the bearish news regarding the ETF. The denial, based on concerns about market manipulation, is a significant setback for institutional adoption and will likely lead to further price pressure on Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "naa0ca9bae3a5",
+      "title": "Bitcoin Price Retreats; EU Issues Warnings Regarding Future of Virtual Currency",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-retreats-eu-issues-061900902.html",
+      "summary": "Bitcoin and other major cryptocurrencies are retreating after a recent rally. The European Union has issued warnings about the future of virtual currencies, expressing concerns. This dual news of price pullback and regulatory caution from a major economic bloc adds to the bearish short-term sentiment.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "legal",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_retreat",
+        "EU_virtual_currency_warnings",
+        "regulatory_caution"
+      ],
+      "rationale": "The combination of a price pullback and cautionary statements from the EU creates a negative short-term outlook. Regulatory concerns, especially from major economic blocs, can lead to increased selling pressure and reduced investor confidence."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n58e5f1c2edff",
+      "title": "Crypto Markets Surpasses $300 Billion; Did ETF Cause Bitcoin to Rally?",
+      "url": "https://finance.yahoo.com/news/crypto-markets-surpasses-300-billion-175318733.html",
+      "summary": "The total crypto market valuation has surpassed $300 billion, with Bitcoin recovering to $8,200 and other cryptocurrencies seeing gains. Bitcoin's price peaked at $8,500 on July 25th, with trading volume increasing significantly. However, volume has since declined, and Bitcoin has stabilized around $8,200.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "market_cap",
+        "volatility"
+      ],
+      "features_for_model": [
+        "crypto_market_cap_300B",
+        "BTC_recovery_8200",
+        "volume_spike_decline"
+      ],
+      "rationale": "The market surpassing $300 billion is a positive sign of recovery, but the subsequent decline in Bitcoin's trading volume and stabilization suggests a lack of strong conviction for further immediate upward movement. This indicates a period of consolidation or potential pullback."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n01627d9e8fec",
+      "title": "Here come the cryptocurrency robo-advisors",
+      "url": "https://finance.yahoo.com/news/come-cryptocurrency-robo-advisors-190323668.html",
+      "summary": "New Wave Capital, a San Francisco firm, is launching as the first crypto robo-advisor. This development aims to make cryptocurrency portfolio investing more accessible to regular people. Bitcoin is up 34% in the past month, and Ether is up 8%, indicating a broader market rebound that makes such services timely.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_robo_advisor",
+        "New_Wave_Capital",
+        "retail_investor_access"
+      ],
+      "rationale": "The emergence of crypto robo-advisors signifies a maturing market and an effort to broaden access for retail investors. While not a direct price driver, it represents a positive trend for long-term adoption and could attract new capital if successful."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nfec2702b74c5",
+      "title": "Coinbase finds no wrongdoing in Bitcoin Cash insider trading probe",
+      "url": "https://finance.yahoo.com/news/2018-07-26-coinbase-no-wrongdoing-bitcoin-cash-insider-trading-probe.html",
+      "summary": "Coinbase has concluded its probe into alleged insider trading related to the Bitcoin Cash listing and found no wrongdoing. This news resolves a significant uncertainty that had been hanging over Coinbase and the broader crypto market, potentially removing a bearish overhang.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Coinbase_BCH_probe_cleared",
+        "no_insider_trading",
+        "regulatory_resolution"
+      ],
+      "rationale": "The resolution of the insider trading probe by Coinbase removes a significant point of concern and potential negative catalyst. This clarity can be seen as a positive development for market sentiment and trust in major exchanges."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb1cf61016539",
+      "title": "Most Complex dApp on Ethereum Already Has Millions of Dollars at Stake",
+      "url": "https://finance.yahoo.com/news/most-complex-dapp-ethereum-already-013607265.html",
+      "summary": "Augur, a decentralized betting platform on Ethereum, has surpassed $1 million in staked value and shown rapid growth since its mid-July launch. Its use of smart contracts allows users to bet on various events, demonstrating the growing utility and complexity of dApps on the Ethereum network.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Augur_dApp_growth",
+        "Ethereum_utility",
+        "decentralized_betting_volume"
+      ],
+      "rationale": "The success of complex dApps like Augur on Ethereum highlights the network's growing utility and adoption. This positive development for Ethereum could indirectly support the broader crypto market, especially if it signals increasing real-world use cases for blockchain technology."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nfedbd08084ec",
+      "title": "AMD: Our crypto boom is over (AMD)",
+      "url": "https://finance.yahoo.com/news/amd-crypto-boom-over-amd-193000235.html",
+      "summary": "AMD's earnings report indicated that cryptocurrency and blockchain revenues are expected to fall to nearly zero this quarter. This follows an earlier boost from the crypto craze, which saw graphics cards sell out. The company's warning suggests a significant decline in demand from miners.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "AMD_crypto_revenue_drop",
+        "miner_demand_decline",
+        "GPU_market_shift"
+      ],
+      "rationale": "AMD's explicit statement about the end of the crypto boom for their revenue is a strong signal that mining profitability has significantly decreased. This could lead to less demand for GPUs, potentially impacting the hardware supply chain for miners and signaling a broader cooling in mining activity."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n9b3088765ca1",
+      "title": "Iran Is Planning to Launch Its Own Cryptocurrency In Order to Bust U.S. Sanctions",
+      "url": "https://finance.yahoo.com/news/iran-planning-launch-own-cryptocurrency-112904372.html",
+      "summary": "Iran is moving forward with plans to launch a national cryptocurrency, partly to circumvent U.S. sanctions. The move comes as the U.S. reimposes sanctions on Iran. This indicates a growing trend of nation-states exploring cryptocurrencies for financial sovereignty and to bypass traditional financial systems.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 5,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Iran_national_crypto",
+        "sanctions_circumvention",
+        "state_sponsored_crypto"
+      ],
+      "rationale": "While this is a national initiative, it reflects a broader trend of countries exploring blockchain and cryptocurrencies for strategic purposes. It could contribute to the narrative of crypto as a tool for financial independence, though its direct impact on Bitcoin's price is likely minimal in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-07-26",
+    "summary": "The crypto market experienced a significant bearish shock today with the SEC's rejection of the Winklevoss Bitcoin ETF proposal, leading to a sharp price decline. This regulatory setback, compounded by EU warnings on virtual currencies and AMD's announcement of the end of its crypto boom revenue, paints a negative short-term picture. However, positive developments include Coinbase clearing its Bitcoin Cash insider trading probe and the growing utility of dApps on Ethereum, suggesting underlying network strength. The overall sentiment is bearish due to regulatory headwinds, but underlying technological progress continues.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Further SEC rejections of crypto ETFs.",
+      "Increased regulatory scrutiny from global bodies.",
+      "Continued decline in mining profitability impacting network hash rate.",
+      "Broader macro 'risk-off' sentiment affecting all risk assets.",
+      "Potential for exchange hacks or major security breaches."
+    ],
+    "watch_items": [
+      "SEC decisions on other pending Bitcoin ETFs.",
+      "Developments in Iran's national cryptocurrency plans.",
+      "Performance of major altcoins and their correlation to Bitcoin.",
+      "Any further commentary from BlackRock on crypto evaluation.",
+      "Updates on Bitcoin mining difficulty adjustments."
+    ]
+  }
+}

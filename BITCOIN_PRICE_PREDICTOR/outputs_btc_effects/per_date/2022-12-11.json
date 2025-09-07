@@ -1,0 +1,476 @@
+{
+  "date": "2022-12-11",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n11e7a6156694",
+      "title": "Grayscale Bitcoin Trust Discount Widens to Record High Near 50%",
+      "url": "https://finance.yahoo.com/news/grayscale-bitcoin-trust-discount-widens-165618811.html",
+      "summary": "The Grayscale Bitcoin Trust (GBTC) is trading at a record discount of nearly 50% to the price of bitcoin. This significant discount highlights structural differences in investment vehicles and poses a substantial risk for GBTC holders. The widening discount suggests market concerns about Grayscale's ability to redeem shares at net asset value, potentially impacting investor confidence in Bitcoin-related traditional investment products.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "GBTC_discount",
+        "Grayscale_trust",
+        "institutional_sentiment"
+      ],
+      "rationale": "A persistent and widening discount in GBTC suggests a lack of institutional confidence and potential redemption issues, which can create selling pressure on Bitcoin as investors seek to exit the trust at a loss. This reflects broader market sentiment towards regulated crypto products."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n5412ffbd72b3",
+      "title": "Crypto Chaos Continues as Market Drops Over $100 Billion Overnight",
+      "url": "https://finance.yahoo.com/news/crypto-chaos-continues-market-drops-112917239.html",
+      "summary": "The crypto market experienced a significant downturn, with over $100 billion wiped out overnight. This was largely attributed to the fallout from the FTX exchange collapse and Binance's decision not to acquire it. Bitcoin fell below $16,000, a level not seen since November 2020, indicating a severe negative sentiment shift in the market. The event underscores the fragility of centralized crypto entities and their impact on broader market stability.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "FTX_collapse",
+        "Binance_acquisition_failure",
+        "market_sentiment",
+        "liquidity_crisis"
+      ],
+      "rationale": "The FTX collapse and subsequent market contagion created a significant deleveraging event, driving down prices and increasing fear. This event eroded trust in centralized exchanges and highlighted systemic risks, leading to a prolonged period of negative sentiment and reduced liquidity."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n5cb845384b54",
+      "title": "Fed's Brainard: Crypto finance needs strong regulation",
+      "url": "https://finance.yahoo.com/news/feds-brainard-crypto-finance-needs-165111198.html",
+      "summary": "Federal Reserve Vice Chair Lael Brainard stated that the recent turmoil in the cryptocurrency market underscores the necessity for robust regulation, akin to that in traditional finance. She expressed concern for retail investors affected by losses and reiterated her long-held view on the need for strong oversight. This stance from a key Fed official signals a continued regulatory push that could impact the crypto industry's growth and operational frameworks.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Fed_regulation",
+        "Lael_Brainard",
+        "crypto_oversight"
+      ],
+      "rationale": "Increased regulatory scrutiny from major central banks like the Federal Reserve can stifle innovation and adoption by imposing stricter compliance burdens, potentially leading to reduced investment and slower growth in the crypto sector."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n4f8e3d5a43b1",
+      "title": "Bitcoin Could Drop to $5,000 in 2023 ‘Surprise’: Standard Chartered",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-drop-5-000-111113952.html",
+      "summary": "Standard Chartered analysts predict a potential scenario where Bitcoin could fall to $5,000 in 2023 due to the bursting of the crypto bubble. This prediction suggests that the ramifications of the crypto downturn could extend throughout the next year, with yields plunging alongside technology shares. The report highlights the possibility of a severe and prolonged bear market for cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Standard_Chartered_prediction",
+        "Bitcoin_price_forecast",
+        "crypto_bubble_burst"
+      ],
+      "rationale": "A bearish forecast from a major financial institution like Standard Chartered can influence market sentiment and investor behavior, potentially triggering further sell-offs if the predicted scenario begins to materialize."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n1f09c71bef25",
+      "title": "ECB: Bitcoin & Co have no future; irrelevance is pre-programmed",
+      "url": "https://finance.yahoo.com/news/ecb-bitcoin-co-no-future-042947371.html",
+      "summary": "The European Central Bank (ECB) has expressed a highly negative outlook on Bitcoin and other cryptocurrencies, suggesting they have no future and are destined for irrelevance. The ECB is actively developing a digital euro and views Bitcoin as rarely used for legal transactions, with technical limitations hindering its utility. This strong institutional skepticism from a major central bank could influence regulatory approaches and investor perception in Europe.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ECB_stance",
+        "digital_euro",
+        "crypto_skepticism"
+      ],
+      "rationale": "Negative sentiment and potential regulatory actions from major central banks like the ECB can deter institutional adoption and retail interest, contributing to a long-term bearish outlook for cryptocurrencies perceived as lacking fundamental utility."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n5005df6674b1",
+      "title": "Bitcoin Miner Stronghold Digital Completes Debt Restructuring",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-stronghold-digital-completes-211644269.html",
+      "summary": "Bitcoin miner Stronghold Digital has completed its debt restructuring by returning miners to NYDIG, extinguishing $67.4 million in debt. This move comes as mining firms struggle with high energy prices and a bear market. While this is a positive step for Stronghold's balance sheet, it reflects the broader financial pressures faced by the Bitcoin mining industry, which could impact network security and hash rate if sustained.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_debt_restructuring",
+        "Stronghold_Digital",
+        "mining_industry_pressure"
+      ],
+      "rationale": "While debt restructuring is positive for the individual miner, it highlights the financial strain on the mining sector due to low BTC prices and high costs. This could lead to reduced mining activity or consolidation, impacting the network's hash rate and security over time."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n40e7dd5939d9",
+      "title": "3 Cryptos to Sell in December",
+      "url": "https://finance.yahoo.com/news/7-cryptos-sell-now-crash-210849308.html",
+      "summary": "The article suggests selling certain cryptocurrencies in December as valuations have been heavily impacted by the bear market. It contrasts the current environment with the previous year's surge, emphasizing the need to focus on quality assets. This sentiment indicates a cautious or bearish outlook for many altcoins, potentially spilling over to Bitcoin if broader market sentiment remains negative.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_sell_recommendation",
+        "bear_market_sentiment",
+        "altcoin_valuation"
+      ],
+      "rationale": "Recommendations to sell specific cryptocurrencies reflect a broader bearish sentiment in the altcoin market, which can often correlate with Bitcoin's price action. The focus on quality suggests a flight to perceived safety within the crypto space."
+    },
+    {
+      "pick_idx": 27,
+      "id": "nadf265f7526a",
+      "title": "FTX's bankruptcy has set off a crypto bank run as panicked users withdraw over $8 billion from exchanges",
+      "url": "https://finance.yahoo.com/news/ftxs-bankruptcy-set-off-crypto-160915897.html",
+      "summary": "Following FTX's bankruptcy filing, panicked users have withdrawn over $8 billion in crypto assets from exchanges. This 'bank run' indicates a severe loss of trust in centralized platforms and a flight to self-custody. The significant outflows of Bitcoin, Ether, and stablecoins demonstrate the market's reaction to the FTX contagion and highlight concerns about exchange solvency.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "liquidity",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "FTX_bankruptcy",
+        "crypto_bank_run",
+        "exchange_outflows",
+        "loss_of_trust"
+      ],
+      "rationale": "The FTX collapse triggered a significant outflow of funds from exchanges as users sought safer storage, indicating a deep distrust in centralized entities. This reduction in exchange liquidity can lead to increased volatility and reduced trading capacity."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n60f5ba061e8f",
+      "title": "Crypto Markets Today: Fir Tree Suit Against Grayscale Adds to Industry’s Growing Woes",
+      "url": "https://finance.yahoo.com/news/crypto-markets-today-fir-tree-222824999.html",
+      "summary": "Hedge fund Fir Tree is suing Grayscale, seeking details about the Grayscale Bitcoin Trust (GBTC) to investigate potential mismanagement and conflicts of interest. Fir Tree also wants Grayscale to resume redemptions and cut fees. This legal action adds to the ongoing challenges faced by the crypto industry, particularly concerning regulated investment products like GBTC, and could impact investor sentiment and Grayscale's operations.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "legal",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Fir_Tree_lawsuit",
+        "Grayscale_GBTC",
+        "mismanagement_allegations",
+        "redemption_demand"
+      ],
+      "rationale": "Legal challenges against major crypto investment vehicles like GBTC can create uncertainty and negatively impact investor confidence, potentially leading to further outflows and price pressure on the underlying asset."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n168faedafaa5",
+      "title": "First Mover Asia: FTX Debacle Might Change Hong Kong’s Approach to Retail Crypto Regulation; Bitcoin Shows Its Mettle",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-ftx-debacle-012919548.html",
+      "summary": "The FTX debacle may influence Hong Kong's regulatory approach to retail cryptocurrency, potentially leading to stricter rules. Meanwhile, Bitcoin showed resilience, inching upward despite the broader market turmoil. This suggests that while regulatory changes are anticipated, Bitcoin's underlying strength might allow it to navigate these developments better than other crypto assets.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Hong_Kong_regulation",
+        "FTX_impact",
+        "Bitcoin_resilience"
+      ],
+      "rationale": "Hong Kong's potential shift towards stricter retail crypto regulation, influenced by the FTX collapse, could impact market access and adoption in the region. Bitcoin's relative strength suggests it might be less affected by these changes compared to smaller altcoins."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n8c0c8f63f6a5",
+      "title": "Our 3 Top Lithium Stock Picks for 2023",
+      "url": "https://finance.yahoo.com/news/3-top-lithium-stock-picks-131234135.html",
+      "summary": "Lithium is highlighted as a top investment theme for 2023 due to ambitious global electric vehicle adoption targets. However, research indicates a significant lithium supply gap by 2035. This suggests potential supply chain constraints and price volatility for lithium, which could indirectly impact the demand for energy storage solutions that might utilize Bitcoin or other digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "lithium_supply_demand",
+        "EV_adoption",
+        "commodity_prices"
+      ],
+      "rationale": "While not directly related to Bitcoin, the focus on critical commodities like lithium for the EV sector can reflect broader macro trends in energy and technology adoption, which may indirectly influence investor sentiment towards speculative assets."
+    },
+    {
+      "pick_idx": 2,
+      "id": "na3d3579ed8e5",
+      "title": "'Rich Dad Poor Dad' Author Says Bitcoin Holders Will Get Richer When Fed Prints 'Trillions Of Fake Dollars'",
+      "url": "https://finance.yahoo.com/news/rich-dad-poor-dad-author-145622296.html",
+      "summary": "Robert Kiyosaki, author of 'Rich Dad Poor Dad,' advises followers to buy Bitcoin, predicting that Bitcoin holders will become wealthier as the Federal Reserve prints more money. He contrasts this with 'fake money savers' and also favors gold and silver. This sentiment from a well-known financial author can influence retail investor behavior and sentiment towards Bitcoin as an inflation hedge.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Robert_Kiyosaki",
+        "Bitcoin_as_inflation_hedge",
+        "Fed_money_printing_sentiment"
+      ],
+      "rationale": "Positive endorsements from influential figures like Kiyosaki can boost retail investor confidence and potentially drive short-term demand for Bitcoin, especially when framed as a hedge against inflation or currency debasement."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n5d49ea2ba29d",
+      "title": "Goldman Sachs Is Trying to Make Blockchain Bonds Happen",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-trying-blockchain-bonds-155000729.html",
+      "summary": "Goldman Sachs is actively exploring the use of blockchain for bond issuance, with CEO David Solomon penning an opinion piece on the topic. The firm plans to invest 'tens of millions' in discounted crypto investments. This indicates a growing institutional interest in blockchain technology beyond just cryptocurrencies, potentially paving the way for more traditional finance integration.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs",
+        "blockchain_bonds",
+        "institutional_blockchain_adoption"
+      ],
+      "rationale": "Major financial institutions like Goldman Sachs exploring blockchain for traditional finance products signals a long-term trend towards integration, which could eventually benefit the broader crypto ecosystem by increasing legitimacy and adoption."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n89e1be964b01",
+      "title": "Here's Why Fund Managers Are Turning Bullish On Chinese Stocks For 2023",
+      "url": "https://finance.yahoo.com/news/heres-why-fund-managers-turning-161140161.html",
+      "summary": "Fund managers are becoming bullish on Chinese stocks for 2023 following the relaxation of COVID-19 restrictions. A survey indicates a majority recommend buying Chinese equities, citing the country's reopening and easing geopolitical tensions. This shift in sentiment towards Chinese markets could influence global capital flows and risk appetite, potentially impacting risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "China_reopening",
+        "fund_manager_sentiment",
+        "Chinese_stocks"
+      ],
+      "rationale": "A positive shift in sentiment towards a major global economy like China can lead to increased risk appetite, potentially benefiting risk assets. However, the direct impact on Bitcoin in the short term is likely to be indirect."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n70f769672611",
+      "title": "This Week on Crypto Twitter: Sam Bankman-Fried ‘Willing to Testify,' Crypto’s New Bottom Signal, Stablecoin Wars Rage On",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-sam-bankman-221946781.html",
+      "summary": "Sam Bankman-Fried (SBF) is reportedly willing to testify before Congress regarding the FTX collapse. This development, along with discussions about potential market bottom signals and ongoing stablecoin competition, continues to dominate crypto discourse. SBF's testimony could provide clarity or further scrutiny on the events leading to FTX's downfall, impacting regulatory outlooks and market sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "SBF_testimony",
+        "FTX_collapse_fallout",
+        "market_bottom_signal",
+        "stablecoin_competition"
+      ],
+      "rationale": "SBF's potential testimony is a significant event that could influence regulatory discussions and market sentiment. Any new information or revelations could cause short-term price reactions."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n4ccc4203df78",
+      "title": "Cathie Wood says FTX’s Sam Bankman-Fried disliked Bitcoin because he ‘couldn’t control it’",
+      "url": "https://finance.yahoo.com/news/cathie-wood-says-ftx-sam-222518093.html",
+      "summary": "Ark Invest CEO Cathie Wood reiterated her bullish stance on Bitcoin, predicting a $1 million price by 2030. She criticized FTX founder Sam Bankman-Fried, suggesting his dislike for Bitcoin stemmed from its decentralized nature, which he couldn't control. This commentary from a prominent investor reinforces a long-term bullish narrative for Bitcoin, contrasting it with centralized, controllable entities.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood",
+        "Bitcoin_bullish_stance",
+        "SBF_criticism",
+        "decentralization_narrative"
+      ],
+      "rationale": "Positive commentary from influential investors like Cathie Wood, especially when contrasting Bitcoin's decentralization with the failures of centralized entities like FTX, can bolster market sentiment and attract retail interest."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n974915450ad9",
+      "title": "First Mover Asia: Uniswap ‘Fee Switch’ Proposal for Popular Ether Pools Stirs Up Community Debate",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-uniswap-fee-233529791.html",
+      "summary": "Uniswap's governance proposal to activate a 'fee switch' for popular Ether pools is generating debate within the community. While generally viewed positively, there's caution regarding its implementation. This discussion around protocol revenue and governance could influence investor sentiment towards decentralized exchange tokens and the broader DeFi ecosystem.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Uniswap_fee_switch",
+        "DeFi_governance",
+        "Ether_pools",
+        "community_debate"
+      ],
+      "rationale": "Discussions around protocol upgrades and revenue generation, like Uniswap's fee switch, can impact the perceived value and utility of DeFi tokens, potentially influencing trading activity in related cryptocurrencies."
+    },
+    {
+      "pick_idx": 10,
+      "id": "na3d3579ed8e5",
+      "title": "'Rich Dad Poor Dad' Author Says Bitcoin Holders Will Get Richer When Fed Prints 'Trillions Of Fake Dollars'",
+      "url": "https://finance.yahoo.com/news/rich-dad-poor-dad-author-145622296.html",
+      "summary": "Robert Kiyosaki, author of 'Rich Dad Poor Dad,' advises followers to buy Bitcoin, predicting that Bitcoin holders will become wealthier as the Federal Reserve prints more money. He contrasts this with 'fake money savers' and also favors gold and silver. This sentiment from a well-known financial author can influence retail investor behavior and sentiment towards Bitcoin as an inflation hedge.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Robert_Kiyosaki",
+        "Bitcoin_as_inflation_hedge",
+        "Fed_money_printing_sentiment"
+      ],
+      "rationale": "Positive endorsements from influential figures like Kiyosaki can boost retail investor confidence and potentially drive short-term demand for Bitcoin, especially when framed as a hedge against inflation or currency debasement."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n4ccc4203df78",
+      "title": "Cathie Wood says FTX’s Sam Bankman-Fried disliked Bitcoin because he ‘couldn’t control it’",
+      "url": "https://finance.yahoo.com/news/cathie-wood-says-ftx-sam-222518093.html",
+      "summary": "Ark Invest CEO Cathie Wood reiterated her bullish stance on Bitcoin, predicting a $1 million price by 2030. She criticized FTX founder Sam Bankman-Fried, suggesting his dislike for Bitcoin stemmed from its decentralized nature, which he couldn't control. This commentary from a prominent investor reinforces a long-term bullish narrative for Bitcoin, contrasting it with centralized, controllable entities.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood",
+        "Bitcoin_bullish_stance",
+        "SBF_criticism",
+        "decentralization_narrative"
+      ],
+      "rationale": "Positive commentary from influential investors like Cathie Wood, especially when contrasting Bitcoin's decentralization with the failures of centralized entities like FTX, can bolster market sentiment and attract retail interest."
+    },
+    {
+      "pick_idx": 13,
+      "id": "na3d3579ed8e5",
+      "title": "'Rich Dad Poor Dad' Author Says Bitcoin Holders Will Get Richer When Fed Prints 'Trillions Of Fake Dollars'",
+      "url": "https://finance.yahoo.com/news/rich-dad-poor-dad-author-145622296.html",
+      "summary": "Robert Kiyosaki, author of 'Rich Dad Poor Dad,' advises followers to buy Bitcoin, predicting that Bitcoin holders will become wealthier as the Federal Reserve prints more money. He contrasts this with 'fake money savers' and also favors gold and silver. This sentiment from a well-known financial author can influence retail investor behavior and sentiment towards Bitcoin as an inflation hedge.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Robert_Kiyosaki",
+        "Bitcoin_as_inflation_hedge",
+        "Fed_money_printing_sentiment"
+      ],
+      "rationale": "Positive endorsements from influential figures like Kiyosaki can boost retail investor confidence and potentially drive short-term demand for Bitcoin, especially when framed as a hedge against inflation or currency debasement."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-12-11",
+    "summary": "The market sentiment remains cautious, with ongoing fallout from the FTX collapse continuing to influence investor behavior. While some analysts express long-term bullishness on Bitcoin, citing its decentralized nature, short-term price action is heavily influenced by macro factors and regulatory discussions. The upcoming CPI report and Fed interest rate decision are key events to watch, which could dictate immediate market direction.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.45,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Continued contagion from FTX/Alameda collapse impacting liquidity and trust.",
+      "Negative regulatory developments or pronouncements from major central banks.",
+      "Worse-than-expected CPI data or hawkish Fed commentary leading to risk-off sentiment.",
+      "Further deterioration in global macroeconomic conditions."
+    ],
+    "watch_items": [
+      "US CPI data release",
+      "Federal Reserve interest rate decision",
+      "Sam Bankman-Fried's potential testimony",
+      "Grayscale Bitcoin Trust (GBTC) discount levels",
+      "Exchange withdrawal trends"
+    ]
+  }
+}

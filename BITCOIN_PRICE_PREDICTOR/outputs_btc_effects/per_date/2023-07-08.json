@@ -1,0 +1,502 @@
+{
+  "date": "2023-07-08",
+  "long_term": [
+    {
+      "pick_idx": 8,
+      "id": "n83ec577f4bc3",
+      "title": "Bitcoin Hits Its Highest Price in Over a Year",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-highest-price-over-204350756.html",
+      "summary": "Bitcoin reached its highest price in over a year, trading at $31,250, driven by the news of BlackRock resubmitting its spot Bitcoin ETF application. This surge marks a significant recovery, with Bitcoin up 62% over the past year, navigating market crises like the FTX collapse and regional bank failures. The price action indicates renewed investor confidence and potential institutional adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_1yr_high",
+        "BlackRock_ETF_filing"
+      ],
+      "rationale": "The sustained price increase following a major institutional filing like BlackRock's ETF application signals strong underlying demand and potential for further institutional inflows. This event is a key indicator of growing acceptance and integration of Bitcoin into traditional finance."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n55eb6db60c7b",
+      "title": "Bitcoin rallies to $30,000 after BlackRock's ETF filing",
+      "url": "https://finance.yahoo.com/news/bitcoin-rally-30000-blackrock-etf-filing-101640858.html",
+      "summary": "The cryptocurrency market saw a significant boost, with Bitcoin surpassing $30,000 for the first time in two months, following BlackRock's spot Bitcoin ETF filing. This event contributed to a $60 billion increase in market capitalization, recovering from lows caused by SEC charges against major exchanges. The filing has reignited institutional interest and suggests a potential shift in regulatory perception.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "BTC_price_30k",
+        "BlackRock_ETF_filing",
+        "market_cap_increase"
+      ],
+      "rationale": "BlackRock's filing is a significant catalyst, demonstrating major financial institutions' commitment to offering Bitcoin products. This move is expected to attract a broader investor base and legitimize Bitcoin as an asset class, driving long-term demand."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n5cc34d9921ed",
+      "title": "A Straightforward Explanation for Why Financial Giants Want to Issue a Spot Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/straightforward-explanation-why-financial-giants-204413426.html",
+      "summary": "Major financial players like BlackRock, Invesco, and WisdomTree are actively pursuing spot Bitcoin ETFs, indicating a strong institutional demand for regulated crypto exposure. This trend suggests a growing belief in Bitcoin's potential as an asset class and a desire to capture market share in the burgeoning digital asset space. The involvement of these giants could significantly increase accessibility and adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "financial_giants_ETF_pursuit",
+        "institutional_demand",
+        "Bitcoin_asset_class"
+      ],
+      "rationale": "The collective push from multiple financial giants for spot Bitcoin ETFs signifies a maturing market and a strong conviction in Bitcoin's long-term viability. This institutional embrace is a powerful driver for increased liquidity and broader market acceptance."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n3f0c6d073421",
+      "title": "Will 2023 Be the Year of the Bitcoin ETF?",
+      "url": "https://finance.yahoo.com/news/2023-bitcoin-etf-153000524.html",
+      "summary": "The renewed excitement around a spot Bitcoin ETF, spurred by BlackRock's filing, suggests 2023 could be the year for its approval. This development, a decade after the initial proposals, could unlock significant capital from traditional investors. The SEC's potential approval would mark a major milestone for Bitcoin's integration into mainstream finance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "regulation"
+      ],
+      "features_for_model": [
+        "spot_BTC_ETF_approval_2023",
+        "BlackRock_filing_impact",
+        "institutional_capital_inflow"
+      ],
+      "rationale": "The potential approval of a spot Bitcoin ETF by the SEC, especially with a major player like BlackRock involved, represents a significant regulatory hurdle being cleared. This would pave the way for substantial institutional capital to enter the market."
+    },
+    {
+      "pick_idx": 35,
+      "id": "neca56d79961d",
+      "title": "JPMorgan Report Says Retail Demand for Bitcoin Expected to Remain Strong as Halving Approaches",
+      "url": "https://finance.yahoo.com/news/jpmorgan-report-says-retail-demand-024653982.html",
+      "summary": "JPMorgan anticipates strong retail demand for Bitcoin leading up to the April 2024 halving event. The report highlights Bitcoin Ordinals and BRC-20 tokens as contributing factors to recent retail interest. The halving, which reduces mining rewards by 50%, is expected to double Bitcoin's production cost, potentially driving up its price.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "retail_demand_BTC",
+        "halving_event_2024",
+        "Ordinals_BRC20"
+      ],
+      "rationale": "The combination of increasing retail interest and the upcoming halving event, which historically correlates with price increases due to reduced supply, creates a strong bullish outlook for Bitcoin over the next two years."
+    },
+    {
+      "pick_idx": 47,
+      "id": "ncc6ab2f894bf",
+      "title": "Michael Saylor’s MicroStrategy Acquires More Bitcoin, Treasury Now Holds 152,333 BTC",
+      "url": "https://finance.yahoo.com/news/michael-saylor-microstrategy-acquires-more-024947720.html",
+      "summary": "MicroStrategy continues its aggressive Bitcoin acquisition strategy, purchasing an additional 12,333 BTC for $347 million. The company now holds 152,333 BTC, representing a significant portion of the total Bitcoin supply. This consistent accumulation by a prominent corporate entity signals strong conviction in Bitcoin as a store of value and a hedge against inflation.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_accumulation",
+        "corporate_treasury_strategy",
+        "inflation_hedge"
+      ],
+      "rationale": "MicroStrategy's ongoing, large-scale Bitcoin purchases demonstrate sustained institutional confidence and contribute to demand. This consistent accumulation by a publicly traded company reinforces Bitcoin's narrative as a digital store of value."
+    },
+    {
+      "pick_idx": 49,
+      "id": "na2ebc092bdd8",
+      "title": "ARK Amends Spot Bitcoin ETF Filing to Include Surveillance Sharing, Similar to BlackRock",
+      "url": "https://finance.yahoo.com/news/ark-amends-spot-bitcoin-etf-154345959.html",
+      "summary": "ARK Invest has updated its spot Bitcoin ETF filing to include a surveillance-sharing agreement, mirroring BlackRock's approach. This move aims to address regulatory concerns about market manipulation by facilitating information sharing between the exchange and a U.S. spot BTC trading platform. Such agreements are crucial for gaining SEC approval.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ARK_ETF_amendment",
+        "surveillance_sharing_agreement",
+        "SEC_approval_pathway"
+      ],
+      "rationale": "The inclusion of surveillance-sharing agreements by multiple ETF applicants, including ARK Invest and BlackRock, indicates a strategic effort to meet SEC requirements. This development significantly increases the probability of spot Bitcoin ETF approvals, which would be a major bullish catalyst."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nb6bb97bbd729",
+      "title": "Hong Kong's New Crypto Rules Explained",
+      "url": "https://finance.yahoo.com/news/hong-kongs-crypto-rules-explained-190219267.html",
+      "summary": "Hong Kong has introduced new regulations for Virtual Asset Trading Platforms (VATP) to establish itself as a crypto hub. The Securities and Futures Commission (SFC) has outlined licensing guidelines for crypto companies. These rules, explained by legal experts, suggest Hong Kong is positioning itself as a testing ground for crypto adoption, potentially influencing broader Asian market trends.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Hong_Kong_crypto_regulation",
+        "VATP_licensing",
+        "Asian_crypto_hub"
+      ],
+      "rationale": "Hong Kong's proactive regulatory approach signals a growing acceptance of cryptocurrencies in major financial centers. This could attract significant capital and talent to the region, positively impacting global crypto adoption and potentially influencing other Asian markets."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n7e551233d6e3",
+      "title": "Huobi Set to Launch Trading Service in Hong Kong",
+      "url": "https://finance.yahoo.com/news/huobi-set-launch-trading-hong-052042673.html",
+      "summary": "Huobi is launching its trading services in Hong Kong through Huobi HK, aiming to bolster the city's position as a global Web3 hub. The platform will offer trading for BTC, ETH, and other major cryptocurrencies. This expansion aligns with Hong Kong's crypto-friendly policies and signifies growing interest from established exchanges in the region.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Huobi_HK_launch",
+        "Web3_hub_expansion",
+        "crypto_exchange_growth"
+      ],
+      "rationale": "The expansion of major exchanges like Huobi into regulated markets like Hong Kong indicates a trend of established players seeking to comply with new frameworks and tap into growing regional demand. This contributes to the overall infrastructure development of the crypto ecosystem."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n7f60504dc78b",
+      "title": "SoftBank-backed crypto bank Xapo to expand services in India",
+      "url": "https://finance.yahoo.com/news/softbank-backed-crypto-bank-xapo-102313995.html",
+      "summary": "Xapo Bank, backed by SoftBank, is expanding its crypto and financial services to India. The bank offers competitive interest rates on USD and Bitcoin deposits. This move signifies growing institutional interest in the Indian market and the potential for increased crypto adoption in a large, emerging economy.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Xapo_Bank_India_expansion",
+        "SoftBank_backing",
+        "emerging_market_adoption"
+      ],
+      "rationale": "The expansion of a SoftBank-backed crypto bank into India highlights the increasing institutional focus on emerging markets for crypto adoption. This influx of services and capital could significantly boost Bitcoin's presence and utility in the region."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n4086850083d4",
+      "title": "US stocks fall in volatile trade as investors weigh cooler job gains against high wage growth",
+      "url": "https://finance.yahoo.com/news/us-stocks-fall-volatile-trade-041717745.html",
+      "summary": "US stocks experienced volatile trade following a jobs report that showed cooler-than-expected job gains but higher wage growth. This mixed data has reignited concerns about the Federal Reserve's monetary policy, potentially leading to tighter conditions. The market reaction suggests a cautious sentiment towards risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_jobs_report",
+        "wage_growth",
+        "Fed_policy_uncertainty"
+      ],
+      "rationale": "The mixed jobs report creates uncertainty regarding future Fed policy. A hawkish stance could lead to reduced liquidity, negatively impacting risk assets like Bitcoin, while a dovish interpretation might be supportive."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ndabda60f99df",
+      "title": "Bitcoin Spot ETF Will Open Door to New Investors: Volatility Shares Co-Founder",
+      "url": "https://finance.yahoo.com/news/bitcoin-spot-etf-open-door-142719820.html",
+      "summary": "The rally in Bitcoin continues following BlackRock's spot ETF application, with hopes that a spot ETF approval will follow the launch of Bitcoin leveraged futures ETFs. This development is expected to attract institutional investors and increase Bitcoin's accessibility. The co-founder of Volatility Shares believes a spot ETF would be a significant gateway for new investors.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "spot_BTC_ETF_sentiment",
+        "institutional_inflow_potential",
+        "BlackRock_ETF_impact"
+      ],
+      "rationale": "Positive sentiment surrounding the potential approval of a spot Bitcoin ETF, fueled by institutional interest, is likely to sustain upward price pressure in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "ndabda60f99df",
+      "title": "Bitcoin Spot ETF Will Open Door to New Investors: Volatility Shares Co-Founder",
+      "url": "https://finance.yahoo.com/news/bitcoin-spot-etf-open-door-142719820.html",
+      "summary": "The Bitcoin rally continues following BlackRock's spot ETF application, with hopes that a spot ETF approval will follow the launch of Bitcoin leveraged futures ETFs. This development is expected to attract institutional investors and increase Bitcoin's accessibility. The co-founder of Volatility Shares believes a spot ETF would be a significant gateway for new investors.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "spot_BTC_ETF_sentiment",
+        "institutional_inflow_potential",
+        "BlackRock_ETF_impact"
+      ],
+      "rationale": "Continued positive sentiment and anticipation surrounding spot Bitcoin ETF approvals, driven by major financial players, are likely to support Bitcoin's price in the immediate short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n3f3a6c24c883",
+      "title": "This Week in Coins: Solana Surges as Bitcoin and Ethereum Rally Rebound",
+      "url": "https://finance.yahoo.com/news/week-coins-solana-surges-bitcoin-184240458.html",
+      "summary": "Bitcoin and Ethereum have remained relatively stable, with Bitcoin hitting a one-year high after BlackRock refiled its spot ETF application. The SEC's initial reservations about the filing are noted, but the overall sentiment remains positive due to the institutional interest. This suggests continued stability or slight upward momentum for BTC and ETH.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_ETH_stability",
+        "BlackRock_ETF_refile",
+        "institutional_interest"
+      ],
+      "rationale": "The sustained price action around the $31,000 level for Bitcoin, driven by institutional ETF news, indicates a consolidation phase that could precede further upward movement."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n3f3a6c24c883",
+      "title": "This Week in Coins: Solana Surges as Bitcoin and Ethereum Rally Rebound",
+      "url": "https://finance.yahoo.com/news/week-coins-solana-surges-bitcoin-184240458.html",
+      "summary": "Bitcoin and Ethereum have remained relatively stable, with Bitcoin hitting a one-year high after BlackRock refiled its spot ETF application. The SEC's initial reservations about the filing are noted, but the overall sentiment remains positive due to the institutional interest. This suggests continued stability or slight upward momentum for BTC and ETH.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_ETH_stability",
+        "BlackRock_ETF_refile",
+        "institutional_interest"
+      ],
+      "rationale": "The continued positive narrative around spot Bitcoin ETFs, with major players refiling applications, is likely to provide a supportive backdrop for Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n107c321f77de",
+      "title": "AI Can Now Move Bitcoin With New Lightning Labs Tools",
+      "url": "https://finance.yahoo.com/news/ai-now-move-bitcoin-lightning-193102863.html",
+      "summary": "Lightning Labs has released new developer tools integrating Bitcoin with AI applications and Large Language Models (LLMs). This innovation allows AI to interact with Bitcoin via the Lightning Network, potentially enabling new use cases for AI-powered transactions. The development signifies a growing intersection of AI and blockchain technology.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "AI_Bitcoin_integration",
+        "Lightning_Labs_tools",
+        "LLM_payments"
+      ],
+      "rationale": "The integration of AI with Bitcoin's Lightning Network opens up novel applications and could drive adoption by making Bitcoin more accessible and programmable for AI systems. This is a nascent but potentially impactful development."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n107c321f77de",
+      "title": "AI Can Now Move Bitcoin With New Lightning Labs Tools",
+      "url": "https://finance.yahoo.com/news/ai-now-move-bitcoin-lightning-193102863.html",
+      "summary": "Lightning Labs has released new developer tools integrating Bitcoin with AI applications and Large Language Models (LLMs). This innovation allows AI to interact with Bitcoin via the Lightning Network, potentially enabling new use cases for AI-powered transactions. The development signifies a growing intersection of AI and blockchain technology.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "AI_Bitcoin_integration",
+        "Lightning_Labs_tools",
+        "LLM_payments"
+      ],
+      "rationale": "The development of tools allowing AI to interact with Bitcoin via the Lightning Network is an innovative step that could lead to new use cases and increased utility for Bitcoin, potentially boosting short-term interest."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n4086850083d4",
+      "title": "US stocks fall in volatile trade as investors weigh cooler job gains against high wage growth",
+      "url": "https://finance.yahoo.com/news/us-stocks-fall-volatile-trade-041717745.html",
+      "summary": "US stocks experienced volatile trade following a jobs report that showed cooler-than-expected job gains but higher wage growth. This mixed data has reignited concerns about the Federal Reserve's monetary policy, potentially leading to tighter conditions. The market reaction suggests a cautious sentiment towards risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_jobs_report",
+        "wage_growth",
+        "Fed_policy_uncertainty"
+      ],
+      "rationale": "The mixed economic data creates uncertainty about the Fed's next move, which could impact Bitcoin's price. A hawkish interpretation might lead to a short-term downturn, while a dovish one could be supportive."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nf3248b53d6d5",
+      "title": "Crypto pledged to dethrone Wall Street. It's getting swallowed instead.",
+      "url": "https://finance.yahoo.com/news/crypto-pledged-dethrone-wall-street-131101561.html",
+      "summary": "Wall Street giants like BlackRock are increasingly embracing cryptocurrencies, with CEO Larry Fink calling Bitcoin a \"digitizing gold.\" This shift in perspective from traditional finance leaders indicates a growing acceptance and integration of crypto into mainstream finance, potentially leading to increased adoption and investment.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Wall_Street_crypto_embrace",
+        "Larry_Fink_BTC_comment",
+        "institutional_adoption_trend"
+      ],
+      "rationale": "The positive commentary from prominent Wall Street figures like Larry Fink about Bitcoin's potential as 'digitizing gold' reinforces the bullish narrative and can attract further institutional interest and investment in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nf3248b53d6d5",
+      "title": "Crypto pledged to dethrone Wall Street. It's getting swallowed instead.",
+      "url": "https://finance.yahoo.com/news/crypto-pledged-dethrone-wall-street-131101561.html",
+      "summary": "Wall Street giants like BlackRock are increasingly embracing cryptocurrencies, with CEO Larry Fink calling Bitcoin a \"digitizing gold.\" This shift in perspective from traditional finance leaders indicates a growing acceptance and integration of crypto into mainstream finance, potentially leading to increased adoption and investment.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Wall_Street_crypto_embrace",
+        "Larry_Fink_BTC_comment",
+        "institutional_adoption_trend"
+      ],
+      "rationale": "Positive sentiment from major financial institutions like BlackRock, viewing Bitcoin as 'digitizing gold,' can create a favorable short-term market sentiment and attract new investors."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-07-08",
+    "summary": "The market sentiment remains cautiously optimistic, primarily driven by the ongoing narrative around potential spot Bitcoin ETF approvals, with BlackRock's refiled application being a key catalyst. While macroeconomic data like the US jobs report presents mixed signals, potentially leading to short-term volatility, the long-term outlook is bolstered by increasing institutional interest and adoption in regions like Hong Kong and India. The integration of AI with Bitcoin's Lightning Network also presents an emerging technological development.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Potential for regulatory crackdowns or unfavorable SEC decisions on ETFs.",
+      "Macroeconomic headwinds, such as persistent inflation or aggressive Fed tightening, could dampen risk appetite.",
+      "Increased volatility due to speculative trading and potential market manipulation.",
+      "Technical issues or security breaches impacting major platforms or protocols.",
+      "Geopolitical events impacting global financial markets."
+    ],
+    "watch_items": [
+      "SEC decisions on pending spot Bitcoin ETF applications.",
+      "Further commentary from Federal Reserve officials on monetary policy.",
+      "Developments in the AI and Bitcoin integration space.",
+      "On-chain data for institutional inflows and outflows.",
+      "Performance of major altcoins in relation to Bitcoin."
+    ]
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "date": "2020-05-17",
+  "long_term": [
+    {
+      "pick_idx": 24,
+      "id": "n270056cb78ae",
+      "title": "Bitcoin Halving, Explained",
+      "url": "https://www.coindesk.com/bitcoin-approaching-halving-explained-170508182.html",
+      "summary": "The Bitcoin halving, scheduled for May 2020, will reduce the block reward from 12.5 BTC to 6.25 BTC. This event, occurring roughly every four years, is designed to control Bitcoin's inflation by slowing the rate at which new coins enter circulation. Historically, halvings have been associated with price increases due to the reduced supply, though the immediate post-halving period can see volatility. This event is crucial for understanding Bitcoin's long-term supply dynamics and potential price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_halving",
+        "block_reward_reduction",
+        "supply_shock"
+      ],
+      "rationale": "The halving directly reduces the new supply of Bitcoin entering the market. Historically, this reduction in supply, coupled with consistent or increasing demand, has led to price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf271c809bf5b",
+      "title": "Bitcoin miner revenue will drop to $6.7 million per day if prices hold steady after subsidy halving",
+      "url": "https://www.theblockcrypto.com/bitcoin-miner-revenue-drop-6-153747691.html",
+      "summary": "This article forecasts a significant drop in Bitcoin miner revenue post-halving, from approximately $13.4 million to $6.7 million per day, assuming stable prices. The halving event reduces the block reward from 12.5 BTC to 6.25 BTC. This revenue reduction could impact miner profitability, potentially leading to less efficient miners shutting down or selling their holdings, which could affect network hashrate and, indirectly, price stability in the short term. However, it also incentivizes more efficient mining operations.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_revenue_drop",
+        "halving_impact",
+        "hashrate_pressure"
+      ],
+      "rationale": "A sharp decrease in miner revenue could force some miners offline, potentially reducing network security (hashrate). This could create selling pressure if miners need to liquidate BTC to cover costs, but also signals a more efficient network in the long run."
+    },
+    {
+      "pick_idx": 32,
+      "id": "nc2943405af97",
+      "title": "Bitcoin Ends Q1 Down 10%, Outperforming Equities in Coronavirus Crisis",
+      "url": "https://www.coindesk.com/bitcoin-ends-q1-down-10-211312520.html",
+      "summary": "Bitcoin concluded the first quarter of 2020 with a 10% loss, a performance that was still better than many traditional equity markets which saw steeper declines due to the COVID-19 pandemic. This suggests Bitcoin's potential as a 'digital gold' or uncorrelated asset during broader market turmoil. The article notes mixed performance among other cryptocurrencies. This resilience, relative to traditional assets, could attract more institutional and retail interest over time.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "q1_performance",
+        "outperforming_equities",
+        "digital_gold_narrative"
+      ],
+      "rationale": "Bitcoin's relative outperformance against traditional assets during a major global crisis strengthens its narrative as a safe-haven or uncorrelated asset, potentially attracting long-term investment."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n9fc58a499caf",
+      "title": "Crypto investors exhibit ‘extreme fear,’ similar to 2018 crash situation",
+      "url": "https://www.theblockcrypto.com/crypto-investors-extreme-fear-similar-110559571.html",
+      "summary": "The Crypto Fear & Greed Index reached a low of 10, indicating 'extreme fear' among investors, a level not seen since August 2019 and December 2018 (when Bitcoin crashed to $3,000). While extreme fear can signal investor over-caution, it also presents a potential buying opportunity. This sentiment suggests that market participants are currently risk-averse, which could precede a period of accumulation if sentiment shifts.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "extreme_fear_sentiment",
+        "fear_greed_index",
+        "potential_buying_opportunity"
+      ],
+      "rationale": "Historically, periods of extreme fear in the crypto market have often preceded significant price bottoms and subsequent rallies, suggesting potential for accumulation."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n9bf556be2576",
+      "title": "Crypto Exchange Offers Credit Lines so Institutions Can Trade Now, Pay Later",
+      "url": "https://www.coindesk.com/crypto-exchange-offers-credit-lines-094000388.html",
+      "summary": "LGO Markets is offering intraday credit lines to its clients, primarily crypto hedge funds and market makers, allowing them to trade without pre-funding accounts. This move aims to improve liquidity and facilitate institutional participation by reducing friction. By providing credit, the exchange lowers the barrier to entry for larger players, potentially increasing trading volumes and market depth over time.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "institutional_credit_lines",
+        "exchange_liquidity",
+        "reduced_trading_friction"
+      ],
+      "rationale": "Offering credit lines to institutions reduces a significant barrier to entry, potentially increasing institutional participation and improving overall market liquidity and stability."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n8a6c8583306b",
+      "title": "Binance launches social payments app ‘Bundle’ in Africa",
+      "url": "https://www.theblockcrypto.com/binance-launches-social-payments-app-092506408.html",
+      "summary": "Binance has launched 'Bundle,' a social payments app targeting the African market, enabling users to send/receive cash and trade cryptocurrencies like BTC, ETH, and BNB. The app supports fiat currencies like the Nigerian Naira and integrates mobile money and card payments. This expansion into a rapidly growing digital economy signifies a push for broader crypto adoption and utility in emerging markets, potentially driving demand and user growth.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "africa_adoption",
+        "binance_bundle_app",
+        "emerging_markets_growth"
+      ],
+      "rationale": "Binance's expansion into Africa with a user-friendly payments app can significantly boost crypto adoption in a large, underserved market, driving long-term demand and network effects."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n5a9f4ba18626",
+      "title": "Phemex Exchange Launches Zero Fee Cryptocurrency Spot Trading",
+      "url": "https://www.accesswire.com/phemex-exchange-launches-zero-fee-141500608.html",
+      "summary": "Phemex is introducing a Premium membership program offering zero-fee spot trading starting May 15th, 2020. This move by an exchange to eliminate spot trading fees is a competitive strategy aimed at attracting users and increasing trading volume. Such initiatives can lead to increased market activity and potentially lower trading costs across the industry, benefiting traders and potentially boosting overall liquidity.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "zero_fee_trading",
+        "exchange_competition",
+        "spot_market_liquidity"
+      ],
+      "rationale": "Zero-fee trading can attract new users and increase trading volume, potentially leading to greater market participation and liquidity, although it may pressure exchange profitability."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n7ae3e3d5c8e7",
+      "title": "Bitcoin Extends Rally as Trading Volume for CME Futures Hits Three-Week High",
+      "url": "https://www.coindesk.com/bitcoin-extends-rally-trading-volume-120016497.html",
+      "summary": "Bitcoin's price rally coincided with a significant increase in trading volume for CME Bitcoin futures, reaching a three-week high of $347 million. This surge in activity, a 294% increase from the previous day, indicates growing institutional interest and participation in the regulated futures market. Higher volumes suggest increased conviction and liquidity, which can support further price appreciation.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "cme_futures_volume",
+        "institutional_interest",
+        "price_rally_support"
+      ],
+      "rationale": "Increased trading volume on regulated futures markets like CME signals growing institutional adoption and confidence, providing a solid foundation for sustained price rallies."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n2337750b82b3",
+      "title": "Open Positions on Bitcoin Options Pass $1B for First Time",
+      "url": "https://www.coindesk.com/open-positions-bitcoin-options-pass-122737107.html",
+      "summary": "Open interest in Bitcoin options across major exchanges surpassed $1 billion for the first time, a significant increase from the $410 million observed during the March market crash. This record high indicates a substantial rise in sophisticated investor participation and hedging activity. The growth in options markets suggests increasing maturity and institutional engagement with Bitcoin as an asset class.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "options_open_interest",
+        "record_high_volume",
+        "institutional_derivatives"
+      ],
+      "rationale": "The surge in Bitcoin options open interest to over $1 billion signifies a significant increase in sophisticated investor activity and hedging, indicating growing confidence and market depth."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n3d89d9d86289",
+      "title": "Coinbase-powered Oobit Launches Crypto ‘SkyScanner’ Equivalent with Integrated Fiat Gateway",
+      "url": "https://www.accesswire.com/coinbase-powered-oobit-launches-crypto-130700201.html",
+      "summary": "Oobit has launched a gateway solution for cryptocurrencies, enabling users to compare prices across exchanges and use a single KYC passport on multiple platforms. Partnering with Coinbase for wallet and custodial services, Oobit enhances security and user experience. This development aims to improve market accessibility and liquidity by simplifying the trading process and integrating fiat gateways, potentially attracting more users to the crypto ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "fiat_gateway",
+        "exchange_aggregator",
+        "coinbase_integration",
+        "kyc_passport"
+      ],
+      "rationale": "The launch of a price comparison tool with a unified KYC process and fiat gateway simplifies crypto trading, potentially increasing adoption and liquidity by reducing friction for new and existing users."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n97c563ea77a8",
+      "title": "The Crypto Daily – Movers and Shakers -17/05/20",
+      "url": "https://www.fxempire.com/news/the-crypto-daily-movers-and-shakers-17-054004996.html",
+      "summary": "Bitcoin rose 0.86% on Saturday, partially reversing Friday's 4.90% slide, closing at $9,388.0. It experienced a bullish start, reaching $9,580.0, but fell back below $9,300 before recovering late in the day. The price action indicates intraday volatility and a struggle to break key resistance levels, suggesting near-term consolidation or potential for a short-term pullback.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "saturday_price_action",
+        "intra_day_volatility",
+        "resistance_test"
+      ],
+      "rationale": "The mixed Saturday performance, with a recovery after a dip, suggests immediate price action is sensitive to short-term buying and selling pressure, indicating potential for continued choppy movement."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n97c563ea77a8",
+      "title": "The Crypto Daily – Movers and Shakers -17/05/20",
+      "url": "https://www.fxempire.com/news/the-crypto-daily-movers-and-shakers-17-054004996.html",
+      "summary": "Bitcoin rose 0.86% on Saturday, partially reversing Friday's 4.90% slide, closing at $9,388.0. It experienced a bullish start, reaching $9,580.0, but fell back below $9,300 before recovering late in the day. The price action indicates intraday volatility and a struggle to break key resistance levels, suggesting near-term consolidation or potential for a short-term pullback.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "saturday_price_action",
+        "intra_day_volatility",
+        "resistance_test"
+      ],
+      "rationale": "The inability to sustain gains above resistance levels on Saturday suggests that short-term momentum may be waning, potentially leading to a period of consolidation or a minor retracement in the coming week."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n784fa3421795",
+      "title": "Bitcoin price tanks by 15% in 10 minutes causing $226M of liquidations on BitMEX",
+      "url": "https://www.theblockcrypto.com/bitcoin-price-tanks-11-within-012711857.html",
+      "summary": "On May 10th, Bitcoin experienced a sharp 14.6% price drop from $9,500 to $8,100 within 10 minutes, leading to $226 million in liquidations on BitMEX. This event halted a month-long rally and highlights the potential for extreme volatility and cascading liquidations in the derivatives market, which can exacerbate price swings.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "flash_crash",
+        "bitmex_liquidations",
+        "extreme_volatility"
+      ],
+      "rationale": "The recent sharp, rapid price drop and significant liquidations indicate underlying fragility and potential for further downside or increased volatility in the immediate short term."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n413f818bca65",
+      "title": "Bitcoin goes through third 'halving', falls vs U.S. dollar",
+      "url": "https://www.reuters.com/bitcoin-goes-third-halving-falls-034927027.html",
+      "summary": "Bitcoin experienced its third halving on May 12th, reducing the block reward to 6.25 BTC. Despite a slight fall against the US dollar on the day of the halving, the outlook remained upbeat due to the slowing new supply. This event is a fundamental supply-side change that typically influences price over the subsequent weeks and months.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "post_halving_price",
+        "supply_reduction",
+        "miner_reward_cut"
+      ],
+      "rationale": "The immediate post-halving period often sees price adjustments as the market digests the supply shock. While the price fell on the day, the fundamental reduction in new supply is a bullish catalyst for the coming week."
+    },
+    {
+      "pick_idx": 42,
+      "id": "nc1cbe054ab89",
+      "title": "Market Wrap: Bitcoin at $9.9K as Halving Chatter Increases",
+      "url": "https://www.coindesk.com/market-wrap-bitcoin-9-9k-203102220.html",
+      "summary": "Bitcoin's price rose to $9,882, up 6.5% in 24 hours, with high volume supporting the move from $9,270. The anticipated halving event is generating significant social media discussion, though post-halving analysis appears limited. The strong upward momentum suggests positive sentiment heading into the halving.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "pre_halving_rally",
+        "high_volume_uptrend",
+        "social_media_sentiment"
+      ],
+      "rationale": "The strong price action and increased trading volume leading up to the halving suggest positive momentum that could carry into the immediate post-halving period."
+    },
+    {
+      "pick_idx": 35,
+      "id": "ne5327b2f486a",
+      "title": "Bitcoin sell-off looms ahead of block reward halving",
+      "url": "https://www.coinrivet.com/bitcoin-sell-off-looms-ahead-104607930.html",
+      "summary": "With the Bitcoin halving a week away (May 12th), traders are undecided on whether the price will break $10,000 or correct to $5,900. Bitcoin has struggled to close above $9,000 but remained firm above $8,600. While the halving is bullish, historical patterns suggest a potential correction in the months following the event.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "pre_halving_indecision",
+        "potential_sell_off",
+        "historical_halving_pattern"
+      ],
+      "rationale": "The article highlights market indecision and historical patterns suggesting a potential post-halving sell-off, creating uncertainty for the immediate short-term outlook."
+    },
+    {
+      "pick_idx": 27,
+      "id": "nf8c460eb76cd",
+      "title": "Bitcoin, Ethereum & Ripple - American Wrap: 5/4/2020",
+      "url": "https://www.benzinga.com/bitcoin-ethereum-ripple-american-wrap-210727977.html",
+      "summary": "Bitcoin was hovering below $9,000, facing resistance amid market uncertainty and pre-halving anxiety. US-China tensions were also cited as a factor making traders hesitant. Bitcoin's correlation with the S&P 500 was noted, with crypto sell-offs coinciding with bearish momentum in US stocks. This suggests macro factors are heavily influencing short-term crypto price action.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "pre_halving_anxiety",
+        "us_china_tensions",
+        "sp500_correlation"
+      ],
+      "rationale": "The confluence of pre-halving jitters, geopolitical tensions, and correlation with traditional markets creates a complex short-term outlook, leaning towards uncertainty."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n9a1a32cad44e",
+      "title": "Bitcoin, Ethereum & Litecoin - American Wrap: 4/2/2020",
+      "url": "https://www.benzinga.com/bitcoin-ethereum-litecoin-american-wrap-203834814.html",
+      "summary": "Bitcoin surged back above $7,000, gaining 7% and forming a bullish pennant structure on the 60-minute chart. This breakout was driven by strong buying pressure, pushing BTC/USD to levels not seen since March 12th. The technical setup suggests potential for further upward movement in the short term.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bullish_pennant",
+        "technical_breakout",
+        "buying_pressure"
+      ],
+      "rationale": "The formation of a bullish pennant and subsequent breakout indicates strong short-term buying interest and a potential continuation of the upward trend."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n0ba66f99ed60",
+      "title": "Bitcoin Dips Below 6,712.5 Level, Down 0.97%",
+      "url": "https://www.investing.com/bitcoin-dips-below-6-712-133100004.html",
+      "summary": "Bitcoin fell slightly by 0.97% on Sunday, trading at $6,712.5. This followed a 10.53% gain over the past seven days. The price action shows a minor pullback after a period of gains, indicating potential for consolidation or a brief pause before further movement.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "minor_pullback",
+        "consolidation_phase",
+        "post_gain_pause"
+      ],
+      "rationale": "A minor dip after a significant weekly gain suggests a temporary pause in momentum, making the immediate short-term direction uncertain as the market digests recent price action."
+    },
+    {
+      "pick_idx": 31,
+      "id": "ndd8c72b9171d",
+      "title": "CME Bitcoin Options Volume Hits Record Low, While Bakkt Goes Weeks With No Trades",
+      "url": "https://www.coindesk.com/cme-bitcoin-options-volume-hits-100010481.html",
+      "summary": "Demand for Bitcoin options on regulated US exchanges like CME has significantly decreased, with CME trading only three contracts on a given Tuesday, its lowest volume on record. Bakkt has also seen weeks with no trades. This low volume in regulated derivatives markets suggests a lack of institutional conviction or participation in the current environment, potentially impacting liquidity and price discovery.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "cme_options_low_volume",
+        "bakkt_no_trades",
+        "institutional_hesitation"
+      ],
+      "rationale": "The record low volume in regulated Bitcoin options markets indicates a lack of institutional engagement, which could signal reduced liquidity and a cautious sentiment among sophisticated traders."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-05-17",
+    "summary": "The market is heavily focused on the upcoming Bitcoin halving, with price action showing mixed signals. While there's bullish momentum leading up to the event, historical patterns and recent volatility suggest potential for short-term choppiness. Institutional interest is growing, evidenced by increased options volume and futures activity, but macro uncertainties and pre-halving anxiety are creating indecision. The reduced supply from the halving remains a key long-term bullish driver.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Sudden price drops due to high leverage and liquidations.",
+      "Negative macro-economic news impacting risk assets.",
+      "Post-halving profit-taking or disappointment.",
+      "Regulatory uncertainty or negative developments.",
+      "Geopolitical tensions affecting global markets."
+    ],
+    "watch_items": [
+      "Bitcoin price action around the $9,500-$10,000 resistance zone.",
+      "Miner selling pressure post-halving.",
+      "Developments in institutional adoption (e.g., CME futures volume).",
+      "Overall market sentiment (Fear & Greed Index).",
+      "Correlation of Bitcoin price with traditional markets (S&P 500)."
+    ]
+  }
+}

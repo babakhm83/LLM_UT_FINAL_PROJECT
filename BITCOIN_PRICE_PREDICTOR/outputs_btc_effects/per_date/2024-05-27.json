@@ -1,0 +1,483 @@
+{
+  "date": "2024-05-27",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n3a1625d3b0e8",
+      "title": "‘It’s absurd’: From Morgan Stanley to the state of Wisconsin, here’s who just poured billions into Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/absurd-morgan-stanley-state-wisconsin-203438217.html",
+      "summary": "Institutional investment managers have disclosed significant holdings in spot Bitcoin ETFs in their Q1 filings. Over 944 firms, including large entities, reported buying into these ETFs, with BlackRock's IBIT attracting the most interest. This widespread institutional adoption, exceeding investment in gold ETFs by tenfold, signals a strong validation of Bitcoin as an asset class and suggests sustained demand from traditional finance, potentially driving long-term price appreciation and market stability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_adoption",
+        "ETF_inflows",
+        "asset_manager_holdings"
+      ],
+      "rationale": "The substantial inflow of capital from a large number of institutional investors into Bitcoin ETFs demonstrates growing mainstream acceptance and trust in Bitcoin. This sustained demand from traditional finance is a strong indicator of long-term bullish sentiment."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nebb80bd68b15",
+      "title": "Bitcoin’s Future as Currency",
+      "url": "https://finance.yahoo.com/news/bitcoin-future-currency-173858956.html",
+      "summary": "Bitcoin is positioned as a global, decentralized currency, independent of any single country's control. The recent approval of Bitcoin spot ETFs is driving mainstream adoption through retirement accounts and financial advisor portfolios. However, the article argues that Bitcoin's true value lies not just as an asset to hold, but as a currency to be used. This perspective suggests a long-term vision for Bitcoin's utility beyond speculative investment, potentially increasing its demand and value as a medium of exchange.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "currency_utility",
+        "mainstream_adoption",
+        "decentralization"
+      ],
+      "rationale": "The framing of Bitcoin as a currency for use, rather than just an asset, highlights a fundamental driver for long-term demand. Increased utility and adoption as a medium of exchange would significantly boost its value proposition and market cap."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n7d672219020e",
+      "title": "Spot Bitcoin ETFs: A Supply Crunch Waiting to Happen?",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-etfs-supply-crunch-120029695.html",
+      "summary": "The article discusses the dynamic of Bitcoin demand from U.S.-listed spot Bitcoin ETFs potentially outstripping new supply, especially following the halving event. The rapid asset gathering by these ETFs, led by iShares Bitcoin Trust (IBIT), has a mechanical impact on the Bitcoin market. If demand continues to outpace supply, particularly after the reduced issuance from the halving, it could lead to a significant price increase due to scarcity.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "ETF_demand",
+        "supply_shock",
+        "halving_impact"
+      ],
+      "rationale": "The combination of strong ETF inflows and the reduced supply post-halving creates a potential supply crunch. This scarcity dynamic is a classic driver of price appreciation in asset markets, suggesting a significant bullish impact."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nebf9517953ac",
+      "title": "Bitcoin is about to undergo another 'halving' event. Here's why that could send its price soaring.",
+      "url": "https://finance.yahoo.com/news/bitcoin-undergo-another-halving-event-093101026.html",
+      "summary": "The upcoming Bitcoin halving event is expected to significantly impact its price by reducing the supply of new tokens. Historically, halvings have preceded major bull runs. Coupled with the recent approval of spot ETFs and a nearly 50% surge in February, analysts believe Bitcoin could reach six figures. The halving, which cuts mining rewards in half, is a programmed deflationary mechanism designed to increase scarcity and potentially drive up the price over the medium to long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "infrastructure",
+        "halving"
+      ],
+      "features_for_model": [
+        "halving_event",
+        "supply_reduction",
+        "ETF_synergy"
+      ],
+      "rationale": "The Bitcoin halving is a fundamental event that reduces supply. Historically, this has led to significant price increases. The current environment, with strong ETF demand, amplifies the potential bullish impact of this supply shock."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n0a3f2c79ff3e",
+      "title": "1 Top Cryptocurrency to Buy Before It Soars 5,000%, According to Cathie Wood",
+      "url": "https://finance.yahoo.com/news/1-top-cryptocurrency-buy-soars-113000751.html",
+      "summary": "Cathie Wood of Ark Invest predicts Bitcoin could reach $1.5 million by 2027, driven by spot ETF approvals, institutional purchases, and the upcoming halving. She also made a more bullish prediction for Ethereum. The confluence of these factors – increased institutional access, reduced supply, and a growing belief in Bitcoin's long-term value – suggests a sustained upward trend for Bitcoin and potentially other major cryptocurrencies.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "halving",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_prediction",
+        "institutional_buying",
+        "halving_impact"
+      ],
+      "rationale": "Cathie Wood's extremely bullish outlook, backed by her firm's analysis, provides a strong long-term bullish signal. The combination of institutional adoption, halving, and her high price targets suggests significant potential upside over the next few years."
+    },
+    {
+      "pick_idx": 44,
+      "id": "nbfa200f8dc25",
+      "title": "Ordinals Defy Bitcoin's Design Principles but Offer Miners Huge Post-Halving Advantages",
+      "url": "https://finance.yahoo.com/news/ordinals-defy-bitcoins-design-principles-140851638.html",
+      "summary": "The advent of Ordinals and BRC-20 tokens has introduced DeFi capabilities to the Bitcoin network, creating 'BTCFi'. These developments have generated significant fees for miners, exceeding $438 million. This influx of activity, while potentially deviating from Bitcoin's original design, provides a crucial revenue stream for miners, especially post-halving when block rewards are reduced. This increased miner revenue can contribute to network security and stability, indirectly supporting Bitcoin's long-term value.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "halving"
+      ],
+      "features_for_model": [
+        "Ordinals_fees",
+        "miner_revenue",
+        "BTCFi_development"
+      ],
+      "rationale": "Ordinals and BRC-20s are driving significant transaction fees, which are vital for miners, especially after the halving. This increased miner revenue strengthens network security and incentivizes continued participation, providing a long-term bullish underpinning."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n1bea8d95456a",
+      "title": "Bosera HashKey Bitcoin and Ether ETFs Listed on HKEX Today",
+      "url": "https://finance.yahoo.com/news/bosera-hashkey-bitcoin-ether-etfs-050000958.html",
+      "summary": "Bosera Asset Management and HashKey Capital have listed their spot Bitcoin and Ether ETFs on the Hong Kong Stock Exchange (HKEX). These ETFs track the CME CF Bitcoin and Ether Reference Rates. The launch signifies an expansion of regulated crypto investment products into Asian markets, following the U.S. trend. This development could attract new capital from Asian investors and further integrate digital assets into traditional financial systems, potentially boosting demand and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Hong_Kong_ETF",
+        "Asian_market_adoption",
+        "crypto_regulation"
+      ],
+      "rationale": "The listing of Bitcoin and Ether ETFs in Hong Kong represents a significant step in global adoption and regulatory clarity. This expansion into Asian markets is likely to attract new investor capital and further legitimize digital assets."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n92a941cd074f",
+      "title": "Green Bitcoin Mining – A Strategic Path Forward in Diverse Regulatory Landscapes",
+      "url": "https://finance.yahoo.com/news/green-bitcoin-mining-strategic-path-145735226.html",
+      "summary": "The Bitcoin mining sector has achieved over 50% sustainable energy usage, signaling an evolving ethos towards environmental responsibility. Increased adoption of renewable energy sources not only reduces the environmental impact but also unlocks new revenue streams from green energy. This shift towards sustainability is crucial for long-term industry growth and public perception, potentially mitigating regulatory risks and attracting ESG-focused investment.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "green_mining",
+        "renewable_energy",
+        "ESG_investment"
+      ],
+      "rationale": "The increasing adoption of green energy in Bitcoin mining addresses environmental concerns and regulatory pressures. This strategic shift enhances the long-term sustainability and public acceptance of Bitcoin mining, which is crucial for network security and growth."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n3a1625d3b0e8",
+      "title": "‘It’s absurd’: From Morgan Stanley to the state of Wisconsin, here’s who just poured billions into Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/absurd-morgan-stanley-state-wisconsin-203438217.html",
+      "summary": "Institutional investment managers have disclosed significant holdings in spot Bitcoin ETFs in their Q1 filings. Over 944 firms, including large entities, reported buying into these ETFs, with BlackRock's IBIT attracting the most interest. This widespread institutional adoption, exceeding investment in gold ETFs by tenfold, signals a strong validation of Bitcoin as an asset class and suggests sustained demand from traditional finance, potentially driving long-term price appreciation and market stability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_adoption",
+        "ETF_inflows",
+        "asset_manager_holdings"
+      ],
+      "rationale": "The substantial inflow of capital from a large number of institutional investors into Bitcoin ETFs demonstrates growing mainstream acceptance and trust in Bitcoin. This sustained demand from traditional finance is a strong indicator of long-term bullish sentiment."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n14371a66c353",
+      "title": "Bankrupt Crypto Lender Genesis Sells 36 Million GBTC Shares To Acquire BTC and Settle Debts",
+      "url": "https://finance.yahoo.com/news/bankrupt-crypto-lender-genesis-sells-054722786.html",
+      "summary": "Genesis, a bankrupt crypto lender, has sold 36 million shares of the Grayscale Bitcoin Trust (GBTC) for approximately $2.1 billion to acquire more Bitcoin and settle debts. This sale, approved by a US bankruptcy court, represents a significant liquidation of GBTC holdings. While the sale itself might create short-term selling pressure, the underlying motive of acquiring BTC and settling debts indicates a move towards deleveraging and potentially re-entering the market, which could be seen as a positive long-term development for Bitcoin's ecosystem.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "GBTC_selloff",
+        "Genesis_liquidation",
+        "debt_settlement"
+      ],
+      "rationale": "The sale of a large GBTC position by a bankrupt entity introduces selling pressure. However, the funds are being used to acquire Bitcoin, which could offset some of that pressure. The long-term impact depends on how the market absorbs this supply and the overall health of the entities involved."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n4e63c4a9b388",
+      "title": "Bitcoin Whales Display Bull Market Behavior With Strong Buying Spree",
+      "url": "https://finance.yahoo.com/news/bitcoin-whales-display-bull-market-055712078.html",
+      "summary": "Bitcoin whales, large holders, have resumed their buying spree after a pause since March's all-time high. CryptoQuant reports a surge in whale address holdings over the last 30 days, indicating increased accumulation. Despite a market dip in April, whales continued to accumulate, albeit at a slower rate. This behavior suggests confidence from major holders, potentially signaling a bottom or a precursor to further price appreciation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "whales",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "whale_accumulation",
+        "onchain_activity",
+        "bullish_sentiment"
+      ],
+      "rationale": "Increased buying activity from large holders (whales) is a strong short-term bullish signal, indicating significant demand at current price levels and potential for upward price momentum."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nba4bdd4af06d",
+      "title": "Trump tweets support for crypto ahead of Libertarian convention speech",
+      "url": "https://finance.yahoo.com/news/trump-tweets-support-crypto-ahead-073317962.html",
+      "summary": "Donald Trump expressed explicit support for cryptocurrency and the burgeoning industry, stating the U.S. must lead in the field. This comes after his campaign announced it would accept crypto donations. The former President's positive stance, amplified through his social media, could influence a segment of the electorate and potentially attract more mainstream attention and investment into the crypto space.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Trump_endorsement",
+        "political_sentiment",
+        "crypto_adoption"
+      ],
+      "rationale": "A prominent political figure like Donald Trump endorsing crypto can generate positive sentiment and attract new users, potentially leading to a short-term price boost."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n1848fddc70e0",
+      "title": "Bitcoin price today: hovers around $68k, Ether gains on spot ETF progress",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-today-hovers-around-013430006.html",
+      "summary": "Bitcoin is trading flat around $68k, with concerns over high interest rates persisting ahead of inflation data. Ether is showing strength due to progress on spot ETFs. The broader crypto market is subdued, with traders favoring the dollar due to waning optimism about Fed rate cuts. Bitcoin's price action suggests consolidation, while Ether's gains indicate sector-specific positive news.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_consolidation",
+        "ETH_ETF_progress",
+        "macro_headwinds"
+      ],
+      "rationale": "Bitcoin's sideways movement indicates a temporary pause, while Ether's strength due to ETF progress suggests potential for short-term altcoin outperformance, but overall market sentiment remains cautious due to macro factors."
+    },
+    {
+      "pick_idx": 12,
+      "id": "na394443cb817",
+      "title": "Bitcoin cracks US$70,000, Ethereum nears US$4,000; JENNER, PEPE and memecoins drive markets",
+      "url": "https://finance.yahoo.com/news/bitcoin-cracks-us-70-000-170850042.html",
+      "summary": "Bitcoin surpassed $70,000, and Ether approached $4,000, driven partly by the tentative approval of spot Ethereum ETFs. Memecoins, including a new one launched by Caitlyn Jenner, saw significant trading volume and price surges, indicating strong retail interest and speculative activity. This surge in memecoins, fueled by celebrity endorsement, can create short-term volatility and attract speculative capital, potentially impacting broader market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "memecoin"
+      ],
+      "features_for_model": [
+        "BTC_price_surge",
+        "ETH_ETF_approval",
+        "memecoin_rally"
+      ],
+      "rationale": "Bitcoin breaking $70,000 and Ether nearing $4,000, coupled with strong memecoin activity, suggests renewed bullish momentum. The ETF news for Ether is a significant catalyst, while memecoin hype can drive short-term speculative trading."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n4e63c4a9b388",
+      "title": "Bitcoin Whales Display Bull Market Behavior With Strong Buying Spree",
+      "url": "https://finance.yahoo.com/news/bitcoin-whales-display-bull-market-055712078.html",
+      "summary": "Bitcoin whales, large holders, have resumed their buying spree after a pause since March's all-time high. CryptoQuant reports a surge in whale address holdings over the last 30 days, indicating increased accumulation. Despite a market dip in April, whales continued to accumulate, albeit at a slower rate. This behavior suggests confidence from major holders, potentially signaling a bottom or a precursor to further price appreciation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "whales",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "whale_accumulation",
+        "onchain_activity",
+        "bullish_sentiment"
+      ],
+      "rationale": "Increased buying activity from large holders (whales) is a strong short-term bullish signal, indicating significant demand at current price levels and potential for upward price momentum."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nb3aa1171e029",
+      "title": "Prediction: The Bitcoin Halving Could Be a Millionaire Maker",
+      "url": "https://finance.yahoo.com/news/prediction-bitcoin-halving-could-millionaire-092500487.html",
+      "summary": "The Bitcoin halving, which occurred on April 19, has historically been a catalyst for price appreciation, though its immediate impact has been muted so far. The article suggests it's too early to dismiss its potential, as halving cycles typically play out over 12-18 months. The expectation is that the reduced supply will eventually lead to price increases, potentially making it a 'millionaire maker' event over the medium term.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "halving",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "halving_impact",
+        "supply_shock",
+        "price_appreciation"
+      ],
+      "rationale": "While the immediate post-halving price action has been subdued, the historical precedent suggests that the supply reduction will eventually drive prices higher. This expectation can influence short-term sentiment and buying behavior."
+    },
+    {
+      "pick_idx": 16,
+      "id": "ndc45b79fc2b6",
+      "title": "Crypto Highlights: Bitcoin Price Volatility, Ethereum ETF Hopes, and Furrever Token's $1.2M Presale Finale",
+      "url": "https://finance.yahoo.com/news/crypto-highlights-bitcoin-price-volatility-110000348.html",
+      "summary": "Bitcoin is facing potential price risks, while Ethereum's ETF progress is generating buzz. The article highlights ongoing market volatility for Bitcoin and the positive sentiment surrounding Ethereum ETFs. The mention of Bitcoin's price risks suggests potential for short-term downward pressure or increased volatility, while Ethereum's ETF developments point to potential upward movement for ETH.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "volatility",
+        "ETF",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_volatility",
+        "ETH_ETF_sentiment",
+        "market_risk"
+      ],
+      "rationale": "Bitcoin's price risks suggest potential for short-term volatility, while Ethereum's ETF progress provides a specific bullish catalyst for ETH. The overall market sentiment remains mixed."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nd070992fd038",
+      "title": "History Suggests Bitcoin Will Be a Better Long-Term Investment Than Little-Known Meme Coins",
+      "url": "https://finance.yahoo.com/news/history-suggests-bitcoin-better-long-112000441.html",
+      "summary": "While meme coins are showing significant short-term gains, history suggests Bitcoin will be a better long-term investment. Bitcoin is up 65% year-to-date, outperforming many meme coins. The article cautions against chasing meme coin hype, emphasizing Bitcoin's established track record and fundamental value. This perspective can influence investor behavior, potentially leading some to reallocate capital from speculative meme coins back to Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "memecoin",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "meme_coin_mania",
+        "BTC_vs_meme_coins",
+        "investor_sentiment"
+      ],
+      "rationale": "The contrast between meme coin volatility and Bitcoin's steady growth can lead to capital rotation. If meme coin enthusiasm wanes, some of that capital could flow back into Bitcoin, providing a short-term boost."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n1848fddc70e0",
+      "title": "Bitcoin price today: hovers around $68k, Ether gains on spot ETF progress",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-today-hovers-around-013430006.html",
+      "summary": "Bitcoin is trading flat around $68k, with concerns over high interest rates persisting ahead of inflation data. Ether is showing strength due to progress on spot ETFs. The broader crypto market is subdued, with traders favoring the dollar due to waning optimism about Fed rate cuts. Bitcoin's price action suggests consolidation, while Ether's gains indicate sector-specific positive news.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_consolidation",
+        "ETH_ETF_progress",
+        "macro_headwinds"
+      ],
+      "rationale": "Bitcoin's sideways movement indicates a temporary pause, while Ether's strength due to ETF progress suggests potential for short-term altcoin outperformance, but overall market sentiment remains cautious due to macro factors."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n13bb36c70825",
+      "title": "Orchestrated Wave of Hacks Targeting Crypto Influencers and Celebrity X Accounts",
+      "url": "https://finance.yahoo.com/news/orchestrated-wave-hacks-targeting-crypto-060638198.html",
+      "summary": "A wave of hacks targeting crypto influencers and celebrity X accounts is promoting various cryptocurrencies and memecoins. The compromised account of Gigantic-Cassocked-Rebirth (GCR) promoted ORDI and Luna2.0, causing temporary price surges. This coordinated attack highlights security vulnerabilities and the potential for manipulated pumps, which can create short-term volatility and distrust in the market.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "hack/outage",
+        "memecoin",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "social_media_hack",
+        "pump_and_dump",
+        "security_risk"
+      ],
+      "rationale": "Hacks promoting specific coins can cause temporary, artificial price pumps. This introduces volatility and can mislead traders, creating a short-term bearish sentiment due to increased risk and potential for rug pulls."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-05-27",
+    "summary": "Bitcoin is consolidating around $68k, with institutional buying evident in ETF flows, suggesting underlying bullish strength. However, macro concerns regarding interest rates and inflation data are creating a cautious sentiment. The approval of Ethereum ETFs is a positive catalyst for ETH, while a surge in memecoin activity, including celebrity endorsements, indicates strong retail speculative interest. Whale accumulation also points to confidence from large holders. The market is navigating a balance between positive crypto-specific developments and broader macroeconomic headwinds.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "Persistent high inflation data could lead to delayed Fed rate cuts, negatively impacting risk assets.",
+      "Increased regulatory scrutiny on memecoins or specific crypto activities could trigger sell-offs.",
+      "Widespread security breaches or hacks could erode investor confidence.",
+      "The speculative nature of memecoins could lead to sharp corrections, impacting overall market sentiment."
+    ],
+    "watch_items": [
+      "US CPI and PCE data releases",
+      "Further institutional ETF flow reports",
+      "Statements from Fed officials on monetary policy",
+      "Performance of major memecoins (e.g., PEPE, TRUMP)",
+      "Developments regarding potential Solana and XRP ETFs"
+    ]
+  }
+}

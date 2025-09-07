@@ -1,0 +1,523 @@
+{
+  "date": "2022-08-12",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "nfe93e5450b54",
+      "title": "UPDATE 3-MicroStrategy scotches 'margin call' fears, says can withstand volatility",
+      "url": "https://finance.yahoo.com/news/1-bitcoin-hovers-near-microstrategy-143313696.html",
+      "summary": "MicroStrategy, a significant corporate holder of Bitcoin, addressed market concerns regarding potential margin calls on its Bitcoin-backed loan. The company stated it can withstand further volatility, alleviating fears of forced liquidation. This statement is crucial as it impacts investor confidence in companies with large Bitcoin treasuries and, by extension, the broader market's perception of Bitcoin's stability as a corporate asset.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy",
+        "margin_call",
+        "corporate_bitcoin",
+        "volatility_resilience"
+      ],
+      "rationale": "MicroStrategy's ability to withstand volatility reduces the immediate risk of forced selling, which could have negatively impacted Bitcoin's price. This reassures institutional investors about the stability of large corporate Bitcoin holdings."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n331324db2fec",
+      "title": "Celsius' Mining Unit Files for Bankruptcy Just Months After Announcing IPO Intention",
+      "url": "https://finance.yahoo.com/news/celsius-mining-unit-files-bankruptcy-040819559.html",
+      "summary": "Celsius Network's mining unit has filed for Chapter 11 bankruptcy protection, mirroring its parent company's financial distress. This development follows their earlier announcement of IPO intentions. The bankruptcy filing by a major crypto lender like Celsius signals significant contagion risk within the industry, potentially leading to further deleveraging and reduced liquidity, impacting investor sentiment and the price of Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Celsius_bankruptcy",
+        "crypto_lender_distress",
+        "contagion_risk",
+        "liquidity_crunch"
+      ],
+      "rationale": "The bankruptcy of a major crypto lender like Celsius indicates systemic issues within the crypto lending space, potentially leading to further market instability and reduced liquidity, which is bearish for Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nec0e9fca9b27",
+      "title": "Bitcoin to Soar 40% to $28K by Year-End? ETFs to Play",
+      "url": "https://finance.yahoo.com/news/bitcoin-soar-40-28k-end-170005253.html",
+      "summary": "Analysts from Deutsche Bank suggest Bitcoin might reach $28,000 by year-end, contingent on its continued correlation with U.S. stocks. While acknowledging the fragmented nature of the crypto market and potential for further near-term declines, this forecast offers a bullish outlook. The mention of ETFs also points to potential future institutional adoption pathways.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_forecast",
+        "Deutsche_Bank_analyst",
+        "stock_correlation",
+        "ETF_potential"
+      ],
+      "rationale": "A major bank's positive price target, even with caveats, can influence market sentiment. The correlation with stocks suggests macro factors will continue to drive BTC, and the mention of ETFs hints at future institutional inflows."
+    },
+    {
+      "pick_idx": 12,
+      "id": "naa901f60dfc1",
+      "title": "How Could US Consumer Price Index (CPI) Data Impact Crypto Markets?",
+      "url": "https://finance.yahoo.com/news/could-us-consumer-price-index-172634609.html",
+      "summary": "The upcoming US Consumer Price Index (CPI) data for June is highlighted as a potential catalyst for significant cryptocurrency market movements. An upside surprise in inflation figures could intensify Federal Reserve tightening bets, leading to a crypto sell-off. Conversely, signs of economic cooling could ease these fears. This directly links macro-economic data to crypto price action.",
+      "impact_horizon_months": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "CPI"
+      ],
+      "features_for_model": [
+        "CPI_data",
+        "inflation_impact",
+        "Fed_tightening",
+        "macro_sentiment"
+      ],
+      "rationale": "CPI data is a primary driver of monetary policy. Higher-than-expected inflation leads to tighter monetary policy, which is generally bearish for risk assets like Bitcoin. Lower inflation can be bullish."
+    },
+    {
+      "pick_idx": 13,
+      "id": "ne790eb4b4d1d",
+      "title": "FTSE 100 Live: Markets bet on big US rates rise, Bank of England meets",
+      "url": "https://finance.yahoo.com/news/ftse-100-live-markets-bet-064611522.html",
+      "summary": "Financial markets are anticipating a significant interest rate hike from the US Federal Reserve (0.75%), driven by record-high inflation. The Bank of England is also under pressure to raise rates. This aggressive monetary tightening by major central banks globally is a key macro factor that typically impacts risk assets, including Bitcoin, by increasing borrowing costs and reducing liquidity.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "interest_rates",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "BoE_rate_hike",
+        "monetary_tightening",
+        "inflation_response"
+      ],
+      "rationale": "Aggressive interest rate hikes by central banks reduce liquidity and increase the cost of capital, making riskier assets like Bitcoin less attractive. This is a significant macro headwind."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n9ce3c223fb59",
+      "title": "DMG Announces a New ESG Marketplace Initiative to Bring Together Terra Pool Users and Institutional Buyers",
+      "url": "https://finance.yahoo.com/news/dmg-announces-esg-marketplace-initiative-054100372.html",
+      "summary": "DMG Blockchain Solutions is developing an ESG marketplace for Bitcoin mined from carbon-neutral sources, aiming to attract institutional buyers. This initiative focuses on the environmental, social, and governance (ESG) aspect of Bitcoin mining, which is increasingly important for institutional adoption. By creating a dedicated channel for 'green' Bitcoin, DMG aims to bridge the gap between sustainable mining practices and institutional investment mandates.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure",
+        "ESG"
+      ],
+      "features_for_model": [
+        "ESG_bitcoin_mining",
+        "institutional_demand",
+        "carbon_neutral_mining",
+        "green_bitcoin"
+      ],
+      "rationale": "The growing focus on ESG factors by institutional investors could drive demand for Bitcoin mined using sustainable practices. This initiative by DMG aims to tap into that demand, potentially increasing institutional adoption."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nf23daa5740de",
+      "title": "Grayscale Investments® Initiates Lawsuit Against the SEC",
+      "url": "https://finance.yahoo.com/news/grayscale-investments-initiates-lawsuit-against-010300694.html",
+      "summary": "Grayscale Investments has filed a petition for review with the U.S. Court of Appeals, challenging the SEC's decision to deny its spot Bitcoin ETF application. Grayscale argues the SEC violated administrative and securities laws. This legal challenge is significant as a favorable ruling could pave the way for a spot Bitcoin ETF in the U.S., a long-awaited development that could unlock substantial institutional capital.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Grayscale_lawsuit",
+        "SEC_challenge",
+        "spot_Bitcoin_ETF",
+        "regulatory_clarity"
+      ],
+      "rationale": "A successful lawsuit could lead to the approval of a spot Bitcoin ETF, a major catalyst for institutional adoption and potentially significant price appreciation for Bitcoin."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n4ff0b59c75ab",
+      "title": "Ms. Crypto Goes to Washington",
+      "url": "https://finance.yahoo.com/news/ms-crypto-goes-washington-204451470.html",
+      "summary": "The article discusses the increasing mainstream adoption of crypto, highlighted by the introduction of the Lummis-Gillibrand Responsible Financial Innovation Act, a comprehensive regulatory framework. This move towards regulation signifies a maturing crypto market and attempts to provide clarity for businesses and investors, which is generally seen as a positive long-term development for Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "crypto_regulation",
+        "Lummis_Gillibrand_Act",
+        "regulatory_framework",
+        "mainstream_adoption"
+      ],
+      "rationale": "The development of a comprehensive regulatory framework for cryptocurrencies is a crucial step towards broader institutional adoption and market stability, reducing uncertainty and perceived risk."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nbbec19f0ccfe",
+      "title": "Bank of America Survey's Extreme Pessimism Might Be Contrarian Indicator",
+      "url": "https://finance.yahoo.com/news/bank-america-surveys-extreme-pessimism-211038978.html",
+      "summary": "A Bank of America survey indicates extreme investor pessimism and a preference for cash. Historically, such high levels of pessimism can act as a contrarian indicator, suggesting that the market may have already priced in most of the negative news, potentially signaling a bottom or a period of recovery. This sentiment shift, if sustained, could lead to a rebound in risk assets like Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "investor_pessimism",
+        "contrarian_indicator",
+        "cash_preference",
+        "market_sentiment"
+      ],
+      "rationale": "Extreme pessimism often precedes market bottoms. If investors are overwhelmingly bearish and holding cash, it suggests that selling pressure may be exhausted, potentially leading to a price recovery."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n3e547e30e4eb",
+      "title": "Ethereum soars to $1,900 ahead of 'merge'",
+      "url": "https://finance.yahoo.com/news/ethereum-merge-ether-bitcoin-crypto-price-inflation-us-093236631.html",
+      "summary": "Ethereum's price surged significantly, surpassing $1,900, driven by a successful test of its upcoming 'merge' upgrade and positive US inflation data. The 'merge' is a critical transition for Ethereum to a proof-of-stake consensus mechanism, expected to reduce energy consumption and potentially increase scalability. This event is a major catalyst for ETH and has positive spillover effects on the broader crypto market, including Bitcoin.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Ethereum_merge",
+        "ETH_price_surge",
+        "proof_of_stake",
+        "inflation_data_impact"
+      ],
+      "rationale": "The successful test of the Ethereum merge and positive inflation data are strong bullish catalysts. The merge is a fundamental upgrade that could increase ETH's utility and adoption, positively influencing the entire crypto market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n129a64613801",
+      "title": "3 Undervalued Airline Stocks to Buy Before They Take Off",
+      "url": "https://finance.yahoo.com/news/3-undervalued-airline-stocks-buy-160606701.html",
+      "summary": "This article discusses undervalued airline stocks, noting the industry's significant losses due to the pandemic but suggesting an opportunity for investors. While not directly related to crypto, the sentiment around undervalued assets and potential market recovery can influence broader investment strategies, including those in crypto.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "undervalued_assets",
+        "sector_recovery",
+        "market_sentiment"
+      ],
+      "rationale": "While not directly crypto-related, the focus on undervalued assets and potential sector recovery can reflect a broader risk-on sentiment that might spill over into crypto markets."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb8d5f37d72a0",
+      "title": "What Bear Market? Canada’s Largest Blockchain Conference Beamed With Bullish Energy",
+      "url": "https://finance.yahoo.com/news/bear-market-canada-largest-blockchain-195037808.html",
+      "summary": "Despite the ongoing bear market, Canada's largest blockchain conference, ETHToronto and the Blockchain Futurist Conference, reportedly exuded bullish energy. Key figures like Vitalik Buterin attended. This indicates a resilient community and ongoing development, suggesting that underlying innovation continues despite price action.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "community"
+      ],
+      "features_for_model": [
+        "blockchain_conference",
+        "bullish_sentiment",
+        "Vitalik_Buterin",
+        "community_development"
+      ],
+      "rationale": "Positive sentiment and continued development at major industry events can provide a short-term boost to market confidence, even during a broader downturn."
+    },
+    {
+      "pick_idx": 3,
+      "id": "ndf8c43e0697e",
+      "title": "CFTC Accuses Ohio Man of Running $12M Bitcoin Ponzi Scheme",
+      "url": "https://finance.yahoo.com/news/cftc-accuses-ohio-man-running-172830427.html",
+      "summary": "The CFTC has charged an Ohio resident with operating a $12 million Bitcoin Ponzi scheme. This news highlights ongoing regulatory enforcement actions against fraudulent activities within the crypto space. Such cases can negatively impact investor sentiment and increase regulatory scrutiny on the industry.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "fraud"
+      ],
+      "features_for_model": [
+        "CFTC_action",
+        "Ponzi_scheme",
+        "Bitcoin_fraud",
+        "regulatory_enforcement"
+      ],
+      "rationale": "News of Ponzi schemes and regulatory crackdowns can erode investor confidence and lead to short-term price drops due to increased fear and regulatory uncertainty."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na020d69612fe",
+      "title": "Market Wrap: Bitcoin Price Finishes Higher for Third Consecutive Week",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-price-finishes-210720381.html",
+      "summary": "Bitcoin's price has reclaimed the $24,000 level and finished higher for the third consecutive week, indicating positive momentum. Ether also saw gains, surpassing $1,900, with anticipation for the Ethereum Merge contributing to its rise. This sustained upward price action suggests a potential shift in market sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "price_action",
+        "momentum",
+        "protocol"
+      ],
+      "features_for_model": [
+        "BTC_price_uptrend",
+        "ETH_price_rally",
+        "Ethereum_merge_anticipation",
+        "positive_momentum"
+      ],
+      "rationale": "Consecutive weeks of price increases for Bitcoin and Ether, coupled with positive sentiment around the Ethereum Merge, suggest a short-term bullish trend."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n658c0fcb0787",
+      "title": "Markets: Bitcoin, Ether retreat as investors digest inflation, Blackrock developments",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-retreat-investors-012201745.html",
+      "summary": "Bitcoin and Ether experienced a retreat after reaching recent highs, as investors processed both the cooling inflation data and the news of BlackRock launching a spot Bitcoin fund. While the BlackRock announcement is generally bullish, the market's reaction suggests a mixed sentiment, with some profit-taking occurring after the prior rally.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "price_action",
+        "institutional",
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_ETH_retreat",
+        "BlackRock_fund",
+        "inflation_data_digest",
+        "profit_taking"
+      ],
+      "rationale": "The mixed reaction to positive news (BlackRock fund) and macro data (cooling inflation) suggests short-term uncertainty and potential for consolidation or minor pullbacks."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n564f44818e86",
+      "title": "Lawsuit claims Mark Cuban and the Dallas Mavericks 'duped' customers into investing with the now-bankrupt crypto platform Voyager Digital, resulting in $5 billion in losses",
+      "url": "https://finance.yahoo.com/news/lawsuit-claims-mark-cuban-dallas-230839988.html",
+      "summary": "A lawsuit alleges that Mark Cuban and the Dallas Mavericks misled customers into investing with Voyager Digital, a now-bankrupt crypto platform, leading to $5 billion in losses. This news further damages confidence in centralized crypto lending platforms and could lead to increased regulatory scrutiny and investor caution.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "legal",
+        "fraud",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Voyager_lawsuit",
+        "Mark_Cuban",
+        "crypto_platform_failure",
+        "investor_losses"
+      ],
+      "rationale": "High-profile lawsuits alleging fraud and massive losses associated with a bankrupt crypto platform can create significant negative sentiment and fear, impacting investor confidence in the broader crypto market."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n9ab13866fe02",
+      "title": "Interview: Circle Creates Dangerous Precedent By Blacklisting Tornado Cash Users, Says Stefan Rust",
+      "url": "https://finance.yahoo.com/news/interview-circle-creates-dangerous-precedent-125004999.html",
+      "summary": "Circle's decision to blacklist Tornado Cash users and freeze USDC is seen by some as setting a dangerous precedent for privacy and decentralization. This action, in response to regulatory pressure, could lead to increased scrutiny of stablecoins and privacy-focused protocols, potentially impacting their adoption and utility.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "protocol",
+        "privacy",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "Circle_Tornado_Cash",
+        "USDC_blacklist",
+        "privacy_protocol",
+        "regulatory_precedent"
+      ],
+      "rationale": "The blacklisting of Tornado Cash users by Circle raises concerns about censorship and the centralization of stablecoins, potentially creating regulatory headwinds for privacy-focused crypto solutions."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nf3bbefa7c247",
+      "title": "BlackRock backflips on Bitcoin as latest institution to see promise in crypto",
+      "url": "https://finance.yahoo.com/news/blackrock-backflips-bitcoin-latest-institution-083131429.html",
+      "summary": "BlackRock, the world's largest asset manager, has announced the launch of a spot Bitcoin trust for institutional clients in the U.S. This move signifies a significant endorsement of Bitcoin as an asset class by a major traditional finance player, potentially attracting substantial institutional capital and boosting market confidence.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "ETF"
+      ],
+      "features_for_model": [
+        "BlackRock_Bitcoin_trust",
+        "institutional_adoption",
+        "asset_manager_endorsement",
+        "spot_Bitcoin_product"
+      ],
+      "rationale": "BlackRock's entry into the spot Bitcoin market with a trust product for institutional clients is a major bullish signal, indicating growing acceptance and potential for significant capital inflows."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n9181044ba1c4",
+      "title": "Bitcoin $24K Breakout Elusive as Treasury Yields Balk at Peak Inflation Narrative",
+      "url": "https://finance.yahoo.com/news/bitcoin-24k-breakout-elusive-treasury-124236960.html",
+      "summary": "Bitcoin's attempt to break past $24,000 is being hampered by rising Treasury yields, which suggest that markets may not be fully convinced that inflation has peaked. The correlation between Bitcoin and traditional markets, particularly bonds, is evident as higher yields can make riskier assets less attractive.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "price_action",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BTC_resistance",
+        "Treasury_yields",
+        "inflation_peak_narrative",
+        "bond_market_impact"
+      ],
+      "rationale": "Rising Treasury yields indicate persistent inflation concerns, which can pressure risk assets like Bitcoin. This suggests that the recent rally might face headwinds until inflation expectations clearly subside."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nab545abe965c",
+      "title": "Crypto Privacy Protocol Monero Is Getting a Major Upgrade",
+      "url": "https://finance.yahoo.com/news/privacy-protocol-monero-getting-major-214658814.html",
+      "summary": "Monero, a privacy-focused cryptocurrency, is undergoing a significant network upgrade via a hard fork. This upgrade aims to enhance its privacy features and security. Such protocol upgrades are generally positive for the underlying asset, potentially increasing its utility and attracting users interested in privacy-preserving transactions.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "privacy",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Monero_upgrade",
+        "privacy_protocol",
+        "hard_fork",
+        "XMR_enhancement"
+      ],
+      "rationale": "Protocol upgrades for privacy coins like Monero can boost user adoption and confidence in the technology, potentially leading to short-term price appreciation."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n253a3fab4771",
+      "title": "Crypto Derivative Trading Volume Rose for First Time in 4 Months as Market Rallied in July",
+      "url": "https://finance.yahoo.com/news/crypto-derivative-trading-volume-rose-082708516.html",
+      "summary": "Crypto derivative trading volume saw an increase in July, the first such rise in four months, coinciding with a market rally. This suggests increased activity and potentially higher leverage in the market. While derivative volume can indicate speculative interest, a rise alongside a rally can be a sign of strengthening bullish sentiment.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "liquidity",
+        "sentiment",
+        "derivatives"
+      ],
+      "features_for_model": [
+        "derivatives_volume",
+        "market_rally",
+        "speculative_activity",
+        "leverage_increase"
+      ],
+      "rationale": "An increase in derivative trading volume during a market rally can indicate growing speculative interest and potentially higher conviction among traders, supporting a bullish short-term outlook."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-08-12",
+    "summary": "Bitcoin and Ether showed mixed signals, with BTC retreating from recent highs around $24K due to rising Treasury yields, while ETH continued to rally on anticipation of the 'merge' and positive inflation data. BlackRock's announcement of a spot Bitcoin trust provided a bullish catalyst, but profit-taking tempered the immediate reaction. Regulatory news, including a lawsuit against Voyager and concerns over Circle's Tornado Cash actions, added to market uncertainty.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued rise in Treasury yields pressuring risk assets.",
+      "Regulatory uncertainty surrounding stablecoins and privacy protocols.",
+      "Potential for increased volatility following BlackRock's announcement.",
+      "The success and timeline of the Ethereum 'merge' remain critical.",
+      "Broader macroeconomic factors impacting global markets."
+    ],
+    "watch_items": [
+      "US CPI data releases",
+      "Federal Reserve statements on interest rates",
+      "Grayscale lawsuit developments",
+      "Ethereum 'merge' progress updates",
+      "BlackRock Bitcoin Trust performance"
+    ]
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "date": "2024-11-06",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n5a00189dc132",
+      "title": "Dollar dips as US voters head to polls",
+      "url": "https://finance.yahoo.com/news/dollar-back-foot-trump-trades-010453691.html",
+      "summary": "The U.S. dollar experienced a dip as voters headed to the polls for the presidential election. The outcome, particularly the party controlling Congress alongside the presidency, is expected to significantly influence the dollar's short-term trajectory. Betting markets indicated rising odds for Donald Trump's victory, suggesting potential currency volatility tied to election results.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "USD_volatility",
+        "election_outcome",
+        "political_uncertainty"
+      ],
+      "rationale": "Election outcomes have historically influenced currency markets. A shift in political power can lead to changes in economic policy, impacting the dollar's strength and, by extension, risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n1627132f6afd",
+      "title": "Crypto Critic Senator Warren Calls for 75 Basis Point Interest Rate Cut",
+      "url": "https://finance.yahoo.com/news/crypto-critic-senator-warren-calls-075612469.html",
+      "summary": "Senator Elizabeth Warren, despite her criticism of Bitcoin, has joined other senators in urging the Federal Reserve to implement a significant 75-basis-point interest rate cut. This call for a more aggressive monetary easing policy, exceeding market expectations of 25-50 basis points, could potentially stimulate both traditional and cryptocurrency markets by increasing liquidity and reducing borrowing costs.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_rate_cut_magnitude",
+        "monetary_policy",
+        "inflation_expectations"
+      ],
+      "rationale": "Lower interest rates generally make riskier assets, including cryptocurrencies, more attractive by increasing liquidity and reducing the opportunity cost of holding them. A substantial cut could signal a more accommodative stance from the Fed."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n731e4d261d93",
+      "title": "PayPal veteran David Marcus has bold ambitions for his $175 million Bitcoin startup Lightspark—but says it might take the rest of his life",
+      "url": "https://finance.yahoo.com/news/paypal-veteran-david-marcus-bold-192744597.html",
+      "summary": "David Marcus, a former PayPal executive, is leading Lightspark, a Bitcoin startup with ambitious goals. Marcus, known for his success at PayPal and Facebook (leading the Libra project), is committed to developing Bitcoin's potential, even acknowledging the long-term nature of his venture. His involvement signals continued innovation and development within the Bitcoin ecosystem, potentially enhancing its utility and adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Lightning_network_development",
+        "institutional_adoption",
+        "payment_infrastructure"
+      ],
+      "rationale": "Experienced figures like David Marcus building infrastructure for Bitcoin, particularly focusing on scalability and usability, can significantly boost long-term adoption and utility. This contributes to the network's growth and value proposition."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n59f0b1a73e3b",
+      "title": "Crypto Weekly Highlights: Bitcoin ETF Inflows, Shiba Inu Surge, U.S. Election Influence on Crypto",
+      "url": "https://finance.yahoo.com/news/crypto-weekly-highlights-bitcoin-etf-162400613.html",
+      "summary": "Bitcoin Spot ETFs recorded $92 million in inflows for the week ending September 23rd, indicating sustained institutional interest and broader adoption within traditional finance. This trend highlights growing institutional demand for Bitcoin. Meanwhile, Ethereum ETFs are still seeking momentum. The article also touches on the U.S. election's potential influence on the crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "institutional_demand",
+        "traditional_finance_integration"
+      ],
+      "rationale": "Consistent inflows into Bitcoin ETFs demonstrate strong institutional demand, a key driver for long-term price appreciation. This integration into traditional finance validates Bitcoin as an asset class."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n946345e158c3",
+      "title": "Why Bitcoin’s fixed supply could be the ultimate hedge against inflation",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-fixed-supply-could-182530919.html",
+      "summary": "The article discusses the persistent skepticism surrounding Bitcoin, contrasting it with its growing institutional adoption. It highlights misconceptions, such as viewing Bitcoin as a 'numbers game' or a scam, and emphasizes its fixed supply as a potential hedge against inflation. This narrative reinforces Bitcoin's value proposition as a digital store of value.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "inflation_hedge",
+        "fixed_supply",
+        "store_of_value",
+        "institutional_narrative"
+      ],
+      "rationale": "Bitcoin's fixed supply of 21 million coins is a core tenet of its 'digital gold' narrative, making it an attractive hedge against inflation. As macroeconomic conditions favor such assets, this characteristic becomes increasingly significant for long-term value."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n3b8e84a6f768",
+      "title": "MicroStrategy's Next Bitcoin Purchase Is Likely to Take Its Holdings Above Grayscale's GBTC",
+      "url": "https://finance.yahoo.com/news/microstrategys-next-bitcoin-purchase-likely-155120695.html",
+      "summary": "MicroStrategy is poised to surpass Grayscale in Bitcoin holdings following its planned capital raises. The company has consistently used capital markets to acquire more Bitcoin, while Grayscale has experienced significant outflows since the launch of spot ETFs. This indicates MicroStrategy's aggressive accumulation strategy and its growing influence as a major corporate Bitcoin holder.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "corporate_treasury_strategy",
+        "MSTR_holdings",
+        "GBTC_outflows",
+        "Bitcoin_accumulation"
+      ],
+      "rationale": "MicroStrategy's continued aggressive Bitcoin accumulation signals strong conviction from a major corporate player. Their actions can influence market sentiment and demonstrate a viable strategy for holding Bitcoin on a corporate balance sheet."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nc873653f5f0c",
+      "title": "Love the New Spot Bitcoin ETFs? These Other Crypto ETFs Are Also Making a Splash With Investors.",
+      "url": "https://finance.yahoo.com/news/love-spot-bitcoin-etfs-other-083700188.html",
+      "summary": "The launch of spot Bitcoin ETFs has been a significant event, marking a watershed moment for mainstream Bitcoin adoption. Beyond these, other crypto ETFs are also gaining traction, indicating a broader trend of increasing investor interest and product innovation in the cryptocurrency space. This diversification of crypto investment vehicles suggests growing maturity and accessibility.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "crypto_ETF_growth",
+        "mainstream_adoption",
+        "product_innovation"
+      ],
+      "rationale": "The proliferation of crypto ETFs, including those beyond spot Bitcoin, signifies a broadening of access and interest in digital assets. This trend indicates a maturing market and increased integration with traditional financial products."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n2469c122a48c",
+      "title": "1 Top Cryptocurrency to Buy Before It Soars as Much as 23,000%, According to Michael Saylor of MicroStrategy",
+      "url": "https://finance.yahoo.com/news/1-top-cryptocurrency-buy-soars-123600028.html",
+      "summary": "Michael Saylor, CEO of MicroStrategy, predicts Bitcoin could reach $13 million by 2045, representing a 23,100% gain. He emphasizes Bitcoin's inflationary hedge properties and its potential as a long-term investment. Saylor's bold predictions, while speculative, highlight the bullish long-term outlook held by prominent figures in the crypto space.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "long_term_price_prediction",
+        "inflation_hedge",
+        "Saylor_endorsement",
+        "digital_gold_narrative"
+      ],
+      "rationale": "Prominent figures like Michael Saylor consistently advocate for Bitcoin's long-term value, particularly as an inflation hedge. Such endorsements, coupled with MicroStrategy's aggressive accumulation, reinforce the bullish narrative for Bitcoin's future."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n55ad27cf1fc9",
+      "title": "Michael Saylor's MicroStrategy Plans to Raise $42B to Buy More Bitcoin Over Next 3 Years",
+      "url": "https://finance.yahoo.com/news/michael-saylors-microstrategy-plans-raise-201300788.html",
+      "summary": "MicroStrategy has announced an ambitious plan to raise $42 billion over the next three years through equity and debt offerings to acquire more Bitcoin. This '21/21 Plan' underscores the company's unwavering commitment to its Bitcoin treasury strategy and its belief in Bitcoin's long-term appreciation, signaling continued significant buying pressure from a major corporate entity.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "corporate_treasury"
+      ],
+      "features_for_model": [
+        "MSTR_Bitcoin_strategy",
+        "capital_raise",
+        "corporate_buying_pressure",
+        "treasury_asset"
+      ],
+      "rationale": "MicroStrategy's explicit plan to raise a substantial amount of capital for Bitcoin acquisition over three years indicates a strong, sustained buying force in the market. This commitment reinforces the long-term bullish outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 35,
+      "id": "ndcad951990b6",
+      "title": "1 Top Cryptocurrency to Buy Before It Soars 5,300%, According to Cathie Wood",
+      "url": "https://finance.yahoo.com/news/1-top-cryptocurrency-buy-soars-091800220.html",
+      "summary": "Cathie Wood, known for her aggressive investment style, believes Bitcoin has over 5,300% upside potential. Her endorsement, alongside the general recent surge in cryptocurrency prices, highlights a positive sentiment and potential for significant growth in the digital asset space. Bitcoin's historical significance and market dominance are key factors in such optimistic projections.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Wood_endorsement",
+        "bullish_sentiment",
+        "crypto_market_growth",
+        "long_term_potential"
+      ],
+      "rationale": "Endorsements from influential investors like Cathie Wood, who has a track record of identifying high-growth potential assets, can significantly boost market sentiment and attract further investment into Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nfa1c8be06d73",
+      "title": "Stock market today: Dow, Nasdaq, S&P 500 all soar to records after Trump triumphs in election",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-nasdaq-futures-soar-as-trump-declared-winner-080453691.html",
+      "summary": "US stocks surged to record highs following Donald Trump's victory in the presidential election. The Dow Jones Industrial Average jumped 3.5%, the S&P 500 rose 2.5%, and the Nasdaq Composite saw significant gains. This market reaction suggests immediate investor optimism regarding potential policy changes under a Trump administration.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "election"
+      ],
+      "features_for_model": [
+        "election_result",
+        "market_rally",
+        "investor_sentiment"
+      ],
+      "rationale": "The immediate market reaction to the election outcome shows strong positive sentiment, which is likely to carry over into the short term for risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n534dd2fdf819",
+      "title": "Bitcoin Rises Nearly 10% Against Mexican Peso as 'Trump Trade' Soars; Gold Stays Flat",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-nearly-10-against-053337755.html",
+      "summary": "Bitcoin experienced a nearly 10% surge against the Mexican Peso, driven by the 'Trump trade' as Donald Trump gained a significant lead in the presidential race. This surge, reaching record highs above $74,000, indicates a strong correlation between election outcomes and Bitcoin's short-term price action, particularly in specific currency pairs.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "election",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Trump_trade",
+        "BTC_MXN_surge",
+        "election_momentum"
+      ],
+      "rationale": "The direct correlation between Trump's election prospects and Bitcoin's price surge, especially against the Mexican Peso, highlights immediate speculative demand and positive sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n27ec36d6f0aa",
+      "title": "Trump comeback drives gains in US stocks and dollar, Treasuries slide",
+      "url": "https://finance.yahoo.com/news/bets-trump-2-0-winners-111211925.html",
+      "summary": "Donald Trump's U.S. presidential election victory triggered a significant rally in the dollar, pushed stocks to record highs, and caused bond prices to fall. Expectations of tax cuts and tariffs fueled optimism for economic growth but also raised inflation concerns. The market's positive reaction to potential deregulation under Trump is a key short-term driver.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "election",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "dollar_strength",
+        "stock_rally",
+        "treasury_yields",
+        "inflation_expectations"
+      ],
+      "rationale": "The broad market rally, dollar strength, and rising yields following the election outcome suggest a risk-on sentiment that typically benefits Bitcoin in the short term, despite potential inflation concerns."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n03c7c42b0a58",
+      "title": "Bitcoin's Future Under President-Elect Donald Trump: A Look At His Crypto Policies",
+      "url": "https://finance.yahoo.com/news/bitcoins-future-under-president-elect-203228350.html",
+      "summary": "Donald Trump's election victory propelled Bitcoin to a new all-time high of $75,358, driven by market excitement and expectations of more favorable cryptocurrency policies. Ethereum and the broader crypto market also saw significant increases. This suggests immediate positive sentiment towards crypto under the new administration.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "election",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_policy_expectations",
+        "election_impact",
+        "market_sentiment"
+      ],
+      "rationale": "The immediate surge in Bitcoin's price to an all-time high, directly linked to Trump's victory and expectations of favorable crypto policies, indicates a strong short-term bullish catalyst."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb3876b7073b7",
+      "title": "Bitcoin price sets new all-time high following Trump’s election night victory",
+      "url": "https://finance.yahoo.com/news/bitcoin-tops-time-high-following-170946073.html",
+      "summary": "Bitcoin reached a new all-time high following Donald Trump's U.S. presidential election victory, with trading volume skyrocketing. The cryptocurrency's price moved in lockstep with the perceived likelihood of a Trump win, jumping significantly as results became clearer. This demonstrates a direct and immediate market reaction to the election outcome.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "election",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "election_victory",
+        "all_time_high",
+        "trading_volume_surge"
+      ],
+      "rationale": "The immediate establishment of a new all-time high for Bitcoin, directly correlated with Trump's election victory, signifies a powerful short-term bullish impulse driven by market anticipation and reaction."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n72e4a3309fe6",
+      "title": "Trump trade sparks stock rally ranging from banks to crypto to DJT",
+      "url": "https://finance.yahoo.com/news/djt-crypto-and-other-trump-trades-rise-after-candidate-clinches-victory-144124721.html",
+      "summary": "Donald Trump's election win fueled a broad market rally, impacting sectors from banking to crypto and specific stocks like Trump Media & Technology Group (DJT). Investors are anticipating potential benefits from lower regulations and tax cuts under a Trump administration, driving a positive short-term sentiment across various asset classes.",
+      "impact_horizon_days": 4,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "election",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Trump_trade_rally",
+        "sector_rotation",
+        "regulatory_expectations"
+      ],
+      "rationale": "The broad 'Trump trade' rally, encompassing crypto, indicates a widespread positive market reaction to the election outcome, suggesting continued upward momentum for Bitcoin in the immediate aftermath."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n4c17508f0001",
+      "title": "Why Is Coinbase (COIN) Stock Soaring Today",
+      "url": "https://finance.yahoo.com/news/why-coinbase-coin-stock-soaring-190430972.html",
+      "summary": "Coinbase shares surged significantly following Donald Trump's presidential election victory. The market is assessing potential impacts on trade, semiconductor, energy, and crypto regulations. This surge in a major crypto-related stock reflects the positive sentiment towards the crypto sector post-election.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "election",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "COIN_stock_performance",
+        "election_impact",
+        "regulatory_outlook"
+      ],
+      "rationale": "The substantial rise in Coinbase's stock price, directly tied to the election outcome, serves as a strong indicator of positive short-term sentiment for the broader cryptocurrency market."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nb5064bac5444",
+      "title": "Bitcoin Touches Record, Crypto-Tied Stocks Surge With Trump Set to Win White House",
+      "url": "https://finance.yahoo.com/news/bitcoin-touches-record-crypto-tied-112917329.html",
+      "summary": "Bitcoin briefly topped $75,000, reaching a record high, as Donald Trump was projected to win the U.S. presidency. Crypto-related stocks, including Coinbase and MicroStrategy, also surged. This indicates a strong immediate positive correlation between the election results and the performance of Bitcoin and associated assets.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "election",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_record_high",
+        "crypto_stock_surge",
+        "election_outcome"
+      ],
+      "rationale": "Bitcoin hitting a record high immediately following the projected election win for Trump, alongside surges in crypto-tied stocks, demonstrates a powerful short-term bullish catalyst."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n5264f5266cda",
+      "title": "Bitcoin ETFs Soar, Crypto Surges Post-Trump Victory",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-soar-crypto-surges-225958562.html",
+      "summary": "Bitcoin ETFs experienced significant gains, and the broader crypto market surged following Donald Trump's presidential victory. The iShares Bitcoin Trust (IBIT) and Grayscale Bitcoin Trust (GBTC) saw notable increases. This suggests that the market anticipates a more favorable regulatory environment for digital assets under a Trump administration.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "election",
+        "ETF",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ETF_performance",
+        "crypto_surge",
+        "election_impact",
+        "regulatory_environment"
+      ],
+      "rationale": "The strong performance of Bitcoin ETFs post-election, coupled with the broader crypto surge, indicates immediate positive market sentiment driven by expectations of a more crypto-friendly regulatory landscape."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n520e89a5fb7f",
+      "title": "Bitcoin Blasts Past $76K for First Time as Violent Crypto Rally Liquidates Nearly $400M Shorts",
+      "url": "https://finance.yahoo.com/news/bitcoin-blasts-past-76k-first-220136137.html",
+      "summary": "Bitcoin surpassed $76,000 for the first time, driven by Donald Trump's U.S. presidency win and optimism for a more favorable crypto environment. This rally led to significant liquidation of short positions. Ethereum also saw substantial gains. The event signifies strong immediate bullish momentum and increased volatility.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.95,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "election",
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_ATH",
+        "short_liquidation",
+        "election_driven_rally",
+        "ETH_surge"
+      ],
+      "rationale": "Bitcoin's record-breaking surge past $76,000, directly linked to the election outcome and the liquidation of shorts, demonstrates intense short-term bullish pressure and high volatility."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-11-06",
+    "summary": "The U.S. presidential election results have significantly impacted financial markets. Donald Trump's victory has triggered a broad rally across stocks, with major indices hitting record highs. Bitcoin has also surged, reaching new all-time highs, driven by expectations of a more crypto-friendly regulatory environment and a general 'Trump trade' sentiment. The dollar has strengthened, and Treasury yields have risen, indicating a shift in market expectations regarding economic policy and inflation.",
+    "scenario_probs": {
+      "bull": 0.7,
+      "base": 0.2,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Potential for increased inflation due to proposed tariffs and fiscal policies.",
+      "Uncertainty regarding the specifics of future crypto regulations under the new administration.",
+      "Market overreaction to election news could lead to a short-term correction.",
+      "Geopolitical tensions could resurface and impact risk appetite."
+    ],
+    "watch_items": [
+      "Statements from the new administration regarding economic and crypto policy.",
+      "Inflation data releases (CPI, PPI).",
+      "Federal Reserve commentary on interest rates.",
+      "ETF inflow/outflow data.",
+      "MicroStrategy's continued Bitcoin acquisition strategy."
+    ]
+  }
+}

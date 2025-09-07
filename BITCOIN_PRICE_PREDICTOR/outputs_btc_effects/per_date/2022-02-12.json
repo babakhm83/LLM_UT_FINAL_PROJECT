@@ -1,0 +1,503 @@
+{
+  "date": "2022-02-12",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n96173150eb6f",
+      "title": "MicroStrategy Buys Additional $25M Worth of Bitcoin During Market Dip",
+      "url": "https://finance.yahoo.com/news/microstrategy-buys-additional-25m-worth-131747970.html",
+      "summary": "MicroStrategy continued its Bitcoin accumulation strategy by purchasing approximately 660 BTC for $25 million between late December 2021 and January 2022. The average purchase price was $37,865 per Bitcoin. This ongoing accumulation by a prominent corporate entity signals sustained institutional belief in Bitcoin's long-term value, even during market downturns. It demonstrates a commitment to holding Bitcoin as a primary treasury reserve asset, which can influence market sentiment and adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_buy",
+        "corporate_treasury",
+        "accumulation_strategy"
+      ],
+      "rationale": "Continued corporate buying, even during a dip, reinforces the narrative of Bitcoin as a store of value. This sustained institutional interest can attract further investment and support long-term price appreciation."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n230539e8d898",
+      "title": "Musk Confirms Dogecoin Payment Option for Tesla Merchandise, Pushing the Crypto’s Price Higher",
+      "url": "https://finance.yahoo.com/news/musk-confirms-dogecoin-payment-option-182315024.html",
+      "summary": "Tesla began accepting Dogecoin for merchandise payments, a move heavily influenced by CEO Elon Musk's public support. This integration signifies a growing acceptance of cryptocurrencies for real-world transactions, even if limited to merchandise. It highlights the impact of influential figures in driving adoption and can lead to increased utility and demand for specific cryptocurrencies, potentially influencing broader market sentiment towards payment integration.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Tesla_DOGE_payment",
+        "Elon_Musk_endorsement",
+        "merchandise_payment"
+      ],
+      "rationale": "The integration of Dogecoin for payments by a major company like Tesla validates crypto utility. This can encourage other businesses to explore similar integrations, boosting adoption and potentially increasing demand for cryptocurrencies used in transactions."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n40e7171cc71b",
+      "title": "Bitcoin, Cryptos Plunge Lower, Continuing Downward Trend",
+      "url": "https://finance.yahoo.com/news/bitcoin-cryptos-plunge-lower-continuing-190352736.html",
+      "summary": "Bitcoin and Ether experienced significant price drops, with Bitcoin losing nearly half its all-time high value and trading around $33,000. This decline is attributed to broader economic pressures related to the COVID-19 pandemic and a general sell-off in growth and tech assets. The correlation between crypto and risk assets is becoming more apparent, suggesting that macroeconomic factors will continue to heavily influence crypto prices.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "crypto_correlation_risk_assets",
+        "macroeconomic_pressure"
+      ],
+      "rationale": "The increasing correlation with traditional risk assets means that broader macroeconomic downturns or tightening monetary policy will likely lead to further price declines in Bitcoin and other cryptocurrencies."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n38bc94c3c4a0",
+      "title": "How Coinbase rode crypto’s ‘inflection point’ to a rocky but momentous year",
+      "url": "https://finance.yahoo.com/news/coinbase-rode-cryptos-inflection-point-to-a-rocky-but-momentous-year-155013211.html",
+      "summary": "Coinbase, a major US crypto exchange, went public via a direct listing in 2021, coinciding with the crypto market's market cap topping $2 trillion. This event marked a significant milestone for the industry, signaling increased mainstream adoption and institutional interest. Coinbase's valuation and public listing reflect the growing maturity and integration of cryptocurrencies into the traditional financial system.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_IPO",
+        "crypto_market_cap_2T",
+        "mainstream_adoption"
+      ],
+      "rationale": "The successful IPO of a major crypto exchange like Coinbase validates the industry's growth and attracts further institutional capital. This increased infrastructure and accessibility are crucial for long-term adoption and price appreciation."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n65f74c42d4de",
+      "title": "Overview of Grayscale Bitcoin Trust (GBTC) Cryptocurrency Fund 2021 Q3",
+      "url": "https://finance.yahoo.com/news/overview-grayscale-bitcoin-trust-gbtc-103300015.html",
+      "summary": "The Grayscale Bitcoin Trust (GBTC) is a popular vehicle for institutional investors seeking exposure to Bitcoin without direct ownership. The report highlights the surge in investor interest in cryptocurrencies during 2021, with institutional investors increasingly opting for indirect investment methods like trusts. This trend indicates growing institutional acceptance and demand for Bitcoin exposure, which can drive long-term price stability and growth.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "GBTC_institutional_demand",
+        "indirect_bitcoin_exposure",
+        "trust_fund_investment"
+      ],
+      "rationale": "The continued interest and investment in GBTC by institutional players demonstrate a strong demand for regulated Bitcoin exposure. This institutional inflow is a key driver for long-term price appreciation and market stability."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n23fbf3355435",
+      "title": "Bitcoin won't be surpassed by competing cryptocurrencies because it is a 'superior' form of money, Fidelity says",
+      "url": "https://finance.yahoo.com/news/bitcoin-wont-surpassed-competing-cryptocurrencies-183319765.html",
+      "summary": "Fidelity Digital Assets argues that Bitcoin's 'enforceable scarcity' and verifiability make it a superior form of money compared to gold and fiat currency. While acknowledging the growth of the broader digital asset ecosystem, Fidelity believes Bitcoin's fundamental properties position it for long-term dominance. This perspective from a major financial institution can influence investor sentiment and adoption strategies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Fidelity_BTC_superior_money",
+        "enforceable_scarcity",
+        "verifiability"
+      ],
+      "rationale": "A respected financial institution like Fidelity endorsing Bitcoin's fundamental strengths as 'superior money' can significantly boost investor confidence and adoption. This narrative supports Bitcoin's long-term positioning as a digital gold."
+    },
+    {
+      "pick_idx": 46,
+      "id": "ndc23e1c7e1e7",
+      "title": "MicroStrategy buys more bitcoin after crypto investment grows by $1bn",
+      "url": "https://finance.yahoo.com/news/microstrategy-buys-more-bitcoin-crypto-174010183.html",
+      "summary": "MicroStrategy acquired an additional $25 million worth of Bitcoin on February 1, 2022, bringing its total holdings close to $5 billion. Despite market volatility, the company remains committed to its strategy of being the largest corporate Bitcoin investor. This consistent accumulation reinforces its position and signals continued institutional conviction in Bitcoin's long-term value proposition.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_buy",
+        "corporate_treasury",
+        "largest_corporate_holder"
+      ],
+      "rationale": "MicroStrategy's ongoing commitment to accumulating Bitcoin, even amidst price fluctuations, solidifies its role as a major corporate holder. This persistent buying pressure from a significant entity can support price levels and encourage other institutions."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n7ba8b63e1923",
+      "title": "Malaysian Police Arrest Man for Bitcoin Mining Using Stolen Electricity",
+      "url": "https://finance.yahoo.com/news/malaysian-police-arrest-man-bitcoin-120740101.html",
+      "summary": "Malaysian authorities arrested an individual for Bitcoin mining operations that utilized stolen electricity. This incident highlights the ongoing regulatory and legal challenges associated with cryptocurrency mining, particularly concerning energy consumption and illegal practices. Such actions can lead to increased scrutiny and potentially stricter regulations on mining operations globally.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_mining_illegal_electricity",
+        "malaysia_arrest",
+        "mining_regulation_scrutiny"
+      ],
+      "rationale": "Incidents of illegal mining using stolen electricity can lead to negative sentiment and increased regulatory pressure on the mining industry, potentially impacting network security and decentralization."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n662220903257",
+      "title": "El Salvador angrily rejects IMF call to drop Bitcoin use",
+      "url": "https://finance.yahoo.com/news/el-salvador-angrily-rejects-imf-220653433.html",
+      "summary": "El Salvador's government rejected the International Monetary Fund's (IMF) recommendation to drop Bitcoin as legal tender, asserting its decision as a matter of national sovereignty. This defiance signals a strong commitment to its Bitcoin adoption strategy, despite international pressure. The country's stance could encourage other nations to consider similar adoption paths, fostering wider global acceptance of cryptocurrencies.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "El_Salvador_rejects_IMF",
+        "Bitcoin_legal_tender",
+        "national_sovereignty"
+      ],
+      "rationale": "El Salvador's firm stance on maintaining Bitcoin as legal tender, despite IMF pressure, sets a precedent for national adoption. This could embolden other countries and signal a growing trend of sovereign adoption, boosting long-term sentiment."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb3a59d82a9fd",
+      "title": "First Command Financial Services, Inc. Buys Invesco S&P 500 Equal Weight ETF, iShares ...",
+      "url": "https://finance.yahoo.com/news/first-command-financial-services-inc-143803226.html",
+      "summary": "First Command Financial Services, Inc. reported its Q4 2021 holdings, which included purchases of various ETFs and stocks. While the specific mention of 'BTC iShares' is ambiguous and likely refers to a bond ETF, the general trend of financial institutions diversifying their portfolios with ETFs that may indirectly track or be influenced by crypto markets is notable. This indicates a broader integration of digital assets and related financial products into traditional investment strategies.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "financial_services_ETF_buy",
+        "portfolio_diversification",
+        "indirect_crypto_exposure"
+      ],
+      "rationale": "While not directly buying Bitcoin, the inclusion of crypto-related ETFs in institutional portfolios suggests a growing comfort and integration of digital assets into traditional finance, which can be a slow but steady bullish signal."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n55f324f99b5f",
+      "title": "FED Monetary Policy and Geopolitics Sink Bitcoin (BTC)",
+      "url": "https://finance.yahoo.com/news/fed-monetary-policy-geopolitics-sink-054747804.html",
+      "summary": "Bitcoin experienced a significant drop on Friday, ending the day at $42,399, continuing a downward trend. This decline is linked to increased risk aversion across global financial markets following U.S. inflation figures and broader geopolitical concerns. The NASDAQ 100 also saw a substantial fall, indicating a risk-off sentiment impacting growth assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "geopolitics"
+      ],
+      "features_for_model": [
+        "BTC_price_drop_Feb11",
+        "risk_aversion",
+        "geopolitical_tension"
+      ],
+      "rationale": "The combination of hawkish Fed expectations and geopolitical tensions is driving a risk-off sentiment, leading to sell-offs in growth assets like Bitcoin."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n22bf6b582b63",
+      "title": "BlockFi to Pay $100m Penalty in SEC Settlement",
+      "url": "https://finance.yahoo.com/news/blockfi-pay-100m-penalty-sec-091816056.html",
+      "summary": "BlockFi agreed to a $100 million penalty in an SEC settlement, reflecting increased regulatory scrutiny on crypto firms. This action, along with other SEC actions against crypto entities, signals a tightening regulatory environment. Such settlements can create uncertainty and impact investor sentiment in the short term, potentially leading to price volatility.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "BlockFi_SEC_settlement",
+        "regulatory_scrutiny",
+        "crypto_firm_penalty"
+      ],
+      "rationale": "Increased regulatory actions and penalties against crypto firms can create short-term uncertainty and negatively impact market sentiment, potentially leading to price dips."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n6113869e07fc",
+      "title": "Hungary Central Bank Calls for Crypto Mining and Trading Ban",
+      "url": "https://finance.yahoo.com/news/hungary-central-bank-calls-crypto-145357310.html",
+      "summary": "Hungary's Central Bank has called for a ban on crypto mining and trading, citing environmental concerns and the need for more environmentally friendly Proof-of-Stake (PoS) mining. This adds to a growing chorus of negative regulatory sentiment from governments worldwide. Such calls can increase FUD (Fear, Uncertainty, Doubt) and pressure prices in the short term.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "mining"
+      ],
+      "features_for_model": [
+        "Hungary_crypto_ban_call",
+        "mining_regulation",
+        "PoW_environmental_concern"
+      ],
+      "rationale": "Negative regulatory commentary from central banks can increase market uncertainty and lead to short-term price pressure as investors react to potential future restrictions."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nb89f92728a3f",
+      "title": "With Valentine’s Day Approaching, the FBI Warns Issues a Scammer Alert",
+      "url": "https://finance.yahoo.com/news/valentine-day-approaching-fbi-warns-062943958.html",
+      "summary": "The FBI has issued a scammer alert ahead of Valentine's Day, highlighting the prevalence of scams in the crypto space, including phishing, exploits, and malware. North Korea's alleged funding of its missile program through stolen crypto further underscores the illicit activities within the ecosystem. This news can contribute to a general sense of caution and risk aversion among investors.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "FBI_scam_alert",
+        "crypto_illicit_activity",
+        "North_Korea_crypto_funding"
+      ],
+      "rationale": "Heightened awareness of crypto scams and illicit activities, amplified by official warnings, can lead to increased investor caution and a temporary dampening of market sentiment."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n7c1818d51e62",
+      "title": "Melania Trump Buys Melania Trump NFT for $170k",
+      "url": "https://finance.yahoo.com/news/melania-trump-buys-melania-trump-080507472.html",
+      "summary": "NFT trading volumes hit record highs in January, though they have seen a decline in early February. Despite the recent dip, high-profile figures like Melania Trump engaging with the NFT space, even through personal purchases, signals continued mainstream interest. This activity, while not directly impacting Bitcoin's price, contributes to the overall narrative of digital asset adoption.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "Melania_Trump_NFT_buy",
+        "NFT_trading_volume",
+        "celebrity_NFT_adoption"
+      ],
+      "rationale": "While celebrity NFT purchases are a sign of broader digital asset adoption, the immediate impact on Bitcoin price is likely minimal. However, it contributes to the overall positive sentiment around digital collectibles."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n59005e52b943",
+      "title": "Chinese bitcoin miner exodus faces hurdles as equipment remains stuck from shipment delays, tariffs and legal quagmire",
+      "url": "https://finance.yahoo.com/news/chinese-bitcoin-miner-exodus-faces-093000623.html",
+      "summary": "Chinese Bitcoin miners are encountering significant hurdles in relocating their operations, with equipment stuck due to shipment delays, tariffs, and legal complexities. This situation impacts the global distribution of mining power and can lead to temporary disruptions in network hashrate. The difficulties in relocation might also affect the efficiency and cost-effectiveness of mining operations.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "China_miner_exodus_hurdles",
+        "mining_equipment_stuck",
+        "relocation_delays"
+      ],
+      "rationale": "Hurdles in relocating Chinese mining operations could lead to temporary fluctuations in network hashrate, potentially causing minor price volatility. The long-term impact depends on the resolution of these logistical and regulatory challenges."
+    },
+    {
+      "pick_idx": 20,
+      "id": "na58865824852",
+      "title": "Alfa Romeo’s New SUV Comes With an NFT Certificate Attached",
+      "url": "https://finance.yahoo.com/news/alfa-romeo-suv-comes-nft-163011091.html",
+      "summary": "Alfa Romeo is attaching an NFT digital certificate to its new 2023 Tonale SUV, marking a significant step in linking physical assets with blockchain technology. This move by an automaker signifies mainstream adoption of NFTs beyond digital art, potentially increasing interest in the technology and its applications. Such integrations can drive demand for blockchain infrastructure and related tokens.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Alfa_Romeo_NFT_car",
+        "physical_asset_NFT",
+        "blockchain_integration"
+      ],
+      "rationale": "The integration of NFTs with physical assets like cars by a major automaker is a positive sign for broader adoption. While not directly impacting Bitcoin, it strengthens the overall narrative of blockchain utility."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n3872e31f37e3",
+      "title": "The Week Ahead: A Busy Economic Calendar and Geopolitics in Focus",
+      "url": "https://finance.yahoo.com/news/week-ahead-busy-economic-calendar-232219539.html",
+      "summary": "The upcoming week features a busy economic calendar with key data releases including wholesale inflation, retail sales, jobless claims, and FOMC meeting minutes. Geopolitical developments will also remain a focus. These macroeconomic and geopolitical factors are expected to influence market sentiment and potentially impact Bitcoin's price action.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "geopolitics",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "economic_calendar_busy",
+        "geopolitics_focus",
+        "FOMC_minutes"
+      ],
+      "rationale": "Upcoming economic data and ongoing geopolitical tensions create a volatile environment. Investors will be closely watching inflation figures and Fed commentary for potential shifts in monetary policy, which could impact Bitcoin."
+    },
+    {
+      "pick_idx": 1,
+      "id": "na4f3d79dbd0c",
+      "title": "The Weekly Wrap – U.S Inflation Delivers a Dollar Boost",
+      "url": "https://finance.yahoo.com/news/weekly-wrap-u-inflation-delivers-043631002.html",
+      "summary": "The past week saw a quiet economic calendar with a focus on inflation and jobless claims. U.S. inflation accelerated, providing a boost to the dollar. While the overall economic data was mixed, the inflation figures suggest continued inflationary pressures, which could influence the Federal Reserve's monetary policy decisions.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_inflation_acceleration",
+        "dollar_boost",
+        "economic_data_mixed"
+      ],
+      "rationale": "Accelerating US inflation reinforces expectations of Fed rate hikes, which can lead to a risk-off sentiment and pressure on assets like Bitcoin. The dollar's strength also presents a headwind."
+    },
+    {
+      "pick_idx": 13,
+      "id": "na4f3d79dbd0c",
+      "title": "The Weekly Wrap – U.S Inflation Delivers a Dollar Boost",
+      "url": "https://finance.yahoo.com/news/weekly-wrap-u-inflation-delivers-043631002.html",
+      "summary": "The past week saw a quiet economic calendar with a focus on inflation and jobless claims. U.S. inflation accelerated, providing a boost to the dollar. While the overall economic data was mixed, the inflation figures suggest continued inflationary pressures, which could influence the Federal Reserve's monetary policy decisions.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_inflation_acceleration",
+        "dollar_boost",
+        "economic_data_mixed"
+      ],
+      "rationale": "Accelerating US inflation reinforces expectations of Fed rate hikes, which can lead to a risk-off sentiment and pressure on assets like Bitcoin. The dollar's strength also presents a headwind."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-02-12",
+    "summary": "Bitcoin experienced a significant downturn on Friday, driven by a combination of rising US inflation figures, geopolitical tensions, and increased regulatory scrutiny on crypto firms. The market sentiment is leaning bearish as investors de-risk from growth assets. Upcoming economic data and FOMC minutes will be crucial in shaping short-term price action, while long-term institutional adoption trends remain a key bullish driver.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued geopolitical escalation impacting global markets.",
+      "Higher-than-expected inflation data leading to more aggressive Fed tightening.",
+      "Further regulatory crackdowns on crypto exchanges and mining operations.",
+      "Technical breakdown below key support levels, triggering further selling.",
+      "Waning retail interest due to prolonged market downturn."
+    ],
+    "watch_items": [
+      "US CPI and PPI data releases",
+      "FOMC meeting minutes",
+      "Developments in Russia-Ukraine conflict",
+      "Major institutional Bitcoin ETF application decisions",
+      "Hash rate stability and miner behavior"
+    ]
+  }
+}

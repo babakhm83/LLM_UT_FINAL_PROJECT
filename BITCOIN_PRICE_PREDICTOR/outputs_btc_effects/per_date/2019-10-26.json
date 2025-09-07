@@ -1,0 +1,528 @@
+{
+  "date": "2019-10-26",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n0da4d5c4a355",
+      "title": "Bitcoin Charts ‘Death Cross’ After 47% Price Drop From 2019 High",
+      "url": "https://finance.yahoo.com/news/bitcoin-charts-death-cross-47-110016686.html",
+      "summary": "Bitcoin has charted a 'death cross,' a bearish technical indicator where the 50-day moving average crosses below the 200-day moving average, following a 47% price drop from its 2019 high. Historically, death crosses have preceded price bottoms, but this lagging indicator suggests a bearish short-to-medium term outlook. The price needs to move above the Sept. 30 low of $7,714 to invalidate the bearish sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical",
+        "macro"
+      ],
+      "features_for_model": [
+        "death_cross",
+        "MA_50_below_MA_200",
+        "price_drop_47_percent",
+        "technical_bearish"
+      ],
+      "rationale": "The death cross is a significant bearish technical signal that often precedes further price declines. While historical data suggests eventual bottoms, the immediate outlook is negative, impacting investor sentiment and potentially leading to reduced buying pressure."
+    },
+    {
+      "pick_idx": 5,
+      "id": "na3c97b5f45a3",
+      "title": "Investors up their gold holdings for 3rd consecutive month amid trade-war risks",
+      "url": "https://finance.yahoo.com/news/investors-gold-holdings-3rd-consecutive-121012323.html",
+      "summary": "Investor demand for gold has increased for the third consecutive month, driven by U.S.-China trade war risks and anticipated central bank rate cuts. Gold holdings rose significantly in August, with the yellow metal's price up 19% year-to-date. This trend indicates a broader market shift towards safer assets, potentially drawing capital away from riskier assets like cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "safe_haven"
+      ],
+      "features_for_model": [
+        "gold_demand_increase",
+        "trade_war_risk",
+        "rate_cut_anticipation",
+        "safe_haven_asset_rotation"
+      ],
+      "rationale": "The increasing investor preference for gold as a safe-haven asset amid geopolitical and economic uncertainty suggests a risk-off sentiment. This could lead to reduced capital allocation towards riskier assets like Bitcoin, exerting downward pressure on its price."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n9152accda040",
+      "title": "What Billions in Fed Repo Injections Reveal About the Promise of Bitcoin",
+      "url": "https://finance.yahoo.com/news/billions-fed-repo-injections-reveal-080018420.html",
+      "summary": "The Federal Reserve injected $278 billion into the repo market to address liquidity needs, marking its first intervention in this interbank market in years. This action highlights potential liquidity strains in traditional finance, which proponents argue underscores Bitcoin's value proposition as a decentralized, non-sovereign store of value and medium of exchange, potentially attracting capital seeking an alternative to fiat instability.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "infrastructure",
+        "safe_haven"
+      ],
+      "features_for_model": [
+        "Fed_repo_injection",
+        "liquidity_strain",
+        "decentralized_finance_appeal",
+        "store_of_value_narrative"
+      ],
+      "rationale": "Significant Fed repo operations signal potential underlying stress in the traditional financial system. This could bolster Bitcoin's narrative as a hedge against fiat currency devaluation and systemic risk, attracting institutional and retail interest seeking alternative assets."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n448351f9467f",
+      "title": "Equity Trust Partners with International Depository Services for IRA Bullion Storage Solution",
+      "url": "https://finance.yahoo.com/news/equity-trust-partners-international-depository-213000533.html",
+      "summary": "Equity Trust Company, a custodian for self-directed IRAs, has partnered with International Depository Services Group for bullion storage. This move expands IRA-eligible asset options, potentially increasing demand for precious metals within retirement accounts. While not directly crypto-related, it reflects growing institutional interest in alternative asset storage and management, which could eventually extend to digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "IRA_bullion_storage",
+        "custodian_partnership",
+        "alternative_asset_storage"
+      ],
+      "rationale": "This partnership signals a broader trend of institutional adoption of alternative assets within traditional investment vehicles like IRAs. While focused on precious metals, it lays groundwork for potential future integration of digital assets into such structures, indicating a maturing market."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nf4d55610dbb9",
+      "title": "CFTC says cryptocurrency ether is a commodity, and ether futures are next",
+      "url": "https://finance.yahoo.com/news/cftc-says-cryptocurrency-ether-is-a-commodity-and-is-open-to-ether-derivatives-133455545.html",
+      "summary": "CFTC Chairman Heath Tarbert declared that ether (ETH) is a commodity, aligning it with Bitcoin's classification. This regulatory clarity is a significant step, paving the way for potential ether futures trading in the U.S. Such developments can increase institutional participation and market depth for ETH, potentially benefiting the broader crypto market by establishing clearer regulatory frameworks.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "derivatives"
+      ],
+      "features_for_model": [
+        "CFTC_ether_commodity",
+        "ether_futures_approval",
+        "regulatory_clarity_ETH",
+        "institutional_adoption_ETH"
+      ],
+      "rationale": "The CFTC's classification of Ether as a commodity provides crucial regulatory clarity. This is likely to attract institutional investors seeking regulated products and could lead to increased liquidity and price discovery for Ether, positively impacting the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n4aba2aabb5ae",
+      "title": "Russia rejects national cryptocurrency",
+      "url": "https://finance.yahoo.com/news/russia-rejects-national-cryptocurrency-082554803.html",
+      "summary": "Russia's central bank has rejected the idea of developing a national digital currency, deeming it not advantageous for the country's economy. This decision contrasts with earlier considerations and suggests a cautious approach to state-backed digital currencies. While not directly impacting Bitcoin, it reflects a nuanced regulatory landscape for digital assets globally.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Russia_rejects_CBDC",
+        "national_digital_currency_stance",
+        "regulatory_caution"
+      ],
+      "rationale": "Russia's decision to reject a national cryptocurrency indicates a cautious stance on state-controlled digital currencies. This could indirectly signal a preference for private cryptocurrencies or a more measured approach to digital asset regulation, creating an uncertain environment for adoption."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n8c461bb93ae2",
+      "title": "New Data Gives Unprecedented Insight Into How Iranians Use Bitcoin",
+      "url": "https://finance.yahoo.com/news/data-gives-unprecedented-insight-iranians-090005639.html",
+      "summary": "A survey of Iranian Bitcoin users reveals that 25% earn $500-$3,000 monthly from crypto, with 35% mining and 58% trading. This data highlights Bitcoin's role as a significant income source and store of value in Iran, potentially driven by economic conditions. Such adoption in regions facing economic challenges can be a long-term bullish indicator for cryptocurrency usage.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "usage"
+      ],
+      "features_for_model": [
+        "Iran_bitcoin_adoption",
+        "crypto_income_generation",
+        "store_of_value_use_case",
+        "economic_hedging"
+      ],
+      "rationale": "Significant adoption and income generation from Bitcoin in Iran, likely due to economic pressures, demonstrates its utility as a financial tool. This real-world usage in challenging environments strengthens the long-term adoption narrative for cryptocurrencies."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n7386d7fcaac4",
+      "title": "Tether releases new stablecoin pegged to Chinese yuan",
+      "url": "https://finance.yahoo.com/news/tether-releases-stablecoin-pegged-chinese-200154723.html",
+      "summary": "Tether has launched a new stablecoin, CNHT, pegged to the offshore Chinese yuan (CNH) and running on the Ethereum blockchain. This expansion into a major fiat currency aims to facilitate the digital use of yuan and potentially increase liquidity and trading pairs within the crypto market. It reflects growing efforts to bridge traditional finance with digital assets.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "Tether_CNHT_launch",
+        "yuan_stablecoin",
+        "Ethereum_ERC20",
+        "cross_border_liquidity"
+      ],
+      "rationale": "The introduction of a yuan-pegged stablecoin by Tether enhances market infrastructure by providing a new on-ramp/off-ramp for Chinese capital and increasing trading options. This can lead to greater liquidity and potentially attract more users and capital into the crypto ecosystem."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n850c3c30ca47",
+      "title": "Roger Ver’s firm preparing to launch derivative for bitcoin cash",
+      "url": "https://finance.yahoo.com/news/roger-ver-firm-preparing-launch-051506571.html",
+      "summary": "Bitcoin.com, backed by Roger Ver, is preparing to launch a futures contract for Bitcoin Cash (BCH). The firm is in talks to list a BCH derivatives product on a CFTC-regulated exchange. This move aims to provide regulated trading opportunities for BCH in the U.S., potentially increasing institutional interest and market depth for the altcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "derivatives",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BCH_futures_launch",
+        "Roger_Ver_Bitcoin.com",
+        "CFTC_regulated_exchange",
+        "altcoin_derivatives"
+      ],
+      "rationale": "The development of regulated derivatives for Bitcoin Cash could attract institutional capital and increase trading volume for BCH. This signifies a maturing market for altcoins and provides a pathway for more sophisticated investment strategies."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nba59e24ccce8",
+      "title": "VanEck, SolidX Pull Out Bitcoin ETF Proposal From SEC Review",
+      "url": "https://finance.yahoo.com/news/vaneck-solidx-pull-bitcoin-etf-170005506.html",
+      "summary": "CBOE BZX Exchange withdrew the VanEck/SolidX Bitcoin ETF proposal from SEC review, marking the second withdrawal for the firms. This decision comes ahead of the SEC's final deadline and signals continued regulatory hurdles for a spot Bitcoin ETF in the U.S. The repeated setbacks dampen immediate prospects for institutional inflows via a regulated ETF product.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Bitcoin_ETF_withdrawal",
+        "SEC_review_halted",
+        "VanEck_SolidX",
+        "institutional_inflow_barrier"
+      ],
+      "rationale": "The withdrawal of the Bitcoin ETF proposal is a significant setback for institutional adoption in the U.S. It indicates ongoing regulatory uncertainty and delays the potential for substantial capital inflows that a spot ETF could unlock, creating a bearish sentiment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "neb1255d790c6",
+      "title": "European Equities: A Week in Review – 25/10/19",
+      "url": "https://finance.yahoo.com/news/european-equities-week-review-25-004619286.html",
+      "summary": "European equities showed strength, with the DAX30, EuroStoxx600, and CAC40 posting gains. Positive sentiment was partly driven by progress in U.S.-China trade talks. The market displayed resilience despite weak German economic data, indicating a broader risk-on sentiment that could spill over into other markets.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "equities"
+      ],
+      "features_for_model": [
+        "European_equities_rally",
+        "US_China_trade_progress",
+        "risk_on_sentiment"
+      ],
+      "rationale": "Positive sentiment in European equities, driven by trade deal optimism, suggests a broader risk-on environment. This could lead to increased investor appetite for riskier assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne5ffd3a208c2",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 26/10/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-012523298.html",
+      "summary": "Bitcoin Cash ABC experienced a significant rally of 21.96% on Friday, breaking through major resistance levels. Despite a late pullback, it held above key support. This strong upward momentum in a major altcoin could indicate renewed bullish sentiment in the broader crypto market.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin",
+        "technical"
+      ],
+      "features_for_model": [
+        "BCH_ABC_rally_21.96",
+        "altcoin_momentum",
+        "resistance_breakout"
+      ],
+      "rationale": "The substantial rally in Bitcoin Cash ABC, breaking key resistance levels, suggests a potential shift in market sentiment. This altcoin strength could lead to positive spillover effects on Bitcoin and other cryptocurrencies in the immediate short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nde399ed335e7",
+      "title": "The Crypto Daily – Movers and Shakers -26/10/19",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-26-014925921.html",
+      "summary": "Bitcoin saw a significant rally of 16.5% on Friday, reaching a two-week high after an initial dip. It broke through major resistance levels, indicating strong buying pressure. Despite a late pullback, Bitcoin maintained its position above key support, suggesting a bullish short-term trend.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "BTC",
+        "technical",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_rally_16.5",
+        "two_week_high",
+        "resistance_breakout",
+        "short_term_bullish"
+      ],
+      "rationale": "Bitcoin's strong upward move and breach of resistance levels on Friday indicate significant buying interest. This price action suggests a bullish short-term outlook, with potential for further upside in the coming days."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n9fb511a848c1",
+      "title": "What is a blockchain phone? A look at 7 current and upcoming crypto handsets",
+      "url": "https://finance.yahoo.com/news/blockchain-phone-look-7-current-120944631.html",
+      "summary": "The niche of blockchain-focused smartphones is expanding, with devices like HTC's Exodus S1 emphasizing enhanced security for crypto and dApps. While these phones cater to a specific segment, their development signifies growing integration of blockchain technology into consumer electronics, potentially boosting adoption and awareness.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "hardware"
+      ],
+      "features_for_model": [
+        "blockchain_phone",
+        "crypto_handset",
+        "decentralized_apps_support",
+        "consumer_electronics_integration"
+      ],
+      "rationale": "The increasing availability of blockchain phones indicates a growing trend towards integrating crypto-native features into consumer hardware. This could gradually increase adoption and awareness, providing a subtle bullish tailwind for the ecosystem."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ndf8e9053f40b",
+      "title": "How Facebook’s Libra would work: Yahoo U",
+      "url": "https://finance.yahoo.com/news/how-facebooks-libra-would-work-yahoo-u-153549088.html",
+      "summary": "Facebook CEO Mark Zuckerberg testified about Libra, emphasizing it as a payment system rather than currency. The project faces significant regulatory scrutiny globally. While Libra's direct impact on Bitcoin is debated, its development and regulatory challenges highlight the evolving landscape of digital currencies and the scrutiny they face.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "stablecoin",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Facebook_Libra",
+        "regulatory_scrutiny",
+        "payment_system_classification",
+        "digital_currency_landscape"
+      ],
+      "rationale": "The ongoing regulatory scrutiny of Facebook's Libra project creates uncertainty. While it could eventually drive adoption of digital payments, the immediate focus on regulatory challenges might distract from or even negatively influence sentiment towards other crypto projects."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n23407447f931",
+      "title": "How long will this Bitcoin bull roar?",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-briefly-smashed-10k-100853942.html",
+      "summary": "Bitcoin experienced extreme volatility, dropping to $7,400 before recovering to $10,350, partly influenced by China's President Xi Jinping's comments on blockchain leadership. This surge, potentially fueled by speculation around China's embrace of blockchain, has traders questioning its sustainability and origin.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "BTC",
+        "volatility",
+        "macro",
+        "geopolitics"
+      ],
+      "features_for_model": [
+        "BTC_extreme_volatility",
+        "China_blockchain_support",
+        "speculative_rally",
+        "geopolitical_influence"
+      ],
+      "rationale": "China's positive remarks on blockchain technology have coincided with a sharp Bitcoin rally, suggesting a potential geopolitical catalyst. However, the sustainability of this rally is uncertain, making the short-term outlook volatile and dependent on further developments."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ne5ffd3a208c2",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 26/10/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-012523298.html",
+      "summary": "Bitcoin Cash ABC rallied significantly on Friday, breaking through resistance levels and reaching near the 23.6% Fibonacci retracement. Despite a late pullback, it held above key support, indicating strong short-term buying pressure and potential for further upward movement.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin",
+        "technical"
+      ],
+      "features_for_model": [
+        "BCH_ABC_technical_strength",
+        "FIB_retracement_level",
+        "short_term_buying_pressure"
+      ],
+      "rationale": "The strong technical performance of Bitcoin Cash ABC, including breaking resistance and holding support, suggests positive momentum. This could influence other altcoins and Bitcoin, creating a bullish short-term trading environment."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n23407447f931",
+      "title": "How long will this Bitcoin bull roar?",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-briefly-smashed-10k-100853942.html",
+      "summary": "Bitcoin experienced a highly volatile week, with a sharp drop followed by a significant recovery, potentially influenced by China's positive stance on blockchain. This rapid price action has led to speculation about market manipulation versus genuine adoption drivers, creating short-term uncertainty.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "BTC",
+        "volatility",
+        "geopolitics"
+      ],
+      "features_for_model": [
+        "BTC_volatile_week",
+        "China_blockchain_sentiment",
+        "market_manipulation_speculation",
+        "geopolitical_catalyst"
+      ],
+      "rationale": "The extreme volatility and the potential influence of Chinese policy on Bitcoin's price create a highly uncertain short-term outlook. Traders should be cautious, as the market may react sharply to further news or shifts in sentiment."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nde399ed335e7",
+      "title": "The Crypto Daily – Movers and Shakers -26/10/19",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-26-014925921.html",
+      "summary": "Bitcoin rallied 16.5% on Friday, reaching a two-week high and breaking through major resistance levels. Despite a late pullback, it held above key support, indicating strong buying pressure. This suggests a bullish short-term trend, with potential for continued upward movement.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "BTC",
+        "technical",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "resistance_break",
+        "short_term_bullish_trend",
+        "buying_pressure"
+      ],
+      "rationale": "Bitcoin's strong Friday performance, marked by a significant rally and breakout of resistance, points to bullish momentum. This could sustain in the short term, attracting more buyers and potentially pushing prices higher."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n23407447f931",
+      "title": "How long will this Bitcoin bull roar?",
+      "url": "https://finance.yahoo.com/news/why-bitcoin-briefly-smashed-10k-100853942.html",
+      "summary": "Bitcoin experienced extreme volatility this week, with a sharp drop followed by a significant recovery, potentially influenced by China's positive stance on blockchain. This rapid price action has led to speculation about market manipulation versus genuine adoption drivers, creating short-term uncertainty.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "BTC",
+        "volatility",
+        "geopolitics"
+      ],
+      "features_for_model": [
+        "BTC_volatility",
+        "China_blockchain_news",
+        "speculative_drivers",
+        "short_term_uncertainty"
+      ],
+      "rationale": "The recent sharp price swings in Bitcoin, potentially linked to geopolitical news from China, create a highly volatile and uncertain short-term environment. Traders should monitor these developments closely as they could lead to further rapid price movements."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-10-26",
+    "summary": "Bitcoin experienced extreme volatility this week, with a sharp drop followed by a significant recovery, potentially influenced by China's positive stance on blockchain. This rapid price action has led to speculation about market manipulation versus genuine adoption drivers, creating short-term uncertainty. Strong rallies in altcoins like Bitcoin Cash ABC suggest potential bullish momentum, while the withdrawal of a Bitcoin ETF proposal in the US remains a long-term bearish factor. Global equity markets showed strength, indicating a general risk-on sentiment.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued volatility due to speculative trading and geopolitical influences (China's blockchain stance).",
+      "Regulatory uncertainty surrounding crypto assets, exemplified by the Bitcoin ETF withdrawal.",
+      "Potential for a sharp reversal after the recent rapid price surge.",
+      "Weakening global economic outlook could shift sentiment back to safe-haven assets."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $8,600-$8,800 resistance levels.",
+      "Developments regarding China's blockchain initiatives.",
+      "SEC statements or actions on crypto ETFs.",
+      "Performance of major altcoins following Bitcoin's lead."
+    ]
+  }
+}

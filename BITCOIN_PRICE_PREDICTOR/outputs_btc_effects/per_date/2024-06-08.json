@@ -1,0 +1,472 @@
+{
+  "date": "2024-06-08",
+  "long_term": [
+    {
+      "pick_idx": 7,
+      "id": "nf8a522247433",
+      "title": "Grayscale Bitcoin Trust ETF Breaks 11-Week Outflow Streak with $63M Inflows",
+      "url": "https://finance.yahoo.com/news/grayscale-bitcoin-trust-etf-breaks-043235619.html",
+      "summary": "The Grayscale Bitcoin Trust ETF (GBTC) saw its first positive inflows ($63 million) after an 11-week streak of outflows. This shift suggests a potential stabilization or renewed interest in GBTC, which had been a significant source of Bitcoin outflows following the approval of competing spot Bitcoin ETFs. Despite outflows, GBTC remains the largest spot Bitcoin ETF by assets, holding approximately 297,000 BTC.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "GBTC_inflows",
+        "ETF_stabilization",
+        "spot_ETF_competition"
+      ],
+      "rationale": "The end of sustained outflows from a major Bitcoin ETF like GBTC indicates a potential shift in investor sentiment. This could signal increased demand and reduced selling pressure, supporting a more positive price trend for Bitcoin over the medium term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n7d672219020e",
+      "title": "Spot Bitcoin ETFs: A Supply Crunch Waiting to Happen?",
+      "url": "https://finance.yahoo.com/news/spot-bitcoin-etfs-supply-crunch-120029695.html",
+      "summary": "The article discusses the dynamic where demand for Bitcoin from U.S.-listed spot Bitcoin ETFs is outstripping new creations, raising concerns about potential structural issues, especially post-halving. The rapid asset gathering by ETFs, led by iShares Bitcoin Trust (IBIT), has a mechanical impact on Bitcoin's market. The pace of inflows may need to moderate to avoid supply constraints.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "infrastructure",
+        "macro"
+      ],
+      "features_for_model": [
+        "ETF_demand_vs_supply",
+        "halving_impact",
+        "IBIT_assets"
+      ],
+      "rationale": "Strong ETF demand coupled with reduced new supply post-halving creates a scenario for a potential supply crunch. This imbalance could drive significant price appreciation for Bitcoin as demand continues to outpace available supply."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n5dd9d7cdf217",
+      "title": "Bitcoin Could Slump Around Reward Halving Time, Arthur Hayes Says",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-slump-around-reward-081823562.html",
+      "summary": "Arthur Hayes predicts potential selling pressure for Bitcoin around the halving event, suggesting the bullish impact might already be priced in. He also points to U.S. tax payments potentially draining dollar liquidity, increasing risk aversion and leading to a sell-off in risk assets. This suggests a short-term bearish outlook due to macro factors and market sentiment around the halving.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "halving",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "halving_selloff_risk",
+        "tax_payment_liquidity_drain",
+        "risk_aversion"
+      ],
+      "rationale": "The combination of potential tax-related liquidity drains and the market's potential over-anticipation of the halving's bullish effects could lead to a short-term price correction for Bitcoin."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nafd5a8f63043",
+      "title": "Bitcoin's Post-Halving Demand to Be 5x Greater Than Supply, Bitfinex Estimates",
+      "url": "https://finance.yahoo.com/news/bitcoins-post-halving-demand-5x-072236110.html",
+      "summary": "Bitfinex analysts estimate that post-halving, Bitcoin's demand could be five times greater than its new supply. The daily new BTC supply is projected to drop to $30 million, which is less than half the average daily inflows into spot ETFs. The report also notes an increase in investors taking direct custody of their coins.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "halving",
+        "ETF",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "post_halving_demand_supply_ratio",
+        "ETF_inflows_vs_supply",
+        "direct_custody_trend"
+      ],
+      "rationale": "A significant imbalance between demand (driven by ETFs) and reduced supply post-halving suggests strong upward price pressure. Increased direct custody also indicates a long-term holding sentiment among investors."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n23f4bac36645",
+      "title": "Franklin Templeton Adds AI, Blockchain to Metaverse ETF",
+      "url": "https://finance.yahoo.com/news/franklin-templeton-adds-ai-blockchain-120000673.html",
+      "summary": "Franklin Templeton is expanding its metaverse ETF to include exposure to artificial intelligence and blockchain technology. The fund, renamed the Franklin AI, Metaverse and Blockchain UCITS ETF, will increase its portfolio to 75 companies, focusing on metaverse ecosystem, blockchain technology, digital asset platforms, and AI applications. This move broadens the ETF's scope to capture growth in related tech sectors.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "AI_blockchain_ETF",
+        "metaverse_expansion",
+        "institutional_tech_exposure"
+      ],
+      "rationale": "The inclusion of blockchain technology in a major ETF managed by Franklin Templeton signals growing institutional acceptance and investment in the sector, potentially driving broader adoption and capital flows into crypto-related assets."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n4a258fdfdbed",
+      "title": "BlackRock's Bitcoin ETF Dominates Market with Nearly $20B in Assets: Report",
+      "url": "https://finance.yahoo.com/news/blackrocks-bitcoin-etf-dominates-market-182703635.html",
+      "summary": "BlackRock's iShares Bitcoin Trust (IBIT) has become the largest Bitcoin ETF globally, holding nearly $20 billion in assets, surpassing Grayscale's GBTC. Fidelity's Bitcoin ETF ranks third. The success of these ETFs, launched in January, has made Bitcoin more accessible and contributed to its price reaching record highs.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "IBIT_AUM",
+        "ETF_market_share",
+        "institutional_adoption"
+      ],
+      "rationale": "The significant asset accumulation by BlackRock's Bitcoin ETF demonstrates strong institutional demand and confidence. This sustained inflow of capital into Bitcoin via regulated products is a powerful bullish signal for long-term price appreciation."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n1fe5467ff3ca",
+      "title": "Hong Kong Spot Bitcoin and Ether ETFs Garner Over $200 Million in Debut",
+      "url": "https://finance.yahoo.com/news/hong-kong-spot-bitcoin-ether-052901694.html",
+      "summary": "Hong Kong's spot Bitcoin and Ether ETFs launched on April 30, attracting over $200 million in total assets. The Bosera HashKey ETFs accumulated $71.94 million, while ChinaAMC's ETFs gathered $123.61 million. While this figure is smaller than U.S. ETF debuts, it represents a significant step for crypto adoption in Asia.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "HK_ETF_launch",
+        "Asian_crypto_adoption",
+        "BTC_ETH_ETF_inflows"
+      ],
+      "rationale": "The successful launch of spot Bitcoin and Ether ETFs in Hong Kong signifies expanding global institutional access to cryptocurrencies. This development can attract new capital and further legitimize digital assets in Asian markets."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n9bbcceacd111",
+      "title": "3 Recent IPOs to Buy Now: Reddit, ARM, IBIT Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/3-recent-ipos-buy-now-143700535.html",
+      "summary": "The article highlights recent IPOs, including the iShares Bitcoin ETF (IBIT), as a key investment opportunity. It emphasizes that monitoring the IPO market helps gauge market health and identify new trends. The inclusion of IBIT alongside tech IPOs like Reddit and ARM suggests a growing integration of digital assets into traditional investment portfolios.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "IBIT_IPO_listing",
+        "crypto_in_traditional_finance",
+        "market_trend_identification"
+      ],
+      "rationale": "The classification of the IBIT Bitcoin ETF as a significant IPO alongside major tech companies underscores its importance and growing acceptance within traditional finance. This integration is likely to drive further capital into Bitcoin."
+    },
+    {
+      "pick_idx": 49,
+      "id": "ne45616c544a2",
+      "title": "3 Reasons to Buy Bitcoin Like There's No Tomorrow",
+      "url": "https://finance.yahoo.com/news/3-reasons-buy-bitcoin-theres-152100555.html",
+      "summary": "The article argues for buying Bitcoin due to its proven role and potential to provide safe exposure to the crypto market. It highlights Bitcoin's fourth halving event on April 19 as a foundational element of its scarcity. The author expresses a strong conviction in Bitcoin's future, suggesting it's a core holding for crypto exposure.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "halving",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "buy_bitcoin_thesis",
+        "halving_scarcity",
+        "crypto_core_holding"
+      ],
+      "rationale": "The article emphasizes Bitcoin's unique position as a scarce digital asset, reinforced by the halving event. This inherent scarcity, combined with its established role, provides a strong long-term bullish case for the cryptocurrency."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n6a9a7f480853",
+      "title": "Donald Trump Claims Profit From 'Crazy New Currencies' — Here's A Look At The Cryptos He Own",
+      "url": "https://finance.yahoo.com/news/donald-trump-claims-profit-crazy-153408156.html",
+      "summary": "Former President Donald Trump has shifted his stance on cryptocurrency, moving from calling it a \"disaster\" to expressing openness and even claiming profit. His positive remarks, especially in the context of upcoming elections, could influence public perception and adoption. His willingness to engage with crypto signals a potential shift in political attitudes towards digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Trump_crypto_stance",
+        "political_sentiment_crypto",
+        "election_impact_crypto"
+      ],
+      "rationale": "A prominent political figure like Donald Trump expressing positive sentiment towards crypto can significantly influence mainstream adoption and regulatory discussions, potentially creating a more favorable environment for Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n49bf7788cb89",
+      "title": "Stock market today: US indexes drop after big May jobs report resets rate-cut outlooks",
+      "url": "https://finance.yahoo.com/news/stock-market-today-us-indexes-042354784.html",
+      "summary": "The May jobs report showed 272,000 jobs added, significantly exceeding expectations and causing a reassessment of Federal Reserve interest rate cut timelines. This strong labor market data suggests a cooling economy is not yet evident, potentially leading to a 'higher for longer' interest rate environment.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "jobs_report_surprise",
+        "rate_cut_reassessment",
+        "hawkish_fed_outlook"
+      ],
+      "rationale": "A stronger-than-expected jobs report typically dampens expectations for immediate interest rate cuts, which can lead to reduced liquidity and risk appetite, negatively impacting crypto prices."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n8b9f8003732d",
+      "title": "The Ultimate Cryptocurrency to Buy With $1,000 in June",
+      "url": "https://finance.yahoo.com/news/ultimate-cryptocurrency-buy-1-000-081600840.html",
+      "summary": "Ethereum is highlighted as a top crypto pick for June due to regulatory acceptance, its deflationary nature, and dominance in DeFi. The article mentions the SEC's recent actions regarding Ethereum ETFs as a positive development for regulatory clarity.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_ETF_approval_sentiment",
+        "DeFi_dominance",
+        "deflationary_tokenomics"
+      ],
+      "rationale": "Positive sentiment around potential regulatory acceptance for Ethereum, coupled with its strong DeFi presence, could drive short-term price appreciation as investors anticipate further developments."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n3217870cdd4a",
+      "title": "2 Millionaire-Maker Fintech Stocks",
+      "url": "https://finance.yahoo.com/news/2-millionaire-maker-fintech-stocks-083800481.html",
+      "summary": "The article discusses Bitcoin as a fintech investment, noting its historical performance and potential for high upside. It frames Bitcoin as a fintech stock with massive growth potential, referencing its significant gains since inception.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_as_fintech",
+        "high_growth_potential",
+        "historical_performance"
+      ],
+      "rationale": "Framing Bitcoin as a fintech stock with millionaire-making potential could attract traditional investors, potentially increasing demand and price in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1102371e462c",
+      "title": "1 Top Cryptocurrency to Buy in June Before It Potentially Skyrockets in Value",
+      "url": "https://finance.yahoo.com/news/1-top-cryptocurrency-buy-june-084800194.html",
+      "summary": "Solana (SOL) is highlighted as a cryptocurrency with strong catalysts for growth in June, including the potential impact of spot ETFs. Solana has kept pace with Bitcoin and Ethereum year-to-date, and the article suggests that spot Solana ETFs could provide a significant boost.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SOL_ETF_potential",
+        "ecosystem_growth",
+        "altcoin_performance"
+      ],
+      "rationale": "Anticipation of potential spot Solana ETFs, similar to the impact seen with Bitcoin ETFs, could drive speculative buying and short-term price increases for SOL."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n4113dd14c6c8",
+      "title": "Forget Bitcoin: 3 Cryptocurrencies to Consider Instead",
+      "url": "https://finance.yahoo.com/news/forget-bitcoin-3-cryptocurrencies-consider-112700793.html",
+      "summary": "The article suggests that while Bitcoin has been trading sideways, other cryptocurrencies like Ethereum, Fetch.ai, and Cosmos have strong catalysts. It implies a potential rotation of capital away from Bitcoin towards altcoins with more immediate growth drivers.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "altcoin",
+        "market_rotation"
+      ],
+      "features_for_model": [
+        "altcoin_rotation",
+        "BTC_sideways_trading",
+        "emerging_catalysts"
+      ],
+      "rationale": "A narrative suggesting a shift away from Bitcoin towards altcoins could lead to short-term volatility for Bitcoin as capital potentially reallocates."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n4cb8ed7c5993",
+      "title": "Is This Cryptocurrency ETF a No-Brainer Buy?",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-etf-no-brainer-buy-115700085.html",
+      "summary": "The article discusses the accessibility of Bitcoin via ETFs for mainstream investors, including in retirement accounts. It highlights the familiarity and ease of use of the ETF format compared to direct crypto trading platforms, suggesting ETFs are a key driver for broader adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETF_accessibility",
+        "mainstream_adoption",
+        "familiar_investment_format"
+      ],
+      "rationale": "Increased accessibility and familiarity of Bitcoin through ETFs can attract new capital and boost liquidity, providing a short-term positive catalyst for Bitcoin's price."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n094081627850",
+      "title": "Is Bitcoin On Track to Make a Big Move and Hit $100,000 in 2024?",
+      "url": "https://finance.yahoo.com/news/bitcoin-track-big-move-hit-150300591.html",
+      "summary": "The article explores the possibility of Bitcoin reaching $100,000 in 2024, citing its historical performance and current price around $70,000. It suggests that based on past trends, achieving this milestone is increasingly likely, though the exact timing remains uncertain.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_target",
+        "100k_prediction",
+        "historical_performance_analogy"
+      ],
+      "rationale": "Positive price targets and market narratives around Bitcoin reaching $100,000 can create bullish sentiment and encourage buying activity in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n4113dd14c6c8",
+      "title": "Forget Bitcoin: 3 Cryptocurrencies to Consider Instead",
+      "url": "https://finance.yahoo.com/news/forget-bitcoin-3-cryptocurrencies-consider-112700793.html",
+      "summary": "The article suggests that while Bitcoin has been trading sideways, other cryptocurrencies like Ethereum, Fetch.ai, and Cosmos have strong catalysts. It implies a potential rotation of capital away from Bitcoin towards altcoins with more immediate growth drivers.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "altcoin",
+        "market_rotation"
+      ],
+      "features_for_model": [
+        "altcoin_rotation",
+        "BTC_sideways_trading",
+        "emerging_catalysts"
+      ],
+      "rationale": "A narrative suggesting a shift away from Bitcoin towards altcoins could lead to short-term volatility for Bitcoin as capital potentially reallocates."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n094081627850",
+      "title": "Is Bitcoin On Track to Make a Big Move and Hit $100,000 in 2024?",
+      "url": "https://finance.yahoo.com/news/bitcoin-track-big-move-hit-150300591.html",
+      "summary": "The article explores the possibility of Bitcoin reaching $100,000 in 2024, citing its historical performance and current price around $70,000. It suggests that based on past trends, achieving this milestone is increasingly likely, though the exact timing remains uncertain.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_target",
+        "100k_prediction",
+        "historical_performance_analogy"
+      ],
+      "rationale": "Positive price targets and market narratives around Bitcoin reaching $100,000 can create bullish sentiment and encourage buying activity in the short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nfd0bbd88fa0f",
+      "title": "Bitrue First Exchange to Support Blast Network With Pacmoon ($PAC) Listing",
+      "url": "https://finance.yahoo.com/news/bitrue-first-exchange-support-blast-100100198.html",
+      "summary": "Bitrue exchange has integrated the Blast layer 2 network and listed the Pacmoon community token (PAC). This makes Bitrue the first exchange to support the Blast network, potentially increasing its visibility and utility. The listing could drive trading volume and interest in the Blast ecosystem.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "listing",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Blast_network_support",
+        "PAC_token_listing",
+        "exchange_integration"
+      ],
+      "rationale": "While a new listing can generate short-term hype, the impact on Bitcoin is indirect and depends on the broader adoption and success of the Blast network and its associated tokens."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-06-08",
+    "summary": "The market is reacting to a stronger-than-expected May jobs report, which is dampening expectations for near-term Fed rate cuts and potentially leading to a risk-off sentiment. This macro backdrop is a headwind for Bitcoin and other cryptocurrencies. However, ongoing positive developments in the ETF space, such as continued inflows into spot Bitcoin ETFs and the potential for Ethereum ETFs, provide underlying support. The narrative around Bitcoin's post-halving supply crunch and institutional adoption remains a strong long-term bullish factor.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Persistent inflation data leading to delayed Fed rate cuts.",
+      "Increased regulatory scrutiny on crypto assets.",
+      "Potential for large altcoin token unlocks to create selling pressure.",
+      "Geopolitical instability impacting global risk sentiment."
+    ],
+    "watch_items": [
+      "US CPI data releases",
+      "Federal Reserve statements and meeting minutes",
+      "Flows into spot Bitcoin and Ethereum ETFs",
+      "Developments in the Solana ETF narrative",
+      "Meme stock movements (e.g., GameStop, AMC) for sentiment indicators"
+    ]
+  }
+}

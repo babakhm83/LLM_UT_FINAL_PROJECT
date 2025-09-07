@@ -1,0 +1,509 @@
+{
+  "date": "2018-04-20",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n5b5ee544ae02",
+      "title": "Morgan Stanley is looking to staff up its stock-research unit with crypto talent",
+      "url": "https://finance.yahoo.com/news/morgan-stanley-looking-staff-stock-123855161.html",
+      "summary": "Morgan Stanley is actively seeking to hire individuals with knowledge of the cryptocurrency space for its stock-research team. This indicates a growing institutional interest and a desire to understand and potentially cover digital assets within traditional finance. The bank's CEO has shown a more positive stance on crypto compared to some peers, suggesting a potential shift in Wall Street's approach to the asset class.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_adoption",
+        "Wall_Street_interest",
+        "crypto_research"
+      ],
+      "rationale": "Increased institutional engagement, even at the research level, signals growing acceptance and potential for future investment in cryptocurrencies. This trend can lead to greater legitimacy and adoption over time."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n042b1d2b4a56",
+      "title": "Bitmain Has Developed an Ethereum ASIC Miner, Wall Street Analyst Claims",
+      "url": "https://finance.yahoo.com/news/bitmain-developed-ethereum-asic-miner-194845158.html",
+      "summary": "A Wall Street analyst claims that Bitmain, a major cryptocurrency mining hardware manufacturer, is close to releasing Ethereum ASIC miners. This development could significantly impact Ethereum mining by increasing efficiency and potentially centralizing mining power. The news also led to price target reductions for chipmakers Nvidia and AMD, suggesting a direct link between crypto mining hardware and traditional tech stocks.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Ethereum_ASIC_miner",
+        "Bitmain",
+        "mining_efficiency",
+        "Nvidia_AMD_impact"
+      ],
+      "rationale": "The introduction of specialized hardware for Ethereum mining could boost network efficiency but also raise concerns about mining centralization. This could influence the competitive landscape for mining hardware and potentially impact the profitability of GPU miners."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n73e3cb75373f",
+      "title": "ABA Tax Experts Ask IRS to Create Safe Harbor for Cryptocurrency Hard Forks",
+      "url": "https://finance.yahoo.com/news/aba-tax-experts-ask-irs-214136357.html",
+      "summary": "The American Bar Association (ABA) Section of Taxation has requested the IRS to establish a safe harbor for reporting gains from cryptocurrency hard forks. This highlights the evolving regulatory landscape and the need for clearer tax guidance on new digital asset events. The ABA's involvement suggests a push for more defined rules that could impact how investors are taxed on new token issuances.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ABA_tax_guidance",
+        "IRS_safe_harbor",
+        "crypto_hard_forks",
+        "tax_regulation"
+      ],
+      "rationale": "Clearer tax regulations, especially regarding hard forks, would reduce uncertainty for investors and potentially encourage broader adoption by providing a more predictable framework for managing digital assets."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n0fa874094105",
+      "title": "Over $60 billion wiped off value of cryptocurrencies in 24 hours as bitcoin slide continues",
+      "url": "https://finance.yahoo.com/news/over-60-billion-wiped-off-095700926.html",
+      "summary": "The cryptocurrency market experienced a significant downturn, with over $60 billion in value lost within 24 hours. This decline was attributed to increased regulatory scrutiny and Google's decision to ban cryptocurrency-related advertising. The slide was also partly blamed on large sell-offs from a trustee of the defunct Mt. Gox exchange. Bitcoin's price recovered slightly to $8,219.77, with the total market cap at $331.7 billion.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "market_crash",
+        "regulatory_scrutiny",
+        "Google_ad_ban",
+        "Mt_Gox_selloff"
+      ],
+      "rationale": "A sharp market decline driven by regulatory concerns and advertising bans indicates a period of heightened risk aversion. This sentiment can persist, impacting investor confidence and potentially leading to further price corrections."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nc8ed1e175dbf",
+      "title": "Binance, Bitfinex and More: NY Launches Inquiry Into Crypto Exchanges",
+      "url": "https://finance.yahoo.com/news/binance-bitfinex-more-ny-launches-170933366.html",
+      "summary": "New York's Attorney General has initiated a \"Virtual Markets Integrity Initiative\" to investigate the policies and practices of cryptocurrency trading platforms, including major exchanges like Binance and Bitfinex. The inquiry seeks information on operations, use of bots, conflicts of interest, and outages. This move signals increasing regulatory attention on the operational aspects of crypto exchanges.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "NY_AG_inquiry",
+        "crypto_exchange_regulation",
+        "market_integrity",
+        "operational_practices"
+      ],
+      "rationale": "Regulatory investigations into major exchanges can lead to increased compliance costs, potential operational restrictions, and a chilling effect on market activity, creating short-to-medium term headwinds."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n5d756196dd52",
+      "title": "Thomson Reuters launches bitcoin sentiment gauge for crypto traders",
+      "url": "https://finance.yahoo.com/news/thomson-reuters-launches-bitcoin-sentiment-104217088.html",
+      "summary": "Thomson Reuters has launched a new bitcoin sentiment gauge that analyzes chatter from hundreds of news and social media websites. This tool aims to provide investors with an edge by capturing market-moving sentiment and themes. The initiative reflects a growing trend of using data analytics and behavioral economics to understand and predict cryptocurrency market movements.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "sentiment_analysis",
+        "Thomson_Reuters",
+        "crypto_data_analytics",
+        "market_sentiment"
+      ],
+      "rationale": "The development of sophisticated sentiment analysis tools by established financial data providers like Thomson Reuters indicates a maturation of the crypto market and increased institutional interest in data-driven trading strategies."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n5eaf0413d69b",
+      "title": "Bitcoin miners turn Quebec's cheap energy into cold cash",
+      "url": "https://finance.yahoo.com/news/2018-02-26-bitcoin-mining-quebec-the-big-picture.html",
+      "summary": "This article discusses how bitcoin miners are leveraging Quebec's cheap energy to conduct their operations. It highlights the economic feasibility of mining in regions with low electricity costs, especially as other regions become less hospitable to cryptocurrency. The piece touches on the energy-intensive nature of mining and the search for cost-effective power sources.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Quebec_mining",
+        "cheap_energy",
+        "mining_economics",
+        "electricity_costs"
+      ],
+      "rationale": "Access to cheap energy is a critical factor for the profitability of Bitcoin mining. Regions with abundant low-cost power can attract mining operations, contributing to network security and decentralization, which are long-term bullish factors."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n961444602aaa",
+      "title": "Opinion: Bitcoin is Doomed for Success",
+      "url": "https://finance.yahoo.com/news/opinion-bitcoin-doomed-success-161248977.html",
+      "summary": "The article posits that Bitcoin is 'doomed for success' due to its rapid adoption by governments, increasing market capitalization driven by new converts, the issuance of ICOs, and the emergence of new exchanges and mining companies. It suggests that cryptocurrency adoption is accelerating at an unprecedented pace, indicating a steep learning curve for humanity and a readiness to embrace revolutionary ideas.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "bitcoin_adoption",
+        "market_growth",
+        "ICO_issuance",
+        "unprecedented_speed"
+      ],
+      "rationale": "The author's optimistic outlook, based on accelerating adoption and increasing market infrastructure, suggests a strong long-term growth trajectory for Bitcoin and the broader cryptocurrency market."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n22f5f149abd8",
+      "title": "Top Business Schools Add Bitcoin Classes, Expand Cryptocurrency MBA Course Offerings",
+      "url": "https://finance.yahoo.com/news/top-business-schools-add-bitcoin-160019679.html",
+      "summary": "Leading business schools are increasing their course offerings on cryptocurrencies and blockchain technology, driven by student demand and corporate recruiter interest, particularly from venture capital. This trend signifies a growing academic and professional recognition of the importance of blockchain and digital assets in the business world.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "business_school_courses",
+        "crypto_education",
+        "MBA_programs",
+        "student_demand"
+      ],
+      "rationale": "The integration of cryptocurrency and blockchain into top business school curricula signals a long-term shift towards professionalizing and legitimizing the space, fostering future talent and innovation."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n40d2fbfa99fd",
+      "title": "Crypto Legend Who Bought Pizza With 10,000 Bitcoin Is Back At It",
+      "url": "https://finance.yahoo.com/news/crypto-legend-bought-pizza-10-004446677.html",
+      "summary": "Laszlo Hanyecz, famous for buying pizza with 10,000 Bitcoin in 2010, is now testing the Lightning Network by using it to purchase two pizzas. This transaction, costing 0.00649 Bitcoin (about $67) with a fee of $0.06, demonstrates the potential of the Lightning Network to speed up Bitcoin transactions and reduce costs, a crucial step for wider adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network_test",
+        "Laszlo_Hanyecz",
+        "transaction_speed",
+        "transaction_cost"
+      ],
+      "rationale": "Successful real-world tests of the Lightning Network, like this one, are vital for improving Bitcoin's scalability and usability. Enhanced transaction capabilities are a key driver for broader adoption and long-term value appreciation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "nb497137f9a60",
+      "title": "Bitcoin Cash is soaring as traders ready for another hard fork",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-soaring-traders-ready-143400232.html",
+      "summary": "Bitcoin Cash (BCH) is experiencing a significant price surge, up over 10% on the day and more than 30% over the past week. This rally is attributed to traders anticipating an upcoming hard fork on May 15, which will create Bitcoin ABC. This event is driving speculative interest and trading volume in BCH.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "listing"
+      ],
+      "features_for_model": [
+        "BCH_price_surge",
+        "hard_fork_anticipation",
+        "Bitcoin_ABC",
+        "speculative_trading"
+      ],
+      "rationale": "Anticipation of a hard fork often leads to increased price volatility and trading activity for the associated cryptocurrency. This event could drive short-term price appreciation for BCH."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n4b928f56c703",
+      "title": "Bitcoin Rises; EU Passes Verification Rules for Crypto Exchanges",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-eu-passes-verification-161100387.html",
+      "summary": "Bitcoin and other virtual currencies are trading higher as the European Union Parliament approved new verification rules for cryptocurrency exchanges. These rules, passed with strong support, mandate customer due diligence procedures to combat money laundering, including identity verification. The measure also lowers the threshold for identifying prepaid card holders.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "listing"
+      ],
+      "features_for_model": [
+        "EU_verification_rules",
+        "crypto_exchange_regulation",
+        "KYC_compliance",
+        "money_laundering_prevention"
+      ],
+      "rationale": "While regulatory news can be mixed, the EU's move towards standardized verification for exchanges could be seen as a positive step for market legitimacy, potentially boosting investor confidence in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n88dad6649573",
+      "title": "Bad Checks: Twitter's Identity Crisis Is Costing Users More Than Bitcoin",
+      "url": "https://finance.yahoo.com/news/bad-checks-twitter-apos-identity-030043582.html",
+      "summary": "The article criticizes Twitter's lax verification practices, which allow for widespread impersonation and misinformation, particularly concerning cryptocurrency. It highlights how these issues undermine trust and can be more damaging than direct financial losses from crypto. The prevalence of fake accounts and misleading information on social media platforms poses a risk to user perception and market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Twitter_verification",
+        "impersonation_risk",
+        "misinformation",
+        "social_media_sentiment"
+      ],
+      "rationale": "Negative sentiment stemming from social media platform issues, especially regarding crypto-related scams or misinformation, can negatively impact broader market sentiment and investor trust."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n52b2385c4940",
+      "title": "The Case For Owning Bitcoin and a $1 ‘Stablecoin’",
+      "url": "https://finance.yahoo.com/news/case-owning-bitcoin-1-stablecoin-151103375.html",
+      "summary": "This article discusses the potential benefits of holding both Bitcoin and a stablecoin like Basis (formerly Basecoin), which aims to maintain a $1 peg. Basis has raised $133 million in venture capital. The concept of stablecoins is gaining traction as a way to mitigate Bitcoin's volatility while still participating in the crypto market.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "stablecoin_development",
+        "Basis_funding",
+        "volatility_mitigation",
+        "crypto_portfolio_strategy"
+      ],
+      "rationale": "The development and funding of stablecoins like Basis suggest a growing interest in tools that can reduce crypto volatility, potentially attracting more risk-averse investors and increasing overall market participation."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nb497137f9a60",
+      "title": "Bitcoin Cash is soaring as traders ready for another hard fork",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-soaring-traders-ready-143400232.html",
+      "summary": "Bitcoin Cash (BCH) is experiencing a significant price surge, up over 10% on the day and more than 30% over the past week. This rally is attributed to traders anticipating an upcoming hard fork on May 15, which will create Bitcoin ABC. This event is driving speculative interest and trading volume in BCH.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "listing"
+      ],
+      "features_for_model": [
+        "BCH_price_surge",
+        "hard_fork_anticipation",
+        "Bitcoin_ABC",
+        "speculative_trading"
+      ],
+      "rationale": "Anticipation of a hard fork often leads to increased price volatility and trading activity for the associated cryptocurrency. This event could drive short-term price appreciation for BCH."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n2125db66f3ea",
+      "title": "Bitcoin Mining May Be Even Less Economically Viable Than We Thought",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-may-even-less-092151649.html",
+      "summary": "Analysts suggest that Bitcoin mining may be becoming less economically viable due to high costs associated with computing power and electricity, especially after Bitcoin's price crash at the end of 2017. With Bitcoin trading around $8,322, the profitability of mining operations is under pressure.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "bitcoin_mining_viability",
+        "mining_costs",
+        "electricity_prices",
+        "miner_profitability"
+      ],
+      "rationale": "Concerns about mining profitability can lead to reduced mining activity or a shift in mining operations, potentially impacting network security and hash rate in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n786616bf3371",
+      "title": "Commodities Daily Forecast – April 20, 2018",
+      "url": "https://finance.yahoo.com/news/commodities-daily-forecast-april-20-095402784.html",
+      "summary": "Gold prices saw a slight dip to $1355 but maintain a bullish momentum, with potential to reach $1400 if it breaks $1360. Silver experienced volatility, pulling back towards $17.10. The broader commodities market sentiment is mixed but leaning bullish for gold.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "gold_price_trend",
+        "silver_volatility",
+        "commodities_sentiment",
+        "macroeconomic_indicators"
+      ],
+      "rationale": "Gold and silver movements can sometimes correlate with broader market sentiment, including that of risk assets like Bitcoin, though the correlation is not always direct. This provides a general market context."
+    },
+    {
+      "pick_idx": 14,
+      "id": "na8b5016c6c6a",
+      "title": "Forget Bitcoin, Consider Blockchain ETFs",
+      "url": "https://finance.yahoo.com/news/forget-bitcoin-consider-blockchain-etfs-190807089.html",
+      "summary": "This article suggests that investors interested in the blockchain space might consider blockchain ETFs like the Reality Shares Nasdaq NexGen Economy ETF (BLCN) as an alternative to direct Bitcoin investment. It highlights the potential for diversification and exposure to companies involved in blockchain technology.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF"
+      ],
+      "features_for_model": [
+        "blockchain_ETF",
+        "BLCN",
+        "diversification",
+        "indirect_crypto_exposure"
+      ],
+      "rationale": "The emergence of blockchain ETFs offers a more traditional investment vehicle for exposure to the underlying technology, potentially attracting capital that might otherwise avoid direct cryptocurrency investment."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nd3776f586f9e",
+      "title": "Cryptocurrency Market Surges to $365 Billion, Start of a Bull Rally?",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-market-surges-365-billion-081602715.html",
+      "summary": "The cryptocurrency market valuation has surged to $365 billion, driven by strong performances from Bitcoin and Ethereum. This rally is being questioned as a potential start to a new bull market, with Bitcoin being highlighted as a safe-haven asset within the volatile crypto space.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "market_valuation_surge",
+        "bull_rally_potential",
+        "BTC_safe_haven",
+        "altcoin_season"
+      ],
+      "rationale": "A significant increase in the total cryptocurrency market cap, especially with Bitcoin leading, suggests renewed investor interest and potential for broader market gains in the immediate short term."
+    },
+    {
+      "pick_idx": 38,
+      "id": "nfc35e53f33dd",
+      "title": "Bitcoin Helps Square’s Stock Bounce",
+      "url": "https://finance.yahoo.com/news/bitcoin-helps-square-stock-bounce-050038016.html",
+      "summary": "Square's decision to enable Bitcoin trading via its Cash App is reportedly boosting the company's stock. Wall Street analysts anticipate that BTC trading will positively impact Square's quarterly results, with Nomura Instinet expecting a 'sizeable boost.' The app's ability to facilitate near-instantaneous BTC trades is seen as an attractive feature for users.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "listing"
+      ],
+      "features_for_model": [
+        "Square_Cash_App",
+        "BTC_trading_integration",
+        "stock_price_boost",
+        "analyst_upgrades"
+      ],
+      "rationale": "Positive analyst sentiment and expected revenue impact from Square's integration of Bitcoin trading can drive short-term price appreciation for Square's stock, indirectly reflecting positive sentiment towards crypto adoption."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-04-20",
+    "summary": "The cryptocurrency market shows signs of a potential bull rally, with the total market cap surging to $365 billion, led by Bitcoin. Bitcoin Cash is experiencing a significant price increase due to anticipation of an upcoming hard fork. Meanwhile, regulatory developments in the EU are introducing verification rules for crypto exchanges, which could lend legitimacy to the market. However, concerns about Bitcoin mining profitability and negative sentiment from social media misinformation pose short-term risks. Institutional interest is growing, with Thomson Reuters launching a sentiment gauge and business schools expanding crypto education.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued regulatory scrutiny and potential for new adverse regulations.",
+      "Volatility in Bitcoin mining profitability impacting network hash rate.",
+      "Negative sentiment from misinformation and scams on social media platforms.",
+      "Potential for profit-taking after the recent market surge.",
+      "Uncertainty surrounding the impact of upcoming hard forks on market stability."
+    ],
+    "watch_items": [
+      "Bitcoin Cash (BCH) price action around the upcoming hard fork.",
+      "Developments in EU crypto exchange regulations.",
+      "Analyst reports on Square's Q2 earnings and Bitcoin trading impact.",
+      "Any further news regarding Bitcoin mining economics.",
+      "Sentiment indicators from Thomson Reuters and social media."
+    ]
+  }
+}

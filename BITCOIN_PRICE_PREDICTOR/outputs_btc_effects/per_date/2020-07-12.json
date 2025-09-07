@@ -1,0 +1,459 @@
+{
+  "date": "2020-07-12",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n2a0d47a1c70a",
+      "title": "Bitcoin miners made $366.4 million in revenue during May, despite halving",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-made-366-4-121546935.html",
+      "summary": "Bitcoin miners generated $366.4 million in May, a slight 11% decrease from April, despite the halving event reducing block rewards. This resilience suggests miners are adapting to lower rewards, potentially through increased efficiency or higher transaction fees. The continued revenue generation indicates a healthy mining ecosystem, which is crucial for network security and stability. This sustained operational capacity is a positive long-term indicator for Bitcoin's infrastructure.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_revenue_May",
+        "halving_impact_miner",
+        "transaction_fees_miner"
+      ],
+      "rationale": "Consistent miner revenue post-halving demonstrates the network's resilience and the miners' ability to adapt. This sustained operational capacity is a positive sign for the long-term health and security of the Bitcoin network."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1da77ef23074",
+      "title": "Bitcoin Halving: What Does It Mean for Investors?",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-does-mean-investors-134205362.html",
+      "summary": "The article explains the Bitcoin halving, a programmed event reducing mining rewards by 50% approximately every four years. This scarcity mechanism is designed to control Bitcoin's supply and has historically preceded price increases due to reduced new supply entering the market. Understanding the halving is crucial for investors as it directly impacts the economics of Bitcoin production and its potential future value, acting as a fundamental driver of its long-term investment thesis.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "protocol"
+      ],
+      "features_for_model": [
+        "halving_event",
+        "supply_shock",
+        "investor_sentiment"
+      ],
+      "rationale": "The halving is a fundamental scarcity event that reduces the rate of new Bitcoin creation. Historically, this has led to price appreciation, making it a key long-term bullish catalyst for the asset."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n30d2677b107c",
+      "title": "Blockchain Bites: Trump on Bitcoin, Powell on Digital Dollars and the Truth About Terrorist Financing",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-trump-bitcoin-powell-160936130.html",
+      "summary": "This news highlights potential regulatory scrutiny and interest from high-level government figures regarding Bitcoin and digital currencies. President Trump's reported directive to 'go after bitcoin' and Fed Chair Powell's comments on a 'digital dollar' indicate evolving governmental perspectives. Such discussions, even if adversarial, signal increasing mainstream awareness and potential for future regulatory frameworks that could significantly impact Bitcoin's long-term adoption and legal standing.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Trump_bitcoin_directive",
+        "Powell_digital_dollar",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Governmental discussions about Bitcoin, including potential negative sentiment from the US President, introduce regulatory uncertainty. However, the exploration of digital dollars by the Fed also signals growing institutional interest in the underlying technology."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nc138b4b498be",
+      "title": "The Biggest Realignment in the US-China Relationship Since Nixon, Feat. Graham Webster",
+      "url": "https://finance.yahoo.com/news/biggest-realignment-us-china-relationship-190000787.html",
+      "summary": "This article discusses significant shifts in the US-China relationship, a geopolitical factor that has broad implications for global markets, including cryptocurrencies. Geopolitical tensions and realignments can influence capital flows, trade policies, and regulatory approaches towards digital assets. A changing global power dynamic could indirectly affect Bitcoin's role as a potential safe haven or alternative financial system, impacting its long-term adoption and value proposition.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "US_China_relations",
+        "geopolitical_risk",
+        "global_capital_flows"
+      ],
+      "rationale": "Major shifts in US-China relations can impact global economic stability and capital flows, indirectly influencing investor sentiment and demand for alternative assets like Bitcoin."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n592aad610bab",
+      "title": "AMD-Backed Blockchain Project Amassing 20K GPUs but Won’t Say Why",
+      "url": "https://finance.yahoo.com/news/amd-backed-blockchain-project-amassing-091603688.html",
+      "summary": "A venture backed by AMD and ConsenSys is significantly increasing its GPU capacity, raising over $20 million. While the specific use case remains undisclosed, the substantial investment in high-performance computing hardware often correlates with increased blockchain activity, particularly in areas like mining or complex computations. This expansion could signal growing demand for blockchain infrastructure and potentially impact the hardware market, indirectly benefiting Bitcoin's underlying technology.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "GPU_demand",
+        "blockchain_infrastructure",
+        "AMD_ConsenSys_venture"
+      ],
+      "rationale": "Increased investment in GPU capacity by a major tech venture suggests growing demand for blockchain-related computations, potentially including mining or other network-intensive activities, which is a positive sign for the ecosystem."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nf03344c68f5e",
+      "title": "WikiLeaks Shop Now Accepts Bitcoin Lightning Payments",
+      "url": "https://finance.yahoo.com/news/wikileaks-shop-now-accepts-bitcoin-182938259.html",
+      "summary": "The WikiLeaks Shop's adoption of Bitcoin Lightning Network payments marks a notable step in the practical application of Layer 2 scaling solutions. This integration demonstrates the growing usability and speed of the Lightning Network for everyday transactions, which is crucial for Bitcoin's long-term scalability and adoption as a medium of exchange. Increased adoption by vendors, especially high-profile ones like WikiLeaks, can foster wider acceptance and development of the Lightning ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Lightning_Network_adoption",
+        "WikiLeaks_payments",
+        "scalability_solution"
+      ],
+      "rationale": "The adoption of the Lightning Network by a known entity like WikiLeaks signals growing real-world utility and acceptance of Bitcoin's scaling solution, which is vital for its long-term transactional capacity."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n1fe30d29635e",
+      "title": "Lightning Network Overhaul Could Strengthen Bitcoin Privacy – But Many ‘Ifs’ Remain",
+      "url": "https://finance.yahoo.com/news/lightning-network-overhaul-could-strengthen-080112977.html",
+      "summary": "This article discusses potential upgrades to the Lightning Network aimed at enhancing user privacy. Improvements in privacy are a key aspect of Bitcoin's long-term appeal, addressing concerns about traceability. While the article notes uncertainties ('ifs'), the ongoing development and focus on privacy features for the Lightning Network are positive for the ecosystem's maturity and user adoption, potentially increasing Bitcoin's attractiveness as a private digital currency.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Lightning_Network_privacy",
+        "protocol_upgrade",
+        "scalability_enhancement"
+      ],
+      "rationale": "Developments aimed at improving Lightning Network privacy are crucial for Bitcoin's long-term adoption by addressing user concerns and enhancing its utility as a private payment system."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n3e5f5863b260",
+      "title": "Bitcoin Still Undervalued After Q2 Rally, Price Metric Shows",
+      "url": "https://finance.yahoo.com/news/bitcoin-still-undervalued-q2-rally-112950224.html",
+      "summary": "The article suggests that Bitcoin remains undervalued based on the Mayer multiple, even after a significant Q2 rally. The Mayer multiple (price relative to its 200-day moving average) is a metric used to assess if Bitcoin is overbought or oversold. A low multiple suggests potential for further upside. This analysis, if accurate, implies that the current price may not fully reflect Bitcoin's underlying value or growth potential, indicating a bullish long-term outlook.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Mayer_multiple",
+        "undervalued_asset",
+        "Q2_rally_analysis"
+      ],
+      "rationale": "The assertion that Bitcoin is still undervalued based on a key price metric suggests room for further appreciation, supporting a bullish long-term view on its potential growth."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nbadc062fc8d0",
+      "title": "Bitcoin News Roundup for June 11, 2020",
+      "url": "https://finance.yahoo.com/news/bitcoin-news-roundup-june-11-160000542.html",
+      "summary": "Three Arrows Capital, a significant crypto fund, has acquired a substantial stake (6.26%) in the Grayscale Bitcoin Trust (GBTC), representing over 20,000 BTC. This institutional accumulation of Bitcoin via a regulated trust is a strong indicator of growing institutional confidence and demand. Such large-scale, sustained investment from institutional players is a key driver for long-term price appreciation and mainstream adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "GBTC_stake",
+        "institutional_adoption",
+        "Three_Arrows_Capital"
+      ],
+      "rationale": "Significant institutional investment in the Grayscale Bitcoin Trust signals growing confidence and capital inflow from traditional finance, a strong long-term bullish indicator for Bitcoin."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n8e3e6cccc4ff",
+      "title": "Microsoft Releases Bitcoin-Based ID Tool as COVID-19 ‘Passports’ Draw Criticism",
+      "url": "https://finance.yahoo.com/news/microsoft-releases-bitcoin-based-id-160000031.html",
+      "summary": "Microsoft's release of a beta version of its Bitcoin-based decentralized identity tool (ION) on the mainnet is a significant development for digital identity solutions. Leveraging Bitcoin's blockchain for identity management can drive adoption of the network for non-financial use cases, increasing its utility and demand. This integration with a major tech player like Microsoft positions Bitcoin as a foundational technology for future digital infrastructure, impacting its long-term value proposition.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Microsoft_decentralized_ID",
+        "ION_mainnet_beta",
+        "blockchain_identity_solution"
+      ],
+      "rationale": "Microsoft's use of Bitcoin's blockchain for a decentralized identity tool expands its utility beyond finance, showcasing its potential as a foundational technology for digital infrastructure and driving long-term adoption."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ne16c5b876eba",
+      "title": "The Crypto Daily – Movers and Shakers – July 12th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-023726405.html",
+      "summary": "Bitcoin experienced a slight pullback on Saturday, falling 0.63% to $9,246.3, reversing Friday's gain. Despite the intraday low of $9,200.1, the near-term bullish trend remains intact. The price action suggests consolidation within a broader upward trend, with key support levels holding. This indicates a period of potential sideways movement or minor retracement before any significant upward continuation.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_action_July11",
+        "short_term_trend",
+        "support_resistance"
+      ],
+      "rationale": "Bitcoin saw a minor pullback, but the near-term bullish trend remains intact, suggesting consolidation rather than a reversal. This points to a period of low volatility in the immediate short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n6b0064c8d7b3",
+      "title": "Hyper-Stablecoinization: From Eurodollars to Crypto-Dollars",
+      "url": "https://finance.yahoo.com/news/hyper-stablecoinization-eurodollars-crypto-dollars-120000891.html",
+      "summary": "This article discusses the ongoing debate between Bitcoiners and Ethereans, framing Bitcoin as 'money crypto' and Ethereum as 'tech crypto.' While this is a long-term philosophical divide, the immediate impact on price is minimal. However, the underlying sentiment and community focus can influence short-term trading narratives and investor interest in specific ecosystems.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_vs_Ethereum",
+        "community_narrative",
+        "stablecoin_discussion"
+      ],
+      "rationale": "The ongoing debate between Bitcoin and Ethereum communities, while long-term in nature, can influence short-term sentiment and trading activity as investors align with different narratives."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nfb319f0464dc",
+      "title": "Crypto Long & Short: Dogecoin, Market Manipulation and the Downside of a Coinbase IPO",
+      "url": "https://finance.yahoo.com/news/crypto-long-short-dogecoin-market-213000371.html",
+      "summary": "The article highlights a 125% surge in Dogecoin driven by TikTok users, emphasizing a lack of fundamental basis and potential market manipulation. Such social media-driven pumps, while often short-lived, can create volatility and draw attention away from more established assets like Bitcoin. The mention of a Coinbase IPO also adds a layer of market anticipation, though its direct short-term impact on BTC price is indirect.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Dogecoin_pump",
+        "TikTok_influence",
+        "market_manipulation_alert"
+      ],
+      "rationale": "The surge in Dogecoin due to social media hype, while not directly impacting Bitcoin, can create broader market volatility and distract from fundamental drivers, potentially leading to short-term price fluctuations."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na700719ba45f",
+      "title": "European Equities: A Lack of Stats Leaves COVID-19 and Geopolitics in Focus",
+      "url": "https://finance.yahoo.com/news/european-equities-lack-stats-leaves-232607341.html",
+      "summary": "The absence of significant economic data from Europe leaves markets focused on COVID-19 developments and geopolitical events. This macro backdrop can influence risk appetite globally. If geopolitical tensions or renewed COVID-19 concerns escalate, it could lead to a flight to safety, potentially benefiting Bitcoin as a non-sovereign asset, or causing a general market sell-off impacting all risk assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "European_economic_data",
+        "COVID_19_sentiment",
+        "geopolitical_risk_focus"
+      ],
+      "rationale": "A lack of European economic data shifts market focus to macro risks like COVID-19 and geopolitics, which can influence overall risk sentiment and capital flows into or out of Bitcoin."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ne16c5b876eba",
+      "title": "The Crypto Daily – Movers and Shakers – July 12th, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-july-023726405.html",
+      "summary": "Bitcoin experienced a slight pullback on Saturday, falling 0.63% to $9,246.3, reversing Friday's gain. Despite the intraday low of $9,200.1, the near-term bullish trend remains intact. The price action suggests consolidation within a broader upward trend, with key support levels holding. This indicates a period of potential sideways movement or minor retracement before any significant upward continuation.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_action_July11",
+        "short_term_trend",
+        "support_resistance"
+      ],
+      "rationale": "Bitcoin saw a minor pullback, but the near-term bullish trend remains intact, suggesting consolidation rather than a reversal. This points to a period of low volatility in the immediate short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n6b0064c8d7b3",
+      "title": "Hyper-Stablecoinization: From Eurodollars to Crypto-Dollars",
+      "url": "https://finance.yahoo.com/news/hyper-stablecoinization-eurodollars-crypto-dollars-120000891.html",
+      "summary": "This article discusses the ongoing debate between Bitcoiners and Ethereans, framing Bitcoin as 'money crypto' and Ethereum as 'tech crypto.' While this is a long-term philosophical divide, the immediate impact on price is minimal. However, the underlying sentiment and community focus can influence short-term trading narratives and investor interest in specific ecosystems.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_vs_Ethereum",
+        "community_narrative",
+        "stablecoin_discussion"
+      ],
+      "rationale": "The ongoing debate between Bitcoin and Ethereum communities, while long-term in nature, can influence short-term sentiment and trading activity as investors align with different narratives."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nfb319f0464dc",
+      "title": "Crypto Long & Short: Dogecoin, Market Manipulation and the Downside of a Coinbase IPO",
+      "url": "https://finance.yahoo.com/news/crypto-long-short-dogecoin-market-213000371.html",
+      "summary": "The article highlights a 125% surge in Dogecoin driven by TikTok users, emphasizing a lack of fundamental basis and potential market manipulation. Such social media-driven pumps, while often short-lived, can create volatility and draw attention away from more established assets like Bitcoin. The mention of a Coinbase IPO also adds a layer of market anticipation, though its direct short-term impact on BTC price is indirect.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Dogecoin_pump",
+        "TikTok_influence",
+        "market_manipulation_alert"
+      ],
+      "rationale": "The surge in Dogecoin due to social media hype, while not directly impacting Bitcoin, can create broader market volatility and distract from fundamental drivers, potentially leading to short-term price fluctuations."
+    },
+    {
+      "pick_idx": 8,
+      "id": "na700719ba45f",
+      "title": "European Equities: A Lack of Stats Leaves COVID-19 and Geopolitics in Focus",
+      "url": "https://finance.yahoo.com/news/european-equities-lack-stats-leaves-232607341.html",
+      "summary": "The absence of significant economic data from Europe leaves markets focused on COVID-19 developments and geopolitical events. This macro backdrop can influence risk appetite globally. If geopolitical tensions or renewed COVID-19 concerns escalate, it could lead to a flight to safety, potentially benefiting Bitcoin as a non-sovereign asset, or causing a general market sell-off impacting all risk assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "European_economic_data",
+        "COVID_19_sentiment",
+        "geopolitical_risk_focus"
+      ],
+      "rationale": "A lack of European economic data shifts market focus to macro risks like COVID-19 and geopolitics, which can influence overall risk sentiment and capital flows into or out of Bitcoin."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n2292f9bdbead",
+      "title": "Bitcoin App Bottlepay Is Back From the Dead With a New Lightning App",
+      "url": "https://finance.yahoo.com/news/bitcoin-app-bottlepay-back-dead-185019395.html",
+      "summary": "The social payments app Bottlepay is relaunching with a new Lightning app after restructuring to comply with AMLD5. With over 1,000 on a waitlist, this indicates renewed interest in user-friendly Lightning solutions. The relaunch could boost Lightning Network adoption and usage, potentially increasing transaction volume and liquidity for Bitcoin in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bottlepay_relaunch",
+        "Lightning_app",
+        "AML_compliance"
+      ],
+      "rationale": "The relaunch of Bottlepay with a focus on the Lightning Network and a strong waitlist suggests increased adoption and usage of Bitcoin's scaling solution, potentially boosting short-term liquidity."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n028c014fbf40",
+      "title": "Market Wrap: Bitcoin Flat as Stocks Swell on Positive Jobs Report",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-flat-stocks-201859017.html",
+      "summary": "Bitcoin remained flat while stocks rallied on a positive jobs report. This divergence suggests that Bitcoin is not currently correlating strongly with traditional market movements driven by macroeconomic data. The lack of significant price action in Bitcoin indicates a period of consolidation, with traders awaiting clearer catalysts for a directional move.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_flat_vs_stocks",
+        "jobs_report_impact",
+        "market_correlation"
+      ],
+      "rationale": "Bitcoin's flat performance despite positive stock market news indicates a decoupling, suggesting consolidation and a lack of immediate directional catalysts in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-07-12",
+    "summary": "Bitcoin experienced a slight pullback on Saturday, trading around $9,246, but the near-term bullish trend remains intact, suggesting consolidation. Long-term, institutional adoption continues to be a strong positive signal, with significant GBTC accumulation and Microsoft's integration of Bitcoin for identity solutions. However, regulatory uncertainty from potential US government actions and broader geopolitical tensions in Europe present headwinds. The market is also seeing speculative activity in altcoins like Dogecoin, which can create short-term volatility.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Potential for increased regulatory scrutiny from US government actions.",
+      "Escalation of geopolitical tensions impacting global risk sentiment.",
+      "Short-term volatility driven by speculative altcoin rallies.",
+      "Lack of clear directional catalysts leading to prolonged consolidation."
+    ],
+    "watch_items": [
+      "US regulatory announcements regarding crypto.",
+      "Developments in European macroeconomics and geopolitics.",
+      "Institutional inflows into GBTC and other Bitcoin products.",
+      "Microsoft's ION project progress.",
+      "Lightning Network adoption metrics."
+    ]
+  }
+}

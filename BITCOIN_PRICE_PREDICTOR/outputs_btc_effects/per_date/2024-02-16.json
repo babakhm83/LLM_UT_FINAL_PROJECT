@@ -1,0 +1,461 @@
+{
+  "date": "2024-02-16",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "nebe68f644729",
+      "title": "Bitcoin ETFs have been out for a week—here’s how they’re doing",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-week-doing-161607836.html",
+      "summary": "The launch of Bitcoin ETFs, a long-awaited development for the crypto industry, has occurred. While Bitcoin has experienced a significant slump since their introduction, this doesn't necessarily indicate the ETFs are a failure. The price drop follows a prior run-up in crypto prices, suggesting a potential 'sell the news' event. The long-term impact hinges on sustained institutional adoption and whether these ETFs can truly integrate digital assets into mainstream finance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_ETF_launch",
+        "institutional_adoption",
+        "crypto_mainstream"
+      ],
+      "rationale": "The approval and launch of spot Bitcoin ETFs represent a significant step towards mainstream adoption and institutional integration of Bitcoin. While short-term price action can be volatile, the long-term potential for increased liquidity and accessibility is substantial."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n554657a2d4cf",
+      "title": "BTC Tumbles Below $42K, Coinbase and Miners Plunge as Bitcoin ETF Mania Becomes 'Sell the News' Rout",
+      "url": "https://finance.yahoo.com/news/btc-tumbles-below-44k-bitcoin-172102859.html",
+      "summary": "Bitcoin experienced a sharp decline below $42,000, with crypto-related stocks also falling significantly. This downturn followed the euphoria surrounding the Bitcoin ETF approvals, indicating a 'sell the news' reaction. The $42,000 level is identified as a critical support zone where potential buyers might emerge. The immediate aftermath of the ETF launch saw a significant price correction after a prior run-up.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "miner"
+      ],
+      "features_for_model": [
+        "ETF_sell_the_news",
+        "BTC_price_correction",
+        "miner_stock_performance"
+      ],
+      "rationale": "The 'sell the news' event following the Bitcoin ETF approval highlights the short-term volatility associated with major market events. While the ETFs are a long-term positive, the immediate reaction can lead to price drops, impacting related assets like mining stocks."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n3d460026f966",
+      "title": "Scaramucci Says Grayscale ETF Sales Helped Fuel Bitcoin Decline",
+      "url": "https://finance.yahoo.com/news/scaramucci-says-grayscale-etf-sales-221343720.html",
+      "summary": "Anthony Scaramucci suggests that sales from the Grayscale Bitcoin Trust (GBTC) shares have contributed to Bitcoin's price decline since the launch of spot Bitcoin ETFs. This indicates that outflows from a major existing Bitcoin holder, potentially due to conversion to ETFs or profit-taking, can exert downward pressure on the market. The dynamic between GBTC outflows and new ETF inflows is a key factor to monitor.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "GBTC_outflows",
+        "ETF_conversion",
+        "Bitcoin_price_pressure"
+      ],
+      "rationale": "Significant outflows from Grayscale's GBTC, a major holder of Bitcoin, can create selling pressure. This dynamic is crucial for understanding the immediate impact of ETF launches on Bitcoin's price and overall market liquidity."
+    },
+    {
+      "pick_idx": 10,
+      "id": "ne381919130dc",
+      "title": "Bitcoin Witnesses Seesaw Trading in Early 2024: 5 Stocks in Focus (Revised)",
+      "url": "https://finance.yahoo.com/news/bitcoin-witnesses-seesaw-trading-early-050900196.html",
+      "summary": "Bitcoin experienced volatile trading in early 2024, with price movements influenced by the SEC's approval of spot Bitcoin ETFs. Following the approval on January 10th, Bitcoin briefly surged above $47,000 but subsequently fell. This pattern suggests that while the ETF approval was a significant event, the market is still digesting its implications and reacting to broader macroeconomic factors.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "Bitcoin_seesaw_trading",
+        "ETF_impact_digestion",
+        "early_2024_volatility"
+      ],
+      "rationale": "The 'seesaw trading' indicates that the market is still finding its equilibrium post-ETF approval. This uncertainty suggests that future price movements will likely be influenced by a combination of ETF flows, macroeconomic data, and investor sentiment."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ne2a92a66e986",
+      "title": "FOREX-Dollar headed for second weekly gain as rate cut optimism cools",
+      "url": "https://finance.yahoo.com/news/forex-dollar-headed-second-weekly-093748716.html",
+      "summary": "The US dollar is poised for its second consecutive weekly gain as economic resilience and central bank commentary temper expectations for rapid interest rate cuts. This trend suggests a stronger dollar environment, which can often correlate with weaker performance in risk assets like Bitcoin, as capital flows towards safer, yield-bearing assets.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "stronger_dollar",
+        "cooling_rate_cut_optimism",
+        "risk_asset_sentiment"
+      ],
+      "rationale": "A strengthening dollar typically implies tighter liquidity conditions and reduced risk appetite, which can be a headwind for Bitcoin. Investors may shift capital from speculative assets to dollar-denominated assets offering higher yields."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nae2f6793b50d",
+      "title": "Dollar gains before inflation data, bitcoin slips",
+      "url": "https://finance.yahoo.com/news/dollar-pulls-back-bitcoin-jumps-005225468.html",
+      "summary": "The dollar strengthened ahead of key inflation data, while Bitcoin experienced a slight dip but remained near recent highs due to anticipation of spot Bitcoin ETF approvals. This suggests a complex interplay where dollar strength can pressure Bitcoin, but ETF anticipation provides a counterbalancing bullish force. The upcoming inflation data will be crucial for Fed policy and, consequently, for Bitcoin's trajectory.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "dollar_strength",
+        "inflation_data_anticipation",
+        "bitcoin_slip_before_ETF"
+      ],
+      "rationale": "The dollar's strength can be a headwind for Bitcoin, but the ongoing anticipation of ETF approvals provides a strong bullish narrative. The market is currently balancing these opposing forces, making the outlook uncertain until clearer macro signals emerge."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n3832cde7e086",
+      "title": "Dollar down on day, but off lows after hotter than expected inflation",
+      "url": "https://finance.yahoo.com/news/forex-dollar-down-day-off-203204562.html",
+      "summary": "The dollar weakened despite hotter-than-expected inflation data, which might suggest that the market has already priced in such outcomes or that other factors are driving dollar sentiment. Bitcoin surged to a two-year high as spot Bitcoin ETFs began trading. This scenario, where Bitcoin rallies despite slightly elevated inflation, could indicate a decoupling from traditional macro correlations, driven by specific crypto catalysts.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "hotter_inflation",
+        "dollar_weakness_despite_inflation",
+        "Bitcoin_ETF_rally"
+      ],
+      "rationale": "Bitcoin's surge to a two-year high, coinciding with the launch of spot ETFs and despite slightly elevated inflation, suggests strong positive momentum driven by crypto-specific events. This indicates a potential shift in how Bitcoin reacts to macro data."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n1a15df1dbd0b",
+      "title": "BlackRock and Ark Slash Fees on Bitcoin ETFs: A Race to Win Investors",
+      "url": "https://finance.yahoo.com/news/blackrock-ark-slash-fees-bitcoin-155613974.html",
+      "summary": "Major asset managers like BlackRock and Ark are aggressively lowering fees for their proposed spot Bitcoin ETFs. This fee war aims to attract investor capital and gain market share. Lower fees make Bitcoin ETFs more attractive, potentially leading to higher inflows and increased adoption, which is a net positive for Bitcoin's long-term price appreciation.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETF_fee_war",
+        "BlackRock_Ark_fees",
+        "investor_attraction"
+      ],
+      "rationale": "Competitive fee structures from major players like BlackRock and Ark signal a strong commitment to capturing market share in the Bitcoin ETF space. Lower fees directly translate to better returns for investors, driving higher inflows and long-term demand for Bitcoin."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nbd0c3ae41dbf",
+      "title": "Grayscale Investments® and The Harris Poll Survey Reveals 73% of Voters Agree Presidential Candidates Should Have an Informed Perspective on Innovative Technologies Like Crypto and AI",
+      "url": "https://finance.yahoo.com/news/grayscale-investments-harris-poll-survey-133000142.html",
+      "summary": "A survey indicates that a significant majority of voters believe presidential candidates should be informed about crypto and AI. This suggests growing public awareness and demand for political engagement on these technologies. Increased political understanding and potential regulatory clarity could foster a more stable and favorable environment for cryptocurrency adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "political"
+      ],
+      "features_for_model": [
+        "voter_sentiment_crypto",
+        "political_awareness_tech",
+        "regulatory_clarity_demand"
+      ],
+      "rationale": "Growing public and political interest in cryptocurrencies can lead to more informed regulatory frameworks. This, in turn, can reduce uncertainty and encourage broader adoption, benefiting Bitcoin's long-term growth prospects."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n9ad2fdd0d691",
+      "title": "Bitcoin Tops $47K, Ether and Grayscale's GBTC Jump After SEC Approves Spot Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/bitcoin-tops-47k-ether-grayscales-213349068.html",
+      "summary": "Bitcoin surged past $47,000, with Ether and Grayscale's GBTC also seeing gains following the SEC's approval of spot Bitcoin ETFs. This event is a landmark for the digital asset industry, potentially broadening the investor base for Bitcoin. The full impact of these ETFs is expected to unfold over the coming months.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_ETF_approval",
+        "Ether_price_surge",
+        "GBTC_performance"
+      ],
+      "rationale": "The SEC's approval of spot Bitcoin ETFs is a pivotal moment, driving significant price increases for Bitcoin and related assets. This event is expected to attract substantial institutional capital, boosting Bitcoin's market position and long-term value."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n0b16819e2c3a",
+      "title": "Coinbase Global (COIN) Q4 2023 Earnings Call Transcript",
+      "url": "https://finance.yahoo.com/news/coinbase-global-coin-q4-2023-030014416.html",
+      "summary": "Coinbase's Q4 2023 earnings call transcript provides insights into the company's performance and outlook. Key takeaways likely include trading volumes, subscription revenue, regulatory updates, and management's commentary on the impact of Bitcoin ETFs. Positive commentary or strong performance metrics could boost COIN's stock and, by extension, sentiment around the broader crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "earnings",
+        "exchange",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Coinbase_Q4_earnings",
+        "trading_volume",
+        "ETF_impact_on_exchange"
+      ],
+      "rationale": "Coinbase's earnings call is a significant event for the crypto market. Positive results and forward-looking statements, especially regarding the impact of Bitcoin ETFs, can directly influence investor sentiment and trading activity for both COIN and Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n5a7b8a17b46e",
+      "title": "Decoding Coinbase Global Inc (COIN): A Strategic SWOT Insight",
+      "url": "https://finance.yahoo.com/news/decoding-coinbase-global-inc-coin-050642117.html",
+      "summary": "This SWOT analysis of Coinbase provides a comprehensive view of its strengths, weaknesses, opportunities, and threats based on its latest SEC 10-K filing. It highlights revenue streams, market positioning, competitive advantages, and challenges. Understanding these factors is crucial for assessing Coinbase's future performance, which is closely tied to the broader crypto market.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "exchange",
+        "regulation",
+        "market_analysis"
+      ],
+      "features_for_model": [
+        "Coinbase_SWOT",
+        "SEC_filing_analysis",
+        "crypto_market_positioning"
+      ],
+      "rationale": "While a SWOT analysis provides valuable context, its direct short-term price impact is usually limited unless it reveals critical new information or trends that immediately affect market sentiment."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n5189b16be4b2",
+      "title": "Decoding MicroStrategy Inc (MSTR): A Strategic SWOT Insight",
+      "url": "https://finance.yahoo.com/news/decoding-microstrategy-inc-mstr-strategic-050824605.html",
+      "summary": "This SWOT analysis of MicroStrategy delves into its enterprise analytics software strategy, AI capabilities, partnerships, and risks associated with Bitcoin volatility. The company's significant Bitcoin holdings make its stock highly correlated with BTC price movements. Any new insights into its Bitcoin strategy or operational performance could impact MSTR and, by extension, Bitcoin sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "corporate_strategy",
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "MicroStrategy_SWOT",
+        "MSTR_Bitcoin_correlation",
+        "AI_capabilities"
+      ],
+      "rationale": "MicroStrategy's performance is heavily influenced by Bitcoin. While the SWOT analysis provides context, the immediate impact will depend on any new strategic announcements or significant shifts in Bitcoin's price that are highlighted."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n2d457a9abf6c",
+      "title": "Federal Reserve Governor Sees USD-Pegged Stablecoins Boosting US Dominance",
+      "url": "https://finance.yahoo.com/news/federal-governor-sees-usd-pegged-053641781.html",
+      "summary": "Federal Reserve Governor Christopher Waller believes USD-pegged stablecoins solidify the US dollar's global reserve currency status, rather than undermining it. He notes that most DeFi activity relies on dollar-backed stablecoins, indicating the dollar's continued centrality in the crypto ecosystem. This perspective from a Fed official could influence regulatory discussions around stablecoins.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "stablecoin"
+      ],
+      "features_for_model": [
+        "Fed_Governor_commentary",
+        "USD_stablecoin_dominance",
+        "DeFi_dollar_reliance"
+      ],
+      "rationale": "While this is an important statement regarding the dollar's role in crypto, its direct short-term impact on Bitcoin price is likely to be minimal unless it signals imminent regulatory action on stablecoins."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n4cd7c770645c",
+      "title": "Bitcoin Reaches New Highs Against Yen as Economic Weakness Causes Weak Yen",
+      "url": "https://finance.yahoo.com/news/bitcoin-reaches-highs-against-yen-054510027.html",
+      "summary": "Bitcoin has hit a record high against the Japanese Yen, reflecting the yen's weakness due to the Bank of Japan's dovish policies. This divergence highlights how currency fluctuations can impact Bitcoin's price in different fiat terms, even if the dollar price remains relatively stable. The weak yen could lead to increased Bitcoin adoption in Japan.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "currency"
+      ],
+      "features_for_model": [
+        "Bitcoin_vs_Yen_high",
+        "weak_yen",
+        "BOJ_policy_impact"
+      ],
+      "rationale": "The yen's weakness against Bitcoin suggests potential capital flight from the yen into Bitcoin, particularly in Japan. This localized trend could contribute to overall positive sentiment and demand for Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n0f40a2ef5388",
+      "title": "Genesis gets court approval to sell $1.6 billion in crypto trust shares",
+      "url": "https://finance.yahoo.com/news/genesis-gets-court-approval-sell-194337007.html",
+      "summary": "Bankrupt crypto lender Genesis Global has received court approval to sell approximately $1.6 billion worth of Grayscale cryptocurrency trust shares, including GBTC and ETHE. This move aims to repay creditors and could lead to significant selling pressure on these trusts, potentially impacting their underlying asset prices and creating selling pressure on Bitcoin and Ethereum.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "liquidity",
+        "ETF",
+        "miner"
+      ],
+      "features_for_model": [
+        "Genesis_asset_sale",
+        "Grayscale_trust_shares",
+        "selling_pressure"
+      ],
+      "rationale": "The court approval for Genesis to sell a large volume of Grayscale trust shares introduces potential selling pressure into the market. This could lead to short-term price dips for Bitcoin and Ethereum as these shares are likely to be converted or sold."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n515653b569a7",
+      "title": "Coinbase rides bitcoin ETF frenzy to first quarterly profit in 2 years",
+      "url": "https://finance.yahoo.com/news/coinbase-rides-bitcoin-etf-frenzy-to-first-quarterly-profit-in-two-years-230117332.html",
+      "summary": "Coinbase reported its first quarterly profit in two years, driven by increased trading activity fueled by the Bitcoin ETF approvals. The stock surged in premarket trading. This positive earnings report signifies a potential turnaround for Coinbase and reinforces the bullish sentiment surrounding the crypto market, directly benefiting from the ETF inflows.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "earnings",
+        "ETF",
+        "exchange"
+      ],
+      "features_for_model": [
+        "Coinbase_profit",
+        "ETF_driven_trading",
+        "bullish_sentiment"
+      ],
+      "rationale": "Coinbase's return to profitability, directly linked to the Bitcoin ETF frenzy, is a strong indicator of renewed institutional and retail interest. This positive news is likely to boost investor confidence and potentially drive further price appreciation for Bitcoin."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n637b5ff5e14d",
+      "title": "Crypto Traders See 20% Chance of Bitcoin Topping $70K by April End: DeFi Options Marketplace Lyra",
+      "url": "https://finance.yahoo.com/news/crypto-traders-see-20-chance-072502923.html",
+      "summary": "DeFi options marketplace Lyra suggests a 20% probability of Bitcoin reaching $70,000 by the end of April. This forecast is based on options data and considers the upcoming Bitcoin halving event. Such market sentiment, even if probabilistic, indicates bullish expectations for the medium term.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "halving",
+        "options",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_target_70K",
+        "April_expiry_options",
+        "halving_anticipation"
+      ],
+      "rationale": "Market expectations, as reflected in options pricing, suggest a bullish outlook for Bitcoin leading up to and potentially following the halving event. A 20% chance of reaching $70K by April indicates significant upside potential being priced in."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n6266c58ff520",
+      "title": "Zacks Investment Ideas feature highlights: GBTC, BITC, BITO, BTF and DEFI",
+      "url": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-131500199.html",
+      "summary": "Bitcoin has surpassed $52,000, its highest level since December 2021, with a nearly 21% gain year-to-date. This surge is attributed to increased institutional money flowing into the market, particularly via Bitcoin ETFs. The article highlights various Bitcoin-related ETFs, indicating strong investor interest in regulated products.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_surge",
+        "institutional_inflows",
+        "ETF_performance"
+      ],
+      "rationale": "The significant price surge in Bitcoin, driven by institutional inflows into ETFs, creates a strong bullish short-term momentum. The focus on various Bitcoin ETFs underscores the growing demand for regulated exposure to the asset."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-02-16",
+    "summary": "Bitcoin has crossed the $50,000 mark, reaching its highest level since December 2021, driven by strong inflows into spot Bitcoin ETFs and positive earnings from Coinbase. This surge indicates renewed institutional and retail interest. However, potential selling pressure from Genesis's approved asset sales and mixed macroeconomic signals (hotter inflation data) introduce some uncertainty. The market is also anticipating the Bitcoin halving, contributing to a generally bullish sentiment.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "Potential selling pressure from Genesis asset liquidation.",
+      "Macroeconomic data (e.g., inflation) could lead to shifts in Fed policy expectations.",
+      "Profit-taking after the recent rapid price increase.",
+      "Regulatory developments impacting exchanges or stablecoins.",
+      "Unforeseen technical issues or exploits within the crypto ecosystem."
+    ],
+    "watch_items": [
+      "Coinbase (COIN) stock performance and earnings call commentary.",
+      "Grayscale Bitcoin Trust (GBTC) outflows.",
+      "US inflation data (CPI/PPI) and Federal Reserve statements.",
+      "Developments related to the Bitcoin halving.",
+      "Flows into other major Bitcoin ETFs (e.g., BlackRock, Fidelity)."
+    ]
+  }
+}

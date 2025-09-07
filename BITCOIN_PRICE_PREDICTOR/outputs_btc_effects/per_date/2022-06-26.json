@@ -1,0 +1,471 @@
+{
+  "date": "2022-06-26",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n921b7d21556b",
+      "title": "For Financial Advisors, Bitcoin Is the Next Nasdaq",
+      "url": "https://finance.yahoo.com/news/financial-advisors-bitcoin-next-nasdaq-125000086.html",
+      "summary": "This article posits that Bitcoin will become the primary driver of investment returns in the 2020s, mirroring the Nasdaq's role in the previous decade. It suggests that financial advisors should position their clients accordingly, highlighting Bitcoin's potential for high returns despite its volatility. The comparison to the Nasdaq implies a growing institutional acceptance and integration of Bitcoin into traditional investment portfolios, indicating a long-term bullish outlook for the asset.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "advisor_adoption",
+        "portfolio_allocation",
+        "nasdaq_correlation"
+      ],
+      "rationale": "The comparison of Bitcoin to the Nasdaq by financial advisors suggests a significant shift towards institutional adoption and integration into mainstream investment strategies. This trend, if sustained, points to increased demand and a potential for long-term price appreciation."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf35778b78c8f",
+      "title": "Bitcoin price drops more than 8% as higher-than-expected inflation spooks markets",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-drops-more-8-040844017.html",
+      "summary": "Bitcoin experienced a significant price drop of over 8%, correlating with a broader market downturn triggered by higher-than-expected inflation data. This event highlights Bitcoin's increasing correlation with traditional equity markets and its sensitivity to macroeconomic factors, particularly inflation and the Federal Reserve's monetary policy responses. The article underscores the vulnerability of Bitcoin to macro-economic shocks, suggesting a bearish short-to-medium term impact.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "inflation_impact",
+        "fed_policy",
+        "equity_correlation"
+      ],
+      "rationale": "The direct link between higher-than-expected inflation and Bitcoin's price drop demonstrates its sensitivity to macroeconomic conditions. This suggests that ongoing inflation concerns and potential Fed tightening will likely exert downward pressure on Bitcoin's price in the coming months."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n4ad20f39ba8b",
+      "title": "Fort Worth becomes first city to mine bitcoin",
+      "url": "https://finance.yahoo.com/news/fort-worth-becomes-first-city-180710034.html",
+      "summary": "Fort Worth, Texas, has launched a pilot program to mine Bitcoin using three S9 mining machines, making it the first U.S. city to do so. This initiative, despite its small scale, represents a significant step towards municipal adoption of cryptocurrency mining. It signals a potential shift in how local governments view and engage with blockchain technology, potentially paving the way for more such initiatives and increasing the legitimacy of Bitcoin mining operations.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "municipal_mining",
+        "government_adoption",
+        "pilot_program"
+      ],
+      "rationale": "The adoption of Bitcoin mining by a U.S. city is a novel development that could encourage further governmental and institutional engagement with the technology. This could lead to increased infrastructure development and broader acceptance of Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nb8026c59f5b8",
+      "title": "Bitcoin, cryptocurrencies return to red with soaring UK inflation",
+      "url": "https://finance.yahoo.com/news/bitcoin-cryptocurrencies-return-red-soaring-010933050.html",
+      "summary": "Bitcoin and other cryptocurrencies experienced a decline, falling below $20,000 for the third time in a week, as record inflation in the UK and recession warnings impacted crypto markets. This news reinforces the correlation between Bitcoin and traditional markets, particularly in response to negative macroeconomic data. The persistent downward pressure suggests that global inflation and recession fears are significant headwinds for the cryptocurrency market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "uk_inflation",
+        "recession_fears",
+        "global_macro_impact"
+      ],
+      "rationale": "Soaring inflation in major economies like the UK, coupled with recession fears, directly impacts Bitcoin's price. This indicates a strong sensitivity to global macroeconomic instability, suggesting continued bearish pressure as these factors persist."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nf54fc8f4b894",
+      "title": "US stocks close mixed after the S&P 500 slides into a bear market amid recession fears",
+      "url": "https://finance.yahoo.com/news/us-stocks-close-mixed-p-200926050.html",
+      "summary": "US stocks closed mixed, with the S&P 500 entering bear market territory due to recession fears. This broad market downturn, influenced by factors like China's stimulus measures and ongoing inflation concerns, directly impacts Bitcoin due to its increasing correlation with traditional equities. The article suggests that the broader economic sentiment, including recession fears, is a significant driver of market movements across asset classes.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "sp500_bear_market",
+        "recession_fears",
+        "china_stimulus"
+      ],
+      "rationale": "The entry of the S&P 500 into a bear market, driven by recession fears, strongly suggests a continued negative correlation with Bitcoin. This macroeconomic environment is likely to suppress risk assets, including Bitcoin, for an extended period."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nde28d8fe4278",
+      "title": "Bitcoin Still Fighting to Maintain $40K As More Countries Adopt Its Use",
+      "url": "https://finance.yahoo.com/news/bitcoin-still-fighting-maintain-40k-172716241.html",
+      "summary": "Bitcoin is struggling to maintain the $40,000 level amidst inflation fears that are also impacting traditional stock markets. The article notes Bitcoin's 16% year-to-date decline, mirroring the S&P 500's trend. Despite this, it mentions that more countries are looking to adopt Bitcoin. This suggests a mixed outlook, with strong macroeconomic headwinds countered by growing adoption, implying a potential for recovery if macro conditions improve but also highlighting current bearish pressures.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "40k_support",
+        "country_adoption",
+        "sp500_correlation"
+      ],
+      "rationale": "While increasing country adoption is a long-term bullish factor, the immediate struggle to maintain key price levels like $40K due to inflation fears indicates significant short-to-medium term bearish pressure. The outcome depends on the interplay between macro conditions and adoption trends."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n8c38cf103b6a",
+      "title": "The 7 Best Tech Stocks to Buy for June 2022",
+      "url": "https://finance.yahoo.com/news/7-best-tech-stocks-buy-141601720.html",
+      "summary": "This article discusses the significant losses in the technology sector, with even top tech stocks experiencing steep declines due to soaring inflation and Federal Reserve actions. It suggests that while volatility persists, the current market downturn might present long-term upside opportunities for contrarian investors. The piece emphasizes the ongoing impact of inflation and the Fed's monetary policy on tech stocks, which are often seen as bellwethers for risk assets like Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "tech_sector"
+      ],
+      "features_for_model": [
+        "tech_stock_losses",
+        "inflation_impact",
+        "contrarian_opportunity"
+      ],
+      "rationale": "The tech sector's struggles due to inflation and Fed policy are a proxy for broader risk asset sentiment. While the article hints at long-term opportunities, the immediate bearish pressures from macro factors suggest a cautious outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 30,
+      "id": "nc0dc340bff9c",
+      "title": "GLOBAL MARKETS-Shares slide, dollar climbs as inflation spooks investors",
+      "url": "https://finance.yahoo.com/news/global-markets-shares-slide-dollar-062925520.html",
+      "summary": "Global markets saw shares slide and the dollar climb as persistent high inflation spooked investors, pushing Asian stocks to a near two-year low. Bitcoin is also tumbling, hitting a new 16-month low. This broad market sell-off, driven by inflation concerns and the expectation of aggressive interest rate hikes, indicates a strong risk-off sentiment across all asset classes, including cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "global_market_slide",
+        "dollar_strength",
+        "bitcoin_16m_low"
+      ],
+      "rationale": "The confluence of sliding global shares, a strengthening dollar, and Bitcoin hitting a 16-month low, all driven by inflation fears, paints a clear picture of a risk-off environment. This suggests continued downward pressure on Bitcoin as investors seek safety."
+    },
+    {
+      "pick_idx": 33,
+      "id": "ndda1cf1518df",
+      "title": "Bitcoin Mining Appears to Have Survived Ban in China",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-appears-survived-ban-092350964.html",
+      "summary": "Despite China's ban on Bitcoin mining, the country has emerged as the second-largest contributor to the global Bitcoin mining network from September 2021 to January 2022, according to the Cambridge Centre for Alternative Finance. This resilience in mining operations, despite regulatory crackdowns, suggests that the underlying infrastructure and network have adapted. It indicates a potential for continued decentralized mining activity, which is crucial for network security and stability.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "china_mining_resilience",
+        "hashrate_distribution",
+        "regulatory_adaptation"
+      ],
+      "rationale": "The surprising resurgence of Chinese mining operations post-ban indicates the adaptability of the Bitcoin network. This resilience in hashrate distribution is a positive sign for network security and decentralization, indirectly supporting Bitcoin's long-term value."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n79e7df5a093d",
+      "title": "FASB to Review Accounting Rules for Digital Assets Held on Balance Sheets: Report",
+      "url": "https://finance.yahoo.com/news/fasb-review-accounting-rules-digital-170345008.html",
+      "summary": "The Financial Accounting Standards Board (FASB) is set to review accounting rules for digital assets held on balance sheets, a move highlighted by MicroStrategy CEO Michael Saylor. This review could lead to more standardized and potentially favorable accounting treatments for cryptocurrencies held by corporations. Improved accounting clarity can reduce uncertainty and encourage more companies to hold digital assets, fostering broader institutional adoption and potentially increasing demand for Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "accounting"
+      ],
+      "features_for_model": [
+        "fasb_review",
+        "digital_asset_accounting",
+        "corporate_balance_sheet"
+      ],
+      "rationale": "A review of accounting rules by FASB could lead to clearer, more favorable treatment of digital assets for corporations. This increased clarity and potential for better accounting practices can significantly boost institutional adoption and confidence in Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ndbb303b198dc",
+      "title": "Crypto Market Daily Highlights – June 25 – BTC and ETH Make Ground",
+      "url": "https://finance.yahoo.com/news/crypto-market-daily-highlights-june-023933652.html",
+      "summary": "Bitcoin extended its winning streak on Saturday, while Binance Coin saw red. The total crypto market cap saw a modest increase. The lack of major news allowed Friday's momentum to carry over. This suggests a short-term positive sentiment for Bitcoin, driven by technical momentum rather than specific catalysts.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "btc_winning_streak",
+        "market_cap_increase",
+        "technical_momentum"
+      ],
+      "rationale": "Bitcoin's extended winning streak, driven by momentum from the previous day, suggests a short-term positive price action. The absence of negative news further supports this brief bullish trend."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n07a9e9d0b908",
+      "title": "Fear not, bitcoin bulls — the current rout will weed out the solid crypto operators from the weak ones. 3 experts explain how",
+      "url": "https://finance.yahoo.com/news/fear-not-bitcoin-bulls-current-080000590.html",
+      "summary": "Industry experts believe crypto crashes are beneficial, stress-testing infrastructure and leading to greater efficiency. Despite market routs and insolvency worries, crypto owners are advised to remain calm. This sentiment suggests that the current downturn, while painful, is seen as a cleansing process that could lead to a healthier market in the near future.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "market_sentiment",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crash_benefit",
+        "stress_test",
+        "operator_cleansing"
+      ],
+      "rationale": "Expert opinions suggesting that market crashes are beneficial for weeding out weak operators and improving infrastructure can foster a more optimistic short-term sentiment, potentially leading to a rebound."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nba65bd108ba2",
+      "title": "Mark Cuban says that crypto is ‘going through the lull’ that the early internet saw — here are 3 simple ways cash in on a big bounce",
+      "url": "https://finance.yahoo.com/news/mark-cuban-says-crypto-going-200000069.html",
+      "summary": "Mark Cuban compares the current crypto market to the early internet's 'lull,' suggesting a period of consolidation before a significant bounce. This perspective, from a prominent investor, can influence market sentiment. The idea of an impending 'big bounce' could encourage buying activity in the short term as investors anticipate a recovery.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "market_sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "cuban_analogy",
+        "internet_lull",
+        "bounce_anticipation"
+      ],
+      "rationale": "Mark Cuban's analogy of crypto going through an 'internet lull' before a bounce can positively influence short-term sentiment, potentially leading to increased buying pressure as investors anticipate a recovery."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nbb0fdf256c5e",
+      "title": "Bitcoin (BTC) Eyes a First Visit to $22,000 Since June 16",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-eyes-first-visit-124538996.html",
+      "summary": "Bitcoin experienced a bullish Saturday session, rising by 1.20% and extending its winning streak to three sessions. Investors appeared to put recession fears aside, with improved risk appetite spilling over from Friday. Technical indicators are also bullish, with Bitcoin trading above its 50-day EMA. This suggests a short-term upward trend.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "btc_price_target",
+        "three_day_streak",
+        "risk_appetite"
+      ],
+      "rationale": "The bullish Saturday session, marked by a price increase and a three-day winning streak, coupled with positive technical indicators, suggests a short-term upward momentum for Bitcoin."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0ac972146a8c",
+      "title": "Robert Kiyosaki says that hot inflation will 'wipe out 50% of the US population' — here's what he means by that and how to protect yourself",
+      "url": "https://finance.yahoo.com/news/robert-kiyosaki-says-hot-inflation-130000247.html",
+      "summary": "Robert Kiyosaki warns that high inflation could 'wipe out 50% of the US population' and suggests protecting oneself. With US consumer prices up 8.6% in May, the Fed may continue raising interest rates, impacting the stock market. This dire warning about inflation and potential Fed actions creates a bearish sentiment for risk assets in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "kiyosaki_inflation_warning",
+        "fed_rate_hike_fear",
+        "population_impact"
+      ],
+      "rationale": "Robert Kiyosaki's strong warning about inflation and its potential impact, coupled with the possibility of further Fed rate hikes, creates a bearish short-term outlook for Bitcoin as a risk asset."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n4b1b13f9fd47",
+      "title": "Opaque Platforms and Intertwined Protocols Pose Big Risk to Crypto",
+      "url": "https://finance.yahoo.com/news/opaque-platforms-intertwined-protocols-pose-145000040.html",
+      "summary": "This article highlights the significant risks posed by opaque platforms and intertwined protocols within the crypto market. It suggests that these complexities can lead to systemic vulnerabilities. While the focus is on risk, the discussion implies that projects addressing these issues or demonstrating transparency could gain favor, potentially influencing short-term trading decisions based on perceived safety.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.55,
+      "impact_tags": [
+        "infrastructure",
+        "risk"
+      ],
+      "features_for_model": [
+        "opaque_platforms",
+        "protocol_risk",
+        "systemic_vulnerability"
+      ],
+      "rationale": "The identification of significant risks in opaque platforms and intertwined protocols creates uncertainty. While not directly bearish or bullish for Bitcoin itself, it highlights a general market risk that could lead to volatility or a flight to perceived safer assets."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n3d7f1d6efc27",
+      "title": "First Mover Asia: Bitcoin Holds Above $21K in Weekend Trading, Solana Web3 Phone Faces Long Odds",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-holds-232615784.html",
+      "summary": "Bitcoin held steady above $21,000 during weekend trading, despite a slight fall on Sunday. Ether remained above $1,200. The article also notes that the Solana Web3 phone faces long odds based on industry track records. The stability of Bitcoin above a key psychological level suggests some short-term resilience, even amidst broader market concerns.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "btc_above_21k",
+        "eth_stability",
+        "weekend_trading"
+      ],
+      "rationale": "Bitcoin holding above the $21,000 level over the weekend indicates short-term support and resilience, suggesting a potential for continued price stability or a slight upward movement in the immediate future."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nbb0fdf256c5e",
+      "title": "Bitcoin (BTC) Eyes a First Visit to $22,000 Since June 16",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-eyes-first-visit-124538996.html",
+      "summary": "Bitcoin saw a bullish Saturday session, rising by 1.20% and extending its winning streak to three sessions. Investors seemed to disregard recession fears, with improved risk appetite carrying over from Friday. Technical indicators are also positive, with Bitcoin trading above its 50-day EMA. This points to a short-term bullish trend.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "btc_price_target",
+        "three_day_streak",
+        "risk_appetite"
+      ],
+      "rationale": "The bullish Saturday session, marked by a price increase and a three-day winning streak, coupled with positive technical indicators, suggests a short-term upward momentum for Bitcoin."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n07a9e9d0b908",
+      "title": "Fear not, bitcoin bulls — the current rout will weed out the solid crypto operators from the weak ones. 3 experts explain how",
+      "url": "https://finance.yahoo.com/news/fear-not-bitcoin-bulls-current-080000590.html",
+      "summary": "Industry experts believe crypto crashes are beneficial, stress-testing infrastructure and leading to greater efficiency. Despite market routs and insolvency worries, crypto owners are advised to remain calm. This sentiment suggests that the current downturn, while painful, is seen as a cleansing process that could lead to a healthier market in the near future.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "market_sentiment",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crash_benefit",
+        "stress_test",
+        "operator_cleansing"
+      ],
+      "rationale": "Expert opinions suggesting that market crashes are beneficial for weeding out weak operators and improving infrastructure can foster a more optimistic short-term sentiment, potentially leading to a rebound."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nba65bd108ba2",
+      "title": "Mark Cuban says that crypto is ‘going through the lull’ that the early internet saw — here are 3 simple ways cash in on a big bounce",
+      "url": "https://finance.yahoo.com/news/mark-cuban-says-crypto-going-200000069.html",
+      "summary": "Mark Cuban compares the current crypto market to the early internet's 'lull,' suggesting a period of consolidation before a significant bounce. This perspective, from a prominent investor, can influence market sentiment. The idea of an impending 'big bounce' could encourage buying activity in the short term as investors anticipate a recovery.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "market_sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "cuban_analogy",
+        "internet_lull",
+        "bounce_anticipation"
+      ],
+      "rationale": "Mark Cuban's analogy of crypto going through an 'internet lull' before a bounce can positively influence short-term sentiment, potentially leading to increased buying pressure as investors anticipate a recovery."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-06-26",
+    "summary": "Bitcoin showed resilience over the weekend, holding above key support levels like $21,000, with some positive momentum from Friday carrying over. Expert opinions suggest that the current market downturn is a necessary 'cleansing' process, potentially leading to a stronger market. However, persistent inflation warnings and the possibility of further Fed rate hikes continue to cast a bearish shadow over risk assets in the short term. Long-term, institutional adoption and regulatory clarity remain key drivers.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued high inflation data leading to aggressive Fed rate hikes.",
+      "Broader market contagion from crypto firm insolvencies.",
+      "Lack of significant positive catalysts beyond technical momentum.",
+      "Geopolitical instability impacting global risk sentiment."
+    ],
+    "watch_items": [
+      "US CPI data releases",
+      "Federal Reserve statements and meeting minutes",
+      "Major crypto exchange or lender news",
+      "Global equity market performance"
+    ]
+  }
+}

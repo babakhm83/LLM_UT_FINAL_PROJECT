@@ -1,0 +1,506 @@
+{
+  "date": "2019-08-12",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "ne040a0e5d1dd",
+      "title": "Bitcoin Price Storms 151% YTD as Facebook’s Libra Boosts 2019 Rally",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-storms-151-ytd-084722809.html",
+      "summary": "Bitcoin's year-to-date performance of over 151% highlights a strong market sentiment, bolstered by institutional capital inflows and the upcoming Bitcoin block reward halving. The emergence of Facebook's Libra project also contributed to the positive market outlook, signaling growing interest and potential mainstream adoption of cryptocurrencies. This period marked a significant upswing for Bitcoin, driven by both fundamental factors and broader industry developments.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "YTD_performance",
+        "institutional_inflow",
+        "halving_anticipation",
+        "Libra_impact"
+      ],
+      "rationale": "The significant year-to-date price increase and positive sentiment driven by institutional interest and the halving event suggest a strong underlying bullish trend. Libra's emergence further validates the cryptocurrency space, potentially attracting more users and capital."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n443cf81c958d",
+      "title": "Bitcoin futures volume was about a third of the spot volume in May",
+      "url": "https://finance.yahoo.com/news/bitcoin-futures-volume-third-spot-061339358.html",
+      "summary": "Bitcoin futures volumes reached a record $12 billion in May, an 118% increase from April. JPMorgan estimated that after accounting for fake volume, real spot Bitcoin volume was around $36 billion, making futures volume approximately 33% of spot. This suggests a growing institutional interest and a shift in market structure, potentially indicating a more mature and less manipulated market compared to previous cycles.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "market_structure"
+      ],
+      "features_for_model": [
+        "futures_volume_growth",
+        "spot_volume_ratio",
+        "institutional_adoption"
+      ],
+      "rationale": "The surge in futures volume, especially relative to spot, indicates increasing institutional participation and a maturing derivatives market. This can lead to greater price discovery and stability."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nb778eba3c6e6",
+      "title": "Trump blasts Bitcoin, Facebook's Libra, demands they face banking regulations",
+      "url": "https://finance.yahoo.com/news/trump-blasts-bitcoin-facebooks-libra-003140228.html",
+      "summary": "President Trump expressed strong disapproval of Bitcoin and Facebook's Libra, calling them volatile and not 'money.' He demanded that companies wanting to operate in the financial space seek banking charters and adhere to all banking regulations. This stance signals potential regulatory headwinds for the crypto industry in the US, which could impact adoption and innovation.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Trump_regulation_stance",
+        "crypto_regulation_uncertainty",
+        "banking_charter_demand"
+      ],
+      "rationale": "Presidential commentary and the call for stricter regulation can create significant uncertainty and dampen institutional adoption. This could lead to increased compliance costs and potentially limit the growth of crypto services in the US."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n10ed7b05e323",
+      "title": "Financial Markets Collapse Supports Bitcoin",
+      "url": "https://finance.yahoo.com/news/financial-markets-collapse-supports-bitcoin-111209679.html",
+      "summary": "The article suggests that a potential collapse in traditional financial markets could drive demand for Bitcoin as a safe-haven asset. It notes that Bitcoin is showing signs of a finished correction and unrealized consumer demand, with previous resistance levels potentially acting as support. The halving of Litecoin's block reward and its subsequent price increase are also mentioned as positive indicators for the broader crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "safe_haven_demand",
+        "market_correction_end",
+        "altcoin_halving_impact"
+      ],
+      "rationale": "The narrative of Bitcoin as a 'digital gold' or safe-haven asset gains traction during times of traditional market instability. This macro trend could significantly boost Bitcoin's price and adoption."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n68c2f368e86c",
+      "title": "PwC rolls out new auditing tool for cryptocurrencies as Big 4 race to fill demand",
+      "url": "https://finance.yahoo.com/news/pwc-rolls-auditing-tool-cryptocurrencies-130927120.html",
+      "summary": "PwC has launched an updated auditing solution, Halo, to support clients holding cryptocurrencies. The tool tracks blockchain transactions to provide evidence of ownership for Bitcoin, Bitcoin Cash, Litecoin, Ether, and others. This development signifies increasing institutional acceptance and the need for robust auditing and compliance frameworks within the crypto industry, driven by demand from major financial players.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "PwC_auditing_tool",
+        "crypto_compliance",
+        "institutional_acceptance"
+      ],
+      "rationale": "The development of professional auditing tools by major firms like PwC indicates a growing institutional interest and the establishment of necessary infrastructure for broader adoption. This enhances credibility and regulatory compliance."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n086456c72674",
+      "title": "Russia Is Getting Serious About Blockchain, but Remains on the Fence About Cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/russia-getting-serious-blockchain-remains-083500944.html",
+      "summary": "Russia is showing significant interest in blockchain technology, particularly for state-controlled businesses and economic sectors. However, the country remains hesitant regarding cryptocurrencies themselves, with a lack of a clear regulatory framework despite previous directives. This dual approach suggests a cautious embrace of the underlying technology while maintaining distance from digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Russia_blockchain_policy",
+        "Russia_crypto_regulation",
+        "state_adoption_blockchain"
+      ],
+      "rationale": "Russia's focus on blockchain while being cautious about cryptocurrencies presents a mixed signal. While blockchain adoption could indirectly benefit the ecosystem, the lack of clear crypto regulation limits direct positive impact."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n98d3b83c8ab7",
+      "title": "Bitcoin rises 5% as China’s yuan sinks to 11-year lows against US dollar",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-5-china-yuan-053505321.html",
+      "summary": "Bitcoin experienced a 5% price increase as the Chinese yuan weakened to its lowest level against the US dollar in 11 years. This movement occurred after the People's Bank of China set a weaker reference rate for the yuan, potentially in response to US tariffs. The correlation suggests Bitcoin may be acting as a hedge against currency devaluation and geopolitical tensions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "CNY_devaluation",
+        "trade_war_impact",
+        "bitcoin_as_hedge"
+      ],
+      "rationale": "The inverse correlation between the weakening Yuan and Bitcoin's rise highlights its potential as a safe-haven asset against currency instability and trade war escalations, a macro trend that could persist."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n60d0f572ecd1",
+      "title": "How Facebook's Libra Will Change the Cryptocurrency Landscape",
+      "url": "https://finance.yahoo.com/news/facebooks-libra-change-cryptocurrency-landscape-214955096.html",
+      "summary": "Facebook's planned Libra cryptocurrency aims for rapid, low-fee transactions, targeting the unbanked. Its design prioritizes stability over volatility, differentiating it from Bitcoin. The project's success could significantly influence the broader cryptocurrency landscape by introducing a new model for digital currency and potentially attracting regulatory scrutiny that could spill over to other cryptocurrencies.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Libra_impact",
+        "stablecoin_adoption",
+        "regulatory_scrutiny_spillover"
+      ],
+      "rationale": "Libra's potential to onboard millions and its stablecoin design could reshape user expectations and regulatory approaches. While it may not directly boost Bitcoin's price, it increases overall crypto awareness and could lead to more defined regulatory frameworks."
+    },
+    {
+      "pick_idx": 42,
+      "id": "ncf3c0905f958",
+      "title": "Bitcoin is going mainstream Stateside, Coinbase report claims",
+      "url": "https://finance.yahoo.com/news/bitcoin-going-mainstream-stateside-coinbase-130049822.html",
+      "summary": "A Coinbase report indicates growing mainstream adoption of Bitcoin in the US, with 58% of Americans having heard of it and more Google searches than major events. Over 70% of US states have enacted legislation addressing crypto or blockchain. This suggests increasing public awareness and a developing regulatory environment, which are positive signs for long-term adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "US_mainstream_adoption",
+        "Coinbase_report",
+        "state_level_regulation"
+      ],
+      "rationale": "Increased public awareness and state-level legislative action in the US are crucial steps towards broader adoption and regulatory clarity. This trend indicates a maturing market and growing acceptance."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n34ecadada372d",
+      "title": "Bitcoin.com is launching a Bitcoin Cash-focused crypto exchange",
+      "url": "https://finance.yahoo.com/news/bitcoin-com-launching-bitcoin-cash-141103355.html",
+      "summary": "Bitcoin.com, associated with Roger Ver, is launching a new crypto exchange focused on Bitcoin Cash (BCH). While championing BCH over BTC, it will also offer trading pairs against Tether, Ethereum, and Bitcoin. The exchange aims to provide a robust platform with ample liquidity, potentially increasing trading volume and competition in the exchange market.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin.com_exchange",
+        "BCH_focus",
+        "exchange_competition"
+      ],
+      "rationale": "The launch of a new exchange, even with a specific focus, contributes to the overall infrastructure and liquidity of the crypto market. However, its direct impact on Bitcoin's price is likely to be limited unless it gains significant market share."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 8,
+      "id": "n068f64fefa29",
+      "title": "Goldman Sachs turns bullish on Bitcoin with $13,971 target",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-turns-bullish-bitcoin-180054700.html",
+      "summary": "Goldman Sachs analysts have set a short-term Bitcoin price target of $13,971, suggesting a bullish outlook based on technical analysis, including Elliott Wave theory. They recommend holding long positions with a stop-loss at $10,791. This institutional endorsement could influence market sentiment and attract further investment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "analysis"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_target",
+        "Elliott_Wave_analysis",
+        "institutional_sentiment"
+      ],
+      "rationale": "A major investment bank like Goldman Sachs issuing a bullish target can significantly boost short-term sentiment and attract speculative buying."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n25e2c5013066",
+      "title": "Goldman Sachs Analysts’ Slide Suggests Now’s a Good Time to Buy Bitcoin",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-analysts-note-says-114132656.html",
+      "summary": "Goldman Sachs' technical analysis team suggests buying Bitcoin on dips, with a short-term target of $13,971 and support around $11,094. This positive outlook from a major financial institution could encourage short-term buying pressure.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "analysis"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_buy_signal",
+        "technical_analysis",
+        "short_term_target"
+      ],
+      "rationale": "Similar to the previous pick, this reinforces the bullish sentiment from Goldman Sachs, directly advising clients to buy, which can create immediate buying pressure."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nd41ec1e2b6d0",
+      "title": "China’s Central Bank ‘Close’ to Launching Official Digital Currency",
+      "url": "https://finance.yahoo.com/news/china-central-bank-close-launching-084540010.html",
+      "summary": "China's central bank is nearing the launch of its own digital currency, according to a deputy director. This development, spurred by Facebook's Libra, indicates a significant move by a major economy towards central bank digital currencies (CBDCs), potentially influencing global digital currency trends and regulatory responses.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "CBDC"
+      ],
+      "features_for_model": [
+        "China_CBDC_launch",
+        "PBOC_digital_currency",
+        "Libra_response"
+      ],
+      "rationale": "The imminent launch of a digital currency by China's central bank could signal a shift in global monetary policy and potentially impact the perceived value proposition of decentralized cryptocurrencies like Bitcoin."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n28fbafdf7132",
+      "title": "SEC Delays Decisions on 3 Bitcoin ETF Proposals",
+      "url": "https://finance.yahoo.com/news/sec-delays-decisions-3-bitcoin-192425023.html",
+      "summary": "The SEC has delayed decisions on three Bitcoin ETF proposals from Bitwise, VanEck/SolidX, and Wilshire Phoenix. These delays, part of the standard review process, push back the potential for a US-based Bitcoin ETF, which is seen as a key catalyst for institutional adoption.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation"
+      ],
+      "features_for_model": [
+        "SEC_ETF_delay",
+        "Bitwise_ETF",
+        "VanEck_ETF",
+        "Wilshire_Phoenix_ETF"
+      ],
+      "rationale": "The delay in ETF approvals removes a potential near-term bullish catalyst, creating uncertainty and potentially leading to a slight price correction or consolidation."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n2a9496ae30bf",
+      "title": "IRS Warnings to Bitcoin Traders Offer Clues to Coming Tax Guidance",
+      "url": "https://finance.yahoo.com/news/irs-warnings-bitcoin-traders-offer-080039027.html",
+      "summary": "The IRS has sent warning letters to 10,000 crypto traders, hinting at forthcoming tax guidance. This suggests the IRS may change reporting methods for crypto holdings, potentially impacting how gains and losses are calculated and reported. Clarity on tax treatment is crucial for institutional and retail adoption.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "tax"
+      ],
+      "features_for_model": [
+        "IRS_warning_letters",
+        "crypto_tax_guidance",
+        "tax_reporting_changes"
+      ],
+      "rationale": "The IRS's proactive stance on crypto taxation, even through warning letters, signals increased regulatory focus. Future guidance could impact trading behavior and market liquidity."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n6d7085144a55",
+      "title": "Steve Bannon: Still bullish on Bitcoin",
+      "url": "https://decrypt.co/80086/steve-bannon-still-bullish-on-bitcoin",
+      "summary": "Former Trump advisor Stephen Bannon expressed a bullish outlook on cryptocurrencies, stating they have a 'big future.' His comments, stemming from his background in finance, suggest a continued belief in the long-term potential of crypto, which could influence broader sentiment among certain investor demographics.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Steve_Bannon_bullish",
+        "crypto_long_term_potential",
+        "political_figure_endorsement"
+      ],
+      "rationale": "While not a primary market mover, endorsements from prominent figures like Bannon can provide a minor sentiment boost, especially within specific political or economic circles."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n25e2c5013066",
+      "title": "Goldman Sachs Analysts’ Slide Suggests Now’s a Good Time to Buy Bitcoin",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-analysts-note-says-114132656.html",
+      "summary": "Goldman Sachs' technical analysis team suggests buying Bitcoin on dips, with a short-term target of $13,971 and support around $11,094. This positive outlook from a major financial institution could encourage short-term buying pressure.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "analysis"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_buy_signal",
+        "technical_analysis",
+        "short_term_target"
+      ],
+      "rationale": "This reiterates the bullish sentiment from Goldman Sachs, directly advising clients to buy, which can create immediate buying pressure and influence short-term price action."
+    },
+    {
+      "pick_idx": 40,
+      "id": "na8b59b69b59a",
+      "title": "Crypto Code Commits Remain Near All-Time Highs, Despite Price Declines",
+      "url": "https://finance.yahoo.com/news/crypto-code-commits-remain-near-170002677.html",
+      "summary": "A report by Electric Capital indicates that despite price declines, developer activity (code commits) in open-source crypto projects remains near all-time highs. This suggests underlying development strength and commitment from core technologists, particularly in decentralized finance and infrastructure, which is a positive sign for the long-term health of the ecosystem.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "developer_activity",
+        "code_commits",
+        "DeFi_growth",
+        "infrastructure_development"
+      ],
+      "rationale": "Strong developer activity indicates continued innovation and building within the crypto space, which is a fundamental driver of future value and adoption, even if short-term price action is muted."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n789c5e00472d",
+      "title": "USD/CAD Daily Forecast – Overhead Resistance Cluster Blocking Upside",
+      "url": "https://finance.yahoo.com/news/usd-cad-daily-forecast-overhead-092051120.html",
+      "summary": "The USD/CAD pair faces overhead resistance, potentially signaling weakness. Crude oil prices are also nudging lower due to trade disputes, impacting demand outlook. The economic calendar is light. This suggests a potentially cautious or slightly bearish sentiment in broader markets, which could indirectly affect risk assets like Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "forex"
+      ],
+      "features_for_model": [
+        "USD_CAD_resistance",
+        "crude_oil_prices",
+        "trade_dispute_impact"
+      ],
+      "rationale": "Broader macroeconomic indicators showing potential weakness or risk aversion in traditional markets can sometimes lead to a flight to safety, which might see a slight outflow from riskier assets like Bitcoin."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n1e35df13fec7",
+      "title": "Trump’s Currency War With China Could Be Bitcoin’s Do-or-Die Moment",
+      "url": "https://finance.yahoo.com/news/trump-currency-war-china-could-023006859.html",
+      "summary": "The escalating currency war between the US and China presents a critical juncture for Bitcoin. In theory, it should prove its worth as an uncorrelated asset immune to political risks. However, the immediate impact is uncertain, with potential for both significant upside if it acts as a safe haven or downside if global economic instability affects all risk assets.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "US_China_currency_war",
+        "geopolitical_risk",
+        "bitcoin_safe_haven_test"
+      ],
+      "rationale": "The ongoing trade and currency tensions between the US and China create significant macroeconomic uncertainty. Bitcoin's performance in this environment will be a key test of its uncorrelated asset narrative."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-08-12",
+    "summary": "The market sentiment is cautiously optimistic, with institutional endorsements from Goldman Sachs providing a bullish short-term outlook for Bitcoin. However, regulatory headwinds persist, highlighted by the SEC's delay on ETF proposals and ongoing discussions around crypto taxation by the IRS. Macroeconomic factors, particularly the US-China currency war, introduce significant uncertainty, potentially testing Bitcoin's safe-haven narrative.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Increased regulatory scrutiny from the US government (Trump's comments, IRS actions).",
+      "Further delays or rejections of Bitcoin ETF proposals.",
+      "Escalation of US-China trade and currency tensions impacting global markets.",
+      "Potential for profit-taking after recent price rallies.",
+      "Negative sentiment spillover from altcoins (e.g., Litecoin's post-halving decline)."
+    ],
+    "watch_items": [
+      "Goldman Sachs' price targets and market commentary.",
+      "SEC's upcoming decisions on ETF proposals.",
+      "Developments in China's digital currency launch.",
+      "US-China trade war negotiations and currency movements.",
+      "IRS guidance on cryptocurrency taxation."
+    ]
+  }
+}

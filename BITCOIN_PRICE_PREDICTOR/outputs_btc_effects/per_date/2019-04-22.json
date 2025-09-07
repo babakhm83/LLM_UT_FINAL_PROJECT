@@ -1,0 +1,465 @@
+{
+  "date": "2019-04-22",
+  "long_term": [
+    {
+      "pick_idx": 5,
+      "id": "ncf6dc499fbd6",
+      "title": "Bitcoin Billionaire Zhao Dong: Bitcoin Is Likely to Fluctuate Between $4,000 and $6,000 for Half a Year",
+      "url": "https://finance.yahoo.com/news/bitcoin-billionaire-zhao-dong-bitcoin-172104961.html",
+      "summary": "Chinese OTC trader Zhao Dong, a bitcoin billionaire, predicts Bitcoin will trade between $4,000 and $6,000 for several months. This suggests a period of consolidation rather than a strong bull run, indicating potential for sideways movement and limited upside in the near to medium term. His view implies that the recent surge to a five-month high might not signal the end of the bear market, but rather a temporary relief within a broader range-bound period.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Zhao_Dong_prediction",
+        "price_range_forecast",
+        "consolidation_period"
+      ],
+      "rationale": "This prediction from a significant market player suggests a period of consolidation, which could limit immediate upside but also provide a stable base for future growth. It implies that institutional interest might be waiting for clearer signals or further accumulation within this range."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n8aa1d3202c8b",
+      "title": "Top 5 Crypto Performers Overview: ONT, ADA, ETC, BCH, IOTA",
+      "url": "https://finance.yahoo.com/news/top-5-crypto-performers-overview-170800986.html",
+      "summary": "Arthur Hayes, CEO of BitMEX, expects Bitcoin to reach $10,000 this year. The launch of Bakkt is cited as a potential catalyst for upward price movement. This optimistic outlook from a prominent figure in the derivatives market suggests a belief in significant institutional adoption and increased liquidity, which could drive prices higher over the coming months.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Arthur_Hayes_prediction",
+        "Bakkt_launch_impact",
+        "institutional_adoption"
+      ],
+      "rationale": "Hayes' $10,000 prediction, coupled with the anticipation of Bakkt's launch, points to a strong bullish sentiment driven by expected institutional inflows and improved market infrastructure. This could significantly boost Bitcoin's price and adoption."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n7dafefaea9b7",
+      "title": "India’s Best-Funded Bitcoin Exchange is Running Low on Cash and Employees",
+      "url": "https://finance.yahoo.com/news/india-best-funded-bitcoin-exchange-113903865.html",
+      "summary": "India's Unocoin exchange is facing severe financial difficulties, laying off employees and having cash reserves for only a few months due to regulatory uncertainty. This highlights the challenges faced by crypto businesses in regions with unclear regulations, potentially hindering adoption and liquidity in those markets. The situation at Unocoin could be indicative of broader struggles for exchanges operating in similar regulatory environments.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_regulatory_uncertainty",
+        "Unocoin_financial_distress",
+        "exchange_layoffs"
+      ],
+      "rationale": "The struggles of a major Indian exchange due to regulatory uncertainty reflect a broader challenge for crypto adoption in emerging markets. This could lead to reduced liquidity and slower growth in these regions."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nee5e95fefd56",
+      "title": "Microsoft Wants to Help Make Your ICO a Success",
+      "url": "https://finance.yahoo.com/news/microsoft-wants-help-ico-success-084840671.html",
+      "summary": "Microsoft Azure is listing Stratis, a platform that helps ICO projects manage token distribution and payments. This indicates growing enterprise adoption of blockchain technology and a potential legitimization of tokenized assets. By integrating with major cloud providers, ICOs and tokenized projects gain credibility and access to a wider audience, fostering innovation in the crypto space.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Microsoft_Azure_integration",
+        "Stratis_platform",
+        "ICO_support"
+      ],
+      "rationale": "Enterprise adoption by tech giants like Microsoft, even in niche areas like ICO support, signals a growing acceptance and integration of blockchain technology. This can lead to increased development and innovation within the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nd7e60a294f87",
+      "title": "$20 Million Bithumb Hack Exposes Alarming Threat to Bitcoin Exchanges",
+      "url": "https://finance.yahoo.com/news/20-million-bithumb-hack-exposes-184554812.html",
+      "summary": "South Korean exchange Bithumb was hacked for approximately $20 million, with corporate funds affected but user cold storage wallets reportedly safe. The suspicion of an inside job raises concerns about internal security protocols at exchanges. Such incidents erode user trust and can lead to increased regulatory scrutiny, potentially impacting trading volumes and market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "hack/outage",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bithumb_hack",
+        "exchange_security_breach",
+        "inside_job_suspicion"
+      ],
+      "rationale": "Exchange hacks, especially those involving potential insider involvement, damage user confidence and can lead to stricter regulations. This can negatively impact liquidity and overall market sentiment in the medium term."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n3dcc45a21374",
+      "title": "Bitwise report: ‘CoinMarketCap.com data is wrong’",
+      "url": "https://finance.yahoo.com/news/bitwise-report-coinmarketcap-com-data-153010498.html",
+      "summary": "A Bitwise report claims CoinMarketCap data is inaccurate, including fake trading volumes. CoinMarketCap acknowledges the concerns and plans to add more information for users. This revelation could impact how investors perceive market data and the true liquidity of various cryptocurrencies, potentially leading to more discerning investment decisions and a push for greater data transparency.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "CoinMarketCap_data_inaccuracy",
+        "Bitwise_report",
+        "trading_volume_transparency"
+      ],
+      "rationale": "The questioning of CoinMarketCap's data accuracy highlights a critical need for reliable market information. This could lead to better data practices and more informed investment decisions, potentially impacting how capital flows into the crypto market."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n83a61e65c3f5",
+      "title": "Bitcoin is ‘Potentially Disruptive’ to PayPal & Visa: Analyst",
+      "url": "https://finance.yahoo.com/news/bitcoin-potentially-disruptive-paypal-visa-224509115.html",
+      "summary": "An analyst suggests Bitcoin and other cryptocurrencies are potentially disruptive to traditional payment systems like PayPal and Visa due to their design for 'freedom of money.' While not an immediate threat, this indicates a long-term potential for crypto to challenge established financial infrastructure. This perspective highlights the ongoing evolution of payment systems and the potential for decentralized technologies to gain traction.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_disruption_potential",
+        "PayPal_Visa_competition",
+        "freedom_of_money"
+      ],
+      "rationale": "The view that Bitcoin can disrupt established payment giants like PayPal and Visa points to a long-term bullish trend for cryptocurrencies as a viable alternative payment method, driving adoption and innovation."
+    },
+    {
+      "pick_idx": 33,
+      "id": "nbe22732ceeed",
+      "title": "CBOE exchange to delist Bitcoin futures amid falling volume",
+      "url": "https://finance.yahoo.com/news/cboe-exchange-delist-bitcoin-futures-104038477.html",
+      "summary": "The CBOE Futures Exchange (CFE) will delist its Bitcoin futures contracts due to dwindling trading volume. This decision reflects a temporary setback for institutional product offerings in the crypto space. While not a direct impact on Bitcoin's core technology, it signals a pause in the development of regulated derivatives, potentially affecting institutional sentiment and liquidity in the short to medium term.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "CBOE_delisting",
+        "Bitcoin_futures_volume",
+        "institutional_derivatives"
+      ],
+      "rationale": "The delisting of CBOE's Bitcoin futures due to low volume suggests a temporary cooling of institutional interest in regulated products, potentially impacting sentiment and liquidity for institutional investors."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n112357cc30c7",
+      "title": "BitMEX CEO Hayes Comes Full Circle, Predicts $50,000 Bitcoin Price",
+      "url": "https://finance.yahoo.com/news/bitmex-ceo-hayes-comes-full-090207713.html",
+      "summary": "BitMEX CEO Arthur Hayes predicts Bitcoin could reach $50,000 in two to five years, revising his earlier bearish stance. This strong bullish outlook from a key figure in the crypto derivatives market suggests confidence in long-term growth driven by increasing adoption and market maturity. Such predictions can influence market sentiment and attract further investment.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "Arthur_Hayes_prediction",
+        "BitMEX_CEO",
+        "long_term_bullish_outlook"
+      ],
+      "rationale": "Arthur Hayes' revised bullish prediction of $50,000 for Bitcoin within 2-5 years signals strong conviction from a major industry player, potentially driving long-term investment and adoption."
+    },
+    {
+      "pick_idx": 47,
+      "id": "ndff81f6da2f2",
+      "title": "Billionaire Warren Buffett Remains Clueless About Bitcoin, Calls It ‘Delusional’",
+      "url": "https://finance.yahoo.com/news/billionaire-warren-buffett-remains-clueless-142155152.html",
+      "summary": "Warren Buffett reiterates his negative stance on Bitcoin, calling it 'delusional.' This sentiment from a highly respected investor, while not directly impacting price, reflects a persistent skepticism from traditional finance circles. Such views can influence mainstream adoption and the perception of Bitcoin's legitimacy, potentially creating headwinds for broader acceptance.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Warren_Buffett_opinion",
+        "Bitcoin_skepticism",
+        "traditional_finance_view"
+      ],
+      "rationale": "While Buffett's opinion doesn't directly move markets, his persistent skepticism represents a segment of traditional finance that remains unconvinced, potentially slowing mainstream adoption and institutional embrace."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 4,
+      "id": "n053ccef85f60",
+      "title": "Here’s Why Crypto Traders are Abandoning Altcoins to Bullishly Buy Bitcoin",
+      "url": "https://finance.yahoo.com/news/why-crypto-traders-abandoning-altcoins-101203233.html",
+      "summary": "Traders are shifting from altcoins to Bitcoin, boosting its market dominance. This trend suggests a flight to safety within the crypto market, with Bitcoin seen as the primary store of value. This could lead to increased buying pressure on Bitcoin in the short term, potentially driving its price up while altcoins may experience further declines.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "altcoin_to_bitcoin_rotation",
+        "market_dominance_increase",
+        "flight_to_safety"
+      ],
+      "rationale": "A rotation from altcoins to Bitcoin indicates increased confidence in Bitcoin as the primary crypto asset, potentially driving short-term price appreciation."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n776a39d5af08",
+      "title": "The Ledger: Binance's Secret Sauce, Fake Satoshi, Waiting on Bakkt",
+      "url": "https://finance.yahoo.com/news/ledger-binance-apos-secret-sauce-220015088.html",
+      "summary": "Binance's rapid rise is attributed to regulatory arbitrage. The mention of 'Fake Satoshi' and waiting on Bakkt suggests ongoing market narratives and potential catalysts. Binance's strategy could influence market liquidity and regulatory responses, while Bakkt's launch remains a key event to watch for institutional adoption.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "listing"
+      ],
+      "features_for_model": [
+        "Binance_regulatory_arbitrage",
+        "Bakkt_launch_anticipation",
+        "Satoshi_Nakamoto_narrative"
+      ],
+      "rationale": "Binance's regulatory strategy and the anticipation of Bakkt's launch are significant short-term factors. The 'Fake Satoshi' narrative adds noise but could also be a distraction from more impactful developments."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb76c97cbf75a",
+      "title": "Bitcoin Price Won’t See New Lows – Mike Novogratz is 85% Sure",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-won-t-see-215503850.html",
+      "summary": "Mike Novogratz is 85% sure Bitcoin has bottomed, aligning with other influencers who believe the floor is in place. This strong sentiment from a prominent figure suggests a potential shift towards a bullish short-term outlook. If this sentiment holds, it could encourage more buying activity.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Novogratz_bottom_prediction",
+        "market_sentiment",
+        "influencer_opinion"
+      ],
+      "rationale": "Strong bullish sentiment from a major player like Novogratz, suggesting the market has bottomed, can act as a catalyst for short-term price increases as traders gain confidence."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf803a911792f",
+      "title": "JPMorgan Plots Blockchain Payments to Fight Transferwise, Ripple Threat",
+      "url": "https://finance.yahoo.com/news/jpmorgan-plots-blockchain-payments-fight-122111812.html",
+      "summary": "JPMorgan plans to expand its blockchain network for payments to compete with fintechs like Ripple and TransferWise. This move by a major bank into blockchain payments could signal increased institutional adoption of distributed ledger technology for financial services. It suggests a growing recognition of blockchain's potential to improve efficiency and reduce costs in cross-border transactions.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "JPMorgan_blockchain_payments",
+        "Interbank_Information_Network",
+        "fintech_competition"
+      ],
+      "rationale": "JPMorgan's move into blockchain payments indicates growing institutional interest and development in the space, which could positively influence the perception and adoption of blockchain technology."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n1f8d93d9478a",
+      "title": "Monthly report: crypto to crypto trading volumes surged by 70% in March; Malta dominates",
+      "url": "https://finance.yahoo.com/news/monthly-report-crypto-crypto-trading-173947444.html",
+      "summary": "March saw a 70% surge in crypto-to-crypto trading volumes, with Malta-registered exchanges leading. This indicates a strong resurgence in trading activity, particularly for non-fiat pairs. The increase in volume suggests renewed investor interest and potentially higher liquidity in the market.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_to_crypto_volume_surge",
+        "March_trading_activity",
+        "Malta_exchange_dominance"
+      ],
+      "rationale": "A significant increase in crypto-to-crypto trading volumes suggests renewed market activity and liquidity, which is generally a positive short-term indicator for the market."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n73047fc162fc",
+      "title": "Bitcoin, Ethereum, Ripple, Bitcoin Cash, EOS, Litecoin, Binance Coin, Stellar, Cardano, TRON: Price Analysis April 22",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-ripple-bitcoin-cash-184500464.html",
+      "summary": "Serena Williams invested in Coinbase. South Korean investors are increasing their average investment. These are positive signs of growing adoption and investment from both high-profile individuals and retail investors in key markets. Increased investment can lead to higher demand and price appreciation.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Serena_Williams_investment",
+        "Coinbase_investment",
+        "South_Korea_adoption"
+      ],
+      "rationale": "Investments from prominent figures like Serena Williams and increased activity from South Korean investors signal growing adoption and can contribute to positive short-term price momentum."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n5fe504d11025",
+      "title": "Mueller Report: Russia Funded U.S. Election Snooping, Manipulation with Bitcoin",
+      "url": "https://finance.yahoo.com/news/mueller-report-russia-funded-u-064607556.html",
+      "summary": "The Mueller report indicates Russian operatives used Bitcoin for election interference. While this is a historical event, any mention of Bitcoin in relation to illicit activities can create negative sentiment and attract regulatory attention. This could lead to short-term price volatility or increased scrutiny on transaction monitoring.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Mueller_report",
+        "Russian_election_interference",
+        "Bitcoin_illicit_use"
+      ],
+      "rationale": "The association of Bitcoin with illicit activities, even historically, can create short-term negative sentiment and potentially trigger regulatory scrutiny, leading to price volatility."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nb316491771b9",
+      "title": "Bitcoin ATM Firm ‘Auscoin’ a Front for International Drug Smuggling Ring: Australian Police",
+      "url": "https://finance.yahoo.com/news/bitcoin-atm-firm-auscoin-front-093636026.html",
+      "summary": "Australian police allege Bitcoin ATM firm Auscoin was a front for drug smuggling. This news, linking crypto ATMs to criminal activity, can negatively impact public perception and lead to stricter regulations on crypto-related businesses. It highlights the ongoing challenge of illicit use and its potential to trigger regulatory crackdowns.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "legal"
+      ],
+      "features_for_model": [
+        "Auscoin_arrests",
+        "Bitcoin_ATM_criminal_activity",
+        "drug_smuggling_ring"
+      ],
+      "rationale": "News linking Bitcoin ATMs to criminal activities can create negative sentiment and prompt regulatory action, potentially impacting the broader adoption and perception of crypto services."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n82b807f6ee6c",
+      "title": "Bullish Crypto Indicator Puts Near-Term Target for Bitcoin to Hit $6,000",
+      "url": "https://finance.yahoo.com/news/bullish-crypto-indicator-puts-near-141057375.html",
+      "summary": "A technical indicator suggests Bitcoin is on track to reach $6,000. This positive technical outlook, combined with recent price surges, could attract more buyers. If the indicator proves accurate, it could lead to a short-term price rally towards the $6,000 mark.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "bullish_indicator",
+        "Bitcoin_price_target",
+        "technical_analysis_signal"
+      ],
+      "rationale": "Positive technical indicators pointing to a $6,000 target for Bitcoin can create buying pressure and drive short-term price appreciation if the trend holds."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n13691016afc7",
+      "title": "$6K Ahead? Bitcoin Price RSI Confirms Long Run Bull Reversal",
+      "url": "https://finance.yahoo.com/news/6k-ahead-bitcoin-price-rsi-110025649.html",
+      "summary": "Bitcoin's 14-week RSI breaking above resistance confirms a longer-term bullish reversal, with a potential near-term target of $6,000. This technical analysis suggests a sustained upward trend. A pullback to the 200-day MA might precede the rise, but the overall signal is positive for the coming weeks.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "Bitcoin_RSI_breakout",
+        "bullish_reversal_confirmation",
+        "price_target_6000"
+      ],
+      "rationale": "The confirmation of a longer-term bullish reversal via RSI, with a near-term target of $6,000, provides a strong technical basis for expecting upward price movement in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-04-22",
+    "summary": "The market sentiment appears cautiously optimistic, with several indicators pointing towards a potential upward trend. Key figures like Mike Novogratz and Arthur Hayes express bullish views, suggesting the market may have bottomed. Technical indicators also support a near-term target of $6,000 for Bitcoin. However, negative news regarding illicit use of Bitcoin ATMs and the Mueller report's mention of its use in election interference could introduce short-term volatility and regulatory concerns.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Negative regulatory developments due to illicit use cases.",
+      "Failure of key technical indicators to hold support levels.",
+      "Broader macroeconomic factors impacting risk assets.",
+      "Uncertainty surrounding institutional product launches like Bakkt.",
+      "Continued skepticism from traditional finance figures."
+    ],
+    "watch_items": [
+      "Bakkt launch progress",
+      "Regulatory statements from major economies",
+      "Bitcoin price action around $5,300-$5,500 resistance",
+      "Altcoin performance relative to Bitcoin",
+      "Developments in the Craig Wright/Satoshi Nakamoto saga"
+    ]
+  }
+}

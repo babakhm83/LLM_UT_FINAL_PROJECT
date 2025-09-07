@@ -1,0 +1,459 @@
+{
+  "date": "2018-03-24",
+  "long_term": [
+    {
+      "pick_idx": 5,
+      "id": "nf7239a1e104d",
+      "title": "Bitcoin extends slide with a more than 10 percent fall",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-fresh-2-1-2-month-low-111731982--sector.html",
+      "summary": "Bitcoin experienced a significant price drop, falling over 10% and approaching three-month lows. This decline is attributed to growing concerns about a global regulatory clampdown on digital asset trading. The cryptocurrency has lost nearly half its value in early 2018 after a massive surge in the previous year, reflecting increased scrutiny from governments and financial institutions.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "global_regulation_concern",
+        "price_correction",
+        "market_sentiment"
+      ],
+      "rationale": "The increasing global regulatory scrutiny on cryptocurrencies signals a potential shift in market sentiment and could lead to sustained price pressure. This trend is likely to impact institutional adoption and overall market growth for the foreseeable future."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nc478580ca68f",
+      "title": "U.S. regulator urges registration of cryptocurrency exchanges",
+      "url": "https://finance.yahoo.com/news/u-regulator-urges-registration-cryptocurrency-180311770.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has stated that many online cryptocurrency trading platforms should register with the regulator and adhere to additional rules. This move indicates a growing effort by U.S. authorities to bring the digital currency sector under greater regulatory oversight, potentially impacting how exchanges operate and offer services to investors.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "SEC_registration_requirement",
+        "exchange_regulation",
+        "regulatory_clarity"
+      ],
+      "rationale": "The SEC's call for registration suggests a move towards greater regulatory clarity for crypto exchanges. While this could foster institutional trust and adoption, it also introduces compliance burdens and potential operational changes that could affect liquidity and trading activity."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n3a149592dc1c",
+      "title": "Central banks told to think twice before boarding Bitcoin bandwagon",
+      "url": "https://finance.yahoo.com/news/central-banks-told-think-twice-200131213.html",
+      "summary": "A report by the Bank for International Settlements (BIS) advises central banks to carefully consider the risks and potential spillovers before issuing their own central bank digital currencies (CBDCs). The BIS expresses wariness about the launch of CBDCs, citing risks that are not yet fully understood. This cautious approach from a key international financial forum could influence the development and adoption of digital currencies globally.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "CBDC_development_caution",
+        "central_bank_digital_currency",
+        "BIS_report"
+      ],
+      "rationale": "The BIS's cautious stance on CBDCs could slow down their development and adoption, indirectly impacting the broader digital currency landscape. It highlights a global debate on the role of central banks in the digital asset space, which will shape future financial infrastructure."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n2f7e8d0c0dd6",
+      "title": "AMD, Nvidia blockchain prospects excite investors",
+      "url": "https://finance.yahoo.com/news/amd-nvidia-blockchain-prospects-excite-investors-183324891--finance.html",
+      "summary": "Advanced Micro Devices (AMD) and Nvidia are seeing increased investor interest due to their potential to benefit from the growth of blockchain technology beyond cryptocurrencies. As blockchain applications expand, the demand for high-performance graphics processing units (GPUs) used in mining and other blockchain operations is expected to rise, potentially boosting sales for these chip manufacturers.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "GPU_demand_blockchain",
+        "AMD_Nvidia_blockchain",
+        "mining_hardware"
+      ],
+      "rationale": "The increasing adoption of blockchain technology beyond cryptocurrencies creates a new demand driver for specialized hardware. This trend could lead to increased revenue for GPU manufacturers like AMD and Nvidia, indirectly supporting the underlying infrastructure of blockchain networks."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n249caf01eea8",
+      "title": "IBM May Get a Big Boost From Blockchain",
+      "url": "https://finance.yahoo.com/news/ibm-may-big-boost-blockchain-144331319.html",
+      "summary": "IBM is positioned to benefit significantly from the growing adoption of blockchain technology. The technology giant has been actively involved in developing enterprise blockchain solutions, aiming to leverage distributed ledger technology for various business applications. This strategic focus on blockchain could drive growth and innovation for IBM in the coming years.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "IBM_blockchain_adoption",
+        "enterprise_blockchain",
+        "distributed_ledger_technology"
+      ],
+      "rationale": "IBM's significant investment and development in enterprise blockchain solutions indicate a strong belief in the technology's future. Successful implementation of these solutions could lead to increased adoption of blockchain across various industries, indirectly benefiting the broader crypto ecosystem."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n572b51acd0f7",
+      "title": "'Big Bitcoin Heist'—Iceland Cryptocurrency Thefts Lead to 11 Arrests",
+      "url": "https://finance.yahoo.com/news/apos-big-bitcoin-heist-apos-124251591.html",
+      "summary": "Eleven individuals, including a security guard, were arrested in Iceland in connection with the theft of approximately $2 million worth of cryptocurrency mining equipment. This incident, dubbed the \"Big Bitcoin Heist,\" highlights the growing value and attractiveness of mining hardware, as well as the security risks associated with the burgeoning crypto mining industry.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "hack/outage",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_equipment_theft",
+        "crypto_heist_iceland",
+        "security_risk"
+      ],
+      "rationale": "While a localized event, the theft of mining equipment underscores the security challenges in the crypto mining sector. Such incidents can temporarily disrupt mining operations and potentially impact network security if they become more widespread."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n88439b7860da",
+      "title": "Op Ed: The Many Faces of Sharding for Blockchain Scalability",
+      "url": "https://finance.yahoo.com/news/op-ed-many-faces-sharding-185252716.html",
+      "summary": "This opinion piece discusses sharding as a potential solution for improving blockchain scalability by increasing transaction throughput. Sharding aims to enhance network performance by altering how blocks are validated. It is presented as a key on-chain scaling solution that could address the limitations of current public blockchains in handling real-world transaction volumes.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockchain_scalability",
+        "sharding_technology",
+        "transaction_throughput"
+      ],
+      "rationale": "Advancements in blockchain scalability, such as sharding, are crucial for wider adoption and usability. Successful implementation of sharding could significantly improve network performance, making blockchains more viable for a broader range of applications."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n1d7c72e9e848",
+      "title": "XRP Outlook Sours as Coinbase Quashes Listing Rumor",
+      "url": "https://finance.yahoo.com/news/xrp-outlook-sours-coinbase-quashes-145602374.html",
+      "summary": "Speculation that Ripple's XRP token would be listed on Coinbase exchanges was dashed when Coinbase clarified via Twitter that it had no immediate plans to add XRP. This news caused XRP prices to fall after a brief surge, highlighting the market's sensitivity to exchange listing rumors and the impact of official confirmations on price action.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "listing",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Coinbase_listing_rumor",
+        "XRP_price_impact",
+        "exchange_listing_sentiment"
+      ],
+      "rationale": "The Coinbase listing rumor and subsequent denial demonstrate the significant impact that exchange listings have on altcoin prices. The market's reaction shows a strong correlation between listing news and price volatility, affecting XRP's short-to-medium term outlook."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n069812b4f410",
+      "title": "Warren Buffett’s longtime sidekick says Bitcoin is ‘noxious poison’",
+      "url": "https://finance.yahoo.com/news/warren-buffett-longtime-sidekick-says-bitcoin-noxious-poison-043209815.html",
+      "summary": "Charlie Munger, Vice Chairman of Berkshire Hathaway and Warren Buffett's long-time associate, has described Bitcoin as \"noxious poison.\" This strong negative sentiment from a highly respected figure in traditional finance can influence public perception and potentially deter some investors from entering the cryptocurrency market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Buffett_endorsement_negative",
+        "Munger_Bitcoin_criticism",
+        "investor_sentiment"
+      ],
+      "rationale": "Negative commentary from prominent figures in traditional finance like Charlie Munger can sway market sentiment, particularly among less experienced investors. While not a direct regulatory or technical factor, such opinions can contribute to a broader bearish narrative."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nf323831aefc7",
+      "title": "Hackers using victims' computers to mine cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/hackers-using-victims-computers-mine-cryptocurrencies-154915570.html",
+      "summary": "A new form of malware, known as cryptojackers, is being used by hackers to illicitly mine cryptocurrencies using victims' computers and smartphones. This practice exploits processing power without consent, raising concerns about cybersecurity and the potential for unauthorized resource utilization within the digital asset space.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "hack/outage",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "cryptojacking_malware",
+        "cybersecurity_risk",
+        "unauthorized_mining"
+      ],
+      "rationale": "Cryptojacking represents a security threat that can impact individual users and potentially the perception of the crypto ecosystem's security. While not directly affecting Bitcoin's core protocol, it contributes to a negative narrative around digital asset security."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 19,
+      "id": "n14f002de7746",
+      "title": "Trump Bans Petro, a Pacquiao ICO and the Caribbean Goes Crypto: Week in Review",
+      "url": "https://finance.yahoo.com/news/trump-bans-petro-pacquiao-ico-212805977.html",
+      "summary": "Bitcoin saw a 16% increase this week, reaching $9,000, with higher trading volumes contributing to the rise across the cryptocurrency market. Ethereum also saw a 4% increase. The overall crypto market is up 10% for the week, indicating a general positive trend despite some sideways movement.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "listing"
+      ],
+      "features_for_model": [
+        "BTC_price_increase",
+        "ETH_price_increase",
+        "crypto_market_rally"
+      ],
+      "rationale": "The broad market rally, led by Bitcoin's significant price increase and higher trading volumes, suggests positive short-term momentum. This indicates increased investor interest and potential for continued upward price movement."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nb646c685e574",
+      "title": "Jump in U.S. Durable Goods May Raise Outlook for Q1 GDP",
+      "url": "https://finance.yahoo.com/news/jump-u-durable-goods-may-132956072.html",
+      "summary": "New orders for U.S.-made capital goods increased more than expected in February, potentially leading economists to revise upward their Q1 GDP estimates. This positive economic data, following weaker retail sales, suggests a strengthening manufacturing sector and could influence broader market sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro"
+      ],
+      "features_for_model": [
+        "US_durable_goods_orders",
+        "Q1_GDP_outlook",
+        "manufacturing_strength"
+      ],
+      "rationale": "Stronger-than-expected durable goods orders indicate a potentially robust economic environment, which can be a tailwind for risk assets like Bitcoin. This macro data point suggests positive economic momentum that could support market sentiment."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0735db86da57",
+      "title": "Canada’s Inflation Rate Moves Above BOC’s 2-Percent Target",
+      "url": "https://finance.yahoo.com/news/canada-inflation-rate-moves-above-124015684.html",
+      "summary": "Canada's inflation rate has surpassed the Bank of Canada's (BOC) 2% target. This development, coupled with escalating trade tensions between the US and China, has caused the U.S. Dollar Index to fall. The news suggests potential monetary policy adjustments in Canada and broader global economic uncertainty.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro"
+      ],
+      "features_for_model": [
+        "Canada_inflation_rate",
+        "BOC_monetary_policy",
+        "USD_weakness"
+      ],
+      "rationale": "While focused on Canada, rising inflation and potential BOC policy shifts can contribute to broader currency market volatility. The weakening USD in response to trade tensions also adds to the complex macro environment, which can indirectly affect Bitcoin."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n1a8ef8c62ed6",
+      "title": "Cambridge Analytica’s London Offices Searched by U.K. Watchdog",
+      "url": "https://finance.yahoo.com/news/cambridge-analytica-london-offices-searched-135858235.html",
+      "summary": "The UK's privacy watchdog searched Cambridge Analytica's London offices amid allegations of data misuse, widening a probe that has already impacted Facebook's share price. This action by regulators highlights increasing scrutiny on data privacy and could signal a broader trend of regulatory intervention in technology sectors.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "macro"
+      ],
+      "features_for_model": [
+        "Cambridge_Analytica_probe",
+        "UK_regulator_action",
+        "data_privacy_scandal"
+      ],
+      "rationale": "The Cambridge Analytica scandal and subsequent regulatory actions create a backdrop of increased scrutiny on data handling and privacy. While not directly related to crypto, this sentiment can spill over into broader market risk aversion, potentially impacting speculative assets."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n1a8ef8c62ed6",
+      "title": "Cambridge Analytica’s London Offices Searched by U.K. Watchdog",
+      "url": "https://finance.yahoo.com/news/cambridge-analytica-london-offices-searched-135858235.html",
+      "summary": "The UK's privacy watchdog searched Cambridge Analytica's London offices amid allegations of data misuse, widening a probe that has already impacted Facebook's share price. This action by regulators highlights increasing scrutiny on data privacy and could signal a broader trend of regulatory intervention in technology sectors.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "macro"
+      ],
+      "features_for_model": [
+        "Cambridge_Analytica_probe",
+        "UK_regulator_action",
+        "data_privacy_scandal"
+      ],
+      "rationale": "The Cambridge Analytica scandal and subsequent regulatory actions create a backdrop of increased scrutiny on data handling and privacy. While not directly related to crypto, this sentiment can spill over into broader market risk aversion, potentially impacting speculative assets."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nad950a9a0574",
+      "title": "Apple and Disney Gear Up to Pounce on Netflix",
+      "url": "https://finance.yahoo.com/news/apple-disney-gear-pounce-netflix-010700665.html",
+      "summary": "Apple and Disney are increasing their focus on content creation for their streaming services, posing a challenge to Netflix's market lead. This competitive shift in the streaming industry involves significant investment in content, indicating a dynamic and evolving media landscape.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "streaming_competition",
+        "Apple_content_investment",
+        "Disney_streaming_strategy"
+      ],
+      "rationale": "This news is primarily relevant to the tech and media sectors. While it doesn't directly impact Bitcoin, it reflects a broader trend of large tech companies investing heavily in new digital services, which could indirectly influence investor sentiment towards technology and innovation."
+    },
+    {
+      "pick_idx": 1,
+      "id": "na3c9bb11d5dd",
+      "title": "Some Android Rivals Simply Can't Afford to Compete With Apple's Face ID",
+      "url": "https://finance.yahoo.com/news/android-rivals-simply-apos-t-005200965.html",
+      "summary": "The implementation of advanced features like Apple's Face ID is proving costly for some Android competitors due to component expenses and initial low yield rates. This highlights the high investment required for cutting-edge technology development in the mobile sector.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Apple_Face_ID_cost",
+        "Android_competitor_challenges",
+        "tech_component_costs"
+      ],
+      "rationale": "This article focuses on the competitive landscape within the smartphone industry. While it doesn't directly relate to cryptocurrency, it touches upon the high costs and complexities of technological innovation, a theme that can be loosely associated with the development costs of new blockchain technologies."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nf4860061a91c",
+      "title": "New Joint Venture Highlights Seritage Growth Properties' Value",
+      "url": "https://finance.yahoo.com/news/joint-venture-highlights-seritage-growth-112000997.html",
+      "summary": "Seritage Growth Properties (SRG), a retail REIT spun off from Sears Holdings, is working to redevelop its properties for higher-paying tenants to boost its net operating income. However, declining rental income from Sears has offset these efforts in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Seritage_Growth_Properties_JV",
+        "retail_REIT_redevelopment",
+        "Sears_rental_income"
+      ],
+      "rationale": "This news pertains to the retail real estate sector and has no direct bearing on Bitcoin's price or volatility. It's included for completeness but is considered low impact."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n00ee05583338",
+      "title": "5 Things Holly Energy Partners, L.P. Management Wants You to Know",
+      "url": "https://finance.yahoo.com/news/5-things-holly-energy-partners-123200944.html",
+      "summary": "Holly Energy Partners, L.P. (HEP), a midstream energy partnership, offers a high distribution yield, but faces concerns over its coverage ratio. The company's CEO discussed Q4 and full-year 2017 results, highlighting that it was a decent year despite the challenges.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Holly_Energy_Partners_results",
+        "midstream_energy_yield",
+        "coverage_ratio_concerns"
+      ],
+      "rationale": "This article is about the energy sector and has no direct relevance to Bitcoin. It's included for context but is assessed as having minimal impact."
+    },
+    {
+      "pick_idx": 28,
+      "id": "ndc52096a7d47",
+      "title": "Half of Americans Are Ready for Another Market Drop",
+      "url": "https://finance.yahoo.com/news/half-americans-ready-another-market-140300830.html",
+      "summary": "A significant portion of Americans (52%) report having a plan for another major market plunge, following recent volatility. This indicates a cautious investor sentiment and preparedness for potential downturns in traditional markets.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "investor_sentiment_cautious",
+        "market_volatility_preparedness",
+        "US_consumer_confidence"
+      ],
+      "rationale": "Widespread investor caution and preparedness for market drops can lead to reduced risk appetite. This sentiment could indirectly affect Bitcoin, which is often viewed as a risk-on asset, potentially leading to decreased demand during periods of broad market uncertainty."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-03-24",
+    "summary": "The crypto market is showing positive momentum with Bitcoin up 16% this week to $9,000, driven by higher trading volumes. This rally is occurring amidst mixed global economic signals, including a jump in US durable goods orders suggesting economic strength, but also concerns over escalating US-China trade tensions and rising Canadian inflation. Regulatory scrutiny remains a backdrop, with the SEC urging crypto exchange registration and the Cambridge Analytica scandal highlighting data privacy concerns, though these are not directly impacting Bitcoin's short-term price action.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "Escalating global trade tensions could negatively impact risk assets.",
+      "Continued regulatory uncertainty in major economies could dampen institutional adoption.",
+      "Potential for increased volatility due to speculative trading and rumor-driven price action.",
+      "The \"noxious poison\" sentiment from figures like Charlie Munger could influence broader market perception.",
+      "Security risks like cryptojacking, while not directly impacting Bitcoin's price, contribute to negative sentiment."
+    ],
+    "watch_items": [
+      "Further developments on US-China trade relations.",
+      "Statements from major central banks regarding monetary policy.",
+      "Any new regulatory announcements from the SEC or other global bodies.",
+      "Major exchange listing announcements or delistings.",
+      "Significant shifts in Bitcoin trading volumes and on-chain metrics."
+    ]
+  }
+}

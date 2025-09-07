@@ -1,0 +1,500 @@
+{
+  "date": "2022-11-14",
+  "long_term": [
+    {
+      "pick_idx": 12,
+      "id": "n81acb76effc1",
+      "title": "Cryptoverse: Bitcoin wants to break its bond with stocks",
+      "url": "https://finance.yahoo.com/news/cryptoverse-bitcoin-wants-break-bond-061630626.html",
+      "summary": "Bitcoin is showing signs of decoupling from traditional stock markets, with its 30-day correlation to the Nasdaq falling to its lowest level since early January. This potential shift could indicate a maturing asset class, less susceptible to the broader macroeconomic sentiment that has driven its price action throughout 2022. If this trend continues, it could lead to more independent price discovery for Bitcoin, potentially driven by its own network effects and adoption rather than solely by correlation with tech stocks.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "bitcoin_stock_correlation",
+        "nasdaq_correlation",
+        "macro_sentiment"
+      ],
+      "rationale": "A weakening correlation with traditional markets suggests Bitcoin may be developing its own independent price drivers. This could lead to more stable and predictable growth, attracting institutional investors seeking diversification."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n0965e85af8f1",
+      "title": "Crypto industry disappointed as Australia looks to enshrine tax rules",
+      "url": "https://finance.yahoo.com/news/crypto-industry-disappointed-australia-looks-052322353.html",
+      "summary": "Australia's government plans to legislate the treatment of digital currencies as assets for tax purposes, meaning capital gains tax will apply to profits from selling crypto. The crypto industry expressed disappointment, preferring treatment as foreign currency. This move clarifies regulatory uncertainty but imposes a tax burden on investors, potentially impacting trading volumes and adoption within Australia.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "australia_crypto_tax",
+        "capital_gains_tax",
+        "regulatory_clarity"
+      ],
+      "rationale": "While regulatory clarity is generally positive, Australia's decision to classify crypto as an asset for tax purposes could deter some investors and reduce trading activity. This may have a minor dampening effect on adoption and market growth within the region."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n337dadeb20f6",
+      "title": "African Crypto Exchange Yellow Card Closes $40M Series B",
+      "url": "https://finance.yahoo.com/news/african-crypto-exchange-yellow-card-124804004.html",
+      "summary": "Pan-African crypto exchange Yellow Card Financial secured $40 million in a Series B funding round led by Polychain Capital. The funds will support continental expansion, new product development, and partnerships. This significant investment highlights growing institutional interest and adoption of crypto services in emerging markets, particularly Africa, which could drive future growth and innovation.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "yellow_card_funding",
+        "polychain_capital",
+        "africa_adoption"
+      ],
+      "rationale": "This substantial funding round for a key African crypto exchange signals strong growth potential and increasing adoption in a significant emerging market. It indicates a positive trend for crypto infrastructure and accessibility on the continent."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n6aaf27fca083",
+      "title": "Google Launches Cloud Node Engine For Ethereum Developers",
+      "url": "https://finance.yahoo.com/news/google-launches-cloud-node-engine-122809389.html",
+      "summary": "Google Cloud has launched a new Blockchain Node Engine service specifically for Ethereum developers. This fully managed service aims to simplify node operation and maintenance, offering enhanced security features. By providing enterprise-grade infrastructure, Google's entry into the Ethereum ecosystem could significantly boost developer activity, scalability, and the overall adoption of the network.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "google_cloud_ethereum",
+        "blockchain_node_engine",
+        "developer_tools"
+      ],
+      "rationale": "Google's direct involvement in providing infrastructure for Ethereum developers is a major endorsement. This can lower the barrier to entry for building on Ethereum, fostering innovation and accelerating network adoption."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n19fda6b3bb00",
+      "title": "Kollider Raises $2.4M to Build ‘Lightning-Native’ Financial Products",
+      "url": "https://finance.yahoo.com/news/kollider-raises-2-4m-build-164909985.html",
+      "summary": "Bitcoin derivatives exchange Kollider has raised $2.35 million in seed funding to expand its exchange and develop more Lightning Network-native financial products. The Lightning Network aims to make Bitcoin transactions faster and cheaper. This focus on Lightning-native solutions could drive greater utility and adoption of Bitcoin for everyday transactions and financial services.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "kollider_funding",
+        "lightning_network",
+        "bitcoin_derivatives"
+      ],
+      "rationale": "Investment in Lightning Network infrastructure is crucial for Bitcoin's scalability and usability. Kollider's focus on 'Lightning-native' products could unlock new use cases and attract users seeking faster, cheaper Bitcoin transactions."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n5167f08f65a6",
+      "title": "Cryptocurrencies, blockchain are reshaping future of finance, say global banking chiefs",
+      "url": "https://finance.yahoo.com/news/cryptocurrencies-blockchain-reshaping-future-finance-093000877.html",
+      "summary": "Leaders from major banks like JPMorgan, BlackRock, HSBC, and Standard Chartered believe that blockchain technology and central bank digital currencies (CBDCs) are fundamentally reshaping the future of finance. This sentiment from traditional financial institutions indicates a growing acceptance and integration of digital assets and distributed ledger technology into the mainstream financial system.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "banking_adoption",
+        "blockchain_future_of_finance",
+        "cbdc_development"
+      ],
+      "rationale": "Statements from major global banking chiefs signal a significant shift in institutional perception towards digital assets and blockchain. This growing acceptance is a strong long-term bullish indicator for the entire crypto space."
+    },
+    {
+      "pick_idx": 21,
+      "id": "naddc7922beb9",
+      "title": "Bloomberg's Matt Levine Writes 40,000-Word Article on Crypto",
+      "url": "https://finance.yahoo.com/news/bloombergs-matt-levine-writes-40-151121145.html",
+      "summary": "Renowned financial columnist Matt Levine published an extensive article on cryptocurrencies, offering a balanced perspective on the industry's strengths and weaknesses amidst a downturn. The sheer depth and reach of his analysis, published by Bloomberg, signifies the increasing mainstream attention and serious consideration that crypto is receiving, even during challenging market conditions.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "matt_levine_crypto_article",
+        "mainstream_media_coverage",
+        "financial_analysis"
+      ],
+      "rationale": "While a lengthy article by a respected financial commentator indicates growing mainstream interest, its impact on price is indirect and difficult to quantify. It contributes to the broader narrative but doesn't offer a direct catalyst."
+    },
+    {
+      "pick_idx": 38,
+      "id": "nde2db93c5fed",
+      "title": "Bitcoin Draws Stability From $20K Price Floor as Traditional Markets Slide",
+      "url": "https://finance.yahoo.com/news/bitcoin-draws-stability-20k-price-184124081.html",
+      "summary": "Bitcoin has shown relative stability around the $20,000 mark, acting as a price floor even as traditional markets experienced declines due to interest rate hikes. Analysts suggest this level holds psychological importance for miners and institutional buyers. This resilience, despite broader market weakness, could indicate a potential decoupling or a strengthening of Bitcoin's support levels.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "bitcoin_20k_support",
+        "traditional_market_correlation",
+        "miner_support"
+      ],
+      "rationale": "Bitcoin holding a $20,000 floor while traditional markets fall suggests a potential shift in correlation or increased resilience. This could attract more institutional interest looking for uncorrelated assets."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n16e2a6e81e1c",
+      "title": "Markets: XRP reverses gains, Bitcoin stuck under US$19,000, Ether trades lower",
+      "url": "https://finance.yahoo.com/news/markets-xrp-reverses-gains-bitcoin-092744087.html",
+      "summary": "Bitcoin remained below $19,000 due to concerns about inflation and rising interest rates, impacting most asset classes. XRP saw a reversal, while Ether and other top cryptocurrencies experienced declines. This reflects the broader market sentiment driven by macroeconomic factors, indicating a risk-off environment that pressures crypto assets.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_price_under_19k",
+        "inflation_concerns",
+        "interest_rate_hikes"
+      ],
+      "rationale": "The persistent struggle of Bitcoin below $19,000, driven by macroeconomic concerns, suggests continued downward pressure. This environment is bearish for Bitcoin and the broader crypto market in the short to medium term."
+    },
+    {
+      "pick_idx": 18,
+      "id": "nf3bd5962ff55",
+      "title": "Markets: Bitcoin, Ether rise; Polygon, Solana lead gainers among the top 10 tokens",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-rise-polygon-013217910.html",
+      "summary": "Bitcoin and Ether saw gains, with Polygon and Solana leading the top 10 cryptocurrencies. Solana's rise was partly attributed to a major NFT marketplace suspending transaction fees. This indicates positive momentum for specific altcoins driven by ecosystem developments, potentially signaling a broader market recovery or rotation into promising projects.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "bitcoin_ether_rise",
+        "polygon_solana_gainers",
+        "nft_marketplace_fees"
+      ],
+      "rationale": "The rise in Bitcoin and Ether, coupled with strong performance from altcoins like Solana due to specific ecosystem news, suggests improving market sentiment. This could indicate a short-term bullish trend or a rotation into projects with positive catalysts."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "nadf265f7526a",
+      "title": "FTX's bankruptcy has set off a crypto bank run as panicked users withdraw over $8 billion from exchanges",
+      "url": "https://finance.yahoo.com/news/ftxs-bankruptcy-set-off-crypto-160915897.html",
+      "summary": "Following FTX's bankruptcy filing, users have withdrawn over $8 billion from crypto exchanges, signaling a loss of trust in centralized platforms. This 'bank run' indicates extreme fear and a flight to self-custody, which could lead to increased volatility and liquidity concerns across the market in the immediate short term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "legal"
+      ],
+      "features_for_model": [
+        "ftx_bankruptcy",
+        "crypto_bank_run",
+        "exchange_outflows"
+      ],
+      "rationale": "The FTX collapse and subsequent bank run represent a severe crisis of confidence, leading to significant outflows and market fear. This will likely cause immediate price drops and increased volatility."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n755b393f8761",
+      "title": "Crypto investors are pulling bitcoin from exchanges at a rate of 106,000 per month, a near-record amount as FTX collapse shakes faith in central platforms",
+      "url": "https://finance.yahoo.com/news/crypto-investors-pulling-bitcoin-exchanges-205544298.html",
+      "summary": "Bitcoin investors are withdrawing tokens from centralized exchanges at a historical rate, driven by the FTX collapse and a loss of faith in central platforms. This trend of moving assets to self-custody indicates extreme caution and a potential reduction in readily available liquidity on exchanges.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "bitcoin_exchange_outflows",
+        "ftx_impact",
+        "self_custody_trend"
+      ],
+      "rationale": "Massive outflows from exchanges due to the FTX crisis indicate a significant deleveraging and flight to safety. This reduces liquidity and puts downward pressure on prices in the very short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n0e8a7b03b381",
+      "title": "‘Cascading contagion’ fears grip crypto as FTX founder is accused of lies",
+      "url": "https://finance.yahoo.com/news/cascading-contagion-fears-grip-crypto-194149129.html",
+      "summary": "Fears of 'cascading contagion' are spreading through the crypto market following FTX's collapse, with accusations of lies against its founder. Binance CEO Changpeng Zhao warned of further impacts on other players. This sentiment of systemic risk and contagion will likely lead to increased selling pressure and market uncertainty.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "legal"
+      ],
+      "features_for_model": [
+        "ftx_contagion",
+        "binance_ceo_warning",
+        "market_fear"
+      ],
+      "rationale": "The narrative of 'cascading contagion' amplifies fear and uncertainty, likely triggering further sell-offs as investors anticipate more domino effects from the FTX failure."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ncbfb01d63093",
+      "title": "Congressman Brad Sherman Takes Aim at ‘Billionaire Crypto Bros’ for Slowing Regulation",
+      "url": "https://finance.yahoo.com/news/congressman-brad-sherman-takes-aim-105643784.html",
+      "summary": "Following the FTX collapse, Congressman Brad Sherman criticized 'billionaire crypto bros' for hindering meaningful regulation. This sentiment, amplified by the recent crisis, suggests an increased likelihood of stricter regulatory action being pursued by lawmakers, which could impact the industry's future growth and operations.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "brad_sherman_regulation",
+        "ftx_collapse_regulation",
+        "crypto_lobbying"
+      ],
+      "rationale": "The FTX fallout is likely to accelerate regulatory scrutiny. Sherman's comments reflect a growing political will to impose stricter rules, which could create headwinds for crypto businesses."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n6ce67abc1cd0",
+      "title": "Michael Saylor compares SBF to 'The Wolf of Wall Street'",
+      "url": "https://finance.yahoo.com/news/sam-bankman-fried-jordan-belfort-of-crypto-era-microstrategy-193604232.html",
+      "summary": "MicroStrategy's Michael Saylor drew parallels between FTX founder Sam Bankman-Fried and 'The Wolf of Wall Street,' Jordan Belfort, suggesting the crypto crash will accelerate regulatory intervention. This comparison highlights the reputational damage caused by the FTX implosion and reinforces the expectation of increased regulatory oversight.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 2,
+        "end": 8
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "michael_saylor_sbf_comparison",
+        "regulatory_intervention",
+        "reputational_damage"
+      ],
+      "rationale": "The strong negative sentiment and comparisons to fraudulent figures like Jordan Belfort will likely increase pressure for regulatory action, creating a bearish short-term outlook."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n048a040364bb",
+      "title": "First Mover Americas: FTX Faces Criminal Probe",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-ftx-faces-133846694.html",
+      "summary": "The bankrupt FTX exchange is now facing a criminal investigation in the Bahamas following its collapse. This legal development adds another layer of uncertainty and risk, potentially leading to further asset freezes or legal actions that could impact the broader crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "legal",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ftx_criminal_probe",
+        "bahamas_investigation",
+        "legal_risk"
+      ],
+      "rationale": "A criminal investigation into FTX introduces significant legal risk and further erodes confidence, likely contributing to negative price action and market sentiment."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n03a253708a21",
+      "title": "Wallet Linked to Vitalik Buterin Sells Off $3.75 Million in Ethereum",
+      "url": "https://finance.yahoo.com/news/wallet-linked-vitalik-buterin-sells-203955868.html",
+      "summary": "A wallet believed to be controlled by Ethereum co-founder Vitalik Buterin has sold $3.75 million in ETH, converting it to stablecoins. While the wallet's direct link to Buterin is unconfirmed, such a significant sale by a prominent figure could be interpreted as a bearish signal, especially during a period of market stress.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "vitalik_buterin_eth_sell",
+        "eth_stablecoin_conversion",
+        "whale_activity"
+      ],
+      "rationale": "While unconfirmed, a large ETH sale attributed to a prominent figure like Buterin, especially during market turmoil, can create negative sentiment and minor selling pressure."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n67852eb90c43",
+      "title": "Bitfarms Shares Drop On Q3 Revenue Decline Of 26% Reflecting BTC Price Slump",
+      "url": "https://finance.yahoo.com/news/bitfarms-shares-drop-q3-revenue-190023953.html",
+      "summary": "Bitcoin miner Bitfarms reported a 26% year-on-year revenue decline in Q3, attributed to the BTC price slump. The company experienced a gross margin loss and increased costs. This reflects the challenging operating environment for miners due to lower Bitcoin prices and higher energy costs, impacting their profitability and stock performance.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitfarms_q3_revenue",
+        "miner_profitability",
+        "btc_price_impact"
+      ],
+      "rationale": "The financial results of a major Bitcoin miner like Bitfarms, showing a revenue decline due to lower BTC prices, highlight the pressure on the mining sector. This is a bearish indicator for mining operations and indirectly for Bitcoin's network health."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nb14761bfd9f1",
+      "title": "Canaan Clocks 26% Revenue Decline In Q3 As Bitcoin Mining Market Deteriorated; See More Tough Times Ahead",
+      "url": "https://finance.yahoo.com/news/canaan-clocks-26-revenue-decline-133546824.html",
+      "summary": "Bitcoin mining hardware manufacturer Canaan reported a 26% revenue decline in Q3, citing a deteriorated Bitcoin mining market. The company sold significantly less computing power year-on-year and anticipates further challenges. This indicates a tough market for mining equipment suppliers, reflecting the broader downturn in crypto profitability.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "canaan_q3_revenue",
+        "mining_market_deterioration",
+        "mining_equipment_sales"
+      ],
+      "rationale": "Canaan's revenue decline and outlook for tougher times underscore the severe impact of the crypto downturn on mining operations and hardware manufacturers. This is a bearish signal for the mining sector."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nc1b2d9b5116b",
+      "title": "FOREX-U.S. dollar gains ground as investors focus on future Fed path",
+      "url": "https://finance.yahoo.com/news/forex-u-dollar-gains-ground-220042184.html",
+      "summary": "The U.S. dollar strengthened against the yen and euro, though it pulled back from earlier highs as investors anticipate a slower pace of Federal Reserve rate hikes. Fed Governor Waller's comments downplayed the significance of a single inflation report. This suggests a cautious approach from the Fed, which could influence risk assets like Bitcoin.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "usd_strength",
+        "fed_rate_hike_pace",
+        "waller_comments"
+      ],
+      "rationale": "The dollar's strength, even with expectations of a slower Fed tightening pace, can be a headwind for risk assets. However, the nuanced Fed commentary introduces uncertainty about immediate market direction."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-11-14",
+    "summary": "The crypto market is dominated by the fallout from the FTX collapse, triggering widespread fear and significant outflows from exchanges. This 'crypto bank run' and the ensuing 'cascading contagion' fears are creating extreme bearish sentiment. Regulatory scrutiny is expected to intensify, with politicians and industry figures calling for stricter oversight. Miner profitability is also under pressure due to falling Bitcoin prices. While some traditional markets show resilience and the dollar is mixed, the immediate outlook for crypto remains highly negative due to systemic risk and loss of confidence.",
+    "scenario_probs": {
+      "bull": 0.1,
+      "base": 0.2,
+      "bear": 0.7
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Further contagion from FTX collapse impacting other exchanges/lenders.",
+      "Increased regulatory crackdown and potential legal actions against crypto entities.",
+      "Continued outflows from exchanges reducing liquidity and increasing volatility.",
+      "Negative sentiment driven by high-profile figures comparing SBF to financial criminals.",
+      "Weakening miner profitability impacting network security and hash rate."
+    ],
+    "watch_items": [
+      "FTX bankruptcy proceedings and any further revelations.",
+      "Statements from major exchanges (e.g., Binance) regarding reserves and customer protection.",
+      "Regulatory bodies' responses and potential new investigations.",
+      "On-chain data for exchange flows and stablecoin reserves.",
+      "Macroeconomic data releases and Fed commentary for broader market direction."
+    ]
+  }
+}

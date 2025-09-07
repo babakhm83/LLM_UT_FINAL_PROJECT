@@ -1,0 +1,514 @@
+{
+  "date": "2019-04-01",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n25297c905858",
+      "title": "Mt. Gox Trustee: Creditors Will Soon Receive Decisions Over Rehabilitation Claims",
+      "url": "https://finance.yahoo.com/news/mt-gox-trustee-creditors-soon-105700587.html",
+      "summary": "The trustee for the defunct Mt. Gox exchange has concluded processing rehabilitation claims for approximately 24,000 creditors affected by its 2011 hack and 2014 collapse. Creditors will soon be notified of decisions regarding their claims, which could lead to the distribution of remaining assets. This development is significant as it represents a step towards resolving one of the most notorious events in Bitcoin's history, potentially unlocking a large supply of BTC that has been held up for years.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "MtGox_resolution",
+        "creditor_payout",
+        "BTC_supply_unlock"
+      ],
+      "rationale": "The resolution of Mt. Gox claims could lead to a significant amount of Bitcoin being released into the market. The timing and amount of any potential sell-off remain uncertain, creating a speculative pressure point."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb16681169ec8",
+      "title": "Nasdaq Begins Listing Brave New Coin’s Bitcoin and Ethereum Price Indices",
+      "url": "https://finance.yahoo.com/news/nasdaq-begins-listing-brave-coin-102900272.html",
+      "summary": "Nasdaq has started live listings of Brave New Coin's Bitcoin Liquid Index (BLX) and Ethereum Liquid Index (ELX). This integration provides clients using Nasdaq's Global Index Data Service (GIDS) with access to new data for these major cryptocurrencies. The move signifies increasing institutional interest and the integration of crypto data into traditional financial market infrastructure.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Nasdaq_listing",
+        "BNC_indices",
+        "institutional_data"
+      ],
+      "rationale": "The listing of crypto indices on Nasdaq is a significant step towards legitimizing digital assets within traditional finance. It increases data accessibility and transparency, potentially paving the way for further institutional adoption and product development."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n2886c0f8247c",
+      "title": "Crypto exchange Binance now lets you buy Bitcoin with a credit card",
+      "url": "https://finance.yahoo.com/news/crypto-exchange-binance-now-lets-150703368.html",
+      "summary": "Binance, the world's largest cryptocurrency exchange by volume, has announced support for credit and debit card purchases of Bitcoin, Ethereum, Litecoin, and XRP. This feature, supporting Visa and Mastercard, aims to simplify the process of acquiring cryptocurrencies for users.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Binance_credit_card",
+        "fiat_onramp",
+        "ease_of_access"
+      ],
+      "rationale": "Expanding fiat on-ramps, especially through widely used payment methods like credit cards, lowers the barrier to entry for new users. This can lead to increased adoption and trading volume over time."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nbc8a75dcbb6b",
+      "title": "Bitcoin's Latest Test of $4,000 Resistance Comes Up Short: Chart",
+      "url": "https://finance.yahoo.com/news/bitcoin-apos-latest-test-4-155517476.html",
+      "summary": "Bitcoin's recent rally has stalled as it failed to break through the $4,000 resistance level. The cryptocurrency saw a significant drop after testing this key psychological and technical barrier. The article also notes Warren Buffett's negative comments on Bitcoin, which may have contributed to market sentiment.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_resistance_fail",
+        "Buffett_commentary",
+        "market_sentiment"
+      ],
+      "rationale": "Failure to break a significant resistance level, coupled with negative sentiment from a prominent figure like Warren Buffett, suggests potential for a short-term price correction. This indicates a lack of strong conviction from broader market participants."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nc49fe95dc37b",
+      "title": "Wall Street is Playing Chicken on Bitcoin Adoption: Hedge Fund CIO",
+      "url": "https://finance.yahoo.com/news/wall-street-playing-chicken-bitcoin-221806697.html",
+      "summary": "Ari Paul, co-founder of BlockTower Capital, suggests that Bitcoin adoption by Wall Street is stalled due to a 'wait-and-see' approach during the bear market. Institutional viewpoints are categorized into venture capital, passive exposure, and service provider roles, indicating a cautious and fragmented approach to crypto integration.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Wall_Street_adoption",
+        "institutional_hesitation",
+        "bear_market_strategy"
+      ],
+      "rationale": "The slow pace of institutional adoption, driven by market conditions and a 'wait-and-see' attitude, limits significant capital inflows. This suggests that any major price appreciation will likely depend on a shift in institutional sentiment or a sustained market recovery."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n45971f2944cd",
+      "title": "Experts: Bitcoin Will Take Down Gold, Fiat Currencies",
+      "url": "https://finance.yahoo.com/news/experts-bitcoin-down-gold-fiat-190246770.html",
+      "summary": "Industry insiders predict Bitcoin's potential to displace gold as a store of value within the next two decades. Despite recent price drops, the long-term narrative of Bitcoin as 'digital gold' and a potential replacement for traditional financial systems persists among some proponents.",
+      "impact_horizon_months": 60,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_vs_gold",
+        "store_of_value",
+        "digital_gold_narrative"
+      ],
+      "rationale": "While a long-term prediction, the 'digital gold' narrative is a powerful driver for Bitcoin's adoption as a store of value. If this narrative gains more traction, it could attract significant capital away from traditional safe havens."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n5cea9028e4b9",
+      "title": "Is JPMorgan Chase’s New Cryptocurrency a Threat to Ripple, Other Crypto Assets?",
+      "url": "https://finance.yahoo.com/news/jpmorgan-chase-cryptocurrency-threat-ripple-145930908.html",
+      "summary": "JPMorgan Chase is launching its own cryptocurrency, JPM Coin, becoming the first U.S. bank to do so. This move, despite CEO Jamie Dimon's past criticism of Bitcoin, signals a growing interest from traditional finance in blockchain technology for payment solutions. The implications for existing cryptocurrencies like Ripple are being considered.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "JPM_Coin",
+        "bank_blockchain",
+        "stablecoin_competition"
+      ],
+      "rationale": "The development of bank-issued digital currencies like JPM Coin could either compete with or complement existing cryptocurrencies. It indicates a broader trend of financial institutions exploring blockchain, which could legitimize the space but also create new forms of centralized digital assets."
+    },
+    {
+      "pick_idx": 15,
+      "id": "ndd8d4d427a4c",
+      "title": "Innisfil Becomes First City in Canada to Accept Bitcoin for Municipal Taxes",
+      "url": "https://finance.yahoo.com/news/innisfil-becomes-first-city-canada-160429774.html",
+      "summary": "The town of Innisfil, Canada, has approved an initiative allowing residents to pay municipal taxes (income and property taxes) in Bitcoin starting April 2019. This makes Innisfil the first city in North America to accept cryptocurrency for tax payments, following Ohio's earlier adoption for corporate taxes.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Innisfil_tax_payment",
+        "municipal_adoption",
+        "BTC_utility"
+      ],
+      "rationale": "Local government adoption of Bitcoin for tax payments is a positive sign for real-world utility and mainstream acceptance. While small in scale, it sets a precedent and demonstrates practical use cases for the cryptocurrency."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n0fe732c9621a",
+      "title": "Why cryptocurrencies are the future of money",
+      "url": "https://finance.yahoo.com/news/why-cryptocurrencies-future-money-153003943.html",
+      "summary": "This article argues that cryptocurrencies represent the future of money, citing their potential for disruption. The author participated in a debate supporting this motion, highlighting the growing importance and potential of digital currencies in the global financial landscape.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_future_of_money",
+        "disruptive_potential",
+        "digital_currency_narrative"
+      ],
+      "rationale": "The ongoing debate and increasing advocacy for cryptocurrencies as the future of money contribute to a positive long-term outlook. This narrative, if sustained, can attract more users and developers, fostering ecosystem growth."
+    },
+    {
+      "pick_idx": 29,
+      "id": "ne919cc666156",
+      "title": "Brutal Bitcoin Winter is Great for Crypto Industry: Reddit Founder Alexis Ohanian",
+      "url": "https://finance.yahoo.com/news/brutal-bitcoin-winter-great-crypto-214338630.html",
+      "summary": "Reddit co-founder and Coinbase investor Alexis Ohanian believes the current 'Crypto Winter' is beneficial for the long-term health of the industry. He argues that the market downturn purges weak projects and leaves behind dedicated enthusiasts, fostering innovation and a stronger foundation for future growth.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_winter_benefit",
+        "Ohanian_view",
+        "industry_consolidation"
+      ],
+      "rationale": "The perspective that a bear market cleanses the industry is a common bullish argument. If the 'crypto winter' indeed leads to more robust projects and dedicated participants, it could set the stage for a healthier, more sustainable bull market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n33ad4f82b402",
+      "title": "Best Stocks for 2019: Charlotte’s Web Is a King Among Marijuana Stocks",
+      "url": "https://finance.yahoo.com/news/best-stocks-2019-charlotte-king-143916381.html",
+      "summary": "This article discusses the growth potential of the hemp-derived CBD market, projected to increase significantly by 2022. While not directly related to Bitcoin, it highlights a burgeoning market driven by regulatory shifts and consumer demand, which can be a proxy for broader market sentiment towards new asset classes.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "CBD_market_growth",
+        "hemp_industry",
+        "regulatory_shifts"
+      ],
+      "rationale": "This is a tangential piece about a different market. Its relevance to Bitcoin is minimal, but it reflects a general trend of interest in emerging, potentially regulated markets."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n4c30446768cc",
+      "title": "Bitcoin Price Could Blitz Beyond $150,000 During Next Bull Cycle in 2023",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-could-blitz-beyond-065951634.html",
+      "summary": "An analyst predicts Bitcoin could reach over $150,000 by 2023, based on historical price trends and patterns of recovery after all-time highs. This long-term bullish outlook, while not immediate, contributes to positive sentiment.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction_2023",
+        "bull_cycle_forecast",
+        "technical_analysis"
+      ],
+      "rationale": "While a long-term prediction, such optimistic forecasts can influence short-term sentiment and encourage buying pressure, especially if the market is already showing signs of recovery."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n583181d37c5f",
+      "title": "Bitcoin Awaking from Bear Slumber, For the First Time Since 2017",
+      "url": "https://finance.yahoo.com/news/bitcoin-awaking-bear-slumber-first-131624937.html",
+      "summary": "Bitcoin has recorded two consecutive green monthly candles, a first since the 2017 bull market, suggesting a potential break from its bear trend. This technical indicator points to a possible shift in market momentum.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "monthly_green_candles",
+        "bear_trend_break",
+        "market_momentum"
+      ],
+      "rationale": "Two consecutive green monthly candles are a strong technical signal for a potential trend reversal. This could attract traders looking to capitalize on a nascent recovery, increasing buying pressure."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n1ec0cc917dad",
+      "title": "US Stocks Market Overview – Stocks Surge as Q2 Commences, April is Seasonally Strong",
+      "url": "https://finance.yahoo.com/news/us-stocks-market-overview-stocks-232032667.html",
+      "summary": "US stocks surged at the start of Q2, with strong performance in Financials and Technology sectors. Positive manufacturing data from China also boosted market sentiment. April is historically a strong month for stocks.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Q2_stock_surge",
+        "April_seasonality",
+        "China_PMI_positive"
+      ],
+      "rationale": "A strong start to Q2 in traditional markets, particularly with positive Chinese economic data and seasonal strength in April, can create a positive risk-on environment that may spill over into cryptocurrencies."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n752fd456fb75",
+      "title": "SEC’s Latest Crypto Hire is Just a Bitcoin Smokescreen",
+      "url": "https://finance.yahoo.com/news/sec-latest-crypto-hire-just-163519437.html",
+      "summary": "The article criticizes the SEC's hiring of a crypto specialist attorney, suggesting it's a 'smokescreen' that provides little actual regulatory clarity. Despite dedicating resources, the agency has made no significant progress on concrete Bitcoin regulation.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation"
+      ],
+      "features_for_model": [
+        "SEC_crypto_hire",
+        "regulatory_clarity_lack",
+        "market_stagnation"
+      ],
+      "rationale": "The lack of tangible regulatory progress from the SEC, despite new hires, can create uncertainty and dampen institutional interest. This ongoing ambiguity acts as a headwind for broader adoption."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n7355235ed8fa",
+      "title": "It’s becoming easier to buy Bitcoin in Australia – Find out how",
+      "url": "https://finance.yahoo.com/news/becoming-easier-buy-bitcoin-australia-074506116.html",
+      "summary": "Binance has announced plans to expand into Australia with 'Binance Lite Australia,' making it easier for residents to purchase Bitcoin. This expansion of fiat on-ramps in a new region is positive for accessibility.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Binance_Australia",
+        "fiat_onramp_expansion",
+        "regional_adoption"
+      ],
+      "rationale": "The expansion of accessible fiat on-ramps into new geographic markets like Australia is a positive indicator for user growth and adoption."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n34d31b35740c",
+      "title": "Pakistan Introduces Crypto Regulation",
+      "url": "https://finance.yahoo.com/news/pakistan-introduces-crypto-regulation-223337721.html",
+      "summary": "Pakistan's government will regulate local cryptocurrency firms under new Electronic Money Institutions (EMI) regulations, based on FATF recommendations. This move aims to combat money laundering and integrate crypto into the global financial system.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation"
+      ],
+      "features_for_model": [
+        "Pakistan_crypto_regulation",
+        "FATF_recommendations",
+        "EMI_framework"
+      ],
+      "rationale": "New regulations in any jurisdiction can be a double-edged sword. While it brings legitimacy, the specifics of Pakistan's EMI regulations could either facilitate or hinder crypto adoption within the country."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n2203521878ca",
+      "title": "Cryptocurrency market update: Bullish signals ahead",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-market-bullish-signals-ahead-150002960.html",
+      "summary": "The cryptocurrency market is showing bullish momentum, with many top coins making gains. Altcoins like BAT, ADA, EOS, and LTC are breaking key resistance levels, indicating a potential upward trend. A correction is possible, but the overall trend remains positive.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "altcoin_rally",
+        "bullish_momentum",
+        "resistance_break"
+      ],
+      "rationale": "The broad-based bullish momentum across many cryptocurrencies, including altcoins breaking resistance, suggests a positive short-term sentiment and potential for further price appreciation."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nfd60c00cbb4b",
+      "title": "Bitcoin Cash, Litecoin Futures Volumes Top $150 Million at Kraken Exchange",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-litecoin-futures-volumes-090019498.html",
+      "summary": "Kraken's subsidiary Crypto Facilities has seen a significant jump in trading volume for its altcoin futures markets, particularly Litecoin and Bitcoin Cash, exceeding $150 million. This indicates growing institutional interest in derivatives for cryptocurrencies beyond Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "altcoin_futures_volume",
+        "Kraken_derivatives",
+        "institutional_interest"
+      ],
+      "rationale": "Increased trading volume in altcoin futures on a reputable exchange like Kraken suggests growing institutional participation and demand for diversified crypto derivatives, which can boost overall market liquidity and interest."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n1a94a32246ff",
+      "title": "How Crypto Is Taxed in the US: A Taxpayer’s Dilemma",
+      "url": "https://finance.yahoo.com/news/crypto-taxed-us-taxpayer-dilemma-231000677.html",
+      "summary": "This article addresses the complexities of cryptocurrency taxation in the US, particularly for those who experienced losses in 2018. With the tax deadline approaching (April 15, 2019), it highlights the challenges taxpayers face in reporting their crypto activities.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "US_crypto_tax",
+        "tax_deadline_2019",
+        "taxpayer_dilemma"
+      ],
+      "rationale": "The approaching US tax deadline could lead to increased selling pressure as investors realize gains or losses. However, the complexity of crypto tax reporting might also lead to delayed actions or uncertainty."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n908e783c7e87",
+      "title": "Bitcoin Climbs to Highest This Year as Volatility Recedes",
+      "url": "https://finance.yahoo.com/news/bitcoin-climbs-highest-level-volatility-115158092.html",
+      "summary": "Bitcoin has advanced to its highest level of 2019, reaching $4,135.60, the highest intraday level since December 24th. This rise is accompanied by receding volatility, suggesting a more stable upward trend. Alternative coins like Dash and Monero also saw significant gains.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_YTD_high",
+        "receding_volatility",
+        "altcoin_gains"
+      ],
+      "rationale": "Reaching a new year-to-date high with decreasing volatility is a strong bullish signal. It indicates sustained buying pressure and a potential shift towards a more stable upward trend, attracting more participants."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-04-01",
+    "summary": "Bitcoin has reached a new year-to-date high, breaking above $4,100 with receding volatility, supported by positive monthly candles and broader market optimism. While institutional adoption remains cautious, increased accessibility through fiat on-ramps and growing altcoin futures volume are positive signs. However, regulatory uncertainty from the SEC and upcoming tax deadlines present potential headwinds.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "key_risks": [
+      "SEC regulatory uncertainty continues to stifle institutional adoption.",
+      "Upcoming US tax deadline could lead to increased selling pressure.",
+      "Failure to maintain momentum above $4,000 could trigger a sharp correction.",
+      "Geopolitical events or macroeconomic shocks could impact risk appetite."
+    ],
+    "watch_items": [
+      "Bitcoin's ability to hold above $4,000.",
+      "Developments in SEC regulatory clarity.",
+      "Performance of major altcoins.",
+      "Global macroeconomic indicators and central bank policies."
+    ]
+  }
+}

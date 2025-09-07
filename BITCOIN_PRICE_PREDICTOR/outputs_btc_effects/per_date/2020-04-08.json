@@ -1,0 +1,489 @@
+{
+  "date": "2020-04-08",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n669cfba9f2a4",
+      "title": "Up 3%: Bitcoin Leaves S&P 500 Behind in Year-to-Date Recovery",
+      "url": "https://finance.yahoo.com/news/3-bitcoin-leaves-p-500-111623439.html",
+      "summary": "Bitcoin has shown resilience by outperforming the S&P 500 in year-to-date recovery, indicating a potential shift in investor sentiment towards digital assets as a hedge against traditional market volatility. This trend suggests that Bitcoin may be gaining traction as a store of value, especially during times of macroeconomic uncertainty. The ability of Bitcoin to recover and even surpass traditional markets highlights its growing importance in the global financial landscape.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_vs_SP500_performance",
+        "YTD_recovery_BTC",
+        "safe_haven_asset"
+      ],
+      "rationale": "Bitcoin's outperformance against the S&P 500 suggests increasing adoption as a potential safe-haven asset. This trend, if sustained, could lead to greater institutional interest and capital inflow over the medium to long term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n9fc58a499caf",
+      "title": "Crypto investors exhibit ‘extreme fear,’ similar to 2018 crash situation",
+      "url": "https://finance.yahoo.com/news/crypto-investors-extreme-fear-similar-110559571.html",
+      "summary": "The Crypto Fear & Greed Index hitting a low of 10 indicates extreme fear among investors, a sentiment last seen during the 2018 crash. Historically, such levels of fear can precede significant buying opportunities as market sentiment becomes oversold. This suggests that despite current negative sentiment, the market may be positioned for a rebound if historical patterns hold true.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "sentiment",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_fear_greed_index",
+        "extreme_fear_sentiment",
+        "buying_opportunity"
+      ],
+      "rationale": "Extreme fear often signals a market bottom. If historical patterns repeat, this sentiment could lead to a significant price recovery in the coming months as fear subsides and opportunistic buying emerges."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n041450c55453",
+      "title": "Gold Price Prediction – Prices Surge on Surprise Fed Rate Cut",
+      "url": "https://finance.yahoo.com/news/gold-price-prediction-prices-surge-190140188.html",
+      "summary": "The Federal Reserve's surprise 50-basis point rate cut, the first inter-meeting cut since 2008, signals significant concern over the coronavirus's economic impact. This move, coupled with the US 10-year yield falling below 1%, weakens the US dollar and typically boosts gold prices. This macroeconomic environment, characterized by monetary easing and currency devaluation, often benefits alternative assets like Bitcoin as a hedge.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "fed_rate_cut",
+        "monetary_easing",
+        "US_dollar_weakness",
+        "gold_surge",
+        "inflation_hedge"
+      ],
+      "rationale": "Aggressive Fed easing and a weakening dollar create a favorable macro environment for inflation hedges. Bitcoin, often compared to digital gold, could benefit from this trend as investors seek alternative stores of value."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n5756c019f797",
+      "title": "Ether Rises to 28-Day High Amid Positive Sentiment for Coming ‘Eth 2.0’ Upgrade",
+      "url": "https://finance.yahoo.com/news/ether-rises-28-day-high-073228058.html",
+      "summary": "Ether's significant daily gain and rise to a 28-day high are attributed to growing confidence in the upcoming Eth 2.0 upgrade. This upgrade promises to enhance scalability, security, and sustainability of the Ethereum network, making ETH more attractive for developers and users. Positive sentiment surrounding major protocol upgrades often translates into sustained price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETH_price_rally",
+        "Eth_2.0_upgrade",
+        "network_scalability",
+        "developer_adoption"
+      ],
+      "rationale": "The anticipation and progress towards Eth 2.0 represent a fundamental improvement for the Ethereum network. This upgrade is a significant long-term catalyst that should drive adoption and value for ETH."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n4dae9ee92c30",
+      "title": "Bitcoin miners made $380 million in revenue during March, new data shows",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-made-380-million-182222072.html",
+      "summary": "Bitcoin miners generated $380.1 million in revenue in March, a 25% decrease from February. This decline is attributed to the falling price of Bitcoin. As the halving event approaches, miner revenue is expected to decrease further, potentially leading to reduced network security or consolidation among mining operations. The profitability of mining is a key indicator of network health and miner confidence.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_revenue_march",
+        "miner_revenue_decline",
+        "halving_impact",
+        "mining_profitability"
+      ],
+      "rationale": "Decreased miner revenue, especially leading up to the halving, can put pressure on miners to sell BTC to cover costs. This could lead to increased selling pressure and potentially impact network security if smaller miners are forced offline."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n2844d0788e33",
+      "title": "Gemini is adding support for Brave browser’s BAT token",
+      "url": "https://finance.yahoo.com/news/gemini-adding-support-brave-browser-145828786.html",
+      "summary": "Crypto exchange Gemini will add support for Brave browser's Basic Attention Token (BAT) later this month, allowing deposits starting April 24th and trading support soon after. BAT will be the sixth digital asset on Gemini, joining BTC, ETH, BCH, LTC, and Zcash. This listing signifies increased adoption and accessibility for BAT, potentially boosting its utility and market presence.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Gemini_listing",
+        "BAT_token_support",
+        "Brave_browser_integration",
+        "token_adoption"
+      ],
+      "rationale": "Listing on a reputable exchange like Gemini increases the accessibility and legitimacy of BAT. This can lead to greater trading volume and broader adoption of the token and the Brave ecosystem."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n912a13aab109",
+      "title": "Blockchain Bites: Major Crypto Players Sued, Steem Froze Accounts and More",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-major-crypto-players-183031843.html",
+      "summary": "Multiple class-action lawsuits have been filed against major crypto firms, accusing them of offering unregistered securities. These suits, led by the same firm involved in the Craig Wright case, could clarify the legal definition of tokens under U.S. securities law. Regulatory clarity, even if initially negative, can ultimately foster long-term growth and institutional adoption by reducing uncertainty.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "unregistered_securities_lawsuits",
+        "regulatory_clarity_crypto",
+        "SEC_enforcement",
+        "token_regulation"
+      ],
+      "rationale": "The ongoing lawsuits could lead to significant regulatory clarity regarding securities laws in the crypto space. While the immediate impact might be uncertain, long-term clarity is crucial for institutional adoption and market maturation."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nda245d5c07b0",
+      "title": "Italian Bank Adds Bitcoin Support as the Nation Emerges into a Brave New World",
+      "url": "https://finance.yahoo.com/news/italian-bank-adds-bitcoin-support-153007322.html",
+      "summary": "Italy's Hype bank, with 1.2 million customers, has partnered with Conio to integrate Bitcoin support, allowing users to buy, sell, and store BTC within their banking app. This move by a traditional financial institution in Europe demonstrates growing mainstream adoption of cryptocurrencies. Such integrations by challenger banks can significantly increase accessibility and user onboarding for Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bank_BTC_integration",
+        "Hype_bank_partnership",
+        "European_adoption",
+        "mainstream_crypto_access"
+      ],
+      "rationale": "The integration of Bitcoin by a European bank with over a million customers signifies a significant step towards mainstream adoption. This trend, if replicated by other institutions, will drive demand and utility for Bitcoin."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nc2943405af97",
+      "title": "Bitcoin Ends Q1 Down 10%, Outperforming Equities in Coronavirus Crisis",
+      "url": "https://finance.yahoo.com/news/bitcoin-ends-q1-down-10-211312520.html",
+      "summary": "Bitcoin finished the first quarter of 2020 down 10%, yet this performance was better than the substantial losses seen in global equities during the same period. This relative strength suggests Bitcoin is increasingly viewed as a viable alternative asset, especially during times of market turmoil. The narrative of Bitcoin as 'digital gold' is gaining traction as it demonstrates resilience against traditional financial market downturns.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_Q1_performance",
+        "outperforming_equities",
+        "digital_gold_narrative",
+        "market_resilience"
+      ],
+      "rationale": "Bitcoin's ability to outperform traditional equities during a market crisis strengthens its 'digital gold' narrative. This resilience can attract more capital from investors seeking diversification and protection against systemic risks."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n0d5396656070",
+      "title": "The Dangerous Truth About India’s Cryptocurrency Verdict",
+      "url": "https://finance.yahoo.com/news/dangerous-truth-india-cryptocurrency-verdict-101012590.html",
+      "summary": "While the Indian Supreme Court struck down the RBI's ban on crypto banking services, the judgment contains red flags, and a draft bill to ban cryptocurrencies remains. This creates regulatory uncertainty in a large market. However, the initial positive ruling could pave the way for future adoption if the regulatory landscape stabilizes, but the lingering threat of a ban poses a significant risk.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "India_crypto_regulation",
+        "Supreme_Court_ruling",
+        "RBI_ban_lift",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "India's regulatory environment for crypto remains highly uncertain. While the Supreme Court's decision was a positive step, the potential for a future ban creates significant risk, making the long-term impact difficult to predict."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "nc8481aa49dab",
+      "title": "The Crypto Daily – Movers and Shakers -08/04/20",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-08-052702038.html",
+      "summary": "Bitcoin experienced a choppy trading day, rising to a high of $7,454.3 before easing back and slipping to a low of $7,088. It showed resilience by steering clear of the $6,955.4 support level and recovering to $7,400 levels before reversing. This price action indicates volatility and a struggle to maintain upward momentum, with key support and resistance levels being tested.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "choppy_trading",
+        "support_resistance_test",
+        "intra_day_volatility"
+      ],
+      "rationale": "The price action shows significant intraday volatility and a failure to hold higher levels, indicating a potential short-term bearish bias as resistance holds."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n4f4db4d9199c",
+      "title": "Decentralized crypto exchange Bisq halts trading due to ‘critical security vulnerability’",
+      "url": "https://finance.yahoo.com/news/decentralized-crypto-exchange-bisq-halts-080507634.html",
+      "summary": "Decentralized exchange Bisq has halted trading due to a critical security vulnerability that allowed an attacker to steal approximately 3 BTC and 4000 XMR (worth roughly $245,000). This incident highlights the risks associated with decentralized platforms and could lead to a temporary loss of confidence in Bisq and potentially other DEXs if similar vulnerabilities are discovered.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bisq_halted_trading",
+        "security_vulnerability",
+        "BTC_theft",
+        "DEX_risk"
+      ],
+      "rationale": "The security breach and halt in trading on Bisq will likely deter users and create negative sentiment for decentralized exchanges in the short term, potentially impacting liquidity."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nd3b1c87536c9",
+      "title": "Cryptopia Users Win Victory in Court Case Over Crypto Assets Worth Over $100M",
+      "url": "https://finance.yahoo.com/news/cryptopia-users-win-victory-court-091012686.html",
+      "summary": "Users of the defunct Cryptopia exchange have won a court ruling classifying their crypto assets as property, entitling them to their holdings. This decision is a positive development for users affected by exchange failures and could set a precedent for how customer assets are handled in future insolvencies, potentially increasing trust in exchanges that segregate user funds.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Cryptopia_court_ruling",
+        "user_asset_recovery",
+        "exchange_insolvency_precedent",
+        "customer_fund_protection"
+      ],
+      "rationale": "A favorable court ruling for Cryptopia users enhances trust in the handling of customer assets by exchanges. This could indirectly boost confidence in the broader exchange ecosystem, potentially improving liquidity."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n8c59783fe9f4",
+      "title": "Chicago’s Trading Firms Look to DeFi With New ‘Alliance’",
+      "url": "https://finance.yahoo.com/news/chicago-trading-firms-look-defi-120000579.html",
+      "summary": "Prominent Chicago trading firms, including TD Ameritrade and Cumberland, are forming the Chicago DeFi Alliance (CDA) to promote decentralized finance (DeFi) during the recession. This alliance aims to provide advisory services to crypto startups, signaling growing institutional interest and potential for increased development and adoption in the DeFi space.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Chicago_DeFi_Alliance",
+        "institutional_DeFi_interest",
+        "trading_firm_collaboration",
+        "DeFi_adoption_boost"
+      ],
+      "rationale": "The formation of the Chicago DeFi Alliance by established trading firms indicates growing institutional interest in DeFi. This could accelerate development and adoption within the DeFi ecosystem, potentially driving demand for related assets."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nca12578e9b6a",
+      "title": "Wrapped Bitcoin Aims to Kick-Start DeFi on Tezos Blockchain",
+      "url": "https://finance.yahoo.com/news/wrapped-bitcoin-aims-kickstart-defi-120000654.html",
+      "summary": "Tokenized Bitcoin (tzBTC) is being launched on the Tezos blockchain, aiming to foster DeFi growth on the platform. Each tzBTC represents one BTC, minted under the new FA1.2 Tezos token standard. This initiative brings Bitcoin's liquidity and brand to Tezos, potentially expanding DeFi opportunities and attracting new users to the Tezos ecosystem.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "DeFi",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "wrapped_BTC_Tezos",
+        "tzBTC_launch",
+        "DeFi_on_Tezos",
+        "tokenized_bitcoin"
+      ],
+      "rationale": "The introduction of wrapped Bitcoin on Tezos can significantly boost DeFi activity on that blockchain. This integration brings Bitcoin's established liquidity to a new ecosystem, potentially driving demand for Tezos and related DeFi tokens."
+    },
+    {
+      "pick_idx": 7,
+      "id": "na7fcfa54376c",
+      "title": "Today’s ‘Halving’ May Be Non-Event for Bitcoin Cash Prices",
+      "url": "https://finance.yahoo.com/news/today-halving-may-non-event-120554490.html",
+      "summary": "Bitcoin Cash (BCH) underwent its first halving, reducing block rewards from 12.5 BCH to 6.25 BCH. Analysts suggest this event may not significantly impact BCH prices, as the market may have already priced it in. The cryptocurrency was up 2% on a 24-hour basis, trading near $276. The lack of a strong price reaction suggests limited immediate impact.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "halving"
+      ],
+      "features_for_model": [
+        "BCH_halving",
+        "block_reward_reduction",
+        "miner_profitability",
+        "price_impact_BCH"
+      ],
+      "rationale": "The Bitcoin Cash halving occurred with minimal immediate price impact, suggesting the market may have already factored it in. This could indicate a less significant catalyst compared to Bitcoin's halving."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n5fe088d51fdb",
+      "title": "Bitcoin Cash Undergoes ‘Halving’ Event, Casting Shadow on Miner Profitability",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-undergoes-halving-event-122146614.html",
+      "summary": "Bitcoin Cash's halving has reduced block rewards by half, potentially pushing miner gross margins to near zero. This event significantly impacts miner revenue, which could lead to miners selling off holdings to cover operational costs. The profitability of mining is a key factor influencing network security and miner sentiment.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "halving"
+      ],
+      "features_for_model": [
+        "BCH_halving_impact",
+        "miner_revenue_reduction",
+        "mining_margin_squeeze",
+        "miner_selling_pressure"
+      ],
+      "rationale": "The halving event directly reduces miner revenue, potentially forcing them to sell BCH to cover costs. This could create short-term selling pressure and negatively impact the price."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n3ebd898a6ab2",
+      "title": "Bitcoin Cash just went through its first halving",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-just-went-first-122330495.html",
+      "summary": "Bitcoin Cash (BCH) has completed its first halving, reducing block rewards from 12.5 BCH to 6.25 BCH. This event is expected to lower miner rewards, and if prices do not compensate, it could impact miner profitability. The article notes that if BCH prices remain the same as in March, miners would generate significantly less revenue.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "halving"
+      ],
+      "features_for_model": [
+        "BCH_first_halving",
+        "miner_reward_cut",
+        "miner_revenue_impact",
+        "price_compensation_needed"
+      ],
+      "rationale": "The reduction in block rewards for BCH miners, without a corresponding price increase, directly impacts their profitability. This could lead to increased selling pressure from miners to offset losses."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n98596732c737",
+      "title": "Bitcoin Cash ‘Halved,’ DeFi Gets a Boost and Bisq Halts Trading",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-halved-defi-gets-180918743.html",
+      "summary": "Bitcoin Cash (BCH) experienced its first halving, reducing mining rewards by half. While historically halvings precede price rallies, experts are skeptical about a bull run for BCH this time. The article also mentions DeFi getting a boost and Bisq halting trading due to a security vulnerability, indicating mixed market signals.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "halving",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "BCH_halving_event",
+        "expert_skepticism_BCH",
+        "DeFi_growth_indicator",
+        "mixed_market_signals"
+      ],
+      "rationale": "The skepticism from experts regarding a BCH price rally post-halving, combined with the direct impact on miner profitability, suggests a bearish short-term outlook for BCH."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-04-08",
+    "summary": "Today's crypto market shows mixed signals. Bitcoin experienced choppy trading, failing to hold higher levels, while Bitcoin Cash underwent its first halving with limited immediate price impact and concerns about miner profitability. Ethereum saw a slight dip but remains strong due to positive sentiment around Eth 2.0. Developments in DeFi, such as the Chicago DeFi Alliance and wrapped Bitcoin on Tezos, indicate growing institutional interest. However, a security vulnerability on Bisq highlights risks in decentralized platforms.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued volatility in Bitcoin price action.",
+      "Potential negative sentiment spillover from Bisq security incident.",
+      "Uncertainty surrounding the actual impact of the BCH halving on miner behavior.",
+      "Regulatory developments in major economies like India remain a wildcard."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $7000 support.",
+      "Developments in the Chicago DeFi Alliance.",
+      "Impact of wrapped Bitcoin on Tezos DeFi ecosystem.",
+      "Further news on Bisq security incident and potential contagion."
+    ]
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "date": "2022-12-04",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "nfd1cea2e33f8",
+      "title": "Sam Bankman-Fried's downfall sends shockwaves through crypto",
+      "url": "https://finance.yahoo.com/news/sam-bankman-frieds-downfall-sends-233912986.html",
+      "summary": "The bankruptcy of FTX and the potential legal repercussions for its founder, Sam Bankman-Fried, have created significant turmoil in the cryptocurrency industry. This event has led to a loss of trust among investors and customers, with many fearing the broader repercussions for the crypto market. The downfall of a prominent figure and exchange like FTX suggests a period of increased scrutiny and potential regulatory action, impacting market sentiment and investor confidence.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "FTX_bankruptcy",
+        "SBF_downfall",
+        "crypto_contagion",
+        "investor_sentiment",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "The collapse of FTX represents a major blow to crypto's credibility, leading to a significant loss of trust and potential regulatory crackdowns. This event is likely to deter institutional adoption and increase investor caution for an extended period."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n43255f679b95",
+      "title": "Bitcoin, Crypto-Linked Equities Resume Falling Despite Binance/FTX Deal",
+      "url": "https://finance.yahoo.com/news/bitcoin-crypto-linked-equities-bounce-170900077.html",
+      "summary": "Despite the announcement of Binance's potential acquisition of FTX, Bitcoin and crypto-related equities like Coinbase and MicroStrategy have resumed their decline. This indicates that the market's reaction to the FTX liquidity crisis and the proposed deal is still largely negative, with broader market sentiment remaining bearish. The volatility suggests ongoing uncertainty and a lack of immediate confidence restoration.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Binance_FTX_deal",
+        "crypto_equities_performance",
+        "market_volatility",
+        "liquidity_crisis",
+        "investor_sentiment"
+      ],
+      "rationale": "The continued decline of Bitcoin and related equities, even after the Binance/FTX deal announcement, highlights the deep-seated negative sentiment. This suggests that the market is still processing the FTX fallout, and a sustained recovery will require more than just a rescue deal."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n8f032755827b",
+      "title": "Coinbase Custody holds 635,000 BTC on behalf of Grayscale that refuses to share proof of reserves",
+      "url": "https://finance.yahoo.com/news/coinbase-custody-holds-635-000-152904175.html",
+      "summary": "Coinbase Custody holds a significant amount of Bitcoin for Grayscale, which has declined to provide proof of reserves. This lack of transparency from Grayscale, especially in the wake of the FTX collapse, raises concerns about the security and legitimacy of institutional crypto holdings. It could lead to increased demand for proof-of-reserves from other custodians and a potential loss of confidence in entities that do not comply.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_Custody",
+        "Grayscale_proof_of_reserves",
+        "institutional_holdings",
+        "transparency_concerns",
+        "FTX_fallout"
+      ],
+      "rationale": "Grayscale's refusal to share proof of reserves, following the FTX crisis, creates a significant trust deficit. This could lead to a flight of capital from such institutions and increased regulatory pressure for transparency across the board."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n7c7e1591d4c1",
+      "title": "US stocks jump as slowing wholesale inflation adds to hopes the Fed will ease rate hikes soon",
+      "url": "https://finance.yahoo.com/news/us-stocks-jump-slowing-wholesale-143718295.html",
+      "summary": "US stocks experienced a jump due to a slower-than-expected rise in wholesale inflation (PPI). This data fuels hopes that the Federal Reserve might ease its aggressive interest rate hikes. A less hawkish Fed stance is generally positive for risk assets, including Bitcoin, as it can lead to lower borrowing costs and increased liquidity in the market.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "PPI_data",
+        "Fed_rate_hikes",
+        "inflation_expectations",
+        "risk_asset_sentiment",
+        "US_stocks"
+      ],
+      "rationale": "Slowing inflation data suggests a potential pivot from the Federal Reserve towards less aggressive rate hikes. This macro shift can improve risk appetite, benefiting Bitcoin as a risk-on asset."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n89bd71e42368",
+      "title": "Investors Short Crypto Assets as Industry Scrutiny Intensifies",
+      "url": "https://finance.yahoo.com/news/investors-short-crypto-assets-industry-193712903.html",
+      "summary": "A significant majority of crypto investment inflows are directed towards short-selling products, indicating deeply negative sentiment following the FTX bankruptcy. This trend suggests that investors are actively betting against the crypto market, anticipating further price declines. The intensified industry scrutiny further exacerbates this bearish outlook.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "short_selling_inflows",
+        "negative_sentiment",
+        "FTX_bankruptcy_impact",
+        "industry_scrutiny",
+        "bearish_outlook"
+      ],
+      "rationale": "The overwhelming preference for short-selling products signals a strong conviction among investors that crypto prices will continue to fall. This sentiment, amplified by increased scrutiny post-FTX, points to a prolonged downturn."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nbede5e67715a",
+      "title": "US Seizes 50K Bitcoins Related to Silk Road Marketplace",
+      "url": "https://finance.yahoo.com/news/us-attorney-announces-3-4b-144331809.html",
+      "summary": "US authorities have seized a substantial amount of Bitcoin (50,676 BTC) linked to the Silk Road marketplace. While this represents a significant law enforcement action against illicit activities, the large-scale seizure could potentially lead to the liquidation of these assets, impacting market supply. However, the long-term impact depends on how these seized assets are managed and potentially sold.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Silk_Road_seizure",
+        "BTC_liquidation_risk",
+        "law_enforcement",
+        "illicit_activity_crackdown",
+        "market_supply"
+      ],
+      "rationale": "The seizure of a large amount of Bitcoin from Silk Road introduces uncertainty regarding future market supply. While it's a positive for combating illicit finance, the potential sale of these assets could create downward price pressure."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n6cdb27fc70f5",
+      "title": "WRAPUP 3-FTX to start U.S. bankruptcy proceedings, CEO to exit",
+      "url": "https://finance.yahoo.com/news/wrapup-1-ftx-start-u-151134081.html",
+      "summary": "FTX is initiating U.S. bankruptcy proceedings, and its CEO, Sam Bankman-Fried, will step down. This formalizes the exchange's collapse, which was triggered by a liquidity crisis and a wave of withdrawals. The move signifies a significant blow to the crypto industry, potentially leading to further contagion and increased regulatory scrutiny. The exit of the CEO marks the end of an era for the once-prominent exchange.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "FTX_bankruptcy",
+        "SBF_exit",
+        "crypto_contagion",
+        "regulatory_scrutiny",
+        "liquidity_crisis"
+      ],
+      "rationale": "The formal bankruptcy filing by FTX and the CEO's departure solidify the negative impact of its collapse. This event will likely prolong the bear market sentiment and attract more stringent regulatory oversight, hindering broader adoption."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n15c6c37e2103",
+      "title": "Binance to relaunch bid to buy bankrupt Voyager Digital, report claims",
+      "url": "https://finance.yahoo.com/news/binance-voyager-bankruptcy-cryptocurrency-bitcoin-ethereum-063008535.html",
+      "summary": "Binance.US is reportedly preparing to re-enter the bidding process for the bankrupt crypto lender Voyager Digital. This comes after Voyager's previous deal with FTX fell through. Binance's renewed interest could signal a consolidation trend in the industry, with larger players acquiring distressed assets. The outcome of this bid could impact market sentiment and the recovery prospects for Voyager's customers.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Binance_US",
+        "Voyager_Digital_acquisition",
+        "crypto_lender_bankruptcy",
+        "industry_consolidation",
+        "market_sentiment"
+      ],
+      "rationale": "Binance's potential bid for Voyager Digital indicates a move towards industry consolidation. The success of this acquisition could provide some stability to distressed assets, but the overall impact on market sentiment remains uncertain."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nff2487866579",
+      "title": "Crypto tanks after FTX implosion",
+      "url": "https://finance.yahoo.com/news/crypto-ftx-binance-sam-bankman-fried-133213431.html",
+      "summary": "The cryptocurrency market experienced a significant downturn following an internal conflict between FTX founder Sam Bankman-Fried and Binance CEO Changpeng Zhao. This rivalry and the subsequent implosion of FTX severely damaged investor confidence, leading to a widespread sell-off across the market. The event highlights the fragility of trust in the crypto space.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "FTX_implosion",
+        "Binance_rivalry",
+        "investor_confidence",
+        "market_selloff",
+        "crypto_contagion"
+      ],
+      "rationale": "The public dispute between FTX and Binance, culminating in FTX's implosion, has severely eroded investor confidence. This event is a major catalyst for the ongoing crypto downturn and will likely lead to a prolonged period of reduced market participation."
+    },
+    {
+      "pick_idx": 45,
+      "id": "nfb1d579cf0b6",
+      "title": "Crypto Exchange Coinbase's Shares Sink to All-Time Low",
+      "url": "https://finance.yahoo.com/news/coinbase-shares-sink-time-low-180648591.html",
+      "summary": "Coinbase's stock price has fallen to an all-time low, down significantly from its IPO price. This decline is attributed to the broader market downturn in digital assets and the fallout from the FTX bankruptcy. The poor performance of Coinbase's shares reflects the challenges faced by centralized crypto exchanges in a bear market and amid increased regulatory scrutiny.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Coinbase_stock_performance",
+        "all_time_low",
+        "FTX_fallout",
+        "bear_market",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Coinbase's stock hitting an all-time low is a direct consequence of the FTX crisis and the general crypto bear market. This indicates significant headwinds for centralized exchanges and a lack of investor confidence in the sector."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "ncdfab9212e89",
+      "title": "A European Central Bank Blog Decries the End of Bitcoin, and We Aren’t Buying It",
+      "url": "https://finance.yahoo.com/news/european-central-bank-blog-decries-155000317.html",
+      "summary": "A blog post from the European Central Bank (ECB) suggests Bitcoin's demise. The article argues against Bitcoin's viability, potentially influencing regulatory sentiment in Europe. However, the author of the article disputes the ECB's claims, suggesting a counter-narrative. This could lead to mixed reactions and debate within the crypto community and among regulators.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "ECB_blog",
+        "Bitcoin_viability",
+        "regulatory_sentiment",
+        "European_market"
+      ],
+      "rationale": "The ECB's negative commentary on Bitcoin could influence regulatory discussions in Europe. However, the counter-argument presented might mitigate some of the bearish impact, leading to a short-term debate rather than a clear price movement."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ncdfab9212e89",
+      "title": "A European Central Bank Blog Decries the End of Bitcoin, and We Aren’t Buying It",
+      "url": "https://finance.yahoo.com/news/european-central-bank-blog-decries-155000317.html",
+      "summary": "A blog post from the European Central Bank (ECB) suggests Bitcoin's demise. The article argues against Bitcoin's viability, potentially influencing regulatory sentiment in Europe. However, the author of the article disputes the ECB's claims, suggesting a counter-narrative. This could lead to mixed reactions and debate within the crypto community and among regulators.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "ECB_blog",
+        "Bitcoin_viability",
+        "regulatory_sentiment",
+        "European_market"
+      ],
+      "rationale": "The ECB's negative commentary on Bitcoin could influence regulatory discussions in Europe. However, the counter-argument presented might mitigate some of the bearish impact, leading to a short-term debate rather than a clear price movement."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n2c3938c98e3f",
+      "title": "7 Stocks That Are Screaming Sells Heading Into 2023",
+      "url": "https://finance.yahoo.com/news/7-stocks-screaming-sells-heading-000250618.html",
+      "summary": "This article identifies stocks with significant fundamental weaknesses that are considered 'screaming sells' heading into 2023. While not directly about crypto, it reflects a broader market sentiment of caution and potential downturns in certain sectors. This general bearish outlook on equities could spill over into crypto markets, especially if macroeconomic concerns persist.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "bearish_market_sentiment",
+        "equity_market_outlook",
+        "macroeconomic_concerns",
+        "risk_off_sentiment"
+      ],
+      "rationale": "The identification of 'screaming sell' stocks in the broader market suggests a prevailing cautious sentiment. This negative sentiment can indirectly impact Bitcoin by reducing overall risk appetite."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n2f1e6ab503e4",
+      "title": "7 Stocks That Are Screaming Buys for 2023",
+      "url": "https://finance.yahoo.com/news/7-stocks-screaming-buys-2023-001617334.html",
+      "summary": "This article highlights stocks with resilient financials that are considered 'screaming buys' for 2023. While focused on equities, it suggests a potential shift towards identifying undervalued assets. If this optimistic sentiment gains traction, it could lead to increased risk appetite, potentially benefiting Bitcoin as investors seek growth opportunities.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "bullish_market_sentiment",
+        "equity_market_outlook",
+        "undervalued_assets",
+        "risk_on_sentiment"
+      ],
+      "rationale": "The identification of 'screaming buy' stocks in the broader market suggests a potential shift towards optimism. This positive sentiment could indirectly benefit Bitcoin by increasing overall risk appetite."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ncdfab9212e89",
+      "title": "A European Central Bank Blog Decries the End of Bitcoin, and We Aren’t Buying It",
+      "url": "https://finance.yahoo.com/news/european-central-bank-blog-decries-155000317.html",
+      "summary": "A blog post from the European Central Bank (ECB) suggests Bitcoin's demise. The article argues against Bitcoin's viability, potentially influencing regulatory sentiment in Europe. However, the author of the article disputes the ECB's claims, suggesting a counter-narrative. This could lead to mixed reactions and debate within the crypto community and among regulators.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "ECB_blog",
+        "Bitcoin_viability",
+        "regulatory_sentiment",
+        "European_market"
+      ],
+      "rationale": "The ECB's negative commentary on Bitcoin could influence regulatory discussions in Europe. However, the counter-argument presented might mitigate some of the bearish impact, leading to a short-term debate rather than a clear price movement."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nc3ab8b214745",
+      "title": "This Week on Crypto Twitter: Sam Bankman-Fried Won't Stop Talking, Coinbase Challenges Apple",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-sam-bankman-201031325.html",
+      "summary": "This week's crypto Twitter activity shows Sam Bankman-Fried continuing to engage publicly, despite the FTX fallout. Coinbase is also making moves, challenging Apple. The overall sentiment on Crypto Twitter is described as more sedate, with contagion fears from FTX's demise still present, but less pronounced. The mention of 'shrimps' buying the dip suggests retail accumulation.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "legal"
+      ],
+      "features_for_model": [
+        "SBF_public_statements",
+        "Coinbase_strategy",
+        "Crypto_Twitter_sentiment",
+        "retail_buying",
+        "FTX_contagion"
+      ],
+      "rationale": "Sam Bankman-Fried's continued public engagement and Coinbase's strategic moves are notable. While the overall sentiment is subdued, retail buying ('shrimps') could provide some short-term support, but the lingering FTX contagion remains a risk."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n2c3938c98e3f",
+      "title": "7 Stocks That Are Screaming Sells Heading Into 2023",
+      "url": "https://finance.yahoo.com/news/7-stocks-screaming-sells-heading-000250618.html",
+      "summary": "This article identifies stocks with significant fundamental weaknesses that are considered 'screaming sells' heading into 2023. While not directly about crypto, it reflects a broader market sentiment of caution and potential downturns in certain sectors. This general bearish outlook on equities could spill over into crypto markets, especially if macroeconomic concerns persist.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "bearish_market_sentiment",
+        "equity_market_outlook",
+        "macroeconomic_concerns",
+        "risk_off_sentiment"
+      ],
+      "rationale": "The identification of 'screaming sell' stocks in the broader market suggests a prevailing cautious sentiment. This negative sentiment can indirectly impact Bitcoin by reducing overall risk appetite."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n2f1e6ab503e4",
+      "title": "7 Stocks That Are Screaming Buys for 2023",
+      "url": "https://finance.yahoo.com/news/7-stocks-screaming-buys-2023-001617334.html",
+      "summary": "This article highlights stocks with resilient financials that are considered 'screaming buys' for 2023. While focused on equities, it suggests a potential shift towards identifying undervalued assets. If this optimistic sentiment gains traction, it could lead to increased risk appetite, potentially benefiting Bitcoin as investors seek growth opportunities.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "bullish_market_sentiment",
+        "equity_market_outlook",
+        "undervalued_assets",
+        "risk_on_sentiment"
+      ],
+      "rationale": "The identification of 'screaming buy' stocks in the broader market suggests a potential shift towards optimism. This positive sentiment could indirectly benefit Bitcoin by increasing overall risk appetite."
+    },
+    {
+      "pick_idx": 4,
+      "id": "ncdfab9212e89",
+      "title": "A European Central Bank Blog Decries the End of Bitcoin, and We Aren’t Buying It",
+      "url": "https://finance.yahoo.com/news/european-central-bank-blog-decries-155000317.html",
+      "summary": "A blog post from the European Central Bank (ECB) suggests Bitcoin's demise. The article argues against Bitcoin's viability, potentially influencing regulatory sentiment in Europe. However, the author of the article disputes the ECB's claims, suggesting a counter-narrative. This could lead to mixed reactions and debate within the crypto community and among regulators.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "ECB_blog",
+        "Bitcoin_viability",
+        "regulatory_sentiment",
+        "European_market"
+      ],
+      "rationale": "The ECB's negative commentary on Bitcoin could influence regulatory discussions in Europe. However, the counter-argument presented might mitigate some of the bearish impact, leading to a short-term debate rather than a clear price movement."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nc3ab8b214745",
+      "title": "This Week on Crypto Twitter: Sam Bankman-Fried Won't Stop Talking, Coinbase Challenges Apple",
+      "url": "https://finance.yahoo.com/news/week-crypto-twitter-sam-bankman-201031325.html",
+      "summary": "This week's crypto Twitter activity shows Sam Bankman-Fried continuing to engage publicly, despite the FTX fallout. Coinbase is also making moves, challenging Apple. The overall sentiment on Crypto Twitter is described as more sedate, with contagion fears from FTX's demise still present, but less pronounced. The mention of 'shrimps' buying the dip suggests retail accumulation.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "legal"
+      ],
+      "features_for_model": [
+        "SBF_public_statements",
+        "Coinbase_strategy",
+        "Crypto_Twitter_sentiment",
+        "retail_buying",
+        "FTX_contagion"
+      ],
+      "rationale": "Sam Bankman-Fried's continued public engagement and Coinbase's strategic moves are notable. While the overall sentiment is subdued, retail buying ('shrimps') could provide some short-term support, but the lingering FTX contagion remains a risk."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-12-04",
+    "summary": "The crypto market remains heavily influenced by the FTX fallout, with long-term sentiment leaning bearish due to ongoing contagion fears and increased regulatory scrutiny. Short-term, mixed signals are present: while some broader market sentiment suggests potential opportunities in equities, the ECB's negative stance on Bitcoin and continued uncertainty around FTX's impact create a cautious outlook. Retail buying activity is noted, but the dominant narrative is one of risk aversion.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Further contagion from FTX and related entities.",
+      "Increased regulatory action and enforcement globally.",
+      "Persistent macroeconomic headwinds and potential for further rate hikes.",
+      "Lack of clear positive catalysts to restore broad market confidence.",
+      "Negative sentiment driven by institutional failures and lack of transparency."
+    ],
+    "watch_items": [
+      "FTX bankruptcy proceedings and asset recovery.",
+      "Statements and actions from major regulatory bodies (SEC, CFTC, ECB).",
+      "Macroeconomic data releases (inflation, employment).",
+      "Performance of major crypto-linked equities (COIN, MSTR).",
+      "Developments in other crypto lenders and exchanges (e.g., BlockFi bankruptcy)."
+    ]
+  }
+}

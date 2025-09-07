@@ -1,0 +1,525 @@
+{
+  "date": "2022-06-03",
+  "long_term": [
+    {
+      "pick_idx": 16,
+      "id": "n9ce6345f2893",
+      "title": "FOREX-U.S. dollar rides to two-decade highs as yields rise",
+      "url": "https://finance.yahoo.com/news/forex-u-dollar-rides-two-110717745.html",
+      "summary": "The U.S. dollar reached a two-decade high, driven by rising U.S. Treasury yields and increased bullish bets by hedge funds. This trend, initiated after the Federal Reserve's 50 basis point rate hike, has impacted various currencies, including cryptocurrencies. The dollar's strength suggests a tightening monetary environment, which typically correlates with reduced risk appetite for assets like Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "rising_yields",
+        "Fed_tightening",
+        "risk_off_sentiment"
+      ],
+      "rationale": "A strengthening USD and rising yields generally signal a risk-off environment, which is bearish for Bitcoin as it competes for investor capital. This trend indicates a tightening global liquidity, potentially reducing demand for risk assets."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nf447147c7c6e",
+      "title": "The Future Role of Ethereum in Multi-Chain Technology",
+      "url": "https://finance.yahoo.com/news/future-role-ethereum-multi-chain-140000448.html",
+      "summary": "Ethereum's roadmap, particularly \"The Merge\" to a Proof-of-Stake (PoS) consensus mechanism, is poised to significantly alter its energy consumption and operational efficiency. This transition is a major development for the second-largest cryptocurrency, potentially improving its scalability and sustainability, which could influence broader market sentiment and adoption trends for the crypto space.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge",
+        "Proof_of_Stake",
+        "ETH_scalability",
+        "energy_efficiency"
+      ],
+      "rationale": "The successful transition to Proof-of-Stake for Ethereum is a significant technological upgrade that could boost its utility and adoption. This positive development for a major altcoin can have a spillover effect on the broader crypto market, including Bitcoin, by increasing overall confidence and innovation."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n3ebfa280c8d3",
+      "title": "Nasdaq: Majority Of Advisors Want Spot Crypto ETFs",
+      "url": "https://finance.yahoo.com/news/nasdaq-majority-advisors-want-spot-154500311.html",
+      "summary": "A Nasdaq survey indicates that a significant majority of financial advisors are keen on using spot cryptocurrency ETFs for increased exposure. However, most do not anticipate their approval in 2022. This sentiment highlights a strong demand for regulated crypto investment products, suggesting that future approvals could unlock substantial institutional capital.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "ETF"
+      ],
+      "features_for_model": [
+        "spot_ETF_demand",
+        "advisor_sentiment",
+        "institutional_adoption"
+      ],
+      "rationale": "The strong demand from financial advisors for spot Bitcoin ETFs signals a growing institutional interest. While approval is not expected soon, the persistent demand suggests that regulatory hurdles, once cleared, could lead to significant capital inflows into Bitcoin."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n2b1e6ec627b9",
+      "title": "Crypto Wealth And NFTs Are Further Boosting The Growing Art Market",
+      "url": "https://finance.yahoo.com/news/crypto-wealth-nfts-further-boosting-162253992.html",
+      "summary": "Cryptocurrency, particularly Bitcoin, is influencing various sectors, including the art market. The rise of NFTs has created new avenues for art investment and ownership, pushing galleries online and leveling the playing field. This integration of crypto into traditional markets like art signifies broader adoption and potential for new use cases.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "NFT"
+      ],
+      "features_for_model": [
+        "crypto_art_integration",
+        "NFT_market_growth",
+        "digital_asset_adoption"
+      ],
+      "rationale": "The increasing integration of crypto and NFTs into traditional markets like art demonstrates growing adoption and utility. This trend can foster broader acceptance of digital assets and potentially increase demand for underlying cryptocurrencies like Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nf3b3ce3b41da",
+      "title": "Altcoins Are Too Volatile, So Just Buy Bitcoin Instead",
+      "url": "https://finance.yahoo.com/news/altcoins-too-volatile-just-buy-103212995.html",
+      "summary": "The article suggests that Bitcoin (BTC) has shown more resilience than most altcoins during the recent bearish trend. While altcoins thrive on volatility in bullish markets, a prolonged downturn poses a significant risk to them. Bitcoin's relative stability positions it as a potentially safer haven within the crypto ecosystem during such periods.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "altcoin_volatility",
+        "Bitcoin_resilience",
+        "bear_market_strategy"
+      ],
+      "rationale": "This sentiment highlights a potential flight to quality within the crypto market, favoring Bitcoin over more volatile altcoins during downturns. This could lead to increased Bitcoin dominance and potentially higher prices as investors seek perceived safety."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nbdaa1d05cffe",
+      "title": "Bitcoin mines come to rural Georgia. They’re bringing opportunities — and tensions",
+      "url": "https://finance.yahoo.com/news/bitcoin-mines-come-rural-georgia-192956450.html",
+      "summary": "Bitcoin mining operations are expanding into rural Georgia, creating both economic opportunities and local tensions. Concerns about energy consumption and environmental impact are rising among residents. This trend reflects the ongoing growth and decentralization of Bitcoin mining infrastructure, but also highlights regulatory and community challenges.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "mining_expansion",
+        "energy_consumption",
+        "local_regulation",
+        "mining_infrastructure"
+      ],
+      "rationale": "The expansion of mining operations is a sign of network growth and infrastructure development. However, local opposition and potential regulatory scrutiny could create headwinds. The net impact on Bitcoin's price is uncertain, depending on the scale of adoption versus regulatory responses."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n589fa83d082f",
+      "title": "FOREX-Dollar at 2-decade high as CPI keeps aggressive U.S. rate hikes likely",
+      "url": "https://finance.yahoo.com/news/forex-dollar-2-decade-high-063731988.html",
+      "summary": "The U.S. dollar reached a two-decade high following inflation data that suggested continued aggressive rate hikes by the Federal Reserve. This strength in the dollar, coupled with investor concerns about central banks lagging inflation control and risks from China's lockdowns, is pressuring riskier currencies and cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "USD_strength",
+        "aggressive_rate_hikes",
+        "inflation_control",
+        "risk_asset_pressure"
+      ],
+      "rationale": "Aggressive Fed rate hikes and a strong dollar create a challenging environment for risk assets like Bitcoin. Higher interest rates increase the opportunity cost of holding non-yielding assets, and a stronger dollar makes dollar-denominated assets more expensive for foreign buyers."
+    },
+    {
+      "pick_idx": 23,
+      "id": "nad744cedad7e",
+      "title": "InvestmentPitch Media Video Discusses LUXXFOLIO’s Increase in Bitcoin Mined in April to Approximately 180 PH/s, up 6% Month over Month",
+      "url": "https://finance.yahoo.com/news/investmentpitch-media-video-discusses-luxxfolio-100000611.html",
+      "summary": "LUXXFOLIO Holdings reported an increase in Bitcoin mined in April, operating at approximately 180 PH/s, a 6% month-over-month rise. This growth in mining capacity indicates increased network security and potentially higher hash rates, which are generally positive indicators for the Bitcoin network's health and operational capacity.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_hashrate_increase",
+        "miner_operational_growth",
+        "network_security"
+      ],
+      "rationale": "An increase in mining hash rate, as reported by LUXXFOLIO, signifies growth in the Bitcoin mining sector. This expansion contributes to network security and can be seen as a positive sign for the underlying infrastructure, potentially supporting price appreciation."
+    },
+    {
+      "pick_idx": 41,
+      "id": "nd912ad3f3642",
+      "title": "Ark 21Shares Backers Take Another Shot at Spot Bitcoin ETF Approval",
+      "url": "https://finance.yahoo.com/news/ark-21shares-takes-another-shot-153925869.html",
+      "summary": "ARK Investment Management and 21Shares are reapplying for SEC approval of their spot Bitcoin ETF. The SEC previously rejected their application, citing a lack of investor protection. This renewed effort underscores the persistent demand for regulated Bitcoin investment vehicles and the ongoing efforts to gain institutional acceptance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "ETF"
+      ],
+      "features_for_model": [
+        "spot_ETF_reapplication",
+        "SEC_approval_attempt",
+        "institutional_demand"
+      ],
+      "rationale": "The repeated attempts by ARK 21Shares to secure a spot Bitcoin ETF approval highlight the significant institutional interest in regulated crypto products. While past rejections indicate regulatory hurdles, successful approval in the future could unlock substantial capital flows."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n405cf1fade45",
+      "title": "Australia's Financial Regulator Aims to Implement Crypto Regulation by 2025",
+      "url": "https://finance.yahoo.com/news/australias-financial-regulator-aims-implement-153916877.html",
+      "summary": "Australia's financial regulator, APRA, has outlined a roadmap to implement crypto-asset regulation by 2025. This proactive approach to regulation signals a maturing crypto market and aims to provide clarity for financial entities. Clear regulatory frameworks can foster greater institutional adoption and reduce perceived risks.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Australia_crypto_regulation",
+        "regulatory_clarity",
+        "APRA_framework"
+      ],
+      "rationale": "The establishment of clear regulatory frameworks, such as Australia's planned crypto regulation by 2025, can significantly boost investor confidence and encourage institutional participation. This provides a more stable environment for the growth of the digital asset market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "naa79efc6904a",
+      "title": "Are Exchange Layoffs the First Sign of Crypto Winter, or Is It Already Over?",
+      "url": "https://finance.yahoo.com/news/exchange-layoffs-first-sign-crypto-174308586.html",
+      "summary": "Coinbase announced an extended hiring freeze and rescinded job offers, signaling a potential downturn in the crypto industry. This move, along with similar actions by other exchanges, reflects a broader market contraction and reduced hiring activity amid falling asset prices and macroeconomic pressures.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "exchange",
+        "layoffs",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinbase_layoffs",
+        "hiring_freeze",
+        "exchange_downturn",
+        "crypto_winter_sentiment"
+      ],
+      "rationale": "Widespread layoffs and hiring freezes at major exchanges like Coinbase indicate a significant contraction in the crypto market. This sentiment can lead to reduced trading volumes and investor confidence, negatively impacting Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nef3609950b75",
+      "title": "First Mover Americas: Bitcoin Slips as Report Shows Faster-Than-Expected US Jobs Growth",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-slips-142534041.html",
+      "summary": "Bitcoin experienced a slip as a U.S. jobs report indicated faster-than-expected growth. This data could influence the Federal Reserve's monetary policy, potentially leading to continued aggressive interest rate hikes, which typically dampens risk appetite for assets like Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "US_jobs_report",
+        "faster_than_expected_growth",
+        "Fed_rate_hike_expectations",
+        "Bitcoin_slip"
+      ],
+      "rationale": "Stronger-than-expected jobs data can be interpreted as a signal for the Fed to continue its aggressive rate-hiking path. This typically leads to a risk-off sentiment, pressuring Bitcoin prices in the immediate short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nf89edb3313f7",
+      "title": "Stock Market Today: May's Surprising Jobs Data Slams Brakes on Stocks",
+      "url": "https://finance.yahoo.com/news/stock-market-today-mays-surprising-201612656.html",
+      "summary": "The May jobs report exceeded expectations, causing a negative reaction in the stock market. Investors are concerned that strong employment figures will prompt the Federal Reserve to maintain its aggressive interest rate hikes, potentially slowing economic growth and impacting risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "May_jobs_report",
+        "strong_employment",
+        "Fed_rate_hikes",
+        "stock_market_reaction"
+      ],
+      "rationale": "The positive jobs data, interpreted as a catalyst for continued Fed tightening, creates a bearish short-term outlook for risk assets like Bitcoin. This macro environment often leads to reduced liquidity and investor appetite for speculative assets."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n0b07db6233be",
+      "title": "New York State Passes Bitcoin Mining Ban – Critics Say it Stifles Innovation",
+      "url": "https://finance.yahoo.com/news/york-state-passes-bitcoin-mining-181652749.html",
+      "summary": "New York State Senate passed a bill imposing a two-year moratorium on new proof-of-work cryptocurrency mining operations that use carbon-based fuels. This regulatory action, pending the governor's signature, could impact mining operations in the state and set a precedent for similar measures elsewhere.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "miner",
+        "environment"
+      ],
+      "features_for_model": [
+        "NY_mining_moratorium",
+        "proof_of_work_ban",
+        "carbon_based_fuel",
+        "regulatory_precedent"
+      ],
+      "rationale": "A mining ban in a significant jurisdiction like New York can create negative sentiment and potentially impact hashrate distribution. While the direct impact on Bitcoin's price might be limited, it adds to the regulatory uncertainty surrounding mining operations."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n62fc6f20354c",
+      "title": "New York Senate Passes Bitcoin, Ethereum Mining Ban Bill",
+      "url": "https://finance.yahoo.com/news/york-senate-passes-bitcoin-ethereum-111855764.html",
+      "summary": "The New York State Senate approved a bill establishing a moratorium on proof-of-work cryptocurrency mining operations. This move targets energy-intensive mining and follows similar concerns raised by governments globally. The bill's passage could influence mining operations and regulatory approaches in other regions.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "miner",
+        "environment"
+      ],
+      "features_for_model": [
+        "NY_mining_ban",
+        "PoW_moratorium",
+        "environmental_concerns",
+        "regulatory_action"
+      ],
+      "rationale": "The New York mining ban is a regulatory development that could signal a trend towards stricter environmental regulations for PoW mining. This may lead to increased operational costs or relocation for some miners, potentially impacting network hashrate and sentiment."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n30281d9b86a0",
+      "title": "Coinbase Announces Hiring Freeze, Rescinds Job Offers – Should You Move Your Crypto?",
+      "url": "https://finance.yahoo.com/news/coinbase-announces-hiring-freeze-rescinds-195321245.html",
+      "summary": "Coinbase is extending its hiring pause and rescinding accepted job offers, joining a growing list of crypto platforms making similar moves amid a challenging market. This indicates a significant slowdown in the crypto industry, potentially affecting liquidity and investor confidence.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "exchange",
+        "layoffs",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinbase_hiring_pause",
+        "rescinded_offers",
+        "crypto_industry_slowdown",
+        "exchange_contractions"
+      ],
+      "rationale": "The widespread hiring freezes and rescinded offers at major exchanges like Coinbase are strong indicators of a crypto winter. This contraction suggests reduced market activity and potential liquidity issues, which are bearish signals for Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n5dd0555385b9",
+      "title": "Gemini Exchange Announces Job Cuts as Crypto Winter Bites",
+      "url": "https://finance.yahoo.com/news/gemini-exchange-announces-job-cuts-021424555.html",
+      "summary": "Crypto exchange Gemini announced job cuts and the closure of physical offices due to the 'crypto winter' and macroeconomic turmoil. This move reflects the broader industry trend of cost-cutting and downsizing in response to market downturns and reduced trading volumes.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "exchange",
+        "layoffs",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Gemini_job_cuts",
+        "crypto_winter",
+        "office_closures",
+        "market_contraction"
+      ],
+      "rationale": "Gemini's job cuts and office closures are further evidence of the severe downturn in the crypto market. Such actions by exchanges signal reduced operational capacity and investor confidence, contributing to a bearish short-term outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nd24136adf00a",
+      "title": "Market Rout Prompts Analyst to Slash Bitcoin Miners’ Price Targets by Average of 65%",
+      "url": "https://finance.yahoo.com/news/market-rout-prompts-analyst-slash-152958166.html",
+      "summary": "An analyst has significantly reduced price targets for Bitcoin miners due to the market rout and concerns about funding. The expectation is that mining stocks will track Bitcoin's price, but funding challenges at lower BTC prices could exacerbate underperformance.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "miner_price_target_cut",
+        "market_rout_impact",
+        "funding_concerns",
+        "BTC_price_correlation"
+      ],
+      "rationale": "The slashing of price targets for Bitcoin miners reflects a bearish outlook on the sector, directly tied to the current market rout. This indicates that the profitability and growth prospects of miners are being significantly downgraded, which can negatively influence Bitcoin's price sentiment."
+    },
+    {
+      "pick_idx": 19,
+      "id": "nc9c42b9d5669",
+      "title": "FTC says victims of crypto scams have lost more than $1 billion since 2021",
+      "url": "https://finance.yahoo.com/news/crypto-scams-report-losing-more-than-1-billion-since-2021-ftc-201851790.html",
+      "summary": "The FTC reported that victims have lost over $1 billion to crypto scams since 2021, with Bitcoin being the most common payment method. This highlights ongoing risks and fraud within the crypto space, potentially eroding investor confidence and leading to increased regulatory scrutiny.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "scam",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_scam_losses",
+        "FTC_report",
+        "Bitcoin_payment_method",
+        "investor_confidence_erosion"
+      ],
+      "rationale": "High reported losses from crypto scams can damage overall market sentiment and lead to increased regulatory pressure. While not directly impacting Bitcoin's technology, it contributes to a perception of risk that can deter new investors and pressure prices."
+    },
+    {
+      "pick_idx": 38,
+      "id": "nf0c757f99c04",
+      "title": "Bitcoin Rises as Cost-Cutting and Layoffs Reverberate Through Crypto Industry",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-cost-cutting-layoffs-045246925.html",
+      "summary": "Bitcoin saw a rise in trading as cost-cutting and layoffs spread across the crypto industry. This rise occurred alongside a broader risk-on sentiment in European and US stock markets, suggesting that Bitcoin's movement may be influenced by general market trends rather than specific crypto-native catalysts.",
+      "impact_horizon_days": 2,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_rise",
+        "crypto_layoffs",
+        "risk_on_sentiment",
+        "stock_market_correlation"
+      ],
+      "rationale": "Bitcoin's rise appears correlated with a broader market risk-on sentiment, despite negative news like layoffs within the crypto industry. This suggests that short-term price action may be more driven by macro factors than internal crypto market dynamics."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-06-03",
+    "summary": "The crypto market is showing mixed signals today. Bitcoin has returned to the $30,000 level, supported by a rally in the NASDAQ, despite ongoing concerns about inflation and Fed policy. However, significant layoffs and hiring freezes at major exchanges like Coinbase and Gemini indicate a deepening 'crypto winter,' suggesting a contraction in the industry. Regulatory news from New York, imposing a moratorium on carbon-based crypto mining, adds to the cautious sentiment. Stronger-than-expected US jobs data is also fueling fears of continued aggressive Fed rate hikes, which typically pressures risk assets.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued aggressive monetary policy from the Federal Reserve due to strong economic data.",
+      "Further negative sentiment stemming from widespread layoffs and contractions in the crypto industry.",
+      "Potential for increased regulatory scrutiny on mining operations following New York's moratorium.",
+      "The correlation between Bitcoin and traditional risk assets, making it vulnerable to broader market downturns."
+    ],
+    "watch_items": [
+      "US Nonfarm Payrolls data release and market reaction.",
+      "Statements from Fed officials regarding monetary policy.",
+      "Further developments regarding exchange layoffs and their impact on liquidity.",
+      "Any updates on the New York mining moratorium's progression.",
+      "Performance of major tech stocks (e.g., NASDAQ components) as a proxy for risk appetite."
+    ]
+  }
+}

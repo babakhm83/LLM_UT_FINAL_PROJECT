@@ -1,0 +1,493 @@
+{
+  "date": "2020-05-18",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "nf9b6cf9c874a",
+      "title": "Bitcoin records its third-ever block reward halving",
+      "url": "https://finance.yahoo.com/news/bitcoin-records-third-ever-block-192812442.html",
+      "summary": "Bitcoin's third block reward halving occurred, reducing the per-block subsidy from 12.5 BTC to 6.25 BTC. This event, which happens approximately every four years, is a fundamental mechanism designed to control Bitcoin's supply and is often cited as a bullish catalyst due to its deflationary nature. The halving reduces the rate at which new Bitcoins are created, potentially increasing scarcity and, by extension, price if demand remains constant or increases.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_halving",
+        "supply_shock",
+        "block_subsidy_reduction"
+      ],
+      "rationale": "The halving event directly impacts Bitcoin's supply dynamics, reducing the rate of new coin issuance. Historically, halvings have been associated with subsequent price increases due to increased scarcity."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n7da42037d207",
+      "title": "Bitcoin now outperforming S&P 500 for the first time since equity sell-off",
+      "url": "https://finance.yahoo.com/news/bitcoin-now-outperforming-p-500-153003293.html",
+      "summary": "This article highlights a shift where Bitcoin began outperforming the S&P 500, reversing a trend seen since the mid-March market sell-off. Bitcoin's return since late February became less negative than the S&P 500's, with BTC price surging above $8,000. This suggests a potential decoupling from traditional markets and a growing resilience or alternative appeal for Bitcoin as an investment, possibly driven by its unique supply mechanics and increasing adoption narratives.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "btc_vs_sp500_performance",
+        "market_decoupling",
+        "risk_on_sentiment"
+      ],
+      "rationale": "Bitcoin showing strength relative to traditional markets indicates a potential shift in investor sentiment and its growing role as a distinct asset class, possibly as a hedge or alternative investment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n5e670890b1c7",
+      "title": "Speculative bet or inflation hedge? Bitcoin in the coronavirus crisis",
+      "url": "https://finance.yahoo.com/news/speculative-bet-inflation-hedge-bitcoin-154327514.html",
+      "summary": "The article discusses Bitcoin's performance during the coronavirus pandemic, noting it fared better than stocks but worse than gold and U.S. Treasuries. Investors are debating whether Bitcoin is a speculative bet or an inflation hedge, with stimulus measures increasing the latter argument. This ongoing debate shapes investor perception and adoption, influencing long-term demand and price discovery as a potential store of value against monetary expansion.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "btc_inflation_hedge",
+        "stimulus_impact",
+        "investor_narrative"
+      ],
+      "rationale": "The narrative of Bitcoin as an inflation hedge gains traction during periods of significant monetary stimulus, potentially driving long-term demand, though its speculative nature remains a counteracting factor."
+    },
+    {
+      "pick_idx": 18,
+      "id": "ncf2251c5aa69",
+      "title": "First Mover: Coronavirus Trillions Get Bitcoiners Wondering if Halving Still Matters",
+      "url": "https://finance.yahoo.com/news/first-mover-coronavirus-trillions-bitcoiners-114858155.html",
+      "summary": "This piece explores how the massive global monetary stimulus in response to the coronavirus pandemic is shifting focus from the Bitcoin halving to Bitcoin's potential as an inflation hedge. The trillions injected into economies by central banks and governments are seen as enhancing Bitcoin's appeal, similar to traditional arguments for gold. This macro environment could overshadow the halving's impact, creating a new demand driver for Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.78,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "monetary_stimulus",
+        "inflation_hedge_demand",
+        "halving_narrative_shift"
+      ],
+      "rationale": "Large-scale quantitative easing by central banks increases the appeal of Bitcoin as an inflation hedge, potentially driving significant long-term demand independent of or in conjunction with the halving event."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n71bcd58efebb",
+      "title": "US Treasury Approves Square as Coronavirus Stimulus Lender",
+      "url": "https://finance.yahoo.com/news/us-treasury-approves-square-coronavirus-180859310.html",
+      "summary": "Square, a company known for its Bitcoin-friendly Cash App, has been approved by the U.S. Treasury to participate in the Paycheck Protection Program (PPP). This integration of a major fintech player into government stimulus efforts signals increasing mainstream financial infrastructure adoption. It provides greater visibility and potential user acquisition for Square's services, including its crypto offerings, and normalizes the use of such platforms for financial transactions.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.72,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "fintech_stimulus_participation",
+        "square_cash_app",
+        "ppp_loan_program"
+      ],
+      "rationale": "Square's involvement in a major government stimulus program legitimizes fintech platforms and potentially exposes a wider audience to its services, including Bitcoin, fostering broader adoption."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nb76dad789780",
+      "title": "Binance-Backed Crypto Payments App Launches as Race for Africa Heats Up",
+      "url": "https://finance.yahoo.com/news/binance-backed-crypto-payments-app-145003252.html",
+      "summary": "Binance-backed Bundle app has launched in Nigeria, intensifying the competition for Africa's digital asset market. The app offers fee-free storage and transactions for cash and cryptocurrencies. This expansion into a major African economy signifies growing adoption of crypto payment solutions in emerging markets, driven by the need for accessible and affordable financial services. Such developments are crucial for long-term global crypto adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "africa_crypto_adoption",
+        "binance_bundle_app",
+        "emerging_markets_payments"
+      ],
+      "rationale": "The launch of a Binance-backed payments app in Nigeria highlights the increasing adoption of crypto in emerging markets, which is a key driver for long-term global growth and utility."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n63a9be233f79",
+      "title": "Huge step forward for the Bitcoin Sector as major Italian Bank start to trade bitcoin and Brookfield EuroSwiss offers Bitcoin Hedging Program for Bitcoin investors in the value of 2 Billion EUR",
+      "url": "https://finance.yahoo.com/news/huge-step-forward-bitcoin-sector-163000966.html",
+      "summary": "A major Italian bank, Banco Sella, began allowing customers to buy and sell Bitcoin, while Brookfield EuroSwiss launched a 2 billion EUR Bitcoin hedging program. This signifies significant institutional adoption and increased accessibility for traditional finance participants. The involvement of established financial institutions and the offering of hedging products suggest growing maturity and acceptance of Bitcoin within the global financial system.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "italian_bank_btc_trading",
+        "institutional_hedging_program",
+        "financial_sector_adoption"
+      ],
+      "rationale": "Direct participation from traditional banks and the offering of hedging products by financial firms indicate growing institutional acceptance and integration of Bitcoin into mainstream finance."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n079229a89328",
+      "title": "Stablecoins Push Ethereum’s Transaction Count to Highest Since July 2019",
+      "url": "https://finance.yahoo.com/news/stablecoins-push-ethereum-transaction-count-174133018.html",
+      "summary": "Ethereum's network saw its transaction count reach a 10-month high, driven by increased stablecoin issuance and anticipation of Ethereum 2.0. The surge in transactions indicates growing utility and network activity on Ethereum, which is a foundational layer for many decentralized applications and stablecoins. This increased usage can lead to higher demand for ETH, both for transaction fees and as collateral.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ethereum_transaction_volume",
+        "stablecoin_issuance",
+        "eth2_anticipation"
+      ],
+      "rationale": "Increased network activity on Ethereum, fueled by stablecoins and upcoming upgrades, suggests growing utility and demand for ETH, which can positively impact its price."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nf9b37cc5d644",
+      "title": "Enterprise Blockchains: Walled Off Yet Vulnerable",
+      "url": "https://finance.yahoo.com/news/enterprise-blockchains-walled-off-yet-141041434.html",
+      "summary": "The article discusses the security and design of enterprise blockchains, noting they are typically private and limited to authorized parties, aiming for efficiency and safety. However, it raises questions about their vulnerability to hacking. While enterprise adoption of blockchain technology is a positive sign for the broader ecosystem, potential security flaws in private implementations could create negative sentiment if exploited.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "regulation"
+      ],
+      "features_for_model": [
+        "enterprise_blockchain_security",
+        "private_blockchain_vulnerability",
+        "corporate_adoption_risk"
+      ],
+      "rationale": "While enterprise adoption of blockchain is generally positive, concerns about the security of private implementations could pose a long-term risk if vulnerabilities are exploited, impacting overall trust in the technology."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n91258f8c8f0a",
+      "title": "US Transportation Dept. Says Blockchain Could Bring More Trust to Commercial Drones",
+      "url": "https://finance.yahoo.com/news/us-transportation-dept-says-blockchain-080000974.html",
+      "summary": "A U.S. Department of Transportation report suggests blockchain technology can enhance trust and security for commercial drones, addressing concerns like data protection and air traffic management. This highlights a potential new use case for blockchain in a significant industry, indicating broader technological integration and adoption. Such developments can foster innovation and create new demand for blockchain solutions.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "blockchain_drones_usdot",
+        "iot_security",
+        "supply_chain_transparency"
+      ],
+      "rationale": "The U.S. government's recognition of blockchain's utility in sectors like drone management signals expanding real-world applications and potential for broader adoption beyond finance."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n6dd6b55c34d5",
+      "title": "The Crypto Daily – Movers and Shakers -18/05/20",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-18-005229226.html",
+      "summary": "Bitcoin rallied 3.01% on Sunday, ending the week up 10.86% to $9,668.2. It broke through key resistance levels at $9,571.33 and $9,754.67 before a late pullback. The price action indicates strong upward momentum, with the breach of resistance levels suggesting potential for further gains in the short term, despite a minor retracement.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "btc_price_rally",
+        "resistance_breakout",
+        "weekend_performance"
+      ],
+      "rationale": "The strong Sunday rally and breach of resistance levels suggest continued bullish momentum in the immediate short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n6dd6b55c34d5",
+      "title": "The Crypto Daily – Movers and Shakers -18/05/20",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-18-005229226.html",
+      "summary": "Bitcoin rallied 3.01% on Sunday, ending the week up 10.86% to $9,668.2. It broke through key resistance levels at $9,571.33 and $9,754.67 before a late pullback. The price action indicates strong upward momentum, with the breach of resistance levels suggesting potential for further gains in the short term, despite a minor retracement.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "btc_price_momentum",
+        "technical_resistance",
+        "weekly_performance"
+      ],
+      "rationale": "The positive weekly close and successful test of resistance levels suggest a bullish bias for the upcoming week."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n142e2544870a",
+      "title": "BEQUANT Exchange lists Stellar XLM on Trading Platform",
+      "url": "https://finance.yahoo.com/news/bequant-exchange-lists-stellar-xlm-123000116.html",
+      "summary": "BEQUANT Exchange has listed Stellar (XLM) on its trading platform. Exchange listings typically increase liquidity and accessibility for a cryptocurrency, potentially leading to increased trading volume and price appreciation in the short term. This is a positive development for XLM holders and the Stellar ecosystem.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "listing"
+      ],
+      "features_for_model": [
+        "xlm_exchange_listing",
+        "bequant_exchange",
+        "liquidity_increase"
+      ],
+      "rationale": "New exchange listings generally provide a short-term boost to a cryptocurrency's liquidity and visibility, potentially driving price up."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n142e2544870a",
+      "title": "BEQUANT Exchange lists Stellar XLM on Trading Platform",
+      "url": "https://finance.yahoo.com/news/bequant-exchange-lists-stellar-xlm-123000116.html",
+      "summary": "BEQUANT Exchange has listed Stellar (XLM) on its trading platform. Exchange listings typically increase liquidity and accessibility for a cryptocurrency, potentially leading to increased trading volume and price appreciation in the short term. This is a positive development for XLM holders and the Stellar ecosystem.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "listing"
+      ],
+      "features_for_model": [
+        "stellar_xlm_listing",
+        "trading_volume_boost",
+        "exchange_liquidity"
+      ],
+      "rationale": "The immediate impact of a new listing often includes increased trading activity and price discovery."
+    },
+    {
+      "pick_idx": 3,
+      "id": "ndc73d9ef7dfa",
+      "title": "J.K. Rowling admits regret over recent Bitcoin tweets",
+      "url": "https://finance.yahoo.com/news/j-k-rowling-admits-regret-142221677.html",
+      "summary": "Author J.K. Rowling expressed regret for her earlier Bitcoin tweets, where she admitted not understanding it. This follows a significant backlash from the crypto community. While her initial tweets generated some buzz, her subsequent regret and the community's reaction are unlikely to have a material short-term impact on Bitcoin's price, but it does highlight the ongoing public discourse.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "jk_rowling_bitcoin_tweets",
+        "public_sentiment",
+        "crypto_community_reaction"
+      ],
+      "rationale": "While the J.K. Rowling incident generated social media attention, her subsequent regret and the community's reaction are unlikely to cause significant price movement in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "ndc73d9ef7dfa",
+      "title": "J.K. Rowling admits regret over recent Bitcoin tweets",
+      "url": "https://finance.yahoo.com/news/j-k-rowling-admits-regret-142221677.html",
+      "summary": "Author J.K. Rowling expressed regret for her earlier Bitcoin tweets, where she admitted not understanding it. This follows a significant backlash from the crypto community. While her initial tweets generated some buzz, her subsequent regret and the community's reaction are unlikely to have a material short-term impact on Bitcoin's price, but it does highlight the ongoing public discourse.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "jk_rowling_regret",
+        "social_media_buzz",
+        "public_awareness"
+      ],
+      "rationale": "The J.K. Rowling event is a minor social media event with negligible direct impact on Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n718b5f6fa9eb",
+      "title": "Stablecoins Might be The Key to Unlocking the Transactional Value of Cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/stablecoins-might-key-unlocking-transactional-162013909.html",
+      "summary": "This article posits that stablecoins are crucial for unlocking the transactional utility of cryptocurrencies, which has been hampered by volatility. Increased stablecoin usage could lead to more on-chain activity and potentially higher demand for underlying assets like ETH, which powers many stablecoins. This trend could see increased transaction volume on Ethereum in the coming days.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "stablecoin_utility",
+        "transactional_volume",
+        "eth_demand"
+      ],
+      "rationale": "Growing utility of stablecoins could translate to increased on-chain activity and demand for ETH, impacting its price in the short term."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n718b5f6fa9eb",
+      "title": "Stablecoins Might be The Key to Unlocking the Transactional Value of Cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/stablecoins-might-key-unlocking-transactional-162013909.html",
+      "summary": "This article posits that stablecoins are crucial for unlocking the transactional utility of cryptocurrencies, which has been hampered by volatility. Increased stablecoin usage could lead to more on-chain activity and potentially higher demand for underlying assets like ETH, which powers many stablecoins. This trend could see increased transaction volume on Ethereum in the coming days.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.68,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "stablecoin_growth",
+        "crypto_transactional_use",
+        "eth_network_activity"
+      ],
+      "rationale": "The increasing role of stablecoins in driving transactional use cases for crypto could lead to sustained positive pressure on related assets like ETH."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1174e9f2eb05",
+      "title": "7 Tips to Help Spot 'Fake' Financial News",
+      "url": "https://finance.yahoo.com/news/7-tips-help-spot-fake-133045409.html",
+      "summary": "This article provides guidance on identifying misinformation in financial news. While not directly impacting price, it's relevant for market participants to maintain informed decision-making. Awareness of fake news can prevent irrational trading based on false information, contributing to more stable market behavior.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "financial_news_literacy",
+        "misinformation_detection",
+        "investor_education"
+      ],
+      "rationale": "This is a general informational piece that could indirectly influence market sentiment by promoting more critical evaluation of news, but has no direct price impact."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n1174e9f2eb05",
+      "title": "7 Tips to Help Spot 'Fake' Financial News",
+      "url": "https://finance.yahoo.com/news/7-tips-help-spot-fake-133045409.html",
+      "summary": "This article provides guidance on identifying misinformation in financial news. While not directly impacting price, it's relevant for market participants to maintain informed decision-making. Awareness of fake news can prevent irrational trading based on false information, contributing to more stable market behavior.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.35,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "fake_news_awareness",
+        "information_quality",
+        "market_stability"
+      ],
+      "rationale": "This article serves as a general awareness piece, unlikely to cause significant short-term price movements."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-05-18",
+    "summary": "Bitcoin showed strong upward momentum over the weekend, breaking key resistance levels and ending the week with significant gains. This technical strength, coupled with ongoing narratives around Bitcoin as an inflation hedge amidst global stimulus, suggests a bullish short-term outlook. Institutional adoption signals, like the Italian bank's BTC trading and Square's involvement in stimulus programs, continue to provide long-term support. Meanwhile, increased stablecoin activity is boosting Ethereum's network usage, indicating broader ecosystem growth.",
+    "scenario_probs": {
+      "bull": 0.65,
+      "base": 0.25,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Potential for profit-taking after the weekend rally.",
+      "Macroeconomic uncertainty related to COVID-19 resurgence.",
+      "Regulatory developments or crackdowns in key jurisdictions.",
+      "Technical resistance levels could still pose challenges.",
+      "Market sentiment can shift rapidly based on news flow."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $9,800-$10,000 resistance.",
+      "Developments in institutional adoption (e.g., further bank integrations).",
+      "Updates on global economic stimulus packages.",
+      "Stablecoin issuance and on-chain activity metrics.",
+      "Any significant regulatory news from major economies."
+    ]
+  }
+}

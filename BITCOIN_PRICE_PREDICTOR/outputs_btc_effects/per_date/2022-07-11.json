@@ -1,0 +1,520 @@
+{
+  "date": "2022-07-11",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n0332820e635a",
+      "title": "FOREX-Dollar up after biggest drop in 2 months as Fed's Powell reaffirms hawkish outlook",
+      "url": "https://finance.yahoo.com/news/forex-dollar-biggest-drop-2-110458026.html",
+      "summary": "Federal Reserve Chair Jerome Powell reaffirmed a hawkish stance on combating inflation, signaling a commitment to raising interest rates as high as necessary. This stance, while aimed at controlling inflation, typically strengthens the US dollar. A stronger dollar can exert downward pressure on risk assets like Bitcoin, as it increases the cost of holding dollar-denominated assets for holders of other currencies and signals a tighter monetary environment globally. This macro trend has implications for Bitcoin's valuation over several months.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Powell_hawkish_stance",
+        "Fed_rate_hike",
+        "USD_strength",
+        "inflation_control"
+      ],
+      "rationale": "Powell's hawkish outlook suggests continued monetary tightening, which typically leads to a stronger dollar and can reduce liquidity for risk assets like Bitcoin. This macro trend is likely to influence BTC prices over the medium to long term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n392c3fa8ca25",
+      "title": "First Mover Asia: Regulatory Attention on Terra Could Change South Korean Trading Environment; Bitcoin Goes Sideways",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-regulatory-attention-233848488.html",
+      "summary": "Following the Terra ecosystem's collapse, South Korea is increasing regulatory scrutiny on crypto trading. This heightened regulatory attention could lead to significant changes in the South Korean crypto trading environment, potentially impacting exchanges, token listings, and investor protections. Such regulatory shifts, especially in a major market like South Korea, can have ripple effects across the global crypto landscape, influencing investor confidence and market structure over the coming months.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Terra_collapse_impact",
+        "South_Korea_regulation",
+        "crypto_trading_environment"
+      ],
+      "rationale": "Increased regulatory scrutiny in South Korea post-Terra could lead to stricter rules, impacting trading volumes and potentially driving some activity offshore. The long-term impact depends on the specific regulations implemented."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n317fb2740cdd",
+      "title": "Bitcoin Forecast – Price Must Hold $28,000 to Prevent Total Collapse",
+      "url": "https://finance.yahoo.com/news/bitcoin-forecast-price-must-hold-174150209.html",
+      "summary": "This analysis suggests Bitcoin must hold the $28,000 support level to avoid completing a head-and-shoulder topping pattern, with a target of $20,000 and a potential further drop to $12,500. The author expresses a bullish long-term view on blockchain technology but acknowledges the current bearish technical setup for Bitcoin. The need to reclaim $32,000 is highlighted for near-term sentiment repair. This technical outlook provides a framework for potential price movements over the next few months.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_technical_analysis",
+        "head_and_shoulders_pattern",
+        "support_resistance_levels",
+        "blockchain_outlook"
+      ],
+      "rationale": "The technical forecast points to a significant downside risk if key support levels are breached, indicating potential for a prolonged bearish trend. The author's long-term bullishness on blockchain contrasts with the short-to-medium term bearish technicals."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nf1ff08f89fdb",
+      "title": "Market Wrap: Bitcoin Tumbles Most in 1 Year as Crypto Cracks Appear",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-tumbles-most-205052474.html",
+      "summary": "Bitcoin experienced its largest price drop in a year, signaling significant stress within the crypto market. This downturn is attributed to the failure of major crypto lenders like Celsius, which has had a cascading effect on other projects and investor confidence. The article highlights the broader market stress and the potential for contagion, suggesting that the current 'crypto winter' could have lasting impacts on the industry's infrastructure and participant stability over the next several months.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "crypto_lender_failure",
+        "market_stress",
+        "crypto_winter"
+      ],
+      "rationale": "The significant price drop and the failure of major crypto lenders indicate systemic issues within the crypto market. This suggests a prolonged period of deleveraging and reduced liquidity, impacting prices for months to come."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nc66407e756d9",
+      "title": "First Mover Americas: BTC Holds $20K as Altcoins Retrace",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-btc-holds-150157864.html",
+      "summary": "Bitcoin is holding above the $20,000 support level, but altcoins are retracing recent gains. A key observation is that miners are selling their Bitcoin holdings, which could put further downward pressure on prices. This miner selling behavior, driven by operational costs and market conditions, can influence Bitcoin's price trajectory over the coming months, especially if it becomes a sustained trend.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_support_level",
+        "miner_selling",
+        "altcoin_retrace",
+        "market_pressure"
+      ],
+      "rationale": "Miner selling can increase the supply of Bitcoin in the market, potentially driving prices down. This behavior, coupled with altcoin weakness, suggests continued bearish pressure over the medium term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n4cf4627c20c6",
+      "title": "Crypto Market Daily Highlights – BTC Ends Seven Day Losing Streak",
+      "url": "https://finance.yahoo.com/news/crypto-market-daily-highlights-btc-004847803.html",
+      "summary": "The crypto market showed a bullish end to the week, with Bitcoin breaking a seven-day losing streak. Despite the fallout from the crypto winter and layoffs at various platforms, investor sentiment appeared to improve slightly. This resilience, even amidst ongoing industry challenges, suggests a potential stabilization or short-term recovery phase. The ability of the market to absorb negative news and show modest gains could indicate a shift in sentiment over the next few months.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_losing_streak_end",
+        "crypto_winter_impact",
+        "layoffs",
+        "investor_sentiment_shift"
+      ],
+      "rationale": "Breaking a losing streak and showing resilience to negative news suggests a potential short-term positive shift. However, the underlying 'crypto winter' conditions imply that this recovery might be fragile and short-lived."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n9ee093cb1704",
+      "title": "91% of crypto users plan to buy more over next 6 months: BofA survey",
+      "url": "https://finance.yahoo.com/news/crypto-users-plan-to-buy-more-in-next-6-months-115237324.html",
+      "summary": "A Bank of America survey indicates that 91% of crypto users and prospective users intend to purchase more digital assets in the next six months, despite the current market downturn. This strong intent to buy suggests underlying demand and a belief in the long-term potential of cryptocurrencies among a significant portion of the user base. Such sustained interest could provide a floor for prices and contribute to a recovery over the next six months.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BofA_survey",
+        "crypto_user_intent",
+        "buy_demand",
+        "market_downturn_sentiment"
+      ],
+      "rationale": "High intent to buy from existing and potential users, even during a bear market, indicates strong underlying demand. This could support prices and contribute to a recovery over the next six months."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nca722810b909",
+      "title": "What Impact Did the Fed’s Interest Rate Hike Have on the Crypto Market?",
+      "url": "https://finance.yahoo.com/news/impact-did-fed-interest-rate-152256883.html",
+      "summary": "The Federal Reserve's 75 basis point interest rate hike in June, the largest since 1994, occurred amidst a bear market and high inflation. This aggressive monetary tightening directly impacts the crypto market, which was already experiencing a 'crypto winter.' Higher interest rates generally reduce liquidity and make riskier assets less attractive, leading to price declines and increased volatility. The Fed's actions are a significant macro factor influencing crypto prices over the medium to long term.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike",
+        "inflation",
+        "bear_market",
+        "crypto_winter",
+        "monetary_tightening"
+      ],
+      "rationale": "The Fed's aggressive rate hikes are a major macro headwind for risk assets like Bitcoin. This tightening reduces liquidity and increases the cost of capital, likely suppressing prices for several months."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n55a1f69b3e6d",
+      "title": "3 Metaverse Stocks to Buy Now",
+      "url": "https://finance.yahoo.com/news/3-metaverse-stocks-buy-now-220055142.html",
+      "summary": "The article identifies Nvidia, Meta Platforms, and Microsoft as key players in the metaverse, highlighting their strategic investments and technological contributions. Despite a general sell-off in metaverse-related stocks, these companies are positioned for long-term growth due to their infrastructure development and platform strategies. The continued development and adoption of the metaverse, driven by these tech giants, could indirectly benefit cryptocurrencies and blockchain technologies that underpin these virtual worlds over the next few years.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "metaverse_stocks",
+        "Nvidia",
+        "Meta_Platforms",
+        "Microsoft",
+        "virtual_worlds"
+      ],
+      "rationale": "The growth of the metaverse, driven by major tech companies, could foster increased adoption of digital assets and blockchain technology. This trend is a long-term bullish catalyst for the crypto space."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n55f5a8d3320c",
+      "title": "The Monetary Authority of Singapore (MAS) to Explore Asset Tokenization",
+      "url": "https://finance.yahoo.com/news/monetary-authority-singapore-mas-explore-132052311.html",
+      "summary": "Singapore's Monetary Authority (MAS) is launching Project Guardian to explore asset tokenization, collaborating with financial institutions like JPMorgan Chase and DBS Bank. This initiative signals a proactive approach by a major financial hub to integrate blockchain technology and digital assets into traditional finance. Such regulatory exploration and potential adoption of tokenized assets can pave the way for broader institutional acceptance and integration of crypto technologies, impacting the market over the next 1-2 years.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MAS",
+        "asset_tokenization",
+        "Project_Guardian",
+        "Singapore_regulation",
+        "institutional_adoption"
+      ],
+      "rationale": "Singapore's exploration of asset tokenization by its central bank indicates a positive regulatory environment for blockchain innovation. This could lead to greater institutional involvement and adoption of digital assets over the medium term."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "na5feb6718662",
+      "title": "Oil Price Fundamental Daily Forecast – Lower as Traders Brace for New Mass COVID Testing in China",
+      "url": "https://finance.yahoo.com/news/oil-price-fundamental-daily-forecast-102900474.html",
+      "summary": "Renewed concerns over potential COVID restrictions in China due to mass testing are pressuring oil prices lower. This suggests a potential slowdown in economic activity in China, a major global consumer. A slowdown in China can have knock-on effects on global demand for commodities and risk assets, including Bitcoin, within a 1-3 day window.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "China_COVID_restrictions",
+        "oil_price_drop",
+        "economic_slowdown_fear"
+      ],
+      "rationale": "Potential COVID restrictions in China could dampen global economic sentiment and demand, indirectly impacting Bitcoin's risk appetite in the very short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n4163eea0a977",
+      "title": "Market Wrap: Bitcoin Retraces Gains as Investors Await Inflation Announcement",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-retraces-gains-201645149.html",
+      "summary": "Bitcoin is retracing gains and declining towards $20,000 ahead of a key inflation announcement. Despite a recent surge above $22,000, the cryptocurrency has failed to break out, indicating potential weakness. Investors are likely to remain cautious, awaiting the CPI data, which could trigger significant volatility in the next 1-5 days.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_retrace",
+        "inflation_data_await",
+        "psychological_support_level",
+        "market_caution"
+      ],
+      "rationale": "The anticipation of inflation data is causing Bitcoin to retrace gains, suggesting a cautious market sentiment. The upcoming CPI report could be a catalyst for significant price movement within the next few days."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n7ac935bb557f",
+      "title": "Riot Blockchain Announces Independent Proxy Advisory Firms ISS and Glass Lewis Recommendations \"For\" Proposal No. 4 at the Upcoming Annual General Meeting of Stockholders",
+      "url": "https://finance.yahoo.com/news/riot-blockchain-announces-independent-proxy-203000580.html",
+      "summary": "Proxy advisory firms ISS and Glass Lewis have recommended stockholders vote 'FOR' Proposal No. 4 for Riot Blockchain's upcoming AGM. This proposal likely relates to corporate governance or expansion plans for the Bitcoin miner. Positive recommendations from these firms can influence institutional investor voting and signal confidence in the company's direction, potentially impacting its stock price and operational capacity in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Riot_Blockchain",
+        "ISS_recommendation",
+        "Glass_Lewis_recommendation",
+        "AGM_proposal"
+      ],
+      "rationale": "Positive recommendations from proxy advisors can boost investor confidence in Riot Blockchain, a major miner. This could lead to a slight positive price movement in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n57f219cbda99",
+      "title": "Bitcoin, Ethereum rebound pulls back amid worries of BTC dump from Mt. Gox, Celsius",
+      "url": "https://finance.yahoo.com/news/bitcoin-ethereum-rebound-pulls-back-094405515.html",
+      "summary": "Bitcoin and Ethereum prices are pulling back from recent rebounds due to concerns about potential large-scale Bitcoin dumps from Mt. Gox creditors and Celsius Network. These events could significantly increase selling pressure in the market. The possibility of these dumps occurring within the next 1-7 days poses a considerable risk to current price levels.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "BTC_dump_fear",
+        "Mt_Gox_creditors",
+        "Celsius_Network",
+        "selling_pressure"
+      ],
+      "rationale": "The looming threat of large Bitcoin dumps from Mt. Gox and Celsius creates significant downside risk, potentially triggering a sharp price decline within the next week."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ndda2a23034fb",
+      "title": "First Mover Asia: Bitcoin Slides; Mixed Crypto Legacy in Hong Kong for the FCA's Incoming CEO",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-slides-002848255.html",
+      "summary": "Bitcoin is sliding for a third consecutive day, threatening to fall below the $20,000 mark. This price action indicates continued bearish momentum. The news also touches on regulatory aspects in Hong Kong, which could influence sentiment. The immediate focus is on Bitcoin's ability to hold the $20K level, a critical psychological support, within the next 1-3 days.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_slide",
+        "support_level_threat",
+        "bearish_momentum",
+        "regulatory_sentiment"
+      ],
+      "rationale": "Bitcoin's continued slide and threat to the $20K support level suggest ongoing bearish pressure. The market is likely to remain sensitive to any further negative news or macro shifts in the immediate short term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n523a55e0c4e2",
+      "title": "CoinFLEX deficit rises to US$84 mln; enters recovery arbitration",
+      "url": "https://finance.yahoo.com/news/coinflex-deficit-rises-us-84-012150335.html",
+      "summary": "Crypto trading platform CoinFLEX has entered arbitration to recover $84 million from a large customer, increasing its deficit. This news highlights ongoing liquidity issues and counterparty risk within the crypto lending sector. Such events can erode confidence and lead to contagion fears, potentially impacting other platforms and Bitcoin's price within a 1-7 day window.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "CoinFLEX_deficit",
+        "arbitration",
+        "counterparty_risk",
+        "liquidity_issues"
+      ],
+      "rationale": "The escalating deficit and arbitration at CoinFLEX underscore systemic liquidity problems in the crypto lending space, potentially triggering contagion fears and impacting Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n381447c63882",
+      "title": "How Jacobi AM Launched Europe’s First Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/jacobi-am-launched-europe-first-144500090.html",
+      "summary": "Jacobi Asset Management is set to launch Europe's first Bitcoin ETF on Euronext Amsterdam, domiciled in Guernsey. This development is significant as it represents a major step towards institutional adoption and accessibility of Bitcoin in Europe. The launch of a regulated Bitcoin ETF could attract significant capital inflows, positively impacting Bitcoin's price and market sentiment within the next 7-14 days.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Europe_Bitcoin_ETF",
+        "Jacobi_AM",
+        "Euronext_Amsterdam",
+        "institutional_adoption"
+      ],
+      "rationale": "The launch of Europe's first Bitcoin ETF is a significant milestone for institutional adoption. It could lead to increased capital inflows and positive price action for Bitcoin in the coming weeks."
+    },
+    {
+      "pick_idx": 19,
+      "id": "ne0719b80f4b4",
+      "title": "E-mini S&P 500 Index (ES) Futures Technical Analysis – Light Selling Ahead of CPI Data, Earnings Season",
+      "url": "https://finance.yahoo.com/news/e-mini-s-p-500-index-175549177.html",
+      "summary": "E-mini S&P 500 futures are experiencing light selling as investors position themselves ahead of crucial CPI data and the start of the earnings season. This cautious sentiment in traditional markets often correlates with Bitcoin's price action. The anticipation of these events suggests potential volatility in the next 1-5 days, with a bearish bias due to the uncertainty.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "macro"
+      ],
+      "features_for_model": [
+        "S&P_500_futures",
+        "CPI_data_anticipation",
+        "earnings_season",
+        "market_positioning"
+      ],
+      "rationale": "Light selling in S&P 500 futures ahead of key economic data and earnings suggests a risk-off sentiment, which typically correlates with downward pressure on Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 23,
+      "id": "ne592cc13943a",
+      "title": "Bitcoin and ETH Price Prediction: Risk of Downside Break, UNI Could Surge To $8",
+      "url": "https://finance.yahoo.com/news/bitcoin-eth-price-prediction-risk-152904495.html",
+      "summary": "Bitcoin is moving lower towards $20,000 support, and Ether has declined below $1,160. The analysis suggests a risk of a downside break for both, with a daily close below $20,000 for BTC being a major bearish signal. This indicates potential for further price drops within the next 1-3 days.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction",
+        "ETH_price_prediction",
+        "downside_break_risk",
+        "support_level_break"
+      ],
+      "rationale": "The bearish technical outlook for Bitcoin and Ethereum, with risks of breaking key support levels, suggests a high probability of further price declines in the immediate short term."
+    },
+    {
+      "pick_idx": 24,
+      "id": "nf93168b66b6f",
+      "title": "Bitcoin More Likely to Crash to $10K Than Hit $30K: Market Survey",
+      "url": "https://finance.yahoo.com/news/bitcoin-more-likely-crash-10k-021217645.html",
+      "summary": "A Bloomberg survey indicates that 60% of investors believe Bitcoin is more likely to crash to $10,000 than reach $30,000. Retail investors are reportedly more fearful than institutional investors. This sentiment suggests a strong bearish bias in the market, potentially driving prices lower in the next 1-7 days.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_market_survey",
+        "investor_sentiment",
+        "retail_investor_fear",
+        "institutional_investor_sentiment"
+      ],
+      "rationale": "The overwhelming bearish sentiment from a market survey points to a high likelihood of further price declines, with $10K being a potential target within the next week."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-07-11",
+    "summary": "Bitcoin is showing signs of weakness, retracing recent gains and testing critical support levels around $20,000, driven by anticipation of inflation data and broader market caution. Concerns about potential large-scale Bitcoin dumps from Mt. Gox and Celsius are adding significant downside risk. Meanwhile, the launch of Europe's first Bitcoin ETF is a positive development for institutional adoption, but its immediate impact may be overshadowed by macro headwinds and liquidity concerns. The overall sentiment remains bearish in the short term, with a high probability of further price declines.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Potential large-scale BTC dumps from Mt. Gox and Celsius could trigger a sharp price decline.",
+      "Upcoming CPI data release could lead to increased volatility and a risk-off sentiment.",
+      "Continued weakness in traditional markets (e.g., S&P 500) may drag down Bitcoin.",
+      "Failure to hold the $20,000 support level could lead to a cascade of selling.",
+      "Geopolitical events and energy supply concerns (e.g., Russian gas to Europe) could impact global risk appetite."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $20,000 support",
+      "US CPI data release (Wednesday)",
+      "Celsius Network and Mt. Gox developments",
+      "European Bitcoin ETF launch details",
+      "Global equity market performance"
+    ]
+  }
+}

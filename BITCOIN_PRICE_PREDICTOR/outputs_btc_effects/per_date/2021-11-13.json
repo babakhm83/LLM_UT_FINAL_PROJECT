@@ -1,0 +1,500 @@
+{
+  "date": "2021-11-13",
+  "long_term": [
+    {
+      "pick_idx": 6,
+      "id": "nefa5351a0883",
+      "title": "Bitcoin could surge to $168,000 as the arrival of a futures ETF drives new equilibrium in supply and demand, Fundstrat says",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-surge-168-000-132446485.html",
+      "summary": "Fundstrat predicts Bitcoin could reach $168,000 due to the launch of a futures ETF, which is expected to increase daily demand by $50 million. This increased demand, coupled with the daily block reward of $10 million, suggests demand will significantly outpace supply. The ETF's approval is seen as a catalyst for a new equilibrium in the market, potentially driving substantial price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_launch",
+        "demand_supply_imbalance",
+        "institutional_adoption"
+      ],
+      "rationale": "The introduction of a Bitcoin futures ETF is a significant institutional adoption event. This is expected to create a structural shift in demand, potentially leading to a sustained price increase."
+    },
+    {
+      "pick_idx": 13,
+      "id": "na605c9c87098",
+      "title": "Bitcoin tops $60,000, a six-month high, on U.S. ETF expectations",
+      "url": "https://finance.yahoo.com/news/u-sec-poised-allow-first-030005584.html",
+      "summary": "Bitcoin surpassed $60,000, reaching a six-month high, driven by growing expectations of U.S. regulatory approval for a futures-based exchange-traded fund (ETF). This anticipation has fueled a recent rally, signaling increased investor interest and potential for wider adoption of digital assets. The move towards an ETF approval is a key indicator of growing mainstream acceptance.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_anticipation",
+        "price_rally",
+        "institutional_interest"
+      ],
+      "rationale": "The expectation of a U.S. Bitcoin ETF approval has been a major bullish driver. This news directly correlates with increased price action and signals a positive shift in regulatory sentiment."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nb27d27f65927",
+      "title": "Bitcoin slips after China central bank vows to crack down on crypto trading",
+      "url": "https://finance.yahoo.com/news/bitcoin-slips-china-central-bank-095121374.html",
+      "summary": "Bitcoin experienced a nearly 5% decline following the People's Bank of China's announcement to crack down on cryptocurrency trading. The central bank's directive bans overseas exchanges from serving mainland investors and prohibits financial institutions from facilitating crypto transactions. This regulatory action highlights the ongoing geopolitical risks associated with cryptocurrency adoption.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_ban",
+        "regulatory_crackdown",
+        "geopolitical_risk"
+      ],
+      "rationale": "China's stringent regulatory actions have historically had a significant negative impact on Bitcoin's price. This event reinforces the sensitivity of the market to regulatory crackdowns in major economies."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n1e3ea731fc75",
+      "title": "Bitcoin Plunges as China Declares All Crypto-Related Activity Illegal – Should You Buy the Dip?",
+      "url": "https://finance.yahoo.com/news/bitcoin-plunges-china-declares-crypto-152201808.html",
+      "summary": "Bitcoin's price dropped significantly after the People's Bank of China declared all crypto-related activities illegal. This move aims to prevent risks associated with virtual currency transactions. The announcement led to a sharp decline in Bitcoin and other cryptocurrencies, underscoring the impact of major regulatory interventions on market sentiment and price.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_illegality",
+        "regulatory_risk",
+        "market_sentiment"
+      ],
+      "rationale": "The explicit declaration of crypto activities as illegal by China's central bank represents a strong bearish signal, impacting global market sentiment and potentially leading to further price corrections."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nff532055dc70",
+      "title": "JPMorgan CEO Jamie Dimon questions 21 million bitcoin cap",
+      "url": "https://finance.yahoo.com/news/jp-morgan-ceo-jamie-dimon-questions-21-million-bitcoin-cap-201117274.html",
+      "summary": "JPMorgan Chase CEO Jamie Dimon expressed skepticism about Bitcoin's 21 million coin cap, questioning the certainty of this limit. His comments, made at an industry event, highlight a persistent critique from traditional finance leaders regarding the fundamental properties of Bitcoin. Such statements from influential figures can influence broader market perception.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "CEO_skepticism",
+        "supply_cap_doubt",
+        "institutional_narrative"
+      ],
+      "rationale": "While Dimon's comments are critical, they represent a minority view among institutional leaders. The impact is likely to be limited unless it sparks broader debate or regulatory action."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n75fc69a31ce8",
+      "title": "Declining Interest in Bitcoin-Margined Futures Promises Less Price Volatility",
+      "url": "https://finance.yahoo.com/news/declining-interest-bitcoin-margined-futures-100936300.html",
+      "summary": "A shift towards stablecoin or fiat-margined futures contracts, away from Bitcoin-margined ones, suggests a potential decrease in price volatility. The decline in open interest for coin-margined futures below 50% indicates a more stable collateralization method. This trend could lead to smoother price action in the future.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "futures_collateral_shift",
+        "volatility_reduction",
+        "stablecoin_usage"
+      ],
+      "rationale": "The change in futures collateralization methods can impact market dynamics. A move towards stablecoins might reduce extreme price swings, but could also alter liquidity profiles."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nf6b40063e3b2",
+      "title": "Bitcoin ETFs Aren’t New. Here’s How They’ve Fared Outside the US",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-aren-t-ve-181311116.html",
+      "summary": "This article examines the performance of Bitcoin ETFs outside the U.S. as the first U.S. futures-based ETF begins trading. By analyzing the track record of international ETFs, investors can gauge potential demand and market reception for similar products in the U.S. This provides context for the impact of ETF approvals on the broader cryptocurrency market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "international_ETF_performance",
+        "market_reception",
+        "institutional_demand"
+      ],
+      "rationale": "Understanding the performance of Bitcoin ETFs in other markets provides valuable insights into potential investor behavior and market impact upon U.S. ETF launches."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n055565fa6420",
+      "title": "Market Wrap: Bitcoin Ends Week Notching 14% Gain",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-ends-week-205042857.html",
+      "summary": "Bitcoin concluded the week with a significant 14% gain, driven by fading regulatory fears and bullish sentiment surrounding the anticipated U.S. Bitcoin futures-backed ETF. The cryptocurrency surpassed $1 trillion in market capitalization again. This strong performance indicates a positive shift in market sentiment and anticipation of further institutional adoption.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "weekly_gain",
+        "ETF_sentiment",
+        "market_cap_recovery"
+      ],
+      "rationale": "A substantial weekly gain, coupled with positive sentiment around the ETF, suggests strong upward momentum. This indicates that the market is pricing in positive developments."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n6a486028e380",
+      "title": "Bitcoin's October price rise suggests near-term crypto bull run amid regulation",
+      "url": "https://finance.yahoo.com/news/bitcoins-october-price-rise-suggests-near-term-crypto-bull-run-amid-regulation-191521695.html",
+      "summary": "Bitcoin and other cryptocurrencies experienced a notable price increase in October, diverging from the stock market. This rally, occurring amidst signals of tightening global crypto regulation, suggests a potential near-term bull run. The divergence indicates that crypto is becoming a more distinct asset class, less correlated with traditional markets.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "October_rally",
+        "regulatory_divergence",
+        "bull_run_indicator"
+      ],
+      "rationale": "The strong October performance, especially its divergence from the stock market, points to increasing investor confidence and a potential bull run, even with evolving regulatory landscapes."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n55d062910b3c",
+      "title": "Some Are Betting on State-of-the-Art Mining Machines as Bitcoin (BTC) Breaks New Price Ground",
+      "url": "https://finance.yahoo.com/news/betting-state-art-mining-machines-163031770.html",
+      "summary": "As Bitcoin breaks the $60,000 mark, there's a growing trend of investment in advanced mining machines. Companies like OLB Group, Marathon Digital Holdings, and Riot Blockchain are at the forefront of this development. This increased investment in mining infrastructure signals confidence in Bitcoin's price appreciation and the long-term viability of mining operations.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_hardware_investment",
+        "mining_infrastructure",
+        "hashrate_growth"
+      ],
+      "rationale": "Increased investment in mining hardware indicates a belief in the sustained profitability of Bitcoin mining, which is a fundamental driver of network security and value."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 6,
+      "id": "na982eafa70f7",
+      "title": "Taproot, Bitcoin’s Long-Anticipated Upgrade, Has Activated",
+      "url": "https://finance.yahoo.com/news/taproot-bitcoin-long-anticipated-upgrade-015432380.html",
+      "summary": "The Taproot upgrade for Bitcoin has activated at block 709,632. This significant network enhancement is expected to improve privacy, scalability, and security. The activation follows a period of miner signaling and a programmed waiting period, allowing for node and miner upgrades.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Taproot_activation",
+        "protocol_upgrade",
+        "scalability_enhancement"
+      ],
+      "rationale": "Taproot's activation is a fundamental network improvement that could lead to increased adoption and usage, potentially boosting price in the short term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nfe4b813a8171",
+      "title": "What to expect from Taproot, the biggest upgrade to the bitcoin network in 4 years",
+      "url": "https://finance.yahoo.com/news/expect-taproot-biggest-upgrade-bitcoin-133000173.html",
+      "summary": "Taproot, the most significant Bitcoin upgrade in four years, is set to activate. Unlike the 2017 SegWit upgrade, Taproot has near-universal community support. It promises enhanced privacy, scalability, and smart contract capabilities, potentially impacting network efficiency and user experience.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Taproot_upgrade",
+        "privacy_enhancement",
+        "scalability_improvement"
+      ],
+      "rationale": "The successful implementation of Taproot, a highly anticipated upgrade, is likely to be viewed positively by the market, potentially driving short-term price appreciation."
+    },
+    {
+      "pick_idx": 22,
+      "id": "nb0e95e1a8625",
+      "title": "The Crypto Daily – Movers and Shakers – November 13th, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-november-001733470.html",
+      "summary": "Bitcoin experienced a 1.00% decline on Friday, closing at $63,134.0. After reaching an intraday high of $65,421.0, it fell to a low of $62,255.0 before recovering slightly. The price action indicates short-term volatility and a struggle to maintain upward momentum.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "daily_price_movement",
+        "volatility",
+        "support_resistance_test"
+      ],
+      "rationale": "The daily price movement shows a slight bearish trend, with Bitcoin failing to hold higher levels and breaking through support, suggesting potential short-term weakness."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n6d146d340862",
+      "title": "Shiba Inu Coin – Daily Tech Analysis – November 13th, 2021",
+      "url": "https://finance.yahoo.com/news/shiba-inu-coin-daily-tech-002854630.html",
+      "summary": "Shiba Inu Coin saw a significant drop of 7.42% on Friday, partially reversing Thursday's gains. It reached a high of $0.00005699 before falling to a low of $0.00005127. The coin briefly broke through a Fibonacci level but ultimately slid, indicating bearish short-term sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "SHIB_price_action",
+        "daily_loss",
+        "technical_indicators"
+      ],
+      "rationale": "The sharp decline in Shiba Inu suggests a loss of momentum and potential for further downside in the immediate short term, especially after a significant prior jump."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n8b4c662dfbeb",
+      "title": "Shiba Inu Coin – Daily Tech Analysis – November 13th, 2021",
+      "url": "https://finance.yahoo.com/news/shiba-inu-coin-daily-tech-002854630.html",
+      "summary": "Shiba Inu Coin experienced a 7.42% decline on Friday, reversing some of Thursday's gains. The coin traded within a range, failing to break resistance and sliding to a low of $0.00005127. This price action indicates a potential short-term bearish trend for SHIB.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "SHIB_price_action",
+        "daily_decline",
+        "technical_analysis"
+      ],
+      "rationale": "The significant daily drop in SHIB, following a prior surge, suggests profit-taking and a potential reversal of short-term gains."
+    },
+    {
+      "pick_idx": 11,
+      "id": "na78ccfd3a906",
+      "title": "SEC Rejects VanEck Bitcoin Spot ETF Application",
+      "url": "https://finance.yahoo.com/news/sec-rejects-vaneck-bitcoin-spot-120846080.html",
+      "summary": "The SEC has rejected VanEck's application for a Bitcoin spot ETF, continuing its trend of denying such proposals despite the recent approval of futures-based ETFs. This decision highlights the SEC's cautious approach to spot market products and may dampen immediate hopes for direct Bitcoin investment vehicles.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_rejection",
+        "spot_ETF_denial",
+        "regulatory_headwind"
+      ],
+      "rationale": "The SEC's rejection of a spot Bitcoin ETF is a short-term bearish signal, indicating regulatory hurdles remain for direct Bitcoin investment products."
+    },
+    {
+      "pick_idx": 19,
+      "id": "na78ccfd3a906",
+      "title": "SEC Rejects VanEck Bitcoin Spot ETF Application",
+      "url": "https://finance.yahoo.com/news/sec-rejects-vaneck-bitcoin-spot-120846080.html",
+      "summary": "The SEC has denied VanEck's application for a Bitcoin spot ETF, contrasting with the recent approval of futures-based ETFs. This decision underscores the regulatory challenges for spot ETFs and may temper immediate enthusiasm for direct Bitcoin investment products.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_ETF_rejection",
+        "spot_ETF_denial",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "The SEC's continued rejection of spot Bitcoin ETFs presents a short-term bearish factor, as it limits a key avenue for institutional capital inflow."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n5946c6f35986",
+      "title": "AMC theaters start accepting cryptocurrency payment for movie tickets",
+      "url": "https://finance.yahoo.com/news/amc-theaters-start-accepting-cryptocurrency-113811626.html",
+      "summary": "AMC Theatres has begun accepting cryptocurrency payments, including Bitcoin, Ethereum, Bitcoin Cash, and Litecoin, for online purchases. This move by a major entertainment company signifies growing adoption of cryptocurrencies as a payment method, potentially increasing real-world utility and demand.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "AMC_crypto_payments",
+        "real_world_utility",
+        "merchant_adoption"
+      ],
+      "rationale": "The acceptance of crypto by a large chain like AMC demonstrates increasing real-world utility, which can positively influence sentiment and adoption."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n5946c6f35986",
+      "title": "AMC theaters start accepting cryptocurrency payment for movie tickets",
+      "url": "https://finance.yahoo.com/news/amc-theaters-start-accepting-cryptocurrency-113811626.html",
+      "summary": "AMC Theatres is now accepting Bitcoin, Ethereum, Bitcoin Cash, and Litecoin for online ticket purchases. This expansion of payment options by a major cinema chain highlights the growing integration of cryptocurrencies into everyday commerce.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "AMC_payment_adoption",
+        "crypto_utility",
+        "merchant_integration"
+      ],
+      "rationale": "Increased adoption by mainstream businesses like AMC provides positive reinforcement for the utility of cryptocurrencies, potentially driving broader interest."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n3e430cf6e664",
+      "title": "India eyes prohibiting irresponsible crypto ads",
+      "url": "https://finance.yahoo.com/news/india-eyes-prohibiting-irresponsible-crypto-170639514.html",
+      "summary": "The Indian government is considering a ban on irresponsible cryptocurrency advertisements that promise high profits and do not disclose volatility risks. This move aims to protect consumers, particularly youth, from misleading marketing practices. Such regulatory scrutiny could impact the growth of crypto adoption in India.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_ad_ban",
+        "consumer_protection",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "While aimed at irresponsible advertising, this indicates a cautious regulatory stance in India, which could slow down adoption if not managed carefully."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-11-13",
+    "summary": "Bitcoin experienced a slight pullback on Friday, trading around $63,000, with the Taproot upgrade activating over the weekend, a significant positive development for the network's privacy and scalability. The SEC's rejection of VanEck's spot ETF application presents a short-term bearish regulatory signal, contrasting with the ongoing bullish sentiment from the successful launch of the futures ETF. Meanwhile, AMC's adoption of crypto payments highlights growing real-world utility.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.4,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued SEC scrutiny on spot ETFs.",
+      "Potential for broader regulatory crackdowns in other jurisdictions.",
+      "Macroeconomic factors like inflation and interest rate hikes impacting risk assets.",
+      "Short-term profit-taking after recent rallies."
+    ],
+    "watch_items": [
+      "Taproot upgrade activation and its immediate impact.",
+      "SEC statements on future ETF applications.",
+      "Inflation data and Federal Reserve policy announcements.",
+      "Performance of altcoins, particularly Shiba Inu, for sentiment indicators."
+    ]
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "date": "2020-09-01",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n0bea3bdd779d",
+      "title": "First Mover: As Fed Nears Inflation Rubicon, Analysts See $50K Bitcoin in Play",
+      "url": "https://finance.yahoo.com/news/first-mover-fed-nears-inflation-125633149.html",
+      "summary": "The Federal Reserve's potential shift towards tolerating higher inflation, as reported by the Wall Street Journal, could be a significant tailwind for Bitcoin. This strategy, aimed at combating the economic fallout from the pandemic and high unemployment, might lead investors to seek inflation hedges like Bitcoin. If the Fed effectively abandons pre-emptive rate hikes to control inflation, it could signal a period of increased monetary easing, potentially boosting asset prices, including cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_policy",
+        "inflation_expectations",
+        "monetary_easing",
+        "asset_inflation_hedge"
+      ],
+      "rationale": "A Fed policy shift towards tolerating higher inflation could devalue fiat currencies, making assets like Bitcoin more attractive as a store of value. This macro environment is a strong long-term bullish signal."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n5a9bae45f0da",
+      "title": "Bitcoin’s Price Correlation With S&P 500 Hits Record Highs",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-correlation-p-500-122908864.html",
+      "summary": "Bitcoin's correlation with the S&P 500 has reached record highs, challenging its 'digital gold' narrative. This increased correlation suggests Bitcoin is behaving more like a risk-on asset, moving in tandem with traditional equity markets rather than acting as a safe-haven. While this can lead to gains during market rallies, it also exposes Bitcoin to the volatility of the broader stock market, potentially limiting its uncorrelated upside potential.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_SP500_correlation",
+        "risk_on_asset",
+        "safe_haven_asset"
+      ],
+      "rationale": "The increasing correlation with the S&P 500 means Bitcoin's price movements are becoming more tied to traditional market sentiment. This could amplify gains in bull markets but also increase downside risk during equity downturns."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nb963c223ab1d",
+      "title": "MIT Lightning Creator Unveils First ‘Demonstration’ of Bitcoin Scaling Tech",
+      "url": "https://finance.yahoo.com/news/mit-lightning-creator-unveils-first-164024227.html",
+      "summary": "Tadge Dryja, a key figure behind the Lightning Network, has released a new version of Utreexo software, aiming to create lighter Bitcoin full nodes. This development could significantly improve the scalability and accessibility of running a Bitcoin node, which is crucial for network security and decentralization. Easier node operation can foster wider adoption and strengthen the Bitcoin network's infrastructure.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Lightning_network_scalability",
+        "node_optimization",
+        "Utreexo_software"
+      ],
+      "rationale": "Improvements in Bitcoin's scalability through projects like Utreexo are fundamental for long-term adoption and utility. Enhanced network efficiency can support higher transaction volumes and lower fees."
+    },
+    {
+      "pick_idx": 11,
+      "id": "ndab434f43055",
+      "title": "Bitcoin Cash and Litecoin to trade on public stock market for first time",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-litecoin-trade-public-202109784.html",
+      "summary": "Grayscale Investments received regulatory approval to offer Bitcoin Cash (BCH) and Litecoin (LTC) as publicly traded stocks. This move signifies increased institutional acceptance and provides traditional investors with easier access to these cryptocurrencies through regulated financial products. Listing on stock markets can enhance liquidity and legitimacy for these altcoins.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Grayscale_listing",
+        "BCH_LTC_ETP",
+        "institutional_adoption"
+      ],
+      "rationale": "The availability of BCH and LTC through regulated financial products on stock markets broadens their investor base and signals growing institutional comfort with crypto assets beyond Bitcoin."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n903adcd6769c",
+      "title": "Blockchain Bites: Plus Token Ponzi Popped, Cardano Forked and tZERO Cut",
+      "url": "https://finance.yahoo.com/news/blockchain-bites-plus-token-ponzi-164410318.html",
+      "summary": "Cardano successfully hard-forked to its proof-of-stake (PoS) network, a significant upgrade that enhances its scalability and energy efficiency. This transition is crucial for Cardano's long-term development and competitiveness against other smart contract platforms. The move to PoS is a positive step for the network's sustainability and potential for wider adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cardano_PoS_fork",
+        "network_upgrade",
+        "scalability_enhancement"
+      ],
+      "rationale": "Cardano's transition to proof-of-stake is a major protocol upgrade that improves its efficiency and scalability, positioning it better for future growth and competition in the smart contract space."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n30182f43609f",
+      "title": "First Mover: Bitcoin Shows Signs of Life but Ether (and Crew) Steal the Limelight",
+      "url": "https://finance.yahoo.com/news/first-mover-bitcoin-shows-signs-120806958.html",
+      "summary": "Ethereum's growing market capitalization, including the value of assets built on its blockchain, highlights its increasing dominance as a platform for decentralized applications (dApps). The rise of stablecoins, DeFi tokens, and other altcoins on Ethereum suggests a robust ecosystem that could drive demand for ETH. This trend indicates a potential shift in market focus towards Ethereum's utility and network effects.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "ETH_market_cap",
+        "DeFi_ecosystem",
+        "dApp_growth",
+        "altcoin_dominance"
+      ],
+      "rationale": "Ethereum's expanding ecosystem and the growth of DeFi applications built on its platform are strong indicators of its long-term value proposition, potentially driving ETH demand and price appreciation."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n5542bc973e7d",
+      "title": "Binance Says New York Banks Can Now Use Its Stablecoin After Watchdog Approval",
+      "url": "https://finance.yahoo.com/news/binance-says-york-banks-now-094508800.html",
+      "summary": "Binance USD (BUSD) received approval from the New York Department of Financial Services (NYDFS) to be listed on its Greenlist. This allows New York-based banks and financial institutions to custody and list BUSD without prior regulatory approval, streamlining its adoption. This regulatory clarity and access for traditional finance institutions can boost the utility and acceptance of stablecoins.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BUSD_NYDFS_approval",
+        "stablecoin_adoption",
+        "regulatory_clarity"
+      ],
+      "rationale": "Regulatory approval for BUSD in a major financial hub like New York enhances its legitimacy and accessibility for institutional players, potentially increasing its use and demand."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n3efb30061a31",
+      "title": "Appeals Court Backs Coinbase in Bitcoin Gold Fork ‘Breach of Contract’ Lawsuit",
+      "url": "https://finance.yahoo.com/news/appeals-court-backs-coinbase-bitcoin-090956854.html",
+      "summary": "A California appeals court ruled in favor of Coinbase, dismissing a lawsuit alleging breach of contract over the exchange's decision not to support the Bitcoin Gold (BTG) hard fork in 2017. This ruling reinforces the discretion exchanges have in managing forks and distributing new assets, providing legal clarity for platforms. It suggests that exchanges are not obligated to support all hard forks, reducing potential liability.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Coinbase_BTG_lawsuit",
+        "exchange_fork_policy",
+        "legal_precedent"
+      ],
+      "rationale": "The court's decision provides a degree of legal certainty for exchanges regarding their handling of hard forks, which could influence how they manage future contentious forks and asset distributions."
+    },
+    {
+      "pick_idx": 28,
+      "id": "ne3e1b0e915fa",
+      "title": "Genesis’ Crypto Lending Rebounds in 2Q; Firm Acknowledges Unsecured Loans",
+      "url": "https://finance.yahoo.com/news/genesis-crypto-lending-rebounds-2q-130015534.html",
+      "summary": "Genesis Capital's crypto lending portfolio saw a significant rebound in Q2 2020, with active trading loans increasing by 118% to $1.4 billion. This growth indicates a strong recovery in demand for crypto-backed lending services following the March market downturn. The firm's expansion suggests increasing institutional interest and activity in the digital asset lending space.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Genesis_lending_volume",
+        "crypto_credit_market",
+        "institutional_demand"
+      ],
+      "rationale": "The substantial growth in Genesis's lending portfolio signals a healthy and recovering crypto credit market, driven by institutional demand for leveraged exposure and yield generation."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n7b506633097c",
+      "title": "Fueled by bitcoin’s rise, Bakkt reports record high volumes for its bitcoin futures market",
+      "url": "https://finance.yahoo.com/news/fueled-bitcoin-rise-bakkt-reports-230445268.html",
+      "summary": "Bakkt reported record daily volumes for its physically-settled Bitcoin futures contract, with 11,509 BTC traded in a single day. This surge in activity, an 84% increase from its previous all-time high, indicates growing institutional interest and participation in regulated Bitcoin derivatives markets. Record volumes suggest strong demand and liquidity for Bitcoin futures.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bakkt_futures_volume",
+        "institutional_derivatives",
+        "BTC_liquidity"
+      ],
+      "rationale": "Record volumes on Bakkt's physically-settled Bitcoin futures indicate increasing institutional adoption and confidence in regulated derivatives, providing a bullish signal for Bitcoin's price."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n68fa0bfe3df6",
+      "title": "Vienna Stock Exchange Admits First Bitcoin Product (ETP) On Its Official Regulated Market",
+      "url": "https://finance.yahoo.com/news/vienna-stock-exchange-admits-first-063000964.html",
+      "summary": "The Vienna Stock Exchange has listed its first Bitcoin Exchange Traded Product (ETP) from 21Shares AG. This listing on an official regulated market segment follows similar moves in other European exchanges, signifying growing institutional acceptance and providing easier access for traditional investors. It enhances the legitimacy and accessibility of Bitcoin investment in Europe.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "listing",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Vienna_Stock_Exchange_listing",
+        "BTC_ETP",
+        "European_institutional_adoption"
+      ],
+      "rationale": "The listing of a Bitcoin ETP on a regulated European exchange is a positive step for institutional adoption, potentially attracting new capital and increasing market liquidity in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "na0d4e2423238",
+      "title": "Ether Price Hits 2-Year High",
+      "url": "https://finance.yahoo.com/news/ether-price-hits-2-high-104827909.html",
+      "summary": "Ether (ETH) reached a two-year high, trading at $470, with year-to-date gains of 260%. This surge is partly attributed to the excitement around Ethereum's ETH 2.0 upgrades and the booming DeFi sector. The strong performance of ETH often correlates with positive sentiment for the broader crypto market, including Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "ETH_price_surge",
+        "DeFi_momentum",
+        "ETH_2.0_upgrade"
+      ],
+      "rationale": "Ether's significant price increase and its correlation with Bitcoin suggest a positive market sentiment that could carry over to Bitcoin in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n53715d514ffa",
+      "title": "Ethereum ignites first cryptocurrency bull market since 2017",
+      "url": "https://finance.yahoo.com/news/ethereum-ignites-first-cryptocurrency-bull-121115674.html",
+      "summary": "Ethereum's rally to a two-year high is seen as a catalyst for a broader crypto bull market, driven by DeFi growth. Projects like Yearn Finance (YFI) and Uniswap are attracting significant attention, with YFII's price surge demonstrating high speculative interest. This broad market enthusiasm, led by Ethereum, can positively influence Bitcoin's price.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "adoption",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "ETH_bull_market_catalyst",
+        "DeFi_growth",
+        "YFI_Uniswap_rally"
+      ],
+      "rationale": "The strong performance of Ethereum and the DeFi sector are creating a positive market sentiment that is likely to lift Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n6446d98a8fb0",
+      "title": "Bitcoin Nears $12K as Dollar Declines to 29-Month Low",
+      "url": "https://finance.yahoo.com/news/bitcoin-nears-12k-dollar-declines-131157240.html",
+      "summary": "Bitcoin is approaching $12,000, coinciding with a significant decline in the U.S. dollar to a 29-month low. This inverse relationship suggests that a weaker dollar is driving demand for Bitcoin as a potential inflation hedge or alternative store of value. The macro trend of dollar weakness is a strong short-term bullish catalyst for Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_USD_inverse_correlation",
+        "dollar_weakness",
+        "inflation_hedge_demand"
+      ],
+      "rationale": "The declining U.S. dollar is a significant macro factor that typically benefits Bitcoin, acting as a catalyst for price appreciation in the short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n0d6926bd9e32",
+      "title": "Bitcoin Miners Saw 23% Revenue Increase in August",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-saw-23-revenue-133438040.html",
+      "summary": "Bitcoin miners experienced a 23% revenue increase in August, reaching an estimated $368 million, driven by higher network fees and increased transaction volume. This indicates robust on-chain activity and a healthy mining sector. Increased miner revenue can sometimes correlate with positive price action as it reflects network demand.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "miner_revenue_growth",
+        "network_fees",
+        "on_chain_activity"
+      ],
+      "rationale": "Higher miner revenue, driven by increased network fees, suggests strong on-chain activity and demand for block space, which can be a short-term bullish indicator for Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n846e26d6f3bd",
+      "title": "New Malware Spotted in the Wild That Puts Cryptocurrency Wallets at Risk",
+      "url": "https://finance.yahoo.com/news/malware-spotted-wild-puts-cryptocurrency-162110732.html",
+      "summary": "A new malware called Anubis has been identified that targets cryptocurrency wallets and sensitive data. While Microsoft has observed limited attack campaigns, the increasing prevalence of such threats poses a risk to users, especially newcomers. This highlights the ongoing need for robust cybersecurity practices within the crypto space.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Anubis_malware",
+        "wallet_security_risk",
+        "cybersecurity_threat"
+      ],
+      "rationale": "The emergence of new malware targeting crypto wallets introduces a security risk that could lead to negative sentiment and potential price dips if significant exploits occur."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n4ca97b8e6aa2",
+      "title": "Market Wrap: Bitcoin Breaks $12K; Uniswap Crosses $1.5B Locked",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-breaks-12k-203523280.html",
+      "summary": "Bitcoin has broken the $12,000 mark again, reaching $12,085, with positive technical indicators like being above its 10-day and 50-day moving averages. This price action, combined with significant growth in DeFi protocols like Uniswap (over $1.5B locked), suggests strong bullish momentum in the broader crypto market. The breach of $12K is a key psychological and technical level.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "BTC_breaks_12K",
+        "bullish_technical_indicators",
+        "Uniswap_TVL_growth"
+      ],
+      "rationale": "Bitcoin surpassing $12,000 with positive technicals, alongside strong DeFi growth, indicates significant short-term bullish momentum and potential for further price appreciation."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nd2605edc9bae",
+      "title": "Uniswap Rises to Top of DeFi Charts Thanks to Rival Looking to Unseat It",
+      "url": "https://finance.yahoo.com/news/uniswap-rises-top-defi-charts-222316963.html",
+      "summary": "Uniswap has reached the top of DeFi charts with $1.65 billion in total value locked (TVL), driven partly by competition from SushiSwap. This highlights the dynamic and competitive nature of the DeFi space, with protocols vying for liquidity and user attention. The growth in TVL on leading DEXs like Uniswap indicates increased activity and capital flowing into DeFi.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "DeFi",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Uniswap_TVL_record",
+        "DeFi_competition",
+        "SushiSwap_impact"
+      ],
+      "rationale": "The strong growth in Uniswap's TVL, fueled by DeFi competition, reflects increasing capital and activity in the sector, which can indirectly benefit Bitcoin through overall market sentiment."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n5463a34d260d",
+      "title": "Total Value on Bitcoin’s Lightning Network Sets Another Record High Amid Market Rally",
+      "url": "https://finance.yahoo.com/news/total-value-bitcoin-lightning-network-231200423.html",
+      "summary": "Bitcoin's Lightning Network has reached a new record high for total value locked (TVL) at $12.4 million, surpassing previous highs set in July 2019. This growth, up 24% in total bitcoins held, indicates increasing adoption and usage of the Layer 2 scaling solution. The rising TVL on Lightning is a positive sign for Bitcoin's usability and scalability.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network_TVL_record",
+        "L2_scalability",
+        "payment_channel_growth"
+      ],
+      "rationale": "The record high in Bitcoin's Lightning Network TVL demonstrates growing adoption and utility of the scaling solution, which is a positive, albeit low-magnitude, short-term signal for Bitcoin."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-09-01",
+    "summary": "Bitcoin is showing strength, nearing $12,000, supported by a declining U.S. dollar and positive sentiment from the booming DeFi sector, particularly Ethereum's rally. Institutional adoption continues with new ETP listings in Europe. Miner revenues are up, indicating healthy network activity. However, emerging malware threats pose a minor short-term risk. Overall, the market sentiment is bullish, driven by macro factors and ecosystem growth.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Emerging malware targeting crypto wallets could create short-term FUD.",
+      "Increased correlation with S&P 500 means Bitcoin is susceptible to broader market downturns.",
+      "Regulatory uncertainty in certain jurisdictions remains a persistent risk.",
+      "Potential for profit-taking after significant price rallies."
+    ],
+    "watch_items": [
+      "U.S. Dollar Index (DXY) movements",
+      "DeFi TVL growth and major protocol updates",
+      "Institutional inflows into Bitcoin products (ETPs, futures)",
+      "Developments in Bitcoin scaling solutions (Lightning Network)",
+      "Macroeconomic data releases (inflation, employment)"
+    ]
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "date": "2019-09-10",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "n1abd98fb3b37",
+      "title": "Bitcoin Falls; Mnuchin Says U.S. Likely to Issue New Rules on Crypto",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-mnuchin-says-u-010000787.html",
+      "summary": "U.S. Treasury Secretary Steven Mnuchin indicated that new regulations for cryptocurrencies are likely to be issued to safeguard the financial system. This statement, coupled with concerns about illicit use of Bitcoin, suggests a potentially more restrictive regulatory environment for digital assets in the United States. Such regulatory clarity, even if restrictive, could eventually lead to more institutional adoption by reducing uncertainty, but in the short to medium term, it poses a bearish sentiment due to potential crackdowns.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Mnuchin_regulation",
+        "US_regulatory_uncertainty",
+        "crypto_rules"
+      ],
+      "rationale": "Statements from high-ranking U.S. officials regarding crypto regulation can significantly influence market sentiment and future policy. The mention of new rules suggests a period of increased scrutiny, which could dampen speculative interest and adoption."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n2bbfcbe14f85",
+      "title": "Van Eck, SolidX Attempt to Bring a Partial Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/van-eck-solidx-attempt-bring-170005351.html",
+      "summary": "Van Eck and SolidX are making another attempt to launch a Bitcoin ETF by offering shares compliant with SEC's Rule 144A. This rule allows for the private sale of securities to \"qualified institutional buyers,\" exempting them from registration requirements. This approach aims to circumvent previous SEC concerns regarding market manipulation and custody, potentially paving the way for institutional investment vehicles for Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "VanEck_SolidX_ETF",
+        "SEC_approval_path",
+        "institutional_adoption"
+      ],
+      "rationale": "The potential approval of a Bitcoin ETF, even a privately placed one, would be a significant step towards mainstream institutional adoption. It would provide a regulated and accessible avenue for large investors to gain exposure to Bitcoin."
+    },
+    {
+      "pick_idx": 7,
+      "id": "naeae4c4a5714",
+      "title": "Smaller cryptocurrencies feel pain as criticism of Facebook's Libra grows",
+      "url": "https://finance.yahoo.com/news/smaller-cryptocurrencies-feel-pain-criticism-170602594.html",
+      "summary": "The growing criticism and regulatory scrutiny surrounding Facebook's Libra project have had a spillover effect on smaller cryptocurrencies, causing them to underperform Bitcoin. This suggests that broader market sentiment and regulatory actions impacting major crypto projects can influence the entire asset class, particularly smaller, less established coins. The focus on Libra highlights the challenges of bringing new digital currencies to market amidst regulatory concerns.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Libra_criticism",
+        "altcoin_underperformance",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "Negative sentiment and regulatory pressure on a high-profile project like Libra can create a broader risk-off environment for the crypto market, disproportionately affecting smaller altcoins. This indicates a sensitivity of the crypto market to macro-level regulatory developments."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nf5ab32811f60",
+      "title": "Bitcoin retakes $10,400 as traders put up long positions",
+      "url": "https://finance.yahoo.com/news/bitcoin-retakes-10-400-traders-175349365.html",
+      "summary": "Bitcoin has surpassed the $10,000 mark and is showing an upward trend, with traders opening long positions. The cryptocurrency has outperformed other major coins in August. This resurgence suggests renewed investor confidence and potentially a shift towards a more bullish market sentiment, driven by technical factors and positive price action.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "long_positions",
+        "market_sentiment"
+      ],
+      "rationale": "Breaking key psychological and technical resistance levels like $10,000 often signals a shift in market momentum. Increased long positions indicate bullish sentiment among traders, potentially driving prices higher."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n1da0976e88ad",
+      "title": "Privacy Coin Beam Conducts First Hard Fork Away From ASICs",
+      "url": "https://finance.yahoo.com/news/privacy-coin-beam-conducts-first-220035756.html",
+      "summary": "Beam, a privacy-focused cryptocurrency, has successfully completed its first hard fork, adjusting its mining algorithm to mitigate ASIC dominance. This move aims to enhance decentralization and fairness in mining by favoring GPU mining. Such protocol upgrades are crucial for the long-term health and security of cryptocurrencies, potentially increasing their resilience and appeal.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Beam_hard_fork",
+        "ASIC_resistance",
+        "mining_algorithm_update"
+      ],
+      "rationale": "Protocol upgrades that improve efficiency and decentralization, like Beam's move away from ASICs, can strengthen the network's fundamentals and long-term viability, which is generally a positive signal for the ecosystem."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n0b88d800cf91",
+      "title": "Craig Wright Again Claims Authorship of Bitcoin White Paper",
+      "url": "https://finance.yahoo.com/news/craig-wright-again-claims-authorship-115038808.html",
+      "summary": "Craig Wright, who claims to be Satoshi Nakamoto, has again asserted his authorship of the Bitcoin white paper by posting it on SSRN with an August 2008 citation. This recurring claim, often met with skepticism, continues to be a point of contention within the crypto community. While it doesn't directly impact Bitcoin's technology, such claims can create noise and distraction, potentially affecting sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Craig_Wright_Satoshi_claim",
+        "Bitcoin_white_paper",
+        "community_controversy"
+      ],
+      "rationale": "Craig Wright's repeated claims, while controversial and largely unaccepted by the community, can create short-term noise. However, their long-term impact on Bitcoin's price or adoption is minimal unless backed by verifiable proof or legal rulings."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd9801fd286d4",
+      "title": "Overstock’s tZERO Lures New Execs from Barclays and IMAX",
+      "url": "https://finance.yahoo.com/news/overstock-tzero-lures-execs-barclays-120012927.html",
+      "summary": "Overstock's security token platform, tZERO, has strengthened its leadership by hiring experienced executives from Barclays and IMAX. This move indicates a maturing approach to corporate governance and operational strategy for the platform, aiming to build a more robust structure for onboarding new tokens. Such professionalization can attract more institutional interest and capital into the security token space.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "tZERO_executives",
+        "Barclays_IMAX_hires",
+        "security_token_platform"
+      ],
+      "rationale": "Hiring experienced professionals from traditional finance and established corporations signals a commitment to building a credible and scalable platform. This can foster greater trust and adoption within the security token market."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n915a50904ea5",
+      "title": "BitPay Says Crypto Spending on Real Estate to Double in 2019",
+      "url": "https://finance.yahoo.com/news/bitpay-says-crypto-spending-real-180046884.html",
+      "summary": "BitPay anticipates that cryptocurrency spending on real estate will double in 2019, citing partnerships with real estate firms like the Grove Resort & Water Park. This projection highlights the increasing adoption of cryptocurrencies for significant real-world transactions beyond speculative trading. Growth in this sector indicates a maturing use case for digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BitPay_real_estate",
+        "crypto_spending_growth",
+        "adoption_use_case"
+      ],
+      "rationale": "The increasing use of cryptocurrencies for large purchases like real estate demonstrates a growing utility and acceptance of digital assets in the mainstream economy, which is a positive long-term indicator."
+    },
+    {
+      "pick_idx": 34,
+      "id": "nc0a2de68eb7f",
+      "title": "Bitcoin’s hash rate reaches highs of 84 quintillion hashes per second",
+      "url": "https://finance.yahoo.com/news/bitcoin-hash-rate-reaches-highs-142454618.html",
+      "summary": "Bitcoin's hash rate has reached an all-time high of 84 quintillion hashes per second, continuing an upward trend that began in December. This metric signifies the total computational power dedicated to mining and securing the Bitcoin network. A rising hash rate generally indicates increased miner confidence and network security, which are fundamental strengths for Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "BTC_hash_rate_ATH",
+        "network_security",
+        "miner_confidence"
+      ],
+      "rationale": "An all-time high hash rate is a strong indicator of network health, security, and miner investment. It suggests that miners are profitable and confident in Bitcoin's future, which bolsters the network's fundamental value."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n2bc7851f1d1b",
+      "title": "Japanese messaging giant LINE wins crypto exchange license from regulator",
+      "url": "https://finance.yahoo.com/news/japanese-messaging-giant-line-wins-105524279.html",
+      "summary": "LINE, a major Japanese messaging platform with over 80 million users, has secured a cryptocurrency exchange license from Japan's Financial Services Agency (FSA). This approval allows LINE to offer crypto trading services to its vast user base, potentially driving significant adoption in Japan. It also signifies a positive regulatory development in a key Asian market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "LINE_crypto_license",
+        "Japan_FSA_approval",
+        "user_adoption_driver"
+      ],
+      "rationale": "Gaining a license from a major regulator like Japan's FSA is a significant step for any crypto company. For LINE, it opens the door to leveraging its massive user base for crypto adoption, which could have a substantial impact on the market."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "neadb57916639",
+      "title": "Bitcoin Cash – ABC, Litecoin and Ripple Daily Analysis – 10/09/19",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-abc-litecoin-ripple-020322406.html",
+      "summary": "Bitcoin Cash ABC experienced a slight dip on Monday after gains on Sunday, trading around $304.75. It showed resilience by staying above key support levels despite early bearish movement. The price action indicates minor volatility within a consolidation phase, with resistance near $312.79.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BCH_ABC_price_action",
+        "support_resistance_levels",
+        "consolidation_phase"
+      ],
+      "rationale": "The price action for Bitcoin Cash ABC shows a tight trading range with minor fluctuations, suggesting a lack of strong directional conviction in the immediate short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n0487a504dd05",
+      "title": "Nasdaq adds a new index for decentralized finance ‘DeFix,’ covering Augur, MakerDAO",
+      "url": "https://finance.yahoo.com/news/nasdaq-adds-index-decentralized-finance-081017701.html",
+      "summary": "Nasdaq has partnered with EXANTE to launch the DeFix index, tracking decentralized finance (DeFi) projects like Augur and MakerDAO. This move by a major traditional exchange operator to index DeFi assets signals growing institutional interest and validation for the DeFi sector, potentially driving capital into these projects.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Nasdaq_DeFi_index",
+        "DeFi_institutional_interest",
+        "Augur_MakerDAO_tracking"
+      ],
+      "rationale": "The inclusion of DeFi projects in a Nasdaq index is a significant endorsement, potentially increasing visibility and attracting institutional capital to the DeFi space."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n0ab988a5b7ac",
+      "title": "Hot Crypto-Autumn: In The Search For a Bear",
+      "url": "https://finance.yahoo.com/news/hot-crypto-autumn-search-bear-081322857.html",
+      "summary": "The article suggests that Bitcoin faces strong resistance around the $10,000 level, leading to consolidation. It notes that while Bitcoin has recovered significantly, the current price stagnation might precede a decline. Altcoins are also showing ambiguous reactions, with more bearish sentiment present in that sector.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_resistance_10k",
+        "crypto_consolidation",
+        "altcoin_sentiment"
+      ],
+      "rationale": "The analysis points to a potential bearish turn for Bitcoin if it fails to break the $10,000 resistance, with altcoins showing weaker sentiment, suggesting a possible short-term downturn."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf74552b5341e",
+      "title": "SEC chair Jay Clayton states ‘progress has been made’ for a Bitcoin ETF",
+      "url": "https://finance.yahoo.com/news/sec-chair-jay-clayton-states-093200911.html",
+      "summary": "SEC Chair Jay Clayton indicated that progress has been made in addressing issues like price manipulation and custody that previously hindered Bitcoin ETF approval. While acknowledging that work remains, his comments suggest a more open stance from the SEC, potentially increasing the likelihood of future ETF approvals.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Clayton_ETF_progress",
+        "SEC_stance_on_custody",
+        "price_manipulation_concerns"
+      ],
+      "rationale": "Positive commentary from the SEC Chair regarding Bitcoin ETF progress can significantly boost market sentiment and expectations for approval, potentially driving prices up in the short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n4255ab584908",
+      "title": "BitMEX COO Angelina Kwan departs less than a year after joining",
+      "url": "https://finance.yahoo.com/news/bitmex-coo-angelina-kwan-departs-120058544.html",
+      "summary": "BitMEX's Chief Operating Officer, Angelina Kwan, is leaving the company after less than a year. Kwan's background in compliance from the Hong Kong Securities and Futures Commission was seen as a significant hire for the derivatives exchange. Her departure could signal internal challenges or a shift in the company's compliance strategy, potentially impacting market confidence.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BitMEX_COO_departure",
+        "Angelina_Kwan_exit",
+        "compliance_personnel_change"
+      ],
+      "rationale": "The departure of a key compliance executive from a major exchange like BitMEX can create short-term uncertainty and potentially raise concerns about regulatory adherence or internal stability."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n94d81d869fc5",
+      "title": "Tether has launched CNHT stablecoin pegged to offshore Chinese Yuan",
+      "url": "https://finance.yahoo.com/news/tether-launches-cnht-stablecoin-pegged-162149195.html",
+      "summary": "Tether has launched CNHT, a stablecoin pegged to the offshore Chinese Yuan, available on the Ethereum blockchain. This expansion into a Yuan-pegged stablecoin could facilitate easier on-ramps and off-ramps for Chinese traders and investors, potentially increasing liquidity and trading activity within the Asian market.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Tether_CNHT_launch",
+        "Yuan_stablecoin",
+        "Asian_market_liquidity"
+      ],
+      "rationale": "The introduction of a Yuan-pegged stablecoin by Tether could improve access to the crypto market for Chinese users, potentially boosting trading volumes and overall market liquidity."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nba920246a624",
+      "title": "Security vulnerabilities found in Bitcoin’s Lightning Network were exploited",
+      "url": "https://finance.yahoo.com/news/security-vulnerabilities-found-bitcoin-lightning-171040298.html",
+      "summary": "Developers are warning that a previously identified security vulnerability in Bitcoin's Lightning Network has been exploited in confirmed instances. Users are advised to upgrade affected Lightning Node versions. This news highlights ongoing security challenges with Layer 2 solutions and could deter adoption or cause short-term price dips.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "protocol",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Lightning_Network_exploit",
+        "security_vulnerability",
+        "LND_c-lightning_eclair_update"
+      ],
+      "rationale": "Exploitation of a known vulnerability in the Lightning Network can erode user confidence and potentially lead to losses, creating a short-term bearish sentiment and impacting the adoption of Layer 2 solutions."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nf2f6b41ee63f",
+      "title": "Bakkt to Require $3.9K Down Payment on Bitcoin Futures Contracts",
+      "url": "https://finance.yahoo.com/news/bakkt-require-3-9k-down-173540234.html",
+      "summary": "Bakkt has revealed that its bitcoin futures contracts will require an initial margin of $3,900. This requirement, set by ICE Futures U.S., represents the collateral needed to open a position. The margin requirement could influence the accessibility and trading volume of Bakkt's futures contracts.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bakkt_margin_requirement",
+        "BTC_futures_collateral",
+        "ICE_Futures_US"
+      ],
+      "rationale": "The initial margin requirement for Bakkt's futures contracts is a technical detail that might affect institutional participation, but its immediate impact on price is likely to be limited unless it significantly alters liquidity dynamics."
+    },
+    {
+      "pick_idx": 21,
+      "id": "naaeed88ceeda",
+      "title": "Binance creates NYDFS-approved US dollar stablecoin ahead of US launch",
+      "url": "https://finance.yahoo.com/news/binance-creates-nydfs-approved-us-150331476.html",
+      "summary": "Binance has partnered with Paxos to launch BUSD, a US dollar-backed stablecoin approved by the New York State Department of Financial Services (NYDFS). This regulatory approval is crucial for operating in New York and signals Binance's commitment to compliance. BUSD will be traded against BTC, BNB, and XRP, potentially increasing liquidity and trading options.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Binance_BUSD_stablecoin",
+        "NYDFS_approval",
+        "Paxos_partnership"
+      ],
+      "rationale": "The launch of a NYDFS-approved stablecoin by Binance is a significant regulatory milestone that could enhance trust and facilitate trading, particularly for US-based users, potentially increasing liquidity."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n942feb58f50f",
+      "title": "You Can Now Buy Lightning-Powered Bitcoin With a Credit Card",
+      "url": "https://finance.yahoo.com/news/now-buy-lightning-powered-bitcoin-191507055.html",
+      "summary": "Payments startup Breez, in partnership with MoonPay, now allows users to purchase Lightning-powered Bitcoin directly via its mobile app using credit cards. This feature simplifies the process for acquiring Bitcoin on the Lightning Network, making it more accessible to a wider audience and potentially boosting adoption of the Layer 2 solution.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Breez_Lightning_purchase",
+        "credit_card_onramp",
+        "MoonPay_partnership"
+      ],
+      "rationale": "The ability to purchase Lightning-powered Bitcoin with a credit card significantly lowers the barrier to entry for new users, promoting adoption of the Lightning Network and increasing Bitcoin's utility."
+    }
+  ],
+  "daily_view": {
+    "date": "2019-09-10",
+    "summary": "The market sentiment is mixed, with positive developments in institutional adoption and regulatory clarity potentially supporting Bitcoin's price. However, concerns about resistance at $10,000 and vulnerabilities in the Lightning Network introduce bearish elements. The launch of a Yuan-pegged stablecoin and Nasdaq's DeFi index are notable positive developments for broader market growth and accessibility.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Failure to break $10,000 resistance could lead to a price correction.",
+      "Exploited vulnerabilities in the Lightning Network could erode confidence.",
+      "Uncertainty surrounding future regulatory actions in major economies.",
+      "Continued underperformance of altcoins relative to Bitcoin.",
+      "Macroeconomic factors impacting risk assets."
+    ],
+    "watch_items": [
+      "SEC statements on Bitcoin ETFs",
+      "Bakkt futures contract performance",
+      "Developments in DeFi indices and adoption",
+      "Lightning Network security updates",
+      "Tether's CNHT stablecoin liquidity and adoption"
+    ]
+  }
+}

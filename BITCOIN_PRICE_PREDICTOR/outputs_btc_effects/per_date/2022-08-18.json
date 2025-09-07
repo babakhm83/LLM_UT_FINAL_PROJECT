@@ -1,0 +1,554 @@
+{
+  "date": "2022-08-18",
+  "long_term": [
+    {
+      "pick_idx": 4,
+      "id": "nebe9220517d0",
+      "title": "Bitcoin miners sell their holdings amid crypto winter's chill",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-sell-holdings-amid-165733091.html",
+      "summary": "Bitcoin miners are increasingly liquidating their holdings due to falling prices and rising energy costs, impacting profitability. The number of coins sent to exchanges by miners has been steadily climbing since early June. This trend suggests miners are under pressure to sell to cover operational expenses, potentially increasing selling pressure on the market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "miner_selling_pressure",
+        "energy_costs",
+        "miner_liquidation"
+      ],
+      "rationale": "Miners selling their BTC holdings to cover costs directly increases the sell-side pressure in the market. This forced selling can exacerbate downward price movements during a crypto winter."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n096979ea04b9",
+      "title": "With Bitwise and Grayscale Decisions Looming, Spot Bitcoin ETF Approval Hopes Are Running Low",
+      "url": "https://finance.yahoo.com/news/bitwise-grayscale-decisions-looming-spot-190613027.html",
+      "summary": "Expectations for the SEC to approve spot Bitcoin ETFs are diminishing, especially after the approval of a futures-based product. Decisions for Bitwise and Grayscale are pending, with deadlines in late June and early July. The lack of spot ETF approval continues to be a hurdle for broader institutional adoption and could dampen market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "spot_bitcoin_etf_approval",
+        "SEC_decision",
+        "institutional_adoption_barrier"
+      ],
+      "rationale": "The continued denial of spot Bitcoin ETFs by the SEC limits a key avenue for institutional capital inflow. This regulatory stance can suppress demand and hinder the broader market's growth potential."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n21a0950fd1da",
+      "title": "Bitcoin advocate Michael Saylor stepping down as CEO of company after crypto crash loses it $1 billion",
+      "url": "https://finance.yahoo.com/news/bitcoin-advocate-michael-saylor-stepping-151900528.html",
+      "summary": "Michael Saylor, a prominent Bitcoin advocate and CEO of MicroStrategy, is stepping down from his CEO role after the company's significant Bitcoin holdings resulted in a $1 billion loss. Saylor's leadership at MicroStrategy has been closely tied to its Bitcoin strategy, and this transition may signal a shift in the company's approach to its digital asset holdings.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "MicroStrategy_CEO_transition",
+        "Saylor_stepping_down",
+        "corporate_bitcoin_holdings_impact"
+      ],
+      "rationale": "Saylor's departure as CEO of MicroStrategy, a major corporate holder of Bitcoin, could lead to changes in the company's Bitcoin strategy. This uncertainty might influence market sentiment regarding large corporate treasuries holding BTC."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n8f964d44dacd",
+      "title": "An ETF that will allow investors to bet against bitcoin is set to launch this week as the cryptocurrency plunges 70% from its peak",
+      "url": "https://finance.yahoo.com/news/etf-allow-investors-bet-against-155850413.html",
+      "summary": "ProShares is launching a Short Bitcoin Strategy ETF, allowing investors to profit from Bitcoin's decline. This launch occurs during a significant bear market, with Bitcoin down over 70% from its peak. The availability of a shorting ETF could introduce new dynamics to market sentiment and trading strategies.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "short_bitcoin_etf_launch",
+        "ProShares_ETF",
+        "bear_market_hedging"
+      ],
+      "rationale": "The introduction of a short Bitcoin ETF provides a mechanism for bearish bets, potentially increasing selling pressure or volatility. It also reflects a growing sophistication in derivative products available to investors."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n3f6b926c1bd2",
+      "title": "China’s Cabinet Stresses Cybersecurity After Data Leak",
+      "url": "https://finance.yahoo.com/news/china-cabinet-urges-greater-cybersecurity-044030077.html",
+      "summary": "China's cabinet emphasized the need to enhance information security following a significant data leak, potentially the country's largest cyber-attack. This focus on cybersecurity could lead to stricter regulations on data handling and technology infrastructure within China, which might indirectly affect the broader tech and financial sectors, including crypto.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "regulation",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "China_cybersecurity_regulations",
+        "data_leak_impact",
+        "tech_infrastructure_security"
+      ],
+      "rationale": "Increased cybersecurity focus in China could lead to broader regulatory scrutiny on digital assets and related infrastructure. While not directly targeting crypto, it signals a tightening regulatory environment that could impact global tech trends."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n7198a85abf0c",
+      "title": "Cryptoverse: The bonfire of the NFTs",
+      "url": "https://finance.yahoo.com/news/cryptoverse-bonfire-nfts-051359069.html",
+      "summary": "The NFT market has seen a significant downturn in 2022, with monthly sales volume on OpenSea plummeting from a peak of nearly $5 billion in January to $700 million in June. The average NFT sale price has also dropped considerably. This decline in the NFT sector reflects a broader cooling of speculative interest in crypto assets.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "NFT_market_downturn",
+        "OpenSea_sales_volume",
+        "speculative_asset_cooling"
+      ],
+      "rationale": "The sharp decline in the NFT market indicates a broader risk-off sentiment and reduced speculative appetite within the crypto space. This can spill over to Bitcoin and other major cryptocurrencies as investor confidence wanes."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n9dcec2810163",
+      "title": "Samsung produces 3nm chips that can be used for Bitcoin mining",
+      "url": "https://finance.yahoo.com/news/samsung-produces-3nm-chips-used-032428073.html",
+      "summary": "Samsung has begun producing chips using its advanced 3-nanometer technology, which can be utilized for Bitcoin mining hardware. This development could lead to more efficient and powerful mining equipment, potentially impacting the mining industry's competitiveness and energy consumption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Samsung_3nm_chips",
+        "Bitcoin_mining_hardware",
+        "mining_efficiency_improvement"
+      ],
+      "rationale": "Advancements in chip technology like Samsung's 3nm process can lead to more efficient Bitcoin mining, potentially lowering operational costs and increasing profitability for miners. This could indirectly support network security and growth."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n74847c687528",
+      "title": "MicroStrategy Bulls Unfazed by Double Dose of Pain",
+      "url": "https://finance.yahoo.com/news/microstrategy-bulls-unfazed-double-dose-103852231.html",
+      "summary": "Despite significant losses in its Bitcoin holdings, analysts remain bullish on MicroStrategy's stock. The company's strategy of holding billions in Bitcoin has faced investor scrutiny. This resilience from analysts suggests a belief in the long-term value of Bitcoin, even amidst short-term market volatility.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "MicroStrategy_bullish_analysts",
+        "corporate_bitcoin_strategy",
+        "long_term_bitcoin_outlook"
+      ],
+      "rationale": "Analyst confidence in MicroStrategy's Bitcoin strategy, despite recent losses, indicates a persistent belief in Bitcoin's long-term potential among institutional observers. This can provide a psychological boost to the market."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n08143cef2926",
+      "title": "Bitcoin Buoyancy: Why This Money Expert Still Calls Crypto ‘Wealth Creation Opportunity’ Not Seen in 35 Years",
+      "url": "https://finance.yahoo.com/news/bitcoin-buoyancy-why-money-expert-185646865.html",
+      "summary": "Despite the current 'crypto winter,' some experts view the market as a significant 'wealth creation opportunity.' Ric Edelman, a former financial advisor, believes crypto represents a generational investment chance. This optimistic outlook from influential financial figures can counter negative sentiment and attract new investors.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "expert_optimism_crypto",
+        "wealth_creation_opportunity",
+        "generational_investment"
+      ],
+      "rationale": "Positive sentiment from respected financial experts, framing crypto as a long-term wealth creation opportunity, can attract new capital and bolster confidence during market downturns, supporting a potential recovery."
+    },
+    {
+      "pick_idx": 48,
+      "id": "nee81e51beabb",
+      "title": "How to Donate Crypto to These 6 Major Nonprofits",
+      "url": "https://finance.yahoo.com/news/donate-crypto-6-major-nonprofits-130000535.html",
+      "summary": "This article highlights how major nonprofits are accepting cryptocurrency donations, enabling donors to contribute and potentially receive tax deductions. The increasing acceptance of crypto by charitable organizations signifies growing mainstream adoption and integration of digital assets into traditional financial activities.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_donations_nonprofits",
+        "mainstream_adoption",
+        "charitable_giving_crypto"
+      ],
+      "rationale": "The increasing acceptance of crypto donations by major nonprofits demonstrates a growing integration of digital assets into societal structures. This signals broader adoption and can normalize crypto usage."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n15107bf8651c",
+      "title": "First Mover Asia: Celsius Token Price Rise Pegged to Market Dynamics Rather Than Fundamentals; BTC Retreats Again",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-celsius-token-011155674.html",
+      "summary": "Bitcoin and Ether have lost momentum, with BTC retreating. The Celsius token (CEL) price surge is attributed to market dynamics, not fundamentals, indicating potential speculative trading rather than intrinsic value growth. This suggests a volatile and potentially manipulated market for certain altcoins.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "CEL_price_surge",
+        "BTC_retreat",
+        "market_dynamics_vs_fundamentals"
+      ],
+      "rationale": "The retreat of BTC and ETH, coupled with speculative pumps in tokens like CEL, indicates broader market weakness and potential for further price declines in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nfa154bd21613",
+      "title": "‘Consumer Business Is Dead’ for Crypto Lender Celsius, Bankruptcy Expert Says",
+      "url": "https://finance.yahoo.com/news/consumer-business-dead-crypto-lender-153034048.html",
+      "summary": "A bankruptcy expert estimates retail customers of Celsius Network may recover only 50-60% of their funds, stating the 'consumer business is dead' for the company. This news reinforces negative sentiment surrounding centralized crypto lenders and potential contagion risks.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "Celsius_bankruptcy_update",
+        "retail_customer_recovery",
+        "lender_contagion_risk"
+      ],
+      "rationale": "Negative news regarding Celsius's bankruptcy and low customer recovery rates can increase fear and uncertainty in the market, potentially leading to further sell-offs or reduced confidence in similar platforms."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n754493db4588",
+      "title": "Markets: Bitcoin, Ether decline; memecoins fall back, XRP holds gains",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-decline-memecoins-010104190.html",
+      "summary": "Bitcoin and Ether are declining, with memecoins also falling, despite XRP holding gains. This broad market weakness is linked to FOMC minutes indicating continued interest rate hikes to control inflation. U.S. equities were also weaker overnight.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_ETH_decline",
+        "memecoin_selloff",
+        "FOMC_minutes_impact"
+      ],
+      "rationale": "The broad decline across major cryptocurrencies, driven by hawkish Fed sentiment, suggests continued downward pressure on prices in the immediate short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nc2f6944609c3",
+      "title": "First Mover Americas: Fifth Day of Declining Bitcoin Price Has Some Traders Looking Out Below",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-fifth-day-133846625.html",
+      "summary": "Bitcoin has been declining for five consecutive days, breaking a bullish trendline and raising concerns about a move below $22,000. This technical breakdown, potentially linked to hawkish Fed minutes, indicates increasing bearish sentiment among traders.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_decline_streak",
+        "bullish_trendline_breach",
+        "trader_sentiment_bearish"
+      ],
+      "rationale": "The breach of a key bullish trendline and a multi-day price decline suggest a shift in market momentum, potentially leading to further downside in the very short term."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n3c8bec979606",
+      "title": "Coinbase would shut down ETH staking under regulatory threat, says CEO",
+      "url": "https://finance.yahoo.com/news/coinbase-shut-down-eth-staking-101149485.html",
+      "summary": "Coinbase CEO Brian Armstrong stated the exchange would cease ETH staking services if regulators demanded censorship to comply with sanctions. This highlights the ongoing regulatory uncertainty surrounding staking and centralized exchanges.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Coinbase_ETH_staking_policy",
+        "regulatory_crackdown_threat",
+        "staking_censorship_debate"
+      ],
+      "rationale": "The CEO's statement on potentially shutting down ETH staking due to regulatory pressure underscores the ongoing regulatory risks for staking services, which could impact ETH's price and adoption."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nf742c4904542",
+      "title": "Markets: Bitcoin, Ether fall; Solana, DOGE extend their declines",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-fall-solana-091346636.html",
+      "summary": "Bitcoin and Ether are trading lower, with Solana and Dogecoin experiencing further declines. This broad market weakness is attributed to FOMC minutes indicating the Fed will continue raising interest rates to combat inflation, impacting Asian equity markets negatively.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_ETH_fall",
+        "SOL_DOGE_decline",
+        "FOMC_minutes_inflation_impact"
+      ],
+      "rationale": "The continued decline across major cryptocurrencies, exacerbated by hawkish Fed commentary, points to sustained selling pressure in the immediate short term."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n1d7f30490149",
+      "title": "Bitcoin miner Stronghold to return mining rigs to cut debt; shares plunge as losses widen",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-stronghold-return-mining-034007522.html",
+      "summary": "Stronghold Digital Mining's shares plunged over 25% after reporting wider Q2 losses, despite a plan to return mining rigs to reduce debt. The company's net loss widened significantly year-over-year. This highlights the financial strain on some mining operations.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Stronghold_miner_losses",
+        "mining_rig_returns",
+        "miner_debt_reduction"
+      ],
+      "rationale": "The financial struggles of miners like Stronghold, evidenced by plunging shares and widening losses, can signal broader industry pressure and potentially lead to reduced network hashrate if more miners face similar issues."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n53131803121b",
+      "title": "SAIHUB App Announces Support for Bitcoin Lightning Network",
+      "url": "https://finance.yahoo.com/news/saihub-app-announces-support-bitcoin-093900586.html",
+      "summary": "SAIHUB App has launched version 1.1, which includes support for the Bitcoin Lightning Network. This integration allows users to make instant payments and top up wallets on-chain, enhancing the usability and scalability of Bitcoin transactions.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SAIHUB_Lightning_support",
+        "Bitcoin_scalability_enhancement",
+        "Lightning_Network_adoption"
+      ],
+      "rationale": "Increased adoption and integration of the Lightning Network by applications like SAIHUB improve Bitcoin's transaction speed and cost, potentially boosting its utility and adoption for everyday payments."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n0fd63309f647",
+      "title": "Canaan Misses Q2 Revenue As Bitcoin Price Slump, COVID Lockdown Weigh On The Business",
+      "url": "https://finance.yahoo.com/news/canaan-misses-q2-revenue-bitcoin-101804093.html",
+      "summary": "Bitcoin mining hardware maker Canaan missed Q2 revenue expectations due to the Bitcoin price slump and COVID-19 lockdowns. The company reported lower computing power sold and described the quarter as 'challenging.' This indicates headwinds for mining equipment manufacturers.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "Canaan_missed_revenue",
+        "BTC_price_slump_impact",
+        "COVID_lockdown_effect_mining"
+      ],
+      "rationale": "Canaan's missed revenue and challenging quarter highlight the negative impact of the crypto downturn on mining hardware manufacturers, suggesting potential for reduced demand and profitability in the sector."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nc8763a9bc5b1",
+      "title": "Coinbase CEO Suggests Exchange Won't Censor Transactions on Ethereum",
+      "url": "https://finance.yahoo.com/news/coinbase-ceo-suggests-exchange-wont-164304805.html",
+      "summary": "Coinbase CEO Brian Armstrong indicated the exchange would rather exit the Ethereum staking business than censor transactions to comply with sanctions. This stance addresses concerns about potential centralization and censorship on proof-of-stake networks.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Coinbase_no_censorship_stance",
+        "Ethereum_staking_regulation",
+        "decentralization_concerns"
+      ],
+      "rationale": "Coinbase's commitment to not censoring transactions, even at the risk of exiting staking, is a positive signal for decentralization but highlights the ongoing regulatory friction that could impact ETH's future."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n2cd2054edae9",
+      "title": "The BlackRock Trust: Crypto Legitimacy or the Beginning of the End for Bitcoin?",
+      "url": "https://finance.yahoo.com/news/blackrock-trust-crypto-legitimacy-beginning-171516151.html",
+      "summary": "BlackRock's launch of a private Bitcoin trust for institutional clients is seen by some as a move towards legitimizing digital assets. This offering provides direct exposure to Bitcoin's performance for institutional investors, potentially increasing demand and market acceptance.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BlackRock_Bitcoin_trust",
+        "institutional_adoption",
+        "crypto_legitimacy"
+      ],
+      "rationale": "BlackRock's entry into the crypto space with a dedicated trust for institutional clients is a significant endorsement, potentially driving increased institutional adoption and positive price sentiment."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n6ad10472e61f",
+      "title": "Bitcoin Loses Bullish Trendline as Fed Sees Restrictive Rates Needed for Some Time",
+      "url": "https://finance.yahoo.com/news/bitcoin-loses-bullish-trendline-fed-115144060.html",
+      "summary": "Bitcoin has fallen below a key bullish trendline after the Federal Reserve's July meeting minutes indicated a continued need for restrictive interest rates. This technical breakdown suggests potential for further price declines as market sentiment reacts to hawkish monetary policy.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_trendline_break",
+        "Fed_restrictive_rates",
+        "hawkish_monetary_policy"
+      ],
+      "rationale": "The breach of Bitcoin's bullish trendline, directly linked to hawkish Fed signals, indicates a negative short-term outlook and potential for further price depreciation."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-08-18",
+    "summary": "The crypto market is experiencing broad declines, with Bitcoin and Ethereum falling for multiple consecutive days, driven by hawkish Federal Reserve commentary suggesting continued interest rate hikes. This macro sentiment is impacting risk assets, including crypto. Miners are facing financial strain, as evidenced by Stronghold's plunging shares, while institutional adoption signals remain mixed with BlackRock's new Bitcoin trust offering potential upside against broader bearish trends. Regulatory uncertainty persists, with Coinbase's stance on ETH staking highlighting potential future challenges.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.5
+    },
+    "key_risks": [
+      "Continued hawkish monetary policy from the Federal Reserve, leading to further risk-off sentiment.",
+      "Negative contagion from struggling crypto lenders like Celsius impacting overall market confidence.",
+      "Potential for further declines in mining profitability and increased miner selling pressure.",
+      "Ongoing regulatory uncertainty surrounding staking and centralized crypto services.",
+      "Technical breakdown of key support levels for Bitcoin, indicating potential for deeper corrections."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and economic data releases",
+      "Celsius bankruptcy proceedings and customer recovery updates",
+      "Performance of major cryptocurrencies (BTC, ETH) against key support levels",
+      "Miner financial health reports and hash rate trends",
+      "Developments in spot Bitcoin ETF applications and regulatory decisions"
+    ]
+  }
+}

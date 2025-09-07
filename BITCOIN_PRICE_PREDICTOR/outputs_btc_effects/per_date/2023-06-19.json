@@ -1,0 +1,497 @@
+{
+  "date": "2023-06-19",
+  "long_term": [
+    {
+      "pick_idx": 14,
+      "id": "n143649414e4b",
+      "title": "Bitcoin supply on crypto exchanges falls to lowest level since 2017",
+      "url": "https://finance.yahoo.com/news/bitcoin-supply-crypto-exchanges-falls-082654708.html",
+      "summary": "The amount of Bitcoin held on cryptocurrency exchanges has dropped to its lowest point since December 2017, with a 14.87% decline over the past year. Exchanges now hold approximately 1.89 million BTC, down from 2.22 million in May 2022. This reduction in readily available supply on exchanges is often interpreted as a bullish signal, suggesting that holders are moving their assets to colder storage, potentially indicating a long-term belief in price appreciation and reduced selling pressure.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "exchange_supply_low",
+        "hodl_sentiment"
+      ],
+      "rationale": "A decrease in Bitcoin supply on exchanges indicates that fewer coins are available for immediate sale, which can lead to upward price pressure. This trend, reaching multi-year lows, suggests a growing conviction among holders to secure their assets, potentially for long-term accumulation."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nfc10bf29c4d7",
+      "title": "Bitcoin rises as concerns over First Republic Bank escalate",
+      "url": "https://finance.yahoo.com/news/bitcoin-rises-concerns-over-first-republic-bank-escalate-083353714.html",
+      "summary": "Bitcoin's price jumped 4% amid escalating concerns about First Republic Bank's future, following significant customer withdrawals. This event echoes the broader market's reaction to the Silicon Valley Bank collapse earlier in March, which also saw the cryptocurrency market cap increase and Bitcoin breach $30,000. The trend highlights Bitcoin's potential role as a safe-haven asset during traditional banking instability, attracting capital seeking refuge from perceived systemic risks in the legacy financial system.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "banking_crisis_hedge",
+        "safe_haven_asset"
+      ],
+      "rationale": "When traditional financial institutions face instability, Bitcoin has shown a tendency to attract capital as an alternative store of value. The ongoing concerns surrounding banks like First Republic reinforce this narrative, potentially driving demand for Bitcoin as a hedge against systemic financial risks."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n7bf738aaf7ae",
+      "title": "Bitcoin rediscovers its mojo as banks stumble, says Standard Chartered’s Geoff Kendrick",
+      "url": "https://finance.yahoo.com/news/bitcoin-rediscovers-mojo-banks-stumble-043000394.html",
+      "summary": "Standard Chartered Bank's head of crypto research, Geoff Kendrick, predicts Bitcoin could reach $100,000 by the end of 2024. He suggests the 'crypto winter' is over and views Bitcoin as a safe haven amid banking sector turmoil. This optimistic outlook, shared by several analysts, positions Bitcoin as a potentially strong performer in the coming 12-18 months, driven by its perceived resilience against traditional financial system weaknesses.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "institutional_outlook_bullish",
+        "banking_sector_stress"
+      ],
+      "rationale": "A prominent analyst from a major bank forecasting a significant price increase for Bitcoin, coupled with the narrative of Bitcoin as a safe haven during banking crises, provides strong long-term bullish sentiment. This institutional endorsement can attract further investment and adoption."
+    },
+    {
+      "pick_idx": 22,
+      "id": "na9cbbd31759f",
+      "title": "What is Pepecoin? Everything you need to know about the meme token that notched a $1.6 billion market cap then crashed 70% within days",
+      "url": "https://finance.yahoo.com/news/pepecoin-everything-know-meme-token-140820190.html",
+      "summary": "The extreme volatility of meme tokens like Pepecoin, which saw a rapid rise and fall, can have ripple effects on the broader crypto market. While Pepecoin itself has no inherent use case, its wild price swings can influence overall market sentiment and investor behavior. This highlights the speculative nature of parts of the crypto market and the potential for contagion, where the performance of one asset class can impact others, including established cryptocurrencies like Bitcoin and Ethereum.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "meme_coin_volatility",
+        "market_sentiment_risk"
+      ],
+      "rationale": "The extreme volatility of meme coins can sometimes correlate with broader market sentiment, potentially leading to increased risk aversion or speculative interest in other crypto assets. While not directly impacting Bitcoin's fundamentals, it contributes to the overall market's speculative environment."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nbc4482b82dd4",
+      "title": "Sam Altman’s Crypto Project, Worldcoin, Releases First Major Consumer Product",
+      "url": "https://finance.yahoo.com/news/sam-altman-crypto-project-worldcoin-130000826.html",
+      "summary": "Sam Altman's Worldcoin project, focused on using AI to distinguish humans from bots, has launched its first major consumer product. The project aims to leverage blockchain technology for a universal basic income concept. The involvement of a prominent AI figure like Altman in the crypto space, particularly with a focus on identity and AI integration, could signal future trends in blockchain utility and adoption, potentially influencing the broader crypto ecosystem and its perception.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "AI_integration",
+        "identity_solution",
+        "UBI_concept"
+      ],
+      "rationale": "The launch of a major product by a high-profile figure like Sam Altman in the crypto space, especially one integrating AI and identity solutions, can attract significant attention and investment. This could foster innovation and broader adoption of blockchain technology, indirectly benefiting Bitcoin as the leading cryptocurrency."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n289f629a258e",
+      "title": "Why G7’s proposed crypto regulations will be bad for DeFi",
+      "url": "https://finance.yahoo.com/news/why-g7-proposed-crypto-regulations-090100646.html",
+      "summary": "The G7 nations are discussing crypto industry regulations, focusing on areas like stablecoin issuer requirements and central bank digital currencies. A key concern is the potential impact of these regulations on Decentralized Finance (DeFi). Stricter rules, particularly those targeting illicit activities, could stifle innovation and growth within DeFi protocols. The outcome of these discussions will shape the regulatory landscape for digital assets globally, influencing how DeFi platforms and cryptocurrencies like Bitcoin operate.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "G7_regulation",
+        "DeFi_impact",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "Proposed G7 regulations, while aimed at curbing illicit activities, could impose significant burdens on DeFi, potentially slowing innovation and adoption. This regulatory pressure can create uncertainty and negatively impact the broader crypto market, including Bitcoin, by increasing compliance costs and limiting new use cases."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n7ff58fe81ca1",
+      "title": "Coinbase Asks Court to Force SEC to Clarify Crypto Regulations",
+      "url": "https://finance.yahoo.com/news/coinbase-asks-court-force-sec-000102158.html",
+      "summary": "Cryptocurrency exchange Coinbase has filed a petition with a federal court to compel the U.S. Securities and Exchange Commission (SEC) to provide clearer regulations for digital assets. Coinbase submitted a \"petition for rulemaking\" last July, seeking answers to 50 specific questions to gain regulatory clarity. The lack of clear guidelines from the SEC has been a persistent challenge for the crypto industry, impacting innovation and investment. A definitive regulatory framework could significantly boost investor confidence and market growth.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_clarification_demand",
+        "regulatory_framework_need",
+        "Coinbase_lawsuit"
+      ],
+      "rationale": "Coinbase's legal action to force the SEC to provide regulatory clarity is a critical development. Clearer regulations would reduce uncertainty, encourage institutional adoption, and potentially lead to a more stable and predictable market environment for Bitcoin and other cryptocurrencies."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n28fbdc61146d",
+      "title": "Ault Alliance’s Subsidiary, BitNile, Inc., Expands Bitcoin Mining Collaboration with Core Scientific to 10,000 Miners",
+      "url": "https://finance.yahoo.com/news/ault-alliance-subsidiary-bitnile-inc-103000663.html",
+      "summary": "Ault Alliance's subsidiary, BitNile, Inc., is expanding its Bitcoin mining collaboration with Core Scientific, increasing its deployed miners to 10,000 and boosting its hash rate to 2.1 Exahash per second. This expansion signifies continued investment and growth in Bitcoin mining infrastructure. Increased mining capacity and efficiency can contribute to network security and potentially influence the supply dynamics of newly minted Bitcoin over the long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "mining_expansion",
+        "hashrate_increase",
+        "Core_Scientific_partnership"
+      ],
+      "rationale": "Increased investment in Bitcoin mining infrastructure, such as BitNile's expansion, indicates growing confidence in the profitability and future of Bitcoin mining. This can lead to a more robust and secure network, which is generally positive for the long-term value of Bitcoin."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nedf697203683",
+      "title": "Marathon Digital Holdings Collaborates with Brink To Raise Up to $1 Million To Support Bitcoin Core Developers",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-collaborates-brink-210000505.html",
+      "summary": "Marathon Digital Holdings is partnering with Brink to raise up to $1 million to support Bitcoin Core developers. Marathon will match donations up to $500,000. This initiative highlights the importance of funding the development and maintenance of the Bitcoin protocol itself. Strong developer support is crucial for the long-term security, scalability, and innovation of the Bitcoin network, which can positively impact its value and adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "developer_funding",
+        "Bitcoin_Core_support",
+        "protocol_enhancement"
+      ],
+      "rationale": "Direct investment in the development of the Bitcoin protocol is a fundamental long-term positive. Supporting Bitcoin Core developers ensures the network's ongoing security, efficiency, and potential for future upgrades, which are crucial for its sustained value and adoption."
+    },
+    {
+      "pick_idx": 49,
+      "id": "n563b152b77c3",
+      "title": "Bitcoin would be more trusted than the dollar as a safe haven if the US defaults, survey says",
+      "url": "https://finance.yahoo.com/news/bitcoin-more-trusted-dollar-safe-020436554.html",
+      "summary": "A Bloomberg survey suggests that more investors would favor Bitcoin over the U.S. dollar as a safe haven asset in the event of a U.S. default, although gold remains the top choice. This sentiment underscores Bitcoin's growing appeal as a potential store of value and a hedge against macroeconomic instability, even surpassing traditional safe havens like the dollar in some investor perceptions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "US_default_hedge",
+        "safe_haven_perception",
+        "dollar_alternative"
+      ],
+      "rationale": "The perception of Bitcoin as a potential safe haven, even over the US dollar in certain scenarios like a default, indicates a significant shift in investor sentiment. This growing trust as an alternative store of value can drive long-term demand and price appreciation."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "nfc239ff4a309",
+      "title": "BlackRock Bitcoin ETF Prospects Boost Institutional Investor Sentiment",
+      "url": "https://finance.yahoo.com/news/blackrock-bitcoin-etf-prospects-boost-172301813.html",
+      "summary": "Despite continued outflows from crypto investment products, BlackRock's Bitcoin ETF bid has reportedly staunched the bearish streak. While $5.1 million was pulled last week, it's significantly less than previous weeks. This suggests that the prospect of a spot Bitcoin ETF from a major asset manager is improving institutional investor sentiment, potentially leading to increased inflows and positive price action in the near term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_filing",
+        "institutional_sentiment_boost",
+        "outflow_reduction"
+      ],
+      "rationale": "The anticipation of a spot Bitcoin ETF from BlackRock is a significant catalyst for institutional interest. Even with minor outflows, the improved sentiment suggests a potential shift towards inflows, which could positively impact Bitcoin's price in the coming days."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nea209fa5ee77",
+      "title": "Grayscale Bitcoin Trust Gets a Bullish Bump After BlackRock ETF Filing",
+      "url": "https://finance.yahoo.com/news/grayscale-bitcoin-trust-gets-bullish-200659922.html",
+      "summary": "Following BlackRock's Bitcoin ETF application, the Grayscale Bitcoin Trust (GBTC) saw a significant price increase of over 12%. This surge in GBTC's share price reflects renewed investor optimism driven by the potential for a spot Bitcoin ETF. The positive reaction in GBTC, a proxy for institutional Bitcoin exposure, suggests a short-term bullish sentiment for Bitcoin itself.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "GBTC_price_surge",
+        "ETF_anticipation",
+        "investor_optimism"
+      ],
+      "rationale": "The immediate positive price reaction in GBTC following the BlackRock ETF filing indicates strong short-term bullish sentiment. This suggests that the market is pricing in the potential positive impact of an ETF approval on Bitcoin's price."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n6ac4c18bdee1",
+      "title": "Bitcoin, Ether, rise; most top 10 cryptos fall as SEC lawsuit weighs on investor sentiment",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-rise-most-top-092222416.html",
+      "summary": "Bitcoin and Ether saw gains while most other top cryptocurrencies declined, as investor sentiment remains cautious due to recent SEC lawsuits against Binance and Coinbase. Despite the overall market pressure from regulatory actions, Bitcoin and Ether showed resilience. This suggests that while regulatory uncertainty is a drag, the largest cryptocurrencies are holding their ground, indicating potential for short-term stability or slight upward movement.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "legal",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "SEC_lawsuit_impact",
+        "BTC_ETH_resilience",
+        "altcoin_underperformance"
+      ],
+      "rationale": "While regulatory actions are creating headwinds, Bitcoin and Ether showing relative strength against other altcoins suggests a flight to quality. This could lead to a short-term consolidation or slight upward movement for BTC and ETH as investors favor larger, more established assets."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nb2d72996cd8a",
+      "title": "Bitcoin and ether dip following SEC and Binance.US's temporary deal",
+      "url": "https://finance.yahoo.com/news/bitcoin-and-ether-dip-following-sec-and-binanceuss-temporary-deal-085137693.html",
+      "summary": "Bitcoin and Ether experienced slight dips as markets digested the SEC's temporary deal with Binance.US and recent Federal Reserve moves. Bitcoin held onto a weekly gain despite the dip. The news of the SEC's deal with Binance.US, while a short-term development, adds to the ongoing regulatory narrative. The market's reaction suggests a cautious approach, with minor price dips being absorbed.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "legal",
+        "regulation"
+      ],
+      "features_for_model": [
+        "SEC_Binance_deal",
+        "Fed_moves_impact",
+        "short_term_dip"
+      ],
+      "rationale": "The immediate reaction to the SEC's deal with Binance.US and broader Fed sentiment appears to be a slight downward pressure on Bitcoin and Ether. This suggests a short-term bearish bias as the market processes these regulatory and macroeconomic developments."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n3b9f2f2e6b8b",
+      "title": "Republic to Make US$5.25 Million Investment in INX and Enter into Collaboration Agreement as Part of Strategic Partnership to Maximize Growth of the Global Digital Asset Industry",
+      "url": "https://finance.yahoo.com/news/republic-us-5-25-million-134400700.html",
+      "summary": "Republic is investing $5.25 million in INX, a US-regulated broker-dealer and ATS, as part of a strategic partnership to foster growth in the global digital asset industry. This collaboration aims to build blockchain infrastructure and expand asset tokenization. Such partnerships between traditional financial entities and crypto firms can signal increasing mainstream adoption and potentially drive demand for underlying digital assets like Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Republic_INX_partnership",
+        "asset_tokenization_growth",
+        "mainstream_adoption_signal"
+      ],
+      "rationale": "Strategic investments and collaborations between established financial firms and crypto companies like this one can signal growing mainstream acceptance. This can lead to increased liquidity and demand for digital assets, potentially benefiting Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n83e82162fec5",
+      "title": "Bitcoin Reclaims Over 50% Market Dominance Following BlackRock ETF Filing",
+      "url": "https://finance.yahoo.com/news/bitcoin-reclaims-over-50-market-203312506.html",
+      "summary": "Bitcoin's market capitalization has surpassed that of all other cryptocurrencies combined, reaching over 50% dominance for the first time since May 2021. This resurgence in dominance, occurring after BlackRock's ETF filing, suggests a 'flight to quality' within the crypto market, with investors favoring Bitcoin amidst broader market uncertainty and regulatory scrutiny. This trend often precedes price appreciation for Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "dominance",
+        "ETF"
+      ],
+      "features_for_model": [
+        "BTC_dominance_increase",
+        "flight_to_quality",
+        "ETF_filing_impact"
+      ],
+      "rationale": "Bitcoin reclaiming over 50% market dominance is a strong bullish indicator, suggesting that capital is flowing into Bitcoin from altcoins. This often precedes a period of outperformance for Bitcoin, especially when driven by positive catalysts like ETF filings."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n48eaf1e18387",
+      "title": "Bitcoin Could Benefit From These 3 Bullish Tailwinds",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-benefit-3-bullish-121243974.html",
+      "summary": "Despite a recent pullback, Bitcoin's year-to-date performance remains strong, outperforming the Nasdaq. Bullish tailwinds include macroeconomic developments and a falling dollar index. The dollar index's decline suggests potential for increased liquidity and risk appetite, which could benefit Bitcoin. These factors point to a potentially positive short-term outlook for the cryptocurrency.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "bullish_tailwinds",
+        "dollar_index_weakness",
+        "macro_developments"
+      ],
+      "rationale": "Favorable macroeconomic conditions, such as a weakening dollar, can often correlate with increased investor interest in risk assets like Bitcoin. These tailwinds suggest a positive short-term outlook, potentially driving price appreciation."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n7dd79a1d01aa",
+      "title": "TAAL Accelerates Blockchain Utility for Enterprise With 98% Transaction Fee Reduction",
+      "url": "https://finance.yahoo.com/news/taal-accelerates-blockchain-utility-enterprise-130100800.html",
+      "summary": "Blockchain services provider TAAL has significantly reduced its transaction processing fees by 98% on the BSV blockchain, making them considerably lower than Bitcoin and Ethereum. This move aims to enhance enterprise utility and scalability. While this directly impacts BSV, it highlights the ongoing innovation in blockchain transaction costs, which could indirectly influence perceptions of Bitcoin's own transaction fees and scalability solutions.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "transaction_fee_reduction",
+        "blockchain_scalability",
+        "enterprise_utility"
+      ],
+      "rationale": "While this news pertains to BSV, significant reductions in transaction fees on other blockchains can put competitive pressure on Bitcoin's fee structure. This might indirectly encourage further development of Bitcoin's Layer 2 solutions to maintain competitiveness, but the immediate impact on Bitcoin's price is likely minimal."
+    },
+    {
+      "pick_idx": 46,
+      "id": "nca66ca8bb701",
+      "title": "Babylon v0.7.1 Goes Live With Smart Contract Capabilities and Bitcoin Security for dApps",
+      "url": "https://finance.yahoo.com/news/babylon-v0-7-1-goes-135144458.html",
+      "summary": "Babylon, a Bitcoin security sharing protocol, has deployed a major upgrade to its testnet, introducing smart contract capabilities using CosmoWasm and Wasmd. This allows developers to leverage Bitcoin's security for their applications and blockchains. The introduction of smart contract functionality on Bitcoin-related protocols can foster innovation and new use cases, potentially increasing demand for Bitcoin as a security layer.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "smart_contract_capability",
+        "Bitcoin_security_sharing",
+        "dApp_development"
+      ],
+      "rationale": "The enhancement of Bitcoin's utility through smart contract capabilities via protocols like Babylon is a positive development. It can attract developers and create new use cases, potentially increasing demand for Bitcoin's underlying security, which could translate to price appreciation."
+    },
+    {
+      "pick_idx": 50,
+      "id": "n8cbd8ca9c6f9",
+      "title": "Bitcoin, ether dip after SEC and Binance.US's deal, rate decision",
+      "url": "https://finance.yahoo.com/news/bitcoin-and-ether-dip-following-sec-and-binanceuss-temporary-deal-085137693.html",
+      "summary": "Bitcoin and Ether experienced slight dips as markets reacted to the SEC's temporary deal with Binance.US and the Federal Reserve's recent interest rate decisions. Bitcoin maintained a weekly gain despite the dip. This news indicates a cautious market sentiment, with minor price corrections occurring as traders digest regulatory and macroeconomic events.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "legal",
+        "macro"
+      ],
+      "features_for_model": [
+        "SEC_Binance_deal",
+        "Fed_rate_decision",
+        "short_term_price_dip"
+      ],
+      "rationale": "The immediate market reaction to regulatory news (SEC/Binance) and macroeconomic signals (Fed decision) suggests a slight bearish pressure on Bitcoin and Ether. This indicates a short-term cautious sentiment, potentially leading to minor price declines."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-06-19",
+    "summary": "Bitcoin and Ether showed resilience, trading relatively flat to slightly up, despite ongoing regulatory pressures from SEC lawsuits against major exchanges and a cautious market reaction to recent Fed decisions. The prospect of a spot Bitcoin ETF from BlackRock continues to be a significant bullish catalyst, boosting institutional sentiment and driving Bitcoin's market dominance higher. Meanwhile, developments in Bitcoin's utility, such as smart contract capabilities on related protocols, offer long-term positive signals. However, minor dips in BTC and ETH suggest short-term caution as the market digests these mixed signals.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued SEC enforcement actions against major crypto players.",
+      "Uncertainty surrounding the approval timeline and impact of spot Bitcoin ETFs.",
+      "Broader macroeconomic factors and potential shifts in Federal Reserve policy.",
+      "Volatility in altcoin markets potentially spilling over to Bitcoin.",
+      "Negative sentiment from ongoing regulatory crackdowns could dampen investor appetite."
+    ],
+    "watch_items": [
+      "BlackRock ETF filing developments",
+      "SEC vs. Coinbase lawsuit updates",
+      "US CPI and FOMC meeting minutes (upcoming)",
+      "Bitcoin dominance trends",
+      "On-chain data for exchange flows and miner activity"
+    ]
+  }
+}

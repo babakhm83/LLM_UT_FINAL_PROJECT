@@ -1,0 +1,519 @@
+{
+  "date": "2022-10-29",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "ncdb76a49675c",
+      "title": "Markets: Bitcoin, Ether rise along with all top 10 crypto as inflation sell-off turns bullish",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-rise-along-101903852.html",
+      "summary": "Bitcoin and Ether saw price increases, alongside other top cryptocurrencies, indicating a potential shift in market sentiment following an inflation-driven sell-off. This suggests that despite broader macroeconomic pressures, crypto assets are showing resilience and potential for recovery. The gains, particularly in XRP, highlight specific project developments influencing market movements.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery",
+        "ETH_price_recovery",
+        "XRP_gains",
+        "inflation_sentiment"
+      ],
+      "rationale": "The article indicates a broader market recovery, with Bitcoin and Ether leading the gains. This suggests a potential shift in investor sentiment away from risk-off, which could have sustained positive effects on the crypto market."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nadd1b7559010",
+      "title": "Crypto Investors Yanked Money From ETH Products Despite a Smooth Ethereum Merge",
+      "url": "https://finance.yahoo.com/news/crypto-investors-yanked-money-eth-204113569.html",
+      "summary": "Despite the successful Ethereum Merge, investment products tied to ETH experienced outflows for a fourth consecutive week. This cautious investor behavior, contrasting with inflows into Bitcoin products, suggests a lingering skepticism or a preference for Bitcoin's perceived stability post-Merge. The trend indicates a potential short-term drag on ETH's price momentum as investors digest the implications of the upgrade.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "protocol"
+      ],
+      "features_for_model": [
+        "ETH_outflows",
+        "ETH_Merge_impact",
+        "BTC_inflows"
+      ],
+      "rationale": "Consistent outflows from ETH products, even after a significant protocol upgrade, signal investor caution. This suggests that the market may not be fully pricing in the Merge's positive long-term effects, potentially leading to underperformance relative to Bitcoin in the near to medium term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nd85a072d9731",
+      "title": "Bitcoin Mining Is About to Get Tougher With Difficulty Primed for Another Sharp Rise",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-tougher-difficulty-primed-182714768.html",
+      "summary": "The difficulty of mining a Bitcoin block is set to increase significantly, which will further pressure the profitability of miners. This adjustment is a natural consequence of a rising network hashrate, indicating increased participation and computational power dedicated to securing the Bitcoin blockchain. Higher difficulty directly impacts miner revenue and operational costs, potentially leading to consolidation or reduced mining activity if profitability becomes unsustainable.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "BTC_mining_difficulty_increase",
+        "miner_profitability_pressure",
+        "network_hashrate"
+      ],
+      "rationale": "An increase in Bitcoin mining difficulty directly impacts miner profitability. This could lead to miners selling BTC to cover costs, increasing sell pressure, or reducing their operational capacity, which might indirectly affect network security perceptions."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n65e9c16e7010",
+      "title": "First Mover Americas: Bitcoin, Ether Slip as UK Inflation Hits 40-Year High",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-ether-124145580.html",
+      "summary": "Bitcoin and Ether experienced price declines as U.S. stock futures showed slight gains ahead of corporate earnings. The primary driver for the crypto market's dip appears to be the release of a report indicating that U.K. inflation reached a new 40-year high, exacerbating global macroeconomic concerns. This suggests that broader inflation data, particularly from major economies, continues to be a significant factor influencing crypto asset prices.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "BTC_price_slip",
+        "ETH_price_slip",
+        "UK_inflation_high",
+        "macroeconomic_concerns"
+      ],
+      "rationale": "High inflation figures in the UK, a major economy, contribute to global macroeconomic uncertainty. This typically leads to a risk-off sentiment, negatively impacting risk assets like Bitcoin and Ether."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n962468785223",
+      "title": "Markets: Bitcoin price back above US$20,000, Ether jumps as U.K. votes to regulate crypto",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-price-back-above-011242513.html",
+      "summary": "Bitcoin surpassed $20,000, a three-week high, with Ether also seeing significant gains. This positive price action coincided with the U.K. parliament voting to regulate crypto assets as financial instruments. The regulatory clarity provided by the U.K. is seen as a catalyst for increased institutional adoption and investor confidence, potentially driving sustained growth for both Bitcoin and Ether.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_above_20k",
+        "ETH_price_jump",
+        "UK_crypto_regulation",
+        "regulatory_clarity"
+      ],
+      "rationale": "The U.K.'s move towards regulating crypto as financial instruments provides much-needed clarity. This is a significant step towards institutional adoption, which can lead to increased capital inflows and sustained bullish sentiment for Bitcoin and Ether."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nd2cda29a88b2",
+      "title": "Markets: XRP jumps amid court ruling against SEC, Bitcoin gains, Ether sole loser in crypto top 10",
+      "url": "https://finance.yahoo.com/news/markets-xrp-jumps-amid-court-013442752.html",
+      "summary": "Bitcoin saw modest gains, while XRP surged significantly following a favorable court ruling against the SEC. Notably, Ether was the only cryptocurrency among the top 10 to experience a decline. This divergence highlights the impact of specific legal and regulatory developments on individual altcoins, while Bitcoin demonstrates broader market resilience.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "protocol"
+      ],
+      "features_for_model": [
+        "XRP_gains",
+        "SEC_vs_Ripple_ruling",
+        "BTC_gains",
+        "ETH_loss"
+      ],
+      "rationale": "The positive ruling for XRP against the SEC is a significant legal development that boosts confidence in altcoins facing regulatory scrutiny. While Bitcoin shows general market strength, Ether's underperformance suggests specific headwinds or a rotation of capital into other assets."
+    },
+    {
+      "pick_idx": 16,
+      "id": "ndf9d2d198e6d",
+      "title": "Bitcoin leaps above $21,000 as U.S. dollar sags",
+      "url": "https://finance.yahoo.com/news/bitcoin-leaps-over-20-000-074642566.html",
+      "summary": "Bitcoin surged past $20,000, reaching a two-week high, with Ether also showing gains. This rally was attributed to a broad weakening of the U.S. dollar and a general improvement in market sentiment. The correlation between the dollar's performance and Bitcoin's price suggests that a weaker dollar can be a significant bullish catalyst for cryptocurrencies.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "currency"
+      ],
+      "features_for_model": [
+        "BTC_price_above_21k",
+        "USD_weakness",
+        "ETH_gains",
+        "market_sentiment_improvement"
+      ],
+      "rationale": "A weakening U.S. dollar often correlates with increased investor appetite for risk assets, including Bitcoin. This macroeconomic trend provides a strong tailwind for Bitcoin's price appreciation."
+    },
+    {
+      "pick_idx": 25,
+      "id": "nb8dfd23aff90",
+      "title": "Crucial US Jobs Report Could Test Fed's Resolve, Bitcoin's Resilience",
+      "url": "https://finance.yahoo.com/news/crucial-us-jobs-report-could-195742565.html",
+      "summary": "An upcoming U.S. jobs report is poised to influence the Federal Reserve's monetary policy decisions, potentially impacting Bitcoin's resilience. If the report indicates a strong labor market, it could embolden the Fed to maintain its hawkish stance, which would likely put pressure on risk assets like Bitcoin. Conversely, a weaker jobs report might signal a potential Fed pivot, benefiting Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_jobs_report",
+        "Fed_monetary_policy",
+        "BTC_resilience",
+        "inflation_data"
+      ],
+      "rationale": "The U.S. jobs report is a critical macroeconomic indicator that directly influences the Federal Reserve's interest rate decisions. A strong report could lead to continued tightening, negatively impacting Bitcoin, while a weak report might signal a pivot, benefiting Bitcoin."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n38aff76bbb1d",
+      "title": "Global Bitcoin Market Report (2022 to 2030) - Featuring Coinbase, Unocoin Technologies, Bitstamp and BitPay Among Others",
+      "url": "https://finance.yahoo.com/news/global-bitcoin-market-report-2022-121300604.html",
+      "summary": "A market report projects the global Bitcoin market to reach $132.91 billion by 2030, with a compound annual growth rate (CAGR) of 26.2%. This growth is attributed to increasing global acceptance of cryptocurrencies and their associated advantages. The report highlights key players like Coinbase, Unocoin, Bitstamp, and BitPay, indicating a maturing ecosystem and growing institutional interest.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_market_size_projection",
+        "BTC_CAGR_26.2%",
+        "global_crypto_acceptance",
+        "institutional_interest"
+      ],
+      "rationale": "The projected significant growth of the Bitcoin market by 2030, driven by increasing global acceptance and institutional interest, provides a strong long-term bullish outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n86e38295aa3f",
+      "title": "Saylor's MicroStrategy buys $6M more bitcoin, now holds 130,000 total",
+      "url": "https://finance.yahoo.com/news/saylors-microstrategy-buys-bitcoin-125728492.html",
+      "summary": "MicroStrategy, the largest corporate holder of Bitcoin, has purchased an additional 301 bitcoins for approximately $6 million. This acquisition increases their total holdings to 130,000 bitcoins. The company's continued accumulation of Bitcoin, even during market downturns, signals strong conviction in its long-term value and serves as a significant indicator of institutional adoption.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_purchase",
+        "MSTR_holdings_130k",
+        "institutional_accumulation",
+        "corporate_treasury_strategy"
+      ],
+      "rationale": "MicroStrategy's consistent accumulation of Bitcoin, even at current price levels, demonstrates strong institutional conviction. This ongoing buying pressure from a major corporate entity is a bullish signal for the long-term value of Bitcoin."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n400183bc9442",
+      "title": "The 3 Best Bank Stocks to Buy Following Q3 Earnings",
+      "url": "https://finance.yahoo.com/news/3-best-bank-stocks-buy-111459665.html",
+      "summary": "Bank stocks reportedly sparked a recent market rally, with positive Q3 earnings reports easing investor concerns. The S&P 500 bank index saw a significant rise in October, outperforming the broader S&P 500. This suggests a potential spillover effect into other risk assets, including cryptocurrencies, as improved sentiment in traditional finance can boost overall market confidence.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "bank_stock_rally",
+        "Q3_earnings_positive",
+        "S&P_500_bank_index_gain",
+        "market_sentiment_improvement"
+      ],
+      "rationale": "Positive earnings from the banking sector can improve overall market sentiment, potentially leading to increased risk appetite and a positive spillover effect on crypto markets in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n1aa3c79406ae",
+      "title": "This Week in Coins: Bitcoin and Ethereum See Green Shoots, Dogecoin Gets Musk Twitter Bump",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-see-140911361.html",
+      "summary": "Crypto markets experienced a recovery this week, with Bitcoin up 8% and Ethereum up 24%. Dogecoin also saw a significant bump, attributed to Elon Musk's nearing Twitter deal. This broad market uptrend, driven by both general recovery and specific catalyst events like the Musk-Twitter news, suggests positive momentum for the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "listing"
+      ],
+      "features_for_model": [
+        "BTC_weekly_gain_8%",
+        "ETH_weekly_gain_24%",
+        "DOGE_Musk_Twitter_bump",
+        "market_recovery"
+      ],
+      "rationale": "The broad market recovery, with significant gains in BTC and ETH, coupled with a specific catalyst for DOGE, indicates positive short-term momentum. The Musk-Twitter deal is a direct driver for DOGE and contributes to overall positive sentiment."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nce9d72907a16",
+      "title": "Bitcoin Software Company Synonym Launches Bitkit, a Bitcon Wallet Powered by Slashtags Protocol",
+      "url": "https://finance.yahoo.com/news/bitcoin-software-company-synonym-launches-163000162.html",
+      "summary": "Synonym has launched Bitkit, a new Bitcoin wallet app featuring portable web profiles and passwordless accounts, powered by their Slashtags protocol. The wallet is Lightning-compatible. This development enhances Bitcoin's usability and accessibility, potentially attracting new users and increasing transaction volume on the Lightning Network.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitkit_wallet_launch",
+        "Slashtags_protocol",
+        "Lightning_compatibility",
+        "passwordless_authentication"
+      ],
+      "rationale": "The launch of a new, user-friendly Bitcoin wallet with Lightning compatibility improves the user experience and could drive adoption of the Lightning Network, a positive development for Bitcoin's utility."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb10f57644ad1",
+      "title": "Bitcoin Booming, Big Eyes Launch Looming, Fiat Currency Fuming",
+      "url": "https://finance.yahoo.com/news/bitcoin-booming-big-eyes-launch-170443179.html",
+      "summary": "Bitcoin has surpassed $20,000, signaling a surge in value and renewed investor confidence across the crypto market. The article also mentions the upcoming launch of Big Eyes Coin (BIG) and contrasts the performance of cryptocurrencies with the perceived struggles of fiat currencies. This suggests a positive short-term sentiment driven by Bitcoin's price action and new project launches.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_above_20k",
+        "Big_Eyes_Coin_launch",
+        "fiat_currency_sentiment",
+        "crypto_market_surge"
+      ],
+      "rationale": "Bitcoin's return above $20,000 is a significant psychological and technical level, boosting overall market sentiment. This positive momentum is likely to carry into the short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf5ea88078af8",
+      "title": "Big Eyes Coin, Apecoin, And Bitcoin Holders Could Be Amongst The Biggest Gainers In 2023",
+      "url": "https://finance.yahoo.com/news/big-eyes-coin-apecoin-bitcoin-171523439.html",
+      "summary": "The article suggests that holders of Big Eyes Coin, ApeCoin, and Bitcoin could see significant gains in 2023, implying a positive outlook for these assets. While the focus is on 2023, the underlying sentiment of optimism and potential for growth can influence short-term trading behavior, especially for Bitcoin which is already showing signs of recovery.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BIG_potential_gains",
+        "APE_potential_gains",
+        "BTC_potential_gains_2023",
+        "crypto_optimism"
+      ],
+      "rationale": "While the primary focus is on 2023, the optimistic sentiment surrounding Bitcoin's potential for gains can contribute to positive short-term price action as traders anticipate future growth."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n8e8413e85693",
+      "title": "Buy Rocketize To Gain Access To a More Versatile Ecosystem Than Bitcoin and Chainlink",
+      "url": "https://finance.yahoo.com/news/buy-rocketize-gain-access-more-171857327.html",
+      "summary": "The article positions Rocketize as a more versatile ecosystem than Bitcoin and Chainlink, highlighting Bitcoin's influence but also its limitations. This comparison suggests that while Bitcoin remains a dominant force, new projects are emerging with aspirations to offer enhanced functionality, which could indirectly impact Bitcoin's narrative if they gain traction.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Rocketize_ecosystem",
+        "BTC_versatility_comparison",
+        "Chainlink_comparison",
+        "new_project_narrative"
+      ],
+      "rationale": "Comparisons to Bitcoin by new projects, while not directly impacting Bitcoin's price in the short term, reflect ongoing innovation. The market's reaction to such narratives can create minor volatility or shifts in attention."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n70e44c2ddd9a",
+      "title": "ICE takes $1.1 billion write-down for stake in crypto platform Bakkt",
+      "url": "https://finance.yahoo.com/news/ice-takes-11-billion-write-down-for-stake-in-crypto-platform-bakkt-175824568.html",
+      "summary": "Intercontinental Exchange (ICE) is taking a substantial $1.1 billion write-off for its investment in crypto platform Bakkt. This significant impairment highlights the challenges and volatility associated with crypto-related investments, even for established financial institutions. Such news can negatively impact broader market sentiment and investor confidence in the crypto space.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "institutional",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "ICE_Bakkt_write-down",
+        "Bakkt_impairment",
+        "institutional_crypto_exposure",
+        "market_sentiment_negative"
+      ],
+      "rationale": "A large write-down by a major financial institution like ICE on its crypto investment signals potential headwinds and can dampen overall market sentiment, leading to short-term bearish pressure."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n1aa3c79406ae",
+      "title": "This Week in Coins: Bitcoin and Ethereum See Green Shoots, Dogecoin Gets Musk Twitter Bump",
+      "url": "https://finance.yahoo.com/news/week-coins-bitcoin-ethereum-see-140911361.html",
+      "summary": "Crypto markets experienced a recovery this week, with Bitcoin up 8% and Ethereum up 24%. Dogecoin also saw a significant bump, attributed to Elon Musk's nearing Twitter deal. This broad market uptrend, driven by both general recovery and specific catalyst events like the Musk-Twitter news, suggests positive momentum for the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "listing"
+      ],
+      "features_for_model": [
+        "BTC_weekly_gain_8%",
+        "ETH_weekly_gain_24%",
+        "DOGE_Musk_Twitter_bump",
+        "market_recovery"
+      ],
+      "rationale": "The broad market recovery, with significant gains in BTC and ETH, coupled with a specific catalyst for DOGE, indicates positive short-term momentum. The Musk-Twitter deal is a direct driver for DOGE and contributes to overall positive sentiment."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nb10f57644ad1",
+      "title": "Bitcoin Booming, Big Eyes Launch Looming, Fiat Currency Fuming",
+      "url": "https://finance.yahoo.com/news/bitcoin-booming-big-eyes-launch-170443179.html",
+      "summary": "Bitcoin has surpassed $20,000, signaling a surge in value and renewed investor confidence across the crypto market. The article also mentions the upcoming launch of Big Eyes Coin (BIG) and contrasts the performance of cryptocurrencies with the perceived struggles of fiat currencies. This suggests a positive short-term sentiment driven by Bitcoin's price action and new project launches.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_price_above_20k",
+        "Big_Eyes_Coin_launch",
+        "fiat_currency_sentiment",
+        "crypto_market_surge"
+      ],
+      "rationale": "Bitcoin's return above $20,000 is a significant psychological and technical level, boosting overall market sentiment. This positive momentum is likely to carry into the short term."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n2188017f2073",
+      "title": "ICE takes $1.1 billion write down for stake in crypto platform Bakkt",
+      "url": "https://finance.yahoo.com/news/ice-takes-11-billion-write-down-for-stake-in-crypto-platform-bakkt-175824568.html",
+      "summary": "Intercontinental Exchange (ICE) is taking a substantial $1.1 billion write-off for its investment in crypto platform Bakkt. This significant impairment highlights the challenges and volatility associated with crypto-related investments, even for established financial institutions. Such news can negatively impact broader market sentiment and investor confidence in the crypto space.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "institutional",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "ICE_Bakkt_write-down",
+        "Bakkt_impairment",
+        "institutional_crypto_exposure",
+        "market_sentiment_negative"
+      ],
+      "rationale": "A large write-down by a major financial institution like ICE on its crypto investment signals potential headwinds and can dampen overall market sentiment, leading to short-term bearish pressure."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-10-29",
+    "summary": "The crypto market is showing signs of recovery, with Bitcoin and Ethereum experiencing notable gains this week. Positive sentiment is bolstered by Bitcoin's return above the $20,000 mark and specific catalysts like Elon Musk's potential Twitter acquisition impacting Dogecoin. However, broader macroeconomic concerns, such as high inflation in the UK, and institutional setbacks like ICE's write-down on Bakkt, introduce some uncertainty. The UK's move towards crypto regulation is a long-term bullish signal, while ongoing job reports will continue to influence Fed policy and, consequently, Bitcoin's resilience.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued high inflation globally impacting risk asset appetite.",
+      "Aggressive interest rate hikes by the Federal Reserve.",
+      "Regulatory uncertainty in key jurisdictions beyond the UK.",
+      "Potential for negative news from major institutional players in the crypto space.",
+      "Geopolitical instability affecting global markets."
+    ],
+    "watch_items": [
+      "US Jobs Report (next release)",
+      "Federal Reserve statements on monetary policy",
+      "Elon Musk's Twitter deal progression",
+      "Developments in UK crypto regulation",
+      "Performance of major altcoins like ETH and DOGE"
+    ]
+  }
+}

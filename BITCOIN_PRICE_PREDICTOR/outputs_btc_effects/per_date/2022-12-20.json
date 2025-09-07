@@ -1,0 +1,527 @@
+{
+  "date": "2022-12-20",
+  "long_term": [
+    {
+      "pick_idx": 16,
+      "id": "n0ddf5b9ae81d",
+      "title": "Bitcoin Gains 10% After Report Showed US Consumer Prices Rose Slower Than Expected in October",
+      "url": "https://finance.yahoo.com/news/bitcoin-jumps-u-consumer-prices-133714336.html",
+      "summary": "Bitcoin experienced a significant price surge of approximately 10% following the release of the October Consumer Price Index (CPI) report. The CPI rose 0.4% month-over-month, falling short of the expected 0.6%, and the annual pace slowed to 7.7% from 8.2%. This cooler-than-expected inflation data provided a boost to risk assets, including Bitcoin, which had recently hit a two-year low. The positive inflation surprise suggests a potential shift in the Federal Reserve's monetary policy stance, which could be beneficial for cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "CPI_data",
+        "inflation_report",
+        "Fed_policy_expectation",
+        "risk_on_sentiment"
+      ],
+      "rationale": "Lower-than-expected inflation data typically leads to a less hawkish stance from central banks, reducing the pressure on risk assets like Bitcoin. This event signaled a potential shift in macroeconomic conditions that could support a recovery in crypto prices."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n30b3b0e08f5a",
+      "title": "First Mover Americas: FTX Fallout Heats Up",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-ftx-fallout-131805938.html",
+      "summary": "The collapse of FTX has sent shockwaves through the crypto market, leading to significant liquidations of long positions exceeding $700 million in 24 hours. This event has intensified scrutiny on crypto exchanges and the broader industry, contributing to a sharp decline in the CoinDesk Market Index and Bitcoin and Ethereum prices. The fallout from FTX's failure is creating a climate of fear and uncertainty, impacting investor sentiment and potentially leading to further contagion across the crypto ecosystem.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "FTX_collapse",
+        "exchange_contagion",
+        "liquidation_event",
+        "investor_sentiment_downturn"
+      ],
+      "rationale": "The FTX collapse represented a systemic risk event, eroding trust and liquidity in the crypto market. The long-term impact includes increased regulatory scrutiny and a potential deleveraging cycle, which would weigh on prices for an extended period."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n4c21a937e83c",
+      "title": "Regulators circle FTX as rival exchanges try to calm investors",
+      "url": "https://finance.yahoo.com/news/regulators-scrutinise-ftx-investor-focus-064800052.html",
+      "summary": "Following the collapse of FTX, regulatory bodies including the U.S. Justice Department, SEC, and CFTC have initiated investigations into the exchange and its executives. This heightened regulatory attention signals a potential for stricter oversight and new regulations within the cryptocurrency industry. Meanwhile, rival exchanges are attempting to reassure investors about their own stability amidst the growing concerns and market turmoil.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "FTX_investigation",
+        "regulatory_scrutiny",
+        "SEC_CFTC_DOJ",
+        "industry_regulation_increase"
+      ],
+      "rationale": "The intensified regulatory focus on FTX's collapse will likely lead to more comprehensive regulations for the crypto industry. While this could bring long-term stability, the immediate aftermath may involve uncertainty and potential crackdowns, impacting market sentiment and adoption."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n79669492e1f7",
+      "title": "Institutions Take Bearish Stance on Bitcoin, Create Arbitrage Opportunity",
+      "url": "https://finance.yahoo.com/news/institutions-bearish-stance-bitcoin-steep-094032686.html",
+      "summary": "Institutional investors are exhibiting a bearish sentiment towards Bitcoin, as evidenced by their concentrated short positions in CME Bitcoin futures. This has led to backwardation in the market, where futures prices are lower than spot prices, creating an arbitrage opportunity. The significant institutional activity on the short side suggests a lack of confidence in near-term price appreciation and could indicate further downward pressure on Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "macro"
+      ],
+      "features_for_model": [
+        "institutional_sentiment",
+        "CME_futures",
+        "short_position",
+        "backwardation"
+      ],
+      "rationale": "A strong bearish institutional stance, particularly in derivatives markets, can significantly influence price action. This indicates a lack of conviction from large players, potentially leading to sustained downward pressure or a prolonged period of consolidation."
+    },
+    {
+      "pick_idx": 36,
+      "id": "n05161cdb4d4c",
+      "title": "Goldman Sachs launches crypto explainer, trend tool for institutional clients",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-launches-crypto-explainer-035644540.html",
+      "summary": "Goldman Sachs, a major investment bank, has launched 'Datonomy,' a new tool designed to explain, categorize, and bring transparency to digital currency markets for its institutional clients. Developed in collaboration with MSCI and Coin Metrics, Datonomy aims to provide a standardized framework for understanding cryptocurrencies. This initiative by a traditional financial institution signifies growing institutional interest and a move towards greater clarity and accessibility in the crypto space.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs",
+        "institutional_adoption",
+        "crypto_data_tool",
+        "market_transparency"
+      ],
+      "rationale": "The development of tools by major financial institutions like Goldman Sachs to help institutional clients navigate the crypto market indicates increasing adoption and a maturing industry. This can lead to greater capital inflows and broader acceptance of digital assets."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n77bf64eac1ec",
+      "title": "Bitcoin's Lightning Network Could Be Getting a Privacy Upgrade",
+      "url": "https://finance.yahoo.com/news/bitcoins-lightning-network-could-getting-155635576.html",
+      "summary": "The Bitcoin Lightning Network, a layer-2 scaling solution, is exploring a privacy upgrade through a proposed system called BOLT 12. This development aims to address existing privacy concerns related to payment channels and transactions on the network. Enhancements in privacy could lead to increased user adoption and utility for the Lightning Network, potentially boosting Bitcoin's transactional capabilities and overall ecosystem growth.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network",
+        "privacy_upgrade",
+        "BOLT12",
+        "scaling_solution"
+      ],
+      "rationale": "Improvements to the Lightning Network, particularly in privacy, are crucial for its long-term adoption and utility. Enhanced privacy can attract more users and developers, strengthening Bitcoin's use case as a medium of exchange."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n3c34fce6197c",
+      "title": "Bitfarms Provides October 2022 Production and Mining Operations Update",
+      "url": "https://finance.yahoo.com/news/bitfarms-provides-october-2022-production-110000758.html",
+      "summary": "Bitfarms reported mining 486 BTC in October 2022, putting them on track to exceed 5,000 BTC mined for the year. The company is progressing with its Garlock farm expansion. This update highlights the operational efficiency and production capacity of a significant Bitcoin mining company, indicating continued network security and hash rate contributions despite challenging market conditions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_production",
+        "hashrate_update",
+        "Bitfarms_operations",
+        "miner_efficiency"
+      ],
+      "rationale": "Consistent and increasing BTC production by major miners like Bitfarms demonstrates the resilience of the Bitcoin network's infrastructure. This contributes to network security and signals ongoing investment in mining operations, which is a positive long-term indicator."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nbbf5d2237881",
+      "title": "CleanSpark Releases October 2022 Bitcoin Mining Update",
+      "url": "https://finance.yahoo.com/news/cleanspark-releases-october-2022-bitcoin-130000277.html",
+      "summary": "CleanSpark mined a record 532 BTC in October 2022, a 19% increase from September, and completed phase two of its immersion-cooled mining campus. This operational expansion and increased production highlight the company's growth and efficiency in a challenging market. Such updates from mining companies are crucial for understanding the health of the Bitcoin network's hash rate and security.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_production",
+        "hashrate_update",
+        "CleanSpark_operations",
+        "miner_efficiency"
+      ],
+      "rationale": "CleanSpark's record BTC production and infrastructure expansion demonstrate continued investment and operational strength within the mining sector. This contributes positively to the overall hash rate and security of the Bitcoin network, a fundamental long-term driver."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n6aafea520e96",
+      "title": "Crypto Users Want to Pay Taxes, but We Need Clearer Rules",
+      "url": "https://finance.yahoo.com/news/crypto-users-want-pay-taxes-143149692.html",
+      "summary": "The crypto community expresses a desire for clearer tax regulations, indicating a growing maturity and willingness to comply with financial frameworks. The article suggests that while some associate crypto with libertarian ideals, the current community is diverse and seeks clarity. This points to an evolving landscape where regulatory frameworks are becoming increasingly important for mainstream adoption and integration.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "tax_regulation",
+        "crypto_compliance",
+        "regulatory_clarity",
+        "mainstream_adoption_driver"
+      ],
+      "rationale": "The demand for clearer tax rules signifies a move towards greater legitimacy and integration of crypto into traditional financial systems. This clarity is essential for attracting institutional capital and fostering broader adoption, which are positive long-term developments."
+    },
+    {
+      "pick_idx": 38,
+      "id": "nd0214556926a",
+      "title": "QUOTEBOX-Crypto winter end in sight as Ethereum looks to shake the chills- analysts",
+      "url": "https://finance.yahoo.com/news/quotebox-crypto-winter-end-sight-144150417.html",
+      "summary": "Analysts suggest that the end of the crypto winter may be in sight, with Ethereum and projects focused on real-world utility expected to lead the next growth phase. Despite Bitcoin's significant price drop from its all-time high, there's an expectation of market recovery in 2023. The focus on utility and regulation is seen as key to shaking off the current downturn and driving future market performance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "crypto_winter_outlook",
+        "Ethereum_utility",
+        "market_recovery_expectation",
+        "regulatory_focus"
+      ],
+      "rationale": "Analyst sentiment pointing towards the end of the crypto winter and a focus on utility-driven projects like Ethereum suggests a potential shift towards more sustainable growth. This outlook, coupled with anticipated regulatory clarity, could foster a more positive investment environment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nc54a8d798519",
+      "title": "First Mover Asia: Taiwan's Dreams of Becoming Blockchain Hub Prove Elusive",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-taiwans-dreams-013425636.html",
+      "summary": "Bitcoin is trading lower into Asia hours, with some analysts questioning its resilience compared to stocks during an earnings recession. Taiwan's ambition to become a blockchain hub remains elusive despite a recent Taipei Blockchain Week. The price action suggests a continuation of the bearish trend, with broader market sentiment impacting crypto.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "Asia_trading_session",
+        "earnings_recession_fear",
+        "blockchain_hub_ambition"
+      ],
+      "rationale": "The immediate price action shows Bitcoin moving lower, influenced by broader market concerns and a lack of positive catalysts. This suggests continued short-term weakness."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n13b756146ac0",
+      "title": "Markets: Bitcoin, Ether fall; Dogecoin drops after poll says Musk should quit as Twitter boss",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-ether-fall-dogecoin-014616878.html",
+      "summary": "Bitcoin and Ether prices declined in Asian trading, alongside other top cryptocurrencies, amid ongoing concerns about crypto exchange stability and a potential global recession. Dogecoin experienced the most significant losses following a Twitter poll suggesting Elon Musk should step down as CEO. This sentiment around Musk's leadership directly impacts Dogecoin's price.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_ETH_price_decline",
+        "DOGE_price_drop",
+        "Elon_Musk_sentiment",
+        "recession_fear"
+      ],
+      "rationale": "The negative sentiment surrounding Elon Musk's potential departure from Twitter is directly impacting Dogecoin, causing a sharp price drop. This event highlights the coin's sensitivity to his public actions and statements."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n57f71c21f87f",
+      "title": "Dogecoin Down 11% After Twitter Poll Says Elon Musk Should Leave CEO Post",
+      "url": "https://finance.yahoo.com/news/dogecoin-down-11-twitter-poll-001831686.html",
+      "summary": "Dogecoin's price fell over 10% to $0.07 after Elon Musk initiated a Twitter poll asking if he should step down as CEO. This decline mirrors broader market weakness, with Bitcoin, Ethereum, and major stock indices also experiencing drops due to recession fears and company collapses like FTX. The poll's outcome directly correlates with Dogecoin's price movement.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "DOGE_price_drop",
+        "Elon_Musk_poll",
+        "CEO_departure_speculation",
+        "market_sentiment"
+      ],
+      "rationale": "The direct correlation between Elon Musk's Twitter poll and Dogecoin's price drop indicates a strong short-term influence. The market is reacting negatively to the uncertainty surrounding Musk's leadership at Twitter."
+    },
+    {
+      "pick_idx": 24,
+      "id": "na253de9a6f61",
+      "title": "First Mover Americas: Bankrupt BlockFi Asks US Court to Greenlight Withdrawals",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bankrupt-blockfi-142015875.html",
+      "summary": "Bankrupt crypto lender BlockFi has filed a motion with the U.S. Bankruptcy Court to allow customer withdrawals. The company argues that funds in BlockFi wallets belong to customers and that it has no claim over these frozen assets. This move could potentially unlock liquidity for affected users, but the outcome depends on court approval.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "legal"
+      ],
+      "features_for_model": [
+        "BlockFi_bankruptcy",
+        "customer_withdrawal_request",
+        "court_filing",
+        "liquidity_unlock_potential"
+      ],
+      "rationale": "The court's decision on BlockFi's withdrawal request will have a direct impact on liquidity for affected users and could set a precedent for other bankrupt crypto firms. The uncertainty surrounding the approval creates a short-term risk."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n01d8c885a9a7",
+      "title": "What Are Proof of Reserves And Why Do They Matter?",
+      "url": "https://finance.yahoo.com/news/proof-reserves-why-matter-093221532.html",
+      "summary": "Proof of Reserves (PoR) is a method for verifying a crypto firm's holdings, ensuring a 1:1 backing of customer assets. Following the FTX collapse, the demand for PoR attestations has surged as investors seek transparency and trust. While not traditional audits, these reports aim to alleviate fears about exchange solvency and are becoming crucial for market confidence.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "liquidity",
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "proof_of_reserves",
+        "exchange_transparency",
+        "FTX_fallout",
+        "investor_trust"
+      ],
+      "rationale": "The increasing focus on proof of reserves is a positive development for market transparency and trust. Exchanges providing verifiable proof of their holdings could attract more capital and improve overall market sentiment in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n32b6f1cb9aec",
+      "title": "Decrypt’s 2022 Crypto Project of the Year: Polygon",
+      "url": "https://finance.yahoo.com/news/decrypt-2022-crypto-project-polygon-202953105.html",
+      "summary": "Polygon has been recognized as Decrypt's Crypto Project of the Year for 2022 due to its significant strides in onboarding users and its robust infrastructure. The platform has attracted major brands for Web3 initiatives, evolving from a scaling solution to a favored platform for enterprise adoption. This recognition highlights Polygon's strong development and adoption trajectory.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Polygon_adoption",
+        "project_of_the_year",
+        "web3_infrastructure",
+        "enterprise_partnerships"
+      ],
+      "rationale": "Positive recognition and continued adoption by major brands for Polygon's scaling solutions can provide a short-term boost to its ecosystem and potentially influence sentiment towards other Layer-2 solutions."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n4c2444434f3b",
+      "title": "Cipher Mining Expands Operations at Odessa Data Center",
+      "url": "https://finance.yahoo.com/news/cipher-mining-expands-operations-odessa-210500049.html",
+      "summary": "Cipher Mining is expanding its operations by acquiring new mining rigs for its Odessa data center, increasing its self-mining hashrate to approximately 6 EH/s. This expansion, with a significant portion expected to be operational by year-end, demonstrates continued investment in mining infrastructure despite market downturns. The company has secured its fleet with no further payments remaining.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Cipher_Mining_expansion",
+        "Odessa_data_center",
+        "mining_rigs",
+        "hashrate_increase"
+      ],
+      "rationale": "Expansion of mining operations by companies like Cipher Mining signals continued investment in the Bitcoin network's infrastructure. This can be seen as a positive short-term indicator of network health and security."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n305458ad5a2b",
+      "title": "Bitcoin Miner Greenidge Reaches Debt Restructuring Deal With NYDIG as Bankruptcy Looms",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-greenidge-reaches-debt-124316270.html",
+      "summary": "Bitcoin miner Greenidge Generation has reached a debt restructuring agreement with NYDIG for $74.7 million, though bankruptcy remains a possibility. The company requires an additional $20 million in funding to avoid bankruptcy. This news highlights the financial pressures on some mining operations, which could impact hashrate if they cease operations.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Greenidge_miner",
+        "debt_restructuring",
+        "NYDIG_deal",
+        "bankruptcy_risk"
+      ],
+      "rationale": "The precarious financial situation of Greenidge Mining, even with a debt restructuring deal, poses a short-term risk. A potential bankruptcy could lead to a reduction in hashrate, impacting network security and sentiment."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n5c365a0ab951",
+      "title": "Bitcoin mining difficulty rises 3.27% in latest adjustment",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-rises-3-042819327.html",
+      "summary": "The Bitcoin mining difficulty increased by 3.27% in the latest biweekly adjustment, reaching 35.36 trillion. This rise follows a previous drop and occurs as some mining firms face cash shortages due to lower Bitcoin prices and high energy costs. The increase in difficulty suggests a robust network hash rate, with miners continuing to operate despite challenging conditions.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "mining_difficulty_increase",
+        "hashrate_robustness",
+        "miner_operations",
+        "energy_costs"
+      ],
+      "rationale": "An increase in Bitcoin mining difficulty indicates that the network's hash rate remains strong, suggesting that miners are actively participating. This is a positive sign for network security and stability in the short term."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n2231a245c1d7",
+      "title": "Bitcoin's next major rally is at least 7 months away, and it'll likely fall below $14,000 before that, Fairlead's Katie Stockton says",
+      "url": "https://finance.yahoo.com/news/bitcoins-next-major-rally-least-202051738.html",
+      "summary": "Fairlead Strategies analyst Katie Stockton predicts that Bitcoin's next major rally is at least seven months away and expects the price to fall below $14,000 before then. Short-term momentum has shifted negative, supporting a bearish near-term outlook. This forecast suggests continued downward pressure on Bitcoin in the coming weeks.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_forecast",
+        "major_low_prediction",
+        "bearish_momentum",
+        "Katie_Stockton_analysis"
+      ],
+      "rationale": "A prominent analyst's forecast of a further price drop and a delayed rally creates immediate bearish sentiment. This outlook suggests that short-term price action is likely to remain negative."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-12-20",
+    "summary": "Bitcoin and other cryptocurrencies are experiencing downward pressure today, influenced by broader macroeconomic concerns and specific crypto-related events. The potential departure of Elon Musk from Twitter is impacting Dogecoin significantly, while bankruptcies like BlockFi and the ongoing FTX fallout continue to weigh on market sentiment and liquidity. Analysts are forecasting further price declines for Bitcoin in the short term, though positive developments in mining operations and the increasing focus on transparency through proof-of-reserves offer some counterbalancing factors.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.55
+    },
+    "key_risks": [
+      "Continued contagion from FTX and other bankruptcies.",
+      "Negative macroeconomic data or hawkish Fed commentary.",
+      "Regulatory crackdowns or unfavorable policy announcements.",
+      "Further declines in major tech stocks impacting crypto correlation.",
+      "Uncertainty surrounding Elon Musk's leadership at Twitter impacting altcoins."
+    ],
+    "watch_items": [
+      "BlockFi court filings regarding withdrawals.",
+      "Further developments on FTX investigations.",
+      "Macroeconomic data releases (e.g., inflation, employment).",
+      "Statements from Federal Reserve officials.",
+      "Elon Musk's activity on Twitter and its impact on Dogecoin."
+    ]
+  }
+}

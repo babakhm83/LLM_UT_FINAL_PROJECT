@@ -1,0 +1,462 @@
+{
+  "date": "2020-03-14",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n91ae45c1cea3",
+      "title": "‘Regulation will see Bitcoin go mainstream in the UK’ – Coinfloor CEO",
+      "url": "https://finance.yahoo.com/news/regulation-see-bitcoin-mainstream-uk-140036158.html",
+      "summary": "Coinfloor CEO Obi Nwosu believes that stricter regulations, such as the EU's Fifth Anti-Money Laundering Directive (5AMLD) implemented in the UK, will boost consumer confidence and drive wider Bitcoin adoption. The directive requires crypto platforms to identify customers for AML purposes. This regulatory clarity is seen as a positive step towards mainstream acceptance of Bitcoin in the UK.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "UK_regulation",
+        "5AMLD",
+        "crypto_adoption"
+      ],
+      "rationale": "Increased regulatory clarity and compliance often lead to greater institutional and retail investor confidence, fostering broader adoption. This trend is expected to continue shaping the market."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n442140152ed2",
+      "title": "How does Bitcoin’s hash rate impact price?",
+      "url": "https://finance.yahoo.com/news/does-bitcoin-hash-rate-impact-180003313.html",
+      "summary": "The article discusses the potential impact of the upcoming Bitcoin halving event on miners and the price. It explores two scenarios: either the price increases to accommodate miners at current difficulty, or miners capitulate if profitability drops. The hash rate's behavior is a key indicator for understanding these dynamics.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_halving",
+        "hash_rate",
+        "miner_profitability"
+      ],
+      "rationale": "The halving event directly impacts miner economics, which can influence network security and supply. Understanding how hash rate adjusts to price changes is crucial for predicting market behavior."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ncda7faffd6f0",
+      "title": "Millennials to Drive Bitcoin Higher: 4 Stocks to Watch",
+      "url": "https://finance.yahoo.com/news/millennials-drive-bitcoin-higher-4-142402808.html",
+      "summary": "The article suggests that millennials are increasingly interested in Bitcoin as an investment. Despite broader market downturns due to the coronavirus, Bitcoin saw a price increase. This demographic's growing interest is highlighted as a potential driver for future Bitcoin price appreciation.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "millennial_adoption",
+        "demographic_shift",
+        "safe_haven_asset"
+      ],
+      "rationale": "A growing demographic adopting Bitcoin as an investment asset can lead to sustained demand and price appreciation over the long term. This trend is particularly relevant given the increasing wealth transfer to younger generations."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n7369f6bd32c5",
+      "title": "Square Crypto Is Creating a ‘Lightning Development Kit’ for Bitcoin Wallets",
+      "url": "https://finance.yahoo.com/news/square-crypto-creating-lightning-development-175022013.html",
+      "summary": "Square Crypto is developing a Lightning Development Kit (LDK) to simplify the integration of Lightning Network payments into existing Bitcoin wallets and applications. This initiative aims to improve user experience and facilitate broader adoption of the layer-2 scaling solution.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "lightning_network",
+        "LDK",
+        "developer_tools",
+        "UX_improvement"
+      ],
+      "rationale": "Improvements in the Lightning Network's usability and developer accessibility are crucial for its widespread adoption, which can significantly enhance Bitcoin's transaction capabilities and scalability."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n8301e64d2066",
+      "title": "Fidelity Investments' crypto arm makes first push into Europe",
+      "url": "https://finance.yahoo.com/news/fidelity-investments-crypto-arm-makes-132705931.html",
+      "summary": "Fidelity Digital Assets, the cryptocurrency arm of Fidelity Investments, has expanded its services to Europe by acting as a custodian for Nickel Digital Asset Management. This move signifies a growing interest from traditional financial institutions in providing institutional-grade custody solutions for digital assets, addressing a key barrier to large-scale adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Fidelity_Digital_Assets",
+        "custody_services",
+        "institutional_adoption",
+        "Europe_expansion"
+      ],
+      "rationale": "The entry of major financial players like Fidelity into the digital asset space, particularly with custody services, signals increasing institutional acceptance and provides a critical infrastructure component for broader market participation."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nec6d36cd9780",
+      "title": "After Court Victory, Indian Exchanges Gear Up for Crypto Trading Surge",
+      "url": "https://finance.yahoo.com/news/court-victory-indian-exchanges-gear-180625460.html",
+      "summary": "India's Supreme Court has overturned the Reserve Bank of India's ban on cryptocurrency trading, deeming it unconstitutional. This decision is expected to significantly boost trading volumes on Indian exchanges and foster greater adoption of cryptocurrencies within the country.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_Supreme_Court",
+        "RBI_ban_lifted",
+        "crypto_trading_surge",
+        "market_growth"
+      ],
+      "rationale": "The lifting of a major regulatory ban in a large economy like India is a significant positive catalyst for crypto adoption and trading activity, potentially unlocking a substantial user base."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n6b659ad1216a",
+      "title": "BTCPay Server Now Processing Blockstream’s Liquid Assets",
+      "url": "https://finance.yahoo.com/news/btcpay-server-now-processing-blockstream-203356708.html",
+      "summary": "BTCPay Server has integrated Blockstream's Liquid sidechain, allowing users to transact assets like L-BTC and L-USDT. This integration, leveraging Liquid's confidential asset technology, enhances privacy and expands payment options within the BTCPay ecosystem.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTCPay_Server",
+        "Liquid_sidechain",
+        "confidential_assets",
+        "payment_integration"
+      ],
+      "rationale": "Expanding the utility and interoperability of Bitcoin through sidechains like Liquid, and integrating them with popular payment processors, can drive innovation and adoption of new use cases."
+    },
+    {
+      "pick_idx": 21,
+      "id": "ndc296808c161",
+      "title": "SEC Charges Blockchain Marketplace Opporty Over ‘Fraudulent’ $600,000 ICO",
+      "url": "https://finance.yahoo.com/news/sec-charges-blockchain-marketplace-opporty-105259500.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has charged Opporty and its founder with conducting a fraudulent ICO, raising $600,000 without registration. This action highlights the SEC's continued enforcement against unregistered securities offerings in the crypto space.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_enforcement",
+        "ICO_fraud",
+        "securities_offering",
+        "regulatory_risk"
+      ],
+      "rationale": "Ongoing SEC enforcement actions against fraudulent ICOs reinforce the need for regulatory compliance and can deter speculative, unregistered token sales, potentially leading to a more mature market."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n4ec4f056eb54",
+      "title": "Lightning Labs Raises $10M Series A to Be the ‘Visa’ of Bitcoin",
+      "url": "https://finance.yahoo.com/news/lightning-labs-raises-10m-series-150000736.html",
+      "summary": "Lightning Labs secured $10 million in Series A funding to develop its paid services for merchants accepting Bitcoin payments, aiming to become the 'Visa of Bitcoin'. This investment underscores investor confidence in the Lightning Network's potential for scaling Bitcoin transactions.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "funding"
+      ],
+      "features_for_model": [
+        "Lightning_Labs",
+        "Series_A_funding",
+        "LN_scaling",
+        "merchant_payments"
+      ],
+      "rationale": "Significant funding for companies focused on scaling Bitcoin, like Lightning Labs, indicates a strong belief in the technology's future and its potential to compete with traditional payment networks."
+    },
+    {
+      "pick_idx": 31,
+      "id": "ne1a3bdd8a3ab",
+      "title": "Bitcoin Mining Unit Manufacturer MicroBT Nibbles at Bitmain’s Market Share",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-unit-manufacturer-microbt-030000943.html",
+      "summary": "MicroBT, a Bitcoin mining hardware manufacturer, has significantly increased its market share by selling over 600,000 units in 2019, challenging Bitmain's dominance. This competition can lead to more efficient and cost-effective mining hardware, impacting the overall hash rate and network security.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "MicroBT",
+        "Bitmain",
+        "mining_hardware",
+        "market_share_competition"
+      ],
+      "rationale": "Increased competition in the mining hardware sector can drive innovation and efficiency, potentially leading to a more robust and decentralized mining network, which is positive for Bitcoin's long-term security."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "nd511cdd07733",
+      "title": "Coinbase volumes hit yearly highs after Thursday’s market sell-off",
+      "url": "https://finance.yahoo.com/news/coinbase-volumes-hit-yearly-highs-164323210.html",
+      "summary": "Coinbase experienced record-breaking yearly volumes on Thursday and Friday, with over $1.1B and $1.5B respectively, following a significant market sell-off. This surge in trading activity indicates high market participation and potential volatility.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "Coinbase_volume",
+        "market_sell_off",
+        "high_liquidity",
+        "trading_activity"
+      ],
+      "rationale": "Record volumes on a major exchange suggest significant market interest and potential for increased price swings in the immediate short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "ndfc9dfe407d5",
+      "title": "Bitcoin Falls 10% In Bearish Trade",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-10-bearish-trade-192100931.html",
+      "summary": "Bitcoin experienced a significant 10.21% drop on Saturday, trading at $5,094.3. This marks the largest one-day percentage loss since March 12, with its market cap falling to $94.6B. Over the past seven days, Bitcoin has lost 41.62% of its value.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "bearish_trade",
+        "market_cap_decrease",
+        "7_day_loss"
+      ],
+      "rationale": "A sharp 10% daily decline indicates strong bearish sentiment and potential for further downside pressure in the very short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ndfc9dfe407d5",
+      "title": "Bitcoin Falls 10% In Bearish Trade",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-10-bearish-trade-192100931.html",
+      "summary": "Bitcoin experienced a significant 10.21% drop on Saturday, trading at $5,094.3. This marks the largest one-day percentage loss since March 12, with its market cap falling to $94.6B. Over the past seven days, Bitcoin has lost 41.62% of its value.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "bearish_trade",
+        "market_cap_decrease",
+        "7_day_loss"
+      ],
+      "rationale": "A sharp 10% daily decline indicates strong bearish sentiment and potential for further downside pressure in the very short term."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nb0d0cd6b2e1d",
+      "title": "Udi Wertheimer on Cypherpunk Myths and Bitcoin in Real Life",
+      "url": "https://finance.yahoo.com/news/udi-wetheimer-cyperpunk-myths-bitcoin-130000751.html",
+      "summary": "This podcast episode discusses Bitcoin's role within the broader cypherpunk movement, noting the significant expansion of the community beyond its early mailing list days. It highlights the increasing user base and daily activity on platforms like Bitcointalk and Coinbase.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "cypherpunk_movement",
+        "community_growth",
+        "user_adoption",
+        "podcast_discussion"
+      ],
+      "rationale": "Discussions about Bitcoin's philosophical underpinnings and community growth can influence sentiment but have a less direct, immediate impact on price compared to market events."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nd511cdd07733",
+      "title": "Coinbase volumes hit yearly highs after Thursday’s market sell-off",
+      "url": "https://finance.yahoo.com/news/coinbase-volumes-hit-yearly-highs-164323210.html",
+      "summary": "Coinbase experienced record-breaking yearly volumes on Thursday and Friday, with over $1.1B and $1.5B respectively, following a significant market sell-off. This surge in trading activity indicates high market participation and potential volatility.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "Coinbase_volume",
+        "market_sell_off",
+        "high_liquidity",
+        "trading_activity"
+      ],
+      "rationale": "Record volumes on a major exchange suggest significant market interest and potential for increased price swings in the immediate short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ndfc9dfe407d5",
+      "title": "Bitcoin Falls 10% In Bearish Trade",
+      "url": "https://finance.yahoo.com/news/bitcoin-falls-10-bearish-trade-192100931.html",
+      "summary": "Bitcoin experienced a significant 10.21% drop on Saturday, trading at $5,094.3. This marks the largest one-day percentage loss since March 12, with its market cap falling to $94.6B. Over the past seven days, Bitcoin has lost 41.62% of its value.",
+      "impact_horizon_days": 1,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "bearish_trade",
+        "market_cap_decrease",
+        "7_day_loss"
+      ],
+      "rationale": "A sharp 10% daily decline indicates strong bearish sentiment and potential for further downside pressure in the very short term."
+    },
+    {
+      "pick_idx": 1,
+      "id": "nb0d0cd6b2e1d",
+      "title": "Udi Wertheimer on Cypherpunk Myths and Bitcoin in Real Life",
+      "url": "https://finance.yahoo.com/news/udi-wetheimer-cyperpunk-myths-bitcoin-130000751.html",
+      "summary": "This podcast episode discusses Bitcoin's role within the broader cypherpunk movement, noting the significant expansion of the community beyond its early mailing list days. It highlights the increasing user base and daily activity on platforms like Bitcointalk and Coinbase.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "cypherpunk_movement",
+        "community_growth",
+        "user_adoption",
+        "podcast_discussion"
+      ],
+      "rationale": "Discussions about Bitcoin's philosophical underpinnings and community growth can influence sentiment but have a less direct, immediate impact on price compared to market events."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nb0d0cd6b2e1d",
+      "title": "Udi Wertheimer on Cypherpunk Myths and Bitcoin in Real Life",
+      "url": "https://finance.yahoo.com/news/udi-wetheimer-cyperpunk-myths-bitcoin-130000751.html",
+      "summary": "This podcast episode discusses Bitcoin's role within the broader cypherpunk movement, noting the significant expansion of the community beyond its early mailing list days. It highlights the increasing user base and daily activity on platforms like Bitcointalk and Coinbase.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "cypherpunk_movement",
+        "community_growth",
+        "user_adoption",
+        "podcast_discussion"
+      ],
+      "rationale": "Discussions about Bitcoin's philosophical underpinnings and community growth can influence sentiment but have a less direct, immediate impact on price compared to market events."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-03-14",
+    "summary": "The crypto market is experiencing extreme volatility, with Bitcoin seeing a sharp 10% decline on March 14th, reaching lows not seen since early January. This is occurring amidst record-breaking volumes on Coinbase, indicating high market participation but also significant price swings. The broader market sentiment appears bearish in the short term, driven by macro-economic fears and potential contagion from traditional markets.",
+    "scenario_probs": {
+      "bull": 0.2,
+      "base": 0.3,
+      "bear": 0.5
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued sell-off in traditional markets impacting crypto.",
+      "Liquidity crunch and potential exchange issues.",
+      "Uncertainty surrounding the global economic impact of the coronavirus.",
+      "High volatility leading to cascading liquidations.",
+      "Lack of clear positive catalysts in the immediate short term."
+    ],
+    "watch_items": [
+      "Coinbase trading volumes and price action.",
+      "Bitcoin's ability to hold key support levels (e.g., $5,000).",
+      "Macroeconomic news related to the coronavirus and central bank responses.",
+      "Developments in the derivatives market, particularly on BitMEX.",
+      "Any significant regulatory news or enforcement actions."
+    ]
+  }
+}

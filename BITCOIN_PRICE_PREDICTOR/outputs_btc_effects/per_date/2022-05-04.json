@@ -1,0 +1,506 @@
+{
+  "date": "2022-05-04",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "ned0d8d29356d",
+      "title": "Bitcoin Slips Under $42K as Mounting Macro Risks, Dollar Strength Overshadow LFG Purchases",
+      "url": "https://finance.yahoo.com/news/bitcoin-slips-under-42k-mounting-104849763.html",
+      "summary": "Bitcoin's price decline below $42,000 is attributed to mounting macroeconomic risks and strengthening dollar, overshadowing accumulation by the Luna Foundation Guard (LFG). This indicates that broader market sentiment and traditional financial factors are currently exerting more influence on Bitcoin's price than specific on-chain accumulation efforts. The trend suggests a bearish short-to-medium term outlook for BTC, contingent on global economic stability and monetary policy shifts.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "institutional"
+      ],
+      "features_for_model": [
+        "macro_risk",
+        "dollar_strength",
+        "LFG_purchases"
+      ],
+      "rationale": "The article highlights the dominance of macroeconomic factors over specific crypto market events. Dollar strength and broader market risks are pressuring Bitcoin, suggesting a bearish sentiment driven by external forces rather than internal crypto dynamics."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n8ffad7f70cc8",
+      "title": "Bitcoin legal tender status meets stop sign in Malaysia",
+      "url": "https://finance.yahoo.com/news/bitcoin-legal-tender-status-meets-050315843.html",
+      "summary": "Malaysia's deputy finance minister rejected a proposal to adopt Bitcoin as legal tender, citing concerns about price volatility and cybersecurity risks. This decision reflects a cautious approach by a significant Asian economy towards cryptocurrency adoption, potentially signaling a trend of regulatory hurdles for widespread legal tender status in developing markets. Such regulatory hesitations can dampen adoption and create uncertainty.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "malaysia_legal_tender",
+        "regulatory_hesitation",
+        "crypto_volatility_concerns"
+      ],
+      "rationale": "The rejection of Bitcoin as legal tender in Malaysia due to volatility and security concerns highlights ongoing regulatory challenges. This sentiment could be mirrored in other countries, slowing down global adoption and creating a less favorable environment for price appreciation."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n79281bb7ead9",
+      "title": "Market Wrap: Bitcoin Pulls Back After Fed Chair's Comments; Volatility Oversold",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-pulls-back-201508201.html",
+      "summary": "Bitcoin experienced a pullback following Federal Reserve Chair Jerome Powell's comments indicating aggressive interest rate hikes. Powell's remarks about potential 50 basis point increments suggest a tightening monetary policy, which typically acts as a headwind for speculative assets like cryptocurrencies. This reinforces the correlation between traditional market monetary policy and crypto asset performance.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "fed_rate_hike",
+        "powell_comments",
+        "monetary_policy_tightening"
+      ],
+      "rationale": "Fed Chair Powell's hawkish stance on interest rates directly impacts Bitcoin by increasing the cost of capital and reducing risk appetite for speculative assets. This suggests a continued bearish pressure on BTC as the Fed prioritizes inflation control."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n36f7b66791a4",
+      "title": "SEC Rejects Spot Bitcoin ETF Application From Ark 21Shares",
+      "url": "https://finance.yahoo.com/news/sec-rejects-spot-bitcoin-etf-133817864.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) rejected the Ark 21Shares spot Bitcoin ETF application, citing a lack of investor protection. This decision continues the trend of regulatory bodies being hesitant to approve spot Bitcoin ETFs, which are seen as a crucial gateway for institutional adoption. The repeated rejections create uncertainty and can dampen market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_rejection",
+        "spot_bitcoin_ETF",
+        "investor_protection_concerns"
+      ],
+      "rationale": "The SEC's rejection of another spot Bitcoin ETF application signifies ongoing regulatory hurdles for institutional adoption. This persistent regulatory caution can limit capital inflows and create a bearish sentiment in the market."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n5d7f9ef27f4b",
+      "title": "Luna Foundation Guard Adds Nearly $230M of Bitcoin to Stack",
+      "url": "https://finance.yahoo.com/news/luna-foundation-guard-adds-230m-112809349.html",
+      "summary": "The Luna Foundation Guard (LFG) acquired approximately $227 million worth of Bitcoin, increasing its reserves to over 35,700 BTC. This significant purchase by a prominent crypto entity demonstrates continued institutional interest and a strategy to build reserves, potentially supporting the Terra ecosystem's stablecoin. Such accumulation can provide a floor for Bitcoin prices.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "LFG_bitcoin_purchase",
+        "institutional_accumulation",
+        "Terra_ecosystem"
+      ],
+      "rationale": "The substantial Bitcoin purchase by the Luna Foundation Guard signals strong institutional demand and a commitment to building reserves. This accumulation can provide a degree of price support and indicate confidence in Bitcoin's long-term value."
+    },
+    {
+      "pick_idx": 21,
+      "id": "n60538d696789",
+      "title": "Bitfarms Provides March 2022 Production and Mining Operations Update",
+      "url": "https://finance.yahoo.com/news/bitfarms-provides-march-2022-production-110000580.html",
+      "summary": "Bitfarms reported increased hashrate and secured additional funding via a credit facility. This update highlights the operational expansion and financial strengthening of a major Bitcoin miner. Such developments are positive for the mining sector, indicating continued investment and growth, which can indirectly support Bitcoin's network security and decentralization.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Bitfarms_hashrate_increase",
+        "mining_operations_update",
+        "credit_facility_funding"
+      ],
+      "rationale": "Bitfarms' operational expansion and increased hashrate indicate a healthy mining sector. This growth in mining capacity can be seen as a positive sign for Bitcoin's network health and security, indirectly supporting its value."
+    },
+    {
+      "pick_idx": 25,
+      "id": "ne4fe6baea716",
+      "title": "Bitcoiner eyes New Hampshire GOP Senate primary",
+      "url": "https://finance.yahoo.com/news/bitcoiner-eyes-hampshire-gop-senate-083000125.html",
+      "summary": "A libertarian Bitcoin enthusiast is exploring a self-funded bid for the New Hampshire Republican Senate nomination. This development signifies the increasing political engagement of the Bitcoin community and individuals with significant Bitcoin wealth entering the political arena. Such a trend could lead to more crypto-friendly policies in the future.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "bitcoin_political_engagement",
+        "libertarian_candidate",
+        "crypto_policy_advocacy"
+      ],
+      "rationale": "The entry of a Bitcoin proponent into a US Senate race indicates growing political influence of the crypto community. This could foster a more favorable regulatory environment for Bitcoin in the long term."
+    },
+    {
+      "pick_idx": 33,
+      "id": "na0f276c52aba",
+      "title": "Solar-Powered Bitcoin? Tesla, Block and Blockstream Join Forces To Mine Crypto in Texas",
+      "url": "https://finance.yahoo.com/news/solar-powered-bitcoin-tesla-block-132236929.html",
+      "summary": "Blockstream, in partnership with Tesla and Block (formerly Square), is building a solar-powered Bitcoin mining facility in Texas. This initiative aims to demonstrate the viability of 100% zero-emission Bitcoin mining at scale. Such developments address environmental concerns and promote sustainable practices within the crypto industry, potentially improving Bitcoin's ESG (Environmental, Social, and Governance) profile.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "ESG"
+      ],
+      "features_for_model": [
+        "solar_powered_mining",
+        "Tesla_Block_Blockstream_partnership",
+        "zero_emission_bitcoin"
+      ],
+      "rationale": "The collaboration between major tech players for a solar-powered Bitcoin mining facility addresses environmental concerns. This initiative could significantly improve Bitcoin's ESG perception and attract more environmentally conscious investors and corporations."
+    },
+    {
+      "pick_idx": 40,
+      "id": "ne6cf85d9a33e",
+      "title": "Bitcoin Mining and ESG: A Match Made in Heaven",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-esg-match-made-133101475.html",
+      "summary": "This article argues that Bitcoin mining can be environmentally friendly, countering its 'dirty' reputation. It highlights that while Bitcoin's proof-of-work is energy-intensive, shifts towards renewable energy sources are making mining greener. The piece suggests that the narrative around Bitcoin's environmental impact is evolving, with potential for a positive ESG outlook if sustainable practices are adopted widely.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "ESG",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_mining_ESG",
+        "renewable_energy_mining",
+        "proof_of_work_sustainability"
+      ],
+      "rationale": "The article promotes the idea that Bitcoin mining can align with ESG principles by utilizing renewable energy. This narrative shift is crucial for improving Bitcoin's public image and attracting institutional capital concerned with sustainability."
+    },
+    {
+      "pick_idx": 44,
+      "id": "n1dac7dc299c1",
+      "title": "Fort Worth becomes first city in the United States to mine bitcoin after council vote",
+      "url": "https://finance.yahoo.com/news/fort-worth-becomes-first-city-160059167.html",
+      "summary": "Fort Worth, Texas, has become the first U.S. city to mine Bitcoin following a unanimous council vote. This move aligns with the city's goal of embracing technology and innovation. The initiative involves three donated machines running for six months, aiming to position Fort Worth as a tech-forward hub. This represents a novel form of municipal adoption and experimentation with blockchain technology.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "city_mining_bitcoin",
+        "Fort_Worth_adoption",
+        "municipal_blockchain_initiative"
+      ],
+      "rationale": "Fort Worth's decision to mine Bitcoin is a unique form of adoption by a municipal entity. While small-scale, it sets a precedent for government experimentation with blockchain technology, potentially influencing future public sector engagement."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n4a33a85ed5a4",
+      "title": "Virginia Pension Fund Eyes DeFi Yield Farming Investment",
+      "url": "https://finance.yahoo.com/news/virginia-pension-fund-eyes-defi-115912252.html",
+      "summary": "A Virginia pension fund is considering investing in DeFi yield farming. This move signifies increasing institutional interest in decentralized finance strategies. If approved, it would involve providing liquidity on decentralized exchanges, potentially boosting DeFi protocols and demonstrating a growing acceptance of crypto-native investment strategies by traditional finance.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "DeFi",
+        "adoption"
+      ],
+      "features_for_model": [
+        "pension_fund_DeFi_investment",
+        "yield_farming",
+        "institutional_DeFi_adoption"
+      ],
+      "rationale": "The potential investment by a US pension fund into DeFi yield farming is a significant signal of institutional adoption. This could drive capital into DeFi protocols and positively influence sentiment for related crypto assets."
+    },
+    {
+      "pick_idx": 6,
+      "id": "na35485488e07",
+      "title": "Bitcoin-Backed Loans Offered for First Time by Goldman in Coinbase Partnership",
+      "url": "https://finance.yahoo.com/news/bitcoin-backed-loans-offered-first-184250747.html",
+      "summary": "Goldman Sachs has offered its first Bitcoin-backed loan facility to Coinbase, marking a significant step in institutional adoption of crypto as collateral. This partnership bridges traditional finance and crypto, potentially increasing liquidity and acceptance of Bitcoin as a financial asset. It signals a growing comfort level among major financial institutions with digital assets.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_Bitcoin_loan",
+        "Coinbase_partnership",
+        "crypto_collateral_acceptance"
+      ],
+      "rationale": "Goldman Sachs offering Bitcoin-backed loans to Coinbase is a major institutional endorsement. This increases Bitcoin's utility as collateral and signals growing integration with traditional finance, likely boosting short-term sentiment."
+    },
+    {
+      "pick_idx": 8,
+      "id": "na97ccda1ec8d",
+      "title": "Digihost Announces 44% Increase in Monthly Bitcoin Production and Provides Operations Update",
+      "url": "https://finance.yahoo.com/news/digihost-announces-44-increase-monthly-115800705.html",
+      "summary": "Digihost reported a 44% increase in monthly Bitcoin production. This operational update indicates growth in mining capacity and efficiency for the company. Such positive production news from miners can contribute to a bullish sentiment by demonstrating the health and expansion of the Bitcoin mining infrastructure.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "production"
+      ],
+      "features_for_model": [
+        "Digihost_production_increase",
+        "Bitcoin_mining_operations",
+        "miner_growth"
+      ],
+      "rationale": "An increase in Bitcoin production by a mining company like Digihost is a positive operational indicator. It suggests efficient operations and potential for increased BTC supply to the market, which can be seen as bullish for the asset."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n845207d5ba67",
+      "title": "HIVE Blockchain Provides April 2022 Production Update",
+      "url": "https://finance.yahoo.com/news/hive-blockchain-provides-april-2022-053500779.html",
+      "summary": "HIVE Blockchain released its April 2022 production figures, showing a significant BTC HODL balance. The update details their mining operations for both Bitcoin and Ethereum. Positive production numbers from major miners like HIVE can contribute to a bullish outlook by demonstrating operational strength and asset accumulation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "production"
+      ],
+      "features_for_model": [
+        "HIVE_production_update",
+        "BTC_HODL_balance",
+        "mining_operations"
+      ],
+      "rationale": "HIVE Blockchain's production update, including their BTC holdings, provides insight into the operational health of a major miner. Strong production and holdings can signal positive sentiment and potential for future growth."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nc4e358d63dd2",
+      "title": "Crypto Funds Suffer Fourth Straight Week of Outflows as Bitcoin Stalls",
+      "url": "https://finance.yahoo.com/news/crypto-funds-suffer-fourth-straight-161156021.html",
+      "summary": "Crypto funds experienced net outflows for the fourth consecutive week, with Bitcoin-focused funds seeing the largest outflows this year. This trend indicates a continued bearish sentiment among investors in crypto investment products, likely driven by market stagnation and macroeconomic concerns. The sustained outflows suggest a lack of immediate buying pressure.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "outflows",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_fund_outflows",
+        "bitcoin_outflows",
+        "market_stagnation"
+      ],
+      "rationale": "Four consecutive weeks of outflows from crypto funds, particularly Bitcoin-focused ones, signal persistent investor caution and a bearish sentiment. This trend suggests a lack of strong buying interest in the short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n2a7aa3afe122",
+      "title": "Bitcoin Is Coming to Your 401(k). But Your Employer Probably Won't Let You Invest in It",
+      "url": "https://finance.yahoo.com/news/bitcoin-coming-401-k-employer-214739604.html",
+      "summary": "Fidelity will soon allow employees to add Bitcoin to their 401(k) retirement accounts. While this represents a significant step towards mainstream adoption and integration into traditional retirement planning, employer discretion may limit immediate widespread access. This development highlights a growing institutional acceptance but also potential barriers to entry for individual investors.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "401k"
+      ],
+      "features_for_model": [
+        "bitcoin_401k_integration",
+        "Fidelity_retirement_plans",
+        "mainstream_adoption_signal"
+      ],
+      "rationale": "The inclusion of Bitcoin in 401(k) plans by Fidelity is a major milestone for mainstream adoption. While employer discretion may limit immediate impact, it signals a significant shift in how retirement assets are viewed and managed."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nc712bc7000b8",
+      "title": "Market Wrap: Bitcoin and Stocks Rise After Fed Raises Rates; Growth Concerns Ease",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-stocks-rise-201220471.html",
+      "summary": "Bitcoin and stocks saw a rise following the Federal Reserve's 50 basis point rate hike, which was less hawkish than feared. The Fed's plan to reduce its bond portfolio also eased some growth concerns. This suggests that the market may have already priced in the expected monetary tightening, leading to a relief rally.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "Fed",
+        "stocks"
+      ],
+      "features_for_model": [
+        "Fed_rate_hike_relief",
+        "growth_concerns_easing",
+        "market_rally"
+      ],
+      "rationale": "The market's positive reaction to the Fed's rate hike suggests that the anticipated tightening was priced in. This relief rally in Bitcoin and stocks indicates a potential short-term bullish sentiment, contingent on future Fed communications."
+    },
+    {
+      "pick_idx": 19,
+      "id": "ne250f87dfe05",
+      "title": "Marathon Digital Holdings Reports First Quarter 2022 Results",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-reports-first-200500392.html",
+      "summary": "Marathon Digital Holdings reported a significant year-over-year increase in revenue and Bitcoin production for Q1 2022. The company's operational performance shows strong growth in its mining capacity and output. Positive financial and operational results from major miners like Marathon can bolster confidence in the mining sector and indirectly support Bitcoin's price.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "miner",
+        "production",
+        "financials"
+      ],
+      "features_for_model": [
+        "Marathon_Digital_Q1_results",
+        "revenue_growth",
+        "bitcoin_production_increase"
+      ],
+      "rationale": "Marathon Digital's strong Q1 results, with substantial revenue and production growth, indicate operational success. This positive news for a major miner can contribute to a bullish short-term sentiment for Bitcoin."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n85560d8f6af4",
+      "title": "Bitcoin's 'Mayer Multiple' Nears Point of Undervaluation Ahead of Fed",
+      "url": "https://finance.yahoo.com/news/bitcoins-mayer-multiple-nears-point-104943723.html",
+      "summary": "Bitcoin's Mayer Multiple is approaching a level indicating undervaluation, suggesting a potential bottoming phase before the Federal Reserve's anticipated liquidity tightening. This technical indicator implies that Bitcoin may be oversold, potentially setting the stage for a price recovery. However, the Fed's actions remain a key factor.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "technical",
+        "macro"
+      ],
+      "features_for_model": [
+        "Mayer_Multiple",
+        "bitcoin_undervaluation",
+        "technical_analysis"
+      ],
+      "rationale": "The Mayer Multiple suggesting Bitcoin is undervalued could signal a short-term buying opportunity. However, this bullish technical signal is tempered by the impending Fed actions, creating an uncertain but potentially positive short-term outlook if the market anticipates the Fed's move."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nd61b3abd156c",
+      "title": "Starbucks Teases Web 3 Platform in NFT Announcement",
+      "url": "https://finance.yahoo.com/news/starbucks-teases-3-platform-nft-153954481.html",
+      "summary": "Starbucks plans to launch NFT collections and a Web3 platform, aiming for customer engagement and community building. This move by a major consumer brand into NFTs and Web3 signifies a growing trend of mainstream adoption of blockchain technology for customer loyalty and experiences. It could attract new users and interest to the NFT and broader crypto space.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "NFT",
+        "Web3"
+      ],
+      "features_for_model": [
+        "Starbucks_NFT_launch",
+        "Web3_platform_development",
+        "mainstream_brand_adoption"
+      ],
+      "rationale": "Starbucks' entry into NFTs and Web3 is a strong indicator of mainstream brand adoption. This can drive significant interest and potentially new users into the crypto ecosystem, positively impacting sentiment and adoption metrics."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-05-04",
+    "summary": "Bitcoin and the broader crypto market are reacting positively to the Federal Reserve's 50 basis point rate hike, which was perceived as less hawkish than anticipated, leading to a relief rally. Institutional adoption signals remain strong with Goldman Sachs offering Bitcoin-backed loans and Fidelity enabling Bitcoin in 401(k)s, suggesting growing integration with traditional finance. However, sustained outflows from crypto funds indicate ongoing investor caution, while mining companies report increased production, providing a mixed but cautiously optimistic short-term outlook.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkish rhetoric from the Federal Reserve could quickly reverse the current positive sentiment.",
+      "Sustained outflows from crypto funds suggest underlying investor fear or a lack of conviction.",
+      "Regulatory uncertainty, particularly regarding potential SEC actions on crypto assets, remains a persistent threat.",
+      "The correlation between Bitcoin and traditional risk assets means broader market downturns could still drag BTC lower.",
+      "Technical indicators suggest potential for a short-term pullback after the initial relief rally."
+    ],
+    "watch_items": [
+      "Federal Reserve statements and future policy guidance",
+      "Weekly crypto fund flow data",
+      "Major institutional adoption announcements (e.g., pension funds, banks)",
+      "Performance of key mining stocks (MARA, RIOT, HIVE)",
+      "Developments in regulatory clarity for crypto assets"
+    ]
+  }
+}

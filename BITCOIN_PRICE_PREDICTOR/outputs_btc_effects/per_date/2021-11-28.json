@@ -1,0 +1,462 @@
+{
+  "date": "2021-11-28",
+  "long_term": [
+    {
+      "pick_idx": 5,
+      "id": "neacb9e215f2e",
+      "title": "SEC punts on approving a spot bitcoin ETF again, pushing decision on Valkyrie's fund to 2022",
+      "url": "https://finance.yahoo.com/news/sec-punts-approving-spot-bitcoin-133941856.html",
+      "summary": "The SEC has extended its deadline to rule on Valkyrie's proposed spot Bitcoin ETF, with a decision now expected in January 2022. This marks another delay in the approval of the first spot Bitcoin ETF in the US. The continued postponement of a spot ETF approval suggests regulatory caution and a potential dampening of immediate institutional inflows that a spot ETF could facilitate.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SEC_ETF_delay",
+        "Valkyrie_ETF",
+        "spot_ETF_approval"
+      ],
+      "rationale": "The SEC's repeated delays in approving a spot Bitcoin ETF signal ongoing regulatory uncertainty. This can deter institutional investors who prefer regulated products, potentially slowing down broader adoption and price appreciation over the medium term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n1cc9721c1612",
+      "title": "Bitcoin bull run: analysts predict record rally to end 2021",
+      "url": "https://finance.yahoo.com/news/bitcoins-price-is-up-and-analysts-predict-ludicrously-strong-q-4-090922113.html",
+      "summary": "Analysts predict a strong Q4 for cryptocurrencies, with Bitcoin holding above $50,000. Positive sentiment is bolstered by reassurances from the US regarding crypto regulation and news of George Soros' investment firm holding Bitcoin. This suggests a favorable environment for price appreciation driven by both institutional interest and a less restrictive regulatory outlook.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Q4_bull_run",
+        "Soros_investment",
+        "US_regulatory_stance"
+      ],
+      "rationale": "Analyst predictions of a strong Q4, coupled with institutional interest like Soros' investment, create a positive outlook. This sentiment, supported by a more favorable US regulatory environment, suggests potential for significant price increases."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n6ac57ec39a3f",
+      "title": "Bitfarms Hits Record High Hashrate in October and Forecasts Additional Growth",
+      "url": "https://finance.yahoo.com/news/bitfarms-hits-record-high-hashrate-215321982.html",
+      "summary": "Canadian Bitcoin miner Bitfarms achieved a record hashrate in October and plans to increase capacity to over 2 EH/s in November. This expansion indicates growth in mining operations and efficiency improvements. Increased hashrate and operational efficiency for major mining firms can signal a healthy and growing mining sector, which is fundamental to Bitcoin's network security and expansion.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "mining_hashrate_growth",
+        "Bitfarms_expansion",
+        "mining_efficiency"
+      ],
+      "rationale": "The growth in hashrate by a major mining firm like Bitfarms signifies increased network security and operational capacity. This expansion is a positive indicator for the underlying infrastructure supporting Bitcoin, suggesting continued investment and development in the mining sector."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n91b1f608ab3b",
+      "title": "Houston Rockets Catch Bitcoin Fever, Ink Partnership With NYDIG",
+      "url": "https://finance.yahoo.com/news/houston-rockets-catch-bitcoin-fever-230825271.html",
+      "summary": "The Houston Rockets have partnered with NYDIG, a Bitcoin platform, to promote BTC adoption. This move by a major NBA team, following other sports figures and teams embracing crypto, signals growing mainstream acceptance and integration. Such partnerships can introduce Bitcoin to a wider audience and normalize its use, contributing to long-term adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "NBA_partnership",
+        "NYDIG_collaboration",
+        "mainstream_adoption"
+      ],
+      "rationale": "The partnership between the Houston Rockets and NYDIG represents a significant step in mainstream adoption. Exposure through major sports franchises can introduce Bitcoin to a broader audience, fostering long-term growth and acceptance."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n78785e6147f9",
+      "title": "Congressional Stablecoin Regulation Requested in Latest Report — Will It ‘Even Playing Field?’",
+      "url": "https://finance.yahoo.com/news/congressional-stablecoin-regulation-requested-latest-183232475.html",
+      "summary": "A report from the President’s Working Group on Financial Markets, FDIC, and OCC calls for stablecoin regulation. While aiming to create a 'level playing field,' the report highlights risks associated with unregulated stablecoins. Potential regulation could bring more clarity and investor protection, but also introduce compliance burdens and potentially limit innovation.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "stablecoin_regulation",
+        "PWG_report",
+        "regulatory_clarity"
+      ],
+      "rationale": "The call for stablecoin regulation introduces a layer of uncertainty. While regulation could enhance stability and trust, the specific nature and implementation could impact the broader crypto market, including Bitcoin, by setting precedents for digital asset oversight."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n74b28a5ff8b2",
+      "title": "Market Wrap: Cryptocurrencies Fade on News That Powell Will Be Renominated as Fed Chairman",
+      "url": "https://finance.yahoo.com/news/market-wrap-cryptocurrencies-fade-news-213711313.html",
+      "summary": "Cryptocurrencies experienced a pullback after Jerome Powell's renomination as Fed Chairman. While initially positive, the market reacted negatively, suggesting that Powell's continued leadership might be perceived as a signal for continued hawkish monetary policy. This could lead to reduced risk appetite for assets like Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Powell_renomination",
+        "Fed_policy",
+        "risk_off_sentiment"
+      ],
+      "rationale": "Powell's renomination, interpreted as a signal for continued hawkish monetary policy, can lead to a 'risk-off' sentiment. This typically results in reduced investment in speculative assets like Bitcoin, potentially causing price declines."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ne1b2dd097324",
+      "title": "Regulated crypto Mastercards launched by EQIFI",
+      "url": "https://finance.yahoo.com/news/regulated-crypto-mastercards-launched-eqifi-185034121.html",
+      "summary": "EQIFI has launched regulated crypto Mastercards, enabling users to spend digital assets at over 44 million locations globally. Backed by EQIbank, this initiative bridges traditional finance with digital assets. The widespread acceptance of crypto via traditional payment rails is a significant step towards everyday utility and adoption.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_Mastercard",
+        "EQIFI_launch",
+        "payment_integration"
+      ],
+      "rationale": "The launch of regulated crypto Mastercards by EQIFI facilitates real-world spending of digital assets. This integration with established payment networks significantly enhances utility and adoption, driving demand for cryptocurrencies."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n34979ab1261d",
+      "title": "Bitcoin & Blockchain ETFs: What Investors Should Know",
+      "url": "https://finance.yahoo.com/news/bitcoin-blockchain-etfs-investors-know-204008801.html",
+      "summary": "Bitcoin has seen significant year-to-date gains, with its market cap exceeding $1 trillion. El Salvador adopted it as legal tender, and Europe/Canada have approved numerous crypto ETPs. The article highlights the growing investor interest and the increasing availability of regulated crypto investment products, signaling a maturing market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_ETFs",
+        "El_Salvador_legal_tender",
+        "market_cap_growth"
+      ],
+      "rationale": "The increasing number of approved crypto ETFs and El Salvador's adoption of Bitcoin as legal tender are strong indicators of growing institutional and sovereign acceptance. These developments pave the way for broader market access and increased capital inflows."
+    },
+    {
+      "pick_idx": 35,
+      "id": "nfc25d70e2d33",
+      "title": "Australia’s largest bank to offer crypto services to its 6.5m customers",
+      "url": "https://finance.yahoo.com/news/australia-largest-bank-offer-crypto-111703383.html",
+      "summary": "Commonwealth Bank, Australia's largest bank, will pilot crypto services, allowing customers to buy, sell, and hold select cryptocurrencies via its app. This move by a major traditional financial institution signifies a significant step towards mainstream integration and accessibility of digital assets.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bank_crypto_services",
+        "Commonwealth_Bank",
+        "mainstream_integration"
+      ],
+      "rationale": "The decision by Australia's largest bank to offer crypto services is a major endorsement from traditional finance. This integration makes digital assets more accessible to a vast customer base, driving adoption and potentially increasing demand."
+    },
+    {
+      "pick_idx": 36,
+      "id": "ne0271375febe",
+      "title": "Is Tim Cook’s Investment In Cryptos Positive For Bitcoin And Ether?",
+      "url": "https://finance.yahoo.com/news/tim-cook-investment-cryptos-positive-173708634.html",
+      "summary": "Apple CEO Tim Cook revealed he owns Bitcoin and Ether, expressing long-term interest in cryptocurrencies. While clarifying it's not investment advice, his personal holdings and interest from a prominent tech leader can influence public perception and potentially signal future corporate engagement with digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Tim_Cook_investment",
+        "Apple_CEO_crypto",
+        "tech_leader_sentiment"
+      ],
+      "rationale": "Tim Cook's personal investment in Bitcoin and Ether, coming from a major tech CEO, adds significant credibility and positive sentiment to the crypto space. Such high-profile endorsements can encourage further adoption and investment."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n4e845297f7dd",
+      "title": "New to The Street's Newsmax Sunday Thanksgiving Weekend Encore Show Nov 28th 10-11AM EST",
+      "url": "https://finance.yahoo.com/news/streets-newsmax-sunday-thanksgiving-weekend-000000990.html",
+      "summary": "This broadcast features interviews with companies in the crypto space, including Fetch.ai. Such media appearances can generate short-term interest and discussion around specific cryptocurrencies or the broader market, potentially influencing trading activity.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Newsmax_broadcast",
+        "Fetch_ai_interview",
+        "crypto_media_coverage"
+      ],
+      "rationale": "Media appearances, especially on financial news channels, can create short-term buzz and influence sentiment for featured cryptocurrencies or the market in general, though the impact is often fleeting."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n38b33168a451",
+      "title": "U.S Mortgage Rates Hold Steady. COVID-19 Could Send Rates back below 3%, However",
+      "url": "https://finance.yahoo.com/news/u-mortgage-rates-hold-steady-013958086.html",
+      "summary": "US mortgage rates remained steady at 3.10% going into the Thanksgiving holiday. While stable for now, the potential for COVID-19 impacts to lower rates exists. Stable or falling interest rates generally support riskier assets like Bitcoin, but the focus is on the broader economic implications of the pandemic.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "mortgage_rates",
+        "interest_rates",
+        "COVID_impact"
+      ],
+      "rationale": "Stable mortgage rates, and the potential for them to decrease due to COVID-19 concerns, could maintain a low-cost borrowing environment, indirectly supporting investment in riskier assets like Bitcoin."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n089d5345e241",
+      "title": "The Week Ahead – Central Bank Chatter, Economic Data, and COVID-19 in Focus",
+      "url": "https://finance.yahoo.com/news/week-ahead-central-bank-chatter-014115221.html",
+      "summary": "The upcoming week includes significant economic data releases (consumer confidence, ADP, jobless claims, NFP, ISM) and central bank commentary (Fed Chair Powell). These macroeconomic indicators and policy signals can heavily influence market sentiment and risk appetite, impacting Bitcoin's price.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "economic_data",
+        "Fed_chatter",
+        "NFP_report"
+      ],
+      "rationale": "Upcoming economic data and central bank commentary are key drivers of short-term market movements. Positive data or dovish Fed signals could boost Bitcoin, while negative data or hawkish signals could lead to a sell-off."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nf63df610cf13",
+      "title": "The Crypto Daily – Movers and Shakers – November 28th, 2021",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-november-015908600.html",
+      "summary": "Bitcoin saw a modest rise on Saturday, partially reversing Friday's slide. It found support above key Fibonacci levels, indicating some resilience. However, it fell short of resistance levels, suggesting continued volatility. The near-term bullish trend remains intact despite recent pullbacks.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_action",
+        "Fibonacci_levels",
+        "short_term_trend"
+      ],
+      "rationale": "Bitcoin's price action shows mixed signals with partial recovery but failure to break resistance. This suggests continued volatility in the immediate short term, with the overall trend still leaning bullish but susceptible to further fluctuations."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n48abf61b6324",
+      "title": "Shiba Inu Coin – Daily Tech Analysis – November 28th, 2021",
+      "url": "https://finance.yahoo.com/news/shiba-inu-coin-daily-tech-023124410.html",
+      "summary": "Shiba Inu Coin experienced a partial reversal of Friday's losses, finding support at a Fibonacci level but failing to reach resistance. This indicates ongoing volatility and a struggle to maintain upward momentum. The price action suggests a cautious short-term outlook for SHIB.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "SHIB_price_action",
+        "Fibonacci_support",
+        "short_term_volatility"
+      ],
+      "rationale": "Shiba Inu's price action shows a pattern of partial recovery followed by failure to break resistance, indicating short-term choppiness. This suggests that immediate price movements might be driven by speculative trading rather than strong fundamental shifts."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n95aa2b5bee58",
+      "title": "Omicron Batters Crypto Market, Bitcoin Loses Grip",
+      "url": "https://finance.yahoo.com/news/omicron-batters-crypto-market-bitcoin-045136223.html",
+      "summary": "The emergence of the Omicron COVID-19 variant has negatively impacted global financial markets, including cryptocurrencies. Bitcoin is seen as a risk-on asset, and the uncertainty surrounding the new variant is causing investors to flee to safer assets, leading to a sell-off in crypto.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Omicron_variant",
+        "COVID_fear",
+        "risk_off_sentiment"
+      ],
+      "rationale": "The Omicron variant's emergence has triggered a 'risk-off' sentiment across markets. As a risk asset, Bitcoin is likely to experience downward pressure as investors seek safety in traditional assets, leading to a sharp decline in price and volatility."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n1909a6d0bf9f",
+      "title": "After the Bull Run: Is Another Seismic Bitcoin Crash on the Horizon?",
+      "url": "https://finance.yahoo.com/news/bull-run-another-seismic-bitcoin-092818388.html",
+      "summary": "The article questions whether another major Bitcoin crash is imminent after a year of highs and corrections. Despite hopes for stability from institutional acceptance, past crashes highlight Bitcoin's volatility. The current market sentiment, influenced by macro factors like the Omicron variant, could trigger further significant price drops.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_crash_risk",
+        "volatility",
+        "institutional_acceptance_impact"
+      ],
+      "rationale": "The potential for another 'seismic' crash, especially in light of the Omicron variant's impact on risk sentiment, suggests a bearish short-term outlook. Past volatility and the current macro environment point to increased downside risk."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n595d2fdd38dd",
+      "title": "Cryptocurrency exchange Coinstore enters India despite pending curbs on trade",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-exchange-coinstore-enters-india-111148036.html",
+      "summary": "Singapore-based Coinstore has launched operations in India, despite the government's plans to curb private cryptocurrencies. The exchange cites a significant user base in India. This move indicates continued global expansion of crypto services, but the regulatory uncertainty in India poses a short-term risk.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Coinstore_India",
+        "India_crypto_regulation",
+        "exchange_expansion"
+      ],
+      "rationale": "While the expansion of exchanges into new markets like India is generally positive for adoption, the pending regulatory curbs create short-term uncertainty and potential headwinds for Coinstore and the broader Indian crypto market."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n449f822a9284",
+      "title": "Cryptocurrency exchange Coinstore enters India despite pending curbs on trade",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-exchange-coinstore-enters-india-111913701.html",
+      "summary": "Singapore-based Coinstore has launched operations in India, despite the government's plans to curb private cryptocurrencies. The exchange cites a significant user base in India. This move indicates continued global expansion of crypto services, but the regulatory uncertainty in India poses a short-term risk.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Coinstore_India",
+        "India_crypto_regulation",
+        "exchange_expansion"
+      ],
+      "rationale": "While the expansion of exchanges into new markets like India is generally positive for adoption, the pending regulatory curbs create short-term uncertainty and potential headwinds for Coinstore and the broader Indian crypto market."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nab04db7627f9",
+      "title": "First Mover Asia: Bitcoin, Altcoins Rebound From ‘Black Friday’ Plummet",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-altcoins-233019585.html",
+      "summary": "Bitcoin and altcoins are showing signs of a rebound after a significant drop on 'Black Friday,' attributed to the Omicron variant fears. Despite the rebound, investor nervousness about the variant persists. This suggests a volatile market with potential for further swings.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_rebound",
+        "altcoin_recovery",
+        "Omicron_sentiment"
+      ],
+      "rationale": "The rebound in Bitcoin and altcoins from the 'Black Friday' sell-off indicates some short-term buying interest. However, persistent investor nervousness about the Omicron variant suggests that this rebound may be fragile and subject to renewed selling pressure."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-11-28",
+    "summary": "The crypto market is experiencing significant volatility driven by the emergence of the Omicron COVID-19 variant, leading to a broad 'risk-off' sentiment. Bitcoin and other cryptocurrencies saw sharp declines on Friday, with the market attempting a partial recovery on Saturday. Macroeconomic data and central bank commentary remain key factors to watch for short-term price direction. Institutional adoption continues to be a long-term bullish driver, but immediate sentiment is dominated by global health concerns.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Further negative news regarding the Omicron variant's transmissibility or vaccine efficacy.",
+      "Unexpected hawkish signals from the Federal Reserve impacting risk appetite.",
+      "Increased regulatory scrutiny on stablecoins or other crypto assets.",
+      "Liquidity crunches due to broader market sell-offs.",
+      "Technical breakdowns on key support levels for Bitcoin."
+    ],
+    "watch_items": [
+      "Omicron variant developments and government responses.",
+      "Statements from Fed officials, particularly Chair Powell.",
+      "Key economic data releases (NFP, inflation figures).",
+      "Performance of traditional markets (S&P 500, Nasdaq).",
+      "Developments in spot Bitcoin ETF applications.",
+      "Hashrate trends for major Bitcoin mining pools."
+    ]
+  }
+}

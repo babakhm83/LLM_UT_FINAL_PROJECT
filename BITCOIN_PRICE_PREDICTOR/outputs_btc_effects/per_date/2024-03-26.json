@@ -1,0 +1,515 @@
+{
+  "date": "2024-03-26",
+  "long_term": [
+    {
+      "pick_idx": 7,
+      "id": "n4ebbd3f6fda5",
+      "title": "Bitcoin set for biggest monthly jump since 2020 amid ETF boost",
+      "url": "https://finance.yahoo.com/news/soaring-bitcoin-set-sharpest-monthly-011528179.html",
+      "summary": "Bitcoin was on track for its largest monthly gain in over three years, nearing a record high, driven by substantial inflows into spot Bitcoin ETFs. This development signals renewed investor interest and institutional adoption, potentially reigniting the excitement that waned after the 2022 crypto winter. The approval and launch of these ETFs have opened the asset class to a broader investor base, suggesting a sustained positive impact on Bitcoin's price and market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "macro"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "monthly_performance",
+        "record_high_proximity"
+      ],
+      "rationale": "The sustained inflows into spot Bitcoin ETFs represent a significant shift in institutional adoption, providing a strong tailwind for Bitcoin's price. This trend is likely to continue influencing market dynamics for the foreseeable future."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ncdf07ba1c9ab",
+      "title": "Gold Funds See Big Outflows Alongside Rush of Money Into Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/gold-funds-see-big-outflows-191417838.html",
+      "summary": "Gold ETFs have experienced significant outflows since the launch of spot Bitcoin ETFs on January 11th. Concurrently, Bitcoin ETFs have seen massive inflows, accumulating nearly $10 billion in assets under management within just over a month. This trend suggests a potential rotation of capital from traditional safe-haven assets like gold into Bitcoin, positioning Bitcoin as a digital alternative and potentially impacting gold's market share.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ETF_outflows_gold",
+        "ETF_inflows_bitcoin",
+        "capital_rotation"
+      ],
+      "rationale": "The observed shift of capital from gold to Bitcoin ETFs highlights Bitcoin's growing acceptance as a digital store of value, potentially drawing significant long-term investment."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n8273cb34ba7c",
+      "title": "Bitcoin Halving Moves: 3 Altcoins to Buy Before They Become Moonshots",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-moves-3-altcoins-033625081.html",
+      "summary": "Bitcoin's price has surged leading up to the April halving event, with the cryptocurrency up over 114% in the past year and reaching 24-month highs. The SEC's approval of spot Bitcoin ETFs and increased institutional investment suggest the rally is just beginning. Bitcoin's scarcity positions it as a potential store of value, akin to 'digital gold.' The halving event, which cuts miners' block rewards in half, is historically associated with price increases.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "protocol"
+      ],
+      "features_for_model": [
+        "bitcoin_halving",
+        "institutional_adoption",
+        "digital_gold_narrative"
+      ],
+      "rationale": "The upcoming Bitcoin halving is a fundamental supply shock event that has historically preceded significant price appreciation. Coupled with increasing institutional interest, this event is a strong long-term bullish catalyst."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n6219a08dc036",
+      "title": "Bitcoin Tops $44K, With Whale Accumulation Suggesting Conviction in More Price Gains",
+      "url": "https://finance.yahoo.com/news/bitcoin-tops-44k-whale-accumulation-213630156.html",
+      "summary": "Bitcoin surged past $44,000, reaching a four-week high, driven by increased accumulation from large holders ('whales') and new all-time highs in U.S. equity indices. The accumulation by significant holders suggests strong conviction in future price appreciation. This trend, following the launch of spot Bitcoin ETFs, indicates sustained demand from sophisticated investors.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "whale_accumulation",
+        "price_breakout",
+        "ETF_impact"
+      ],
+      "rationale": "Significant accumulation by large Bitcoin holders is a strong indicator of underlying demand and confidence in future price increases, suggesting a positive long-term outlook."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n45813e058a17",
+      "title": "Crypto Stocks Surge as Bitcoin Approaches All-Time Highs",
+      "url": "https://finance.yahoo.com/news/crypto-stocks-surge-bitcoin-approaches-123027947.html",
+      "summary": "U.S.-listed crypto companies experienced significant gains as Bitcoin approached its all-time high, surpassing $65,000 for the first time since November 2021. Bitcoin's rally, with the CoinDesk 20 Index also rising, indicates a broad market uptrend. Companies like Coinbase and MicroStrategy, which hold substantial Bitcoin reserves, saw their stock prices increase, reflecting the positive correlation between Bitcoin's performance and the broader crypto-related equity market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_stocks_performance",
+        "bitcoin_all_time_high_proximity",
+        "MSTR_BTC_holdings",
+        "COIN_performance"
+      ],
+      "rationale": "The surge in crypto stocks, mirroring Bitcoin's ascent towards all-time highs, demonstrates a strong market sentiment and the increasing interconnectedness of the crypto and traditional equity markets."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n880f749fceb8",
+      "title": "ARK Invest Says Optimal Bitcoin Portfolio Allocation for 2023 Was 19.4%",
+      "url": "https://finance.yahoo.com/news/ark-invest-says-optimal-bitcoin-072220897.html",
+      "summary": "ARK Invest's 2024 Big Ideas report suggests that an optimal portfolio allocation to Bitcoin in 2023 was 19.4%, based on its analysis of risk-adjusted returns. The firm highlights Bitcoin's annualized returns significantly surpassing major asset classes over the past seven years. This endorsement from a prominent investment firm like ARK Invest reinforces Bitcoin's position as a valuable portfolio diversifier and a significant asset class.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "ARK_Invest_allocation",
+        "portfolio_diversification",
+        "risk_adjusted_returns"
+      ],
+      "rationale": "Endorsements from influential investment firms like ARK Invest, which recommend significant portfolio allocations to Bitcoin, validate its long-term investment thesis and can attract further institutional capital."
+    },
+    {
+      "pick_idx": 9,
+      "id": "ndd954d5c04a5",
+      "title": "UXUY Secures Strategic Investment from Binance Labs to Propel Bitcoin Lightning Network Ecosystem",
+      "url": "https://finance.yahoo.com/news/uxuy-secures-strategic-investment-binance-102400836.html",
+      "summary": "UXUY, a decentralized multi-chain trading platform, has received a strategic investment from Binance Labs. This investment marks a significant step in advancing the Bitcoin Lightning Network ecosystem. Binance Labs' backing underscores its commitment to innovative projects and highlights the growing importance of scaling solutions for Bitcoin, such as the Lightning Network, for broader adoption and utility.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Binance_Labs_investment",
+        "Lightning_Network_development",
+        "DeFi_integration"
+      ],
+      "rationale": "Investment from a major player like Binance Labs into a platform focused on the Bitcoin Lightning Network signals confidence in the scaling solution's future and its potential to drive adoption."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n513f1e96cab3",
+      "title": "GLOBAL MARKETS-Stocks steady, dollar up; investors brace for CPI",
+      "url": "https://finance.yahoo.com/news/global-markets-stocks-steady-dollar-223529146.html",
+      "summary": "Global stock indexes were largely unchanged, while the U.S. dollar strengthened ahead of the U.S. consumer price index (CPI) report. This report is anticipated to provide insights into the Federal Reserve's potential interest rate cut timeline. Notably, Bitcoin reached the $50,000 level for the first time in over two years, indicating a positive sentiment in the crypto market despite broader market caution.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "CPI_anticipation",
+        "dollar_strength",
+        "BTC_50k_level"
+      ],
+      "rationale": "Bitcoin breaking the $50,000 mark for the first time in two years, despite broader market uncertainty around inflation and interest rates, demonstrates its growing resilience and independent momentum."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n2151732d56b5",
+      "title": "Classic Doom revived on Dogecoin network",
+      "url": "https://finance.yahoo.com/news/classic-doom-revived-dogecoin-network-185841156.html",
+      "summary": "The iconic game Doom has been revived on the Dogecoin blockchain through data inscription, showcasing the blockchain's potential beyond financial transactions. This development, known as \"inscription,\" embeds game data within blockchain transactions, effectively turning Dogecoin into a gaming platform. While Dogecoin started as a joke, its utility is expanding, demonstrating the evolving use cases for even meme-focused cryptocurrencies.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Dogecoin_inscription",
+        "blockchain_gaming",
+        "expanding_utility"
+      ],
+      "rationale": "The inscription of a game onto the Dogecoin blockchain highlights innovative uses of blockchain technology and could foster broader adoption and experimentation with different blockchain functionalities."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n0a5ed7ec665b",
+      "title": "Taproot Wizards Debut Sale of Bitcoin NFTs 'Quantum Cats' Marred by Tech Issues",
+      "url": "https://finance.yahoo.com/news/taproot-wizards-debut-sale-bitcoin-194739901.html",
+      "summary": "The highly anticipated sale of 'Quantum Cats' Bitcoin NFTs by Taproot Wizards encountered technical difficulties, leading to delays and user frustration. The issues stemmed from overwhelming demand that servers could not handle. Despite the technical glitches, the event underscores the growing interest and demand for Bitcoin-based NFTs and the Ordinals protocol, indicating a developing market for digital collectibles on the Bitcoin network.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Bitcoin_NFTs",
+        "Ordinals_protocol",
+        "technical_issues",
+        "high_demand"
+      ],
+      "rationale": "While technical issues marred the launch, the high demand for Bitcoin NFTs signals a growing interest in this sector. Overcoming these infrastructure challenges will be key for future growth."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 18,
+      "id": "ne43c176f53db",
+      "title": "Bitcoin ETFs Snap Outflows Streak, Accumulate $15.4M",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-snap-outflows-streak-075520848.html",
+      "summary": "Spot Bitcoin ETFs registered inflows totaling $15.4 million on Monday, ending a five-day outflow streak. Fidelity's FBTC led inflows, followed by BlackRock's IBIT. This reversal suggests renewed investor confidence and could signal a stabilization or rebound in ETF flows.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "outflow_streak_snap",
+        "Fidelity_FBTC",
+        "BlackRock_IBIT"
+      ],
+      "rationale": "The end of the outflow streak and renewed inflows into major Bitcoin ETFs suggest a positive short-term sentiment shift, potentially boosting price."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n40b451d533a3",
+      "title": "Hong Kong Likely To Allow In-Kind Creations for Spot Bitcoin ETFs: Bloomberg",
+      "url": "https://finance.yahoo.com/news/hong-kong-likely-allow-kind-162521543.html",
+      "summary": "Hong Kong's financial regulator is likely to approve in-kind creations and redemptions for spot Bitcoin ETFs in Q2. This could open the crypto market to a massive investor base in China. Several firms have applied to launch spot Bitcoin ETFs on the Hong Kong Stock Exchange.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Hong_Kong_ETF_approval",
+        "in_kind_creations",
+        "China_market_access"
+      ],
+      "rationale": "The potential approval of in-kind creations for Hong Kong Bitcoin ETFs could significantly increase accessibility for Chinese investors, driving demand and positive price action."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n7ec78d1ad03d",
+      "title": "DOJ accuses crypto exchange KuCoin of money laundering violations and receiving billions in suspicious funds",
+      "url": "https://finance.yahoo.com/news/doj-accuses-crypto-exchange-kucoin-162712652.html",
+      "summary": "The U.S. Department of Justice has filed criminal charges against crypto exchange KuCoin and its founders for alleged money laundering violations and receiving billions in suspicious funds. This action follows a broader campaign by U.S. law enforcement to regulate the crypto industry.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "KuCoin_charges",
+        "money_laundering_accusations",
+        "regulatory_crackdown"
+      ],
+      "rationale": "Legal action against a major exchange like KuCoin can create contagion fears and lead to reduced liquidity and price volatility across the market."
+    },
+    {
+      "pick_idx": 9,
+      "id": "ne291af511b0e",
+      "title": "Bitcoin halving for beginners: How the process works, impacts price of BTC",
+      "url": "https://finance.yahoo.com/news/bitcoin-halving-beginners-process-works-014100404.html",
+      "summary": "The article explains the Bitcoin halving process and its historical impact on BTC's price, noting that past halvings have preceded price spikes. It aims to educate new holders about this significant event on the crypto calendar.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "bitcoin_halving_event",
+        "supply_shock",
+        "historical_price_impact"
+      ],
+      "rationale": "The approaching Bitcoin halving is a significant supply-side event that has historically driven price increases, making it a key short-term bullish catalyst."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nf5dcd1d83410",
+      "title": "Robert Kiyosaki Says He Expects Bitcoin To Hit $100K And Will Be Buying 10 More Before The Halving",
+      "url": "https://finance.yahoo.com/news/robert-kiyosaki-says-expects-bitcoin-140011986.html",
+      "summary": "Robert Kiyosaki, author of 'Rich Dad Poor Dad,' plans to buy 10 more Bitcoin before the April halving, expecting the price to reach $100,000 by September 2024. He previously bought five Bitcoin during the spot ETF approvals. His bullish outlook and planned purchases can influence retail sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "Robert_Kiyosaki",
+        "BTC_100k_prediction",
+        "pre_halving_buy"
+      ],
+      "rationale": "Prominent figures like Robert Kiyosaki expressing strong bullish sentiment and making planned purchases can positively influence retail investor behavior and market sentiment."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n49c683e38599",
+      "title": "Crypto Traders Dismiss Waning ETF Inflows as Bitcoin Holds Steady Over $70K",
+      "url": "https://finance.yahoo.com/news/crypto-traders-dismiss-waning-etf-073236967.html",
+      "summary": "Bitcoin briefly surpassed $71,000, driven by sentiment around potential new institutional products and the London Stock Exchange's approval of BTC and ETH ETNs for May. Traders are dismissing waning ETF inflows as Bitcoin remains strong, with projects linked to Coinbase Ventures showing significant gains.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_70K_level",
+        "LSE_ETN_approval",
+        "institutional_product_sentiment"
+      ],
+      "rationale": "Bitcoin holding above $70K despite fluctuating ETF inflows, coupled with positive news like LSE ETN approvals, indicates strong underlying demand and bullish sentiment."
+    },
+    {
+      "pick_idx": 4,
+      "id": "nf6714598d4e2",
+      "title": "Stock market today: Stocks fade into the close as Nasdaq lags",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-stocks-fade-into-the-close-as-nasdaq-lags-200241017.html",
+      "summary": "US stocks reversed gains late in Tuesday's trading, with the Nasdaq Composite falling. The S&P 500 and Dow Jones also dipped. This pullback occurred despite positive economic data like rebounding durable goods orders, suggesting a market consolidation after a strong run.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "market_consolidation",
+        "Nasdaq_lag",
+        "durable_goods_orders"
+      ],
+      "rationale": "A late-day pullback in major indices, particularly the tech-heavy Nasdaq, suggests potential short-term profit-taking or a pause in the rally, leading to increased volatility."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n79278502db9f",
+      "title": "Coinbase’s COIN Reaches November 2021 Highs as BTC Reclaims $70K Level",
+      "url": "https://finance.yahoo.com/news/coinbase-coin-reaches-november-2021-054625167.html",
+      "summary": "Coinbase's stock price (COIN) has reached its highest level since November 2021, trading at $279.65, as Bitcoin surpasses $70,000. COIN has seen a 44% increase in the past month and a 346% increase over the past year. This surge in Coinbase's stock reflects the positive correlation between the crypto exchange's performance and the broader crypto market rally.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "COIN_stock_performance",
+        "BTC_70K_level",
+        "exchange_volume"
+      ],
+      "rationale": "Coinbase's stock reaching multi-year highs alongside Bitcoin indicates strong market participation and positive sentiment, suggesting continued momentum for the exchange."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n751546828e99",
+      "title": "London Stock Exchange Will Launch Crypto ETNs Tracking BTC and ETH on May 28",
+      "url": "https://finance.yahoo.com/news/london-stock-exchange-launch-crypto-055551379.html",
+      "summary": "The London Stock Exchange (LSE) plans to launch exchange-traded notes (ETNs) for Bitcoin (BTC) and Ethereum (ETH) on May 28. Applications open April 8, with listings subject to FCA approval. This move expands regulated investment products for cryptocurrencies in Europe.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "LSE_crypto_ETN",
+        "BTC_ETH_tracking",
+        "European_market_access"
+      ],
+      "rationale": "The launch of crypto ETNs on the London Stock Exchange provides new regulated avenues for European investors to gain exposure to Bitcoin and Ethereum, potentially increasing demand."
+    },
+    {
+      "pick_idx": 46,
+      "id": "nb04cd69076ea",
+      "title": "Soaring U.S. Debt Has Potential to Replay U.K.'s 2022 Market Shock, CBO Warns",
+      "url": "https://finance.yahoo.com/news/soaring-u-debt-potential-replay-121220987.html",
+      "summary": "The Congressional Budget Office (CBO) warns that soaring U.S. debt could lead to market chaos similar to the U.K.'s 2022 shock. This concern about debt levels and potential fiscal instability could drive investors towards safe-haven assets like Bitcoin and gold, especially amid elevated global interest rates.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "US_debt_concerns",
+        "market_shock_risk",
+        "safe_haven_demand"
+      ],
+      "rationale": "Concerns over rising U.S. debt and potential market instability could drive capital into Bitcoin as a perceived safe-haven asset, similar to gold, especially in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2024-03-26",
+    "summary": "Bitcoin ETFs saw a return to inflows after a brief outflow streak, signaling renewed institutional interest. The upcoming Bitcoin halving remains a key bullish catalyst, with prominent figures like Robert Kiyosaki expressing strong positive sentiment and planned purchases. However, regulatory actions, such as the DOJ's charges against KuCoin, introduce bearish pressure and potential market volatility. The London Stock Exchange's planned launch of crypto ETNs and Hong Kong's potential approval of in-kind ETF creations offer further bullish catalysts by expanding accessibility. Market consolidation is also evident, with major indices showing late-day pullbacks.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.35,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Regulatory actions against exchanges (e.g., KuCoin) can trigger broader market fear and liquidity issues.",
+      "Potential for increased volatility as the Bitcoin halving approaches.",
+      "Macroeconomic data releases (e.g., inflation reports) could shift Fed policy expectations, impacting risk assets.",
+      "Technical issues with new product launches or network upgrades could cause temporary price disruptions."
+    ],
+    "watch_items": [
+      "Bitcoin ETF inflow/outflow data",
+      "Developments in Hong Kong's ETF market",
+      "Statements from Fed officials regarding interest rates",
+      "Progress of Bitcoin halving preparations",
+      "Any further regulatory actions against crypto firms"
+    ]
+  }
+}

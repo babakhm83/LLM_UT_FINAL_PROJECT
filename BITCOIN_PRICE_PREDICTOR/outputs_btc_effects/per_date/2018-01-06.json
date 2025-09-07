@@ -1,0 +1,477 @@
+{
+  "date": "2018-01-06",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n6c18bb3820c5",
+      "title": "Bitcoin Prices Drop Ahead of CME Futures Launch",
+      "url": "https://finance.yahoo.com/news/bitcoin-prices-drop-ahead-cme-085426699.html",
+      "summary": "Bitcoin experienced a significant price drop ahead of the CME futures launch, falling from $18,300 to around $13,072. This volatility highlights the market's sensitivity to institutional involvement and the anticipation surrounding regulated futures trading. The premiums in South Korea also indicated strong demand, despite the correction.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "futures",
+        "volatility"
+      ],
+      "features_for_model": [
+        "CME_futures_launch",
+        "price_correction",
+        "South_Korea_premium"
+      ],
+      "rationale": "The launch of regulated futures by CME was a significant institutional adoption event. The immediate price drop suggests that the market was overextended and that institutional entry, while positive long-term, could lead to short-term volatility and price discovery."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n505ee327c1f5",
+      "title": "Payments company Square tests bitcoin buying and selling",
+      "url": "https://finance.yahoo.com/news/payments-company-square-tests-bitcoin-buying-selling-181937467--sector.html",
+      "summary": "Square, a major payments company, began testing bitcoin buying and selling capabilities on its Cash app. This move signals growing mainstream adoption and integration of cryptocurrencies into everyday financial services, even as institutional investors remained cautious.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "payments"
+      ],
+      "features_for_model": [
+        "Square_Cash_app",
+        "mainstream_adoption",
+        "crypto_integration"
+      ],
+      "rationale": "Square's integration of Bitcoin into its widely used Cash app represents a significant step towards broader consumer adoption. This move lowers the barrier to entry for everyday users, potentially increasing demand and network effect."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n9551ddc10e37",
+      "title": "Demo: How to use a bitcoin hardware wallet",
+      "url": "https://finance.yahoo.com/news/send-bitcoin-hardware-wallet-140141385.html",
+      "summary": "The article provides a guide on using hardware wallets for Bitcoin, emphasizing the security risks of leaving coins on exchanges. This highlights the growing importance of self-custody as the user base expands and the value of assets increases.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "security",
+        "adoption"
+      ],
+      "features_for_model": [
+        "hardware_wallet",
+        "self_custody",
+        "exchange_security"
+      ],
+      "rationale": "Increased awareness and adoption of hardware wallets are crucial for the long-term security and decentralization of Bitcoin. As more users prioritize secure storage, it builds confidence in the ecosystem and reduces risks associated with exchange hacks."
+    },
+    {
+      "pick_idx": 7,
+      "id": "naf537d85ce2f",
+      "title": "What the Bitcoin Reference Rate Is, and Why It Matters",
+      "url": "https://finance.yahoo.com/news/bitcoin-reference-rate-why-matters-121900347.html",
+      "summary": "The article explains the significance of a Bitcoin Reference Rate, crucial for the functioning of bitcoin futures. This development is key for institutional investors seeking reliable pricing mechanisms to engage with the cryptocurrency market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "futures",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_reference_rate",
+        "futures_market",
+        "institutional_pricing"
+      ],
+      "rationale": "The establishment of a reliable Bitcoin Reference Rate is a foundational element for the growth of regulated derivatives markets. This provides institutional investors with the necessary tools for price discovery and risk management, facilitating greater capital inflow."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n81a4d89f44be",
+      "title": "Coinbase hits top spot on Apple's US App Store despite struggling to handle bitcoin demand",
+      "url": "https://finance.yahoo.com/news/coinbase-hits-top-spot-apple-031033071.html",
+      "summary": "Coinbase, a leading cryptocurrency exchange, reached the number one spot on Apple's US App Store, indicating massive user interest in Bitcoin. Despite the platform's struggles to keep up with demand, this surge in downloads signifies mainstream awareness and adoption.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "retail"
+      ],
+      "features_for_model": [
+        "Coinbase_app_rank",
+        "user_demand",
+        "mainstream_awareness"
+      ],
+      "rationale": "Coinbase topping the App Store charts is a strong indicator of retail interest and adoption. Even with technical challenges, this level of visibility and accessibility for buying Bitcoin suggests a significant increase in new users entering the market."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n554d29b63b38",
+      "title": "Bitcoin hits another record high in march toward $20,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-another-record-high-march-toward-20-023645354.html",
+      "summary": "Bitcoin reached new all-time highs, approaching $20,000, driven by the launch of futures contracts on regulated exchanges. This milestone reflects growing investor optimism and the increasing acceptance of Bitcoin as a speculative asset.",
+      "impact_horizon_months": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "futures",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "record_high_price",
+        "CME_futures",
+        "Cboe_futures",
+        "institutional_optimism"
+      ],
+      "rationale": "The approach to $20,000, coupled with the launch of regulated futures, signaled a major inflection point for Bitcoin. This period saw significant institutional interest and a broader market narrative shift, driving substantial price appreciation."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n420d9219d520",
+      "title": "SEC Warning: The Risks of Bitcoin and Other Cryptocurrencies",
+      "url": "https://finance.yahoo.com/news/sec-warning-risks-bitcoin-other-164615802.html",
+      "summary": "The SEC issued a warning about the risks associated with Bitcoin and cryptocurrencies, highlighting potential for fraud and Ponzi schemes. This regulatory caution signals the evolving landscape of crypto oversight and investor protection.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "risk"
+      ],
+      "features_for_model": [
+        "SEC_warning",
+        "crypto_risks",
+        "investment_fraud"
+      ],
+      "rationale": "SEC warnings, while cautionary, also represent the growing attention from regulatory bodies. This indicates a move towards formalizing oversight, which can lead to greater market stability and institutional trust in the long run, despite short-term negative sentiment."
+    },
+    {
+      "pick_idx": 24,
+      "id": "ne7f4dd11e730",
+      "title": "The 6 Biggest Risks to Bitcoin",
+      "url": "https://finance.yahoo.com/news/6-biggest-risks-bitcoin-150000308.html",
+      "summary": "This article outlines the key risks facing Bitcoin, including volatility, regulatory uncertainty, and potential for fraud. Understanding these risks is crucial for investors navigating the nascent cryptocurrency market.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "volatility",
+        "risk"
+      ],
+      "features_for_model": [
+        "bitcoin_risks",
+        "regulatory_uncertainty",
+        "market_volatility"
+      ],
+      "rationale": "The discussion of Bitcoin's risks, particularly regulatory uncertainty and volatility, was a recurring theme. These factors contributed to price corrections and influenced investor sentiment, creating a more cautious approach to the asset."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n4d1db00ed61b",
+      "title": "A Big Shift Is Underway Among Cryptocurrencies Like Bitcoin, Litecoin, Ethereum, and Ripple",
+      "url": "https://finance.yahoo.com/news/big-shift-underway-among-cryptocurrencies-132100104.html",
+      "summary": "The cryptocurrency market experienced a significant shift, with aggregate valuations soaring. This growth was largely driven by Bitcoin's performance, indicating a broader trend of increasing adoption and market capitalization across various digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "market_cap",
+        "ecosystem"
+      ],
+      "features_for_model": [
+        "crypto_market_shift",
+        "aggregate_valuation_growth",
+        "bitcoin_driver"
+      ],
+      "rationale": "The substantial increase in the aggregate market cap of cryptocurrencies, largely led by Bitcoin, signaled a major market expansion. This period marked a significant shift towards broader acceptance and investment in digital assets."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n2d986b89a70c",
+      "title": "5 Burning Questions for Bitcoin Investors in 2018",
+      "url": "https://finance.yahoo.com/news/5-burning-questions-bitcoin-investors-113001429.html",
+      "summary": "This article poses key questions for Bitcoin investors heading into 2018, focusing on regulatory roadmaps and the potential for Wall Street integration. These questions highlight the evolving institutional interest and regulatory clarity needed for further growth.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_investor_questions",
+        "regulatory_roadmap",
+        "wall_street_integration"
+      ],
+      "rationale": "The focus on regulatory roadmaps and institutional integration points to the key drivers for Bitcoin's future. Addressing these questions would be critical for sustained growth and wider adoption, influencing investor sentiment and market direction."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n334911aa8e83",
+      "title": "Dollar Rally Shows Investors Aren’t Worried About NFP Miss",
+      "url": "https://finance.yahoo.com/news/dollar-rally-shows-investors-aren-085614613.html",
+      "summary": "The US Dollar rallied after the Non-Farm Payrolls (NFP) report, suggesting investors believe the Federal Reserve will proceed with interest rate hikes. This indicates a potentially hawkish stance from the Fed, which could impact risk assets.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "NFP_report",
+        "dollar_rally",
+        "Fed_rate_hikes"
+      ],
+      "rationale": "A strong NFP report and subsequent dollar rally suggest a positive outlook for the US economy, potentially leading to tighter monetary policy. This can draw capital away from riskier assets like Bitcoin."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ncbdc723f8bbd",
+      "title": "3 Under-the-Radar Stories in the Stock Market This Week",
+      "url": "https://finance.yahoo.com/news/3-under-radar-stories-stock-163500786.html",
+      "summary": "This article discusses under-the-radar market stories, including enthusiasm for cryptocurrencies. It suggests that a new entrant at the top of rich lists indicates significant interest in crypto, potentially driving demand.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "retail"
+      ],
+      "features_for_model": [
+        "crypto_enthusiasm",
+        "under_radar_story",
+        "rich_list_entry"
+      ],
+      "rationale": "The mention of a new entrant on rich lists due to cryptocurrency enthusiasm suggests continued retail interest and potential for increased capital flow into the crypto market."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n0e33537546d2",
+      "title": "AUD/USD Price Forecast January 8, 2018, Technical Analysis",
+      "url": "https://finance.yahoo.com/news/aud-usd-price-forecast-january-022912349.html",
+      "summary": "Technical analysis suggests the Australian dollar faces resistance at the 0.80 level against the USD. A break above this level could signal a long-term bullish trend, but current sentiment points to continued struggle.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "FX"
+      ],
+      "features_for_model": [
+        "AUD_USD_resistance",
+        "technical_analysis",
+        "FX_sentiment"
+      ],
+      "rationale": "While not directly about Bitcoin, AUD/USD movements can reflect broader market sentiment and risk appetite, which can indirectly influence Bitcoin's price. The identified resistance suggests a cautious outlook for the pair."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n2324f4a920ac",
+      "title": "Hawkish Fed Minutes, Upbeat Economic Data Stops U.S. Dollar Price Slide",
+      "url": "https://finance.yahoo.com/news/hawkish-fed-minutes-upbeat-economic-091724359.html",
+      "summary": "Hawkish Fed minutes and positive economic data halted the US Dollar's decline. This suggests a potential tightening of monetary policy, which could lead to reduced liquidity and a less favorable environment for risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "hawkish_fed_minutes",
+        "upbeat_economic_data",
+        "dollar_strength"
+      ],
+      "rationale": "Hawkish Fed sentiment and strong economic data typically lead to a stronger dollar and potentially tighter liquidity. This environment can be a headwind for Bitcoin and other risk assets."
+    },
+    {
+      "pick_idx": 7,
+      "id": "nf7ad87022c3a",
+      "title": "Why First Solar Stock Doubled in 2017",
+      "url": "https://finance.yahoo.com/news/why-first-solar-stock-doubled-153100944.html",
+      "summary": "First Solar's stock doubled in 2017 due to strong operations and booked sales. This indicates a positive trend in the renewable energy sector, which can be a proxy for broader investor sentiment towards growth sectors.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_tags": [
+        "macro",
+        "growth_sectors"
+      ],
+      "features_for_model": [
+        "First_Solar_performance",
+        "renewable_energy_sector",
+        "investor_sentiment"
+      ],
+      "rationale": "Strong performance in sectors like renewable energy can reflect a broader risk-on sentiment among investors, which could spill over into other growth assets like Bitcoin."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nac357df16e8c",
+      "title": "App Store Revenue Continues Surging for Apple, Inc.",
+      "url": "https://finance.yahoo.com/news/app-store-revenue-continues-surging-154000985.html",
+      "summary": "Apple's App Store revenue is surging, contributing significantly to its services segment. This growth highlights strong consumer spending on digital goods and services, a trend that can be indirectly linked to overall consumer confidence and discretionary spending.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "adoption",
+        "retail",
+        "consumer_spending"
+      ],
+      "features_for_model": [
+        "Apple_App_Store_revenue",
+        "services_growth",
+        "consumer_confidence"
+      ],
+      "rationale": "Strong consumer spending on platforms like Apple's App Store can indicate robust consumer confidence, which is generally positive for risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n3c46e6bda800",
+      "title": "Better Buy: NVIDIA Corporation vs. Qualcomm",
+      "url": "https://finance.yahoo.com/news/better-buy-nvidia-corporation-vs-133300278.html",
+      "summary": "NVIDIA and Qualcomm are well-positioned for 2018 due to their involvement in AI and IoT. This highlights the growth potential in technology sectors, which often correlates with broader market sentiment and investment in innovation.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "technology",
+        "adoption"
+      ],
+      "features_for_model": [
+        "NVIDIA_Qualcomm",
+        "AI_IoT_growth",
+        "tech_sector_sentiment"
+      ],
+      "rationale": "Positive outlooks for major tech companies involved in AI and IoT can reflect a broader positive sentiment towards technology and innovation, which can indirectly benefit Bitcoin as a technological asset."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nddd4beb5aa10",
+      "title": "3 Biotech Stocks That Soared This Week: Are They Buys?",
+      "url": "https://finance.yahoo.com/news/3-biotech-stocks-soared-week-153400441.html",
+      "summary": "Several biotech stocks saw significant gains early in 2018, indicating strong performance in the sector. This suggests a potential risk-on environment, which could be favorable for Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_tags": [
+        "macro",
+        "growth_sectors"
+      ],
+      "features_for_model": [
+        "biotech_stock_performance",
+        "sector_gains",
+        "risk_on_sentiment"
+      ],
+      "rationale": "Strong performance in the biotech sector can be an indicator of broader investor appetite for growth and speculative assets, which may correlate with positive sentiment towards Bitcoin."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n34b31e407af5",
+      "title": "Telegram plans multi-billion dollar ICO for chat cryptocurrency",
+      "url": "https://finance.yahoo.com/news/telegram-plans-multi-billion-dollar-172034187.html",
+      "summary": "Encrypted messaging startup Telegram plans a multi-billion dollar Initial Coin Offering (ICO) for its own blockchain platform and cryptocurrency. This signals continued significant capital raising activity in the crypto space, potentially drawing attention and funds away from Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "ICO",
+        "adoption",
+        "competition"
+      ],
+      "features_for_model": [
+        "Telegram_ICO",
+        "blockchain_platform",
+        "crypto_competition"
+      ],
+      "rationale": "A large ICO from a major tech player like Telegram could divert significant capital and attention from Bitcoin. While it signals overall crypto market growth, it also introduces competition for investor funds."
+    },
+    {
+      "pick_idx": 47,
+      "id": "na441dd0256e3",
+      "title": "U.S. company plans funds that double bitcoin price moves",
+      "url": "https://finance.yahoo.com/news/u-company-plans-funds-double-015845583.html",
+      "summary": "A U.S. fund manager plans to launch leveraged and inverse Bitcoin funds, aiming to double Bitcoin's daily price movements. This indicates increasing institutional product development and a growing demand for sophisticated Bitcoin investment vehicles.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "futures",
+        "institutional",
+        "volatility"
+      ],
+      "features_for_model": [
+        "leveraged_bitcoin_funds",
+        "inverse_bitcoin_funds",
+        "institutional_products"
+      ],
+      "rationale": "The planned launch of leveraged Bitcoin funds suggests growing institutional interest in creating more complex investment products. This could increase market volatility and attract more sophisticated traders, but also poses risks."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-01-06",
+    "summary": "The market sentiment is mixed, with a strong US Dollar potentially pressuring risk assets like Bitcoin due to hawkish Fed signals. However, continued mainstream adoption indicators, such as Coinbase's app store ranking and growing interest in crypto investment products, provide underlying bullish support. The upcoming week will be crucial for observing how these macro factors interact with the ongoing crypto-specific developments.",
+    "scenario_probs": {
+      "bull": 0.45,
+      "base": 0.35,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Potential for a stronger USD and tighter liquidity due to hawkish Fed sentiment.",
+      "Increased volatility from new leveraged Bitcoin products.",
+      "Regulatory uncertainty and potential for negative news from government bodies.",
+      "Competition from other large ICOs drawing capital away from Bitcoin."
+    ],
+    "watch_items": [
+      "US Dollar Index (DXY) movements",
+      "Federal Reserve statements and economic data releases",
+      "Developments in leveraged Bitcoin fund applications",
+      "Major altcoin movements (e.g., BCH, ETH) for market sentiment clues",
+      "Any significant exchange news or security incidents"
+    ]
+  }
+}

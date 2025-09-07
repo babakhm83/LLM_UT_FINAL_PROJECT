@@ -1,0 +1,533 @@
+{
+  "date": "2020-03-10",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n2f35884e1ff5",
+      "title": "CME Open Interest for Bitcoin Futures Up 100% Since Start of 2020",
+      "url": "https://finance.yahoo.com/news/cme-open-interest-bitcoin-futures-184857327.html",
+      "summary": "Open interest in Bitcoin futures on the Chicago Mercantile Exchange (CME) has doubled in the first few days of 2020, indicating increased institutional participation and interest. This surge in open interest, coupled with a price increase, suggests a strengthening upward trend. The growth signifies growing confidence and activity from institutional players in the Bitcoin market, potentially leading to increased liquidity and price discovery.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "futures"
+      ],
+      "features_for_model": [
+        "CME_open_interest_growth",
+        "institutional_adoption",
+        "futures_volume"
+      ],
+      "rationale": "A doubling of open interest on a major regulated exchange like CME points to significant institutional interest. This trend suggests a growing acceptance and integration of Bitcoin into traditional finance, which can drive long-term price appreciation."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n7627067cead7",
+      "title": "Coinbase Hires Google VP as Chief Product Officer",
+      "url": "https://finance.yahoo.com/news/coinbase-hires-google-vp-chief-180001402.html",
+      "summary": "Coinbase has appointed a former Google VP of product as its new Chief Product Officer. This strategic hire, with extensive experience in payments, adtech, and commerce, signals Coinbase's ambition to enhance its product offerings and drive real-world utility for cryptocurrencies. The move suggests a focus on user experience and broader adoption, potentially integrating crypto more seamlessly into everyday commerce and financial services.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Coinbase_CPO_hire",
+        "Google_talent_acquisition",
+        "product_development_focus"
+      ],
+      "rationale": "Hiring a high-caliber executive from a tech giant like Google indicates a serious commitment to improving user experience and driving adoption. This can lead to more intuitive products and services, attracting a wider user base and increasing overall demand for crypto assets."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n815a87042eab",
+      "title": "Bitcoin Cash Miners Propose Controversial Soft Fork for Zcash-Style Development Fund",
+      "url": "https://finance.yahoo.com/news/bitcoin-cash-miners-propose-controversial-123024334.html",
+      "summary": "A group of Bitcoin Cash miners is proposing a soft fork to redirect 12.5% of block rewards to a development fund, similar to Zcash's model. This initiative aims to secure funding for network development and infrastructure. However, the proposal is controversial and could lead to community division or a chain split if not widely accepted. The success of this proposal could set a precedent for other cryptocurrencies seeking sustainable development funding.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "miner",
+        "regulation"
+      ],
+      "features_for_model": [
+        "BCH_miner_funding_proposal",
+        "soft_fork_controversy",
+        "development_fund_model"
+      ],
+      "rationale": "While the intent is to bolster development, such proposals can create network instability or contentious hard forks. The outcome will depend on community consensus and miner support, impacting BCH's long-term development trajectory and potentially its market perception."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n74fe6f93659e",
+      "title": "Ethereum’s ProgPoW Debate Is About Much More Than Mining",
+      "url": "https://finance.yahoo.com/news/ethereum-progpow-debate-much-more-223006084.html",
+      "summary": "The debate around Ethereum's ProgPoW algorithm update has become a focal point for decision-making processes within the Ethereum community. While ProgPoW aims to favor less resourced miners, its core significance lies in how Ethereum governs itself. A contentious decision could lead to a chain split, impacting the network's stability and investor confidence. This highlights the challenges of decentralized governance and the potential for protocol changes to influence market sentiment.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.65,
+      "impact_tags": [
+        "protocol",
+        "miner",
+        "governance"
+      ],
+      "features_for_model": [
+        "Ethereum_ProgPoW_debate",
+        "mining_algorithm_change",
+        "governance_dispute"
+      ],
+      "rationale": "The ProgPoW debate reflects deep-seated governance issues within Ethereum. A contentious outcome, such as a chain split, could significantly disrupt the network, impacting ETH's price and the broader DeFi ecosystem. The resolution will shape future protocol upgrades."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n64ad256cb510",
+      "title": "As Fed Contemplates Coronavirus-Prompted Easing, Bitcoin Traders Bet on Halving",
+      "url": "https://finance.yahoo.com/news/fed-contemplates-coronavirus-prompted-easing-204138374.html",
+      "summary": "With the Federal Reserve considering interest rate cuts due to coronavirus fears, Bitcoin traders are focusing on the upcoming halving event. Lower interest rates could make riskier assets like Bitcoin more attractive compared to traditional income-yielding assets. The halving, which reduces the rate of new Bitcoin creation, is a fundamental supply-side event expected to drive prices higher. The confluence of these macro factors suggests a potentially bullish environment for Bitcoin.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "halving",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_easing_anticipation",
+        "Bitcoin_halving_impact",
+        "macroeconomic_sentiment"
+      ],
+      "rationale": "The potential for Fed easing due to global economic uncertainty, combined with the Bitcoin halving, creates a dual tailwind. Lower interest rates reduce the opportunity cost of holding non-yielding assets, while the halving inherently constricts supply, both factors historically correlating with price increases."
+    },
+    {
+      "pick_idx": 27,
+      "id": "n91ae45c1cea3",
+      "title": "‘Regulation will see Bitcoin go mainstream in the UK’ – Coinfloor CEO",
+      "url": "https://finance.yahoo.com/news/regulation-see-bitcoin-mainstream-uk-140036158.html",
+      "summary": "The CEO of UK crypto exchange Coinfloor believes that tighter regulations, such as the EU's Fifth Anti-Money Laundering Directive (5AMLD) being implemented in the UK, will drive wider Bitcoin adoption. Increased regulatory clarity and compliance are expected to boost consumer confidence and encourage mainstream adoption. This suggests a positive long-term outlook for Bitcoin as regulatory frameworks mature, making it more accessible and trustworthy for a broader audience.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "UK_regulation_adoption",
+        "5AMLD_impact",
+        "consumer_confidence_boost"
+      ],
+      "rationale": "Clearer regulatory frameworks, even if stringent, often lead to increased institutional and retail adoption by reducing perceived risk. The implementation of 5AMLD in the UK is a step towards this, potentially making Bitcoin more accessible and integrated into the financial system."
+    },
+    {
+      "pick_idx": 29,
+      "id": "na8f9cb029ffe",
+      "title": "Bitcoin Has Erased Over 45% of 2019 Sell-Off in Just 7 Weeks",
+      "url": "https://finance.yahoo.com/news/bitcoin-erased-over-45-2019-112020094.html",
+      "summary": "Bitcoin has demonstrated strong bullish momentum, recovering over 45% of its 2019 losses within a seven-week period. The price is approaching key resistance levels, with potential to re-test previous highs. This rapid recovery suggests underlying strength in the market and a potential shift in sentiment. The sustained upward trend indicates that previous sell-offs may have been absorbed, paving the way for further price appreciation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "market_sentiment",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_recovery_rate",
+        "bullish_momentum",
+        "price_retest"
+      ],
+      "rationale": "The significant recovery in a short period indicates strong buying pressure and a potential reversal of the previous downtrend. This suggests that the market is absorbing selling pressure and is poised for further upside, especially if key resistance levels are broken."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n39fd5f163429",
+      "title": "Coinbase poaches Google Shopping VP as CPO for cryptocommerce",
+      "url": "https://finance.yahoo.com/news/coinbase-poaches-google-shopping-vp-180019136.html",
+      "summary": "Coinbase has hired a former Google VP of Product, Surojit Chatterjee, as its Chief Product Officer, aiming to drive utility through commerce and micropayments. This strategic move signals a strong focus on developing real-world applications for cryptocurrency. Chatterjee's background in e-commerce and payments suggests an effort to bridge the gap between crypto and traditional commerce, potentially leading to increased adoption and integration.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Coinbase_CPO_hire",
+        "Google_talent",
+        "cryptocommerce_focus"
+      ],
+      "rationale": "The recruitment of a seasoned executive from Google to lead product development for 'cryptocommerce' highlights Coinbase's commitment to utility and mainstream adoption. This focus on real-world use cases can drive demand and integrate crypto into everyday financial activities."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n0d6334ca77bb",
+      "title": "Stablecoins Are Evolving to Make Crypto Assets Irresistible to Wall Street Investors",
+      "url": "https://finance.yahoo.com/news/stablecoins-evolving-crypto-assets-irresistible-155138297.html",
+      "summary": "Stablecoins are becoming increasingly important for Wall Street investors, offering a bridge between traditional finance and the crypto market. With proposals for clear regulatory frameworks and regulatory sandboxes, stablecoins are poised to facilitate mass adoption. Their role in providing liquidity and a stable store of value within the crypto ecosystem makes them attractive to institutional players, potentially driving significant capital inflows into the broader crypto market.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "stablecoin_evolution",
+        "Wall_Street_adoption",
+        "regulatory_clarity"
+      ],
+      "rationale": "The increasing sophistication and regulatory clarity surrounding stablecoins are making them a more palatable entry point for institutional investors. As stablecoins grow in utility and liquidity, they can attract significant capital, benefiting the entire crypto market."
+    },
+    {
+      "pick_idx": 38,
+      "id": "n6b0593177f4d",
+      "title": "Bitcoin Mining Unit Manufacturer MicroBT Nibbles at Bitmain’s Market Share",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-unit-manufacturer-microbt-030000943.html",
+      "summary": "Bitcoin mining hardware manufacturer MicroBT has significantly expanded its market share, selling over 600,000 units in 2019. This growth challenges Bitmain's dominance in the mining hardware sector. Increased competition and technological advancements in mining equipment can lead to greater network efficiency and security. A more competitive mining landscape could also benefit miners by providing access to more cost-effective hardware, potentially impacting the overall hash rate and network security.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "mining_hardware_competition",
+        "MicroBT_market_share",
+        "hash_rate_growth"
+      ],
+      "rationale": "Increased competition in the mining hardware sector, exemplified by MicroBT's growth, can lead to more efficient and affordable equipment. This can contribute to a higher and more distributed hash rate, strengthening the Bitcoin network's security and decentralization."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n9ae2fec51302",
+      "title": "Crypto Needs a Rational Value Investing Model",
+      "url": "https://finance.yahoo.com/news/crypto-needs-rational-value-investing-090000879.html",
+      "summary": "The article argues that the crypto market lacks fundamental analysis, relying solely on speculation and technical trading. It suggests a need for a rational value investing model to determine intrinsic value. This sentiment reflects a current market dynamic where price action is driven by sentiment rather than fundamentals, potentially leading to increased volatility.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "value_investing_critique",
+        "speculative_trading",
+        "market_fundamentals"
+      ],
+      "rationale": "This commentary highlights the speculative nature of the current crypto market, suggesting that a lack of fundamental drivers could lead to continued volatility and unpredictable price movements in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n81baee371bef",
+      "title": "Kraken Exchange Pledges India Expansion as Nation Reopens for Crypto Business",
+      "url": "https://finance.yahoo.com/news/kraken-exchange-pledges-india-expansion-100000244.html",
+      "summary": "Kraken has pledged to expand its services in India following the Supreme Court's decision to overturn the banking ban on crypto firms. This move signifies a significant opportunity for the Indian crypto market, which has been suppressed for years. Kraken's re-entry could stimulate local trading activity and attract further investment, potentially boosting liquidity and adoption within India.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Kraken_India_expansion",
+        "India_crypto_regulation",
+        "market_reopening"
+      ],
+      "rationale": "The reopening of the Indian market and Kraken's commitment to expand there could bring new liquidity and users into the crypto space, providing a modest short-term boost to market sentiment and potentially trading volumes."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n0e7a28bd038c",
+      "title": "Bitcoin Options Saw Record Volume of $198M Amid Recent Price Drop",
+      "url": "https://finance.yahoo.com/news/bitcoin-options-saw-record-volume-150012135.html",
+      "summary": "Bitcoin options market experienced record trading volume of $198 million on Monday, driven by investors hedging against a recent price drop. Deribit accounted for a significant portion of this volume. This surge in options activity indicates heightened market concern and a desire to manage risk during periods of volatility, suggesting potential for continued price fluctuations.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "options",
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_options_volume_record",
+        "hedging_activity",
+        "market_volatility"
+      ],
+      "rationale": "Record options volume suggests significant hedging activity due to recent price drops. This indicates increased investor caution and a potential for continued volatility as traders position themselves for various price outcomes."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na511d0af74d0",
+      "title": "Latest Ripple price and analysis (XRP to USD)",
+      "url": "https://finance.yahoo.com/news/latest-ripple-price-analysis-xrp-160040619.html",
+      "summary": "XRP has shown a bounce from recent lows but remains in a bearish posture until it breaks above the $0.2252 resistance level. Despite a year-to-date gain, it has experienced a significant monthly slump. The technical analysis suggests that XRP needs to overcome this resistance to confirm a bullish trend, otherwise, it risks further downside.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "altcoin",
+        "technical_analysis"
+      ],
+      "features_for_model": [
+        "XRP_price_analysis",
+        "resistance_level_breakout",
+        "altcoin_sentiment"
+      ],
+      "rationale": "XRP is trading below a key resistance level, indicating a bearish short-term outlook. A failure to break this level could lead to further price declines, especially if broader market sentiment remains weak."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n753f148dbcfe",
+      "title": "The Cryptocurrency Act of 2020 Is ‘Dead on Arrival,’ Washington Tells Sponsors",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-act-2020-dead-arrival-183219750.html",
+      "summary": "The proposed 'Crypto-currency Act of 2020' is considered unlikely to pass in its current form. While the bill aims for comprehensive crypto regulation, its immediate impact is minimal. However, it provides insight into potential future regulatory frameworks. The lack of immediate legislative progress suggests regulatory uncertainty will persist in the short term.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Crypto_currency_Act_2020",
+        "regulatory_uncertainty",
+        "legislative_progress"
+      ],
+      "rationale": "The news that a significant regulatory bill is unlikely to pass indicates continued regulatory uncertainty in the short term, which can dampen investor sentiment and potentially lead to sideways price action."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n09d6ae21ffbd",
+      "title": "Crypto Fundraising and a Nothing-Is-Safe Haven",
+      "url": "https://finance.yahoo.com/news/crypto-fundraising-nothing-safe-haven-190000453.html",
+      "summary": "The article notes that Bitcoin and crypto assets are moving in lockstep with equities, challenging the 'safe haven' narrative. This correlation suggests that crypto is currently influenced by broader market sentiment and macroeconomic factors rather than acting as an independent asset class. The lack of a safe haven status implies increased sensitivity to traditional market downturns.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "crypto_equity_correlation",
+        "safe_haven_narrative_failure",
+        "macroeconomic_influence"
+      ],
+      "rationale": "The strong correlation between crypto and equities, especially during market downturns, suggests that crypto is not currently acting as a safe haven. This implies that broader market sell-offs will likely continue to drag down crypto prices in the short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nd67eb7a68ba9",
+      "title": "Bitcoiners in Europe Reflect on Economic Shocks as Coronavirus Spreads",
+      "url": "https://finance.yahoo.com/news/bitcoiners-europe-reflect-economic-shocks-202521860.html",
+      "summary": "The spread of coronavirus is causing economic shocks globally, impacting various assets including Bitcoin. In Europe, particularly Italy which is under lockdown, crypto gatherings are being reevaluated. This situation highlights the growing impact of the pandemic on economic activity and investor sentiment, suggesting a cautious approach to risk assets in the near term.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "coronavirus_impact",
+        "European_lockdown",
+        "economic_shock"
+      ],
+      "rationale": "The escalating coronavirus situation and lockdowns in Europe are creating significant economic uncertainty. This macro event is likely to negatively impact risk assets, including Bitcoin, leading to potential price declines in the short term."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nce6c48bf85ea",
+      "title": "Your Evening Briefing",
+      "url": "https://finance.yahoo.com/news/evening-briefing-215340775.html",
+      "summary": "Markets are showing some recovery, but the coronavirus has exposed weaknesses in the U.S. economy, particularly concerning highly leveraged companies. The risk of defaults is increasing, raising the probability of a recession. This macroeconomic backdrop suggests a cautious market environment, where risk assets may face continued pressure.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "US_economy_weakness",
+        "leveraged_companies",
+        "recession_risk"
+      ],
+      "rationale": "The macroeconomic outlook is increasingly bearish due to the coronavirus impact on leveraged companies and rising recession risks. This negative sentiment is likely to weigh on risk assets like Bitcoin in the immediate short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n0e7a28bd038c",
+      "title": "Bitcoin Options Saw Record Volume of $198M Amid Recent Price Drop",
+      "url": "https://finance.yahoo.com/news/bitcoin-options-saw-record-volume-150012135.html",
+      "summary": "Bitcoin options market experienced record trading volume of $198 million on Monday, driven by investors hedging against a recent price drop. Deribit accounted for a significant portion of this volume. This surge in options activity indicates heightened market concern and a desire to manage risk during periods of volatility, suggesting potential for continued price fluctuations.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "options",
+        "volatility",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_options_volume_record",
+        "hedging_activity",
+        "market_volatility"
+      ],
+      "rationale": "Record options volume suggests significant hedging activity due to recent price drops. This indicates increased investor caution and a potential for continued volatility as traders position themselves for various price outcomes."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nd67eb7a68ba9",
+      "title": "Bitcoiners in Europe Reflect on Economic Shocks as Coronavirus Spreads",
+      "url": "https://finance.yahoo.com/news/bitcoiners-europe-reflect-economic-shocks-202521860.html",
+      "summary": "The spread of coronavirus is causing economic shocks globally, impacting various assets including Bitcoin. In Europe, particularly Italy which is under lockdown, crypto gatherings are being reevaluated. This situation highlights the growing impact of the pandemic on economic activity and investor sentiment, suggesting a cautious approach to risk assets in the near term.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro",
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "coronavirus_impact",
+        "European_lockdown",
+        "economic_shock"
+      ],
+      "rationale": "The escalating coronavirus situation and lockdowns in Europe are creating significant economic uncertainty. This macro event is likely to negatively impact risk assets, including Bitcoin, leading to potential price declines in the short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n9ae2fec51302",
+      "title": "Crypto Needs a Rational Value Investing Model",
+      "url": "https://finance.yahoo.com/news/crypto-needs-rational-value-investing-090000879.html",
+      "summary": "The article argues that the crypto market lacks fundamental analysis, relying solely on speculation and technical trading. It suggests a need for a rational value investing model to determine intrinsic value. This sentiment reflects a current market dynamic where price action is driven by sentiment rather than fundamentals, potentially leading to increased volatility.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "value_investing_critique",
+        "speculative_trading",
+        "market_fundamentals"
+      ],
+      "rationale": "This commentary highlights the speculative nature of the current crypto market, suggesting that a lack of fundamental drivers could lead to continued volatility and unpredictable price movements in the short term."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-03-10",
+    "summary": "The crypto market is heavily influenced by macroeconomic fears surrounding the coronavirus, leading to increased correlation with traditional equities and a breakdown of the 'safe haven' narrative. Record options volume indicates heightened investor caution and a desire to hedge against volatility. Regulatory developments, like the proposed 'Crypto-currency Act of 2020' being 'dead on arrival,' contribute to ongoing uncertainty. However, positive developments like Kraken's expansion into India and the long-term potential of stablecoins offer some counterbalancing optimism.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Escalating coronavirus pandemic and its impact on global economic stability.",
+      "Continued correlation between crypto and traditional equity markets, leading to sell-offs.",
+      "Regulatory uncertainty and lack of clear frameworks in major jurisdictions.",
+      "High volatility driven by speculative trading and hedging activities.",
+      "Potential for contagion from failures of leveraged companies in the broader economy."
+    ],
+    "watch_items": [
+      "Global COVID-19 case counts and government responses.",
+      "Federal Reserve and other central bank policy announcements.",
+      "Major equity market indices (S&P 500, Nasdaq).",
+      "Bitcoin options and futures trading volumes.",
+      "Developments in regulatory proposals for cryptocurrencies."
+    ]
+  }
+}

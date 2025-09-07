@@ -1,0 +1,504 @@
+{
+  "date": "2018-01-04",
+  "long_term": [
+    {
+      "pick_idx": 3,
+      "id": "nb7c4a502595b",
+      "title": "Bitcoin hits another record high in march toward $20,000",
+      "url": "https://finance.yahoo.com/news/bitcoin-slips-around-16-300-082751745.html",
+      "summary": "Bitcoin reached an all-time peak on December 12, 2017, driven by the launch of the first bitcoin futures on a U.S. exchange (Cboe) and anticipation of another contract launch (CME). This event signaled growing investor optimism about bitcoin's potential to reach $20,000, indicating increasing institutional interest and acceptance of bitcoin as an asset class, even amidst volatility.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bitcoin_futures_launch",
+        "institutional_adoption",
+        "price_milestone"
+      ],
+      "rationale": "The launch of regulated bitcoin futures by major exchanges like Cboe and CME provided a significant boost to bitcoin's legitimacy and accessibility for institutional investors. This marked a crucial step towards broader market acceptance and integration."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n793fb3a3f697",
+      "title": "Goldman Sachs says bitcoin is a commodity",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-says-bitcoin-commodity-211053762.html",
+      "summary": "Goldman Sachs' head of commodities research stated that bitcoin is more akin to gold than the U.S. dollar, classifying it as a commodity. While acknowledging liquidity differences, this institutional perspective from a major financial institution suggests a shift in how bitcoin is perceived, moving it from a fringe asset towards a recognized store of value or asset class.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "goldman_sachs_classification",
+        "commodity_status",
+        "institutional_view"
+      ],
+      "rationale": "A major investment bank like Goldman Sachs classifying bitcoin as a commodity lends significant credibility and can influence regulatory approaches and institutional investment strategies, paving the way for wider adoption."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n26ead11cb097",
+      "title": "These 2 companies are riding the bitcoin wave and their stocks have skyrocketed by more than 1,000%",
+      "url": "https://finance.yahoo.com/news/2-companies-riding-bitcoin-wave-204000639.html",
+      "summary": "The article highlights companies like Bitcoin Group and Hive Blockchain Technologies experiencing over 1,000% stock price increases, driven by the broader cryptocurrency boom. This indicates a growing investor interest in companies directly or indirectly involved with the cryptocurrency ecosystem, suggesting a nascent but significant sector growth.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_related_stocks",
+        "market_sentiment",
+        "sector_growth"
+      ],
+      "rationale": "The significant stock performance of companies tied to the crypto market demonstrates a growing investor appetite for exposure to the digital asset space, signaling broader market adoption beyond direct cryptocurrency holdings."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n7583fd2b2841",
+      "title": "Behind bitcoin boom, Japanese retail investors pile in",
+      "url": "https://finance.yahoo.com/news/behind-bitcoin-boom-japanese-retail-060000139.html",
+      "summary": "Japanese retail investors are reportedly accounting for 30-50% of bitcoin trading, attracted by its inefficiencies and volatility. This significant retail participation from a major economy indicates a growing global awareness and adoption of bitcoin, even if driven by speculative behavior.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "japanese_retail_investors",
+        "bitcoin_adoption",
+        "market_participation"
+      ],
+      "rationale": "The substantial involvement of Japanese retail investors highlights a key geographical driver of bitcoin's price appreciation and adoption, demonstrating the global reach of the cryptocurrency's appeal."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n1118ef083128",
+      "title": "Tax Reform Is Done: Here's How It Matters to You",
+      "url": "https://finance.yahoo.com/news/tax-reform-done-apos-matters-123100913.html",
+      "summary": "The Tax Cuts and Jobs Act of 2017, the first major U.S. tax reform in over 30 years, introduced changes to deductions, including mortgage interest limits starting in 2018. While not directly about crypto, such broad fiscal policy shifts can influence overall investment capital flows and risk appetite in the broader market, potentially impacting speculative assets like bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "tax_reform_US",
+        "capital_flows",
+        "economic_policy"
+      ],
+      "rationale": "Major tax reforms can alter the landscape of investment, potentially redirecting capital towards or away from riskier assets. The impact on crypto is indirect but could influence overall market liquidity and investor sentiment."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n41a1fc313cdf",
+      "title": "South Korea to impose new curbs on cryptocurrency trading",
+      "url": "https://finance.yahoo.com/news/south-korea-impose-additional-regulatory-020817703.html",
+      "summary": "South Korea's government announced plans to implement additional measures to regulate cryptocurrency trading, citing concerns about speculation and high volatility. The measures include a ban on anonymous trading. This reflects a growing trend of regulatory scrutiny in major economies, which can impact market sentiment and liquidity.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "south_korea_regulation",
+        "crypto_curbs",
+        "regulatory_uncertainty"
+      ],
+      "rationale": "Regulatory actions, especially from significant markets like South Korea, can create uncertainty and lead to price corrections. The ban on anonymous trading aims to curb speculative excesses."
+    },
+    {
+      "pick_idx": 24,
+      "id": "n84474207edb5",
+      "title": "Bitcoin Futures Launch Could Revive ETF Push, CBOE Says",
+      "url": "https://finance.yahoo.com/news/bitcoin-futures-launch-could-rekindle-225602155.html",
+      "summary": "The launch of bitcoin futures on the CBOE is seen as a sign of maturity for the cryptocurrency ecosystem and could potentially revive efforts to launch a bitcoin ETF. This indicates a move towards greater institutionalization and accessibility for bitcoin investment products.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "bitcoin_futures_launch",
+        "ETF_potential",
+        "institutionalization"
+      ],
+      "rationale": "The CBOE's statement about futures potentially reviving ETF efforts underscores the ongoing push for regulated investment vehicles, which would significantly increase bitcoin's accessibility and legitimacy for a wider investor base."
+    },
+    {
+      "pick_idx": 31,
+      "id": "ndc567f59a5e1",
+      "title": "CBOE beats CME to bitcoin futures launch with Dec. 10 start",
+      "url": "https://finance.yahoo.com/news/cboe-beats-cme-bitcoin-futures-161849221.html",
+      "summary": "Cboe Global Markets launched its bitcoin futures contract on December 10, 2017, ahead of CME Group. This competitive launch signifies the growing institutional interest in bitcoin derivatives and the race to provide regulated trading avenues for the cryptocurrency.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "cboe_futures_launch",
+        "cme_futures_launch",
+        "derivatives_market"
+      ],
+      "rationale": "The early launch of bitcoin futures by Cboe, followed closely by CME, demonstrated a significant step in bringing regulated financial products to the cryptocurrency market, attracting institutional capital and increasing market depth."
+    },
+    {
+      "pick_idx": 37,
+      "id": "nd9c8aa38bcff",
+      "title": "Ebay looking at bitcoin for purchases",
+      "url": "https://finance.yahoo.com/news/ebay-seriously-considering-accepting-bitcoin-164410989.html",
+      "summary": "Ebay is seriously considering accepting bitcoin for purchases, although not yet implemented. This indicates a potential for mainstream e-commerce adoption of cryptocurrencies, which could significantly increase transaction volumes and user base for bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "ebay_adoption",
+        "ecommerce_integration",
+        "payment_method"
+      ],
+      "rationale": "The consideration of bitcoin by a major e-commerce platform like eBay signals a potential shift towards cryptocurrency as a payment method, which could drive significant adoption and transaction volume."
+    },
+    {
+      "pick_idx": 41,
+      "id": "nbb0936747b9e",
+      "title": "Winklevoss twins, 'Bitcoin Jesus' head the list of people getting very rich from the cryptocurrency",
+      "url": "https://finance.yahoo.com/news/winklevoss-twins-apos-bitcoin-jesus-170430774.html",
+      "summary": "The article highlights early investors like the Winklevoss twins becoming millionaires due to bitcoin's surge, noting their launch of the Gemini exchange. This demonstrates the wealth creation potential of early adoption and the development of supporting infrastructure within the crypto ecosystem.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "early_adopter_wealth",
+        "gemini_exchange",
+        "infrastructure_development"
+      ],
+      "rationale": "The success stories of early adopters and the establishment of key infrastructure like the Gemini exchange validate the cryptocurrency's potential and attract further talent and capital to the space."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 7,
+      "id": "n730d40010a40",
+      "title": "Merrill Lynch bans clients from investing in Silbert bitcoin fund",
+      "url": "https://finance.yahoo.com/news/merrill-lynch-bans-clients-investing-011055658.html",
+      "summary": "Bank of America Merrill Lynch banned clients from investing in Barry Silbert's Bitcoin Investment Trust (GBTC) due to suitability concerns. This move by a major brokerage firm signals increased caution from traditional financial institutions regarding the volatility and regulatory uncertainty of crypto products.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "merrill_lynch_ban",
+        "GBTC_suitability",
+        "institutional_caution"
+      ],
+      "rationale": "This ban by Merrill Lynch indicates a short-term negative sentiment from a major financial player, potentially leading to a slight price dip or increased volatility as investors react to perceived institutional headwinds."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n2b6b1e8859ba",
+      "title": "Merrill Lynch Bans Bitcoin Investments and the SEC Warns Cryptocurrency Investors",
+      "url": "https://finance.yahoo.com/news/merrill-lynch-bans-bitcoin-investments-211400133.html",
+      "summary": "Merrill Lynch blocked clients from buying bitcoin and related investments, and the SEC issued another warning to crypto investors. These actions reflect a cautious stance from traditional finance and regulators, potentially dampening short-term market enthusiasm.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "merrill_lynch_ban",
+        "SEC_warning",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "The combined effect of Merrill Lynch's ban and the SEC's warning creates a short-term bearish signal, suggesting potential for increased selling pressure or sideways movement as the market digests these regulatory and institutional concerns."
+    },
+    {
+      "pick_idx": 31,
+      "id": "na860b4c934af",
+      "title": "Merrill Lynch bans clients from investing in Silbert bitcoin fund",
+      "url": "https://finance.yahoo.com/news/merrill-lynch-bans-clients-investing-silbert-bitcoin-fund-005402181.html",
+      "summary": "Bank of America Merrill Lynch has banned clients from investing in Barry Silbert's Bitcoin Investment Trust (GBTC) due to suitability concerns. This action by a major brokerage firm signals a cautious approach to crypto products, potentially impacting short-term sentiment and liquidity.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "merrill_lynch_ban",
+        "GBTC_suitability",
+        "institutional_caution"
+      ],
+      "rationale": "Similar to other Merrill Lynch news, this ban introduces a short-term bearish sentiment by highlighting institutional risk aversion towards crypto investment vehicles, potentially leading to price pressure."
+    },
+    {
+      "pick_idx": 36,
+      "id": "nb3a1faa61ef1",
+      "title": "Merrill Lynch Bans Trading in Bitcoin-Related Products",
+      "url": "https://finance.yahoo.com/news/merrill-lynch-bans-trading-bitcoin-184957328.html",
+      "summary": "Merrill Lynch is no longer allowing trading in bitcoin-related products, including the Bitcoin Investment Trust and bitcoin futures, citing concerns about suitability and eligibility standards. This ban by a major financial advisor network suggests a short-term negative impact on sentiment and accessibility.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "merrill_lynch_ban",
+        "GBTC_futures_ban",
+        "institutional_risk_aversion"
+      ],
+      "rationale": "The broad ban on bitcoin-related products by Merrill Lynch creates a short-term bearish signal, indicating a tightening of access for some investors and potentially leading to a decrease in demand."
+    },
+    {
+      "pick_idx": 43,
+      "id": "na4a96d83a708",
+      "title": "Israel proposes ban on trading shares of cryptocurrency companies",
+      "url": "https://finance.yahoo.com/news/israel-proposes-ban-trading-shares-cryptocurrency-companies-144657213.html",
+      "summary": "Israel's securities regulator proposed a ban on trading shares of companies whose primary business is cryptocurrency. This regulatory move, if enacted, could create negative sentiment and impact companies listed on the Tel Aviv Stock Exchange that are involved in the crypto space.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "israel_regulation",
+        "crypto_company_stocks",
+        "delisting_proposal"
+      ],
+      "rationale": "While focused on listed companies, this regulatory proposal from Israel adds to the global trend of increased scrutiny on the crypto sector, potentially creating broader negative sentiment in the short term."
+    },
+    {
+      "pick_idx": 44,
+      "id": "nfe8dc7494cbc",
+      "title": "Down But Not Out: Bitcoin Holds Onto Bullish Territory",
+      "url": "https://finance.yahoo.com/news/down-not-bitcoin-holds-onto-110510728.html",
+      "summary": "Bitcoin experienced a price drop from its intraday high but remained in bullish territory, trading around $14,500. This suggests resilience despite a broader market shift towards alternative currencies like Ripple. The price action indicates a potential consolidation phase rather than a sharp downturn.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "volatility",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "bitcoin_price_action",
+        "alternative_coins_strength",
+        "consolidation_pattern"
+      ],
+      "rationale": "Bitcoin's ability to hold bullish territory despite pressure from altcoins suggests underlying strength, but the price action indicates a period of consolidation and potential for further volatility in the immediate short term."
+    },
+    {
+      "pick_idx": 45,
+      "id": "n10521aebc4b0",
+      "title": "3 Social Security Mistakes That Could Cost You a Fortune",
+      "url": "https://finance.yahoo.com/news/3-social-security-mistakes-could-110300825.html",
+      "summary": "This article discusses common mistakes people make regarding Social Security benefits, which can significantly impact retirement income. While unrelated to crypto, it highlights the importance of understanding financial planning and potential pitfalls, a theme that can indirectly resonate with the risks in the volatile crypto market.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "macro",
+        "financial_planning"
+      ],
+      "features_for_model": [
+        "social_security_planning",
+        "retirement_income",
+        "financial_risk_management"
+      ],
+      "rationale": "This piece, while not directly about crypto, touches on financial planning and risk management, which are relevant to the speculative nature of the crypto market. It might subtly influence investor caution."
+    },
+    {
+      "pick_idx": 48,
+      "id": "nc5730e1e2104",
+      "title": "Merrill Lynch bans clients from investing in Silbert bitcoin fund",
+      "url": "https://finance.yahoo.com/news/merrill-lynch-bans-clients-investing-silbert-bitcoin-fund-011055495--sector.html",
+      "summary": "Bank of America Merrill Lynch has banned clients from investing in Barry Silbert's Bitcoin Investment Trust (GBTC) due to suitability concerns. This action by a major brokerage firm signals a cautious approach to crypto products, potentially impacting short-term sentiment and liquidity.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "merrill_lynch_ban",
+        "GBTC_suitability",
+        "institutional_caution"
+      ],
+      "rationale": "This news reinforces the bearish sentiment from other Merrill Lynch announcements, highlighting institutional risk aversion and potentially leading to short-term price pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 50,
+      "id": "ne9f81b936270",
+      "title": "What Happened in the Stock Market Today",
+      "url": "https://finance.yahoo.com/news/happened-stock-market-today-220300984.html",
+      "summary": "The Dow Jones Industrial Average closed above 25,000 for the first time, with financial stocks leading the market. However, brick-and-mortar retail stocks faced headwinds due to disappointing December sales figures. This mixed market performance suggests a cautious approach might be warranted.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "dow_jones_milestone",
+        "financial_sector_strength",
+        "retail_sales_weakness"
+      ],
+      "rationale": "The broader market's mixed signals, with record highs in some sectors but weakness in others, create an uncertain environment. This could translate to increased caution in riskier assets like Bitcoin."
+    },
+    {
+      "pick_idx": 42,
+      "id": "nb18ad2f7674f",
+      "title": "No New Crypto: Coinbase Squashes Exchange Listing Rumors",
+      "url": "https://finance.yahoo.com/news/no-crypto-coinbase-squashes-exchange-223027076.html",
+      "summary": "Coinbase announced it would not be adding new cryptocurrencies to its platform or GDAX, citing its Digital Asset Framework. This decision, while explained as part of a process, dampens immediate expectations for new listings and could lead to a slight dip in interest for smaller altcoins.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "exchange",
+        "listing",
+        "regulation"
+      ],
+      "features_for_model": [
+        "coinbase_listing_halt",
+        "GDAX_framework",
+        "altcoin_sentiment"
+      ],
+      "rationale": "Coinbase's decision to halt new listings, even if temporary or process-driven, can create short-term disappointment and reduce speculative interest in smaller cryptocurrencies, potentially impacting overall market momentum."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-01-04",
+    "summary": "The market is showing mixed signals. On the long-term front, the launch of Bitcoin futures by Cboe and CME, alongside Goldman Sachs classifying Bitcoin as a commodity, points to increasing institutional adoption and legitimacy. However, regulatory actions, such as South Korea's proposed curbs and Merrill Lynch's ban on crypto-related products, introduce short-term headwinds and uncertainty. The strength of alternative cryptocurrencies like XRP and Ethereum is also drawing attention away from Bitcoin.",
+    "scenario_probs": {
+      "bull": 0.4,
+      "base": 0.4,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Increased regulatory scrutiny from major economies like South Korea.",
+      "Traditional financial institutions (e.g., Merrill Lynch) imposing restrictions on crypto investments.",
+      "High volatility and potential for sharp price corrections due to speculative trading.",
+      "Competition from rapidly rising altcoins like XRP and Ethereum drawing capital away from Bitcoin.",
+      "Uncertainty surrounding the long-term utility and adoption of cryptocurrencies as payment methods."
+    ],
+    "watch_items": [
+      "Further regulatory announcements from key jurisdictions.",
+      "Coinbase's future listing decisions and any updates on their Digital Asset Framework.",
+      "Performance of major altcoins (XRP, ETH) and their impact on Bitcoin's market share.",
+      "Investor sentiment shifts following institutional actions (e.g., Merrill Lynch ban).",
+      "Developments in the Bitcoin futures market and their impact on price discovery."
+    ]
+  }
+}

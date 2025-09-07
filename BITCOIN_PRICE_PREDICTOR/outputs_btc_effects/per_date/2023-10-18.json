@@ -1,0 +1,533 @@
+{
+  "date": "2023-10-18",
+  "long_term": [
+    {
+      "pick_idx": 16,
+      "id": "n88233e5c0624",
+      "title": "SEC Delays Decision on Spot Bitcoin ETF Applications, Deadlines Extended",
+      "url": "https://finance.yahoo.com/news/sec-delays-decision-spot-bitcoin-042807979.html",
+      "summary": "The SEC has extended its review period for multiple spot Bitcoin ETF applications, pushing decision deadlines for major firms like BlackRock and Wisdom Tree to at least October 17. This delay indicates continued regulatory scrutiny and a more drawn-out process for institutional adoption of Bitcoin via ETFs. The outcome of these decisions will significantly influence market sentiment and potential inflows into Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "SEC_ETF_delay",
+        "BlackRock_ETF",
+        "institutional_adoption"
+      ],
+      "rationale": "The SEC's repeated delays on spot Bitcoin ETF applications create uncertainty but also build anticipation. A future approval could unlock significant institutional capital, driving demand. However, continued delays or rejections could dampen sentiment."
+    },
+    {
+      "pick_idx": 23,
+      "id": "na5fa5d3c6c49",
+      "title": "Bitcoin hits two-week peak after Grayscale spot bitcoin ETF ruling",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-two-week-peak-165833448.html",
+      "summary": "A U.S. court ruled that the SEC acted improperly in denying Grayscale's spot Bitcoin ETF application, citing arbitrary and capricious reasoning. This decision significantly boosted Bitcoin's price, reaching two-week highs. It suggests a potential pathway for a spot Bitcoin ETF, which could lead to increased institutional investment and broader market adoption.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "legal"
+      ],
+      "features_for_model": [
+        "Grayscale_ETF_win",
+        "court_ruling_impact",
+        "Bitcoin_price_surge"
+      ],
+      "rationale": "The court's ruling in favor of Grayscale is a major catalyst, signaling a potential approval for spot Bitcoin ETFs. This could unlock significant institutional capital, driving long-term demand and price appreciation for Bitcoin."
+    },
+    {
+      "pick_idx": 35,
+      "id": "n156d95e18687",
+      "title": "Court sides with Grayscale in closely watched Bitcoin ETF case",
+      "url": "https://finance.yahoo.com/news/court-sides-grayscale-closely-watched-142648949.html",
+      "summary": "The U.S. Court of Appeals ruled in favor of Grayscale in its legal battle with the SEC over a spot Bitcoin ETF. This decision is a significant victory, potentially paving the way for the first spot Bitcoin ETF. Such an ETF could attract substantial institutional capital, providing a regulated avenue for traditional finance players to gain exposure to Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "legal"
+      ],
+      "features_for_model": [
+        "Grayscale_ETF_victory",
+        "SEC_legal_challenge",
+        "institutional_capital_inflow"
+      ],
+      "rationale": "This court ruling is a critical development, potentially forcing the SEC's hand on spot Bitcoin ETFs. Approval would be a major boon for institutional adoption, driving sustained demand and price increases."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n4bce3b7a7523",
+      "title": "Coinbase CEO Confirms Exchange Will Support Lightning, Which Dramatically Speeds Up Bitcoin Payments",
+      "url": "https://finance.yahoo.com/news/coinbase-ceo-confirms-exchange-support-153211190.html",
+      "summary": "Coinbase CEO Brian Armstrong confirmed the exchange's integration of the Lightning Network, a significant endorsement for the scaling solution. This move aims to make Bitcoin a more viable option for everyday payments by dramatically increasing transaction speed and reducing fees. Wider adoption of Lightning by major platforms like Coinbase is crucial for Bitcoin's utility as a payment network.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Coinbase_Lightning_integration",
+        "Bitcoin_payments_utility",
+        "Lightning_Network_adoption"
+      ],
+      "rationale": "Coinbase's integration of the Lightning Network is a major step for Bitcoin's usability as a payment method. Increased adoption of this scaling solution by major platforms will enhance transaction efficiency and potentially drive greater utility and demand."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n7440c284b939",
+      "title": "Bitcoin Holdings on Crypto Exchanges Dwindle to 2M, Fewest Since January 2018",
+      "url": "https://finance.yahoo.com/news/bitcoin-holdings-crypto-exchanges-dwindle-085549113.html",
+      "summary": "The amount of Bitcoin held on centralized exchanges has fallen to its lowest level in over five years, indicating a shift towards self-custody and potentially reduced selling pressure. This trend suggests a growing market sophistication and a preference for holding assets long-term, which can be bullish for price stability and appreciation.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "exchange_reserve_decrease",
+        "self_custody_trend",
+        "reduced_selling_pressure"
+      ],
+      "rationale": "Declining exchange reserves suggest that more Bitcoin is being moved into long-term holding, reducing immediate selling pressure. This indicates growing investor confidence and a potential for price appreciation as supply on exchanges tightens."
+    },
+    {
+      "pick_idx": 12,
+      "id": "na50eda0831fe",
+      "title": "Bitcoin and S&P 500 Eye Quarterly Loss as Bonds Look Most Attractive Since 2009",
+      "url": "https://finance.yahoo.com/news/bitcoin-p-500-eye-quarterly-063919848.html",
+      "summary": "Bitcoin and the S&P 500 were on track for quarterly losses as bonds presented a more attractive investment case. This highlights the impact of macroeconomic factors, particularly rising interest rates and a strong dollar, on risk assets. The comparison to 2009 suggests a challenging environment for growth assets.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "macro",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "quarterly_loss_outlook",
+        "bond_attractiveness",
+        "macroeconomic_headwinds"
+      ],
+      "rationale": "The trend of bonds becoming more attractive than risk assets like Bitcoin and stocks, especially since 2009, points to a challenging macroeconomic environment. High yields and a strong dollar can pressure crypto prices."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nfb80fe42671f",
+      "title": "US stocks trade mixed as bond yields jump after Fed officials stay hawkish",
+      "url": "https://finance.yahoo.com/news/us-stocks-trade-mixed-bond-040757049.html",
+      "summary": "US stocks showed mixed performance as bond yields rose following hawkish comments from Fed officials. This indicates that the market is pricing in continued restrictive monetary policy, which typically puts downward pressure on risk assets like cryptocurrencies. The prospect of higher-for-longer interest rates remains a key concern.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "hawkish_Fed_stance",
+        "rising_bond_yields",
+        "restrictive_monetary_policy"
+      ],
+      "rationale": "Hawkish commentary from Fed officials and rising bond yields suggest a prolonged period of higher interest rates. This macro environment is generally bearish for risk assets, including Bitcoin, as it increases the cost of capital and reduces investor appetite for speculative investments."
+    },
+    {
+      "pick_idx": 20,
+      "id": "na75c9c43c980",
+      "title": "Sam Bankman-Fried begins the fight for his freedom in FTX fraud trial",
+      "url": "https://finance.yahoo.com/news/ftx-founder-sam-bankman-fried-begins-the-fight-for-his-freedom-143442323.html",
+      "summary": "The trial of FTX founder Sam Bankman-Fried has begun, focusing on allegations of fraud and embezzlement. The outcome of this trial could have significant implications for the broader crypto industry, potentially leading to increased regulatory scrutiny and impacting investor confidence. A conviction could further solidify negative sentiment around centralized exchanges.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "adoption"
+      ],
+      "features_for_model": [
+        "SBF_trial_start",
+        "FTX_fraud_allegations",
+        "regulatory_scrutiny_increase"
+      ],
+      "rationale": "The ongoing FTX trial and the potential conviction of its founder could lead to heightened regulatory scrutiny across the crypto industry. This could create headwinds for adoption and negatively impact market sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nd965040eca08",
+      "title": "Bitcoin gains legal recognition in Shanghai despite China's crypto ban",
+      "url": "https://finance.yahoo.com/news/bitcoin-gains-legal-recognition-shanghai-081838433.html",
+      "summary": "A Shanghai court has recognized Bitcoin as a unique digital currency, acknowledging its scarcity and inherent value, despite China's broader crypto ban. This legal recognition, even at a local level, could offer some protection for crypto holders in specific cases and signals a nuanced approach to digital assets within the country.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "China_legal_recognition",
+        "Bitcoin_property_rights",
+        "regulatory_nuance"
+      ],
+      "rationale": "While China maintains a ban on crypto trading, a court recognizing Bitcoin as property is a subtle but significant development. It could lead to a more nuanced regulatory environment over time, potentially benefiting adoption."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n05bf8e863f6d",
+      "title": "Binance Boosts Bitcoin, Ether Trading in Argentine, Brazilian, South African Currencies With Fee Promotion",
+      "url": "https://finance.yahoo.com/news/binance-boosts-bitcoin-ether-trading-163344300.html",
+      "summary": "Binance is expanding its zero-fee trading promotion to spot trading pairs involving the Argentine peso, Brazilian real, and South African rand. This initiative aims to increase trading volume and liquidity in emerging markets. By reducing trading costs, Binance can attract new users and encourage greater participation in these regions.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Binance_fee_promotion",
+        "emerging_market_adoption",
+        "zero_fee_trading"
+      ],
+      "rationale": "Binance's fee promotion in emerging markets can stimulate trading activity and onboard new users. Increased liquidity and accessibility in these regions can contribute to broader global adoption of cryptocurrencies."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 3,
+      "id": "n51d030022bac",
+      "title": "Bitcoin Price Shoots Up on BlackRock (BLK) ETF Approval Rumor",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-shoots-blackrock-blk-093800383.html",
+      "summary": "Bitcoin briefly crossed $30,000 on reports of the SEC approving BlackRock's spot Bitcoin ETF application. However, this was clarified as a rumor, causing the price to retract. The market remains highly sensitive to ETF news, with any concrete approval expected to trigger significant inflows.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "rumor",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETF_rumor",
+        "BlackRock_ETF_news",
+        "price_volatility"
+      ],
+      "rationale": "The market reacted strongly to a rumor of BlackRock's ETF approval, highlighting extreme sensitivity to ETF news. While the rumor was false, it demonstrates the potential for significant price swings on any confirmed ETF developments."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n51d030022bac",
+      "title": "Bitcoin Price Shoots Up on BlackRock (BLK) ETF Approval Rumor",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-shoots-blackrock-blk-093800383.html",
+      "summary": "Bitcoin experienced a brief surge past $30,000 due to a false report about the SEC approving BlackRock's spot Bitcoin ETF. This event underscores the market's anticipation and volatility surrounding ETF news, with any actual approval likely to cause substantial price movements.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "rumor",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "ETF_rumor_impact",
+        "BlackRock_ETF_speculation",
+        "short_term_volatility"
+      ],
+      "rationale": "The market's sharp reaction to a false ETF approval report indicates high sensitivity. Any confirmed ETF news in the near term could trigger significant price action, making it a key watch item."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n0f14ea4b1efb",
+      "title": "US stocks trade mixed as bond yields spike after hot retail sales data",
+      "url": "https://finance.yahoo.com/news/us-stocks-trade-mixed-bond-040710914.html",
+      "summary": "Hot retail sales data caused bond yields to spike, leading to mixed trading in US stocks. This suggests that strong economic data is increasing fears of higher-for-longer interest rates, which typically pressures risk assets like Bitcoin. The market is closely watching for signs of economic cooling.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "hot_retail_sales",
+        "rising_bond_yields",
+        "higher_for_longer_rates"
+      ],
+      "rationale": "Strong retail sales data implies continued economic strength, which could lead the Fed to maintain higher interest rates. This macro environment is generally bearish for Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n0f14ea4b1efb",
+      "title": "US stocks trade mixed as bond yields spike after hot retail sales data",
+      "url": "https://finance.yahoo.com/news/us-stocks-trade-mixed-bond-040710914.html",
+      "summary": "Bond yields surged following unexpectedly strong retail sales data, causing US stocks to trade mixed. This economic resilience fuels concerns about sustained high interest rates, potentially dampening sentiment for risk assets like Bitcoin in the immediate future.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "retail_sales_beat",
+        "bond_yield_spike",
+        "interest_rate_hike_fears"
+      ],
+      "rationale": "The strong retail sales data suggests the economy is robust, potentially leading the Federal Reserve to keep interest rates higher for longer. This macro outlook is typically negative for Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n753d3869fa3e",
+      "title": "Over 40% of Hong Kong investors shun digital assets post-JPEX Scandal, survey reveals",
+      "url": "https://finance.yahoo.com/news/over-40-hong-kong-investors-134545713.html",
+      "summary": "A survey indicates that over 40% of Hong Kong investors are now avoiding digital assets following the JPEX scandal. This highlights a significant negative sentiment shift in a key Asian market, potentially impacting regional trading volumes and investor confidence.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "JPEX_scandal_impact",
+        "Hong_Kong_investor_sentiment",
+        "digital_asset_shunning"
+      ],
+      "rationale": "The JPEX scandal has clearly eroded investor confidence in Hong Kong, leading a significant portion to shun digital assets. This negative sentiment could spill over to other markets and dampen short-term trading activity."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n753d3869fa3e",
+      "title": "Over 40% of Hong Kong investors shun digital assets post-JPEX Scandal, survey reveals",
+      "url": "https://finance.yahoo.com/news/over-40-hong-kong-investors-134545713.html",
+      "summary": "A survey reveals that over 40% of Hong Kong investors are now shunning digital assets after the JPEX scandal. This indicates a notable decline in investor sentiment in a key market, potentially affecting regional trading volumes and overall market confidence.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "market_sentiment",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Hong_Kong_sentiment",
+        "JPEX_scandal",
+        "investor_aversion"
+      ],
+      "rationale": "The JPEX scandal has created significant fear and distrust among Hong Kong investors, leading to a notable drop in digital asset adoption. This negative sentiment could weigh on short-term price action."
+    },
+    {
+      "pick_idx": 5,
+      "id": "nccf4f1ccd8e2",
+      "title": "UK emerges as world’s third-largest economy in terms of crypto transaction volume: Chainalysis",
+      "url": "https://finance.yahoo.com/news/uk-emerges-world-third-largest-143728400.html",
+      "summary": "Chainalysis reports the UK as the third-largest economy globally for crypto transaction volume, leading in Europe. This indicates significant adoption and activity within the UK market, contributing to overall global crypto adoption trends.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "UK_crypto_adoption",
+        "transaction_volume",
+        "Chainalysis_report"
+      ],
+      "rationale": "The UK's high ranking in crypto transaction volume suggests strong adoption and integration of digital assets. This positive adoption trend, especially in a major economy, can contribute to broader market sentiment."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nccf4f1ccd8e2",
+      "title": "UK emerges as world’s third-largest economy in terms of crypto transaction volume: Chainalysis",
+      "url": "https://finance.yahoo.com/news/uk-emerges-world-third-largest-143728400.html",
+      "summary": "According to Chainalysis, the UK ranks as the world's third-largest economy by crypto transaction volume, leading in Europe. This highlights substantial adoption and activity within the UK, contributing positively to global crypto market trends.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "UK_crypto_volume",
+        "global_adoption_trend",
+        "Chainalysis_data"
+      ],
+      "rationale": "The UK's significant crypto transaction volume indicates strong market adoption. This positive adoption metric, especially from a major economy, can provide a mild bullish signal for the broader crypto market."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n67613ba020fd",
+      "title": "VIDEO - HIVE Digital Technologies: High-Performance Computing Expansion, Solidifying Bitcoin Investment Appeal CEO Clips Video",
+      "url": "https://finance.yahoo.com/news/video-hive-digital-technologies-high-190000417.html",
+      "summary": "HIVE Digital Technologies is expanding its high-performance computing capabilities, leveraging Nvidia GPUs for Bitcoin mining. The company aims for tenfold revenue growth and holds green Bitcoin on its balance sheet. This expansion in mining infrastructure can be seen as a positive sign for the underlying network's security and operational capacity.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "HIVE_HPC_expansion",
+        "Bitcoin_mining_infrastructure",
+        "GPU_adoption"
+      ],
+      "rationale": "Expansion of mining infrastructure by companies like HIVE can be seen as a positive indicator for the Bitcoin network's health and security. Increased hashrate can contribute to a more stable and robust network."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n67613ba020fd",
+      "title": "VIDEO - HIVE Digital Technologies: High-Performance Computing Expansion, Solidifying Bitcoin Investment Appeal CEO Clips Video",
+      "url": "https://finance.yahoo.com/news/video-hive-digital-technologies-high-190000417.html",
+      "summary": "HIVE Digital Technologies is expanding its high-performance computing (HPC) infrastructure, utilizing Nvidia GPUs for Bitcoin mining. The company anticipates significant revenue growth and holds 'green Bitcoin.' This expansion in mining capacity is a positive signal for the network's security and operational resilience.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "HIVE_GPU_expansion",
+        "Bitcoin_mining_capacity",
+        "HPC_investment"
+      ],
+      "rationale": "Increased investment in Bitcoin mining infrastructure, such as HIVE's HPC expansion, can enhance network security and stability. This development, while not directly impacting price immediately, supports the underlying network's value proposition."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n737d4173cac9",
+      "title": "Square's new AI features include a website and restaurant menu generator",
+      "url": "https://finance.yahoo.com/news/squares-ai-features-website-restaurant-130002588.html",
+      "summary": "Square (Block) is integrating generative AI features to enhance its platform, aiming to reinvigorate its services. While not directly related to Bitcoin, this focus on AI by a major fintech player could signal broader tech adoption trends that may indirectly influence crypto markets.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Square_AI_integration",
+        "Block_AI_strategy",
+        "fintech_innovation"
+      ],
+      "rationale": "Square's embrace of AI is a general indicator of technological advancement in the fintech space. While not a direct catalyst for Bitcoin, it reflects a broader trend of innovation that could indirectly benefit crypto adoption."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-10-18",
+    "summary": "Bitcoin experienced volatility driven by ETF rumors, with a brief spike above $30,000 followed by a retraction. Strong US retail sales data pushed bond yields higher, creating a bearish macro backdrop for risk assets. Negative sentiment in Hong Kong post-JPEX scandal adds to short-term headwinds, while positive developments in UK crypto adoption and mining infrastructure expansion offer some underlying bullish support.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.45,
+      "bear": 0.2
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued hawkish Fed policy and rising bond yields pressuring risk assets.",
+      "Further negative sentiment from regulatory crackdowns or exchange failures.",
+      "Failure to secure a spot Bitcoin ETF approval in the near term.",
+      "Geopolitical tensions impacting global markets and oil prices."
+    ],
+    "watch_items": [
+      "SEC decisions on remaining spot Bitcoin ETF applications.",
+      "US CPI and FOMC meeting minutes for inflation and interest rate signals.",
+      "Developments in the FTX trial and any related regulatory actions.",
+      "Major exchange announcements or security incidents."
+    ]
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "date": "2023-07-04",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n17664f5f645c",
+      "title": "BlackRock files for spot Bitcoin ETF, taps Coinbase as custodian",
+      "url": "https://finance.yahoo.com/news/blackrock-files-spot-bitcoin-etf-052409227.html",
+      "summary": "BlackRock, the world's largest asset manager, has filed for a spot Bitcoin ETF, naming Coinbase as custodian. This application, despite ongoing SEC lawsuits against crypto platforms, signals a significant institutional push for Bitcoin exposure in the U.S. If approved, the ETF would be listed on Nasdaq, potentially unlocking substantial capital inflows into Bitcoin from traditional finance investors.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_filing",
+        "spot_ETF_approval",
+        "institutional_adoption"
+      ],
+      "rationale": "The involvement of BlackRock, a major asset manager, significantly increases the perceived legitimacy and accessibility of Bitcoin for institutional investors. This could lead to substantial capital inflows, driving up demand and price."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nb59bdd81bd5a",
+      "title": "SOL, ADA, MATIC Tokens Slide 20% in Sudden Move Days After SEC Lawsuit Allegations",
+      "url": "https://finance.yahoo.com/news/sol-ada-matic-tokens-slide-065138544.html",
+      "summary": "Several major altcoin tokens, including Solana (SOL), Cardano (ADA), and Polygon (MATIC), experienced a sharp decline of over 20% following allegations by the U.S. Securities and Exchange Commission (SEC) that 13 tokens were securities. This event highlights the regulatory uncertainty impacting the crypto market and the potential for significant price volatility when regulatory bodies take action against specific assets or exchanges.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "legal",
+        "altcoin"
+      ],
+      "features_for_model": [
+        "SEC_securities_allegations",
+        "altcoin_selloff",
+        "regulatory_risk"
+      ],
+      "rationale": "The SEC's classification of certain tokens as securities creates significant regulatory hurdles and investor uncertainty, leading to sharp price drops. This could deter investment in affected projects and potentially impact broader market sentiment."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n4ff60f73086f",
+      "title": "Bitcoin slumps below $30,000 after SEC says new ETF filings by BlackRock and others are ‘inadequate’",
+      "url": "https://finance.yahoo.com/news/bitcoin-slumps-below-30-000-145233224.html",
+      "summary": "Bitcoin's price dropped below $30,000 following a report that the SEC deemed new spot Bitcoin ETF filings from major asset managers like BlackRock as 'inadequate.' The SEC cited a lack of specificity in the filings submitted by exchanges like Nasdaq and Cboe. This setback indicates continued regulatory scrutiny and potential delays in the approval of spot Bitcoin ETFs, impacting market sentiment.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "ETF",
+        "macro"
+      ],
+      "features_for_model": [
+        "SEC_ETF_inadequate_filing",
+        "Bitcoin_price_drop",
+        "regulatory_delay"
+      ],
+      "rationale": "The SEC's rejection of ETF filings due to inadequacy creates immediate downward pressure on Bitcoin's price and signals ongoing regulatory challenges. This could dampen institutional interest in the short to medium term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n4b3b1aaf6158",
+      "title": "BlackRock’s ETF application led to the biggest crypto inflows in a year. But how much Wall Street influence is too much?",
+      "url": "https://finance.yahoo.com/news/blackrock-etf-application-led-biggest-163817490.html",
+      "summary": "BlackRock's spot Bitcoin ETF application spurred significant crypto inflows, marking the largest in a year. However, concerns are raised about the potential for Wall Street firms to exert undue influence over the crypto space if they control a substantial portion of Bitcoin holdings. This highlights a tension between increased institutional adoption and the preservation of Bitcoin's decentralized ethos.",
+      "impact_horizon_months": 18,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "regulation"
+      ],
+      "features_for_model": [
+        "ETF_inflows",
+        "Wall_Street_influence",
+        "decentralization_concern"
+      ],
+      "rationale": "While institutional inflows are generally positive, the concentration of power in traditional finance entities could alter Bitcoin's fundamental nature. This long-term dynamic introduces an element of uncertainty regarding its future direction and decentralization."
+    },
+    {
+      "pick_idx": 16,
+      "id": "ndbc9d6d5ac2d",
+      "title": "Michael Saylor’s MicroStrategy buys $347 million in Bitcoin following recent upswing",
+      "url": "https://finance.yahoo.com/news/michael-saylor-microstrategy-buys-347-142120547.html",
+      "summary": "MicroStrategy, led by Michael Saylor, has purchased an additional $347 million worth of Bitcoin, increasing its holdings to 152,333 BTC. This significant corporate acquisition, made after a recent price upswing, demonstrates continued strong conviction from a major corporate Bitcoin holder. Such purchases can signal confidence to the market and contribute to demand.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_purchase",
+        "corporate_treasury_allocation",
+        "hodl_sentiment"
+      ],
+      "rationale": "MicroStrategy's consistent and substantial Bitcoin purchases reinforce the narrative of Bitcoin as a treasury reserve asset. This ongoing accumulation by a prominent company can positively influence market sentiment and demand."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nec5ea422b00b",
+      "title": "EU Formally Signs New Crypto Licensing, Money Laundering Rules Into Law",
+      "url": "https://finance.yahoo.com/news/eu-formally-signs-crypto-licensing-160004420.html",
+      "summary": "The European Union has officially enacted its Markets in Crypto Assets (MiCA) regulation, establishing tailored rules for the crypto sector. This landmark legislation includes provisions for crypto providers to verify customer identity during fund transfers, aligning with anti-money laundering efforts. MiCA represents a significant step towards regulatory clarity in a major jurisdiction.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.85,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "legal"
+      ],
+      "features_for_model": [
+        "MiCA_regulation",
+        "EU_crypto_rules",
+        "regulatory_clarity"
+      ],
+      "rationale": "The implementation of MiCA provides a much-needed regulatory framework in the EU, fostering greater institutional adoption and investor confidence. This clarity can attract more legitimate businesses and capital to the region."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n49171788ff16",
+      "title": "Cryptocurrency Market size is set to grow by USD 1,815.78 million from 2022 to 2027, Rising investment in digital assets to boost the market growth - Technavio",
+      "url": "https://finance.yahoo.com/news/cryptocurrency-market-size-set-grow-164500493.html",
+      "summary": "A Technavio report forecasts the global cryptocurrency market to grow by $1.815 billion between 2022 and 2027, with an estimated CAGR of 15.81%. The growth is attributed to increasing investment in digital assets, particularly in North America, which is expected to drive significant market expansion. This projection indicates a positive long-term outlook for the broader crypto ecosystem.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "market_growth"
+      ],
+      "features_for_model": [
+        "crypto_market_growth_forecast",
+        "digital_asset_investment",
+        "CAGR_projection"
+      ],
+      "rationale": "Market growth forecasts suggest increasing adoption and investment in digital assets. This sustained demand, driven by technological advancements and broader acceptance, points to a positive long-term trend for cryptocurrencies like Bitcoin."
+    },
+    {
+      "pick_idx": 39,
+      "id": "n8aa29a7d55cd",
+      "title": "First Mover Americas: Tokenization Might Be a $5T Opportunity: Bernstein",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-tokenization-might-121239323.html",
+      "summary": "Bernstein estimates that tokenization of real-world assets could represent a $5 trillion opportunity. This process, which converts assets into blockchain-based tokens, offers operational efficiencies, improved liquidity, and greater accessibility. The potential for such a massive market expansion highlights the transformative impact blockchain technology can have across various industries.",
+      "impact_horizon_months": 36,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "market_growth"
+      ],
+      "features_for_model": [
+        "tokenization_opportunity",
+        "real_world_assets",
+        "blockchain_efficiency"
+      ],
+      "rationale": "The tokenization of real-world assets represents a significant future growth area for blockchain technology. As more assets are tokenized, it will likely increase the utility and adoption of underlying blockchain infrastructure, potentially benefiting Bitcoin as a foundational asset."
+    },
+    {
+      "pick_idx": 41,
+      "id": "n8b3720be9bc1",
+      "title": "Time to Buy Bitcoin? Multiple Bullish Catalysts on the Horizon (revised)",
+      "url": "https://finance.yahoo.com/news/time-buy-bitcoin-multiple-bullish-154300282.html",
+      "summary": "The article suggests that Bitcoin may be poised for a bull market, citing several bullish catalysts. These include a completed technical chart pattern, potential Federal Reserve interest rate cuts, the pipeline for a Bitcoin ETF, and the emergence of new credible exchanges. These factors collectively point towards a potentially favorable environment for Bitcoin's price appreciation.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "bullish_catalysts",
+        "technical_pattern",
+        "Fed_rate_cuts",
+        "ETF_pipeline"
+      ],
+      "rationale": "The confluence of technical indicators, potential monetary policy shifts, and increasing institutional interest through ETFs creates a strong case for a bullish outlook on Bitcoin in the coming months."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n14c88a09b137",
+      "title": "Marathon Digital Holdings Announces Bitcoin Production and Mining Operation Updates for May 2023",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-announces-bitcoin-100000265.html",
+      "summary": "Marathon Digital Holdings reported record Bitcoin production in May 2023, mining 1,245 BTC. The company also increased its operational hash rate and has substantial unrestricted Bitcoin holdings. This update highlights the operational efficiency and growth of a major Bitcoin mining company, indicating a healthy and expanding mining sector.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "Marathon_mining_update",
+        "record_BTC_production",
+        "hashrate_increase"
+      ],
+      "rationale": "Strong operational performance from major miners like Marathon suggests a robust and growing mining infrastructure. Increased hashrate and production can contribute to network security and efficiency, indirectly supporting Bitcoin's value."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 2,
+      "id": "n0a8aed7f788a",
+      "title": "Bitcoin breaches US$31,000 on BlackRock’s updated ETF; Ether gains, Polygon leads winners",
+      "url": "https://finance.yahoo.com/news/bitcoin-breaches-us-31-000-012835069.html",
+      "summary": "Bitcoin surpassed $31,000 following BlackRock's refiled spot Bitcoin ETF application. Ethereum also saw gains, with Polygon leading other top cryptocurrencies. This positive price action is directly linked to renewed institutional interest and progress on the ETF front, suggesting a short-term bullish sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_surge",
+        "BlackRock_ETF_refile",
+        "institutional_interest"
+      ],
+      "rationale": "The refiling of BlackRock's ETF application, coupled with positive price action, indicates strong immediate market reaction to progress on institutional adoption pathways."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n5dfd16a43e0e",
+      "title": "First Mover Asia: Bitcoin Crosses $31K After Spot BTC ETF Issuers Begin Refiling",
+      "url": "https://finance.yahoo.com/news/first-mover-asia-bitcoin-crosses-015245491.html",
+      "summary": "Bitcoin's price crossed $31,000 as spot BTC ETF issuers, including BlackRock, began refiling their applications. This renewed optimism surrounding ETF approvals is driving market sentiment. The broader crypto market has seen significant gains in the first half of 2023, indicating a positive trend fueled by institutional interest.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "ETF",
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "Bitcoin_over_31K",
+        "ETF_refiling_optimism",
+        "market_rally"
+      ],
+      "rationale": "The market is reacting positively to the refiling of ETF applications, suggesting that this development will continue to support Bitcoin's price in the immediate short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n80328b26902a",
+      "title": "BlackRock Refiles Spot ETF Application, Names Coinbase as Surveillance Partner",
+      "url": "https://finance.yahoo.com/news/blackrock-refiles-spot-etf-application-022809445.html",
+      "summary": "BlackRock has submitted an amended spot Bitcoin ETF application, addressing SEC concerns by naming Coinbase as a surveillance partner. This move aims to overcome previous objections and signals a determined effort to gain regulatory approval. The news has already contributed to a surge in Bitcoin's price.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_amendment",
+        "Coinbase_surveillance_partner",
+        "SEC_approval_progress"
+      ],
+      "rationale": "The specific inclusion of Coinbase as a surveillance partner directly addresses a key SEC concern, increasing the likelihood of approval and providing a strong short-term bullish catalyst for Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nbffe1e3db2d6",
+      "title": "Celsius Could Sell More Than $170M in Altcoins in Bankruptcy Proceedings",
+      "url": "https://finance.yahoo.com/news/celsius-could-sell-more-170m-023220542.html",
+      "summary": "Celsius has received court permission to convert altcoins worth over $170 million into Bitcoin and Ethereum, starting July 1. This move is part of its bankruptcy proceedings to distribute assets to creditors. The potential sale of these altcoins could introduce selling pressure on those specific assets, but the conversion to BTC/ETH might offer some support to those major cryptocurrencies.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "bankruptcy",
+        "altcoin",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Celsius_altcoin_conversion",
+        "bankruptcy_liquidation",
+        "selling_pressure"
+      ],
+      "rationale": "The potential liquidation of a large amount of altcoins by Celsius could create selling pressure on those specific assets, while the conversion to BTC and ETH might add minor buying pressure to those larger cryptocurrencies."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n657080bdccc6",
+      "title": "Bitcoin, Ether Supply on Exchanges Fell in June: Goldman Sachs",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-supply-exchanges-fell-151941506.html",
+      "summary": "Goldman Sachs reported that the supply of Bitcoin and Ether on exchanges decreased in June, suggesting holders are moving assets to self-custody due to regulatory concerns and past incidents. This trend, with Bitcoin supply on exchanges falling 4% and Ether 5.8%, is historically associated with bull markets as it indicates reduced selling pressure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "liquidity",
+        "hodl_sentiment",
+        "exchange_supply"
+      ],
+      "features_for_model": [
+        "exchange_supply_decrease",
+        "self_custody_trend",
+        "reduced_selling_pressure"
+      ],
+      "rationale": "A decrease in exchange supply indicates that more holders are moving their assets to self-custody, reducing the immediate availability for sale and potentially leading to price appreciation."
+    },
+    {
+      "pick_idx": 17,
+      "id": "nc221995a58ff",
+      "title": "Is DCA the Way? Diligent Bitcoin Buyers Declared Back in the Black",
+      "url": "https://finance.yahoo.com/news/dca-way-diligent-bitcoin-buyers-213926060.html",
+      "summary": "Analysis shows that investors employing a Dollar-Cost Averaging (DCA) strategy for Bitcoin have now turned a profit. This suggests that consistent buying over time, even through volatile periods, has become a successful strategy. The positive returns for DCA investors can encourage continued accumulation.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "investor_sentiment"
+      ],
+      "features_for_model": [
+        "DCA_profitability",
+        "consistent_buying",
+        "investor_confidence"
+      ],
+      "rationale": "The profitability of DCA strategies can boost investor confidence and encourage further consistent buying, providing a steady demand for Bitcoin."
+    },
+    {
+      "pick_idx": 21,
+      "id": "nbacf186bae38",
+      "title": "New Bitcoin Standard BRC-69 Removes Data Limit for Ordinals",
+      "url": "https://finance.yahoo.com/news/bitcoin-standard-brc-69-plummets-130128196.html",
+      "summary": "A new Bitcoin token standard, BRC-69, has been launched to reduce inscription costs and time for Ordinals. This standard aims to bypass the previous 4MB data limit through 'recursive inscriptions.' The development signifies innovation within the Bitcoin ecosystem, potentially increasing its utility and attracting more users.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "protocol",
+        "innovation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BRC-69_standard",
+        "Ordinals_innovation",
+        "inscription_efficiency"
+      ],
+      "rationale": "Technological advancements like BRC-69 that improve the efficiency and utility of Bitcoin's inscription capabilities can foster ecosystem growth and attract new users, indirectly supporting Bitcoin's value."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n657080bdccc6",
+      "title": "Bitcoin, Ether Supply on Exchanges Fell in June: Goldman Sachs",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-supply-exchanges-fell-151941506.html",
+      "summary": "Goldman Sachs reported that the supply of Bitcoin and Ether on exchanges decreased in June, suggesting holders are moving assets to self-custody due to regulatory concerns and past incidents. This trend, with Bitcoin supply on exchanges falling 4% and Ether 5.8%, is historically associated with bull markets as it indicates reduced selling pressure.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "liquidity",
+        "hodl_sentiment",
+        "exchange_supply"
+      ],
+      "features_for_model": [
+        "exchange_supply_decrease",
+        "self_custody_trend",
+        "reduced_selling_pressure"
+      ],
+      "rationale": "A decrease in exchange supply indicates that more holders are moving their assets to self-custody, reducing the immediate availability for sale and potentially leading to price appreciation."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n80328b26902a",
+      "title": "BlackRock Refiles Spot ETF Application, Names Coinbase as Surveillance Partner",
+      "url": "https://finance.yahoo.com/news/blackrock-refiles-spot-etf-application-022809445.html",
+      "summary": "BlackRock has submitted an amended spot Bitcoin ETF application, addressing SEC concerns by naming Coinbase as a surveillance partner. This move aims to overcome previous objections and signals a determined effort to gain regulatory approval. The news has already contributed to a surge in Bitcoin's price.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF",
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_amendment",
+        "Coinbase_surveillance_partner",
+        "SEC_approval_progress"
+      ],
+      "rationale": "The specific inclusion of Coinbase as a surveillance partner directly addresses a key SEC concern, increasing the likelihood of approval and providing a strong short-term bullish catalyst for Bitcoin."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n26cbbb44f0eb",
+      "title": "Bitcoin, Ether slip but remain above key levels; top 10 cryptos mixed",
+      "url": "https://finance.yahoo.com/news/bitcoin-ether-slip-remain-above-092102545.html",
+      "summary": "Bitcoin and Ether experienced slight dips but held above key support levels, with mixed performance among the top 10 cryptocurrencies. Despite the minor pullback, investor optimism remains due to the refiled spot Bitcoin ETF applications. This suggests underlying strength and resilience in the market.",
+      "impact_horizon_days": 2,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "market_sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_Ether_slip",
+        "key_level_support",
+        "mixed_altcoin_performance"
+      ],
+      "rationale": "While there's a slight short-term dip, the market's ability to hold key levels and the persistent optimism around ETFs suggest a potential for recovery and continued sideways movement rather than a sharp decline."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-07-04",
+    "summary": "The crypto market is showing strong bullish sentiment today, primarily driven by BlackRock's refiled spot Bitcoin ETF application and the naming of Coinbase as a surveillance partner. This development has pushed Bitcoin above $31,000, with other major cryptocurrencies like Ether also seeing gains. While some altcoins may face selling pressure from Celsius's potential liquidation, the overall trend is positive, supported by decreasing exchange supply and ongoing institutional interest. The market appears to be consolidating gains while anticipating further progress on ETF approvals.",
+    "scenario_probs": {
+      "bull": 0.7,
+      "base": 0.25,
+      "bear": 0.05
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "SEC rejection of ETF filings despite refiling efforts.",
+      "Unexpected regulatory crackdowns on other major crypto assets or exchanges.",
+      "Macroeconomic factors leading to a broader risk-off sentiment.",
+      "Liquidation of large altcoin holdings from bankrupt entities creating contagion."
+    ],
+    "watch_items": [
+      "SEC decision on BlackRock's ETF filing.",
+      "Further developments in the Gemini/DCG debt restructuring.",
+      "On-chain data for exchange balances and whale movements.",
+      "Key macroeconomic data releases (e.g., inflation, employment)."
+    ]
+  }
+}

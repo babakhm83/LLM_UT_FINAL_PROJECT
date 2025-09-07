@@ -1,0 +1,505 @@
+{
+  "date": "2023-02-20",
+  "long_term": [
+    {
+      "pick_idx": 7,
+      "id": "n85e121738013",
+      "title": "Fidelity Remains Bullish on Bitcoin",
+      "url": "https://finance.yahoo.com/news/fidelity-remains-bullish-bitcoin-151834641.html",
+      "summary": "Despite a challenging 2022 for Bitcoin, Fidelity continues to express optimism for the digital asset and the broader crypto ecosystem. The financial giant's offering of Bitcoin services in 401(k) plans and enhanced Ethereum trading capabilities signal a commitment to institutional adoption. This sustained belief from a major player like Fidelity suggests a long-term positive outlook for Bitcoin's integration into traditional finance.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Fidelity_bullish",
+        "institutional_adoption",
+        "401k_bitcoin"
+      ],
+      "rationale": "Fidelity's continued bullish stance and expansion of crypto services, particularly in retirement plans, indicates strong institutional conviction. This can drive sustained demand and adoption over the long term."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n2d2b760b421e",
+      "title": "MicroStrategy Stock Doubles Since January as Michael Saylor Stays Bullish on Bitcoin",
+      "url": "https://finance.yahoo.com/news/microstrategy-stock-doubles-since-january-192540308.html",
+      "summary": "MicroStrategy's stock has seen a significant surge, doubling since the start of the year, even amidst quarterly losses. This performance is closely tied to Michael Saylor's unwavering bullishness on Bitcoin, which the company holds in large quantities. The stock's appreciation reflects investor confidence in MicroStrategy's Bitcoin strategy, suggesting that the company's performance is a proxy for Bitcoin's perceived future value.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "MicroStrategy_stock_performance",
+        "Michael_Saylor_bullish",
+        "corporate_bitcoin_holdings"
+      ],
+      "rationale": "MicroStrategy's stock doubling demonstrates a strong correlation with Bitcoin's price movements and investor sentiment towards corporate Bitcoin adoption. This highlights the impact of significant corporate holdings on market perception."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n411b7f2472ab",
+      "title": "Asia FX heads for weekly bounce, dollar at 7-mth low on easing inflation",
+      "url": "https://finance.yahoo.com/news/asia-fx-heads-weekly-bounce-233346887.html",
+      "summary": "The US dollar has weakened to a seven-month low due to easing inflation, which is boosting Asian currencies. This macroeconomic trend suggests a potential shift in global monetary policy, with the Federal Reserve possibly moderating its hawkish stance. A weaker dollar and a less aggressive Fed are generally positive for risk assets like Bitcoin, as they reduce the cost of capital and increase investor appetite for growth-oriented investments.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "USD_weakness",
+        "easing_inflation",
+        "Fed_pivot_anticipation"
+      ],
+      "rationale": "Easing inflation and a weaker dollar create a more favorable macro environment for risk assets. This could lead to increased capital flows into cryptocurrencies as investors seek higher yields and growth."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n1d76b744fce3",
+      "title": "Crypto Exchange Bitzlato Converted Over $1B in Crime-Linked Assets, Europol Says",
+      "url": "https://finance.yahoo.com/news/crypto-exchange-bitzlato-converted-over-140114525.html",
+      "summary": "Europol reports that the crypto exchange Bitzlato handled over $1 billion in assets linked to criminal activities. This highlights ongoing regulatory scrutiny and enforcement actions against exchanges facilitating illicit transactions. Such actions can lead to increased compliance burdens, potential fines, and a chilling effect on certain types of crypto usage, potentially impacting market sentiment and liquidity.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "Bitzlato_investigation",
+        "money_laundering_crackdown",
+        "regulatory_enforcement"
+      ],
+      "rationale": "Regulatory crackdowns on exchanges involved in illicit activities can lead to increased compliance costs and negative sentiment, potentially impacting market liquidity and investor confidence."
+    },
+    {
+      "pick_idx": 45,
+      "id": "ndb2915e25c14",
+      "title": "Crypto Options Exchange Deribit Plans Move to Dubai: Report",
+      "url": "https://finance.yahoo.com/news/crypto-options-exchange-deribit-plans-210607512.html",
+      "summary": "Deribit, a major crypto options exchange, is planning to relocate its operations to Dubai. This move is driven by the UAE's efforts to establish clear regulatory frameworks for the virtual asset industry. Such geographical shifts by key industry players can signal evolving regulatory landscapes and potentially attract more institutional capital to regions with clearer rules, impacting global liquidity and trading dynamics.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Deribit_Dubai_move",
+        "regulatory_clarity_UAE",
+        "exchange_relocation"
+      ],
+      "rationale": "Deribit's move to Dubai signals a trend of crypto businesses seeking regulatory clarity. This could foster greater institutional participation and liquidity in regions with well-defined crypto regulations."
+    },
+    {
+      "pick_idx": 46,
+      "id": "n46ef099f7147",
+      "title": "Bitcoin Miner BitNile Pulls 6,500 Rigs From Former Compute North Site",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-bitnile-pulls-6-134538244.html",
+      "summary": "BitNile, a Bitcoin mining company, is removing a significant number of mining rigs from a Texas facility due to economic non-viability. This action reflects the challenging operating conditions for miners, including high energy costs and fluctuating profitability. Such operational adjustments by miners can impact network hashrate and potentially signal broader industry consolidation or efficiency drives.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BitNile_rig_removal",
+        "Compute_North_site",
+        "miner_operational_challenges"
+      ],
+      "rationale": "Miners exiting unprofitable facilities due to economic pressures can indicate a tightening of the mining industry, potentially affecting network hashrate and miner sentiment."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n7b566153743c",
+      "title": "Bitcoin Miner Core Scientific Reaches Agreement To Shut Off Celsius Mining Rigs",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-core-scientific-reaches-110336114.html",
+      "summary": "Core Scientific, a major Bitcoin miner, has agreed to cease operations of Celsius mining rigs following their respective bankruptcies. This agreement resolves a dispute stemming from Celsius's failure to cover electricity costs. Such events highlight the financial distress within the crypto lending sector and its ripple effects on mining operations, potentially impacting network security and miner profitability.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "miner",
+        "legal",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Core_Scientific_Celsius_agreement",
+        "miner_bankruptcy_impact",
+        "hosting_dispute"
+      ],
+      "rationale": "The resolution of disputes between bankrupt entities like Core Scientific and Celsius underscores the financial contagion in the crypto space, which can indirectly affect mining operations and network stability."
+    },
+    {
+      "pick_idx": 28,
+      "id": "n6f1416298677",
+      "title": "How To Explore the Decentraland Metaverse",
+      "url": "https://finance.yahoo.com/news/explore-decentraland-metaverse-111445968.html",
+      "summary": "Decentraland, a prominent crypto metaverse, is discussed in terms of its integration of blockchain technology for features like in-game payments, play-to-earn mechanics, and NFTs. The growth and adoption of metaverse platforms like Decentraland are crucial for the broader Web3 ecosystem. Increased user engagement and development in these virtual worlds can drive demand for underlying cryptocurrencies and related technologies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Decentraland_metaverse",
+        "Web3_adoption",
+        "NFT_utility"
+      ],
+      "rationale": "The continued development and user adoption of metaverse platforms like Decentraland are positive indicators for the broader Web3 space, potentially driving demand for associated digital assets."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n5ddbc066d303",
+      "title": "Cryptoverse: Bitcoin is back with a bonk",
+      "url": "https://finance.yahoo.com/news/cryptoverse-bitcoin-back-bonk-061000639.html",
+      "summary": "Bitcoin has experienced a significant rally in early 2023, dragging the broader crypto market higher and even boosting meme coins like Bonk. This resurgence, with Bitcoin breaking above $20,000, marks its best monthly performance since October 2021. The positive momentum suggests a potential shift in market sentiment, driven by macroeconomic factors and renewed investor interest.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_rally",
+        "meme_coin_correlation",
+        "market_sentiment_shift"
+      ],
+      "rationale": "Bitcoin's strong start to 2023, breaking key resistance levels, indicates a potential recovery in market sentiment. This positive momentum can spill over to other crypto assets."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n94dd6bd92270",
+      "title": "Bitcoin is still well below $20,000 — so why haven't Kevin O’Leary, Edward Snowden and other celebrity investors given up on it?",
+      "url": "https://finance.yahoo.com/news/cryptos-crashed-why-kevin-o-120000671.html",
+      "summary": "Despite Bitcoin's significant price drop from its all-time high, prominent investors like Kevin O'Leary and Edward Snowden remain optimistic. Their continued belief suggests conviction in Bitcoin's long-term potential, even amidst market volatility and speculative critiques. This sustained interest from influential figures can bolster confidence and attract new investors to the asset class.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "celebrity_investor_confidence",
+        "long_term_bitcoin_belief",
+        "market_volatility_resilience"
+      ],
+      "rationale": "The continued conviction of high-profile investors in Bitcoin, despite price downturns, signals a belief in its long-term value proposition, which can influence broader market sentiment and adoption."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 7,
+      "id": "na876615e8c44",
+      "title": "Bitcoin price nears $25,000 as crypto market reaches $1.17tn",
+      "url": "https://finance.yahoo.com/news/bitcoin-crypto-price-latest-market-cap-094912920.html",
+      "summary": "Bitcoin is approaching $25,000, with the total crypto market cap reaching $1.17 trillion. This price action indicates a positive short-term trend, with Bitcoin up 12.4% over the past week. The lack of significant macroeconomic triggers this week suggests that market sentiment and technical factors will likely drive price action.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "market_cap",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_near_25k",
+        "total_crypto_market_cap_1.17T",
+        "weekly_gains"
+      ],
+      "rationale": "Bitcoin's strong upward momentum towards $25,000 and the overall market cap increase suggest continued positive sentiment in the immediate short term."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf813966377e5",
+      "title": "Markets: Bitcoin rises above US$24,000; Solana gains most in top 10 cryptos",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-rises-above-us-094314288.html",
+      "summary": "Bitcoin has surpassed $24,000, with Solana showing significant gains among the top 10 cryptocurrencies. This indicates a broad market uptrend, with specific altcoins outperforming. The mixed performance in the top 10, with Solana leading, suggests sector rotation or specific project-related news driving demand.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "altcoin_performance",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_above_24k",
+        "SOL_outperformance",
+        "top_10_mixed_performance"
+      ],
+      "rationale": "Bitcoin's move above $24,000 and Solana's strong performance suggest positive short-term momentum across the market, with specific assets showing notable strength."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n3bbfffcda242",
+      "title": "Bitcoin surpasses Visa’s market cap to be 11th largest asset in the world",
+      "url": "https://finance.yahoo.com/news/bitcoin-surpasses-visa-market-cap-121105760.html",
+      "summary": "Bitcoin's market capitalization has now surpassed that of Visa, making it the 11th largest asset globally. This milestone reflects Bitcoin's growing acceptance and valuation relative to traditional financial assets. Such a comparison can attract attention from traditional investors and signal increasing institutional interest.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "market_cap",
+        "institutional"
+      ],
+      "features_for_model": [
+        "BTC_market_cap_vs_Visa",
+        "11th_largest_asset",
+        "traditional_asset_comparison"
+      ],
+      "rationale": "Bitcoin surpassing Visa in market cap is a significant psychological and structural milestone, potentially attracting traditional finance interest and boosting short-term sentiment."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n06d15dfc13d3",
+      "title": "First Mover Americas: Bitcoin ‘Ordinals’ Boom Prompts NFT Activity Surge",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-ordinals-131226547.html",
+      "summary": "The emergence of Bitcoin 'Ordinals' is driving a surge in NFT activity on the Bitcoin blockchain. This development introduces new use cases and potential demand for Bitcoin, as NFTs gain traction. The innovation on the Bitcoin network could lead to increased transaction volume and developer interest, positively impacting Bitcoin's ecosystem.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 1,
+        "end": 10
+      },
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "Bitcoin_Ordinals_boom",
+        "NFT_activity_surge",
+        "Bitcoin_NFTs"
+      ],
+      "rationale": "The Ordinals protocol is creating new utility and demand for Bitcoin through NFTs, which could lead to increased transaction volume and positive price action in the short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n4d27ba35e7b2",
+      "title": "Bitcoin Layer 2 Stacks Network's STX Token Spikes 50% as 'Ordinals' Boom",
+      "url": "https://finance.yahoo.com/news/bitcoin-layer-2-stacks-networks-115324666.html",
+      "summary": "The STX token, native to the Bitcoin Layer 2 Stacks Network, has surged 50% due to the 'Ordinals' boom. This highlights the positive impact of new developments on the Bitcoin ecosystem, particularly those enabling smart contracts and NFTs. The increased activity on Stacks could drive demand for STX and contribute to broader Bitcoin network growth.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "STX_token_spike",
+        "Stacks_Network_Ordinals",
+        "Bitcoin_L2_growth"
+      ],
+      "rationale": "The significant surge in STX token price, driven by the Ordinals narrative on the Stacks network, indicates strong short-term demand and positive sentiment for Bitcoin's Layer 2 solutions."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n4e3495dbd7fa",
+      "title": "Number of Bitcoin Whales Drops to Lowest Level Since 2019",
+      "url": "https://finance.yahoo.com/news/number-bitcoin-whales-drops-lowest-154744169.html",
+      "summary": "The number of Bitcoin 'whales' (addresses holding 1,000+ BTC) has fallen to its lowest point since August 2019. While this could indicate distribution by large holders, it might also suggest a consolidation of wealth into fewer, more secure hands, or a shift in holding strategies. A lower number of whales could lead to increased price volatility.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "whales",
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_whale_count_low",
+        "holding_distribution",
+        "potential_volatility"
+      ],
+      "rationale": "A decrease in whale count can be interpreted in multiple ways, potentially leading to increased volatility. It's a signal to watch for shifts in large holder behavior."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n98fd44dd7ff6",
+      "title": "Hong Kong shows desire to be crypto hub with new regulation",
+      "url": "https://finance.yahoo.com/news/hong-kong-shows-desire-crypto-142452982.html",
+      "summary": "Hong Kong is proposing new regulations that would allow retail investors to trade certain large-cap tokens on licensed exchanges, contrasting with mainland China's ban. This move signals Hong Kong's ambition to become a crypto hub. Clearer regulations can attract businesses and capital, potentially boosting market activity and adoption in the region.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 3,
+        "end": 14
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "hub"
+      ],
+      "features_for_model": [
+        "Hong_Kong_crypto_hub",
+        "retail_trading_rules",
+        "regulatory_framework"
+      ],
+      "rationale": "Hong Kong's proactive regulatory approach to becoming a crypto hub could attract significant investment and trading volume, positively impacting market sentiment and liquidity in the region."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n01b1cee608c6",
+      "title": "Markets: Bitcoin dips below US$24,000 to start the trading week in Asia",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-dips-below-us-015724533.html",
+      "summary": "Bitcoin has fallen below $24,000 at the start of the trading week in Asia, with mixed performance in the top 10 cryptocurrencies. Solana is showing gains, while Dogecoin is declining. This indicates a short-term pullback after recent gains, with potential for continued volatility as traders react to market shifts.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_below_24k",
+        "mixed_top_10",
+        "short_term_pullback"
+      ],
+      "rationale": "Bitcoin's dip below $24,000 signals a short-term bearish sentiment, potentially leading to further price consolidation or a minor retracement in the immediate trading days."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n01b1cee608c6",
+      "title": "Markets: Bitcoin dips below US$24,000 to start the trading week in Asia",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-dips-below-us-015724533.html",
+      "summary": "Bitcoin fell below $24,000 to start the week, with mixed performance in the top 10 cryptocurrencies. Solana gained, while Dogecoin dropped. This suggests a short-term correction after recent gains, with potential for continued volatility. The market is reacting to the start of the week's trading activity.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "price_action",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_below_24k",
+        "mixed_top_10",
+        "short_term_correction"
+      ],
+      "rationale": "The immediate price action shows Bitcoin breaking below a key level, indicating potential short-term weakness and a possible continuation of the downward trend for the next couple of days."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n4d27ba35e7b2",
+      "title": "Bitcoin Layer 2 Stacks Network's STX Token Spikes 50% as 'Ordinals' Boom",
+      "url": "https://finance.yahoo.com/news/bitcoin-layer-2-stacks-networks-115324666.html",
+      "summary": "The STX token, associated with Bitcoin's Layer 2 Stacks Network, has seen a 50% increase driven by the 'Ordinals' protocol. This surge highlights the growing interest in Bitcoin-based NFTs and smart contract capabilities. The positive momentum for Stacks could translate into increased transaction volume and demand for STX in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "protocol",
+        "adoption",
+        "NFT"
+      ],
+      "features_for_model": [
+        "STX_token_surge",
+        "Stacks_Network_Ordinals",
+        "Bitcoin_L2_narrative"
+      ],
+      "rationale": "The significant price appreciation of STX, fueled by the Ordinals narrative on the Stacks network, suggests strong short-term buying pressure and positive sentiment for Bitcoin's scaling solutions."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-02-20",
+    "summary": "Bitcoin is showing resilience, nearing $25,000, with the total crypto market cap exceeding $1.17 trillion. The emergence of Bitcoin 'Ordinals' is driving NFT activity and boosting related tokens like STX. However, a short-term pullback below $24,000 suggests potential volatility. Hong Kong's regulatory clarity aims to foster a crypto hub, while a decrease in Bitcoin whales adds an element of uncertainty to liquidity.",
+    "scenario_probs": {
+      "bull": 0.55,
+      "base": 0.3,
+      "bear": 0.15
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Potential for increased volatility due to fewer Bitcoin whales.",
+      "Regulatory uncertainty in other jurisdictions could dampen sentiment.",
+      "Macroeconomic data releases could shift the Fed's policy stance.",
+      "Profit-taking after recent rallies could lead to short-term price corrections.",
+      "The sustainability of the 'Ordinals' narrative remains to be seen."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $25,000 resistance.",
+      "Developments in Hong Kong's crypto regulatory framework.",
+      "Further news on Bitcoin Ordinals and their impact on transaction fees.",
+      "Statements from Federal Reserve officials regarding monetary policy.",
+      "Performance of altcoins like Solana and STX."
+    ]
+  }
+}

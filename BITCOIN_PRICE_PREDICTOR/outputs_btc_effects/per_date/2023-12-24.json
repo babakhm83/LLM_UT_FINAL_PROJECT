@@ -1,0 +1,493 @@
+{
+  "date": "2023-12-24",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n89ac30cd9a22",
+      "title": "Ether Surges Above $2,000 On BlackRock ETF Hopes",
+      "url": "https://finance.yahoo.com/news/ether-surges-above-2-000-163054732.html",
+      "summary": "BlackRock's registration of an iShares Ethereum Trust entity, mirroring its Bitcoin ETF filing strategy, has fueled significant price increases for Ether. This move suggests institutional interest in Ethereum products, potentially paving the way for broader adoption and increased liquidity. The development signals a maturing crypto market where traditional finance players are actively seeking to offer regulated digital asset investment vehicles.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BlackRock_ETH_ETF_filing",
+        "institutional_adoption",
+        "ETH_price_surge"
+      ],
+      "rationale": "The potential for a BlackRock-backed Ethereum ETF significantly increases institutional accessibility and legitimacy for ETH. This could drive substantial capital inflows and price appreciation over the medium to long term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n27cb7f16a6f1",
+      "title": "Grayscale Bitcoin Trust Discount Narrows",
+      "url": "https://finance.yahoo.com/news/grayscale-bitcoin-trust-discount-narrows-140000919.html",
+      "summary": "The discount of the Grayscale Bitcoin Trust (GBTC) to its Net Asset Value (NAV) has significantly narrowed, driven by increased optimism surrounding the approval of spot Bitcoin ETFs. This trend, also observed in the Grayscale Ethereum Trust, indicates growing market confidence and a potential convergence of trust prices with underlying asset values as regulatory clarity improves.",
+      "impact_horizon_months": 6,
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "GBTC_discount_narrowing",
+        "spot_ETF_hopes",
+        "institutional_sentiment"
+      ],
+      "rationale": "The narrowing discount of GBTC reflects increased market anticipation of a spot Bitcoin ETF approval, which would allow for more efficient arbitrage. This suggests a positive sentiment shift towards regulated Bitcoin investment products."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n3fb12a57810d",
+      "title": "Bitcoin hits 18-month high as traders bet on improving macro picture and bullish forecasts push crypto higher",
+      "url": "https://finance.yahoo.com/news/bitcoin-hits-18-month-high-144015994.html",
+      "summary": "Bitcoin reached an 18-month high, driven by expectations of Federal Reserve interest rate cuts in 2024 and positive forecasts, including one from Standard Chartered predicting a $100,000 price by the end of next year. This surge reflects a broader market sentiment shift towards risk assets as macroeconomic conditions appear to improve.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_18_month_high",
+        "Fed_rate_cut_expectations",
+        "Standard_Chartered_forecast"
+      ],
+      "rationale": "The combination of anticipated dovish monetary policy and strong bullish forecasts suggests a sustained upward trend for Bitcoin, driven by both macro tailwinds and increasing market conviction."
+    },
+    {
+      "pick_idx": 12,
+      "id": "ndee138375058",
+      "title": "Bitcoin price rises past $43,000 after Fed interest rate pause",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-rises-fed-interest-rate-pause-092132970.html",
+      "summary": "Bitcoin surpassed $43,000 following the Federal Reserve's decision to pause interest rates, marking a recovery after a recent flash crash. This move indicates that the market is sensitive to monetary policy shifts, with a pause in rate hikes generally viewed as positive for risk assets like Bitcoin.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_over_43k",
+        "Fed_rate_pause",
+        "monetary_policy_impact"
+      ],
+      "rationale": "The Fed's decision to pause rates provides a more favorable macro environment for Bitcoin, potentially increasing liquidity and investor appetite for risk assets."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ndbb14527ebb2",
+      "title": "Bitcoin Accumulation Increases as Supply Reaches Historic Low, Supporting Price Stability: Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-accumulation-increases-supply-reaches-052913703.html",
+      "summary": "A report indicates that Bitcoin's available supply is at a historic low, with long-term holders and smaller entities actively accumulating. This tightening supply, coupled with increasing illiquid supply, suggests a bullish sentiment and potential for price stability or appreciation as demand outstrips readily available Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "BTC_supply_low",
+        "BTC_accumulation",
+        "long_term_holders"
+      ],
+      "rationale": "The decreasing availability of Bitcoin, driven by accumulation from long-term holders, creates a supply shock that can significantly boost prices as demand remains constant or increases."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n90ec87b4f58a",
+      "title": "BlackRock Amends Bitcoin ETF Application, Easing Access for Wall Street Banks",
+      "url": "https://finance.yahoo.com/news/blackrock-amends-bitcoin-etf-application-052300842.html",
+      "summary": "BlackRock has revised its spot Bitcoin ETF application to allow cash creations, enabling major Wall Street banks like JPMorgan and Goldman Sachs to participate. This modification addresses restrictions that prevent banks from holding crypto directly, potentially unlocking significant institutional capital for Bitcoin investment through a traditional finance wrapper.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "institutional",
+        "ETF",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BlackRock_ETF_amendment",
+        "cash_creation_ETF",
+        "institutional_access"
+      ],
+      "rationale": "The inclusion of cash creations in BlackRock's ETF application is a critical step for large financial institutions, significantly lowering the barrier to entry and paving the way for substantial institutional capital deployment into Bitcoin."
+    },
+    {
+      "pick_idx": 20,
+      "id": "ndfff1b9c6254",
+      "title": "Bitcoin ETFs Set to Explode in 2024 After a Marvelous 2023",
+      "url": "https://finance.yahoo.com/news/bitcoin-etfs-set-explode-2024-160500406.html",
+      "summary": "Bitcoin has had a stellar 2023, outperforming traditional assets, and is poised for continued growth in 2024, partly due to the anticipated approval of Bitcoin ETFs and the upcoming halving event. The halving, which reduces new supply, has historically preceded bull runs, suggesting a strong outlook for Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "macro",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Bitcoin_ETF_2024_outlook",
+        "Bitcoin_halving_2024",
+        "crypto_bull_run"
+      ],
+      "rationale": "The confluence of potential ETF approvals and the Bitcoin halving event in 2024 creates a powerful bullish narrative, suggesting significant price appreciation driven by both increased demand and reduced supply."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n3f9975ee7fcd",
+      "title": "Germany's DZ Bank Launches Blockchain-Based Digital Assets Custody Platform",
+      "url": "https://finance.yahoo.com/news/germanys-dz-bank-launches-blockchain-051728243.html",
+      "summary": "DZ Bank, Germany's third-largest bank, has launched a blockchain-based digital asset custody platform for institutional clients. This move signifies growing institutional adoption of digital assets and blockchain technology within traditional finance, potentially increasing the legitimacy and accessibility of crypto for a wider range of investors.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "DZ_Bank_custody_platform",
+        "institutional_digital_assets",
+        "blockchain_adoption_Germany"
+      ],
+      "rationale": "The establishment of a digital asset custody platform by a major German bank signals increasing institutional comfort and infrastructure development for crypto, which can lead to greater adoption and integration into traditional financial systems."
+    },
+    {
+      "pick_idx": 31,
+      "id": "n87528f94d7c2",
+      "title": "Block’s Bitcoin revenue grew nearly 40% while value of its Bitcoin holdings rose",
+      "url": "https://finance.yahoo.com/news/block-bitcoin-revenue-grew-nearly-220937205.html",
+      "summary": "Block reported a nearly 40% increase in Bitcoin revenue and a rise in the value of its Bitcoin holdings. This strong performance from a major payment processor indicates growing consumer engagement with Bitcoin and a positive outlook for companies integrating crypto services.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Block_BTC_revenue_growth",
+        "corporate_BTC_holdings",
+        "payment_processor_adoption"
+      ],
+      "rationale": "Block's significant growth in Bitcoin revenue and the appreciation of its holdings highlight increasing mainstream adoption and the potential for companies to leverage Bitcoin for revenue generation and treasury management."
+    },
+    {
+      "pick_idx": 43,
+      "id": "n6c76afc19d9d",
+      "title": "Bitcoin could surge 300% to $120,000 next year as miners reduce token sales, Standard Chartered says",
+      "url": "https://finance.yahoo.com/news/bitcoin-could-surge-300-120-152013512.html",
+      "summary": "Standard Chartered analyst Geoff Kendrick predicts Bitcoin could reach $120,000 by the end of 2024, revising his earlier forecast upwards. This bullish outlook is attributed to miners reducing their token sales, which tightens supply and could significantly boost prices, especially in conjunction with other positive market catalysts.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_price_prediction_120k",
+        "miner_reduced_sales",
+        "Standard_Chartered_bullish"
+      ],
+      "rationale": "The prediction of a 300% surge to $120,000, driven by reduced miner selling and other factors, presents a strong bullish case for Bitcoin, indicating significant upside potential in the coming year."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n3778239c399a",
+      "title": "This Was Cathie Wood's Best ETF in 2024",
+      "url": "https://finance.yahoo.com/news/cathie-woods-best-etf-2024-092700403.html",
+      "summary": "Cathie Wood's ARK Next Generation Internet ETF (ARKW) nearly doubled in value in 2023, outperforming her flagship ARK Innovation ETF. This performance highlights strong investor interest in next-generation technologies, which often overlap with crypto-related sectors.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_ETF_performance",
+        "ARKW_outperformance",
+        "tech_stock_sentiment"
+      ],
+      "rationale": "Strong performance in tech-focused ETFs like ARKW can indicate a broader positive sentiment towards innovation and growth sectors, which may spill over into crypto."
+    },
+    {
+      "pick_idx": 2,
+      "id": "ne249cb073c82",
+      "title": "Are These the Best Cryptos Under $1?",
+      "url": "https://finance.yahoo.com/news/best-cryptos-under-1-110000485.html",
+      "summary": "The article identifies Polygon (MATIC), XRP, and Cardano (ADA) as promising cryptocurrencies trading under $1. It suggests these altcoins have strong future growth prospects and competitive positioning, potentially attracting retail investor interest.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "altcoin_under_1_dollar",
+        "MATIC_XRP_ADA_potential",
+        "retail_investor_interest"
+      ],
+      "rationale": "Positive mentions of specific altcoins can drive short-term speculative interest and trading volume, especially among retail investors looking for lower-priced assets."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n8c949fc3ed16",
+      "title": "Swych Finance Releases the Next Generation of Decentralized Perpetual Exchanges",
+      "url": "https://finance.yahoo.com/news/swych-finance-releases-next-generation-121523578.html",
+      "summary": "Swych Finance has launched a new generation of decentralized perpetual exchanges (PDEXs), aiming for greater transparency and ease of use. This development in the DeFi sector, which has a market cap exceeding $2 billion, could attract new users and capital to decentralized trading platforms.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Swych_Finance_PDEX",
+        "DeFi_innovation",
+        "perpetual_DEX_growth"
+      ],
+      "rationale": "New platform launches in DeFi can generate short-term buzz and trading activity, but their sustained impact depends on adoption and actual utility."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n9a22dc604540",
+      "title": "Prediction: Bitcoin Will Reach $100,000 in 2024",
+      "url": "https://finance.yahoo.com/news/prediction-bitcoin-reach-100-000-124500984.html",
+      "summary": "The article predicts Bitcoin could reach $100,000 by the end of 2024, citing its strong 2023 performance and multiple catalysts. This optimistic outlook, shared by many analysts, could influence short-term sentiment and trading behavior.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_100k_prediction_2024",
+        "bullish_catalysts",
+        "market_sentiment"
+      ],
+      "rationale": "High-profile price predictions, especially those with a clear timeline, can create a self-fulfilling prophecy by attracting buyers and influencing market sentiment in the short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "ned384a8830e6",
+      "title": "3 Red-Hot Growth Stocks That Have Doubled This Year But Could Run Out of Steam in 2024",
+      "url": "https://finance.yahoo.com/news/3-red-hot-growth-stocks-180000170.html",
+      "summary": "The article suggests that Riot Platforms (RIOT), a crypto-related stock, along with C3.ai and Tesla, may face a correction in 2024 after significant gains in 2023. This cautionary note about overvalued growth stocks could impact investor sentiment towards related crypto assets.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "RIOT_valuation_risk",
+        "growth_stock_correction",
+        "market_overvaluation"
+      ],
+      "rationale": "Concerns about overvaluation in growth stocks, particularly those linked to crypto like Riot Platforms, could lead to a short-term sell-off or reduced buying pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n9a22dc604540",
+      "title": "Prediction: Bitcoin Will Reach $100,000 in 2024",
+      "url": "https://finance.yahoo.com/news/prediction-bitcoin-reach-100-000-124500984.html",
+      "summary": "This article reiterates the prediction that Bitcoin could reach $100,000 by the end of 2024, highlighting its strong 2023 performance and multiple positive catalysts. Such forecasts can significantly influence short-term market sentiment and trading activity.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_100k_prediction_2024",
+        "bullish_catalysts",
+        "market_sentiment"
+      ],
+      "rationale": "Repeated optimistic price predictions can reinforce positive market sentiment, potentially driving short-term buying pressure and increasing trading volume."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n3778239c399a",
+      "title": "This Was Cathie Wood's Best ETF in 2024",
+      "url": "https://finance.yahoo.com/news/cathie-woods-best-etf-2024-092700403.html",
+      "summary": "Cathie Wood's ARK Next Generation Internet ETF (ARKW) saw substantial gains in 2023, outperforming her main fund. This success in tech-focused ETFs suggests a positive investor appetite for innovative sectors, which can indirectly benefit crypto markets.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "Cathie_Wood_ETF_performance",
+        "ARKW_outperformance",
+        "tech_stock_sentiment"
+      ],
+      "rationale": "Strong performance in growth-oriented ETFs like ARKW can signal a broader positive sentiment towards speculative assets, potentially boosting short-term crypto interest."
+    },
+    {
+      "pick_idx": 8,
+      "id": "ne249cb073c82",
+      "title": "Are These the Best Cryptos Under $1?",
+      "url": "https://finance.yahoo.com/news/best-cryptos-under-1-110000485.html",
+      "summary": "The article highlights Polygon (MATIC), XRP, and Cardano (ADA) as promising cryptocurrencies under $1, suggesting they have strong growth potential. This focus on specific altcoins can attract retail investor attention and drive short-term trading volume.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "altcoin_under_1_dollar",
+        "MATIC_XRP_ADA_potential",
+        "retail_investor_interest"
+      ],
+      "rationale": "Positive coverage of specific altcoins can lead to increased retail trading activity and short-term price pumps for those assets."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n8c949fc3ed16",
+      "title": "Swych Finance Releases the Next Generation of Decentralized Perpetual Exchanges",
+      "url": "https://finance.yahoo.com/news/swych-finance-releases-next-generation-121523578.html",
+      "summary": "Swych Finance has launched an advanced decentralized perpetual exchange (PDEX) platform, aiming to enhance transparency and user experience in DeFi. This innovation in the growing PDEX market could attract new users and trading volume.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Swych_Finance_PDEX",
+        "DeFi_innovation",
+        "perpetual_DEX_growth"
+      ],
+      "rationale": "New developments in DeFi can create short-term interest, but their impact on Bitcoin is indirect and depends on broader market trends and adoption rates."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n9a22dc604540",
+      "title": "Prediction: Bitcoin Will Reach $100,000 in 2024",
+      "url": "https://finance.yahoo.com/news/prediction-bitcoin-reach-100-000-124500984.html",
+      "summary": "This article presents a bullish prediction for Bitcoin, forecasting a $100,000 price target for 2024 based on its strong 2023 performance and anticipated market catalysts. Such forecasts can influence short-term investor sentiment and trading behavior.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_100k_prediction_2024",
+        "bullish_catalysts",
+        "market_sentiment"
+      ],
+      "rationale": "Widely publicized price targets can create positive sentiment and attract speculative buying, potentially driving short-term price increases."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-12-24",
+    "summary": "The market sentiment remains cautiously optimistic, driven by expectations of Fed rate cuts and continued institutional interest in Bitcoin ETFs. Long-term prospects appear strong due to accumulating supply and positive forecasts. Short-term, altcoin mentions and growth stock concerns provide mixed signals, while high-profile price predictions continue to fuel bullish sentiment.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.85
+    },
+    "key_risks": [
+      "Potential regulatory crackdowns on specific altcoins.",
+      "Unexpected shifts in macroeconomic sentiment or Fed policy.",
+      "Profit-taking after recent rallies could lead to short-term pullbacks.",
+      "Geopolitical events impacting global markets.",
+      "Technical vulnerabilities or exploits in DeFi protocols."
+    ],
+    "watch_items": [
+      "SEC decisions on spot Bitcoin ETFs.",
+      "Federal Reserve meeting minutes and statements.",
+      "Performance of major tech stocks (e.g., NVIDIA, Tesla).",
+      "On-chain data for Bitcoin accumulation and miner behavior.",
+      "Developments in Ethereum ETF applications."
+    ]
+  }
+}

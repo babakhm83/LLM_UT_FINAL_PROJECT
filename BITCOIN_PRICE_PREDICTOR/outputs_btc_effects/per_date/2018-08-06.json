@@ -1,0 +1,505 @@
+{
+  "date": "2018-08-06",
+  "long_term": [
+    {
+      "pick_idx": 13,
+      "id": "nb98ad96f769f",
+      "title": "$1 Billion Bitcoins Lost in Mt. Gox Hack to Be Returned to Victims",
+      "url": "https://finance.yahoo.com/news/1-billion-bitcoins-lost-mt-162814444.html",
+      "summary": "A Japanese court has ruled to pull the defunct Mt. Gox exchange out of bankruptcy, paving the way for victims to potentially receive back at least $1 billion worth of cryptocurrency. Mt. Gox, once the world's largest Bitcoin exchange, collapsed in 2014 after losing approximately 850,000 Bitcoins. This development could lead to a significant redistribution of dormant Bitcoin, impacting market liquidity and potentially signaling a more mature approach to handling past exchange failures.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "legal",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "MtGox_repayment",
+        "dormant_btc_flow",
+        "exchange_bankruptcy_resolution"
+      ],
+      "rationale": "The return of lost Bitcoins to victims, even years later, represents a significant event for the crypto space. It could unlock a substantial amount of previously illiquid Bitcoin, potentially increasing market supply and influencing price dynamics. This also sets a precedent for how such large-scale historical losses are handled."
+    },
+    {
+      "pick_idx": 3,
+      "id": "nf1b3cd1cc97f",
+      "title": "Bitcoin Slips as Google Bans Crypto Mining on Android Play Store",
+      "url": "https://finance.yahoo.com/news/bitcoin-slips-google-bans-crypto-062600458.html",
+      "summary": "Google has banned on-device cryptocurrency mining applications from its Android Play Store, following a similar move by Apple. This decision impacts the ability for mobile devices to be used for mining, potentially reducing the decentralized mining network's reach and efficiency. While the direct impact on Bitcoin's hash rate is likely minimal, it signals a broader trend of major tech platforms restricting crypto-related activities.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Google_mining_ban",
+        "Android_app_policy",
+        "mobile_mining_restriction"
+      ],
+      "rationale": "This ban by Google, mirroring Apple's earlier decision, restricts a potential avenue for decentralized mining. While not a direct threat to Bitcoin's core infrastructure, it signals a tightening regulatory environment and a move by major tech players to limit certain crypto activities, which can create negative sentiment."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n1b1de9215a79",
+      "title": "Top Economists Stiglitz, Roubini And Rogoff Renew Bitcoin Doom Scenarios",
+      "url": "https://finance.yahoo.com/news/top-economists-stiglitz-roubini-rogoff-161008523.html",
+      "summary": "Prominent economists Joseph Stiglitz, Nouriel Roubini, and Kenneth Rogoff have reiterated their critical views on Bitcoin, predicting further price declines and emphasizing the potential for strict government regulation to curb its use for illicit activities like money laundering and tax evasion. Their consistent bearish outlook, amplified by their academic standing, can influence market sentiment and regulatory approaches.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "economist_bearish_outlook",
+        "Stiglitz_Roubini_Rogoff_criticism",
+        "regulatory_risk_prediction"
+      ],
+      "rationale": "The repeated bearish pronouncements from highly respected economists like Stiglitz, Roubini, and Rogoff carry significant weight. Their focus on regulatory risks and potential for government intervention can shape both public perception and policy decisions, creating a persistent headwind for Bitcoin's long-term adoption and price appreciation."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n4668e87b0a5f",
+      "title": "The Winklevoss Twins' Bitcoin ETF Was Just Rejected -- Here's Why It Matters",
+      "url": "https://finance.yahoo.com/news/winklevoss-twins-apos-bitcoin-etf-174600878.html",
+      "summary": "The SEC rejected the Winklevoss twins' Bitcoin ETF application for the second time, citing concerns about market manipulation and custody. This rejection is a setback for institutional adoption, as ETFs are a key gateway for traditional investors. While not the only ETF application, it highlights the regulatory hurdles and the SEC's cautious stance on approving crypto-backed financial products.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "regulation",
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "SEC_ETF_rejection",
+        "Winklevoss_ETF_denial",
+        "institutional_adoption_barrier"
+      ],
+      "rationale": "The SEC's repeated rejection of a Bitcoin ETF, particularly one from prominent figures like the Winklevoss twins, underscores significant regulatory challenges. This denial dampens expectations for easier institutional access to Bitcoin and signals that regulatory approval for such products remains a distant prospect, impacting investor sentiment and potential capital inflows."
+    },
+    {
+      "pick_idx": 40,
+      "id": "n4a29b765f47e",
+      "title": "Precious Metals ETFs Tumble as Trade Tensions Escalate",
+      "url": "https://finance.yahoo.com/news/precious-metals-etfs-tumble-trade-180125423.html",
+      "summary": "Precious metals ETFs, including gold and silver, experienced significant declines as escalating trade tensions between the U.S. and China led investors to shift towards cash. This move away from safe-haven assets like gold suggests a broader risk-on sentiment in traditional markets, which can indirectly impact Bitcoin as investors reallocate capital. The correlation between gold and Bitcoin can sometimes be observed, making this a relevant macro indicator.",
+      "impact_horizon_months": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "ETF"
+      ],
+      "features_for_model": [
+        "trade_tension_impact",
+        "precious_metals_selloff",
+        "risk_off_sentiment"
+      ],
+      "rationale": "The sell-off in precious metals due to trade tensions indicates a shift in investor sentiment towards risk aversion, favoring cash. This macro trend can influence Bitcoin, as it often competes for investor capital with other asset classes. A general flight to safety in traditional markets can sometimes lead to outflows from riskier assets like cryptocurrencies."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n8644f937cb54",
+      "title": "India’s Ruling Political Party Allegedly Involved in $763 Million Bitcoin Scam: Report",
+      "url": "https://finance.yahoo.com/news/india-ruling-political-party-allegedly-062116862.html",
+      "summary": "Reports allege that India's ruling Bharatiya Janata Party (BJP) is involved in a significant Bitcoin scam amounting to $763 million. Opposition parties are calling for a Supreme Court investigation. Such accusations, if proven, could lead to increased regulatory scrutiny and negative sentiment towards cryptocurrencies in India, a major market. This highlights the ongoing challenges of illicit activities within the crypto space and their potential impact on national policy.",
+      "impact_horizon_months": 18,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "regulation",
+        "adoption",
+        "legal"
+      ],
+      "features_for_model": [
+        "India_scam_allegation",
+        "political_involvement_crypto",
+        "regulatory_crackdown_risk"
+      ],
+      "rationale": "Allegations of a large-scale Bitcoin scam involving a ruling political party in India are highly significant. This could trigger a severe regulatory crackdown, impacting adoption and investor confidence in one of the world's largest economies. The potential for government intervention and negative public perception creates a substantial long-term risk."
+    },
+    {
+      "pick_idx": 42,
+      "id": "n1b1de9215a79",
+      "title": "Top Economists Stiglitz, Roubini And Rogoff Renew Bitcoin Doom Scenarios",
+      "url": "https://finance.yahoo.com/news/top-economists-stiglitz-roubini-rogoff-161008523.html",
+      "summary": "Three prominent economists – Joseph Stiglitz, Nouriel Roubini, and Kenneth Rogoff – have reiterated their bearish views on Bitcoin, predicting further price declines and emphasizing the potential for government regulation to curb its use in illicit activities. Their consistent criticism highlights ongoing concerns about Bitcoin's volatility, lack of intrinsic value, and susceptibility to regulatory intervention, which can influence market sentiment and adoption.",
+      "impact_horizon_months": 24,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "economist_bearish_outlook",
+        "Stiglitz_Roubini_Rogoff_criticism",
+        "regulatory_risk_prediction"
+      ],
+      "rationale": "The consistent bearish commentary from influential economists like Stiglitz, Roubini, and Rogoff contributes to a narrative of Bitcoin as a speculative asset with significant regulatory risks. This can deter institutional investment and create a negative sentiment that weighs on price appreciation over the long term."
+    },
+    {
+      "pick_idx": 22,
+      "id": "n2138762953ca",
+      "title": "SEC halts sketchy Kodak-branded cryptocurrency mining scheme",
+      "url": "https://finance.yahoo.com/news/sec-halts-sketchy-kodak-branded-165200404.html",
+      "summary": "The U.S. Securities and Exchange Commission (SEC) has halted a Kodak-branded cryptocurrency mining scheme, citing its unviability and potential for fraud. The scheme involved leasing Bitcoin mining machines with unrealistic profit projections. This action by the SEC demonstrates increased regulatory oversight and enforcement against potentially fraudulent crypto ventures, which can deter similar schemes and protect investors, but also create a cautious environment for innovation.",
+      "impact_horizon_months": 9,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_enforcement_action",
+        "Kodak_mining_scheme_halt",
+        "fraudulent_crypto_venture_crackdown"
+      ],
+      "rationale": "The SEC's intervention against a Kodak-branded mining scheme highlights the growing regulatory scrutiny on crypto-related projects. Such actions, while aimed at preventing fraud, can create a chilling effect on innovation and investment in the space, signaling a more cautious approach from regulators towards new ventures."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n0e78ba856be4",
+      "title": "Stock Markets in Asia, Europe Already Feeling the Tariffs Pinch",
+      "url": "https://finance.yahoo.com/news/stock-markets-asia-europe-already-145427762.html",
+      "summary": "Global equity markets in Asia and Europe are showing signs of strain due to escalating trade tensions and retaliatory tariffs between the U.S. and its trading partners. This indicates a broader macroeconomic environment of uncertainty and potential slowdown. Such global economic headwinds can impact investor risk appetite, potentially leading to capital flight from riskier assets like cryptocurrencies.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "global_trade_war",
+        "tariff_impact_markets",
+        "macroeconomic_uncertainty"
+      ],
+      "rationale": "The impact of trade tensions on global stock markets suggests a deteriorating macroeconomic environment. This increased uncertainty and potential for economic slowdown can lead investors to reduce exposure to riskier assets, which may include Bitcoin, as they seek safer havens."
+    },
+    {
+      "pick_idx": 25,
+      "id": "ncca3a7e4abda",
+      "title": "Bitcoin News Crypto Currency Daily Roundup June 26",
+      "url": "https://finance.yahoo.com/news/bitcoin-news-crypto-currency-daily-133711981.html",
+      "summary": "This roundup notes that India is expected to finalize crypto regulations next month. The Central Bank of the Bahamas is also planning to launch its own cryptocurrency. These developments indicate varying approaches to cryptocurrency regulation and adoption globally, with some nations moving towards integration while others may impose stricter controls.",
+      "impact_horizon_months": 12,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "India_crypto_regulation_timeline",
+        "Bahamas_CBDC_launch"
+      ],
+      "rationale": "The mention of India finalizing crypto regulations next month and the Bahamas planning a CBDC highlights divergent global regulatory trends. While the Bahamas' move could be seen as positive for digital currencies, India's regulatory framework remains a key unknown that could significantly impact its market. This creates an uncertain outlook."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 9,
+      "id": "n20380cc9dcab",
+      "title": "Starbucks Tries to Clean Up Its Bitcoin Mess",
+      "url": "https://finance.yahoo.com/news/starbucks-tries-clean-bitcoin-mess-104949872.html",
+      "summary": "Starbucks has clarified that it is not accepting digital assets as payment, despite earlier reports suggesting otherwise. The company stated it would be trading in Bitcoin, but customers cannot pay for goods with it. This clarification aims to correct misinformation and manage expectations, potentially reducing confusion and negative sentiment stemming from false adoption news.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "listing"
+      ],
+      "features_for_model": [
+        "Starbucks_BTC_payment_denial",
+        "misinformation_correction",
+        "corporate_crypto_clarification"
+      ],
+      "rationale": "Starbucks' denial of accepting Bitcoin payments, despite earlier reports, is a short-term negative catalyst. It corrects a potentially bullish narrative that was built on misinformation, leading to a minor price correction as the market adjusts to the reality."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf920605e2597",
+      "title": "Below $7K: Bitcoin Price Looks Indecisive After 19-Day Low",
+      "url": "https://finance.yahoo.com/news/below-7k-bitcoin-price-looks-110013813.html",
+      "summary": "Bitcoin's price is trading indecisively below $7,000 after hitting a 19-day low. Technical indicators suggest it could find support above $7,100. The price action indicates a lack of clear bias, potentially signaling bearish exhaustion. The 21% slide from its recent high suggests a period of consolidation or potential reversal if key support levels hold.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "liquidity",
+        "volatility"
+      ],
+      "features_for_model": [
+        "BTC_price_below_7k",
+        "indecisive_market_action",
+        "bearish_exhaustion_signal"
+      ],
+      "rationale": "The indecisive price action below $7,000, following a significant drop, suggests market participants are hesitant. This lack of clear direction could lead to continued choppy trading or a potential short-term bounce if buying pressure emerges, but the overall sentiment remains cautious."
+    },
+    {
+      "pick_idx": 1,
+      "id": "nb0c9e187dd2f",
+      "title": "Cryptocurrencies Advance; Starbucks Denies Reports of Bitcoin Payment",
+      "url": "https://finance.yahoo.com/news/cryptocurrencies-advance-starbucks-denies-reports-080800765.html",
+      "summary": "Cryptocurrency prices advanced slightly, with Bitcoin and Ethereum gaining over 1%. However, Starbucks denied reports of accepting Bitcoin as payment, clarifying it would only trade it. This mixed signal, with general market uplift offset by a specific corporate denial, creates a nuanced short-term outlook.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "adoption",
+        "listing",
+        "volatility"
+      ],
+      "features_for_model": [
+        "crypto_market_advance",
+        "Starbucks_BTC_denial",
+        "mixed_adoption_news"
+      ],
+      "rationale": "The market saw a slight advance in crypto prices, but the Starbucks denial of direct Bitcoin payments tempers any strong bullish sentiment. This creates an uncertain short-term environment where positive general market movement is counteracted by specific negative news regarding corporate adoption."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nd397e4ee224b",
+      "title": "GOLDMAN SACHS: Bitcoin is never coming back",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-bitcoin-never-coming-134900711.html",
+      "summary": "Goldman Sachs' investment strategy group predicts further declines for Bitcoin, stating it meets none of the definitions of usable money and represents a small fraction of global GDP. This strong bearish stance from a major financial institution can negatively impact market sentiment and investor confidence in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "volatility"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_bearish_BTC_call",
+        "institutional_sentiment_negative",
+        "price_decline_prediction"
+      ],
+      "rationale": "Goldman Sachs' highly bearish outlook on Bitcoin, predicting further declines, can create immediate negative sentiment. This institutional commentary can influence short-term trading decisions and contribute to downward price pressure."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n05abbdb90d45",
+      "title": "House Judiciary Chair Bob Goodlatte Owns as Much as $80,000 in Bitcoin: Report",
+      "url": "https://finance.yahoo.com/news/house-judiciary-chair-bob-goodlatte-211505326.html",
+      "summary": "Rep. Bob Goodlatte, chair of the House Judiciary Committee, is set to disclose his Bitcoin holdings, making him the first member of Congress to do so. This disclosure, mandated by new ethics rules, could shed light on potential conflicts of interest or insider knowledge, and signals increasing engagement of lawmakers with cryptocurrencies.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "congressional_BTC_disclosure",
+        "Goodlatte_holdings",
+        "lawmaker_crypto_engagement"
+      ],
+      "rationale": "The disclosure of a Congressman's Bitcoin holdings is a novel event. While it could signal growing acceptance or interest from policymakers, it also raises questions about regulatory impartiality. The immediate impact is likely to be muted, but it sets a precedent for future transparency and potential regulatory discussions."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n84e94999891d",
+      "title": "There Are Now More Than 3,500 Bitcoin ATMs Worldwide",
+      "url": "https://finance.yahoo.com/news/now-more-3-500-bitcoin-222036561.html",
+      "summary": "The number of Bitcoin ATMs globally has surpassed 3,500. This milestone indicates continued growth in the physical infrastructure for accessing cryptocurrencies, suggesting increasing adoption and accessibility. Despite price fluctuations, the expansion of Bitcoin ATMs points to a persistent demand and a maturing ecosystem.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BTC_ATM_milestone",
+        "global_ATM_expansion",
+        "crypto_accessibility_growth"
+      ],
+      "rationale": "The increase in Bitcoin ATMs signifies growing accessibility and adoption of cryptocurrencies. This expansion of physical infrastructure is a positive sign for the ecosystem, suggesting that more people are engaging with Bitcoin, which can contribute to increased demand and price stability."
+    },
+    {
+      "pick_idx": 26,
+      "id": "nc8ea4d5f2ee6",
+      "title": "Ethereum Classic Becomes the 6th Cryptocurrency Listed on Robinhood Crypto",
+      "url": "https://finance.yahoo.com/news/ethereum-classic-becomes-6th-cryptocurrency-155614689.html",
+      "summary": "Robinhood has added Ethereum Classic (ETC) to its crypto trading platform, making it the sixth cryptocurrency available. This expansion by a popular retail trading app increases accessibility for a wider user base and signals continued interest from fintech platforms in offering crypto assets. The move could attract new users and potentially boost liquidity for ETC.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 1,
+        "end": 5
+      },
+      "impact_tags": [
+        "listing",
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Robinhood_ETC_listing",
+        "retail_trading_platform_expansion",
+        "crypto_asset_accessibility"
+      ],
+      "rationale": "The listing of Ethereum Classic on Robinhood, a widely used retail trading platform, increases its accessibility. This can lead to increased trading volume and potentially attract new investors to ETC, providing a short-term boost to its price and visibility."
+    },
+    {
+      "pick_idx": 36,
+      "id": "nb95a5157d728",
+      "title": "Crypto Mining Firm Argo Blockchain Raises $32 Million in Pioneering London IPO",
+      "url": "https://finance.yahoo.com/news/crypto-mining-firm-argo-blockchain-071404278.html",
+      "summary": "UK-based crypto mining firm Argo Blockchain has successfully completed its IPO on the London Stock Exchange, raising £25 million ($32.5 million). This marks a significant event as the first cryptocurrency company to list on the LSE's main market. The IPO demonstrates growing institutional interest in the crypto mining sector and provides a new avenue for investment.",
+      "impact_horizon_days": 10,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 2,
+        "end": 7
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "listing"
+      ],
+      "features_for_model": [
+        "Argo_Blockchain_IPO",
+        "London_Stock_Exchange_listing",
+        "crypto_mining_investment"
+      ],
+      "rationale": "The successful IPO of Argo Blockchain on the London Stock Exchange is a positive development for the crypto mining industry. It signals increasing institutional acceptance and provides a new investment vehicle, potentially attracting capital into the mining sector and indirectly supporting Bitcoin's ecosystem."
+    },
+    {
+      "pick_idx": 33,
+      "id": "n838bb13f172e",
+      "title": "Goldman Sachs is reportedly looking to take another step into bitcoin with a custody product (GS)",
+      "url": "https://finance.yahoo.com/news/goldman-sachs-reportedly-looking-another-133518948.html",
+      "summary": "Goldman Sachs is reportedly exploring the creation of a cryptocurrency custody offering, which would allow it to hold digital assets for institutional clients. This move, if realized, would be a significant step towards integrating traditional finance with the crypto market, potentially increasing institutional adoption and trust.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "institutional",
+        "infrastructure",
+        "custody"
+      ],
+      "features_for_model": [
+        "Goldman_Sachs_custody_offering",
+        "institutional_crypto_services",
+        "traditional_finance_integration"
+      ],
+      "rationale": "Goldman Sachs exploring a custody product for cryptocurrencies is a strong signal of institutional interest. If launched, it would provide a much-needed service for large investors, potentially unlocking significant capital inflows and boosting confidence in the crypto market's infrastructure."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n48cef6d1458f",
+      "title": "Jamie Dimon Still a Member of the ‘Blockchain Not Bitcoin’ Brigade",
+      "url": "https://finance.yahoo.com/news/jamie-dimon-still-member-blockchain-135931640.html",
+      "summary": "JPMorgan CEO Jamie Dimon reiterated his skepticism towards Bitcoin, distinguishing between blockchain technology and the cryptocurrency itself. While acknowledging blockchain's potential, his continued dismissal of Bitcoin as a viable asset can negatively influence market sentiment, especially among traditional financial institutions.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "institutional",
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "Jamie_Dimon_BTC_skepticism",
+        "JPMorgan_CEO_commentary",
+        "blockchain_vs_bitcoin_stance"
+      ],
+      "rationale": "Jamie Dimon's continued skepticism towards Bitcoin, despite acknowledging blockchain, reinforces a negative sentiment from a major financial leader. This can have a short-term dampening effect on market optimism, particularly as it aligns with broader institutional caution."
+    }
+  ],
+  "daily_view": {
+    "date": "2018-08-06",
+    "summary": "The crypto market shows mixed signals today. While there's a slight general advance in prices, Starbucks has denied reports of accepting Bitcoin payments, creating a short-term bearish sentiment. Institutional interest remains a key theme, with Goldman Sachs reportedly exploring a custody product, which is bullish for long-term adoption. However, bearish commentary from influential economists and the SEC's continued caution on ETFs present significant long-term headwinds. The expansion of Bitcoin ATMs is a positive infrastructure development.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Continued bearish commentary from influential economists and financial institutions.",
+      "Regulatory uncertainty surrounding Bitcoin ETFs and potential government intervention.",
+      "Misinformation regarding corporate adoption creating short-term volatility.",
+      "Macroeconomic factors like trade tensions impacting overall risk appetite."
+    ],
+    "watch_items": [
+      "Goldman Sachs' custody product development",
+      "SEC's stance on future ETF applications",
+      "Developments in global crypto regulation (e.g., India)",
+      "Market reaction to any further corporate crypto adoption news"
+    ]
+  }
+}

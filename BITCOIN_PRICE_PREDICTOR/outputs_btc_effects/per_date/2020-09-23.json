@@ -1,0 +1,486 @@
+{
+  "date": "2020-09-23",
+  "long_term": [
+    {
+      "pick_idx": 30,
+      "id": "nec1cfa8bfbaa",
+      "title": "First Mover: Bitcoin Rises More in One Day Than Stocks Have Gained All Year",
+      "url": "https://finance.yahoo.com/news/first-mover-bitcoin-rises-more-112516021.html",
+      "summary": "Bitcoin experienced a significant 5% surge, outperforming stocks and gold. This rally occurred amidst growing calls for government stimulus due to the mounting economic impact of the coronavirus. The price approached $12,000, a level not sustained for over a year. This indicates increasing investor interest in Bitcoin as a potential hedge against economic uncertainty and inflation, suggesting a potential for sustained upward price movement over the coming months.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "macro_stimulus_demand",
+        "BTC_price_surge",
+        "outperforming_traditional_assets"
+      ],
+      "rationale": "The article highlights Bitcoin's strong performance relative to traditional assets during a period of economic uncertainty. This suggests a growing narrative of Bitcoin as a 'digital gold' and a hedge against inflation, which can drive long-term adoption and price appreciation."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nf9479c41b277",
+      "title": "Fidelity Seeks SEC Approval For A Bitcoin Index Fund",
+      "url": "https://finance.yahoo.com/news/fidelity-seeks-sec-approval-bitcoin-090214217.html",
+      "summary": "Fidelity Investments filed a Form D with the SEC to establish a Bitcoin index fund, pending regulatory approval. As a major financial services company managing trillions in assets, Fidelity's potential entry into the Bitcoin market through a regulated fund could significantly boost institutional adoption. This move signals growing acceptance of Bitcoin by traditional finance, potentially leading to increased capital inflows and price stability.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "regulation",
+        "ETF"
+      ],
+      "features_for_model": [
+        "Fidelity_Bitcoin_ETF_filing",
+        "SEC_approval_pending",
+        "institutional_adoption_catalyst"
+      ],
+      "rationale": "Fidelity's pursuit of a Bitcoin index fund represents a significant step towards institutional adoption. SEC approval would validate Bitcoin as an investable asset class for a broader range of investors, potentially driving substantial capital into the market."
+    },
+    {
+      "pick_idx": 25,
+      "id": "n3765641d5ccc",
+      "title": "MicroStrategy becomes first listed company to buy bitcoin as part of its capital allocation strategy",
+      "url": "https://finance.yahoo.com/news/microstrategy-becomes-first-listed-company-113746283.html",
+      "summary": "MicroStrategy, a Nasdaq-listed business intelligence firm, became the first publicly traded company to acquire Bitcoin as part of its capital allocation strategy, purchasing over 21,000 BTC. This move, driven by a desire to hedge against inflation and maximize shareholder value, sets a precedent for other corporations. It signals a shift in corporate treasury management and could encourage further adoption by public companies, potentially increasing demand and legitimizing Bitcoin as a reserve asset.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "MicroStrategy_BTC_purchase",
+        "corporate_treasury_strategy",
+        "inflation_hedge"
+      ],
+      "rationale": "MicroStrategy's decision to allocate corporate capital to Bitcoin is a landmark event for institutional adoption. It validates Bitcoin as a store of value and a hedge against inflation, potentially paving the way for other public companies to follow suit, increasing demand and market capitalization."
+    },
+    {
+      "pick_idx": 12,
+      "id": "nfdf1b64d8291",
+      "title": "Miners’ Bitcoin Holdings Reach Two-Year High to Almost 2M",
+      "url": "https://finance.yahoo.com/news/miners-bitcoin-holdings-reach-two-200330059.html",
+      "summary": "Bitcoin miners are accumulating more BTC than they have in two years, holding over 1.82 million BTC. This trend, which began in September 2019, suggests increased bullish sentiment among miners who anticipate future price appreciation. By holding onto their mined coins rather than selling them immediately, miners reduce the available supply on the market, which can contribute to upward price pressure over the long term.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "miner",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "miner_accumulation",
+        "BTC_holdings_increase",
+        "reduced_selling_pressure"
+      ],
+      "rationale": "Miners holding onto their Bitcoin indicates a belief in future price increases, reducing immediate selling pressure. This accumulation trend, sustained over a significant period, suggests a strong conviction in Bitcoin's long-term value proposition."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n687ecd374ff0",
+      "title": "New on Bitcoin’s Lightning Network: LND Adds Accounting Feature, c-lightning Gets an Upgrade",
+      "url": "https://finance.yahoo.com/news/bitcoin-lightning-network-lnd-adds-161415151.html",
+      "summary": "Key implementations of Bitcoin's Lightning Network, LND and c-lightning, have received significant updates. LND introduced an accounting feature, while c-lightning received an upgrade. These developments enhance the usability and functionality of the Lightning Network, which aims to improve Bitcoin's scalability and transaction speeds. Continued development and adoption of the Lightning Network are crucial for Bitcoin's long-term viability as a medium of exchange.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "protocol",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network_upgrade",
+        "LND_accounting_feature",
+        "c-lightning_enhancement"
+      ],
+      "rationale": "Improvements to the Lightning Network are vital for Bitcoin's scalability and adoption as a payment system. These upgrades signal ongoing development and a commitment to making Bitcoin more practical for everyday transactions, which can drive long-term demand."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n66cd7b7cba89",
+      "title": "Bitcoin Supply on Ethereum Tops $1B",
+      "url": "https://finance.yahoo.com/news/bitcoin-supply-ethereum-tops-1b-180657756.html",
+      "summary": "The amount of Bitcoin tokenized on the Ethereum network has surpassed $1 billion, with over 92,600 BTC represented. Wrapped Bitcoin (WBTC) accounts for over 65% of this total. This significant increase in tokenized Bitcoin on Ethereum highlights the growing demand for Bitcoin within the decentralized finance (DeFi) ecosystem. It allows Bitcoin holders to participate in DeFi protocols, increasing Bitcoin's utility and potential for price appreciation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "tokenized_BTC_on_Ethereum",
+        "WBTC_growth",
+        "DeFi_integration"
+      ],
+      "rationale": "The tokenization of Bitcoin on Ethereum demonstrates its increasing integration into the DeFi ecosystem. This expands Bitcoin's utility beyond its native blockchain, potentially driving demand and price appreciation as more users leverage it within decentralized applications."
+    },
+    {
+      "pick_idx": 16,
+      "id": "n4c79f511a633",
+      "title": "How the Bitcoin Blockchain Is Being Used to Safeguard Nuclear Power Stations",
+      "url": "https://finance.yahoo.com/news/bitcoin-blockchain-being-used-safeguard-130016307.html",
+      "summary": "Nuclearis, a company in the nuclear industry, is utilizing the Bitcoin blockchain (specifically the RSK blockchain) to immutably anchor and verify manufacturing blueprints for nuclear power reactor components. This application showcases the potential of blockchain technology for critical infrastructure security and data integrity. The open-sourcing of this framework suggests broader industry adoption, demonstrating Bitcoin's underlying technology's versatility beyond financial applications.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "blockchain_nuclear_industry",
+        "RSK_integration",
+        "data_integrity_solution"
+      ],
+      "rationale": "The use of Bitcoin's blockchain technology in a critical sector like nuclear power highlights its robustness and potential for secure data management. This non-financial application demonstrates the growing recognition of blockchain's utility, which can indirectly support Bitcoin's long-term value."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n0bea3bdd779d",
+      "title": "First Mover: As Fed Nears Inflation Rubicon, Analysts See $50K Bitcoin in Play",
+      "url": "https://finance.yahoo.com/news/first-mover-fed-nears-inflation-125633149.html",
+      "summary": "The Federal Reserve is reportedly considering a shift in strategy, potentially tolerating higher inflation. Analysts suggest this could lead to Bitcoin reaching $50,000. The Fed's potential move to abandon pre-emptive rate hikes to combat inflation, coupled with high unemployment, positions Bitcoin as an attractive inflation hedge. This macro environment, driven by central bank policy, is a significant long-term bullish catalyst for Bitcoin.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Fed_inflation_tolerance",
+        "BTC_price_target_50k",
+        "macro_economic_policy"
+      ],
+      "rationale": "The prospect of the Federal Reserve tolerating higher inflation is a strong macro-economic tailwind for Bitcoin, often viewed as a hedge against currency debasement. This narrative, coupled with analyst price targets, suggests significant long-term bullish potential."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n85fe0599d7e1",
+      "title": "Bitcoin Banking App Mode Eyes £40M UK Listing",
+      "url": "https://finance.yahoo.com/news/bitcoin-banking-app-mode-eyes-125017518.html",
+      "summary": "Mode Banking, an app allowing users to buy Bitcoin and earn interest, is reportedly planning a £40 million stock market listing in the UK. The company is also seeking to raise £7.5 million from investors ahead of the flotation. A successful listing would increase Mode's visibility and potentially attract more users to its platform, thereby increasing Bitcoin adoption. This indicates a growing trend of crypto-focused fintech companies seeking traditional market access.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "fintech"
+      ],
+      "features_for_model": [
+        "Mode_Banking_IPO",
+        "UK_listing",
+        "fintech_adoption"
+      ],
+      "rationale": "The planned IPO of a Bitcoin-focused banking app like Mode signifies the increasing mainstreaming of crypto services. Such events can boost confidence and attract new users to Bitcoin, contributing to its long-term adoption."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n06deb8eaf6fe",
+      "title": "The Bitcoiners Who Live ‘Permanently Not There’",
+      "url": "https://finance.yahoo.com/news/bitcoiners-live-permanently-not-190044885.html",
+      "summary": "This article explores the lifestyle of 'Bitcoiners' who prioritize geographic flexibility and often seek residency in tax-haven nations, facilitated by businesses like Plan B Passport. This trend reflects a growing segment of the population leveraging Bitcoin for financial sovereignty and mobility. The desire for such freedom, enabled by cryptocurrencies, suggests a long-term driver for Bitcoin adoption as individuals seek to escape traditional financial and governmental constraints.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "adoption",
+        "macro",
+        "lifestyle"
+      ],
+      "features_for_model": [
+        "Bitcoin_lifestyle",
+        "financial_sovereignty",
+        "tax_haven_residency"
+      ],
+      "rationale": "The trend of individuals structuring their lives around Bitcoin for financial and personal freedom, including seeking new residencies, indicates a deeper cultural shift. This adoption driven by lifestyle and sovereignty can be a sustained, albeit niche, driver of demand."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 5,
+      "id": "n9e38977a1959",
+      "title": "Bitcoin Market Weakening After Macro-Based Sell-Off, On-Chain Data Suggests",
+      "url": "https://finance.yahoo.com/news/bitcoin-market-weakening-macro-based-110038152.html",
+      "summary": "Key on-chain metrics for Bitcoin have turned bearish, indicating a potential for further price declines in the short term. A significant increase in Bitcoin inflow to exchanges was observed, the largest since the March 12 crash. This suggests increased selling pressure as holders move BTC to exchanges, potentially to liquidate positions.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "on-chain",
+        "liquidity",
+        "macro"
+      ],
+      "features_for_model": [
+        "BTC_exchange_inflow_spike",
+        "bearish_on-chain_metrics",
+        "macro_sell-off_impact"
+      ],
+      "rationale": "A large influx of Bitcoin onto exchanges is a strong bearish signal, suggesting that holders are preparing to sell. This could lead to a rapid price decline in the immediate short term."
+    },
+    {
+      "pick_idx": 12,
+      "id": "ncdbbccc3ba01",
+      "title": "Market Wrap: Bitcoin Drops to $10.2K; Scaling Solution xDai Doubles in Value Locked",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-drops-10-202808369.html",
+      "summary": "Bitcoin has fallen to $10.2K, trading below its 10-day and 50-day moving averages, which is a bearish technical signal. The price action indicates a continuation of the recent downward trend. While the scaling solution xDai shows increased activity, the primary focus remains on Bitcoin's price weakness.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "technical",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "BTC_price_drop_10.2k",
+        "below_moving_averages",
+        "bearish_technical_indicators"
+      ],
+      "rationale": "Bitcoin breaking below key technical levels like moving averages suggests further downside potential in the very short term. The market sentiment appears to be leaning bearish."
+    },
+    {
+      "pick_idx": 1,
+      "id": "n146e93243722",
+      "title": "The Crypto Daily – Movers and Shakers – September 23rd, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-september-004802431.html",
+      "summary": "Bitcoin rose by 1.09% on Tuesday, partially reversing Monday's 4.57% slide, ending the day at $10,549.0. Despite a mixed start, Bitcoin avoided the first major support level at $10,171 but fell short of the first resistance level at $10,850. The near-term bullish trend remains intact, but the price action suggests a struggle to break higher.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "technical",
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_recovery_partial",
+        "resistance_level_failure",
+        "mixed_short_term_trend"
+      ],
+      "rationale": "The partial recovery after a significant drop indicates some buying interest, but the failure to reach resistance levels suggests continued choppiness. The immediate trend is uncertain."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nc3ce17d5afa5",
+      "title": "UNI Market Cap Rebounds $120M as Rest of Crypto Market Falters",
+      "url": "https://finance.yahoo.com/news/uni-market-cap-rebounds-120m-144820005.html",
+      "summary": "Uniswap's UNI token saw a significant rebound, increasing its market cap by $120 million and its price by nearly 20%. This occurred while the broader crypto market faltered. This divergence suggests strong specific demand for UNI, possibly due to its role in the growing DeFi sector, which could provide some resilience to the overall market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "DeFi",
+        "price_action"
+      ],
+      "features_for_model": [
+        "UNI_price_rebound",
+        "DeFi_token_strength",
+        "market_divergence"
+      ],
+      "rationale": "The strong performance of UNI amidst a weaker market highlights specific sector strength in DeFi. This could provide a temporary positive sentiment for related assets, though Bitcoin's broader trend remains a concern."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n936fcc0b65e8",
+      "title": "Crypto Hedge Fund Looks for $50M to Buy DeFi Tokens Amid Market Pullback",
+      "url": "https://finance.yahoo.com/news/crypto-hedge-fund-looks-50m-080029465.html",
+      "summary": "A crypto hedge fund, Panxora, is seeking to raise $50 million to invest in DeFi tokens, even as some DeFi prices are tumbling. This indicates continued institutional interest in the DeFi sector, despite short-term market volatility. The fund's strategy to buy during a pullback suggests a belief in the long-term potential of DeFi, which could indirectly support Bitcoin if it leads to broader market inflows.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "DeFi",
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "DeFi_fundraising",
+        "institutional_DeFi_interest",
+        "market_pullback_opportunity"
+      ],
+      "rationale": "While the fundraising itself is a positive signal for DeFi, the timing during a market pullback introduces uncertainty. The success of this fund could inject liquidity into DeFi, but its impact on Bitcoin in the immediate short term is likely limited."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n491cbd4ac5a9",
+      "title": "10 Best Cryptocurrency Exchanges Of 2020",
+      "url": "https://finance.yahoo.com/news/10-best-cryptocurrency-exchanges-2020-015622282.html",
+      "summary": "This article lists the top 10 cryptocurrency exchanges of 2020, highlighting the growth of the crypto market and the services that have emerged. The continued development and competition among exchanges are crucial for providing accessible and secure platforms for trading Bitcoin and other cryptocurrencies. A robust exchange ecosystem supports liquidity and adoption.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "top_crypto_exchanges",
+        "exchange_competition",
+        "liquidity_support"
+      ],
+      "rationale": "The mention of top exchanges is a general indicator of market health and accessibility. While not a direct price catalyst, it supports the underlying infrastructure for trading and adoption, contributing to a stable environment."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n0db164559703",
+      "title": "PureStake raises $1.4 million to launch Ethereum-compatible network on Polkadot",
+      "url": "https://finance.yahoo.com/news/purestake-raises-1-4-million-130516366.html",
+      "summary": "PureStake has raised $1.4 million to launch Moonbeam Network, an Ethereum-compatible platform on Polkadot. This development signifies the ongoing innovation and interoperability efforts within the blockchain space. While primarily focused on Ethereum and Polkadot, such advancements in cross-chain compatibility can indirectly benefit the broader crypto ecosystem, including Bitcoin, by fostering a more interconnected and functional digital asset landscape.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "infrastructure",
+        "protocol",
+        "DeFi"
+      ],
+      "features_for_model": [
+        "Polkadot_Ethereum_compatibility",
+        "Moonbeam_Network_launch",
+        "blockchain_interoperability"
+      ],
+      "rationale": "This news is more relevant to Ethereum and Polkadot. Its direct impact on Bitcoin in the short term is minimal, but it contributes to the overall growth and innovation in the crypto space, which can have a subtle positive influence."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n146e93243722",
+      "title": "The Crypto Daily – Movers and Shakers – September 23rd, 2020",
+      "url": "https://finance.yahoo.com/news/crypto-daily-movers-shakers-september-004802431.html",
+      "summary": "Bitcoin experienced a mixed trading day, rising 1.09% after a significant drop on Monday. It failed to break through resistance levels, indicating continued price consolidation or potential for further downside if support breaks. The near-term trend remains uncertain, with key support levels to watch.",
+      "impact_horizon_days": 1,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 1
+      },
+      "impact_tags": [
+        "price_action",
+        "technical"
+      ],
+      "features_for_model": [
+        "BTC_daily_price_action",
+        "support_resistance_levels",
+        "short_term_volatility"
+      ],
+      "rationale": "The mixed price action and failure to break resistance suggest a lack of strong conviction in either direction for the immediate day. Volatility is likely to persist."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n4fd8dbe7267b",
+      "title": "Express Cards launches resourceful and Safe Virtual Visa Gift Card",
+      "url": "https://finance.yahoo.com/news/express-cards-launches-resourceful-safe-023100786.html",
+      "summary": "Express Cards now offers virtual Visa gift cards that can be purchased with Bitcoin and other cryptocurrencies. This integration provides a more convenient on-ramp for users to spend their crypto in the traditional economy. While a niche offering, it contributes to the broader adoption of Bitcoin for everyday transactions.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "virtual_gift_card_purchase",
+        "BTC_as_payment",
+        "crypto_on-ramp"
+      ],
+      "rationale": "The ability to purchase virtual gift cards with Bitcoin facilitates its use as a medium of exchange. This is a small but positive step towards broader adoption and can contribute to increased transaction volume."
+    },
+    {
+      "pick_idx": 14,
+      "id": "ne800162b0a89",
+      "title": "MakerDAO Users Hosed by March Flash Crash Won’t Get MKR Payouts, Say MKR Whales",
+      "url": "https://finance.yahoo.com/news/makerdao-users-hosed-march-flash-222530585.html",
+      "summary": "MakerDAO has decided not to compensate users affected by the March flash crash, despite an earlier vote to do so. This decision, made by MKR token holders, highlights the decentralized governance process and its potential for unexpected outcomes. While not directly impacting Bitcoin, it reflects the evolving nature of DeFi and its governance, which can influence broader market sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.45,
+      "impact_tags": [
+        "DeFi",
+        "governance",
+        "legal"
+      ],
+      "features_for_model": [
+        "MakerDAO_compensation_denial",
+        "DeFi_governance_decision",
+        "flash_crash_impact"
+      ],
+      "rationale": "This news pertains to DeFi governance and compensation, with minimal direct impact on Bitcoin's price in the short term. It highlights the complexities of decentralized systems, which can create uncertainty in the broader crypto market."
+    }
+  ],
+  "daily_view": {
+    "date": "2020-09-23",
+    "summary": "Bitcoin experienced a mixed trading day, showing signs of weakening after a macro-based sell-off, with on-chain data suggesting increased selling pressure due to higher exchange inflows. While some DeFi tokens like UNI showed resilience, the broader market sentiment remains cautious. Technical indicators for Bitcoin are bearish, with prices falling below key moving averages. The market is awaiting clearer direction, with ongoing developments in institutional adoption and DeFi innovation providing underlying support.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued macro-economic sell-off impacting risk assets.",
+      "Increased Bitcoin exchange inflows signaling potential selling pressure.",
+      "Failure to reclaim key technical resistance levels.",
+      "Regulatory uncertainty in the broader crypto market.",
+      "Liquidity concerns in the DeFi space impacting sentiment."
+    ],
+    "watch_items": [
+      "Bitcoin price action around $10,200 support level.",
+      "Exchange inflow/outflow data.",
+      "Developments regarding Fidelity's Bitcoin ETF filing.",
+      "Performance of major DeFi tokens.",
+      "Macroeconomic news (e.g., Fed statements, stimulus talks)."
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "date": "2023-11-08",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n9f3367f52188",
+      "title": "BITO Tops List of Best ETFs in October",
+      "url": "https://finance.yahoo.com/news/bito-tops-list-best-etfs-215108726.html",
+      "summary": "The ProShares Bitcoin Strategy ETF (BITO) was the top-performing ETF in October, returning 28%. This strong performance is attributed to the growing anticipation of a spot Bitcoin ETF approval in the U.S. The ETF's success highlights increasing institutional interest and demand for regulated Bitcoin exposure, suggesting a positive sentiment shift that could influence broader market adoption and potentially drive BTC prices higher over the medium to long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "ETF"
+      ],
+      "features_for_model": [
+        "BITO_performance",
+        "ETF_approval_anticipation",
+        "institutional_demand"
+      ],
+      "rationale": "The strong performance of BITO in October indicates significant investor appetite for regulated Bitcoin exposure. This trend is likely to continue as the market anticipates potential spot Bitcoin ETF approvals, which would further legitimize Bitcoin as an asset class and attract substantial institutional capital."
+    },
+    {
+      "pick_idx": 13,
+      "id": "n1c0dd3815786",
+      "title": "Bitcoin ETF (XBTF) Hits New 52-Week High",
+      "url": "https://finance.yahoo.com/news/bitcoin-etf-xbtf-hits-52-131500310.html",
+      "summary": "The VanEck Bitcoin Strategy ETF (XBTF) reached a new 52-week high, demonstrating a significant 115% increase from its low. This performance underscores the positive market sentiment and the effectiveness of futures-based Bitcoin ETFs in capturing price movements. The continued strength of such products suggests growing investor confidence in Bitcoin as an asset, potentially signaling a sustained upward trend as more regulated investment vehicles gain traction.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "institutional"
+      ],
+      "features_for_model": [
+        "XBTF_52_week_high",
+        "futures_ETF_performance",
+        "investor_confidence"
+      ],
+      "rationale": "The achievement of a new 52-week high by XBTF reflects strong investor demand for Bitcoin exposure through regulated products. This momentum suggests that similar ETFs, particularly spot Bitcoin ETFs if approved, could see significant inflows and positively impact Bitcoin's price."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n691d8d906ab5",
+      "title": "Grayscale Moves to Convert Its Ethereum Trust to a Spot ETH ETF",
+      "url": "https://finance.yahoo.com/news/grayscale-moves-convert-ethereum-trust-123003926.html",
+      "summary": "Grayscale Investments has filed with the SEC to convert its Ethereum Trust (ETHE) into a spot Ethereum ETF. As the largest Ether investment product globally, this move signifies a major step towards regulated Ether investment products. Successful conversion could unlock significant capital inflows, mirroring the potential impact of a spot Bitcoin ETF and boosting Ether's market position and price.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Grayscale_ETH_ETF_conversion",
+        "ETHE_to_ETF",
+        "SEC_approval_ETH"
+      ],
+      "rationale": "Grayscale's proactive move to convert its substantial Ethereum Trust into an ETF signals a strong belief in the demand for regulated Ether products. If approved, this could significantly increase institutional adoption of Ether, driving demand and potentially leading to a sustained price increase."
+    },
+    {
+      "pick_idx": 17,
+      "id": "ne714f91e740b",
+      "title": "Tether offers US$610 mln debt financing facility to German Bitcoin miner Northern Data",
+      "url": "https://finance.yahoo.com/news/tether-offers-us-610-mln-120437663.html",
+      "summary": "Tether, the issuer of USDT, has provided a $610 million debt financing facility to German Bitcoin miner Northern Data. This facility will support Northern Data's investments in AI, data centers, and Bitcoin mining. The involvement of a major stablecoin issuer in financing mining operations indicates growing confidence in the underlying economics of Bitcoin mining and provides crucial capital for expansion, potentially boosting network hashrate and security.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Tether_financing_miner",
+        "Northern_Data_deal",
+        "mining_infrastructure_investment"
+      ],
+      "rationale": "Tether's significant financing of a Bitcoin mining operation demonstrates a deepening integration of stablecoin issuers with the mining sector. This capital infusion can lead to increased mining capacity and efficiency, indirectly supporting Bitcoin's network health and potentially its price."
+    },
+    {
+      "pick_idx": 20,
+      "id": "nf909044c0970",
+      "title": "China’s central bank to ‘resolutely curb’ crypto speculation; Hong Kong updates regulations",
+      "url": "https://finance.yahoo.com/news/china-central-bank-resolutely-curb-112459707.html",
+      "summary": "China's central bank plans to curb crypto speculation, while Hong Kong is tightening regulations on certain digital asset products. This dual approach suggests a continued trend of regulatory scrutiny in major Asian markets. While China's stance remains restrictive, Hong Kong's move towards clearer regulations could foster a more controlled environment for institutional adoption, albeit with limitations on retail access to complex products.",
+      "impact_horizon_months": 24,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_crypto_regulation",
+        "Hong_Kong_crypto_rules",
+        "Asian_market_scrutiny"
+      ],
+      "rationale": "China's continued crackdown on crypto speculation presents a bearish signal for the region's adoption. However, Hong Kong's regulatory updates, while cautious, indicate a path towards regulated digital asset markets, which could eventually benefit the broader ecosystem if managed effectively."
+    },
+    {
+      "pick_idx": 29,
+      "id": "n19bd585e6460",
+      "title": "RETRANSMISSION: HIVE Digital Provides October 2023 Production Update and Reaches 4 Exahash Target",
+      "url": "https://finance.yahoo.com/news/retransmission-hive-digital-provides-october-110000834.html",
+      "summary": "HIVE Digital Technologies reported producing 265.9 Bitcoin in October and maintaining over 3.94 Exahash of hashrate, nearing its 4 EH/s target. This operational update indicates robust mining activity and expansion. Increased hashrate and consistent production are fundamental to securing the Bitcoin network and can be seen as a bullish indicator for the underlying asset, reflecting sustained investment and operational capacity in the mining sector.",
+      "impact_horizon_months": 9,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "miner"
+      ],
+      "features_for_model": [
+        "HIVE_production_update",
+        "mining_hashrate_increase",
+        "Exahash_target_achieved"
+      ],
+      "rationale": "HIVE Digital's successful expansion and nearing of its hashrate target demonstrate the ongoing growth and efficiency improvements within the Bitcoin mining industry. This sustained investment in infrastructure is a positive sign for the network's security and scalability."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n2f727ba798bc",
+      "title": "5 Crypto-Focused Stocks to Buy Despite Wall Street Turmoil",
+      "url": "https://finance.yahoo.com/news/5-crypto-focused-stocks-buy-121600464.html",
+      "summary": "This article highlights crypto-focused stocks that are considered attractive investments despite market volatility. It notes that the crypto market has regained momentum, with Bitcoin rallying after a period of range-bound trading. The positive outlook on these stocks suggests a broader market recovery and increased investor confidence in the digital asset space, potentially translating to higher Bitcoin prices.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "crypto_stocks_performance",
+        "market_volatility_resilience",
+        "Bitcoin_rally_impact"
+      ],
+      "rationale": "The recommendation of crypto-focused stocks indicates a positive sentiment among traditional finance analysts towards the sector. This suggests that underlying growth drivers for cryptocurrencies remain strong, potentially leading to sustained price appreciation for Bitcoin."
+    },
+    {
+      "pick_idx": 36,
+      "id": "nece8ec95fb5f",
+      "title": "10 Best Blockchain and Bitcoin ETFs",
+      "url": "https://finance.yahoo.com/news/10-best-blockchain-bitcoin-etfs-214621265.html",
+      "summary": "This article lists the top 10 blockchain and Bitcoin ETFs, indicating a growing number of investment vehicles available for exposure to the digital asset market. The increasing availability and performance of these ETFs suggest a maturing market and greater accessibility for investors, which can lead to increased capital inflows into Bitcoin and related technologies.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "blockchain_ETF_list",
+        "Bitcoin_ETF_performance",
+        "investor_accessibility"
+      ],
+      "rationale": "The proliferation of well-performing blockchain and Bitcoin ETFs signifies a significant trend towards institutional adoption and product innovation. This increased accessibility and investor interest are likely to drive demand for Bitcoin over the long term."
+    },
+    {
+      "pick_idx": 39,
+      "id": "na7828467c592",
+      "title": "3 Blockchain Stocks to Buy Before Bitcoin’s Halving in 2024",
+      "url": "https://finance.yahoo.com/news/3-blockchain-stocks-buy-bitcoin-204641725.html",
+      "summary": "The article suggests investing in blockchain stocks as a way to gain exposure to cryptocurrency, noting that these stocks outperformed Bitcoin during the 2020 bull market. It highlights the increasing likelihood of crypto becoming a primary asset class, fueled by factors like fiscal stimulus and institutional adoption. The upcoming Bitcoin halving is presented as a key catalyst for potential growth in this sector.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "blockchain_stocks_investment",
+        "Bitcoin_halving_catalyst",
+        "crypto_asset_class_adoption"
+      ],
+      "rationale": "The anticipation of the Bitcoin halving, coupled with the recommendation to invest in blockchain stocks, points to a bullish outlook for the crypto market. Historical performance and ongoing institutional adoption suggest that this event could trigger significant price appreciation for Bitcoin."
+    },
+    {
+      "pick_idx": 48,
+      "id": "n3d009e9854d0",
+      "title": "First Mover Americas: Bitcoin Dominance Continues to Climb",
+      "url": "https://finance.yahoo.com/news/first-mover-americas-bitcoin-dominance-123513224.html",
+      "summary": "Bitcoin's market dominance has risen to over 51%, nearing a 26-month high, and has outperformed Ether year-to-date. This increasing dominance suggests a flight to quality within the crypto market, with investors favoring Bitcoin over altcoins during periods of uncertainty. This trend indicates strong underlying demand for Bitcoin as a store of value and a primary digital asset.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_dominance_increase",
+        "BTC_outperformance",
+        "flight_to_quality_crypto"
+      ],
+      "rationale": "The rising dominance of Bitcoin in the crypto market is a strong bullish signal, indicating that it is capturing a larger share of investor capital. This trend is often associated with increased market maturity and a preference for Bitcoin as a relatively safer digital asset."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "n7b5ef378ba1b",
+      "title": "Bank of America Says This ‘Buy’ Signal Could Trigger an 11% Upswing in S&P 500 Next Year — Here Are 2 Stocks the Banking Giant Likes Right Now",
+      "url": "https://finance.yahoo.com/news/bank-america-says-buy-signal-203900962.html",
+      "summary": "Bank of America's Sell Side Indicator (SSI) shows a strong 'Buy' signal, suggesting a potential 11% upswing in the S&P 500. This positive sentiment in traditional markets often correlates with increased risk appetite, which can spill over into cryptocurrencies like Bitcoin, potentially driving short-term price increases.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "BofA_SSI_buy_signal",
+        "S&P_500_upswing_potential",
+        "risk_on_sentiment"
+      ],
+      "rationale": "A bullish signal from a major bank like Bank of America regarding the broader stock market can foster a 'risk-on' sentiment, which often benefits riskier assets like Bitcoin in the short term."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n7c25bf35e0ba",
+      "title": "The battle to revive FTX is down to a former NYSE president, a fintech startup, and a private investment firm",
+      "url": "https://finance.yahoo.com/news/battle-revive-ftx-down-former-161335614.html",
+      "summary": "Three finalists are vying to revive the bankrupt FTX exchange. The outcome of this process could influence market sentiment regarding the recovery of assets and the future of centralized exchanges. Positive developments in the FTX revival could boost confidence, while a prolonged or unfavorable resolution might introduce uncertainty.",
+      "impact_horizon_days": 14,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "exchange",
+        "legal"
+      ],
+      "features_for_model": [
+        "FTX_revival_bidders",
+        "exchange_reboot_progress",
+        "market_sentiment_FTX"
+      ],
+      "rationale": "The ongoing efforts to revive FTX introduce an element of uncertainty. While a successful revival could be positive, the process itself and its eventual outcome may cause short-term volatility as market participants assess the implications for the broader exchange landscape."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n1da474ea21d2",
+      "title": "US stocks rise as indexes look to extend winning streaks",
+      "url": "https://finance.yahoo.com/news/us-stocks-rise-indexes-look-223908306.html",
+      "summary": "US stock indexes are continuing their upward trend, fueled by optimism about the potential end of the Federal Reserve's hiking cycle. This positive sentiment in traditional markets often correlates with increased investor appetite for risk assets, including Bitcoin, potentially leading to short-term price gains.",
+      "impact_horizon_days": 3,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 2
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment"
+      ],
+      "features_for_model": [
+        "US_stocks_rally",
+        "Fed_hiking_cycle_end_anticipation",
+        "risk_on_market"
+      ],
+      "rationale": "The continued strength in US stock markets, driven by expectations of a pause in Fed rate hikes, creates a favorable environment for risk assets. This positive macro sentiment is likely to support Bitcoin's price in the immediate short term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3afe2ec849d1",
+      "title": "The S&P 500 hits best winning streak in 2 years as stocks extend gains amid falling bond yields",
+      "url": "https://finance.yahoo.com/news/p-500-hits-best-winning-052650091.html",
+      "summary": "The S&P 500 has achieved its longest winning streak in two years, with stocks extending gains as bond yields fall. This indicates a strong bullish sentiment in traditional markets, which often translates to increased investment in riskier assets like Bitcoin. The falling bond yields specifically reduce the attractiveness of fixed-income investments, potentially redirecting capital towards assets like BTC.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.78,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "macro",
+        "sentiment",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "S&P_500_winning_streak",
+        "falling_bond_yields",
+        "risk_appetite_increase"
+      ],
+      "rationale": "The confluence of a strong stock market rally and declining bond yields creates a positive macro environment that is generally supportive of Bitcoin. This suggests a potential for short-term price appreciation as capital flows into riskier assets."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nac2ed7fb3669",
+      "title": "Half of CFTC’s 2023 enforcement actions had crypto ties",
+      "url": "https://finance.yahoo.com/news/half-cftc-2023-enforcement-actions-114449230.html",
+      "summary": "The CFTC has taken enforcement actions in nearly half of its cases in fiscal year 2023 related to digital assets. This indicates continued regulatory scrutiny and enforcement in the crypto space. While this can create short-term uncertainty, it also signals a move towards greater regulatory clarity, which could be beneficial for long-term adoption.",
+      "impact_horizon_days": 10,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 1,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "CFTC_enforcement_actions",
+        "crypto_regulation_scrutiny",
+        "regulatory_clarity_progress"
+      ],
+      "rationale": "The CFTC's active enforcement in the crypto space highlights ongoing regulatory attention. While this can introduce short-term volatility due to potential negative headlines, it also contributes to establishing clearer regulatory frameworks, which is a long-term positive."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n6c3d83ac0567",
+      "title": "Marathon Digital Holdings Reports Third Quarter 2023 Results",
+      "url": "https://finance.yahoo.com/news/marathon-digital-holdings-reports-third-212700440.html",
+      "summary": "Marathon Digital Holdings reported a net income of $64.1 million in Q3 2023, a significant improvement from a net loss in the prior year. Revenues also increased substantially. Positive earnings from major Bitcoin miners like Marathon can boost investor confidence in the mining sector and indirectly support Bitcoin's price by signaling operational strength and profitability.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "miner",
+        "earnings"
+      ],
+      "features_for_model": [
+        "MARA_Q3_earnings",
+        "miner_profitability",
+        "Bitcoin_mining_sector_health"
+      ],
+      "rationale": "Strong earnings reports from major Bitcoin miners like Marathon Digital can positively influence sentiment towards the mining sector and, by extension, Bitcoin itself. This indicates operational efficiency and profitability, which are bullish indicators."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n3afaf2798c25",
+      "title": "Bitcoin Miners Have Room to Increase Renewable Energy Use",
+      "url": "https://finance.yahoo.com/news/bitcoin-miners-room-increase-renewable-143705394.html",
+      "summary": "A report suggests Bitcoin miners have significant potential to increase their use of renewable energy. This addresses a key criticism of Bitcoin mining and could improve its public perception and ESG (Environmental, Social, and Governance) profile. Increased adoption of renewables by miners could lead to more sustainable mining operations, potentially attracting more environmentally conscious investors and improving the overall narrative around Bitcoin.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 3,
+        "end": 10
+      },
+      "impact_tags": [
+        "infrastructure",
+        "adoption",
+        "ESG"
+      ],
+      "features_for_model": [
+        "miner_renewable_energy_adoption",
+        "Bitcoin_mining_ESG_profile",
+        "sustainable_mining"
+      ],
+      "rationale": "The potential for increased renewable energy use in Bitcoin mining addresses a significant ESG concern. Positive developments in this area could improve Bitcoin's narrative and attract a broader base of investors, potentially supporting its price in the short to medium term."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n72cc64783cce",
+      "title": "Bitcoin supply hits historic low as long-term investors hoard tokens at record levels",
+      "url": "https://finance.yahoo.com/news/bitcoin-supply-hits-historic-low-172258341.html",
+      "summary": "Bitcoin's circulating supply is at historic lows, with long-term investors accumulating tokens at record rates. This tightening supply, coupled with strong holder conviction, suggests reduced selling pressure and increased potential for price appreciation. The data indicates a bullish sentiment among core holders, which can support price stability and upward momentum.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "adoption",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_supply_low",
+        "LTH_accumulation",
+        "reduced_selling_pressure"
+      ],
+      "rationale": "The significant reduction in available Bitcoin supply, driven by long-term holders, creates a supply shock scenario. This scarcity, combined with strong holder conviction, is a powerful bullish signal that can drive prices higher in the short term."
+    },
+    {
+      "pick_idx": 20,
+      "id": "n541840f8f524",
+      "title": "Bitcoin Ordinals Volumes Spiked After ORDI Lists on Binance",
+      "url": "https://finance.yahoo.com/news/bitcoin-ordinals-volumes-spiked-ordi-051548737.html",
+      "summary": "Transaction volume for Bitcoin Ordinals surged after the ORDI token was listed on Binance. This indicates increased interest and activity in Bitcoin-based NFTs and protocols. The listing on a major exchange like Binance provides greater liquidity and accessibility for Ordinals, potentially driving further adoption and innovation on the Bitcoin network.",
+      "impact_horizon_days": 5,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 4
+      },
+      "impact_tags": [
+        "adoption",
+        "listing",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Ordinals_volume_spike",
+        "ORDI_Binance_listing",
+        "Bitcoin_NFT_activity"
+      ],
+      "rationale": "The listing of ORDI on Binance and the subsequent spike in Ordinals volume highlight growing interest in Bitcoin's utility beyond simple transactions. This increased activity on the Bitcoin blockchain can lead to higher transaction fees and network usage, which is generally positive for BTC."
+    },
+    {
+      "pick_idx": 21,
+      "id": "ndbb14527ebb2",
+      "title": "Bitcoin Accumulation Increases as Supply Reaches Historic Low, Supporting Price Stability: Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-accumulation-increases-supply-reaches-052913703.html",
+      "summary": "A report indicates that Bitcoin accumulation is increasing, with its available supply reaching historic lows. This trend, driven by long-term holders, suggests growing bullish sentiment and potential price stability. The tightening supply dynamics are a key factor that could support upward price movements in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "liquidity",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Bitcoin_accumulation_increase",
+        "supply_tightening",
+        "long_term_holder_sentiment"
+      ],
+      "rationale": "The combination of increasing accumulation and historically low supply creates a strong bullish setup for Bitcoin. This supply-demand imbalance is a classic driver of price increases, making it a significant short-term catalyst."
+    }
+  ],
+  "daily_view": {
+    "date": "2023-11-08",
+    "summary": "The market sentiment remains cautiously optimistic, driven by strong performance in traditional stock markets and positive developments in the crypto space. Bank of America's bullish indicator for the S&P 500 and falling bond yields suggest a 'risk-on' environment that could benefit Bitcoin. Simultaneously, reports of increasing Bitcoin accumulation and historically low supply are creating a bullish supply-demand dynamic. However, ongoing regulatory scrutiny from bodies like the CFTC and the uncertain outcome of the FTX revival introduce elements of caution.",
+    "scenario_probs": {
+      "bull": 0.6,
+      "base": 0.3,
+      "bear": 0.1
+    },
+    "recommendation_short_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.8
+    },
+    "key_risks": [
+      "Unexpected negative regulatory news from major jurisdictions.",
+      "A sharp reversal in traditional stock markets impacting risk appetite.",
+      "Failure of the FTX revival process to materialize positively.",
+      "Increased selling pressure from miners if profitability declines."
+    ],
+    "watch_items": [
+      "Upcoming US economic data releases (e.g., inflation, employment).",
+      "Statements from Federal Reserve officials regarding monetary policy.",
+      "Developments in the spot Bitcoin ETF application process.",
+      "On-chain data for Bitcoin accumulation and holder behavior."
+    ]
+  }
+}

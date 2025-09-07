@@ -1,0 +1,515 @@
+{
+  "date": "2022-11-16",
+  "long_term": [
+    {
+      "pick_idx": 1,
+      "id": "n602617e00d69",
+      "title": "GLOBAL MARKETS-Stocks slide, treasury yields jump before central banks meet",
+      "url": "https://finance.yahoo.com/news/global-markets-stocks-slide-treasury-120145975.html",
+      "summary": "Global markets experienced a downturn with stocks sliding and treasury yields jumping ahead of key central bank meetings. The Federal Reserve was expected to implement a significant interest rate hike, contributing to market uncertainty. This macroeconomic environment, characterized by rising yields and potential monetary tightening, generally exerts downward pressure on risk assets like Bitcoin, as higher interest rates make traditional investments more attractive and increase the cost of capital.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "regulation"
+      ],
+      "features_for_model": [
+        "global_stocks_slide",
+        "treasury_yields_jump",
+        "central_banks_meet",
+        "Fed_rate_hike"
+      ],
+      "rationale": "Rising treasury yields and anticipated aggressive interest rate hikes by central banks, particularly the Fed, increase the attractiveness of traditional safe-haven assets over riskier assets like Bitcoin. This macro trend typically leads to capital outflows from cryptocurrencies."
+    },
+    {
+      "pick_idx": 2,
+      "id": "nf2f65af9fd32",
+      "title": "FOREX-Dollar wobbles ahead of inflation data; cryptos crumble",
+      "url": "https://finance.yahoo.com/news/forex-dollar-wobbles-ahead-inflation-065236725.html",
+      "summary": "The dollar showed volatility ahead of crucial U.S. inflation data, while cryptocurrencies continued their decline. The news highlighted Binance's withdrawal of a bailout offer for FTX, signaling growing contagion fears within the crypto ecosystem. This event, coupled with broader macroeconomic concerns, contributed to a significant downturn in crypto prices, indicating a loss of confidence and liquidity in the market.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "macro",
+        "liquidity",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "dollar_wobbles",
+        "inflation_data",
+        "cryptos_crumble",
+        "Binance_FTX_bailout_withdrawal"
+      ],
+      "rationale": "The collapse of FTX and related entities created significant contagion fears, leading to a liquidity crisis and a sharp decline in crypto prices. The ongoing uncertainty and lack of trust in major players negatively impact investor sentiment and capital flows into the asset class."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n8a4933c89c51",
+      "title": "Bitcoin and other cryptos spiral lower as worries about the fallout from FTX's troubles grow",
+      "url": "https://finance.yahoo.com/news/bitcoin-other-cryptos-spiral-lower-115854270.html",
+      "summary": "Bitcoin and other cryptocurrencies experienced a significant downturn, driven by escalating concerns over the repercussions of FTX's financial difficulties. The market saw substantial withdrawals and a liquidity crunch, with fears of contagion spreading to other major digital asset players. This event underscored the interconnectedness and fragility of the crypto market, leading to a broad sell-off and a decline in overall market capitalization.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_spiral_lower",
+        "FTX_fallout",
+        "contagion_fears",
+        "liquidity_crunch"
+      ],
+      "rationale": "The FTX crisis triggered a severe liquidity crunch and widespread fear of contagion, leading to a sharp decline in Bitcoin and other cryptocurrencies. This event eroded investor confidence and highlighted systemic risks within the crypto market, impacting price and adoption."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n40d0526e66b6",
+      "title": "Market Wrap: Bitcoin, Other Cryptos Continue to Plummet",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-other-cryptos-221631779.html",
+      "summary": "The cryptocurrency market continued its downward trend, with Bitcoin and other digital assets experiencing significant declines. The ongoing fallout from the FTX exchange's liquidity issues, mass customer exodus, and the collapse of a potential sale to Binance exacerbated market distress. Bitcoin reached its lowest level in two years, reflecting the severe impact of the industry's latest crisis on investor sentiment and market stability.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.9,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_plummet",
+        "cryptos_plummet",
+        "FTX_liquidity_issues",
+        "Binance_deal_collapse"
+      ],
+      "rationale": "The FTX crisis, including liquidity issues and a failed acquisition, directly led to a sharp decline in Bitcoin's price, reaching a two-year low. This event signifies a major loss of trust and capital in the crypto market, with lasting implications for investor sentiment and adoption."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nc50f00d066f1",
+      "title": "Bitcoin Firm NYDIG Slashes 110 Jobs Amid Ongoing Crypto Bear Market: Report",
+      "url": "https://finance.yahoo.com/news/bitcoin-firm-nydig-slashes-110-091355645.html",
+      "summary": "Bitcoin services company NYDIG has significantly reduced its workforce, cutting approximately 110 employees, which represents about a third of its staff. This move is attributed to the ongoing crypto bear market and the company's strategy to reduce expenses and focus on more promising business areas. Such layoffs signal a contraction in the crypto industry, reflecting reduced investment and operational scaling due to market downturns.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "NYDIG_job_cuts",
+        "crypto_bear_market",
+        "expense_reduction",
+        "focus_on_promising_businesses"
+      ],
+      "rationale": "Significant layoffs at a major Bitcoin firm like NYDIG indicate a contraction in the crypto industry due to the bear market. This reflects reduced investment, lower revenue, and a more cautious approach to operations, impacting overall market sentiment and growth potential."
+    },
+    {
+      "pick_idx": 17,
+      "id": "n3666686ff70e",
+      "title": "Crypto Exchanges Scramble to Compile 'Proof-of-Reserves' as FTX Contagion Grips Markets",
+      "url": "https://finance.yahoo.com/news/crypto-exchanges-scramble-compile-proof-093235424.html",
+      "summary": "In response to the FTX crisis and growing insolvency fears, cryptocurrency exchanges are rushing to publicly disclose their fund reserves. Several major exchanges have announced plans to publish Merkle tree reserve certificates to enhance transparency. This scramble for transparency is a direct consequence of the loss of trust following FTX's collapse, highlighting the market's demand for greater accountability and security in the digital asset space.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "infrastructure",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "exchanges_proof_of_reserves",
+        "FTX_contagion",
+        "transparency_demand",
+        "insolvency_fears"
+      ],
+      "rationale": "The push for proof-of-reserves is a reaction to the FTX crisis, aiming to restore trust. While transparency is positive, the underlying issue of liquidity and solvency remains a concern, creating uncertainty about the long-term impact on market stability and investor confidence."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n0fdcf7db76ed",
+      "title": "Fidelity Digital Assets to allow clients to trade Ether",
+      "url": "https://finance.yahoo.com/news/fidelity-digital-assets-allow-clients-100517565.html",
+      "summary": "Fidelity Digital Assets is set to enable its clients to trade Ether starting October 28th. This move allows institutional investors to buy, sell, and trade ETH, the second-largest cryptocurrency. The decision follows the successful completion of the Ethereum Merge, which made the network more energy-efficient. This expansion of services by a major financial institution signals growing institutional acceptance and infrastructure development for digital assets.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Fidelity_Ether_trading",
+        "institutional_adoption",
+        "Ethereum_Merge_impact",
+        "digital_asset_infrastructure"
+      ],
+      "rationale": "Fidelity's decision to allow institutional clients to trade Ether signifies growing institutional adoption and confidence in the digital asset space, particularly after the Ethereum Merge. This expansion of services by a major financial player is a positive signal for the long-term growth and integration of cryptocurrencies."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n738c7bf85668",
+      "title": "In Craig Wright Verdict, Reality Prevails",
+      "url": "https://finance.yahoo.com/news/craig-wright-verdict-reality-prevails-164854701.html",
+      "summary": "A Norwegian court ruled in favor of Hodlonaut (Magnus Granath) in a case involving Craig Wright's claims to be Satoshi Nakamoto. The judge stated that Granath had sufficient grounds to claim Wright is not Satoshi Nakamoto. This verdict is significant for the cryptocurrency community as it reinforces the integrity of the Bitcoin narrative and potentially dismisses claims from individuals seeking to assert false ownership of Bitcoin's creation, which could have implications for the broader crypto legal landscape.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "regulation",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Craig_Wright_verdict",
+        "Satoshi_Nakamoto_claims",
+        "Hodlonaut_win",
+        "Bitcoin_narrative_integrity"
+      ],
+      "rationale": "The court ruling against Craig Wright's claims to be Satoshi Nakamoto reinforces the established narrative of Bitcoin's decentralized creation. This helps maintain the integrity of the Bitcoin protocol and its community, preventing potential disruptions from individuals seeking to control or misrepresent its origins."
+    },
+    {
+      "pick_idx": 26,
+      "id": "n956ec1fc123f",
+      "title": "Does the future of money belong to Bitcoin, CBDCs, or stablecoins?",
+      "url": "https://finance.yahoo.com/news/does-future-money-belong-bitcoin-162328464.html",
+      "summary": "This article explores the potential future of money, contrasting public cryptocurrencies like Bitcoin, Central Bank Digital Currencies (CBDCs), and stablecoins. It highlights the ongoing evolution of money into a digital form and positions these three as leading contenders. The discussion touches upon the fundamental differences and potential roles each could play in the future financial landscape, influencing how digital assets are perceived and integrated.",
+      "impact_horizon_months": 36,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "regulation",
+        "adoption"
+      ],
+      "features_for_model": [
+        "future_of_money",
+        "Bitcoin_vs_CBDCs_vs_stablecoins",
+        "digital_currency_evolution",
+        "financial_landscape"
+      ],
+      "rationale": "The ongoing debate about the future of money, with Bitcoin, CBDCs, and stablecoins as key players, indicates a significant shift in financial systems. The eventual dominance of one or a combination of these will have a profound, long-term impact on Bitcoin's role and value proposition."
+    },
+    {
+      "pick_idx": 30,
+      "id": "ne5f7712e87d8",
+      "title": "Brink Emerges as the Top Funder of Bitcoin Core Development, BitMex Research Says",
+      "url": "https://finance.yahoo.com/news/brink-emerges-top-funder-bitcoin-183652822.html",
+      "summary": "Brink, a nonprofit focused on Bitcoin research and development, has become the leading funder of Bitcoin Core developers and reviewers, according to BitMex Research. Brink has supported more active Bitcoin Core developers and reviewers than any other organization in the past year. This increased funding for core development is crucial for the security, scalability, and ongoing innovation of the Bitcoin network, bolstering its long-term viability.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "protocol"
+      ],
+      "features_for_model": [
+        "Brink_funder_Bitcoin_dev",
+        "core_development_funding",
+        "developer_activity",
+        "network_security_scalability"
+      ],
+      "rationale": "Increased funding for Bitcoin Core development by Brink is a positive sign for the network's long-term health and innovation. Stronger development support enhances Bitcoin's security, scalability, and overall robustness, contributing to its value proposition."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "ne64d4909b8f9",
+      "title": "Laqira Exchange is launching a huge giveaway worth 1,000,000,000 SHIB for registrants.",
+      "url": "https://finance.yahoo.com/news/laqira-exchange-launching-huge-giveaway-163000932.html",
+      "summary": "Laqira Exchange, part of the Laqira Protocol project, has launched its official crypto exchange. To attract users, it's running a large giveaway of 1 billion SHIB tokens for registrants. This promotional activity aims to boost user acquisition and trading volume on the new platform.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.4,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "listing",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Laqira_Exchange_launch",
+        "SHIB_giveaway",
+        "user_acquisition",
+        "trading_volume_boost"
+      ],
+      "rationale": "Exchange giveaways can temporarily increase trading volume and user sign-ups, but their impact on Bitcoin is usually minimal unless the exchange is a major player or the giveaway involves significant BTC. This specific giveaway is unlikely to have a material impact on Bitcoin's price."
+    },
+    {
+      "pick_idx": 2,
+      "id": "n6faf8336d073",
+      "title": "Japan investment manager SoftBank reportedly writes down stake in FTX to zero",
+      "url": "https://finance.yahoo.com/news/japan-investment-manager-softbank-reportedly-023337986.html",
+      "summary": "SoftBank Group is reportedly writing down its investment in the failed crypto exchange FTX to zero. The investment, less than $100 million, was deemed immaterial to SoftBank's overall portfolio. This news further emphasizes the financial fallout from FTX's collapse and the significant losses incurred by investors, reinforcing negative sentiment in the crypto market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity",
+        "institutional"
+      ],
+      "features_for_model": [
+        "SoftBank_FTX_write_down",
+        "FTX_collapse_fallout",
+        "investor_losses",
+        "negative_sentiment"
+      ],
+      "rationale": "SoftBank's decision to write down its FTX investment to zero highlights the severity of the FTX collapse and its impact on institutional investors. This reinforces negative sentiment and contributes to the ongoing bearish pressure on the broader crypto market."
+    },
+    {
+      "pick_idx": 4,
+      "id": "na57ed246a387",
+      "title": "GLOBAL MARKETS-Global stocks slip, dollar steady as retail sales tip Fed outlook",
+      "url": "https://finance.yahoo.com/news/global-markets-global-stocks-slip-201504975.html",
+      "summary": "Global stocks declined, while the dollar remained steady as stronger-than-expected U.S. retail sales data influenced the Federal Reserve's outlook. The robust retail sales figures suggest continued consumer spending, potentially leading the Fed to maintain its aggressive interest rate hike stance. This macroeconomic signal could dampen risk appetite for assets like Bitcoin.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "global_stocks_slip",
+        "dollar_steady",
+        "retail_sales_data",
+        "Fed_outlook_impact"
+      ],
+      "rationale": "Stronger-than-expected U.S. retail sales suggest continued economic activity, which could prompt the Federal Reserve to maintain its hawkish stance on interest rates. This macro environment is generally bearish for risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 6,
+      "id": "nf5018927dee2",
+      "title": "GLOBAL MARKETS-Global stocks slip, dollar weakens as retail sales tip Fed outlook",
+      "url": "https://finance.yahoo.com/news/global-markets-global-stocks-slip-164459814.html",
+      "summary": "Global stocks fell, and the dollar weakened following stronger-than-expected U.S. retail sales data, which clouded expectations for a less aggressive Federal Reserve. The data suggests continued consumer spending, potentially leading the Fed to maintain its hawkish monetary policy. This macroeconomic outlook is generally bearish for risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "global_stocks_slip",
+        "dollar_weakens",
+        "retail_sales_data",
+        "Fed_outlook_impact"
+      ],
+      "rationale": "Strong U.S. retail sales data could lead the Federal Reserve to maintain its aggressive interest rate hikes, which is typically bearish for risk assets like Bitcoin. The weakening dollar in this context might offer some counter-balance, but the Fed's stance is the dominant factor."
+    },
+    {
+      "pick_idx": 8,
+      "id": "nd6f3f01c01a8",
+      "title": "US stocks trade mixed as investors digest Target earnings and retail sales data",
+      "url": "https://finance.yahoo.com/news/us-stocks-trade-mixed-investors-143754125.html",
+      "summary": "U.S. stocks traded mixed as investors processed disappointing earnings from Target, which warned of a challenging holiday season, alongside stronger-than-expected retail sales data. The mixed signals create uncertainty about consumer spending and the broader economic outlook, potentially impacting investor sentiment towards risk assets.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "US_stocks_mixed",
+        "Target_earnings_warning",
+        "retail_sales_data",
+        "consumer_spending_outlook"
+      ],
+      "rationale": "Mixed economic signals from retail sales and corporate earnings create uncertainty. While strong retail sales might suggest economic resilience, a weak holiday outlook from a major retailer could signal underlying consumer weakness, leading to cautious sentiment for risk assets."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n725a71a009f0",
+      "title": "FTX hacker now one of the world's largest holders of ethereum",
+      "url": "https://finance.yahoo.com/news/ftx-hacker-largest-holder-ethereum-crypto-135537769.html",
+      "summary": "The hacker responsible for the FTX exchange breach now holds a significant amount of Ethereum, estimated at $288 million. The stolen funds were drained shortly after FTX filed for bankruptcy. The large accumulation of ETH by a single wallet, potentially for liquidation, could create selling pressure on Ethereum and, by extension, the broader crypto market.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "hack/outage",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "FTX_hacker_ETH_holdings",
+        "stolen_funds",
+        "ETH_selling_pressure",
+        "market_liquidity_impact"
+      ],
+      "rationale": "The FTX hacker accumulating a large amount of Ethereum could lead to significant selling pressure if these funds are moved or liquidated. This could negatively impact Ethereum's price and, by correlation, Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 10,
+      "id": "nb151153d0e75",
+      "title": "Lawsuit targets FTX and promoters, including Tom Brady, Shaq. Feds open criminal probe",
+      "url": "https://finance.yahoo.com/news/lawsuit-targets-ftx-promoters-including-050000832.html",
+      "summary": "A new lawsuit has been filed against FTX and its celebrity promoters, including Tom Brady and Shaquille O'Neal, in addition to a federal criminal probe. This legal action further highlights the fallout from FTX's collapse and the increasing scrutiny on the crypto industry. The ongoing legal and regulatory pressure can create negative sentiment and uncertainty, potentially impacting investor confidence.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "legal",
+        "regulation",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "FTX_lawsuit",
+        "promoter_liability",
+        "criminal_probe",
+        "regulatory_scrutiny"
+      ],
+      "rationale": "The lawsuits and criminal probes targeting FTX and its promoters amplify the negative sentiment surrounding the crypto industry. This increased legal and regulatory pressure can deter new investors and create uncertainty, potentially leading to short-term price declines for Bitcoin."
+    },
+    {
+      "pick_idx": 13,
+      "id": "na717e80136f5",
+      "title": "Bitcoin Miner Core Scientific Facing Lawsuit for Improperly Disclosing Financials",
+      "url": "https://finance.yahoo.com/news/bitcoin-miner-core-scientific-facing-124709825.html",
+      "summary": "Core Scientific, a crypto mining firm, is facing a lawsuit for allegedly failing to disclose adverse financial circumstances to its shareholders. The plaintiff claims the company provided false information regarding its profitability and disputes. Such allegations can lead to increased scrutiny, potential fines, and a negative impact on the company's stock and the broader mining sector's reputation.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "miner",
+        "legal",
+        "regulation"
+      ],
+      "features_for_model": [
+        "Core_Scientific_lawsuit",
+        "financial_disclosure_issues",
+        "mining_sector_reputation",
+        "shareholder_disputes"
+      ],
+      "rationale": "Lawsuits against major Bitcoin miners like Core Scientific for financial impropriety can create negative sentiment within the mining sector. This can lead to concerns about the financial health of mining operations and potentially impact Bitcoin's price due to reduced mining stability or confidence."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n061e10dba984",
+      "title": "Bitcoin price falls further as Genesis becomes latest crypto casualty",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-falls-further-genesis-132840160.html",
+      "summary": "Bitcoin's price continued to decline as Genesis Global Capital, a major crypto lending unit, announced it is temporarily suspending withdrawals and new loan originations due to the FTX collapse. This development adds to the growing list of crypto firms facing financial distress, further impacting market liquidity and investor confidence. The news contributes to the ongoing bearish trend in the crypto market.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_fall",
+        "Genesis_suspends_withdrawals",
+        "crypto_firm_distress",
+        "market_liquidity_impact"
+      ],
+      "rationale": "Genesis Global Capital's suspension of withdrawals, directly linked to the FTX collapse, signifies further contagion and liquidity issues in the crypto market. This adds to the bearish sentiment and downward pressure on Bitcoin's price."
+    },
+    {
+      "pick_idx": 28,
+      "id": "nd5886fe7db2c",
+      "title": "Grayscale Bitcoin Trust falls as cryptocurrencies slide again",
+      "url": "https://finance.yahoo.com/news/grayscale-bitcoin-trust-falls-cryptocurrencies-152054112.html",
+      "summary": "The Grayscale Bitcoin Trust (GBTC) experienced a significant drop, mirroring the broader decline in cryptocurrencies following the FTX exchange's unraveling. Crypto investment bank Genesis Global Trading also announced a temporary suspension of redemptions and new loan originations. These events highlight the ongoing contagion from FTX, impacting investor confidence and market liquidity, and contributing to the downward trend in digital assets.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "liquidity",
+        "hack/outage",
+        "institutional"
+      ],
+      "features_for_model": [
+        "GBTC_fall",
+        "cryptocurrencies_slide",
+        "FTX_contagion",
+        "Genesis_suspension"
+      ],
+      "rationale": "The fall in GBTC, coupled with Genesis's suspension of services, directly reflects the negative impact of the FTX crisis on institutional crypto products and lending markets. This reinforces the bearish sentiment and downward price pressure on Bitcoin."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n79669492e1f7",
+      "title": "Institutions Take Bearish Stance on Bitcoin, Create Arbitrage Opportunity",
+      "url": "https://finance.yahoo.com/news/institutions-bearish-stance-bitcoin-steep-094032686.html",
+      "summary": "Institutional investors are reportedly taking a bearish stance on Bitcoin, evidenced by short positions in CME Bitcoin futures, leading to backwardation. This market anomaly has created an arbitrage opportunity. While institutional participation is generally positive, a concentrated bearish bet suggests a short-term negative outlook from these players.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "institutional",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "institutional_bearish_stance",
+        "CME_Bitcoin_futures",
+        "backwardation",
+        "arbitrage_opportunity"
+      ],
+      "rationale": "Institutional investors taking bearish positions on Bitcoin futures indicates a short-term negative sentiment. This can lead to increased selling pressure and contribute to price declines, even if it creates arbitrage opportunities for sophisticated traders."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-11-16",
+    "summary": "The crypto market remains under significant pressure due to the ongoing fallout from the FTX collapse, with major players like Genesis suspending operations. Institutional investors are showing a bearish sentiment, as indicated by short positions in Bitcoin futures. Macroeconomic data, such as U.S. retail sales, is also influencing the Federal Reserve's outlook, potentially leading to continued hawkishness, which is generally bearish for risk assets. Despite some positive developments like Fidelity expanding Ether trading, the overwhelming sentiment is bearish in the short term.",
+    "scenario_probs": {
+      "bull": 0.2,
+      "base": 0.4,
+      "bear": 0.4
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.7
+    },
+    "recommendation_long_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "key_risks": [
+      "Further contagion from FTX collapse impacting other crypto firms.",
+      "Continued hawkish stance from the Federal Reserve due to persistent inflation.",
+      "Increased regulatory scrutiny and potential enforcement actions against crypto entities.",
+      "Negative sentiment from institutional investors taking bearish positions.",
+      "Potential for large liquidations from the FTX hacker's holdings."
+    ],
+    "watch_items": [
+      "Genesis Global Capital's next steps.",
+      "Further statements from regulators regarding crypto.",
+      "Upcoming macroeconomic data releases (e.g., CPI, PPI).",
+      "Developments in ongoing FTX lawsuits and investigations.",
+      "Movement of funds from the FTX hacker's wallet."
+    ]
+  }
+}

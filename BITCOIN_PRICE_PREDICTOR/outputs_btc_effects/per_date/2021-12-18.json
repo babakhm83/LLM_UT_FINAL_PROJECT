@@ -1,0 +1,457 @@
+{
+  "date": "2021-12-18",
+  "long_term": [
+    {
+      "pick_idx": 6,
+      "id": "n7070a79c439c",
+      "title": "Bitcoin Price Surges Past $68,500 in Latest All-Time High Run",
+      "url": "https://finance.yahoo.com/news/bitcoin-price-surges-past-68-053630384.html",
+      "summary": "Bitcoin reached a new all-time high, nearing $70,000 per BTC. This surge indicates strong market sentiment and increasing adoption, pushing the cryptocurrency towards broader acceptance as a digital asset. The sustained upward momentum suggests a potential for continued growth and increased institutional interest in the long term.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "adoption",
+        "institutional"
+      ],
+      "features_for_model": [
+        "ATH_price",
+        "institutional_adoption"
+      ],
+      "rationale": "Reaching new all-time highs signifies robust market demand and growing acceptance of Bitcoin as a store of value and medium of exchange. This trend is likely to attract further institutional investment and adoption over the next year."
+    },
+    {
+      "pick_idx": 8,
+      "id": "n6d67cb960128",
+      "title": "MicroStrategy Increased Bitcoin Holdings by 8,957 BTC in Q3",
+      "url": "https://finance.yahoo.com/news/microstrategy-increased-bitcoin-holdings-8-060808632.html",
+      "summary": "MicroStrategy significantly increased its Bitcoin holdings in Q3 2021, reaffirming its commitment to Bitcoin as a core part of its corporate strategy. This continued accumulation by a prominent publicly traded company signals strong institutional conviction in Bitcoin's long-term value proposition and can encourage similar corporate treasury allocations.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "corporate_treasury_allocation",
+        "MicroStrategy_BTC_holdings"
+      ],
+      "rationale": "MicroStrategy's consistent accumulation of Bitcoin demonstrates a strong belief in its long-term potential. This corporate adoption serves as a positive signal for other institutions and contributes to Bitcoin's growing legitimacy."
+    },
+    {
+      "pick_idx": 13,
+      "id": "nd050e8059d2c",
+      "title": "Crypto Firm Circle Plans Expansion With Asia HQ, Venture Arm",
+      "url": "https://finance.yahoo.com/news/crypto-firm-circle-plans-expansion-045900180.html",
+      "summary": "Circle, a major player in the stablecoin market, is expanding its operations with a new Asia headquarters and a venture arm. This strategic move indicates a growing global interest and investment in the cryptocurrency ecosystem, particularly in emerging markets. Such expansion can foster greater adoption and innovation within the crypto space.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Circle_expansion",
+        "Asia_HQ",
+        "venture_arm"
+      ],
+      "rationale": "Circle's expansion into Asia and the establishment of a venture arm signal increasing institutional commitment and a focus on broader market penetration, which is positive for long-term crypto adoption."
+    },
+    {
+      "pick_idx": 24,
+      "id": "na982eafa70f7",
+      "title": "Taproot, Bitcoin’s Long-Anticipated Upgrade, Has Activated",
+      "url": "https://finance.yahoo.com/news/taproot-bitcoin-long-anticipated-upgrade-015432380.html",
+      "summary": "The Taproot upgrade for Bitcoin has successfully activated, introducing enhancements to privacy, scalability, and smart contract capabilities. This protocol upgrade is a significant development that could unlock new use cases and improve the overall efficiency and functionality of the Bitcoin network, potentially driving adoption and innovation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "protocol",
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Taproot_upgrade",
+        "Bitcoin_scalability",
+        "smart_contracts"
+      ],
+      "rationale": "The Taproot upgrade is a fundamental improvement to Bitcoin's protocol, enhancing its capabilities for privacy and smart contracts, which is crucial for its long-term utility and adoption."
+    },
+    {
+      "pick_idx": 31,
+      "id": "nd1434fe5d2a2",
+      "title": "Could China be about to unban bitcoin?",
+      "url": "https://finance.yahoo.com/news/could-china-unban-bitcoin-100419313.html",
+      "summary": "Speculation arose about China potentially unbanning Bitcoin following its earlier crackdown on mining and trading. While unconfirmed, any shift in China's stance could significantly impact the global crypto market. Historically, China's regulatory actions have had a pronounced effect on Bitcoin's price and market sentiment.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "high",
+      "confidence": 0.6,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "China_regulation",
+        "bitcoin_ban_unban_speculation"
+      ],
+      "rationale": "China's regulatory stance on Bitcoin has historically been a major market mover. Any indication of a policy shift, even speculative, carries significant potential to influence global market sentiment and price action."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n1eef558fcea0",
+      "title": "Stacked raises $35M to bring passive investing tools to retail crypto traders",
+      "url": "https://finance.yahoo.com/news/stacked-raises-35m-bring-passive-050106794.html",
+      "summary": "Stacked secured $35 million in Series A funding to enhance its passive crypto investing tools for retail traders. This investment, co-led by Alameda Research and Bybit, signifies growing interest in user-friendly platforms that simplify crypto investing. Such tools can lower the barrier to entry for new investors, potentially increasing overall market participation.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "retail_investor_tools",
+        "passive_investing",
+        "Stacked_funding"
+      ],
+      "rationale": "The development of accessible passive investing tools for retail traders can significantly broaden the user base for cryptocurrencies, fostering long-term adoption and market growth."
+    },
+    {
+      "pick_idx": 34,
+      "id": "n4f4c3714645f",
+      "title": "Should You Buy the ProShares Bitcoin Strategy ETF (BITO)?",
+      "url": "https://finance.yahoo.com/news/buy-proshares-bitcoin-strategy-etf-182804689.html",
+      "summary": "The launch of the ProShares Bitcoin Strategy ETF (BITO) marked a significant milestone, being the first Bitcoin futures ETF approved by the SEC. This development provides a regulated avenue for traditional investors to gain exposure to Bitcoin, potentially leading to increased capital inflows and broader market acceptance over time.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "ETF",
+        "institutional",
+        "adoption"
+      ],
+      "features_for_model": [
+        "BITO_ETF_launch",
+        "SEC_approval",
+        "futures_ETF"
+      ],
+      "rationale": "The approval and launch of a Bitcoin ETF in the US is a major step towards institutional adoption, providing a regulated and accessible way for traditional investors to gain exposure, which is expected to drive demand."
+    },
+    {
+      "pick_idx": 37,
+      "id": "n3cff4deb0355",
+      "title": "Ethereum developer sees crypto impacting 'every corner of society'",
+      "url": "https://finance.yahoo.com/news/ethereum-developer-sees-crypto-as-impacting-every-corner-of-society-223108988.html",
+      "summary": "An Ethereum developer expressed a vision for crypto impacting all aspects of society, beyond just currency. This perspective highlights the potential for blockchain technology to revolutionize business formation, payments, and various other sectors. Such a broad outlook suggests a long-term, transformative impact for cryptocurrencies.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "crypto_societal_impact",
+        "Ethereum_developer_vision",
+        "blockchain_use_cases"
+      ],
+      "rationale": "The view that crypto will impact 'every corner of society' points to a fundamental shift in how various industries operate, suggesting a long-term, pervasive adoption of blockchain technology."
+    },
+    {
+      "pick_idx": 40,
+      "id": "nec1e4efbf81b",
+      "title": "Bitcoin inflows hit record high so far in 2021 -CoinShares data",
+      "url": "https://finance.yahoo.com/news/bitcoin-inflows-hit-record-high-200237715.html",
+      "summary": "Bitcoin products and funds experienced record inflows in 2021, driven by increasing government acceptance and positive market momentum. The data shows significant investor interest and capital allocation towards Bitcoin. This trend indicates strong underlying demand and a growing belief in Bitcoin's long-term value.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "institutional",
+        "adoption",
+        "macro"
+      ],
+      "features_for_model": [
+        "record_bitcoin_inflows",
+        "CoinShares_data",
+        "government_acceptance"
+      ],
+      "rationale": "Record inflows into Bitcoin products reflect substantial investor demand and growing institutional acceptance, signaling a strong positive trend for long-term price appreciation."
+    },
+    {
+      "pick_idx": 43,
+      "id": "nf9dcbc17bb69",
+      "title": "US futures linger at all-time highs while cryptos hit new records, as Fed rings alarm on market risks",
+      "url": "https://finance.yahoo.com/news/us-futures-linger-time-highs-103046136.html",
+      "summary": "While US stock futures reached all-time highs, cryptocurrencies, including Bitcoin and Ether, also hit new records. This simultaneous surge in both traditional and digital asset markets, despite the Fed's warnings about market risks, suggests a strong appetite for risk assets. The continued bullish sentiment in crypto, alongside equities, points to sustained capital flows.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "crypto_record_highs",
+        "stock_market_rally",
+        "Fed_risk_warning"
+      ],
+      "rationale": "The parallel rise of crypto to record highs alongside traditional markets, despite Fed warnings, indicates a broad risk-on sentiment that benefits Bitcoin and suggests continued capital inflows."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nd7774526a8ad",
+      "title": "Bitcoin (BTC) Faces sub-$45,000 Levels as Losses Mount",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-faces-sub-45-003551266.html",
+      "summary": "Bitcoin experienced a significant drop, falling below $45,000 after a 3.10% decline on Friday and a 2.53% loss on Thursday. The price action indicates a bearish short-term trend, with key support levels being tested. This decline suggests immediate downward pressure on the price.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_drop",
+        "support_level_breach",
+        "daily_loss"
+      ],
+      "rationale": "Bitcoin's sharp decline and failure to hold key support levels indicate immediate selling pressure and a bearish short-term outlook."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n6c031d5fa3ed",
+      "title": "Crypto, Meme Stocks and Other Top Investing Trends in 2021",
+      "url": "https://finance.yahoo.com/news/crypto-meme-stocks-other-top-140041995.html",
+      "summary": "This article reviews key investing trends of 2021, including crypto and meme stocks. It highlights the high-momentum nature of these sectors and the associated risks. The mention of these trends suggests continued investor interest, but also volatility, which can impact short-term price movements.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "market_sentiment"
+      ],
+      "features_for_model": [
+        "investing_trends_2021",
+        "meme_stocks",
+        "crypto_volatility"
+      ],
+      "rationale": "The discussion of crypto as a high-momentum sector implies potential for both sharp gains and losses in the short term, contributing to volatility."
+    },
+    {
+      "pick_idx": 7,
+      "id": "ndaa8e3286d2f",
+      "title": "Do Coinbase’ Bitcoin Volumes Precede BTC’s Price Moves? Analyst Investigates",
+      "url": "https://finance.yahoo.com/news/coinbase-bitcoin-volumes-precede-btc-221518442.html",
+      "summary": "An analyst is investigating whether Coinbase's trading volumes can predict Bitcoin's price movements. If Coinbase volumes are found to be a leading indicator, it could provide valuable short-term trading signals. This analysis suggests a potential for increased volatility or directional cues based on exchange activity.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "liquidity",
+        "price_action"
+      ],
+      "features_for_model": [
+        "Coinbase_volume",
+        "BTC_price_prediction",
+        "leading_indicator"
+      ],
+      "rationale": "The potential discovery of Coinbase volume as a leading indicator for Bitcoin prices could lead to short-term price fluctuations as traders react to these signals."
+    },
+    {
+      "pick_idx": 8,
+      "id": "na285d35415d2",
+      "title": "U.S Mortgage Rates Inch Up ahead of the Holidays",
+      "url": "https://finance.yahoo.com/news/u-mortgage-rates-inch-ahead-231022516.html",
+      "summary": "U.S. mortgage rates have seen a slight increase, influenced by positive economic data and shifts in Federal Reserve monetary policy guidance. Rising rates can sometimes correlate with tighter liquidity in broader financial markets, potentially impacting risk assets like Bitcoin.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.55,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "US_mortgage_rates",
+        "FED_policy",
+        "liquidity_tightening"
+      ],
+      "rationale": "A slight increase in mortgage rates, coupled with Fed policy shifts, could signal a tightening of financial conditions, potentially leading to reduced liquidity for risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 9,
+      "id": "nc0283173074f",
+      "title": "The Week Ahead – Economic Data back in Focus after Last Weeks’ Central Bank Action",
+      "url": "https://finance.yahoo.com/news/week-ahead-economic-data-back-231110504.html",
+      "summary": "The upcoming week will see a focus on economic data releases, including GDP and jobless claims, following central bank actions. Key inflation and personal spending figures are also anticipated. These macroeconomic indicators can influence market sentiment and Bitcoin's price, especially in the short term.",
+      "impact_horizon_days": 7,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro",
+        "CPI/FOMC"
+      ],
+      "features_for_model": [
+        "economic_data",
+        "inflation_figures",
+        "jobless_claims"
+      ],
+      "rationale": "Upcoming economic data, particularly inflation and employment figures, will be closely watched and could drive short-term price volatility for Bitcoin."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n382b26a963ff",
+      "title": "HAGENS BERMAN, NATIONAL TRIAL ATTORNEYS, Encourages Marathon Digital Holdings (MARA) Investors to Contact Firm’s Attorneys, Securities Fraud Class Action Filed",
+      "url": "https://finance.yahoo.com/news/hagens-berman-national-trial-attorneys-234800261.html",
+      "summary": "A securities fraud class action has been filed against Marathon Digital Holdings (MARA), a Bitcoin mining company. Such legal actions can create negative sentiment and uncertainty around mining stocks, potentially impacting the broader crypto market if the issues are significant.",
+      "impact_horizon_days": 14,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.5,
+      "impact_tags": [
+        "legal",
+        "miner"
+      ],
+      "features_for_model": [
+        "MARA_class_action",
+        "securities_fraud",
+        "miner_stock_impact"
+      ],
+      "rationale": "A class-action lawsuit against a major Bitcoin mining company can create negative sentiment and uncertainty, potentially leading to short-term price pressure on related assets."
+    },
+    {
+      "pick_idx": 11,
+      "id": "nd7774526a8ad",
+      "title": "Bitcoin (BTC) Faces sub-$45,000 Levels as Losses Mount",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-faces-sub-45-003551266.html",
+      "summary": "Bitcoin's price has fallen below $45,000, continuing a downward trend from the previous day. The technical analysis indicates a bearish short-term outlook, with support levels being tested. This suggests continued downward momentum in the immediate future.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_below_45k",
+        "technical_analysis_bearish",
+        "momentum_loss"
+      ],
+      "rationale": "The breach of the $45,000 level confirms immediate bearish sentiment and suggests further downside potential in the very short term."
+    },
+    {
+      "pick_idx": 14,
+      "id": "n1d6b37035313",
+      "title": "Three Cryptos to Watch: An LTC Move Back to $150 Should Support ETH and XRP",
+      "url": "https://finance.yahoo.com/news/three-cryptos-watch-ltc-move-002145225.html",
+      "summary": "Technical analysis suggests that if Litecoin (LTC) can reclaim $150, it could provide support for Ethereum (ETH) and XRP. Ethereum saw a 2.05% drop on Friday, falling to a low of $3,699. This indicates that altcoin movements can influence each other and contribute to overall market sentiment.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.6,
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "LTC_price_support",
+        "ETH_price_action",
+        "XRP_correlation"
+      ],
+      "rationale": "The correlation between LTC, ETH, and XRP suggests that movements in one can impact the others, creating potential for short-term volatility across these assets."
+    },
+    {
+      "pick_idx": 15,
+      "id": "nd7774526a8ad",
+      "title": "Bitcoin (BTC) Faces sub-$45,000 Levels as Losses Mount",
+      "url": "https://finance.yahoo.com/news/bitcoin-btc-faces-sub-45-003551266.html",
+      "summary": "Bitcoin's price has fallen below $45,000, continuing a downward trend from the previous day. The technical analysis indicates a bearish short-term outlook, with support levels being tested. This suggests continued downward momentum in the immediate future.",
+      "impact_horizon_days": 2,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.85,
+      "impact_tags": [
+        "price_action"
+      ],
+      "features_for_model": [
+        "BTC_price_below_45k",
+        "technical_analysis_bearish",
+        "momentum_loss"
+      ],
+      "rationale": "The breach of the $45,000 level confirms immediate bearish sentiment and suggests further downside potential in the very short term."
+    },
+    {
+      "pick_idx": 21,
+      "id": "ndaa8e3286d2f",
+      "title": "Do Coinbase’ Bitcoin Volumes Precede BTC’s Price Moves? Analyst Investigates",
+      "url": "https://finance.yahoo.com/news/coinbase-bitcoin-volumes-precede-btc-221518442.html",
+      "summary": "An analyst is investigating whether Coinbase's trading volumes can predict Bitcoin's price movements. If Coinbase volumes are found to be a leading indicator, it could provide valuable short-term trading signals. This analysis suggests a potential for increased volatility or directional cues based on exchange activity.",
+      "impact_horizon_days": 5,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "liquidity",
+        "price_action"
+      ],
+      "features_for_model": [
+        "Coinbase_volume",
+        "BTC_price_prediction",
+        "leading_indicator"
+      ],
+      "rationale": "The potential discovery of Coinbase volume as a leading indicator for Bitcoin prices could lead to short-term price fluctuations as traders react to these signals."
+    }
+  ],
+  "daily_view": {
+    "date": "2021-12-18",
+    "summary": "Bitcoin experienced a significant downturn, breaking below the $45,000 level, indicating immediate bearish sentiment. This price action is influenced by broader market concerns and potential shifts in liquidity. While long-term adoption trends remain positive with ETF approvals and corporate interest, the short-term outlook is clouded by macroeconomic data releases and technical breakdowns.",
+    "scenario_probs": {
+      "bull": 0.3,
+      "base": 0.4,
+      "bear": 0.3
+    },
+    "recommendation_short_term": {
+      "action": "SELL",
+      "probability": 0.65
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.75
+    },
+    "key_risks": [
+      "Continued macroeconomic headwinds and potential interest rate hikes.",
+      "Further technical breakdowns below key support levels.",
+      "Negative sentiment stemming from regulatory uncertainty or security breaches.",
+      "Liquidity tightening impacting risk asset appetite.",
+      "The potential for a 'crypto winter' if broader market sentiment shifts drastically."
+    ],
+    "watch_items": [
+      "Key economic data releases (inflation, employment).",
+      "Federal Reserve commentary on monetary policy.",
+      "Bitcoin's ability to reclaim $45,000 support.",
+      "Volume trends on major exchanges like Coinbase.",
+      "Performance of major altcoins like Ethereum and Litecoin."
+    ]
+  }
+}

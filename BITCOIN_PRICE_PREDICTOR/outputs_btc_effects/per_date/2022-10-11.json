@@ -1,0 +1,511 @@
+{
+  "date": "2022-10-11",
+  "long_term": [
+    {
+      "pick_idx": 2,
+      "id": "n1f4c129e64c9",
+      "title": "Middle East/North Africa Was Fastest-Growing Crypto Market Over Past 12 Months: Chainalysis",
+      "url": "https://finance.yahoo.com/news/middle-east-north-africa-fastest-114813918.html",
+      "summary": "The Middle East and North Africa (MENA) region experienced the fastest growth in crypto adoption between July 2021 and June 2022, with a 48% increase in crypto transaction volume, reaching $566 billion. This growth outpaced other regions like Europe, North America, and Central/Southern Asia. Egypt, in particular, saw its crypto transaction volume more than triple. This trend indicates a significant and expanding global adoption of cryptocurrencies, which could positively influence long-term demand for Bitcoin.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "adoption"
+      ],
+      "features_for_model": [
+        "MENA_crypto_adoption",
+        "global_adoption_growth"
+      ],
+      "rationale": "Growing adoption in emerging markets like MENA suggests increasing global integration and demand for cryptocurrencies. This broadens the user base and potential investor pool for Bitcoin over the long term."
+    },
+    {
+      "pick_idx": 5,
+      "id": "n3a6a6f0db2a3",
+      "title": "How Mega Lawsuit Against MicroStrategy’s Michael Saylor Could Affect Bitcoin",
+      "url": "https://finance.yahoo.com/news/mega-lawsuit-against-microstrategy-michael-190743842.html",
+      "summary": "The District of Columbia is suing Michael Saylor, co-founder and executive chairman of MicroStrategy, for allegedly evading over $25 million in district taxes by falsely claiming residency elsewhere. MicroStrategy is also named as a defendant for allegedly conspiring to help him evade taxes. This lawsuit, targeting a prominent Bitcoin advocate and a major corporate holder of Bitcoin, could create negative sentiment and regulatory scrutiny around large Bitcoin holders and their tax practices, potentially impacting institutional adoption.",
+      "impact_horizon_months": 6,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.65,
+      "impact_tags": [
+        "regulation",
+        "institutional"
+      ],
+      "features_for_model": [
+        "Saylor_lawsuit",
+        "MicroStrategy_tax_evasion",
+        "institutional_holder_risk"
+      ],
+      "rationale": "A lawsuit against a major Bitcoin proponent like Michael Saylor could lead to increased regulatory scrutiny on large Bitcoin holders and corporate treasuries. This could deter future institutional adoption and create negative sentiment."
+    },
+    {
+      "pick_idx": 7,
+      "id": "n9f7e9629967b",
+      "title": "Lightning Labs Releases Software to Allow Bitcoin Developers to Mint and Transfer Assets on the Blockchain",
+      "url": "https://finance.yahoo.com/news/lightning-labs-releases-software-allow-184632337.html",
+      "summary": "Lightning Labs has released a test version of the Taro daemon, a new software enabling Bitcoin developers to create, send, and receive assets like stablecoins on the Bitcoin blockchain. These assets can then be transferred via the Lightning Network for fast, low-fee transactions. This development expands Bitcoin's utility beyond just a store of value, potentially increasing its adoption for broader financial applications and use cases, which could drive long-term demand.",
+      "impact_horizon_months": 24,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.8,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Lightning_Network_Taro",
+        "Bitcoin_asset_issuance",
+        "stablecoin_on_Bitcoin"
+      ],
+      "rationale": "The ability to issue and transfer assets like stablecoins on the Bitcoin blockchain via the Lightning Network significantly enhances its utility. This could attract new use cases and users, driving long-term demand and adoption."
+    },
+    {
+      "pick_idx": 9,
+      "id": "n136c13fbe8ef",
+      "title": "Bitcoin’s Climate Damage Is on Par With Beef and Crude Oil",
+      "url": "https://finance.yahoo.com/news/bitcoin-climate-damage-par-beef-164920875.html",
+      "summary": "A new study published in Scientific Reports suggests that Bitcoin's environmental impact, particularly its carbon footprint, is comparable to that of the beef industry and crude oil. The research highlights the significant energy consumption associated with Bitcoin mining. This negative environmental perception could lead to increased regulatory pressure and deter environmentally conscious investors and institutions, potentially hindering long-term growth.",
+      "impact_horizon_months": 12,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation",
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_environmental_impact",
+        "ESG_concerns",
+        "mining_energy_consumption"
+      ],
+      "rationale": "The growing narrative around Bitcoin's environmental impact could lead to regulatory headwinds and investor aversion, particularly from ESG-focused funds. This negative sentiment could suppress long-term price appreciation."
+    },
+    {
+      "pick_idx": 14,
+      "id": "nd688651d6249",
+      "title": "Michael Saylor says UK turmoil is a signal to 'opt out' and embrace bitcoin as policymakers scramble to avert disaster in global markets",
+      "url": "https://finance.yahoo.com/news/michael-saylor-says-uk-turmoil-164542098.html",
+      "summary": "Michael Saylor, a prominent Bitcoin advocate, suggests that the turmoil in UK currency and bond markets serves as a signal for individuals to 'opt out' of traditional financial systems and embrace Bitcoin. He highlights Bitcoin's nature as a non-sovereign store of value amidst central bank interventions. This perspective, amplified by a prominent figure, could attract more investors seeking alternative assets during times of macroeconomic instability, bolstering long-term demand.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "macro",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Saylor_macro_commentary",
+        "UK_market_turmoil",
+        "Bitcoin_as_store_of_value"
+      ],
+      "rationale": "Saylor's commentary positions Bitcoin as a hedge against traditional market instability, potentially attracting capital during periods of macroeconomic uncertainty. This narrative can drive long-term adoption and demand."
+    },
+    {
+      "pick_idx": 16,
+      "id": "nc64de72e9c21",
+      "title": "Galaxy Digital Offers Crypto Price Data on Chain Via Chainlink",
+      "url": "https://finance.yahoo.com/news/galaxy-digital-partners-chainlink-offer-110000207.html",
+      "summary": "Galaxy Digital is partnering with Chainlink to bring crypto pricing data directly onto blockchains via Chainlink's oracle network. This data will power various decentralized finance (DeFi) applications and complex financial structures. By providing reliable, on-chain price feeds, this integration enhances the infrastructure for DeFi, potentially leading to greater adoption and innovation in the long run, which benefits Bitcoin as a foundational asset.",
+      "impact_horizon_months": 18,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_tags": [
+        "infrastructure",
+        "adoption"
+      ],
+      "features_for_model": [
+        "Galaxy_Digital_Chainlink",
+        "on-chain_price_data",
+        "DeFi_infrastructure"
+      ],
+      "rationale": "Integrating reliable price data onto blockchains via oracles is crucial for DeFi growth. This partnership strengthens the infrastructure for decentralized applications, indirectly benefiting Bitcoin's ecosystem."
+    },
+    {
+      "pick_idx": 18,
+      "id": "n4f4dd6e1860c",
+      "title": "Market Wrap: Bitcoin Notches Biggest Gain in 6 Months as Price Soars",
+      "url": "https://finance.yahoo.com/news/market-wrap-bitcoin-notches-biggest-204539629.html",
+      "summary": "Bitcoin and Ether experienced significant gains, with Bitcoin posting its largest daily increase in six months. This rally is attributed to signals suggesting the U.S. Federal Reserve might shift from monetary tightening to easing in 2023, potentially lowering interest rates. While the article notes that both cryptocurrencies are still down significantly for the year, the prospect of a dovish Fed policy shift could provide a tailwind for crypto markets in the medium to long term.",
+      "impact_horizon_months": 6,
+      "direction": "bullish",
+      "magnitude": "high",
+      "confidence": 0.7,
+      "impact_tags": [
+        "macro"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_surge",
+        "Fed_pivot_speculation",
+        "monetary_easing_outlook"
+      ],
+      "rationale": "The market interpreted signals of a potential Fed pivot as a bullish catalyst. If the Fed does indeed ease monetary policy in 2023, it could lead to a more favorable environment for risk assets like Bitcoin."
+    },
+    {
+      "pick_idx": 19,
+      "id": "n3e7906153a2b",
+      "title": "Cboe Digital Markets Names Jump Crypto, Robinhood and DRW Among Expected Equity Partners",
+      "url": "https://finance.yahoo.com/news/cboe-digital-markets-names-jump-154415635.html",
+      "summary": "The Chicago Board Options Exchange (CBOE) has announced major trading firms like Jump Crypto, Robinhood, and DRW as expected equity partners for its Cboe Digital Markets division. This move signifies increasing institutional interest and integration of traditional finance players into the digital asset space. The involvement of established financial institutions in crypto infrastructure can lend credibility and foster broader adoption, positively impacting Bitcoin's long-term outlook.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_tags": [
+        "institutional",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Cboe_Digital_Markets",
+        "institutional_partnerships",
+        "TradFi_crypto_integration"
+      ],
+      "rationale": "The participation of major TradFi players like CBOE in digital asset markets signals growing institutional acceptance. This integration can lead to more robust infrastructure and increased liquidity, benefiting Bitcoin."
+    },
+    {
+      "pick_idx": 30,
+      "id": "n3fb86b84291e",
+      "title": "4 Things Blockchain Analysts Are Saying About the Ethereum Merge",
+      "url": "https://finance.yahoo.com/news/four-things-blockchain-analysts-saying-200109653.html",
+      "summary": "The Ethereum Merge, transitioning from Proof-of-Work to Proof-of-Stake, is expected to reduce Ethereum's energy consumption by 99.95%. Analysts anticipate this change will positively impact Ethereum's sustainability and security. While primarily an Ethereum event, the success and implications of the Merge could influence broader market sentiment and perceptions of energy efficiency in blockchain technology, indirectly affecting Bitcoin's narrative.",
+      "impact_horizon_months": 6,
+      "direction": "uncertain",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_tags": [
+        "protocol",
+        "macro"
+      ],
+      "features_for_model": [
+        "Ethereum_Merge",
+        "PoS_transition",
+        "energy_efficiency_narrative"
+      ],
+      "rationale": "The Ethereum Merge's success in improving energy efficiency could bolster the broader narrative around sustainable blockchain technology. While not directly impacting Bitcoin's protocol, it could influence overall market sentiment and regulatory views on energy consumption."
+    },
+    {
+      "pick_idx": 42,
+      "id": "nca4c08669374",
+      "title": "Europe cancels AML amendment that would have forced identity verification for non-custodial wallets: report",
+      "url": "https://finance.yahoo.com/news/europe-cancels-aml-amendment-forced-084018084.html",
+      "summary": "European Parliament members have removed proposed amendments to anti-money laundering (AML) regulations that would have mandated identity verification for crypto transfers involving non-custodial wallets. This decision avoids a potentially restrictive measure that could have hindered privacy and usability for users of self-custody wallets. The continued availability of non-custodial solutions is generally seen as positive for decentralization and user autonomy, which are core tenets of Bitcoin's value proposition.",
+      "impact_horizon_months": 12,
+      "direction": "bullish",
+      "magnitude": "low",
+      "confidence": 0.7,
+      "impact_tags": [
+        "regulation"
+      ],
+      "features_for_model": [
+        "EU_AML_regulation",
+        "non-custodial_wallets",
+        "decentralization_support"
+      ],
+      "rationale": "The cancellation of stringent AML rules for non-custodial wallets in Europe supports user privacy and decentralization. This regulatory outcome is favorable for the broader crypto ecosystem, including Bitcoin, by avoiding potentially stifling measures."
+    }
+  ],
+  "short_term": [
+    {
+      "pick_idx": 1,
+      "id": "nde308ea5cb6a",
+      "title": "SEC Investigating Bored Ape Creator Yuga Labs Over Securities Violations: Report",
+      "url": "https://finance.yahoo.com/news/sec-investigating-bored-ape-creator-170354808.html",
+      "summary": "The SEC is reportedly investigating Yuga Labs, the creator of Bored Ape Yacht Club NFTs and ApeCoin, to determine if these assets are unregistered securities. This investigation could set a precedent for how NFTs and related tokens are classified and regulated. A negative outcome could lead to increased regulatory pressure on similar projects and potentially impact the broader NFT and crypto markets, including Bitcoin's sentiment.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "legal"
+      ],
+      "features_for_model": [
+        "SEC_investigation",
+        "Yuga_Labs",
+        "NFT_securities_classification"
+      ],
+      "rationale": "An SEC investigation into NFTs and tokens as unregistered securities creates regulatory uncertainty. This could lead to negative sentiment across the crypto market, potentially impacting Bitcoin's price in the short term."
+    },
+    {
+      "pick_idx": 3,
+      "id": "n88ba788abf71",
+      "title": "Crypto exchange Bittrex settles $53M in sanctions charges with Treasury Department",
+      "url": "https://finance.yahoo.com/news/crypto-exchange-bittrex-treasury-for-sanctions-violations-173937575.html",
+      "summary": "Bittrex has agreed to pay $53 million to settle charges with the U.S. Treasury Department for violating sanctions programs and the Bank Secrecy Act between 2014 and 2018. This represents a significant enforcement action for virtual currency. Such regulatory actions against exchanges can create broader concerns about compliance and security within the crypto space, potentially affecting trading volumes and investor confidence in the short term.",
+      "impact_horizon_days": 3,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "regulation",
+        "hack/outage"
+      ],
+      "features_for_model": [
+        "Bittrex_settlement",
+        "sanctions_violation",
+        "exchange_compliance"
+      ],
+      "rationale": "Regulatory settlements with major exchanges like Bittrex can create short-term negative sentiment and highlight compliance risks. This might lead to a slight dip in Bitcoin's price due to broader market jitters."
+    },
+    {
+      "pick_idx": 4,
+      "id": "n99487837ce3c",
+      "title": "Markets: Bitcoin price dips below US$19,000 before climbing back, XRP leads crypto losers",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-price-dips-below-093751861.html",
+      "summary": "Bitcoin briefly fell below $19,000 on Tuesday, marking a short-term dip before recovering. XRP led the losses among major cryptocurrencies. This price action indicates continued volatility and sensitivity to key support levels. The brief breach of $19,000 suggests potential weakness, while the subsequent recovery shows some buying interest at lower levels, creating a mixed short-term outlook.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_dip",
+        "19k_support_level",
+        "XRP_outperform"
+      ],
+      "rationale": "Bitcoin's brief dip below a key support level ($19,000) followed by a recovery indicates short-term price indecision. This suggests potential for continued volatility in the immediate trading sessions."
+    },
+    {
+      "pick_idx": 6,
+      "id": "n99487837ce3c",
+      "title": "Markets: Bitcoin price dips below US$19,000 before climbing back, XRP leads crypto losers",
+      "url": "https://finance.yahoo.com/news/markets-bitcoin-price-dips-below-093751861.html",
+      "summary": "Bitcoin briefly fell below $19,000 on Tuesday, marking a short-term dip before recovering. XRP led the losses among major cryptocurrencies. This price action indicates continued volatility and sensitivity to key support levels. The brief breach of $19,000 suggests potential weakness, while the subsequent recovery shows some buying interest at lower levels, creating a mixed short-term outlook.",
+      "impact_horizon_days": 3,
+      "direction": "uncertain",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 3
+      },
+      "impact_tags": [
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_price_dip",
+        "19k_support_level",
+        "XRP_outperform"
+      ],
+      "rationale": "Bitcoin's brief dip below a key support level ($19,000) followed by a recovery indicates short-term price indecision. This suggests potential for continued volatility in the immediate trading sessions."
+    },
+    {
+      "pick_idx": 10,
+      "id": "n68264576023d",
+      "title": "Google Cloud to Let Users Pay With Bitcoin, Ethereum, Dogecoin via Coinbase",
+      "url": "https://finance.yahoo.com/news/google-cloud-let-users-pay-131902445.html",
+      "summary": "Google Cloud will begin accepting crypto payments for its cloud services early next year through an integration with Coinbase Commerce. This partnership signifies a major adoption milestone, bringing cryptocurrency payments to a large enterprise cloud provider. While the direct impact on Bitcoin's price might be gradual, it signals increasing mainstream acceptance and utility for digital assets.",
+      "impact_horizon_days": 14,
+      "direction": "bullish",
+      "magnitude": "medium",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 7,
+        "end": 14
+      },
+      "impact_tags": [
+        "adoption",
+        "infrastructure"
+      ],
+      "features_for_model": [
+        "Google_Cloud_Coinbase",
+        "crypto_payments",
+        "enterprise_adoption"
+      ],
+      "rationale": "Google Cloud's adoption of crypto payments via Coinbase is a significant mainstream endorsement. This could gradually increase demand and positive sentiment for Bitcoin as a payment option."
+    },
+    {
+      "pick_idx": 11,
+      "id": "n888be66931b9",
+      "title": "Valkyrie to Liquidate Bitcoin Balance Sheet ETF After Limited Uptake",
+      "url": "https://finance.yahoo.com/news/valkyrie-liquidate-bitcoin-balance-sheet-212133471.html",
+      "summary": "Valkyrie Funds will liquidate its Bitcoin Balance Sheet Opportunities ETF (VBB) due to limited investor interest. The fund, which focused on Bitcoin bull strategies, will be delisted from Nasdaq at the end of October. This event highlights the challenges in launching and sustaining crypto-focused ETFs in the current market environment, potentially signaling cautious sentiment among institutional product providers.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.6,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "ETF"
+      ],
+      "features_for_model": [
+        "Valkyrie_ETF_liquidation",
+        "limited_uptake",
+        "institutional_product_sentiment"
+      ],
+      "rationale": "The liquidation of a Bitcoin-focused ETF due to low uptake suggests a cautious sentiment from institutional product issuers. This could contribute to a slightly bearish short-term outlook for Bitcoin."
+    },
+    {
+      "pick_idx": 12,
+      "id": "n494439270807",
+      "title": "Argo Blockchain PLC Announces September Operational Update",
+      "url": "https://finance.yahoo.com/news/argo-blockchain-plc-announces-september-060000961.html",
+      "summary": "Argo Blockchain mined 215 Bitcoin in September, a decrease from 235 BTC in August, primarily due to a 12% increase in network difficulty. The company is also curtailing operations at its Helios facility. This operational update indicates the challenges miners face with increasing difficulty and potentially rising energy costs, which could impact miner selling pressure and overall network hashrate.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "low",
+      "confidence": 0.65,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "Argo_Blockchain_update",
+        "BTC_mined_decrease",
+        "mining_difficulty_increase"
+      ],
+      "rationale": "A decrease in Bitcoin mined by a major miner, coupled with increased network difficulty, suggests potential pressure on miners. This could lead to increased selling pressure if profitability declines, impacting Bitcoin's price."
+    },
+    {
+      "pick_idx": 15,
+      "id": "n70837d6656b9",
+      "title": "Bitcoin mining difficulty hits new high after Ethereum ‘Merge’ makes space",
+      "url": "https://finance.yahoo.com/news/bitcoin-mining-difficulty-hits-high-032809610.html",
+      "summary": "Bitcoin mining difficulty reached a record high, partly attributed to the Ethereum 'Merge' freeing up mining hardware. The difficulty rose by 13.55% in the two weeks leading up to Monday. This increase in difficulty means miners must expend more computational power to mine Bitcoin, potentially impacting miner profitability and leading to increased selling pressure if margins tighten.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "miner"
+      ],
+      "features_for_model": [
+        "Bitcoin_mining_difficulty_record",
+        "Ethereum_Merge_impact",
+        "miner_profitability"
+      ],
+      "rationale": "A record high in Bitcoin mining difficulty increases operational costs for miners. This could lead to increased selling pressure from miners trying to maintain profitability, potentially impacting Bitcoin's price negatively in the short term."
+    },
+    {
+      "pick_idx": 23,
+      "id": "n5832849bd46b",
+      "title": "SEC Rejects WisdomTree Bitcoin Spot ETF Application—Again",
+      "url": "https://finance.yahoo.com/news/sec-rejects-wisdomtree-bitcoin-spot-193758933.html",
+      "summary": "The SEC has rejected WisdomTree's application for a Bitcoin spot ETF, citing insufficient measures to prevent fraud and manipulation. This marks another setback for the approval of a spot Bitcoin ETF in the U.S. The repeated rejections underscore the regulatory hurdles and create a bearish sentiment regarding institutional product approvals in the near term.",
+      "impact_horizon_days": 7,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.8,
+      "impact_window_days": {
+        "start": 0,
+        "end": 7
+      },
+      "impact_tags": [
+        "regulation",
+        "ETF"
+      ],
+      "features_for_model": [
+        "SEC_ETF_rejection",
+        "WisdomTree_Bitcoin_ETF",
+        "regulatory_hurdle"
+      ],
+      "rationale": "The SEC's continued rejection of spot Bitcoin ETFs creates a negative regulatory overhang. This reinforces bearish sentiment and limits the potential for significant short-term price appreciation driven by ETF approvals."
+    },
+    {
+      "pick_idx": 28,
+      "id": "na5ea9fc8ebdd",
+      "title": "Bitcoin Options Traders, Burned by Last Month’s CPI Report, Now Seek Downside Protection",
+      "url": "https://finance.yahoo.com/news/looming-us-cpi-report-bitcoin-173321002.html",
+      "summary": "Bitcoin options traders are adopting a more cautious stance ahead of the upcoming CPI report, seeking downside protection after being caught off guard by the previous report. Expectations are for core CPI to accelerate. This indicates heightened sensitivity to inflation data and a potential for increased volatility, with traders positioning for potential price drops.",
+      "impact_horizon_days": 5,
+      "direction": "bearish",
+      "magnitude": "high",
+      "confidence": 0.75,
+      "impact_window_days": {
+        "start": 0,
+        "end": 5
+      },
+      "impact_tags": [
+        "CPI/FOMC",
+        "liquidity"
+      ],
+      "features_for_model": [
+        "Bitcoin_options_traders",
+        "CPI_report_anticipation",
+        "downside_protection"
+      ],
+      "rationale": "Options traders seeking downside protection ahead of the CPI report suggests anticipation of negative price action. This positioning could exacerbate downward price movements if inflation data comes in hotter than expected."
+    },
+    {
+      "pick_idx": 32,
+      "id": "n20c542527f19",
+      "title": "‘Comprehensive’ International Crypto Rules Proposed by Influential Finance Watchdog",
+      "url": "https://finance.yahoo.com/news/comprehensive-international-crypto-rules-proposed-080000022.html",
+      "summary": "The Financial Stability Board (FSB), a global financial watchdog, has proposed comprehensive international rules for crypto assets. These proposals include potentially forcing stablecoin issuers to centralize and breaking up major crypto platforms to address conflicts of interest. This indicates a global push towards stricter regulation, which could create short-term uncertainty and impact market sentiment.",
+      "impact_horizon_days": 10,
+      "direction": "bearish",
+      "magnitude": "medium",
+      "confidence": 0.7,
+      "impact_window_days": {
+        "start": 0,
+        "end": 10
+      },
+      "impact_tags": [
+        "regulation"
+      ],
+      "features_for_model": [
+        "FSB_crypto_regulation",
+        "stablecoin_centralization",
+        "platform_breakups"
+      ],
+      "rationale": "The FSB's proposed comprehensive international crypto rules signal a significant increase in regulatory scrutiny. This could lead to short-term market uncertainty and potential price pressure as the industry adapts."
+    }
+  ],
+  "daily_view": {
+    "date": "2022-10-11",
+    "summary": "The crypto market is showing mixed signals today. Bitcoin briefly dipped below $19,000, indicating short-term volatility and sensitivity to key support levels, with options traders positioning for downside protection ahead of the CPI report. Regulatory news is also a key factor, with the SEC investigating Yuga Labs and the FSB proposing comprehensive international crypto rules, both potentially creating short-term bearish sentiment. On the positive side, Google Cloud's integration with Coinbase for crypto payments signals growing mainstream adoption, and the continued development of Bitcoin's infrastructure, like the Taro protocol, offers long-term bullish potential.",
+    "scenario_probs": {
+      "bull": 0.35,
+      "base": 0.4,
+      "bear": 0.25
+    },
+    "recommendation_short_term": {
+      "action": "HOLD",
+      "probability": 0.6
+    },
+    "recommendation_long_term": {
+      "action": "BUY",
+      "probability": 0.7
+    },
+    "key_risks": [
+      "Higher-than-expected CPI data leading to renewed risk-off sentiment.",
+      "Further regulatory crackdowns or negative enforcement actions.",
+      "Increased selling pressure from miners due to rising difficulty.",
+      "Broader macroeconomic downturn impacting risk assets."
+    ],
+    "watch_items": [
+      "US CPI data release",
+      "SEC enforcement actions",
+      "Miner operational updates",
+      "Global macroeconomic indicators"
+    ]
+  }
+}
