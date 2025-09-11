@@ -239,16 +239,13 @@ def upload_to_huggingface(dataset, stats):
         )
         print("✅ Dataset uploaded successfully")
         
-        # Create and upload README
         print("Creating and uploading README...")
         readme_content = create_readme(stats)
         
-        # Save README locally first
         readme_path = "README.md"
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(readme_content)
         
-        # Upload README
         api.upload_file(
             path_or_fileobj=readme_path,
             path_in_repo="README.md",
@@ -258,7 +255,6 @@ def upload_to_huggingface(dataset, stats):
         )
         print("✅ README uploaded successfully")
         
-        # Clean up local README
         if os.path.exists(readme_path):
             os.remove(readme_path)
         
@@ -279,7 +275,6 @@ def main():
     print("🚀 Bitcoin Investment Advisory Dataset - Hugging Face Upload")
     print("=" * 60)
     
-    # Check if dataset file exists
     if not os.path.exists(DATASET_FILE):
         print(f"❌ Dataset file not found: {DATASET_FILE}")
         print("Please make sure the file path is correct.")
