@@ -62,6 +62,34 @@ The summarizer should produce concise summaries tailored for downstream effects 
 - Timeframe hint (immediate/short/medium)
 - Confidence
 
+## New Prompt & Advisory System
+
+Added modular prompt templates in `prompt_templates.py` with selectable styles:
+
+- comprehensive (default)
+- concise
+- quant_risk
+- institutional_deep
+- trader_flash
+
+Config keys:
+
+- prompt_style: controls summarization style
+- advisory_style: controls structured advisory narrative depth
+- use_structured_advisory: if true, performs two-stage (JSON blueprint + narrative) generation when OpenAI available
+
+### Example Config Snippet
+
+```json
+{
+  "prompt_style": "quant_risk",
+  "advisory_style": "institutional_deep",
+  "use_structured_advisory": true
+}
+```
+
+If Gemini/OpenAI unavailable, system degrades gracefully to deterministic mock + simple advisory.
+
 ## Extending
 
 - Add caching of crawl results (e.g., local JSON per day)

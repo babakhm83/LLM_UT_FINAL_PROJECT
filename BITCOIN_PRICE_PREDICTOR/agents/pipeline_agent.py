@@ -29,6 +29,29 @@ import datetime as dt
 import random
 import argparse
 from typing import List, Dict, Any, Optional, Tuple
+
+# New prompt templates module
+try:
+    from .prompt_templates import (
+        summarization_prompt,
+        advisory_json_prompt,
+        advisory_narrative_prompt,
+        validate_summary_payload,
+    )
+except Exception:
+    # Fallback to relative import when executed as script
+    try:
+        from prompt_templates import (
+            summarization_prompt,
+            advisory_json_prompt,
+            advisory_narrative_prompt,
+            validate_summary_payload,
+        )
+    except Exception as e:  # pragma: no cover
+        print(f"Warning: prompt_templates import failed: {e}")
+        summarization_prompt = advisory_json_prompt = advisory_narrative_prompt = None
+        def validate_summary_payload(x):
+            return x
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 
@@ -428,7 +451,7 @@ class BitcoinPipelineAgent:
         }
 
 
-    def summarize_items(self, bucketed_news: Dict[str, List[NewsArticle]]) -> Dict[str, Any]:
+    def summarize_items(self, bucketed_news: Dict[str, List[NewsArticle]], style: str = None) -> Dict[str, Any]:
         """
         Summarize news items using the trained summarization model
         
@@ -474,14 +497,16 @@ class BitcoinPipelineAgent:
             short_term_summary = self._call_summarization_model(
                 short_term_data,
                 analysis_date,
-                "short_term"
+                "short_term",
+                style=style
             )
             
             # For long-term news summary
             long_term_summary = self._call_summarization_model(
                 long_term_data,
                 analysis_date,
-                "long_term"
+                "long_term",
+                style=style
             )
             
             # Combine summaries into a complete news analysis
@@ -525,7 +550,7 @@ class BitcoinPipelineAgent:
                 'error': str(e)
             }
     
-    def _call_summarization_model(self, news_data: List[Dict], analysis_date: str, impact_type: str) -> Dict[str, Any]:
+    def _call_summarization_model(self, news_data: List[Dict], analysis_date: str, impact_type: str, style: str = None) -> Dict[str, Any]:
         """Call the summarization model API with the prepared news data"""
         # This would be replaced with your actual trained summarization model API call
         
@@ -537,39 +562,13 @@ class BitcoinPipelineAgent:
                 genai.configure(api_key=api_key)
                 model = genai.GenerativeModel(self.config["models"]["summarization_model"])
                 
-                # Prepare prompt
-                prompt = f"""Analyze the following Bitcoin-related news articles for {analysis_date} ({impact_type} impact) and provide a comprehensive analysis.
-
-ARTICLES TO ANALYZE:
-{json.dumps(news_data, indent=2, ensure_ascii=False)}
-
-Provide your analysis as a JSON object with the following structure:
-
-{{
-  "summary": "A comprehensive 3-5 paragraph summary focusing on {impact_type} Bitcoin impacts",
-  "daily_summary": "A concise 3-5 sentence summary of the day's most important Bitcoin-related developments",
-  "sentiment": "bullish|bearish|neutral",
-  "market_impact": "high|medium|low|unknown",
-  "key_events": ["List of 3-5 key events that could impact Bitcoin price"],
-  "risk_factors": ["List of 3-5 potential risks to Bitcoin price"],
-  "watch_items": ["List of 3-5 important items to watch"],
-  "opportunities": ["List of 3-5 potential opportunities or catalysts for Bitcoin"],
-  "bullish_ratio": 0.6,
-  "bearish_ratio": 0.3,
-  "neutral_ratio": 0.1,
-  "high_impact_count": 3,
-  "confidence": 0.85,
-  "recommendation": "BUY|SELL|HOLD",
-  "recommendation_confidence": 0.75
-}}
-
-Guidelines:
-- Focus specifically on Bitcoin price impact, especially for {impact_type}
-- If information is limited, reflect that in your confidence score
-- Ensure all arrays contain actual string elements, not empty arrays
-- All numerical values should be between 0 and 1, except high_impact_count
-
-Return ONLY the JSON object, no additional text."""
+                # Prepare prompt using new template system
+                prompt = summarization_prompt(
+                    news_items=news_data,
+                    analysis_date=analysis_date,
+                    impact_type=impact_type,
+                    style=style or self.config.get("prompt_style", "comprehensive")
+                ) if summarization_prompt else ""
                 
                 # Call the model
                 response = model.generate_content(
@@ -588,7 +587,21 @@ Return ONLY the JSON object, no additional text."""
                 text = text.replace('```json', '').replace('```', '').strip()
                 
                 # Parse the JSON
-                result = json.loads(text)
+                try:
+                    result = json.loads(text)
+                except Exception:
+                    logger.warning("Model output not valid JSON; attempting recovery")
+                    # crude recovery: extract between first { and last }
+                    if '{' in text and '}' in text:
+                        candidate = text[text.find('{'): text.rfind('}')+1]
+                        try:
+                            result = json.loads(candidate)
+                        except Exception:
+                            raise
+                    else:
+                        raise
+                # validate/normalize
+                result = validate_summary_payload(result)
                 return result
                 
             except Exception as e:
@@ -600,7 +613,7 @@ Return ONLY the JSON object, no additional text."""
         bearish_ratio = 0.3 if impact_type == 'short_term' else 0.25
         neutral_ratio = 1 - bullish_ratio - bearish_ratio
         
-        return {
+        mock = {
             'summary': f"Mock {impact_type} summary of {len(news_data)} articles for {analysis_date}.",
             'daily_summary': f"Mock daily summary for {analysis_date} with {len(news_data)} {impact_type} news items.",
             'sentiment': 'bullish' if bullish_ratio > bearish_ratio else 'bearish',
@@ -617,6 +630,7 @@ Return ONLY the JSON object, no additional text."""
             'recommendation': 'BUY' if bullish_ratio > 0.5 else 'HOLD',
             'recommendation_confidence': bullish_ratio
         }
+        return validate_summary_payload(mock)
     
     def analyze_effects(self, news_analysis: Dict[str, Any]) -> Dict[str, Any]:
         """
