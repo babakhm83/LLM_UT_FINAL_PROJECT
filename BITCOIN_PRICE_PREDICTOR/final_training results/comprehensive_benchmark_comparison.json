@@ -1,0 +1,75 @@
+{
+  "model_info": {
+    "base_model": "./Qwen3-8B",
+    "adapter": "LoRA checkpoint-400",
+    "training_dataset": "bitcoin-investment-advisory-dataset",
+    "evaluation_date": "2025-09-11",
+    "domain": "Financial Investment Advisory"
+  },
+  "primary_task_performance": {
+    "task": "Bitcoin Price Prediction",
+    "metrics": {
+      "MSE": 91.9,
+      "MAE": 1.62,
+      "RMSE": 1.62,
+      "MAPE": 13.225531914893617
+    },
+    "samples_evaluated": 50
+  },
+  "benchmark_comparisons": {
+    "GLUE": {
+      "relevance": "Limited - General NLU vs. Financial Domain",
+      "comparable_tasks": [
+        "Sentiment Analysis"
+      ],
+      "our_performance": "Financial Sentiment Accuracy: 100.00%"
+    },
+    "FLUE": {
+      "relevance": "High - Both focus on Financial NLP",
+      "comparable_tasks": [
+        "Financial Sentiment",
+        "Financial QA"
+      ],
+      "our_performance": {
+        "financial_sentiment": "100.00%",
+        "financial_knowledge": "Qualitative assessment completed",
+        "domain_specificity": "Bitcoin investment advisory (specialized)"
+      }
+    },
+    "FLaME": {
+      "relevance": "High - Financial LLM Assessment",
+      "comparable_tasks": [
+        "Financial Knowledge",
+        "Reasoning"
+      ],
+      "our_performance": {
+        "financial_knowledge": "Domain-specific Bitcoin expertise",
+        "reasoning": "Price prediction and investment advisory",
+        "compliance": "Investment advisory guidelines"
+      }
+    },
+    "CTBench": {
+      "relevance": "Medium - Critical thinking in financial context",
+      "comparable_tasks": [
+        "Logical Reasoning",
+        "Problem Solving"
+      ],
+      "our_performance": {
+        "reasoning": "Financial market analysis and prediction",
+        "problem_solving": "Investment decision support"
+      }
+    }
+  },
+  "unique_contributions": [
+    "Specialized Bitcoin investment advisory capabilities",
+    "Real-time market data integration for predictions",
+    "Multi-day price forecasting with uncertainty quantification",
+    "Domain-specific fine-tuning on financial advisory data"
+  ],
+  "comparison_summary": {
+    "vs_GLUE": "More specialized but narrower domain coverage",
+    "vs_FLUE": "Similar domain but more specific use case (Bitcoin vs. general finance)",
+    "vs_FLaME": "Comparable financial focus with specialized investment advisory",
+    "vs_CTBench": "Applied critical thinking in financial investment context"
+  }
+}

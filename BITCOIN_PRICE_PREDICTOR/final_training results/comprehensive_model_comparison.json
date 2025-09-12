@@ -1,0 +1,1682 @@
+{
+  "model_comparison": {
+    "base_model": "Qwen/Qwen2.5-8B-Instruct",
+    "fine_tuned_model": "./Qwen3-8B",
+    "adapter_checkpoint": "checkpoint-400",
+    "samples_compared": 50
+  },
+  "base_model_metrics": {
+    "mean_mse": 250.1,
+    "std_mse": 1237.9209385094025,
+    "mean_mae": 5.98,
+    "std_mae": 14.640341526071037,
+    "mean_rmse": 5.98,
+    "std_rmse": 14.640341526071037,
+    "mean_mape": 34.0,
+    "std_mape": 47.37087712930804
+  },
+  "fine_tuned_metrics": {
+    "mean_mse": 91.9,
+    "std_mse": 628.2678807642485,
+    "mean_mae": 1.62,
+    "std_mae": 9.448576612379242,
+    "mean_rmse": 1.62,
+    "std_rmse": 9.448576612379242,
+    "mean_mape": 13.225531914893617,
+    "std_mape": 71.33507109120411
+  },
+  "improvements": {
+    "mse_improvement_percent": 63.2546981207517,
+    "mae_improvement_percent": 72.90969899665552,
+    "rmse_improvement_percent": 72.90969899665552,
+    "mape_improvement_percent": 61.101376720901136
+  },
+  "detailed_base_results": [
+    {
+      "sample_id": 0,
+      "predicted": [
+        1.0
+      ],
+      "actual": [
+        1.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 1,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        2.0
+      ],
+      "metrics": {
+        "MSE": 4.0,
+        "MAE": 2.0,
+        "MAPE": 100.0,
+        "RMSE": 2.0
+      }
+    },
+    {
+      "sample_id": 2,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        3.0
+      ],
+      "metrics": {
+        "MSE": 9.0,
+        "MAE": 3.0,
+        "MAPE": 100.0,
+        "RMSE": 3.0
+      }
+    },
+    {
+      "sample_id": 3,
+      "predicted": [
+        4.0,
+        2018.0
+      ],
+      "actual": [
+        4.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 4,
+      "predicted": [
+        5.0,
+        2018.0
+      ],
+      "actual": [
+        5.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 5,
+      "predicted": [
+        6.0,
+        2018.0
+      ],
+      "actual": [
+        6.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 6,
+      "predicted": [
+        7.0,
+        2018.0
+      ],
+      "actual": [
+        7.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 7,
+      "predicted": [
+        8.0,
+        2018.0
+      ],
+      "actual": [
+        8.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 8,
+      "predicted": [
+        9.0,
+        2018.0
+      ],
+      "actual": [
+        9.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 9,
+      "predicted": [
+        10.0,
+        2018.0
+      ],
+      "actual": [
+        10.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 10,
+      "predicted": [
+        11.0,
+        2018.0
+      ],
+      "actual": [
+        11.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 11,
+      "predicted": [
+        12.0,
+        2018.0
+      ],
+      "actual": [
+        12.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 12,
+      "predicted": [
+        13.0,
+        2018.0
+      ],
+      "actual": [
+        13.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 13,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        14.0
+      ],
+      "metrics": {
+        "MSE": 196.0,
+        "MAE": 14.0,
+        "MAPE": 100.0,
+        "RMSE": 14.0
+      }
+    },
+    {
+      "sample_id": 14,
+      "predicted": [
+        15.0,
+        2018.0
+      ],
+      "actual": [
+        15.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 15,
+      "predicted": [
+        16.0,
+        2018.0
+      ],
+      "actual": [
+        16.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 16,
+      "predicted": [
+        17.0,
+        2018.0
+      ],
+      "actual": [
+        17.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 17,
+      "predicted": [
+        18.0,
+        2018.0
+      ],
+      "actual": [
+        18.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 18,
+      "predicted": [
+        19.0,
+        2018.0
+      ],
+      "actual": [
+        19.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 19,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        20.0
+      ],
+      "metrics": {
+        "MSE": 400.0,
+        "MAE": 20.0,
+        "MAPE": 100.0,
+        "RMSE": 20.0
+      }
+    },
+    {
+      "sample_id": 20,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        21.0
+      ],
+      "metrics": {
+        "MSE": 441.0,
+        "MAE": 21.0,
+        "MAPE": 100.0,
+        "RMSE": 21.0
+      }
+    },
+    {
+      "sample_id": 21,
+      "predicted": [
+        22.0,
+        2018.0
+      ],
+      "actual": [
+        22.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 22,
+      "predicted": [
+        23.0,
+        2018.0
+      ],
+      "actual": [
+        23.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 23,
+      "predicted": [
+        24.0,
+        2018.0
+      ],
+      "actual": [
+        24.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 24,
+      "predicted": [
+        25.0,
+        2018.0
+      ],
+      "actual": [
+        25.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 25,
+      "predicted": [
+        26.0,
+        2018.0
+      ],
+      "actual": [
+        26.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 26,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        94.0
+      ],
+      "metrics": {
+        "MSE": 8836.0,
+        "MAE": 94.0,
+        "MAPE": 100.0,
+        "RMSE": 94.0
+      }
+    },
+    {
+      "sample_id": 27,
+      "predicted": [
+        28.0,
+        2018.0
+      ],
+      "actual": [
+        28.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 28,
+      "predicted": [
+        29.0,
+        2018.0
+      ],
+      "actual": [
+        29.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 29,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        30.0
+      ],
+      "metrics": {
+        "MSE": 900.0,
+        "MAE": 30.0,
+        "MAPE": 100.0,
+        "RMSE": 30.0
+      }
+    },
+    {
+      "sample_id": 30,
+      "predicted": [
+        31.0,
+        2018.0
+      ],
+      "actual": [
+        31.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 31,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        1.0
+      ],
+      "metrics": {
+        "MSE": 1.0,
+        "MAE": 1.0,
+        "MAPE": 100.0,
+        "RMSE": 1.0
+      }
+    },
+    {
+      "sample_id": 32,
+      "predicted": [
+        2.0,
+        2018.0
+      ],
+      "actual": [
+        2.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 33,
+      "predicted": [
+        3.0
+      ],
+      "actual": [
+        3.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 34,
+      "predicted": [
+        4.0
+      ],
+      "actual": [
+        4.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 35,
+      "predicted": [
+        5.0,
+        2018.0
+      ],
+      "actual": [
+        5.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 36,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        1.0
+      ],
+      "metrics": {
+        "MSE": 1.0,
+        "MAE": 1.0,
+        "MAPE": 100.0,
+        "RMSE": 1.0
+      }
+    },
+    {
+      "sample_id": 37,
+      "predicted": [
+        7.0,
+        2018.0
+      ],
+      "actual": [
+        7.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 38,
+      "predicted": [
+        8.0,
+        2018.0
+      ],
+      "actual": [
+        8.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 39,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        9.0
+      ],
+      "metrics": {
+        "MSE": 81.0,
+        "MAE": 9.0,
+        "MAPE": 100.0,
+        "RMSE": 9.0
+      }
+    },
+    {
+      "sample_id": 40,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        10.0
+      ],
+      "metrics": {
+        "MSE": 100.0,
+        "MAE": 10.0,
+        "MAPE": 100.0,
+        "RMSE": 10.0
+      }
+    },
+    {
+      "sample_id": 41,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        11.0
+      ],
+      "metrics": {
+        "MSE": 121.0,
+        "MAE": 11.0,
+        "MAPE": 100.0,
+        "RMSE": 11.0
+      }
+    },
+    {
+      "sample_id": 42,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        13.0
+      ],
+      "metrics": {
+        "MSE": 169.0,
+        "MAE": 13.0,
+        "MAPE": 100.0,
+        "RMSE": 13.0
+      }
+    },
+    {
+      "sample_id": 43,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        14.0
+      ],
+      "metrics": {
+        "MSE": 196.0,
+        "MAE": 14.0,
+        "MAPE": 100.0,
+        "RMSE": 14.0
+      }
+    },
+    {
+      "sample_id": 44,
+      "predicted": [
+        15.0,
+        2018.0
+      ],
+      "actual": [
+        15.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 45,
+      "predicted": [
+        16.0,
+        2018.0
+      ],
+      "actual": [
+        16.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 46,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        17.0
+      ],
+      "metrics": {
+        "MSE": 289.0,
+        "MAE": 17.0,
+        "MAPE": 100.0,
+        "RMSE": 17.0
+      }
+    },
+    {
+      "sample_id": 47,
+      "predicted": [
+        18.0
+      ],
+      "actual": [
+        18.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 48,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        19.0
+      ],
+      "metrics": {
+        "MSE": 361.0,
+        "MAE": 19.0,
+        "MAPE": 100.0,
+        "RMSE": 19.0
+      }
+    },
+    {
+      "sample_id": 49,
+      "predicted": [
+        0.0
+      ],
+      "actual": [
+        20.0
+      ],
+      "metrics": {
+        "MSE": 400.0,
+        "MAE": 20.0,
+        "MAPE": 100.0,
+        "RMSE": 20.0
+      }
+    }
+  ],
+  "detailed_ft_results": [
+    {
+      "sample_id": 0,
+      "predicted": [
+        1.0
+      ],
+      "actual": [
+        1.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 1,
+      "predicted": [
+        2.0,
+        2018.0
+      ],
+      "actual": [
+        2.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 2,
+      "predicted": [
+        3.0,
+        2018.0
+      ],
+      "actual": [
+        3.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 3,
+      "predicted": [
+        4.0,
+        2018.0
+      ],
+      "actual": [
+        4.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 4,
+      "predicted": [
+        5.0,
+        2018.0
+      ],
+      "actual": [
+        5.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 5,
+      "predicted": [
+        6.0,
+        2018.0
+      ],
+      "actual": [
+        6.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 6,
+      "predicted": [
+        7.0,
+        2018.0
+      ],
+      "actual": [
+        7.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 7,
+      "predicted": [
+        8.0,
+        2018.0
+      ],
+      "actual": [
+        8.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 8,
+      "predicted": [
+        9.0,
+        2018.0
+      ],
+      "actual": [
+        9.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 9,
+      "predicted": [
+        10.0,
+        2018.0
+      ],
+      "actual": [
+        10.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 10,
+      "predicted": [
+        11.0,
+        2018.0
+      ],
+      "actual": [
+        11.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 11,
+      "predicted": [
+        12.0,
+        2018.0
+      ],
+      "actual": [
+        12.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 12,
+      "predicted": [
+        13.0,
+        2018.0
+      ],
+      "actual": [
+        13.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 13,
+      "predicted": [
+        14.0,
+        2018.0
+      ],
+      "actual": [
+        14.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 14,
+      "predicted": [
+        15.0,
+        2018.0
+      ],
+      "actual": [
+        15.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 15,
+      "predicted": [
+        16.0,
+        2018.0
+      ],
+      "actual": [
+        16.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 16,
+      "predicted": [
+        17.0,
+        2018.0
+      ],
+      "actual": [
+        17.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 17,
+      "predicted": [
+        18.0,
+        2018.0
+      ],
+      "actual": [
+        18.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 18,
+      "predicted": [
+        19.0,
+        2018.0
+      ],
+      "actual": [
+        19.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 19,
+      "predicted": [
+        20.0,
+        2018.0
+      ],
+      "actual": [
+        20.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 20,
+      "predicted": [
+        21.0,
+        2018.0
+      ],
+      "actual": [
+        21.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 21,
+      "predicted": [
+        22.0,
+        2018.0
+      ],
+      "actual": [
+        22.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 22,
+      "predicted": [
+        23.0,
+        2018.0
+      ],
+      "actual": [
+        23.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 23,
+      "predicted": [
+        24.0,
+        2018.0
+      ],
+      "actual": [
+        24.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 24,
+      "predicted": [
+        25.0,
+        2018.0
+      ],
+      "actual": [
+        25.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 25,
+      "predicted": [
+        26.0,
+        2018.0
+      ],
+      "actual": [
+        26.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 26,
+      "predicted": [
+        27.0
+      ],
+      "actual": [
+        94.0
+      ],
+      "metrics": {
+        "MSE": 4489.0,
+        "MAE": 67.0,
+        "MAPE": 71.27659574468085,
+        "RMSE": 67.0
+      }
+    },
+    {
+      "sample_id": 27,
+      "predicted": [
+        28.0,
+        2018.0
+      ],
+      "actual": [
+        28.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 28,
+      "predicted": [
+        29.0,
+        2018.0
+      ],
+      "actual": [
+        29.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 29,
+      "predicted": [
+        30.0,
+        2018.0
+      ],
+      "actual": [
+        30.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 30,
+      "predicted": [
+        31.0,
+        2018.0
+      ],
+      "actual": [
+        31.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 31,
+      "predicted": [
+        1.0,
+        2018.0
+      ],
+      "actual": [
+        1.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 32,
+      "predicted": [
+        2.0,
+        2018.0
+      ],
+      "actual": [
+        2.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 33,
+      "predicted": [
+        3.0
+      ],
+      "actual": [
+        3.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 34,
+      "predicted": [
+        4.0
+      ],
+      "actual": [
+        4.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 35,
+      "predicted": [
+        5.0,
+        2018.0
+      ],
+      "actual": [
+        5.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 36,
+      "predicted": [
+        6.0
+      ],
+      "actual": [
+        1.0
+      ],
+      "metrics": {
+        "MSE": 25.0,
+        "MAE": 5.0,
+        "MAPE": 500.0,
+        "RMSE": 5.0
+      }
+    },
+    {
+      "sample_id": 37,
+      "predicted": [
+        7.0,
+        2018.0
+      ],
+      "actual": [
+        7.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 38,
+      "predicted": [
+        8.0,
+        2018.0
+      ],
+      "actual": [
+        8.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 39,
+      "predicted": [
+        9.0,
+        2018.0
+      ],
+      "actual": [
+        9.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 40,
+      "predicted": [
+        1.0
+      ],
+      "actual": [
+        10.0
+      ],
+      "metrics": {
+        "MSE": 81.0,
+        "MAE": 9.0,
+        "MAPE": 90.0,
+        "RMSE": 9.0
+      }
+    },
+    {
+      "sample_id": 41,
+      "predicted": [
+        11.0,
+        2018.0
+      ],
+      "actual": [
+        11.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 42,
+      "predicted": [
+        13.0,
+        2018.0
+      ],
+      "actual": [
+        13.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 43,
+      "predicted": [
+        14.0,
+        2018.0
+      ],
+      "actual": [
+        14.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 44,
+      "predicted": [
+        15.0,
+        2018.0
+      ],
+      "actual": [
+        15.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 45,
+      "predicted": [
+        16.0,
+        2018.0
+      ],
+      "actual": [
+        16.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 46,
+      "predicted": [
+        17.0,
+        2018.0
+      ],
+      "actual": [
+        17.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 47,
+      "predicted": [
+        18.0
+      ],
+      "actual": [
+        18.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 48,
+      "predicted": [
+        19.0,
+        2018.0
+      ],
+      "actual": [
+        19.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    },
+    {
+      "sample_id": 49,
+      "predicted": [
+        20.0,
+        2018.0
+      ],
+      "actual": [
+        20.0,
+        2018.0
+      ],
+      "metrics": {
+        "MSE": 0.0,
+        "MAE": 0.0,
+        "MAPE": 0.0,
+        "RMSE": 0.0
+      }
+    }
+  ]
+}
