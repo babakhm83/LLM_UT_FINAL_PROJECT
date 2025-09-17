@@ -1,0 +1,18 @@
+{
+    "api_keys": {
+        "gemini": "AIzaSyCj2Km9Agz40pVF1ZvXgDNNrhBvGfFxQ3w"
+    },
+    "models": {
+        "summarization_model": "gemini-1.5-flash",
+        "analysis_model_path": "../main_models/my-awesome-model_final_bitcoin-individual-news-dataset/checkpoint-400",
+        "forecast_model_path": "../main_models/qwen_bitcoin_chat_fast_more_longer_explanation_v2/checkpoint-612",
+        "advisory_model_path": "../main_models/my-awesome-model_final_bitcoin-investment-advisory-dataset_v2/checkpoint-400"
+    },
+    "news": {
+        "max_articles": 5,
+        "sources": [
+            "http://feeds.feedburner.com/CoingeckoBuzz"
+        ]
+    },
+    "output_dir": "outputs/notebook_test_results"
+}

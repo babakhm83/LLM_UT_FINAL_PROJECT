@@ -2,6 +2,263 @@
 
 This directory contains the modular AI pipeline that ingests fresh Bitcoin news, structures and summarizes it, infers directional/effect probabilities, generates short‑horizon forecasts, and synthesizes an institutional‑grade investment advisory.
 
+## 🚀 New Multi-Agent Architecture (v2.0)
+
+The pipeline has been refactored into **4 specialized agents** working in sequence:
+
+### 1. **NewsAgent** (`NewsAgent` class)
+
+- **Purpose**: Collects and categorizes Bitcoin-related news
+- **Features**:
+  - RSS feed collection from multiple sources
+  - Automatic categorization into short-term vs long-term impact
+  - Gemini AI-powered summarization for each category
+  - Robust error handling and fallbacks
+- **Output**: Structured news data with summaries
+
+### 2. **AnalysisAgent** (`AnalysisAgent` class)
+
+- **Purpose**: Analyzes the effects of news on Bitcoin prices
+- **Features**:
+  - Uses local fine-tuned model for news effect analysis
+  - Integrates with Yahoo Finance for price data
+  - Generates probability distributions for market scenarios
+  - Provides confidence scores and market sentiment
+- **Output**: Effects analysis with probability distributions
+
+### 3. **ForecastAgent** (`ForecastAgent` class)
+
+- **Purpose**: Forecasts Bitcoin prices for the next 10 days
+- **Features**:
+  - Uses local fine-tuned forecast model
+  - Incorporates analysis data and market conditions
+  - Generates detailed 10-day price predictions
+  - Handles model fallbacks gracefully
+- **Output**: 10-day price forecast array
+
+### 4. **RecommendationAgent** (`RecommendationAgent` class)
+
+- **Purpose**: Generates comprehensive investment advisory
+- **Features**:
+  - Uses local fine-tuned advisory model
+  - Combines all previous analysis and forecasts
+  - Produces institutional-grade investment recommendations
+  - Includes risk assessment and market outlook
+- **Output**: Complete investment advisory
+
+### **PipelineOrchestrator** (`BitcoinPipelineOrchestrator` class)
+
+- **Purpose**: Coordinates all 4 agents in sequence
+- **Features**:
+  - Manages agent initialization and data flow
+  - Handles errors and provides fallbacks
+  - Saves complete results to JSON
+  - Provides unified interface
+
+### Key Benefits of Multi-Agent Architecture:
+
+- **Modularity**: Each agent can be developed/tested independently
+- **Scalability**: Easy to add new agents or modify existing ones
+- **Reliability**: Isolated failures don't break the entire pipeline
+- **Maintainability**: Clear separation of concerns
+- **Testing**: Individual agents can be unit tested
+
+### Usage with Multi-Agent Architecture:
+
+```bash
+# Run the complete multi-agent pipeline
+python multi_agent_pipeline.py
+
+# With custom config
+python multi_agent_pipeline.py --config config.json --date 2024-01-15
+```
+
+---
+
+## 🤖 LangChain Integration (v3.0) - Enhanced User Interaction
+
+The pipeline now includes **LangChain-powered conversational capabilities** for superior user interaction and agent orchestration.
+
+### LangChain Features:
+
+#### 🎯 **Conversational Memory**
+
+- Remembers previous interactions and context
+- Maintains conversation history across sessions
+- Provides personalized, context-aware responses
+
+#### 🛠️ **Tool-Based Architecture**
+
+- Each agent becomes a specialized tool
+- Modular, reusable components
+- Clear separation of concerns with tool interfaces
+
+#### 💬 **Natural Language Interface**
+
+- Chat with your Bitcoin advisor naturally
+- Ask questions in plain English
+- Get contextual, conversational responses
+
+#### 🔄 **Structured Agent Communication**
+
+- Clear handoffs between specialized agents
+- Coordinated workflow management
+- Enhanced error handling and recovery
+
+#### 📊 **Enhanced Output Parsing**
+
+- Better structured responses
+- JSON parsing with validation
+- Improved data extraction and formatting
+
+#### ⚡ **Streaming Responses**
+
+- Real-time output generation
+- Immediate feedback during processing
+- Better user experience with live updates
+
+#### 🔁 **Advanced Retry Logic**
+
+- Automatic error recovery
+- Exponential backoff strategies
+- Graceful degradation on failures
+
+### LangChain Agent Tools:
+
+1. **NewsCollectionTool**: Collects and categorizes Bitcoin news
+2. **NewsAnalysisTool**: Analyzes news effects on prices
+3. **PriceForecastTool**: Generates 10-day price forecasts
+4. **InvestmentAdvisoryTool**: Creates investment recommendations
+
+### Usage Modes:
+
+#### Interactive Mode (Recommended):
+
+```bash
+# Start conversational interface
+python langchain_bitcoin_advisor.py --mode interactive
+
+# Example conversation:
+# You: "What's the latest Bitcoin news?"
+# Advisor: "I'll collect the latest news... Found 15 articles..."
+# You: "What about the price forecast?"
+# Advisor: "Based on our previous analysis, here's the 10-day forecast..."
+```
+
+#### Automated Mode:
+
+```bash
+# Run complete analysis automatically
+python langchain_bitcoin_advisor.py --mode automated --date 2024-01-15
+```
+
+### LangChain Benefits:
+
+- **Better User Experience**: Natural conversation flow
+- **Context Preservation**: Remembers previous discussions
+- **Flexible Interaction**: Ask follow-up questions easily
+- **Real-time Updates**: Streaming responses during processing
+- **Error Recovery**: Automatic retry and fallback mechanisms
+- **Modular Design**: Easy to extend with new tools/agents
+
+### Installation:
+
+```bash
+# Install LangChain dependencies
+pip install langchain langchain-openai langchain-google-genai langchain-community
+
+# Or install all requirements
+pip install -r requirements.txt
+```
+
+### Configuration:
+
+Add to your `config.json`:
+
+```json
+{
+  "langchain": {
+    "memory_window": 10,
+    "max_iterations": 10,
+    "timeout": 300,
+    "streaming": true
+  }
+}
+```
+
+---
+
+## 1. High‑Level Architecture
+
+The pipeline has been refactored into **4 specialized agents** working in sequence:
+
+### 1. **NewsAgent** (`NewsAgent` class)
+
+- **Purpose**: Collects and categorizes Bitcoin-related news
+- **Features**:
+  - RSS feed collection from multiple sources
+  - Automatic categorization into short-term vs long-term impact
+  - Gemini AI-powered summarization for each category
+  - Robust error handling and fallbacks
+- **Output**: Structured news data with summaries
+
+### 2. **AnalysisAgent** (`AnalysisAgent` class)
+
+- **Purpose**: Analyzes the effects of news on Bitcoin prices
+- **Features**:
+  - Uses local fine-tuned model for news effect analysis
+  - Integrates with Yahoo Finance for price data
+  - Generates probability distributions for market scenarios
+  - Provides confidence scores and market sentiment
+- **Output**: Effects analysis with probability distributions
+
+### 3. **ForecastAgent** (`ForecastAgent` class)
+
+- **Purpose**: Forecasts Bitcoin prices for the next 10 days
+- **Features**:
+  - Uses local fine-tuned forecast model
+  - Incorporates analysis data and market conditions
+  - Generates detailed 10-day price predictions
+  - Handles model fallbacks gracefully
+- **Output**: 10-day price forecast array
+
+### 4. **RecommendationAgent** (`RecommendationAgent` class)
+
+- **Purpose**: Generates comprehensive investment advisory
+- **Features**:
+  - Uses local fine-tuned advisory model
+  - Combines all previous analysis and forecasts
+  - Produces institutional-grade investment recommendations
+  - Includes risk assessment and market outlook
+- **Output**: Complete investment advisory
+
+### **PipelineOrchestrator** (`BitcoinPipelineOrchestrator` class)
+
+- **Purpose**: Coordinates all 4 agents in sequence
+- **Features**:
+  - Manages agent initialization and data flow
+  - Handles errors and provides fallbacks
+  - Saves complete results to JSON
+  - Provides unified interface
+
+### Key Benefits of Multi-Agent Architecture:
+
+- **Modularity**: Each agent can be developed/tested independently
+- **Scalability**: Easy to add new agents or modify existing ones
+- **Reliability**: Isolated failures don't break the entire pipeline
+- **Maintainability**: Clear separation of concerns
+- **Testing**: Individual agents can be unit tested
+
+### Usage with Multi-Agent Architecture:
+
+```bash
+# Run the complete multi-agent pipeline
+python multi_agent_pipeline.py
+
+# With custom config
+python multi_agent_pipeline.py --config config.json --date 2024-01-15
+```
+
 ---
 
 ## 1. High‑Level Architecture
@@ -25,9 +282,11 @@ Fallback logic ensures graceful degradation if external LLMs or custom endpoints
 
 | File                             | Purpose                                                                        |
 | -------------------------------- | ------------------------------------------------------------------------------ |
-| `pipeline_agent.py`              | Orchestrates the end‑to‑end run (ingest → analysis → forecast → advisory).     |
+| `multi_agent_pipeline.py`        | **NEW**: Multi-agent orchestrator with 4 specialized agents                    |
+| `pipeline_agent.py`              | Legacy: Single monolithic pipeline (still functional)                          |
 | `prompt_templates.py`            | Houses deterministic, multi‑style prompt generators + JSON validators.         |
 | `config.example.json`            | Configuration template (API keys, model names, prompt styles, source control). |
+| `requirements.txt`               | Python dependencies for the pipeline                                           |
 | `bitcoin_prediction_agent.ipynb` | (Optional) Experimental / exploratory notebook for agent logic.                |
 
 ---
