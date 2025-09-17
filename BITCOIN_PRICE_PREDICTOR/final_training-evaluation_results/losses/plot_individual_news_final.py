@@ -15,7 +15,6 @@ def parse_training_data(data_string):
                 step = int(step_str.strip())
                 loss = float(loss_str.strip())
                 
-                # Filter out zero losses (they indicate padding/errors)
                 if loss > 0:
                     steps.append(step)
                     losses.append(loss)
@@ -40,7 +39,6 @@ def smooth_losses(losses, window_size=10):
 def plot_final_training_loss():
     """Plot the final training loss data"""
     
-    # Training data for Individual News Dataset Final Training
     training_data = """2	3.142800
 4	3.408000
 6	3.178600
@@ -295,16 +293,12 @@ def plot_final_training_loss():
 504	0.792800
 506	0.790700"""
 
-    # Parse the training data
     steps, losses = parse_training_data(training_data)
     
-    # Set up the plotting style
     plt.style.use('default')
     
-    # Create figure with multiple subplots for comprehensive analysis
     fig = plt.figure(figsize=(20, 12))
     
-    # Plot 1: Raw training loss
     plt.subplot(2, 3, 1)
     plt.plot(steps, losses, color='#2E86AB', linewidth=2, alpha=0.8, marker='o', markersize=1)
     plt.xlabel('Training Steps', fontsize=12)
@@ -313,7 +307,6 @@ def plot_final_training_loss():
     plt.grid(True, alpha=0.3)
     plt.yscale('log')
     
-    # Plot 2: Smoothed training loss
     plt.subplot(2, 3, 2)
     smoothed_losses = smooth_losses(losses, window_size=20)
     plt.plot(steps, smoothed_losses, color='#A23B72', linewidth=3, alpha=0.9)
@@ -323,7 +316,6 @@ def plot_final_training_loss():
     plt.grid(True, alpha=0.3)
     plt.yscale('log')
     
-    # Plot 3: Loss improvement over time
     plt.subplot(2, 3, 3)
     if len(losses) > 10:
         initial_avg = np.mean(losses[:10])
@@ -337,7 +329,6 @@ def plot_final_training_loss():
         plt.title(f'Training Improvement - {improvement_pct:.1f}% Total Reduction', fontsize=14, fontweight='bold')
         plt.grid(True, alpha=0.3)
     
-    # Plot 4: Loss distribution histogram
     plt.subplot(2, 3, 4)
     plt.hist(losses, bins=40, alpha=0.7, color='#C73E1D', edgecolor='black')
     plt.xlabel('Training Loss Value', fontsize=12)
@@ -345,9 +336,7 @@ def plot_final_training_loss():
     plt.title('Loss Distribution', fontsize=14, fontweight='bold')
     plt.grid(True, alpha=0.3)
     
-    # Plot 5: Learning phases analysis
     plt.subplot(2, 3, 5)
-    # Divide into phases
     phase_size = len(steps) // 4
     phases = ['Early (0-25%)', 'Mid-Early (25-50%)', 'Mid-Late (50-75%)', 'Final (75-100%)']
     phase_avgs = []
@@ -365,18 +354,15 @@ def plot_final_training_loss():
     plt.xticks(rotation=45)
     plt.grid(True, alpha=0.3, axis='y')
     
-    # Add value labels on bars
     for bar, avg in zip(bars, phase_avgs):
         plt.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.01,
                 f'{avg:.3f}', ha='center', va='bottom', fontweight='bold')
     
-    # Plot 6: Convergence analysis (last 200 steps)
     plt.subplot(2, 3, 6)
     if len(steps) > 200:
         conv_steps = steps[-200:]
         conv_losses = losses[-200:]
         
-        # Calculate trend line
         z = np.polyfit(range(len(conv_losses)), conv_losses, 1)
         p = np.poly1d(z)
         trend_line = p(range(len(conv_losses)))
@@ -393,17 +379,14 @@ def plot_final_training_loss():
     
     plt.tight_layout()
     
-    # Save the plot
     output_dir = Path("./")
     filename = "SFT_bitcoin-individual-news-dataset_t_train__effect_longer_final.png"
     plt.savefig(output_dir / filename, 
                dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
     plt.close()
     
-    # Create a simple version too
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
     
-    # Simple raw plot
     ax1.plot(steps, losses, color='#2E86AB', linewidth=2.5, alpha=0.8)
     ax1.set_xlabel('Training Steps', fontsize=14)
     ax1.set_ylabel('Training Loss', fontsize=14)
@@ -411,7 +394,6 @@ def plot_final_training_loss():
     ax1.grid(True, alpha=0.4)
     ax1.set_yscale('log')
     
-    # Simple smoothed plot  
     ax2.plot(steps, smoothed_losses, color='#A23B72', linewidth=3, alpha=0.9)
     ax2.set_xlabel('Training Steps', fontsize=14)
     ax2.set_ylabel('Training Loss (Smoothed)', fontsize=14)
@@ -421,7 +403,6 @@ def plot_final_training_loss():
     
     plt.tight_layout()
     
-    # Save simple version
     simple_filename = "SFT_bitcoin-individual-news-dataset_t_train__effect_longer_final_simple.png"
     plt.savefig(output_dir / simple_filename, 
                dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')

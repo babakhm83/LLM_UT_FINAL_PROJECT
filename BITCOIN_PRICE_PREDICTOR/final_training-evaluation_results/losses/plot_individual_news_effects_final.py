@@ -15,7 +15,6 @@ def parse_training_data(data_string):
                 step = int(step_str.strip())
                 loss = float(loss_str.strip())
                 
-                # Filter out zero losses (they indicate padding/errors)
                 if loss > 0:
                     steps.append(step)
                     losses.append(loss)
@@ -40,7 +39,6 @@ def smooth_losses(losses, window_size=10):
 def plot_individual_news_effects_final():
     """Plot the individual news effects dataset final training loss data"""
     
-    # Training data for Individual News Effects Dataset Final Training
     training_data = """2	18.723800
 4	19.950200
 6	21.542700
@@ -3058,16 +3056,12 @@ def plot_individual_news_effects_final():
 6030	0.000000
 6032	0.000000"""
 
-    # Parse the training data
     steps, losses = parse_training_data(training_data)
     
-    # Set up the plotting style
     plt.style.use('default')
     
-    # Create figure with multiple subplots for comprehensive analysis
     fig = plt.figure(figsize=(20, 12))
     
-    # Plot 1: Raw training loss
     plt.subplot(2, 3, 1)
     plt.plot(steps, losses, color='#0077B6', linewidth=2, alpha=0.8, marker='o', markersize=1)
     plt.xlabel('Training Steps', fontsize=12)
@@ -3076,7 +3070,6 @@ def plot_individual_news_effects_final():
     plt.grid(True, alpha=0.3)
     plt.yscale('log')
     
-    # Plot 2: Smoothed training loss
     plt.subplot(2, 3, 2)
     smoothed_losses = smooth_losses(losses, window_size=20)
     plt.plot(steps, smoothed_losses, color='#023E8A', linewidth=3, alpha=0.9)
@@ -3086,24 +3079,20 @@ def plot_individual_news_effects_final():
     plt.grid(True, alpha=0.3)
     plt.yscale('log')
     
-    # Plot 3: Loss improvement over time
     plt.subplot(2, 3, 3)
     if len(losses) > 10:
-        # Filter out the extreme outliers for better visualization
-        filtered_losses = [l for l in losses if l < 10]  # Remove extreme spikes
+        filtered_losses = [l for l in losses if l < 10]
         initial_avg = np.mean(filtered_losses[:10]) if len(filtered_losses) >= 10 else np.mean(losses[:10])
         final_avg = np.mean(filtered_losses[-10:]) if len(filtered_losses) >= 10 else np.mean(losses[-10:])
         improvement_pct = ((initial_avg - final_avg) / initial_avg) * 100
         
-        # Use filtered losses for improvement calculation
         base_loss = filtered_losses[0] if filtered_losses else losses[0]
         improvement_values = []
         for i, loss in enumerate(losses):
-            if loss < 10:  # Only calculate improvement for reasonable losses
+            if loss < 10:
                 improvement = ((base_loss - loss) / base_loss) * 100
                 improvement_values.append(improvement)
             else:
-                # For outliers, use the previous value or 0
                 improvement_values.append(improvement_values[-1] if improvement_values else 0)
         
         plt.plot(steps, improvement_values, 
@@ -3113,19 +3102,15 @@ def plot_individual_news_effects_final():
         plt.title(f'Training Improvement - {improvement_pct:.1f}% Total Reduction', fontsize=14, fontweight='bold')
         plt.grid(True, alpha=0.3)
     
-    # Plot 4: Loss distribution histogram (filtered)
     plt.subplot(2, 3, 4)
-    # Filter losses for better histogram visualization
-    histogram_losses = [l for l in losses if l < 3]  # Remove extreme outliers
+    histogram_losses = [l for l in losses if l < 3]
     plt.hist(histogram_losses, bins=40, alpha=0.7, color='#48CAE4', edgecolor='black')
     plt.xlabel('Training Loss Value', fontsize=12)
     plt.ylabel('Frequency', fontsize=12)
     plt.title('Loss Distribution (Filtered < 3)', fontsize=14, fontweight='bold')
     plt.grid(True, alpha=0.3)
     
-    # Plot 5: Learning phases analysis
     plt.subplot(2, 3, 5)
-    # Divide into phases
     phase_size = len(steps) // 4
     phases = ['Early (0-25%)', 'Mid-Early (25-50%)', 'Mid-Late (50-75%)', 'Final (75-100%)']
     phase_avgs = []
@@ -3133,7 +3118,6 @@ def plot_individual_news_effects_final():
     for i in range(4):
         start_idx = i * phase_size
         end_idx = (i + 1) * phase_size if i < 3 else len(losses)
-        # Filter out extreme outliers for phase averages
         phase_losses = [losses[j] for j in range(start_idx, end_idx) if losses[j] < 10]
         phase_avg = np.mean(phase_losses) if phase_losses else np.mean(losses[start_idx:end_idx])
         phase_avgs.append(phase_avg)
@@ -3145,18 +3129,15 @@ def plot_individual_news_effects_final():
     plt.xticks(rotation=45)
     plt.grid(True, alpha=0.3, axis='y')
     
-    # Add value labels on bars
     for bar, avg in zip(bars, phase_avgs):
         plt.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.02,
                 f'{avg:.3f}', ha='center', va='bottom', fontweight='bold')
     
-    # Plot 6: Convergence analysis (last 500 steps)
     plt.subplot(2, 3, 6)
     if len(steps) > 500:
         conv_steps = steps[-500:]
         conv_losses = losses[-500:]
         
-        # Calculate trend line
         z = np.polyfit(range(len(conv_losses)), conv_losses, 1)
         p = np.poly1d(z)
         trend_line = p(range(len(conv_losses)))
@@ -3173,17 +3154,14 @@ def plot_individual_news_effects_final():
     
     plt.tight_layout()
     
-    # Save the comprehensive plot
     output_dir = Path("./")
     filename = "SFT_bitcoin-individual-news-dataset_t_train__effects_final.png"
     plt.savefig(output_dir / filename, 
                dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
     plt.close()
     
-    # Create a simple version too
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
     
-    # Simple raw plot
     ax1.plot(steps, losses, color='#0077B6', linewidth=2.5, alpha=0.8)
     ax1.set_xlabel('Training Steps', fontsize=14)
     ax1.set_ylabel('Training Loss', fontsize=14)
@@ -3191,7 +3169,6 @@ def plot_individual_news_effects_final():
     ax1.grid(True, alpha=0.4)
     ax1.set_yscale('log')
     
-    # Simple smoothed plot  
     ax2.plot(steps, smoothed_losses, color='#023E8A', linewidth=3, alpha=0.9)
     ax2.set_xlabel('Training Steps', fontsize=14)
     ax2.set_ylabel('Training Loss (Smoothed)', fontsize=14)
@@ -3201,14 +3178,12 @@ def plot_individual_news_effects_final():
     
     plt.tight_layout()
     
-    # Save simple version
     simple_filename = "SFT_bitcoin-individual-news-dataset_t_train__effects_final_simple.png"
     plt.savefig(output_dir / simple_filename, 
                dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
     plt.close()
     
-    # Calculate statistics
-    filtered_losses = [l for l in losses if l < 10]  # Remove extreme outliers for stats
+    filtered_losses = [l for l in losses if l < 10] 
     min_loss = min(filtered_losses) if filtered_losses else min(losses)
     max_loss = max(filtered_losses) if filtered_losses else max([l for l in losses if l < 10])
     
@@ -3223,7 +3198,6 @@ def plot_individual_news_effects_final():
     print(f"   - Minimum loss achieved: {min_loss:.4f}")
     print(f"   - Maximum reasonable loss: {max_loss:.4f}")
     
-    # Calculate improvement excluding outliers
     if filtered_losses and len(filtered_losses) > 10:
         initial_filtered = np.mean([l for l in losses[:10] if l < 10])
         final_filtered = np.mean([l for l in losses[-10:] if l < 10])

@@ -10,21 +10,33 @@ Styles:
 - institutional_deep: Extended multi-layer thesis & portfolio integration
 - trader_flash: Ultra-short tactical view for intraday/short horizon
 """
+
 from __future__ import annotations
 import json
 from typing import Dict, Any, List
 
 SUMMARY_JSON_SPEC = {
     "required_float_fields": [
-        "bullish_ratio", "bearish_ratio", "neutral_ratio", "confidence", "recommendation_confidence"
+        "bullish_ratio",
+        "bearish_ratio",
+        "neutral_ratio",
+        "confidence",
+        "recommendation_confidence",
     ],
     "required_int_fields": ["high_impact_count"],
     "required_string_fields": [
-        "summary", "daily_summary", "sentiment", "market_impact", "recommendation"
+        "summary",
+        "daily_summary",
+        "sentiment",
+        "market_impact",
+        "recommendation",
     ],
     "required_list_fields": [
-        "key_events", "risk_factors", "watch_items", "opportunities"
-    ]
+        "key_events",
+        "risk_factors",
+        "watch_items",
+        "opportunities",
+    ],
 }
 
 RECOMMENDATION_ENUM = ["BUY", "SELL", "HOLD", "ACCUMULATE", "REDUCE"]
@@ -38,13 +50,18 @@ Focus strictly on Bitcoin {impact_type} price impacts (exclude unrelated macro u
 """.strip()
 
 
-def summarization_prompt(news_items: List[Dict[str, Any]], analysis_date: str, impact_type: str, style: str = "comprehensive") -> str:
+def summarization_prompt(
+    news_items: List[Dict[str, Any]],
+    analysis_date: str,
+    impact_type: str,
+    style: str = "comprehensive",
+) -> str:
     style_note = {
         "comprehensive": "Depth 5 paragraphs; balanced qualitative + structured drivers.",
         "concise": "Max 180 words summary, bulletify key arrays.",
         "quant_risk": "Highlight statistical drivers, volatility regimes, liquidity, order flow proxies.",
         "institutional_deep": "Add structural adoption, regulatory trajectory, capital flows, derivative positioning in narrative layers.",
-        "trader_flash": "Max 120 words, emphasize catalysts next 24-72h, directional bias & invalidation level."
+        "trader_flash": "Max 120 words, emphasize catalysts next 24-72h, directional bias & invalidation level.",
     }.get(style, "Depth 4-5 paragraphs; balanced analysis.")
 
     return f"""You are a professional crypto macro analyst. Analyze the following Bitcoin-related news articles for {analysis_date} focusing on {impact_type} impact.
@@ -84,7 +101,9 @@ Constraints:
 """
 
 
-def advisory_narrative_prompt(structured_json: Dict[str, Any], full_analysis: Dict[str, Any], style: str) -> str:
+def advisory_narrative_prompt(
+    structured_json: Dict[str, Any], full_analysis: Dict[str, Any], style: str
+) -> str:
     return f"""You are a senior digital asset strategist. Convert the STRUCTURED_ADVISORY JSON plus RAW_ANALYSIS into a polished institutional narrative.
 STYLE={style}
 STRUCTURED_ADVISORY_JSON={json.dumps(structured_json, ensure_ascii=False)}
@@ -104,11 +123,13 @@ Return plain markdown narrative only (no JSON)."""
 
 def validate_summary_payload(obj: Dict[str, Any]) -> Dict[str, Any]:
     """Lightweight structural validator & auto-fixer for summarization output."""
+
     def clamp(v, lo=0.0, hi=1.0):
         try:
             return max(lo, min(hi, float(v)))
         except Exception:
             return 0.0
+
     for f in SUMMARY_JSON_SPEC["required_float_fields"]:
         obj[f] = clamp(obj.get(f, 0.0))
     for f in SUMMARY_JSON_SPEC["required_int_fields"]:
@@ -136,9 +157,10 @@ def validate_summary_payload(obj: Dict[str, Any]) -> Dict[str, Any]:
         obj["market_impact"] = "medium"
     return obj
 
+
 __all__ = [
     "summarization_prompt",
     "advisory_json_prompt",
     "advisory_narrative_prompt",
-    "validate_summary_payload"
+    "validate_summary_payload",
 ]
