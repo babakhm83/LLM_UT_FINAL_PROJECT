@@ -65,13 +65,6 @@ except ImportError as e:
 
 # Try to import optional packages
 try:
-    import openai
-    OPENAI_AVAILABLE = True
-except ImportError:
-    OPENAI_AVAILABLE = False
-    print("OpenAI package not available. Install with: pip install openai")
-
-try:
     import google.generativeai as genai
     GEMINI_AVAILABLE = True
 except ImportError:
@@ -92,8 +85,6 @@ except ImportError:
 DEFAULT_CONFIG = {
     "api_keys": {
         "gemini": "AIzaSyCj2Km9Agz40pVF1ZvXgDNNrhBvGfFxQ3w",
-        "openai": os.environ.get("OPENAI_API_KEY", ""),
-        "openai_base_url": os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1"),
     },
     "models": {
         "summarization_model": "gemini-1.5-flash",

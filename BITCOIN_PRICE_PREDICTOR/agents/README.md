@@ -55,15 +55,18 @@ python langchain_bitcoin_advisor.py --mode interactive
 The system has evolved through three major iterations:
 
 ### v1.0: Monolithic Pipeline
+
 - Single pipeline processing news → analysis → forecast → advisory
 - Limited modularity and error handling
 
 ### v2.0: Multi-Agent Architecture
+
 - **4 specialized agents** working in sequence
 - Modular design with clear separation of concerns
 - Robust error handling and fallbacks
 
 ### v3.0: LangChain Integration
+
 - **Conversational AI** with memory and context
 - **Tool-based architecture** for modular interactions
 - **Streaming responses** and natural language interface
@@ -75,9 +78,11 @@ The system has evolved through three major iterations:
 The core system consists of 4 specialized agents orchestrated by a central coordinator:
 
 ### 1. 📰 NewsAgent
+
 **Purpose**: Collects and categorizes Bitcoin-related news
 
 **Features:**
+
 - RSS feed collection from multiple sources (CoinDesk, CoinTelegraph, Bitcoin Magazine, etc.)
 - Automatic categorization: short-term vs long-term impact
 - Gemini AI-powered summarization with fallback mechanisms
@@ -86,9 +91,11 @@ The core system consists of 4 specialized agents orchestrated by a central coord
 **Output:** Structured news data with sentiment analysis and impact categorization
 
 ### 2. 📊 AnalysisAgent
+
 **Purpose**: Analyzes news effects on Bitcoin prices
 
 **Features:**
+
 - Local fine-tuned model for news effect analysis
 - Integration with Yahoo Finance for real-time price data
 - Probability distributions for market scenarios
@@ -97,9 +104,11 @@ The core system consists of 4 specialized agents orchestrated by a central coord
 **Output:** Effects analysis with bullish/bearish/base case probabilities
 
 ### 3. 🔮 ForecastAgent
+
 **Purpose**: Generates 10-day Bitcoin price forecasts
 
 **Features:**
+
 - Local fine-tuned forecasting model
 - Incorporates analysis data and market conditions
 - Detailed 10-day price predictions with confidence intervals
@@ -108,9 +117,11 @@ The core system consists of 4 specialized agents orchestrated by a central coord
 **Output:** 10-day price forecast array with scenario analysis
 
 ### 4. 💰 RecommendationAgent
+
 **Purpose**: Creates comprehensive investment advisory
 
 **Features:**
+
 - Local fine-tuned advisory model
 - Combines all previous analysis and forecasts
 - Institutional-grade investment recommendations
@@ -119,9 +130,11 @@ The core system consists of 4 specialized agents orchestrated by a central coord
 **Output:** Complete investment advisory with tactical positions and risk management
 
 ### 🎯 PipelineOrchestrator
+
 **Purpose**: Coordinates all agents in sequence
 
 **Features:**
+
 - Manages agent initialization and data flow
 - Comprehensive error handling and recovery
 - Results persistence to JSON format
@@ -136,21 +149,25 @@ Enhanced conversational capabilities for superior user interaction:
 ### 🎯 Key Features
 
 #### Conversational Memory
+
 - Remembers previous interactions and context
 - Maintains conversation history across sessions
 - Provides personalized, context-aware responses
 
 #### Tool-Based Architecture
+
 - Each agent becomes a specialized tool
 - Modular, reusable components
 - Clear separation of concerns
 
 #### Natural Language Interface
+
 - Chat naturally with your Bitcoin advisor
 - Ask questions in plain English
 - Get contextual, conversational responses
 
 #### Streaming Responses
+
 - Real-time output generation
 - Immediate feedback during processing
 - Better user experience
@@ -165,11 +182,13 @@ Enhanced conversational capabilities for superior user interaction:
 ### 💡 Usage Modes
 
 #### Interactive Mode (Recommended)
+
 ```bash
 python langchain_bitcoin_advisor.py --mode interactive
 ```
 
 #### Automated Mode
+
 ```bash
 python langchain_bitcoin_advisor.py --mode automated --date 2025-09-17
 ```
@@ -183,6 +202,7 @@ Experience the full system through our comprehensive interactive notebook:
 ### 📁 `agent_notebook_demo.ipynb`
 
 **11 Complete Sections:**
+
 1. **Environment Setup** - Automated dependency installation
 2. **Configuration** - API key setup and parameter configuration
 3. **Advisor Initialization** - Loading the conversational AI agent
@@ -210,6 +230,7 @@ code agent_notebook_demo.ipynb
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
+
 - Python 3.8+
 - pip package manager
 - Git (for cloning repositories)
@@ -238,6 +259,7 @@ python -c "import langchain_bitcoin_advisor; print('✅ Installation successful!
 ### 📦 Dependencies
 
 **Core Dependencies:**
+
 ```txt
 langchain>=0.1.0
 langchain-core>=0.1.0
@@ -256,6 +278,7 @@ google-generativeai>=0.3.0
 ```
 
 **Optional Dependencies:**
+
 ```txt
 transformers>=4.21.0
 torch>=1.12.0
@@ -315,10 +338,12 @@ export GEMINI_API_KEY="your-gemini-key"
 ### Model Configuration
 
 **Local Models (Recommended for Privacy):**
+
 - Use Hugging Face models for analysis, forecast, and advisory
 - Configure paths in `config.json`
 
 **API Models (Faster but Requires Keys):**
+
 - OpenAI GPT models for advisory generation
 - Google Gemini for news summarization
 - Automatic fallbacks if local models unavailable
@@ -414,6 +439,7 @@ agents/
 ## 📊 Data Structures
 
 ### NewsArticle Structure
+
 ```python
 {
   "title": str,
@@ -427,6 +453,7 @@ agents/
 ```
 
 ### Analysis Results
+
 ```python
 {
   "bullish_ratio": float,   # 0-1 scale
@@ -444,6 +471,7 @@ agents/
 ```
 
 ### Forecast Results
+
 ```python
 {
   "current_price": float,
@@ -455,6 +483,7 @@ agents/
 ```
 
 ### Investment Advisory
+
 ```python
 {
   "executive_summary": str,
@@ -500,13 +529,13 @@ agents/
 
 ### Fallback Logic
 
-| Component | Failure Condition | Fallback Behavior |
-|-----------|------------------|-------------------|
-| News Scraping | Network error | Placeholder content |
-| AI Summarization | API unavailable | Deterministic mock summaries |
-| Effects Model | HTTP error | Static probability template |
-| Forecast Model | Endpoint down | Trend-biased random walk |
-| Advisory Gen | Parse failure | Simple summary variant |
+| Component        | Failure Condition | Fallback Behavior            |
+| ---------------- | ----------------- | ---------------------------- |
+| News Scraping    | Network error     | Placeholder content          |
+| AI Summarization | API unavailable   | Deterministic mock summaries |
+| Effects Model    | HTTP error        | Static probability template  |
+| Forecast Model   | Endpoint down     | Trend-biased random walk     |
+| Advisory Gen     | Parse failure     | Simple summary variant       |
 
 ---
 
@@ -517,16 +546,19 @@ agents/
 The system is designed to work even when components fail:
 
 #### Network Failures
+
 - **RSS Feed Issues**: Continues with available feeds
 - **API Timeouts**: Automatic retry with exponential backoff
 - **Content Scraping**: Fallback to title-only analysis
 
 #### Model Failures
+
 - **Local Models Unavailable**: Falls back to API models
 - **API Quota Exceeded**: Switches to alternative providers
 - **Inference Errors**: Uses pre-computed baseline predictions
 
 #### Data Issues
+
 - **Missing Price Data**: Uses cached historical data
 - **Corrupted News**: Skips problematic articles
 - **Invalid Dates**: Defaults to current date
@@ -638,6 +670,7 @@ docker run -p 8000:8000 bitcoin-advisor
 #### Cloud Deployment Options
 
 **AWS Lambda:**
+
 ```python
 # serverless.yml
 service: bitcoin-advisor
@@ -652,28 +685,30 @@ functions:
 ```
 
 **Google Cloud Functions:**
+
 ```python
 def advisor_http(request):
     """HTTP Cloud Function for Bitcoin Advisor."""
     from langchain_bitcoin_advisor import BitcoinLangChainOrchestrator
-    
+
     advisor = BitcoinLangChainOrchestrator()
     query = request.args.get('query', 'What is the current Bitcoin price?')
-    
+
     response = advisor.agent_executor.invoke({"input": query})
     return jsonify({"response": response["output"]})
 ```
 
 **Azure Functions:**
+
 ```python
 import azure.functions as func
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     from langchain_bitcoin_advisor import BitcoinLangChainOrchestrator
-    
+
     advisor = BitcoinLangChainOrchestrator()
     query = req.params.get('query', 'Bitcoin analysis')
-    
+
     response = advisor.agent_executor.invoke({"input": query})
     return func.HttpResponse(response["output"])
 ```
@@ -700,19 +735,19 @@ from langchain_bitcoin_advisor import BitcoinLangChainOrchestrator
 
 def benchmark_advisor():
     advisor = BitcoinLangChainOrchestrator()
-    
+
     queries = [
         "What's the current Bitcoin price?",
         "Analyze recent market trends",
         "Give me a 10-day price forecast",
         "What investment advice do you have?"
     ]
-    
+
     for query in queries:
         start_time = time.time()
         response = advisor.agent_executor.invoke({"input": query})
         elapsed = time.time() - start_time
-        
+
         print(f"Query: {query[:50]}...")
         print(f"Response time: {elapsed:.2f}s")
         print(f"Response length: {len(response['output'])} chars")
@@ -724,6 +759,7 @@ benchmark_advisor()
 ### Optimization Strategies
 
 #### Memory Optimization
+
 ```python
 # Configure memory limits
 config = {
@@ -736,6 +772,7 @@ config = {
 ```
 
 #### Parallel Processing
+
 ```python
 import concurrent.futures
 
@@ -748,6 +785,7 @@ def parallel_news_collection(sources):
 ```
 
 #### Caching Strategy
+
 ```python
 from functools import lru_cache
 import pickle
@@ -756,32 +794,32 @@ import pickle
 def cached_price_forecast(date, analysis_data):
     """Cache forecast results to avoid redundant computation."""
     cache_key = f"{date}_{hash(str(analysis_data))}"
-    
+
     # Check cache
     if os.path.exists(f"cache/{cache_key}.pkl"):
         with open(f"cache/{cache_key}.pkl", 'rb') as f:
             return pickle.load(f)
-    
+
     # Compute forecast
     forecast = generate_forecast(analysis_data)
-    
+
     # Save to cache
     os.makedirs("cache", exist_ok=True)
     with open(f"cache/{cache_key}.pkl", 'wb') as f:
         pickle.dump(forecast, f)
-    
+
     return forecast
 ```
 
 ### Performance Metrics
 
-| Component | Target Time | Current Performance |
-|-----------|-------------|-------------------|
-| News Collection | < 30s | ~15-25s |
-| Analysis | < 10s | ~5-8s |
-| Forecasting | < 15s | ~8-12s |
-| Advisory Generation | < 20s | ~10-15s |
-| **Total Pipeline** | < 60s | **~40-50s** |
+| Component           | Target Time | Current Performance |
+| ------------------- | ----------- | ------------------- |
+| News Collection     | < 30s       | ~15-25s             |
+| Analysis            | < 10s       | ~5-8s               |
+| Forecasting         | < 15s       | ~8-12s              |
+| Advisory Generation | < 20s       | ~10-15s             |
+| **Total Pipeline**  | < 60s       | **~40-50s**         |
 
 ---
 
@@ -790,21 +828,25 @@ def cached_price_forecast(date, analysis_data):
 ### Planned Features
 
 #### 🤖 Advanced AI Integration
+
 - **Custom Fine-tuned Models**: Train specialized models for Bitcoin analysis
 - **Multi-modal Analysis**: Incorporate charts, technical indicators, on-chain metrics
 - **Sentiment Analysis**: Advanced NLP for news and social media sentiment
 
 #### 📊 Enhanced Analytics
+
 - **Portfolio Optimization**: Multi-asset portfolio recommendations
 - **Risk Management**: Advanced risk metrics and position sizing
 - **Backtesting**: Historical performance analysis and strategy validation
 
 #### 🔗 API & Integrations
+
 - **Real-time Data**: WebSocket connections for live price feeds
 - **Exchange Integration**: Direct trading API connections
 - **Notification System**: Email/SMS alerts for important market events
 
 #### 🎨 User Experience
+
 - **Web Dashboard**: Interactive web interface with charts and analytics
 - **Mobile App**: iOS/Android applications for on-the-go analysis
 - **Voice Interface**: Natural language voice commands and responses
@@ -812,16 +854,19 @@ def cached_price_forecast(date, analysis_data):
 ### Research Directions
 
 #### Machine Learning Enhancements
+
 - **Reinforcement Learning**: Optimize trading strategies through RL
 - **Ensemble Methods**: Combine multiple forecasting models
 - **Transfer Learning**: Apply models trained on other assets to Bitcoin
 
 #### Alternative Data Sources
+
 - **Social Media Analysis**: Twitter, Reddit, Telegram sentiment
 - **On-chain Analytics**: Transaction volume, wallet activity, mining data
 - **Traditional Finance**: Correlation with stocks, bonds, commodities
 
 #### Advanced Forecasting
+
 - **Neural Networks**: LSTM, Transformer, GAN-based forecasting
 - **Bayesian Methods**: Probabilistic forecasting with uncertainty quantification
 - **Quantum Computing**: Quantum algorithms for portfolio optimization
@@ -835,12 +880,14 @@ def cached_price_forecast(date, analysis_data):
 #### Installation Problems
 
 **Issue:** `ModuleNotFoundError` for LangChain
+
 ```bash
 # Solution: Install with specific versions
 pip install langchain==0.1.0 langchain-core==0.1.0 langchain-openai==0.0.8
 ```
 
 **Issue:** API Key Configuration
+
 ```bash
 # Solution: Set environment variables
 export OPENAI_API_KEY="your-key-here"
@@ -850,6 +897,7 @@ export GEMINI_API_KEY="your-key-here"
 #### Runtime Issues
 
 **Issue:** Pipeline fails with network errors
+
 ```python
 # Solution: Configure timeouts and retries
 config = {
@@ -862,6 +910,7 @@ config = {
 ```
 
 **Issue:** Memory usage too high
+
 ```python
 # Solution: Reduce memory window and enable caching
 config = {
@@ -876,6 +925,7 @@ config = {
 #### Model & API Issues
 
 **Issue:** Local models not working
+
 ```python
 # Solution: Check model paths and dependencies
 from transformers import pipeline
@@ -889,6 +939,7 @@ except Exception as e:
 ```
 
 **Issue:** API quota exceeded
+
 ```python
 # Solution: Implement key rotation
 config = {
@@ -902,6 +953,7 @@ config = {
 ### Getting Help
 
 #### Debug Mode
+
 ```bash
 # Run with detailed logging
 python langchain_bitcoin_advisor.py --debug --log-level DEBUG --verbose
@@ -911,6 +963,7 @@ tail -f bitcoin_advisor.log
 ```
 
 #### Health Check
+
 ```python
 # Run system health check
 from langchain_bitcoin_advisor import BitcoinLangChainOrchestrator
@@ -923,21 +976,22 @@ for component, status in health_status.items():
 ```
 
 #### Performance Profiling
+
 ```python
 import cProfile
 import pstats
 
 def profile_advisor():
     advisor = BitcoinLangChainOrchestrator()
-    
+
     profiler = cProfile.Profile()
     profiler.enable()
-    
+
     # Run analysis
     response = advisor.agent_executor.invoke({"input": "Analyze Bitcoin market"})
-    
+
     profiler.disable()
-    
+
     # Print profiling results
     stats = pstats.Stats(profiler)
     stats.sort_stats('cumulative').print_stats(20)
@@ -958,17 +1012,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📚 Additional Resources
 
 ### Documentation
+
 - [LangChain Documentation](https://python.langchain.com/)
 - [OpenAI API Reference](https://platform.openai.com/docs)
 - [Google Gemini API](https://ai.google.dev/docs)
 - [Yahoo Finance API](https://pypi.org/project/yfinance/)
 
 ### Related Projects
+
 - [Bitcoin Price Prediction Models](https://github.com/topics/bitcoin-price-prediction)
 - [Cryptocurrency Analysis Tools](https://github.com/topics/crypto-analysis)
 - [LangChain Examples](https://github.com/langchain-ai/langchain/tree/master/examples)
 
 ### Research Papers
+
 - [Deep Learning for Cryptocurrency Price Prediction](https://arxiv.org/abs/2007.03333)
 - [Sentiment Analysis in Financial Markets](https://arxiv.org/abs/2106.12087)
 - [Multi-Agent Systems in Finance](https://arxiv.org/abs/2201.04204)
@@ -981,7 +1038,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 jupyter notebook agent_notebook_demo.ipynb
 ```
 
-*Last updated: September 17, 2025*
+_Last updated: September 17, 2025_
 
 ---
 

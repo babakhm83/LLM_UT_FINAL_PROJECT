@@ -26,15 +26,13 @@ def create_sample_config():
     config = {
         "api_keys": {
             "gemini": "AIzaSyCj2Km9Agz40pVF1ZvXgDNNrhBvGfFxQ3w",  # Replace with your key
-            "openai": os.environ.get("OPENAI_API_KEY", ""),
-            "openai_base_url": os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1"),
         },
         "models": {
             "summarization_model": "gemini-1.5-flash",
             "analysis_model_path": "../main_models/my-awesome-model_final_bitcoin-individual-news-dataset/checkpoint-400",
             "forecast_model_path": "../main_models/qwen_bitcoin_chat_fast_more_longer_explanation_v2/checkpoint-612",
             "advisory_model_path": "../main_models/my-awesome-model_final_bitcoin-investment-advisory-dataset_v2/checkpoint-400",
-            "advisory_model": "gpt-4o"
+            "advisory_model": "gemini-1.5-flash"
         },
         "news": {
             "max_articles": 3,  # Reduced for testing

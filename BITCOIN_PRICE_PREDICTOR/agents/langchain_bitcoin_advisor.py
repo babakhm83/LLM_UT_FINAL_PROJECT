@@ -27,12 +27,11 @@ from dataclasses import dataclass, asdict
 
 # LangChain imports
 try:
-    from langchain.agents import AgentExecutor, create_openai_tools_agent, create_react_agent
+    from langchain.agents import AgentExecutor, create_react_agent
     from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
     from langchain_core.tools import BaseTool, tool
     from langchain_core.messages import BaseMessage, HumanMessage, AIMessage, SystemMessage
     from langchain.memory import ConversationBufferWindowMemory
-    from langchain_openai import ChatOpenAI
     from langchain_google_genai import ChatGoogleGenerativeAI
     from langchain_core.output_parsers import JsonOutputParser
     from langchain_core.pydantic_v1 import BaseModel, Field
@@ -40,7 +39,7 @@ try:
     LANGCHAIN_AVAILABLE = True
 except ImportError:
     LANGCHAIN_AVAILABLE = False
-    print("LangChain not available. Install with: pip install langchain langchain-openai langchain-google-genai")
+    print("LangChain not available. Install with: pip install langchain langchain-google-genai")
 
 # Import existing agents
 try:
@@ -87,11 +86,12 @@ class NewsCollectionTool(BaseTool):
 
     name: str = "collect_bitcoin_news"
     description: str = "Collect and categorize Bitcoin-related news from RSS feeds. Returns structured news data with short-term and long-term impact analysis."
+    config: Dict[str, Any] = Field(default_factory=dict)
+    news_agent: Any = Field(default=None)
 
     def __init__(self, config: Dict[str, Any]):
-        super().__init__()
-        self.config = config
-        self.news_agent = NewsAgent(config)
+        # Pass agent into BaseTool initializer so Pydantic registers the field
+        super().__init__(config=config, news_agent=NewsAgent(config))
 
     def _run(self, target_date: Optional[str] = None) -> str:
         """Run news collection"""
@@ -122,11 +122,12 @@ class NewsAnalysisTool(BaseTool):
 
     name: str = "analyze_news_effects"
     description: str = "Analyze the effects of news on Bitcoin prices using trained models. Takes news data and returns probability distributions and market sentiment."
+    config: Dict[str, Any] = Field(default_factory=dict)
+    analysis_agent: Any = Field(default=None)
 
     def __init__(self, config: Dict[str, Any]):
-        super().__init__()
-        self.config = config
-        self.analysis_agent = AnalysisAgent(config)
+        # Pass agent into BaseTool initializer so Pydantic registers the field
+        super().__init__(config=config, analysis_agent=AnalysisAgent(config))
 
     def _run(self, news_data_json: str) -> str:
         """Run news analysis"""
@@ -156,11 +157,12 @@ class PriceForecastTool(BaseTool):
 
     name: str = "forecast_bitcoin_prices"
     description: str = "Forecast Bitcoin prices for the next 10 days based on news analysis. Returns detailed price predictions with confidence intervals."
+    config: Dict[str, Any] = Field(default_factory=dict)
+    forecast_agent: Any = Field(default=None)
 
     def __init__(self, config: Dict[str, Any]):
-        super().__init__()
-        self.config = config
-        self.forecast_agent = ForecastAgent(config)
+        # Pass agent into BaseTool initializer so Pydantic registers the field
+        super().__init__(config=config, forecast_agent=ForecastAgent(config))
 
     def _run(self, analysis_data_json: str) -> str:
         """Run price forecasting"""
@@ -190,11 +192,12 @@ class InvestmentAdvisoryTool(BaseTool):
 
     name: str = "generate_investment_advisory"
     description: str = "Generate comprehensive investment advisory based on complete analysis. Returns detailed investment recommendations with risk assessment."
+    config: Dict[str, Any] = Field(default_factory=dict)
+    recommendation_agent: Any = Field(default=None)
 
     def __init__(self, config: Dict[str, Any]):
-        super().__init__()
-        self.config = config
-        self.recommendation_agent = RecommendationAgent(config)
+        # Pass agent into BaseTool initializer so Pydantic registers the field
+        super().__init__(config=config, recommendation_agent=RecommendationAgent(config))
 
     def _run(self, complete_data_json: str) -> str:
         """Run investment advisory generation"""
@@ -257,10 +260,10 @@ class BitcoinLangChainOrchestrator:
 
         # Initialize tools
         self.tools = [
-            NewsCollectionTool(self.config),
-            NewsAnalysisTool(self.config),
-            PriceForecastTool(self.config),
-            InvestmentAdvisoryTool(self.config)
+            NewsCollectionTool(config=self.config),
+            NewsAnalysisTool(config=self.config),
+            PriceForecastTool(config=self.config),
+            InvestmentAdvisoryTool(config=self.config)
         ]
 
         # Initialize LLM
@@ -291,22 +294,7 @@ class BitcoinLangChainOrchestrator:
         return d
 
     def _initialize_llm(self):
-        """Initialize the appropriate LLM based on configuration"""
-        # Try OpenAI first
-        openai_key = self.config["api_keys"].get("openai")
-        if openai_key:
-            try:
-                return ChatOpenAI(
-                    model=self.config.get("models", {}).get("advisory_model", "gpt-4o"),
-                    api_key=openai_key,
-                    temperature=0.1,
-                    streaming=True,
-                    callbacks=[StreamingStdOutCallbackHandler()]
-                )
-            except Exception as e:
-                logger.warning(f"Failed to initialize OpenAI: {e}")
-
-        # Fallback to Gemini
+        """Initialize Gemini LLM"""
         gemini_key = self.config["api_keys"].get("gemini")
         if gemini_key:
             try:
@@ -319,55 +307,107 @@ class BitcoinLangChainOrchestrator:
                 )
             except Exception as e:
                 logger.warning(f"Failed to initialize Gemini: {e}")
+                raise ValueError(f"Gemini initialization failed: {e}")
 
-        raise ValueError("No valid LLM configuration found. Please check your API keys.")
+        raise ValueError("Gemini API key not found. Please check your configuration.")
 
     def _create_agent(self):
         """Create the LangChain agent with tools"""
-        system_prompt = """You are an expert Bitcoin investment advisor with access to specialized tools for comprehensive market analysis.
+        # Ensure tools are initialized
+        if not self.tools:
+            raise ValueError("No tools initialized. Ensure tools are properly configured.")
 
-Your capabilities:
-1. **News Collection**: Gather and categorize Bitcoin news from multiple sources
-2. **News Analysis**: Analyze market impact and sentiment from news data
-3. **Price Forecasting**: Generate 10-day Bitcoin price predictions
-4. **Investment Advisory**: Create detailed investment recommendations
+        # Construct tool names for logging and debugging
+        try:
+            tool_names = ", ".join([t.name for t in self.tools])
+            logger.info(f"Creating agent with tools: {tool_names}")
+        except Exception as e:
+            logger.error(f"Error constructing tool names: {e}")
+            raise ValueError("Failed to construct tool names for the system prompt.")
 
-WORKFLOW:
-1. Start by collecting the latest Bitcoin news
-2. Analyze the effects of that news on market sentiment
-3. Generate price forecasts based on the analysis
-4. Provide comprehensive investment advisory
+        # Define the system prompt and pre-format with tool names so there are no unresolved template variables
+        system_prompt = f"""You are an expert Bitcoin investment advisor with access to specialized tools for comprehensive market analysis.
 
-Always use the tools in sequence and provide clear explanations of your reasoning.
-Be thorough but concise in your responses.
-If any tool fails, explain the issue and provide alternative analysis.
+        Your capabilities:
+        1. **News Collection**: Gather and categorize Bitcoin news from multiple sources
+        2. **News Analysis**: Analyze market impact and sentiment from news data
+        3. **Price Forecasting**: Generate 10-day Bitcoin price predictions
+        4. **Investment Advisory**: Create detailed investment recommendations
 
-Available tools: {tool_names}"""
+        WORKFLOW:
+        1. Start by collecting the latest Bitcoin news
+        2. Analyze the effects of that news on market sentiment
+        3. Generate price forecasts based on the analysis
+        4. Provide comprehensive investment advisory
 
+        Always use the tools in sequence and provide clear explanations of your reasoning.
+        Be thorough but concise in your responses.
+        If any tool fails, explain the issue and provide alternative analysis.
+
+        Available tools: {tool_names}"""
+
+        # Pre-format the system prompt to inject tool names so ChatPromptTemplate has no required external vars
+        formatted_system_prompt = system_prompt.format(tool_names=tool_names)
+
+        # Ensure agent_scratchpad is initialized as a list of BaseMessage objects
+        agent_scratchpad: List[BaseMessage] = []
+
+        # Build prompt and partially apply required variables so the prompt doesn't expose unresolved template vars
         prompt = ChatPromptTemplate.from_messages([
-            ("system", system_prompt),
+            ("system", formatted_system_prompt),
             MessagesPlaceholder(variable_name="chat_history"),
             ("human", "{input}"),
             MessagesPlaceholder(variable_name="agent_scratchpad"),
-        ])
-
-        # Create agent
-        agent = create_openai_tools_agent(
-            llm=self.llm,
+        ]).partial(
             tools=self.tools,
-            prompt=prompt
+            tool_names=tool_names,
+            agent_scratchpad=agent_scratchpad,
         )
+
+        # Create agent using the explicit prompt to satisfy the API contract.
+        try:
+            agent = create_react_agent(
+                llm=self.llm,
+                tools=self.tools,
+                prompt=prompt,
+            )
+        except ValueError as e:
+            # Some LangChain versions validate prompt input variables differently and may
+            # raise a ValueError about missing 'tool_names' or 'tools'. Try a safe fallback.
+            msg = str(e)
+            logger.warning(f"create_react_agent with custom prompt failed: {msg}")
+            if "tool_names" in msg or "tools" in msg:
+                logger.info("Falling back to create_react_agent without custom prompt to accommodate LangChain variant.")
+                try:
+                    # In this fallback we call create_react_agent without prompt; let LangChain build a default prompt
+                    agent = create_react_agent(
+                        llm=self.llm,
+                        tools=self.tools,
+                    )
+                except Exception as e2:
+                    logger.error(f"Fallback create_react_agent also failed: {e2}")
+                    raise ValueError(f"Failed to create LangChain agent (fallback also failed): {e2}")
+            else:
+                logger.error(f"Error creating LangChain agent: {e}")
+                raise ValueError("Failed to create LangChain agent.")
+        except Exception as e:
+            logger.error(f"Error creating LangChain agent: {e}")
+            raise ValueError("Failed to create LangChain agent.")
 
         # Create executor
-        return AgentExecutor(
-            agent=agent,
-            tools=self.tools,
-            memory=self.memory,
-            verbose=True,
-            handle_parsing_errors=True,
-            max_iterations=10,
-            max_execution_time=300,  # 5 minutes timeout
-        )
+        try:
+            return AgentExecutor(
+                agent=agent,
+                tools=self.tools,
+                memory=self.memory,
+                verbose=True,
+                handle_parsing_errors=True,
+                max_iterations=10,
+                max_execution_time=300,  # 5 minutes timeout
+            )
+        except Exception as e:
+            logger.error(f"Error creating AgentExecutor: {e}")
+            raise ValueError("Failed to create AgentExecutor.")
 
     def run_interactive_session(self):
         """Run an interactive session with the user"""
@@ -531,7 +571,7 @@ def main():
 
     if not LANGCHAIN_AVAILABLE:
         print("❌ LangChain is required but not installed.")
-        print("Install with: pip install langchain langchain-openai langchain-google-genai")
+        print("Install with: pip install langchain langchain-google-genai")
         sys.exit(1)
 
     if args.mode == 'interactive':

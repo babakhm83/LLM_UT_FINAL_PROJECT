@@ -70,13 +70,6 @@ except ImportError as e:
 
 # Try to import optional packages
 try:
-    import openai
-    OPENAI_AVAILABLE = True
-except ImportError:
-    OPENAI_AVAILABLE = False
-    print("OpenAI package not available. Install with: pip install openai")
-
-try:
     import google.generativeai as genai
     GEMINI_AVAILABLE = True
 except ImportError:
@@ -97,8 +90,6 @@ except ImportError:
 DEFAULT_CONFIG = {
     "api_keys": {
         "gemini": "AIzaSyCj2Km9Agz40pVF1ZvXgDNNrhBvGfFxQ3w",
-        "openai": os.environ.get("OPENAI_API_KEY", ""),
-        "openai_base_url": os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1"),
     },
     "models": {
         "summarization_model": "gemini-1.5-flash",
@@ -224,22 +215,11 @@ class BitcoinPipelineAgent:
             logger.warning("No Gemini API keys provided!")
         
         # Initialize OpenAI client if API key is provided
-        self.openai_api_key = self.config["api_keys"]["openai"]
-        if self.openai_api_key and OPENAI_AVAILABLE:
-            try:
-                self.openai_client = openai.OpenAI(
-                    api_key=self.openai_api_key,
-                    base_url=self.config["api_keys"]["openai_base_url"]
-                )
-                logger.info("OpenAI client initialized successfully")
-            except Exception as e:
-                logger.error(f"Error initializing OpenAI client: {e}")
-                self.openai_client = None
-        elif self.openai_api_key:
-            logger.warning("OpenAI API key provided but openai package not installed")
+        self.openai_api_key = self.config["api_keys"].get("openai")
+        if self.openai_api_key:
+            logger.warning("OpenAI API key provided but OpenAI support has been removed. Using Gemini only.")
             self.openai_client = None
         else:
-            logger.warning("No OpenAI API key provided!")
             self.openai_client = None
         
         # Initialize local models if transformers is available
@@ -896,30 +876,36 @@ class BitcoinPipelineAgent:
                 logger.error(f"Error generating investment advisory with local model: {e}")
                 # Fall back to OpenAI or simple advisory
         
-        # Fall back to OpenAI if available
-        if self.openai_client:
+        # Fall back to Gemini if available
+        if self.gemini_api_keys:
             try:
                 # Use the investment advisor prompt creation logic
                 prompt = self._create_investment_advisory_prompt(complete_analysis)
-                
-                # Call OpenAI API
-                response = self.openai_client.chat.completions.create(
-                    model=self.config["models"].get("advisory_model", "gpt-4o"),
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.7,
-                    max_tokens=1500,
-                    timeout=60,
+
+                # Configure Gemini API
+                api_key = self._get_next_gemini_key()
+                genai.configure(api_key=api_key)
+                model = genai.GenerativeModel("gemini-1.5-flash")
+
+                # Call Gemini API
+                response = model.generate_content(
+                    prompt,
+                    generation_config={
+                        "temperature": 0.7,
+                        "top_p": 0.9,
+                        "max_output_tokens": 4096,
+                    }
                 )
-                
-                advisory = response.choices[0].message.content.strip()
-                logger.info(f"Successfully generated investment advisory with OpenAI ({len(advisory)} chars)")
+
+                advisory = response.text.strip()
+                logger.info(f"Successfully generated investment advisory with Gemini ({len(advisory)} chars)")
                 return advisory
-                
+
             except Exception as e:
-                logger.error(f"Error generating investment advisory: {e}")
+                logger.error(f"Error generating investment advisory with Gemini: {e}")
                 return self._create_simple_advisory(complete_analysis)
         else:
-            logger.info("OpenAI client not available, using simple advisory")
+            logger.info("Gemini API not available, using simple advisory")
             return self._create_simple_advisory(complete_analysis)
     
     def _create_investment_advisory_prompt(self, daily_data: Dict[str, Any]) -> str:

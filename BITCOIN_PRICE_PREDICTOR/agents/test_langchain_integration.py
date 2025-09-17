@@ -23,7 +23,7 @@ def test_langchain_integration():
         import langchain
         print("✅ LangChain is available")
     except ImportError:
-        print("❌ LangChain not installed. Install with: pip install langchain langchain-openai langchain-google-genai")
+        print("❌ LangChain not installed. Install with: pip install langchain langchain-google-genai")
         return False
 
     # Check if our main module exists
@@ -37,14 +37,13 @@ def test_langchain_integration():
     # Create sample configuration
     sample_config = {
         "api_keys": {
-            "openai": os.getenv("OPENAI_API_KEY", "your-openai-key-here"),
             "gemini": os.getenv("GEMINI_API_KEY", "your-gemini-key-here")
         },
         "models": {
             "news_model": "gemini-1.5-flash",
             "analysis_model": "microsoft/DialoGPT-medium",
             "forecast_model": "microsoft/DialoGPT-medium",
-            "advisory_model": "gpt-4o"
+            "advisory_model": "gemini-1.5-flash"
         },
         "output_dir": "outputs/langchain_test"
     }
