@@ -39,7 +39,6 @@ try:
         validate_summary_payload,
     )
 except Exception:
-    # Fallback to relative import when executed as script
     try:
         from prompt_templates import (
             summarization_prompt,
@@ -47,7 +46,7 @@ except Exception:
             advisory_narrative_prompt,
             validate_summary_payload,
         )
-    except Exception as e:  # pragma: no cover
+    except Exception as e:
         print(f"Warning: prompt_templates import failed: {e}")
         summarization_prompt = advisory_json_prompt = advisory_narrative_prompt = None
         def validate_summary_payload(x):
@@ -68,7 +67,6 @@ except ImportError as e:
     print("Please install the required packages using: pip install -r requirements.txt")
     sys.exit(1)
 
-# Try to import optional packages
 try:
     import google.generativeai as genai
     GEMINI_AVAILABLE = True
