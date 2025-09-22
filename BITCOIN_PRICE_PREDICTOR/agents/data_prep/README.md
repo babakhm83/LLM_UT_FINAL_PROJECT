@@ -24,6 +24,7 @@ python agents/data_prep/format_datasets.py --mode forecast --input forecast_raw.
 ```
 
 Assumptions:
+
 - Input is JSONL with each line a JSON object representing a single example.
 - For best results, include explicit `output` or `label` fields when available.
 

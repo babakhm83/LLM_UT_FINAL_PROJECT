@@ -5,6 +5,7 @@ This module contains all long model prompt strings, JSON spec, enums and the
 lightweight validator so they are easier to maintain independently from the
 rest of the small helper utilities.
 """
+
 from __future__ import annotations
 import json
 from typing import Dict, Any, List
@@ -162,4 +163,40 @@ __all__ = [
     "advisory_json_prompt",
     "advisory_narrative_prompt",
     "validate_summary_payload",
+    # dataset-specific instruction builders
+    "advisory_instruction",
+    "individual_news_instruction",
+    "forecast_instruction",
 ]
+
+
+def advisory_instruction() -> str:
+    """Return the canonical instruction used for the `bitcoin-investment-advisory-dataset`.
+
+    Matches the example instruction provided by the user.
+    """
+    return "You are an elite institutional Bitcoin investment advisor. Provide comprehensive investment advisory based on the given market intelligence."
+
+
+def individual_news_instruction() -> str:
+    """Return the instruction used for `bitcoin-individual-news-dataset`.
+
+    The instruction asks for a compact JSON with sentiment, price_direction, impact_strength, timeframe, confidence and key_reason.
+    """
+    return (
+        "Analyze Bitcoin news and predict price impact. Return JSON with this exact structure:\n"
+        '{\n"sentiment": "bullish|neutral|bearish",\n"price_direction": "up|sideways|down",\n"impact_strength": "high|medium|low",\n"timeframe": "immediate|short_term|medium_term",\n"confidence": 0.75,\n"key_reason": "Brief explanation of main factor"\n}\n'
+    )
+
+
+def forecast_instruction() -> str:
+    """Return the instruction used for the main forecasting dataset.
+
+    Matches the 'expert quantitative crypto analyst' instruction from the user's example.
+    """
+    return (
+        "You are an expert quantitative crypto analyst. Your tasks:\n"
+        "1) Analyze the context and decide an actionable stance for BTC-USD: BUY, SELL, or HOLD.\n"
+        "2) Forecast the NEXT 10 daily CLOSING prices (USD).\n\n"
+        'Return a single JSON object with EXACTLY these keys: {"action":"BUY|SELL|HOLD","confidence":<int 1-99>,"stop_loss":<price 2dp>,"take_profit":<price 2dp>,"forecast_10d":[<10 prices 2dp>]}.'
+    )

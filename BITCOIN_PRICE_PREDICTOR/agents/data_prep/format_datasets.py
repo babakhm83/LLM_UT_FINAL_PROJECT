@@ -11,6 +11,7 @@ the prompts/templates used for training:
 The script is intentionally minimal and works with local files (CSV/JSON/JSONL).
 It does not fetch remote datasets.
 """
+
 from __future__ import annotations
 import json
 import argparse
@@ -24,9 +25,7 @@ def format_advisory_row(row: Dict[str, Any]) -> Dict[str, Any]:
     Returns a JSON object suitable for supervised fine-tuning where `instruction`
     is the short instruction and `output` is the desired advisory text/JSON.
     """
-    instruction = (
-        "You are an elite institutional Bitcoin investment advisor. Provide comprehensive investment advisory based on the given market intelligence."
-    )
+    instruction = "You are an elite institutional Bitcoin investment advisor. Provide comprehensive investment advisory based on the given market intelligence."
     # Attempt to assemble a compact context from known fields
     context_parts = []
     for k in ("MARKET_DATA", "NEWS_ANALYSIS", "DAILY_MARKET_ANALYSIS"):
@@ -34,7 +33,11 @@ def format_advisory_row(row: Dict[str, Any]) -> Dict[str, Any]:
             context_parts.append(f"{k}: {row[k]}")
     context = "\n\n".join(context_parts) if context_parts else json.dumps(row)
 
-    return {"instruction": instruction, "input": context, "output": row.get("output", row.get("advisory", ""))}
+    return {
+        "instruction": instruction,
+        "input": context,
+        "output": row.get("output", row.get("advisory", "")),
+    }
 
 
 def format_individual_news_row(row: Dict[str, Any]) -> Dict[str, Any]:
@@ -44,12 +47,14 @@ def format_individual_news_row(row: Dict[str, Any]) -> Dict[str, Any]:
     """
     # Build input context
     title = row.get("title") or row.get("News Title") or row.get("news_title", "")
-    summary = row.get("summary") or row.get("News Summary") or row.get("news_summary", "")
+    summary = (
+        row.get("summary") or row.get("News Summary") or row.get("news_summary", "")
+    )
     market_context = row.get("Market Context") or row.get("market_context", "")
 
     instruction = (
         "Analyze Bitcoin news and predict price impact. Return JSON with this exact structure:\n"
-        "{\n\"sentiment\": \"bullish|neutral|bearish\",\n\"price_direction\": \"up|sideways|down\",\n\"impact_strength\": \"high|medium|low\",\n\"timeframe\": \"immediate|short_term|medium_term\",\n\"confidence\": 0.75,\n\"key_reason\": \"Brief explanation of main factor\"\n}\n"
+        '{\n"sentiment": "bullish|neutral|bearish",\n"price_direction": "up|sideways|down",\n"impact_strength": "high|medium|low",\n"timeframe": "immediate|short_term|medium_term",\n"confidence": 0.75,\n"key_reason": "Brief explanation of main factor"\n}\n'
     )
 
     input_text = f"News Title: {title}\n\nNews Summary: {summary}\n\nMarket Context: {market_context}"
@@ -65,11 +70,13 @@ def format_forecast_row(row: Dict[str, Any]) -> Dict[str, Any]:
 
     The target format is a JSON object with keys: action, confidence, stop_loss, take_profit, forecast_10d
     """
-    instruction = (
-        "You are an expert quantitative crypto analyst. Given the DAILY CONTEXT produce a JSON with keys: action,confidence,stop_loss,take_profit,forecast_10d"
-    )
+    instruction = "You are an expert quantitative crypto analyst. Given the DAILY CONTEXT produce a JSON with keys: action,confidence,stop_loss,take_profit,forecast_10d"
 
-    context = row.get("context") or row.get("Daily Context") or json.dumps(row.get("input", {}))
+    context = (
+        row.get("context")
+        or row.get("Daily Context")
+        or json.dumps(row.get("input", {}))
+    )
 
     output = row.get("output") or row.get("label") or ""
 
@@ -94,8 +101,12 @@ def write_jsonl(objs: List[Dict[str, Any]], path: str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Format datasets into model training JSONL")
-    parser.add_argument("--mode", choices=["advisory","news","forecast"], required=True)
+    parser = argparse.ArgumentParser(
+        description="Format datasets into model training JSONL"
+    )
+    parser.add_argument(
+        "--mode", choices=["advisory", "news", "forecast"], required=True
+    )
     parser.add_argument("--input", required=True, help="Path to input JSONL/JSON file")
     parser.add_argument("--output", required=True, help="Path to output JSONL file")
     args = parser.parse_args()
