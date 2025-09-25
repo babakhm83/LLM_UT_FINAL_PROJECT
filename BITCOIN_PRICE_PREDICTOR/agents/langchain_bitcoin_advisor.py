@@ -9,6 +9,7 @@ Features:
 - Structured output parsing
 - Enhanced error handling and retries
 - Interactive user experience
+- **Support for local, Unsloth-optimized models with LoRA adapters**
 """
 
 from __future__ import annotations
@@ -25,6 +26,7 @@ from typing import List, Dict, Any, Optional, Tuple, Union
 from dataclasses import dataclass, asdict
 
 
+# --- LangChain Core Imports ---
 try:
     from langchain.agents import AgentExecutor, create_react_agent
     from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
@@ -38,7 +40,7 @@ try:
     from langchain.memory import ConversationBufferWindowMemory
     from langchain_google_genai import ChatGoogleGenerativeAI
     from langchain_core.output_parsers import JsonOutputParser
-    from langchain_core.pydantic_v1 import BaseModel, Field
+    from langchain_core.pydantic_v1 import  Field
     from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
     LANGCHAIN_AVAILABLE = True
@@ -48,7 +50,23 @@ except ImportError:
         "LangChain not available. Install with: pip install langchain langchain-google-genai"
     )
 
+# --- Unsloth and Local Model Imports ---
+try:
+    import torch
+    from unsloth import FastLanguageModel
+    from transformers import TextStreamer, pipeline
+    from langchain_community.llms import HuggingFacePipeline
 
+    UNSLOTH_AVAILABLE = True
+except ImportError:
+    UNSLOTH_AVAILABLE = False
+    print(
+        "Unsloth or Transformers not available. To use local models, install with: "
+        "pip install 'unsloth[colab-new]' torch transformers accelerate bitsandbytes langchain-community"
+    )
+
+
+# --- Original Pipeline Agent Imports ---
 try:
     from multi_agent_pipeline import (
         NewsAgent,
@@ -65,6 +83,7 @@ except ImportError:
     sys.exit(1)
 
 
+# --- General Utility Imports ---
 try:
     import requests
     import feedparser
@@ -329,9 +348,62 @@ class BitcoinLangChainOrchestrator:
         return d
 
     def _initialize_llm(self):
-        """Initialize Gemini LLM"""
+        """
+        Initialize the LLM.
+
+        Prioritizes a local Unsloth model if configured, otherwise falls back to Gemini.
+        """
+        # --- 1. Try to load local model with Unsloth and adapter ---
+        if "unsloth_model_config" in self.config and UNSLOTH_AVAILABLE:
+            try:
+                cfg = self.config["unsloth_model_config"]
+                base_model_path = cfg.get("base_model_path")
+                adapter_path = cfg.get("adapter_path")
+                load_in_4bit = cfg.get("load_in_4bit", True)
+
+                if not base_model_path or not adapter_path:
+                    raise ValueError(
+                        "Config must provide 'base_model_path' and 'adapter_path' for Unsloth."
+                    )
+
+                logger.info(f"Initializing local model from: {base_model_path}")
+                logger.info(f"Applying LoRA adapter from: {adapter_path}")
+
+                model, tokenizer = FastLanguageModel.from_pretrained(
+                    model_name=base_model_path,
+                    max_seq_length=cfg.get("max_seq_length", 2048),
+                    dtype=None,  # Unsloth handles this
+                    load_in_4bit=load_in_4bit,
+                )
+                
+                # Apply the LoRA adapter
+                model.load_adapter(adapter_path)
+                logger.info("Successfully loaded adapter into the base model.")
+                
+                # Setup for text generation pipeline
+                streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
+                text_pipeline = pipeline(
+                    "text-generation",
+                    model=model,
+                    tokenizer=tokenizer,
+                    streamer=streamer,
+                    max_new_tokens=cfg.get("max_new_tokens", 512),
+                    temperature=cfg.get("temperature", 0.1),
+                    top_p=cfg.get("top_p", 0.95),
+                    do_sample=True,
+                )
+
+                # Wrap for LangChain compatibility
+                return HuggingFacePipeline(pipeline=text_pipeline)
+
+            except Exception as e:
+                logger.error(f"Failed to initialize Unsloth model: {e}")
+                logger.warning("Falling back to Gemini LLM if configured.")
+
+        # --- 2. Fallback to Gemini API ---
         gemini_key = self.config["api_keys"].get("gemini")
         if gemini_key:
+            logger.info("Initializing LLM with Google Gemini.")
             try:
                 return ChatGoogleGenerativeAI(
                     model="gemini-1.5-flash",
@@ -341,10 +413,12 @@ class BitcoinLangChainOrchestrator:
                     callbacks=[StreamingStdOutCallbackHandler()],
                 )
             except Exception as e:
-                logger.warning(f"Failed to initialize Gemini: {e}")
+                logger.error(f"Failed to initialize Gemini: {e}")
                 raise ValueError(f"Gemini initialization failed: {e}")
 
-        raise ValueError("Gemini API key not found. Please check your configuration.")
+        # --- 3. If no LLM could be configured ---
+        raise ValueError("No valid LLM configuration found. Please check your config.json for either 'unsloth_model_config' or 'gemini' API key.")
+
 
     def _create_agent(self):
         """Create the LangChain agent with tools"""
